@@ -2,6 +2,8 @@
 
 Static Zero Day Initiative advisory archive with daily data refresh, searchable UI, and agent-readable JSON/Markdown outputs.
 
+Live site: https://zdi-dashboard.pages.dev/
+
 ## Setup
 
 ```bash

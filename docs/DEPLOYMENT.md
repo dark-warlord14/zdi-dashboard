@@ -2,6 +2,8 @@
 
 This project is intended for Cloudflare Pages Git integration.
 
+Live site: https://zdi-dashboard.pages.dev/
+
 ## GitHub
 
 The repository is private. The production branch is `main`.
@@ -55,4 +57,3 @@ bash build.sh
 ```
 
 Open `http://127.0.0.1:8080/`.
-
