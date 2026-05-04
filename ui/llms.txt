@@ -9,4 +9,3 @@ Zero Day Initiative advisory archive with static data files for LLM and agent us
 - Upcoming: /data/upcoming.json
 - Stats: /data/stats.json
 - Advisory detail: /data/advisories/<zdi_id>/advisory.json
-- Advisory Markdown: /data/advisories/<zdi_id>/advisory.md

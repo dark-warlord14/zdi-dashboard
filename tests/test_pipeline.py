@@ -67,14 +67,12 @@ def test_write_public_data_creates_index_and_detail_files(tmp_path):
     published = json.loads((tmp_path / "published.json").read_text(encoding="utf-8"))
     upcoming = json.loads((tmp_path / "upcoming.json").read_text(encoding="utf-8"))
     detail_json = tmp_path / "advisories" / "ZDI-26-040" / "advisory.json"
-    detail_md = tmp_path / "advisories" / "ZDI-26-040" / "advisory.md"
 
     assert index[0]["id"] == "ZDI-26-040"
     assert index[0]["description_snippet"] == "Local attackers can escalate privileges."
+    assert "detail_markdown" not in index[0]
     assert index[1]["id"] == "ZDI-CAN-30796"
     assert published[0]["zdi_id"] == "ZDI-26-040"
     assert published[0]["description_snippet"] == "Local attackers can escalate privileges."
     assert upcoming[0]["zdi_can"] == "ZDI-CAN-30796"
     assert detail_json.exists()
-    assert detail_md.exists()
-    assert "Discord Client Privilege Escalation" in detail_md.read_text(encoding="utf-8")

@@ -11,7 +11,6 @@ from urllib.parse import urljoin
 import requests
 
 from zdi.config import BASE_URL, DATA_DIR, PUBLISHED_URL, UPCOMING_URL
-from zdi.markdown_gen import render_advisory_markdown
 from zdi.models import AdvisoryDetail, PublishedAdvisory, UpcomingAdvisory
 from zdi.parser import parse_advisory_detail, parse_published, parse_upcoming, parse_years
 from zdi.stats import build_stats
@@ -140,7 +139,6 @@ def index_entries(
         data["status"] = "published"
         data["description_snippet"] = description_snippet(details.get(record.zdi_id))
         data["detail_json"] = f"/data/advisories/{record.zdi_id}/advisory.json"
-        data["detail_markdown"] = f"/data/advisories/{record.zdi_id}/advisory.md"
         entries.append(data)
     for record in upcoming:
         data = record.model_dump()
@@ -165,7 +163,6 @@ def write_public_data(
         target = data_dir / "advisories" / zdi_id
         target.mkdir(parents=True, exist_ok=True)
         dump_json(target / "advisory.json", detail.model_dump())
-        (target / "advisory.md").write_text(render_advisory_markdown(detail), encoding="utf-8")
 
 
 def run(

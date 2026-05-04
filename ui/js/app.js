@@ -220,16 +220,13 @@ const App = {
     async showDetail(id) {
         const app = document.getElementById('app');
         app.innerHTML = '<p class="loading-initial">Loading advisory...</p>';
-        const [jsonRes, mdRes] = await Promise.all([
-            fetch(`/data/advisories/${id}/advisory.json`),
-            fetch(`/data/advisories/${id}/advisory.md`),
-        ]);
-        if (!jsonRes.ok || !mdRes.ok) {
+        const jsonRes = await fetch(`/data/advisories/${id}/advisory.json`);
+        if (!jsonRes.ok) {
             app.innerHTML = '<div class="panel">Advisory detail not found.</div>';
             return;
         }
         const detail = await jsonRes.json();
-        const markdown = await mdRes.text();
+        const markdown = this.detailMarkdown(detail);
         app.innerHTML = `
             <div class="detail-layout">
                 <article class="panel markdown">${this.md.render(markdown)}</article>
@@ -241,10 +238,40 @@ const App = {
                     ${this.meta('Vendor', (detail.affected_vendors || []).join(', '))}
                     <a class="outline" href="${detail.source_url}" target="_blank" rel="noopener">Source</a>
                     <a class="outline" href="/data/advisories/${id}/advisory.json">JSON</a>
-                    <a class="outline" href="/data/advisories/${id}/advisory.md">Markdown</a>
                 </aside>
             </div>
         `;
+    },
+
+    detailMarkdown(detail) {
+        const lines = [
+            `# ${detail.zdi_id}: ${detail.title}`,
+            '',
+            '## Metadata',
+            '',
+            `- **ZDI ID:** ${detail.zdi_id || 'N/A'}`,
+            `- **ZDI-CAN:** ${detail.zdi_can || 'N/A'}`,
+            `- **Date:** ${detail.advisory_date || 'N/A'}`,
+            `- **Updated:** ${detail.updated_date || 'N/A'}`,
+            `- **CVE:** ${detail.cve || 'N/A'}`,
+            `- **CVSS:** ${detail.cvss ?? 'N/A'}`,
+            `- **CVSS Vector:** ${detail.cvss_vector || 'N/A'}`,
+            `- **Affected Vendors:** ${(detail.affected_vendors || []).join(', ') || 'N/A'}`,
+            `- **Affected Products:** ${(detail.affected_products || []).join(', ') || 'N/A'}`,
+            `- **Credit:** ${detail.credit || 'N/A'}`,
+            `- **Source:** ${detail.source_url}`,
+            '',
+        ];
+        if (detail.vulnerability_details) {
+            lines.push('## Vulnerability Details', '', detail.vulnerability_details, '');
+        }
+        if (detail.additional_details) {
+            lines.push('## Additional Details', '', detail.additional_details, '');
+        }
+        if ((detail.disclosure_timeline || []).length) {
+            lines.push('## Disclosure Timeline', '', ...detail.disclosure_timeline.map(item => `- ${item}`), '');
+        }
+        return lines.join('\n');
     },
 
     meta(label, value) {

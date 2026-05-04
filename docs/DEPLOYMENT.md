@@ -41,7 +41,6 @@ The deployed site exposes:
 - `/data/upcoming.json`
 - `/data/stats.json`
 - `/data/advisories/<zdi_id>/advisory.json`
-- `/data/advisories/<zdi_id>/advisory.md`
 - `/skill.md`
 - `/schema.json`
 - `/llms.txt`
