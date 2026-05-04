@@ -1,0 +1,28 @@
+{
+  "additional_details": "Fixed in Firmware Version 2024.8",
+  "advisory_date": "2025-04-30",
+  "affected_products": [
+    "Model S"
+  ],
+  "affected_vendors": [
+    "Tesla"
+  ],
+  "credit": "Synacktiv (@Synacktiv)",
+  "cve": "CVE-2024-6032",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-6032",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2024-02-28 - Vulnerability reported to vendor",
+    "2025-04-30 - Coordinated public release of advisory",
+    "2025-04-30 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-264 ZDI-CAN-23201 (Pwn2Own) Tesla Model S Iris Modem ql_atfwd Command Injection Code Execution Vulnerability 2025-04-30 CVE-2024-6032 https://www.cve.org/CVERecord?id=CVE-2024-6032 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Tesla'] ['Model S'] This vulnerability allows local attackers to execute arbitrary code on affected Tesla Model S vehicles. An attacker must first obtain the ability to execute code on the target system in order to exploit this vulnerability. The specific flaw exists within the ql_atfwd process. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code on the target modem in the context of root. Fixed in Firmware Version 2024.8 ['2024-02-28 - Vulnerability reported to vendor', '2025-04-30 - Coordinated public release of advisory', '2025-04-30 - Advisory Updated'] Synacktiv (@Synacktiv) https://www.zerodayinitiative.com/advisories/ZDI-25-264/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-264/",
+  "title": "(Pwn2Own) Tesla Model S Iris Modem ql_atfwd Command Injection Code Execution Vulnerability",
+  "updated_date": "2025-04-30",
+  "vulnerability_details": "This vulnerability allows local attackers to execute arbitrary code on affected Tesla Model S vehicles. An attacker must first obtain the ability to execute code on the target system in order to exploit this vulnerability. The specific flaw exists within the ql_atfwd process. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code on the target modem in the context of root.",
+  "zdi_can": "ZDI-CAN-23201",
+  "zdi_id": "ZDI-25-264"
+}

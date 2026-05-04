@@ -1,0 +1,27 @@
+{
+  "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/incopy/apsb22-04.html",
+  "advisory_date": "2022-01-13",
+  "affected_products": [
+    "InCopy"
+  ],
+  "affected_vendors": [
+    "Adobe"
+  ],
+  "credit": "Mat Powell of Trend Micro Zero Day Initiative",
+  "cve": "CVE-2021-45054",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2021-45054",
+  "cvss": 3.3,
+  "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+  "disclosure_timeline": [
+    "2021-09-10 - Vulnerability reported to vendor",
+    "2022-01-13 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-071 ZDI-CAN-15151 Adobe InCopy JPEG2000 Parsing Use-After-Free Information Disclosure Vulnerability 2022-01-13 CVE-2021-45054 https://www.cve.org/CVERecord?id=CVE-2021-45054 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N ['Adobe'] ['InCopy'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of of Adobe InCopy. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of JPG2000 images. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/incopy/apsb22-04.html ['2021-09-10 - Vulnerability reported to vendor', '2022-01-13 - Coordinated public release of advisory'] Mat Powell of Trend Micro Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-22-071/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-071/",
+  "title": "Adobe InCopy JPEG2000 Parsing Use-After-Free Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of of Adobe InCopy. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of JPG2000 images. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-15151",
+  "zdi_id": "ZDI-22-071"
+}

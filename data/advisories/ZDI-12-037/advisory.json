@@ -1,0 +1,27 @@
+{
+  "additional_details": "Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/javacpufeb2012-366318.html",
+  "advisory_date": "2012-02-22",
+  "affected_products": [
+    "Java Runtime"
+  ],
+  "affected_vendors": [
+    "Oracle"
+  ],
+  "credit": "Chris Ries",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2011-10-28 - Vulnerability reported to vendor",
+    "2012-02-22 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-12-037 ZDI-CAN-1407 Oracle Java Web Start JNLP Double Quote Remote Code Execution Vulnerability 2012-02-22 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Oracle'] ['Java Runtime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Oracle Java Webstart. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within javaws.exe . Java Web Start does not safely handle double quotes that are placed anywhere except the beginning of certain property names in JNLP files. As a result, double quotes can be used to inject arbitrary command-line arguments into a javaw.exe process. Leveraging this would allow a remote attacker to execute code under the context of the user. Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/javacpufeb2012-366318.html ['2011-10-28 - Vulnerability reported to vendor', '2012-02-22 - Coordinated public release of advisory'] Chris Ries https://www.zerodayinitiative.com/advisories/ZDI-12-037/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-12-037/",
+  "title": "Oracle Java Web Start JNLP Double Quote Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Oracle Java Webstart. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within javaws.exe . Java Web Start does not safely handle double quotes that are placed anywhere except the beginning of certain property names in JNLP files. As a result, double quotes can be used to inject arbitrary command-line arguments into a javaw.exe process. Leveraging this would allow a remote attacker to execute code under the context of the user.",
+  "zdi_can": "ZDI-CAN-1407",
+  "zdi_id": "ZDI-12-037"
+}

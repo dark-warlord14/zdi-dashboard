@@ -1,0 +1,27 @@
+{
+  "additional_details": "Google has issued an update to correct this vulnerability. More details can be found at: http://googlechromereleases.blogspot.com/2016/03/stable-channel-update_8.html",
+  "advisory_date": "2016-03-10",
+  "affected_products": [
+    "Chrome"
+  ],
+  "affected_vendors": [
+    "Google"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2016-1645",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-1645",
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2016-02-16 - Vulnerability reported to vendor",
+    "2016-03-10 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-16-197 ZDI-CAN-3563 Google Chrome Pdfium JPEG2000 Out-Of-Bounds Write Remote Code Execution Vulnerability 2016-03-10 CVE-2016-1645 https://www.cve.org/CVERecord?id=CVE-2016-1645 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Google'] ['Chrome'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Google Chrome. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of JPEG2000 images. A specially crafted JPEG2000 image embedded inside a PDF can force Google Chrome to write memory past the end of an allocated object. An attacker can leverage this vulnerability to execute arbitrary code under the context of the current process. Google has issued an update to correct this vulnerability. More details can be found at: http://googlechromereleases.blogspot.com/2016/03/stable-channel-update_8.html ['2016-02-16 - Vulnerability reported to vendor', '2016-03-10 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-16-197/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-197/",
+  "title": "Google Chrome Pdfium JPEG2000 Out-Of-Bounds Write Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Google Chrome. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of JPEG2000 images. A specially crafted JPEG2000 image embedded inside a PDF can force Google Chrome to write memory past the end of an allocated object. An attacker can leverage this vulnerability to execute arbitrary code under the context of the current process.",
+  "zdi_can": "ZDI-CAN-3563",
+  "zdi_id": "ZDI-16-197"
+}

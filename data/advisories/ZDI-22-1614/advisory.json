@@ -1,0 +1,28 @@
+{
+  "additional_details": "Fixed in TL-WR940N(US)_V6_3.20.1 Build 220801",
+  "advisory_date": "2022-11-21",
+  "affected_products": [
+    "TL-WR940N"
+  ],
+  "affected_vendors": [
+    "TP-Link"
+  ],
+  "credit": "ExLuck",
+  "cve": "CVE-2022-43636",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-43636",
+  "cvss": 7.5,
+  "cvss_vector": "AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2022-08-25 - Vulnerability reported to vendor",
+    "2022-11-21 - Coordinated public release of advisory",
+    "2023-03-28 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-1614 ZDI-CAN-18334 TP-Link TL-WR940N httpd Use of Insufficiently Random Values Authentication Bypass Vulnerability 2022-11-21 CVE-2022-43636 https://www.cve.org/CVERecord?id=CVE-2022-43636 7.5 AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H ['TP-Link'] ['TL-WR940N'] This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of TP-Link TL-WR940N routers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the httpd service, which listens on TCP port 80 by default. The issue results from the lack of sufficient randomness in the sequnce numbers used for session managment. An attacker can leverage this vulnerability to bypass authentication on the system. Fixed in TL-WR940N(US)_V6_3.20.1 Build 220801 ['2022-08-25 - Vulnerability reported to vendor', '2022-11-21 - Coordinated public release of advisory', '2023-03-28 - Advisory Updated'] ExLuck https://www.zerodayinitiative.com/advisories/ZDI-22-1614/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-1614/",
+  "title": "TP-Link TL-WR940N httpd Use of Insufficiently Random Values Authentication Bypass Vulnerability",
+  "updated_date": "2023-03-28",
+  "vulnerability_details": "This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of TP-Link TL-WR940N routers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the httpd service, which listens on TCP port 80 by default. The issue results from the lack of sufficient randomness in the sequnce numbers used for session managment. An attacker can leverage this vulnerability to bypass authentication on the system.",
+  "zdi_can": "ZDI-CAN-18334",
+  "zdi_id": "ZDI-22-1614"
+}

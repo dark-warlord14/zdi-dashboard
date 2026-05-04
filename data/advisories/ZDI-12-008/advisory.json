@@ -1,0 +1,27 @@
+{
+  "additional_details": "Citrix has issued an update to correct this vulnerability. More details can be found at: http://support.citrix.com/article/CTX130846",
+  "advisory_date": "2012-01-10",
+  "affected_products": [
+    "Citrix Provisioning Services"
+  ],
+  "affected_vendors": [
+    "Citrix"
+  ],
+  "credit": "AbdulAziz Hariri of ThirdEyeTesters",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2011-04-01 - Vulnerability reported to vendor",
+    "2012-01-10 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-12-008 ZDI-CAN-1188 Citrix Provisioning Services streamprocess.exe vDisk Name Parsing Remote Code Execution Vulnerability 2012-01-10 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Citrix'] ['Citrix Provisioning Services'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Citrix Provisioning Services. Authentication is not required to exploit this vulnerability. The specific flaw exists within the streamprocess.exe component which listens for UDP traffic on multiple ports, beginning with 6905. When handling a packet which requests a vDisk name, the user-supplied length value is not properly validated. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the SYSTEM user. Citrix has issued an update to correct this vulnerability. More details can be found at: http://support.citrix.com/article/CTX130846 ['2011-04-01 - Vulnerability reported to vendor', '2012-01-10 - Coordinated public release of advisory'] AbdulAziz Hariri of ThirdEyeTesters https://www.zerodayinitiative.com/advisories/ZDI-12-008/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-12-008/",
+  "title": "Citrix Provisioning Services streamprocess.exe vDisk Name Parsing Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Citrix Provisioning Services. Authentication is not required to exploit this vulnerability. The specific flaw exists within the streamprocess.exe component which listens for UDP traffic on multiple ports, beginning with 6905. When handling a packet which requests a vDisk name, the user-supplied length value is not properly validated. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the SYSTEM user.",
+  "zdi_can": "ZDI-CAN-1188",
+  "zdi_id": "ZDI-12-008"
+}

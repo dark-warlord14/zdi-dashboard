@@ -1,0 +1,27 @@
+{
+  "additional_details": "07/19/22 \u2013 ZDI reported the vulnerability to the vendor. 07/26/22 \u2013 ZDI asked for an update. 08/25/22 \u2013 ZDI called their technical support line, and they confirmed that we were using the right email to contact them. 08/25/22 \u2013 ZDI emailed the vendor and referenced the telephone conversation. 08/30/22 \u2013 ZDI asked for an update. 10/20/22 \u2013 ZDI informed the vendor that the case will be published as a zero-day advisory on 10/25/22. -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the application.",
+  "advisory_date": "2022-10-25",
+  "affected_products": [
+    "IronCAD"
+  ],
+  "affected_vendors": [
+    "IronCAD"
+  ],
+  "credit": "rgod",
+  "cve": "CVE-2022-43609",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-43609",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2022-10-20 - Vulnerability reported to vendor",
+    "2022-10-25 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-1467 ZDI-CAN-17672 (0Day) IronCAD STP File Parsing Uninitialized Pointer Remote Code Execution Vulnerability 2022-10-25 CVE-2022-43609 https://www.cve.org/CVERecord?id=CVE-2022-43609 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['IronCAD'] ['IronCAD'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of IronCAD. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of STP files. When parsing the VECTOR element, the process does not properly initialize a pointer prior to accessing it. An attacker can leverage this vulnerability to execute code in the context of the current process. 07/19/22 \u2013 ZDI reported the vulnerability to the vendor. 07/26/22 \u2013 ZDI asked for an update. 08/25/22 \u2013 ZDI called their technical support line, and they confirmed that we were using the right email to contact them. 08/25/22 \u2013 ZDI emailed the vendor and referenced the telephone conversation. 08/30/22 \u2013 ZDI asked for an update. 10/20/22 \u2013 ZDI informed the vendor that the case will be published as a zero-day advisory on 10/25/22. -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the application. ['2022-10-20 - Vulnerability reported to vendor', '2022-10-25 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-22-1467/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-1467/",
+  "title": "(0Day) IronCAD STP File Parsing Uninitialized Pointer Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of IronCAD. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of STP files. When parsing the VECTOR element, the process does not properly initialize a pointer prior to accessing it. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-17672",
+  "zdi_id": "ZDI-22-1467"
+}

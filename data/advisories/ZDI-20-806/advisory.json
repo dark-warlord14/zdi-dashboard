@@ -1,0 +1,28 @@
+{
+  "additional_details": "Fixed in version 6.60",
+  "advisory_date": "2020-07-07",
+  "affected_products": [
+    "HMI EA9"
+  ],
+  "affected_vendors": [
+    "C-MORE"
+  ],
+  "credit": "Ta-Lun Yen & Chizuru Toyama of TXOne IoT/ICS Security Research Labs (Trend Micro)",
+  "cve": "CVE-2020-10919",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2020-10919",
+  "cvss": 5.9,
+  "cvss_vector": "AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+  "disclosure_timeline": [
+    "2020-02-10 - Vulnerability reported to vendor",
+    "2020-07-07 - Coordinated public release of advisory",
+    "2020-10-08 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-20-806 ZDI-CAN-10185 C-MORE HMI EA9 Weak Cryptography for Passwords Information Disclosure Vulnerability 2020-07-07 CVE-2020-10919 https://www.cve.org/CVERecord?id=CVE-2020-10919 5.9 AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N ['C-MORE'] ['HMI EA9'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of C-MORE HMI EA9 touch screen panels. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of passwords. When transmitting passwords, the process encrypts them in a recoverable format. An attacker can leverage this vulnerability to disclose credentials, leading to further compromise. Fixed in version 6.60 ['2020-02-10 - Vulnerability reported to vendor', '2020-07-07 - Coordinated public release of advisory', '2020-10-08 - Advisory Updated'] Ta-Lun Yen & Chizuru Toyama of TXOne IoT/ICS Security Research Labs (Trend Micro) https://www.zerodayinitiative.com/advisories/ZDI-20-806/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-20-806/",
+  "title": "C-MORE HMI EA9 Weak Cryptography for Passwords Information Disclosure Vulnerability",
+  "updated_date": "2020-10-08",
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of C-MORE HMI EA9 touch screen panels. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of passwords. When transmitting passwords, the process encrypts them in a recoverable format. An attacker can leverage this vulnerability to disclose credentials, leading to further compromise.",
+  "zdi_can": "ZDI-CAN-10185",
+  "zdi_id": "ZDI-20-806"
+}

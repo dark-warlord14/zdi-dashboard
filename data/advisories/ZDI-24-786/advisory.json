@@ -1,0 +1,28 @@
+{
+  "additional_details": "PaperCut has issued an update to correct this vulnerability. More details can be found at: https://www.papercut.com/kb/Main/SecurityBulletinJune2023/",
+  "advisory_date": "2024-06-18",
+  "affected_products": [
+    "NG"
+  ],
+  "affected_vendors": [
+    "PaperCut"
+  ],
+  "credit": "Trinity Cyber",
+  "cve": "CVE-2023-39470",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-39470",
+  "cvss": 7.2,
+  "cvss_vector": "AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2023-04-20 - Vulnerability reported to vendor",
+    "2024-06-18 - Coordinated public release of advisory",
+    "2024-08-15 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-786 ZDI-CAN-20965 PaperCut NG print.script.sandboxed Exposed Dangerous Function Remote Code Execution Vulnerability 2024-06-18 CVE-2023-39470 https://www.cve.org/CVERecord?id=CVE-2023-39470 7.2 AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H ['PaperCut'] ['NG'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of PaperCut NG. Authentication is required to exploit this vulnerability. The specific flaw exists within the management of the print.script.sandboxed setting. The issue results from the exposure of a dangerous function. An attacker can leverage this vulnerability to execute code in the context of SYSTEM. PaperCut has issued an update to correct this vulnerability. More details can be found at: https://www.papercut.com/kb/Main/SecurityBulletinJune2023/ ['2023-04-20 - Vulnerability reported to vendor', '2024-06-18 - Coordinated public release of advisory', '2024-08-15 - Advisory Updated'] Trinity Cyber https://www.zerodayinitiative.com/advisories/ZDI-24-786/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-786/",
+  "title": "PaperCut NG print.script.sandboxed Exposed Dangerous Function Remote Code Execution Vulnerability",
+  "updated_date": "2024-08-15",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of PaperCut NG. Authentication is required to exploit this vulnerability. The specific flaw exists within the management of the print.script.sandboxed setting. The issue results from the exposure of a dangerous function. An attacker can leverage this vulnerability to execute code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-20965",
+  "zdi_id": "ZDI-24-786"
+}

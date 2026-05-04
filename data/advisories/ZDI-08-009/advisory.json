@@ -1,0 +1,27 @@
+{
+  "additional_details": "Sun Microsystems has issued an update to correct this vulnerability. More details can be found at: http://sunsolve.sun.com/search/document.do?assetkey=1-66-233323-1",
+  "advisory_date": "2008-03-12",
+  "affected_products": [
+    "Java Runtime"
+  ],
+  "affected_vendors": [
+    "Sun Microsystems"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2008-1188",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2008-1188",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2007-09-14 - Vulnerability reported to vendor",
+    "2008-03-12 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-08-009 ZDI-CAN-234 Java Web Start tempbuff Stack Buffer Overflow Vulnerability 2008-03-12 CVE-2008-1188 https://www.cve.org/CVERecord?id=CVE-2008-1188 ['Sun Microsystems'] ['Java Runtime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Sun Java Web Start. User interaction is required to exploit this vulnerability in that the target must visit a malicious page. The specific flaw exists in the useEncodingDecl() function used while checking xml based JNLP files for UTF8 characters. When a user downloads a malicious JNLP file, the data immediately preceding the opening of the xml tag is read into a static buffer. If an overly long key name in the xml header is included, a stack based buffer overflow occurs, resulting in an exploitable condition. Sun Microsystems has issued an update to correct this vulnerability. More details can be found at: http://sunsolve.sun.com/search/document.do?assetkey=1-66-233323-1 ['2007-09-14 - Vulnerability reported to vendor', '2008-03-12 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-08-009/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-08-009/",
+  "title": "Java Web Start tempbuff Stack Buffer Overflow Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Sun Java Web Start. User interaction is required to exploit this vulnerability in that the target must visit a malicious page. The specific flaw exists in the useEncodingDecl() function used while checking xml based JNLP files for UTF8 characters. When a user downloads a malicious JNLP file, the data immediately preceding the opening of the xml tag is read into a static buffer. If an overly long key name in the xml header is included, a stack based buffer overflow occurs, resulting in an exploitable condition.",
+  "zdi_can": "ZDI-CAN-234",
+  "zdi_id": "ZDI-08-009"
+}

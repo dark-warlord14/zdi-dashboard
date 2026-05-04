@@ -1,0 +1,26 @@
+# ZDI-16-155: (0Day) Advantech WebAccess Local Escalation Of Privilege Vulnerability
+
+## Metadata
+
+- **ZDI ID:** ZDI-16-155
+- **ZDI-CAN:** ZDI-CAN-3333
+- **Date:** 2016-02-05
+- **CVE:** N/A
+- **CVSS:** 6.8
+- **CVSS Vector:** AV:L/AC:L/Au:S/C:C/I:C/A:C
+- **Affected Vendors:** Advantech
+- **Affected Products:** WebAccess
+- **Credit:** Fritz Sands - HPE Zero Day Initiative
+- **Source:** https://www.zerodayinitiative.com/advisories/ZDI-16-155/
+## Vulnerability Details
+
+This vulnerability allows local users to elevate to administrator status on vulnerable installations of Advantech WebAccess. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the configuration of directories created during installation of the product. The implementing code for many COM objects used by newly-created services, which run in an elevated privilege, is installed in a folder with weak security control.
+
+## Additional Details
+
+This vulnerability is being disclosed publicly without a patch in accordance with the ZDI vulnerability disclosure policy on lack of vendor response. 09/15/2015 - 09/17/2015 - ZDI disclosed reports to ICS-CERT (+1 more on 9/29/2015). 09/15/2015 and 09/17/2015 - ICS-CERT acknowledged with a tracking number. 10/06/2015 - ICS-CERT advised ZDI that the vendor was working on a patch tentatively planned for November. 11/10/2015 - ICS-CERT advised ZDI that this patch/next version would be released in early December. 12/14/2015 - ZDI asked ICS-CERT if a patch was available. 12/15/2015 - ICS-CERT advised ZDI that a patch release was expected "any day now." 12/15/2015 - ICS-CERT inquired with the vendor about the patch. 01/06/2016 - ICS-CERT advised ZDI that the vendor released WebAccess 8.1. 01/06/2016 - ZDI asked ICS-CERT what fixes are supposed to be in the build. 01/13/2016 - ICS-CERT provided ZDI with a written draft advisory. 01/15/2016 - ICS-CERT published an advisory. 01/15/2016 - ZDI asked ICS-CERT to confirm CVE mapping. 01/22/2016 and 01/26/2016 - ZDI discussed with ICS-CERT by phone the concern that the patch seemed incomplete. 01/27/2016 - ZDI concluded that this cases is not patched. 02/01/2016 - ZDI notified ICS-CERT intent to release a 0-day advisory 02/02/2016 - ZDI advisory released. -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the service to trusted users.
+
+## Disclosure Timeline
+
+- 2015-09-29 - Vulnerability reported to vendor
+- 2016-02-05 - Coordinated public release of advisory

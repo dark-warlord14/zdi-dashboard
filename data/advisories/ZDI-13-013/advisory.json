@@ -1,0 +1,27 @@
+{
+  "additional_details": "Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/javacpufeb2013-1841061.html",
+  "advisory_date": "2013-02-11",
+  "affected_products": [
+    "Java Runtime"
+  ],
+  "affected_vendors": [
+    "Oracle"
+  ],
+  "credit": "Vitaliy Toropov",
+  "cve": "CVE-2012-1543",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2012-1543",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2013-01-07 - Vulnerability reported to vendor",
+    "2013-02-11 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-13-013 ZDI-CAN-1728 Oracle Java JavaFX WCMediaPlayer Remote Code Execution Vulnerability 2013-02-11 CVE-2012-1543 https://www.cve.org/CVERecord?id=CVE-2012-1543 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Oracle'] ['Java Runtime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of the Oracle Java. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the JavaFX WCMediaPlayer class. All WCMediaPlayer's private native methods are accessible from descendant classes through corresponding protected methods. A value utilized by these native functions can be controlled by the class constructor and can be set to an arbitrary memory pointer to cause memory corruption. An attacker could leverage this to gain remote code execution under the context of the process. Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/javacpufeb2013-1841061.html ['2013-01-07 - Vulnerability reported to vendor', '2013-02-11 - Coordinated public release of advisory'] Vitaliy Toropov https://www.zerodayinitiative.com/advisories/ZDI-13-013/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-13-013/",
+  "title": "Oracle Java JavaFX WCMediaPlayer Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of the Oracle Java. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the JavaFX WCMediaPlayer class. All WCMediaPlayer's private native methods are accessible from descendant classes through corresponding protected methods. A value utilized by these native functions can be controlled by the class constructor and can be set to an arbitrary memory pointer to cause memory corruption. An attacker could leverage this to gain remote code execution under the context of the process.",
+  "zdi_can": "ZDI-CAN-1728",
+  "zdi_id": "ZDI-13-013"
+}

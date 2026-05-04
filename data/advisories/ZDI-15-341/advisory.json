@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/en-us/library/security/ms15-065.aspx",
+  "advisory_date": "2015-07-20",
+  "affected_products": [
+    "Internet Explorer"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "sky",
+  "cve": "CVE-2015-2383",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-2383",
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2015-04-07 - Vulnerability reported to vendor",
+    "2015-07-20 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-15-341 ZDI-CAN-2868 Microsoft Internet Explorer CImgElement Use-After-Free Remote Code Execution Vulnerability 2015-07-20 CVE-2015-2383 https://www.cve.org/CVERecord?id=CVE-2015-2383 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Microsoft'] ['Internet Explorer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The vulnerability relates to how Internet Explorer tracks HTML img elements in a document. By manipulating a document's elements an attacker can force a CImgElement object in memory to be reused after it has been freed. An attacker can leverage this vulnerability to execute code under the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/en-us/library/security/ms15-065.aspx ['2015-04-07 - Vulnerability reported to vendor', '2015-07-20 - Coordinated public release of advisory'] sky https://www.zerodayinitiative.com/advisories/ZDI-15-341/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-341/",
+  "title": "Microsoft Internet Explorer CImgElement Use-After-Free Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The vulnerability relates to how Internet Explorer tracks HTML img elements in a document. By manipulating a document's elements an attacker can force a CImgElement object in memory to be reused after it has been freed. An attacker can leverage this vulnerability to execute code under the context of the current process.",
+  "zdi_can": "ZDI-CAN-2868",
+  "zdi_id": "ZDI-15-341"
+}

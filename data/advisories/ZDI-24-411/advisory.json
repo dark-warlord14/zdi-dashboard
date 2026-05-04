@@ -1,0 +1,28 @@
+{
+  "additional_details": "Oracle has issued an update to correct this vulnerability. More details can be found at: https://www.oracle.com/security-alerts/cpuapr2024.html",
+  "advisory_date": "2024-04-26",
+  "affected_products": [
+    "VirtualBox"
+  ],
+  "affected_vendors": [
+    "Oracle"
+  ],
+  "credit": "Corentin \"@OnlyTheDuck\" BAYET from REverse Tactics",
+  "cve": "CVE-2024-21121",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-21121",
+  "cvss": 6.0,
+  "cvss_vector": "AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:N/A:N",
+  "disclosure_timeline": [
+    "2024-03-28 - Vulnerability reported to vendor",
+    "2024-04-26 - Coordinated public release of advisory",
+    "2024-07-01 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-411 ZDI-CAN-23798 (Pwn2Own) Oracle VirtualBox BusLogic Uninitialized Memory Information Disclosure Vulnerability 2024-04-26 CVE-2024-21121 https://www.cve.org/CVERecord?id=CVE-2024-21121 6.0 AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:N/A:N ['Oracle'] ['VirtualBox'] This vulnerability allows local attackers to disclose sensitive information on affected installations of Oracle VirtualBox. An attacker must first obtain the ability to execute high-privileged code on the target guest system in order to exploit this vulnerability. The specific flaw exists within the BusLogic module. The issue results from the lack of proper initialization of memory prior to accessing it. An attacker can leverage this in conjunction with other vulnerabilities to escalate privileges and execute arbitrary code in the context of the hypervisor. Oracle has issued an update to correct this vulnerability. More details can be found at: https://www.oracle.com/security-alerts/cpuapr2024.html ['2024-03-28 - Vulnerability reported to vendor', '2024-04-26 - Coordinated public release of advisory', '2024-07-01 - Advisory Updated'] Corentin \"@OnlyTheDuck\" BAYET from REverse Tactics https://www.zerodayinitiative.com/advisories/ZDI-24-411/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-411/",
+  "title": "(Pwn2Own) Oracle VirtualBox BusLogic Uninitialized Memory Information Disclosure Vulnerability",
+  "updated_date": "2024-07-01",
+  "vulnerability_details": "This vulnerability allows local attackers to disclose sensitive information on affected installations of Oracle VirtualBox. An attacker must first obtain the ability to execute high-privileged code on the target guest system in order to exploit this vulnerability. The specific flaw exists within the BusLogic module. The issue results from the lack of proper initialization of memory prior to accessing it. An attacker can leverage this in conjunction with other vulnerabilities to escalate privileges and execute arbitrary code in the context of the hypervisor.",
+  "zdi_can": "ZDI-CAN-23798",
+  "zdi_id": "ZDI-24-411"
+}

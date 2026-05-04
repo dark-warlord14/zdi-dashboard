@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/bulletin/MS06-042.mspx",
+  "advisory_date": "2006-08-08",
+  "affected_products": [
+    "Internet Explorer"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Sam Thomas",
+  "cve": "CVE-2006-3450",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2006-3450",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2006-06-14 - Vulnerability reported to vendor",
+    "2006-08-08 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-06-027 ZDI-CAN-066 Microsoft Internet Explorer CSS Class Ordering Memory Corruption Vulnerability 2006-08-08 CVE-2006-3450 https://www.cve.org/CVERecord?id=CVE-2006-3450 ['Microsoft'] ['Internet Explorer'] This vulnerability allows attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page. The specific vulnerability exists due to improper handling of CSS class values. Accessing a specially crafted CSS element via document.getElementByID causes a memory corruption eventually leading to code execution. Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/bulletin/MS06-042.mspx ['2006-06-14 - Vulnerability reported to vendor', '2006-08-08 - Coordinated public release of advisory'] Sam Thomas https://www.zerodayinitiative.com/advisories/ZDI-06-027/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-06-027/",
+  "title": "Microsoft Internet Explorer CSS Class Ordering Memory Corruption Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page. The specific vulnerability exists due to improper handling of CSS class values. Accessing a specially crafted CSS element via document.getElementByID causes a memory corruption eventually leading to code execution.",
+  "zdi_can": "ZDI-CAN-066",
+  "zdi_id": "ZDI-06-027"
+}

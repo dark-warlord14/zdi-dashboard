@@ -1,0 +1,27 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT3027",
+  "advisory_date": "2008-09-09",
+  "affected_products": [
+    "Quicktime"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2008-3626",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2008-3626",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2008-05-15 - Vulnerability reported to vendor",
+    "2008-09-09 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-08-059 ZDI-CAN-328 Apple QuickTime STSZ Atom Parsing Heap Corruption Vulnerability 2008-09-09 CVE-2008-3626 https://www.cve.org/CVERecord?id=CVE-2008-3626 ['Apple'] ['Quicktime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple QuickTime. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists in the handling of STSZ atoms within the function CallComponentFunctionWithStorage(). When an entry in the sample_size_table is too large, a memory corruption occurs which can be further leveraged to execute arbitrary code under the context of the current user. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT3027 ['2008-05-15 - Vulnerability reported to vendor', '2008-09-09 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-08-059/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-08-059/",
+  "title": "Apple QuickTime STSZ Atom Parsing Heap Corruption Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple QuickTime. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists in the handling of STSZ atoms within the function CallComponentFunctionWithStorage(). When an entry in the sample_size_table is too large, a memory corruption occurs which can be further leveraged to execute arbitrary code under the context of the current user.",
+  "zdi_can": "ZDI-CAN-328",
+  "zdi_id": "ZDI-08-059"
+}

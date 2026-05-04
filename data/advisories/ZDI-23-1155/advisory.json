@@ -1,0 +1,27 @@
+{
+  "additional_details": "SonicWALL has issued an update to correct this vulnerability. More details can be found at: https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2023-0010",
+  "advisory_date": "2023-08-21",
+  "affected_products": [
+    "GMS Virtual Appliance"
+  ],
+  "affected_vendors": [
+    "SonicWALL"
+  ],
+  "credit": "Alex Birnberg of Zymo Security",
+  "cve": "CVE-2023-34124",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-34124",
+  "cvss": 6.5,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+  "disclosure_timeline": [
+    "2023-06-13 - Vulnerability reported to vendor",
+    "2023-08-21 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-1155 ZDI-CAN-21221 SonicWALL GMS Virtual Appliance HttpDigestAuthenticator Authentication Bypass Vulnerability 2023-08-21 CVE-2023-34124 https://www.cve.org/CVERecord?id=CVE-2023-34124 6.5 AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N ['SonicWALL'] ['GMS Virtual Appliance'] This vulnerability allows remote attackers to bypass authentication on affected installations of SonicWALL GMS Virtual Appliance. Authentication is not required to exploit this vulnerability. The specific flaw exists within the HttpDigestAuthenticator class. The issue results from a predictable digest credential in the authentication mechanism. An attacker can leverage this vulnerability to bypass authentication on the system. SonicWALL has issued an update to correct this vulnerability. More details can be found at: https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2023-0010 ['2023-06-13 - Vulnerability reported to vendor', '2023-08-21 - Coordinated public release of advisory'] Alex Birnberg of Zymo Security https://www.zerodayinitiative.com/advisories/ZDI-23-1155/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-1155/",
+  "title": "SonicWALL GMS Virtual Appliance HttpDigestAuthenticator Authentication Bypass Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to bypass authentication on affected installations of SonicWALL GMS Virtual Appliance. Authentication is not required to exploit this vulnerability. The specific flaw exists within the HttpDigestAuthenticator class. The issue results from a predictable digest credential in the authentication mechanism. An attacker can leverage this vulnerability to bypass authentication on the system.",
+  "zdi_can": "ZDI-CAN-21221",
+  "zdi_id": "ZDI-23-1155"
+}

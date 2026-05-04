@@ -1,0 +1,27 @@
+{
+  "additional_details": "D-Link has issued an update to correct this vulnerability. More details can be found at: https://supportannouncement.us.dlink.com/announcement/publication.aspx?name=SAP10324",
+  "advisory_date": "2023-05-04",
+  "affected_products": [
+    "DAP-1360"
+  ],
+  "affected_vendors": [
+    "D-Link"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2023-32145",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-32145",
+  "cvss": 8.8,
+  "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2022-09-06 - Vulnerability reported to vendor",
+    "2023-05-04 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-537 ZDI-CAN-18455 D-Link DAP-1360 Hardcoded Credentials Authentication Bypass Vulnerability 2023-05-04 CVE-2023-32145 https://www.cve.org/CVERecord?id=CVE-2023-32145 8.8 AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['D-Link'] ['DAP-1360'] This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of D-Link DAP-1360 routers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the processing of login requests to the web-based user interface. The firmware contains hard-coded default credentials. An attacker can leverage this vulnerability to bypass authentication on the system. D-Link has issued an update to correct this vulnerability. More details can be found at: https://supportannouncement.us.dlink.com/announcement/publication.aspx?name=SAP10324 ['2022-09-06 - Vulnerability reported to vendor', '2023-05-04 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-23-537/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-537/",
+  "title": "D-Link DAP-1360 Hardcoded Credentials Authentication Bypass Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of D-Link DAP-1360 routers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the processing of login requests to the web-based user interface. The firmware contains hard-coded default credentials. An attacker can leverage this vulnerability to bypass authentication on the system.",
+  "zdi_can": "ZDI-CAN-18455",
+  "zdi_id": "ZDI-23-537"
+}

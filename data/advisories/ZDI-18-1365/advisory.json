@@ -1,0 +1,27 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-us/HT209341",
+  "advisory_date": "2018-12-10",
+  "affected_products": [
+    "OS X"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "Juwei Lin(@panicaII) and Junzhi Lu of TrendMicro Mobile Security Team",
+  "cve": "CVE-2018-4435",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2018-4435",
+  "cvss": 5.5,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+  "disclosure_timeline": [
+    "2018-09-25 - Vulnerability reported to vendor",
+    "2018-12-10 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-1365 ZDI-CAN-7299 Apple macOS shm Uninitialized Data Information Disclosure Vulnerability 2018-12-10 CVE-2018-4435 https://www.cve.org/CVERecord?id=CVE-2018-4435 5.5 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N ['Apple'] ['OS X'] This vulnerability allows local attackers to disclose sensitive information on vulnerable installations of Apple macOS. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of the shared memory module (shm). The issue results from the lack of proper initialization of memory prior to accessing it. An attacker can leverage this in conjunction with other vulnerabilities to escalate privileges in the context of the kernel. Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-us/HT209341 ['2018-09-25 - Vulnerability reported to vendor', '2018-12-10 - Coordinated public release of advisory'] Juwei Lin(@panicaII) and Junzhi Lu of TrendMicro Mobile Security Team https://www.zerodayinitiative.com/advisories/ZDI-18-1365/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-1365/",
+  "title": "Apple macOS shm Uninitialized Data Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to disclose sensitive information on vulnerable installations of Apple macOS. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of the shared memory module (shm). The issue results from the lack of proper initialization of memory prior to accessing it. An attacker can leverage this in conjunction with other vulnerabilities to escalate privileges in the context of the kernel.",
+  "zdi_can": "ZDI-CAN-7299",
+  "zdi_id": "ZDI-18-1365"
+}

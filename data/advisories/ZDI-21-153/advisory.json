@@ -1,0 +1,27 @@
+{
+  "additional_details": "Micro Focus has issued an update to correct this vulnerability. More details can be found at: https://softwaresupport.softwaregrp.com/doc/KM03775947",
+  "advisory_date": "2021-02-09",
+  "affected_products": [
+    "Operations Bridge Reporter"
+  ],
+  "affected_vendors": [
+    "Micro Focus"
+  ],
+  "credit": "Pedro Ribeiro (pedrib@gmail.com|@pedrib1337) from Agile Information Security",
+  "cve": "CVE-2021-22502",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2021-22502",
+  "cvss": 9.8,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2020-09-30 - Vulnerability reported to vendor",
+    "2021-02-09 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-21-153 ZDI-CAN-11074 Micro Focus Operations Bridge Reporter userName Command Injection Remote Code Execution Vulnerability 2021-02-09 CVE-2021-22502 https://www.cve.org/CVERecord?id=CVE-2021-22502 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['Micro Focus'] ['Operations Bridge Reporter'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Micro Focus Operations Bridge Reporter. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of the userName parameter provided to the LogonResource endpoint. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of root. Micro Focus has issued an update to correct this vulnerability. More details can be found at: https://softwaresupport.softwaregrp.com/doc/KM03775947 ['2020-09-30 - Vulnerability reported to vendor', '2021-02-09 - Coordinated public release of advisory'] Pedro Ribeiro (pedrib@gmail.com|@pedrib1337) from Agile Information Security https://www.zerodayinitiative.com/advisories/ZDI-21-153/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-21-153/",
+  "title": "Micro Focus Operations Bridge Reporter userName Command Injection Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Micro Focus Operations Bridge Reporter. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of the userName parameter provided to the LogonResource endpoint. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of root.",
+  "zdi_can": "ZDI-CAN-11074",
+  "zdi_id": "ZDI-21-153"
+}

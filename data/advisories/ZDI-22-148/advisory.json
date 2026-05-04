@@ -1,0 +1,27 @@
+{
+  "additional_details": "ESET has issued an update to correct this vulnerability. More details can be found at: https://support.eset.com/en/ca8223-local-privilege-escalation-vulnerability-fixed-in-eset-products-for-windows",
+  "advisory_date": "2022-01-31",
+  "affected_products": [
+    "Endpoint Antivirus"
+  ],
+  "affected_vendors": [
+    "ESET"
+  ],
+  "credit": "Michael DePlante (@izobashi) of Trend Micro's Zero Day Initiative",
+  "cve": "CVE-2021-37852",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2021-37852",
+  "cvss": 7.0,
+  "cvss_vector": "AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2021-06-18 - Vulnerability reported to vendor",
+    "2022-01-31 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-148 ZDI-CAN-14162 ESET Endpoint Antivirus Unnecessary Privileges Local Privilege Escalation Vulnerability 2022-01-31 CVE-2021-37852 https://www.cve.org/CVERecord?id=CVE-2021-37852 7.0 AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H ['ESET'] ['Endpoint Antivirus'] This vulnerability allows local attackers to escalate privileges on affected installations of ESET Endpoint Antivirus. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the use of named pipes. The issue results from allowing an untrusted process to impersonate the client of a pipe. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. ESET has issued an update to correct this vulnerability. More details can be found at: https://support.eset.com/en/ca8223-local-privilege-escalation-vulnerability-fixed-in-eset-products-for-windows ['2021-06-18 - Vulnerability reported to vendor', '2022-01-31 - Coordinated public release of advisory'] Michael DePlante (@izobashi) of Trend Micro's Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-22-148/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-148/",
+  "title": "ESET Endpoint Antivirus Unnecessary Privileges Local Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of ESET Endpoint Antivirus. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the use of named pipes. The issue results from allowing an untrusted process to impersonate the client of a pipe. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-14162",
+  "zdi_id": "ZDI-22-148"
+}

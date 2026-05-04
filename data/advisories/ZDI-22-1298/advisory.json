@@ -1,0 +1,27 @@
+{
+  "additional_details": "Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/solution/000291590",
+  "advisory_date": "2022-09-23",
+  "affected_products": [
+    "Deep Security"
+  ],
+  "affected_vendors": [
+    "Trend Micro"
+  ],
+  "credit": "Michael DePlante (@izobashi) of Trend Micro's Zero Day Initiative",
+  "cve": "CVE-2022-40708",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-40708",
+  "cvss": 4.4,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:L",
+  "disclosure_timeline": [
+    "2022-02-16 - Vulnerability reported to vendor",
+    "2022-09-23 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-1298 ZDI-CAN-16595 Trend Micro Deep Security Out-Of-Bounds Read Information Disclosure Vulnerability 2022-09-23 CVE-2022-40708 https://www.cve.org/CVERecord?id=CVE-2022-40708 4.4 AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:L ['Trend Micro'] ['Deep Security'] This vulnerability allows local attackers to disclose sensitive information on affected installations of Trend Micro Deep Security. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the User Mode Hooking Monitor Engine. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to escalate privileges and execute arbitrary code in the context of SYSTEM. Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/solution/000291590 ['2022-02-16 - Vulnerability reported to vendor', '2022-09-23 - Coordinated public release of advisory'] Michael DePlante (@izobashi) of Trend Micro's Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-22-1298/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-1298/",
+  "title": "Trend Micro Deep Security Out-Of-Bounds Read Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to disclose sensitive information on affected installations of Trend Micro Deep Security. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the User Mode Hooking Monitor Engine. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-16595",
+  "zdi_id": "ZDI-22-1298"
+}

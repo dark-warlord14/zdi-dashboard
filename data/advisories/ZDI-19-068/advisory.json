@@ -1,0 +1,28 @@
+{
+  "additional_details": "LAquis SCADA has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-19-015-01",
+  "advisory_date": "2019-01-19",
+  "affected_products": [
+    "Software"
+  ],
+  "affected_vendors": [
+    "LAquis SCADA"
+  ],
+  "credit": "Esteban Ruiz (mr_me) of Source Incite",
+  "cve": "CVE-2018-19000",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2018-19000",
+  "cvss": 5.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+  "disclosure_timeline": [
+    "2018-08-14 - Vulnerability reported to vendor",
+    "2019-01-19 - Coordinated public release of advisory",
+    "2019-01-19 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-19-068 ZDI-CAN-7074 LAquis SCADA Web Server URI Parsing Authentication Bypass Vulnerability 2019-01-19 CVE-2018-19000 https://www.cve.org/CVERecord?id=CVE-2018-19000 5.0 AV:N/AC:L/Au:N/C:P/I:N/A:N ['LAquis SCADA'] ['Software'] This vulnerability allows remote attackers to bypass authentication on vulnerable installations of LAquis SCADA Software. Authentication is not required to exploit this vulnerability. The specific flaw exists within the processing of URIs by the product's web server. A crafted URI can cause the web service to bypass authentication that should be required for the web page. An attacker can leverage this vulnerability to access system information. LAquis SCADA has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-19-015-01 ['2018-08-14 - Vulnerability reported to vendor', '2019-01-19 - Coordinated public release of advisory', '2019-01-19 - Advisory Updated'] Esteban Ruiz (mr_me) of Source Incite https://www.zerodayinitiative.com/advisories/ZDI-19-068/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-19-068/",
+  "title": "LAquis SCADA Web Server URI Parsing Authentication Bypass Vulnerability",
+  "updated_date": "2019-01-19",
+  "vulnerability_details": "This vulnerability allows remote attackers to bypass authentication on vulnerable installations of LAquis SCADA Software. Authentication is not required to exploit this vulnerability. The specific flaw exists within the processing of URIs by the product's web server. A crafted URI can cause the web service to bypass authentication that should be required for the web page. An attacker can leverage this vulnerability to access system information.",
+  "zdi_can": "ZDI-CAN-7074",
+  "zdi_id": "ZDI-19-068"
+}

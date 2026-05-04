@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/library/security/ms14-080",
+  "advisory_date": "2015-12-18",
+  "affected_products": [
+    "Internet Explorer"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "3S Labs",
+  "cve": "CVE-2014-6374",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-6374",
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2015-03-27 - Vulnerability reported to vendor",
+    "2015-12-18 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-14-430 ZDI-CAN-2811 Microsoft Internet Explorer RtfToForeign32 Out-Of-Bounds Indexing Remote Code Execution Vulnerability 2015-12-18 CVE-2014-6374 https://www.cve.org/CVERecord?id=CVE-2014-6374 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Microsoft'] ['Internet Explorer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of arguments passed to the RtfToForeign32 function. By manipulating a document's elements an attacker can access data outside the bounds of an allocated buffer. An attacker can leverage this vulnerability to execute code under the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/library/security/ms14-080 ['2015-03-27 - Vulnerability reported to vendor', '2015-12-18 - Coordinated public release of advisory'] 3S Labs https://www.zerodayinitiative.com/advisories/ZDI-14-430/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-14-430/",
+  "title": "Microsoft Internet Explorer RtfToForeign32 Out-Of-Bounds Indexing Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of arguments passed to the RtfToForeign32 function. By manipulating a document's elements an attacker can access data outside the bounds of an allocated buffer. An attacker can leverage this vulnerability to execute code under the context of the current process.",
+  "zdi_can": "ZDI-CAN-2811",
+  "zdi_id": "ZDI-14-430"
+}

@@ -1,0 +1,28 @@
+{
+  "additional_details": "Windscribe has issued an update to correct this vulnerability. More details can be found at: https://github.com/Windscribe/Desktop-App/releases/tag/v2.17.10",
+  "advisory_date": "2025-12-10",
+  "affected_products": [
+    "Windscribe"
+  ],
+  "affected_vendors": [
+    "Windscribe"
+  ],
+  "credit": "Xavier DANEST",
+  "cve": "CVE-2025-14400",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-14400",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2025-08-14 - Vulnerability reported to vendor",
+    "2025-12-10 - Coordinated public release of advisory",
+    "2025-12-10 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-1061 ZDI-CAN-27873 Windscribe Uncontrolled Search Path Element Local Privilege Escalation Vulnerability 2025-12-10 CVE-2025-14400 https://www.cve.org/CVERecord?id=CVE-2025-14400 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Windscribe'] ['Windscribe'] This vulnerability allows local attackers to escalate privileges on affected installations of Windscribe. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the configuration of OpenSSL. The product loads an OpenSSL configuration file from an unsecured location. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. Windscribe has issued an update to correct this vulnerability. More details can be found at: https://github.com/Windscribe/Desktop-App/releases/tag/v2.17.10 ['2025-08-14 - Vulnerability reported to vendor', '2025-12-10 - Coordinated public release of advisory', '2025-12-10 - Advisory Updated'] Xavier DANEST https://www.zerodayinitiative.com/advisories/ZDI-25-1061/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-1061/",
+  "title": "Windscribe Uncontrolled Search Path Element Local Privilege Escalation Vulnerability",
+  "updated_date": "2025-12-10",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Windscribe. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the configuration of OpenSSL. The product loads an OpenSSL configuration file from an unsecured location. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-27873",
+  "zdi_id": "ZDI-25-1061"
+}

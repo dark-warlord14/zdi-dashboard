@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-34462",
+  "advisory_date": "2021-07-19",
+  "affected_products": [
+    "Windows"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Tao Yan ( @Ga1ois ) of Palo Alto Networks",
+  "cve": "CVE-2021-34462",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2021-34462",
+  "cvss": 7.0,
+  "cvss_vector": "AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2021-04-27 - Vulnerability reported to vendor",
+    "2021-07-19 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-21-823 ZDI-CAN-13600 (Pwn2Own) Microsoft Windows AppX Deployment Service Race Condition Privilege Escalation Vulnerability 2021-07-19 CVE-2021-34462 https://www.cve.org/CVERecord?id=CVE-2021-34462 7.0 AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H ['Microsoft'] ['Windows'] This vulnerability allows local attackers to escalate privileges on affected installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the AppX Deployment Service. The issue results from the lack of proper validation of a user-supplied link prior to using it in file operations. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-34462 ['2021-04-27 - Vulnerability reported to vendor', '2021-07-19 - Coordinated public release of advisory'] Tao Yan ( @Ga1ois ) of Palo Alto Networks https://www.zerodayinitiative.com/advisories/ZDI-21-823/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-21-823/",
+  "title": "(Pwn2Own) Microsoft Windows AppX Deployment Service Race Condition Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the AppX Deployment Service. The issue results from the lack of proper validation of a user-supplied link prior to using it in file operations. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-13600",
+  "zdi_id": "ZDI-21-823"
+}

@@ -1,0 +1,28 @@
+{
+  "additional_details": "Schneider Electric has issued an update to correct this vulnerability. More details can be found at: https://www.cisa.gov/news-events/ics-advisories/icsa-24-284-14",
+  "advisory_date": "2024-10-17",
+  "affected_products": [
+    "Zelio Soft 2"
+  ],
+  "affected_vendors": [
+    "Schneider Electric"
+  ],
+  "credit": "rgod",
+  "cve": "CVE-2024-8422",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-8422",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2024-03-27 - Vulnerability reported to vendor",
+    "2024-10-17 - Coordinated public release of advisory",
+    "2024-10-17 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-1415 ZDI-CAN-22347 Schneider Electric Zelio Soft 2 ZM2 File Parsing Use-After-Free Remote Code Execution Vulnerability 2024-10-17 CVE-2024-8422 https://www.cve.org/CVERecord?id=CVE-2024-8422 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Schneider Electric'] ['Zelio Soft 2'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Schneider Electric Zelio Soft 2. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of ZM2 files. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current process. Schneider Electric has issued an update to correct this vulnerability. More details can be found at: https://www.cisa.gov/news-events/ics-advisories/icsa-24-284-14 ['2024-03-27 - Vulnerability reported to vendor', '2024-10-17 - Coordinated public release of advisory', '2024-10-17 - Advisory Updated'] rgod https://www.zerodayinitiative.com/advisories/ZDI-24-1415/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-1415/",
+  "title": "Schneider Electric Zelio Soft 2 ZM2 File Parsing Use-After-Free Remote Code Execution Vulnerability",
+  "updated_date": "2024-10-17",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Schneider Electric Zelio Soft 2. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of ZM2 files. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-22347",
+  "zdi_id": "ZDI-24-1415"
+}

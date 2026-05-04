@@ -1,0 +1,27 @@
+{
+  "additional_details": "WebKit.Org has issued an update to correct this vulnerability. More details can be found at: http://prod.lists.apple.com/archives/security-announce/2012/Mar/msg00003.html",
+  "advisory_date": "2012-04-09",
+  "affected_products": [
+    "WebKit"
+  ],
+  "affected_vendors": [
+    "WebKit.Org"
+  ],
+  "credit": "wushi of team509",
+  "cve": "CVE-2011-3928",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-3928",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2011-12-22 - Vulnerability reported to vendor",
+    "2012-04-09 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-12-055 ZDI-CAN-1415 Webkit.org Webkit copyNonAttributeProperties Remote Code Execution Vulnerability 2012-04-09 CVE-2011-3928 https://www.cve.org/CVERecord?id=CVE-2011-3928 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['WebKit.Org'] ['WebKit'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of WebKit. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The flaw exists within the WebCore component as used by WebKit. Specifically within the handling of element properties. When importing a node having a nonattribute property such as an attached event, an object is improperly freed and accessed. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the browser. WebKit.Org has issued an update to correct this vulnerability. More details can be found at: http://prod.lists.apple.com/archives/security-announce/2012/Mar/msg00003.html ['2011-12-22 - Vulnerability reported to vendor', '2012-04-09 - Coordinated public release of advisory'] wushi of team509 https://www.zerodayinitiative.com/advisories/ZDI-12-055/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-12-055/",
+  "title": "Webkit.org Webkit copyNonAttributeProperties Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of WebKit. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The flaw exists within the WebCore component as used by WebKit. Specifically within the handling of element properties. When importing a node having a nonattribute property such as an attached event, an object is improperly freed and accessed. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the browser.",
+  "zdi_can": "ZDI-CAN-1415",
+  "zdi_id": "ZDI-12-055"
+}

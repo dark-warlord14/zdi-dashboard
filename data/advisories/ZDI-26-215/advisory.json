@@ -1,0 +1,28 @@
+{
+  "additional_details": "KeePassXC has issued an update to correct this vulnerability. More details can be found at: https://github.com/keepassxreboot/keepassxc/security/advisories/GHSA-4gr2-cr97-q9fx",
+  "advisory_date": "2026-03-16",
+  "affected_products": [
+    "KeePassXC"
+  ],
+  "affected_vendors": [
+    "KeePassXC"
+  ],
+  "credit": "Xavier DANEST",
+  "cve": "CVE-2026-4158",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-4158",
+  "cvss": 7.3,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2026-03-03 - Vulnerability reported to vendor",
+    "2026-03-16 - Coordinated public release of advisory",
+    "2026-03-16 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-26-215 ZDI-CAN-29156 KeePassXC OpenSSL Configuration Uncontrolled Search Path Element Local Privilege Escalation Vulnerability 2026-03-16 CVE-2026-4158 https://www.cve.org/CVERecord?id=CVE-2026-4158 7.3 AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H ['KeePassXC'] ['KeePassXC'] This vulnerability allows local attackers to escalate privileges on affected installations of KeePassXC. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the configuration of OpenSSL. The product loads configuration from an unsecured location. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of KeePassXC when run by a target user on the system. KeePassXC has issued an update to correct this vulnerability. More details can be found at: https://github.com/keepassxreboot/keepassxc/security/advisories/GHSA-4gr2-cr97-q9fx ['2026-03-03 - Vulnerability reported to vendor', '2026-03-16 - Coordinated public release of advisory', '2026-03-16 - Advisory Updated'] Xavier DANEST https://www.zerodayinitiative.com/advisories/ZDI-26-215/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-215/",
+  "title": "KeePassXC OpenSSL Configuration Uncontrolled Search Path Element Local Privilege Escalation Vulnerability",
+  "updated_date": "2026-03-16",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of KeePassXC. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the configuration of OpenSSL. The product loads configuration from an unsecured location. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of KeePassXC when run by a target user on the system.",
+  "zdi_can": "ZDI-CAN-29156",
+  "zdi_id": "ZDI-26-215"
+}

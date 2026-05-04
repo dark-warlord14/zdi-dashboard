@@ -1,0 +1,27 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT3591",
+  "advisory_date": "2009-06-02",
+  "affected_products": [
+    "Quicktime"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "Sebastian Apelt (sebastian.apelt@siberas.de)",
+  "cve": "CVE-2009-0953",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2009-0953",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2008-12-17 - Vulnerability reported to vendor",
+    "2009-06-02 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-09-027 ZDI-CAN-412 Apple Quicktime PICT Opcode 0x8201 Heap Overflow Vulnerability 2009-06-02 CVE-2009-0953 https://www.cve.org/CVERecord?id=CVE-2009-0953 ['Apple'] ['Quicktime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple QuickTime. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists in the parsing of PICT files in QuickTime.qts. While processing data for opcode 0x8201 QuickTime trusts a value contained in the file and makes an allocation accordingly. The process then enters a loop whose terminating condition is controlled. The previously allocated heap buffer can be overflowed leading to arbitrary code execution under the context of the user running QuickTime. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT3591 ['2008-12-17 - Vulnerability reported to vendor', '2009-06-02 - Coordinated public release of advisory'] Sebastian Apelt (sebastian.apelt@siberas.de) https://www.zerodayinitiative.com/advisories/ZDI-09-027/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-09-027/",
+  "title": "Apple Quicktime PICT Opcode 0x8201 Heap Overflow Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple QuickTime. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists in the parsing of PICT files in QuickTime.qts. While processing data for opcode 0x8201 QuickTime trusts a value contained in the file and makes an allocation accordingly. The process then enters a loop whose terminating condition is controlled. The previously allocated heap buffer can be overflowed leading to arbitrary code execution under the context of the user running QuickTime.",
+  "zdi_can": "ZDI-CAN-412",
+  "zdi_id": "ZDI-09-027"
+}

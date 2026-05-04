@@ -1,0 +1,27 @@
+{
+  "additional_details": "Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/solution/1117722",
+  "advisory_date": "2017-08-02",
+  "affected_products": [
+    "Control Manager"
+  ],
+  "affected_vendors": [
+    "Trend Micro"
+  ],
+  "credit": "rgod",
+  "cve": "CVE-2017-11383",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-11383",
+  "cvss": 7.8,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:N/I:C/A:N",
+  "disclosure_timeline": [
+    "2017-03-23 - Vulnerability reported to vendor",
+    "2017-08-02 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-17-493 ZDI-CAN-4560 Trend Micro Control Manager cmdHandlerTVCSCommander SQL Injection Remote Code Execution Vulnerability 2017-08-02 CVE-2017-11383 https://www.cve.org/CVERecord?id=CVE-2017-11383 7.8 AV:N/AC:L/Au:N/C:N/I:C/A:N ['Trend Micro'] ['Control Manager'] This vulnerability allows remote attackers to bypass authentication on vulnerable installations of Trend Micro Control Manager. Authentication is not required to exploit this vulnerability. The specific flaw exists within cmdHandlerTVCSCommander.dll when executing opcode 0x1b07. The issue results from the lack of proper validation of a user-supplied string before using it to construct SQL queries. An attacker can leverage this in conjunction with other vulnerabilities to execute code in the context of the database. Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/solution/1117722 ['2017-03-23 - Vulnerability reported to vendor', '2017-08-02 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-17-493/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-493/",
+  "title": "Trend Micro Control Manager cmdHandlerTVCSCommander SQL Injection Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to bypass authentication on vulnerable installations of Trend Micro Control Manager. Authentication is not required to exploit this vulnerability. The specific flaw exists within cmdHandlerTVCSCommander.dll when executing opcode 0x1b07. The issue results from the lack of proper validation of a user-supplied string before using it to construct SQL queries. An attacker can leverage this in conjunction with other vulnerabilities to execute code in the context of the database.",
+  "zdi_can": "ZDI-CAN-4560",
+  "zdi_id": "ZDI-17-493"
+}

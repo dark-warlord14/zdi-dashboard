@@ -1,0 +1,28 @@
+{
+  "additional_details": "OPC Foundation has issued an update to correct this vulnerability. More details can be found at: https://files.opcfoundation.org/SecurityBulletins/OPC%20Foundation%20Security%20Bulletin%20CVE-2022-29865.pdf",
+  "advisory_date": "2022-06-16",
+  "affected_products": [
+    "UA .NET Standard"
+  ],
+  "affected_vendors": [
+    "OPC Foundation"
+  ],
+  "credit": "Daan Keuper & Thijs Alkemade from Computest",
+  "cve": "CVE-2022-29865",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-29865",
+  "cvss": 9.1,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+  "disclosure_timeline": [
+    "2022-05-09 - Vulnerability reported to vendor",
+    "2022-06-16 - Coordinated public release of advisory",
+    "2022-06-16 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-856 ZDI-CAN-17205 (Pwn2Own) OPC Foundation UA .NET Standard Improper Input Validation Authentication Bypass Vulnerability 2022-06-16 CVE-2022-29865 https://www.cve.org/CVERecord?id=CVE-2022-29865 9.1 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N ['OPC Foundation'] ['UA .NET Standard'] This vulnerability allows remote attackers to bypass authentication on affected installations of OPC Foundation UA .NET Standard. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of certificates. The issue results from the lack of proper validation of a user-supplied certificate. An attacker can leverage this vulnerability to bypass authentication on the system. OPC Foundation has issued an update to correct this vulnerability. More details can be found at: https://files.opcfoundation.org/SecurityBulletins/OPC%20Foundation%20Security%20Bulletin%20CVE-2022-29865.pdf ['2022-05-09 - Vulnerability reported to vendor', '2022-06-16 - Coordinated public release of advisory', '2022-06-16 - Advisory Updated'] Daan Keuper & Thijs Alkemade from Computest https://www.zerodayinitiative.com/advisories/ZDI-22-856/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-856/",
+  "title": "(Pwn2Own) OPC Foundation UA .NET Standard Improper Input Validation Authentication Bypass Vulnerability",
+  "updated_date": "2022-06-16",
+  "vulnerability_details": "This vulnerability allows remote attackers to bypass authentication on affected installations of OPC Foundation UA .NET Standard. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of certificates. The issue results from the lack of proper validation of a user-supplied certificate. An attacker can leverage this vulnerability to bypass authentication on the system.",
+  "zdi_can": "ZDI-CAN-17205",
+  "zdi_id": "ZDI-22-856"
+}

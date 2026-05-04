@@ -1,0 +1,27 @@
+{
+  "additional_details": "Symantec has issued an update to correct this vulnerability. More details can be found at: http://www.symantec.com/avcenter/security/Content/2008.08.14a.html",
+  "advisory_date": "2008-08-14",
+  "affected_products": [
+    "Veritas Storage Foundation"
+  ],
+  "affected_vendors": [
+    "Symantec"
+  ],
+  "credit": "Tenable Network Security",
+  "cve": "CVE-2008-3703",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2008-3703",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2008-06-26 - Vulnerability reported to vendor",
+    "2008-08-14 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-08-053 ZDI-CAN-359 Symantec Veritas Storage Foundation Scheduler Service NULL Session Authentication Bypass Vulnerability 2008-08-14 CVE-2008-3703 https://www.cve.org/CVERecord?id=CVE-2008-3703 ['Symantec'] ['Veritas Storage Foundation'] This vulnerability allows an attacker to execute arbitrary code on vulnerable installations of Symantec Veritas Storage Foundation. User interaction is not required to exploit this vulnerability. Authentication is not required to exploit this vulnerability. The specific flaw exists in the functionality exposed by the Storage Foundation for Windows Scheduler Service, VxSchedService.exe, which listens by default on TCP port 4888. The management console allows NULL NTLMSSP authentication thereby enabling a remote attacker to add, modify, or delete snapshots schedules and consequently run arbitrary code under the context of the SYSTEM user. Symantec has issued an update to correct this vulnerability. More details can be found at: http://www.symantec.com/avcenter/security/Content/2008.08.14a.html ['2008-06-26 - Vulnerability reported to vendor', '2008-08-14 - Coordinated public release of advisory'] Tenable Network Security https://www.zerodayinitiative.com/advisories/ZDI-08-053/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-08-053/",
+  "title": "Symantec Veritas Storage Foundation Scheduler Service NULL Session Authentication Bypass Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows an attacker to execute arbitrary code on vulnerable installations of Symantec Veritas Storage Foundation. User interaction is not required to exploit this vulnerability. Authentication is not required to exploit this vulnerability. The specific flaw exists in the functionality exposed by the Storage Foundation for Windows Scheduler Service, VxSchedService.exe, which listens by default on TCP port 4888. The management console allows NULL NTLMSSP authentication thereby enabling a remote attacker to add, modify, or delete snapshots schedules and consequently run arbitrary code under the context of the SYSTEM user.",
+  "zdi_can": "ZDI-CAN-359",
+  "zdi_id": "ZDI-08-053"
+}

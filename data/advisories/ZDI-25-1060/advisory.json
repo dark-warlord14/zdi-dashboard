@@ -1,0 +1,28 @@
+{
+  "additional_details": "Fixed in version 8.11 and all previous versions",
+  "advisory_date": "2025-12-10",
+  "affected_products": [
+    "Symphony"
+  ],
+  "affected_vendors": [
+    "Senstar"
+  ],
+  "credit": "Gert Keldermans & Nabeel Ahmed of NTT Belgium",
+  "cve": "CVE-2025-12491",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-12491",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+  "disclosure_timeline": [
+    "2025-07-08 - Vulnerability reported to vendor",
+    "2025-12-10 - Coordinated public release of advisory",
+    "2025-12-10 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-1060 ZDI-CAN-26908 Senstar Symphony FetchStoredLicense Information Disclosure Vulnerability 2025-12-10 CVE-2025-12491 https://www.cve.org/CVERecord?id=CVE-2025-12491 7.5 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N ['Senstar'] ['Symphony'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Senstar Symphony. Authentication is not required to exploit this vulnerability. The specific flaw exists within the implementation of FetchStoredLicense method. The issue results from the exposure of sensitive information. An attacker can leverage this vulnerability to disclose stored credentials, leading to further compromise. Fixed in version 8.11 and all previous versions ['2025-07-08 - Vulnerability reported to vendor', '2025-12-10 - Coordinated public release of advisory', '2025-12-10 - Advisory Updated'] Gert Keldermans & Nabeel Ahmed of NTT Belgium https://www.zerodayinitiative.com/advisories/ZDI-25-1060/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-1060/",
+  "title": "Senstar Symphony FetchStoredLicense Information Disclosure Vulnerability",
+  "updated_date": "2025-12-10",
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Senstar Symphony. Authentication is not required to exploit this vulnerability. The specific flaw exists within the implementation of FetchStoredLicense method. The issue results from the exposure of sensitive information. An attacker can leverage this vulnerability to disclose stored credentials, leading to further compromise.",
+  "zdi_can": "ZDI-CAN-26908",
+  "zdi_id": "ZDI-25-1060"
+}

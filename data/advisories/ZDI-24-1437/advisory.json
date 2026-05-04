@@ -1,0 +1,28 @@
+{
+  "additional_details": "Autodesk has issued an update to correct this vulnerability. More details can be found at: https://www.autodesk.com/trust/security-advisories/adsk-sa-2024-0019",
+  "advisory_date": "2024-10-31",
+  "affected_products": [
+    "AutoCAD"
+  ],
+  "affected_vendors": [
+    "Autodesk"
+  ],
+  "credit": "Rocco Calvi (@TecR0c) with TecSecurity",
+  "cve": "CVE-2024-8589",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-8589",
+  "cvss": 3.3,
+  "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+  "disclosure_timeline": [
+    "2024-08-22 - Vulnerability reported to vendor",
+    "2024-10-31 - Coordinated public release of advisory",
+    "2024-10-31 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-1437 ZDI-CAN-25138 Autodesk AutoCAD SLDPRT File Parsing Out-Of-Bounds Read Information Disclosure Vulnerability 2024-10-31 CVE-2024-8589 https://www.cve.org/CVERecord?id=CVE-2024-8589 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N ['Autodesk'] ['AutoCAD'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Autodesk AutoCAD. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of SLDPRT files. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated object. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process. Autodesk has issued an update to correct this vulnerability. More details can be found at: https://www.autodesk.com/trust/security-advisories/adsk-sa-2024-0019 ['2024-08-22 - Vulnerability reported to vendor', '2024-10-31 - Coordinated public release of advisory', '2024-10-31 - Advisory Updated'] Rocco Calvi (@TecR0c) with TecSecurity https://www.zerodayinitiative.com/advisories/ZDI-24-1437/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-1437/",
+  "title": "Autodesk AutoCAD SLDPRT File Parsing Out-Of-Bounds Read Information Disclosure Vulnerability",
+  "updated_date": "2024-10-31",
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Autodesk AutoCAD. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of SLDPRT files. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated object. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-25138",
+  "zdi_id": "ZDI-24-1437"
+}

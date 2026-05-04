@@ -1,0 +1,27 @@
+{
+  "additional_details": "ManageEngine has issued an update to correct this vulnerability. More details can be found at: https://support.zoho.com/portal/manageengine/helpcenter/articles/sql-injection-vulnerability-fix",
+  "advisory_date": "2015-04-15",
+  "affected_products": [
+    "OpManager"
+  ],
+  "affected_vendors": [
+    "ManageEngine"
+  ],
+  "credit": "Andrea Micalizzi (rgod)",
+  "cve": "CVE-2014-7868",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-7868",
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2014-08-18 - Vulnerability reported to vendor",
+    "2015-04-15 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-15-140 ZDI-CAN-2457 ManageEngine OpManager APMIntegBusinessViewHandler allDevicesRemoved SQL Injection Remote Code Execution Vulnerability 2015-04-15 CVE-2014-7868 https://www.cve.org/CVERecord?id=CVE-2014-7868 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['ManageEngine'] ['OpManager'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of ManageEngine OpManager. Authentication is not required to exploit this vulnerability. The specific flaw exists within the APMIntegBusinessViewHandler servlet. The issue lies in the failure to sanitize user-supplied input prior to executing a SQL statement. An attacker could leverage this vulnerability to execute code under the context of the database, which defaults to SYSTEM. ManageEngine has issued an update to correct this vulnerability. More details can be found at: https://support.zoho.com/portal/manageengine/helpcenter/articles/sql-injection-vulnerability-fix ['2014-08-18 - Vulnerability reported to vendor', '2015-04-15 - Coordinated public release of advisory'] Andrea Micalizzi (rgod) https://www.zerodayinitiative.com/advisories/ZDI-15-140/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-140/",
+  "title": "ManageEngine OpManager APMIntegBusinessViewHandler allDevicesRemoved SQL Injection Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of ManageEngine OpManager. Authentication is not required to exploit this vulnerability. The specific flaw exists within the APMIntegBusinessViewHandler servlet. The issue lies in the failure to sanitize user-supplied input prior to executing a SQL statement. An attacker could leverage this vulnerability to execute code under the context of the database, which defaults to SYSTEM.",
+  "zdi_can": "ZDI-CAN-2457",
+  "zdi_id": "ZDI-15-140"
+}

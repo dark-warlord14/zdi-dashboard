@@ -1,0 +1,27 @@
+{
+  "additional_details": "TeamViewer has issued an update to correct this vulnerability. More details can be found at: https://community.teamviewer.com/English/discussion/117794/august-updates-security-patches/p1",
+  "advisory_date": "2021-08-26",
+  "affected_products": [
+    "TeamViewer"
+  ],
+  "affected_vendors": [
+    "TeamViewer"
+  ],
+  "credit": "kdot",
+  "cve": "CVE-2021-34858",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2021-34858",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2021-04-27 - Vulnerability reported to vendor",
+    "2021-08-26 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-21-1001 ZDI-CAN-13606 Teamviewer TVS File Parsing Out-Of-Bounds Read Remote Code Execution Vulnerability 2021-08-26 CVE-2021-34858 https://www.cve.org/CVERecord?id=CVE-2021-34858 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['TeamViewer'] ['TeamViewer'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of TeamViewer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of TVS files. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated structure. An attacker can leverage this vulnerability to execute code in the context of the current process. TeamViewer has issued an update to correct this vulnerability. More details can be found at: https://community.teamviewer.com/English/discussion/117794/august-updates-security-patches/p1 ['2021-04-27 - Vulnerability reported to vendor', '2021-08-26 - Coordinated public release of advisory'] kdot https://www.zerodayinitiative.com/advisories/ZDI-21-1001/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-21-1001/",
+  "title": "Teamviewer TVS File Parsing Out-Of-Bounds Read Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of TeamViewer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of TVS files. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated structure. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-13606",
+  "zdi_id": "ZDI-21-1001"
+}

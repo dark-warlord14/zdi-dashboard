@@ -1,0 +1,28 @@
+{
+  "additional_details": "This vulnerability is being disclosed publicly without a patch in accordance with the ZDI 120 day deadline. 06/04/2021 \u2013 ZDI reported the vulnerability to ICS-CERT 10/05/2021 \u2013 ZDI requested the advisory link 10/18/2021 \u2013 ZDI requested an update 10/18/2021 \u2013 ICS-CERT indicated that the cases have been fixed 11/19/2021 \u2013 ZDI requested an update 01/11/2022 \u2013 ZDI requested the advisory link 02/14/2022 \u2013 ZDI notified ICS-CERT of the intention to publish the cases as 0-day advisories on 02/21/22",
+  "advisory_date": "2022-02-22",
+  "affected_products": [
+    "Alpha5"
+  ],
+  "affected_vendors": [
+    "Fuji Electric"
+  ],
+  "credit": "xina1i",
+  "cve": "CVE-2022-21168",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-21168",
+  "cvss": 3.3,
+  "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+  "disclosure_timeline": [
+    "2021-06-04 - Vulnerability reported to vendor",
+    "2022-02-22 - Coordinated public release of advisory",
+    "2022-03-23 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-387 ZDI-CAN-13876 (0Day) Fuji Electric Alpha5 C5V File Parsing Uninitialized Pointer Information Disclosure Vulnerability 2022-02-22 CVE-2022-21168 https://www.cve.org/CVERecord?id=CVE-2022-21168 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N ['Fuji Electric'] ['Alpha5'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Fuji Electric Alpha5. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of C5V files. The issue results from the lack of proper initialization of a pointer prior to accessing it. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process. This vulnerability is being disclosed publicly without a patch in accordance with the ZDI 120 day deadline. 06/04/2021 \u2013 ZDI reported the vulnerability to ICS-CERT 10/05/2021 \u2013 ZDI requested the advisory link 10/18/2021 \u2013 ZDI requested an update 10/18/2021 \u2013 ICS-CERT indicated that the cases have been fixed 11/19/2021 \u2013 ZDI requested an update 01/11/2022 \u2013 ZDI requested the advisory link 02/14/2022 \u2013 ZDI notified ICS-CERT of the intention to publish the cases as 0-day advisories on 02/21/22 ['2021-06-04 - Vulnerability reported to vendor', '2022-02-22 - Coordinated public release of advisory', '2022-03-23 - Advisory Updated'] xina1i https://www.zerodayinitiative.com/advisories/ZDI-22-387/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-387/",
+  "title": "(0Day) Fuji Electric Alpha5 C5V File Parsing Uninitialized Pointer Information Disclosure Vulnerability",
+  "updated_date": "2022-03-23",
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Fuji Electric Alpha5. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of C5V files. The issue results from the lack of proper initialization of a pointer prior to accessing it. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-13876",
+  "zdi_id": "ZDI-22-387"
+}

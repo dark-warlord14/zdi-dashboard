@@ -1,0 +1,27 @@
+{
+  "additional_details": null,
+  "advisory_date": "2013-12-15",
+  "affected_products": [
+    "IntegraXor"
+  ],
+  "affected_vendors": [
+    "Ecava"
+  ],
+  "credit": "Alphazorx aka technically.screwed",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2013-11-06 - Vulnerability reported to vendor",
+    "2013-12-15 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-13-277 ZDI-CAN-1988 Ecava IntegraXor Project Directory Information Disclosure Vulnerability 2013-12-15 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Ecava'] ['IntegraXor'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Ecava IntegraXor. Authentication is not required to exploit this vulnerability. The specific flaw exists within the storing of credentials in cleartext. The issue lies in the ability to bypass file access restrictions. This can be used along with the automatic creation of backup files, which are created whenever changes are made to a project. By abusing this flaw an attacker can disclose credentials and possibly leverage this situation to achieve remote code execution. ['2013-11-06 - Vulnerability reported to vendor', '2013-12-15 - Coordinated public release of advisory'] Alphazorx aka technically.screwed https://www.zerodayinitiative.com/advisories/ZDI-13-277/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-13-277/",
+  "title": "Ecava IntegraXor Project Directory Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Ecava IntegraXor. Authentication is not required to exploit this vulnerability. The specific flaw exists within the storing of credentials in cleartext. The issue lies in the ability to bypass file access restrictions. This can be used along with the automatic creation of backup files, which are created whenever changes are made to a project. By abusing this flaw an attacker can disclose credentials and possibly leverage this situation to achieve remote code execution.",
+  "zdi_can": "ZDI-CAN-1988",
+  "zdi_id": "ZDI-13-277"
+}

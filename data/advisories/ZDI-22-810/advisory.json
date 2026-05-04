@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-24499",
+  "advisory_date": "2022-06-01",
+  "affected_products": [
+    "Windows"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "JeongOh Kyea of THEORI",
+  "cve": "CVE-2022-24499",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-24499",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2021-12-30 - Vulnerability reported to vendor",
+    "2022-06-01 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-810 ZDI-CAN-16065 Microsoft Windows Installer Service Link Following Local Privilege Escalation Vulnerability 2022-06-01 CVE-2022-24499 https://www.cve.org/CVERecord?id=CVE-2022-24499 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Microsoft'] ['Windows'] This vulnerability allows local attackers to escalate privileges on affected installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Windows Installer service. By creating a symbolic link, an attacker can abuse the service to change permissions on an arbitrary file. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-24499 ['2021-12-30 - Vulnerability reported to vendor', '2022-06-01 - Coordinated public release of advisory'] JeongOh Kyea of THEORI https://www.zerodayinitiative.com/advisories/ZDI-22-810/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-810/",
+  "title": "Microsoft Windows Installer Service Link Following Local Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Windows Installer service. By creating a symbolic link, an attacker can abuse the service to change permissions on an arbitrary file. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-16065",
+  "zdi_id": "ZDI-22-810"
+}

@@ -1,0 +1,28 @@
+{
+  "additional_details": "Panda Security has issued an update to correct this vulnerability. More details can be found at: https://www.watchguard.com/wgrd-psirt/advisory/wgsa-2024-00017",
+  "advisory_date": "2024-11-20",
+  "affected_products": [
+    "Dome"
+  ],
+  "affected_vendors": [
+    "Panda Security"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2024-8424",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-8424",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2024-04-03 - Vulnerability reported to vendor",
+    "2024-11-20 - Coordinated public release of advisory",
+    "2024-11-20 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-1533 ZDI-CAN-23477 Panda Security Dome PSANHost Link Following Local Privilege Escalation Vulnerability 2024-11-20 CVE-2024-8424 https://www.cve.org/CVERecord?id=CVE-2024-8424 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Panda Security'] ['Dome'] This vulnerability allows local attackers to escalate privileges on affected installations of Panda Security Dome. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Application Host Service. By creating a symbolic link, an attacker can abuse the service to delete a file. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. Panda Security has issued an update to correct this vulnerability. More details can be found at: https://www.watchguard.com/wgrd-psirt/advisory/wgsa-2024-00017 ['2024-04-03 - Vulnerability reported to vendor', '2024-11-20 - Coordinated public release of advisory', '2024-11-20 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-24-1533/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-1533/",
+  "title": "Panda Security Dome PSANHost Link Following Local Privilege Escalation Vulnerability",
+  "updated_date": "2024-11-20",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Panda Security Dome. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Application Host Service. By creating a symbolic link, an attacker can abuse the service to delete a file. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-23477",
+  "zdi_id": "ZDI-24-1533"
+}

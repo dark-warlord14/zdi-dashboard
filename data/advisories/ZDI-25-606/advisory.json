@@ -1,0 +1,28 @@
+{
+  "additional_details": "Cisco has issued an update to correct this vulnerability. More details can be found at: https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-multi-3VpsXOxO",
+  "advisory_date": "2025-07-17",
+  "affected_products": [
+    "Identity Services Engine"
+  ],
+  "affected_vendors": [
+    "Cisco"
+  ],
+  "credit": "Kentaro Kawane of GMO Cybersecurity by Ierae",
+  "cve": "CVE-2025-20284",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-20284",
+  "cvss": 7.2,
+  "cvss_vector": "AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2025-05-06 - Vulnerability reported to vendor",
+    "2025-07-17 - Coordinated public release of advisory",
+    "2025-07-17 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-606 ZDI-CAN-26482 Cisco Identity Services Engine handleStrongSwanTunnelStatus Deserialization of Untrusted Data Remote Code Execution Vulnerability 2025-07-17 CVE-2025-20284 https://www.cve.org/CVERecord?id=CVE-2025-20284 7.2 AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H ['Cisco'] ['Identity Services Engine'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Cisco Identity Services Engine. Authentication is required to exploit this vulnerability. The specific flaw exists within the implementation of the handleStrongSwanTunnelStatus method. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the iseadminportal user. Cisco has issued an update to correct this vulnerability. More details can be found at: https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-multi-3VpsXOxO ['2025-05-06 - Vulnerability reported to vendor', '2025-07-17 - Coordinated public release of advisory', '2025-07-17 - Advisory Updated'] Kentaro Kawane of GMO Cybersecurity by Ierae https://www.zerodayinitiative.com/advisories/ZDI-25-606/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-606/",
+  "title": "Cisco Identity Services Engine handleStrongSwanTunnelStatus Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+  "updated_date": "2025-07-17",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Cisco Identity Services Engine. Authentication is required to exploit this vulnerability. The specific flaw exists within the implementation of the handleStrongSwanTunnelStatus method. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the iseadminportal user.",
+  "zdi_can": "ZDI-CAN-26482",
+  "zdi_id": "ZDI-25-606"
+}

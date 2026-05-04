@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/en-us/library/security/MS15-069",
+  "advisory_date": "2015-07-14",
+  "affected_products": [
+    "Internet Explorer"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Ashutosh Mehra (https://twitter.com/ashutoshmehra)",
+  "cve": "CVE-2015-2368",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-2368",
+  "cvss": 6.9,
+  "cvss_vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2015-02-04 - Vulnerability reported to vendor",
+    "2015-07-14 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-15-325 ZDI-CAN-2726 Microsoft Internet Explorer DLL Planting Sandbox Escape Vulnerability 2015-07-14 CVE-2015-2368 https://www.cve.org/CVERecord?id=CVE-2015-2368 6.9 AV:L/AC:M/Au:N/C:C/I:C/A:C ['Microsoft'] ['Internet Explorer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of DLL loading by the Internet Explorer broker process, which can be induced to load a library in its context from a directory controlled by the low-integrity process. An attacker can leverage this vulnerability to execute code under the context of the user at medium integrity. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/en-us/library/security/MS15-069 ['2015-02-04 - Vulnerability reported to vendor', '2015-07-14 - Coordinated public release of advisory'] Ashutosh Mehra (https://twitter.com/ashutoshmehra) https://www.zerodayinitiative.com/advisories/ZDI-15-325/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-325/",
+  "title": "Microsoft Internet Explorer DLL Planting Sandbox Escape Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of DLL loading by the Internet Explorer broker process, which can be induced to load a library in its context from a directory controlled by the low-integrity process. An attacker can leverage this vulnerability to execute code under the context of the user at medium integrity.",
+  "zdi_can": "ZDI-CAN-2726",
+  "zdi_id": "ZDI-15-325"
+}

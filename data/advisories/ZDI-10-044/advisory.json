@@ -1,0 +1,27 @@
+{
+  "additional_details": "http://support.apple.com/kb/HT4104 http://support.apple.com/kb/HT4070",
+  "advisory_date": "2010-04-02",
+  "affected_products": [
+    "Quicktime"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "Moritz Jodeit of n.runs AG Anonymous",
+  "cve": "CVE-2010-0520",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2010-0520",
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2009-11-06 - Vulnerability reported to vendor",
+    "2010-04-02 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-10-044 ZDI-CAN-601 Apple QuickTime FLI LinePacket Remote Code Execution Vulnerability 2010-04-02 CVE-2010-0520 https://www.cve.org/CVERecord?id=CVE-2010-0520 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Apple'] ['Quicktime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple QuickTime. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within QuickTimeAuthoring.qtx during the parsing of DELTA_FLI chunks stored within a malformed .fli file. The applications trusts a user-supplied length for decompression which can be modified to copy more data than necessary leading to a buffer overflow. Successful exploitation can lead to code execution under the context of the current user. http://support.apple.com/kb/HT4104 http://support.apple.com/kb/HT4070 ['2009-11-06 - Vulnerability reported to vendor', '2010-04-02 - Coordinated public release of advisory'] Moritz Jodeit of n.runs AG Anonymous https://www.zerodayinitiative.com/advisories/ZDI-10-044/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-044/",
+  "title": "Apple QuickTime FLI LinePacket Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple QuickTime. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within QuickTimeAuthoring.qtx during the parsing of DELTA_FLI chunks stored within a malformed .fli file. The applications trusts a user-supplied length for decompression which can be modified to copy more data than necessary leading to a buffer overflow. Successful exploitation can lead to code execution under the context of the current user.",
+  "zdi_can": "ZDI-CAN-601",
+  "zdi_id": "ZDI-10-044"
+}

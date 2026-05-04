@@ -1,0 +1,28 @@
+{
+  "additional_details": "Quest has issued an update to correct this vulnerability. More details can be found at: https://support.quest.com/kace-systems-management-appliance/kb/254193/security-vulnerability-patch-sec2018_20180410-",
+  "advisory_date": "2018-09-18",
+  "affected_products": [
+    "KACE Systems Management"
+  ],
+  "affected_vendors": [
+    "Quest"
+  ],
+  "credit": "Alain Homewood (Insomnia Security)",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 5.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+  "disclosure_timeline": [
+    "2018-04-11 - Vulnerability reported to vendor",
+    "2018-09-18 - Coordinated public release of advisory",
+    "2018-09-28 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-1062 ZDI-CAN-6075 Quest KACE Systems Management run_report SQL Injection Information Disclosure Vulnerability 2018-09-18 5.0 AV:N/AC:L/Au:N/C:P/I:N/A:N ['Quest'] ['KACE Systems Management'] This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Quest KACE Systems Management. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of the ID parameter provided to the run_report page. The issue results from the lack of proper validation of a user-supplied string before using it to construct SQL queries. An attacker can leverage this vulnerability to disclose sensitive information under the context of the database. Quest has issued an update to correct this vulnerability. More details can be found at: https://support.quest.com/kace-systems-management-appliance/kb/254193/security-vulnerability-patch-sec2018_20180410- ['2018-04-11 - Vulnerability reported to vendor', '2018-09-18 - Coordinated public release of advisory', '2018-09-28 - Advisory Updated'] Alain Homewood (Insomnia Security) https://www.zerodayinitiative.com/advisories/ZDI-18-1062/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-1062/",
+  "title": "Quest KACE Systems Management run_report SQL Injection Information Disclosure Vulnerability",
+  "updated_date": "2018-09-28",
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Quest KACE Systems Management. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of the ID parameter provided to the run_report page. The issue results from the lack of proper validation of a user-supplied string before using it to construct SQL queries. An attacker can leverage this vulnerability to disclose sensitive information under the context of the database.",
+  "zdi_can": "ZDI-CAN-6075",
+  "zdi_id": "ZDI-18-1062"
+}

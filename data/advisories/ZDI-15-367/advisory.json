@@ -1,0 +1,27 @@
+{
+  "additional_details": "BitTorrent has issued an update to correct this vulnerability. More details can be found at: https://github.com/bittorrent/bootstrap-dht/commit/e809ea80e3527e32c40756eddd8b2ae44bc3af1a",
+  "advisory_date": "2015-07-29",
+  "affected_products": [
+    "Bootstrap"
+  ],
+  "affected_vendors": [
+    "BitTorrent"
+  ],
+  "credit": "Team_LPJ@BoB",
+  "cve": "CVE-2015-5685",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-5685",
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2015-04-13 - Vulnerability reported to vendor",
+    "2015-07-29 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-15-367 ZDI-CAN-2794 BitTorrent Bootstrap Improper Indexing Remote Code Execution Vulnerability 2015-07-29 CVE-2015-5685 https://www.cve.org/CVERecord?id=CVE-2015-5685 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['BitTorrent'] ['Bootstrap'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of BitTorrent Bootstrap. User interaction is not required to exploit this vulnerability. The specific flaw exists within the handling of arguments passed to the lazy_bdecode function. By sending a specific crafted packet an attacker can access data outside the bounds of an allocated buffer. An attacker can leverage this vulnerability to execute code under the context of the current process. BitTorrent has issued an update to correct this vulnerability. More details can be found at: https://github.com/bittorrent/bootstrap-dht/commit/e809ea80e3527e32c40756eddd8b2ae44bc3af1a ['2015-04-13 - Vulnerability reported to vendor', '2015-07-29 - Coordinated public release of advisory'] Team_LPJ@BoB https://www.zerodayinitiative.com/advisories/ZDI-15-367/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-367/",
+  "title": "BitTorrent Bootstrap Improper Indexing Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of BitTorrent Bootstrap. User interaction is not required to exploit this vulnerability. The specific flaw exists within the handling of arguments passed to the lazy_bdecode function. By sending a specific crafted packet an attacker can access data outside the bounds of an allocated buffer. An attacker can leverage this vulnerability to execute code under the context of the current process.",
+  "zdi_can": "ZDI-CAN-2794",
+  "zdi_id": "ZDI-15-367"
+}

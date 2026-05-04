@@ -1,0 +1,28 @@
+{
+  "additional_details": "Cisco has issued an update to correct this vulnerability. More details can be found at: https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20180718-webex-rce",
+  "advisory_date": "2018-08-31",
+  "affected_products": [
+    "WebEx"
+  ],
+  "affected_vendors": [
+    "Cisco"
+  ],
+  "credit": "Steven Seeley (mr_me) of Offensive Security",
+  "cve": "CVE-2018-0379",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2018-0379",
+  "cvss": 5.1,
+  "cvss_vector": "AV:N/AC:H/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2018-03-23 - Vulnerability reported to vendor",
+    "2018-08-31 - Coordinated public release of advisory",
+    "2018-08-31 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-976 ZDI-CAN-5722 Cisco WebEx Network Recording Player NBRQA Integer Overflow Remote Code Execution Vulnerability 2018-08-31 CVE-2018-0379 https://www.cve.org/CVERecord?id=CVE-2018-0379 5.1 AV:N/AC:H/Au:N/C:P/I:P/A:P ['Cisco'] ['WebEx'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Cisco WebEx Network Recording Player. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the NBRQA.DLL module. Crafted data in an ARF file can trigger an integer overflow before allocating a buffer. An attacker can leverage this vulnerability to execute code under the context of the current process. Cisco has issued an update to correct this vulnerability. More details can be found at: https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20180718-webex-rce ['2018-03-23 - Vulnerability reported to vendor', '2018-08-31 - Coordinated public release of advisory', '2018-08-31 - Advisory Updated'] Steven Seeley (mr_me) of Offensive Security https://www.zerodayinitiative.com/advisories/ZDI-18-976/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-976/",
+  "title": "Cisco WebEx Network Recording Player NBRQA Integer Overflow Remote Code Execution Vulnerability",
+  "updated_date": "2018-08-31",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Cisco WebEx Network Recording Player. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the NBRQA.DLL module. Crafted data in an ARF file can trigger an integer overflow before allocating a buffer. An attacker can leverage this vulnerability to execute code under the context of the current process.",
+  "zdi_can": "ZDI-CAN-5722",
+  "zdi_id": "ZDI-18-976"
+}

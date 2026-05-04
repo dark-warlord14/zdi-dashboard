@@ -1,0 +1,27 @@
+{
+  "additional_details": "Lexmark has issued an update to correct this vulnerability. More details can be found at: https://publications.lexmark.com/publications/security-alerts/CVE-2023-26066.pdf",
+  "advisory_date": "2023-05-17",
+  "affected_products": [
+    "MC3224i"
+  ],
+  "affected_vendors": [
+    "Lexmark"
+  ],
+  "credit": "NCC Group EDG (@alexjplaskett @saidelike @FidgetingBits @_mccaulay)",
+  "cve": "CVE-2023-26066",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-26066",
+  "cvss": 8.8,
+  "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2023-01-24 - Vulnerability reported to vendor",
+    "2023-05-17 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-666 ZDI-CAN-19685 (Pwn2Own) Lexmark MC3224i pagemark Out-Of-Bounds Read Remote Code Execution Vulnerability 2023-05-17 CVE-2023-26066 https://www.cve.org/CVERecord?id=CVE-2023-26066 8.8 AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['Lexmark'] ['MC3224i'] This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Lexmark MC3224i printers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the pagemark service. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated data structure. An attacker can leverage this vulnerability to execute arbitrary code in the context of the admin user. Lexmark has issued an update to correct this vulnerability. More details can be found at: https://publications.lexmark.com/publications/security-alerts/CVE-2023-26066.pdf ['2023-01-24 - Vulnerability reported to vendor', '2023-05-17 - Coordinated public release of advisory'] NCC Group EDG (@alexjplaskett @saidelike @FidgetingBits @_mccaulay) https://www.zerodayinitiative.com/advisories/ZDI-23-666/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-666/",
+  "title": "(Pwn2Own) Lexmark MC3224i pagemark Out-Of-Bounds Read Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Lexmark MC3224i printers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the pagemark service. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated data structure. An attacker can leverage this vulnerability to execute arbitrary code in the context of the admin user.",
+  "zdi_can": "ZDI-CAN-19685",
+  "zdi_id": "ZDI-23-666"
+}

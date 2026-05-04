@@ -1,0 +1,28 @@
+{
+  "additional_details": "Advantech has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-18-135-01",
+  "advisory_date": "2018-05-18",
+  "affected_products": [
+    "WebAccess Node"
+  ],
+  "affected_vendors": [
+    "Advantech"
+  ],
+  "credit": "Mat Powell - Trend Micro Zero Day Initiative",
+  "cve": "CVE-2018-7499",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2018-7499",
+  "cvss": 9.3,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2018-02-28 - Vulnerability reported to vendor",
+    "2018-05-18 - Coordinated public release of advisory",
+    "2018-05-18 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-509 ZDI-CAN-5684 Advantech WebAccess Node notify2 pw Stack-based Buffer Overflow Remote Code Execution Vulnerability 2018-05-18 CVE-2018-7499 https://www.cve.org/CVERecord?id=CVE-2018-7499 9.3 AV:N/AC:M/Au:N/C:C/I:C/A:C ['Advantech'] ['WebAccess Node'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Advantech WebAccess Node. Authentication is not required to exploit this vulnerability. The specific flaw exists within notify2.exe, which is accessed through the 0x2711 IOCTL in the webvrpcs process. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this vulnerability to execute code under the context of Administrator. Advantech has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-18-135-01 ['2018-02-28 - Vulnerability reported to vendor', '2018-05-18 - Coordinated public release of advisory', '2018-05-18 - Advisory Updated'] Mat Powell - Trend Micro Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-18-509/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-509/",
+  "title": "Advantech WebAccess Node notify2 pw Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+  "updated_date": "2018-05-18",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Advantech WebAccess Node. Authentication is not required to exploit this vulnerability. The specific flaw exists within notify2.exe, which is accessed through the 0x2711 IOCTL in the webvrpcs process. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this vulnerability to execute code under the context of Administrator.",
+  "zdi_can": "ZDI-CAN-5684",
+  "zdi_id": "ZDI-18-509"
+}

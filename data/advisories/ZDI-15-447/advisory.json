@@ -1,0 +1,27 @@
+{
+  "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/flash-player/apsb15-23.html",
+  "advisory_date": "2015-09-21",
+  "affected_products": [
+    "Flash"
+  ],
+  "affected_vendors": [
+    "Adobe"
+  ],
+  "credit": "bilou",
+  "cve": "CVE-2015-5570",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-5570",
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2015-08-03 - Vulnerability reported to vendor",
+    "2015-09-21 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-15-447 ZDI-CAN-3110 Adobe Flash AVSegmentedSource setSubscribedTags Uninitialized Memory Remote Code Execution Vulnerability 2015-09-21 CVE-2015-5570 https://www.cve.org/CVERecord?id=CVE-2015-5570 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Adobe'] ['Flash'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Adobe Flash. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of AVSegmentedSource's setSubscribedTags method. By manipulating the properties of an AVSegmentedSource object and then calling the setSubscribedTags method, an attacker can dereference uninitialized memory. An attacker can leverage this vulnerability to execute arbitrary code under the context of the current process. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/flash-player/apsb15-23.html ['2015-08-03 - Vulnerability reported to vendor', '2015-09-21 - Coordinated public release of advisory'] bilou https://www.zerodayinitiative.com/advisories/ZDI-15-447/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-447/",
+  "title": "Adobe Flash AVSegmentedSource setSubscribedTags Uninitialized Memory Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Adobe Flash. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of AVSegmentedSource's setSubscribedTags method. By manipulating the properties of an AVSegmentedSource object and then calling the setSubscribedTags method, an attacker can dereference uninitialized memory. An attacker can leverage this vulnerability to execute arbitrary code under the context of the current process.",
+  "zdi_can": "ZDI-CAN-3110",
+  "zdi_id": "ZDI-15-447"
+}

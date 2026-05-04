@@ -1,0 +1,28 @@
+{
+  "additional_details": "Fixed in version 3.10.730.71519",
+  "advisory_date": "2025-09-30",
+  "affected_products": [
+    "Synapse 3"
+  ],
+  "affected_vendors": [
+    "Razer"
+  ],
+  "credit": "0x_alibabas (x.com/0x_alibabas)",
+  "cve": "CVE-2025-9869",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-9869",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2025-03-30 - Vulnerability reported to vendor",
+    "2025-09-30 - Coordinated public release of advisory",
+    "2025-09-30 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-919 ZDI-CAN-26374 Razer Synapse 3 Macro Module Link Following Local Privilege Escalation Vulnerability 2025-09-30 CVE-2025-9869 https://www.cve.org/CVERecord?id=CVE-2025-9869 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Razer'] ['Synapse 3'] This vulnerability allows local attackers to escalate privileges on affected installations of Razer Synapse 3. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Razer Synapse Service. By creating a symbolic link, an attacker can abuse the service to delete arbitrary files. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. Fixed in version 3.10.730.71519 ['2025-03-30 - Vulnerability reported to vendor', '2025-09-30 - Coordinated public release of advisory', '2025-09-30 - Advisory Updated'] 0x_alibabas (x.com/0x_alibabas) https://www.zerodayinitiative.com/advisories/ZDI-25-919/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-919/",
+  "title": "Razer Synapse 3 Macro Module Link Following Local Privilege Escalation Vulnerability",
+  "updated_date": "2025-09-30",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Razer Synapse 3. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Razer Synapse Service. By creating a symbolic link, an attacker can abuse the service to delete arbitrary files. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-26374",
+  "zdi_id": "ZDI-25-919"
+}

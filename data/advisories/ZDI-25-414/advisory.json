@@ -1,0 +1,28 @@
+{
+  "additional_details": "Ruby has issued an update to correct this vulnerability. More details can be found at: https://github.com/ruby/webrick/commit/ee60354bcb84ec33b9245e1d1aa6e1f7e8132101#diff-ad02984d873efb089aa51551bc6b7d307a53e0ba1ac439e91d69c2e58a478864",
+  "advisory_date": "2025-06-23",
+  "affected_products": [
+    "WEBrick"
+  ],
+  "affected_vendors": [
+    "Ruby"
+  ],
+  "credit": "yadhukrishnam",
+  "cve": "CVE-2025-6442",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-6442",
+  "cvss": 6.5,
+  "cvss_vector": "AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:H/A:N",
+  "disclosure_timeline": [
+    "2023-09-13 - Vulnerability reported to vendor",
+    "2025-06-23 - Coordinated public release of advisory",
+    "2025-06-23 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-414 ZDI-CAN-21876 Ruby WEBrick read_header HTTP Request Smuggling Vulnerability 2025-06-23 CVE-2025-6442 https://www.cve.org/CVERecord?id=CVE-2025-6442 6.5 AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:H/A:N ['Ruby'] ['WEBrick'] This vulnerability allows remote attackers to smuggle arbitrary HTTP requests on affected installations of Ruby WEBrick. This issue is exploitable when the product is deployed behind an HTTP proxy that fulfills specific conditions. The specific flaw exists within the read_headers method. The issue results from the inconsistent parsing of terminators of HTTP headers. An attacker can leverage this vulnerability to smuggle arbitrary HTTP requests. Ruby has issued an update to correct this vulnerability. More details can be found at: https://github.com/ruby/webrick/commit/ee60354bcb84ec33b9245e1d1aa6e1f7e8132101#diff-ad02984d873efb089aa51551bc6b7d307a53e0ba1ac439e91d69c2e58a478864 ['2023-09-13 - Vulnerability reported to vendor', '2025-06-23 - Coordinated public release of advisory', '2025-06-23 - Advisory Updated'] yadhukrishnam https://www.zerodayinitiative.com/advisories/ZDI-25-414/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-414/",
+  "title": "Ruby WEBrick read_header HTTP Request Smuggling Vulnerability",
+  "updated_date": "2025-06-23",
+  "vulnerability_details": "This vulnerability allows remote attackers to smuggle arbitrary HTTP requests on affected installations of Ruby WEBrick. This issue is exploitable when the product is deployed behind an HTTP proxy that fulfills specific conditions. The specific flaw exists within the read_headers method. The issue results from the inconsistent parsing of terminators of HTTP headers. An attacker can leverage this vulnerability to smuggle arbitrary HTTP requests.",
+  "zdi_can": "ZDI-CAN-21876",
+  "zdi_id": "ZDI-25-414"
+}

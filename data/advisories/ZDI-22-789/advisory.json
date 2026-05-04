@@ -1,0 +1,27 @@
+{
+  "additional_details": "Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://helpcenter.trendmicro.com/en-us/article/tmka-11017",
+  "advisory_date": "2022-05-26",
+  "affected_products": [
+    "Maximum Security"
+  ],
+  "affected_vendors": [
+    "Trend Micro"
+  ],
+  "credit": "Amir Ahmadi (@KingAmir )",
+  "cve": "CVE-2022-30687",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-30687",
+  "cvss": 6.1,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:H",
+  "disclosure_timeline": [
+    "2022-01-14 - Vulnerability reported to vendor",
+    "2022-05-26 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-789 ZDI-CAN-15739 Trend Micro Maximum Security Link Following Arbitrary File Deletion Vulnerability 2022-05-26 CVE-2022-30687 https://www.cve.org/CVERecord?id=CVE-2022-30687 6.1 AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:H ['Trend Micro'] ['Maximum Security'] This vulnerability allows local attackers to delete arbitrary files on affected installations of Trend Micro Maximum Security. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the implementation of the Secure Erase feature. The issue results from the lack of proper validation of a user-supplied link prior to using it in file operations. An attacker can leverage this vulnerability to delete files in the context of SYSTEM. Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://helpcenter.trendmicro.com/en-us/article/tmka-11017 ['2022-01-14 - Vulnerability reported to vendor', '2022-05-26 - Coordinated public release of advisory'] Amir Ahmadi (@KingAmir ) https://www.zerodayinitiative.com/advisories/ZDI-22-789/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-789/",
+  "title": "Trend Micro Maximum Security Link Following Arbitrary File Deletion Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to delete arbitrary files on affected installations of Trend Micro Maximum Security. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the implementation of the Secure Erase feature. The issue results from the lack of proper validation of a user-supplied link prior to using it in file operations. An attacker can leverage this vulnerability to delete files in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-15739",
+  "zdi_id": "ZDI-22-789"
+}

@@ -1,0 +1,28 @@
+{
+  "additional_details": "04/28/23 \u2013 ZDI reported the vulnerability to the vendor. 05/02/23 \u2013 The vendor acknowledged the report. 05/23/23 \u2013 The vendor states this case doesn\u2019t meet the bar for immediate servicing. 05/23/23 \u2013 ZDI informed the vendor of our intention to publish this as a zero-day advisory. 02/05/24 \u2013 The vendor states this case might be fixed but would verify. 08/05/24 \u2013 The ZDI informed the vendor that we are publishing this case as a zero-day advisory on 08/06/24. -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the application",
+  "advisory_date": "2024-08-06",
+  "affected_products": [
+    "Windows"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Sergey Kornienko (@b1thvn_)",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 5.5,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+  "disclosure_timeline": [
+    "2023-04-28 - Vulnerability reported to vendor",
+    "2024-08-06 - Coordinated public release of advisory",
+    "2024-08-15 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-1090 ZDI-CAN-20571 (0Day) Microsoft Windows DirectComposition Null Pointer Dereference Denial-of-Service Vulnerability 2024-08-06 5.5 AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H ['Microsoft'] ['Windows'] This vulnerability allows local attackers to create a denial-of-service condition on affected installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the implementation of DirectComposition in the win32kbase driver. Crafted parameters to a system call can trigger a dereference of a null pointer. An attacker can leverage this vulnerability to create a denial-of-service condition on the system. 04/28/23 \u2013 ZDI reported the vulnerability to the vendor. 05/02/23 \u2013 The vendor acknowledged the report. 05/23/23 \u2013 The vendor states this case doesn\u2019t meet the bar for immediate servicing. 05/23/23 \u2013 ZDI informed the vendor of our intention to publish this as a zero-day advisory. 02/05/24 \u2013 The vendor states this case might be fixed but would verify. 08/05/24 \u2013 The ZDI informed the vendor that we are publishing this case as a zero-day advisory on 08/06/24. -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the application ['2023-04-28 - Vulnerability reported to vendor', '2024-08-06 - Coordinated public release of advisory', '2024-08-15 - Advisory Updated'] Sergey Kornienko (@b1thvn_) https://www.zerodayinitiative.com/advisories/ZDI-24-1090/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-1090/",
+  "title": "(0Day) Microsoft Windows DirectComposition Null Pointer Dereference Denial-of-Service Vulnerability",
+  "updated_date": "2024-08-15",
+  "vulnerability_details": "This vulnerability allows local attackers to create a denial-of-service condition on affected installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the implementation of DirectComposition in the win32kbase driver. Crafted parameters to a system call can trigger a dereference of a null pointer. An attacker can leverage this vulnerability to create a denial-of-service condition on the system.",
+  "zdi_can": "ZDI-CAN-20571",
+  "zdi_id": "ZDI-24-1090"
+}

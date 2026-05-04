@@ -1,0 +1,27 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT3403",
+  "advisory_date": "2009-01-21",
+  "affected_products": [
+    "Quicktime"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2009-0007",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2009-0007",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2008-06-25 - Vulnerability reported to vendor",
+    "2009-01-21 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-09-008 ZDI-CAN-352 Apple QuickTime STSD JPEG Atom Heap Corruption Vulnerability 2009-01-21 CVE-2009-0007 https://www.cve.org/CVERecord?id=CVE-2009-0007 ['Apple'] ['Quicktime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple QuickTime. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The specific flaw exists in the handling of JPEG atoms embedded in STSD atoms within the function JPEG_DComponentDispatch(). When the image width data in this atom is modified, a heap corruption occurs which can be further leveraged to execute arbitrary code under the context of the current user. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT3403 ['2008-06-25 - Vulnerability reported to vendor', '2009-01-21 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-09-008/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-09-008/",
+  "title": "Apple QuickTime STSD JPEG Atom Heap Corruption Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple QuickTime. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The specific flaw exists in the handling of JPEG atoms embedded in STSD atoms within the function JPEG_DComponentDispatch(). When the image width data in this atom is modified, a heap corruption occurs which can be further leveraged to execute arbitrary code under the context of the current user.",
+  "zdi_can": "ZDI-CAN-352",
+  "zdi_id": "ZDI-09-008"
+}

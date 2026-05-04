@@ -1,0 +1,27 @@
+{
+  "additional_details": "Advantech has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-18-298-02",
+  "advisory_date": "2018-10-31",
+  "affected_products": [
+    "WebAccess"
+  ],
+  "affected_vendors": [
+    "Advantech"
+  ],
+  "credit": "Mat Powell of Trend Micro Zero Day Initiative",
+  "cve": "CVE-2018-17908",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2018-17908",
+  "cvss": 8.4,
+  "cvss_vector": "AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2018-08-20 - Vulnerability reported to vendor",
+    "2018-10-31 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-1329 ZDI-CAN-7154 Advantech WebAccess Node Improper Access Control Privilege Escalation Vulnerability 2018-10-31 CVE-2018-17908 https://www.cve.org/CVERecord?id=CVE-2018-17908 8.4 AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['Advantech'] ['WebAccess'] This vulnerability allows local attackers to escalate privileges on vulnerable installations of Advantech WebAccess Node. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the access controls that are set and modified during the installation of the product. The product installation weakens access control restrictions by disabling User Account Control. An attacker can leverage this vulnerability to execute arbitrary code in the context of the Administrator. Advantech has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-18-298-02 ['2018-08-20 - Vulnerability reported to vendor', '2018-10-31 - Coordinated public release of advisory'] Mat Powell of Trend Micro Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-18-1329/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-1329/",
+  "title": "Advantech WebAccess Node Improper Access Control Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on vulnerable installations of Advantech WebAccess Node. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the access controls that are set and modified during the installation of the product. The product installation weakens access control restrictions by disabling User Account Control. An attacker can leverage this vulnerability to execute arbitrary code in the context of the Administrator.",
+  "zdi_can": "ZDI-CAN-7154",
+  "zdi_id": "ZDI-18-1329"
+}

@@ -1,0 +1,27 @@
+{
+  "additional_details": "Mozilla has issued an update to correct this vulnerability. More details can be found at: http://www.mozilla.org/security/announce/2013/mfsa2013-12.html",
+  "advisory_date": "2013-02-01",
+  "affected_products": [
+    "Firefox"
+  ],
+  "affected_vendors": [
+    "Mozilla"
+  ],
+  "credit": "pa_kt / twitter.com/pa_kt",
+  "cve": "CVE-2013-0750",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2013-0750",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2012-10-24 - Vulnerability reported to vendor",
+    "2013-02-01 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-13-003 ZDI-CAN-1473 Mozilla Firefox String Replacement Heap Corruption Remote Code Execution Vulnerability 2013-02-01 CVE-2013-0750 https://www.cve.org/CVERecord?id=CVE-2013-0750 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Mozilla'] ['Firefox'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Mozilla Firefox. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the way Mozilla Firefox handles the concatenation of strings. By causing concatenation of specially crafted strings, an integer overflow may occur resulting in an undersized allocation. Subsequent use of this undersized memory allocation results in memory corruption, which may be exploited by an attacker to gain remote code execution. Mozilla has issued an update to correct this vulnerability. More details can be found at: http://www.mozilla.org/security/announce/2013/mfsa2013-12.html ['2012-10-24 - Vulnerability reported to vendor', '2013-02-01 - Coordinated public release of advisory'] pa_kt / twitter.com/pa_kt https://www.zerodayinitiative.com/advisories/ZDI-13-003/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-13-003/",
+  "title": "Mozilla Firefox String Replacement Heap Corruption Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Mozilla Firefox. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the way Mozilla Firefox handles the concatenation of strings. By causing concatenation of specially crafted strings, an integer overflow may occur resulting in an undersized allocation. Subsequent use of this undersized memory allocation results in memory corruption, which may be exploited by an attacker to gain remote code execution.",
+  "zdi_can": "ZDI-CAN-1473",
+  "zdi_id": "ZDI-13-003"
+}

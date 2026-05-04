@@ -1,0 +1,27 @@
+{
+  "additional_details": "http://support.apple.com/kb/HT4225 http://support.apple.com/kb/HT4070",
+  "advisory_date": "2010-08-09",
+  "affected_products": [
+    "Safari"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "wushi of team509",
+  "cve": "CVE-2010-0048",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2010-0048",
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2010-06-01 - Vulnerability reported to vendor",
+    "2010-08-09 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-10-146 ZDI-CAN-783 Apple Webkit Anchor Tag Mouse Click Event Dispatch Remote Code Execution Vulnerability 2010-08-09 CVE-2010-0048 https://www.cve.org/CVERecord?id=CVE-2010-0048 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Apple'] ['Safari'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple Safari's Webkit. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the library's support for mouse events on a particular element. If a mouse event is dispatched to an element when one of it's attributes is undefined, the library will dereference a memory pointer pointing to arbitrary data. Usage of this element can then lead to code execution under the context of the application. http://support.apple.com/kb/HT4225 http://support.apple.com/kb/HT4070 ['2010-06-01 - Vulnerability reported to vendor', '2010-08-09 - Coordinated public release of advisory'] wushi of team509 https://www.zerodayinitiative.com/advisories/ZDI-10-146/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-146/",
+  "title": "Apple Webkit Anchor Tag Mouse Click Event Dispatch Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple Safari's Webkit. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the library's support for mouse events on a particular element. If a mouse event is dispatched to an element when one of it's attributes is undefined, the library will dereference a memory pointer pointing to arbitrary data. Usage of this element can then lead to code execution under the context of the application.",
+  "zdi_can": "ZDI-CAN-783",
+  "zdi_id": "ZDI-10-146"
+}

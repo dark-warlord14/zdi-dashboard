@@ -1,0 +1,27 @@
+{
+  "additional_details": "Joyent has issued an update to correct this vulnerability. More details can be found at: https://help.joyent.com/entries/98788667-Security-Advisory-ZDI-CAN-3263-ZDI-CAN-3284-and-ZDI-CAN-3364-Vulnerabilities",
+  "advisory_date": "2016-02-18",
+  "affected_products": [
+    "SmartOS"
+  ],
+  "affected_vendors": [
+    "Joyent"
+  ],
+  "credit": "Ben Murphy",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 6.9,
+  "cvss_vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2015-09-21 - Vulnerability reported to vendor",
+    "2016-02-18 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-16-168 ZDI-CAN-3263 Joyent SmartOS dtrace Zone Escape Integer Overflow Privilege Escalation Vulnerability 2016-02-18 6.9 AV:L/AC:M/Au:N/C:C/I:C/A:C ['Joyent'] ['SmartOS'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Joyent SmartOS. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the dtrace implementation in SmartOS. A method within this implementation allows for an integer overflow to occur which results in the allocation of a buffer that is too small which is then overflowed. This allows an attacker to elevate privileges to escape a zone and achieve privileged execution on the global zone. Joyent has issued an update to correct this vulnerability. More details can be found at: https://help.joyent.com/entries/98788667-Security-Advisory-ZDI-CAN-3263-ZDI-CAN-3284-and-ZDI-CAN-3364-Vulnerabilities ['2015-09-21 - Vulnerability reported to vendor', '2016-02-18 - Coordinated public release of advisory'] Ben Murphy https://www.zerodayinitiative.com/advisories/ZDI-16-168/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-168/",
+  "title": "Joyent SmartOS dtrace Zone Escape Integer Overflow Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Joyent SmartOS. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the dtrace implementation in SmartOS. A method within this implementation allows for an integer overflow to occur which results in the allocation of a buffer that is too small which is then overflowed. This allows an attacker to elevate privileges to escape a zone and achieve privileged execution on the global zone.",
+  "zdi_can": "ZDI-CAN-3263",
+  "zdi_id": "ZDI-16-168"
+}

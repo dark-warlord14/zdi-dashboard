@@ -1,0 +1,27 @@
+{
+  "additional_details": "Mozilla has issued an update to correct this vulnerability. More details can be found at: http://www.mozilla.org/security/announce/2011/mfsa2011-03.html",
+  "advisory_date": "2011-03-02",
+  "affected_products": [
+    "Firefox"
+  ],
+  "affected_vendors": [
+    "Mozilla"
+  ],
+  "credit": "regenrecht",
+  "cve": "CVE-2011-0055",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-0055",
+  "cvss": 9.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:C",
+  "disclosure_timeline": [
+    "2010-12-01 - Vulnerability reported to vendor",
+    "2011-03-02 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-11-103 ZDI-CAN-971 Mozilla Firefox JSON.stringify Dangling Pointer Remote Code Execution Vulnerability 2011-03-02 CVE-2011-0055 https://www.cve.org/CVERecord?id=CVE-2011-0055 9.0 AV:N/AC:L/Au:N/C:P/I:P/A:C ['Mozilla'] ['Firefox'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Firefox. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within js3250.dll. In the JSON.stringify() call chain js_HasOwnProperty() is called with an invalid pointer. The pointer becomes invalid due to being unrooted and garbage collection occurring. Dereferecing of this pointer allows a remote attacker to execute arbitrary code in the context of the user running the browser. Mozilla has issued an update to correct this vulnerability. More details can be found at: http://www.mozilla.org/security/announce/2011/mfsa2011-03.html ['2010-12-01 - Vulnerability reported to vendor', '2011-03-02 - Coordinated public release of advisory'] regenrecht https://www.zerodayinitiative.com/advisories/ZDI-11-103/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-103/",
+  "title": "Mozilla Firefox JSON.stringify Dangling Pointer Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Firefox. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within js3250.dll. In the JSON.stringify() call chain js_HasOwnProperty() is called with an invalid pointer. The pointer becomes invalid due to being unrooted and garbage collection occurring. Dereferecing of this pointer allows a remote attacker to execute arbitrary code in the context of the user running the browser.",
+  "zdi_can": "ZDI-CAN-971",
+  "zdi_id": "ZDI-11-103"
+}

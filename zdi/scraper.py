@@ -1,0 +1,185 @@
+"""Fetch ZDI pages and write public dashboard data."""
+
+from __future__ import annotations
+
+import json
+import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from pathlib import Path
+from urllib.parse import urljoin
+
+import requests
+
+from zdi.config import BASE_URL, DATA_DIR, PUBLISHED_URL, UPCOMING_URL
+from zdi.markdown_gen import render_advisory_markdown
+from zdi.models import AdvisoryDetail, PublishedAdvisory, UpcomingAdvisory
+from zdi.parser import parse_advisory_detail, parse_published, parse_upcoming, parse_years
+from zdi.stats import build_stats
+
+HEADERS = {
+    "User-Agent": "zdi-dashboard/0.1 (+https://github.com/; security research archive)",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+}
+
+
+def dump_json(path: Path, data: object) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(data, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+
+
+def fetch_html(url: str, retries: int = 3, delay: float = 1.0) -> str:
+    last_error: Exception | None = None
+    for attempt in range(retries):
+        try:
+            response = requests.get(url, headers=HEADERS, timeout=45)
+            response.raise_for_status()
+            return response.text
+        except requests.RequestException as exc:
+            last_error = exc
+            if attempt < retries - 1:
+                time.sleep(delay * (attempt + 1))
+    raise RuntimeError(f"Failed to fetch {url}: {last_error}") from last_error
+
+
+def published_year_url(year: int) -> str:
+    return urljoin(BASE_URL, f"/advisories/published/{year}/")
+
+
+def scrape_published(fetch=fetch_html, verbose: bool = False) -> list[PublishedAdvisory]:
+    first_html = fetch(PUBLISHED_URL)
+    years = parse_years(first_html)
+    records: list[PublishedAdvisory] = []
+    seen: set[str] = set()
+    pages = [(None, first_html)] + [(year, None) for year in years if year != (years[0] if years else None)]
+    for year, cached_html in pages:
+        if verbose:
+            print(f"Fetching published list {year or years[0] if years else 'current'}...")
+        html = cached_html if cached_html is not None else fetch(published_year_url(year))
+        for record in parse_published(html):
+            if record.zdi_id not in seen:
+                records.append(record)
+                seen.add(record.zdi_id)
+    return records
+
+
+def scrape_upcoming(fetch=fetch_html) -> list[UpcomingAdvisory]:
+    return parse_upcoming(fetch(UPCOMING_URL))
+
+
+def load_existing_detail(data_dir: Path, record: PublishedAdvisory) -> AdvisoryDetail | None:
+    path = data_dir / "advisories" / record.zdi_id / "advisory.json"
+    if not path.exists():
+        return None
+    try:
+        existing = AdvisoryDetail.model_validate_json(path.read_text(encoding="utf-8"))
+    except ValueError:
+        return None
+    if record.updated_date and existing.updated_date == record.updated_date:
+        return existing
+    return None
+
+
+def fetch_detail(record: PublishedAdvisory, data_dir: Path, fetch=fetch_html) -> AdvisoryDetail:
+    existing = load_existing_detail(data_dir, record)
+    if existing:
+        return existing
+    html = fetch(record.url)
+    detail = parse_advisory_detail(html, source_url=record.url)
+    detail.updated_date = record.updated_date
+    return detail
+
+
+def scrape_details(
+    records: list[PublishedAdvisory],
+    data_dir: Path = DATA_DIR,
+    fetch=fetch_html,
+    max_workers: int = 12,
+    verbose: bool = False,
+) -> dict[str, AdvisoryDetail]:
+    details: dict[str, AdvisoryDetail] = {}
+    total = len(records)
+    completed = 0
+    with ThreadPoolExecutor(max_workers=max_workers) as executor:
+        futures = {executor.submit(fetch_detail, record, data_dir, fetch): record for record in records}
+        for future in as_completed(futures):
+            record = futures[future]
+            details[record.zdi_id] = future.result()
+            completed += 1
+            if verbose and (completed == total or completed % 100 == 0):
+                print(f"Fetched details {completed}/{total}")
+    return details
+
+
+def description_snippet(detail: AdvisoryDetail | None, max_length: int = 260) -> str | None:
+    if not detail or not detail.vulnerability_details:
+        return None
+    text = " ".join(detail.vulnerability_details.split())
+    if len(text) <= max_length:
+        return text
+    return text[: max_length - 1].rstrip() + "..."
+
+
+def published_entries(published: list[PublishedAdvisory], details: dict[str, AdvisoryDetail]) -> list[dict]:
+    entries: list[dict] = []
+    for record in published:
+        data = record.model_dump()
+        data["description_snippet"] = description_snippet(details.get(record.zdi_id))
+        entries.append(data)
+    return entries
+
+
+def index_entries(
+    published: list[PublishedAdvisory],
+    upcoming: list[UpcomingAdvisory],
+    details: dict[str, AdvisoryDetail],
+) -> list[dict]:
+    entries: list[dict] = []
+    for record in published:
+        data = record.model_dump()
+        data["id"] = record.zdi_id
+        data["status"] = "published"
+        data["description_snippet"] = description_snippet(details.get(record.zdi_id))
+        data["detail_json"] = f"/data/advisories/{record.zdi_id}/advisory.json"
+        data["detail_markdown"] = f"/data/advisories/{record.zdi_id}/advisory.md"
+        entries.append(data)
+    for record in upcoming:
+        data = record.model_dump()
+        data["id"] = record.zdi_can
+        data["status"] = "upcoming"
+        entries.append(data)
+    return entries
+
+
+def write_public_data(
+    data_dir: Path,
+    published: list[PublishedAdvisory],
+    upcoming: list[UpcomingAdvisory],
+    details: dict[str, AdvisoryDetail],
+) -> None:
+    data_dir.mkdir(parents=True, exist_ok=True)
+    dump_json(data_dir / "published.json", published_entries(published, details))
+    dump_json(data_dir / "upcoming.json", [record.model_dump() for record in upcoming])
+    dump_json(data_dir / "index.json", index_entries(published, upcoming, details))
+    dump_json(data_dir / "stats.json", build_stats(published, upcoming).model_dump())
+    for zdi_id, detail in details.items():
+        target = data_dir / "advisories" / zdi_id
+        target.mkdir(parents=True, exist_ok=True)
+        dump_json(target / "advisory.json", detail.model_dump())
+        (target / "advisory.md").write_text(render_advisory_markdown(detail), encoding="utf-8")
+
+
+def run(
+    data_dir: Path = DATA_DIR,
+    fetch=fetch_html,
+    max_workers: int = 12,
+    verbose: bool = False,
+) -> tuple[list[PublishedAdvisory], list[UpcomingAdvisory]]:
+    published = scrape_published(fetch=fetch, verbose=verbose)
+    if verbose:
+        print(f"Found {len(published)} published advisories")
+    upcoming = scrape_upcoming(fetch=fetch)
+    if verbose:
+        print(f"Found {len(upcoming)} upcoming advisories")
+    details = scrape_details(published, data_dir=data_dir, fetch=fetch, max_workers=max_workers, verbose=verbose)
+    write_public_data(data_dir, published, upcoming, details)
+    return published, upcoming

@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/en-us/library/security/ms15-021.aspx",
+  "advisory_date": "2015-05-15",
+  "affected_products": [
+    "Windows"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "s3tm3m",
+  "cve": "CVE-2015-0092",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-0092",
+  "cvss": 6.9,
+  "cvss_vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2015-03-04 - Vulnerability reported to vendor",
+    "2015-05-15 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-15-227 ZDI-CAN-2795 Microsoft Windows Type 1 Font callother Opcode Heap Buffer Underflow Remote Code Execution Vulnerability 2015-05-15 CVE-2015-0092 https://www.cve.org/CVERecord?id=CVE-2015-0092 6.9 AV:L/AC:M/Au:N/C:C/I:C/A:C ['Microsoft'] ['Windows'] This vulnerability allows local attackers to execute arbitrary code on vulnerable installations of Microsoft Windows. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of certain Type 1 fonts. By providing a crafted font, an attacker can cause a negative offset to be used when calculating a heap buffer address. This would allow an attacker to execute arbitrary code as SYSTEM. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/en-us/library/security/ms15-021.aspx ['2015-03-04 - Vulnerability reported to vendor', '2015-05-15 - Coordinated public release of advisory'] s3tm3m https://www.zerodayinitiative.com/advisories/ZDI-15-227/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-227/",
+  "title": "Microsoft Windows Type 1 Font callother Opcode Heap Buffer Underflow Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to execute arbitrary code on vulnerable installations of Microsoft Windows. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of certain Type 1 fonts. By providing a crafted font, an attacker can cause a negative offset to be used when calculating a heap buffer address. This would allow an attacker to execute arbitrary code as SYSTEM.",
+  "zdi_can": "ZDI-CAN-2795",
+  "zdi_id": "ZDI-15-227"
+}

@@ -1,0 +1,27 @@
+{
+  "additional_details": "Fuji Electric has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-19-136-02",
+  "advisory_date": "2019-05-29",
+  "affected_products": [
+    "Alpha7"
+  ],
+  "affected_vendors": [
+    "Fuji Electric"
+  ],
+  "credit": "kimiya of 9SG Security Team - kimiya@9sgsec.com",
+  "cve": "CVE-2019-10975",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2019-10975",
+  "cvss": 3.3,
+  "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+  "disclosure_timeline": [
+    "2019-03-15 - Vulnerability reported to vendor",
+    "2019-05-29 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-19-517 ZDI-CAN-8030 Fuji Electric Alpha7 PC Loader A7P File Parsing Out-Of-Bounds Read Information Disclosure Vulnerability 2019-05-29 CVE-2019-10975 https://www.cve.org/CVERecord?id=CVE-2019-10975 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N ['Fuji Electric'] ['Alpha7'] This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Fuji Electric Alpha7. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of A7P files. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the Administrator. Fuji Electric has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-19-136-02 ['2019-03-15 - Vulnerability reported to vendor', '2019-05-29 - Coordinated public release of advisory'] kimiya of 9SG Security Team - kimiya@9sgsec.com https://www.zerodayinitiative.com/advisories/ZDI-19-517/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-19-517/",
+  "title": "Fuji Electric Alpha7 PC Loader A7P File Parsing Out-Of-Bounds Read Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Fuji Electric Alpha7. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of A7P files. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the Administrator.",
+  "zdi_can": "ZDI-CAN-8030",
+  "zdi_id": "ZDI-19-517"
+}

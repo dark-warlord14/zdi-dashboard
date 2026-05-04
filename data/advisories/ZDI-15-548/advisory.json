@@ -1,0 +1,27 @@
+{
+  "additional_details": "AlienVault has issued an update to correct this vulnerability. More details can be found at: https://www.alienvault.com/forums/discussion/5127/",
+  "advisory_date": "2015-11-10",
+  "affected_products": [
+    "Unified Security Management"
+  ],
+  "affected_vendors": [
+    "AlienVault"
+  ],
+  "credit": "agix",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 6.9,
+  "cvss_vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2015-06-25 - Vulnerability reported to vendor",
+    "2015-11-10 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-15-548 ZDI-CAN-3020 AlienVault Unified Security Management Local Privilege Escalation Vulnerability 2015-11-10 6.9 AV:L/AC:M/Au:N/C:C/I:C/A:C ['AlienVault'] ['Unified Security Management'] This vulnerability allows local attackers to escalate privileges to root on vulnerable installations of AlienVault Unified Security Management. Authentication is not required to exploit this vulnerability. The specific flaw exists within the configuration of the server and database. A local attacker in the alienvault group can read the database password and schedule, as root, a custom report that can include shell commands. This vulnerability can be leveraged by a local attacker to execute arbitrary code as root. AlienVault has issued an update to correct this vulnerability. More details can be found at: https://www.alienvault.com/forums/discussion/5127/ ['2015-06-25 - Vulnerability reported to vendor', '2015-11-10 - Coordinated public release of advisory'] agix https://www.zerodayinitiative.com/advisories/ZDI-15-548/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-548/",
+  "title": "AlienVault Unified Security Management Local Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges to root on vulnerable installations of AlienVault Unified Security Management. Authentication is not required to exploit this vulnerability. The specific flaw exists within the configuration of the server and database. A local attacker in the alienvault group can read the database password and schedule, as root, a custom report that can include shell commands. This vulnerability can be leveraged by a local attacker to execute arbitrary code as root.",
+  "zdi_can": "ZDI-CAN-3020",
+  "zdi_id": "ZDI-15-548"
+}

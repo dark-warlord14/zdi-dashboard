@@ -1,0 +1,27 @@
+{
+  "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/reader/apsb15-15.html",
+  "advisory_date": "2015-07-14",
+  "affected_products": [
+    "Reader"
+  ],
+  "affected_vendors": [
+    "Adobe"
+  ],
+  "credit": "AbdulAziz Hariri and Jasiel Spelman - HP Zero Day Initiative",
+  "cve": "CVE-2015-5085",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-5085",
+  "cvss": 5.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+  "disclosure_timeline": [
+    "2015-05-14 - Vulnerability reported to vendor",
+    "2015-07-14 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-15-310 ZDI-CAN-2936 Adobe Reader Folder Level Scripts Unload Denial Of Service Vulnerability 2015-07-14 CVE-2015-5085 https://www.cve.org/CVERecord?id=CVE-2015-5085 5.0 AV:N/AC:L/Au:N/C:P/I:N/A:N ['Adobe'] ['Reader'] This vulnerability allows remote attackers to unload folder level scripts on vulnerable installations of Adobe Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the app.doc object. By creating a specially crafted PDF with specific JavaScript instructions, it is possible to unload folder level scripts from the document level. A remote attacker could exploit this to create a denial of service condition. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/reader/apsb15-15.html ['2015-05-14 - Vulnerability reported to vendor', '2015-07-14 - Coordinated public release of advisory'] AbdulAziz Hariri and Jasiel Spelman - HP Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-15-310/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-310/",
+  "title": "Adobe Reader Folder Level Scripts Unload Denial Of Service Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to unload folder level scripts on vulnerable installations of Adobe Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the app.doc object. By creating a specially crafted PDF with specific JavaScript instructions, it is possible to unload folder level scripts from the document level. A remote attacker could exploit this to create a denial of service condition.",
+  "zdi_can": "ZDI-CAN-2936",
+  "zdi_id": "ZDI-15-310"
+}

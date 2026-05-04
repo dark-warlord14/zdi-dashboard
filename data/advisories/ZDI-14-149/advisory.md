@@ -1,0 +1,26 @@
+# ZDI-14-149: (0Day) SAP Sybase ESP esp_parse Connection.setScanDepth Remote Code Execution Vulnerability
+
+## Metadata
+
+- **ZDI ID:** ZDI-14-149
+- **ZDI-CAN:** ZDI-CAN-1959
+- **Date:** 2014-05-22
+- **CVE:** CVE-2014-3457
+- **CVSS:** 7.5
+- **CVSS Vector:** AV:N/AC:L/Au:N/C:P/I:P/A:P
+- **Affected Vendors:** Sybase
+- **Affected Products:** ESP
+- **Credit:** AbdulAziz Hariri, HP Zero Day Initiative
+- **Source:** https://www.zerodayinitiative.com/advisories/ZDI-14-149/
+## Vulnerability Details
+
+This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of SAP Sybase ESP. User interaction is not required to exploit this vulnerability. The specific flaw exists within the Connection.setScanDepth function in esp_server_lib.dll. By sending specific arguments to the Connection.setScanDepth function via XMLRPC an attacker can trigger a remote code execution condition. An attacker can leverage this vulnerability to execute code under the context of the current process.
+
+## Additional Details
+
+This vulnerability is being disclosed publicly without a patch in accordance with the ZDI 180-day deadline. 10/11/2013 - Disclosed to vendor 10/14/2013 - Vendor sent ZDI acknowledgement 10/25/2013 - Vendor replied "not a vulnerability" in all cases 10/29/2013 - ZDI indicated they will look at vendor's argument 11/27/2013 - Vendor indicated they will close the cases 12/03/2013 - ZDI wrote to disagree Some back and forth ensued, but in the end ZDI believes these are vulnerability cases, and the vendor does not 05/22/2014 - Public release of advisory -- Vendor Statement: An attacker cannot connect to a running ESP server using esp_parse. To connect to ESP server and to deploy or run the compiled project, one would rather need to use ESP SDK which requires authentication and authorization check. Hence we feel that as Authentication and authorization check is already maintained , remote code execution is Sybase ESP wouldn't be possible bypassing these checks. -- ZDI Statement: http://youtu.be/t8LFTjmAyIw -- Mitigation: Given the stated purpose of SAP Sybase ESP, and the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the service to trusted machines. Only the clients and servers that have a legitimate procedural relationship with the SAP Sybase ESP esp_parse service should be permitted to communicate with it. This could be accomplished in a number of ways, most notably with firewall rules/whitelisting. These features are available in the native Windows Firewall, as described in http://technet.microsoft.com/en-us/library/cc725770%28WS.10%29.aspx and numerous other Microsoft Knowledge Base articles.
+
+## Disclosure Timeline
+
+- 2013-10-11 - Vulnerability reported to vendor
+- 2014-05-22 - Coordinated public release of advisory

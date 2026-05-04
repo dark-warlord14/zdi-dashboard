@@ -1,0 +1,28 @@
+{
+  "additional_details": "Phoenix Contact has issued an update to correct this vulnerability. More details can be found at: https://cert.vde.com/en/advisories/VDE-2024-019/",
+  "advisory_date": "2024-05-29",
+  "affected_products": [
+    "CHARX SEC-3100"
+  ],
+  "affected_vendors": [
+    "Phoenix Contact"
+  ],
+  "credit": "Sina Kheirkhah (@SinSinology) of Summoning Team (@SummoningTeam)",
+  "cve": "CVE-2024-28134",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-28134",
+  "cvss": 7.5,
+  "cvss_vector": "AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2024-02-21 - Vulnerability reported to vendor",
+    "2024-05-29 - Coordinated public release of advisory",
+    "2024-07-01 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-520 ZDI-CAN-23418 (Pwn2Own) Phoenix Contact CHARX SEC-3100 Missing Encryption Authentication Bypass Vulnerability 2024-05-29 CVE-2024-28134 https://www.cve.org/CVERecord?id=CVE-2024-28134 7.5 AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H ['Phoenix Contact'] ['CHARX SEC-3100'] This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of Phoenix Contact CHARX SEC-3100 devices. Authentication is not required to exploit this vulnerability. The specific flaw exists within the configuration of nginx. The issue results from a lack of encryption. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the user-app account. Phoenix Contact has issued an update to correct this vulnerability. More details can be found at: https://cert.vde.com/en/advisories/VDE-2024-019/ ['2024-02-21 - Vulnerability reported to vendor', '2024-05-29 - Coordinated public release of advisory', '2024-07-01 - Advisory Updated'] Sina Kheirkhah (@SinSinology) of Summoning Team (@SummoningTeam) https://www.zerodayinitiative.com/advisories/ZDI-24-520/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-520/",
+  "title": "(Pwn2Own) Phoenix Contact CHARX SEC-3100 Missing Encryption Authentication Bypass Vulnerability",
+  "updated_date": "2024-07-01",
+  "vulnerability_details": "This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of Phoenix Contact CHARX SEC-3100 devices. Authentication is not required to exploit this vulnerability. The specific flaw exists within the configuration of nginx. The issue results from a lack of encryption. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the user-app account.",
+  "zdi_can": "ZDI-CAN-23418",
+  "zdi_id": "ZDI-24-520"
+}

@@ -1,0 +1,27 @@
+{
+  "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/flash-player/apsb19-06.html",
+  "advisory_date": "2019-02-12",
+  "affected_products": [
+    "Flash"
+  ],
+  "affected_vendors": [
+    "Adobe"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2019-7090",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2019-7090",
+  "cvss": 3.1,
+  "cvss_vector": "AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:N",
+  "disclosure_timeline": [
+    "2018-10-30 - Vulnerability reported to vendor",
+    "2019-02-12 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-19-219 ZDI-CAN-7432 Adobe Flash Player ActionScript Vector Out-Of-Bounds Read Information Disclosure Vulnerability 2019-02-12 CVE-2019-7090 https://www.cve.org/CVERecord?id=CVE-2019-7090 3.1 AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:N ['Adobe'] ['Flash'] This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Adobe Flash Player. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Vector objects. By performing actions in ActionScript, an attacker can trigger a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/flash-player/apsb19-06.html ['2018-10-30 - Vulnerability reported to vendor', '2019-02-12 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-19-219/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-19-219/",
+  "title": "Adobe Flash Player ActionScript Vector Out-Of-Bounds Read Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Adobe Flash Player. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Vector objects. By performing actions in ActionScript, an attacker can trigger a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-7432",
+  "zdi_id": "ZDI-19-219"
+}

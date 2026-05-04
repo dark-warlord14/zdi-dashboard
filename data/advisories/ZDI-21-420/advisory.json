@@ -1,0 +1,27 @@
+{
+  "additional_details": "Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://helpcenter.trendmicro.com/en-us/article/TMKA-10293",
+  "advisory_date": "2021-04-15",
+  "affected_products": [
+    "Antivirus for Mac"
+  ],
+  "affected_vendors": [
+    "Trend Micro"
+  ],
+  "credit": "Wojciech Regula",
+  "cve": "CVE-2021-28648",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2021-28648",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2021-01-08 - Vulnerability reported to vendor",
+    "2021-04-15 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-21-420 ZDI-CAN-12217 Trend Micro Antivirus for Mac Improper Access Control Privilege Escalation Vulnerability 2021-04-15 CVE-2021-28648 https://www.cve.org/CVERecord?id=CVE-2021-28648 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Trend Micro'] ['Antivirus for Mac'] This vulnerability allows local attackers to escalate privileges on affected installations of Trend Micro Antivirus for Mac. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within com.trendmicro.AFM.HelperTool. The issue results from improper access control. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root. Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://helpcenter.trendmicro.com/en-us/article/TMKA-10293 ['2021-01-08 - Vulnerability reported to vendor', '2021-04-15 - Coordinated public release of advisory'] Wojciech Regula https://www.zerodayinitiative.com/advisories/ZDI-21-420/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-21-420/",
+  "title": "Trend Micro Antivirus for Mac Improper Access Control Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Trend Micro Antivirus for Mac. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within com.trendmicro.AFM.HelperTool. The issue results from improper access control. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root.",
+  "zdi_can": "ZDI-CAN-12217",
+  "zdi_id": "ZDI-21-420"
+}

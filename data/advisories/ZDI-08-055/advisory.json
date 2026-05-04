@@ -1,0 +1,33 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/bulletin/MS08-052.mspx",
+  "advisory_date": "2008-09-09",
+  "affected_products": [
+    "Windows XP",
+    "Windows Server 2008",
+    "Windows Vista",
+    "Windows Server 2003"
+  ],
+  "affected_vendors": [
+    "Microsoft",
+    "Microsoft",
+    "Microsoft",
+    "Microsoft"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2008-3015",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2008-3015",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2007-07-20 - Vulnerability reported to vendor",
+    "2008-09-09 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-08-055 ZDI-CAN-211 Microsoft Windows GDI+ BMP Parsing Code Execution Vulnerability 2008-09-09 CVE-2008-3015 https://www.cve.org/CVERecord?id=CVE-2008-3015 ['Microsoft', 'Microsoft', 'Microsoft', 'Microsoft'] ['Windows XP', 'Windows Server 2008', 'Windows Vista', 'Windows Server 2003'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Windows XP, Server and Vista. User interaction is required in that a user must open a malicious image file. The specific flaws exist in the GDI+ subsystem when parsing maliciously crafted BMP files. Supplying a malformed BitMapInfoHeader can result in incorrect integer calculations further leading to an exploitable memory corruption. Successful exploitation can result in arbitrary code execution under the credentials of the currently logged in user. Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/bulletin/MS08-052.mspx ['2007-07-20 - Vulnerability reported to vendor', '2008-09-09 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-08-055/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-08-055/",
+  "title": "Microsoft Windows GDI+ BMP Parsing Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Windows XP, Server and Vista. User interaction is required in that a user must open a malicious image file. The specific flaws exist in the GDI+ subsystem when parsing maliciously crafted BMP files. Supplying a malformed BitMapInfoHeader can result in incorrect integer calculations further leading to an exploitable memory corruption. Successful exploitation can result in arbitrary code execution under the credentials of the currently logged in user.",
+  "zdi_can": "ZDI-CAN-211",
+  "zdi_id": "ZDI-08-055"
+}

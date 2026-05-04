@@ -1,0 +1,27 @@
+{
+  "additional_details": "This vulnerability is being disclosed publicly without a patch in accordance with the ZDI vulnerability disclosure policy on lack of vendor response. Vendor Contact Timeline: 05/12/2014 - Submitted Contact Us form/request for contact at vendor site 05/12/2014 - Automated reply from vendor 05/14/2014 - Reply from vendor 05/15/2014 - ZDI requested a PGP key for disclosure (no reply) 05/19/2014 - ZDI requested a PGP key for disclosure (no reply) 06/09/2014 - ZDI requested a PGP key for disclosure (no reply) -- Mitigation: The killbit can be set on this control to disable scripting within Internet Explorer by modifying the data value of the Compatibilty Flags DWORD within the following location in the registry: HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Internet Explorer\\ActiveX Compatibility\\B4D34128-82FF-4B87-94A0-F5D4CC1FE3D0 If the Compatibility Flags value is set to 0x00000400, the control can no longer be instantiated inside the browser. For more information, please see: http://support.microsoft.com/kb/240797",
+  "advisory_date": "2014-07-09",
+  "affected_products": [
+    "ER/Studio Data Architect"
+  ],
+  "affected_vendors": [
+    "Embarcadero"
+  ],
+  "credit": "Andrea Micalizzi (rgod)",
+  "cve": "CVE-2014-4647",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-4647",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2014-05-12 - Vulnerability reported to vendor",
+    "2014-07-09 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-14-224 ZDI-CAN-2302 (0Day) Embarcadero ER/Studio Data Architect TSVisualization ActiveX loadExtensionFactory Remote Code Execution Vulnerability 2014-07-09 CVE-2014-4647 https://www.cve.org/CVERecord?id=CVE-2014-4647 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Embarcadero'] ['ER/Studio Data Architect'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Embarcadero ER/Studio Data Architect. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of the loadExtensionFactory method. The issue lies in the failure to validate the size of the input buffer before copying it into a fixed-size buffer on the stack. An attacker can leverage this vulnerability to execute code under the context of the current process. This vulnerability is being disclosed publicly without a patch in accordance with the ZDI vulnerability disclosure policy on lack of vendor response. Vendor Contact Timeline: 05/12/2014 - Submitted Contact Us form/request for contact at vendor site 05/12/2014 - Automated reply from vendor 05/14/2014 - Reply from vendor 05/15/2014 - ZDI requested a PGP key for disclosure (no reply) 05/19/2014 - ZDI requested a PGP key for disclosure (no reply) 06/09/2014 - ZDI requested a PGP key for disclosure (no reply) -- Mitigation: The killbit can be set on this control to disable scripting within Internet Explorer by modifying the data value of the Compatibilty Flags DWORD within the following location in the registry: HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Internet Explorer\\ActiveX Compatibility\\B4D34128-82FF-4B87-94A0-F5D4CC1FE3D0 If the Compatibility Flags value is set to 0x00000400, the control can no longer be instantiated inside the browser. For more information, please see: http://support.microsoft.com/kb/240797 ['2014-05-12 - Vulnerability reported to vendor', '2014-07-09 - Coordinated public release of advisory'] Andrea Micalizzi (rgod) https://www.zerodayinitiative.com/advisories/ZDI-14-224/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-14-224/",
+  "title": "(0Day) Embarcadero ER/Studio Data Architect TSVisualization ActiveX loadExtensionFactory Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Embarcadero ER/Studio Data Architect. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of the loadExtensionFactory method. The issue lies in the failure to validate the size of the input buffer before copying it into a fixed-size buffer on the stack. An attacker can leverage this vulnerability to execute code under the context of the current process.",
+  "zdi_can": "ZDI-CAN-2302",
+  "zdi_id": "ZDI-14-224"
+}

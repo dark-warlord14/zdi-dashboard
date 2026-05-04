@@ -1,0 +1,27 @@
+{
+  "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb20-48.html",
+  "advisory_date": "2020-08-12",
+  "affected_products": [
+    "Acrobat Reader DC"
+  ],
+  "affected_vendors": [
+    "Adobe"
+  ],
+  "credit": "Abdul-Aziz Hariri of Trend Micro Zero Day Initiative",
+  "cve": "CVE-2020-9697",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2020-9697",
+  "cvss": 5.5,
+  "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+  "disclosure_timeline": [
+    "2020-05-19 - Vulnerability reported to vendor",
+    "2020-08-12 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-20-984 ZDI-CAN-11105 Adobe Acrobat Reader DC app.measureDialog Information Disclosure Vulnerability 2020-08-12 CVE-2020-9697 https://www.cve.org/CVERecord?id=CVE-2020-9697 5.5 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N ['Adobe'] ['Acrobat Reader DC'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Adobe Acrobat Reader DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the app.measureDialog method. By manipulating a document's actions in JavaScript, an attacker can disclose the base address of EScript.api. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb20-48.html ['2020-05-19 - Vulnerability reported to vendor', '2020-08-12 - Coordinated public release of advisory'] Abdul-Aziz Hariri of Trend Micro Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-20-984/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-20-984/",
+  "title": "Adobe Acrobat Reader DC app.measureDialog Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Adobe Acrobat Reader DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the app.measureDialog method. By manipulating a document's actions in JavaScript, an attacker can disclose the base address of EScript.api. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-11105",
+  "zdi_id": "ZDI-20-984"
+}

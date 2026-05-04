@@ -1,0 +1,28 @@
+{
+  "additional_details": "Progress Software has issued an update to correct this vulnerability. More details can be found at: https://community.progress.com/s/article/Announcing-WhatsUp-Gold-v2023-1-2",
+  "advisory_date": "2024-05-29",
+  "affected_products": [
+    "WhatsUp Gold"
+  ],
+  "affected_vendors": [
+    "Progress Software"
+  ],
+  "credit": "Abdessamad Lahlali of Trend Micro.",
+  "cve": "CVE-2024-4561",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-4561",
+  "cvss": 4.2,
+  "cvss_vector": "AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N",
+  "disclosure_timeline": [
+    "2024-02-21 - Vulnerability reported to vendor",
+    "2024-05-29 - Coordinated public release of advisory",
+    "2024-07-01 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-517 ZDI-CAN-23353 Progress Software WhatsUp Gold FaviconController Server-Side Request Forgery Information Disclosure Vulnerability 2024-05-29 CVE-2024-4561 https://www.cve.org/CVERecord?id=CVE-2024-4561 4.2 AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N ['Progress Software'] ['WhatsUp Gold'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Progress Software WhatsUp Gold. Authentication is required to exploit this vulnerability. The specific flaw exists within the FaviconController class. The issue results from following HTTP redirects. An attacker can leverage this vulnerability to disclose information in the context of the application. Progress Software has issued an update to correct this vulnerability. More details can be found at: https://community.progress.com/s/article/Announcing-WhatsUp-Gold-v2023-1-2 ['2024-02-21 - Vulnerability reported to vendor', '2024-05-29 - Coordinated public release of advisory', '2024-07-01 - Advisory Updated'] Abdessamad Lahlali of Trend Micro. https://www.zerodayinitiative.com/advisories/ZDI-24-517/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-517/",
+  "title": "Progress Software WhatsUp Gold FaviconController Server-Side Request Forgery Information Disclosure Vulnerability",
+  "updated_date": "2024-07-01",
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Progress Software WhatsUp Gold. Authentication is required to exploit this vulnerability. The specific flaw exists within the FaviconController class. The issue results from following HTTP redirects. An attacker can leverage this vulnerability to disclose information in the context of the application.",
+  "zdi_can": "ZDI-CAN-23353",
+  "zdi_id": "ZDI-24-517"
+}

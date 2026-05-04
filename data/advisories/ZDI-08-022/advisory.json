@@ -1,0 +1,27 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT1467",
+  "advisory_date": "2008-04-16",
+  "affected_products": [
+    "Safari"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "Charlie Miller, Jake Honoroff and Mark Daniel",
+  "cve": "CVE-2008-1026",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2008-1026",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2008-03-27 - Vulnerability reported to vendor",
+    "2008-04-16 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-08-022 ZDI-CAN-303 Apple Safari WebKit PCRE Handling Integer Overflow Vulnerability 2008-04-16 CVE-2008-1026 https://www.cve.org/CVERecord?id=CVE-2008-1026 ['Apple'] ['Safari'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple Safari. User interaction is required to exploit this vulnerability in that the target must visit a malicious page. The specific flaw exists in the regular expression compiler (JavaScriptCore/pcre/pcre_compile.cpp) in WebKit. When nesting regular expressions with large repetitions, a heap overflow occurs resulting in a condition allowing the execution of arbitrary code. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT1467 ['2008-03-27 - Vulnerability reported to vendor', '2008-04-16 - Coordinated public release of advisory'] Charlie Miller, Jake Honoroff and Mark Daniel https://www.zerodayinitiative.com/advisories/ZDI-08-022/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-08-022/",
+  "title": "Apple Safari WebKit PCRE Handling Integer Overflow Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple Safari. User interaction is required to exploit this vulnerability in that the target must visit a malicious page. The specific flaw exists in the regular expression compiler (JavaScriptCore/pcre/pcre_compile.cpp) in WebKit. When nesting regular expressions with large repetitions, a heap overflow occurs resulting in a condition allowing the execution of arbitrary code.",
+  "zdi_can": "ZDI-CAN-303",
+  "zdi_id": "ZDI-08-022"
+}

@@ -1,0 +1,27 @@
+{
+  "additional_details": "This vulnerability is being disclosed publicly without a patch in accordance with ZDI policies. 08/13/2019 \u2013 ZDI disclosed the report to the vendor and the vendor acknowledged 08/14/2019 \u2013 The vendor provided a case number 08/27/2019 \u2013 The vendor provided an \u2018in assessment\u2019 status update 08/29/2019 \u2013 The vendor notified the ZDI that they were not able to reproduce the report 08/30/2019 \u2013 ZDI provided additional settings information 09/03/2019 \u2013 The vendor notified the ZDI that they were not able to reproduce the report and requested an additional step 09/04/2019 \u2013 ZDI posed clarifying questions 09/12/2019 \u2013 The vendor replied 09/17/2019 \u2013 ZDI provided a crash dump 10/01/2019 \u2013 The vendor provided an \u2018in development\u2019 status update 12/05/2019 - ZDI and the vendor had a call regarding this and other reports and ZDI was told to expect a rebuttal/no fix reply 12/18/2019 \u2013 ZDI requested any available update 12/23/2019 \u2013 The vendor advised the ZDI that the report does not meet the bar for servicing 12/27/2019 - ZDI notified the vendor the intention to publish as 0-day -- Mitigation: Given the nature of the vulnerability the only salient mitigation strategy is to restrict interaction with the application.",
+  "advisory_date": "2020-01-02",
+  "affected_products": [
+    "Windows Media Player"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Hossein Lotfi of Trend Micro Zero Day Initiative",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 4.3,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+  "disclosure_timeline": [
+    "2019-08-13 - Vulnerability reported to vendor",
+    "2020-01-02 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-20-001 ZDI-CAN-8185 (0Day) Microsoft Windows Media Player Mpeg Audio Codec Out-Of-Bounds Read Information Disclosure Vulnerability 2020-01-02 4.3 AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N ['Microsoft'] ['Windows Media Player'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Windows Media Player. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the MPEG audio codec. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute code in the context of the current process. This vulnerability is being disclosed publicly without a patch in accordance with ZDI policies. 08/13/2019 \u2013 ZDI disclosed the report to the vendor and the vendor acknowledged 08/14/2019 \u2013 The vendor provided a case number 08/27/2019 \u2013 The vendor provided an \u2018in assessment\u2019 status update 08/29/2019 \u2013 The vendor notified the ZDI that they were not able to reproduce the report 08/30/2019 \u2013 ZDI provided additional settings information 09/03/2019 \u2013 The vendor notified the ZDI that they were not able to reproduce the report and requested an additional step 09/04/2019 \u2013 ZDI posed clarifying questions 09/12/2019 \u2013 The vendor replied 09/17/2019 \u2013 ZDI provided a crash dump 10/01/2019 \u2013 The vendor provided an \u2018in development\u2019 status update 12/05/2019 - ZDI and the vendor had a call regarding this and other reports and ZDI was told to expect a rebuttal/no fix reply 12/18/2019 \u2013 ZDI requested any available update 12/23/2019 \u2013 The vendor advised the ZDI that the report does not meet the bar for servicing 12/27/2019 - ZDI notified the vendor the intention to publish as 0-day -- Mitigation: Given the nature of the vulnerability the only salient mitigation strategy is to restrict interaction with the application. ['2019-08-13 - Vulnerability reported to vendor', '2020-01-02 - Coordinated public release of advisory'] Hossein Lotfi of Trend Micro Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-20-001/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-20-001/",
+  "title": "(0Day) Microsoft Windows Media Player Mpeg Audio Codec Out-Of-Bounds Read Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Windows Media Player. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the MPEG audio codec. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-8185",
+  "zdi_id": "ZDI-20-001"
+}

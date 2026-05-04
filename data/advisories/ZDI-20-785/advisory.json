@@ -1,0 +1,27 @@
+{
+  "additional_details": "VMware has issued an update to correct this vulnerability. More details can be found at: https://www.vmware.com/security/advisories/VMSA-2020-0015.html",
+  "advisory_date": "2020-06-30",
+  "affected_products": [
+    "Workstation"
+  ],
+  "affected_vendors": [
+    "VMware"
+  ],
+  "credit": "Corentin Bayet (@OnlyTheDuck) and Bruno Pujos (@BrunoPujos) from Synacktiv (@Synacktiv)",
+  "cve": "CVE-2020-3962",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2020-3962",
+  "cvss": 8.2,
+  "cvss_vector": "AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2020-06-26 - Vulnerability reported to vendor",
+    "2020-06-30 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-20-785 ZDI-CAN-10786 VMware Workstation SVGA DXInvalidateContext Use-After-Free Privilege Escalation Vulnerability 2020-06-30 CVE-2020-3962 https://www.cve.org/CVERecord?id=CVE-2020-3962 8.2 AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H ['VMware'] ['Workstation'] This vulnerability allows local attackers to escalate privileges on affected installations of VMware Workstation. An attacker must first obtain the ability to execute high-privileged code on the target guest system in order to exploit this vulnerability. The specific flaw exists within the handling of the SVGA DXInvalidateContext command. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to escalate privileges and execute code in the context of the hypervisor. VMware has issued an update to correct this vulnerability. More details can be found at: https://www.vmware.com/security/advisories/VMSA-2020-0015.html ['2020-06-26 - Vulnerability reported to vendor', '2020-06-30 - Coordinated public release of advisory'] Corentin Bayet (@OnlyTheDuck) and Bruno Pujos (@BrunoPujos) from Synacktiv (@Synacktiv) https://www.zerodayinitiative.com/advisories/ZDI-20-785/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-20-785/",
+  "title": "VMware Workstation SVGA DXInvalidateContext Use-After-Free Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of VMware Workstation. An attacker must first obtain the ability to execute high-privileged code on the target guest system in order to exploit this vulnerability. The specific flaw exists within the handling of the SVGA DXInvalidateContext command. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to escalate privileges and execute code in the context of the hypervisor.",
+  "zdi_can": "ZDI-CAN-10786",
+  "zdi_id": "ZDI-20-785"
+}

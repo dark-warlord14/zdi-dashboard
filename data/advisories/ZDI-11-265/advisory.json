@@ -1,0 +1,27 @@
+{
+  "additional_details": "RealNetworks has issued an update to correct this vulnerability. More details can be found at: http://service.real.com/realplayer/security/08162011_player/en/",
+  "advisory_date": "2011-08-16",
+  "affected_products": [
+    "RealPlayer"
+  ],
+  "affected_vendors": [
+    "RealNetworks"
+  ],
+  "credit": "Sean de Regge",
+  "cve": "CVE-2011-2950",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-2950",
+  "cvss": 9.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:C",
+  "disclosure_timeline": [
+    "2011-04-01 - Vulnerability reported to vendor",
+    "2011-08-16 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-11-265 ZDI-CAN-1153 RealNetworks Realplayer QCP Parsing Remote Code Execution Vulnerability 2011-08-16 CVE-2011-2950 https://www.cve.org/CVERecord?id=CVE-2011-2950 9.0 AV:N/AC:L/Au:N/C:P/I:P/A:C ['RealNetworks'] ['RealPlayer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of RealNetworks RealPlayer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within qcpfformat.dll, which is responsible for parsing QCP media files. The process creates a static 256 byte allocation on the heap and trusts a user-supplied counter from the file within a memory copy loop. As the source data is also user-supplied from the file, this can be abused by a remote attacker to execute arbitrary code running in the context of the web browser. RealNetworks has issued an update to correct this vulnerability. More details can be found at: http://service.real.com/realplayer/security/08162011_player/en/ ['2011-04-01 - Vulnerability reported to vendor', '2011-08-16 - Coordinated public release of advisory'] Sean de Regge https://www.zerodayinitiative.com/advisories/ZDI-11-265/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-265/",
+  "title": "RealNetworks Realplayer QCP Parsing Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of RealNetworks RealPlayer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within qcpfformat.dll, which is responsible for parsing QCP media files. The process creates a static 256 byte allocation on the heap and trusts a user-supplied counter from the file within a memory copy loop. As the source data is also user-supplied from the file, this can be abused by a remote attacker to execute arbitrary code running in the context of the web browser.",
+  "zdi_can": "ZDI-CAN-1153",
+  "zdi_id": "ZDI-11-265"
+}

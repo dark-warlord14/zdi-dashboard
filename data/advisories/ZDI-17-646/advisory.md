@@ -1,0 +1,26 @@
+# ZDI-17-646: Fuji Electric Monitouch V-SFT Insecure Configuration Privilege Escalation Vulnerability
+
+## Metadata
+
+- **ZDI ID:** ZDI-17-646
+- **ZDI-CAN:** ZDI-CAN-4021
+- **Date:** 2017-08-10
+- **CVE:** CVE-2017-9662
+- **CVSS:** 4.4
+- **CVSS Vector:** AV:L/AC:M/Au:N/C:P/I:P/A:P
+- **Affected Vendors:** Fuji Electric
+- **Affected Products:** Monitouch V-SFT
+- **Credit:** Fritz Sands of the Zero Day Initiative
+- **Source:** https://www.zerodayinitiative.com/advisories/ZDI-17-646/
+## Vulnerability Details
+
+This vulnerability allows local attackers to escalate their privileges on vulnerable installations of Fuji Electric Monitouch V-SFT. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the configuration of Monitouch V-SFT. The software is installed with weak access controls on the executable files. An attacker can leverage this vulnerability to execute code in the context of any user of the software.
+
+## Additional Details
+
+Fuji Electric has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-17-222-04
+
+## Disclosure Timeline
+
+- 2016-09-19 - Vulnerability reported to vendor
+- 2017-08-10 - Coordinated public release of advisory

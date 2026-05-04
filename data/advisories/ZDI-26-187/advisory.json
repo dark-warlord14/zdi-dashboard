@@ -1,0 +1,28 @@
+{
+  "additional_details": "Synology has issued an update to correct this vulnerability. More details can be found at: https://www.synology.com/en-global/security/advisory/Synology_SA_22_23",
+  "advisory_date": "2026-03-16",
+  "affected_products": [
+    "DiskStation Manager"
+  ],
+  "affected_vendors": [
+    "Synology"
+  ],
+  "credit": "Kyle Zeng, Wil Gibbs, Jayakrishna Menon, and SEFCOM",
+  "cve": "CVE-2022-45188",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-45188",
+  "cvss": 9.8,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2022-12-29 - Vulnerability reported to vendor",
+    "2026-03-16 - Coordinated public release of advisory",
+    "2026-03-16 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-26-187 ZDI-CAN-19674 (Pwn2Own) Synology DiskStation Manager Netatalk Library Buffer Overflow Remote Code Execution Vulnerability 2026-03-16 CVE-2022-45188 https://www.cve.org/CVERecord?id=CVE-2022-45188 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['Synology'] ['DiskStation Manager'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Synology DiskStation Manager. Authentication is not required to exploit this vulnerability. The specific flaw exists within the afp_getappl function. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length buffer. An attacker can leverage this vulnerability to execute code in the context of root. Synology has issued an update to correct this vulnerability. More details can be found at: https://www.synology.com/en-global/security/advisory/Synology_SA_22_23 ['2022-12-29 - Vulnerability reported to vendor', '2026-03-16 - Coordinated public release of advisory', '2026-03-16 - Advisory Updated'] Kyle Zeng, Wil Gibbs, Jayakrishna Menon, and SEFCOM https://www.zerodayinitiative.com/advisories/ZDI-26-187/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-187/",
+  "title": "(Pwn2Own) Synology DiskStation Manager Netatalk Library Buffer Overflow Remote Code Execution Vulnerability",
+  "updated_date": "2026-03-16",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Synology DiskStation Manager. Authentication is not required to exploit this vulnerability. The specific flaw exists within the afp_getappl function. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length buffer. An attacker can leverage this vulnerability to execute code in the context of root.",
+  "zdi_can": "ZDI-CAN-19674",
+  "zdi_id": "ZDI-26-187"
+}

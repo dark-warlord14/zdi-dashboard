@@ -1,0 +1,27 @@
+{
+  "additional_details": "IBM has issued an update to correct this vulnerability. More details can be found at: https://www-304.ibm.com/support/docview.wss?uid=swg21496117",
+  "advisory_date": "2011-04-18",
+  "affected_products": [
+    "Tivoli Directory Server"
+  ],
+  "affected_vendors": [
+    "IBM"
+  ],
+  "credit": "Francis Provencher for Protek Research Lab's",
+  "cve": "CVE-2011-1206",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-1206",
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2011-02-17 - Vulnerability reported to vendor",
+    "2011-04-18 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-11-136 ZDI-CAN-1022 IBM Tivoli Directory Server ibmslapd.exe SASL Bind Request Remote Code Execution Vulnerability 2011-04-18 CVE-2011-1206 https://www.cve.org/CVERecord?id=CVE-2011-1206 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['IBM'] ['Tivoli Directory Server'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of IBM Tivoli Directory Server. Authentication is not required to exploit this vulnerability. The specific flaw exists in how ibmslapd.exe handles LDAP CRAM-MD5 packets. ibmslapd.exe listens by default on port TCP 389. When the process receives an LDAP CRAM-MD5 packet, it uses libibmldap.dll to handle the allocation of a buffer for the packet data. A specially crafted packet can cause the ber_get_int function to allocate a buffer that is too small to fit the packet data, causing a subsequent stack-based buffer overflow. This can be leveraged by a remote attacker to execute arbitrary code under the context of the SYSTEM user. IBM has issued an update to correct this vulnerability. More details can be found at: https://www-304.ibm.com/support/docview.wss?uid=swg21496117 ['2011-02-17 - Vulnerability reported to vendor', '2011-04-18 - Coordinated public release of advisory'] Francis Provencher for Protek Research Lab's https://www.zerodayinitiative.com/advisories/ZDI-11-136/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-136/",
+  "title": "IBM Tivoli Directory Server ibmslapd.exe SASL Bind Request Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of IBM Tivoli Directory Server. Authentication is not required to exploit this vulnerability. The specific flaw exists in how ibmslapd.exe handles LDAP CRAM-MD5 packets. ibmslapd.exe listens by default on port TCP 389. When the process receives an LDAP CRAM-MD5 packet, it uses libibmldap.dll to handle the allocation of a buffer for the packet data. A specially crafted packet can cause the ber_get_int function to allocate a buffer that is too small to fit the packet data, causing a subsequent stack-based buffer overflow. This can be leveraged by a remote attacker to execute arbitrary code under the context of the SYSTEM user.",
+  "zdi_can": "ZDI-CAN-1022",
+  "zdi_id": "ZDI-11-136"
+}

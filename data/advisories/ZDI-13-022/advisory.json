@@ -1,0 +1,27 @@
+{
+  "additional_details": "Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/javacpufeb2013-1841061.html",
+  "advisory_date": "2013-02-11",
+  "affected_products": [
+    "Java Runtime"
+  ],
+  "affected_vendors": [
+    "Oracle"
+  ],
+  "credit": "Chris Ries",
+  "cve": "CVE-2013-1480",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2013-1480",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2012-10-29 - Vulnerability reported to vendor",
+    "2013-02-11 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-13-022 ZDI-CAN-1580 Oracle Java AWT Image Transform Remote Code Execution Vulnerability 2013-02-11 CVE-2013-1480 https://www.cve.org/CVERecord?id=CVE-2013-1480 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Oracle'] ['Java Runtime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Oracle Java. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the Java AWT Image Transform library functions. For certain image transformation functions, Java fails to take the 'numBands' into account during the allocation of heap memory and instead uses a static value of 0x4. The allocated memory is later written to inside a loop that uses the 'numBands' value which can result in a memory corruption. This can lead to remote code execution under the context of the current process. Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/javacpufeb2013-1841061.html ['2012-10-29 - Vulnerability reported to vendor', '2013-02-11 - Coordinated public release of advisory'] Chris Ries https://www.zerodayinitiative.com/advisories/ZDI-13-022/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-13-022/",
+  "title": "Oracle Java AWT Image Transform Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Oracle Java. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the Java AWT Image Transform library functions. For certain image transformation functions, Java fails to take the 'numBands' into account during the allocation of heap memory and instead uses a static value of 0x4. The allocated memory is later written to inside a loop that uses the 'numBands' value which can result in a memory corruption. This can lead to remote code execution under the context of the current process.",
+  "zdi_can": "ZDI-CAN-1580",
+  "zdi_id": "ZDI-13-022"
+}

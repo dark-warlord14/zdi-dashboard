@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/en-us/security/bulletin/ms13-069",
+  "advisory_date": "2013-09-11",
+  "affected_products": [
+    "Internet Explorer"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Arthur Gerkis",
+  "cve": "CVE-2013-3206",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2013-3206",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2013-06-10 - Vulnerability reported to vendor",
+    "2013-09-11 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-13-218 ZDI-CAN-1893 Microsoft Internet Explorer CWindow Destructor Use-After-Free Remote Code Execution Vulnerability 2013-09-11 CVE-2013-3206 https://www.cve.org/CVERecord?id=CVE-2013-3206 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Microsoft'] ['Internet Explorer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the unloading of pages. By manipulating the load and unload process, an attacker is able to create a use-after-free condition. With this, an attacker is able to execute arbitrary code in the context of the browser. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/en-us/security/bulletin/ms13-069 ['2013-06-10 - Vulnerability reported to vendor', '2013-09-11 - Coordinated public release of advisory'] Arthur Gerkis https://www.zerodayinitiative.com/advisories/ZDI-13-218/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-13-218/",
+  "title": "Microsoft Internet Explorer CWindow Destructor Use-After-Free Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the unloading of pages. By manipulating the load and unload process, an attacker is able to create a use-after-free condition. With this, an attacker is able to execute arbitrary code in the context of the browser.",
+  "zdi_can": "ZDI-CAN-1893",
+  "zdi_id": "ZDI-13-218"
+}

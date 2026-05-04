@@ -1,0 +1,28 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38066",
+  "advisory_date": "2024-10-02",
+  "affected_products": [
+    "Windows"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Marcin Wiazowski",
+  "cve": "CVE-2024-38066",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-38066",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2024-04-11 - Vulnerability reported to vendor",
+    "2024-10-02 - Coordinated public release of advisory",
+    "2024-10-02 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-1311 ZDI-CAN-23562 Microsoft Windows Menu DC Path Use-After-Free Local Privilege Escalation Vulnerability 2024-10-02 CVE-2024-38066 https://www.cve.org/CVERecord?id=CVE-2024-38066 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H ['Microsoft'] ['Windows'] This vulnerability allows local attackers to escalate privileges on affected installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the win32kfull driver. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38066 ['2024-04-11 - Vulnerability reported to vendor', '2024-10-02 - Coordinated public release of advisory', '2024-10-02 - Advisory Updated'] Marcin Wiazowski https://www.zerodayinitiative.com/advisories/ZDI-24-1311/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-1311/",
+  "title": "Microsoft Windows Menu DC Path Use-After-Free Local Privilege Escalation Vulnerability",
+  "updated_date": "2024-10-02",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the win32kfull driver. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-23562",
+  "zdi_id": "ZDI-24-1311"
+}

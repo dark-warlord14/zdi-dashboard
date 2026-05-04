@@ -1,0 +1,28 @@
+{
+  "additional_details": "NVIDIA has issued an update to correct this vulnerability. More details can be found at: https://nvidia.custhelp.com/app/answers/detail/a_id/5724",
+  "advisory_date": "2025-11-14",
+  "affected_products": [
+    "AIStore"
+  ],
+  "affected_vendors": [
+    "NVIDIA"
+  ],
+  "credit": "Peter Girnus (@gothburz) of Trend Zero Day Initiative",
+  "cve": "CVE-2025-33185",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-33185",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+  "disclosure_timeline": [
+    "2025-08-12 - Vulnerability reported to vendor",
+    "2025-11-14 - Coordinated public release of advisory",
+    "2025-11-14 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-1012 ZDI-CAN-27857 NVIDIA AIStore AuthN users Missing Authentication for Critical Function Information Disclosure Vulnerability 2025-11-14 CVE-2025-33185 https://www.cve.org/CVERecord?id=CVE-2025-33185 7.5 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N ['NVIDIA'] ['AIStore'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of NVIDIA AIStore. Authentication is not required to exploit this vulnerability. The specific flaw exists within the users endpoint. The issue results from the lack of authentication prior to allowing access to functionality. An attacker can leverage this vulnerability to disclose stored user names, leading to further compromise. NVIDIA has issued an update to correct this vulnerability. More details can be found at: https://nvidia.custhelp.com/app/answers/detail/a_id/5724 ['2025-08-12 - Vulnerability reported to vendor', '2025-11-14 - Coordinated public release of advisory', '2025-11-14 - Advisory Updated'] Peter Girnus (@gothburz) of Trend Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-25-1012/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-1012/",
+  "title": "NVIDIA AIStore AuthN users Missing Authentication for Critical Function Information Disclosure Vulnerability",
+  "updated_date": "2025-11-14",
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of NVIDIA AIStore. Authentication is not required to exploit this vulnerability. The specific flaw exists within the users endpoint. The issue results from the lack of authentication prior to allowing access to functionality. An attacker can leverage this vulnerability to disclose stored user names, leading to further compromise.",
+  "zdi_can": "ZDI-CAN-27857",
+  "zdi_id": "ZDI-25-1012"
+}

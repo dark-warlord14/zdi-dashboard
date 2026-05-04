@@ -1,0 +1,28 @@
+{
+  "additional_details": "Ivanti has issued an update to correct this vulnerability. More details can be found at: https://forums.ivanti.com/s/article/Security-Advisory-EPM-January-2025-for-EPM-2024-and-EPM-2022-SU6",
+  "advisory_date": "2025-01-19",
+  "affected_products": [
+    "Endpoint Manager"
+  ],
+  "affected_vendors": [
+    "Ivanti"
+  ],
+  "credit": "Piotr Bazydlo (@chudypb) and Simon Zuckerbraun of Trend Micro Zero Day Initiative",
+  "cve": "CVE-2024-13169",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-13169",
+  "cvss": 5.5,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+  "disclosure_timeline": [
+    "2024-10-08 - Vulnerability reported to vendor",
+    "2025-01-19 - Coordinated public release of advisory",
+    "2025-01-19 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-034 ZDI-CAN-25416 Ivanti Endpoint Manager AlertService Type Confusion Information Disclosure Vulnerability 2025-01-19 CVE-2024-13169 https://www.cve.org/CVERecord?id=CVE-2024-13169 5.5 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N ['Ivanti'] ['Endpoint Manager'] This vulnerability allows local attackers to disclose sensitive information on affected installations of Ivanti Endpoint Manager. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the AlertService. The issue results from an incorrect type cast. An attacker can leverage this vulnerability to disclose stored credentials, leading to further compromise. Ivanti has issued an update to correct this vulnerability. More details can be found at: https://forums.ivanti.com/s/article/Security-Advisory-EPM-January-2025-for-EPM-2024-and-EPM-2022-SU6 ['2024-10-08 - Vulnerability reported to vendor', '2025-01-19 - Coordinated public release of advisory', '2025-01-19 - Advisory Updated'] Piotr Bazydlo (@chudypb) and Simon Zuckerbraun of Trend Micro Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-25-034/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-034/",
+  "title": "Ivanti Endpoint Manager AlertService Type Confusion Information Disclosure Vulnerability",
+  "updated_date": "2025-01-19",
+  "vulnerability_details": "This vulnerability allows local attackers to disclose sensitive information on affected installations of Ivanti Endpoint Manager. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the AlertService. The issue results from an incorrect type cast. An attacker can leverage this vulnerability to disclose stored credentials, leading to further compromise.",
+  "zdi_can": "ZDI-CAN-25416",
+  "zdi_id": "ZDI-25-034"
+}

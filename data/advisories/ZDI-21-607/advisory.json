@@ -1,0 +1,27 @@
+{
+  "additional_details": "Synology has issued an update to correct this vulnerability. More details can be found at: https://www.synology.com/en-uk/security/advisory/Synology_SA_20_26",
+  "advisory_date": "2021-05-25",
+  "affected_products": [
+    "DiskStation Manager"
+  ],
+  "affected_vendors": [
+    "Synology"
+  ],
+  "credit": "Justin Taft (@oneupsecurity)",
+  "cve": "CVE-2021-29084",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2021-29084",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+  "disclosure_timeline": [
+    "2021-01-19 - Vulnerability reported to vendor",
+    "2021-05-25 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-21-607 ZDI-CAN-12460 Synology DiskStation Manager webapi CRLF Injection Information Disclosure Vulnerability 2021-05-25 CVE-2021-29084 https://www.cve.org/CVERecord?id=CVE-2021-29084 7.5 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N ['Synology'] ['DiskStation Manager'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Synology DS418play. Authentication is not required to exploit this vulnerability. The specific flaw exists within the webapi component. The issue results from incorrect neutralization of CRLF sequences in HTTP requests. An attacker can leverage this vulnerability to disclose information in the context of the Admin user. Synology has issued an update to correct this vulnerability. More details can be found at: https://www.synology.com/en-uk/security/advisory/Synology_SA_20_26 ['2021-01-19 - Vulnerability reported to vendor', '2021-05-25 - Coordinated public release of advisory'] Justin Taft (@oneupsecurity) https://www.zerodayinitiative.com/advisories/ZDI-21-607/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-21-607/",
+  "title": "Synology DiskStation Manager webapi CRLF Injection Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Synology DS418play. Authentication is not required to exploit this vulnerability. The specific flaw exists within the webapi component. The issue results from incorrect neutralization of CRLF sequences in HTTP requests. An attacker can leverage this vulnerability to disclose information in the context of the Admin user.",
+  "zdi_can": "ZDI-CAN-12460",
+  "zdi_id": "ZDI-21-607"
+}

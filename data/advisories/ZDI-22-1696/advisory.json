@@ -1,0 +1,27 @@
+{
+  "additional_details": "X.Org has issued an update to correct this vulnerability. More details can be found at: https://lists.x.org/archives/xorg-announce/2022-December/003302.html",
+  "advisory_date": "2022-12-28",
+  "affected_products": [
+    "Server"
+  ],
+  "affected_vendors": [
+    "X.Org"
+  ],
+  "credit": "Jan-Niklas Sohn",
+  "cve": "CVE-2022-46341",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-46341",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2022-11-21 - Vulnerability reported to vendor",
+    "2022-12-28 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-1696 ZDI-CAN-19381 X.Org Server ProcXIPassiveUngrabDevice Improper Validation of Array Index Local Privilege Escalation Vulnerability 2022-12-28 CVE-2022-46341 https://www.cve.org/CVERecord?id=CVE-2022-46341 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['X.Org'] ['Server'] This vulnerability allows local attackers to escalate privileges on affected installations of X.Org Server. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of ProcXIPassiveUngrabDevice requests. The issue results from the lack of proper validation of user-supplied data, which can result in a memory access past the end of an allocated array. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root. X.Org has issued an update to correct this vulnerability. More details can be found at: https://lists.x.org/archives/xorg-announce/2022-December/003302.html ['2022-11-21 - Vulnerability reported to vendor', '2022-12-28 - Coordinated public release of advisory'] Jan-Niklas Sohn https://www.zerodayinitiative.com/advisories/ZDI-22-1696/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-1696/",
+  "title": "X.Org Server ProcXIPassiveUngrabDevice Improper Validation of Array Index Local Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of X.Org Server. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of ProcXIPassiveUngrabDevice requests. The issue results from the lack of proper validation of user-supplied data, which can result in a memory access past the end of an allocated array. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root.",
+  "zdi_can": "ZDI-CAN-19381",
+  "zdi_id": "ZDI-22-1696"
+}

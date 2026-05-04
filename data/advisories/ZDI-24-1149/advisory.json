@@ -1,0 +1,28 @@
+{
+  "additional_details": "Ivanti has issued an update to correct this vulnerability. More details can be found at: https://forums.ivanti.com/s/article/Security-Advisory-Ivanti-Avalanche-6-4-4-CVE-2024-38652-CVE-2024-38653-CVE-2024-36136-CVE-2024-37399-CVE-2024-37373?language=en_US",
+  "advisory_date": "2024-08-15",
+  "affected_products": [
+    "Avalanche"
+  ],
+  "affected_vendors": [
+    "Ivanti"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2024-38652",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-38652",
+  "cvss": 8.2,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:H",
+  "disclosure_timeline": [
+    "2023-07-18 - Vulnerability reported to vendor",
+    "2024-08-15 - Coordinated public release of advisory",
+    "2024-08-15 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-1149 ZDI-CAN-21401 Ivanti Avalanche deleteSkin Directory Traversal Arbitrary File Deletion Vulnerability 2024-08-15 CVE-2024-38652 https://www.cve.org/CVERecord?id=CVE-2024-38652 8.2 AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:H ['Ivanti'] ['Avalanche'] This vulnerability allows remote attackers to delete arbitrary files on affected installations of Ivanti Avalanche. Authentication is not required to exploit this vulnerability. The specific flaw exists within the deleteSkin method. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to delete files in the context of SYSTEM. Ivanti has issued an update to correct this vulnerability. More details can be found at: https://forums.ivanti.com/s/article/Security-Advisory-Ivanti-Avalanche-6-4-4-CVE-2024-38652-CVE-2024-38653-CVE-2024-36136-CVE-2024-37399-CVE-2024-37373?language=en_US ['2023-07-18 - Vulnerability reported to vendor', '2024-08-15 - Coordinated public release of advisory', '2024-08-15 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-24-1149/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-1149/",
+  "title": "Ivanti Avalanche deleteSkin Directory Traversal Arbitrary File Deletion Vulnerability",
+  "updated_date": "2024-08-15",
+  "vulnerability_details": "This vulnerability allows remote attackers to delete arbitrary files on affected installations of Ivanti Avalanche. Authentication is not required to exploit this vulnerability. The specific flaw exists within the deleteSkin method. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to delete files in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-21401",
+  "zdi_id": "ZDI-24-1149"
+}

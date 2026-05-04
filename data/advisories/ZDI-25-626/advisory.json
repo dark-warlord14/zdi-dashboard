@@ -1,0 +1,28 @@
+{
+  "additional_details": "NVIDIA has issued an update to correct this vulnerability. More details can be found at: https://nvidia.custhelp.com/app/answers/detail/a_id/5659",
+  "advisory_date": "2025-07-21",
+  "affected_products": [
+    "Container Toolkit"
+  ],
+  "affected_vendors": [
+    "NVIDIA"
+  ],
+  "credit": "Nir Ohfeld (@nirohfeld), Shir Tamari (@shirtamari)",
+  "cve": "CVE-2025-23266",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-23266",
+  "cvss": 8.8,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2025-06-05 - Vulnerability reported to vendor",
+    "2025-07-21 - Coordinated public release of advisory",
+    "2025-07-21 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-626 ZDI-CAN-27193 (Pwn2Own) NVIDIA Container Toolkit Environment Variable Handling Local Privilege Escalation Vulnerability 2025-07-21 CVE-2025-23266 https://www.cve.org/CVERecord?id=CVE-2025-23266 8.8 AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H ['NVIDIA'] ['Container Toolkit'] This vulnerability allows local attackers to escalate privileges on affected installations of NVIDIA Container Toolkit. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of hooks. The issue results from the lack of restrictions on environment variables prior to spawning a hook process. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the host system. NVIDIA has issued an update to correct this vulnerability. More details can be found at: https://nvidia.custhelp.com/app/answers/detail/a_id/5659 ['2025-06-05 - Vulnerability reported to vendor', '2025-07-21 - Coordinated public release of advisory', '2025-07-21 - Advisory Updated'] Nir Ohfeld (@nirohfeld), Shir Tamari (@shirtamari) https://www.zerodayinitiative.com/advisories/ZDI-25-626/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-626/",
+  "title": "(Pwn2Own) NVIDIA Container Toolkit Environment Variable Handling Local Privilege Escalation Vulnerability",
+  "updated_date": "2025-07-21",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of NVIDIA Container Toolkit. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of hooks. The issue results from the lack of restrictions on environment variables prior to spawning a hook process. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the host system.",
+  "zdi_can": "ZDI-CAN-27193",
+  "zdi_id": "ZDI-25-626"
+}

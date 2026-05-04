@@ -1,0 +1,27 @@
+{
+  "additional_details": "Cisco has issued an update to correct this vulnerability. More details can be found at: http://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20131106-waasm",
+  "advisory_date": "2013-12-15",
+  "affected_products": [
+    "WAAS Mobile Server"
+  ],
+  "affected_vendors": [
+    "Cisco"
+  ],
+  "credit": "Andrea Micalizzi aka rgod",
+  "cve": "CVE-2013-5554",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2013-5554",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2013-06-21 - Vulnerability reported to vendor",
+    "2013-12-15 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-13-276 ZDI-CAN-1862 Cisco WAAS Mobile Server ReportReceiver CAB Processing Remote Code Execution Vulnerability 2013-12-15 CVE-2013-5554 https://www.cve.org/CVERecord?id=CVE-2013-5554 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Cisco'] ['WAAS Mobile Server'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of CISCO WAAS Mobile Server. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of CAB files uploaded through ReportReceiver. By uploading a crafted CAB file, an attacker is able to add a hostile web page to the web server. Using this, an attacker is able to run arbitrary code as either DefaultAppPool or NetworkService, depending on the operating system version. Cisco has issued an update to correct this vulnerability. More details can be found at: http://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20131106-waasm ['2013-06-21 - Vulnerability reported to vendor', '2013-12-15 - Coordinated public release of advisory'] Andrea Micalizzi aka rgod https://www.zerodayinitiative.com/advisories/ZDI-13-276/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-13-276/",
+  "title": "Cisco WAAS Mobile Server ReportReceiver CAB Processing Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of CISCO WAAS Mobile Server. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of CAB files uploaded through ReportReceiver. By uploading a crafted CAB file, an attacker is able to add a hostile web page to the web server. Using this, an attacker is able to run arbitrary code as either DefaultAppPool or NetworkService, depending on the operating system version.",
+  "zdi_can": "ZDI-CAN-1862",
+  "zdi_id": "ZDI-13-276"
+}

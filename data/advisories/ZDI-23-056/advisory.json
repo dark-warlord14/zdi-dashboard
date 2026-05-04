@@ -1,0 +1,27 @@
+{
+  "additional_details": "VMware has issued an update to correct this vulnerability. More details can be found at: https://www.vmware.com/security/advisories/VMSA-2022-0031.html",
+  "advisory_date": "2023-01-18",
+  "affected_products": [
+    "vRealize"
+  ],
+  "affected_vendors": [
+    "VMware"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2022-31703",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-31703",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+  "disclosure_timeline": [
+    "2022-08-31 - Vulnerability reported to vendor",
+    "2023-01-18 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-056 ZDI-CAN-17960 VMware vRealize Network Insight downloadFile Directory Traversal Information Disclosure Vulnerability 2023-01-18 CVE-2022-31703 https://www.cve.org/CVERecord?id=CVE-2022-31703 7.5 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N ['VMware'] ['vRealize'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of VMware vRealize Network Insight. Authentication is not required to exploit this vulnerability. The specific flaw exists within the downloadFile function. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to disclose information in the context of the service account. VMware has issued an update to correct this vulnerability. More details can be found at: https://www.vmware.com/security/advisories/VMSA-2022-0031.html ['2022-08-31 - Vulnerability reported to vendor', '2023-01-18 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-23-056/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-056/",
+  "title": "VMware vRealize Network Insight downloadFile Directory Traversal Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of VMware vRealize Network Insight. Authentication is not required to exploit this vulnerability. The specific flaw exists within the downloadFile function. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to disclose information in the context of the service account.",
+  "zdi_can": "ZDI-CAN-17960",
+  "zdi_id": "ZDI-23-056"
+}

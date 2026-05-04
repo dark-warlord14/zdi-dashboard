@@ -1,0 +1,27 @@
+{
+  "additional_details": "Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxitsoftware.com/support/security-bulletins.php",
+  "advisory_date": "2017-11-14",
+  "affected_products": [
+    "Reader"
+  ],
+  "affected_vendors": [
+    "Foxit"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2017-16575",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-16575",
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2017-09-15 - Vulnerability reported to vendor",
+    "2017-11-14 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-17-886 ZDI-CAN-5091 Foxit Reader XFA bind Use-After-Free Remote Code Execution Vulnerability 2017-11-14 CVE-2017-16575 https://www.cve.org/CVERecord?id=CVE-2017-16575 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Foxit'] ['Reader'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Foxit Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the XFA's bind element. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code under the context of the current process. Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxitsoftware.com/support/security-bulletins.php ['2017-09-15 - Vulnerability reported to vendor', '2017-11-14 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-17-886/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-886/",
+  "title": "Foxit Reader XFA bind Use-After-Free Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Foxit Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the XFA's bind element. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code under the context of the current process.",
+  "zdi_can": "ZDI-CAN-5091",
+  "zdi_id": "ZDI-17-886"
+}

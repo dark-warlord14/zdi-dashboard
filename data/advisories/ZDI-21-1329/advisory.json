@@ -1,0 +1,27 @@
+{
+  "additional_details": "Fixed in Version 11.25",
+  "advisory_date": "2021-11-22",
+  "affected_products": [
+    "CommCell"
+  ],
+  "affected_vendors": [
+    "Commvault"
+  ],
+  "credit": "Brandon Perry, Justin Kennedy and Steven Seeley of Source Incite",
+  "cve": "CVE-2021-34994",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2021-34994",
+  "cvss": 8.8,
+  "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2021-06-30 - Vulnerability reported to vendor",
+    "2021-11-22 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-21-1329 ZDI-CAN-13755 Commvault CommCell DataProvider JavaScript Sandbox Escape Vulnerability 2021-11-22 CVE-2021-34994 https://www.cve.org/CVERecord?id=CVE-2021-34994 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Commvault'] ['CommCell'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Commvault CommCell. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed. The specific flaw exists within the DataProvider class. The issue results from the lack of proper validation of a user-supplied string before executing it as JavaScript code. An attacker can leverage this vulnerability to escape the JavaScript sandbox and execute Java code in the context of NETWORK SERVICE. Fixed in Version 11.25 ['2021-06-30 - Vulnerability reported to vendor', '2021-11-22 - Coordinated public release of advisory'] Brandon Perry, Justin Kennedy and Steven Seeley of Source Incite https://www.zerodayinitiative.com/advisories/ZDI-21-1329/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-21-1329/",
+  "title": "Commvault CommCell DataProvider JavaScript Sandbox Escape Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Commvault CommCell. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed. The specific flaw exists within the DataProvider class. The issue results from the lack of proper validation of a user-supplied string before executing it as JavaScript code. An attacker can leverage this vulnerability to escape the JavaScript sandbox and execute Java code in the context of NETWORK SERVICE.",
+  "zdi_can": "ZDI-CAN-13755",
+  "zdi_id": "ZDI-21-1329"
+}

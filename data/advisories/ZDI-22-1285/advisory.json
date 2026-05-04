@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-37955",
+  "advisory_date": "2022-09-19",
+  "affected_products": [
+    "Windows"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "@decoder_it",
+  "cve": "CVE-2022-37955",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-37955",
+  "cvss": 7.0,
+  "cvss_vector": "AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2022-06-07 - Vulnerability reported to vendor",
+    "2022-09-19 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-1285 ZDI-CAN-17112 Microsoft Windows Group Policy Preference Link Following Local Privilege Escalation Vulnerability 2022-09-19 CVE-2022-37955 https://www.cve.org/CVERecord?id=CVE-2022-37955 7.0 AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H ['Microsoft'] ['Windows'] This vulnerability allows local attackers to escalate privileges on affected installations of Microsoft Windows. This vulnerability is dependent upon a Group Policy setting, and an attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Group Policy Preference Client module. By creating a symbolic link, an attacker can cause the module to create an arbitrary file. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-37955 ['2022-06-07 - Vulnerability reported to vendor', '2022-09-19 - Coordinated public release of advisory'] @decoder_it https://www.zerodayinitiative.com/advisories/ZDI-22-1285/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-1285/",
+  "title": "Microsoft Windows Group Policy Preference Link Following Local Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Microsoft Windows. This vulnerability is dependent upon a Group Policy setting, and an attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Group Policy Preference Client module. By creating a symbolic link, an attacker can cause the module to create an arbitrary file. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-17112",
+  "zdi_id": "ZDI-22-1285"
+}

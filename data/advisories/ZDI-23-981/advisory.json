@@ -1,0 +1,28 @@
+{
+  "additional_details": "Linux has issued an update to correct this vulnerability. More details can be found at: https://lore.kernel.org/all/20230624040141.16088-1-linkinjeon@kernel.org/",
+  "advisory_date": "2023-07-20",
+  "affected_products": [
+    "Kernel"
+  ],
+  "affected_vendors": [
+    "Linux"
+  ],
+  "credit": "HexRabbit (@h3xr4bb1t) and Pumpkin (@u1f383)",
+  "cve": "CVE-2023-3867",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-3867",
+  "cvss": 7.2,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:N/A:L",
+  "disclosure_timeline": [
+    "2023-06-21 - Vulnerability reported to vendor",
+    "2023-07-20 - Coordinated public release of advisory",
+    "2023-07-28 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-981 ZDI-CAN-21355 Linux Kernel ksmbd Session Setup Out-Of-Bounds Read Information Disclosure Vulnerability 2023-07-20 CVE-2023-3867 https://www.cve.org/CVERecord?id=CVE-2023-3867 7.2 AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:N/A:L ['Linux'] ['Kernel'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Linux Kernel. Authentication is not required to exploit this vulnerability. However, only systems with ksmbd enabled are vulnerable. The specific flaw exists within the handling of session setup commands. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the kernel. Linux has issued an update to correct this vulnerability. More details can be found at: https://lore.kernel.org/all/20230624040141.16088-1-linkinjeon@kernel.org/ ['2023-06-21 - Vulnerability reported to vendor', '2023-07-20 - Coordinated public release of advisory', '2023-07-28 - Advisory Updated'] HexRabbit (@h3xr4bb1t) and Pumpkin (@u1f383) https://www.zerodayinitiative.com/advisories/ZDI-23-981/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-981/",
+  "title": "Linux Kernel ksmbd Session Setup Out-Of-Bounds Read Information Disclosure Vulnerability",
+  "updated_date": "2023-07-28",
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Linux Kernel. Authentication is not required to exploit this vulnerability. However, only systems with ksmbd enabled are vulnerable. The specific flaw exists within the handling of session setup commands. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the kernel.",
+  "zdi_can": "ZDI-CAN-21355",
+  "zdi_id": "ZDI-23-981"
+}

@@ -1,0 +1,27 @@
+{
+  "additional_details": "Fixed in Mac OS X 10.6.5: http://support.apple.com/kb/HT4435 QuickTime 7.6.9: http://support.apple.com/kb/HT4447",
+  "advisory_date": "2010-11-10",
+  "affected_products": [
+    "Quicktime"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2010-3792",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2010-3792",
+  "cvss": 9.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:C",
+  "disclosure_timeline": [
+    "2010-07-20 - Vulnerability reported to vendor",
+    "2010-11-10 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-10-255 ZDI-CAN-839 Apple QuickTime m1s Parsing Remote Code Execution Vulnerability 2010-11-10 CVE-2010-3792 https://www.cve.org/CVERecord?id=CVE-2010-3792 9.0 AV:N/AC:L/Au:N/C:P/I:P/A:C ['Apple'] ['Quicktime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple Quicktime. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The flaw exists within the quicktime.qtx. When handling the m1s atom an integer value is used as an offset into a buffer. Minimal validation is done and an attacker can supply a negative value. This can be used to write to an arbitrary address in process memory. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the user. Fixed in Mac OS X 10.6.5: http://support.apple.com/kb/HT4435 QuickTime 7.6.9: http://support.apple.com/kb/HT4447 ['2010-07-20 - Vulnerability reported to vendor', '2010-11-10 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-10-255/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-255/",
+  "title": "Apple QuickTime m1s Parsing Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple Quicktime. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The flaw exists within the quicktime.qtx. When handling the m1s atom an integer value is used as an offset into a buffer. Minimal validation is done and an attacker can supply a negative value. This can be used to write to an arbitrary address in process memory. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the user.",
+  "zdi_can": "ZDI-CAN-839",
+  "zdi_id": "ZDI-10-255"
+}

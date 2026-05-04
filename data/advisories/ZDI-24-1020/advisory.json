@@ -1,0 +1,28 @@
+{
+  "additional_details": "SolarWinds has issued an update to correct this vulnerability. More details can be found at: https://documentation.solarwinds.com/en/success_center/arm/content/release_notes/arm_2024-3_release_notes.htm",
+  "advisory_date": "2024-07-29",
+  "affected_products": [
+    "Access Rights Manager"
+  ],
+  "affected_vendors": [
+    "SolarWinds"
+  ],
+  "credit": "Piotr Bazydlo (@chudypb) of Trend Micro Zero Day Initiative",
+  "cve": "CVE-2024-28992",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-28992",
+  "cvss": 8.6,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:H",
+  "disclosure_timeline": [
+    "2024-02-29 - Vulnerability reported to vendor",
+    "2024-07-29 - Coordinated public release of advisory",
+    "2024-08-15 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-1020 ZDI-CAN-23514 SolarWinds Access Rights Manager deleteTransferFile Directory Traversal Arbitrary File Deletion and Information Disclosure Vulnerability 2024-07-29 CVE-2024-28992 https://www.cve.org/CVERecord?id=CVE-2024-28992 8.6 AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:H ['SolarWinds'] ['Access Rights Manager'] This vulnerability allows remote attackers to delete arbitrary files and disclose sensitive information on affected installations of SolarWinds Access Rights Manager. Authentication is not required to exploit this vulnerability. The specific flaw exists within the deleteTransferFile method. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to delete files and disclose information in the context of a highly privileged domain user. SolarWinds has issued an update to correct this vulnerability. More details can be found at: https://documentation.solarwinds.com/en/success_center/arm/content/release_notes/arm_2024-3_release_notes.htm ['2024-02-29 - Vulnerability reported to vendor', '2024-07-29 - Coordinated public release of advisory', '2024-08-15 - Advisory Updated'] Piotr Bazydlo (@chudypb) of Trend Micro Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-24-1020/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-1020/",
+  "title": "SolarWinds Access Rights Manager deleteTransferFile Directory Traversal Arbitrary File Deletion and Information Disclosure Vulnerability",
+  "updated_date": "2024-08-15",
+  "vulnerability_details": "This vulnerability allows remote attackers to delete arbitrary files and disclose sensitive information on affected installations of SolarWinds Access Rights Manager. Authentication is not required to exploit this vulnerability. The specific flaw exists within the deleteTransferFile method. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to delete files and disclose information in the context of a highly privileged domain user.",
+  "zdi_can": "ZDI-CAN-23514",
+  "zdi_id": "ZDI-24-1020"
+}

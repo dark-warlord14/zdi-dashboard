@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/en-us/vulnerability/CVE-2021-31206",
+  "advisory_date": "2021-07-19",
+  "affected_products": [
+    "Exchange"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Steven Seeley (mr_me) of Source Incite",
+  "cve": "CVE-2021-31206",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2021-31206",
+  "cvss": 7.1,
+  "cvss_vector": "AV:A/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2021-04-08 - Vulnerability reported to vendor",
+    "2021-07-19 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-21-826 ZDI-CAN-13595 (Pwn2Own) Microsoft Exchange Server CabUtility ExtractCab Directory Traversal Remote Code Execution Vulnerability 2021-07-19 CVE-2021-31206 https://www.cve.org/CVERecord?id=CVE-2021-31206 7.1 AV:A/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H ['Microsoft'] ['Exchange'] This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Microsoft Exchange Server. User interaction is required to exploit this vulnerability. The specific flaw exists within the parsing of CAB files. When handling filenames specified within a CAB file, the process does not properly validate a user-supplied path prior to using it in file operations. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of SYSTEM. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/en-us/vulnerability/CVE-2021-31206 ['2021-04-08 - Vulnerability reported to vendor', '2021-07-19 - Coordinated public release of advisory'] Steven Seeley (mr_me) of Source Incite https://www.zerodayinitiative.com/advisories/ZDI-21-826/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-21-826/",
+  "title": "(Pwn2Own) Microsoft Exchange Server CabUtility ExtractCab Directory Traversal Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Microsoft Exchange Server. User interaction is required to exploit this vulnerability. The specific flaw exists within the parsing of CAB files. When handling filenames specified within a CAB file, the process does not properly validate a user-supplied path prior to using it in file operations. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-13595",
+  "zdi_id": "ZDI-21-826"
+}

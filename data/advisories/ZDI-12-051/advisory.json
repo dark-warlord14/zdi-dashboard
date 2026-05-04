@@ -1,0 +1,27 @@
+{
+  "additional_details": "RealNetworks has issued an update to correct this vulnerability. More details can be found at: http://service.real.com/realplayer/security/11182011_player/en/",
+  "advisory_date": "2012-03-22",
+  "affected_products": [
+    "RealPlayer"
+  ],
+  "affected_vendors": [
+    "RealNetworks"
+  ],
+  "credit": "Luigi Auriemma",
+  "cve": "CVE-2011-4254",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-4254",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2011-08-12 - Vulnerability reported to vendor",
+    "2012-03-22 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-12-051 ZDI-CAN-1286 RealNetworks RealPlayer RTSP SETUP Request Remote Code Execution Vulnerability 2012-03-22 CVE-2011-4254 https://www.cve.org/CVERecord?id=CVE-2011-4254 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['RealNetworks'] ['RealPlayer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of RealNetworks Real Player. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists due to the application mishandling an error that occurs when parsing an RTSP SETUP request. When an error occurs, the application will free a pointer to a linked list due to the stream being closed. Following this, the application will then attempt to access the freed element whilst traversing the list. This can lead to a use-after-free condition and can lead to code execution under the context of the application. RealNetworks has issued an update to correct this vulnerability. More details can be found at: http://service.real.com/realplayer/security/11182011_player/en/ ['2011-08-12 - Vulnerability reported to vendor', '2012-03-22 - Coordinated public release of advisory'] Luigi Auriemma https://www.zerodayinitiative.com/advisories/ZDI-12-051/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-12-051/",
+  "title": "RealNetworks RealPlayer RTSP SETUP Request Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of RealNetworks Real Player. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists due to the application mishandling an error that occurs when parsing an RTSP SETUP request. When an error occurs, the application will free a pointer to a linked list due to the stream being closed. Following this, the application will then attempt to access the freed element whilst traversing the list. This can lead to a use-after-free condition and can lead to code execution under the context of the application.",
+  "zdi_can": "ZDI-CAN-1286",
+  "zdi_id": "ZDI-12-051"
+}

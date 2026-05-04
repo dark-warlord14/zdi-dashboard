@@ -1,0 +1,27 @@
+{
+  "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: http://www.adobe.com/support/security/bulletins/apsb11-03.html",
+  "advisory_date": "2011-02-08",
+  "affected_products": [
+    "Reader"
+  ],
+  "affected_vendors": [
+    "Adobe"
+  ],
+  "credit": "Peter Vreugdenhil ( http://vreugdenhilresearch.nl )",
+  "cve": "CVE-2011-0599",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-0599",
+  "cvss": 9.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:C",
+  "disclosure_timeline": [
+    "2010-11-15 - Vulnerability reported to vendor",
+    "2011-02-08 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-11-072 ZDI-CAN-947 Adobe Reader BMP ColorData Remote Code Execution Vulnerability 2011-02-08 CVE-2011-0599 https://www.cve.org/CVERecord?id=CVE-2011-0599 9.0 AV:N/AC:L/Au:N/C:P/I:P/A:C ['Adobe'] ['Reader'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Adobe Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The flaw exists within the Bitmap parsing component of rt3d.dll. When allocating a destination buffer for handling 4/8-bit RLE compressed bitmaps, the process uses the bitmap bits per pixel and number of colors values directly. A pointer is created based on the specified color depth, which can then be used to copy user supplied data into the fixed-length color data buffer on the heap. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the user. Adobe has issued an update to correct this vulnerability. More details can be found at: http://www.adobe.com/support/security/bulletins/apsb11-03.html ['2010-11-15 - Vulnerability reported to vendor', '2011-02-08 - Coordinated public release of advisory'] Peter Vreugdenhil ( http://vreugdenhilresearch.nl ) https://www.zerodayinitiative.com/advisories/ZDI-11-072/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-072/",
+  "title": "Adobe Reader BMP ColorData Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Adobe Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The flaw exists within the Bitmap parsing component of rt3d.dll. When allocating a destination buffer for handling 4/8-bit RLE compressed bitmaps, the process uses the bitmap bits per pixel and number of colors values directly. A pointer is created based on the specified color depth, which can then be used to copy user supplied data into the fixed-length color data buffer on the heap. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the user.",
+  "zdi_can": "ZDI-CAN-947",
+  "zdi_id": "ZDI-11-072"
+}

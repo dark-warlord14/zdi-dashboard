@@ -1,0 +1,28 @@
+{
+  "additional_details": "SonicWALL has issued an update to correct this vulnerability. More details can be found at: https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2025-0003",
+  "advisory_date": "2025-01-09",
+  "affected_products": [
+    "NSv"
+  ],
+  "affected_vendors": [
+    "SonicWALL"
+  ],
+  "credit": "Daan Keuper, Thijs Alkemade and Khaled Nassar of Computest Security",
+  "cve": "CVE-2024-53705",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-53705",
+  "cvss": 8.1,
+  "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
+  "disclosure_timeline": [
+    "2024-11-05 - Vulnerability reported to vendor",
+    "2025-01-09 - Coordinated public release of advisory",
+    "2025-01-09 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-013 ZDI-CAN-24820 SonicWALL NSv SSH Management Server-Side Request Forgery Vulnerability 2025-01-09 CVE-2024-53705 https://www.cve.org/CVERecord?id=CVE-2024-53705 8.1 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N ['SonicWALL'] ['NSv'] This vulnerability allows remote attackers to initiate arbitrary server-side requests on affected installations of SonicWALL NSv. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed. The specific flaw exists within the SSH Management functionality. The issue results from the lack of proper validation of the length of user-supplied IP addresses and ports. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of root. SonicWALL has issued an update to correct this vulnerability. More details can be found at: https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2025-0003 ['2024-11-05 - Vulnerability reported to vendor', '2025-01-09 - Coordinated public release of advisory', '2025-01-09 - Advisory Updated'] Daan Keuper, Thijs Alkemade and Khaled Nassar of Computest Security https://www.zerodayinitiative.com/advisories/ZDI-25-013/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-013/",
+  "title": "SonicWALL NSv SSH Management Server-Side Request Forgery Vulnerability",
+  "updated_date": "2025-01-09",
+  "vulnerability_details": "This vulnerability allows remote attackers to initiate arbitrary server-side requests on affected installations of SonicWALL NSv. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed. The specific flaw exists within the SSH Management functionality. The issue results from the lack of proper validation of the length of user-supplied IP addresses and ports. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of root.",
+  "zdi_can": "ZDI-CAN-24820",
+  "zdi_id": "ZDI-25-013"
+}

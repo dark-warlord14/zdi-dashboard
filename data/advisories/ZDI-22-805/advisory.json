@@ -1,0 +1,27 @@
+{
+  "additional_details": "KeySight has issued an update to correct this vulnerability. More details can be found at: https://www.cisa.gov/uscert/ics/advisories/icsa-22-146-01",
+  "advisory_date": "2022-05-27",
+  "affected_products": [
+    "N6841A RF Sensor"
+  ],
+  "affected_vendors": [
+    "KeySight"
+  ],
+  "credit": "rgod",
+  "cve": "CVE-2022-1661",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-1661",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+  "disclosure_timeline": [
+    "2021-12-30 - Vulnerability reported to vendor",
+    "2022-05-27 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-805 ZDI-CAN-15525 KeySight N6841A RF Sensor UserFirmwareRequestHandler Directory Traversal Information Disclosure Vulnerability 2022-05-27 CVE-2022-1661 https://www.cve.org/CVERecord?id=CVE-2022-1661 7.5 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N ['KeySight'] ['N6841A RF Sensor'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of KeySight N6841A RF Sensor. Authentication is not required to exploit this vulnerability. The specific flaw exists within the UserFirmwareRequestHandler class. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to disclose files in the context of SYSTEM. KeySight has issued an update to correct this vulnerability. More details can be found at: https://www.cisa.gov/uscert/ics/advisories/icsa-22-146-01 ['2021-12-30 - Vulnerability reported to vendor', '2022-05-27 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-22-805/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-805/",
+  "title": "KeySight N6841A RF Sensor UserFirmwareRequestHandler Directory Traversal Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of KeySight N6841A RF Sensor. Authentication is not required to exploit this vulnerability. The specific flaw exists within the UserFirmwareRequestHandler class. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to disclose files in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-15525",
+  "zdi_id": "ZDI-22-805"
+}

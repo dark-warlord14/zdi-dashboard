@@ -1,0 +1,28 @@
+{
+  "additional_details": "Fixed in SketchUp SDK Security Patch 2023-0-421 https://help.sketchup.com/en/release-notes/sketchup-desktop-202302",
+  "advisory_date": "2024-02-21",
+  "affected_products": [
+    "SketchUp"
+  ],
+  "affected_vendors": [
+    "Trimble"
+  ],
+  "credit": "Michael DePlante (@izobashi) of Trend Micro's Zero Day Initiative",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2022-11-11 - Vulnerability reported to vendor",
+    "2024-02-21 - Coordinated public release of advisory",
+    "2024-07-01 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-190 ZDI-CAN-18983 Trimble SketchUp SKP File Parsing Use-After-Free Remote Code Execution Vulnerability 2024-02-21 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Trimble'] ['SketchUp'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Trimble SketchUp. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of SKP files. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current process. Fixed in SketchUp SDK Security Patch 2023-0-421 https://help.sketchup.com/en/release-notes/sketchup-desktop-202302 ['2022-11-11 - Vulnerability reported to vendor', '2024-02-21 - Coordinated public release of advisory', '2024-07-01 - Advisory Updated'] Michael DePlante (@izobashi) of Trend Micro's Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-24-190/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-190/",
+  "title": "Trimble SketchUp SKP File Parsing Use-After-Free Remote Code Execution Vulnerability",
+  "updated_date": "2024-07-01",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Trimble SketchUp. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of SKP files. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-18983",
+  "zdi_id": "ZDI-24-190"
+}

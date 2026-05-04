@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/Bulletin/MS08-031.mspx",
+  "advisory_date": "2008-06-10",
+  "affected_products": [
+    "Internet Explorer"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Anonymous Peter Vreugdenhil Sebastian Apelt (webmaster@buzzworld.org)",
+  "cve": "CVE-2008-1442",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2008-1442",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2008-02-07 - Vulnerability reported to vendor",
+    "2008-06-10 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-08-039 ZDI-CAN-269 Microsoft Internet Explorer DOM Object substringData() Heap Overflow Vulnerability 2008-06-10 CVE-2008-1442 https://www.cve.org/CVERecord?id=CVE-2008-1442 ['Microsoft'] ['Internet Explorer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of various Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page. The specific flaw exists in the substringData() method when called on a DOM object that has been manipulated in a special way. The attack results in an exploitable heap buffer allowing for code execution under the context of the current user. Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/Bulletin/MS08-031.mspx ['2008-02-07 - Vulnerability reported to vendor', '2008-06-10 - Coordinated public release of advisory'] Anonymous Peter Vreugdenhil Sebastian Apelt (webmaster@buzzworld.org) https://www.zerodayinitiative.com/advisories/ZDI-08-039/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-08-039/",
+  "title": "Microsoft Internet Explorer DOM Object substringData() Heap Overflow Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of various Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page. The specific flaw exists in the substringData() method when called on a DOM object that has been manipulated in a special way. The attack results in an exploitable heap buffer allowing for code execution under the context of the current user.",
+  "zdi_can": "ZDI-CAN-269",
+  "zdi_id": "ZDI-08-039"
+}

@@ -1,0 +1,27 @@
+{
+  "additional_details": "This vulnerability is being disclosed publicly without a patch in accordance with the ZDI 120 day deadline. 07/22/20 - ZDI reported the vulnerability to D-Link 10/16/20 - ZDI requested a status update 12/09/20 - ZDI notified D-Link of the intention to publish the report as 0-day advisory on 12/15/2020 -- Mitigation: Given the nature of the vulnerability the only salient mitigation strategy is to restrict interaction with the application.",
+  "advisory_date": "2020-12-15",
+  "affected_products": [
+    "DCS-960L"
+  ],
+  "affected_vendors": [
+    "D-Link"
+  ],
+  "credit": "chung96vn of Vietnam's NCSC",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 8.8,
+  "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2020-07-22 - Vulnerability reported to vendor",
+    "2020-12-15 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-20-1436 ZDI-CAN-11366 (0Day) D-Link DCS-960L HNAP Login Cookie Format String Remote Code Execution Vulnerability 2020-12-15 8.8 AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['D-Link'] ['DCS-960L'] This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of D-Link DCS-960L Wi-Fi cameras. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of login action requests. The issue results from the lack of proper validation of a user-supplied string before using it as a format specifier. An attacker can leverage this vulnerability to execute code in the context of the device. This vulnerability is being disclosed publicly without a patch in accordance with the ZDI 120 day deadline. 07/22/20 - ZDI reported the vulnerability to D-Link 10/16/20 - ZDI requested a status update 12/09/20 - ZDI notified D-Link of the intention to publish the report as 0-day advisory on 12/15/2020 -- Mitigation: Given the nature of the vulnerability the only salient mitigation strategy is to restrict interaction with the application. ['2020-07-22 - Vulnerability reported to vendor', '2020-12-15 - Coordinated public release of advisory'] chung96vn of Vietnam's NCSC https://www.zerodayinitiative.com/advisories/ZDI-20-1436/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-20-1436/",
+  "title": "(0Day) D-Link DCS-960L HNAP Login Cookie Format String Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of D-Link DCS-960L Wi-Fi cameras. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of login action requests. The issue results from the lack of proper validation of a user-supplied string before using it as a format specifier. An attacker can leverage this vulnerability to execute code in the context of the device.",
+  "zdi_can": "ZDI-CAN-11366",
+  "zdi_id": "ZDI-20-1436"
+}

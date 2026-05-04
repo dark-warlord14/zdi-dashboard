@@ -1,0 +1,27 @@
+{
+  "additional_details": "Fixed in version A7(US)_V5_200220",
+  "advisory_date": "2020-03-25",
+  "affected_products": [
+    "Archer A7"
+  ],
+  "affected_vendors": [
+    "TP-Link"
+  ],
+  "credit": "Pedro Ribeiro and Radek Domanski of Team Flashback",
+  "cve": "CVE-2020-10883",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2020-10883",
+  "cvss": 5.3,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
+  "disclosure_timeline": [
+    "2019-11-19 - Vulnerability reported to vendor",
+    "2020-03-25 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-20-335 ZDI-CAN-9651 (Pwn2Own) TP-Link Archer A7 File System Incorrect Permission Assignment for Critical Resource Privilege Escalation Vulnerability 2020-03-25 CVE-2020-10883 https://www.cve.org/CVERecord?id=CVE-2020-10883 5.3 AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L ['TP-Link'] ['Archer A7'] This vulnerability allows local attackers to escalate privileges on affected installations of TP-Link Archer A7 AC1750 routers. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the file system. The issue lies in the lack of proper permissions set on the file system. An attacker can leverage this vulnerability to escalate privileges. Fixed in version A7(US)_V5_200220 ['2019-11-19 - Vulnerability reported to vendor', '2020-03-25 - Coordinated public release of advisory'] Pedro Ribeiro and Radek Domanski of Team Flashback https://www.zerodayinitiative.com/advisories/ZDI-20-335/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-20-335/",
+  "title": "(Pwn2Own) TP-Link Archer A7 File System Incorrect Permission Assignment for Critical Resource Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of TP-Link Archer A7 AC1750 routers. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the file system. The issue lies in the lack of proper permissions set on the file system. An attacker can leverage this vulnerability to escalate privileges.",
+  "zdi_can": "ZDI-CAN-9651",
+  "zdi_id": "ZDI-20-335"
+}

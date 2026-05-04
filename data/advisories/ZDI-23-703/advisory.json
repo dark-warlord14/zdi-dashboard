@@ -1,0 +1,27 @@
+{
+  "additional_details": "Linux has issued an update to correct this vulnerability. More details can be found at: https://github.com/torvalds/linux/commit/6d7cb549c2ca20e1f07593f15e936fd54b763028",
+  "advisory_date": "2023-05-17",
+  "affected_products": [
+    "Kernel"
+  ],
+  "affected_vendors": [
+    "Linux"
+  ],
+  "credit": "Quentin Minster (@thalium_team)",
+  "cve": "CVE-2023-32255",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-32255",
+  "cvss": 5.3,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+  "disclosure_timeline": [
+    "2023-04-27 - Vulnerability reported to vendor",
+    "2023-05-17 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-703 ZDI-CAN-20593 Linux Kernel ksmbd Session Setup Memory Leak Denial-of-Service Vulnerability 2023-05-17 CVE-2023-32255 https://www.cve.org/CVERecord?id=CVE-2023-32255 5.3 AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L ['Linux'] ['Kernel'] This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of Linux Kernel. Authentication is not required to exploit this vulnerability, but only systems with ksmbd enabled are vulnerable. The specific flaw exists within the handling of SMB2_SESSION_SETUP commands. The issue results from the lack of memory release after its effective lifetime. An attacker can leverage this vulnerability to create a denial-of-service condition on the system. Linux has issued an update to correct this vulnerability. More details can be found at: https://github.com/torvalds/linux/commit/6d7cb549c2ca20e1f07593f15e936fd54b763028 ['2023-04-27 - Vulnerability reported to vendor', '2023-05-17 - Coordinated public release of advisory'] Quentin Minster (@thalium_team) https://www.zerodayinitiative.com/advisories/ZDI-23-703/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-703/",
+  "title": "Linux Kernel ksmbd Session Setup Memory Leak Denial-of-Service Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of Linux Kernel. Authentication is not required to exploit this vulnerability, but only systems with ksmbd enabled are vulnerable. The specific flaw exists within the handling of SMB2_SESSION_SETUP commands. The issue results from the lack of memory release after its effective lifetime. An attacker can leverage this vulnerability to create a denial-of-service condition on the system.",
+  "zdi_can": "ZDI-CAN-20593",
+  "zdi_id": "ZDI-23-703"
+}

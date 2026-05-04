@@ -1,0 +1,27 @@
+{
+  "additional_details": "Advantech has issued an update to correct this vulnerability. More details can be found at: https://www.cisa.gov/uscert/ics/advisories/icsa-22-291-01",
+  "advisory_date": "2022-10-21",
+  "affected_products": [
+    "R-SeeNet"
+  ],
+  "affected_vendors": [
+    "Advantech"
+  ],
+  "credit": "rgod",
+  "cve": "CVE-2022-3387",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-3387",
+  "cvss": 6.5,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+  "disclosure_timeline": [
+    "2022-06-06 - Vulnerability reported to vendor",
+    "2022-10-21 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-1449 ZDI-CAN-17391 Advantech R-SeeNet out.php Directory Traversal Arbitrary File Read and Deletion Vulnerability 2022-10-21 CVE-2022-3387 https://www.cve.org/CVERecord?id=CVE-2022-3387 6.5 AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N ['Advantech'] ['R-SeeNet'] This vulnerability allows remote attackers to disclose sensitive information and delete arbitrary files on affected installations of Advantech R-SeeNet. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of the filename and path parameters provided to the out.php endpoint. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to disclose information and delete files in the context of SYSTEM. Advantech has issued an update to correct this vulnerability. More details can be found at: https://www.cisa.gov/uscert/ics/advisories/icsa-22-291-01 ['2022-06-06 - Vulnerability reported to vendor', '2022-10-21 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-22-1449/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-1449/",
+  "title": "Advantech R-SeeNet out.php Directory Traversal Arbitrary File Read and Deletion Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information and delete arbitrary files on affected installations of Advantech R-SeeNet. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of the filename and path parameters provided to the out.php endpoint. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to disclose information and delete files in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-17391",
+  "zdi_id": "ZDI-22-1449"
+}

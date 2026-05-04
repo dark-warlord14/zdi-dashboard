@@ -1,0 +1,27 @@
+{
+  "additional_details": "Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/security-advisory/cpujan2018-3236628.html",
+  "advisory_date": "2018-01-18",
+  "affected_products": [
+    "WebLogic"
+  ],
+  "affected_vendors": [
+    "Oracle"
+  ],
+  "credit": "rgod",
+  "cve": "CVE-2018-2616",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2018-2616",
+  "cvss": 8.5,
+  "cvss_vector": "AV:N/AC:M/Au:S/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2017-07-19 - Vulnerability reported to vendor",
+    "2018-01-18 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-116 ZDI-CAN-5033 Oracle WebLogic Remote Diagnosis Assistant rda_tfa_hrs Command Injection Remote Code Execution Vulnerability 2018-01-18 CVE-2018-2616 https://www.cve.org/CVERecord?id=CVE-2018-2616 8.5 AV:N/AC:M/Au:S/C:C/I:C/A:C ['Oracle'] ['WebLogic'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Oracle WebLogic. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed. The specific flaw exists within the processing of the rda_tfa_hrs command in the Remote Diagnosis Assistant. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code under the context of Administrator. Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/security-advisory/cpujan2018-3236628.html ['2017-07-19 - Vulnerability reported to vendor', '2018-01-18 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-18-116/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-116/",
+  "title": "Oracle WebLogic Remote Diagnosis Assistant rda_tfa_hrs Command Injection Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Oracle WebLogic. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed. The specific flaw exists within the processing of the rda_tfa_hrs command in the Remote Diagnosis Assistant. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code under the context of Administrator.",
+  "zdi_can": "ZDI-CAN-5033",
+  "zdi_id": "ZDI-18-116"
+}

@@ -1,0 +1,27 @@
+{
+  "additional_details": "Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/javacpufeb2013update-1905892.html",
+  "advisory_date": "2013-03-22",
+  "affected_products": [
+    "Java Runtime"
+  ],
+  "affected_vendors": [
+    "Oracle"
+  ],
+  "credit": "Ben Murphy",
+  "cve": "CVE-2013-1484",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2013-1484",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2013-01-07 - Vulnerability reported to vendor",
+    "2013-03-22 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-13-042 ZDI-CAN-1732 Oracle Java setUncaughtExceptionHandler Security Manager Bypass Remote Code Execution Vulnerability 2013-03-22 CVE-2013-1484 https://www.cve.org/CVERecord?id=CVE-2013-1484 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Oracle'] ['Java Runtime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Oracle Java. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within java.lang.Thread's setUncaughtExceptionHandler method allowing for a callback to be run with using the JDK's access control context. This allows a malicious applet to execute attacker supplied code resulting in remote code execution under the context of the process. Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/javacpufeb2013update-1905892.html ['2013-01-07 - Vulnerability reported to vendor', '2013-03-22 - Coordinated public release of advisory'] Ben Murphy https://www.zerodayinitiative.com/advisories/ZDI-13-042/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-13-042/",
+  "title": "Oracle Java setUncaughtExceptionHandler Security Manager Bypass Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Oracle Java. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within java.lang.Thread's setUncaughtExceptionHandler method allowing for a callback to be run with using the JDK's access control context. This allows a malicious applet to execute attacker supplied code resulting in remote code execution under the context of the process.",
+  "zdi_can": "ZDI-CAN-1732",
+  "zdi_id": "ZDI-13-042"
+}

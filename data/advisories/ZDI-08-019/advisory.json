@@ -1,0 +1,27 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT1241",
+  "advisory_date": "2008-04-03",
+  "affected_products": [
+    "Quicktime"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2008-1022",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2008-1022",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2008-02-07 - Vulnerability reported to vendor",
+    "2008-04-03 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-08-019 ZDI-CAN-272 Apple QuickTime Malformed VR obji Atom Parsing Memory Corruption Vulnerability 2008-04-03 CVE-2008-1022 https://www.cve.org/CVERecord?id=CVE-2008-1022 ['Apple'] ['Quicktime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple QuickTime. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The specific flaw exists in the parsing of the QuickTime VR 'obji' atom. When the size of the atom is set to 0, a stack overflow condition occurs resulting in the execution of arbitrary code. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT1241 ['2008-02-07 - Vulnerability reported to vendor', '2008-04-03 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-08-019/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-08-019/",
+  "title": "Apple QuickTime Malformed VR obji Atom Parsing Memory Corruption Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple QuickTime. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The specific flaw exists in the parsing of the QuickTime VR 'obji' atom. When the size of the atom is set to 0, a stack overflow condition occurs resulting in the execution of arbitrary code.",
+  "zdi_can": "ZDI-CAN-272",
+  "zdi_id": "ZDI-08-019"
+}

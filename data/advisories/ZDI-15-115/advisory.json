@@ -1,0 +1,27 @@
+{
+  "additional_details": "BitTorrent has issued an update to correct this vulnerability. More details can be found at: https://www.getsync.com/",
+  "advisory_date": "2015-04-03",
+  "affected_products": [
+    "Sync"
+  ],
+  "affected_vendors": [
+    "BitTorrent"
+  ],
+  "credit": "Andrea Micalizzi (rgod)",
+  "cve": "CVE-2015-2846",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-2846",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2014-11-06 - Vulnerability reported to vendor",
+    "2015-04-03 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-15-115 ZDI-CAN-2624 BitTorrent Sync btsync: Protocol Command Injection Remote Code Execution Vulnerability 2015-04-03 CVE-2015-2846 https://www.cve.org/CVERecord?id=CVE-2015-2846 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['BitTorrent'] ['Sync'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of BitTorrent Sync. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The vulnerability relates to how BitTorrent Sync handles URLs with the btsync protocol. By navigating the user to a specially formed link starting with btsync:, an attacker can inject arbitrary command line parameters that will be passed to BTSync.exe. An attacker can leverage this vulnerability to execute code under the context of the current user. BitTorrent has issued an update to correct this vulnerability. More details can be found at: https://www.getsync.com/ ['2014-11-06 - Vulnerability reported to vendor', '2015-04-03 - Coordinated public release of advisory'] Andrea Micalizzi (rgod) https://www.zerodayinitiative.com/advisories/ZDI-15-115/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-115/",
+  "title": "BitTorrent Sync btsync: Protocol Command Injection Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of BitTorrent Sync. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The vulnerability relates to how BitTorrent Sync handles URLs with the btsync protocol. By navigating the user to a specially formed link starting with btsync:, an attacker can inject arbitrary command line parameters that will be passed to BTSync.exe. An attacker can leverage this vulnerability to execute code under the context of the current user.",
+  "zdi_can": "ZDI-CAN-2624",
+  "zdi_id": "ZDI-15-115"
+}

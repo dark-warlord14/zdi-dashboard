@@ -1,0 +1,27 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT3216",
+  "advisory_date": "2008-10-09",
+  "affected_products": [
+    "OS X"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "regenrecht",
+  "cve": "CVE-2008-3641",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2008-3641",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2008-08-19 - Vulnerability reported to vendor",
+    "2008-10-09 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-08-067 ZDI-CAN-367 Apple CUPS HP-GL/2 Filter Remote Code Execution Vulnerability 2008-10-09 CVE-2008-3641 https://www.cve.org/CVERecord?id=CVE-2008-3641 ['Apple'] ['OS X'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple CUPS. Authentication is not required to exploit this vulnerability. The specific flaw exists in the Hewlett-Packard Graphics Language filter. Inadequate bounds checking on the pen width and pen color opcodes result in an arbitrary memory overwrite allowing for the execution of arbitrary code as the \"hgltops\" process uid. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT3216 ['2008-08-19 - Vulnerability reported to vendor', '2008-10-09 - Coordinated public release of advisory'] regenrecht https://www.zerodayinitiative.com/advisories/ZDI-08-067/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-08-067/",
+  "title": "Apple CUPS HP-GL/2 Filter Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple CUPS. Authentication is not required to exploit this vulnerability. The specific flaw exists in the Hewlett-Packard Graphics Language filter. Inadequate bounds checking on the pen width and pen color opcodes result in an arbitrary memory overwrite allowing for the execution of arbitrary code as the \"hgltops\" process uid.",
+  "zdi_can": "ZDI-CAN-367",
+  "zdi_id": "ZDI-08-067"
+}

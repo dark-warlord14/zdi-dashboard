@@ -1,0 +1,27 @@
+{
+  "additional_details": "CA has issued an update to correct this vulnerability. More details can be found at: https://support.ca.com/irj/portal/anonymous/phpsupcontent?contentID={EE6F16E1-6E05-4890-A739-2B9F745C721F}",
+  "advisory_date": "2011-02-07",
+  "affected_products": [
+    "eTrust Secure Content Manager"
+  ],
+  "affected_vendors": [
+    "CA"
+  ],
+  "credit": "Sebastian Apelt (sebastian.apelt@siberas.de)",
+  "cve": "CVE-2011-0758",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-0758",
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2008-05-23 - Vulnerability reported to vendor",
+    "2011-02-07 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-11-059 ZDI-CAN-342 (0Day) CA ETrust Secure Content Manager Common Services Transport Remote Code Execution Vulnerability 2011-02-07 CVE-2011-0758 https://www.cve.org/CVERecord?id=CVE-2011-0758 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['CA'] ['eTrust Secure Content Manager'] This vulnerability allows attackers to execute arbitrary code on vulnerable installations of Computer Associates eTrust Secure Content Manager. Authentication is not required to exploit this vulnerability. The specific flaw exists in the eTrust Common Services Transport (ECSQdmn.exe) running on port 1882. When making a request to this service a user supplied DWORD value is used in a memory copy operation. Due to the lack of bounds checking an integer can be improperly calculated leading to a heap overflow. If successfully exploited this vulnerability will result in a remote system compromise with SYSTEM credentials. CA has issued an update to correct this vulnerability. More details can be found at: https://support.ca.com/irj/portal/anonymous/phpsupcontent?contentID={EE6F16E1-6E05-4890-A739-2B9F745C721F} ['2008-05-23 - Vulnerability reported to vendor', '2011-02-07 - Coordinated public release of advisory'] Sebastian Apelt (sebastian.apelt@siberas.de) https://www.zerodayinitiative.com/advisories/ZDI-11-059/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-059/",
+  "title": "(0Day) CA ETrust Secure Content Manager Common Services Transport Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows attackers to execute arbitrary code on vulnerable installations of Computer Associates eTrust Secure Content Manager. Authentication is not required to exploit this vulnerability. The specific flaw exists in the eTrust Common Services Transport (ECSQdmn.exe) running on port 1882. When making a request to this service a user supplied DWORD value is used in a memory copy operation. Due to the lack of bounds checking an integer can be improperly calculated leading to a heap overflow. If successfully exploited this vulnerability will result in a remote system compromise with SYSTEM credentials.",
+  "zdi_can": "ZDI-CAN-342",
+  "zdi_id": "ZDI-11-059"
+}

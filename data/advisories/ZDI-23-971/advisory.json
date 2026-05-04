@@ -1,0 +1,27 @@
+{
+  "additional_details": "Fixed in 2023.12 firmware release.",
+  "advisory_date": "2023-07-18",
+  "affected_products": [
+    "Model 3"
+  ],
+  "affected_vendors": [
+    "Tesla"
+  ],
+  "credit": "David BERARD (@_p0ly_) and Vincent DEHORS (@vdehors) from Synacktiv (@Synacktiv)",
+  "cve": "CVE-2023-32155",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-32155",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2023-03-30 - Vulnerability reported to vendor",
+    "2023-07-18 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-971 ZDI-CAN-20733 (Pwn2Own) Tesla Model 3 bcmdhd Out-Of-Bounds Write Local Privilege Escalation Vulnerability 2023-07-18 CVE-2023-32155 https://www.cve.org/CVERecord?id=CVE-2023-32155 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H ['Tesla'] ['Model 3'] This vulnerability allows local attackers to escalate privileges on affected Tesla Model 3 vehicles. An attacker must first obtain the ability to execute code on the wifi subsystem in order to exploit this vulnerability. The specific flaw exists within the bcmdhd driver. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated buffer. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the kernel. Fixed in 2023.12 firmware release. ['2023-03-30 - Vulnerability reported to vendor', '2023-07-18 - Coordinated public release of advisory'] David BERARD (@_p0ly_) and Vincent DEHORS (@vdehors) from Synacktiv (@Synacktiv) https://www.zerodayinitiative.com/advisories/ZDI-23-971/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-971/",
+  "title": "(Pwn2Own) Tesla Model 3 bcmdhd Out-Of-Bounds Write Local Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected Tesla Model 3 vehicles. An attacker must first obtain the ability to execute code on the wifi subsystem in order to exploit this vulnerability. The specific flaw exists within the bcmdhd driver. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated buffer. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the kernel.",
+  "zdi_can": "ZDI-CAN-20733",
+  "zdi_id": "ZDI-23-971"
+}

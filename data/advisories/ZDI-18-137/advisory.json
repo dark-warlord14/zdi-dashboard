@@ -1,0 +1,28 @@
+{
+  "additional_details": "Hewlett Packard Enterprise has issued an update to correct this vulnerability. More details can be found at: https://support.hpe.com/hpsc/doc/public/display?docId=emr_na-hpesbhf03815en_us",
+  "advisory_date": "2018-01-25",
+  "affected_products": [
+    "Intelligent Management Center"
+  ],
+  "affected_vendors": [
+    "Hewlett Packard Enterprise"
+  ],
+  "credit": "Jacob Baines - Tenable Network Security",
+  "cve": "CVE-2017-5792",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-5792",
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2017-05-17 - Vulnerability reported to vendor",
+    "2018-01-25 - Coordinated public release of advisory",
+    "2018-01-25 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-137 ZDI-CAN-4824 Hewlett Packard Enterprise Intelligent Management Center RMI Registry Deserialization of Untrusted Data Remote Code Execution Vulnerability 2018-01-25 CVE-2017-5792 https://www.cve.org/CVERecord?id=CVE-2017-5792 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Hewlett Packard Enterprise'] ['Intelligent Management Center'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Hewlett Packard Enterprise Intelligent Management Center. Authentication is not required to exploit this vulnerability. The specific flaw exists within the euplat RMI registry. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute arbitrary code under the context of the Administrator. Hewlett Packard Enterprise has issued an update to correct this vulnerability. More details can be found at: https://support.hpe.com/hpsc/doc/public/display?docId=emr_na-hpesbhf03815en_us ['2017-05-17 - Vulnerability reported to vendor', '2018-01-25 - Coordinated public release of advisory', '2018-01-25 - Advisory Updated'] Jacob Baines - Tenable Network Security https://www.zerodayinitiative.com/advisories/ZDI-18-137/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-137/",
+  "title": "Hewlett Packard Enterprise Intelligent Management Center RMI Registry Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+  "updated_date": "2018-01-25",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Hewlett Packard Enterprise Intelligent Management Center. Authentication is not required to exploit this vulnerability. The specific flaw exists within the euplat RMI registry. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute arbitrary code under the context of the Administrator.",
+  "zdi_can": "ZDI-CAN-4824",
+  "zdi_id": "ZDI-18-137"
+}

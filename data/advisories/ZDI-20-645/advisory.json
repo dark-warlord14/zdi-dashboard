@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2020-1062",
+  "advisory_date": "2020-05-12",
+  "affected_products": [
+    "Internet Explorer"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2020-1062",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2020-1062",
+  "cvss": 8.8,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2020-02-26 - Vulnerability reported to vendor",
+    "2020-05-12 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-20-645 ZDI-CAN-10397 Microsoft Internet Explorer JScript Garbage Collection Use-After-Free Remote Code Execution Vulnerability 2020-05-12 CVE-2020-1062 https://www.cve.org/CVERecord?id=CVE-2020-1062 8.8 AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Microsoft'] ['Internet Explorer'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the implementation of garbage collection in jscript.dll. By performing actions in JScript, an attacker can cause a pointer to be reused after it has been freed. An attacker can leverage this vulnerability to execute code in the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2020-1062 ['2020-02-26 - Vulnerability reported to vendor', '2020-05-12 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-20-645/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-20-645/",
+  "title": "Microsoft Internet Explorer JScript Garbage Collection Use-After-Free Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the implementation of garbage collection in jscript.dll. By performing actions in JScript, an attacker can cause a pointer to be reused after it has been freed. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-10397",
+  "zdi_id": "ZDI-20-645"
+}

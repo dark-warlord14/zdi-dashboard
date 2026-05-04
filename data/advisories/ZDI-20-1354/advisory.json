@@ -1,0 +1,27 @@
+{
+  "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb20-67.html",
+  "advisory_date": "2020-11-10",
+  "affected_products": [
+    "Acrobat Reader DC"
+  ],
+  "affected_vendors": [
+    "Adobe"
+  ],
+  "credit": "Mark Vincent Yason (@MarkYason)",
+  "cve": "CVE-2020-24426",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2020-24426",
+  "cvss": 3.3,
+  "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+  "disclosure_timeline": [
+    "2020-07-29 - Vulnerability reported to vendor",
+    "2020-11-10 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-20-1354 ZDI-CAN-11540 Adobe Acrobat Reader DC ID Parameter Out-Of-Bounds Read Information Disclosure Vulnerability 2020-11-10 CVE-2020-24426 https://www.cve.org/CVERecord?id=CVE-2020-24426 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N ['Adobe'] ['Acrobat Reader DC'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Adobe Acrobat Reader DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of the ID parameter in the PDF trailer. By performing actions in JavaScript, an attacker can disclose the base address of AcroForm.api. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb20-67.html ['2020-07-29 - Vulnerability reported to vendor', '2020-11-10 - Coordinated public release of advisory'] Mark Vincent Yason (@MarkYason) https://www.zerodayinitiative.com/advisories/ZDI-20-1354/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-20-1354/",
+  "title": "Adobe Acrobat Reader DC ID Parameter Out-Of-Bounds Read Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Adobe Acrobat Reader DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of the ID parameter in the PDF trailer. By performing actions in JavaScript, an attacker can disclose the base address of AcroForm.api. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-11540",
+  "zdi_id": "ZDI-20-1354"
+}

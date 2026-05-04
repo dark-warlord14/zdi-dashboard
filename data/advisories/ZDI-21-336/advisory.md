@@ -1,0 +1,26 @@
+# ZDI-21-336: Adobe Acrobat Reader DC URI Parsing Out-Of-Bounds Read Information Disclosure Vulnerability
+
+## Metadata
+
+- **ZDI ID:** ZDI-21-336
+- **ZDI-CAN:** ZDI-CAN-12856
+- **Date:** 2021-03-18
+- **CVE:** CVE-2021-21089
+- **CVSS:** 3.3
+- **CVSS Vector:** AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N
+- **Affected Vendors:** Adobe
+- **Affected Products:** Acrobat Reader DC
+- **Credit:** Mark Vincent Yason (@MarkYason)
+- **Source:** https://www.zerodayinitiative.com/advisories/ZDI-21-336/
+## Vulnerability Details
+
+This vulnerability allows remote attackers to disclose sensitive information on affected installations of Adobe Acrobat Reader DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of URIs by weblink.api. By performing actions in JavaScript, an attacker can trigger a read past the end of an allocated object. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process.
+
+## Additional Details
+
+Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb21-09.html
+
+## Disclosure Timeline
+
+- 2021-01-20 - Vulnerability reported to vendor
+- 2021-03-18 - Coordinated public release of advisory

@@ -1,0 +1,35 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/bulletin/ms09-001.mspx",
+  "advisory_date": "2009-01-13",
+  "affected_products": [
+    "Windows XP",
+    "Windows 2000 SP4",
+    "Windows Server 2003",
+    "Windows Vista",
+    "Windows Server 2008"
+  ],
+  "affected_vendors": [
+    "Microsoft",
+    "Microsoft",
+    "Microsoft",
+    "Microsoft",
+    "Microsoft"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2008-4834",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2008-4834",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2008-06-25 - Vulnerability reported to vendor",
+    "2009-01-13 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-09-001 ZDI-CAN-354 Microsoft SMB NT Trans Request Parsing Remote Code Execution Vulnerability 2009-01-13 CVE-2008-4834 https://www.cve.org/CVERecord?id=CVE-2008-4834 ['Microsoft', 'Microsoft', 'Microsoft', 'Microsoft', 'Microsoft'] ['Windows XP', 'Windows 2000 SP4', 'Windows Server 2003', 'Windows Vista', 'Windows Server 2008'] This vulnerability allows remote attackers to trigger a denial of service condition on vulnerable installations of Microsoft Windows; remote code execution is also theoretically possible. User interaction is not required to exploit this vulnerability. The specific flaw exists in the processing of SMB requests. By specifying malformed values during an NT Trans request an attacker can cause the target system to kernel panic thereby requiring a reboot of the system. Further manipulation can theoretically result in remote unauthenticated code execution. Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/bulletin/ms09-001.mspx ['2008-06-25 - Vulnerability reported to vendor', '2009-01-13 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-09-001/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-09-001/",
+  "title": "Microsoft SMB NT Trans Request Parsing Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to trigger a denial of service condition on vulnerable installations of Microsoft Windows; remote code execution is also theoretically possible. User interaction is not required to exploit this vulnerability. The specific flaw exists in the processing of SMB requests. By specifying malformed values during an NT Trans request an attacker can cause the target system to kernel panic thereby requiring a reboot of the system. Further manipulation can theoretically result in remote unauthenticated code execution.",
+  "zdi_can": "ZDI-CAN-354",
+  "zdi_id": "ZDI-09-001"
+}

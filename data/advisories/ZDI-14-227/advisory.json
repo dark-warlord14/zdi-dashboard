@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/library/security/ms14-035",
+  "advisory_date": "2014-07-09",
+  "affected_products": [
+    "Internet Explorer"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "0016EECD9D7159A949DAD3BC17E0A939",
+  "cve": "CVE-2014-2761",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-2761",
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2014-06-09 - Vulnerability reported to vendor",
+    "2014-07-09 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-14-227 ZDI-CAN-2367 Microsoft Internet Explorer TextBlockRun Use-After-Free Remote Code Execution Vulnerability 2014-07-09 CVE-2014-2761 https://www.cve.org/CVERecord?id=CVE-2014-2761 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Microsoft'] ['Internet Explorer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of TextBlockRun objects. By manipulating a document's elements an attacker can force a dangling pointer to be reused after it has been freed. An attacker can leverage this vulnerability to execute code under the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/library/security/ms14-035 ['2014-06-09 - Vulnerability reported to vendor', '2014-07-09 - Coordinated public release of advisory'] 0016EECD9D7159A949DAD3BC17E0A939 https://www.zerodayinitiative.com/advisories/ZDI-14-227/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-14-227/",
+  "title": "Microsoft Internet Explorer TextBlockRun Use-After-Free Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of TextBlockRun objects. By manipulating a document's elements an attacker can force a dangling pointer to be reused after it has been freed. An attacker can leverage this vulnerability to execute code under the context of the current process.",
+  "zdi_can": "ZDI-CAN-2367",
+  "zdi_id": "ZDI-14-227"
+}

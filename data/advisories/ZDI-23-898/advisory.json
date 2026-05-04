@@ -1,0 +1,27 @@
+{
+  "additional_details": "Canonical has issued an update to correct this vulnerability. More details can be found at: https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=8c710f75256bb3cf05ac7b1672c82b92c43f3d28",
+  "advisory_date": "2023-07-06",
+  "affected_products": [
+    "Ubuntu"
+  ],
+  "affected_vendors": [
+    "Canonical"
+  ],
+  "credit": "Kyle Zeng from ASU SEFCOM",
+  "cve": "CVE-2023-1829",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-1829",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2023-05-09 - Vulnerability reported to vendor",
+    "2023-07-06 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-898 ZDI-CAN-20667 (Pwn2Own) Canonical Ubuntu tcindex Double-Free Local Privilege Escalation Vulnerability 2023-07-06 CVE-2023-1829 https://www.cve.org/CVERecord?id=CVE-2023-1829 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Canonical'] ['Ubuntu'] This vulnerability allows local attackers to escalate privileges on affected installations of Canonical Ubuntu. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the tcindex module. The issue results from the lack of validating the existence of an object prior to performing further free operations on the object. An attacker can leverage this vulnerability to escalate privileges and execute code in the context of the kernel. Canonical has issued an update to correct this vulnerability. More details can be found at: https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=8c710f75256bb3cf05ac7b1672c82b92c43f3d28 ['2023-05-09 - Vulnerability reported to vendor', '2023-07-06 - Coordinated public release of advisory'] Kyle Zeng from ASU SEFCOM https://www.zerodayinitiative.com/advisories/ZDI-23-898/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-898/",
+  "title": "(Pwn2Own) Canonical Ubuntu tcindex Double-Free Local Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Canonical Ubuntu. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the tcindex module. The issue results from the lack of validating the existence of an object prior to performing further free operations on the object. An attacker can leverage this vulnerability to escalate privileges and execute code in the context of the kernel.",
+  "zdi_can": "ZDI-CAN-20667",
+  "zdi_id": "ZDI-23-898"
+}

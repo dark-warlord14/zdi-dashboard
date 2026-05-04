@@ -1,0 +1,27 @@
+{
+  "additional_details": "Jenkins has issued an update to correct this vulnerability. More details can be found at: https://www.jenkins.io/security/advisory/2021-11-12/#SECURITY-2415",
+  "advisory_date": "2021-11-16",
+  "affected_products": [
+    "pom2config"
+  ],
+  "affected_vendors": [
+    "Jenkins"
+  ],
+  "credit": "Adith Sudhakar",
+  "cve": "CVE-2021-43576",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2021-43576",
+  "cvss": 6.5,
+  "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+  "disclosure_timeline": [
+    "2021-07-09 - Vulnerability reported to vendor",
+    "2021-11-16 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-21-1314 ZDI-CAN-13947 Jenkins pom2config XML External Entity Processing Information Disclosure Vulnerability 2021-11-16 CVE-2021-43576 https://www.cve.org/CVERecord?id=CVE-2021-43576 6.5 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N ['Jenkins'] ['pom2config'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Jenkins pom2config. Authentication is required to exploit this vulnerability. The specific flaw exists within the Pom2Config class. Due to the improper restriction of XML External Entity (XXE) references, a crafted document specifying a URI causes the XML parser to access the URI and embed the contents back into the XML document for further processing. An attacker can leverage this vulnerability to disclose information in the context of the service account. Jenkins has issued an update to correct this vulnerability. More details can be found at: https://www.jenkins.io/security/advisory/2021-11-12/#SECURITY-2415 ['2021-07-09 - Vulnerability reported to vendor', '2021-11-16 - Coordinated public release of advisory'] Adith Sudhakar https://www.zerodayinitiative.com/advisories/ZDI-21-1314/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-21-1314/",
+  "title": "Jenkins pom2config XML External Entity Processing Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Jenkins pom2config. Authentication is required to exploit this vulnerability. The specific flaw exists within the Pom2Config class. Due to the improper restriction of XML External Entity (XXE) references, a crafted document specifying a URI causes the XML parser to access the URI and embed the contents back into the XML document for further processing. An attacker can leverage this vulnerability to disclose information in the context of the service account.",
+  "zdi_can": "ZDI-CAN-13947",
+  "zdi_id": "ZDI-21-1314"
+}

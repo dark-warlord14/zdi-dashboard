@@ -1,0 +1,27 @@
+{
+  "additional_details": "Bitdefender has issued an update to correct this vulnerability. More details can be found at: https://www.bitdefender.com/support/security-advisories/improper-link-resolution-before-file-access-in-bitdefender-endpoint-security-tools-for-windows-va-9921/",
+  "advisory_date": "2022-01-27",
+  "affected_products": [
+    "GravityZone"
+  ],
+  "affected_vendors": [
+    "Bitdefender"
+  ],
+  "credit": "@Kharosx0",
+  "cve": "CVE-2021-3641",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2021-3641",
+  "cvss": 6.1,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:H",
+  "disclosure_timeline": [
+    "2021-07-09 - Vulnerability reported to vendor",
+    "2022-01-27 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-143 ZDI-CAN-13801 Bitdefender GravityZone Link Following Denial-of-Service Vulnerability 2022-01-27 CVE-2021-3641 https://www.cve.org/CVERecord?id=CVE-2021-3641 6.1 AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:H ['Bitdefender'] ['GravityZone'] This vulnerability allows local attackers to create a denial-of-service condition on affected installations of Bitdefender GravityZone. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Endpoint Agent. By creating a symbolic link, an attacker can abuse the service to overwrite a file. An attacker can leverage this vulnerability to create a denial-of-service condition on the system. Bitdefender has issued an update to correct this vulnerability. More details can be found at: https://www.bitdefender.com/support/security-advisories/improper-link-resolution-before-file-access-in-bitdefender-endpoint-security-tools-for-windows-va-9921/ ['2021-07-09 - Vulnerability reported to vendor', '2022-01-27 - Coordinated public release of advisory'] @Kharosx0 https://www.zerodayinitiative.com/advisories/ZDI-22-143/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-143/",
+  "title": "Bitdefender GravityZone Link Following Denial-of-Service Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to create a denial-of-service condition on affected installations of Bitdefender GravityZone. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Endpoint Agent. By creating a symbolic link, an attacker can abuse the service to overwrite a file. An attacker can leverage this vulnerability to create a denial-of-service condition on the system.",
+  "zdi_can": "ZDI-CAN-13801",
+  "zdi_id": "ZDI-22-143"
+}

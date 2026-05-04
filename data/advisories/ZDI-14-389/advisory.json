@@ -1,0 +1,27 @@
+{
+  "additional_details": "Vendor has released a hotfix to address the issue: FW08.41",
+  "advisory_date": "2014-11-25",
+  "affected_products": [
+    "VAP2500"
+  ],
+  "affected_vendors": [
+    "ARRIS"
+  ],
+  "credit": "Ricky \"HeadlessZeke\" Lawshae",
+  "cve": "CVE-2014-8423",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-8423",
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2014-04-29 - Vulnerability reported to vendor",
+    "2014-11-25 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-14-389 ZDI-CAN-2137 ARRIS VAP2500 Management Portal Remote Command Execution Vulnerability 2014-11-25 CVE-2014-8423 https://www.cve.org/CVERecord?id=CVE-2014-8423 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['ARRIS'] ['VAP2500'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of ARRIS VAP2500. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of access to the management portal. The issue lies in the ability to execute arbitrary commands without any sanitization. An attacker can leverage this vulnerability to execute code with root privileges. Vendor has released a hotfix to address the issue: FW08.41 ['2014-04-29 - Vulnerability reported to vendor', '2014-11-25 - Coordinated public release of advisory'] Ricky \"HeadlessZeke\" Lawshae https://www.zerodayinitiative.com/advisories/ZDI-14-389/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-14-389/",
+  "title": "ARRIS VAP2500 Management Portal Remote Command Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of ARRIS VAP2500. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of access to the management portal. The issue lies in the ability to execute arbitrary commands without any sanitization. An attacker can leverage this vulnerability to execute code with root privileges.",
+  "zdi_can": "ZDI-CAN-2137",
+  "zdi_id": "ZDI-14-389"
+}

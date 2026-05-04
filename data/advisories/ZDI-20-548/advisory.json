@@ -1,0 +1,27 @@
+{
+  "additional_details": "Triangle MicroWorks has issued an update to correct this vulnerability. More details can be found at: https://www.us-cert.gov/ics/advisories/icsa-20-105-03",
+  "advisory_date": "2020-04-16",
+  "affected_products": [
+    "SCADA Data Gateway"
+  ],
+  "affected_vendors": [
+    "Triangle MicroWorks"
+  ],
+  "credit": "Tobias Scharnowski, Niklas Breitfeld, and Ali Abbasi",
+  "cve": "CVE-2020-10613",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2020-10613",
+  "cvss": 5.3,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+  "disclosure_timeline": [
+    "2020-01-30 - Vulnerability reported to vendor",
+    "2020-04-16 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-20-548 ZDI-CAN-10300 (Pwn2Own) Triangle MicroWorks SCADA Data Gateway DNP3 Out-Of-Bounds Read Information Disclosure Vulnerability 2020-04-16 CVE-2020-10613 https://www.cve.org/CVERecord?id=CVE-2020-10613 5.3 AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N ['Triangle MicroWorks'] ['SCADA Data Gateway'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Triangle MicroWorks SCADA Data Gateway. Authentication is not required to exploit this vulnerability. The specific flaw exists with the handling of data set descriptors. The issue results from the lack of proper validation of user-supplied data which can result in a read past the end of an allocated structure. An attacker can leverage this in conjunction with other vulnerabilities to execute code in the context of SYSTEM. Triangle MicroWorks has issued an update to correct this vulnerability. More details can be found at: https://www.us-cert.gov/ics/advisories/icsa-20-105-03 ['2020-01-30 - Vulnerability reported to vendor', '2020-04-16 - Coordinated public release of advisory'] Tobias Scharnowski, Niklas Breitfeld, and Ali Abbasi https://www.zerodayinitiative.com/advisories/ZDI-20-548/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-20-548/",
+  "title": "(Pwn2Own) Triangle MicroWorks SCADA Data Gateway DNP3 Out-Of-Bounds Read Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Triangle MicroWorks SCADA Data Gateway. Authentication is not required to exploit this vulnerability. The specific flaw exists with the handling of data set descriptors. The issue results from the lack of proper validation of user-supplied data which can result in a read past the end of an allocated structure. An attacker can leverage this in conjunction with other vulnerabilities to execute code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-10300",
+  "zdi_id": "ZDI-20-548"
+}

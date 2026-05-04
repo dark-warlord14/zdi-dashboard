@@ -1,0 +1,27 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-us/HT210119",
+  "advisory_date": "2019-10-25",
+  "affected_products": [
+    "macOS"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "riusksk of VulWar Corp",
+  "cve": "CVE-2019-8592",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2019-8592",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2019-03-14 - Vulnerability reported to vendor",
+    "2019-10-25 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-19-919 ZDI-CAN-8093 Apple macOS AudioCodecs Out-Of-Bounds Write Remote Code Execution Vulnerability 2019-10-25 CVE-2019-8592 https://www.cve.org/CVERecord?id=CVE-2019-8592 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Apple'] ['macOS'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple macOS. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the AudioCodecs module. Crafted data in a MOV file can trigger a write past the end of an allocated data structure. An attacker can leverage this vulnerability to execute code in the context of the current process. Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-us/HT210119 ['2019-03-14 - Vulnerability reported to vendor', '2019-10-25 - Coordinated public release of advisory'] riusksk of VulWar Corp https://www.zerodayinitiative.com/advisories/ZDI-19-919/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-19-919/",
+  "title": "Apple macOS AudioCodecs Out-Of-Bounds Write Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple macOS. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the AudioCodecs module. Crafted data in a MOV file can trigger a write past the end of an allocated data structure. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-8093",
+  "zdi_id": "ZDI-19-919"
+}

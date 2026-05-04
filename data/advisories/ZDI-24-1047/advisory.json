@@ -1,0 +1,28 @@
+{
+  "additional_details": "11/13/23 \u2013 ZDI reported the vulnerability to the vendor. 04/29/24 \u2013 ZDI asked for an update. 05/24/24 \u2013 ZDI asked for an update. 05/29/24 \u2013 The vendor states that the vulnerability has been addressed but would need to get verification from QA. 07/22/24 \u2013 ZDI asked for an update. 07/29/24 \u2013 The ZDI informed the vendor that since we never received a confirmation that the vulnerability was patched, we have no choice but to assume this issue hasn\u2019t been remediated and that we intend to publish the report as a zero-day advisory on 8/01/24.",
+  "advisory_date": "2024-08-01",
+  "affected_products": [
+    "Home Flex"
+  ],
+  "affected_vendors": [
+    "ChargePoint"
+  ],
+  "credit": "Todd Manning",
+  "cve": "CVE-2024-7392",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-7392",
+  "cvss": 4.3,
+  "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+  "disclosure_timeline": [
+    "2023-11-13 - Vulnerability reported to vendor",
+    "2024-08-01 - Coordinated public release of advisory",
+    "2024-08-15 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-1047 ZDI-CAN-21455 (0Day) ChargePoint Home Flex Bluetooth Low Energy Denial-of-Service Vulnerability 2024-08-01 CVE-2024-7392 https://www.cve.org/CVERecord?id=CVE-2024-7392 4.3 AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L ['ChargePoint'] ['Home Flex'] This vulnerability allows network-adjacent attackers to create a denial-of-service condition on affected installations of ChargePoint Home Flex charging devices. Authentication is not required to exploit this vulnerability. The specific flaw exists within the connection handling of the Bluetooth Low Energy interface. The issue results from limiting the number of active connections to the product. An attacker can leverage this vulnerability to create a denial-of-service condition on the system. 11/13/23 \u2013 ZDI reported the vulnerability to the vendor. 04/29/24 \u2013 ZDI asked for an update. 05/24/24 \u2013 ZDI asked for an update. 05/29/24 \u2013 The vendor states that the vulnerability has been addressed but would need to get verification from QA. 07/22/24 \u2013 ZDI asked for an update. 07/29/24 \u2013 The ZDI informed the vendor that since we never received a confirmation that the vulnerability was patched, we have no choice but to assume this issue hasn\u2019t been remediated and that we intend to publish the report as a zero-day advisory on 8/01/24. ['2023-11-13 - Vulnerability reported to vendor', '2024-08-01 - Coordinated public release of advisory', '2024-08-15 - Advisory Updated'] Todd Manning https://www.zerodayinitiative.com/advisories/ZDI-24-1047/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-1047/",
+  "title": "(0Day) ChargePoint Home Flex Bluetooth Low Energy Denial-of-Service Vulnerability",
+  "updated_date": "2024-08-15",
+  "vulnerability_details": "This vulnerability allows network-adjacent attackers to create a denial-of-service condition on affected installations of ChargePoint Home Flex charging devices. Authentication is not required to exploit this vulnerability. The specific flaw exists within the connection handling of the Bluetooth Low Energy interface. The issue results from limiting the number of active connections to the product. An attacker can leverage this vulnerability to create a denial-of-service condition on the system.",
+  "zdi_can": "ZDI-CAN-21455",
+  "zdi_id": "ZDI-24-1047"
+}

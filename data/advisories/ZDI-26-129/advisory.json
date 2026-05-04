@@ -1,0 +1,28 @@
+{
+  "additional_details": "Socomec has issued an update to correct this vulnerability. More details can be found at: https://emea.socomec.com/en/resource-center/resource-type/cyber-vulnerabilities-601",
+  "advisory_date": "2026-02-25",
+  "affected_products": [
+    "DIRIS A-40"
+  ],
+  "affected_vendors": [
+    "Socomec"
+  ],
+  "credit": "Dmitry \"InfoSecDJ\" Janushkevich of Trend Micro Zero Day Initiative",
+  "cve": "CVE-2026-2491",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-2491",
+  "cvss": 6.3,
+  "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+  "disclosure_timeline": [
+    "2025-03-11 - Vulnerability reported to vendor",
+    "2026-02-25 - Coordinated public release of advisory",
+    "2026-02-25 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-26-129 ZDI-CAN-23993 Socomec DIRIS A-40 HTTP API Authentication Bypass Vulnerability 2026-02-25 CVE-2026-2491 https://www.cve.org/CVERecord?id=CVE-2026-2491 6.3 AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L ['Socomec'] ['DIRIS A-40'] This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of Socomec DIRIS A-40 power monitoring devices. Authentication is not required to exploit this vulnerability. The specific flaw exists within the web API implementation, which listens on TCP port 80 by default. The issue results from the lack of authentication prior to allowing access to functionality. An attacker can leverage this vulnerability to bypass authentication on the system. Socomec has issued an update to correct this vulnerability. More details can be found at: https://emea.socomec.com/en/resource-center/resource-type/cyber-vulnerabilities-601 ['2025-03-11 - Vulnerability reported to vendor', '2026-02-25 - Coordinated public release of advisory', '2026-02-25 - Advisory Updated'] Dmitry \"InfoSecDJ\" Janushkevich of Trend Micro Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-129/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-129/",
+  "title": "Socomec DIRIS A-40 HTTP API Authentication Bypass Vulnerability",
+  "updated_date": "2026-02-25",
+  "vulnerability_details": "This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of Socomec DIRIS A-40 power monitoring devices. Authentication is not required to exploit this vulnerability. The specific flaw exists within the web API implementation, which listens on TCP port 80 by default. The issue results from the lack of authentication prior to allowing access to functionality. An attacker can leverage this vulnerability to bypass authentication on the system.",
+  "zdi_can": "ZDI-CAN-23993",
+  "zdi_id": "ZDI-26-129"
+}

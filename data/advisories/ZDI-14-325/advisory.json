@@ -1,0 +1,27 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT1222",
+  "advisory_date": "2014-09-22",
+  "affected_products": [
+    "QuickTime"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "Tom Gallagher & Paul Bates",
+  "cve": "CVE-2014-1391",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-1391",
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2013-10-23 - Vulnerability reported to vendor",
+    "2014-09-22 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-14-325 ZDI-CAN-1996 Apple QuickTime mdat Atom Heap Buffer Overflow Remote Code Execution Vulnerability 2014-09-22 CVE-2014-1391 https://www.cve.org/CVERecord?id=CVE-2014-1391 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Apple'] ['QuickTime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple QuickTime. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of RLE encoded data in the mdat atom. An attacker can use this flaw to write outside the allocated buffer, which could allow for the execution of arbitrary code in the context of the current process. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT1222 ['2013-10-23 - Vulnerability reported to vendor', '2014-09-22 - Coordinated public release of advisory'] Tom Gallagher & Paul Bates https://www.zerodayinitiative.com/advisories/ZDI-14-325/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-14-325/",
+  "title": "Apple QuickTime mdat Atom Heap Buffer Overflow Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple QuickTime. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of RLE encoded data in the mdat atom. An attacker can use this flaw to write outside the allocated buffer, which could allow for the execution of arbitrary code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-1996",
+  "zdi_id": "ZDI-14-325"
+}

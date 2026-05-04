@@ -1,0 +1,28 @@
+{
+  "additional_details": "Synology has issued an update to correct this vulnerability. More details can be found at: https://www.synology.com/en-id/security/advisory/Synology_SA_23_15",
+  "advisory_date": "2024-07-11",
+  "affected_products": [
+    "BC500"
+  ],
+  "affected_vendors": [
+    "Synology"
+  ],
+  "credit": "Romain JOUET (@JouetR), Baptiste MOINE (@Creased_) from Synacktiv (@Synacktiv)",
+  "cve": "CVE-2024-39352",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-39352",
+  "cvss": 6.8,
+  "cvss_vector": "AV:A/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2023-11-09 - Vulnerability reported to vendor",
+    "2024-07-11 - Coordinated public release of advisory",
+    "2024-08-15 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-835 ZDI-CAN-22460 (Pwn2Own) Synology BC500 Protection Mechanism Failure Software Downgrade Vulnerability 2024-07-11 CVE-2024-39352 https://www.cve.org/CVERecord?id=CVE-2024-39352 6.8 AV:A/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H ['Synology'] ['BC500'] This vulnerability allows network-adjacent attackers to downgrade Synology software on affected installations of Synology BC500 cameras. Authentication is required to exploit this vulnerability. The specific flaw exists within the update functionality. The issue results from the lack of proper validation of version information before performing an update. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of root. Synology has issued an update to correct this vulnerability. More details can be found at: https://www.synology.com/en-id/security/advisory/Synology_SA_23_15 ['2023-11-09 - Vulnerability reported to vendor', '2024-07-11 - Coordinated public release of advisory', '2024-08-15 - Advisory Updated'] Romain JOUET (@JouetR), Baptiste MOINE (@Creased_) from Synacktiv (@Synacktiv) https://www.zerodayinitiative.com/advisories/ZDI-24-835/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-835/",
+  "title": "(Pwn2Own) Synology BC500 Protection Mechanism Failure Software Downgrade Vulnerability",
+  "updated_date": "2024-08-15",
+  "vulnerability_details": "This vulnerability allows network-adjacent attackers to downgrade Synology software on affected installations of Synology BC500 cameras. Authentication is required to exploit this vulnerability. The specific flaw exists within the update functionality. The issue results from the lack of proper validation of version information before performing an update. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of root.",
+  "zdi_can": "ZDI-CAN-22460",
+  "zdi_id": "ZDI-24-835"
+}

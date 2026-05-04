@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/library/security/MS16-023",
+  "advisory_date": "2016-03-08",
+  "affected_products": [
+    "Internet Explorer"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "0011",
+  "cve": "CVE-2016-0112",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-0112",
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2016-01-05 - Vulnerability reported to vendor",
+    "2016-03-08 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-16-185 ZDI-CAN-3488 Microsoft Internet Explorer CAttrArray Type Confusion Remote Code Execution Vulnerability 2016-03-08 CVE-2016-0112 https://www.cve.org/CVERecord?id=CVE-2016-0112 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Microsoft'] ['Internet Explorer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The vulnerability relates to how Internet Explorer handles attributes of DOM elements. By manipulating a document's elements an attacker can cause Internet Explorer to process a string as if it were a CAttrArray object. An attacker can leverage this vulnerability to execute code under the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/library/security/MS16-023 ['2016-01-05 - Vulnerability reported to vendor', '2016-03-08 - Coordinated public release of advisory'] 0011 https://www.zerodayinitiative.com/advisories/ZDI-16-185/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-185/",
+  "title": "Microsoft Internet Explorer CAttrArray Type Confusion Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The vulnerability relates to how Internet Explorer handles attributes of DOM elements. By manipulating a document's elements an attacker can cause Internet Explorer to process a string as if it were a CAttrArray object. An attacker can leverage this vulnerability to execute code under the context of the current process.",
+  "zdi_can": "ZDI-CAN-3488",
+  "zdi_id": "ZDI-16-185"
+}

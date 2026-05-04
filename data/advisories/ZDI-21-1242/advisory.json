@@ -1,0 +1,28 @@
+{
+  "additional_details": "NETGEAR has issued an update to correct this vulnerability. More details can be found at: https://kb.netgear.com/000064262/Security-Advisory-for-Vertical-Privilege-Escalation-on-Some-Routers-PSV-2021-0150?article=000064262",
+  "advisory_date": "2021-10-28",
+  "affected_products": [
+    "R6260"
+  ],
+  "affected_vendors": [
+    "NETGEAR"
+  ],
+  "credit": "STARLabs",
+  "cve": "CVE-2021-34980",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2021-34980",
+  "cvss": 8.8,
+  "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2021-06-16 - Vulnerability reported to vendor",
+    "2021-10-28 - Coordinated public release of advisory",
+    "2021-10-28 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-21-1242 ZDI-CAN-14107 NETGEAR R6260 setupwizard.cgi Stack-based Buffer Overflow Remote Code Execution Vulnerability 2021-10-28 CVE-2021-34980 https://www.cve.org/CVERecord?id=CVE-2021-34980 8.8 AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['NETGEAR'] ['R6260'] This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of NETGEAR R6260 routers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the setupwizard.cgi page. When parsing the SOAP_LOGIN_TOKEN environment variable, the process does not properly validate the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of root. NETGEAR has issued an update to correct this vulnerability. More details can be found at: https://kb.netgear.com/000064262/Security-Advisory-for-Vertical-Privilege-Escalation-on-Some-Routers-PSV-2021-0150?article=000064262 ['2021-06-16 - Vulnerability reported to vendor', '2021-10-28 - Coordinated public release of advisory', '2021-10-28 - Advisory Updated'] STARLabs https://www.zerodayinitiative.com/advisories/ZDI-21-1242/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-21-1242/",
+  "title": "NETGEAR R6260 setupwizard.cgi Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+  "updated_date": "2021-10-28",
+  "vulnerability_details": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of NETGEAR R6260 routers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the setupwizard.cgi page. When parsing the SOAP_LOGIN_TOKEN environment variable, the process does not properly validate the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of root.",
+  "zdi_can": "ZDI-CAN-14107",
+  "zdi_id": "ZDI-21-1242"
+}

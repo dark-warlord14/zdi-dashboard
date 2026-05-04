@@ -1,0 +1,27 @@
+{
+  "additional_details": "Fortinet has issued an update to correct this vulnerability. More details can be found at: https://www.fortiguard.com/psirt/FG-IR-21-022",
+  "advisory_date": "2022-01-17",
+  "affected_products": [
+    "FortiClient"
+  ],
+  "affected_vendors": [
+    "Fortinet"
+  ],
+  "credit": "brsn",
+  "cve": "CVE-2021-26089",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2021-26089",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2021-07-30 - Vulnerability reported to vendor",
+    "2022-01-17 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-078 ZDI-CAN-14137 Fortinet FortiClient Network Access Control Uncontrolled Search Path Element Privilege Escalation Vulnerability 2022-01-17 CVE-2021-26089 https://www.cve.org/CVERecord?id=CVE-2021-26089 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Fortinet'] ['FortiClient'] This vulnerability allows local attackers to escalate privileges on affected installations of Fortinet FortiClient Network Access Control. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Network Access Control service. The service loads an OpenSSL configuration file from an unsecured location. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. Fortinet has issued an update to correct this vulnerability. More details can be found at: https://www.fortiguard.com/psirt/FG-IR-21-022 ['2021-07-30 - Vulnerability reported to vendor', '2022-01-17 - Coordinated public release of advisory'] brsn https://www.zerodayinitiative.com/advisories/ZDI-22-078/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-078/",
+  "title": "Fortinet FortiClient Network Access Control Uncontrolled Search Path Element Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Fortinet FortiClient Network Access Control. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Network Access Control service. The service loads an OpenSSL configuration file from an unsecured location. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-14137",
+  "zdi_id": "ZDI-22-078"
+}

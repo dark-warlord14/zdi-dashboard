@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/bulletin/ms09-045.mspx",
+  "advisory_date": "2009-09-08",
+  "affected_products": [
+    "Internet Explorer"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "ling&wushi of team509",
+  "cve": "CVE-2009-1920",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2009-1920",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2009-04-28 - Vulnerability reported to vendor",
+    "2009-09-08 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-09-062 ZDI-CAN-482 Microsoft Internet Explorer JScript arguments Invocation Memory Corruption Vulnerability 2009-09-08 CVE-2009-1920 https://www.cve.org/CVERecord?id=CVE-2009-1920 ['Microsoft'] ['Internet Explorer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page. The specific flaw exists when parsing the jscript keyword \"arguments\". Because the arguments object is not available until a certain time, invoking it can result in memory corruption. Successful exploitation of this vulnerability can lead to a remote system compromise under the credentials of the current user. Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/bulletin/ms09-045.mspx ['2009-04-28 - Vulnerability reported to vendor', '2009-09-08 - Coordinated public release of advisory'] ling&wushi of team509 https://www.zerodayinitiative.com/advisories/ZDI-09-062/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-09-062/",
+  "title": "Microsoft Internet Explorer JScript arguments Invocation Memory Corruption Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page. The specific flaw exists when parsing the jscript keyword \"arguments\". Because the arguments object is not available until a certain time, invoking it can result in memory corruption. Successful exploitation of this vulnerability can lead to a remote system compromise under the credentials of the current user.",
+  "zdi_can": "ZDI-CAN-482",
+  "zdi_id": "ZDI-09-062"
+}

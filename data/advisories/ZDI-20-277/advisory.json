@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2020-0776",
+  "advisory_date": "2020-03-12",
+  "affected_products": [
+    "Windows"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "JeongOh Kyea(@kkokkokye) of THEORI",
+  "cve": "CVE-2020-0776",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2020-0776",
+  "cvss": 6.1,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:H",
+  "disclosure_timeline": [
+    "2019-11-28 - Vulnerability reported to vendor",
+    "2020-03-12 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-20-277 ZDI-CAN-9473 Microsoft Windows AppX Deployment Service Link Resolution Denial-of-Service Vulnerability 2020-03-12 CVE-2020-0776 https://www.cve.org/CVERecord?id=CVE-2020-0776 6.1 AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:H ['Microsoft'] ['Windows'] This vulnerability allows local attackers to create a denial-of-service condition on affected installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the AppX Deployment Service. By creating a junction, an attacker can abuse the service to delete the contents of a chosen file or folder. An attacker can leverage this vulnerability to create a denial-of-service condition on the system. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2020-0776 ['2019-11-28 - Vulnerability reported to vendor', '2020-03-12 - Coordinated public release of advisory'] JeongOh Kyea(@kkokkokye) of THEORI https://www.zerodayinitiative.com/advisories/ZDI-20-277/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-20-277/",
+  "title": "Microsoft Windows AppX Deployment Service Link Resolution Denial-of-Service Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to create a denial-of-service condition on affected installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the AppX Deployment Service. By creating a junction, an attacker can abuse the service to delete the contents of a chosen file or folder. An attacker can leverage this vulnerability to create a denial-of-service condition on the system.",
+  "zdi_can": "ZDI-CAN-9473",
+  "zdi_id": "ZDI-20-277"
+}

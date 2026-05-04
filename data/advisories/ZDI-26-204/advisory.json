@@ -1,0 +1,28 @@
+{
+  "additional_details": "Canon has issued an update to correct this vulnerability. More details can be found at: https://www.canon-europe.com/support/product-security/",
+  "advisory_date": "2026-03-16",
+  "affected_products": [
+    "imageCLASS MF654Cdw"
+  ],
+  "affected_vendors": [
+    "Canon"
+  ],
+  "credit": "SHIMIZU Yutaro (@shift_crops) of GMO Cybersecurity by Ierae, Inc.",
+  "cve": "CVE-2025-14232",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-14232",
+  "cvss": 8.8,
+  "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2025-11-11 - Vulnerability reported to vendor",
+    "2026-03-16 - Coordinated public release of advisory",
+    "2026-03-16 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-26-204 ZDI-CAN-28268 (Pwn2Own) Canon imageCLASS MF654Cdw XPS Parser Stack-based Buffer Overflow Remote Code Execution Vulnerability 2026-03-16 CVE-2025-14232 https://www.cve.org/CVERecord?id=CVE-2025-14232 8.8 AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['Canon'] ['imageCLASS MF654Cdw'] This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Canon imageCLASS MF654Cdw printers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the parsing of XPS files. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of the device. Canon has issued an update to correct this vulnerability. More details can be found at: https://www.canon-europe.com/support/product-security/ ['2025-11-11 - Vulnerability reported to vendor', '2026-03-16 - Coordinated public release of advisory', '2026-03-16 - Advisory Updated'] SHIMIZU Yutaro (@shift_crops) of GMO Cybersecurity by Ierae, Inc. https://www.zerodayinitiative.com/advisories/ZDI-26-204/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-204/",
+  "title": "(Pwn2Own) Canon imageCLASS MF654Cdw XPS Parser Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+  "updated_date": "2026-03-16",
+  "vulnerability_details": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Canon imageCLASS MF654Cdw printers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the parsing of XPS files. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of the device.",
+  "zdi_can": "ZDI-CAN-28268",
+  "zdi_id": "ZDI-26-204"
+}

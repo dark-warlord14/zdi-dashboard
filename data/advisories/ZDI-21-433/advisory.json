@@ -1,0 +1,27 @@
+{
+  "additional_details": "Parallels has issued an update to correct this vulnerability. More details can be found at: https://kb.parallels.com/en/125013",
+  "advisory_date": "2021-04-21",
+  "affected_products": [
+    "Desktop"
+  ],
+  "affected_vendors": [
+    "Parallels"
+  ],
+  "credit": "grigoritchy",
+  "cve": "CVE-2021-31426",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2021-31426",
+  "cvss": 8.8,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2021-02-08 - Vulnerability reported to vendor",
+    "2021-04-21 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-21-433 ZDI-CAN-12791 Parallels Desktop Tools Integer Overflow Privilege Escalation Vulnerability 2021-04-21 CVE-2021-31426 https://www.cve.org/CVERecord?id=CVE-2021-31426 8.8 AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H ['Parallels'] ['Desktop'] This vulnerability allows local attackers to escalate privileges on affected installations of Parallels Desktop. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Parallels Tools component. The issue results from the lack of proper validation of user-supplied data, which can result in an integer overflow before allocating a buffer. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the kernel on the target guest system. Parallels has issued an update to correct this vulnerability. More details can be found at: https://kb.parallels.com/en/125013 ['2021-02-08 - Vulnerability reported to vendor', '2021-04-21 - Coordinated public release of advisory'] grigoritchy https://www.zerodayinitiative.com/advisories/ZDI-21-433/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-21-433/",
+  "title": "Parallels Desktop Tools Integer Overflow Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Parallels Desktop. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Parallels Tools component. The issue results from the lack of proper validation of user-supplied data, which can result in an integer overflow before allocating a buffer. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the kernel on the target guest system.",
+  "zdi_can": "ZDI-CAN-12791",
+  "zdi_id": "ZDI-21-433"
+}

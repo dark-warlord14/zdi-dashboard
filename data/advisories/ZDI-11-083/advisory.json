@@ -1,0 +1,27 @@
+{
+  "additional_details": "Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/javacpufeb2011-304611.html",
+  "advisory_date": "2011-02-15",
+  "affected_products": [
+    "Java Runtime"
+  ],
+  "affected_vendors": [
+    "Oracle"
+  ],
+  "credit": "Sami Koivu",
+  "cve": "CVE-2010-4465",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2010-4465",
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2010-01-26 - Vulnerability reported to vendor",
+    "2011-02-15 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-11-083 ZDI-CAN-628 Oracle Java Applet Clipboard Injection Remote Code Execution Vulnerability 2011-02-15 CVE-2010-4465 https://www.cve.org/CVERecord?id=CVE-2010-4465 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Oracle'] ['Java Runtime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of the Oracle Java Runtime. User interaction is required to exploit this vulnerability in that the target must visit a malicious page. The specific flaw is due to insufficient defenses against system clipboard hijacking. When in focus, a handle to the system clipboard can be retrieved without user interaction by a malicious component. The clipboard can then be arbitrarily read from or written to. By writing a TransferableProxy object to the system clipboard and then forcing a paste action, arbitrary code can be executed under the context of the user invoking the JRE. Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/javacpufeb2011-304611.html ['2010-01-26 - Vulnerability reported to vendor', '2011-02-15 - Coordinated public release of advisory'] Sami Koivu https://www.zerodayinitiative.com/advisories/ZDI-11-083/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-083/",
+  "title": "Oracle Java Applet Clipboard Injection Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of the Oracle Java Runtime. User interaction is required to exploit this vulnerability in that the target must visit a malicious page. The specific flaw is due to insufficient defenses against system clipboard hijacking. When in focus, a handle to the system clipboard can be retrieved without user interaction by a malicious component. The clipboard can then be arbitrarily read from or written to. By writing a TransferableProxy object to the system clipboard and then forcing a paste action, arbitrary code can be executed under the context of the user invoking the JRE.",
+  "zdi_can": "ZDI-CAN-628",
+  "zdi_id": "ZDI-11-083"
+}

@@ -1,0 +1,28 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-29357",
+  "advisory_date": "2023-06-16",
+  "affected_products": [
+    "SharePoint"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Nguy\u1ec5n Ti\u1ebfn Giang (@testanull) of STAR Labs SG Pte. Ltd.",
+  "cve": "CVE-2023-29357",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-29357",
+  "cvss": 9.8,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2023-03-30 - Vulnerability reported to vendor",
+    "2023-06-16 - Coordinated public release of advisory",
+    "2024-10-25 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-882 ZDI-CAN-20716 (Pwn2Own) Microsoft SharePoint ValidateTokenIssuer Improper Verification of Cryptographic Signature Authentication Bypass Vulnerability 2023-06-16 CVE-2023-29357 https://www.cve.org/CVERecord?id=CVE-2023-29357 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['Microsoft'] ['SharePoint'] This vulnerability allows remote attackers to bypass authentication on affected installations of Microsoft SharePoint. Authentication is not required to exploit this vulnerability. The specific flaw exists within the ValidateTokenIssuer method. The issue results from the lack of proper verification of a cryptographic signature. An attacker can leverage this vulnerability to bypass authentication on the system. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-29357 ['2023-03-30 - Vulnerability reported to vendor', '2023-06-16 - Coordinated public release of advisory', '2024-10-25 - Advisory Updated'] Nguy\u1ec5n Ti\u1ebfn Giang (@testanull) of STAR Labs SG Pte. Ltd. https://www.zerodayinitiative.com/advisories/ZDI-23-882/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-882/",
+  "title": "(Pwn2Own) Microsoft SharePoint ValidateTokenIssuer Improper Verification of Cryptographic Signature Authentication Bypass Vulnerability",
+  "updated_date": "2024-10-25",
+  "vulnerability_details": "This vulnerability allows remote attackers to bypass authentication on affected installations of Microsoft SharePoint. Authentication is not required to exploit this vulnerability. The specific flaw exists within the ValidateTokenIssuer method. The issue results from the lack of proper verification of a cryptographic signature. An attacker can leverage this vulnerability to bypass authentication on the system.",
+  "zdi_can": "ZDI-CAN-20716",
+  "zdi_id": "ZDI-23-882"
+}

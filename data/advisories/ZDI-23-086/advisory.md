@@ -1,0 +1,26 @@
+# ZDI-23-086: Delta Electronics InfraSuite Device Master CtrlLayerNWCmd_FileOperation Opcode 512 Directory Traversal Remote Code Execution Vulnerability
+
+## Metadata
+
+- **ZDI ID:** ZDI-23-086
+- **ZDI-CAN:** ZDI-CAN-19418
+- **Date:** 2023-01-18
+- **CVE:** CVE-2022-41657
+- **CVSS:** 8.8
+- **CVSS Vector:** AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+- **Affected Vendors:** Delta Electronics
+- **Affected Products:** InfraSuite Device Master
+- **Credit:** Piotr Bazydlo (@chudypb) of Trend Micro Zero Day Initiative
+- **Source:** https://www.zerodayinitiative.com/advisories/ZDI-23-086/
+## Vulnerability Details
+
+This vulnerability allows remote attackers to execute arbitrary code on affected installations of Delta Electronics InfraSuite Device Master. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed. The specific flaw exists within CtrlLayerNWCmd_FileOperation, opcode 512. When parsing the fileName element, the process does not properly validate a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute code in the context of an administrator.
+
+## Additional Details
+
+Delta Electronics has issued an update to correct this vulnerability. More details can be found at: https://www.cisa.gov/uscert/ics/advisories/icsa-22-298-07
+
+## Disclosure Timeline
+
+- 2022-11-10 - Vulnerability reported to vendor
+- 2023-01-18 - Coordinated public release of advisory

@@ -1,0 +1,27 @@
+{
+  "additional_details": "Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxitsoftware.com/support/security-bulletins.php",
+  "advisory_date": "2017-07-07",
+  "affected_products": [
+    "Reader"
+  ],
+  "affected_vendors": [
+    "Foxit"
+  ],
+  "credit": "Ashfaq Ansari - Project Srishti",
+  "cve": "CVE-2017-10944",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-10944",
+  "cvss": 4.3,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N",
+  "disclosure_timeline": [
+    "2017-06-01 - Vulnerability reported to vendor",
+    "2017-07-07 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-17-457 ZDI-CAN-4846 Foxit Reader ObjStm Parsing Out-Of-Bounds Read Information Disclosure Vulnerability 2017-07-07 CVE-2017-10944 https://www.cve.org/CVERecord?id=CVE-2017-10944 4.3 AV:N/AC:M/Au:N/C:P/I:N/A:N ['Foxit'] ['Reader'] This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Foxit Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of ObjStm objects. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated object. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process. Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxitsoftware.com/support/security-bulletins.php ['2017-06-01 - Vulnerability reported to vendor', '2017-07-07 - Coordinated public release of advisory'] Ashfaq Ansari - Project Srishti https://www.zerodayinitiative.com/advisories/ZDI-17-457/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-457/",
+  "title": "Foxit Reader ObjStm Parsing Out-Of-Bounds Read Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Foxit Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of ObjStm objects. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated object. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-4846",
+  "zdi_id": "ZDI-17-457"
+}

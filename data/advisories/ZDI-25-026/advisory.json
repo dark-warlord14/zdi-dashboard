@@ -1,0 +1,28 @@
+{
+  "additional_details": "Fixed in version 3.7.5",
+  "advisory_date": "2025-01-10",
+  "affected_products": [
+    "Mintty"
+  ],
+  "affected_vendors": [
+    "Mintty"
+  ],
+  "credit": "solid-snail",
+  "cve": "CVE-2024-45301",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-45301",
+  "cvss": 5.3,
+  "cvss_vector": "AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N",
+  "disclosure_timeline": [
+    "2024-08-16 - Vulnerability reported to vendor",
+    "2025-01-10 - Coordinated public release of advisory",
+    "2025-01-10 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-026 ZDI-CAN-24744 Mintty Path Conversion Improper Input Validation Information Disclosure Vulnerability 2025-01-10 CVE-2024-45301 https://www.cve.org/CVERecord?id=CVE-2024-45301 5.3 AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N ['Mintty'] ['Mintty'] This vulnerability allows remote attackers to relay NTLM credentials on affected installations of Mintty. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of printed characters. Crafted sequences of escape characters can cause the product to fetch a resource from an arbitrary path. An attacker can leverage this vulnerability to relay NTLM credentials in the context of the current user. Fixed in version 3.7.5 ['2024-08-16 - Vulnerability reported to vendor', '2025-01-10 - Coordinated public release of advisory', '2025-01-10 - Advisory Updated'] solid-snail https://www.zerodayinitiative.com/advisories/ZDI-25-026/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-026/",
+  "title": "Mintty Path Conversion Improper Input Validation Information Disclosure Vulnerability",
+  "updated_date": "2025-01-10",
+  "vulnerability_details": "This vulnerability allows remote attackers to relay NTLM credentials on affected installations of Mintty. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of printed characters. Crafted sequences of escape characters can cause the product to fetch a resource from an arbitrary path. An attacker can leverage this vulnerability to relay NTLM credentials in the context of the current user.",
+  "zdi_can": "ZDI-CAN-24744",
+  "zdi_id": "ZDI-25-026"
+}

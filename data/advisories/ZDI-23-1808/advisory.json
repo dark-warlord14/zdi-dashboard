@@ -1,0 +1,27 @@
+{
+  "additional_details": "TP-Link has issued an update to correct this vulnerability. More details can be found at: https://www.tp-link.com/en/support/download/tl-wr841n/v12/#Firmware",
+  "advisory_date": "2023-12-19",
+  "affected_products": [
+    "TL-WR841N"
+  ],
+  "affected_vendors": [
+    "TP-Link"
+  ],
+  "credit": "Aleksandar Djurdjevic 'revengsmK'",
+  "cve": "CVE-2023-50224",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-50224",
+  "cvss": 6.5,
+  "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+  "disclosure_timeline": [
+    "2023-02-24 - Vulnerability reported to vendor",
+    "2023-12-19 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-1808 ZDI-CAN-19899 TP-Link TL-WR841N dropbearpwd Improper Authentication Information Disclosure Vulnerability 2023-12-19 CVE-2023-50224 https://www.cve.org/CVERecord?id=CVE-2023-50224 6.5 AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N ['TP-Link'] ['TL-WR841N'] This vulnerability allows network-adjacent attackers to disclose sensitive information on affected installations of TP-Link TL-WR841N routers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the httpd service, which listens on TCP port 80 by default. The issue results from improper authentication. An attacker can leverage this vulnerability to disclose stored credentials, leading to further compromise. TP-Link has issued an update to correct this vulnerability. More details can be found at: https://www.tp-link.com/en/support/download/tl-wr841n/v12/#Firmware ['2023-02-24 - Vulnerability reported to vendor', '2023-12-19 - Coordinated public release of advisory'] Aleksandar Djurdjevic 'revengsmK' https://www.zerodayinitiative.com/advisories/ZDI-23-1808/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-1808/",
+  "title": "TP-Link TL-WR841N dropbearpwd Improper Authentication Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows network-adjacent attackers to disclose sensitive information on affected installations of TP-Link TL-WR841N routers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the httpd service, which listens on TCP port 80 by default. The issue results from improper authentication. An attacker can leverage this vulnerability to disclose stored credentials, leading to further compromise.",
+  "zdi_can": "ZDI-CAN-19899",
+  "zdi_id": "ZDI-23-1808"
+}

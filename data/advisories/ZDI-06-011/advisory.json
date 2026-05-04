@@ -1,0 +1,27 @@
+{
+  "additional_details": "Mozilla Firefox has issued an update to correct this vulnerability. More details can be found at: http://www.mozilla.org/security/announce/2006/mfsa2006-27.html",
+  "advisory_date": "2006-04-25",
+  "affected_products": [
+    "1.5.x"
+  ],
+  "affected_vendors": [
+    "Mozilla Firefox"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2006-0748",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2006-0748",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2006-02-28 - Vulnerability reported to vendor",
+    "2006-04-25 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-06-011 ZDI-CAN-026 Mozilla Firefox Table Rebuilding Code Execution Vulnerability 2006-04-25 CVE-2006-0748 https://www.cve.org/CVERecord?id=CVE-2006-0748 ['Mozilla Firefox'] ['1.5.x'] This vulnerability allows attackers to execute arbitrary code on vulnerable installations of the Mozilla/Firefox web browser and Thunderbird e-mail client. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious e-mail. The specific flaw exists within the routine RebuildConsideringRows() during the rebuilding of nonsensical table tags. When the Mozilla engine attempts to fix the malformed table, an attacker is capable of triggering a memory corruption that can lead to code execution from user-supplied data. Mozilla Firefox has issued an update to correct this vulnerability. More details can be found at: http://www.mozilla.org/security/announce/2006/mfsa2006-27.html ['2006-02-28 - Vulnerability reported to vendor', '2006-04-25 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-06-011/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-06-011/",
+  "title": "Mozilla Firefox Table Rebuilding Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows attackers to execute arbitrary code on vulnerable installations of the Mozilla/Firefox web browser and Thunderbird e-mail client. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious e-mail. The specific flaw exists within the routine RebuildConsideringRows() during the rebuilding of nonsensical table tags. When the Mozilla engine attempts to fix the malformed table, an attacker is capable of triggering a memory corruption that can lead to code execution from user-supplied data.",
+  "zdi_can": "ZDI-CAN-026",
+  "zdi_id": "ZDI-06-011"
+}

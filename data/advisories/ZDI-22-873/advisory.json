@@ -1,0 +1,27 @@
+{
+  "additional_details": "Prosys OPC has issued an update to correct this vulnerability. More details can be found at: https://www.prosysopc.com/blog/pwn2own-resource-exhaustion-exploit/",
+  "advisory_date": "2022-06-27",
+  "affected_products": [
+    "UA SDK for Java"
+  ],
+  "affected_vendors": [
+    "Prosys OPC"
+  ],
+  "credit": "Vera Mens, Uri Katz, Sharon Brizinov of Claroty Research",
+  "cve": "CVE-2022-30551",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-30551",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+  "disclosure_timeline": [
+    "2022-05-09 - Vulnerability reported to vendor",
+    "2022-06-27 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-873 ZDI-CAN-16441 (Pwn2Own) Prosys OPC UA SDK for Java OPC UA Messages Resource Exhaustion Denial-of-Service Vulnerability 2022-06-27 CVE-2022-30551 https://www.cve.org/CVERecord?id=CVE-2022-30551 7.5 AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H ['Prosys OPC'] ['UA SDK for Java'] This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of Prosys OPC UA SDK for Java. Authentication is not required to exploit this vulnerability. The specific flaw exists within handling of OPC UA messages. By sending a large number of requests, an attacker can consume all available resources on the server. An attacker can leverage this vulnerability to create a denial-of-service condition on the system. Prosys OPC has issued an update to correct this vulnerability. More details can be found at: https://www.prosysopc.com/blog/pwn2own-resource-exhaustion-exploit/ ['2022-05-09 - Vulnerability reported to vendor', '2022-06-27 - Coordinated public release of advisory'] Vera Mens, Uri Katz, Sharon Brizinov of Claroty Research https://www.zerodayinitiative.com/advisories/ZDI-22-873/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-873/",
+  "title": "(Pwn2Own) Prosys OPC UA SDK for Java OPC UA Messages Resource Exhaustion Denial-of-Service Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of Prosys OPC UA SDK for Java. Authentication is not required to exploit this vulnerability. The specific flaw exists within handling of OPC UA messages. By sending a large number of requests, an attacker can consume all available resources on the server. An attacker can leverage this vulnerability to create a denial-of-service condition on the system.",
+  "zdi_can": "ZDI-CAN-16441",
+  "zdi_id": "ZDI-22-873"
+}

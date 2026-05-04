@@ -1,0 +1,27 @@
+{
+  "additional_details": "Fortinet has issued an update to correct this vulnerability. More details can be found at: https://www.fortiguard.com/psirt/FG-IR-22-429",
+  "advisory_date": "2023-08-14",
+  "affected_products": [
+    "FortiClient VPN"
+  ],
+  "affected_vendors": [
+    "Fortinet"
+  ],
+  "credit": "Ting",
+  "cve": "CVE-2022-43946",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-43946",
+  "cvss": 8.8,
+  "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2022-10-31 - Vulnerability reported to vendor",
+    "2023-08-14 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-1104 ZDI-CAN-18590 Fortinet FortiClient VPN Improper Access Control Remote Code Execution Vulnerability 2023-08-14 CVE-2022-43946 https://www.cve.org/CVERecord?id=CVE-2022-43946 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Fortinet'] ['FortiClient VPN'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Fortinet FortiClient VPN. Authentication is required to exploit this vulnerability. The specific flaw exists within the FortiClient Logging daemon. The product applies insufficient access controls to a sensitive pipe. A remote attacker can leverage this vulnerability to execute code in the context of SYSTEM. Additionally, a local attacker can leverage this vulnerability to escalate privileges and execute code in the context of SYSTEM. Fortinet has issued an update to correct this vulnerability. More details can be found at: https://www.fortiguard.com/psirt/FG-IR-22-429 ['2022-10-31 - Vulnerability reported to vendor', '2023-08-14 - Coordinated public release of advisory'] Ting https://www.zerodayinitiative.com/advisories/ZDI-23-1104/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-1104/",
+  "title": "Fortinet FortiClient VPN Improper Access Control Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Fortinet FortiClient VPN. Authentication is required to exploit this vulnerability. The specific flaw exists within the FortiClient Logging daemon. The product applies insufficient access controls to a sensitive pipe. A remote attacker can leverage this vulnerability to execute code in the context of SYSTEM. Additionally, a local attacker can leverage this vulnerability to escalate privileges and execute code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-18590",
+  "zdi_id": "ZDI-23-1104"
+}

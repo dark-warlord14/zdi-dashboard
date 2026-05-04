@@ -1,0 +1,28 @@
+{
+  "additional_details": "10/12/23 \u2013 ZDI submitted the vulnerability to the vendor via a third-party Vulnerability Disclosure program 10/18/23 \u2013 The third-party Vulnerability Disclosure program mentioned that the reported issue was out of scope the program\u2019s and closed the report as Not Applicable 10/18/23 \u2013 ZDI asked for reasons 10/18/23 \u2013 The vendor confirmed that the issue was being investigated and confirmed the vulnerability was in the Vulnerability Disclosure program\u2019s scope 10/19/23:01/16/24 - ZDI has provided multiple instructions, PoCs and answers to help the third-party program to reproduce the issue 01/31/23 \u2013 The third-party Vulnerability Disclosure program marked the report as not applicable and not being a rewardable submission 01/17/24 \u2013 ZDI communicated that rewards and bounties have never been accepted by Trend Micro Zero Day Initiative and notified the vendor of the intention to publish the cases as 0-day advisory 07/26/24 \u2013 ZDI notified the vendor of the intention to publish the cases as 0-day advisory on 07/29/24 -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the application",
+  "advisory_date": "2024-07-29",
+  "affected_products": [
+    "Advanced Security"
+  ],
+  "affected_vendors": [
+    "VIPRE"
+  ],
+  "credit": "Nicholas Zubrisky and Michael DePlante (@izobashi) of Trend Micro Zero Day Initiative",
+  "cve": "CVE-2024-7238",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-7238",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2023-10-12 - Vulnerability reported to vendor",
+    "2024-07-29 - Coordinated public release of advisory",
+    "2024-08-15 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-1011 ZDI-CAN-22238 (0Day) VIPRE Advanced Security SBAMSvc Link Following Local Privilege Escalation Vulnerability 2024-07-29 CVE-2024-7238 https://www.cve.org/CVERecord?id=CVE-2024-7238 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['VIPRE'] ['Advanced Security'] This vulnerability allows local attackers to escalate privileges on affected installations of VIPRE Advanced Security. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Anti Malware Service. By creating a symbolic link, an attacker can abuse the service to delete a file. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. 10/12/23 \u2013 ZDI submitted the vulnerability to the vendor via a third-party Vulnerability Disclosure program 10/18/23 \u2013 The third-party Vulnerability Disclosure program mentioned that the reported issue was out of scope the program\u2019s and closed the report as Not Applicable 10/18/23 \u2013 ZDI asked for reasons 10/18/23 \u2013 The vendor confirmed that the issue was being investigated and confirmed the vulnerability was in the Vulnerability Disclosure program\u2019s scope 10/19/23:01/16/24 - ZDI has provided multiple instructions, PoCs and answers to help the third-party program to reproduce the issue 01/31/23 \u2013 The third-party Vulnerability Disclosure program marked the report as not applicable and not being a rewardable submission 01/17/24 \u2013 ZDI communicated that rewards and bounties have never been accepted by Trend Micro Zero Day Initiative and notified the vendor of the intention to publish the cases as 0-day advisory 07/26/24 \u2013 ZDI notified the vendor of the intention to publish the cases as 0-day advisory on 07/29/24 -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the application ['2023-10-12 - Vulnerability reported to vendor', '2024-07-29 - Coordinated public release of advisory', '2024-08-15 - Advisory Updated'] Nicholas Zubrisky and Michael DePlante (@izobashi) of Trend Micro Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-24-1011/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-1011/",
+  "title": "(0Day) VIPRE Advanced Security SBAMSvc Link Following Local Privilege Escalation Vulnerability",
+  "updated_date": "2024-08-15",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of VIPRE Advanced Security. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Anti Malware Service. By creating a symbolic link, an attacker can abuse the service to delete a file. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-22238",
+  "zdi_id": "ZDI-24-1011"
+}

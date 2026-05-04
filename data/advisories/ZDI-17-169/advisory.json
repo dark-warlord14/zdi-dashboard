@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/en-us/library/security/ms17-006.aspx",
+  "advisory_date": "2017-03-21",
+  "affected_products": [
+    "Internet Explorer"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Kai Song(exp-sky) of Tencent's Xuanwu Lab",
+  "cve": "CVE-2017-0018",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-0018",
+  "cvss": 4.3,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N",
+  "disclosure_timeline": [
+    "2016-10-06 - Vulnerability reported to vendor",
+    "2017-03-21 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-17-169 ZDI-CAN-4058 Microsoft Internet Explorer CHtmTag Use-After-Free Remote Code Execution Vulnerability 2017-03-21 CVE-2017-0018 https://www.cve.org/CVERecord?id=CVE-2017-0018 4.3 AV:N/AC:M/Au:N/C:P/I:N/A:N ['Microsoft'] ['Internet Explorer'] This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the processing of HTML tags. By manipulating a document's elements an attacker can cause a pointer to be reused after it has been freed. An attacker can leverage this vulnerability to disclose sensitive information under the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/en-us/library/security/ms17-006.aspx ['2016-10-06 - Vulnerability reported to vendor', '2017-03-21 - Coordinated public release of advisory'] Kai Song(exp-sky) of Tencent's Xuanwu Lab https://www.zerodayinitiative.com/advisories/ZDI-17-169/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-169/",
+  "title": "Microsoft Internet Explorer CHtmTag Use-After-Free Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the processing of HTML tags. By manipulating a document's elements an attacker can cause a pointer to be reused after it has been freed. An attacker can leverage this vulnerability to disclose sensitive information under the context of the current process.",
+  "zdi_can": "ZDI-CAN-4058",
+  "zdi_id": "ZDI-17-169"
+}

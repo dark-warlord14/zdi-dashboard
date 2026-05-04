@@ -1,0 +1,27 @@
+{
+  "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/photoshop/apsb19-44.html",
+  "advisory_date": "2019-08-19",
+  "affected_products": [
+    "Photoshop"
+  ],
+  "affected_vendors": [
+    "Adobe"
+  ],
+  "credit": "Steven Seeley (mr_me) of Source Incite",
+  "cve": "CVE-2019-7978",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2019-7978",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2019-05-08 - Vulnerability reported to vendor",
+    "2019-08-19 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-19-736 ZDI-CAN-8549 Adobe Photoshop PostScript put Heap-based Buffer Overflow Remote Code Execution Vulnerability 2019-08-19 CVE-2019-7978 https://www.cve.org/CVERecord?id=CVE-2019-7978 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Adobe'] ['Photoshop'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Adobe Photoshop. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the processing of the put command in PostScript. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/photoshop/apsb19-44.html ['2019-05-08 - Vulnerability reported to vendor', '2019-08-19 - Coordinated public release of advisory'] Steven Seeley (mr_me) of Source Incite https://www.zerodayinitiative.com/advisories/ZDI-19-736/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-19-736/",
+  "title": "Adobe Photoshop PostScript put Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Adobe Photoshop. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the processing of the put command in PostScript. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a buffer. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-8549",
+  "zdi_id": "ZDI-19-736"
+}

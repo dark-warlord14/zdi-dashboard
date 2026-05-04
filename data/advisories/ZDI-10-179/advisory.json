@@ -1,0 +1,27 @@
+{
+  "additional_details": "http://www-01.ibm.com/support/docview.wss?uid=swg21443820 Issue 1",
+  "advisory_date": "2010-09-29",
+  "affected_products": [
+    "Tivoli Storage Manager"
+  ],
+  "affected_vendors": [
+    "IBM"
+  ],
+  "credit": "Sebastian Apelt (www.siberas.de)",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2010-01-06 - Vulnerability reported to vendor",
+    "2010-09-29 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-10-179 ZDI-CAN-656 IBM TSM FastBack Mount Service Arbitrary Overwrite Remote Code Execution Vulnerability 2010-09-29 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['IBM'] ['Tivoli Storage Manager'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of IBM Tivoli Storage Manager Fastback. Authentication is not required to exploit this vulnerability. The specific flaw exists within the Mount service (FastBackMount.exe). This process listens by default on UDP port 30005. This process writes the value 0x01 to the address specified by the second DWORD from a packet received to it's UDP port. An attacker can exploit this behavior to execute arbitrary code by making several requests to this service. http://www-01.ibm.com/support/docview.wss?uid=swg21443820 Issue 1 ['2010-01-06 - Vulnerability reported to vendor', '2010-09-29 - Coordinated public release of advisory'] Sebastian Apelt (www.siberas.de) https://www.zerodayinitiative.com/advisories/ZDI-10-179/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-179/",
+  "title": "IBM TSM FastBack Mount Service Arbitrary Overwrite Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of IBM Tivoli Storage Manager Fastback. Authentication is not required to exploit this vulnerability. The specific flaw exists within the Mount service (FastBackMount.exe). This process listens by default on UDP port 30005. This process writes the value 0x01 to the address specified by the second DWORD from a packet received to it's UDP port. An attacker can exploit this behavior to execute arbitrary code by making several requests to this service.",
+  "zdi_can": "ZDI-CAN-656",
+  "zdi_id": "ZDI-10-179"
+}

@@ -1,0 +1,28 @@
+{
+  "additional_details": "Fixed in version 7.2.4.",
+  "advisory_date": "2026-03-09",
+  "affected_products": [
+    "Unraid"
+  ],
+  "affected_vendors": [
+    "Unraid"
+  ],
+  "credit": "Nicolas Chatelain (Nicocha30)",
+  "cve": "CVE-2026-3839",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-3839",
+  "cvss": 7.3,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+  "disclosure_timeline": [
+    "2026-02-17 - Vulnerability reported to vendor",
+    "2026-03-09 - Coordinated public release of advisory",
+    "2026-03-09 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-26-172 ZDI-CAN-28912 Unraid Authentication Request Path Traversal Authentication Bypass Vulnerability 2026-03-09 CVE-2026-3839 https://www.cve.org/CVERecord?id=CVE-2026-3839 7.3 AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L ['Unraid'] ['Unraid'] This vulnerability allows remote attackers to bypass authentication on affected installations of Unraid. Authentication is not required to exploit this vulnerability. The specific flaw exists within the auth-request.php file. The issue results from the lack of proper validation of a user-supplied path prior to using it in authentications. An attacker can leverage this vulnerability to bypass authentication on the system. Fixed in version 7.2.4. ['2026-02-17 - Vulnerability reported to vendor', '2026-03-09 - Coordinated public release of advisory', '2026-03-09 - Advisory Updated'] Nicolas Chatelain (Nicocha30) https://www.zerodayinitiative.com/advisories/ZDI-26-172/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-172/",
+  "title": "Unraid Authentication Request Path Traversal Authentication Bypass Vulnerability",
+  "updated_date": "2026-03-09",
+  "vulnerability_details": "This vulnerability allows remote attackers to bypass authentication on affected installations of Unraid. Authentication is not required to exploit this vulnerability. The specific flaw exists within the auth-request.php file. The issue results from the lack of proper validation of a user-supplied path prior to using it in authentications. An attacker can leverage this vulnerability to bypass authentication on the system.",
+  "zdi_can": "ZDI-CAN-28912",
+  "zdi_id": "ZDI-26-172"
+}

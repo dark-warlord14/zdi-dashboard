@@ -1,0 +1,27 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT5002",
+  "advisory_date": "2011-10-18",
+  "affected_products": [
+    "Quicktime"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "Damian Put",
+  "cve": "CVE-2011-3222",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-3222",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2011-07-20 - Vulnerability reported to vendor",
+    "2011-10-18 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-11-295 ZDI-CAN-1312 Apple QuickTime FlashPix JPEG Tables Selector Remote Code Execution Vulnerability 2011-10-18 CVE-2011-3222 https://www.cve.org/CVERecord?id=CVE-2011-3222 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Apple'] ['Quicktime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple Quicktime. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the way Quicktime handles flashpix files. When a flashpix contains a tile that has a Compression Type 0x2 (JPEG) and an 'JPEG tables selector' value that is bigger then the global stream property 'Maximum JPEG table index', Quicktime will write outside the global JPEG table. This corruption could lead to remote code execution under the context of the current user. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT5002 ['2011-07-20 - Vulnerability reported to vendor', '2011-10-18 - Coordinated public release of advisory'] Damian Put https://www.zerodayinitiative.com/advisories/ZDI-11-295/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-295/",
+  "title": "Apple QuickTime FlashPix JPEG Tables Selector Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple Quicktime. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the way Quicktime handles flashpix files. When a flashpix contains a tile that has a Compression Type 0x2 (JPEG) and an 'JPEG tables selector' value that is bigger then the global stream property 'Maximum JPEG table index', Quicktime will write outside the global JPEG table. This corruption could lead to remote code execution under the context of the current user.",
+  "zdi_can": "ZDI-CAN-1312",
+  "zdi_id": "ZDI-11-295"
+}

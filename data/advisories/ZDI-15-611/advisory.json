@@ -1,0 +1,27 @@
+{
+  "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/flash-player/apsb15-32.html",
+  "advisory_date": "2015-12-08",
+  "affected_products": [
+    "Flash"
+  ],
+  "affected_vendors": [
+    "Adobe"
+  ],
+  "credit": "Bilou",
+  "cve": "CVE-2015-8448",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-8448",
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2015-09-01 - Vulnerability reported to vendor",
+    "2015-12-08 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-15-611 ZDI-CAN-3259 Adobe Flash AS2 DisplacementMapFilter mapBitmap Use-After-Free Remote Code Execution Vulnerability 2015-12-08 CVE-2015-8448 https://www.cve.org/CVERecord?id=CVE-2015-8448 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Adobe'] ['Flash'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Adobe Flash. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the DisplacementMapFilter object. By manipulating the mapBitmap property of a DisplacementMapFilter object, an attacker can force a dangling pointer to be reused after it has been freed. An attacker can leverage this vulnerability to execute arbitrary code under the context of the current process. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/flash-player/apsb15-32.html ['2015-09-01 - Vulnerability reported to vendor', '2015-12-08 - Coordinated public release of advisory'] Bilou https://www.zerodayinitiative.com/advisories/ZDI-15-611/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-611/",
+  "title": "Adobe Flash AS2 DisplacementMapFilter mapBitmap Use-After-Free Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Adobe Flash. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the DisplacementMapFilter object. By manipulating the mapBitmap property of a DisplacementMapFilter object, an attacker can force a dangling pointer to be reused after it has been freed. An attacker can leverage this vulnerability to execute arbitrary code under the context of the current process.",
+  "zdi_can": "ZDI-CAN-3259",
+  "zdi_id": "ZDI-15-611"
+}

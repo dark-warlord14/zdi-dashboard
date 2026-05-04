@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/bulletin/MS08-070.mspx",
+  "advisory_date": "2008-12-09",
+  "affected_products": [
+    "Windows XP"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "CHkr_D591",
+  "cve": "CVE-2008-4255",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2008-4255",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2008-09-16 - Vulnerability reported to vendor",
+    "2008-12-09 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-08-083 ZDI-CAN-387 Microsoft Animation ActiveX Control Malformed AVI Parsing Code Execution Vulnerability 2008-12-09 CVE-2008-4255 https://www.cve.org/CVERecord?id=CVE-2008-4255 ['Microsoft'] ['Windows XP'] This vulnerability allows remote attackers to execute arbitrary code through vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page. The specific flaw exists within the Microsoft Animation ActiveX control MSCOMCT2.OCX. When parsing a malformed AVI file through this control an exploitable heap corruption can occur. As the AVI file can be loaded over a UNC path this issue is remotely exploitable and can result in arbitrary code execution under the context of the current user. Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/bulletin/MS08-070.mspx ['2008-09-16 - Vulnerability reported to vendor', '2008-12-09 - Coordinated public release of advisory'] CHkr_D591 https://www.zerodayinitiative.com/advisories/ZDI-08-083/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-08-083/",
+  "title": "Microsoft Animation ActiveX Control Malformed AVI Parsing Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code through vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page. The specific flaw exists within the Microsoft Animation ActiveX control MSCOMCT2.OCX. When parsing a malformed AVI file through this control an exploitable heap corruption can occur. As the AVI file can be loaded over a UNC path this issue is remotely exploitable and can result in arbitrary code execution under the context of the current user.",
+  "zdi_can": "ZDI-CAN-387",
+  "zdi_id": "ZDI-08-083"
+}

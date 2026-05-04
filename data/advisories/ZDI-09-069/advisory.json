@@ -1,0 +1,29 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/bulletin/ms09-051.mspx",
+  "advisory_date": "2009-10-13",
+  "affected_products": [
+    "Windows Media Player 11",
+    "Windows Media Player 10"
+  ],
+  "affected_vendors": [
+    "Microsoft",
+    "Microsoft"
+  ],
+  "credit": "Ivan Fratric",
+  "cve": "CVE-2009-0555",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2009-0555",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2008-04-16 - Vulnerability reported to vendor",
+    "2009-10-13 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-09-069 ZDI-CAN-320 Microsoft Windows Media Player Audio Voice Sample Rate Memory Corruption Vulnerability 2009-10-13 CVE-2009-0555 https://www.cve.org/CVERecord?id=CVE-2009-0555 ['Microsoft', 'Microsoft'] ['Windows Media Player 11', 'Windows Media Player 10'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Windows Media Player. User interaction is required to exploit this vulnerability in that the target must visit a malicious web page. The specific flaw exists in the handling of Windows media audio files. When specifying a malicious sample rate for a Windows Media Voice frame, memory corruption can occur. Successful exploitation of this vulnerability can lead to remote compromise of the affected system under the credentials of the currently logged in user. Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/bulletin/ms09-051.mspx ['2008-04-16 - Vulnerability reported to vendor', '2009-10-13 - Coordinated public release of advisory'] Ivan Fratric https://www.zerodayinitiative.com/advisories/ZDI-09-069/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-09-069/",
+  "title": "Microsoft Windows Media Player Audio Voice Sample Rate Memory Corruption Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Windows Media Player. User interaction is required to exploit this vulnerability in that the target must visit a malicious web page. The specific flaw exists in the handling of Windows media audio files. When specifying a malicious sample rate for a Windows Media Voice frame, memory corruption can occur. Successful exploitation of this vulnerability can lead to remote compromise of the affected system under the credentials of the currently logged in user.",
+  "zdi_can": "ZDI-CAN-320",
+  "zdi_id": "ZDI-09-069"
+}

@@ -1,0 +1,27 @@
+{
+  "additional_details": "SAGA has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-18-296-02",
+  "advisory_date": "2018-10-25",
+  "affected_products": [
+    "SAGA1-L8B"
+  ],
+  "affected_vendors": [
+    "SAGA"
+  ],
+  "credit": "Philippe Lin, Jonathan Andersson, Rainer Vosseler, Federico Maggi, Urano Akira, Stephen Hilt, Marco Balduzzi",
+  "cve": "CVE-2018-17923",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2018-17923",
+  "cvss": 6.1,
+  "cvss_vector": "AV:P/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2018-06-29 - Vulnerability reported to vendor",
+    "2018-10-25 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-1318 ZDI-CAN-6542 Saga Radio SAGA1-L8B Firmware Upgrade Remote Code Execution Vulnerability 2018-10-25 CVE-2018-17923 https://www.cve.org/CVERecord?id=CVE-2018-17923 6.1 AV:P/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H ['SAGA'] ['SAGA1-L8B'] This vulnerability allows attackers with physical access to modify firmware on vulnerable installations of Saga Radio equipment. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed. The specific flaw exists within the device programming mechanism. The device is insufficiently protected from unauthorized firmware updates. An attacker can leverage this vulnerability to bypass authentication and install persistent malicious firmware on the device. SAGA has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-18-296-02 ['2018-06-29 - Vulnerability reported to vendor', '2018-10-25 - Coordinated public release of advisory'] Philippe Lin, Jonathan Andersson, Rainer Vosseler, Federico Maggi, Urano Akira, Stephen Hilt, Marco Balduzzi https://www.zerodayinitiative.com/advisories/ZDI-18-1318/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-1318/",
+  "title": "Saga Radio SAGA1-L8B Firmware Upgrade Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows attackers with physical access to modify firmware on vulnerable installations of Saga Radio equipment. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed. The specific flaw exists within the device programming mechanism. The device is insufficiently protected from unauthorized firmware updates. An attacker can leverage this vulnerability to bypass authentication and install persistent malicious firmware on the device.",
+  "zdi_can": "ZDI-CAN-6542",
+  "zdi_id": "ZDI-18-1318"
+}

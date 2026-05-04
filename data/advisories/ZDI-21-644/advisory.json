@@ -1,0 +1,28 @@
+{
+  "additional_details": "Bosch has issued an update to correct this vulnerability. More details can be found at: https://psirt.bosch.com/security-advisories/bosch-sa-196933-bt.html",
+  "advisory_date": "2021-06-03",
+  "affected_products": [
+    "B426"
+  ],
+  "affected_vendors": [
+    "Bosch"
+  ],
+  "credit": "Chizuru Toyama of TXOne IoT/ICS Security Research Labs",
+  "cve": "CVE-2021-23845",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2021-23845",
+  "cvss": 8.8,
+  "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2021-01-29 - Vulnerability reported to vendor",
+    "2021-06-03 - Coordinated public release of advisory",
+    "2021-06-07 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-21-644 ZDI-CAN-13074 Bosch B426 Web Configuration Use of Hard-coded Password Authentication Bypass Vulnerability 2021-06-03 CVE-2021-23845 https://www.cve.org/CVERecord?id=CVE-2021-23845 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Bosch'] ['B426'] This vulnerability allows remote attackers to bypass authentication on affected installations of Bosch B426. Authentication is not required to exploit this vulnerability. The specific flaw exists within the lgs.cgi module. This issue results from the use of hard-coded session token. An attacker can leverage this vulnerability to bypass authentication on the system. Bosch has issued an update to correct this vulnerability. More details can be found at: https://psirt.bosch.com/security-advisories/bosch-sa-196933-bt.html ['2021-01-29 - Vulnerability reported to vendor', '2021-06-03 - Coordinated public release of advisory', '2021-06-07 - Advisory Updated'] Chizuru Toyama of TXOne IoT/ICS Security Research Labs https://www.zerodayinitiative.com/advisories/ZDI-21-644/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-21-644/",
+  "title": "Bosch B426 Web Configuration Use of Hard-coded Password Authentication Bypass Vulnerability",
+  "updated_date": "2021-06-07",
+  "vulnerability_details": "This vulnerability allows remote attackers to bypass authentication on affected installations of Bosch B426. Authentication is not required to exploit this vulnerability. The specific flaw exists within the lgs.cgi module. This issue results from the use of hard-coded session token. An attacker can leverage this vulnerability to bypass authentication on the system.",
+  "zdi_can": "ZDI-CAN-13074",
+  "zdi_id": "ZDI-21-644"
+}

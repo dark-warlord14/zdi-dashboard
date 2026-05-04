@@ -1,0 +1,27 @@
+{
+  "additional_details": "01/26/22 \u2013 ZDI reported the vulnerability to the vendor. 02/02/22 \u2013 The vendor acknowledged the report. 08/24/22 \u2013 ZDI asked for an update. 08/24/22 \u2013 The vendor asked for additional details about the vulnerability. 09/19/22 \u2013 The vendor states that there is a patch, but the ZDI informed the vendor that the bug is still triggerable on the latest mainline. 10/05/22 \u2013 ZDI provided additional details. 10/07/22 \u2013 The vendor states there is a new patch, but the ZDI was able to reproduce the vulnerability on the latest mainline. 10/26/22 \u2013 The vendor informed the ZDI that they would continue to investigate. 04/12/23 \u2013 ZDI asked for an update. 04/14/23 \u2013 The vendor informed the ZDI that a new patch would merge into the latest mainline on 04/21/2023. 04/21/23 \u2013 The original finder reports to the vendor that the patch may not work, and it was confirmed by the ZDI that the vulnerability is reproducible on the latest mainline. 05/02/23 \u2013 The ZDI informed the vendor that the case will be published as a zero-day advisory on 05/04/23, and in coordination with Red Hat this vulnerability will be assigned CVE-2023-2156. -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the application.",
+  "advisory_date": "2023-05-04",
+  "affected_products": [
+    "Kernel"
+  ],
+  "affected_vendors": [
+    "Linux"
+  ],
+  "credit": "maxpl0it (@maxpl0it)",
+  "cve": "CVE-2023-2156",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-2156",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+  "disclosure_timeline": [
+    "2022-01-26 - Vulnerability reported to vendor",
+    "2023-05-04 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-547 ZDI-CAN-16223 (0Day) Linux Kernel IPv6 RPL Protocol Reachable Assertion Denial-of-Service Vulnerability 2023-05-04 CVE-2023-2156 https://www.cve.org/CVERecord?id=CVE-2023-2156 7.5 AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H ['Linux'] ['Kernel'] This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of Linux Kernel. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of the RPL protocol. The issue results from the lack of proper handling of user-supplied data, which can result in an assertion failure. An attacker can leverage this vulnerability to create a denial-of-service condition on the system. 01/26/22 \u2013 ZDI reported the vulnerability to the vendor. 02/02/22 \u2013 The vendor acknowledged the report. 08/24/22 \u2013 ZDI asked for an update. 08/24/22 \u2013 The vendor asked for additional details about the vulnerability. 09/19/22 \u2013 The vendor states that there is a patch, but the ZDI informed the vendor that the bug is still triggerable on the latest mainline. 10/05/22 \u2013 ZDI provided additional details. 10/07/22 \u2013 The vendor states there is a new patch, but the ZDI was able to reproduce the vulnerability on the latest mainline. 10/26/22 \u2013 The vendor informed the ZDI that they would continue to investigate. 04/12/23 \u2013 ZDI asked for an update. 04/14/23 \u2013 The vendor informed the ZDI that a new patch would merge into the latest mainline on 04/21/2023. 04/21/23 \u2013 The original finder reports to the vendor that the patch may not work, and it was confirmed by the ZDI that the vulnerability is reproducible on the latest mainline. 05/02/23 \u2013 The ZDI informed the vendor that the case will be published as a zero-day advisory on 05/04/23, and in coordination with Red Hat this vulnerability will be assigned CVE-2023-2156. -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the application. ['2022-01-26 - Vulnerability reported to vendor', '2023-05-04 - Coordinated public release of advisory'] maxpl0it (@maxpl0it) https://www.zerodayinitiative.com/advisories/ZDI-23-547/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-547/",
+  "title": "(0Day) Linux Kernel IPv6 RPL Protocol Reachable Assertion Denial-of-Service Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of Linux Kernel. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of the RPL protocol. The issue results from the lack of proper handling of user-supplied data, which can result in an assertion failure. An attacker can leverage this vulnerability to create a denial-of-service condition on the system.",
+  "zdi_can": "ZDI-CAN-16223",
+  "zdi_id": "ZDI-23-547"
+}

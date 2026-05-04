@@ -1,0 +1,28 @@
+{
+  "additional_details": "QNAP has issued an update to correct this vulnerability. More details can be found at: https://www.qnap.com/en-us/security-advisory/qsa-24-09",
+  "advisory_date": "2024-06-21",
+  "affected_products": [
+    "TS-464"
+  ],
+  "affected_vendors": [
+    "QNAP"
+  ],
+  "credit": "Tri and Bien Pham (@bienpnn) from Team Orca of Sea Security",
+  "cve": "CVE-2024-32766",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-32766",
+  "cvss": 9.8,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2023-11-09 - Vulnerability reported to vendor",
+    "2024-06-21 - Coordinated public release of advisory",
+    "2024-08-15 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-826 ZDI-CAN-22496 (Pwn2Own) QNAP TS-464 Improper Validation Authentication Bypass Vulnerability 2024-06-21 CVE-2024-32766 https://www.cve.org/CVERecord?id=CVE-2024-32766 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['QNAP'] ['TS-464'] This vulnerability allows remote attackers to bypass authentication on affected installations of QNAP TS-464 NAS devices. Authentication is not required to exploit this vulnerability. The specific flaw exists within the authentication logic. The issue results from improper validation of the password. An attacker can leverage this vulnerability to bypass authentication on the system. QNAP has issued an update to correct this vulnerability. More details can be found at: https://www.qnap.com/en-us/security-advisory/qsa-24-09 ['2023-11-09 - Vulnerability reported to vendor', '2024-06-21 - Coordinated public release of advisory', '2024-08-15 - Advisory Updated'] Tri and Bien Pham (@bienpnn) from Team Orca of Sea Security https://www.zerodayinitiative.com/advisories/ZDI-24-826/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-826/",
+  "title": "(Pwn2Own) QNAP TS-464 Improper Validation Authentication Bypass Vulnerability",
+  "updated_date": "2024-08-15",
+  "vulnerability_details": "This vulnerability allows remote attackers to bypass authentication on affected installations of QNAP TS-464 NAS devices. Authentication is not required to exploit this vulnerability. The specific flaw exists within the authentication logic. The issue results from improper validation of the password. An attacker can leverage this vulnerability to bypass authentication on the system.",
+  "zdi_can": "ZDI-CAN-22496",
+  "zdi_id": "ZDI-24-826"
+}

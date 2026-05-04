@@ -1,0 +1,27 @@
+{
+  "additional_details": "Novell has issued an update to correct this vulnerability. More details can be found at: http://download.novell.com/Download?buildid=rCAgCcbPH9s~",
+  "advisory_date": "2011-04-04",
+  "affected_products": [
+    "File Reporter"
+  ],
+  "affected_vendors": [
+    "Novell"
+  ],
+  "credit": "Stephen Fewer of Harmony Security (www.harmonysecurity.com)",
+  "cve": "CVE-2011-0994",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-0994",
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2010-10-06 - Vulnerability reported to vendor",
+    "2011-04-04 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-11-116 ZDI-CAN-830 Novell File Reporter Agent XML Parsing Remote Code Execution Vulnerability 2011-04-04 CVE-2011-0994 https://www.cve.org/CVERecord?id=CVE-2011-0994 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Novell'] ['File Reporter'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Novell File Reporter Agent. Authentication is not required to exploit this vulnerability. The flaw exists within the NFRAgent.exe component which listens by default on TCP port 3037. When handling the contents of an XML tag the process blindly copies user supplied data into a fixed-length buffer on the stack. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the SYSTEM user. Novell has issued an update to correct this vulnerability. More details can be found at: http://download.novell.com/Download?buildid=rCAgCcbPH9s~ ['2010-10-06 - Vulnerability reported to vendor', '2011-04-04 - Coordinated public release of advisory'] Stephen Fewer of Harmony Security (www.harmonysecurity.com) https://www.zerodayinitiative.com/advisories/ZDI-11-116/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-116/",
+  "title": "Novell File Reporter Agent XML Parsing Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Novell File Reporter Agent. Authentication is not required to exploit this vulnerability. The flaw exists within the NFRAgent.exe component which listens by default on TCP port 3037. When handling the contents of an XML tag the process blindly copies user supplied data into a fixed-length buffer on the stack. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the SYSTEM user.",
+  "zdi_can": "ZDI-CAN-830",
+  "zdi_id": "ZDI-11-116"
+}

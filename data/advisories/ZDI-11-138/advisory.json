@@ -1,0 +1,28 @@
+{
+  "additional_details": null,
+  "advisory_date": "2011-04-19",
+  "affected_products": [
+    "WebKit"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "wushi of team509",
+  "cve": "CVE-2011-0234",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-0234",
+  "cvss": 9.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:C",
+  "disclosure_timeline": [
+    "2011-03-31 - Vulnerability reported to vendor",
+    "2011-04-19 - Coordinated public release of advisory",
+    "2020-07-30 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-11-138 ZDI-CAN-1036 Webkit Undefined DOM Prototype Attach Remote Code Execution Vulnerability 2011-04-19 CVE-2011-0234 https://www.cve.org/CVERecord?id=CVE-2011-0234 9.0 AV:N/AC:L/Au:N/C:P/I:P/A:C ['Apple'] ['WebKit'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple Safari Webkit. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the application's implementation of a Frame element. When attaching this element to a document, the application will duplicate a reference of an anonymous block. When freeing the container holding the Frame element, the reference will still be available. If an attacker can perform an explicit type change of the contents the element this can then be leveraged to gain code execution under the context of the application. ['2011-03-31 - Vulnerability reported to vendor', '2011-04-19 - Coordinated public release of advisory', '2020-07-30 - Advisory Updated'] wushi of team509 https://www.zerodayinitiative.com/advisories/ZDI-11-138/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-138/",
+  "title": "Webkit Undefined DOM Prototype Attach Remote Code Execution Vulnerability",
+  "updated_date": "2020-07-30",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple Safari Webkit. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the application's implementation of a Frame element. When attaching this element to a document, the application will duplicate a reference of an anonymous block. When freeing the container holding the Frame element, the reference will still be available. If an attacker can perform an explicit type change of the contents the element this can then be leveraged to gain code execution under the context of the application.",
+  "zdi_can": "ZDI-CAN-1036",
+  "zdi_id": "ZDI-11-138"
+}

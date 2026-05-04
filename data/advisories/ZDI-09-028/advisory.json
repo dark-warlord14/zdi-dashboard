@@ -1,0 +1,27 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT3591",
+  "advisory_date": "2009-06-02",
+  "affected_products": [
+    "Quicktime"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "Anonymous Damian Put",
+  "cve": "CVE-2009-0954",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2009-0954",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2008-12-17 - Vulnerability reported to vendor",
+    "2009-06-02 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-09-028 ZDI-CAN-414 Apple QuickTime CRGN Atom Parsing Heap Buffer Overflow Vulnerability 2009-06-02 CVE-2009-0954 https://www.cve.org/CVERecord?id=CVE-2009-0954 ['Apple'] ['Quicktime'] This vulnerability allows attackers to execute arbitrary code on vulnerable installations of QuickTime Player. User interaction is required to exploit this vulnerability in that the target must either open a malicious file, or visit a malicious web page. The specific flaw exists during parsing of Clipping Region (CRGN) atom types in a Quicktime Movie file. The application trusts the contents of the atom to contain a terminator during a copy operation. The application will copy user-supplied data into a heap-buffer until it identifies this terminator. This will allow one to overwrite heap-control structures which can be leveraged to achieve code execution from the context of the application. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT3591 ['2008-12-17 - Vulnerability reported to vendor', '2009-06-02 - Coordinated public release of advisory'] Anonymous Damian Put https://www.zerodayinitiative.com/advisories/ZDI-09-028/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-09-028/",
+  "title": "Apple QuickTime CRGN Atom Parsing Heap Buffer Overflow Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows attackers to execute arbitrary code on vulnerable installations of QuickTime Player. User interaction is required to exploit this vulnerability in that the target must either open a malicious file, or visit a malicious web page. The specific flaw exists during parsing of Clipping Region (CRGN) atom types in a Quicktime Movie file. The application trusts the contents of the atom to contain a terminator during a copy operation. The application will copy user-supplied data into a heap-buffer until it identifies this terminator. This will allow one to overwrite heap-control structures which can be leveraged to achieve code execution from the context of the application.",
+  "zdi_can": "ZDI-CAN-414",
+  "zdi_id": "ZDI-09-028"
+}

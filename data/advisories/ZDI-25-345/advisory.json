@@ -1,0 +1,28 @@
+{
+  "additional_details": "Fixed in American Standard: V1.39.51 and European Standard: V1.56.51",
+  "advisory_date": "2025-06-11",
+  "affected_products": [
+    "Autel MaxiCharger AC Wallbox Commercial"
+  ],
+  "affected_vendors": [
+    "Autel"
+  ],
+  "credit": "Quarkslab",
+  "cve": "CVE-2025-5826",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-5826",
+  "cvss": 6.3,
+  "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+  "disclosure_timeline": [
+    "2025-05-12 - Vulnerability reported to vendor",
+    "2025-06-11 - Coordinated public release of advisory",
+    "2025-06-11 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-345 ZDI-CAN-26368 (Pwn2Own) Autel MaxiCharger AC Wallbox Commercial ble_process_esp32_msg Misinterpretation of Input Vulnerability 2025-06-11 CVE-2025-5826 https://www.cve.org/CVERecord?id=CVE-2025-5826 6.3 AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L ['Autel'] ['Autel MaxiCharger AC Wallbox Commercial'] This vulnerability allows network-adjacent attackers to inject arbitrary AT commands on affected installations of Autel MaxiCharger AC Wallbox Commercial charging stations. Authentication is not required to exploit this vulnerability. The specific flaw exists within the ble_process_esp32_msg function. The issue results from misinterpretation of input data. An attacker can leverage this vulnerability to execute AT commands in the context of the device. Fixed in American Standard: V1.39.51 and European Standard: V1.56.51 ['2025-05-12 - Vulnerability reported to vendor', '2025-06-11 - Coordinated public release of advisory', '2025-06-11 - Advisory Updated'] Quarkslab https://www.zerodayinitiative.com/advisories/ZDI-25-345/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-345/",
+  "title": "(Pwn2Own) Autel MaxiCharger AC Wallbox Commercial ble_process_esp32_msg Misinterpretation of Input Vulnerability",
+  "updated_date": "2025-06-11",
+  "vulnerability_details": "This vulnerability allows network-adjacent attackers to inject arbitrary AT commands on affected installations of Autel MaxiCharger AC Wallbox Commercial charging stations. Authentication is not required to exploit this vulnerability. The specific flaw exists within the ble_process_esp32_msg function. The issue results from misinterpretation of input data. An attacker can leverage this vulnerability to execute AT commands in the context of the device.",
+  "zdi_can": "ZDI-CAN-26368",
+  "zdi_id": "ZDI-25-345"
+}

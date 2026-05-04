@@ -1,0 +1,27 @@
+{
+  "additional_details": "Synology has issued an update to correct this vulnerability. More details can be found at: https://www.synology.com/en-global/security/advisory/Synology_SA_23_10",
+  "advisory_date": "2023-09-07",
+  "affected_products": [
+    "RT6600ax"
+  ],
+  "affected_vendors": [
+    "Synology"
+  ],
+  "credit": "Discovered by: Claroty Research - Vera Mens, Noam Moshe, Uri Katz, Sharon Brizinov",
+  "cve": "CVE-2023-41739",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-41739",
+  "cvss": 5.7,
+  "cvss_vector": "AV:A/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+  "disclosure_timeline": [
+    "2022-12-02 - Vulnerability reported to vendor",
+    "2023-09-07 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-1340 ZDI-CAN-19742 Synology RT6600ax SYNO.Core Uncontrolled Resource Consumption Denial-of-Service Vulnerability 2023-09-07 CVE-2023-41739 https://www.cve.org/CVERecord?id=CVE-2023-41739 5.7 AV:A/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H ['Synology'] ['RT6600ax'] This vulnerability allows network-adjacent attackers to create a denial-of-service condition on affected installations of Synology RT6600ax routers. Authentication is required to exploit this vulnerability. The specific flaw exists within the SYNO.Core file. The issue results from uncontrolled resource consumption. An attacker can leverage this vulnerability to create a denial-of-service condition on the device. Synology has issued an update to correct this vulnerability. More details can be found at: https://www.synology.com/en-global/security/advisory/Synology_SA_23_10 ['2022-12-02 - Vulnerability reported to vendor', '2023-09-07 - Coordinated public release of advisory'] Discovered by: Claroty Research - Vera Mens, Noam Moshe, Uri Katz, Sharon Brizinov https://www.zerodayinitiative.com/advisories/ZDI-23-1340/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-1340/",
+  "title": "Synology RT6600ax SYNO.Core Uncontrolled Resource Consumption Denial-of-Service Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows network-adjacent attackers to create a denial-of-service condition on affected installations of Synology RT6600ax routers. Authentication is required to exploit this vulnerability. The specific flaw exists within the SYNO.Core file. The issue results from uncontrolled resource consumption. An attacker can leverage this vulnerability to create a denial-of-service condition on the device.",
+  "zdi_can": "ZDI-CAN-19742",
+  "zdi_id": "ZDI-23-1340"
+}

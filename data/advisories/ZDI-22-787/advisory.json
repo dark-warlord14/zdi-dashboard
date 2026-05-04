@@ -1,0 +1,28 @@
+{
+  "additional_details": "Ivanti has issued an update to correct this vulnerability. More details can be found at: https://download.wavelink.com/Files/avalanche_v6.3.4_release_notes.txt",
+  "advisory_date": "2022-05-26",
+  "affected_products": [
+    "Avalanche"
+  ],
+  "affected_vendors": [
+    "Ivanti"
+  ],
+  "credit": "Piotr Bazydlo (@chudypb)",
+  "cve": "CVE-2022-36982",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-36982",
+  "cvss": 6.5,
+  "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+  "disclosure_timeline": [
+    "2021-12-08 - Vulnerability reported to vendor",
+    "2022-05-26 - Coordinated public release of advisory",
+    "2022-07-27 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-787 ZDI-CAN-15967 Ivanti Avalanche AgentTaskHandler Directory Traversal Information Disclosure Vulnerability 2022-05-26 CVE-2022-36982 https://www.cve.org/CVERecord?id=CVE-2022-36982 6.5 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N ['Ivanti'] ['Avalanche'] This vulnerability allows remote attackers to read arbitrary files on affected installations of Ivanti Avalanche. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed. The specific flaw exists within the AgentTaskHandler class. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to disclose stored session cookies, leading to further compromise. Ivanti has issued an update to correct this vulnerability. More details can be found at: https://download.wavelink.com/Files/avalanche_v6.3.4_release_notes.txt ['2021-12-08 - Vulnerability reported to vendor', '2022-05-26 - Coordinated public release of advisory', '2022-07-27 - Advisory Updated'] Piotr Bazydlo (@chudypb) https://www.zerodayinitiative.com/advisories/ZDI-22-787/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-787/",
+  "title": "Ivanti Avalanche AgentTaskHandler Directory Traversal Information Disclosure Vulnerability",
+  "updated_date": "2022-07-27",
+  "vulnerability_details": "This vulnerability allows remote attackers to read arbitrary files on affected installations of Ivanti Avalanche. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed. The specific flaw exists within the AgentTaskHandler class. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to disclose stored session cookies, leading to further compromise.",
+  "zdi_can": "ZDI-CAN-15967",
+  "zdi_id": "ZDI-22-787"
+}

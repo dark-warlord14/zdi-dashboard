@@ -1,0 +1,27 @@
+{
+  "additional_details": "This vulnerability is being disclosed publicly without a patch in accordance with the ZDI 120 day deadline. 11/24/20 \u2013 ZDI reported the vulnerability to the vendor 02/05/21 \u2013 The vendor requested technical clarification 02/09/20 \u2013 ZDI provided additional evidence 03/15/21 \u2013 The vendor indicated they had fixes ready 03/25/21 \u2013 The vendor communicated the cases would be included in a future release 03/25/21 \u2013 ZDI requested an ETA for the release and notified the vendor of the intention to publish the reports as 0-day advisories if no timely fix was provided 04/23/21 \u2013 ZDI requested an update and notified the vendor of the intention to publish the reports as 0-day advisories in 05/04/21 -- Mitigation: Given the nature of the vulnerability the only salient mitigation strategy is to restrict interaction with the application.",
+  "advisory_date": "2021-05-06",
+  "affected_products": [
+    "ArcReader"
+  ],
+  "affected_vendors": [
+    "Esri"
+  ],
+  "credit": "Simon Zuckerbraun - Trend Micro Zero Day Initiative",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 3.3,
+  "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+  "disclosure_timeline": [
+    "2020-11-24 - Vulnerability reported to vendor",
+    "2021-05-06 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-21-521 ZDI-CAN-12524 (0Day) Esri ArcReader PMF File Parsing Out-Of-Bounds Read Information Disclosure Vulnerability 2021-05-06 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N ['Esri'] ['ArcReader'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Esri ArcReader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of PMF files. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process. This vulnerability is being disclosed publicly without a patch in accordance with the ZDI 120 day deadline. 11/24/20 \u2013 ZDI reported the vulnerability to the vendor 02/05/21 \u2013 The vendor requested technical clarification 02/09/20 \u2013 ZDI provided additional evidence 03/15/21 \u2013 The vendor indicated they had fixes ready 03/25/21 \u2013 The vendor communicated the cases would be included in a future release 03/25/21 \u2013 ZDI requested an ETA for the release and notified the vendor of the intention to publish the reports as 0-day advisories if no timely fix was provided 04/23/21 \u2013 ZDI requested an update and notified the vendor of the intention to publish the reports as 0-day advisories in 05/04/21 -- Mitigation: Given the nature of the vulnerability the only salient mitigation strategy is to restrict interaction with the application. ['2020-11-24 - Vulnerability reported to vendor', '2021-05-06 - Coordinated public release of advisory'] Simon Zuckerbraun - Trend Micro Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-21-521/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-21-521/",
+  "title": "(0Day) Esri ArcReader PMF File Parsing Out-Of-Bounds Read Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Esri ArcReader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of PMF files. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-12524",
+  "zdi_id": "ZDI-21-521"
+}

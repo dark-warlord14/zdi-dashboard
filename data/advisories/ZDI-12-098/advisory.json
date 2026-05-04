@@ -1,0 +1,27 @@
+{
+  "additional_details": "America Online has issued an update to correct this vulnerability. More details can be found at: http://client.web.aol.com/toolbarfiles/Prod/downloads/downloadupdater/dnupdatersetup.exe",
+  "advisory_date": "2012-06-21",
+  "affected_products": [
+    "AOL Deskbar"
+  ],
+  "affected_vendors": [
+    "America Online"
+  ],
+  "credit": "Andrea Micalizzi aka rgod",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2011-10-21 - Vulnerability reported to vendor",
+    "2012-06-21 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-12-098 ZDI-CAN-1421 AOL Products dnUpdater ActiveX Uninitialized Pointer Remote Code Execution Vulnerability 2012-06-21 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['America Online'] ['AOL Deskbar'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of America Online's Toolbar, Desktop, IM, and winamp. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the dnUpdater ActiveX Control. When initializing the ActiveX control object, dnu.exe assumes the 5th argument being used for the Init() method, to be a legitimate pointer to a function. This vulnerability can be leveraged to execute code under the context of the user. America Online has issued an update to correct this vulnerability. More details can be found at: http://client.web.aol.com/toolbarfiles/Prod/downloads/downloadupdater/dnupdatersetup.exe ['2011-10-21 - Vulnerability reported to vendor', '2012-06-21 - Coordinated public release of advisory'] Andrea Micalizzi aka rgod https://www.zerodayinitiative.com/advisories/ZDI-12-098/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-12-098/",
+  "title": "AOL Products dnUpdater ActiveX Uninitialized Pointer Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of America Online's Toolbar, Desktop, IM, and winamp. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the dnUpdater ActiveX Control. When initializing the ActiveX control object, dnu.exe assumes the 5th argument being used for the Init() method, to be a legitimate pointer to a function. This vulnerability can be leveraged to execute code under the context of the user.",
+  "zdi_can": "ZDI-CAN-1421",
+  "zdi_id": "ZDI-12-098"
+}

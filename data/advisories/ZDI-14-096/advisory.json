@@ -1,0 +1,27 @@
+{
+  "additional_details": "CA has issued an update to correct this vulnerability. More details can be found at: https://support.ca.com/irj/portal/anonymous/phpsupcontent?contentID={7F968A14-7407-4BCF-9EB1-EFE9F0E6D663}",
+  "advisory_date": "2014-04-17",
+  "affected_products": [
+    "ERwin Web Portal"
+  ],
+  "affected_vendors": [
+    "CA"
+  ],
+  "credit": "Andrea Micalizzi aka rgod",
+  "cve": "CVE-2014-2210",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-2210",
+  "cvss": 7.8,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:N/I:N/A:C",
+  "disclosure_timeline": [
+    "2014-04-11 - Vulnerability reported to vendor",
+    "2014-04-17 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-14-096 ZDI-CAN-2017 CA ERwin Web Portal MIMM FileAccessServiceProvider Denial of Service Vulnerability 2014-04-17 CVE-2014-2210 https://www.cve.org/CVERecord?id=CVE-2014-2210 7.8 AV:N/AC:L/Au:N/C:N/I:N/A:C ['CA'] ['ERwin Web Portal'] This vulnerability allows remote attackers to delete arbitrary files on a system with vulnerable installations of CA ERwin Web Portal's Meta Integration Metadata Management service. Authentication is not required to exploit this vulnerability. The specific flaw exists within the \"Meta Integration Web Server and Services\" fileaccess provider which is vulnerable to a directory traversal. An attacker can leverage this vulnerability to delete arbitrary files recursively, including operating system files, as the service is installed with SYSTEM privileges by default. CA has issued an update to correct this vulnerability. More details can be found at: https://support.ca.com/irj/portal/anonymous/phpsupcontent?contentID={7F968A14-7407-4BCF-9EB1-EFE9F0E6D663} ['2014-04-11 - Vulnerability reported to vendor', '2014-04-17 - Coordinated public release of advisory'] Andrea Micalizzi aka rgod https://www.zerodayinitiative.com/advisories/ZDI-14-096/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-14-096/",
+  "title": "CA ERwin Web Portal MIMM FileAccessServiceProvider Denial of Service Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to delete arbitrary files on a system with vulnerable installations of CA ERwin Web Portal's Meta Integration Metadata Management service. Authentication is not required to exploit this vulnerability. The specific flaw exists within the \"Meta Integration Web Server and Services\" fileaccess provider which is vulnerable to a directory traversal. An attacker can leverage this vulnerability to delete arbitrary files recursively, including operating system files, as the service is installed with SYSTEM privileges by default.",
+  "zdi_can": "ZDI-CAN-2017",
+  "zdi_id": "ZDI-14-096"
+}

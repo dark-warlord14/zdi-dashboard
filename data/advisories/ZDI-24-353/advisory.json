@@ -1,0 +1,28 @@
+{
+  "additional_details": "Softing has issued an update to correct this vulnerability. More details can be found at: https://www.cisa.gov/news-events/ics-advisories/icsa-24-074-13",
+  "advisory_date": "2024-03-28",
+  "affected_products": [
+    "edgeConnector Siemens"
+  ],
+  "affected_vendors": [
+    "Softing"
+  ],
+  "credit": "Pan ZhenPeng (@Peterpan0927) & Li JianTao (@CurseRed) of STAR Labs SG Pte. Ltd. (@starlabs_sg)",
+  "cve": "CVE-2024-0860",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-0860",
+  "cvss": 8.0,
+  "cvss_vector": "AV:A/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2023-05-30 - Vulnerability reported to vendor",
+    "2024-03-28 - Coordinated public release of advisory",
+    "2024-07-01 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-353 ZDI-CAN-20492 Softing edgeConnector Siemens Cleartext Transmission of Credentials Authentication Bypass Vulnerability 2024-03-28 CVE-2024-0860 https://www.cve.org/CVERecord?id=CVE-2024-0860 8.0 AV:A/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Softing'] ['edgeConnector Siemens'] This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of Softing edgeConnector Siemens. Authentication is not required to exploit this vulnerability. The specific flaw exists within the web console, which listens on TCP port 8099 by default. HTTP traffic to this port contains unprotected credentials. An attacker can leverage this vulnerability to bypass authentication on the system. Softing has issued an update to correct this vulnerability. More details can be found at: https://www.cisa.gov/news-events/ics-advisories/icsa-24-074-13 ['2023-05-30 - Vulnerability reported to vendor', '2024-03-28 - Coordinated public release of advisory', '2024-07-01 - Advisory Updated'] Pan ZhenPeng (@Peterpan0927) & Li JianTao (@CurseRed) of STAR Labs SG Pte. Ltd. (@starlabs_sg) https://www.zerodayinitiative.com/advisories/ZDI-24-353/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-353/",
+  "title": "Softing edgeConnector Siemens Cleartext Transmission of Credentials Authentication Bypass Vulnerability",
+  "updated_date": "2024-07-01",
+  "vulnerability_details": "This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of Softing edgeConnector Siemens. Authentication is not required to exploit this vulnerability. The specific flaw exists within the web console, which listens on TCP port 8099 by default. HTTP traffic to this port contains unprotected credentials. An attacker can leverage this vulnerability to bypass authentication on the system.",
+  "zdi_can": "ZDI-CAN-20492",
+  "zdi_id": "ZDI-24-353"
+}

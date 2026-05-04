@@ -1,0 +1,27 @@
+{
+  "additional_details": "This issue was resolved and fixed on the server side. Hence, no patch version number is available.",
+  "advisory_date": "2019-02-28",
+  "affected_products": [
+    "Wechat"
+  ],
+  "affected_vendors": [
+    "Tencent"
+  ],
+  "credit": "lilang wu, moony Li and yuchen zhou of Trend Micro",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 4.5,
+  "cvss_vector": "AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:L",
+  "disclosure_timeline": [
+    "2018-07-30 - Vulnerability reported to vendor",
+    "2019-02-28 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-19-232 ZDI-CAN-6996 Tencent WeChat URL Scheme Handling Vulnerability 2019-02-28 4.5 AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:L ['Tencent'] ['Wechat'] This vulnerability allows local attackers to modify requests on vulnerable installations of Tencent WeChat. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of URL schemes. The issue resides in the improper validation if a URL Scheme was acted upon by a malicious application. An attacker can leverage this vulnerability to steal tokens and manipulate requests in the context of current user. This issue was resolved and fixed on the server side. Hence, no patch version number is available. ['2018-07-30 - Vulnerability reported to vendor', '2019-02-28 - Coordinated public release of advisory'] lilang wu, moony Li and yuchen zhou of Trend Micro https://www.zerodayinitiative.com/advisories/ZDI-19-232/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-19-232/",
+  "title": "Tencent WeChat URL Scheme Handling Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to modify requests on vulnerable installations of Tencent WeChat. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of URL schemes. The issue resides in the improper validation if a URL Scheme was acted upon by a malicious application. An attacker can leverage this vulnerability to steal tokens and manipulate requests in the context of current user.",
+  "zdi_can": "ZDI-CAN-6996",
+  "zdi_id": "ZDI-19-232"
+}

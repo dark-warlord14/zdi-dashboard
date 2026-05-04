@@ -1,0 +1,27 @@
+{
+  "additional_details": "Novell has issued an update to correct this vulnerability. More details can be found at: http://www.novell.com/support/viewContent.do?externalId=7006515&sliceId=2",
+  "advisory_date": "2010-10-01",
+  "affected_products": [
+    "iManager"
+  ],
+  "affected_vendors": [
+    "Novell"
+  ],
+  "credit": "Stephen Fewer of Harmony Security (www.harmonysecurity.com)",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2010-07-20 - Vulnerability reported to vendor",
+    "2010-10-01 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-10-190 ZDI-CAN-772 Novell iManager getMultiPartParameters Arbitrary File Upload Remote Code Execution Vulnerability 2010-10-01 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Novell'] ['iManager'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Novell iManager. Authentication is not required to exploit this vulnerability. The specific flaw exists within the nps.jar web application exposed via the Tomcat server running by default on TCP ports 8080 and 8443. The com.novell.nps.serviceProviders.PortalModuleInstallManager servlet exposes a function called getMultiPartParameters which parses POST variables from a multipart form request. The getEntry function that the above uses can be made to write an arbitrary file to disk. An attacker can abuse this to place a malicious JSP document in a web-accessible location. By uploading a malicious script, this can be leveraged to execute remote code under the context of the Tomcat process. Novell has issued an update to correct this vulnerability. More details can be found at: http://www.novell.com/support/viewContent.do?externalId=7006515&sliceId=2 ['2010-07-20 - Vulnerability reported to vendor', '2010-10-01 - Coordinated public release of advisory'] Stephen Fewer of Harmony Security (www.harmonysecurity.com) https://www.zerodayinitiative.com/advisories/ZDI-10-190/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-190/",
+  "title": "Novell iManager getMultiPartParameters Arbitrary File Upload Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Novell iManager. Authentication is not required to exploit this vulnerability. The specific flaw exists within the nps.jar web application exposed via the Tomcat server running by default on TCP ports 8080 and 8443. The com.novell.nps.serviceProviders.PortalModuleInstallManager servlet exposes a function called getMultiPartParameters which parses POST variables from a multipart form request. The getEntry function that the above uses can be made to write an arbitrary file to disk. An attacker can abuse this to place a malicious JSP document in a web-accessible location. By uploading a malicious script, this can be leveraged to execute remote code under the context of the Tomcat process.",
+  "zdi_can": "ZDI-CAN-772",
+  "zdi_id": "ZDI-10-190"
+}

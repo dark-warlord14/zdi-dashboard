@@ -1,0 +1,28 @@
+{
+  "additional_details": "Ipswitch has issued an update to correct this vulnerability. More details can be found at: http://www.ipswitch.com/support/ics/updates/ics200603prem.asp",
+  "advisory_date": "2006-03-13",
+  "affected_products": [
+    "IMail"
+  ],
+  "affected_vendors": [
+    "Ipswitch"
+  ],
+  "credit": "Manuel Santamarina Suarez",
+  "cve": "CVE-2005-3526",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2005-3526",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2005-12-13 - Vulnerability reported to vendor",
+    "2006-03-13 - Coordinated public release of advisory",
+    "2020-04-17 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-06-003 ZDI-CAN-009 Ipswitch Collaboration Suite Code Execution Vulnerability 2006-03-13 CVE-2005-3526 https://www.cve.org/CVERecord?id=CVE-2005-3526 ['Ipswitch'] ['IMail'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Ipswitch Collaboration Suite. Authentication is required to exploit this vulnerability. This specific flaw exists within the IMAP daemon. A lack of bounds checking during the parsing of long arguments to the FETCH verb can result in an exploitable buffer overflow. Ipswitch has issued an update to correct this vulnerability. More details can be found at: http://www.ipswitch.com/support/ics/updates/ics200603prem.asp ['2005-12-13 - Vulnerability reported to vendor', '2006-03-13 - Coordinated public release of advisory', '2020-04-17 - Advisory Updated'] Manuel Santamarina Suarez https://www.zerodayinitiative.com/advisories/ZDI-06-003/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-06-003/",
+  "title": "Ipswitch Collaboration Suite Code Execution Vulnerability",
+  "updated_date": "2020-04-17",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Ipswitch Collaboration Suite. Authentication is required to exploit this vulnerability. This specific flaw exists within the IMAP daemon. A lack of bounds checking during the parsing of long arguments to the FETCH verb can result in an exploitable buffer overflow.",
+  "zdi_can": "ZDI-CAN-009",
+  "zdi_id": "ZDI-06-003"
+}

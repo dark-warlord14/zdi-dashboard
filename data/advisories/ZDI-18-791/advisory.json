@@ -1,0 +1,28 @@
+{
+  "additional_details": "Wecon has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-18-212-03 This vulnerability is being disclosed publicly without a patch in accordance with the ZDI 120 day deadline. 03/07/18 - ZDI disclosed the report to ICS-CERT 03/12/18 - ICS-CERT assigned ICS\u2011VU\u2011031741 and notified ZDI 07/06/18 - ZDI inquired the status of ICS\u2011VU\u2011031741 07/09/18 - ICS-CERT replied that they would advise the vendor 07/19/18 - ZDI advised ICS-CERT of the intended 0-day date: 07/26/2018 -- Mitigation: Given the nature of the vulnerability the only salient mitigation strategy is to restrict interaction with the application to trusted files.",
+  "advisory_date": "2018-07-26",
+  "affected_products": [
+    "LeviStudioU"
+  ],
+  "affected_vendors": [
+    "Wecon"
+  ],
+  "credit": "Mat Powell of Trend Micro Zero Day Initiative",
+  "cve": "CVE-2018-10602",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2018-10602",
+  "cvss": 9.3,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2018-03-07 - Vulnerability reported to vendor",
+    "2018-07-26 - Coordinated public release of advisory",
+    "2018-08-02 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-791 ZDI-CAN-5794 (0Day) Wecon LeviStudioU aetlog PointPos Stack-based Buffer Overflow Remote Code Execution Vulnerability 2018-07-26 CVE-2018-10602 https://www.cve.org/CVERecord?id=CVE-2018-10602 9.3 AV:N/AC:M/Au:N/C:C/I:C/A:C ['Wecon'] ['LeviStudioU'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Wecon LeviStudioU. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of UMP files. When parsing the PointPos element, the process does not properly validate the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this vulnerability to execute code under the context of Administrator. Wecon has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-18-212-03 This vulnerability is being disclosed publicly without a patch in accordance with the ZDI 120 day deadline. 03/07/18 - ZDI disclosed the report to ICS-CERT 03/12/18 - ICS-CERT assigned ICS\u2011VU\u2011031741 and notified ZDI 07/06/18 - ZDI inquired the status of ICS\u2011VU\u2011031741 07/09/18 - ICS-CERT replied that they would advise the vendor 07/19/18 - ZDI advised ICS-CERT of the intended 0-day date: 07/26/2018 -- Mitigation: Given the nature of the vulnerability the only salient mitigation strategy is to restrict interaction with the application to trusted files. ['2018-03-07 - Vulnerability reported to vendor', '2018-07-26 - Coordinated public release of advisory', '2018-08-02 - Advisory Updated'] Mat Powell of Trend Micro Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-18-791/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-791/",
+  "title": "(0Day) Wecon LeviStudioU aetlog PointPos Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+  "updated_date": "2018-08-02",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Wecon LeviStudioU. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of UMP files. When parsing the PointPos element, the process does not properly validate the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this vulnerability to execute code under the context of Administrator.",
+  "zdi_can": "ZDI-CAN-5794",
+  "zdi_id": "ZDI-18-791"
+}

@@ -1,0 +1,28 @@
+{
+  "additional_details": "Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/en-US/solution/KA-0019936",
+  "advisory_date": "2025-07-11",
+  "affected_products": [
+    "Worry-Free Business Security"
+  ],
+  "affected_vendors": [
+    "Trend Micro"
+  ],
+  "credit": "Nicolas Caluori",
+  "cve": "CVE-2025-53378",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-53378",
+  "cvss": 7.6,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:H",
+  "disclosure_timeline": [
+    "2025-02-21 - Vulnerability reported to vendor",
+    "2025-07-11 - Coordinated public release of advisory",
+    "2025-07-11 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-589 ZDI-CAN-25342 Trend Micro Worry-Free Business Security Missing Authentication Vulnerability 2025-07-11 CVE-2025-53378 https://www.cve.org/CVERecord?id=CVE-2025-53378 7.6 AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:H ['Trend Micro'] ['Worry-Free Business Security'] This vulnerability allows remote attackers to hijack security agents on affected installations of Trend Micro Worry-Free Business Security. In most cases, user interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the agent activation API. The issue results from the lack of authentication prior to allowing access to functionality. An attacker can leverage this vulnerability to remove protections or create a denial-of-service condition on the system. Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/en-US/solution/KA-0019936 ['2025-02-21 - Vulnerability reported to vendor', '2025-07-11 - Coordinated public release of advisory', '2025-07-11 - Advisory Updated'] Nicolas Caluori https://www.zerodayinitiative.com/advisories/ZDI-25-589/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-589/",
+  "title": "Trend Micro Worry-Free Business Security Missing Authentication Vulnerability",
+  "updated_date": "2025-07-11",
+  "vulnerability_details": "This vulnerability allows remote attackers to hijack security agents on affected installations of Trend Micro Worry-Free Business Security. In most cases, user interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the agent activation API. The issue results from the lack of authentication prior to allowing access to functionality. An attacker can leverage this vulnerability to remove protections or create a denial-of-service condition on the system.",
+  "zdi_can": "ZDI-CAN-25342",
+  "zdi_id": "ZDI-25-589"
+}

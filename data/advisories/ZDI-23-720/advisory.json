@@ -1,0 +1,27 @@
+{
+  "additional_details": "Moxa has issued an update to correct this vulnerability. More details can be found at: https://www.moxa.com/en/support/product-support/security-advisory/mxsecurity-command-injection-and-hardcoded-credential-vulnerabilities",
+  "advisory_date": "2023-05-24",
+  "affected_products": [
+    "MXsecurity Series"
+  ],
+  "affected_vendors": [
+    "Moxa"
+  ],
+  "credit": "Simon Janz (@esj4y)",
+  "cve": "CVE-2023-33236",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-33236",
+  "cvss": 9.8,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2023-01-24 - Vulnerability reported to vendor",
+    "2023-05-24 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-720 ZDI-CAN-19896 Moxa MXsecurity Series Hardcoded JWT Key Authentication Bypass Vulnerability 2023-05-24 CVE-2023-33236 https://www.cve.org/CVERecord?id=CVE-2023-33236 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['Moxa'] ['MXsecurity Series'] This vulnerability allows remote attackers to bypass authentication on affected installations of Moxa MXsecurity Series appliances. Authentication is not required to exploit this vulnerability. The specific flaw exists within the configuration of the web-based interface. The issue results from a hardcoded JWT secret within the application configuration. An attacker can leverage this vulnerability to bypass authentication on the system. Moxa has issued an update to correct this vulnerability. More details can be found at: https://www.moxa.com/en/support/product-support/security-advisory/mxsecurity-command-injection-and-hardcoded-credential-vulnerabilities ['2023-01-24 - Vulnerability reported to vendor', '2023-05-24 - Coordinated public release of advisory'] Simon Janz (@esj4y) https://www.zerodayinitiative.com/advisories/ZDI-23-720/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-720/",
+  "title": "Moxa MXsecurity Series Hardcoded JWT Key Authentication Bypass Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to bypass authentication on affected installations of Moxa MXsecurity Series appliances. Authentication is not required to exploit this vulnerability. The specific flaw exists within the configuration of the web-based interface. The issue results from a hardcoded JWT secret within the application configuration. An attacker can leverage this vulnerability to bypass authentication on the system.",
+  "zdi_can": "ZDI-CAN-19896",
+  "zdi_id": "ZDI-23-720"
+}

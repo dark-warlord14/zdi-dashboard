@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: http://technet.microsoft.com/en-us/security/bulletin/MS13-009",
+  "advisory_date": "2013-02-14",
+  "affected_products": [
+    "Internet Explorer"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Stephen Fewer of Harmony Security (www.harmonysecurity.com)",
+  "cve": "CVE-2013-0020",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2013-0020",
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2012-11-09 - Vulnerability reported to vendor",
+    "2013-02-14 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-13-029 ZDI-CAN-1655 Microsoft Internet Explorer CMarkup Use-After-Free Remote Code Execution Vulnerability 2013-02-14 CVE-2013-0020 https://www.cve.org/CVERecord?id=CVE-2013-0020 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Microsoft'] ['Internet Explorer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of CMarkup and CDATA objects. The issue lies in the usage of document.adoptNode on a CDATA object. By manipulating a document's elements an attacker can force a dangling pointer to be reused after it has been freed. An attacker can leverage this vulnerability to execute code under the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: http://technet.microsoft.com/en-us/security/bulletin/MS13-009 ['2012-11-09 - Vulnerability reported to vendor', '2013-02-14 - Coordinated public release of advisory'] Stephen Fewer of Harmony Security (www.harmonysecurity.com) https://www.zerodayinitiative.com/advisories/ZDI-13-029/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-13-029/",
+  "title": "Microsoft Internet Explorer CMarkup Use-After-Free Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of CMarkup and CDATA objects. The issue lies in the usage of document.adoptNode on a CDATA object. By manipulating a document's elements an attacker can force a dangling pointer to be reused after it has been freed. An attacker can leverage this vulnerability to execute code under the context of the current process.",
+  "zdi_can": "ZDI-CAN-1655",
+  "zdi_id": "ZDI-13-029"
+}

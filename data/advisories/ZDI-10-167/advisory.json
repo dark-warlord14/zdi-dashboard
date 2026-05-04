@@ -1,0 +1,27 @@
+{
+  "additional_details": "RealNetworks has issued an update to correct this vulnerability. More details can be found at: http://service.real.com/realplayer/security/08262010_player/en/",
+  "advisory_date": "2010-08-26",
+  "affected_products": [
+    "RealPlayer"
+  ],
+  "affected_vendors": [
+    "RealNetworks"
+  ],
+  "credit": "Sebastian Apelt, siberas",
+  "cve": "CVE-2010-3000",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2010-3000",
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2009-12-04 - Vulnerability reported to vendor",
+    "2010-08-26 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-10-167 ZDI-CAN-620 RealNetworks RealPlayer FLV Parsing Multiple Integer Overflow Vulnerabilities 2010-08-26 CVE-2010-3000 https://www.cve.org/CVERecord?id=CVE-2010-3000 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['RealNetworks'] ['RealPlayer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of RealNetworks RealPlayer. Authentication is not required to exploit this vulnerability. The specific flaw exists within the module responsible for handling the FLV file format. While parsing the HX_FLV_META_AMF_TYPE_MIXEDARRAY and the HX_FLV_META_AMF_TYPE_ARRAY data types the ParseKnownType function makes two improper calculations that can force integers to wrap. A remote attacker can exploit these vulnerabilities to execute arbitrary code under the context of the user playing the file. RealNetworks has issued an update to correct this vulnerability. More details can be found at: http://service.real.com/realplayer/security/08262010_player/en/ ['2009-12-04 - Vulnerability reported to vendor', '2010-08-26 - Coordinated public release of advisory'] Sebastian Apelt, siberas https://www.zerodayinitiative.com/advisories/ZDI-10-167/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-167/",
+  "title": "RealNetworks RealPlayer FLV Parsing Multiple Integer Overflow Vulnerabilities",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of RealNetworks RealPlayer. Authentication is not required to exploit this vulnerability. The specific flaw exists within the module responsible for handling the FLV file format. While parsing the HX_FLV_META_AMF_TYPE_MIXEDARRAY and the HX_FLV_META_AMF_TYPE_ARRAY data types the ParseKnownType function makes two improper calculations that can force integers to wrap. A remote attacker can exploit these vulnerabilities to execute arbitrary code under the context of the user playing the file.",
+  "zdi_can": "ZDI-CAN-620",
+  "zdi_id": "ZDI-10-167"
+}

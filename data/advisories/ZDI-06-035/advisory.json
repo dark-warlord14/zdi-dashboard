@@ -1,0 +1,27 @@
+{
+  "additional_details": "Novell has issued an update to correct this vulnerability. More details can be found at: http://www.novell.com/support/search.do?cmd=displayKC&docType=kc&externalId=3723994&sliceId=SAL_Public&dialogID=16776123&stateId=1%200%202648401",
+  "advisory_date": "2006-10-26",
+  "affected_products": [
+    "eDirectory"
+  ],
+  "affected_vendors": [
+    "Novell"
+  ],
+  "credit": "Manuel Santamarina Suarez",
+  "cve": "CVE-2006-5478",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2006-5478",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2006-08-14 - Vulnerability reported to vendor",
+    "2006-10-26 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-06-035 ZDI-CAN-081 Novell eDirectory NDS Server Host Header Buffer Overflow Vulnerability 2006-10-26 CVE-2006-5478 https://www.cve.org/CVERecord?id=CVE-2006-5478 ['Novell'] ['eDirectory'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Novell eDirectory. Authentication is not required to exploit this vulnerability. The specific flaw exists within the httpstk.dll library within the dhost.exe web interface of the eDirectory Host Environment. The web interface does not validate the length of the HTTP Host header prior to using the value of that header in an HTTP redirect. This results in an exploitable stack-based buffer overflow. Novell has issued an update to correct this vulnerability. More details can be found at: http://www.novell.com/support/search.do?cmd=displayKC&docType=kc&externalId=3723994&sliceId=SAL_Public&dialogID=16776123&stateId=1%200%202648401 ['2006-08-14 - Vulnerability reported to vendor', '2006-10-26 - Coordinated public release of advisory'] Manuel Santamarina Suarez https://www.zerodayinitiative.com/advisories/ZDI-06-035/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-06-035/",
+  "title": "Novell eDirectory NDS Server Host Header Buffer Overflow Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Novell eDirectory. Authentication is not required to exploit this vulnerability. The specific flaw exists within the httpstk.dll library within the dhost.exe web interface of the eDirectory Host Environment. The web interface does not validate the length of the HTTP Host header prior to using the value of that header in an HTTP redirect. This results in an exploitable stack-based buffer overflow.",
+  "zdi_can": "ZDI-CAN-081",
+  "zdi_id": "ZDI-06-035"
+}

@@ -1,0 +1,27 @@
+{
+  "additional_details": "IBM has issued an update to correct this vulnerability. More details can be found at: http://www-01.ibm.com/support/docview.wss?uid=swg21657500",
+  "advisory_date": "2013-12-15",
+  "affected_products": [
+    "Forms Viewer"
+  ],
+  "affected_vendors": [
+    "IBM"
+  ],
+  "credit": "Andrea Micalizzi aka rgod",
+  "cve": "CVE-2013-5447",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2013-5447",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2013-09-27 - Vulnerability reported to vendor",
+    "2013-12-15 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-13-274 ZDI-CAN-1976 IBM Forms Viewer 'fontname' Stack Buffer Overflow Remote Code Execution Vulnerability 2013-12-15 CVE-2013-5447 https://www.cve.org/CVERecord?id=CVE-2013-5447 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['IBM'] ['Forms Viewer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of IBM Forms Viewer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within a document handler of an XFDL document. The parsing of the 'fontname' tag with a large value can lead to a stack buffer overflow. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the process. IBM has issued an update to correct this vulnerability. More details can be found at: http://www-01.ibm.com/support/docview.wss?uid=swg21657500 ['2013-09-27 - Vulnerability reported to vendor', '2013-12-15 - Coordinated public release of advisory'] Andrea Micalizzi aka rgod https://www.zerodayinitiative.com/advisories/ZDI-13-274/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-13-274/",
+  "title": "IBM Forms Viewer 'fontname' Stack Buffer Overflow Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of IBM Forms Viewer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within a document handler of an XFDL document. The parsing of the 'fontname' tag with a large value can lead to a stack buffer overflow. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the process.",
+  "zdi_can": "ZDI-CAN-1976",
+  "zdi_id": "ZDI-13-274"
+}

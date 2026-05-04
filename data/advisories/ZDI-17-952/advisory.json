@@ -1,0 +1,27 @@
+{
+  "additional_details": "Fixed for NetGain Enterprise Manager - fixed version: v7.2.766 and above",
+  "advisory_date": "2017-12-13",
+  "affected_products": [
+    "Enterprise Manager"
+  ],
+  "affected_vendors": [
+    "NetGain Systems"
+  ],
+  "credit": "Jacob Baines - Tenable Network Security",
+  "cve": "CVE-2017-16610",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-16610",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2017-07-05 - Vulnerability reported to vendor",
+    "2017-12-13 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-17-952 ZDI-CAN-4751 NetGain Enterprise Manager upload_save_do Remote Upload Remote Code Execution Vulnerability 2017-12-13 CVE-2017-16610 https://www.cve.org/CVERecord?id=CVE-2017-16610 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['NetGain Systems'] ['Enterprise Manager'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Netgain Enterprise Manager. Authentication is not required to exploit this vulnerability. The specific flaw exists within upload_save_do.jsp. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code under the context of the current user. Fixed for NetGain Enterprise Manager - fixed version: v7.2.766 and above ['2017-07-05 - Vulnerability reported to vendor', '2017-12-13 - Coordinated public release of advisory'] Jacob Baines - Tenable Network Security https://www.zerodayinitiative.com/advisories/ZDI-17-952/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-952/",
+  "title": "NetGain Enterprise Manager upload_save_do Remote Upload Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Netgain Enterprise Manager. Authentication is not required to exploit this vulnerability. The specific flaw exists within upload_save_do.jsp. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code under the context of the current user.",
+  "zdi_can": "ZDI-CAN-4751",
+  "zdi_id": "ZDI-17-952"
+}

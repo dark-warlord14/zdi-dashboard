@@ -1,0 +1,27 @@
+{
+  "additional_details": "Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html",
+  "advisory_date": "2013-05-29",
+  "affected_products": [
+    "Document Capture"
+  ],
+  "affected_vendors": [
+    "Oracle"
+  ],
+  "credit": "Francis Provencher From Protek Research Lab's",
+  "cve": "CVE-2013-1516",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2013-1516",
+  "cvss": 6.4,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:N",
+  "disclosure_timeline": [
+    "2012-11-21 - Vulnerability reported to vendor",
+    "2013-05-29 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-13-091 ZDI-CAN-1551 Oracle Document Capture BlackIceDevMode.ocx ActiveX Remote Code Execution Vulnerability 2013-05-29 CVE-2013-1516 https://www.cve.org/CVERecord?id=CVE-2013-1516 6.4 AV:N/AC:L/Au:N/C:P/I:P/A:N ['Oracle'] ['Document Capture'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Oracle Document Capture. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the BlackIceDevMode.ocx ActiveX control. This component performs insufficient bounds checking on user-supplied data passed in the SetAnnotationFont() method which results in stack corruption. This corruption can be leveraged to achieve code execution under the context of the process. Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/cpuapr2013-1899555.html ['2012-11-21 - Vulnerability reported to vendor', '2013-05-29 - Coordinated public release of advisory'] Francis Provencher From Protek Research Lab's https://www.zerodayinitiative.com/advisories/ZDI-13-091/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-13-091/",
+  "title": "Oracle Document Capture BlackIceDevMode.ocx ActiveX Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Oracle Document Capture. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the BlackIceDevMode.ocx ActiveX control. This component performs insufficient bounds checking on user-supplied data passed in the SetAnnotationFont() method which results in stack corruption. This corruption can be leveraged to achieve code execution under the context of the process.",
+  "zdi_can": "ZDI-CAN-1551",
+  "zdi_id": "ZDI-13-091"
+}

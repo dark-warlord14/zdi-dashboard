@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-36928",
+  "advisory_date": "2021-08-03",
+  "affected_products": [
+    "Edge"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Abdelhamid Naceri",
+  "cve": "CVE-2021-36928",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2021-36928",
+  "cvss": 7.0,
+  "cvss_vector": "AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2021-06-08 - Vulnerability reported to vendor",
+    "2021-08-03 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-21-936 ZDI-CAN-13799 Microsoft Edge Installer Directory Junction Privilege Escalation Vulnerability 2021-08-03 CVE-2021-36928 https://www.cve.org/CVERecord?id=CVE-2021-36928 7.0 AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H ['Microsoft'] ['Edge'] This vulnerability allows local attackers to escalate privileges on affected installations of Microsoft Edge. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within Edge Installer. By creating a directory junction, an attacker can abuse Edge Installer to delete a file. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-36928 ['2021-06-08 - Vulnerability reported to vendor', '2021-08-03 - Coordinated public release of advisory'] Abdelhamid Naceri https://www.zerodayinitiative.com/advisories/ZDI-21-936/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-21-936/",
+  "title": "Microsoft Edge Installer Directory Junction Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Microsoft Edge. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within Edge Installer. By creating a directory junction, an attacker can abuse Edge Installer to delete a file. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-13799",
+  "zdi_id": "ZDI-21-936"
+}

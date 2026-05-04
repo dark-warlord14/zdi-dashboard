@@ -1,0 +1,27 @@
+{
+  "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: http://t.info.adobesystems.com//r/?id=t35c7e2bc,808fe4f,83a379a",
+  "advisory_date": "2014-09-16",
+  "affected_products": [
+    "Reader"
+  ],
+  "affected_vendors": [
+    "Adobe"
+  ],
+  "credit": "Tom Ferris - Security-Protocols.com",
+  "cve": "CVE-2014-0561",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-0561",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2014-05-06 - Vulnerability reported to vendor",
+    "2014-09-16 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-14-324 ZDI-CAN-2300 Adobe Reader 3DIF Plugin Heap Buffer Overflow Remote Code Execution Vulnerability 2014-09-16 CVE-2014-0561 https://www.cve.org/CVERecord?id=CVE-2014-0561 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Adobe'] ['Reader'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Adobe Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the 3DIF Plugin (3difr.x3d). By providing a crafted PDF, an attacker is able to overflow a heap buffer allocated by the 3DIF plugin, and could use this vulnerability to execute arbitrary code in the context of the viewing process. Adobe has issued an update to correct this vulnerability. More details can be found at: http://t.info.adobesystems.com//r/?id=t35c7e2bc,808fe4f,83a379a ['2014-05-06 - Vulnerability reported to vendor', '2014-09-16 - Coordinated public release of advisory'] Tom Ferris - Security-Protocols.com https://www.zerodayinitiative.com/advisories/ZDI-14-324/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-14-324/",
+  "title": "Adobe Reader 3DIF Plugin Heap Buffer Overflow Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Adobe Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the 3DIF Plugin (3difr.x3d). By providing a crafted PDF, an attacker is able to overflow a heap buffer allocated by the 3DIF plugin, and could use this vulnerability to execute arbitrary code in the context of the viewing process.",
+  "zdi_can": "ZDI-CAN-2300",
+  "zdi_id": "ZDI-14-324"
+}

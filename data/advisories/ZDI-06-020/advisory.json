@@ -1,0 +1,27 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: http://docs.info.apple.com/article.html?artnum=303952",
+  "advisory_date": "2006-06-29",
+  "affected_products": [
+    "iTunes"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "ATmaCA",
+  "cve": "CVE-2006-1467",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2006-1467",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2006-04-07 - Vulnerability reported to vendor",
+    "2006-06-29 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-06-020 ZDI-CAN-043 Apple iTunes AAC File Parsing Integer Overflow Vulnerability 2006-06-29 CVE-2006-1467 https://www.cve.org/CVERecord?id=CVE-2006-1467 ['Apple'] ['iTunes'] This vulnerability allows attackers to execute arbitrary code on vulnerable installations of Apple iTunes. Exploitation requires an attacker to convince a target user into opening a malicious play list file. The specific flaw exists during the processing of malicious AAC media files such as those with extensions .M4A and .M4P. During the parsing of the sample table size atom (STSZ), a malformed 'sample_size_table' value can trigger an integer overflow leading to an exploitable memory corruption. Apple has issued an update to correct this vulnerability. More details can be found at: http://docs.info.apple.com/article.html?artnum=303952 ['2006-04-07 - Vulnerability reported to vendor', '2006-06-29 - Coordinated public release of advisory'] ATmaCA https://www.zerodayinitiative.com/advisories/ZDI-06-020/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-06-020/",
+  "title": "Apple iTunes AAC File Parsing Integer Overflow Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows attackers to execute arbitrary code on vulnerable installations of Apple iTunes. Exploitation requires an attacker to convince a target user into opening a malicious play list file. The specific flaw exists during the processing of malicious AAC media files such as those with extensions .M4A and .M4P. During the parsing of the sample table size atom (STSZ), a malformed 'sample_size_table' value can trigger an integer overflow leading to an exploitable memory corruption.",
+  "zdi_can": "ZDI-CAN-043",
+  "zdi_id": "ZDI-06-020"
+}

@@ -1,0 +1,27 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-us/HT210119",
+  "advisory_date": "2019-05-30",
+  "affected_products": [
+    "macOS"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "Lilang Wu and Moony Li of TrendMicro Mobile Security Research Team",
+  "cve": "CVE-2019-8616",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2019-8616",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2019-04-03 - Vulnerability reported to vendor",
+    "2019-05-30 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-19-538 ZDI-CAN-8356 Apple macOS IOAccelSharedUserClient2 Untrusted Pointer Dereference Privilege Escalation Vulnerability 2019-05-30 CVE-2019-8616 https://www.cve.org/CVERecord?id=CVE-2019-8616 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H ['Apple'] ['macOS'] This vulnerability allows local attackers to escalate privileges on vulnerable installations of Apple macOS. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the IOAccelSharedUserClient2 call. The issue results from the lack of proper validation of a user-supplied value prior to dereferencing it as a pointer. An attacker can leverage this vulnerability to escalate privileges and execute code in the context of the kernel. Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-us/HT210119 ['2019-04-03 - Vulnerability reported to vendor', '2019-05-30 - Coordinated public release of advisory'] Lilang Wu and Moony Li of TrendMicro Mobile Security Research Team https://www.zerodayinitiative.com/advisories/ZDI-19-538/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-19-538/",
+  "title": "Apple macOS IOAccelSharedUserClient2 Untrusted Pointer Dereference Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on vulnerable installations of Apple macOS. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the IOAccelSharedUserClient2 call. The issue results from the lack of proper validation of a user-supplied value prior to dereferencing it as a pointer. An attacker can leverage this vulnerability to escalate privileges and execute code in the context of the kernel.",
+  "zdi_can": "ZDI-CAN-8356",
+  "zdi_id": "ZDI-19-538"
+}

@@ -1,0 +1,28 @@
+{
+  "additional_details": "Fixed in NoMachine version 9.4.14 https://kb.nomachine.com/SU03X00271",
+  "advisory_date": "2026-03-30",
+  "affected_products": [
+    "NoMachine"
+  ],
+  "affected_vendors": [
+    "NoMachine"
+  ],
+  "credit": "khongtrang",
+  "cve": "CVE-2026-5055",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-5055",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2025-12-24 - Vulnerability reported to vendor",
+    "2026-03-30 - Coordinated public release of advisory",
+    "2026-03-30 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-26-249 ZDI-CAN-28494 NoMachine Uncontrolled Search Path Element Local Privilege Escalation Vulnerability 2026-03-30 CVE-2026-5055 https://www.cve.org/CVERecord?id=CVE-2026-5055 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['NoMachine'] ['NoMachine'] This vulnerability allows local attackers to escalate privileges on affected installations of NoMachine. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the NoMachine Device Server. The product loads a library from an unsecured location. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. Fixed in NoMachine version 9.4.14 https://kb.nomachine.com/SU03X00271 ['2025-12-24 - Vulnerability reported to vendor', '2026-03-30 - Coordinated public release of advisory', '2026-03-30 - Advisory Updated'] khongtrang https://www.zerodayinitiative.com/advisories/ZDI-26-249/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-249/",
+  "title": "NoMachine Uncontrolled Search Path Element Local Privilege Escalation Vulnerability",
+  "updated_date": "2026-03-30",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of NoMachine. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the NoMachine Device Server. The product loads a library from an unsecured location. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-28494",
+  "zdi_id": "ZDI-26-249"
+}

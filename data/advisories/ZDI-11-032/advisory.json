@@ -1,0 +1,27 @@
+{
+  "additional_details": "Symantec has issued an update to correct this vulnerability. More details can be found at: http://www.symantec.com/business/security_response/securityupdates/detail.jsp?fid=security_advisory&pvid=security_advisory&year=2011&suid=20110126_00",
+  "advisory_date": "2011-01-27",
+  "affected_products": [
+    "Alert Management System"
+  ],
+  "affected_vendors": [
+    "Symantec"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2010-0111",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2010-0111",
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2009-10-27 - Vulnerability reported to vendor",
+    "2011-01-27 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-11-032 ZDI-CAN-580 Symantec Intel Alert Originator Service iao.exe Remote Code Execution Vulnerability 2011-01-27 CVE-2010-0111 https://www.cve.org/CVERecord?id=CVE-2010-0111 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Symantec'] ['Alert Management System'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of multiple Symantec products. Authentication is not required to exploit this vulnerability. The specific flaw exists within the Intel Alert Originator (iao.exe) service. While processing messages sent from the msgsys.exe process a size check can be bypassed and a subsequent stack-based buffer overflow can be triggered. This can be leveraged by remote attackers to execute arbitrary code under the context of the Alert service. Symantec has issued an update to correct this vulnerability. More details can be found at: http://www.symantec.com/business/security_response/securityupdates/detail.jsp?fid=security_advisory&pvid=security_advisory&year=2011&suid=20110126_00 ['2009-10-27 - Vulnerability reported to vendor', '2011-01-27 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-11-032/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-032/",
+  "title": "Symantec Intel Alert Originator Service iao.exe Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of multiple Symantec products. Authentication is not required to exploit this vulnerability. The specific flaw exists within the Intel Alert Originator (iao.exe) service. While processing messages sent from the msgsys.exe process a size check can be bypassed and a subsequent stack-based buffer overflow can be triggered. This can be leveraged by remote attackers to execute arbitrary code under the context of the Alert service.",
+  "zdi_can": "ZDI-CAN-580",
+  "zdi_id": "ZDI-11-032"
+}

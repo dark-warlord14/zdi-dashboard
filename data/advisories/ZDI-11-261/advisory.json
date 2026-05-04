@@ -1,0 +1,27 @@
+{
+  "additional_details": "Title: c02949847 8/8/2011 Printing and Imaging HPSBPI02698 SSRT100404 rev.1 - HP Easy Printer Care Software Running on Windows, Remote Execution of Arbitrary Code URL (requires login) https://h20566.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_ na-c02949847 This URL will be available sometime in the future, if you need to use a no login required link. URL (no login required): http://h20000.www2.hp.com/bizsupport/TechSupport/Document.jsp?objectID=c0294 9847",
+  "advisory_date": "2011-08-16",
+  "affected_products": [
+    "Easy Printer Care"
+  ],
+  "affected_vendors": [
+    "Hewlett-Packard"
+  ],
+  "credit": "Andrea Micalizzi aka rgod",
+  "cve": "CVE-2011-2404",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-2404",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2011-02-17 - Vulnerability reported to vendor",
+    "2011-08-16 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-11-261 ZDI-CAN-1092 HP Easy Printer Care XMLSimpleAccessor Class ActiveX Control Remote Code Execution Vulnerability 2011-08-16 CVE-2011-2404 https://www.cve.org/CVERecord?id=CVE-2011-2404 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Hewlett-Packard'] ['Easy Printer Care'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of HP Easy Printer Care. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the XMLSimpleAccessor class ActiveX control (CLSID 466576F3-19B6-4FF1-BD48-3E0E1BFB96E9). The SaveXML() method is vulnerable to directory traversal, which allows an attacker to write arbitrary content to the filesystem. A remote attacker could leverage this vulnerability to gain code execution under the context of the web browser. Title: c02949847 8/8/2011 Printing and Imaging HPSBPI02698 SSRT100404 rev.1 - HP Easy Printer Care Software Running on Windows, Remote Execution of Arbitrary Code URL (requires login) https://h20566.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_ na-c02949847 This URL will be available sometime in the future, if you need to use a no login required link. URL (no login required): http://h20000.www2.hp.com/bizsupport/TechSupport/Document.jsp?objectID=c0294 9847 ['2011-02-17 - Vulnerability reported to vendor', '2011-08-16 - Coordinated public release of advisory'] Andrea Micalizzi aka rgod https://www.zerodayinitiative.com/advisories/ZDI-11-261/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-261/",
+  "title": "HP Easy Printer Care XMLSimpleAccessor Class ActiveX Control Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of HP Easy Printer Care. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the XMLSimpleAccessor class ActiveX control (CLSID 466576F3-19B6-4FF1-BD48-3E0E1BFB96E9). The SaveXML() method is vulnerable to directory traversal, which allows an attacker to write arbitrary content to the filesystem. A remote attacker could leverage this vulnerability to gain code execution under the context of the web browser.",
+  "zdi_can": "ZDI-CAN-1092",
+  "zdi_id": "ZDI-11-261"
+}

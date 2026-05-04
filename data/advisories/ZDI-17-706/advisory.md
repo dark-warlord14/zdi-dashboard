@@ -1,0 +1,26 @@
+# ZDI-17-706: (0Day) Delta Industrial Automation PMSoft Project File Parsing Stack-based Buffer Overflow Remote Code Execution Vulnerability
+
+## Metadata
+
+- **ZDI ID:** ZDI-17-706
+- **ZDI-CAN:** ZDI-CAN-4045
+- **Date:** 2017-08-24
+- **CVE:** N/A
+- **CVSS:** 6.8
+- **CVSS Vector:** AV:N/AC:M/Au:N/C:P/I:P/A:P
+- **Affected Vendors:** Delta Industrial Automation
+- **Affected Products:** PMSoft
+- **Credit:** Ghirmay Desta
+- **Source:** https://www.zerodayinitiative.com/advisories/ZDI-17-706/
+## Vulnerability Details
+
+This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Delta Industrial Automation PMSoft. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within parsing of information for a TTreeView object in a ppm project file. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this vulnerability to execute arbitrary code under the context of the current process.
+
+## Additional Details
+
+This vulnerability is being disclosed publicly without a patch in accordance with the ZDI 120 day deadline. 02/02/17 - ZDI disclosed reports to ICS-CERT 02/07/17 - ICS-CERT provided ZDI with an ICS-VU # ICS-VU-974568 03/16/17 - ICS-CERT asked ZDI questions about reproduction 03/27/17 - ICS-CERT asked ZDI again some questions about reproduction 06/07/17 - ICS-CERT offered ZDI a pre-release patch to test 06/07/17 - ZDI replied that we cannot do the testing for the vendor 08/11/17 - ZDI wrote ICS-CERT to indicate the intention to move these reports to 0-day on 8/24 -- Mitigation: Given the nature of the vulnerability the only salient mitigation strategy is to restrict interaction with the application to trusted files.
+
+## Disclosure Timeline
+
+- 2017-02-02 - Vulnerability reported to vendor
+- 2017-08-24 - Coordinated public release of advisory

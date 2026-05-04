@@ -1,0 +1,27 @@
+{
+  "additional_details": "Zoom has issued an update to correct this vulnerability. More details can be found at: https://explore.zoom.us/en/trust/security/security-bulletin/",
+  "advisory_date": "2021-08-17",
+  "affected_products": [
+    "Client"
+  ],
+  "affected_vendors": [
+    "Zoom"
+  ],
+  "credit": "Daan Keuper and Thijs Alkemade from Computest",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 5.3,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+  "disclosure_timeline": [
+    "2021-04-07 - Vulnerability reported to vendor",
+    "2021-08-17 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-21-973 ZDI-CAN-13617 (Pwn2Own) Zoom Client GIPHY URL Directory Traversal Remote Code Execution Vulnerability 2021-08-17 5.3 AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N ['Zoom'] ['Client'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Zoom Clients. Authentication is not required to exploit this vulnerability. The specific flaw exists within the processing of GIPHY messages. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current user. Zoom has issued an update to correct this vulnerability. More details can be found at: https://explore.zoom.us/en/trust/security/security-bulletin/ ['2021-04-07 - Vulnerability reported to vendor', '2021-08-17 - Coordinated public release of advisory'] Daan Keuper and Thijs Alkemade from Computest https://www.zerodayinitiative.com/advisories/ZDI-21-973/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-21-973/",
+  "title": "(Pwn2Own) Zoom Client GIPHY URL Directory Traversal Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Zoom Clients. Authentication is not required to exploit this vulnerability. The specific flaw exists within the processing of GIPHY messages. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current user.",
+  "zdi_can": "ZDI-CAN-13617",
+  "zdi_id": "ZDI-21-973"
+}

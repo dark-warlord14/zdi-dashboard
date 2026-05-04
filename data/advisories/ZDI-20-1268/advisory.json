@@ -1,0 +1,28 @@
+{
+  "additional_details": "VMware has issued an update to correct this vulnerability. More details can be found at: https://www.vmware.com/security/advisories/VMSA-2020-0023.html",
+  "advisory_date": "2020-10-20",
+  "affected_products": [
+    "Workstation"
+  ],
+  "affected_vendors": [
+    "VMware"
+  ],
+  "credit": "Reno Robert of Trend Micro Zero Day Initiative",
+  "cve": "CVE-2020-3982",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2020-3982",
+  "cvss": 8.2,
+  "cvss_vector": "AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2020-06-18 - Vulnerability reported to vendor",
+    "2020-10-20 - Coordinated public release of advisory",
+    "2021-03-02 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-20-1268 ZDI-CAN-11228 VMware Workstation BDOOR_CMD_PATCH_ACPI_TABLES Time-Of-Check Time-Of-Use Privilege Escalation Vulnerability 2020-10-20 CVE-2020-3982 https://www.cve.org/CVERecord?id=CVE-2020-3982 8.2 AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H ['VMware'] ['Workstation'] This vulnerability allows local attackers to escalate privileges on affected installations of VMware Workstation. An attacker must first obtain the ability to execute high-privileged code on the target guest system in order to exploit this vulnerability. The specific flaw exists within the implementation of the BDOOR_CMD_PATCH_ACPI_TABLES command. The issue results from the lack of proper locking when performing operations on an object. An attacker can leverage this vulnerability to escalate privileges and execute code in the context of the hypervisor. VMware has issued an update to correct this vulnerability. More details can be found at: https://www.vmware.com/security/advisories/VMSA-2020-0023.html ['2020-06-18 - Vulnerability reported to vendor', '2020-10-20 - Coordinated public release of advisory', '2021-03-02 - Advisory Updated'] Reno Robert of Trend Micro Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-20-1268/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-20-1268/",
+  "title": "VMware Workstation BDOOR_CMD_PATCH_ACPI_TABLES Time-Of-Check Time-Of-Use Privilege Escalation Vulnerability",
+  "updated_date": "2021-03-02",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of VMware Workstation. An attacker must first obtain the ability to execute high-privileged code on the target guest system in order to exploit this vulnerability. The specific flaw exists within the implementation of the BDOOR_CMD_PATCH_ACPI_TABLES command. The issue results from the lack of proper locking when performing operations on an object. An attacker can leverage this vulnerability to escalate privileges and execute code in the context of the hypervisor.",
+  "zdi_can": "ZDI-CAN-11228",
+  "zdi_id": "ZDI-20-1268"
+}

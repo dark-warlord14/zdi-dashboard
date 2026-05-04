@@ -1,0 +1,28 @@
+{
+  "additional_details": "OpenClaw has issued an update to correct this vulnerability. More details can be found at: https://github.com/openclaw/openclaw/security/advisories/GHSA-jq4x-98m3-ggq6",
+  "advisory_date": "2026-03-30",
+  "affected_products": [
+    "OpenClaw"
+  ],
+  "affected_vendors": [
+    "OpenClaw"
+  ],
+  "credit": "Peter Girnus (@gothburz) and Project AESIR of TrendAI Zero Day Initiative",
+  "cve": "CVE-2026-3689",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-3689",
+  "cvss": 6.5,
+  "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+  "disclosure_timeline": [
+    "2026-02-20 - Vulnerability reported to vendor",
+    "2026-03-30 - Coordinated public release of advisory",
+    "2026-03-30 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-26-227 ZDI-CAN-29312 OpenClaw Canvas Path Traversal Information Disclosure Vulnerability 2026-03-30 CVE-2026-3689 https://www.cve.org/CVERecord?id=CVE-2026-3689 6.5 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N ['OpenClaw'] ['OpenClaw'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of OpenClaw. Authentication is required to exploit this vulnerability. The specific flaw exists within the handling of the path parameters provided to the canvas gateway endpoint. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to disclose information in the context of the service account. OpenClaw has issued an update to correct this vulnerability. More details can be found at: https://github.com/openclaw/openclaw/security/advisories/GHSA-jq4x-98m3-ggq6 ['2026-02-20 - Vulnerability reported to vendor', '2026-03-30 - Coordinated public release of advisory', '2026-03-30 - Advisory Updated'] Peter Girnus (@gothburz) and Project AESIR of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-227/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-227/",
+  "title": "OpenClaw Canvas Path Traversal Information Disclosure Vulnerability",
+  "updated_date": "2026-03-30",
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of OpenClaw. Authentication is required to exploit this vulnerability. The specific flaw exists within the handling of the path parameters provided to the canvas gateway endpoint. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to disclose information in the context of the service account.",
+  "zdi_can": "ZDI-CAN-29312",
+  "zdi_id": "ZDI-26-227"
+}

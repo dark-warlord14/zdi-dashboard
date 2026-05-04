@@ -1,0 +1,27 @@
+{
+  "additional_details": "IBM has issued an update to correct this vulnerability. More details can be found at: https://www.ibm.com/support/pages/node/6221332",
+  "advisory_date": "2020-06-15",
+  "affected_products": [
+    "Spectrum Protect Plus"
+  ],
+  "affected_vendors": [
+    "IBM"
+  ],
+  "credit": "Jeremy Brown",
+  "cve": "CVE-2020-4216",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2020-4216",
+  "cvss": 7.3,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+  "disclosure_timeline": [
+    "2019-12-11 - Vulnerability reported to vendor",
+    "2020-06-15 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-20-710 ZDI-CAN-9751 IBM Spectrum Protect Plus Hardcoded Username And Password Authentication Bypass Vulnerability 2020-06-15 CVE-2020-4216 https://www.cve.org/CVERecord?id=CVE-2020-4216 7.3 AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L ['IBM'] ['Spectrum Protect Plus'] This vulnerability allows remote attackers to bypass authentication on vulnerable installations of IBM Spectrum Protect Plus. Authentication is not required to exploit this vulnerability. The specific flaw exists within the processing of login requests to the Discovery Server service. The product contains a hard-coded password for an account. An attacker can leverage this vulnerability to bypass authentication on the system. IBM has issued an update to correct this vulnerability. More details can be found at: https://www.ibm.com/support/pages/node/6221332 ['2019-12-11 - Vulnerability reported to vendor', '2020-06-15 - Coordinated public release of advisory'] Jeremy Brown https://www.zerodayinitiative.com/advisories/ZDI-20-710/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-20-710/",
+  "title": "IBM Spectrum Protect Plus Hardcoded Username And Password Authentication Bypass Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to bypass authentication on vulnerable installations of IBM Spectrum Protect Plus. Authentication is not required to exploit this vulnerability. The specific flaw exists within the processing of login requests to the Discovery Server service. The product contains a hard-coded password for an account. An attacker can leverage this vulnerability to bypass authentication on the system.",
+  "zdi_can": "ZDI-CAN-9751",
+  "zdi_id": "ZDI-20-710"
+}

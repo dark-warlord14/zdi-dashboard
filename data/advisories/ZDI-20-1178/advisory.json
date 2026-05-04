@@ -1,0 +1,27 @@
+{
+  "additional_details": "VMware has issued an update to correct this vulnerability. More details can be found at: https://www.vmware.com/security/advisories/VMSA-2020-0020.html",
+  "advisory_date": "2020-09-15",
+  "affected_products": [
+    "Workstation"
+  ],
+  "affected_vendors": [
+    "VMware"
+  ],
+  "credit": "linhlhq of VinCSS (Member of Vingroup)",
+  "cve": "CVE-2020-3990",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2020-3990",
+  "cvss": 6.5,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N",
+  "disclosure_timeline": [
+    "2020-04-30 - Vulnerability reported to vendor",
+    "2020-09-15 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-20-1178 ZDI-CAN-10923 VMware Workstation ThinPrint TTCHeader Integer Overflow Information Disclosure Vulnerability 2020-09-15 CVE-2020-3990 https://www.cve.org/CVERecord?id=CVE-2020-3990 6.5 AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N ['VMware'] ['Workstation'] This vulnerability allows local attackers to disclose sensitive information on affected installations of VMware Workstation. An attacker must first obtain the ability to execute low-privileged code on the target guest system in order to exploit this vulnerability. The specific flaw exists within the ThinPrint component. Crafted data in a font file can result in an integer overflow before reading from memory. An attacker can leverage this in conjunction with other vulnerabilities to execute code in the context of the hypervisor. VMware has issued an update to correct this vulnerability. More details can be found at: https://www.vmware.com/security/advisories/VMSA-2020-0020.html ['2020-04-30 - Vulnerability reported to vendor', '2020-09-15 - Coordinated public release of advisory'] linhlhq of VinCSS (Member of Vingroup) https://www.zerodayinitiative.com/advisories/ZDI-20-1178/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-20-1178/",
+  "title": "VMware Workstation ThinPrint TTCHeader Integer Overflow Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to disclose sensitive information on affected installations of VMware Workstation. An attacker must first obtain the ability to execute low-privileged code on the target guest system in order to exploit this vulnerability. The specific flaw exists within the ThinPrint component. Crafted data in a font file can result in an integer overflow before reading from memory. An attacker can leverage this in conjunction with other vulnerabilities to execute code in the context of the hypervisor.",
+  "zdi_can": "ZDI-CAN-10923",
+  "zdi_id": "ZDI-20-1178"
+}

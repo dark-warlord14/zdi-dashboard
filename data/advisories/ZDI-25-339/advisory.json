@@ -1,0 +1,28 @@
+{
+  "additional_details": "Jupyter has issued an update to correct this vulnerability. More details can be found at: https://github.com/jupyter/jupyter_core/security/advisories/GHSA-33p9-3p43-82vq",
+  "advisory_date": "2025-06-10",
+  "affected_products": [
+    "JupyterLab"
+  ],
+  "affected_vendors": [
+    "Jupyter"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2025-30167",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-30167",
+  "cvss": 7.3,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2025-02-13 - Vulnerability reported to vendor",
+    "2025-06-10 - Coordinated public release of advisory",
+    "2025-06-10 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-339 ZDI-CAN-25932 JupyterLab Uncontrolled Search Path Element Local Privilege Escalation Vulnerability 2025-06-10 CVE-2025-30167 https://www.cve.org/CVERecord?id=CVE-2025-30167 7.3 AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H ['Jupyter'] ['JupyterLab'] This vulnerability allows local attackers to escalate privileges on affected installations of JupyterLab. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. Additionally, the vulnerability is triggered only when a target user makes use of the product. The specific flaw exists within the jupyter-lab process. The process loads a configuration script from an unsecured location. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of a target user. Jupyter has issued an update to correct this vulnerability. More details can be found at: https://github.com/jupyter/jupyter_core/security/advisories/GHSA-33p9-3p43-82vq ['2025-02-13 - Vulnerability reported to vendor', '2025-06-10 - Coordinated public release of advisory', '2025-06-10 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-25-339/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-339/",
+  "title": "JupyterLab Uncontrolled Search Path Element Local Privilege Escalation Vulnerability",
+  "updated_date": "2025-06-10",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of JupyterLab. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. Additionally, the vulnerability is triggered only when a target user makes use of the product. The specific flaw exists within the jupyter-lab process. The process loads a configuration script from an unsecured location. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of a target user.",
+  "zdi_can": "ZDI-CAN-25932",
+  "zdi_id": "ZDI-25-339"
+}

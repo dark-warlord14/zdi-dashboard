@@ -1,0 +1,27 @@
+{
+  "additional_details": "Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/cpuapr2012-366314.html",
+  "advisory_date": "2012-08-22",
+  "affected_products": [
+    "Outside In"
+  ],
+  "affected_vendors": [
+    "Oracle"
+  ],
+  "credit": "gwlabs.com",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2011-12-19 - Vulnerability reported to vendor",
+    "2012-08-22 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-12-151 ZDI-CAN-1482 Oracle Outside In Excel File TxO Parsing Remote Code Execution Vulnerability 2012-08-22 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Oracle'] ['Outside In'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of products utilizing Oracle's Outside In Technology. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The specific flaw exists within the library's parsing of Excel files. When handling the TxO record, the vseshr.dll module can be made to wrap an integer value when parsing a specific field. This can lead to an improper memory allocation that can be leveraged to corrupt the heap leading to arbitrary code execution under the context of the user running the application. Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/cpuapr2012-366314.html ['2011-12-19 - Vulnerability reported to vendor', '2012-08-22 - Coordinated public release of advisory'] gwlabs.com https://www.zerodayinitiative.com/advisories/ZDI-12-151/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-12-151/",
+  "title": "Oracle Outside In Excel File TxO Parsing Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of products utilizing Oracle's Outside In Technology. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The specific flaw exists within the library's parsing of Excel files. When handling the TxO record, the vseshr.dll module can be made to wrap an integer value when parsing a specific field. This can lead to an improper memory allocation that can be leveraged to corrupt the heap leading to arbitrary code execution under the context of the user running the application.",
+  "zdi_can": "ZDI-CAN-1482",
+  "zdi_id": "ZDI-12-151"
+}

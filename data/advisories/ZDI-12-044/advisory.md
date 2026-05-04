@@ -1,0 +1,26 @@
+# ZDI-12-044: Microsoft Remote Desktop Protocol Channel Abort Condition Remote Code Execution Vulnerability
+
+## Metadata
+
+- **ZDI ID:** ZDI-12-044
+- **ZDI-CAN:** ZDI-CAN-1320
+- **Date:** 2012-03-15
+- **CVE:** CVE-2012-0002
+- **CVSS:** 10.0
+- **CVSS Vector:** AV:N/AC:L/Au:N/C:C/I:C/A:C
+- **Affected Vendors:** Microsoft
+- **Affected Products:** Remote Desktop
+- **Credit:** Luigi Auriemma
+- **Source:** https://www.zerodayinitiative.com/advisories/ZDI-12-044/
+## Vulnerability Details
+
+This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft's Remote Desktop Protocol. Authentication is not required to exploit this vulnerability. The specific flaw exists during handling of an error while loading elements into an array. This condition can cause the driver to abort a connection and part of the logic of the abort is to free an object associated with it. This will actually occur twice when each of channels are disconnected. The second time this object is freed, the driver will fetch a virtual pointer from the freed object and call it. This can lead to code execution under the context of the driver.
+
+## Additional Details
+
+Microsoft has issued an update to correct this vulnerability. More details can be found at: http://technet.microsoft.com/en-us/security/bulletin/ms12-020
+
+## Disclosure Timeline
+
+- 2011-08-24 - Vulnerability reported to vendor
+- 2012-03-15 - Coordinated public release of advisory

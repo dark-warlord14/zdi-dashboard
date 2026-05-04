@@ -1,0 +1,28 @@
+{
+  "additional_details": "Fixed in version 6.3.2",
+  "advisory_date": "2018-02-27",
+  "affected_products": [
+    "Music Player"
+  ],
+  "affected_vendors": [
+    "Amazon"
+  ],
+  "credit": "rgod",
+  "cve": "CVE-2018-1169",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2018-1169",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2018-01-24 - Vulnerability reported to vendor",
+    "2018-02-27 - Coordinated public release of advisory",
+    "2018-02-27 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-215 ZDI-CAN-5521 Amazon Music Player URI parsing Command Injection Remote Code Execution Vulnerability 2018-02-27 CVE-2018-1169 https://www.cve.org/CVERecord?id=CVE-2018-1169 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Amazon'] ['Music Player'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Amazon Music Player. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the processing of URI handlers. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code under the context of the current process. Fixed in version 6.3.2 ['2018-01-24 - Vulnerability reported to vendor', '2018-02-27 - Coordinated public release of advisory', '2018-02-27 - Advisory Updated'] rgod https://www.zerodayinitiative.com/advisories/ZDI-18-215/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-215/",
+  "title": "Amazon Music Player URI parsing Command Injection Remote Code Execution Vulnerability",
+  "updated_date": "2018-02-27",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Amazon Music Player. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the processing of URI handlers. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code under the context of the current process.",
+  "zdi_can": "ZDI-CAN-5521",
+  "zdi_id": "ZDI-18-215"
+}

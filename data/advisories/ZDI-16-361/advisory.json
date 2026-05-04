@@ -1,0 +1,27 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-us/HT206567",
+  "advisory_date": "2016-05-27",
+  "affected_products": [
+    "OS X"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "lokihardt",
+  "cve": "CVE-2016-1796",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-1796",
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2016-03-16 - Vulnerability reported to vendor",
+    "2016-05-27 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-16-361 ZDI-CAN-3605 (Pwn2Own) Apple OS X libATSServer Heap-based Buffer Overflow Remote Code Execution Vulnerability 2016-05-27 CVE-2016-1796 https://www.cve.org/CVERecord?id=CVE-2016-1796 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Apple'] ['OS X'] This vulnerability allows attackers to execute arbitrary code on vulnerable installations of Apple OS X. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the GetUncompressedBitmapRepresentation method. The issue lies in the failure to properly validate the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute arbitrary code under the context of the user. Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-us/HT206567 ['2016-03-16 - Vulnerability reported to vendor', '2016-05-27 - Coordinated public release of advisory'] lokihardt https://www.zerodayinitiative.com/advisories/ZDI-16-361/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-361/",
+  "title": "(Pwn2Own) Apple OS X libATSServer Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows attackers to execute arbitrary code on vulnerable installations of Apple OS X. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the GetUncompressedBitmapRepresentation method. The issue lies in the failure to properly validate the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute arbitrary code under the context of the user.",
+  "zdi_can": "ZDI-CAN-3605",
+  "zdi_id": "ZDI-16-361"
+}

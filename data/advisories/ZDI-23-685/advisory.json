@@ -1,0 +1,27 @@
+{
+  "additional_details": "Delta Electronics has issued an update to correct this vulnerability. More details can be found at: https://www.cisa.gov/news-events/ics-advisories/icsa-23-080-02",
+  "advisory_date": "2023-05-17",
+  "affected_products": [
+    "InfraSuite Device Master"
+  ],
+  "affected_vendors": [
+    "Delta Electronics"
+  ],
+  "credit": "Piotr Bazydlo (@chudypb) of Trend Micro Zero Day Initiative",
+  "cve": "CVE-2023-1137",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-1137",
+  "cvss": 6.5,
+  "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+  "disclosure_timeline": [
+    "2022-11-30 - Vulnerability reported to vendor",
+    "2023-05-17 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-685 ZDI-CAN-19574 Delta Electronics InfraSuite Device Master APRunning Improper Access Control Information Disclosure Vulnerability 2023-05-17 CVE-2023-1137 https://www.cve.org/CVERecord?id=CVE-2023-1137 6.5 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N ['Delta Electronics'] ['InfraSuite Device Master'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Delta Electronics InfraSuite Device Master. Authentication is required to exploit this vulnerability. The specific flaw exists within the gateway endpoint, which listens on TCP ports 80 and 443 by default. The issue results from improper access control. An attacker can leverage this vulnerability to disclose stored credentials, leading to further compromise. Delta Electronics has issued an update to correct this vulnerability. More details can be found at: https://www.cisa.gov/news-events/ics-advisories/icsa-23-080-02 ['2022-11-30 - Vulnerability reported to vendor', '2023-05-17 - Coordinated public release of advisory'] Piotr Bazydlo (@chudypb) of Trend Micro Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-23-685/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-685/",
+  "title": "Delta Electronics InfraSuite Device Master APRunning Improper Access Control Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Delta Electronics InfraSuite Device Master. Authentication is required to exploit this vulnerability. The specific flaw exists within the gateway endpoint, which listens on TCP ports 80 and 443 by default. The issue results from improper access control. An attacker can leverage this vulnerability to disclose stored credentials, leading to further compromise.",
+  "zdi_can": "ZDI-CAN-19574",
+  "zdi_id": "ZDI-23-685"
+}

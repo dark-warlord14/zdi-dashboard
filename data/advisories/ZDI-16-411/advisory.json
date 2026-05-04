@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/library/security/MS16-085",
+  "advisory_date": "2016-07-12",
+  "affected_products": [
+    "Edge"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "cc",
+  "cve": "CVE-2016-3246",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-3246",
+  "cvss": 5.1,
+  "cvss_vector": "AV:N/AC:H/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2016-04-07 - Vulnerability reported to vendor",
+    "2016-07-12 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-16-411 ZDI-CAN-3691 Microsoft Edge InjectHtmlStream Memory Corruption Remote Code Execution Vulnerability 2016-07-12 CVE-2016-3246 https://www.cve.org/CVERecord?id=CVE-2016-3246 5.1 AV:N/AC:H/Au:N/C:P/I:P/A:P ['Microsoft'] ['Edge'] This vulnerability allows remote attackers to corrupt memory on vulnerable installations of Microsoft Edge. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within InjectHtmlStream. By manipulating a document's elements an attacker can reveal the contents of memory and also cause memory corruption. An attacker could leverage this vulnerability to execute arbitrary code under the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/library/security/MS16-085 ['2016-04-07 - Vulnerability reported to vendor', '2016-07-12 - Coordinated public release of advisory'] cc https://www.zerodayinitiative.com/advisories/ZDI-16-411/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-411/",
+  "title": "Microsoft Edge InjectHtmlStream Memory Corruption Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to corrupt memory on vulnerable installations of Microsoft Edge. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within InjectHtmlStream. By manipulating a document's elements an attacker can reveal the contents of memory and also cause memory corruption. An attacker could leverage this vulnerability to execute arbitrary code under the context of the current process.",
+  "zdi_can": "ZDI-CAN-3691",
+  "zdi_id": "ZDI-16-411"
+}

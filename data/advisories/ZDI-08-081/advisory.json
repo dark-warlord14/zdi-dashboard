@@ -1,0 +1,27 @@
+{
+  "additional_details": "Sun Microsystems has issued an update to correct this vulnerability. More details can be found at: http://sunsolve.sun.com/search/document.do?assetkey=1-66-244988-1",
+  "advisory_date": "2008-12-04",
+  "affected_products": [
+    "Java Runtime"
+  ],
+  "affected_vendors": [
+    "Sun Microsystems"
+  ],
+  "credit": "Peter Csepely",
+  "cve": "CVE-2008-5339",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2008-5339",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2008-07-14 - Vulnerability reported to vendor",
+    "2008-12-04 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-08-081 ZDI-CAN-363 Sun Java Web Start and Applet Multiple Sandbox Bypass Vulnerabilities 2008-12-04 CVE-2008-5339 https://www.cve.org/CVERecord?id=CVE-2008-5339 ['Sun Microsystems'] ['Java Runtime'] These vulnerabilities allow remote attackers to bypass sandbox restrictions on vulnerable installations of Sun Java Web Start. User interaction is required to exploit this vulnerability in that the target must visit a malicious page. The first vulnerability results in a cache location and a user name information disclosure. By accessing the SI_FILEDIR property of a SingleInstanceImpl class, the location of the temporary single instance files can be parsed to discover the user name and cache location. The second vulnerability allows applets to read any file on a victim's filesystem, outside of the restricted path of the applet. The specific flaw exists in the handling of the file: protocol assigned to an applet codebase. If the codebase points to the local filesystem, any file is then readable by the malicious applet. The third vulnerability allows JNLP files to bypass socket restrictions. By loading a secondary JNLP with an href attribute containing a wildcard. When this object is instantiated, all hosts are eligible for socket connect and accept. Sun Microsystems has issued an update to correct this vulnerability. More details can be found at: http://sunsolve.sun.com/search/document.do?assetkey=1-66-244988-1 ['2008-07-14 - Vulnerability reported to vendor', '2008-12-04 - Coordinated public release of advisory'] Peter Csepely https://www.zerodayinitiative.com/advisories/ZDI-08-081/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-08-081/",
+  "title": "Sun Java Web Start and Applet Multiple Sandbox Bypass Vulnerabilities",
+  "updated_date": null,
+  "vulnerability_details": "These vulnerabilities allow remote attackers to bypass sandbox restrictions on vulnerable installations of Sun Java Web Start. User interaction is required to exploit this vulnerability in that the target must visit a malicious page. The first vulnerability results in a cache location and a user name information disclosure. By accessing the SI_FILEDIR property of a SingleInstanceImpl class, the location of the temporary single instance files can be parsed to discover the user name and cache location. The second vulnerability allows applets to read any file on a victim's filesystem, outside of the restricted path of the applet. The specific flaw exists in the handling of the file: protocol assigned to an applet codebase. If the codebase points to the local filesystem, any file is then readable by the malicious applet. The third vulnerability allows JNLP files to bypass socket restrictions. By loading a secondary JNLP with an href attribute containing a wildcard. When this object is instantiated, all hosts are eligible for socket connect and accept.",
+  "zdi_can": "ZDI-CAN-363",
+  "zdi_id": "ZDI-08-081"
+}

@@ -1,0 +1,27 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT3632",
+  "advisory_date": "2009-06-16",
+  "affected_products": [
+    "Java"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2009-1719",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2009-1719",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2009-01-26 - Vulnerability reported to vendor",
+    "2009-06-16 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-09-043 ZDI-CAN-416 Apple Java CColourUIResource Pointer Dereference Code Execution Vulnerability 2009-06-16 CVE-2009-1719 https://www.cve.org/CVERecord?id=CVE-2009-1719 ['Apple'] ['Java'] his vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple Java HotSpot. User interaction is required to exploit this vulnerability in that the target must visit a malicious page. The specific flaw exists in the undocumented apple.laf.CColourUIResource(long, int, int ,int, int) constructor. When passing a long integer value as the first argument, the value is interpreted as pointer to an Objective-C object. By constructing a special memory structure and passing the pointer to the first argument an attacker may execute arbitrary code. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT3632 ['2009-01-26 - Vulnerability reported to vendor', '2009-06-16 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-09-043/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-09-043/",
+  "title": "Apple Java CColourUIResource Pointer Dereference Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "his vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple Java HotSpot. User interaction is required to exploit this vulnerability in that the target must visit a malicious page. The specific flaw exists in the undocumented apple.laf.CColourUIResource(long, int, int ,int, int) constructor. When passing a long integer value as the first argument, the value is interpreted as pointer to an Objective-C object. By constructing a special memory structure and passing the pointer to the first argument an attacker may execute arbitrary code.",
+  "zdi_can": "ZDI-CAN-416",
+  "zdi_id": "ZDI-09-043"
+}

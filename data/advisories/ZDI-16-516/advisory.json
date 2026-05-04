@@ -1,0 +1,27 @@
+{
+  "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/flash-player/apsb16-29.html",
+  "advisory_date": "2016-09-16",
+  "affected_products": [
+    "Flash"
+  ],
+  "affected_vendors": [
+    "Adobe"
+  ],
+  "credit": "b0nd@garage4hackers",
+  "cve": "CVE-2016-4276",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-4276",
+  "cvss": 5.1,
+  "cvss_vector": "AV:N/AC:H/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2016-06-30 - Vulnerability reported to vendor",
+    "2016-09-16 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-16-516 ZDI-CAN-3848 Adobe Flash SWF Out-Of-Bounds Read Remote Code Execution Vulnerability 2016-09-16 CVE-2016-4276 https://www.cve.org/CVERecord?id=CVE-2016-4276 5.1 AV:N/AC:H/Au:N/C:P/I:P/A:P ['Adobe'] ['Flash'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Adobe Flash. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the processing of SWF data. A crafted SWF can trigger a read past the end of an allocated buffer. An attacker could leverage this vulnerability to execute code under the context of the current process. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/flash-player/apsb16-29.html ['2016-06-30 - Vulnerability reported to vendor', '2016-09-16 - Coordinated public release of advisory'] b0nd@garage4hackers https://www.zerodayinitiative.com/advisories/ZDI-16-516/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-516/",
+  "title": "Adobe Flash SWF Out-Of-Bounds Read Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Adobe Flash. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the processing of SWF data. A crafted SWF can trigger a read past the end of an allocated buffer. An attacker could leverage this vulnerability to execute code under the context of the current process.",
+  "zdi_can": "ZDI-CAN-3848",
+  "zdi_id": "ZDI-16-516"
+}

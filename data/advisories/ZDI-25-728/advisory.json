@@ -1,0 +1,28 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-us/122716",
+  "advisory_date": "2025-07-30",
+  "affected_products": [
+    "macOS"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "Hossein Lotfi (@hosselot) of Trend Micro Zero Day Initiative",
+  "cve": "CVE-2025-31239",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-31239",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2025-03-25 - Vulnerability reported to vendor",
+    "2025-07-30 - Coordinated public release of advisory",
+    "2025-07-30 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-728 ZDI-CAN-26782 Apple macOS MediaToolbox Framework Memory Corruption Remote Code Execution Vulnerability 2025-07-30 CVE-2025-31239 https://www.cve.org/CVERecord?id=CVE-2025-31239 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Apple'] ['macOS'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Apple macOS. Interaction with the MediaToolbox framework is required to exploit this vulnerability but attack vectors may vary depending on the implementation. The specific flaw exists within the implementation of audio decoding. The issue results from the lack of proper validation of user-supplied data, which can result in a memory corruption condition. An attacker can leverage this vulnerability to execute code in the context of the current process. Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-us/122716 ['2025-03-25 - Vulnerability reported to vendor', '2025-07-30 - Coordinated public release of advisory', '2025-07-30 - Advisory Updated'] Hossein Lotfi (@hosselot) of Trend Micro Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-25-728/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-728/",
+  "title": "Apple macOS MediaToolbox Framework Memory Corruption Remote Code Execution Vulnerability",
+  "updated_date": "2025-07-30",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Apple macOS. Interaction with the MediaToolbox framework is required to exploit this vulnerability but attack vectors may vary depending on the implementation. The specific flaw exists within the implementation of audio decoding. The issue results from the lack of proper validation of user-supplied data, which can result in a memory corruption condition. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-26782",
+  "zdi_id": "ZDI-25-728"
+}

@@ -1,0 +1,28 @@
+{
+  "additional_details": "Fixed in version 15.1.3 (47255)",
+  "advisory_date": "2020-03-13",
+  "affected_products": [
+    "Desktop"
+  ],
+  "affected_vendors": [
+    "Parallels"
+  ],
+  "credit": "Reno Robert of Trend Micro Zero Day Initiative",
+  "cve": "CVE-2020-8871",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2020-8871",
+  "cvss": 8.2,
+  "cvss_vector": "AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2019-11-14 - Vulnerability reported to vendor",
+    "2020-03-13 - Coordinated public release of advisory",
+    "2021-03-02 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-20-292 ZDI-CAN-9403 Parallels Desktop VGA Out-Of-Bounds Write Privilege Escalation Vulnerability 2020-03-13 CVE-2020-8871 https://www.cve.org/CVERecord?id=CVE-2020-8871 8.2 AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H ['Parallels'] ['Desktop'] This vulnerability allows local attackers to escalate privileges on affected installations of Parallels Desktop . An attacker must first obtain the ability to execute high-privileged code on the target guest system in order to exploit this vulnerability. The specific flaw exists within the VGA virtual device. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated buffer. An attacker can leverage this vulnerability to escalate privileges and execute code in the context of the hypervisor. Fixed in version 15.1.3 (47255) ['2019-11-14 - Vulnerability reported to vendor', '2020-03-13 - Coordinated public release of advisory', '2021-03-02 - Advisory Updated'] Reno Robert of Trend Micro Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-20-292/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-20-292/",
+  "title": "Parallels Desktop VGA Out-Of-Bounds Write Privilege Escalation Vulnerability",
+  "updated_date": "2021-03-02",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Parallels Desktop . An attacker must first obtain the ability to execute high-privileged code on the target guest system in order to exploit this vulnerability. The specific flaw exists within the VGA virtual device. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated buffer. An attacker can leverage this vulnerability to escalate privileges and execute code in the context of the hypervisor.",
+  "zdi_can": "ZDI-CAN-9403",
+  "zdi_id": "ZDI-20-292"
+}

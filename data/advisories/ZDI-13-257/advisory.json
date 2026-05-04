@@ -1,0 +1,27 @@
+{
+  "additional_details": "Hewlett-Packard has issued an update to correct this vulnerability. More details can be found at: https://h20564.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c03844594",
+  "advisory_date": "2013-11-24",
+  "affected_products": [
+    "Business Process Monitor"
+  ],
+  "affected_vendors": [
+    "Hewlett-Packard"
+  ],
+  "credit": "Andrea Micalizzi aka rgod",
+  "cve": "CVE-2013-2366",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2013-2366",
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2013-04-26 - Vulnerability reported to vendor",
+    "2013-11-24 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-13-257 ZDI-CAN-1802 HP Business Process Monitor tp_bpm_admin.exe Remote Code Execution Vulnerability 2013-11-24 CVE-2013-2366 https://www.cve.org/CVERecord?id=CVE-2013-2366 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Hewlett-Packard'] ['Business Process Monitor'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of HP Business Process Monitor. Authentication is not required to exploit this vulnerability. The specific flaw exists in the handling of requests to the tp_bpm_admin.exe server which listens by default on TCP port 2696. This server exposes file upload functionality that is vulnerable to a directory traversal. This can be leveraged by an attacker to gain remote code execution under the context of SYSTEM. Hewlett-Packard has issued an update to correct this vulnerability. More details can be found at: https://h20564.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c03844594 ['2013-04-26 - Vulnerability reported to vendor', '2013-11-24 - Coordinated public release of advisory'] Andrea Micalizzi aka rgod https://www.zerodayinitiative.com/advisories/ZDI-13-257/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-13-257/",
+  "title": "HP Business Process Monitor tp_bpm_admin.exe Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of HP Business Process Monitor. Authentication is not required to exploit this vulnerability. The specific flaw exists in the handling of requests to the tp_bpm_admin.exe server which listens by default on TCP port 2696. This server exposes file upload functionality that is vulnerable to a directory traversal. This can be leveraged by an attacker to gain remote code execution under the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-1802",
+  "zdi_id": "ZDI-13-257"
+}

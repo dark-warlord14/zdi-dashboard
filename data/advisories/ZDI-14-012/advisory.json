@@ -1,0 +1,27 @@
+{
+  "additional_details": "WellinTech has issued an update to correct this vulnerability. More details can be found at: http://ics-cert.us-cert.gov/advisories/ICSA-13-344-01",
+  "advisory_date": "2014-02-05",
+  "affected_products": [
+    "KingAlarm & Event"
+  ],
+  "affected_vendors": [
+    "WellinTech"
+  ],
+  "credit": "Andrea Micalizzi aka rgod",
+  "cve": "CVE-2013-2826",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2013-2826",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2013-04-26 - Vulnerability reported to vendor",
+    "2014-02-05 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-14-012 ZDI-CAN-1553 WellinTech KingSCADA KingAlarm & Event KAEManageServer Information Disclosure Vulnerability 2014-02-05 CVE-2013-2826 https://www.cve.org/CVERecord?id=CVE-2013-2826 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['WellinTech'] ['KingAlarm & Event'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of WellinTech KingSCADA KingAlarm&Event. Authentication is not required to exploit this vulnerability. The specific flaw exists within KAEManageServer.exe, which listens by default on TCP port 8130. Authentication to this service is performed locally through the KAEClientManager console but no authentication is performed against remote connections. A remote attacker with knowledge of the protocol can use this to disclose certain credentials and login to the Oracle database as a legitimate user. WellinTech has issued an update to correct this vulnerability. More details can be found at: http://ics-cert.us-cert.gov/advisories/ICSA-13-344-01 ['2013-04-26 - Vulnerability reported to vendor', '2014-02-05 - Coordinated public release of advisory'] Andrea Micalizzi aka rgod https://www.zerodayinitiative.com/advisories/ZDI-14-012/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-14-012/",
+  "title": "WellinTech KingSCADA KingAlarm & Event KAEManageServer Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of WellinTech KingSCADA KingAlarm&Event. Authentication is not required to exploit this vulnerability. The specific flaw exists within KAEManageServer.exe, which listens by default on TCP port 8130. Authentication to this service is performed locally through the KAEClientManager console but no authentication is performed against remote connections. A remote attacker with knowledge of the protocol can use this to disclose certain credentials and login to the Oracle database as a legitimate user.",
+  "zdi_can": "ZDI-CAN-1553",
+  "zdi_id": "ZDI-14-012"
+}

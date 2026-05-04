@@ -1,0 +1,28 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://support.microsoft.com/en-us/skype/skype-is-retiring-in-may-2025-what-you-need-to-know-2a7d2501-427f-485e-8be0-2068a9f90472",
+  "advisory_date": "2025-08-01",
+  "affected_products": [
+    "Skype"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "anonymous",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 8.8,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2025-01-30 - Vulnerability reported to vendor",
+    "2025-08-01 - Coordinated public release of advisory",
+    "2025-08-01 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-770 ZDI-CAN-25335 Microsoft Skype Chromium Remote Code Execution Vulnerability 2025-08-01 8.8 AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Microsoft'] ['Skype'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Microsoft Skype. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The issue results from the use of a vulnerable version of Google Chromium. An attacker can leverage this vulnerability to execute code in the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://support.microsoft.com/en-us/skype/skype-is-retiring-in-may-2025-what-you-need-to-know-2a7d2501-427f-485e-8be0-2068a9f90472 ['2025-01-30 - Vulnerability reported to vendor', '2025-08-01 - Coordinated public release of advisory', '2025-08-01 - Advisory Updated'] anonymous https://www.zerodayinitiative.com/advisories/ZDI-25-770/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-770/",
+  "title": "Microsoft Skype Chromium Remote Code Execution Vulnerability",
+  "updated_date": "2025-08-01",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Microsoft Skype. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The issue results from the use of a vulnerable version of Google Chromium. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-25335",
+  "zdi_id": "ZDI-25-770"
+}

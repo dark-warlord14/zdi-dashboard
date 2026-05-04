@@ -1,0 +1,28 @@
+{
+  "additional_details": "Hewlett Packard Enterprise has issued an update to correct this vulnerability. More details can be found at: https://support.hpe.com/hpsc/doc/public/display?docLocale=en_US&docId=emr_na-hpesbhf03930en_us&withFrame",
+  "advisory_date": "2019-05-30",
+  "affected_products": [
+    "Intelligent Management Center"
+  ],
+  "affected_vendors": [
+    "Hewlett Packard Enterprise"
+  ],
+  "credit": "Matthias Kaiser and Steven Seeley of Incite Team (Source Incite)",
+  "cve": "CVE-2019-11951",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2019-11951",
+  "cvss": 8.8,
+  "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2019-02-05 - Vulnerability reported to vendor",
+    "2019-05-30 - Coordinated public release of advisory",
+    "2021-03-02 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-19-521 ZDI-CAN-6873 Hewlett Packard Enterprise Intelligent Management Center faultEventSelectFact Expression Language Injection Remote Code Execution Vulnerability 2019-05-30 CVE-2019-11951 https://www.cve.org/CVERecord?id=CVE-2019-11951 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Hewlett Packard Enterprise'] ['Intelligent Management Center'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Hewlett Packard Enterprise Intelligent Management Center. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed. The specific flaw exists within the handling of the beanName parameter provided to the faultEventSelectFact.xhtml endpoint. When parsing the beanName parameter, the process does not properly validate a user-supplied string before using it to render a page. An attacker can leverage this vulnerability to execute code in the context of SYSTEM. Hewlett Packard Enterprise has issued an update to correct this vulnerability. More details can be found at: https://support.hpe.com/hpsc/doc/public/display?docLocale=en_US&docId=emr_na-hpesbhf03930en_us&withFrame ['2019-02-05 - Vulnerability reported to vendor', '2019-05-30 - Coordinated public release of advisory', '2021-03-02 - Advisory Updated'] Matthias Kaiser and Steven Seeley of Incite Team (Source Incite) https://www.zerodayinitiative.com/advisories/ZDI-19-521/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-19-521/",
+  "title": "Hewlett Packard Enterprise Intelligent Management Center faultEventSelectFact Expression Language Injection Remote Code Execution Vulnerability",
+  "updated_date": "2021-03-02",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Hewlett Packard Enterprise Intelligent Management Center. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed. The specific flaw exists within the handling of the beanName parameter provided to the faultEventSelectFact.xhtml endpoint. When parsing the beanName parameter, the process does not properly validate a user-supplied string before using it to render a page. An attacker can leverage this vulnerability to execute code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-6873",
+  "zdi_id": "ZDI-19-521"
+}

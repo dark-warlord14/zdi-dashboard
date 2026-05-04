@@ -1,0 +1,27 @@
+{
+  "additional_details": "Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/javacpufeb2013-1841061.html",
+  "advisory_date": "2013-02-11",
+  "affected_products": [
+    "Java Runtime"
+  ],
+  "affected_vendors": [
+    "Oracle"
+  ],
+  "credit": "Aniway.Anyway@gmail.com",
+  "cve": "CVE-2013-1481",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2013-1481",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2012-10-29 - Vulnerability reported to vendor",
+    "2013-02-11 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-13-010 ZDI-CAN-1534 Oracle Java PV_ProcessSampleWithSMOD Remote Code Execution Vulnerability 2013-02-11 CVE-2013-1481 https://www.cve.org/CVERecord?id=CVE-2013-1481 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Oracle'] ['Java Runtime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Oracle Java. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the way the Java sound libraries parse Soundbank files. Due to an signed comparison check, it is possible to cause an out of bound read on an array of function pointers. This could lead to remote code execution under the context of the process. Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/javacpufeb2013-1841061.html ['2012-10-29 - Vulnerability reported to vendor', '2013-02-11 - Coordinated public release of advisory'] Aniway.Anyway@gmail.com https://www.zerodayinitiative.com/advisories/ZDI-13-010/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-13-010/",
+  "title": "Oracle Java PV_ProcessSampleWithSMOD Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Oracle Java. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the way the Java sound libraries parse Soundbank files. Due to an signed comparison check, it is possible to cause an out of bound read on an array of function pointers. This could lead to remote code execution under the context of the process.",
+  "zdi_can": "ZDI-CAN-1534",
+  "zdi_id": "ZDI-13-010"
+}

@@ -1,0 +1,27 @@
+{
+  "additional_details": "TID 7008730: Security Vulnerability - Novell iPrint nipplib.dll iprint-client-config-info Remote Code Execution Vulnerability http://www.novell.com/support/php/search.do?cmd=displayKC&docType=kc&externalId=7008730",
+  "advisory_date": "2011-06-06",
+  "affected_products": [
+    "iPrint"
+  ],
+  "affected_vendors": [
+    "Novell"
+  ],
+  "credit": "Ivan Rodriguez Almuina",
+  "cve": "CVE-2011-1706",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-1706",
+  "cvss": 9.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:C",
+  "disclosure_timeline": [
+    "2011-03-31 - Vulnerability reported to vendor",
+    "2011-06-06 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-11-179 ZDI-CAN-1133 Novell iPrint nipplib.dll iprint-client-config-info Remote Code Execution Vulnerability 2011-06-06 CVE-2011-1706 https://www.cve.org/CVERecord?id=CVE-2011-1706 9.0 AV:N/AC:L/Au:N/C:P/I:P/A:C ['Novell'] ['iPrint'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Novell iPrint Client. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The flaw exists within the nipplib component which is used by both the ActiveX and Netscape compatible browser plugins. When handling the iprint-client-config-info parameter from the user specified printer-url the process blindly copies user supplied data into a fixed-length buffer on the stack. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the browser. TID 7008730: Security Vulnerability - Novell iPrint nipplib.dll iprint-client-config-info Remote Code Execution Vulnerability http://www.novell.com/support/php/search.do?cmd=displayKC&docType=kc&externalId=7008730 ['2011-03-31 - Vulnerability reported to vendor', '2011-06-06 - Coordinated public release of advisory'] Ivan Rodriguez Almuina https://www.zerodayinitiative.com/advisories/ZDI-11-179/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-179/",
+  "title": "Novell iPrint nipplib.dll iprint-client-config-info Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Novell iPrint Client. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The flaw exists within the nipplib component which is used by both the ActiveX and Netscape compatible browser plugins. When handling the iprint-client-config-info parameter from the user specified printer-url the process blindly copies user supplied data into a fixed-length buffer on the stack. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the browser.",
+  "zdi_can": "ZDI-CAN-1133",
+  "zdi_id": "ZDI-11-179"
+}

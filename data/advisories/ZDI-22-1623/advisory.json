@@ -1,0 +1,27 @@
+{
+  "additional_details": "Hewlett Packard Enterprise has issued an update to correct this vulnerability. More details can be found at: https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=hpesbnw04383en_us",
+  "advisory_date": "2022-11-21",
+  "affected_products": [
+    "OfficeConnect 1820"
+  ],
+  "affected_vendors": [
+    "Hewlett Packard Enterprise"
+  ],
+  "credit": "Fernando Munoz",
+  "cve": "CVE-2022-37932",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-37932",
+  "cvss": 8.8,
+  "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2022-09-22 - Vulnerability reported to vendor",
+    "2022-11-21 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-1623 ZDI-CAN-17747 Hewlett Packard Enterprise OfficeConnect 1820 Authentication Bypass Vulnerability 2022-11-21 CVE-2022-37932 https://www.cve.org/CVERecord?id=CVE-2022-37932 8.8 AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['Hewlett Packard Enterprise'] ['OfficeConnect 1820'] This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of Hewlett Packard Enterprise OfficeConnect 1820 switches. Authentication is not required to exploit this vulnerability. The specific flaw exists within the default_password_cfg.lua endpoint. The issue results from the lack of authentication prior to allowing access to functionality. An attacker can leverage this vulnerability to bypass authentication on the system and execute code in the context of root. Hewlett Packard Enterprise has issued an update to correct this vulnerability. More details can be found at: https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=hpesbnw04383en_us ['2022-09-22 - Vulnerability reported to vendor', '2022-11-21 - Coordinated public release of advisory'] Fernando Munoz https://www.zerodayinitiative.com/advisories/ZDI-22-1623/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-1623/",
+  "title": "Hewlett Packard Enterprise OfficeConnect 1820 Authentication Bypass Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of Hewlett Packard Enterprise OfficeConnect 1820 switches. Authentication is not required to exploit this vulnerability. The specific flaw exists within the default_password_cfg.lua endpoint. The issue results from the lack of authentication prior to allowing access to functionality. An attacker can leverage this vulnerability to bypass authentication on the system and execute code in the context of root.",
+  "zdi_can": "ZDI-CAN-17747",
+  "zdi_id": "ZDI-22-1623"
+}

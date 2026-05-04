@@ -1,0 +1,28 @@
+{
+  "additional_details": "VMware has issued an update to correct this vulnerability. More details can be found at: https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/24280",
+  "advisory_date": "2024-05-31",
+  "affected_products": [
+    "Workstation"
+  ],
+  "affected_vendors": [
+    "VMware"
+  ],
+  "credit": "Nguy\\xe1\\xbb\\x85n Ho\\xc3\\xa0ng Th\\xe1\\xba\\xa1ch of STAR Labs SG Pte. Ltd.",
+  "cve": "CVE-2024-22267",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-22267",
+  "cvss": 8.2,
+  "cvss_vector": "AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2024-04-29 - Vulnerability reported to vendor",
+    "2024-05-31 - Coordinated public release of advisory",
+    "2024-07-01 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-527 ZDI-CAN-23847 (Pwn2Own) VMWare Workstation VBluetoothHCI_PacketOut Use-After-Free Privilege Escalation Vulnerability 2024-05-31 CVE-2024-22267 https://www.cve.org/CVERecord?id=CVE-2024-22267 8.2 AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H ['VMware'] ['Workstation'] This vulnerability allows local attackers to escalate privileges on affected installations of VMWare Workstation. An attacker must first obtain the ability to execute high-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the VBluetoothHCI_PacketOut method. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the hypervisor. VMware has issued an update to correct this vulnerability. More details can be found at: https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/24280 ['2024-04-29 - Vulnerability reported to vendor', '2024-05-31 - Coordinated public release of advisory', '2024-07-01 - Advisory Updated'] Nguy\\xe1\\xbb\\x85n Ho\\xc3\\xa0ng Th\\xe1\\xba\\xa1ch of STAR Labs SG Pte. Ltd. https://www.zerodayinitiative.com/advisories/ZDI-24-527/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-527/",
+  "title": "(Pwn2Own) VMWare Workstation VBluetoothHCI_PacketOut Use-After-Free Privilege Escalation Vulnerability",
+  "updated_date": "2024-07-01",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of VMWare Workstation. An attacker must first obtain the ability to execute high-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the VBluetoothHCI_PacketOut method. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the hypervisor.",
+  "zdi_can": "ZDI-CAN-23847",
+  "zdi_id": "ZDI-24-527"
+}

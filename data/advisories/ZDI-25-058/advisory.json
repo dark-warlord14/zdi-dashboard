@@ -1,0 +1,28 @@
+{
+  "additional_details": "Siemens has issued an update to correct this vulnerability. More details can be found at: https://cert-portal.siemens.com/productcert/html/ssa-583523.html",
+  "advisory_date": "2025-01-22",
+  "affected_products": [
+    "Tecnomatix Plant Simulation"
+  ],
+  "affected_vendors": [
+    "Siemens"
+  ],
+  "credit": "Rocco Calvi (@TecR0c) with TecSecurity",
+  "cve": "CVE-2024-53242",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-53242",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2024-09-17 - Vulnerability reported to vendor",
+    "2025-01-22 - Coordinated public release of advisory",
+    "2025-01-22 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-058 ZDI-CAN-25206 Siemens Tecnomatix Plant Simulation WRL File Parsing Out-Of-Bounds Read Remote Code Execution Vulnerability 2025-01-22 CVE-2024-53242 https://www.cve.org/CVERecord?id=CVE-2024-53242 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Siemens'] ['Tecnomatix Plant Simulation'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Siemens Tecnomatix Plant Simulation. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of WRL files in the wrltojt module. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated data structure. An attacker can leverage this vulnerability to execute code in the context of the current process. Siemens has issued an update to correct this vulnerability. More details can be found at: https://cert-portal.siemens.com/productcert/html/ssa-583523.html ['2024-09-17 - Vulnerability reported to vendor', '2025-01-22 - Coordinated public release of advisory', '2025-01-22 - Advisory Updated'] Rocco Calvi (@TecR0c) with TecSecurity https://www.zerodayinitiative.com/advisories/ZDI-25-058/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-058/",
+  "title": "Siemens Tecnomatix Plant Simulation WRL File Parsing Out-Of-Bounds Read Remote Code Execution Vulnerability",
+  "updated_date": "2025-01-22",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Siemens Tecnomatix Plant Simulation. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of WRL files in the wrltojt module. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated data structure. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-25206",
+  "zdi_id": "ZDI-25-058"
+}

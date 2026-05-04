@@ -1,0 +1,27 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT5261",
+  "advisory_date": "2012-06-06",
+  "affected_products": [
+    "Quicktime"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "Alin Rad Pop",
+  "cve": "CVE-2012-0667",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2012-0667",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2011-10-21 - Vulnerability reported to vendor",
+    "2012-06-06 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-12-077 ZDI-CAN-1422 Apple QuickTime QTVR QTVRStringAtom Parsing Remote Code Execution Vulnerability 2012-06-06 CVE-2012-0667 https://www.cve.org/CVERecord?id=CVE-2012-0667 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Apple'] ['Quicktime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple QuickTime. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the QuickTimeVR.qtx component. A signedness error exists when processing a QTVRStringAtom having an overly large \"stringLength\" parameter. This can be exploited to cause a stack-based buffer overflow and execute arbitrary code under the context of the user running the application. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT5261 ['2011-10-21 - Vulnerability reported to vendor', '2012-06-06 - Coordinated public release of advisory'] Alin Rad Pop https://www.zerodayinitiative.com/advisories/ZDI-12-077/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-12-077/",
+  "title": "Apple QuickTime QTVR QTVRStringAtom Parsing Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple QuickTime. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the QuickTimeVR.qtx component. A signedness error exists when processing a QTVRStringAtom having an overly large \"stringLength\" parameter. This can be exploited to cause a stack-based buffer overflow and execute arbitrary code under the context of the user running the application.",
+  "zdi_can": "ZDI-CAN-1422",
+  "zdi_id": "ZDI-12-077"
+}

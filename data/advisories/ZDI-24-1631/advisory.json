@@ -1,0 +1,28 @@
+{
+  "additional_details": "Hewlett Packard Enterprise has issued an update to correct this vulnerability. More details can be found at: https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbgn04760en_us&docLocale=en_US",
+  "advisory_date": "2024-12-02",
+  "affected_products": [
+    "AutoPass License Server"
+  ],
+  "affected_vendors": [
+    "Hewlett Packard Enterprise"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2024-51767",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-51767",
+  "cvss": 7.3,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+  "disclosure_timeline": [
+    "2024-07-24 - Vulnerability reported to vendor",
+    "2024-12-02 - Coordinated public release of advisory",
+    "2024-12-02 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-1631 ZDI-CAN-24691 Hewlett Packard Enterprise AutoPass License Server Authentication Bypass Vulnerability 2024-12-02 CVE-2024-51767 https://www.cve.org/CVERecord?id=CVE-2024-51767 7.3 AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L ['Hewlett Packard Enterprise'] ['AutoPass License Server'] This vulnerability allows remote attackers to bypass authentication on affected installations of Hewlett Packard Enterprise AutoPass License Server. Authentication is not required to exploit this vulnerability. The specific flaw exists within the web service, which listens on TCP port 5814 by default. The issue results from making an authorization decision based on a non-canonical URL. An attacker can leverage this vulnerability to bypass authentication on the system. Hewlett Packard Enterprise has issued an update to correct this vulnerability. More details can be found at: https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbgn04760en_us&docLocale=en_US ['2024-07-24 - Vulnerability reported to vendor', '2024-12-02 - Coordinated public release of advisory', '2024-12-02 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-24-1631/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-1631/",
+  "title": "Hewlett Packard Enterprise AutoPass License Server Authentication Bypass Vulnerability",
+  "updated_date": "2024-12-02",
+  "vulnerability_details": "This vulnerability allows remote attackers to bypass authentication on affected installations of Hewlett Packard Enterprise AutoPass License Server. Authentication is not required to exploit this vulnerability. The specific flaw exists within the web service, which listens on TCP port 5814 by default. The issue results from making an authorization decision based on a non-canonical URL. An attacker can leverage this vulnerability to bypass authentication on the system.",
+  "zdi_can": "ZDI-CAN-24691",
+  "zdi_id": "ZDI-24-1631"
+}

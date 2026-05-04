@@ -1,0 +1,28 @@
+{
+  "additional_details": "10/24/25 \u2013 ZDI requested the vendor\u2019s PSIRT contacts via email 10/28/25 \u2013 the vendor asked for the affected version number 10/28/25 \u2013 ZDI provided the affected product version 10/30/25 \u2013 ZDI asked for updates 10/31/25 \u2013 the vendor provided their contacts 10/31/25 \u2013 ZDI submitted the report to the vendor 12/10/25 \u2013 ZDI asked for updates 12/17/25 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+  "advisory_date": "2026-01-09",
+  "affected_products": [
+    "8180 IP Audio Alerter"
+  ],
+  "affected_vendors": [
+    "ALGO"
+  ],
+  "credit": "Vera Mensa of Claroty Research - Team82",
+  "cve": "CVE-2026-0784",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-0784",
+  "cvss": 7.2,
+  "cvss_vector": "AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2025-10-31 - Vulnerability reported to vendor",
+    "2026-01-09 - Coordinated public release of advisory",
+    "2026-01-09 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-26-006 ZDI-CAN-28293 (0Day) ALGO 8180 IP Audio Alerter Web UI Command Injection Remote Code Execution Vulnerability 2026-01-09 CVE-2026-0784 https://www.cve.org/CVERecord?id=CVE-2026-0784 7.2 AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H ['ALGO'] ['8180 IP Audio Alerter'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of ALGO 8180 IP Audio Alerter devices. Authentication is required to exploit this vulnerability. The specific flaw exists within the web-based user interface. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of the device. 10/24/25 \u2013 ZDI requested the vendor\u2019s PSIRT contacts via email 10/28/25 \u2013 the vendor asked for the affected version number 10/28/25 \u2013 ZDI provided the affected product version 10/30/25 \u2013 ZDI asked for updates 10/31/25 \u2013 the vendor provided their contacts 10/31/25 \u2013 ZDI submitted the report to the vendor 12/10/25 \u2013 ZDI asked for updates 12/17/25 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2025-10-31 - Vulnerability reported to vendor', '2026-01-09 - Coordinated public release of advisory', '2026-01-09 - Advisory Updated'] Vera Mensa of Claroty Research - Team82 https://www.zerodayinitiative.com/advisories/ZDI-26-006/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-006/",
+  "title": "(0Day) ALGO 8180 IP Audio Alerter Web UI Command Injection Remote Code Execution Vulnerability",
+  "updated_date": "2026-01-09",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of ALGO 8180 IP Audio Alerter devices. Authentication is required to exploit this vulnerability. The specific flaw exists within the web-based user interface. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of the device.",
+  "zdi_can": "ZDI-CAN-28293",
+  "zdi_id": "ZDI-26-006"
+}

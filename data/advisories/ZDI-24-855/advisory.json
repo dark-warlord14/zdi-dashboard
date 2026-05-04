@@ -1,0 +1,28 @@
+{
+  "additional_details": "Phoenix Contact has issued an update to correct this vulnerability. More details can be found at: https://cert.vde.com/en/advisories/VDE-2024-011/",
+  "advisory_date": "2024-06-21",
+  "affected_products": [
+    "CHARX SEC-3100"
+  ],
+  "affected_vendors": [
+    "Phoenix Contact"
+  ],
+  "credit": "Chris Anastasio @mufinnnnnnn & Fabius Watson",
+  "cve": "CVE-2024-25997",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-25997",
+  "cvss": 3.1,
+  "cvss_vector": "AV:A/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N",
+  "disclosure_timeline": [
+    "2024-02-02 - Vulnerability reported to vendor",
+    "2024-06-21 - Coordinated public release of advisory",
+    "2024-08-15 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-855 ZDI-CAN-23321 (Pwn2Own) Phoenix Contact CHARX SEC-3100 OCPP Protocol Improper Log Output Neutralization Remote Code Execution Vulnerability 2024-06-21 CVE-2024-25997 https://www.cve.org/CVERecord?id=CVE-2024-25997 3.1 AV:A/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N ['Phoenix Contact'] ['CHARX SEC-3100'] This vulnerability allows network-adjacent attackers to injection malicious content into log files on affected installations of Phoenix Contact CHARX SEC-3100 devices. Authentication is not required to exploit this vulnerability. The specific flaw exists within the implementation of logging. The issue results from insufficient neutralization of special characters when writing to logs. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of root. Phoenix Contact has issued an update to correct this vulnerability. More details can be found at: https://cert.vde.com/en/advisories/VDE-2024-011/ ['2024-02-02 - Vulnerability reported to vendor', '2024-06-21 - Coordinated public release of advisory', '2024-08-15 - Advisory Updated'] Chris Anastasio @mufinnnnnnn & Fabius Watson https://www.zerodayinitiative.com/advisories/ZDI-24-855/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-855/",
+  "title": "(Pwn2Own) Phoenix Contact CHARX SEC-3100 OCPP Protocol Improper Log Output Neutralization Remote Code Execution Vulnerability",
+  "updated_date": "2024-08-15",
+  "vulnerability_details": "This vulnerability allows network-adjacent attackers to injection malicious content into log files on affected installations of Phoenix Contact CHARX SEC-3100 devices. Authentication is not required to exploit this vulnerability. The specific flaw exists within the implementation of logging. The issue results from insufficient neutralization of special characters when writing to logs. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of root.",
+  "zdi_can": "ZDI-CAN-23321",
+  "zdi_id": "ZDI-24-855"
+}

@@ -1,0 +1,27 @@
+{
+  "additional_details": "IBM has issued an update to correct this vulnerability. More details can be found at: https://www.ibm.com/support/pages/node/6116488",
+  "advisory_date": "2020-03-31",
+  "affected_products": [
+    "Spectrum Protect Plus"
+  ],
+  "affected_vendors": [
+    "IBM"
+  ],
+  "credit": "KPC of Trend Micro Zero Day Initiative",
+  "cve": "CVE-2020-4240",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2020-4240",
+  "cvss": 6.5,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L",
+  "disclosure_timeline": [
+    "2019-12-20 - Vulnerability reported to vendor",
+    "2020-03-31 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-20-349 ZDI-CAN-9950 IBM Spectrum Protect Plus plugin Directory Traversal File Creation Vulnerability 2020-03-31 CVE-2020-4240 https://www.cve.org/CVERecord?id=CVE-2020-4240 6.5 AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L ['IBM'] ['Spectrum Protect Plus'] This vulnerability allows remote attackers to create arbitrary files on affected installations of IBM Spectrum Protect Plus. Authentication is not required to exploit this vulnerability. The specific flaw exists within the Administrative Console Framework service. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to create a file in the context of an administrator. IBM has issued an update to correct this vulnerability. More details can be found at: https://www.ibm.com/support/pages/node/6116488 ['2019-12-20 - Vulnerability reported to vendor', '2020-03-31 - Coordinated public release of advisory'] KPC of Trend Micro Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-20-349/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-20-349/",
+  "title": "IBM Spectrum Protect Plus plugin Directory Traversal File Creation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to create arbitrary files on affected installations of IBM Spectrum Protect Plus. Authentication is not required to exploit this vulnerability. The specific flaw exists within the Administrative Console Framework service. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to create a file in the context of an administrator.",
+  "zdi_can": "ZDI-CAN-9950",
+  "zdi_id": "ZDI-20-349"
+}

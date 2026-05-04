@@ -1,0 +1,27 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-us/HT213183",
+  "advisory_date": "2022-06-29",
+  "affected_products": [
+    "macOS"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "Mickey Jin (@patch1t) of Trend Micro",
+  "cve": "CVE-2022-26688",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-26688",
+  "cvss": 5.5,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N",
+  "disclosure_timeline": [
+    "2021-12-03 - Vulnerability reported to vendor",
+    "2022-06-29 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-877 ZDI-CAN-16052 Apple macOS PackageKit PKCoreShove Link Following System Integrity Protection Bypass Vulnerability 2022-06-29 CVE-2022-26688 https://www.cve.org/CVERecord?id=CVE-2022-26688 5.5 AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N ['Apple'] ['macOS'] This vulnerability allows local attackers to bypass System Integrity Protection on affected installations of Apple macOS. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within PackageKit. By creating a symbolic link, an attacker can abuse the service to overwrite arbitrary files. An attacker can leverage this vulnerability to escalate privileges and modify the contents of system files. Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-us/HT213183 ['2021-12-03 - Vulnerability reported to vendor', '2022-06-29 - Coordinated public release of advisory'] Mickey Jin (@patch1t) of Trend Micro https://www.zerodayinitiative.com/advisories/ZDI-22-877/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-877/",
+  "title": "Apple macOS PackageKit PKCoreShove Link Following System Integrity Protection Bypass Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to bypass System Integrity Protection on affected installations of Apple macOS. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within PackageKit. By creating a symbolic link, an attacker can abuse the service to overwrite arbitrary files. An attacker can leverage this vulnerability to escalate privileges and modify the contents of system files.",
+  "zdi_can": "ZDI-CAN-16052",
+  "zdi_id": "ZDI-22-877"
+}

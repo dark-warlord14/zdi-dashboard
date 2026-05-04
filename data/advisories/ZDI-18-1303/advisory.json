@@ -1,0 +1,28 @@
+{
+  "additional_details": "Advantech has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-18-296-01",
+  "advisory_date": "2018-10-24",
+  "affected_products": [
+    "WebAccess Node"
+  ],
+  "affected_vendors": [
+    "Advantech"
+  ],
+  "credit": "Mat Powell of Trend Micro Zero Day Initiative",
+  "cve": "CVE-2018-14816",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2018-14816",
+  "cvss": 9.3,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2018-05-29 - Vulnerability reported to vendor",
+    "2018-10-24 - Coordinated public release of advisory",
+    "2018-10-24 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-1303 ZDI-CAN-6290 Advantech WebAccess Node bwdraw Stack-based Buffer Overflow Remote Code Execution Vulnerability 2018-10-24 CVE-2018-14816 https://www.cve.org/CVERecord?id=CVE-2018-14816 9.3 AV:N/AC:M/Au:N/C:C/I:C/A:C ['Advantech'] ['WebAccess Node'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Advantech WebAccess Node. Authentication is not required to exploit this vulnerability. The specific flaw exists within bwdraw.exe, which is accessed through the 0x2711 IOCTL in the webvrpcs process. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this functionality to execute code under the context of Administrator. Advantech has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-18-296-01 ['2018-05-29 - Vulnerability reported to vendor', '2018-10-24 - Coordinated public release of advisory', '2018-10-24 - Advisory Updated'] Mat Powell of Trend Micro Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-18-1303/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-1303/",
+  "title": "Advantech WebAccess Node bwdraw Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+  "updated_date": "2018-10-24",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Advantech WebAccess Node. Authentication is not required to exploit this vulnerability. The specific flaw exists within bwdraw.exe, which is accessed through the 0x2711 IOCTL in the webvrpcs process. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this functionality to execute code under the context of Administrator.",
+  "zdi_can": "ZDI-CAN-6290",
+  "zdi_id": "ZDI-18-1303"
+}

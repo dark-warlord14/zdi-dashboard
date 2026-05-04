@@ -1,0 +1,28 @@
+{
+  "additional_details": "This vulnerability is being disclosed publicly without a patch in accordance with the ZDI 120 day deadline. 05/16/18 - ZDI reported the vulnerability to ICS-CERT 07/10/18 - ICS-CERT replied that the vendor requested a deadline extension due to work between remote teams 07/10/18 - The vendor requested feedback on one of their proposed solutions for the issues 07/12/18 - ZDI offered a one week extension to the deadline 07/16/18 - ZDI provided feedback on the proposed fix as requested 08/02/18 - ZDI requested an update and any ETA 08/10/18 - ICS-CERT sent a reply from the vendor that a fix \"will require significant effort because the change requires modification to the core components of our software package\" 08/14/18 - ZDI replied \u201cseveral months\" extension is not something we can provide 09/19/18 - ZDI notified ICS-CERT of the intent to disclose these reports as 0-day advisories on 9/26 -- Mitigation: Given the nature of the vulnerability the only salient mitigation strategy is to restrict interaction with the application to trusted files.",
+  "advisory_date": "2018-09-26",
+  "affected_products": [
+    "Frenic Loader"
+  ],
+  "affected_vendors": [
+    "Fuji Electric"
+  ],
+  "credit": "Ghirmay Desta",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 9.3,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2018-05-16 - Vulnerability reported to vendor",
+    "2018-09-26 - Coordinated public release of advisory",
+    "2018-09-26 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-1084 ZDI-CAN-6224 (0Day) Fuji Electric FrenicLoader FNC File Parsing Stack-based Buffer Overflow Remote Code Execution Vulnerability 2018-09-26 9.3 AV:N/AC:M/Au:N/C:C/I:C/A:C ['Fuji Electric'] ['Frenic Loader'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Fuji Electric Frenic Loader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of user-supplied comments in FNC files. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this vulnerability to execute arbitrary code under the context of administrator. This vulnerability is being disclosed publicly without a patch in accordance with the ZDI 120 day deadline. 05/16/18 - ZDI reported the vulnerability to ICS-CERT 07/10/18 - ICS-CERT replied that the vendor requested a deadline extension due to work between remote teams 07/10/18 - The vendor requested feedback on one of their proposed solutions for the issues 07/12/18 - ZDI offered a one week extension to the deadline 07/16/18 - ZDI provided feedback on the proposed fix as requested 08/02/18 - ZDI requested an update and any ETA 08/10/18 - ICS-CERT sent a reply from the vendor that a fix \"will require significant effort because the change requires modification to the core components of our software package\" 08/14/18 - ZDI replied \u201cseveral months\" extension is not something we can provide 09/19/18 - ZDI notified ICS-CERT of the intent to disclose these reports as 0-day advisories on 9/26 -- Mitigation: Given the nature of the vulnerability the only salient mitigation strategy is to restrict interaction with the application to trusted files. ['2018-05-16 - Vulnerability reported to vendor', '2018-09-26 - Coordinated public release of advisory', '2018-09-26 - Advisory Updated'] Ghirmay Desta https://www.zerodayinitiative.com/advisories/ZDI-18-1084/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-1084/",
+  "title": "(0Day) Fuji Electric FrenicLoader FNC File Parsing Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+  "updated_date": "2018-09-26",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Fuji Electric Frenic Loader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of user-supplied comments in FNC files. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this vulnerability to execute arbitrary code under the context of administrator.",
+  "zdi_can": "ZDI-CAN-6224",
+  "zdi_id": "ZDI-18-1084"
+}

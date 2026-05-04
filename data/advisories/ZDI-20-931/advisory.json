@@ -1,0 +1,27 @@
+{
+  "additional_details": "Rockwell Automation has issued an update to correct this vulnerability. More details can be found at: https://www.us-cert.gov/ics/advisories/icsa-19-213-05",
+  "advisory_date": "2020-08-04",
+  "affected_products": [
+    "Arena Simulation"
+  ],
+  "affected_vendors": [
+    "Rockwell Automation"
+  ],
+  "credit": "kimiya",
+  "cve": "CVE-2019-13510",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2019-13510",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2020-03-31 - Vulnerability reported to vendor",
+    "2020-08-04 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-20-931 ZDI-CAN-10559 Rockwell Automation Arena Simulation DOE File Parsing Use-After-Free Remote Code Execution Vulnerability 2020-08-04 CVE-2019-13510 https://www.cve.org/CVERecord?id=CVE-2019-13510 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Rockwell Automation'] ['Arena Simulation'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Rockwell Automation Arena Simulation. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of DOE files. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current process. Rockwell Automation has issued an update to correct this vulnerability. More details can be found at: https://www.us-cert.gov/ics/advisories/icsa-19-213-05 ['2020-03-31 - Vulnerability reported to vendor', '2020-08-04 - Coordinated public release of advisory'] kimiya https://www.zerodayinitiative.com/advisories/ZDI-20-931/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-20-931/",
+  "title": "Rockwell Automation Arena Simulation DOE File Parsing Use-After-Free Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Rockwell Automation Arena Simulation. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of DOE files. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-10559",
+  "zdi_id": "ZDI-20-931"
+}

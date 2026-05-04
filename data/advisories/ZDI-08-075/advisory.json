@@ -1,0 +1,27 @@
+{
+  "additional_details": "For ControlCenter 5.2 SP5 Software navigate in Powerink to the following location: Support > Software Downloads and Licensing > Downloads C > ControlCenter v 5.x > 5.2 SP5 Patch 4433 For ControlCenter 6.0 Software navigate in Powerlink to the following location: Support > Software Downloads and Licensing > Downloads C > ControlCenter v 6.x > 6.0 Patch 4434",
+  "advisory_date": "2008-11-20",
+  "affected_products": [
+    "Control Center"
+  ],
+  "affected_vendors": [
+    "EMC"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2008-5419",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2008-5419",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2008-09-23 - Vulnerability reported to vendor",
+    "2008-11-20 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-08-075 ZDI-CAN-398 EMC Control Center SST_CTGTRANS Overflow Vulnerability 2008-11-20 CVE-2008-5419 https://www.cve.org/CVERecord?id=CVE-2008-5419 ['EMC'] ['Control Center'] This vulnerability allows remote attackers to execute arbitrary code on systems with vulnerable installations of EMC Control Center. Authentication is not required to exploit this vulnerability. The specific flaw exists in the Master Agent service (msragent.exe) which listens by default on TCP port 10444. While processing SST_CTGTRANS requests the process copies packet data into a fixed length stack buffer. Exploitation allows for arbitrary code execution under the context of the SYSTEM user. For ControlCenter 5.2 SP5 Software navigate in Powerink to the following location: Support > Software Downloads and Licensing > Downloads C > ControlCenter v 5.x > 5.2 SP5 Patch 4433 For ControlCenter 6.0 Software navigate in Powerlink to the following location: Support > Software Downloads and Licensing > Downloads C > ControlCenter v 6.x > 6.0 Patch 4434 ['2008-09-23 - Vulnerability reported to vendor', '2008-11-20 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-08-075/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-08-075/",
+  "title": "EMC Control Center SST_CTGTRANS Overflow Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on systems with vulnerable installations of EMC Control Center. Authentication is not required to exploit this vulnerability. The specific flaw exists in the Master Agent service (msragent.exe) which listens by default on TCP port 10444. While processing SST_CTGTRANS requests the process copies packet data into a fixed length stack buffer. Exploitation allows for arbitrary code execution under the context of the SYSTEM user.",
+  "zdi_can": "ZDI-CAN-398",
+  "zdi_id": "ZDI-08-075"
+}

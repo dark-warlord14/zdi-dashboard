@@ -1,0 +1,27 @@
+{
+  "additional_details": "Advantech has issued an update to correct this vulnerability. More details can be found at: http://ics-cert.us-cert.gov/advisories/ICSA-14-198-02",
+  "advisory_date": "2014-07-18",
+  "affected_products": [
+    "Advantech WebAccess"
+  ],
+  "affected_vendors": [
+    "Advantech"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2014-2368",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-2368",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2014-04-23 - Vulnerability reported to vendor",
+    "2014-07-18 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-14-245 ZDI-CAN-2061 Advantech WebAccess bwocxrun ActiveX Control Installation Vulnerability 2014-07-18 CVE-2014-2368 https://www.cve.org/CVERecord?id=CVE-2014-2368 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Advantech'] ['Advantech WebAccess'] This vulnerability allows remote attackers to install certain ActiveX controls without user interaction on vulnerable installations of Advantech WebAccess. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists with the bwocxrun ActiveX control, which allows for navigation from the network to the local file system. When combined with system settings and other components included as part of the installation, this allows for the activation of ActiveX controls resident on the local file system (even if not installed) without user interaction. An attacker can use this to install vulnerable controls on the target system. Advantech has issued an update to correct this vulnerability. More details can be found at: http://ics-cert.us-cert.gov/advisories/ICSA-14-198-02 ['2014-04-23 - Vulnerability reported to vendor', '2014-07-18 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-14-245/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-14-245/",
+  "title": "Advantech WebAccess bwocxrun ActiveX Control Installation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to install certain ActiveX controls without user interaction on vulnerable installations of Advantech WebAccess. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists with the bwocxrun ActiveX control, which allows for navigation from the network to the local file system. When combined with system settings and other components included as part of the installation, this allows for the activation of ActiveX controls resident on the local file system (even if not installed) without user interaction. An attacker can use this to install vulnerable controls on the target system.",
+  "zdi_can": "ZDI-CAN-2061",
+  "zdi_id": "ZDI-14-245"
+}

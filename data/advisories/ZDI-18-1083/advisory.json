@@ -1,0 +1,28 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-us/HT209109",
+  "advisory_date": "2018-09-24",
+  "affected_products": [
+    "Safari"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "@phoenhex team (@bkth_ @5aelo @_niklasb)",
+  "cve": "CVE-2018-4358",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2018-4358",
+  "cvss": 4.3,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N",
+  "disclosure_timeline": [
+    "2018-07-19 - Vulnerability reported to vendor",
+    "2018-09-24 - Coordinated public release of advisory",
+    "2018-09-24 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-1083 ZDI-CAN-6666 Apple Safari Array Concat Uninitialized Buffer Information Disclosure Vulnerability 2018-09-24 CVE-2018-4358 https://www.cve.org/CVERecord?id=CVE-2018-4358 4.3 AV:N/AC:M/Au:N/C:P/I:N/A:N ['Apple'] ['Safari'] This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Apple Safari. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Arrays. By performing actions in JavaScript, an attacker can trigger access to memory prior to initialization. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process. Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-us/HT209109 ['2018-07-19 - Vulnerability reported to vendor', '2018-09-24 - Coordinated public release of advisory', '2018-09-24 - Advisory Updated'] @phoenhex team (@bkth_ @5aelo @_niklasb) https://www.zerodayinitiative.com/advisories/ZDI-18-1083/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-1083/",
+  "title": "Apple Safari Array Concat Uninitialized Buffer Information Disclosure Vulnerability",
+  "updated_date": "2018-09-24",
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Apple Safari. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Arrays. By performing actions in JavaScript, an attacker can trigger access to memory prior to initialization. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-6666",
+  "zdi_id": "ZDI-18-1083"
+}

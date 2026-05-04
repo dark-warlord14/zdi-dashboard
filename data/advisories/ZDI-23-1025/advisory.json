@@ -1,0 +1,27 @@
+{
+  "additional_details": "Triangle MicroWorks has issued an update to correct this vulnerability. More details can be found at: https://www.trianglemicroworks.com/products/scada-data-gateway/what's-new",
+  "advisory_date": "2023-08-04",
+  "affected_products": [
+    "SCADA Data Gateway"
+  ],
+  "affected_vendors": [
+    "Triangle MicroWorks"
+  ],
+  "credit": "Claroty Research - Team82 - Uri Katz, Noam Moshe, Vera Mens, Sharon Brizinov",
+  "cve": "CVE-2023-39457",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-39457",
+  "cvss": 9.8,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2023-02-24 - Vulnerability reported to vendor",
+    "2023-08-04 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-1025 ZDI-CAN-20501 (Pwn2Own) Triangle MicroWorks SCADA Data Gateway Missing Authentication Vulnerability 2023-08-04 CVE-2023-39457 https://www.cve.org/CVERecord?id=CVE-2023-39457 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['Triangle MicroWorks'] ['SCADA Data Gateway'] This vulnerability allows remote attackers to bypass authentication on affected installations of Triangle MicroWorks SCADA Data Gateway. Authentication is not required to exploit this vulnerability. The specific flaw exists due to the lack of user authentication. The issue results from missing authentication in the default system configuration. An attacker can leverage this vulnerability to execute arbitrary code in the context of root. Triangle MicroWorks has issued an update to correct this vulnerability. More details can be found at: https://www.trianglemicroworks.com/products/scada-data-gateway/what's-new ['2023-02-24 - Vulnerability reported to vendor', '2023-08-04 - Coordinated public release of advisory'] Claroty Research - Team82 - Uri Katz, Noam Moshe, Vera Mens, Sharon Brizinov https://www.zerodayinitiative.com/advisories/ZDI-23-1025/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-1025/",
+  "title": "(Pwn2Own) Triangle MicroWorks SCADA Data Gateway Missing Authentication Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to bypass authentication on affected installations of Triangle MicroWorks SCADA Data Gateway. Authentication is not required to exploit this vulnerability. The specific flaw exists due to the lack of user authentication. The issue results from missing authentication in the default system configuration. An attacker can leverage this vulnerability to execute arbitrary code in the context of root.",
+  "zdi_can": "ZDI-CAN-20501",
+  "zdi_id": "ZDI-23-1025"
+}

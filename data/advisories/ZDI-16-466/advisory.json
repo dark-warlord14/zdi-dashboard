@@ -1,0 +1,27 @@
+{
+  "additional_details": null,
+  "advisory_date": "2016-08-10",
+  "affected_products": [
+    "Smart Data Center"
+  ],
+  "affected_vendors": [
+    "Joyent"
+  ],
+  "credit": "Ben Murphy",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 6.9,
+  "cvss_vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2016-04-14 - Vulnerability reported to vendor",
+    "2016-08-10 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-16-466 ZDI-CAN-3701 Joyent Smart Data Center Docker API Zone Escape Privilege Escalation Vulnerability 2016-08-10 6.9 AV:L/AC:M/Au:N/C:C/I:C/A:C ['Joyent'] ['Smart Data Center'] This vulnerability allows local attackers to execute arbitrary code on vulnerable installations of Joyent Smart Data Center. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within a Docker remote API for this product. An attacker can create a device node that is the same as /dev/kmem, which can overwrite arbitrary kernel memory. An attacker can leverage this vulnerability to escalate privileges to escape a zone and achieve privileged execution on the Smart Data Center. ['2016-04-14 - Vulnerability reported to vendor', '2016-08-10 - Coordinated public release of advisory'] Ben Murphy https://www.zerodayinitiative.com/advisories/ZDI-16-466/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-466/",
+  "title": "Joyent Smart Data Center Docker API Zone Escape Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to execute arbitrary code on vulnerable installations of Joyent Smart Data Center. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within a Docker remote API for this product. An attacker can create a device node that is the same as /dev/kmem, which can overwrite arbitrary kernel memory. An attacker can leverage this vulnerability to escalate privileges to escape a zone and achieve privileged execution on the Smart Data Center.",
+  "zdi_can": "ZDI-CAN-3701",
+  "zdi_id": "ZDI-16-466"
+}

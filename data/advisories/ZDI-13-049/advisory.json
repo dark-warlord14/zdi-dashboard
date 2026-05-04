@@ -1,0 +1,27 @@
+{
+  "additional_details": "Novell has issued an update to correct this vulnerability. More details can be found at: http://www.novell.com/support/kb/doc.php?id=7011812",
+  "advisory_date": "2013-03-22",
+  "affected_products": [
+    "Zenworks"
+  ],
+  "affected_vendors": [
+    "Novell"
+  ],
+  "credit": "James Burton Insomnia Security",
+  "cve": "CVE-2013-1080",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2013-1080",
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2012-03-14 - Vulnerability reported to vendor",
+    "2013-03-22 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-13-049 ZDI-CAN-1527 Novell ZENworks Control Center File Upload Remote Code Execution Vulnerability 2013-03-22 CVE-2013-1080 https://www.cve.org/CVERecord?id=CVE-2013-1080 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Novell'] ['Zenworks'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Novell ZENworks. Authentication is not required to exploit this vulnerability. The specific issues exists within ZENworks Control Center which listens on tcp/443 by default. Insufficient authentication checking on /zenworks/jsp/index.jsp allows a remote attacker to upload files to the webserver. By combining this with a directory traversal vulnerability, an attacker can exploit this condition to gain remote code execution as SYSTEM. Novell has issued an update to correct this vulnerability. More details can be found at: http://www.novell.com/support/kb/doc.php?id=7011812 ['2012-03-14 - Vulnerability reported to vendor', '2013-03-22 - Coordinated public release of advisory'] James Burton Insomnia Security https://www.zerodayinitiative.com/advisories/ZDI-13-049/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-13-049/",
+  "title": "Novell ZENworks Control Center File Upload Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Novell ZENworks. Authentication is not required to exploit this vulnerability. The specific issues exists within ZENworks Control Center which listens on tcp/443 by default. Insufficient authentication checking on /zenworks/jsp/index.jsp allows a remote attacker to upload files to the webserver. By combining this with a directory traversal vulnerability, an attacker can exploit this condition to gain remote code execution as SYSTEM.",
+  "zdi_can": "ZDI-CAN-1527",
+  "zdi_id": "ZDI-13-049"
+}

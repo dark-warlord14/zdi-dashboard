@@ -1,0 +1,27 @@
+{
+  "additional_details": "Advantech has issued an update to correct this vulnerability. More details can be found at: https://www.us-cert.gov/ics/advisories/icsa-20-098-01",
+  "advisory_date": "2020-04-08",
+  "affected_products": [
+    "WebAccess/NMS"
+  ],
+  "affected_vendors": [
+    "Advantech"
+  ],
+  "credit": "rgod of 9sg",
+  "cve": "CVE-2020-10621",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2020-10621",
+  "cvss": 9.8,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2019-11-20 - Vulnerability reported to vendor",
+    "2020-04-08 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-20-387 ZDI-CAN-9580 Advantech WebAccess/NMS extProgramAction Unrestricted File Upload Remote Code Execution Vulnerability 2020-04-08 CVE-2020-10621 https://www.cve.org/CVERecord?id=CVE-2020-10621 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['Advantech'] ['WebAccess/NMS'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Advantech WebAccess/NMS. Authentication is not required to exploit this vulnerability. The specific flaw exists within the processing of calls to the extProgramAction.action endpoint. When parsing the filename element, the process does not properly validate user-supplied data, which can allow the upload of arbitrary files. An attacker can leverage this vulnerability to execute code in the context of SYSTEM. Advantech has issued an update to correct this vulnerability. More details can be found at: https://www.us-cert.gov/ics/advisories/icsa-20-098-01 ['2019-11-20 - Vulnerability reported to vendor', '2020-04-08 - Coordinated public release of advisory'] rgod of 9sg https://www.zerodayinitiative.com/advisories/ZDI-20-387/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-20-387/",
+  "title": "Advantech WebAccess/NMS extProgramAction Unrestricted File Upload Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Advantech WebAccess/NMS. Authentication is not required to exploit this vulnerability. The specific flaw exists within the processing of calls to the extProgramAction.action endpoint. When parsing the filename element, the process does not properly validate user-supplied data, which can allow the upload of arbitrary files. An attacker can leverage this vulnerability to execute code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-9580",
+  "zdi_id": "ZDI-20-387"
+}

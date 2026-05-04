@@ -1,0 +1,27 @@
+{
+  "additional_details": "http://www.adobe.com/support/security/bulletins/apsb12-07.html",
+  "advisory_date": "2012-04-09",
+  "affected_products": [
+    "Flash Player"
+  ],
+  "affected_vendors": [
+    "Adobe"
+  ],
+  "credit": "VUPEN Vulnerability Research Team http://www.vupen.com",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 9.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:C",
+  "disclosure_timeline": [
+    "2012-03-12 - Vulnerability reported to vendor",
+    "2012-04-09 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-12-057 ZDI-CAN-1548 (Pwn2Own) Adobe Flash Player NetStream addBytes Remote Code Execution Vulnerability 2012-04-09 9.0 AV:N/AC:L/Au:N/C:P/I:P/A:C ['Adobe'] ['Flash Player'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Adobe Flash Player. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the way Flash Player handles the update of a NetStream object via the appendBytes method which can lead to a use-after-free condition when the function returns. This can result in remote code execution under the context of the current process. http://www.adobe.com/support/security/bulletins/apsb12-07.html ['2012-03-12 - Vulnerability reported to vendor', '2012-04-09 - Coordinated public release of advisory'] VUPEN Vulnerability Research Team http://www.vupen.com https://www.zerodayinitiative.com/advisories/ZDI-12-057/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-12-057/",
+  "title": "(Pwn2Own) Adobe Flash Player NetStream addBytes Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Adobe Flash Player. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the way Flash Player handles the update of a NetStream object via the appendBytes method which can lead to a use-after-free condition when the function returns. This can result in remote code execution under the context of the current process.",
+  "zdi_can": "ZDI-CAN-1548",
+  "zdi_id": "ZDI-12-057"
+}

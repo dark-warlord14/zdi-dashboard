@@ -1,0 +1,27 @@
+{
+  "additional_details": "VMware has issued an update to correct this vulnerability. More details can be found at: https://www.vmware.com/security/advisories/VMSA-2019-0005.html",
+  "advisory_date": "2019-05-29",
+  "affected_products": [
+    "Workstation"
+  ],
+  "affected_vendors": [
+    "VMware"
+  ],
+  "credit": "instructor",
+  "cve": "CVE-2019-5515",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2019-5515",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2019-04-02 - Vulnerability reported to vendor",
+    "2019-05-29 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-19-516 ZDI-CAN-7804 VMware Workstation e1000 Memory Corruption Privilege Escalation Vulnerability 2019-05-29 CVE-2019-5515 https://www.cve.org/CVERecord?id=CVE-2019-5515 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H ['VMware'] ['Workstation'] This vulnerability allows local attackers to execute arbitrary code on vulnerable installations of VMware Workstation. An attacker must first obtain the ability to execute low-privileged code on the target guest system in order to exploit this vulnerability. The specific flaw exists within the e1000 driver. The issue results from the lack of proper validation of user-supplied data, which can result in a memory corruption condition. An attacker can leverage this vulnerability to escalate privileges and execute code in the context of the hypervisor. VMware has issued an update to correct this vulnerability. More details can be found at: https://www.vmware.com/security/advisories/VMSA-2019-0005.html ['2019-04-02 - Vulnerability reported to vendor', '2019-05-29 - Coordinated public release of advisory'] instructor https://www.zerodayinitiative.com/advisories/ZDI-19-516/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-19-516/",
+  "title": "VMware Workstation e1000 Memory Corruption Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to execute arbitrary code on vulnerable installations of VMware Workstation. An attacker must first obtain the ability to execute low-privileged code on the target guest system in order to exploit this vulnerability. The specific flaw exists within the e1000 driver. The issue results from the lack of proper validation of user-supplied data, which can result in a memory corruption condition. An attacker can leverage this vulnerability to escalate privileges and execute code in the context of the hypervisor.",
+  "zdi_can": "ZDI-CAN-7804",
+  "zdi_id": "ZDI-19-516"
+}

@@ -1,0 +1,26 @@
+# ZDI-17-812: (0Day) EMC Data Protection Advisor ScheduledReportResource Command Injection Remote Code Execution Vulnerability
+
+## Metadata
+
+- **ZDI ID:** ZDI-17-812
+- **ZDI-CAN:** ZDI-CAN-4697
+- **Date:** 2017-09-28
+- **CVE:** CVE-2017-10955
+- **CVSS:** 9.0
+- **CVSS Vector:** AV:N/AC:L/Au:S/C:C/I:C/A:C
+- **Affected Vendors:** EMC
+- **Affected Products:** Data Protection Advisor
+- **Credit:** rgod
+- **Source:** https://www.zerodayinitiative.com/advisories/ZDI-17-812/
+## Vulnerability Details
+
+This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of EMC Data Protection Advisor. Authentication is required to exploit this vulnerability. The specific flaw exists within the EMC DPA Application service, which listens on TCP port 9002 by default. When parsing the preScript parameter, the process does not properly validate a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute arbitrary code under the context of SYSTEM.
+
+## Additional Details
+
+This vulnerability is being disclosed publicly without a patch in accordance with the ZDI 120 day deadline. 04/12/2017 - ZDI disclosed the report to the vendor 04/14/2017 - The vendor acknowledged the report as PSRC-4399 05/09/2017 - The vendor responded that 'an intial design flaw of the product and not a vulnerability. If further details are provided then the product team will investigate further into this issue.' 06/27/2017 - ZDI met with the vendor by phone to discuss (multiple cases). We left thinking the vendor wanted more time to revisit the report 08/25/2017 - The vendor again advised ZDI that: The product team did not see this as an issue as the product is functioning by design 09/15/2017 - ZDI advised the vendor that this report will 0-day on 9/26 09/25/2017 - The vendor replied to ZDI and reiterated the position that this is 'by design.' -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the service to trusted machines. Only the clients and servers that have a legitimate procedural relationship with the service should be permitted to communicate with it. This could be accomplished in a number of ways, most notably with firewall rules/whitelisting. These features are available in the native Windows Firewall, as described in http://technet.microsoft.com/en-us/library/cc725770%28WS.10%29.aspx and numerous other Microsoft Knowledge Base articles. -- Vendor Response: The original report from ZDI (ZDI-CAN-4697/ZDI-17-812) chained other vulnerabilities that were reported in conjunction with ZDI-CAN-4697 to achieve pre-authentication remote code execution. Dell EMC has addressed the other vulnerabilities reported to us by ZDI (CVE-2017-8002,CVE-2017-8003 and CVE-2017-8013) and has issued security advisories (ESA-2017-075 and ESA-2017-098) to notify customers to properly patch and mitigate these vulnerabilities. With these fixes applied to DPA, chaining will no longer result in the exploitation of ZDI-CAN-4697/ZDI-17-812 as described in the ZDI article. Additional information is provided at: https://community.emc.com/docs/DOC-61192
+
+## Disclosure Timeline
+
+- 2017-04-12 - Vulnerability reported to vendor
+- 2017-09-28 - Coordinated public release of advisory

@@ -1,0 +1,27 @@
+{
+  "additional_details": "Samsung has issued an update to correct this vulnerability. More details can be found at: https://security.samsungmobile.com/serviceWeb.smsb",
+  "advisory_date": "2023-05-31",
+  "affected_products": [
+    "Galaxy S22"
+  ],
+  "affected_vendors": [
+    "Samsung"
+  ],
+  "credit": "Chim",
+  "cve": "CVE-2023-21514",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-21514",
+  "cvss": 8.8,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2023-01-24 - Vulnerability reported to vendor",
+    "2023-05-31 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-773 ZDI-CAN-19751 (Pwn2Own) Samsung Galaxy S22 InstantPlaysDeepLink Permissive List of Allowed Inputs Remote Code Execution Vulnerability 2023-05-31 CVE-2023-21514 https://www.cve.org/CVERecord?id=CVE-2023-21514 8.8 AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Samsung'] ['Galaxy S22'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Samsung Galaxy S22 smartphones. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the InstantPlaysDeepLink class. The issue results from a permissive list of allowed inputs. An attacker can leverage this vulnerability to execute code in the context of the current user. Samsung has issued an update to correct this vulnerability. More details can be found at: https://security.samsungmobile.com/serviceWeb.smsb ['2023-01-24 - Vulnerability reported to vendor', '2023-05-31 - Coordinated public release of advisory'] Chim https://www.zerodayinitiative.com/advisories/ZDI-23-773/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-773/",
+  "title": "(Pwn2Own) Samsung Galaxy S22 InstantPlaysDeepLink Permissive List of Allowed Inputs Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Samsung Galaxy S22 smartphones. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the InstantPlaysDeepLink class. The issue results from a permissive list of allowed inputs. An attacker can leverage this vulnerability to execute code in the context of the current user.",
+  "zdi_can": "ZDI-CAN-19751",
+  "zdi_id": "ZDI-23-773"
+}

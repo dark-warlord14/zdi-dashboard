@@ -1,0 +1,27 @@
+{
+  "additional_details": "This issue has been addressed in TippingPoint SMS Server release version 2.2.1.4478. Customers can obtain the update through the SMS device or by visiting http://tmc.tippingpoint.com",
+  "advisory_date": "2006-05-09",
+  "affected_products": [
+    "TippingPoint SMS"
+  ],
+  "affected_vendors": [
+    "3Com TippingPoint"
+  ],
+  "credit": "Micheal Cottingham",
+  "cve": "CVE-2006-0993",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2006-0993",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2006-01-19 - Vulnerability reported to vendor",
+    "2006-05-09 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-06-013 ZDI-CAN-017 TippingPoint SMS Server Authentication Bypass Vulnerability 2006-05-09 CVE-2006-0993 https://www.cve.org/CVERecord?id=CVE-2006-0993 ['3Com TippingPoint'] ['TippingPoint SMS'] This vulnerability may allow attackers to access sensitive information from vulnerable TippingPoint SMS servers. The specific flaw exists within the web management interface. Due to insufficient protections on specific directories, an attacker with access to the web interface may be able to view benign data such as the user manual. In the event that the device was being used for backup purposes, it may be possible for an attacker to identify additional information such as configuration settings. This issue has been addressed in TippingPoint SMS Server release version 2.2.1.4478. Customers can obtain the update through the SMS device or by visiting http://tmc.tippingpoint.com ['2006-01-19 - Vulnerability reported to vendor', '2006-05-09 - Coordinated public release of advisory'] Micheal Cottingham https://www.zerodayinitiative.com/advisories/ZDI-06-013/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-06-013/",
+  "title": "TippingPoint SMS Server Authentication Bypass Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability may allow attackers to access sensitive information from vulnerable TippingPoint SMS servers. The specific flaw exists within the web management interface. Due to insufficient protections on specific directories, an attacker with access to the web interface may be able to view benign data such as the user manual. In the event that the device was being used for backup purposes, it may be possible for an attacker to identify additional information such as configuration settings.",
+  "zdi_can": "ZDI-CAN-017",
+  "zdi_id": "ZDI-06-013"
+}

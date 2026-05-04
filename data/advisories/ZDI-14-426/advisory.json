@@ -1,0 +1,27 @@
+{
+  "additional_details": "AlienVault has issued an update to correct this vulnerability. More details can be found at: https://www.alienvault.com/forums/discussion/2306/security-advisory-all-alienvault-versions-prior-to-4-4-1",
+  "advisory_date": "2015-02-23",
+  "affected_products": [
+    "Unified Security Management"
+  ],
+  "affected_vendors": [
+    "AlienVault"
+  ],
+  "credit": "Brandon Perry",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 7.9,
+  "cvss_vector": "AV:N/AC:M/Au:S/C:C/I:C/A:N",
+  "disclosure_timeline": [
+    "2014-03-14 - Vulnerability reported to vendor",
+    "2015-02-23 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-14-426 ZDI-CAN-2049 AlienVault Unified Security Management cloneid SQL Injection and Scanner Binary Command Injection Remote Code Execution Vulnerability 2015-02-23 7.9 AV:N/AC:M/Au:S/C:C/I:C/A:N ['AlienVault'] ['Unified Security Management'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of AlienVault Unified Security Management. Authentication is required to exploit this vulnerability. The specific flaws exist within the cloneid request parameter and Scanner Binary fields. An attacker can leverage these vulnerabilities to read files and achieve remote code execution under the context of the root user. AlienVault has issued an update to correct this vulnerability. More details can be found at: https://www.alienvault.com/forums/discussion/2306/security-advisory-all-alienvault-versions-prior-to-4-4-1 ['2014-03-14 - Vulnerability reported to vendor', '2015-02-23 - Coordinated public release of advisory'] Brandon Perry https://www.zerodayinitiative.com/advisories/ZDI-14-426/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-14-426/",
+  "title": "AlienVault Unified Security Management cloneid SQL Injection and Scanner Binary Command Injection Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of AlienVault Unified Security Management. Authentication is required to exploit this vulnerability. The specific flaws exist within the cloneid request parameter and Scanner Binary fields. An attacker can leverage these vulnerabilities to read files and achieve remote code execution under the context of the root user.",
+  "zdi_can": "ZDI-CAN-2049",
+  "zdi_id": "ZDI-14-426"
+}

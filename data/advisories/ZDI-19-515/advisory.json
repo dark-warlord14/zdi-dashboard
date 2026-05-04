@@ -1,0 +1,27 @@
+{
+  "additional_details": "Samsung has issued an update to correct this vulnerability. More details can be found at: https://security.samsungmobile.com/securityUpdate.smsb",
+  "advisory_date": "2019-05-29",
+  "affected_products": [
+    "KNOX"
+  ],
+  "affected_vendors": [
+    "Samsung"
+  ],
+  "credit": "James dean",
+  "cve": "CVE-2019-6744",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2019-6744",
+  "cvss": 4.3,
+  "cvss_vector": "AV:P/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+  "disclosure_timeline": [
+    "2019-02-01 - Vulnerability reported to vendor",
+    "2019-05-29 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-19-515 ZDI-CAN-7381 Samsung Knox Secure Folder Lock Screen Bypass Vulnerability 2019-05-29 CVE-2019-6744 https://www.cve.org/CVERecord?id=CVE-2019-6744 4.3 AV:P/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N ['Samsung'] ['KNOX'] This vulnerability allows local attackers to disclose sensitive information on vulnerability installations of Samsung Secure Folder. An attacker must first obtain physical access to the device in order to exploit this vulnerability. The specific flaws exists within the the handling of the lock screen for Secure Folder. The issue results from the lack of proper validation that a user has correctly authenticated. An attacker can leverage this vulnerability to disclose the contents of the secure container. Samsung has issued an update to correct this vulnerability. More details can be found at: https://security.samsungmobile.com/securityUpdate.smsb ['2019-02-01 - Vulnerability reported to vendor', '2019-05-29 - Coordinated public release of advisory'] James dean https://www.zerodayinitiative.com/advisories/ZDI-19-515/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-19-515/",
+  "title": "Samsung Knox Secure Folder Lock Screen Bypass Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to disclose sensitive information on vulnerability installations of Samsung Secure Folder. An attacker must first obtain physical access to the device in order to exploit this vulnerability. The specific flaws exists within the the handling of the lock screen for Secure Folder. The issue results from the lack of proper validation that a user has correctly authenticated. An attacker can leverage this vulnerability to disclose the contents of the secure container.",
+  "zdi_can": "ZDI-CAN-7381",
+  "zdi_id": "ZDI-19-515"
+}

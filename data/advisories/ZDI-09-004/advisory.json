@@ -1,0 +1,27 @@
+{
+  "additional_details": "Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technology/deploy/security/critical-patch-updates/cpujan2009.html",
+  "advisory_date": "2009-01-14",
+  "affected_products": [
+    "TimesTen"
+  ],
+  "affected_vendors": [
+    "Oracle"
+  ],
+  "credit": "Joxean Koret",
+  "cve": "CVE-2008-5440",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2008-5440",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2008-04-07 - Vulnerability reported to vendor",
+    "2009-01-14 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-09-004 ZDI-CAN-300 Oracle TimesTen evtdump Remote Format String Vulnerability 2009-01-14 CVE-2008-5440 https://www.cve.org/CVERecord?id=CVE-2008-5440 ['Oracle'] ['TimesTen'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Oracle TimesTen. User interaction is not required to exploit this vulnerability. The specific flaw exists in the evtdump CGI module, which is used to write to an internal log file. The parameter 'msg' does not properly sanitize format string tokens and can be exploited to execute arbitrary code. Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technology/deploy/security/critical-patch-updates/cpujan2009.html ['2008-04-07 - Vulnerability reported to vendor', '2009-01-14 - Coordinated public release of advisory'] Joxean Koret https://www.zerodayinitiative.com/advisories/ZDI-09-004/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-09-004/",
+  "title": "Oracle TimesTen evtdump Remote Format String Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Oracle TimesTen. User interaction is not required to exploit this vulnerability. The specific flaw exists in the evtdump CGI module, which is used to write to an internal log file. The parameter 'msg' does not properly sanitize format string tokens and can be exploited to execute arbitrary code.",
+  "zdi_can": "ZDI-CAN-300",
+  "zdi_id": "ZDI-09-004"
+}

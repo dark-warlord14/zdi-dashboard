@@ -1,0 +1,27 @@
+{
+  "additional_details": "Cisco has issued an update to correct this vulnerability. More details can be found at: https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20171018-nam",
+  "advisory_date": "2017-11-20",
+  "affected_products": [
+    "Prime Network Analysis Module"
+  ],
+  "affected_vendors": [
+    "Cisco"
+  ],
+  "credit": "rgod",
+  "cve": "CVE-2017-12285",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-12285",
+  "cvss": 6.4,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:N/I:P/A:P",
+  "disclosure_timeline": [
+    "2017-07-06 - Vulnerability reported to vendor",
+    "2017-11-20 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-17-918 ZDI-CAN-4918 Cisco Prime Network Analysis Module graph sfile Parameter Directory Traversal Arbitrary File Deletion Vulnerability 2017-11-20 CVE-2017-12285 https://www.cve.org/CVERecord?id=CVE-2017-12285 6.4 AV:N/AC:L/Au:N/C:N/I:P/A:P ['Cisco'] ['Prime Network Analysis Module'] This vulnerability allows remote attackers to delete arbitrary files on vulnerable installations of Cisco Prime Network Analysis Module. Authentication is not required to exploit this vulnerability. The specific flaw exists within graph.php. When parsing the sfile parameter, the script does not properly validate a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to delete any files accessible to the web service. Cisco has issued an update to correct this vulnerability. More details can be found at: https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20171018-nam ['2017-07-06 - Vulnerability reported to vendor', '2017-11-20 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-17-918/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-918/",
+  "title": "Cisco Prime Network Analysis Module graph sfile Parameter Directory Traversal Arbitrary File Deletion Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to delete arbitrary files on vulnerable installations of Cisco Prime Network Analysis Module. Authentication is not required to exploit this vulnerability. The specific flaw exists within graph.php. When parsing the sfile parameter, the script does not properly validate a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to delete any files accessible to the web service.",
+  "zdi_can": "ZDI-CAN-4918",
+  "zdi_id": "ZDI-17-918"
+}

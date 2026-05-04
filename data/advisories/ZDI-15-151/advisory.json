@@ -1,0 +1,27 @@
+{
+  "additional_details": "Novell has issued an update to correct this vulnerability. More details can be found at: https://www.novell.com/support/kb/doc.php?id=7016431",
+  "advisory_date": "2015-04-22",
+  "affected_products": [
+    "Zenworks"
+  ],
+  "affected_vendors": [
+    "Novell"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2015-0781",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-0781",
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2015-01-15 - Vulnerability reported to vendor",
+    "2015-04-22 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-15-151 ZDI-CAN-2600 Novell Zenworks Rtrlet doPost Directory Traversal Remote Code Execution Vulnerability 2015-04-22 CVE-2015-0781 https://www.cve.org/CVERecord?id=CVE-2015-0781 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Novell'] ['Zenworks'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Novell Zenworks. By default, authentication is not required to exploit this vulnerability. The specific flaw exists within the doPost method of the Rtrlet class. The issue lies in the failure to sanitize the path of files uploaded, allowing files to be placed anywhere on the server. An attacker can leverage this vulnerability to execute arbitrary code in the context of the current process. Novell has issued an update to correct this vulnerability. More details can be found at: https://www.novell.com/support/kb/doc.php?id=7016431 ['2015-01-15 - Vulnerability reported to vendor', '2015-04-22 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-15-151/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-151/",
+  "title": "Novell Zenworks Rtrlet doPost Directory Traversal Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Novell Zenworks. By default, authentication is not required to exploit this vulnerability. The specific flaw exists within the doPost method of the Rtrlet class. The issue lies in the failure to sanitize the path of files uploaded, allowing files to be placed anywhere on the server. An attacker can leverage this vulnerability to execute arbitrary code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-2600",
+  "zdi_id": "ZDI-15-151"
+}

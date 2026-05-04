@@ -1,0 +1,27 @@
+{
+  "additional_details": "Panda Software has issued an update to correct this vulnerability. More details can be found at: http://www.pandasoftware.com/Download/tree/",
+  "advisory_date": "2007-07-20",
+  "affected_products": [
+    "AdminSecure"
+  ],
+  "affected_vendors": [
+    "Panda Software"
+  ],
+  "credit": "Tenable Network Security",
+  "cve": "CVE-2007-3026",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2007-3026",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2006-11-15 - Vulnerability reported to vendor",
+    "2007-07-20 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-07-041 ZDI-CAN-127 Panda Software AdminSecure Agent Heap Overflow Vulnerability 2007-07-20 CVE-2007-3026 https://www.cve.org/CVERecord?id=CVE-2007-3026 ['Panda Software'] ['AdminSecure'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Panda AdminSecure. Authentication is not required to exploit this vulnerability. The specific flaw exists within the AdminSecure agent which binds by default to TCP port 19226 or 19227. When processing traffic on the listening port, the agent trusts a user-supplied length value for a memory allocation. Specific size values can result in an integer overflow and subsequently insufficient allocation size. This results in a heap-based buffer overflow that can be leverage to execute arbitrary code. Panda Software has issued an update to correct this vulnerability. More details can be found at: http://www.pandasoftware.com/Download/tree/ ['2006-11-15 - Vulnerability reported to vendor', '2007-07-20 - Coordinated public release of advisory'] Tenable Network Security https://www.zerodayinitiative.com/advisories/ZDI-07-041/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-07-041/",
+  "title": "Panda Software AdminSecure Agent Heap Overflow Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Panda AdminSecure. Authentication is not required to exploit this vulnerability. The specific flaw exists within the AdminSecure agent which binds by default to TCP port 19226 or 19227. When processing traffic on the listening port, the agent trusts a user-supplied length value for a memory allocation. Specific size values can result in an integer overflow and subsequently insufficient allocation size. This results in a heap-based buffer overflow that can be leverage to execute arbitrary code.",
+  "zdi_can": "ZDI-CAN-127",
+  "zdi_id": "ZDI-07-041"
+}

@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/en-us/vulnerability/CVE-2021-34519",
+  "advisory_date": "2021-07-19",
+  "affected_products": [
+    "SharePoint"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "mr_me",
+  "cve": "CVE-2021-34519",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2021-34519",
+  "cvss": 3.5,
+  "cvss_vector": "AV:A/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+  "disclosure_timeline": [
+    "2021-05-07 - Vulnerability reported to vendor",
+    "2021-07-19 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-21-830 ZDI-CAN-13682 Microsoft SharePoint Missing Check of Message Integrity Vulnerability 2021-07-19 CVE-2021-34519 https://www.cve.org/CVERecord?id=CVE-2021-34519 3.5 AV:A/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N ['Microsoft'] ['SharePoint'] This vulnerability allows network-adjacent attackers to tamper with update data on affected installations of Microsoft SharePoint. User interaction is required to exploit this vulnerability. The specific flaw exists within the handling of SharePoint Help updates. The issue results from a missing integrity check on update downloads. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the service account. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/en-us/vulnerability/CVE-2021-34519 ['2021-05-07 - Vulnerability reported to vendor', '2021-07-19 - Coordinated public release of advisory'] mr_me https://www.zerodayinitiative.com/advisories/ZDI-21-830/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-21-830/",
+  "title": "Microsoft SharePoint Missing Check of Message Integrity Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows network-adjacent attackers to tamper with update data on affected installations of Microsoft SharePoint. User interaction is required to exploit this vulnerability. The specific flaw exists within the handling of SharePoint Help updates. The issue results from a missing integrity check on update downloads. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the service account.",
+  "zdi_can": "ZDI-CAN-13682",
+  "zdi_id": "ZDI-21-830"
+}

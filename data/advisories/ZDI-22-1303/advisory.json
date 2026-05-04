@@ -1,0 +1,27 @@
+{
+  "additional_details": "Docker has issued an update to correct this vulnerability. More details can be found at: https://docs.docker.com/desktop/release-notes/#security-3",
+  "advisory_date": "2022-09-29",
+  "affected_products": [
+    "Desktop"
+  ],
+  "affected_vendors": [
+    "Docker"
+  ],
+  "credit": "Hashim Jawad (@ihack4falafel)",
+  "cve": "CVE-2022-23774",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-23774",
+  "cvss": 6.1,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:H",
+  "disclosure_timeline": [
+    "2022-02-09 - Vulnerability reported to vendor",
+    "2022-09-29 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-1303 ZDI-CAN-15310 Docker Desktop Link Following Denial-of-Service Vulnerability 2022-09-29 CVE-2022-23774 https://www.cve.org/CVERecord?id=CVE-2022-23774 6.1 AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:H ['Docker'] ['Desktop'] This vulnerability allows local attackers to create a denial-of-service condition on affected installations of Docker Desktop. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Docker Desktop Service. By creating a symbolic link, an attacker can abuse the service to delete a file. An attacker can leverage this vulnerability to create a denial-of-service condition on the system. Docker has issued an update to correct this vulnerability. More details can be found at: https://docs.docker.com/desktop/release-notes/#security-3 ['2022-02-09 - Vulnerability reported to vendor', '2022-09-29 - Coordinated public release of advisory'] Hashim Jawad (@ihack4falafel) https://www.zerodayinitiative.com/advisories/ZDI-22-1303/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-1303/",
+  "title": "Docker Desktop Link Following Denial-of-Service Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to create a denial-of-service condition on affected installations of Docker Desktop. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Docker Desktop Service. By creating a symbolic link, an attacker can abuse the service to delete a file. An attacker can leverage this vulnerability to create a denial-of-service condition on the system.",
+  "zdi_can": "ZDI-CAN-15310",
+  "zdi_id": "ZDI-22-1303"
+}

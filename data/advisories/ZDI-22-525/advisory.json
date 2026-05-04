@@ -1,0 +1,27 @@
+{
+  "additional_details": "Netatalk has issued an update to correct this vulnerability. More details can be found at: https://netatalk.sourceforge.io/3.1/ReleaseNotes3.1.13.html",
+  "advisory_date": "2022-03-23",
+  "affected_products": [
+    "Netatalk"
+  ],
+  "affected_vendors": [
+    "Netatalk"
+  ],
+  "credit": "Theori (@theori_io)",
+  "cve": "CVE-2022-23124",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-23124",
+  "cvss": 5.3,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+  "disclosure_timeline": [
+    "2021-12-08 - Vulnerability reported to vendor",
+    "2022-03-23 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-525 ZDI-CAN-15870 (Pwn2Own) Netatalk get_finderinfo Out-Of-Bounds Read Information Disclosure Vulnerability 2022-03-23 CVE-2022-23124 https://www.cve.org/CVERecord?id=CVE-2022-23124 5.3 AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N ['Netatalk'] ['Netatalk'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Netatalk. Authentication is not required to exploit this vulnerability. The specific flaw exists within the get_finderinfo method. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of root. Netatalk has issued an update to correct this vulnerability. More details can be found at: https://netatalk.sourceforge.io/3.1/ReleaseNotes3.1.13.html ['2021-12-08 - Vulnerability reported to vendor', '2022-03-23 - Coordinated public release of advisory'] Theori (@theori_io) https://www.zerodayinitiative.com/advisories/ZDI-22-525/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-525/",
+  "title": "(Pwn2Own) Netatalk get_finderinfo Out-Of-Bounds Read Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Netatalk. Authentication is not required to exploit this vulnerability. The specific flaw exists within the get_finderinfo method. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of root.",
+  "zdi_can": "ZDI-CAN-15870",
+  "zdi_id": "ZDI-22-525"
+}

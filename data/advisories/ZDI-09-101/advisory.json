@@ -1,0 +1,27 @@
+{
+  "additional_details": "Novell has issued an update to correct this vulnerability. More details can be found at: http://www.novell.com/support/viewContent.do?externalId=7004945&sliceId=1",
+  "advisory_date": "2009-11-30",
+  "affected_products": [
+    "Zenworks"
+  ],
+  "affected_vendors": [
+    "Novell"
+  ],
+  "credit": "Anonymous",
+  "cve": null,
+  "cve_url": null,
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2009-03-26 - Vulnerability reported to vendor",
+    "2009-11-30 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-09-101 ZDI-CAN-450 Novell ZENworks Desktop Management Installation Service Remote Information Disclosure Vulnerability 2009-11-30 ['Novell'] ['Zenworks'] This vulnerability allows remote attackers to impersonate valid users in vulnerable installations of Novell ZENworks Desktop Management. Authentication is not required to exploit this vulnerability. The specific flaw exists due to an information leak when querying the AWSI service which listens by default on TCP port 8039. The leak allows attackers to glean the security token of any remote machine. Once obtained this token can be added to the attackers registry and any objects the target has in the eDirectory tree can be accessed. The vulnerability lies in the combination of the ability to query the Desktop Management server for a remote clients workstation token and the lack of checking the token against the proper host. Novell has issued an update to correct this vulnerability. More details can be found at: http://www.novell.com/support/viewContent.do?externalId=7004945&sliceId=1 ['2009-03-26 - Vulnerability reported to vendor', '2009-11-30 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-09-101/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-09-101/",
+  "title": "Novell ZENworks Desktop Management Installation Service Remote Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to impersonate valid users in vulnerable installations of Novell ZENworks Desktop Management. Authentication is not required to exploit this vulnerability. The specific flaw exists due to an information leak when querying the AWSI service which listens by default on TCP port 8039. The leak allows attackers to glean the security token of any remote machine. Once obtained this token can be added to the attackers registry and any objects the target has in the eDirectory tree can be accessed. The vulnerability lies in the combination of the ability to query the Desktop Management server for a remote clients workstation token and the lack of checking the token against the proper host.",
+  "zdi_can": "ZDI-CAN-450",
+  "zdi_id": "ZDI-09-101"
+}

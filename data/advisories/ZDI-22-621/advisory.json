@@ -1,0 +1,27 @@
+{
+  "additional_details": "Samsung has issued an update to correct this vulnerability. More details can be found at: https://security.samsungmobile.com/serviceWeb.smsb",
+  "advisory_date": "2022-04-12",
+  "affected_products": [
+    "Galaxy S21"
+  ],
+  "affected_vendors": [
+    "Samsung"
+  ],
+  "credit": "Sam Thomas (@_s_n_t) of Pentest Ltd (@pentestltd)",
+  "cve": "CVE-2022-1230",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-1230",
+  "cvss": 3.9,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:N",
+  "disclosure_timeline": [
+    "2021-12-30 - Vulnerability reported to vendor",
+    "2022-04-12 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-621 ZDI-CAN-15918 (Pwn2Own) Samsung Galaxy S21 loadUrl Open Redirect Privilege Escalation Vulnerability 2022-04-12 CVE-2022-1230 https://www.cve.org/CVERecord?id=CVE-2022-1230 3.9 AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:N ['Samsung'] ['Galaxy S21'] This vulnerability allows local attackers to execute arbitrary code on affected installations of Samsung Galaxy S21 phones. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of redirections. An attacker can force a redirection to a site that serves malicious content. An attacker can leverage this in conjunction with other vulnerabilities to escalate privileges and execute arbitrary code in the context of the current user. Samsung has issued an update to correct this vulnerability. More details can be found at: https://security.samsungmobile.com/serviceWeb.smsb ['2021-12-30 - Vulnerability reported to vendor', '2022-04-12 - Coordinated public release of advisory'] Sam Thomas (@_s_n_t) of Pentest Ltd (@pentestltd) https://www.zerodayinitiative.com/advisories/ZDI-22-621/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-621/",
+  "title": "(Pwn2Own) Samsung Galaxy S21 loadUrl Open Redirect Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to execute arbitrary code on affected installations of Samsung Galaxy S21 phones. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of redirections. An attacker can force a redirection to a site that serves malicious content. An attacker can leverage this in conjunction with other vulnerabilities to escalate privileges and execute arbitrary code in the context of the current user.",
+  "zdi_can": "ZDI-CAN-15918",
+  "zdi_id": "ZDI-22-621"
+}

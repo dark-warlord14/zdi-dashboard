@@ -1,0 +1,27 @@
+{
+  "additional_details": "Apache has issued an update to correct this vulnerability. More details can be found at: http://groovy-lang.org/security.html",
+  "advisory_date": "2017-12-27",
+  "affected_products": [
+    "Groovy"
+  ],
+  "affected_vendors": [
+    "Apache"
+  ],
+  "credit": "Sam Thomas of Secarma Limited",
+  "cve": "CVE-2016-6814",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-6814",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2016-09-19 - Vulnerability reported to vendor",
+    "2017-12-27 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-17-044 ZDI-CAN-3936 Apache Groovy MethodClosure Deserialization of Untrusted Data Remote Code Execution Vulnerability 2017-12-27 CVE-2016-6814 https://www.cve.org/CVERecord?id=CVE-2016-6814 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Apache'] ['Groovy'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apache Groovy. Interaction with this library is required to exploit this vulnerability but attack vectors may vary depending on implementation. The specific flaw exists within the handling of serialized MethodClosure objects. A crafted stream of bytes, when deserialized, can result in the creation of an unsafe instance of MethodClosure. An attacker can leverage this vulnerability to execute arbitrary code under the context of the current process. Apache has issued an update to correct this vulnerability. More details can be found at: http://groovy-lang.org/security.html ['2016-09-19 - Vulnerability reported to vendor', '2017-12-27 - Coordinated public release of advisory'] Sam Thomas of Secarma Limited https://www.zerodayinitiative.com/advisories/ZDI-17-044/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-044/",
+  "title": "Apache Groovy MethodClosure Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apache Groovy. Interaction with this library is required to exploit this vulnerability but attack vectors may vary depending on implementation. The specific flaw exists within the handling of serialized MethodClosure objects. A crafted stream of bytes, when deserialized, can result in the creation of an unsafe instance of MethodClosure. An attacker can leverage this vulnerability to execute arbitrary code under the context of the current process.",
+  "zdi_can": "ZDI-CAN-3936",
+  "zdi_id": "ZDI-17-044"
+}

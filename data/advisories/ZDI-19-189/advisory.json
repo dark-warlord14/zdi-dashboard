@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2019-0601",
+  "advisory_date": "2019-02-12",
+  "affected_products": [
+    "Windows"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Lucas Leong (@_wmliang_)",
+  "cve": "CVE-2019-0601",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2019-0601",
+  "cvss": 6.6,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:N/A:H",
+  "disclosure_timeline": [
+    "2018-10-18 - Vulnerability reported to vendor",
+    "2019-02-12 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-19-189 ZDI-CAN-7380 Microsoft HID Driver Out-of-Bounds Read Information Disclosure Vulnerability 2019-02-12 CVE-2019-0601 https://www.cve.org/CVERecord?id=CVE-2019-0601 6.6 AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:N/A:H ['Microsoft'] ['Windows'] This vulnerability allows attackers to disclose sensitive information on vulnerable installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists in the hidparse.sys driver, within function HidPParseCollections call. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to escalate privileges in the context of the kernel. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2019-0601 ['2018-10-18 - Vulnerability reported to vendor', '2019-02-12 - Coordinated public release of advisory'] Lucas Leong (@_wmliang_) https://www.zerodayinitiative.com/advisories/ZDI-19-189/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-19-189/",
+  "title": "Microsoft HID Driver Out-of-Bounds Read Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows attackers to disclose sensitive information on vulnerable installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists in the hidparse.sys driver, within function HidPParseCollections call. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to escalate privileges in the context of the kernel.",
+  "zdi_can": "ZDI-CAN-7380",
+  "zdi_id": "ZDI-19-189"
+}

@@ -1,0 +1,28 @@
+{
+  "additional_details": "Red Hat has issued an update to correct this vulnerability. More details can be found at: https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=103406b38c600fec1fe375a77b27d87e314aea09",
+  "advisory_date": "2025-07-24",
+  "affected_products": [
+    "Enterprise Linux"
+  ],
+  "affected_vendors": [
+    "Red Hat"
+  ],
+  "credit": "Gerrard Tai of STAR Labs SG Pte. Ltd.",
+  "cve": "CVE-2025-38350",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-38350",
+  "cvss": 8.8,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2025-05-29 - Vulnerability reported to vendor",
+    "2025-07-24 - Coordinated public release of advisory",
+    "2025-07-24 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-651 ZDI-CAN-27159 (Pwn2Own) Red Hat Enterprise Linux CBS Packet Scheduling Use-After-Free Local Privilege Escalation Vulnerability 2025-07-24 CVE-2025-38350 https://www.cve.org/CVERecord?id=CVE-2025-38350 8.8 AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H ['Red Hat'] ['Enterprise Linux'] This vulnerability allows local attackers to escalate privileges on affected installations of Red Hat Enterprise Linux. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of hfsc_class objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the kernel. Red Hat has issued an update to correct this vulnerability. More details can be found at: https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=103406b38c600fec1fe375a77b27d87e314aea09 ['2025-05-29 - Vulnerability reported to vendor', '2025-07-24 - Coordinated public release of advisory', '2025-07-24 - Advisory Updated'] Gerrard Tai of STAR Labs SG Pte. Ltd. https://www.zerodayinitiative.com/advisories/ZDI-25-651/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-651/",
+  "title": "(Pwn2Own) Red Hat Enterprise Linux CBS Packet Scheduling Use-After-Free Local Privilege Escalation Vulnerability",
+  "updated_date": "2025-07-24",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Red Hat Enterprise Linux. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of hfsc_class objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the kernel.",
+  "zdi_can": "ZDI-CAN-27159",
+  "zdi_id": "ZDI-25-651"
+}

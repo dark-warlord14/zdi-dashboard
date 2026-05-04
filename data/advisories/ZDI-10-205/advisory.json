@@ -1,0 +1,27 @@
+{
+  "additional_details": "Sun Microsystems has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/javacpuoct2010-176258.html",
+  "advisory_date": "2010-10-12",
+  "affected_products": [
+    "Java Runtime"
+  ],
+  "affected_vendors": [
+    "Sun Microsystems"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2010-3565",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2010-3565",
+  "cvss": 9.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:C",
+  "disclosure_timeline": [
+    "2010-06-17 - Vulnerability reported to vendor",
+    "2010-10-12 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-10-205 ZDI-CAN-809 Oracle Sun JRE JPEGImageWriter.writeImage Remote Code Execution Vulnerability 2010-10-12 CVE-2010-3565 https://www.cve.org/CVERecord?id=CVE-2010-3565 9.0 AV:N/AC:L/Au:N/C:P/I:P/A:C ['Sun Microsystems'] ['Java Runtime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Sun's Java Runtime Environment. User interaction is required to exploit this vulnerability in that the target must visit a malicious page. The specific flaw exists in the processing of JPEG image dimensions. When specifying large values to the dimensions of a subsample an integer overflow occurs leading to memory corruption. Successful exploitation of this vulnerability can lead to remote compromise under the credentials of the currently logged in user. Sun Microsystems has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/javacpuoct2010-176258.html ['2010-06-17 - Vulnerability reported to vendor', '2010-10-12 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-10-205/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-205/",
+  "title": "Oracle Sun JRE JPEGImageWriter.writeImage Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Sun's Java Runtime Environment. User interaction is required to exploit this vulnerability in that the target must visit a malicious page. The specific flaw exists in the processing of JPEG image dimensions. When specifying large values to the dimensions of a subsample an integer overflow occurs leading to memory corruption. Successful exploitation of this vulnerability can lead to remote compromise under the credentials of the currently logged in user.",
+  "zdi_can": "ZDI-CAN-809",
+  "zdi_id": "ZDI-10-205"
+}

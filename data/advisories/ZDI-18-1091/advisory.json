@@ -1,0 +1,28 @@
+{
+  "additional_details": "Wecon has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-18-212-03 This vulnerability is being disclosed publicly without a patch in accordance with the ZDI 120 day deadline. 05/18/18 - ZDI disclosed the reports to ICS-CERT 07/06/18 - ZDI inquired about the status of the reports 09/19/18 - ZDI notified ICS-CERT of the intent to 0-day these on 9/26 -- Mitigation: Given the nature of the vulnerability the only salient mitigation strategy is to restrict interaction with the application to trusted files.",
+  "advisory_date": "2018-09-26",
+  "affected_products": [
+    "LeviStudioU"
+  ],
+  "affected_vendors": [
+    "Wecon"
+  ],
+  "credit": "Jose Luis Zayas Banderas",
+  "cve": "CVE-2018-10614",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2018-10614",
+  "cvss": 7.1,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:C/I:N/A:N",
+  "disclosure_timeline": [
+    "2018-05-18 - Vulnerability reported to vendor",
+    "2018-09-26 - Coordinated public release of advisory",
+    "2018-09-26 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-1091 ZDI-CAN-6251 (0Day) Wecon LeviStudioU xmlparser LoadXMLFile XML External Entity Processing Information Disclosure Vulnerability 2018-09-26 CVE-2018-10614 https://www.cve.org/CVERecord?id=CVE-2018-10614 7.1 AV:N/AC:M/Au:N/C:C/I:N/A:N ['Wecon'] ['LeviStudioU'] This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Wecon LeviStudioU. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the processing of project files. Due to the improper restriction of XML External Entity (XXE) references, a specially crafted document specifying a URI causes the XML parser to access the URI and embed the contents back into the XML document for further processing. An attacker can leverage this vulnerability to disclose information under the context of Administrator. Wecon has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-18-212-03 This vulnerability is being disclosed publicly without a patch in accordance with the ZDI 120 day deadline. 05/18/18 - ZDI disclosed the reports to ICS-CERT 07/06/18 - ZDI inquired about the status of the reports 09/19/18 - ZDI notified ICS-CERT of the intent to 0-day these on 9/26 -- Mitigation: Given the nature of the vulnerability the only salient mitigation strategy is to restrict interaction with the application to trusted files. ['2018-05-18 - Vulnerability reported to vendor', '2018-09-26 - Coordinated public release of advisory', '2018-09-26 - Advisory Updated'] Jose Luis Zayas Banderas https://www.zerodayinitiative.com/advisories/ZDI-18-1091/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-1091/",
+  "title": "(0Day) Wecon LeviStudioU xmlparser LoadXMLFile XML External Entity Processing Information Disclosure Vulnerability",
+  "updated_date": "2018-09-26",
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Wecon LeviStudioU. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the processing of project files. Due to the improper restriction of XML External Entity (XXE) references, a specially crafted document specifying a URI causes the XML parser to access the URI and embed the contents back into the XML document for further processing. An attacker can leverage this vulnerability to disclose information under the context of Administrator.",
+  "zdi_can": "ZDI-CAN-6251",
+  "zdi_id": "ZDI-18-1091"
+}

@@ -1,0 +1,27 @@
+{
+  "additional_details": "http://www.novell.com/support/viewContent.do?externalId=7007075",
+  "advisory_date": "2010-09-15",
+  "affected_products": [
+    "eDirectory"
+  ],
+  "affected_vendors": [
+    "Novell"
+  ],
+  "credit": "1c239c43f521145fa8385d64a9c32243",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2010-02-02 - Vulnerability reported to vendor",
+    "2010-09-15 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-10-178 ZDI-CAN-680 Novell PlateSpin Orchestrate Graph Rendering Remote Code Execution Vulnerability 2010-09-15 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Novell'] ['eDirectory'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Novell Platespin Orchestrate. Authentication is not required to exploit this vulnerability. The specific flaw exists within how the application utilizes a bundled component for rendering graphs. The application will pass user-supplied arguments to this component without proper sanitization. An attacker can abuse this to specify arbitrary arguments to this tool. Successful exploitation will lead to code execution in the context of the graph component application. http://www.novell.com/support/viewContent.do?externalId=7007075 ['2010-02-02 - Vulnerability reported to vendor', '2010-09-15 - Coordinated public release of advisory'] 1c239c43f521145fa8385d64a9c32243 https://www.zerodayinitiative.com/advisories/ZDI-10-178/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-178/",
+  "title": "Novell PlateSpin Orchestrate Graph Rendering Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Novell Platespin Orchestrate. Authentication is not required to exploit this vulnerability. The specific flaw exists within how the application utilizes a bundled component for rendering graphs. The application will pass user-supplied arguments to this component without proper sanitization. An attacker can abuse this to specify arbitrary arguments to this tool. Successful exploitation will lead to code execution in the context of the graph component application.",
+  "zdi_can": "ZDI-CAN-680",
+  "zdi_id": "ZDI-10-178"
+}

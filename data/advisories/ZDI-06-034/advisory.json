@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/Bulletin/MS06-062.mspx",
+  "advisory_date": "2006-10-10",
+  "affected_products": [
+    "Office Word"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Arnaud Dovi 'class101' http://heapoverflow.com",
+  "cve": "CVE-2006-3650",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2006-3650",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2006-06-14 - Vulnerability reported to vendor",
+    "2006-10-10 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-06-034 ZDI-CAN-061 Microsoft Word Malformed Chart Code Execution Vulnerability 2006-10-10 CVE-2006-3650 https://www.cve.org/CVERecord?id=CVE-2006-3650 ['Microsoft'] ['Office Word'] This vulnerability allows attackers to execute arbitrary code on vulnerable installations of Microsoft Office. Exploitation requires that the attacker coerce the target user into opening a malicious .XLS file. The specific flaw exists during the processing of malformed charts embedded within a Word document. Upon closing the document, certain pointers are corrupted with data direclty from the file. A later dereference of these corrupted pointers can result in code execution. Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/Bulletin/MS06-062.mspx ['2006-06-14 - Vulnerability reported to vendor', '2006-10-10 - Coordinated public release of advisory'] Arnaud Dovi 'class101' http://heapoverflow.com https://www.zerodayinitiative.com/advisories/ZDI-06-034/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-06-034/",
+  "title": "Microsoft Word Malformed Chart Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows attackers to execute arbitrary code on vulnerable installations of Microsoft Office. Exploitation requires that the attacker coerce the target user into opening a malicious .XLS file. The specific flaw exists during the processing of malformed charts embedded within a Word document. Upon closing the document, certain pointers are corrupted with data direclty from the file. A later dereference of these corrupted pointers can result in code execution.",
+  "zdi_can": "ZDI-CAN-061",
+  "zdi_id": "ZDI-06-034"
+}

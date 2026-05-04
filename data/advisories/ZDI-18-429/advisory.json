@@ -1,0 +1,28 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-8112",
+  "advisory_date": "2018-05-14",
+  "affected_products": [
+    "Edge"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Danny__Wei of Tencent's Xuanwu Lab",
+  "cve": "CVE-2018-8112",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2018-8112",
+  "cvss": 4.4,
+  "cvss_vector": "AV:L/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2018-01-30 - Vulnerability reported to vendor",
+    "2018-05-14 - Coordinated public release of advisory",
+    "2018-05-14 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-429 ZDI-CAN-5626 Microsoft Edge XML File Sandbox Escape Vulnerability 2018-05-14 CVE-2018-8112 https://www.cve.org/CVERecord?id=CVE-2018-8112 4.4 AV:L/AC:M/Au:N/C:P/I:P/A:P ['Microsoft'] ['Edge'] This vulnerability allows local attackers to escape the sandbox on vulnerable installations of Microsoft Edge. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists due to the fact that various operations can be triggered from within the Microsoft Edge sandbox. Considered individually, these operations do not pose a risk. However, they can be used in combination to produce an unsafe result. An attacker can leverage this in conjunction with other vulnerabilities to execute code under the context of the current user at medium integrity. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-8112 ['2018-01-30 - Vulnerability reported to vendor', '2018-05-14 - Coordinated public release of advisory', '2018-05-14 - Advisory Updated'] Danny__Wei of Tencent's Xuanwu Lab https://www.zerodayinitiative.com/advisories/ZDI-18-429/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-429/",
+  "title": "Microsoft Edge XML File Sandbox Escape Vulnerability",
+  "updated_date": "2018-05-14",
+  "vulnerability_details": "This vulnerability allows local attackers to escape the sandbox on vulnerable installations of Microsoft Edge. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists due to the fact that various operations can be triggered from within the Microsoft Edge sandbox. Considered individually, these operations do not pose a risk. However, they can be used in combination to produce an unsafe result. An attacker can leverage this in conjunction with other vulnerabilities to execute code under the context of the current user at medium integrity.",
+  "zdi_can": "ZDI-CAN-5626",
+  "zdi_id": "ZDI-18-429"
+}

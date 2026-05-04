@@ -1,0 +1,27 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-us/HT210792",
+  "advisory_date": "2019-12-19",
+  "affected_products": [
+    "macOS"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "Mac",
+  "cve": "CVE-2019-8835",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2019-8835",
+  "cvss": 8.8,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2019-08-07 - Vulnerability reported to vendor",
+    "2019-12-19 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-19-1026 ZDI-CAN-8767 Apple macOS apfs Use-After-Free Privilege Escalation Vulnerability 2019-12-19 CVE-2019-8835 https://www.cve.org/CVERecord?id=CVE-2019-8835 8.8 AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H ['Apple'] ['macOS'] This vulnerability allows local attackers to escalate privileges on affected installations of Apple macOS. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the apfs kernel extension. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this to escalate privileges and execute code in the context of the kernel. Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-us/HT210792 ['2019-08-07 - Vulnerability reported to vendor', '2019-12-19 - Coordinated public release of advisory'] Mac https://www.zerodayinitiative.com/advisories/ZDI-19-1026/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-19-1026/",
+  "title": "Apple macOS apfs Use-After-Free Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Apple macOS. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the apfs kernel extension. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this to escalate privileges and execute code in the context of the kernel.",
+  "zdi_can": "ZDI-CAN-8767",
+  "zdi_id": "ZDI-19-1026"
+}

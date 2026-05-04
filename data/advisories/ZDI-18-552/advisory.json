@@ -1,0 +1,28 @@
+{
+  "additional_details": "Google has issued an update to correct this vulnerability. More details can be found at: https://electronjs.org/blog/protocol-handler-fix.",
+  "advisory_date": "2018-06-06",
+  "affected_products": [
+    "Web Designer"
+  ],
+  "affected_vendors": [
+    "Google"
+  ],
+  "credit": "rgod",
+  "cve": "CVE-2018-1000006",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2018-1000006",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2018-01-24 - Vulnerability reported to vendor",
+    "2018-06-06 - Coordinated public release of advisory",
+    "2018-06-06 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-552 ZDI-CAN-5522 Google Web Designer URI Parsing Command Injection Remote Code Execution Vulnerability 2018-06-06 CVE-2018-1000006 https://www.cve.org/CVERecord?id=CVE-2018-1000006 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Google'] ['Web Designer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Google Web Designer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the processing of URI handlers. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code under the context of the current process. Google has issued an update to correct this vulnerability. More details can be found at: https://electronjs.org/blog/protocol-handler-fix. ['2018-01-24 - Vulnerability reported to vendor', '2018-06-06 - Coordinated public release of advisory', '2018-06-06 - Advisory Updated'] rgod https://www.zerodayinitiative.com/advisories/ZDI-18-552/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-552/",
+  "title": "Google Web Designer URI Parsing Command Injection Remote Code Execution Vulnerability",
+  "updated_date": "2018-06-06",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Google Web Designer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the processing of URI handlers. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code under the context of the current process.",
+  "zdi_can": "ZDI-CAN-5522",
+  "zdi_id": "ZDI-18-552"
+}

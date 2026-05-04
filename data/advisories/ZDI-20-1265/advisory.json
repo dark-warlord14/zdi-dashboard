@@ -1,0 +1,27 @@
+{
+  "additional_details": "Fixed in version 9.0 FP09 MP3",
+  "advisory_date": "2020-10-19",
+  "affected_products": [
+    "3D Visual Enterprise Viewer"
+  ],
+  "affected_vendors": [
+    "SAP"
+  ],
+  "credit": "rgod",
+  "cve": "CVE-2020-6315",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2020-6315",
+  "cvss": 5.5,
+  "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+  "disclosure_timeline": [
+    "2020-08-28 - Vulnerability reported to vendor",
+    "2020-10-19 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-20-1265 ZDI-CAN-11243 SAP 3D Visual Enterprise Viewer SVG File XML External Entity Processing Information Disclosure Vulnerability 2020-10-19 CVE-2020-6315 https://www.cve.org/CVERecord?id=CVE-2020-6315 5.5 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N ['SAP'] ['3D Visual Enterprise Viewer'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of SAP 3D Visual Enterprise Viewer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the processing of SVG files. Due to the improper restriction of XML External Entity (XXE) references, a crafted document specifying a URI causes the XML parser to access the URI and embed the contents back into the XML document for further processing. An attacker can leverage this vulnerability to disclose information in the context of the current process. Fixed in version 9.0 FP09 MP3 ['2020-08-28 - Vulnerability reported to vendor', '2020-10-19 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-20-1265/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-20-1265/",
+  "title": "SAP 3D Visual Enterprise Viewer SVG File XML External Entity Processing Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of SAP 3D Visual Enterprise Viewer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the processing of SVG files. Due to the improper restriction of XML External Entity (XXE) references, a crafted document specifying a URI causes the XML parser to access the URI and embed the contents back into the XML document for further processing. An attacker can leverage this vulnerability to disclose information in the context of the current process.",
+  "zdi_can": "ZDI-CAN-11243",
+  "zdi_id": "ZDI-20-1265"
+}

@@ -1,0 +1,27 @@
+{
+  "additional_details": "VMware has issued an update to correct this vulnerability. More details can be found at: https://www.vmware.com/security/advisories/VMSA-2023-0001.html",
+  "advisory_date": "2023-02-09",
+  "affected_products": [
+    "vRealize"
+  ],
+  "affected_vendors": [
+    "VMware"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2022-31711",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-31711",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+  "disclosure_timeline": [
+    "2022-09-02 - Vulnerability reported to vendor",
+    "2023-02-09 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-116 ZDI-CAN-17964 VMware vRealize Log Insight getConfig Missing Authentication for Critical Function Information Disclosure Vulnerability 2023-02-09 CVE-2022-31711 https://www.cve.org/CVERecord?id=CVE-2022-31711 7.5 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N ['VMware'] ['vRealize'] This vulnerability allows remote attackers to disclose information on affected installations of VMware vRealize Log Insight. Authentication is not required to exploit this vulnerability. The specific flaw exists within the getConfig function. The issue results from the lack of authentication prior to allowing access to functionality. An attacker can leverage this vulnerability to disclose stored credentials, leading to further compromise. VMware has issued an update to correct this vulnerability. More details can be found at: https://www.vmware.com/security/advisories/VMSA-2023-0001.html ['2022-09-02 - Vulnerability reported to vendor', '2023-02-09 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-23-116/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-116/",
+  "title": "VMware vRealize Log Insight getConfig Missing Authentication for Critical Function Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose information on affected installations of VMware vRealize Log Insight. Authentication is not required to exploit this vulnerability. The specific flaw exists within the getConfig function. The issue results from the lack of authentication prior to allowing access to functionality. An attacker can leverage this vulnerability to disclose stored credentials, leading to further compromise.",
+  "zdi_can": "ZDI-CAN-17964",
+  "zdi_id": "ZDI-23-116"
+}

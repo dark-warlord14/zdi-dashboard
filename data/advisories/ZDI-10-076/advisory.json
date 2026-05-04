@@ -1,0 +1,27 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT4131",
+  "advisory_date": "2010-04-14",
+  "affected_products": [
+    "Preview"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "Charlie Miller",
+  "cve": "CVE-2010-1120",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2010-1120",
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2010-03-26 - Vulnerability reported to vendor",
+    "2010-04-14 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-10-076 ZDI-CAN-760 Apple Preview libFontParser SpecialEncoding Remote Code Execution Vulnerability 2010-04-14 CVE-2010-1120 https://www.cve.org/CVERecord?id=CVE-2010-1120 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Apple'] ['Preview'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple Preview. User interaction is required in that a target must open a malicious file or visit a malicious page. The specific flaw exists within the routine TType1ParsingContext::SpecialEncoding() defined in libFontParser.dylib. While parsing glyphs from a PDF document, a malformed offset greater than 0x400 can result in a heap corruption which can be leveraged by an attacker to execute arbitrary code under the context of the current user. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT4131 ['2010-03-26 - Vulnerability reported to vendor', '2010-04-14 - Coordinated public release of advisory'] Charlie Miller https://www.zerodayinitiative.com/advisories/ZDI-10-076/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-076/",
+  "title": "Apple Preview libFontParser SpecialEncoding Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple Preview. User interaction is required in that a target must open a malicious file or visit a malicious page. The specific flaw exists within the routine TType1ParsingContext::SpecialEncoding() defined in libFontParser.dylib. While parsing glyphs from a PDF document, a malformed offset greater than 0x400 can result in a heap corruption which can be leveraged by an attacker to execute arbitrary code under the context of the current user.",
+  "zdi_can": "ZDI-CAN-760",
+  "zdi_id": "ZDI-10-076"
+}

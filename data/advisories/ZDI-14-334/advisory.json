@@ -1,0 +1,27 @@
+{
+  "additional_details": "Sophos has issued an update to correct this vulnerability. More details can be found at: http://kb.cyberoam.com/default.asp?id=3049&Lang=1&SID",
+  "advisory_date": "2014-10-01",
+  "affected_products": [
+    "Cyberoam"
+  ],
+  "affected_vendors": [
+    "Sophos"
+  ],
+  "credit": "agix",
+  "cve": "CVE-2014-5501",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-5501",
+  "cvss": 9.3,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2014-06-04 - Vulnerability reported to vendor",
+    "2014-10-01 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-14-334 ZDI-CAN-2332 Sophos Cyberoam diagnose Stack Buffer Overflow Remote Code Execution Vulnerability 2014-10-01 CVE-2014-5501 https://www.cve.org/CVERecord?id=CVE-2014-5501 9.3 AV:N/AC:M/Au:N/C:C/I:C/A:C ['Sophos'] ['Cyberoam'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Sophos Cyberoam. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the diagnose service. The issue lies in the failure to validate the size of the input buffer before copying it into a fixed-size buffer on the stack. An attacker can leverage this vulnerability to execute code under the context of the web server. Sophos has issued an update to correct this vulnerability. More details can be found at: http://kb.cyberoam.com/default.asp?id=3049&Lang=1&SID ['2014-06-04 - Vulnerability reported to vendor', '2014-10-01 - Coordinated public release of advisory'] agix https://www.zerodayinitiative.com/advisories/ZDI-14-334/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-14-334/",
+  "title": "Sophos Cyberoam diagnose Stack Buffer Overflow Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Sophos Cyberoam. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the diagnose service. The issue lies in the failure to validate the size of the input buffer before copying it into a fixed-size buffer on the stack. An attacker can leverage this vulnerability to execute code under the context of the web server.",
+  "zdi_can": "ZDI-CAN-2332",
+  "zdi_id": "ZDI-14-334"
+}

@@ -1,0 +1,27 @@
+{
+  "additional_details": "AlienVault has issued an update to correct this vulnerability. More details can be found at: http://forums.alienvault.com/discussion/2806",
+  "advisory_date": "2014-06-13",
+  "affected_products": [
+    "OSSIM"
+  ],
+  "affected_vendors": [
+    "AlienVault"
+  ],
+  "credit": "HP Zero Day Initiative",
+  "cve": "CVE-2014-4151",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-4151",
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2014-04-18 - Vulnerability reported to vendor",
+    "2014-06-13 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-14-205 ZDI-CAN-2293 AlienVault OSSIM av-centerd Util.pm set_file Arbitrary File Write Remote Code Execution Vulnerability 2014-06-13 CVE-2014-4151 https://www.cve.org/CVERecord?id=CVE-2014-4151 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['AlienVault'] ['OSSIM'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of AlienVault OSSIM. Authentication is not required to exploit this vulnerability. The specific flaw exists within the av-centerd SOAP service. The issue lies in the handling of set_file requests allowing for an arbitrary file write with attacker controlled data. An attacker could leverage this vulnerability to execute code with root privileges. AlienVault has issued an update to correct this vulnerability. More details can be found at: http://forums.alienvault.com/discussion/2806 ['2014-04-18 - Vulnerability reported to vendor', '2014-06-13 - Coordinated public release of advisory'] HP Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-14-205/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-14-205/",
+  "title": "AlienVault OSSIM av-centerd Util.pm set_file Arbitrary File Write Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of AlienVault OSSIM. Authentication is not required to exploit this vulnerability. The specific flaw exists within the av-centerd SOAP service. The issue lies in the handling of set_file requests allowing for an arbitrary file write with attacker controlled data. An attacker could leverage this vulnerability to execute code with root privileges.",
+  "zdi_can": "ZDI-CAN-2293",
+  "zdi_id": "ZDI-14-205"
+}

@@ -1,0 +1,28 @@
+{
+  "additional_details": "TensorFlow has issued an update to correct this vulnerability. More details can be found at: https://github.com/tensorflow/tensorflow/commit/46e7f7fb144fd11cf6d17c23dd47620328d77082",
+  "advisory_date": "2026-02-19",
+  "affected_products": [
+    "TensorFlow"
+  ],
+  "affected_vendors": [
+    "TensorFlow"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2026-2492",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-2492",
+  "cvss": 7.0,
+  "cvss_vector": "AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2025-03-11 - Vulnerability reported to vendor",
+    "2026-02-19 - Coordinated public release of advisory",
+    "2026-02-19 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-26-116 ZDI-CAN-25480 TensorFlow HDF5 Library Uncontrolled Search Path Element Local Privilege Escalation Vulnerability 2026-02-19 CVE-2026-2492 https://www.cve.org/CVERecord?id=CVE-2026-2492 7.0 AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H ['TensorFlow'] ['TensorFlow'] This vulnerability allows local attackers to escalate privileges on affected installations of TensorFlow. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of plugins. The application loads plugins from an unsecured location. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of a target user. TensorFlow has issued an update to correct this vulnerability. More details can be found at: https://github.com/tensorflow/tensorflow/commit/46e7f7fb144fd11cf6d17c23dd47620328d77082 ['2025-03-11 - Vulnerability reported to vendor', '2026-02-19 - Coordinated public release of advisory', '2026-02-19 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-116/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-116/",
+  "title": "TensorFlow HDF5 Library Uncontrolled Search Path Element Local Privilege Escalation Vulnerability",
+  "updated_date": "2026-02-19",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of TensorFlow. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of plugins. The application loads plugins from an unsecured location. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of a target user.",
+  "zdi_can": "ZDI-CAN-25480",
+  "zdi_id": "ZDI-26-116"
+}

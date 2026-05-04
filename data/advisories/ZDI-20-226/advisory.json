@@ -1,0 +1,27 @@
+{
+  "additional_details": "Symantec has issued an update to correct this vulnerability. More details can be found at: https://support.symantec.com/us/en/article.SYMSA1505.html",
+  "advisory_date": "2020-02-11",
+  "affected_products": [
+    "Endpoint Protection"
+  ],
+  "affected_vendors": [
+    "Symantec"
+  ],
+  "credit": "Z0mb1E",
+  "cve": "CVE-2020-5825",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2020-5825",
+  "cvss": 6.1,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:H",
+  "disclosure_timeline": [
+    "2019-10-24 - Vulnerability reported to vendor",
+    "2020-02-11 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-20-226 ZDI-CAN-9396 Symantec Endpoint Protection AvHostPlugin Missing Authentication Arbitrary File Rename Vulnerability 2020-02-11 CVE-2020-5825 https://www.cve.org/CVERecord?id=CVE-2020-5825 6.1 AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:H ['Symantec'] ['Endpoint Protection'] This vulnerability allows local attackers to rename arbitrary files on affected installations of Symantec Endpoint Protection. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the AvHostPlugin.dll module. By invoking a method of a COM class, an attacker can rename arbitrary files. An attacker can leverage this vulnerability to create a denial-of-service condition on the system. An attacker can also leverage this in conjunction with other vulnerabilities to escalate privileges and execute code in the context of SYSTEM. Symantec has issued an update to correct this vulnerability. More details can be found at: https://support.symantec.com/us/en/article.SYMSA1505.html ['2019-10-24 - Vulnerability reported to vendor', '2020-02-11 - Coordinated public release of advisory'] Z0mb1E https://www.zerodayinitiative.com/advisories/ZDI-20-226/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-20-226/",
+  "title": "Symantec Endpoint Protection AvHostPlugin Missing Authentication Arbitrary File Rename Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to rename arbitrary files on affected installations of Symantec Endpoint Protection. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the AvHostPlugin.dll module. By invoking a method of a COM class, an attacker can rename arbitrary files. An attacker can leverage this vulnerability to create a denial-of-service condition on the system. An attacker can also leverage this in conjunction with other vulnerabilities to escalate privileges and execute code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-9396",
+  "zdi_id": "ZDI-20-226"
+}

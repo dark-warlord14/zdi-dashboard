@@ -1,0 +1,27 @@
+{
+  "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/robohelp-server/apsb23-53.html",
+  "advisory_date": "2023-11-15",
+  "affected_products": [
+    "RoboHelp Server"
+  ],
+  "affected_vendors": [
+    "Adobe"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2023-22274",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-22274",
+  "cvss": 8.2,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:L",
+  "disclosure_timeline": [
+    "2023-07-13 - Vulnerability reported to vendor",
+    "2023-11-15 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-1653 ZDI-CAN-21305 Adobe RoboHelp Server UpdateCommandStream XML External Entity Processing Information Disclosure Vulnerability 2023-11-15 CVE-2023-22274 https://www.cve.org/CVERecord?id=CVE-2023-22274 8.2 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:L ['Adobe'] ['RoboHelp Server'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Adobe RoboHelp Server. Authentication is not required to exploit this vulnerability. The specific flaw exists within the UpdateCommandStream method. Due to the improper restriction of XML External Entity (XXE) references, a crafted document specifying a URI causes the XML parser to access the URI and embed the contents back into the XML document for further processing. An attacker can leverage this vulnerability to disclose information in the context of LOCAL SERVICE. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/robohelp-server/apsb23-53.html ['2023-07-13 - Vulnerability reported to vendor', '2023-11-15 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-23-1653/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-1653/",
+  "title": "Adobe RoboHelp Server UpdateCommandStream XML External Entity Processing Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Adobe RoboHelp Server. Authentication is not required to exploit this vulnerability. The specific flaw exists within the UpdateCommandStream method. Due to the improper restriction of XML External Entity (XXE) references, a crafted document specifying a URI causes the XML parser to access the URI and embed the contents back into the XML document for further processing. An attacker can leverage this vulnerability to disclose information in the context of LOCAL SERVICE.",
+  "zdi_can": "ZDI-CAN-21305",
+  "zdi_id": "ZDI-23-1653"
+}

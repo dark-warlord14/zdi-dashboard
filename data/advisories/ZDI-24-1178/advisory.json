@@ -1,0 +1,28 @@
+{
+  "additional_details": "Qualcomm Technologies has issued an update to correct this vulnerability. More details can be found at: https://docs.qualcomm.com/product/publicresources/securitybulletin/april-2024-bulletin.html",
+  "advisory_date": "2024-08-23",
+  "affected_products": [
+    "Wi-Fi SON"
+  ],
+  "affected_vendors": [
+    "Qualcomm Technologies"
+  ],
+  "credit": "Claroty Research - Vera Mens, Noam Moshe, Uri Katz, Sharon Brizinov",
+  "cve": "CVE-2024-21473",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-21473",
+  "cvss": 9.8,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2024-04-30 - Vulnerability reported to vendor",
+    "2024-08-23 - Coordinated public release of advisory",
+    "2024-08-23 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-1178 ZDI-CAN-24083 Qualcomm Wi-Fi SON LDB Service Improper Input Validation Remote Code Execution Vulnerability 2024-08-23 CVE-2024-21473 https://www.cve.org/CVERecord?id=CVE-2024-21473 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['Qualcomm Technologies'] ['Wi-Fi SON'] This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of multiple Qualcomm chipsets. Authentication is not required to exploit this vulnerability. The specific flaw exists within the Qualcomm LDB service. The issue results from the lack of proper validation of user-supplied data prior to further processing. An attacker can leverage this vulnerability to execute code in the context of root. Qualcomm Technologies has issued an update to correct this vulnerability. More details can be found at: https://docs.qualcomm.com/product/publicresources/securitybulletin/april-2024-bulletin.html ['2024-04-30 - Vulnerability reported to vendor', '2024-08-23 - Coordinated public release of advisory', '2024-08-23 - Advisory Updated'] Claroty Research - Vera Mens, Noam Moshe, Uri Katz, Sharon Brizinov https://www.zerodayinitiative.com/advisories/ZDI-24-1178/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-1178/",
+  "title": "Qualcomm Wi-Fi SON LDB Service Improper Input Validation Remote Code Execution Vulnerability",
+  "updated_date": "2024-08-23",
+  "vulnerability_details": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of multiple Qualcomm chipsets. Authentication is not required to exploit this vulnerability. The specific flaw exists within the Qualcomm LDB service. The issue results from the lack of proper validation of user-supplied data prior to further processing. An attacker can leverage this vulnerability to execute code in the context of root.",
+  "zdi_can": "ZDI-CAN-24083",
+  "zdi_id": "ZDI-24-1178"
+}

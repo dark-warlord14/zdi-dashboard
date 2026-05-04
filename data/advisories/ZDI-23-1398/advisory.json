@@ -1,0 +1,27 @@
+{
+  "additional_details": "Visualware has issued an update to correct this vulnerability. More details can be found at: https://myconnectionserver.visualware.com/support/security-advisories",
+  "advisory_date": "2023-09-08",
+  "affected_products": [
+    "MyConnection Server"
+  ],
+  "affected_vendors": [
+    "Visualware"
+  ],
+  "credit": "06fe5fd2bc53027c4a3b7e395af0b850e7b8a044",
+  "cve": "CVE-2023-42032",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-42032",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+  "disclosure_timeline": [
+    "2023-07-31 - Vulnerability reported to vendor",
+    "2023-09-08 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-1398 ZDI-CAN-21611 Visualware MyConnection Server doRTAAccessUPass Exposed Dangerous Method Information Disclosure Vulnerability 2023-09-08 CVE-2023-42032 https://www.cve.org/CVERecord?id=CVE-2023-42032 7.5 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N ['Visualware'] ['MyConnection Server'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Visualware MyConnection Server. Authentication is not required to exploit this vulnerability. The specific flaw exists within the doRTAAccessUPass method. The issue results from an exposed dangerous method. An attacker can leverage this vulnerability to disclose information in the context of the application. Visualware has issued an update to correct this vulnerability. More details can be found at: https://myconnectionserver.visualware.com/support/security-advisories ['2023-07-31 - Vulnerability reported to vendor', '2023-09-08 - Coordinated public release of advisory'] 06fe5fd2bc53027c4a3b7e395af0b850e7b8a044 https://www.zerodayinitiative.com/advisories/ZDI-23-1398/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-1398/",
+  "title": "Visualware MyConnection Server doRTAAccessUPass Exposed Dangerous Method Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Visualware MyConnection Server. Authentication is not required to exploit this vulnerability. The specific flaw exists within the doRTAAccessUPass method. The issue results from an exposed dangerous method. An attacker can leverage this vulnerability to disclose information in the context of the application.",
+  "zdi_can": "ZDI-CAN-21611",
+  "zdi_id": "ZDI-23-1398"
+}

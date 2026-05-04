@@ -1,0 +1,27 @@
+{
+  "additional_details": "Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxitsoftware.com/support/security-bulletins.php",
+  "advisory_date": "2016-11-02",
+  "affected_products": [
+    "Reader"
+  ],
+  "affected_vendors": [
+    "Foxit"
+  ],
+  "credit": "Steven Seeley of Source Incite",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 4.3,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N",
+  "disclosure_timeline": [
+    "2016-09-27 - Vulnerability reported to vendor",
+    "2016-11-02 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-16-581 ZDI-CAN-4027 Foxit Reader JPXDecode filters Out-Of-Bounds Read Information Disclosure Vulnerability 2016-11-02 4.3 AV:N/AC:M/Au:N/C:P/I:N/A:N ['Foxit'] ['Reader'] This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Foxit Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of JPXDecode filters. The process does not properly validate user-supplied data which can result in a read past the end of an allocated object. An attacker can leverage this in conjunction with other vulnerabilities to execute code in the context of the current process. Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxitsoftware.com/support/security-bulletins.php ['2016-09-27 - Vulnerability reported to vendor', '2016-11-02 - Coordinated public release of advisory'] Steven Seeley of Source Incite https://www.zerodayinitiative.com/advisories/ZDI-16-581/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-581/",
+  "title": "Foxit Reader JPXDecode filters Out-Of-Bounds Read Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Foxit Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of JPXDecode filters. The process does not properly validate user-supplied data which can result in a read past the end of an allocated object. An attacker can leverage this in conjunction with other vulnerabilities to execute code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-4027",
+  "zdi_id": "ZDI-16-581"
+}

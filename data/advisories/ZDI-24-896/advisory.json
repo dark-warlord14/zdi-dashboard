@@ -1,0 +1,28 @@
+{
+  "additional_details": "Parse has issued an update to correct this vulnerability. More details can be found at: https://github.com/parse-community/parse-server/security/advisories/GHSA-c2hr-cqg6-8j6r",
+  "advisory_date": "2024-07-03",
+  "affected_products": [
+    "Server"
+  ],
+  "affected_vendors": [
+    "Parse"
+  ],
+  "credit": "Smile Thanapattheerakul of Trend Micro Research",
+  "cve": "CVE-2024-39309",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-39309",
+  "cvss": 9.8,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2024-04-02 - Vulnerability reported to vendor",
+    "2024-07-03 - Coordinated public release of advisory",
+    "2024-08-15 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-896 ZDI-CAN-23894 Parse Server literalizeRegexPart SQL Injection Authentication Bypass Vulnerability 2024-07-03 CVE-2024-39309 https://www.cve.org/CVERecord?id=CVE-2024-39309 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['Parse'] ['Server'] This vulnerability allows remote attackers to bypass authentication on affected installations of Parse Server. Authentication is not required to exploit this vulnerability. The specific flaw exists within the literalizeRegexPart function. The issue results from the lack of proper validation of a user-supplied string before using it to construct SQL queries. An attacker can leverage this vulnerability to bypass authentication on the system. Parse has issued an update to correct this vulnerability. More details can be found at: https://github.com/parse-community/parse-server/security/advisories/GHSA-c2hr-cqg6-8j6r ['2024-04-02 - Vulnerability reported to vendor', '2024-07-03 - Coordinated public release of advisory', '2024-08-15 - Advisory Updated'] Smile Thanapattheerakul of Trend Micro Research https://www.zerodayinitiative.com/advisories/ZDI-24-896/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-896/",
+  "title": "Parse Server literalizeRegexPart SQL Injection Authentication Bypass Vulnerability",
+  "updated_date": "2024-08-15",
+  "vulnerability_details": "This vulnerability allows remote attackers to bypass authentication on affected installations of Parse Server. Authentication is not required to exploit this vulnerability. The specific flaw exists within the literalizeRegexPart function. The issue results from the lack of proper validation of a user-supplied string before using it to construct SQL queries. An attacker can leverage this vulnerability to bypass authentication on the system.",
+  "zdi_can": "ZDI-CAN-23894",
+  "zdi_id": "ZDI-24-896"
+}

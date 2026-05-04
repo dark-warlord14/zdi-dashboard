@@ -1,0 +1,27 @@
+{
+  "additional_details": "Hewlett-Packard has issued an update to correct this vulnerability. More details can be found at: http://h20000.www2.hp.com/bizsupport/TechSupport/Document.jsp?objectID=c02695453",
+  "advisory_date": "2011-01-31",
+  "affected_products": [
+    "OpenView Performance Insight"
+  ],
+  "affected_vendors": [
+    "Hewlett-Packard"
+  ],
+  "credit": "Stephen Fewer of Harmony Security (www.harmonysecurity.com)",
+  "cve": "CVE-2011-0276",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-0276",
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2009-10-27 - Vulnerability reported to vendor",
+    "2011-01-31 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-11-034 ZDI-CAN-606 HP OpenView Performance Insight Server Backdoor Account Code Execution Vulnerability 2011-01-31 CVE-2011-0276 https://www.cve.org/CVERecord?id=CVE-2011-0276 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Hewlett-Packard'] ['OpenView Performance Insight'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Hewlett-Packard OpenView Performance Insight Server. Authentication is not required to exploit this vulnerability. The specific vulnerability is due to a hidden account present within the com.trinagy.security.XMLUserManager Java class. Using this account a malicious user can access the com.trinagy.servlet.HelpManagerServlet class. This is defined within the piweb.jar file installed with Performance Insight. This class exposes a doPost() method which an attacker can use to upload malicious files to the server. Accessing these files can then lead to arbitrary code execution under the context of the SYSTEM user. Hewlett-Packard has issued an update to correct this vulnerability. More details can be found at: http://h20000.www2.hp.com/bizsupport/TechSupport/Document.jsp?objectID=c02695453 ['2009-10-27 - Vulnerability reported to vendor', '2011-01-31 - Coordinated public release of advisory'] Stephen Fewer of Harmony Security (www.harmonysecurity.com) https://www.zerodayinitiative.com/advisories/ZDI-11-034/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-034/",
+  "title": "HP OpenView Performance Insight Server Backdoor Account Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Hewlett-Packard OpenView Performance Insight Server. Authentication is not required to exploit this vulnerability. The specific vulnerability is due to a hidden account present within the com.trinagy.security.XMLUserManager Java class. Using this account a malicious user can access the com.trinagy.servlet.HelpManagerServlet class. This is defined within the piweb.jar file installed with Performance Insight. This class exposes a doPost() method which an attacker can use to upload malicious files to the server. Accessing these files can then lead to arbitrary code execution under the context of the SYSTEM user.",
+  "zdi_can": "ZDI-CAN-606",
+  "zdi_id": "ZDI-11-034"
+}

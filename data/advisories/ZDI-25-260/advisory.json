@@ -1,0 +1,28 @@
+{
+  "additional_details": "Fixed in Firmware Version 2024.2.3",
+  "advisory_date": "2025-04-30",
+  "affected_products": [
+    "Model S"
+  ],
+  "affected_vendors": [
+    "Tesla"
+  ],
+  "credit": "Synacktiv (@Synacktiv)",
+  "cve": "CVE-2024-6029",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-6029",
+  "cvss": 5.0,
+  "cvss_vector": "AV:A/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L",
+  "disclosure_timeline": [
+    "2024-02-28 - Vulnerability reported to vendor",
+    "2025-04-30 - Coordinated public release of advisory",
+    "2025-04-30 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-260 ZDI-CAN-23197 (Pwn2Own) Tesla Model S Iris Modem Race Condition Firewall Bypass Vulnerability 2025-04-30 CVE-2024-6029 https://www.cve.org/CVERecord?id=CVE-2024-6029 5.0 AV:A/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L ['Tesla'] ['Model S'] This vulnerability allows network-adjacent attackers to bypass the firewall on the Iris modem in affected Tesla Model S vehicles. Authentication is not required to exploit this vulnerability. The specific flaw exists within the firewall service. The issue results from a failure to obtain the xtables lock. An attacker can leverage this vulnerability to bypass firewall rules. Fixed in Firmware Version 2024.2.3 ['2024-02-28 - Vulnerability reported to vendor', '2025-04-30 - Coordinated public release of advisory', '2025-04-30 - Advisory Updated'] Synacktiv (@Synacktiv) https://www.zerodayinitiative.com/advisories/ZDI-25-260/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-260/",
+  "title": "(Pwn2Own) Tesla Model S Iris Modem Race Condition Firewall Bypass Vulnerability",
+  "updated_date": "2025-04-30",
+  "vulnerability_details": "This vulnerability allows network-adjacent attackers to bypass the firewall on the Iris modem in affected Tesla Model S vehicles. Authentication is not required to exploit this vulnerability. The specific flaw exists within the firewall service. The issue results from a failure to obtain the xtables lock. An attacker can leverage this vulnerability to bypass firewall rules.",
+  "zdi_can": "ZDI-CAN-23197",
+  "zdi_id": "ZDI-25-260"
+}

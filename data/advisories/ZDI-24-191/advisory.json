@@ -1,0 +1,28 @@
+{
+  "additional_details": "Schneider Electric has issued an update to correct this vulnerability. More details can be found at: https://download.schneider-electric.com/files?p_Doc_Ref=SEVD-2024-044-03&p_enDocType=Security+and+Safety+Notice&p_File_Name=SEVD-2024-044-03.pdf",
+  "advisory_date": "2024-02-21",
+  "affected_products": [
+    "EcoStruxure IT Gateway"
+  ],
+  "affected_vendors": [
+    "Schneider Electric"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2024-0865",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-0865",
+  "cvss": 7.0,
+  "cvss_vector": "AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2023-12-06 - Vulnerability reported to vendor",
+    "2024-02-21 - Coordinated public release of advisory",
+    "2024-07-01 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-191 ZDI-CAN-22087 Schneider Electric EcoStruxure IT Gateway Hard-Coded Credentials Local Privilege Escalation Vulnerability 2024-02-21 CVE-2024-0865 https://www.cve.org/CVERecord?id=CVE-2024-0865 7.0 AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H ['Schneider Electric'] ['EcoStruxure IT Gateway'] This vulnerability allows local attackers to escalate privileges on affected installations of Schneider Electric EcoStruxure IT Gateway. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the installer. The issue results from the use of hard-coded credentials. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root. Schneider Electric has issued an update to correct this vulnerability. More details can be found at: https://download.schneider-electric.com/files?p_Doc_Ref=SEVD-2024-044-03&p_enDocType=Security+and+Safety+Notice&p_File_Name=SEVD-2024-044-03.pdf ['2023-12-06 - Vulnerability reported to vendor', '2024-02-21 - Coordinated public release of advisory', '2024-07-01 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-24-191/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-191/",
+  "title": "Schneider Electric EcoStruxure IT Gateway Hard-Coded Credentials Local Privilege Escalation Vulnerability",
+  "updated_date": "2024-07-01",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Schneider Electric EcoStruxure IT Gateway. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the installer. The issue results from the use of hard-coded credentials. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root.",
+  "zdi_can": "ZDI-CAN-22087",
+  "zdi_id": "ZDI-24-191"
+}

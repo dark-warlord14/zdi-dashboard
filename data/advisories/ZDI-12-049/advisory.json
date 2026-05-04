@@ -1,0 +1,27 @@
+{
+  "additional_details": "RealNetworks has issued an update to correct this vulnerability. More details can be found at: http://service.real.com/realplayer/security/02062012_player/en/",
+  "advisory_date": "2012-03-22",
+  "affected_products": [
+    "RealPlayer"
+  ],
+  "affected_vendors": [
+    "RealNetworks"
+  ],
+  "credit": "Luigi Auriemma",
+  "cve": "CVE-2012-0927",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2012-0927",
+  "cvss": 9.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:C",
+  "disclosure_timeline": [
+    "2011-10-21 - Vulnerability reported to vendor",
+    "2012-03-22 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-12-049 ZDI-CAN-1359 RealNetworks RealPlayer RealAudio coded_frame_size Remote Code Execution 2012-03-22 CVE-2012-0927 https://www.cve.org/CVERecord?id=CVE-2012-0927 9.0 AV:N/AC:L/Au:N/C:P/I:P/A:C ['RealNetworks'] ['RealPlayer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of RealNetworks RealPlayer. User interaction is required in that a target must visit a malicious page or open a malicious file. The flaw exists within cook.dll, specifically the handling of a RealAudio 2.0 file. When parsing the RA2 header a coded_frame_sz element is used to calculate the size for an allocation. This value is not properly verified before unpacking stream data into this new location. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the process. RealNetworks has issued an update to correct this vulnerability. More details can be found at: http://service.real.com/realplayer/security/02062012_player/en/ ['2011-10-21 - Vulnerability reported to vendor', '2012-03-22 - Coordinated public release of advisory'] Luigi Auriemma https://www.zerodayinitiative.com/advisories/ZDI-12-049/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-12-049/",
+  "title": "RealNetworks RealPlayer RealAudio coded_frame_size Remote Code Execution",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of RealNetworks RealPlayer. User interaction is required in that a target must visit a malicious page or open a malicious file. The flaw exists within cook.dll, specifically the handling of a RealAudio 2.0 file. When parsing the RA2 header a coded_frame_sz element is used to calculate the size for an allocation. This value is not properly verified before unpacking stream data into this new location. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the process.",
+  "zdi_can": "ZDI-CAN-1359",
+  "zdi_id": "ZDI-12-049"
+}

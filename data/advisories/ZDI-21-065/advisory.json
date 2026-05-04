@@ -1,0 +1,28 @@
+{
+  "additional_details": "Fixed in Orion Platform 2020.2.1 Hot Fix 2 - released on 12/15/2020",
+  "advisory_date": "2021-09-20",
+  "affected_products": [
+    "Network Performance Monitor"
+  ],
+  "affected_vendors": [
+    "SolarWinds"
+  ],
+  "credit": "Piotr Bazydlo (@chudypb)",
+  "cve": "CVE-2020-14005",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2020-14005",
+  "cvss": 8.8,
+  "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2020-10-02 - Vulnerability reported to vendor",
+    "2021-09-20 - Coordinated public release of advisory",
+    "2022-05-26 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-21-065 ZDI-CAN-11859 SolarWinds Network Performance Monitor ExecuteVBScript Command Injection Remote Code Execution Vulnerability 2021-09-20 CVE-2020-14005 https://www.cve.org/CVERecord?id=CVE-2020-14005 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['SolarWinds'] ['Network Performance Monitor'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of SolarWinds Network Performance Monitor. Authentication is required to exploit this vulnerability. The specific flaw exists within the ExecuteVBScript method. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of SYSTEM. Fixed in Orion Platform 2020.2.1 Hot Fix 2 - released on 12/15/2020 ['2020-10-02 - Vulnerability reported to vendor', '2021-09-20 - Coordinated public release of advisory', '2022-05-26 - Advisory Updated'] Piotr Bazydlo (@chudypb) https://www.zerodayinitiative.com/advisories/ZDI-21-065/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-21-065/",
+  "title": "SolarWinds Network Performance Monitor ExecuteVBScript Command Injection Remote Code Execution Vulnerability",
+  "updated_date": "2022-05-26",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of SolarWinds Network Performance Monitor. Authentication is required to exploit this vulnerability. The specific flaw exists within the ExecuteVBScript method. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-11859",
+  "zdi_id": "ZDI-21-065"
+}

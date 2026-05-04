@@ -1,0 +1,27 @@
+{
+  "additional_details": "Vendor has released a hotfix to address the issue: FW08.41",
+  "advisory_date": "2014-11-25",
+  "affected_products": [
+    "VAP2500"
+  ],
+  "affected_vendors": [
+    "ARRIS"
+  ],
+  "credit": "Ricky \"HeadlessZeke\" Lawshae",
+  "cve": "CVE-2014-8424",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-8424",
+  "cvss": 7.8,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:N/A:N",
+  "disclosure_timeline": [
+    "2014-04-29 - Vulnerability reported to vendor",
+    "2014-11-25 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-14-388 ZDI-CAN-2136 ARRIS VAP2500 Management Portal Authentication Bypass Vulnerability 2014-11-25 CVE-2014-8424 https://www.cve.org/CVERecord?id=CVE-2014-8424 7.8 AV:N/AC:L/Au:N/C:C/I:N/A:N ['ARRIS'] ['VAP2500'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of ARRIS VAP2500. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of user authentication. The issue lies in the failure to compare the password when authenticating. An attacker can leverage this vulnerability to bypass authentication checks which can then be chained to execute code with root privileges. Vendor has released a hotfix to address the issue: FW08.41 ['2014-04-29 - Vulnerability reported to vendor', '2014-11-25 - Coordinated public release of advisory'] Ricky \"HeadlessZeke\" Lawshae https://www.zerodayinitiative.com/advisories/ZDI-14-388/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-14-388/",
+  "title": "ARRIS VAP2500 Management Portal Authentication Bypass Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of ARRIS VAP2500. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of user authentication. The issue lies in the failure to compare the password when authenticating. An attacker can leverage this vulnerability to bypass authentication checks which can then be chained to execute code with root privileges.",
+  "zdi_can": "ZDI-CAN-2136",
+  "zdi_id": "ZDI-14-388"
+}

@@ -1,0 +1,27 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-us/HT207423",
+  "advisory_date": "2017-06-21",
+  "affected_products": [
+    "macOS"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "Qidan He(@flanker_hqd) from KeenLab",
+  "cve": "CVE-2016-7624",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-7624",
+  "cvss": 4.9,
+  "cvss_vector": "AV:L/AC:L/Au:N/C:C/I:N/A:N",
+  "disclosure_timeline": [
+    "2016-09-06 - Vulnerability reported to vendor",
+    "2017-06-21 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-16-685 ZDI-CAN-3854 Apple OS X IOCommandQueue Out-Of-Bounds Read Information Disclosure Vulnerability 2017-06-21 CVE-2016-7624 https://www.cve.org/CVERecord?id=CVE-2016-7624 4.9 AV:L/AC:L/Au:N/C:C/I:N/A:N ['Apple'] ['macOS'] This vulnerability allows local attackers to disclose sensitive information on vulnerable installations of Apple macOS. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within IOCommandQueue. The process does not properly validate user-supplied data which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to escalate privileges under the context of the kernel. Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-us/HT207423 ['2016-09-06 - Vulnerability reported to vendor', '2017-06-21 - Coordinated public release of advisory'] Qidan He(@flanker_hqd) from KeenLab https://www.zerodayinitiative.com/advisories/ZDI-16-685/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-685/",
+  "title": "Apple OS X IOCommandQueue Out-Of-Bounds Read Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to disclose sensitive information on vulnerable installations of Apple macOS. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within IOCommandQueue. The process does not properly validate user-supplied data which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to escalate privileges under the context of the kernel.",
+  "zdi_can": "ZDI-CAN-3854",
+  "zdi_id": "ZDI-16-685"
+}

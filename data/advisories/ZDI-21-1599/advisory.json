@@ -1,0 +1,27 @@
+{
+  "additional_details": "SolarWinds has issued an update to correct this vulnerability. More details can be found at: https://www.solarwinds.com/trust-center/security-advisories/cve-2021-35234",
+  "advisory_date": "2021-12-23",
+  "affected_products": [
+    "Network Performance Monitor"
+  ],
+  "affected_vendors": [
+    "SolarWinds"
+  ],
+  "credit": "kpc",
+  "cve": "CVE-2021-35234",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2021-35234",
+  "cvss": 8.8,
+  "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2021-10-06 - Vulnerability reported to vendor",
+    "2021-12-23 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-21-1599 ZDI-CAN-15315 SolarWinds Network Performance Monitor CustomProperty Exposed Dangerous Function Privilege Escalation Vulnerability 2021-12-23 CVE-2021-35234 https://www.cve.org/CVERecord?id=CVE-2021-35234 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['SolarWinds'] ['Network Performance Monitor'] This vulnerability allows remote attackers to escalate privileges on affected installations of SolarWinds Network Performance Monitor. Authentication is required to exploit this vulnerability. The specific flaw exists within the SolarWinds.Orion.Core.Actions.dll module. A crafted request can trigger execution of SQL queries composed from a user-supplied string. An attacker can leverage this vulnerability to escalate privileges to the level of an application administrator. SolarWinds has issued an update to correct this vulnerability. More details can be found at: https://www.solarwinds.com/trust-center/security-advisories/cve-2021-35234 ['2021-10-06 - Vulnerability reported to vendor', '2021-12-23 - Coordinated public release of advisory'] kpc https://www.zerodayinitiative.com/advisories/ZDI-21-1599/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-21-1599/",
+  "title": "SolarWinds Network Performance Monitor CustomProperty Exposed Dangerous Function Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to escalate privileges on affected installations of SolarWinds Network Performance Monitor. Authentication is required to exploit this vulnerability. The specific flaw exists within the SolarWinds.Orion.Core.Actions.dll module. A crafted request can trigger execution of SQL queries composed from a user-supplied string. An attacker can leverage this vulnerability to escalate privileges to the level of an application administrator.",
+  "zdi_can": "ZDI-CAN-15315",
+  "zdi_id": "ZDI-21-1599"
+}

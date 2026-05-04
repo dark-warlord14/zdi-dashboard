@@ -1,0 +1,27 @@
+{
+  "additional_details": "Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxitsoftware.com/support/security-bulletins.php",
+  "advisory_date": "2016-01-25",
+  "affected_products": [
+    "Foxit Reader"
+  ],
+  "affected_vendors": [
+    "Foxit"
+  ],
+  "credit": "AbdulAziz Hariri - HPE Zero Day Initiative",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2016-01-05 - Vulnerability reported to vendor",
+    "2016-01-25 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-16-025 ZDI-CAN-3495 Foxit Reader Global setPersistent Use-After-Free Remote Code Execution Vulnerability 2016-01-25 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Foxit'] ['Foxit Reader'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Foxit Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the global.setPersistent method. While attempting to save a global variable, setPersistent can force a dangling pointer to be reused after it has been freed. An attacker can leverage this vulnerability to execute arbitrary code under the context of the current process. Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxitsoftware.com/support/security-bulletins.php ['2016-01-05 - Vulnerability reported to vendor', '2016-01-25 - Coordinated public release of advisory'] AbdulAziz Hariri - HPE Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-16-025/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-025/",
+  "title": "Foxit Reader Global setPersistent Use-After-Free Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Foxit Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the global.setPersistent method. While attempting to save a global variable, setPersistent can force a dangling pointer to be reused after it has been freed. An attacker can leverage this vulnerability to execute arbitrary code under the context of the current process.",
+  "zdi_can": "ZDI-CAN-3495",
+  "zdi_id": "ZDI-16-025"
+}

@@ -1,0 +1,27 @@
+{
+  "additional_details": "ManageEngine has issued an update to correct this vulnerability. More details can be found at: https://www.manageengine.com/itom/advisory/cve-2022-36923.html",
+  "advisory_date": "2022-08-18",
+  "affected_products": [
+    "OpManager"
+  ],
+  "affected_vendors": [
+    "ManageEngine"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2022-36923",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-36923",
+  "cvss": 9.4,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:L",
+  "disclosure_timeline": [
+    "2022-08-03 - Vulnerability reported to vendor",
+    "2022-08-18 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-1122 ZDI-CAN-18088 ManageEngine OpManager Plus getUserAPIKey Authentication Bypass Vulnerability 2022-08-18 CVE-2022-36923 https://www.cve.org/CVERecord?id=CVE-2022-36923 9.4 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:L ['ManageEngine'] ['OpManager'] This vulnerability allows remote attackers to bypass authentication on affected installations of ManageEngine OpManager Plus. Authentication is not required to exploit this vulnerability. The specific flaw exists within the getUserAPIKey function. The issue results from the lack of authentication prior to allowing access to functionality. An attacker can leverage this vulnerability to bypass authentication on the system. ManageEngine has issued an update to correct this vulnerability. More details can be found at: https://www.manageengine.com/itom/advisory/cve-2022-36923.html ['2022-08-03 - Vulnerability reported to vendor', '2022-08-18 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-22-1122/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-1122/",
+  "title": "ManageEngine OpManager Plus getUserAPIKey Authentication Bypass Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to bypass authentication on affected installations of ManageEngine OpManager Plus. Authentication is not required to exploit this vulnerability. The specific flaw exists within the getUserAPIKey function. The issue results from the lack of authentication prior to allowing access to functionality. An attacker can leverage this vulnerability to bypass authentication on the system.",
+  "zdi_can": "ZDI-CAN-18088",
+  "zdi_id": "ZDI-22-1122"
+}

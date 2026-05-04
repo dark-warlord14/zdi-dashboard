@@ -1,0 +1,27 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT3403",
+  "advisory_date": "2009-01-21",
+  "affected_products": [
+    "Quicktime"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2009-0006",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2009-0006",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2008-06-23 - Vulnerability reported to vendor",
+    "2009-01-21 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-09-007 ZDI-CAN-344 Apple QuickTime Cinepak Codec MDAT Heap Corruption Vulnerability 2009-01-21 CVE-2009-0006 https://www.cve.org/CVERecord?id=CVE-2009-0006 ['Apple'] ['Quicktime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple QuickTime. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The specific flaw exists in the handling of movie data encoded using the Cinepak Video Codec. When parsing the data in the MDAT atom, there exists a signedness error which leads to a heap overflow. When this occurs it can be further leveraged to execute arbitrary code under the context of the current user. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT3403 ['2008-06-23 - Vulnerability reported to vendor', '2009-01-21 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-09-007/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-09-007/",
+  "title": "Apple QuickTime Cinepak Codec MDAT Heap Corruption Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple QuickTime. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The specific flaw exists in the handling of movie data encoded using the Cinepak Video Codec. When parsing the data in the MDAT atom, there exists a signedness error which leads to a heap overflow. When this occurs it can be further leveraged to execute arbitrary code under the context of the current user.",
+  "zdi_can": "ZDI-CAN-344",
+  "zdi_id": "ZDI-09-007"
+}

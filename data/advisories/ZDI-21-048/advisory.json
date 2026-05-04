@@ -1,0 +1,27 @@
+{
+  "additional_details": "Siemens has issued an update to correct this vulnerability. More details can be found at: https://us-cert.cisa.gov/ics/advisories/icsa-21-012-03/",
+  "advisory_date": "2021-01-14",
+  "affected_products": [
+    "JT2Go"
+  ],
+  "affected_vendors": [
+    "Siemens"
+  ],
+  "credit": "rgod",
+  "cve": "CVE-2020-26981",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2020-26981",
+  "cvss": 5.5,
+  "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+  "disclosure_timeline": [
+    "2020-09-25 - Vulnerability reported to vendor",
+    "2021-01-14 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-21-048 ZDI-CAN-11890 Siemens JT2Go PLMXML File Parsing XML External Entity Processing Information Disclosure Vulnerability 2021-01-14 CVE-2020-26981 https://www.cve.org/CVERecord?id=CVE-2020-26981 5.5 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N ['Siemens'] ['JT2Go'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Siemens JT2Go. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of PLMXML files. Due to the improper restriction of XML External Entity (XXE) references, a crafted document specifying a URI causes the XML parser to access the URI and embed the contents back into the XML document for further processing. An attacker can leverage this vulnerability to disclose information in the context of the current process. Siemens has issued an update to correct this vulnerability. More details can be found at: https://us-cert.cisa.gov/ics/advisories/icsa-21-012-03/ ['2020-09-25 - Vulnerability reported to vendor', '2021-01-14 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-21-048/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-21-048/",
+  "title": "Siemens JT2Go PLMXML File Parsing XML External Entity Processing Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Siemens JT2Go. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of PLMXML files. Due to the improper restriction of XML External Entity (XXE) references, a crafted document specifying a URI causes the XML parser to access the URI and embed the contents back into the XML document for further processing. An attacker can leverage this vulnerability to disclose information in the context of the current process.",
+  "zdi_can": "ZDI-CAN-11890",
+  "zdi_id": "ZDI-21-048"
+}

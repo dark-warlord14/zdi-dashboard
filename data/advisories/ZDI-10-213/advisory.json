@@ -1,0 +1,27 @@
+{
+  "additional_details": "RealNetworks has issued an update to correct this vulnerability. More details can be found at: http://service.real.com/realplayer/security/10152010_player/en/",
+  "advisory_date": "2010-10-15",
+  "affected_products": [
+    "RealPlayer"
+  ],
+  "affected_vendors": [
+    "RealNetworks"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2010-3751",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2010-3751",
+  "cvss": 9.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:C",
+  "disclosure_timeline": [
+    "2010-06-02 - Vulnerability reported to vendor",
+    "2010-10-15 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-10-213 ZDI-CAN-724 RealNetworks RealPlayer Multiple Protocol Handlers Remote Code Execution Vulnerability 2010-10-15 CVE-2010-3751 https://www.cve.org/CVERecord?id=CVE-2010-3751 9.0 AV:N/AC:L/Au:N/C:P/I:P/A:C ['RealNetworks'] ['RealPlayer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of RealNetworks RealPlayer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page. The specific flaw exists within the RealPlayer ActiveX control. This module is responsible for handling the tfile, pnmm, cdda, protocol handlers. While parsing a long argument ending with \".smil\" an attacker can overflow a buffer on the heap. This can be abused to execute arbitrary code under the context of the user invoking the control. RealNetworks has issued an update to correct this vulnerability. More details can be found at: http://service.real.com/realplayer/security/10152010_player/en/ ['2010-06-02 - Vulnerability reported to vendor', '2010-10-15 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-10-213/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-213/",
+  "title": "RealNetworks RealPlayer Multiple Protocol Handlers Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of RealNetworks RealPlayer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page. The specific flaw exists within the RealPlayer ActiveX control. This module is responsible for handling the tfile, pnmm, cdda, protocol handlers. While parsing a long argument ending with \".smil\" an attacker can overflow a buffer on the heap. This can be abused to execute arbitrary code under the context of the user invoking the control.",
+  "zdi_can": "ZDI-CAN-724",
+  "zdi_id": "ZDI-10-213"
+}

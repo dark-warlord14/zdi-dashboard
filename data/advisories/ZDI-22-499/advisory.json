@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-24455",
+  "advisory_date": "2022-03-09",
+  "affected_products": [
+    "Windows"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Hugo Cao of SandCastle, LilangWu, Moony Li of mobile security research",
+  "cve": "CVE-2022-24455",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-24455",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2019-01-23 - Vulnerability reported to vendor",
+    "2022-03-09 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-499 ZDI-CAN-7819 Microsoft Windows CD-ROM Driver Uninitialized Pointer Privilege Escalation Vulnerability 2022-03-09 CVE-2022-24455 https://www.cve.org/CVERecord?id=CVE-2022-24455 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Microsoft'] ['Windows'] This vulnerability allows local attackers to escalate privileges on vulnerable installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the CD-ROM driver. Crafted data sent to IOCTL 0x0056c064 can trigger access to a pointer prior to initialization. An attacker can leverage this vulnerability to escalate privileges to the level of SYSTEM. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-24455 ['2019-01-23 - Vulnerability reported to vendor', '2022-03-09 - Coordinated public release of advisory'] Hugo Cao of SandCastle, LilangWu, Moony Li of mobile security research https://www.zerodayinitiative.com/advisories/ZDI-22-499/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-499/",
+  "title": "Microsoft Windows CD-ROM Driver Uninitialized Pointer Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on vulnerable installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the CD-ROM driver. Crafted data sent to IOCTL 0x0056c064 can trigger access to a pointer prior to initialization. An attacker can leverage this vulnerability to escalate privileges to the level of SYSTEM.",
+  "zdi_can": "ZDI-CAN-7819",
+  "zdi_id": "ZDI-22-499"
+}

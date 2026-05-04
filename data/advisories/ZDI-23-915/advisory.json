@@ -1,0 +1,27 @@
+{
+  "additional_details": "NETGEAR has issued an update to correct this vulnerability. More details can be found at: https://kb.netgear.com/000065707/Security-Advisory-for-Multiple-Vulnerabilities-on-the-ProSAFE-Network-Management-System-PSV-2023-0024-PSV-2023-0025",
+  "advisory_date": "2023-07-13",
+  "affected_products": [
+    "ProSAFE Network Management System"
+  ],
+  "affected_vendors": [
+    "NETGEAR"
+  ],
+  "credit": "Steven Seeley of Source Incite",
+  "cve": "CVE-2023-38101",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-38101",
+  "cvss": 7.2,
+  "cvss_vector": "AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2023-02-08 - Vulnerability reported to vendor",
+    "2023-07-13 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-915 ZDI-CAN-19725 NETGEAR ProSAFE Network Management System SettingConfigController Exposed Dangerous Function Remote Code Execution Vulnerability 2023-07-13 CVE-2023-38101 https://www.cve.org/CVERecord?id=CVE-2023-38101 7.2 AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H ['NETGEAR'] ['ProSAFE Network Management System'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of NETGEAR ProSAFE Network Management System. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed. The specific flaw exists within the SettingConfigController class. The issue results from an exposed dangerous function. An attacker can leverage this vulnerability to execute code in the context of SYSTEM. NETGEAR has issued an update to correct this vulnerability. More details can be found at: https://kb.netgear.com/000065707/Security-Advisory-for-Multiple-Vulnerabilities-on-the-ProSAFE-Network-Management-System-PSV-2023-0024-PSV-2023-0025 ['2023-02-08 - Vulnerability reported to vendor', '2023-07-13 - Coordinated public release of advisory'] Steven Seeley of Source Incite https://www.zerodayinitiative.com/advisories/ZDI-23-915/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-915/",
+  "title": "NETGEAR ProSAFE Network Management System SettingConfigController Exposed Dangerous Function Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of NETGEAR ProSAFE Network Management System. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed. The specific flaw exists within the SettingConfigController class. The issue results from an exposed dangerous function. An attacker can leverage this vulnerability to execute code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-19725",
+  "zdi_id": "ZDI-23-915"
+}

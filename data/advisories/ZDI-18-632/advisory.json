@@ -1,0 +1,28 @@
+{
+  "additional_details": "This vulnerability is being disclosed publicly without a patch in accordance with the ZDI 120 day deadline. 02/09/18 - ZDI disclosed to ICS-CERT 06/05/18 - ZDI wrote to ICS-CERT requesting an update 06/05/18 - ICS-CERT replied that the vendor has not replied to requests for a date of the fix 06/18/18 - ICS-CERT notified ZDI of a similar (but seemingly not matched) advisory 06/18/18 - ZDI pointed out that the vendor is still offering only the version ZDI reported vulnerable online, not a new version 06/19/28 - ICS-CERT agreed to try to contact the vendor again 07/06/18 - ZDI notified the vendor of the intent to release the report as 0-day 07/13/2018 -- Mitigation: Given the nature of the vulnerability the only salient mitigation strategy is to restrict interaction with the application to trusted files.",
+  "advisory_date": "2018-07-13",
+  "affected_products": [
+    "WebAccess HMI Designer"
+  ],
+  "affected_vendors": [
+    "Advantech"
+  ],
+  "credit": "Ariele Caltabiano (kimiya)",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2018-02-09 - Vulnerability reported to vendor",
+    "2018-07-13 - Coordinated public release of advisory",
+    "2018-07-13 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-632 ZDI-CAN-5643 (0Day) Advantech WebAccess HMI Designer PM3 File Parsing Double Free Remote Code Execution Vulnerability 2018-07-13 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Advantech'] ['WebAccess HMI Designer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Advantech WebAccess HMI Designer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of project files. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code under the context of the current process. This vulnerability is being disclosed publicly without a patch in accordance with the ZDI 120 day deadline. 02/09/18 - ZDI disclosed to ICS-CERT 06/05/18 - ZDI wrote to ICS-CERT requesting an update 06/05/18 - ICS-CERT replied that the vendor has not replied to requests for a date of the fix 06/18/18 - ICS-CERT notified ZDI of a similar (but seemingly not matched) advisory 06/18/18 - ZDI pointed out that the vendor is still offering only the version ZDI reported vulnerable online, not a new version 06/19/28 - ICS-CERT agreed to try to contact the vendor again 07/06/18 - ZDI notified the vendor of the intent to release the report as 0-day 07/13/2018 -- Mitigation: Given the nature of the vulnerability the only salient mitigation strategy is to restrict interaction with the application to trusted files. ['2018-02-09 - Vulnerability reported to vendor', '2018-07-13 - Coordinated public release of advisory', '2018-07-13 - Advisory Updated'] Ariele Caltabiano (kimiya) https://www.zerodayinitiative.com/advisories/ZDI-18-632/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-632/",
+  "title": "(0Day) Advantech WebAccess HMI Designer PM3 File Parsing Double Free Remote Code Execution Vulnerability",
+  "updated_date": "2018-07-13",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Advantech WebAccess HMI Designer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of project files. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code under the context of the current process.",
+  "zdi_can": "ZDI-CAN-5643",
+  "zdi_id": "ZDI-18-632"
+}

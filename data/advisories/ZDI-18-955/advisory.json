@@ -1,0 +1,28 @@
+{
+  "additional_details": "Hewlett Packard Enterprise has issued an update to correct this vulnerability. More details can be found at: https://support.hpe.com/hpsc/doc/public/display?docId=emr_na-hpesbhf03872en_us",
+  "advisory_date": "2018-08-30",
+  "affected_products": [
+    "Intelligent Management Center"
+  ],
+  "affected_vendors": [
+    "Hewlett Packard Enterprise"
+  ],
+  "credit": "sztivi",
+  "cve": "CVE-2018-7092",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2018-7092",
+  "cvss": 5.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+  "disclosure_timeline": [
+    "2018-04-19 - Vulnerability reported to vendor",
+    "2018-08-30 - Coordinated public release of advisory",
+    "2018-08-30 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-955 ZDI-CAN-6110 Hewlett Packard Enterprise Intelligent Management Center TFTP deleteBaseCfgfile Directory Traversal Arbitrary File Deletion Vulnerability 2018-08-30 CVE-2018-7092 https://www.cve.org/CVERecord?id=CVE-2018-7092 5.0 AV:N/AC:L/Au:N/C:N/I:N/A:P ['Hewlett Packard Enterprise'] ['Intelligent Management Center'] This vulnerability allows remote attackers to delete arbitrary files on vulnerable installations of Hewlett Packard Enterprise Intelligent Management Center. Authentication is not required to exploit this vulnerability. The specific flaw exists within the TFTP server. The issue results from the lack of proper validation of user-supplied data, which can allow for the deletion of arbitrary files. An attacker can leverage this vulnerability to delete any files accessible to the Administrator user. Hewlett Packard Enterprise has issued an update to correct this vulnerability. More details can be found at: https://support.hpe.com/hpsc/doc/public/display?docId=emr_na-hpesbhf03872en_us ['2018-04-19 - Vulnerability reported to vendor', '2018-08-30 - Coordinated public release of advisory', '2018-08-30 - Advisory Updated'] sztivi https://www.zerodayinitiative.com/advisories/ZDI-18-955/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-955/",
+  "title": "Hewlett Packard Enterprise Intelligent Management Center TFTP deleteBaseCfgfile Directory Traversal Arbitrary File Deletion Vulnerability",
+  "updated_date": "2018-08-30",
+  "vulnerability_details": "This vulnerability allows remote attackers to delete arbitrary files on vulnerable installations of Hewlett Packard Enterprise Intelligent Management Center. Authentication is not required to exploit this vulnerability. The specific flaw exists within the TFTP server. The issue results from the lack of proper validation of user-supplied data, which can allow for the deletion of arbitrary files. An attacker can leverage this vulnerability to delete any files accessible to the Administrator user.",
+  "zdi_can": "ZDI-CAN-6110",
+  "zdi_id": "ZDI-18-955"
+}

@@ -1,0 +1,28 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/HT213442",
+  "advisory_date": "2023-05-17",
+  "affected_products": [
+    "WebKit"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2022-32912",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-32912",
+  "cvss": 4.3,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+  "disclosure_timeline": [
+    "2022-06-24 - Vulnerability reported to vendor",
+    "2023-05-17 - Coordinated public release of advisory",
+    "2024-07-08 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-646 ZDI-CAN-17329 Apple WebKit WebGL2 drawRangeElements Out-Of-Bounds Read Information Disclosure Vulnerability 2023-05-17 CVE-2022-32912 https://www.cve.org/CVERecord?id=CVE-2022-32912 4.3 AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N ['Apple'] ['WebKit'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Apple WebKit. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the implementation of the drawRangeElements method in WebGL2. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process. Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/HT213442 ['2022-06-24 - Vulnerability reported to vendor', '2023-05-17 - Coordinated public release of advisory', '2024-07-08 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-23-646/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-646/",
+  "title": "Apple WebKit WebGL2 drawRangeElements Out-Of-Bounds Read Information Disclosure Vulnerability",
+  "updated_date": "2024-07-08",
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Apple WebKit. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the implementation of the drawRangeElements method in WebGL2. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-17329",
+  "zdi_id": "ZDI-23-646"
+}

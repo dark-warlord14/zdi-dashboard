@@ -1,0 +1,27 @@
+{
+  "additional_details": "Icon Labs states that this issue was first fixed in Iconfidant SSL 1.3.0 and recommends upgrading to Iconfidant 1.3.1. Please contact Icon Labs at support@icon-labs.com to update the latest Iconfidant SSL software. \"Icon Labs would like to thank an Anonymous researcher and TippingPoint's Zero Day Initiative for responsibly reporting this vulnerability, ZDI-CAN-403.\"",
+  "advisory_date": "2011-01-20",
+  "affected_products": [
+    "Iconfidant SSL"
+  ],
+  "affected_vendors": [
+    "Icon Labs"
+  ],
+  "credit": "Anonymous",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2008-10-28 - Vulnerability reported to vendor",
+    "2011-01-20 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-11-021 ZDI-CAN-403 Icon Labs Iconfidant SSL Server Key Length Remote Code Execution Vulnerability 2011-01-20 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Icon Labs'] ['Iconfidant SSL'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Icon Labs Iconfidant SSL Server. Authentication is not required to exploit this vulnerability. The specific flaw exists in the functionality responsible for key exchange. If the sum of specific length fields within a client master key packet exceeds 0x4000, a static buffer can be overflowed leading to arbitrary code execution on the affected system. Icon Labs states that this issue was first fixed in Iconfidant SSL 1.3.0 and recommends upgrading to Iconfidant 1.3.1. Please contact Icon Labs at support@icon-labs.com to update the latest Iconfidant SSL software. \"Icon Labs would like to thank an Anonymous researcher and TippingPoint's Zero Day Initiative for responsibly reporting this vulnerability, ZDI-CAN-403.\" ['2008-10-28 - Vulnerability reported to vendor', '2011-01-20 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-11-021/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-021/",
+  "title": "Icon Labs Iconfidant SSL Server Key Length Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Icon Labs Iconfidant SSL Server. Authentication is not required to exploit this vulnerability. The specific flaw exists in the functionality responsible for key exchange. If the sum of specific length fields within a client master key packet exceeds 0x4000, a static buffer can be overflowed leading to arbitrary code execution on the affected system.",
+  "zdi_can": "ZDI-CAN-403",
+  "zdi_id": "ZDI-11-021"
+}

@@ -1,0 +1,28 @@
+{
+  "additional_details": "Phoenix Contact has issued an update to correct this vulnerability. More details can be found at: https://cert.vde.com/en/advisories/VDE-2024-022/",
+  "advisory_date": "2024-08-20",
+  "affected_products": [
+    "CHARX SEC-3100"
+  ],
+  "affected_vendors": [
+    "Phoenix Contact"
+  ],
+  "credit": "Alex Olson",
+  "cve": "CVE-2024-3913",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-3913",
+  "cvss": 5.0,
+  "cvss_vector": "AV:A/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L",
+  "disclosure_timeline": [
+    "2024-03-15 - Vulnerability reported to vendor",
+    "2024-08-20 - Coordinated public release of advisory",
+    "2024-08-20 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-1152 ZDI-CAN-23499 Phoenix Contact CHARX SEC-3100 Improper Access Control Authentication Bypass Vulnerability 2024-08-20 CVE-2024-3913 https://www.cve.org/CVERecord?id=CVE-2024-3913 5.0 AV:A/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L ['Phoenix Contact'] ['CHARX SEC-3100'] This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of Phoenix Contact CHARX SEC-3100 devices. Authentication is not required to exploit this vulnerability. The specific flaw exists within the firewall. The issue results from incorrect ordering and synchronization of services during startup. An attacker can leverage this in conjunction with other vulnerabilities to execute code in the context of root. Phoenix Contact has issued an update to correct this vulnerability. More details can be found at: https://cert.vde.com/en/advisories/VDE-2024-022/ ['2024-03-15 - Vulnerability reported to vendor', '2024-08-20 - Coordinated public release of advisory', '2024-08-20 - Advisory Updated'] Alex Olson https://www.zerodayinitiative.com/advisories/ZDI-24-1152/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-1152/",
+  "title": "Phoenix Contact CHARX SEC-3100 Improper Access Control Authentication Bypass Vulnerability",
+  "updated_date": "2024-08-20",
+  "vulnerability_details": "This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of Phoenix Contact CHARX SEC-3100 devices. Authentication is not required to exploit this vulnerability. The specific flaw exists within the firewall. The issue results from incorrect ordering and synchronization of services during startup. An attacker can leverage this in conjunction with other vulnerabilities to execute code in the context of root.",
+  "zdi_can": "ZDI-CAN-23499",
+  "zdi_id": "ZDI-24-1152"
+}

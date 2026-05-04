@@ -1,0 +1,28 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-8174",
+  "advisory_date": "2018-06-05",
+  "affected_products": [
+    "Windows"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2018-8174",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2018-8174",
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2018-05-08 - Vulnerability reported to vendor",
+    "2018-06-05 - Coordinated public release of advisory",
+    "2018-06-05 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-540 ZDI-CAN-6197 Microsoft Windows VBScript Class_Terminate Use-After-Free Remote Code Execution Vulnerability 2018-06-05 CVE-2018-8174 https://www.cve.org/CVERecord?id=CVE-2018-8174 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Microsoft'] ['Windows'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Windows VBScript. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Class_Terminate methods. By performing actions in VBScript, an attacker can cause a pointer to be reused after it has been freed. An attacker can leverage this vulnerability to execute code under the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-8174 ['2018-05-08 - Vulnerability reported to vendor', '2018-06-05 - Coordinated public release of advisory', '2018-06-05 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-18-540/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-540/",
+  "title": "Microsoft Windows VBScript Class_Terminate Use-After-Free Remote Code Execution Vulnerability",
+  "updated_date": "2018-06-05",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Windows VBScript. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Class_Terminate methods. By performing actions in VBScript, an attacker can cause a pointer to be reused after it has been freed. An attacker can leverage this vulnerability to execute code under the context of the current process.",
+  "zdi_can": "ZDI-CAN-6197",
+  "zdi_id": "ZDI-18-540"
+}

@@ -1,0 +1,28 @@
+{
+  "additional_details": "Fixed in centreon-web versions:22.04.24, 22.10.22, 23.04.18, 23.10.12 and 24.04.0",
+  "advisory_date": "2024-06-10",
+  "affected_products": [
+    "Centreon"
+  ],
+  "affected_vendors": [
+    "Centreon"
+  ],
+  "credit": "cchav3z",
+  "cve": "CVE-2024-5723",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-5723",
+  "cvss": 8.8,
+  "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2024-03-07 - Vulnerability reported to vendor",
+    "2024-06-10 - Coordinated public release of advisory",
+    "2024-07-01 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-595 ZDI-CAN-23294 Centreon updateServiceHost SQL Injection Remote Code Execution Vulnerability 2024-06-10 CVE-2024-5723 https://www.cve.org/CVERecord?id=CVE-2024-5723 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Centreon'] ['Centreon'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Centreon. Authentication is required to exploit this vulnerability. The specific flaw exists within the updateServiceHost function. The issue results from the lack of proper validation of a user-supplied string before using it to construct SQL queries. An attacker can leverage this vulnerability to execute code in the context of the apache user. Fixed in centreon-web versions:22.04.24, 22.10.22, 23.04.18, 23.10.12 and 24.04.0 ['2024-03-07 - Vulnerability reported to vendor', '2024-06-10 - Coordinated public release of advisory', '2024-07-01 - Advisory Updated'] cchav3z https://www.zerodayinitiative.com/advisories/ZDI-24-595/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-595/",
+  "title": "Centreon updateServiceHost SQL Injection Remote Code Execution Vulnerability",
+  "updated_date": "2024-07-01",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Centreon. Authentication is required to exploit this vulnerability. The specific flaw exists within the updateServiceHost function. The issue results from the lack of proper validation of a user-supplied string before using it to construct SQL queries. An attacker can leverage this vulnerability to execute code in the context of the apache user.",
+  "zdi_can": "ZDI-CAN-23294",
+  "zdi_id": "ZDI-24-595"
+}

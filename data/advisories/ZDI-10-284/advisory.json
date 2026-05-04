@@ -1,0 +1,27 @@
+{
+  "additional_details": "Fixed in ZENworks 7 Desktop Management Support Pack 1 Interim Release 4 Hot Patch 5: http://download.novell.com/Download?buildid=r9kcCymJ7Os Documented in TID 7007339 http://www.novell.com/support/dynamickc.do?cmd=show&forward=nonthreadedKC&docType=kc&externalId=7007339&sliceId=1",
+  "advisory_date": "2010-12-13",
+  "affected_products": [
+    "Zenworks"
+  ],
+  "affected_vendors": [
+    "Novell"
+  ],
+  "credit": "sb",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2010-06-30 - Vulnerability reported to vendor",
+    "2010-12-13 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-10-284 ZDI-CAN-751 Novell ZENWorks Remote Management Agent DN Name Remote Code Execution Vulnerability 2010-12-13 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Novell'] ['Zenworks'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Novell ZENWorks. Authentication is not required to exploit this vulnerability. The specific flaw exists within the ZenRem32.exe process which listens by default on TCP and UDP ports 1761. When processing the Console DN field of incoming requests, the process can be made to overflow a stack buffer by 2 bytes. Due to the location of the destination buffer, an attacker can abuse this to overwrite a portion of a return address and execute remote code under the context of the SYSTEM user. Fixed in ZENworks 7 Desktop Management Support Pack 1 Interim Release 4 Hot Patch 5: http://download.novell.com/Download?buildid=r9kcCymJ7Os Documented in TID 7007339 http://www.novell.com/support/dynamickc.do?cmd=show&forward=nonthreadedKC&docType=kc&externalId=7007339&sliceId=1 ['2010-06-30 - Vulnerability reported to vendor', '2010-12-13 - Coordinated public release of advisory'] sb https://www.zerodayinitiative.com/advisories/ZDI-10-284/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-284/",
+  "title": "Novell ZENWorks Remote Management Agent DN Name Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Novell ZENWorks. Authentication is not required to exploit this vulnerability. The specific flaw exists within the ZenRem32.exe process which listens by default on TCP and UDP ports 1761. When processing the Console DN field of incoming requests, the process can be made to overflow a stack buffer by 2 bytes. Due to the location of the destination buffer, an attacker can abuse this to overwrite a portion of a return address and execute remote code under the context of the SYSTEM user.",
+  "zdi_can": "ZDI-CAN-751",
+  "zdi_id": "ZDI-10-284"
+}

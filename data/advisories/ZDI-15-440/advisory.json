@@ -1,0 +1,27 @@
+{
+  "additional_details": "GE has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-15-258-03",
+  "advisory_date": "2015-09-16",
+  "affected_products": [
+    "MDS PulseNET"
+  ],
+  "affected_vendors": [
+    "GE"
+  ],
+  "credit": "Andrea Micalizzi (rgod)",
+  "cve": "CVE-2015-6456",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-6456",
+  "cvss": 9.0,
+  "cvss_vector": "AV:N/AC:L/Au:S/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2015-05-14 - Vulnerability reported to vendor",
+    "2015-09-16 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-15-440 ZDI-CAN-2922 GE MDS PulseNET Hidden Support Account Remote Code Execution Vulnerability 2015-09-16 CVE-2015-6456 https://www.cve.org/CVERecord?id=CVE-2015-6456 9.0 AV:N/AC:L/Au:S/C:C/I:C/A:C ['GE'] ['MDS PulseNET'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of GE MDS PulseNET. Authentication is required to exploit this vulnerability but it can bypassed using static credentials. The specific flaw exists within the PulseNET web service. It contains a hidden support account, with static credentials, that gives full access. An attacker could leverage this vulnerability to execute arbitrary code under the context of SYSTEM. GE has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-15-258-03 ['2015-05-14 - Vulnerability reported to vendor', '2015-09-16 - Coordinated public release of advisory'] Andrea Micalizzi (rgod) https://www.zerodayinitiative.com/advisories/ZDI-15-440/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-440/",
+  "title": "GE MDS PulseNET Hidden Support Account Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of GE MDS PulseNET. Authentication is required to exploit this vulnerability but it can bypassed using static credentials. The specific flaw exists within the PulseNET web service. It contains a hidden support account, with static credentials, that gives full access. An attacker could leverage this vulnerability to execute arbitrary code under the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-2922",
+  "zdi_id": "ZDI-15-440"
+}

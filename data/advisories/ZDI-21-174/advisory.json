@@ -1,0 +1,27 @@
+{
+  "additional_details": "IBM has issued an update to correct this vulnerability. More details can be found at: https://www.ibm.com/support/pages/node/6413709",
+  "advisory_date": "2021-02-10",
+  "affected_products": [
+    "WebSphere"
+  ],
+  "affected_vendors": [
+    "IBM"
+  ],
+  "credit": "r00t4dm at Cloud-Penetrating Arrow Lab and Longofo at Knownsec 404 Team",
+  "cve": "CVE-2021-20353",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2021-20353",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+  "disclosure_timeline": [
+    "2020-12-11 - Vulnerability reported to vendor",
+    "2021-02-10 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-21-174 ZDI-CAN-12478 IBM WebSphere EDataGraphImpl Deserialization of Untrusted Data Information Disclosure Vulnerability 2021-02-10 CVE-2021-20353 https://www.cve.org/CVERecord?id=CVE-2021-20353 7.5 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N ['IBM'] ['WebSphere'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of IBM WebSphere. Authentication is not required to exploit this vulnerability. The specific flaw exists within the EDataGraphImpl class. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to disclose information in the context of root. IBM has issued an update to correct this vulnerability. More details can be found at: https://www.ibm.com/support/pages/node/6413709 ['2020-12-11 - Vulnerability reported to vendor', '2021-02-10 - Coordinated public release of advisory'] r00t4dm at Cloud-Penetrating Arrow Lab and Longofo at Knownsec 404 Team https://www.zerodayinitiative.com/advisories/ZDI-21-174/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-21-174/",
+  "title": "IBM WebSphere EDataGraphImpl Deserialization of Untrusted Data Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of IBM WebSphere. Authentication is not required to exploit this vulnerability. The specific flaw exists within the EDataGraphImpl class. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to disclose information in the context of root.",
+  "zdi_can": "ZDI-CAN-12478",
+  "zdi_id": "ZDI-21-174"
+}

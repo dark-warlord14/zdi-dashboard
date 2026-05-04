@@ -1,0 +1,27 @@
+{
+  "additional_details": "Autodesk has issued an update to correct this vulnerability. More details can be found at: https://www.autodesk.com/trust/security-advisories/adsk-sa-2022-0015",
+  "advisory_date": "2022-07-29",
+  "affected_products": [
+    "Desktop App"
+  ],
+  "affected_vendors": [
+    "Autodesk"
+  ],
+  "credit": "Michael DePlante (@izobashi) of Trend Micro's Zero Day Initiative",
+  "cve": "CVE-2022-33882",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-33882",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2022-03-16 - Vulnerability reported to vendor",
+    "2022-07-29 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-1034 ZDI-CAN-16882 Autodesk Desktop App Link Following Local Privilege Escalation Vulnerability 2022-07-29 CVE-2022-33882 https://www.cve.org/CVERecord?id=CVE-2022-33882 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Autodesk'] ['Desktop App'] This vulnerability allows local attackers to escalate privileges on affected installations of Autodesk Desktop App. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of updates. By creating a symbolic link, an attacker can abuse the application to delete a file. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. Autodesk has issued an update to correct this vulnerability. More details can be found at: https://www.autodesk.com/trust/security-advisories/adsk-sa-2022-0015 ['2022-03-16 - Vulnerability reported to vendor', '2022-07-29 - Coordinated public release of advisory'] Michael DePlante (@izobashi) of Trend Micro's Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-22-1034/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-1034/",
+  "title": "Autodesk Desktop App Link Following Local Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Autodesk Desktop App. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of updates. By creating a symbolic link, an attacker can abuse the application to delete a file. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-16882",
+  "zdi_id": "ZDI-22-1034"
+}

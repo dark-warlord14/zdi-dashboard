@@ -1,0 +1,27 @@
+{
+  "additional_details": "Mozilla has issued an update to correct this vulnerability. More details can be found at: https://www.mozilla.org/en-US/security/advisories/mfsa2015-106/",
+  "advisory_date": "2015-12-18",
+  "affected_products": [
+    "Firefox"
+  ],
+  "affected_vendors": [
+    "Mozilla"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2015-4509",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-4509",
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2015-08-24 - Vulnerability reported to vendor",
+    "2015-12-18 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-15-646 ZDI-CAN-3176 Mozilla Firefox HTMLVideoElement Use-After-Free Remote Code Execution Vulnerability 2015-12-18 CVE-2015-4509 https://www.cve.org/CVERecord?id=CVE-2015-4509 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Mozilla'] ['Firefox'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Mozilla Firefox. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of media objects. By manipulating a document's elements an attacker can cause a HTMLVideoElement object in memory to be reused after it has been freed. An attacker can leverage this vulnerability to execute arbitrary code under the context of the current process. Mozilla has issued an update to correct this vulnerability. More details can be found at: https://www.mozilla.org/en-US/security/advisories/mfsa2015-106/ ['2015-08-24 - Vulnerability reported to vendor', '2015-12-18 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-15-646/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-646/",
+  "title": "Mozilla Firefox HTMLVideoElement Use-After-Free Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Mozilla Firefox. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of media objects. By manipulating a document's elements an attacker can cause a HTMLVideoElement object in memory to be reused after it has been freed. An attacker can leverage this vulnerability to execute arbitrary code under the context of the current process.",
+  "zdi_can": "ZDI-CAN-3176",
+  "zdi_id": "ZDI-15-646"
+}

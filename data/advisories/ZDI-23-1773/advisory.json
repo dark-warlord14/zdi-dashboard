@@ -1,0 +1,27 @@
+{
+  "additional_details": "10/03/23 \u2013 ZDI reported the vulnerability to the vendor. 12/05/23 \u2013 The vendor states they are rejecting the case as it is out of the scope of the Intel Bug Bounty Program. 12/05/23 \u2013 ZDI provided additional details on why this vulnerability should be remediated and that we intend to publish the case as a zero-day advisory on 12/12/23. -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the application.",
+  "advisory_date": "2023-12-13",
+  "affected_products": [
+    "Driver & Support Assistant"
+  ],
+  "affected_vendors": [
+    "Intel"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2023-50197",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-50197",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2023-10-03 - Vulnerability reported to vendor",
+    "2023-12-13 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-1773 ZDI-CAN-21845 (0Day) Intel Driver & Support Assistant Link Following Local Privilege Escalation Vulnerability 2023-12-13 CVE-2023-50197 https://www.cve.org/CVERecord?id=CVE-2023-50197 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Intel'] ['Driver & Support Assistant'] This vulnerability allows local attackers to escalate privileges on affected installations of Intel Driver & Support Assistant. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the DSA Service. By creating a symbolic link, an attacker can abuse the service to write a file. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. 10/03/23 \u2013 ZDI reported the vulnerability to the vendor. 12/05/23 \u2013 The vendor states they are rejecting the case as it is out of the scope of the Intel Bug Bounty Program. 12/05/23 \u2013 ZDI provided additional details on why this vulnerability should be remediated and that we intend to publish the case as a zero-day advisory on 12/12/23. -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the application. ['2023-10-03 - Vulnerability reported to vendor', '2023-12-13 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-23-1773/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-1773/",
+  "title": "(0Day) Intel Driver & Support Assistant Link Following Local Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Intel Driver & Support Assistant. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the DSA Service. By creating a symbolic link, an attacker can abuse the service to write a file. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-21845",
+  "zdi_id": "ZDI-23-1773"
+}

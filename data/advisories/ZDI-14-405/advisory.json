@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/en-us/library/security/ms14-080.aspx",
+  "advisory_date": "2014-12-09",
+  "affected_products": [
+    "Internet Explorer"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "sky",
+  "cve": "CVE-2014-6375",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-6375",
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2014-09-04 - Vulnerability reported to vendor",
+    "2014-12-09 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-14-405 ZDI-CAN-2503 Microsoft Internet Explorer Insert Command Use-After-Free Remote Code Execution Vulnerability 2014-12-09 CVE-2014-6375 https://www.cve.org/CVERecord?id=CVE-2014-6375 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Microsoft'] ['Internet Explorer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The vulnerability relates to how Internet Explorer processes HTML elements created using the script method execCommand. An attacker can cause Internet Explorer to allocate memory for such an element and later to reuse the memory after the time it has been freed. An attacker can leverage this vulnerability to execute code under the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/en-us/library/security/ms14-080.aspx ['2014-09-04 - Vulnerability reported to vendor', '2014-12-09 - Coordinated public release of advisory'] sky https://www.zerodayinitiative.com/advisories/ZDI-14-405/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-14-405/",
+  "title": "Microsoft Internet Explorer Insert Command Use-After-Free Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The vulnerability relates to how Internet Explorer processes HTML elements created using the script method execCommand. An attacker can cause Internet Explorer to allocate memory for such an element and later to reuse the memory after the time it has been freed. An attacker can leverage this vulnerability to execute code under the context of the current process.",
+  "zdi_can": "ZDI-CAN-2503",
+  "zdi_id": "ZDI-14-405"
+}

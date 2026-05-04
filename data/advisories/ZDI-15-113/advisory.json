@@ -1,0 +1,27 @@
+{
+  "additional_details": "ManageEngine has issued an update to correct this vulnerability. More details can be found at: https://support.zoho.com/portal/manageengine/helpcenter/articles/servlet-vulnerability-fix",
+  "advisory_date": "2015-04-03",
+  "affected_products": [
+    "OpManager"
+  ],
+  "affected_vendors": [
+    "ManageEngine"
+  ],
+  "credit": "Andrea Micalizzi (rgod)",
+  "cve": "CVE-2014-6036",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-6036",
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2014-08-18 - Vulnerability reported to vendor",
+    "2015-04-03 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-15-113 ZDI-CAN-2439 ManageEngine OpManager MultipartRequestServlet filename File Upload Remote Code Execution Vulnerability 2015-04-03 CVE-2014-6036 https://www.cve.org/CVERecord?id=CVE-2014-6036 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['ManageEngine'] ['OpManager'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of ManageEngine OpManager. Authentication is not required to exploit this vulnerability. The specific flaw exists within the MultipartRequestServlet servlet. The issue lies in the failure to sanitize the filenames uploaded to the servlet. An attacker can leverage this vulnerability to execute code under the context of SYSTEM. ManageEngine has issued an update to correct this vulnerability. More details can be found at: https://support.zoho.com/portal/manageengine/helpcenter/articles/servlet-vulnerability-fix ['2014-08-18 - Vulnerability reported to vendor', '2015-04-03 - Coordinated public release of advisory'] Andrea Micalizzi (rgod) https://www.zerodayinitiative.com/advisories/ZDI-15-113/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-113/",
+  "title": "ManageEngine OpManager MultipartRequestServlet filename File Upload Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of ManageEngine OpManager. Authentication is not required to exploit this vulnerability. The specific flaw exists within the MultipartRequestServlet servlet. The issue lies in the failure to sanitize the filenames uploaded to the servlet. An attacker can leverage this vulnerability to execute code under the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-2439",
+  "zdi_id": "ZDI-15-113"
+}

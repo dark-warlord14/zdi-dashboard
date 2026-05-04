@@ -1,0 +1,27 @@
+{
+  "additional_details": "Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/cpujan2016-2367955.html",
+  "advisory_date": "2016-01-25",
+  "affected_products": [
+    "Application Testing Suite"
+  ],
+  "affected_vendors": [
+    "Oracle"
+  ],
+  "credit": "rgod",
+  "cve": "CVE-2016-0488",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-0488",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2015-10-08 - Vulnerability reported to vendor",
+    "2016-01-25 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-16-035 ZDI-CAN-3324 Oracle Application Testing Suite Authentication Bypass Vulnerability 2016-01-25 CVE-2016-0488 https://www.cve.org/CVERecord?id=CVE-2016-0488 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Oracle'] ['Application Testing Suite'] This vulnerability allows remote attackers to bypass authentication on vulnerable installations of Oracle Application Testing Suite. The specific flaw exists within the isAllowedUrl() function used for the admin pages. This function has a list of URI entries which do not require authentication. Because the function only checks to see if a URI starts with one of these entries, an attacker can use directory traversal in the URI to gain access to all of the exposed administrator functionality. Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/cpujan2016-2367955.html ['2015-10-08 - Vulnerability reported to vendor', '2016-01-25 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-16-035/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-035/",
+  "title": "Oracle Application Testing Suite Authentication Bypass Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to bypass authentication on vulnerable installations of Oracle Application Testing Suite. The specific flaw exists within the isAllowedUrl() function used for the admin pages. This function has a list of URI entries which do not require authentication. Because the function only checks to see if a URI starts with one of these entries, an attacker can use directory traversal in the URI to gain access to all of the exposed administrator functionality.",
+  "zdi_can": "ZDI-CAN-3324",
+  "zdi_id": "ZDI-16-035"
+}

@@ -1,0 +1,28 @@
+{
+  "additional_details": "ZDI made several attempts to contact the vendor using the contact information on their website, as well as trying to reach them on various social platforms which yielded no response. -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+  "advisory_date": "2025-06-06",
+  "affected_products": [
+    "Level 2 EV Charger"
+  ],
+  "affected_vendors": [
+    "WOLFBOX"
+  ],
+  "credit": "Tobias Scharnowski, Felix Buchmann, and Kristian Covic of fuzzware.io",
+  "cve": "CVE-2025-5749",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-5749",
+  "cvss": 6.3,
+  "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+  "disclosure_timeline": [
+    "2025-03-10 - Vulnerability reported to vendor",
+    "2025-06-06 - Coordinated public release of advisory",
+    "2025-06-06 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-328 ZDI-CAN-26295 (0Day) (Pwn2Own) WOLFBOX Level 2 EV Charger BLE Encryption Keys Uninitialized Variable Authentication Bypass Vulnerability 2025-06-06 CVE-2025-5749 https://www.cve.org/CVERecord?id=CVE-2025-5749 6.3 AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L ['WOLFBOX'] ['Level 2 EV Charger'] This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of WOLFBOX Level 2 EV Charger devices. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of cryptographic keys used in vendor-specific encrypted communications. The issue results from the lack of proper initialization of a variable prior to accessing it. An attacker can leverage this vulnerability to bypass authentication on the system. ZDI made several attempts to contact the vendor using the contact information on their website, as well as trying to reach them on various social platforms which yielded no response. -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2025-03-10 - Vulnerability reported to vendor', '2025-06-06 - Coordinated public release of advisory', '2025-06-06 - Advisory Updated'] Tobias Scharnowski, Felix Buchmann, and Kristian Covic of fuzzware.io https://www.zerodayinitiative.com/advisories/ZDI-25-328/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-328/",
+  "title": "(0Day) (Pwn2Own) WOLFBOX Level 2 EV Charger BLE Encryption Keys Uninitialized Variable Authentication Bypass Vulnerability",
+  "updated_date": "2025-06-06",
+  "vulnerability_details": "This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of WOLFBOX Level 2 EV Charger devices. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of cryptographic keys used in vendor-specific encrypted communications. The issue results from the lack of proper initialization of a variable prior to accessing it. An attacker can leverage this vulnerability to bypass authentication on the system.",
+  "zdi_can": "ZDI-CAN-26295",
+  "zdi_id": "ZDI-25-328"
+}

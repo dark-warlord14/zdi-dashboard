@@ -1,0 +1,27 @@
+{
+  "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/flash-player/apsb17-17.html",
+  "advisory_date": "2017-06-13",
+  "affected_products": [
+    "Flash"
+  ],
+  "affected_vendors": [
+    "Adobe"
+  ],
+  "credit": "bo13oy of CloverSec Labs",
+  "cve": "CVE-2017-3083",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-3083",
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2017-04-07 - Vulnerability reported to vendor",
+    "2017-06-13 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-17-406 ZDI-CAN-4703 Adobe Flash Profile Use-After-Free Remote Code Execution Vulnerability 2017-06-13 CVE-2017-3083 https://www.cve.org/CVERecord?id=CVE-2017-3083 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Adobe'] ['Flash'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Adobe Flash. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Profile objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code under the context of the current process. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/flash-player/apsb17-17.html ['2017-04-07 - Vulnerability reported to vendor', '2017-06-13 - Coordinated public release of advisory'] bo13oy of CloverSec Labs https://www.zerodayinitiative.com/advisories/ZDI-17-406/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-406/",
+  "title": "Adobe Flash Profile Use-After-Free Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Adobe Flash. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Profile objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code under the context of the current process.",
+  "zdi_can": "ZDI-CAN-4703",
+  "zdi_id": "ZDI-17-406"
+}

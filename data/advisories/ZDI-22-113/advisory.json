@@ -1,0 +1,27 @@
+{
+  "additional_details": "Oracle has issued an update to correct this vulnerability. More details can be found at: https://www.oracle.com/security-alerts/cpujan2022.html",
+  "advisory_date": "2022-01-21",
+  "affected_products": [
+    "MySQL Cluster"
+  ],
+  "affected_vendors": [
+    "Oracle"
+  ],
+  "credit": "Lucas Leong (@_wmliang_) of Trend Micro Zero Day Initiative",
+  "cve": "CVE-2022-21328",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-21328",
+  "cvss": 9.8,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2021-07-23 - Vulnerability reported to vendor",
+    "2022-01-21 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-113 ZDI-CAN-14504 Oracle MySQL Cluster Data Node Improper Validation of Array Index Remote Code Execution Vulnerability 2022-01-21 CVE-2022-21328 https://www.cve.org/CVERecord?id=CVE-2022-21328 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['Oracle'] ['MySQL Cluster'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Oracle MySQL Cluster. Authentication is not required to exploit this vulnerability. The specific flaw exists within the processing of Data Node jobs. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an array. An attacker can leverage this vulnerability to execute code in the context of the service account. Oracle has issued an update to correct this vulnerability. More details can be found at: https://www.oracle.com/security-alerts/cpujan2022.html ['2021-07-23 - Vulnerability reported to vendor', '2022-01-21 - Coordinated public release of advisory'] Lucas Leong (@_wmliang_) of Trend Micro Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-22-113/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-113/",
+  "title": "Oracle MySQL Cluster Data Node Improper Validation of Array Index Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Oracle MySQL Cluster. Authentication is not required to exploit this vulnerability. The specific flaw exists within the processing of Data Node jobs. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an array. An attacker can leverage this vulnerability to execute code in the context of the service account.",
+  "zdi_can": "ZDI-CAN-14504",
+  "zdi_id": "ZDI-22-113"
+}

@@ -1,0 +1,27 @@
+{
+  "additional_details": "https://www-304.ibm.com/support/docview.wss?uid=swg21426108 v9.1 fp10 IC69986 https://www-304.ibm.com/support/docview.wss?uid=swg1IC69986 v9.5 fp6 IC70538 https://www-304.ibm.com/support/docview.wss?uid=swg1IC70538 v9.7 fp3 IC70539 https://www-304.ibm.com/support/docview.wss?uid=swg1IC70539",
+  "advisory_date": "2011-01-31",
+  "affected_products": [
+    "DB2 Universal Database"
+  ],
+  "affected_vendors": [
+    "IBM"
+  ],
+  "credit": "Intevydis http://intevydis.com",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 9.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:C",
+  "disclosure_timeline": [
+    "2010-06-30 - Vulnerability reported to vendor",
+    "2011-01-31 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-11-035 ZDI-CAN-775 IBM DB2 db2dasrrm validateUser Remote Code Execution Vulnerability 2011-01-31 9.0 AV:N/AC:L/Au:N/C:P/I:P/A:C ['IBM'] ['DB2 Universal Database'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of IBM DB2. Authentication is not required to exploit this vulnerability. The specific flaw exists within the db2dasrrm process responsible for handling queries to the com.ibm.db2.das.core.DasSysCmd function. While processing a request, the username supplied is copied into a fixed-length stack buffer. By providing a large enough string the copy operation can overflow leading to remote code execution. https://www-304.ibm.com/support/docview.wss?uid=swg21426108 v9.1 fp10 IC69986 https://www-304.ibm.com/support/docview.wss?uid=swg1IC69986 v9.5 fp6 IC70538 https://www-304.ibm.com/support/docview.wss?uid=swg1IC70538 v9.7 fp3 IC70539 https://www-304.ibm.com/support/docview.wss?uid=swg1IC70539 ['2010-06-30 - Vulnerability reported to vendor', '2011-01-31 - Coordinated public release of advisory'] Intevydis http://intevydis.com https://www.zerodayinitiative.com/advisories/ZDI-11-035/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-035/",
+  "title": "IBM DB2 db2dasrrm validateUser Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of IBM DB2. Authentication is not required to exploit this vulnerability. The specific flaw exists within the db2dasrrm process responsible for handling queries to the com.ibm.db2.das.core.DasSysCmd function. While processing a request, the username supplied is copied into a fixed-length stack buffer. By providing a large enough string the copy operation can overflow leading to remote code execution.",
+  "zdi_can": "ZDI-CAN-775",
+  "zdi_id": "ZDI-11-035"
+}

@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-24513",
+  "advisory_date": "2022-06-01",
+  "affected_products": [
+    "Visual Studio"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Nils Ole Timm (@firzen14)",
+  "cve": "CVE-2022-24513",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-24513",
+  "cvss": 8.4,
+  "cvss_vector": "AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2021-12-15 - Vulnerability reported to vendor",
+    "2022-06-01 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-807 ZDI-CAN-15294 Microsoft Visual Studio VSIX Auto Update Deserialization of Untrusted Data Privilege Escalation Vulnerability 2022-06-01 CVE-2022-24513 https://www.cve.org/CVERecord?id=CVE-2022-24513 8.4 AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['Microsoft'] ['Visual Studio'] This vulnerability allows local attackers to escalate privileges on affected installations of Microsoft Visual Studio. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the VSIX Auto Update task. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-24513 ['2021-12-15 - Vulnerability reported to vendor', '2022-06-01 - Coordinated public release of advisory'] Nils Ole Timm (@firzen14) https://www.zerodayinitiative.com/advisories/ZDI-22-807/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-807/",
+  "title": "Microsoft Visual Studio VSIX Auto Update Deserialization of Untrusted Data Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Microsoft Visual Studio. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the VSIX Auto Update task. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-15294",
+  "zdi_id": "ZDI-22-807"
+}

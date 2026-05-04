@@ -1,0 +1,27 @@
+{
+  "additional_details": "Oracle has issued an update to correct this vulnerability. More details can be found at: https://www.oracle.com/security-alerts/cpuapr2020.html",
+  "advisory_date": "2020-04-16",
+  "affected_products": [
+    "VirtualBox"
+  ],
+  "affected_vendors": [
+    "Oracle"
+  ],
+  "credit": "Calvin Fong (Lord_Idiot) of STAR Labs",
+  "cve": "CVE-2020-2758",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2020-2758",
+  "cvss": 8.2,
+  "cvss_vector": "AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2020-03-03 - Vulnerability reported to vendor",
+    "2020-04-16 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-20-507 ZDI-CAN-10423 Oracle VirtualBox VBoxVGA VBoxVHWASurfaceBase Use-After-Free Privilege Escalation Vulnerability 2020-04-16 CVE-2020-2758 https://www.cve.org/CVERecord?id=CVE-2020-2758 8.2 AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H ['Oracle'] ['VirtualBox'] This vulnerability allows local attackers to escalate privileges on affected installations of Oracle VirtualBox. An attacker must first obtain the ability to execute high-privileged code on the target guest system in order to exploit this vulnerability. The specific flaw exists within the VBoxVGA graphics controller component. When handling the VBoxVHWASurfaceBase object, the process does not properly validate the existence of the object prior to performing operations on the object. An attacker can leverage this vulnerability to escalate privileges and execute code in the context of the hypervisor. Oracle has issued an update to correct this vulnerability. More details can be found at: https://www.oracle.com/security-alerts/cpuapr2020.html ['2020-03-03 - Vulnerability reported to vendor', '2020-04-16 - Coordinated public release of advisory'] Calvin Fong (Lord_Idiot) of STAR Labs https://www.zerodayinitiative.com/advisories/ZDI-20-507/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-20-507/",
+  "title": "Oracle VirtualBox VBoxVGA VBoxVHWASurfaceBase Use-After-Free Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Oracle VirtualBox. An attacker must first obtain the ability to execute high-privileged code on the target guest system in order to exploit this vulnerability. The specific flaw exists within the VBoxVGA graphics controller component. When handling the VBoxVHWASurfaceBase object, the process does not properly validate the existence of the object prior to performing operations on the object. An attacker can leverage this vulnerability to escalate privileges and execute code in the context of the hypervisor.",
+  "zdi_can": "ZDI-CAN-10423",
+  "zdi_id": "ZDI-20-507"
+}

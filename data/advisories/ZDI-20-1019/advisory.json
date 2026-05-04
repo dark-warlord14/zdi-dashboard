@@ -1,0 +1,27 @@
+{
+  "additional_details": "Parallels has issued an update to correct this vulnerability. More details can be found at: https://kb.parallels.com/en/125013",
+  "advisory_date": "2020-08-18",
+  "affected_products": [
+    "Desktop"
+  ],
+  "affected_vendors": [
+    "Parallels"
+  ],
+  "credit": "grigoritchy",
+  "cve": "CVE-2020-17401",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2020-17401",
+  "cvss": 6.0,
+  "cvss_vector": "AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:N/A:N",
+  "disclosure_timeline": [
+    "2020-07-15 - Vulnerability reported to vendor",
+    "2020-08-18 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-20-1019 ZDI-CAN-11363 Parallels Desktop VGA Out-Of-Bounds Read Information Disclosure Vulnerability 2020-08-18 CVE-2020-17401 https://www.cve.org/CVERecord?id=CVE-2020-17401 6.0 AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:N/A:N ['Parallels'] ['Desktop'] This vulnerability allows local attackers to disclose sensitive informations on affected installations of Parallels Desktop. An attacker must first obtain the ability to execute high-privileged code on the target guest system in order to exploit this vulnerability. The specific flaw exists within the VGA virtual device. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated array. An attacker can leverage this in conjunction with other vulnerabilities to escalate privileges and execute code in the context of the hypervisor. Parallels has issued an update to correct this vulnerability. More details can be found at: https://kb.parallels.com/en/125013 ['2020-07-15 - Vulnerability reported to vendor', '2020-08-18 - Coordinated public release of advisory'] grigoritchy https://www.zerodayinitiative.com/advisories/ZDI-20-1019/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-20-1019/",
+  "title": "Parallels Desktop VGA Out-Of-Bounds Read Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to disclose sensitive informations on affected installations of Parallels Desktop. An attacker must first obtain the ability to execute high-privileged code on the target guest system in order to exploit this vulnerability. The specific flaw exists within the VGA virtual device. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated array. An attacker can leverage this in conjunction with other vulnerabilities to escalate privileges and execute code in the context of the hypervisor.",
+  "zdi_can": "ZDI-CAN-11363",
+  "zdi_id": "ZDI-20-1019"
+}

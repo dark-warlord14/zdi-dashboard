@@ -1,0 +1,27 @@
+{
+  "additional_details": "SolarWinds has issued an update to correct this vulnerability. More details can be found at: https://documentation.solarwinds.com/en/Success_Center/SAM/Content/Release_Notes/SAM_2020-2-5_release_notes.htm#Fixed",
+  "advisory_date": "2021-03-30",
+  "affected_products": [
+    "Orion Virtual Infrastructure Monitor"
+  ],
+  "affected_vendors": [
+    "SolarWinds"
+  ],
+  "credit": "Harrison Neal",
+  "cve": "CVE-2021-27277",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2021-27277",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2020-11-13 - Vulnerability reported to vendor",
+    "2021-03-30 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-21-373 ZDI-CAN-11955 SolarWinds Orion Virtual Infrastructure Monitor OneTimeJobSchedulerEventsService Deserialization of Untrusted Data Privilege Escalation Vulnerability 2021-03-30 CVE-2021-27277 https://www.cve.org/CVERecord?id=CVE-2021-27277 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['SolarWinds'] ['Orion Virtual Infrastructure Monitor'] This vulnerability allows local attackers to escalate privileges on affected installations of SolarWinds Orion Virtual Infrastructure Monitor. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the OneTimeJobSchedulerEventsService WCF service. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. SolarWinds has issued an update to correct this vulnerability. More details can be found at: https://documentation.solarwinds.com/en/Success_Center/SAM/Content/Release_Notes/SAM_2020-2-5_release_notes.htm#Fixed ['2020-11-13 - Vulnerability reported to vendor', '2021-03-30 - Coordinated public release of advisory'] Harrison Neal https://www.zerodayinitiative.com/advisories/ZDI-21-373/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-21-373/",
+  "title": "SolarWinds Orion Virtual Infrastructure Monitor OneTimeJobSchedulerEventsService Deserialization of Untrusted Data Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of SolarWinds Orion Virtual Infrastructure Monitor. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the OneTimeJobSchedulerEventsService WCF service. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-11955",
+  "zdi_id": "ZDI-21-373"
+}

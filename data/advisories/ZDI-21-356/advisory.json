@@ -1,0 +1,27 @@
+{
+  "additional_details": "NETGEAR has issued an update to correct this vulnerability. More details can be found at: https://kb.netgear.com/000062686/Security-Advisory-for-Post-Authentication-Command-Injection-on-NMS300-PSV-2020-0559",
+  "advisory_date": "2021-03-26",
+  "affected_products": [
+    "ProSAFE Network Management System"
+  ],
+  "affected_vendors": [
+    "NETGEAR"
+  ],
+  "credit": "rgod",
+  "cve": "CVE-2021-27273",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2021-27273",
+  "cvss": 8.8,
+  "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2020-10-30 - Vulnerability reported to vendor",
+    "2021-03-26 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-21-356 ZDI-CAN-12121 NETGEAR ProSAFE Network Management System SettingConfigController fileName Command Injection Remote Code Execution Vulnerability 2021-03-26 CVE-2021-27273 https://www.cve.org/CVERecord?id=CVE-2021-27273 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['NETGEAR'] ['ProSAFE Network Management System'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of NETGEAR ProSAFE Network Management System. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed. The specific flaw exists within the SettingConfigController class. When parsing the fileName parameter, the process does not properly validate a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of SYSTEM. NETGEAR has issued an update to correct this vulnerability. More details can be found at: https://kb.netgear.com/000062686/Security-Advisory-for-Post-Authentication-Command-Injection-on-NMS300-PSV-2020-0559 ['2020-10-30 - Vulnerability reported to vendor', '2021-03-26 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-21-356/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-21-356/",
+  "title": "NETGEAR ProSAFE Network Management System SettingConfigController fileName Command Injection Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of NETGEAR ProSAFE Network Management System. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed. The specific flaw exists within the SettingConfigController class. When parsing the fileName parameter, the process does not properly validate a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-12121",
+  "zdi_id": "ZDI-21-356"
+}

@@ -1,0 +1,27 @@
+{
+  "additional_details": "Schneider Electric has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-14-350-01",
+  "advisory_date": "2015-01-07",
+  "affected_products": [
+    "ProClima"
+  ],
+  "affected_vendors": [
+    "Schneider Electric"
+  ],
+  "credit": "Andrea Micalizzi (rgod)",
+  "cve": "CVE-2014-9188",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-9188",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2014-10-15 - Vulnerability reported to vendor",
+    "2015-01-07 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-15-005 ZDI-CAN-2524 Schneider Electric ProClima MetaDraw ArrangeObjects Remote Code Execution Vulnerability 2015-01-07 CVE-2014-9188 https://www.cve.org/CVERecord?id=CVE-2014-9188 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Schneider Electric'] ['ProClima'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Schneider Electric ProClima. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the MetaDraw ActiveX control's ArrangeObjects method. The control dereferences an attacker-supplied memory address and redirects execution flow to the resulting address. An attacker can exploit this condition to achieve code execution under the context of the browser process. Schneider Electric has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-14-350-01 ['2014-10-15 - Vulnerability reported to vendor', '2015-01-07 - Coordinated public release of advisory'] Andrea Micalizzi (rgod) https://www.zerodayinitiative.com/advisories/ZDI-15-005/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-005/",
+  "title": "Schneider Electric ProClima MetaDraw ArrangeObjects Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Schneider Electric ProClima. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the MetaDraw ActiveX control's ArrangeObjects method. The control dereferences an attacker-supplied memory address and redirects execution flow to the resulting address. An attacker can exploit this condition to achieve code execution under the context of the browser process.",
+  "zdi_can": "ZDI-CAN-2524",
+  "zdi_id": "ZDI-15-005"
+}

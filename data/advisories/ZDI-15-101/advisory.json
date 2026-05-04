@@ -1,0 +1,27 @@
+{
+  "additional_details": "Hewlett-Packard has issued an update to correct this vulnerability. More details can be found at: https://h20564.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c04583185",
+  "advisory_date": "2015-03-12",
+  "affected_products": [
+    "POS USB Line Display OPOS Drivers"
+  ],
+  "affected_vendors": [
+    "Hewlett-Packard"
+  ],
+  "credit": "Ariele Caltabiano (kimiya)",
+  "cve": "CVE-2014-7889",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-7889",
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2014-09-03 - Vulnerability reported to vendor",
+    "2015-03-12 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-15-101 ZDI-CAN-2511 Hewlett-Packard POS USB Line Display OPOS Drivers OPOSLineDisplay.ocx Open Method Remote Code Execution Vulnerability 2015-03-12 CVE-2014-7889 https://www.cve.org/CVERecord?id=CVE-2014-7889 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Hewlett-Packard'] ['POS USB Line Display OPOS Drivers'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Hewlett-Packard POS USB Line Display OPOS Drivers. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the Open method in OPOSLineDisplay.ocx. By supplying an overly long string to this method, an attacker can exploit this condition to achieve code execution under the context of the browser process. Hewlett-Packard has issued an update to correct this vulnerability. More details can be found at: https://h20564.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c04583185 ['2014-09-03 - Vulnerability reported to vendor', '2015-03-12 - Coordinated public release of advisory'] Ariele Caltabiano (kimiya) https://www.zerodayinitiative.com/advisories/ZDI-15-101/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-101/",
+  "title": "Hewlett-Packard POS USB Line Display OPOS Drivers OPOSLineDisplay.ocx Open Method Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Hewlett-Packard POS USB Line Display OPOS Drivers. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the Open method in OPOSLineDisplay.ocx. By supplying an overly long string to this method, an attacker can exploit this condition to achieve code execution under the context of the browser process.",
+  "zdi_can": "ZDI-CAN-2511",
+  "zdi_id": "ZDI-15-101"
+}

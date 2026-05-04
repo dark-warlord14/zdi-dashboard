@@ -1,0 +1,27 @@
+{
+  "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: http://www.adobe.com/support/security/bulletins/apsb10-20.html",
+  "advisory_date": "2010-08-24",
+  "affected_products": [
+    "Shockwave Player"
+  ],
+  "affected_vendors": [
+    "Adobe"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2010-2876",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2010-2876",
+  "cvss": 9.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:C",
+  "disclosure_timeline": [
+    "2010-07-20 - Vulnerability reported to vendor",
+    "2010-08-24 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-10-164 ZDI-CAN-864 Adobe Shockwave Player Director File FFFFFF88 Record Processing Remote Code Execution Vulnerability 2010-08-24 CVE-2010-2876 https://www.cve.org/CVERecord?id=CVE-2010-2876 9.0 AV:N/AC:L/Au:N/C:P/I:P/A:C ['Adobe'] ['Shockwave Player'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of the Adobe Shockwave Player. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the code responsible for parsing .dir and .dcr files. The director file format is RIFF based. While parsing an undocumented record of type 0xFFFFFFF8 the process trusts two user supplied word values when performing arithmetic to calculate a heap buffer size. By specifying large enough values an integer wrap can occur. The allocated heap buffer can later be overflowed with user supplied data. This can be leveraged by attackers to execute remote code under the context of the user running the browser. Adobe has issued an update to correct this vulnerability. More details can be found at: http://www.adobe.com/support/security/bulletins/apsb10-20.html ['2010-07-20 - Vulnerability reported to vendor', '2010-08-24 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-10-164/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-164/",
+  "title": "Adobe Shockwave Player Director File FFFFFF88 Record Processing Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of the Adobe Shockwave Player. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the code responsible for parsing .dir and .dcr files. The director file format is RIFF based. While parsing an undocumented record of type 0xFFFFFFF8 the process trusts two user supplied word values when performing arithmetic to calculate a heap buffer size. By specifying large enough values an integer wrap can occur. The allocated heap buffer can later be overflowed with user supplied data. This can be leveraged by attackers to execute remote code under the context of the user running the browser.",
+  "zdi_can": "ZDI-CAN-864",
+  "zdi_id": "ZDI-10-164"
+}

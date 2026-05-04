@@ -1,0 +1,28 @@
+{
+  "additional_details": "Wyze has issued an update to correct this vulnerability. More details can be found at: https://forums.wyze.com/t/security-advisory/289256",
+  "advisory_date": "2024-06-21",
+  "affected_products": [
+    "Cam v3"
+  ],
+  "affected_vendors": [
+    "Wyze"
+  ],
+  "credit": "Rafal Goryl",
+  "cve": "CVE-2024-6248",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-6248",
+  "cvss": 7.5,
+  "cvss_vector": "AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2023-11-15 - Vulnerability reported to vendor",
+    "2024-06-21 - Coordinated public release of advisory",
+    "2024-08-15 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-839 ZDI-CAN-22393 (Pwn2Own) Wyze Cam v3 Cloud Infrastructure Improper Authentication Remote Code Execution Vulnerability 2024-06-21 CVE-2024-6248 https://www.cve.org/CVERecord?id=CVE-2024-6248 7.5 AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H ['Wyze'] ['Cam v3'] This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Wyze Cam v3 IP cameras. Authentication is not required to exploit this vulnerability. The specific flaw exists within the run_action_batch endpoint of the cloud infrastructure. The issue results from the use of the device's MAC address as a sole credential for authentication. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of root. Wyze has issued an update to correct this vulnerability. More details can be found at: https://forums.wyze.com/t/security-advisory/289256 ['2023-11-15 - Vulnerability reported to vendor', '2024-06-21 - Coordinated public release of advisory', '2024-08-15 - Advisory Updated'] Rafal Goryl https://www.zerodayinitiative.com/advisories/ZDI-24-839/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-839/",
+  "title": "(Pwn2Own) Wyze Cam v3 Cloud Infrastructure Improper Authentication Remote Code Execution Vulnerability",
+  "updated_date": "2024-08-15",
+  "vulnerability_details": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Wyze Cam v3 IP cameras. Authentication is not required to exploit this vulnerability. The specific flaw exists within the run_action_batch endpoint of the cloud infrastructure. The issue results from the use of the device's MAC address as a sole credential for authentication. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of root.",
+  "zdi_can": "ZDI-CAN-22393",
+  "zdi_id": "ZDI-24-839"
+}

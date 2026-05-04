@@ -1,0 +1,27 @@
+{
+  "additional_details": "Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/solution/000289996",
+  "advisory_date": "2022-01-06",
+  "affected_products": [
+    "Worry-Free Business Security"
+  ],
+  "affected_vendors": [
+    "Trend Micro"
+  ],
+  "credit": "Michael DePlante (@izobashi) of Trend Micro's Zero Day Initiative",
+  "cve": "CVE-2021-45442",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2021-45442",
+  "cvss": 6.1,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:H",
+  "disclosure_timeline": [
+    "2021-08-18 - Vulnerability reported to vendor",
+    "2022-01-06 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-015 ZDI-CAN-14967 Trend Micro Worry-Free Business Security Link Following Denial-of-Service Vulnerability 2022-01-06 CVE-2021-45442 https://www.cve.org/CVERecord?id=CVE-2021-45442 6.1 AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:H ['Trend Micro'] ['Worry-Free Business Security'] This vulnerability allows local attackers to create a denial-of-service condition on affected installations of Trend Micro Worry-Free Business Security. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Trend Micro Security Agent Listener service. By creating a symbolic link, an attacker can abuse the service to overwrite a file. An attacker can leverage this vulnerability to create a denial-of-service condition on the system. Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/solution/000289996 ['2021-08-18 - Vulnerability reported to vendor', '2022-01-06 - Coordinated public release of advisory'] Michael DePlante (@izobashi) of Trend Micro's Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-22-015/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-015/",
+  "title": "Trend Micro Worry-Free Business Security Link Following Denial-of-Service Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to create a denial-of-service condition on affected installations of Trend Micro Worry-Free Business Security. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Trend Micro Security Agent Listener service. By creating a symbolic link, an attacker can abuse the service to overwrite a file. An attacker can leverage this vulnerability to create a denial-of-service condition on the system.",
+  "zdi_can": "ZDI-CAN-14967",
+  "zdi_id": "ZDI-22-015"
+}

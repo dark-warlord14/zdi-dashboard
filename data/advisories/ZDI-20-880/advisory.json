@@ -1,0 +1,27 @@
+{
+  "additional_details": "D-Link has issued an update to correct this vulnerability. More details can be found at: https://supportannouncement.us.dlink.com/announcement/publication.aspx?name=SAP10184",
+  "advisory_date": "2020-07-20",
+  "affected_products": [
+    "DIR-842"
+  ],
+  "affected_vendors": [
+    "D-Link"
+  ],
+  "credit": "chung96vn - Security Researcher of VinCSS (Member of Vingroup)",
+  "cve": "CVE-2020-15632",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2020-15632",
+  "cvss": 8.8,
+  "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2020-03-15 - Vulnerability reported to vendor",
+    "2020-07-20 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-20-880 ZDI-CAN-10083 D-Link DIR-842 HNAP GetCAPTCHAsetting Authentication Bypass Vulnerability 2020-07-20 CVE-2020-15632 https://www.cve.org/CVERecord?id=CVE-2020-15632 8.8 AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['D-Link'] ['DIR-842'] This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of D-Link DIR-842 routers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the processing of HNAP GetCAPTCHAsetting requests. The issue results from the lack of proper handling of sessions. An attacker can leverage this vulnerability to execute arbitrary code in the context of the device. D-Link has issued an update to correct this vulnerability. More details can be found at: https://supportannouncement.us.dlink.com/announcement/publication.aspx?name=SAP10184 ['2020-03-15 - Vulnerability reported to vendor', '2020-07-20 - Coordinated public release of advisory'] chung96vn - Security Researcher of VinCSS (Member of Vingroup) https://www.zerodayinitiative.com/advisories/ZDI-20-880/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-20-880/",
+  "title": "D-Link DIR-842 HNAP GetCAPTCHAsetting Authentication Bypass Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of D-Link DIR-842 routers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the processing of HNAP GetCAPTCHAsetting requests. The issue results from the lack of proper handling of sessions. An attacker can leverage this vulnerability to execute arbitrary code in the context of the device.",
+  "zdi_can": "ZDI-CAN-10083",
+  "zdi_id": "ZDI-20-880"
+}

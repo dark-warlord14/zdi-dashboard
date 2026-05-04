@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/bulletin/MS08-073.mspx",
+  "advisory_date": "2008-12-09",
+  "affected_products": [
+    "Internet Explorer"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Brett Moore, Insomnia Security",
+  "cve": "CVE-2008-4259",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2008-4259",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2008-05-19 - Vulnerability reported to vendor",
+    "2008-12-09 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-08-087 ZDI-CAN-331 Microsoft Internet Explorer Webdav Request Parsing Heap Corruption Vulnerability 2008-12-09 CVE-2008-4259 https://www.cve.org/CVERecord?id=CVE-2008-4259 ['Microsoft'] ['Internet Explorer'] This vulnerability allows attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer 7 on the Microsoft Vista operating system. User interaction is required to exploit this vulnerability in that the target must visit a malicious page. The specific flaw exists during a WebDAV fetch of a document from a path containing a large number of characters. Mishandling of cached content results in a heap corruption which can be leveraged to execute arbitrary code under the context of the current instance of Internet Explorer. Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/bulletin/MS08-073.mspx ['2008-05-19 - Vulnerability reported to vendor', '2008-12-09 - Coordinated public release of advisory'] Brett Moore, Insomnia Security https://www.zerodayinitiative.com/advisories/ZDI-08-087/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-08-087/",
+  "title": "Microsoft Internet Explorer Webdav Request Parsing Heap Corruption Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer 7 on the Microsoft Vista operating system. User interaction is required to exploit this vulnerability in that the target must visit a malicious page. The specific flaw exists during a WebDAV fetch of a document from a path containing a large number of characters. Mishandling of cached content results in a heap corruption which can be leveraged to execute arbitrary code under the context of the current instance of Internet Explorer.",
+  "zdi_can": "ZDI-CAN-331",
+  "zdi_id": "ZDI-08-087"
+}

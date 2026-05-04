@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/en-us/library/security/ms15-124.aspx",
+  "advisory_date": "2015-12-08",
+  "affected_products": [
+    "Internet Explorer"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "B6BEB4D5E828CF0CCB47BB24AAC22515",
+  "cve": "CVE-2015-6147",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-6147",
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2015-09-08 - Vulnerability reported to vendor",
+    "2015-12-08 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-15-598 ZDI-CAN-3148 Microsoft Internet Explorer CTableRowCellsCollectionCacheItem Out-Of-Bounds Access Remote Code Execution Vulnerability 2015-12-08 CVE-2015-6147 https://www.cve.org/CVERecord?id=CVE-2015-6147 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Microsoft'] ['Internet Explorer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the usage of CTableRowCellsCollectionCacheItem objects. By using a function of this object, an out of bounds access of memory can occur. An attacker can leverage this vulnerability to execute code under the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/en-us/library/security/ms15-124.aspx ['2015-09-08 - Vulnerability reported to vendor', '2015-12-08 - Coordinated public release of advisory'] B6BEB4D5E828CF0CCB47BB24AAC22515 https://www.zerodayinitiative.com/advisories/ZDI-15-598/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-598/",
+  "title": "Microsoft Internet Explorer CTableRowCellsCollectionCacheItem Out-Of-Bounds Access Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the usage of CTableRowCellsCollectionCacheItem objects. By using a function of this object, an out of bounds access of memory can occur. An attacker can leverage this vulnerability to execute code under the context of the current process.",
+  "zdi_can": "ZDI-CAN-3148",
+  "zdi_id": "ZDI-15-598"
+}

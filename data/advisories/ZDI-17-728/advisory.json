@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2017-8737",
+  "advisory_date": "2017-09-12",
+  "affected_products": [
+    "Windows PDF Library"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Giwan Go of STEALIEN & HIT",
+  "cve": "CVE-2017-8737",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-8737",
+  "cvss": 4.3,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N",
+  "disclosure_timeline": [
+    "2017-06-01 - Vulnerability reported to vendor",
+    "2017-09-12 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-17-728 ZDI-CAN-4844 Microsoft Windows PDF Library JPEG2000 Parsing Out-Of-Bounds Read Information Disclosure Vulnerability 2017-09-12 CVE-2017-8737 https://www.cve.org/CVERecord?id=CVE-2017-8737 4.3 AV:N/AC:M/Au:N/C:P/I:N/A:N ['Microsoft'] ['Windows PDF Library'] This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Microsoft Windows PDF Library. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of JPEG2000 images. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated object. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2017-8737 ['2017-06-01 - Vulnerability reported to vendor', '2017-09-12 - Coordinated public release of advisory'] Giwan Go of STEALIEN & HIT https://www.zerodayinitiative.com/advisories/ZDI-17-728/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-728/",
+  "title": "Microsoft Windows PDF Library JPEG2000 Parsing Out-Of-Bounds Read Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Microsoft Windows PDF Library. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of JPEG2000 images. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated object. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-4844",
+  "zdi_id": "ZDI-17-728"
+}

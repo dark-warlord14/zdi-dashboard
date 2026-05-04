@@ -1,0 +1,27 @@
+{
+  "additional_details": "https://ubuntu.com/security/notices/USN-6250-1 https://lists.ubuntu.com/archives/kernel-team/2023-July/140923.html",
+  "advisory_date": "2023-07-28",
+  "affected_products": [
+    "Ubuntu"
+  ],
+  "affected_vendors": [
+    "Canonical"
+  ],
+  "credit": "Stonejiajia",
+  "cve": "CVE-2023-2640",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-2640",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2023-05-03 - Vulnerability reported to vendor",
+    "2023-07-28 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-1009 ZDI-CAN-20913 Canonical Ubuntu OverlayFS File System Missing Authorization Local Privilege Escalation Vulnerability 2023-07-28 CVE-2023-2640 https://www.cve.org/CVERecord?id=CVE-2023-2640 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Canonical'] ['Ubuntu'] This vulnerability allows local attackers to escalate privileges on affected installations of Canonical Ubuntu. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of attributes. The issue results from missing authorization before allowing access to functionality. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root. https://ubuntu.com/security/notices/USN-6250-1 https://lists.ubuntu.com/archives/kernel-team/2023-July/140923.html ['2023-05-03 - Vulnerability reported to vendor', '2023-07-28 - Coordinated public release of advisory'] Stonejiajia https://www.zerodayinitiative.com/advisories/ZDI-23-1009/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-1009/",
+  "title": "Canonical Ubuntu OverlayFS File System Missing Authorization Local Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Canonical Ubuntu. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of attributes. The issue results from missing authorization before allowing access to functionality. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root.",
+  "zdi_can": "ZDI-CAN-20913",
+  "zdi_id": "ZDI-23-1009"
+}

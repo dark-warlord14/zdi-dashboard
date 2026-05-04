@@ -1,0 +1,28 @@
+{
+  "additional_details": "Fixed in MotionPro version 1.2.28 https://support.arraynetworks.net/prx/000/http/supportportal.arraynetworks.net/downloads/downloads.html",
+  "advisory_date": "2026-03-10",
+  "affected_products": [
+    "MotionPro"
+  ],
+  "affected_vendors": [
+    "Array Networks"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2026-26364",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-26364",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2025-05-21 - Vulnerability reported to vendor",
+    "2026-03-10 - Coordinated public release of advisory",
+    "2026-03-10 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-26-177 ZDI-CAN-26850 Array Networks MotionPro ArrayInstallManager Incorrect Permission Assignment Local Privilege Escalation Vulnerability 2026-03-10 CVE-2026-26364 https://www.cve.org/CVERecord?id=CVE-2026-26364 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Array Networks'] ['MotionPro'] This vulnerability allows local attackers to escalate privileges on affected installations of Array Networks MotionPro. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the ArrayInstallManager DCOM application. The issue results from incorrect permissions on the application. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. Fixed in MotionPro version 1.2.28 https://support.arraynetworks.net/prx/000/http/supportportal.arraynetworks.net/downloads/downloads.html ['2025-05-21 - Vulnerability reported to vendor', '2026-03-10 - Coordinated public release of advisory', '2026-03-10 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-177/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-177/",
+  "title": "Array Networks MotionPro ArrayInstallManager Incorrect Permission Assignment Local Privilege Escalation Vulnerability",
+  "updated_date": "2026-03-10",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Array Networks MotionPro. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the ArrayInstallManager DCOM application. The issue results from incorrect permissions on the application. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-26850",
+  "zdi_id": "ZDI-26-177"
+}

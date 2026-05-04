@@ -1,0 +1,27 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/kb/HT201222",
+  "advisory_date": "2017-01-24",
+  "affected_products": [
+    "Safari"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "Neymar of Tencent's Xuanwu LAB(http://www.tencent.com)",
+  "cve": "CVE-2017-2354",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-2354",
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2016-11-10 - Vulnerability reported to vendor",
+    "2017-01-24 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-17-054 ZDI-CAN-4121 Apple Safari SearchInputType Type Confusion Remote Code Execution Vulnerability 2017-01-24 CVE-2017-2354 https://www.cve.org/CVERecord?id=CVE-2017-2354 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Apple'] ['Safari'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple Safari. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within SearchInputType objects. The issue results from the lack of proper validation of user-supplied data which can result in a type confusion condition. An attacker can leverage this vulnerability to achieve remote code execution under the context of the process. Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/kb/HT201222 ['2016-11-10 - Vulnerability reported to vendor', '2017-01-24 - Coordinated public release of advisory'] Neymar of Tencent's Xuanwu LAB(http://www.tencent.com) https://www.zerodayinitiative.com/advisories/ZDI-17-054/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-054/",
+  "title": "Apple Safari SearchInputType Type Confusion Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple Safari. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within SearchInputType objects. The issue results from the lack of proper validation of user-supplied data which can result in a type confusion condition. An attacker can leverage this vulnerability to achieve remote code execution under the context of the process.",
+  "zdi_can": "ZDI-CAN-4121",
+  "zdi_id": "ZDI-17-054"
+}

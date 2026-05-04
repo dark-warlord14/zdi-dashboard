@@ -1,0 +1,27 @@
+{
+  "additional_details": "IBM has issued an update to correct this vulnerability. More details can be found at: http://www-1.ibm.com/support/docview.wss?uid=swg21257028",
+  "advisory_date": "2007-03-28",
+  "affected_products": [
+    "Lotus Domino"
+  ],
+  "affected_vendors": [
+    "IBM"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2007-1675",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2007-1675",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2006-08-31 - Vulnerability reported to vendor",
+    "2007-03-28 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-07-011 ZDI-CAN-060 IBM Lotus Domino IMAP Server CRAM-MD5 Authentication Buffer Overflow Vulnerability 2007-03-28 CVE-2007-1675 https://www.cve.org/CVERecord?id=CVE-2007-1675 ['IBM'] ['Lotus Domino'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of IBM Lotus Domino Server. Authentication is not required to exploit this vulnerability. The specific flaw exists in the CRAM-MD5 authentication mechanism of nimap.exe which binds by default to TCP port 143. No check is done on the length on the supplied username prior to processing it through a custom copy loop. If the username is longer than 256 bytes, a pointer overwrite may occur in the function nnotes.dll.CStream::ToBase64() which is later called and can therefore result in execution of arbitrary code. IBM has issued an update to correct this vulnerability. More details can be found at: http://www-1.ibm.com/support/docview.wss?uid=swg21257028 ['2006-08-31 - Vulnerability reported to vendor', '2007-03-28 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-07-011/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-07-011/",
+  "title": "IBM Lotus Domino IMAP Server CRAM-MD5 Authentication Buffer Overflow Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of IBM Lotus Domino Server. Authentication is not required to exploit this vulnerability. The specific flaw exists in the CRAM-MD5 authentication mechanism of nimap.exe which binds by default to TCP port 143. No check is done on the length on the supplied username prior to processing it through a custom copy loop. If the username is longer than 256 bytes, a pointer overwrite may occur in the function nnotes.dll.CStream::ToBase64() which is later called and can therefore result in execution of arbitrary code.",
+  "zdi_can": "ZDI-CAN-060",
+  "zdi_id": "ZDI-07-011"
+}

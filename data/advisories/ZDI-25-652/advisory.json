@@ -1,0 +1,28 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-53771",
+  "advisory_date": "2025-07-25",
+  "affected_products": [
+    "SharePoint"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Viettel Cyber Security",
+  "cve": "CVE-2025-53771",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-53771",
+  "cvss": 6.5,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+  "disclosure_timeline": [
+    "2025-07-24 - Vulnerability reported to vendor",
+    "2025-07-25 - Coordinated public release of advisory",
+    "2025-07-25 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-652 ZDI-CAN-27790 (Pwn2Own) Microsoft SharePoint ToolPane Authentication Bypass Vulnerability 2025-07-25 CVE-2025-53771 https://www.cve.org/CVERecord?id=CVE-2025-53771 6.5 AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N ['Microsoft'] ['SharePoint'] This vulnerability allows remote attackers to bypass authentication on affected installations of Microsoft SharePoint. Authentication is not required to exploit this vulnerability. The specific flaw exists within the ToolPane endpoint. The application does not adequately restrict access to a protected API. An attacker can leverage this vulnerability to bypass authentication on the system. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-53771 ['2025-07-24 - Vulnerability reported to vendor', '2025-07-25 - Coordinated public release of advisory', '2025-07-25 - Advisory Updated'] Viettel Cyber Security https://www.zerodayinitiative.com/advisories/ZDI-25-652/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-652/",
+  "title": "(Pwn2Own) Microsoft SharePoint ToolPane Authentication Bypass Vulnerability",
+  "updated_date": "2025-07-25",
+  "vulnerability_details": "This vulnerability allows remote attackers to bypass authentication on affected installations of Microsoft SharePoint. Authentication is not required to exploit this vulnerability. The specific flaw exists within the ToolPane endpoint. The application does not adequately restrict access to a protected API. An attacker can leverage this vulnerability to bypass authentication on the system.",
+  "zdi_can": "ZDI-CAN-27790",
+  "zdi_id": "ZDI-25-652"
+}

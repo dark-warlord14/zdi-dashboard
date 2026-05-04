@@ -1,0 +1,28 @@
+{
+  "additional_details": "Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://esupport.trendmicro.com/en-US/home/pages/technical-support/1121296.aspx",
+  "advisory_date": "2018-10-19",
+  "affected_products": [
+    "Anti-Virus"
+  ],
+  "affected_vendors": [
+    "Trend Micro"
+  ],
+  "credit": "vms",
+  "cve": "CVE-2018-18329",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2018-18329",
+  "cvss": 6.9,
+  "cvss_vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2018-06-22 - Vulnerability reported to vendor",
+    "2018-10-19 - Coordinated public release of advisory",
+    "2018-10-19 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-1297 ZDI-CAN-6372 Trend Micro Anti-Virus KERedirect Untrusted Pointer Dereference Privilege Escalation Vulnerability 2018-10-19 CVE-2018-18329 https://www.cve.org/CVERecord?id=CVE-2018-18329 6.9 AV:L/AC:M/Au:N/C:C/I:C/A:C ['Trend Micro'] ['Anti-Virus'] This vulnerability allows local attackers to escalate privileges on vulnerable installations of Trend Micro Anti-Virus. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the KERedirect kext. The issue results from the lack of proper validation of a user-supplied value prior to dereferencing it as a pointer. An attacker can leverage this vulnerability to execute code in the context of the kernel. Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://esupport.trendmicro.com/en-US/home/pages/technical-support/1121296.aspx ['2018-06-22 - Vulnerability reported to vendor', '2018-10-19 - Coordinated public release of advisory', '2018-10-19 - Advisory Updated'] vms https://www.zerodayinitiative.com/advisories/ZDI-18-1297/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-1297/",
+  "title": "Trend Micro Anti-Virus KERedirect Untrusted Pointer Dereference Privilege Escalation Vulnerability",
+  "updated_date": "2018-10-19",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on vulnerable installations of Trend Micro Anti-Virus. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the KERedirect kext. The issue results from the lack of proper validation of a user-supplied value prior to dereferencing it as a pointer. An attacker can leverage this vulnerability to execute code in the context of the kernel.",
+  "zdi_can": "ZDI-CAN-6372",
+  "zdi_id": "ZDI-18-1297"
+}

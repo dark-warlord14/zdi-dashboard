@@ -1,0 +1,27 @@
+# ZDI-24-1636: Hewlett Packard Enterprise Insight Remote Support DESTA Service Deserialization of Untrusted Data Remote Code Execution Vulnerability
+
+## Metadata
+
+- **ZDI ID:** ZDI-24-1636
+- **ZDI-CAN:** ZDI-CAN-24812
+- **Date:** 2024-12-02
+- **CVE:** CVE-2024-53673
+- **CVSS:** 8.1
+- **CVSS Vector:** AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
+- **Affected Vendors:** Hewlett Packard Enterprise
+- **Affected Products:** Insight Remote Support
+- **Credit:** Anonymous
+- **Source:** https://www.zerodayinitiative.com/advisories/ZDI-24-1636/
+## Vulnerability Details
+
+This vulnerability allows remote attackers to execute arbitrary code on affected installations of Hewlett Packard Enterprise Insight Remote Support. Authentication is not required to exploit this vulnerability. The specific flaw exists within the DESTA service, which listens on TCP port 7901 by default. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of SYSTEM.
+
+## Additional Details
+
+Hewlett Packard Enterprise has issued an update to correct this vulnerability. More details can be found at: https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbgn04731en_us&docLocale=en_US
+
+## Disclosure Timeline
+
+- 2024-09-19 - Vulnerability reported to vendor
+- 2024-12-02 - Coordinated public release of advisory
+- 2024-12-02 - Advisory Updated

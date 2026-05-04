@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-43237",
+  "advisory_date": "2022-01-06",
+  "affected_products": [
+    "Windows"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Abdelhamid Naceri",
+  "cve": "CVE-2021-43237",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2021-43237",
+  "cvss": 7.0,
+  "cvss_vector": "AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2021-09-03 - Vulnerability reported to vendor",
+    "2022-01-06 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-018 ZDI-CAN-14770 Microsoft Windows Update Assistant Link Following Local Privilege Escalation Vulnerability 2022-01-06 CVE-2021-43237 https://www.cve.org/CVERecord?id=CVE-2021-43237 7.0 AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H ['Microsoft'] ['Windows'] This vulnerability allows local attackers to escalate privileges on affected installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. Additional user interaction is required in that an administrator must begin a version update of Windows. The specific flaw exists within Windows Update Assistant. By creating a directory junction, an attacker can abuse Windows Update Assistant to change the DACL on an arbitrary file. An attacker can leverage this vulnerability to escalate privileges and execute code in the context of SYSTEM. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-43237 ['2021-09-03 - Vulnerability reported to vendor', '2022-01-06 - Coordinated public release of advisory'] Abdelhamid Naceri https://www.zerodayinitiative.com/advisories/ZDI-22-018/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-018/",
+  "title": "Microsoft Windows Update Assistant Link Following Local Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. Additional user interaction is required in that an administrator must begin a version update of Windows. The specific flaw exists within Windows Update Assistant. By creating a directory junction, an attacker can abuse Windows Update Assistant to change the DACL on an arbitrary file. An attacker can leverage this vulnerability to escalate privileges and execute code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-14770",
+  "zdi_id": "ZDI-22-018"
+}

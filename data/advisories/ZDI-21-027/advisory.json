@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-1642",
+  "advisory_date": "2021-01-14",
+  "affected_products": [
+    "Windows"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Abdelhamid Naceri (halov)",
+  "cve": "CVE-2021-1642",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2021-1642",
+  "cvss": 6.1,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:H",
+  "disclosure_timeline": [
+    "2020-11-18 - Vulnerability reported to vendor",
+    "2021-01-14 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-21-027 ZDI-CAN-12087 Microsoft Windows AppX Deployment Service Directory Junction Denial-of-Service Vulnerability 2021-01-14 CVE-2021-1642 https://www.cve.org/CVERecord?id=CVE-2021-1642 6.1 AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:H ['Microsoft'] ['Windows'] This vulnerability allows local attackers to create a denial-of-service condition on affected installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the AppX Deployment Service. By creating a directory junction, an attacker can abuse the service to delete a directory. An attacker can leverage this vulnerability to create a denial-of-service condition on the system. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-1642 ['2020-11-18 - Vulnerability reported to vendor', '2021-01-14 - Coordinated public release of advisory'] Abdelhamid Naceri (halov) https://www.zerodayinitiative.com/advisories/ZDI-21-027/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-21-027/",
+  "title": "Microsoft Windows AppX Deployment Service Directory Junction Denial-of-Service Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to create a denial-of-service condition on affected installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the AppX Deployment Service. By creating a directory junction, an attacker can abuse the service to delete a directory. An attacker can leverage this vulnerability to create a denial-of-service condition on the system.",
+  "zdi_can": "ZDI-CAN-12087",
+  "zdi_id": "ZDI-21-027"
+}

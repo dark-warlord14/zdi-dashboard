@@ -1,0 +1,27 @@
+{
+  "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: http://www.adobe.com/support/security/bulletins/apsb12-03.html",
+  "advisory_date": "2012-03-22",
+  "affected_products": [
+    "Flash Player"
+  ],
+  "affected_vendors": [
+    "Adobe"
+  ],
+  "credit": "Alexander Gavrun",
+  "cve": "CVE-2012-0754",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2012-0754",
+  "cvss": 9.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:C",
+  "disclosure_timeline": [
+    "2011-10-21 - Vulnerability reported to vendor",
+    "2012-03-22 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-12-047 ZDI-CAN-1362 Adobe Flash ASconstructor Function Call Remote Code Execution Vulnerability 2012-03-22 CVE-2012-0754 https://www.cve.org/CVERecord?id=CVE-2012-0754 9.0 AV:N/AC:L/Au:N/C:P/I:P/A:C ['Adobe'] ['Flash Player'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Adobe Flash Player. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the way Adobe Flash player handles calls to the _global.ASconstructor function. If this function is called with id '2200' it will write a 0x01 byte to a user supplied address. This memory corruption can result in remote code execution under the context of the current user. Adobe has issued an update to correct this vulnerability. More details can be found at: http://www.adobe.com/support/security/bulletins/apsb12-03.html ['2011-10-21 - Vulnerability reported to vendor', '2012-03-22 - Coordinated public release of advisory'] Alexander Gavrun https://www.zerodayinitiative.com/advisories/ZDI-12-047/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-12-047/",
+  "title": "Adobe Flash ASconstructor Function Call Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Adobe Flash Player. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the way Adobe Flash player handles calls to the _global.ASconstructor function. If this function is called with id '2200' it will write a 0x01 byte to a user supplied address. This memory corruption can result in remote code execution under the context of the current user.",
+  "zdi_can": "ZDI-CAN-1362",
+  "zdi_id": "ZDI-12-047"
+}

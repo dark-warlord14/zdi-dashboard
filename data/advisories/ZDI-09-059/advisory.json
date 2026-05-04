@@ -1,0 +1,27 @@
+{
+  "additional_details": "Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technology/deploy/security/critical-patch-updates/cpujul2009.html",
+  "advisory_date": "2009-08-18",
+  "affected_products": [
+    "Secure Backup"
+  ],
+  "affected_vendors": [
+    "Oracle"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2009-1978",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2009-1978",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2009-03-26 - Vulnerability reported to vendor",
+    "2009-08-18 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-09-059 ZDI-CAN-442 Oracle Secure Backup Administration Server Multiple Command Injection Vulnerabilities 2009-08-18 CVE-2009-1978 https://www.cve.org/CVERecord?id=CVE-2009-1978 ['Oracle'] ['Secure Backup'] This vulnerability allows remote attackers to inject arbitrary commands on vulnerable installations of Oracle Secure Backup. User interaction is not required to exploit this vulnerability but an attacker must be authenticated. The specific flaw exists in the handling of various variables to the script property_box.php used in the administration server running on port 443. Due to improper filtering of user data a specially crafted request could lead to arbitrary commands being executed under the credentials of the SYSTEM account. Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technology/deploy/security/critical-patch-updates/cpujul2009.html ['2009-03-26 - Vulnerability reported to vendor', '2009-08-18 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-09-059/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-09-059/",
+  "title": "Oracle Secure Backup Administration Server Multiple Command Injection Vulnerabilities",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to inject arbitrary commands on vulnerable installations of Oracle Secure Backup. User interaction is not required to exploit this vulnerability but an attacker must be authenticated. The specific flaw exists in the handling of various variables to the script property_box.php used in the administration server running on port 443. Due to improper filtering of user data a specially crafted request could lead to arbitrary commands being executed under the credentials of the SYSTEM account.",
+  "zdi_can": "ZDI-CAN-442",
+  "zdi_id": "ZDI-09-059"
+}

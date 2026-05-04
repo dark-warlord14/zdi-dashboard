@@ -1,0 +1,27 @@
+{
+  "additional_details": "AlienVault has issued an update to correct this vulnerability. More details can be found at: http://forums.alienvault.com/discussion/2806",
+  "advisory_date": "2014-06-13",
+  "affected_products": [
+    "OSSIM"
+  ],
+  "affected_vendors": [
+    "AlienVault"
+  ],
+  "credit": "HP Zero Day Initiative",
+  "cve": "CVE-2014-4153",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-4153",
+  "cvss": 7.8,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:N/A:N",
+  "disclosure_timeline": [
+    "2014-04-18 - Vulnerability reported to vendor",
+    "2014-06-13 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-14-207 ZDI-CAN-2289 AlienVault OSSIM av-centerd Util.pm get_file Information Disclosure Vulnerability 2014-06-13 CVE-2014-4153 https://www.cve.org/CVERecord?id=CVE-2014-4153 7.8 AV:N/AC:L/Au:N/C:C/I:N/A:N ['AlienVault'] ['OSSIM'] This vulnerability allows remote attackers to obtain sensitive information on vulnerable installations of AlienVault OSSIM. Authentication is not required to exploit this vulnerability. The specific flaw exists within the av-centerd SOAP service. The issue lies within the improper handling of a parameter in get_file requests. An attacker can leverage this vulnerability to read arbitrary files from the underlying OS with root privileges. AlienVault has issued an update to correct this vulnerability. More details can be found at: http://forums.alienvault.com/discussion/2806 ['2014-04-18 - Vulnerability reported to vendor', '2014-06-13 - Coordinated public release of advisory'] HP Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-14-207/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-14-207/",
+  "title": "AlienVault OSSIM av-centerd Util.pm get_file Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to obtain sensitive information on vulnerable installations of AlienVault OSSIM. Authentication is not required to exploit this vulnerability. The specific flaw exists within the av-centerd SOAP service. The issue lies within the improper handling of a parameter in get_file requests. An attacker can leverage this vulnerability to read arbitrary files from the underlying OS with root privileges.",
+  "zdi_can": "ZDI-CAN-2289",
+  "zdi_id": "ZDI-14-207"
+}

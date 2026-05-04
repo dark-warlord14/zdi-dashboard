@@ -1,0 +1,27 @@
+{
+  "additional_details": "Unified Automation has issued an update to correct this vulnerability. More details can be found at: https://documentation.unified-automation.com/uagateway/1.5.14/CHANGELOG.txt",
+  "advisory_date": "2023-05-31",
+  "affected_products": [
+    "UaGateway"
+  ],
+  "affected_vendors": [
+    "Unified Automation"
+  ],
+  "credit": "\u0110\u1ed7 Minh Tu\u1ea5n (@tuanit96) and Tran Van Khang (@khangkito) of STAR Labs SG Pte. Ltd.",
+  "cve": "CVE-2023-32170",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-32170",
+  "cvss": 6.5,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+  "disclosure_timeline": [
+    "2023-02-22 - Vulnerability reported to vendor",
+    "2023-05-31 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-775 ZDI-CAN-20494 (Pwn2Own) Unified Automation UaGateway OPC UA Server Improper Input Validation Denial-of-Service Vulnerability 2023-05-31 CVE-2023-32170 https://www.cve.org/CVERecord?id=CVE-2023-32170 6.5 AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H ['Unified Automation'] ['UaGateway'] This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of Unified Automation UaGateway. User interaction is required to exploit this vulnerability in that the target must choose to accept a client certificate. The specific flaw exists within the processing of client certificates. The issue results from the lack of proper validation of certificate data. An attacker can leverage this vulnerability to create a denial-of-service condition on the system. Unified Automation has issued an update to correct this vulnerability. More details can be found at: https://documentation.unified-automation.com/uagateway/1.5.14/CHANGELOG.txt ['2023-02-22 - Vulnerability reported to vendor', '2023-05-31 - Coordinated public release of advisory'] \u0110\u1ed7 Minh Tu\u1ea5n (@tuanit96) and Tran Van Khang (@khangkito) of STAR Labs SG Pte. Ltd. https://www.zerodayinitiative.com/advisories/ZDI-23-775/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-775/",
+  "title": "(Pwn2Own) Unified Automation UaGateway OPC UA Server Improper Input Validation Denial-of-Service Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of Unified Automation UaGateway. User interaction is required to exploit this vulnerability in that the target must choose to accept a client certificate. The specific flaw exists within the processing of client certificates. The issue results from the lack of proper validation of certificate data. An attacker can leverage this vulnerability to create a denial-of-service condition on the system.",
+  "zdi_can": "ZDI-CAN-20494",
+  "zdi_id": "ZDI-23-775"
+}

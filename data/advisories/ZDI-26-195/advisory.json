@@ -1,0 +1,28 @@
+{
+  "additional_details": "Fixed in CPH50 firmware version 5.5.4.22",
+  "advisory_date": "2026-03-16",
+  "affected_products": [
+    "Home Flex"
+  ],
+  "affected_vendors": [
+    "ChargePoint"
+  ],
+  "credit": "Sina Kheirkhah (@SinSinology) of Summoning Team (@SummoningTeam)",
+  "cve": "CVE-2026-4155",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-4155",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+  "disclosure_timeline": [
+    "2025-03-13 - Vulnerability reported to vendor",
+    "2026-03-16 - Coordinated public release of advisory",
+    "2026-03-16 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-26-195 ZDI-CAN-26340 (Pwn2Own) ChargePoint Home Flex Inclusion of Sensitive Information in Source Code Information Disclosure Vulnerability 2026-03-16 CVE-2026-4155 https://www.cve.org/CVERecord?id=CVE-2026-4155 7.5 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N ['ChargePoint'] ['Home Flex'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of ChargePoint Home Flex charging stations. Authentication is not required to exploit this vulnerability. The specific flaw exists within the genpw script. The issue results from the inclusion of a secret cryptographic seed value within the script. An attacker can leverage this vulnerability to disclose stored credentials, leading to further compromise. Fixed in CPH50 firmware version 5.5.4.22 ['2025-03-13 - Vulnerability reported to vendor', '2026-03-16 - Coordinated public release of advisory', '2026-03-16 - Advisory Updated'] Sina Kheirkhah (@SinSinology) of Summoning Team (@SummoningTeam) https://www.zerodayinitiative.com/advisories/ZDI-26-195/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-195/",
+  "title": "(Pwn2Own) ChargePoint Home Flex Inclusion of Sensitive Information in Source Code Information Disclosure Vulnerability",
+  "updated_date": "2026-03-16",
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of ChargePoint Home Flex charging stations. Authentication is not required to exploit this vulnerability. The specific flaw exists within the genpw script. The issue results from the inclusion of a secret cryptographic seed value within the script. An attacker can leverage this vulnerability to disclose stored credentials, leading to further compromise.",
+  "zdi_can": "ZDI-CAN-26340",
+  "zdi_id": "ZDI-26-195"
+}

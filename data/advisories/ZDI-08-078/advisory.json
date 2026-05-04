@@ -1,0 +1,27 @@
+{
+  "additional_details": "Trillian has issued an update to correct this vulnerability. More details can be found at: http://blog.ceruleanstudios.com/?p=404",
+  "advisory_date": "2008-12-04",
+  "affected_products": [
+    "Trillian Pro"
+  ],
+  "affected_vendors": [
+    "Trillian"
+  ],
+  "credit": "Damian Put",
+  "cve": "CVE-2008-5402",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2008-5402",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2008-11-10 - Vulnerability reported to vendor",
+    "2008-12-04 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-08-078 ZDI-CAN-409 Trillian IMG SRC ID Memory Corruption Vulnerability 2008-12-04 CVE-2008-5402 https://www.cve.org/CVERecord?id=CVE-2008-5402 ['Trillian'] ['Trillian Pro'] This vulnerability allows remote attackers to potentially execute arbitrary code on vulnerable installations of Cerulean Studios Trillian. Authentication is not required to exploit this vulnerability. The specific flaw exists within the XML processing code for Trillian. When parsing specially formulated xml, the application will corrupt an internal data structure. Whilst deallocating this data structure, the application can be tricked into freeing a single allocated chunk multiple times, which can potentially lead to code execution. Trillian has issued an update to correct this vulnerability. More details can be found at: http://blog.ceruleanstudios.com/?p=404 ['2008-11-10 - Vulnerability reported to vendor', '2008-12-04 - Coordinated public release of advisory'] Damian Put https://www.zerodayinitiative.com/advisories/ZDI-08-078/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-08-078/",
+  "title": "Trillian IMG SRC ID Memory Corruption Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to potentially execute arbitrary code on vulnerable installations of Cerulean Studios Trillian. Authentication is not required to exploit this vulnerability. The specific flaw exists within the XML processing code for Trillian. When parsing specially formulated xml, the application will corrupt an internal data structure. Whilst deallocating this data structure, the application can be tricked into freeing a single allocated chunk multiple times, which can potentially lead to code execution.",
+  "zdi_can": "ZDI-CAN-409",
+  "zdi_id": "ZDI-08-078"
+}

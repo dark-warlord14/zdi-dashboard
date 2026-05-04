@@ -1,0 +1,27 @@
+{
+  "additional_details": "Fixed in firmware: 1.3.6 Build 230426 Rel.48373n https://www.tp-link.com/en/support/download/tapo-c210/#Firmware-Release-Notes",
+  "advisory_date": "2023-07-05",
+  "affected_products": [
+    "Tapo C210"
+  ],
+  "affected_vendors": [
+    "TP-Link"
+  ],
+  "credit": "Cyrille Chatras",
+  "cve": "CVE-2023-35717",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-35717",
+  "cvss": 8.8,
+  "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2023-03-15 - Vulnerability reported to vendor",
+    "2023-07-05 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-895 ZDI-CAN-20484 TP-Link Tapo C210 Password Recovery Authentication Bypass Vulnerability 2023-07-05 CVE-2023-35717 https://www.cve.org/CVERecord?id=CVE-2023-35717 8.8 AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['TP-Link'] ['Tapo C210'] This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of TP-Link Tapo C210 IP cameras. Authentication is not required to exploit this vulnerability. The specific flaw exists within the password recovery mechanism. The issue results from reliance upon the secrecy of the password derivation algorithm when generating a recovery password. An attacker can leverage this vulnerability to bypass authentication on the system. Fixed in firmware: 1.3.6 Build 230426 Rel.48373n https://www.tp-link.com/en/support/download/tapo-c210/#Firmware-Release-Notes ['2023-03-15 - Vulnerability reported to vendor', '2023-07-05 - Coordinated public release of advisory'] Cyrille Chatras https://www.zerodayinitiative.com/advisories/ZDI-23-895/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-895/",
+  "title": "TP-Link Tapo C210 Password Recovery Authentication Bypass Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of TP-Link Tapo C210 IP cameras. Authentication is not required to exploit this vulnerability. The specific flaw exists within the password recovery mechanism. The issue results from reliance upon the secrecy of the password derivation algorithm when generating a recovery password. An attacker can leverage this vulnerability to bypass authentication on the system.",
+  "zdi_can": "ZDI-CAN-20484",
+  "zdi_id": "ZDI-23-895"
+}

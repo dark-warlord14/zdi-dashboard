@@ -1,0 +1,28 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-us/HT208334",
+  "advisory_date": "2018-02-07",
+  "affected_products": [
+    "iOS"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "360 Security Team",
+  "cve": "CVE-2017-7162",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-7162",
+  "cvss": 6.9,
+  "cvss_vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2017-11-02 - Vulnerability reported to vendor",
+    "2018-02-07 - Coordinated public release of advisory",
+    "2018-02-07 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-154 ZDI-CAN-5354 Apple iOS backboardd Double Free Privilege Escalation Vulnerability 2018-02-07 CVE-2017-7162 https://www.cve.org/CVERecord?id=CVE-2017-7162 6.9 AV:L/AC:M/Au:N/C:C/I:C/A:C ['Apple'] ['iOS'] This vulnerability allows local attackers to escalate privileges on vulnerable installations of Apple iOS. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the backboardd service. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this in conjunction with other vulnerabilities to execute code under the context of root. Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-us/HT208334 ['2017-11-02 - Vulnerability reported to vendor', '2018-02-07 - Coordinated public release of advisory', '2018-02-07 - Advisory Updated'] 360 Security Team https://www.zerodayinitiative.com/advisories/ZDI-18-154/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-154/",
+  "title": "Apple iOS backboardd Double Free Privilege Escalation Vulnerability",
+  "updated_date": "2018-02-07",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on vulnerable installations of Apple iOS. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the backboardd service. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this in conjunction with other vulnerabilities to execute code under the context of root.",
+  "zdi_can": "ZDI-CAN-5354",
+  "zdi_id": "ZDI-18-154"
+}

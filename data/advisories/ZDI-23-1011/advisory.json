@@ -1,0 +1,27 @@
+{
+  "additional_details": "PTC has issued an update to correct this vulnerability. More details can be found at: https://www.cisa.gov/news-events/ics-advisories/icsa-23-208-02",
+  "advisory_date": "2023-07-31",
+  "affected_products": [
+    "KEPServerEX"
+  ],
+  "affected_vendors": [
+    "PTC"
+  ],
+  "credit": "Claroty Research - Team82 - Uri Katz, Noam Moshe, Vera Mens, Sharon Brizinov",
+  "cve": "CVE-2023-3825",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-3825",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+  "disclosure_timeline": [
+    "2023-02-22 - Vulnerability reported to vendor",
+    "2023-07-31 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-1011 ZDI-CAN-20500 (Pwn2Own) PTC KEPServerEX Variant Resource Exhaustion Denial-of-Service Vulnerability 2023-07-31 CVE-2023-3825 https://www.cve.org/CVERecord?id=CVE-2023-3825 7.5 AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H ['PTC'] ['KEPServerEX'] This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of PTC KEPServerEX. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of variant types. By sending a crafted request, an attacker can consume all available resources on the server. An attacker can leverage this vulnerability to create a denial-of-service condition on the system. PTC has issued an update to correct this vulnerability. More details can be found at: https://www.cisa.gov/news-events/ics-advisories/icsa-23-208-02 ['2023-02-22 - Vulnerability reported to vendor', '2023-07-31 - Coordinated public release of advisory'] Claroty Research - Team82 - Uri Katz, Noam Moshe, Vera Mens, Sharon Brizinov https://www.zerodayinitiative.com/advisories/ZDI-23-1011/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-1011/",
+  "title": "(Pwn2Own) PTC KEPServerEX Variant Resource Exhaustion Denial-of-Service Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of PTC KEPServerEX. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of variant types. By sending a crafted request, an attacker can consume all available resources on the server. An attacker can leverage this vulnerability to create a denial-of-service condition on the system.",
+  "zdi_can": "ZDI-CAN-20500",
+  "zdi_id": "ZDI-23-1011"
+}

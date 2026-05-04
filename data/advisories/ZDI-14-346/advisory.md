@@ -1,0 +1,26 @@
+# ZDI-14-346: (0Day) Apple OS X IOHIDSecurePromptClient Denial Of Service Vulnerability
+
+## Metadata
+
+- **ZDI ID:** ZDI-14-346
+- **ZDI-CAN:** ZDI-CAN-2147
+- **Date:** 2014-10-02
+- **CVE:** N/A
+- **CVSS:** 4.7
+- **CVSS Vector:** AV:L/AC:M/Au:N/C:N/I:N/A:C
+- **Affected Vendors:** Apple
+- **Affected Products:** OS X
+- **Credit:** Vitaliy Toropov
+- **Source:** https://www.zerodayinitiative.com/advisories/ZDI-14-346/
+## Vulnerability Details
+
+This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple OS X. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of calls to IOHIDSecurePromptClient. The issue lies in the failure to properly sanitize user-supplied pointers before they are dereferenced. An attacker can leverage this vulnerability to crash an instance of OS X.
+
+## Additional Details
+
+This vulnerability is being disclosed publicly without a patch in accordance with the ZDI 120 day deadline. 02/06/2014 - ZDI sent report to vendor 02/06/2014 - Vendor acknowledged report and provided a tracking number 08/25/2014 - ZDI sent follow-up inquiry 09/03/2014 - Vendor replied that this would not be in the next update 09/10/2014 - ZDI notified the vendor of the intent to publish as 0-day 01/27/2015 - Vendor releases a patch to address this issue: http://support.apple.com/en-us/HT204244
+
+## Disclosure Timeline
+
+- 2014-02-06 - Vulnerability reported to vendor
+- 2014-10-02 - Coordinated public release of advisory

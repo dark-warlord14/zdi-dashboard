@@ -1,0 +1,27 @@
+{
+  "additional_details": "Schneider Electric has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-16-196-03",
+  "advisory_date": "2016-07-20",
+  "affected_products": [
+    "SoMachine HVAC"
+  ],
+  "affected_vendors": [
+    "Schneider Electric"
+  ],
+  "credit": "rgod",
+  "cve": "CVE-2016-4529",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-4529",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2016-02-18 - Vulnerability reported to vendor",
+    "2016-07-20 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-16-440 ZDI-CAN-3581 Schneider Electric SoMachine HVAC AxEditGrid ActiveX Control SetDataIntf Remote Code Execution Vulnerability 2016-07-20 CVE-2016-4529 https://www.cve.org/CVERecord?id=CVE-2016-4529 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Schneider Electric'] ['SoMachine HVAC'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Schneider Electric SoMachine HVAC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the SetDataIntf method of the AxEditGrid control. The control has an untrusted pointer dereference vulnerability because it blindly calls an attacker-supplied memory address. A remote attacker can leverage this vulnerability to execute arbitrary code under the context of the process. Schneider Electric has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-16-196-03 ['2016-02-18 - Vulnerability reported to vendor', '2016-07-20 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-16-440/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-440/",
+  "title": "Schneider Electric SoMachine HVAC AxEditGrid ActiveX Control SetDataIntf Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Schneider Electric SoMachine HVAC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the SetDataIntf method of the AxEditGrid control. The control has an untrusted pointer dereference vulnerability because it blindly calls an attacker-supplied memory address. A remote attacker can leverage this vulnerability to execute arbitrary code under the context of the process.",
+  "zdi_can": "ZDI-CAN-3581",
+  "zdi_id": "ZDI-16-440"
+}

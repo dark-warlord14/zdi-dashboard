@@ -1,0 +1,28 @@
+{
+  "additional_details": "12/12/25 - ZDI submitted the reports to the vendor via third-party platform 12/13/25 - ZDI reached out to the vendor\u2019s GitHub account 12/13/25 \u2013 the vendor rejected the vulnerability, stating that only pull requests that include the required fixes will be considered 12/15/25 \u2013 ZDI notified the vendor of the intention to publish the case as a 0-day advisory on 12/29/25 -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+  "advisory_date": "2025-12-29",
+  "affected_products": [
+    "FontForge"
+  ],
+  "affected_vendors": [
+    "FontForge"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2025-15280",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-15280",
+  "cvss": 8.8,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2025-12-12 - Vulnerability reported to vendor",
+    "2025-12-29 - Coordinated public release of advisory",
+    "2026-01-08 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-1188 ZDI-CAN-28525 (0Day) FontForge SFD File Parsing Use-After-Free Remote Code Execution Vulnerability 2025-12-29 CVE-2025-15280 https://www.cve.org/CVERecord?id=CVE-2025-15280 8.8 AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['FontForge'] ['FontForge'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of FontForge. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of SFD files. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current user. 12/12/25 - ZDI submitted the reports to the vendor via third-party platform 12/13/25 - ZDI reached out to the vendor\u2019s GitHub account 12/13/25 \u2013 the vendor rejected the vulnerability, stating that only pull requests that include the required fixes will be considered 12/15/25 \u2013 ZDI notified the vendor of the intention to publish the case as a 0-day advisory on 12/29/25 -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2025-12-12 - Vulnerability reported to vendor', '2025-12-29 - Coordinated public release of advisory', '2026-01-08 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-25-1188/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-1188/",
+  "title": "(0Day) FontForge SFD File Parsing Use-After-Free Remote Code Execution Vulnerability",
+  "updated_date": "2026-01-08",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of FontForge. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of SFD files. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current user.",
+  "zdi_can": "ZDI-CAN-28525",
+  "zdi_id": "ZDI-25-1188"
+}

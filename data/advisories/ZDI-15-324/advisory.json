@@ -1,0 +1,27 @@
+{
+  "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/reader/apsb15-15.html",
+  "advisory_date": "2015-07-14",
+  "affected_products": [
+    "Acrobat Pro"
+  ],
+  "affected_vendors": [
+    "Adobe"
+  ],
+  "credit": "AbdulAziz Hariri - HP Zero Day Initiative",
+  "cve": "CVE-2015-5114",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-5114",
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2015-02-04 - Vulnerability reported to vendor",
+    "2015-07-14 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-15-324 ZDI-CAN-2728 Adobe Acrobat Pro Calculate field action Use-After-Free Remote Code Execution Vulnerability 2015-07-14 CVE-2015-5114 https://www.cve.org/CVERecord?id=CVE-2015-5114 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Adobe'] ['Acrobat Pro'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Adobe Acrobat Pro. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of the Calculate field action. A specially crafted Calculate field action can force a dangling pointer to be reused after it has been freed. An attacker can leverage this vulnerability to execute code under the context of the current process. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/reader/apsb15-15.html ['2015-02-04 - Vulnerability reported to vendor', '2015-07-14 - Coordinated public release of advisory'] AbdulAziz Hariri - HP Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-15-324/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-324/",
+  "title": "Adobe Acrobat Pro Calculate field action Use-After-Free Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Adobe Acrobat Pro. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of the Calculate field action. A specially crafted Calculate field action can force a dangling pointer to be reused after it has been freed. An attacker can leverage this vulnerability to execute code under the context of the current process.",
+  "zdi_can": "ZDI-CAN-2728",
+  "zdi_id": "ZDI-15-324"
+}

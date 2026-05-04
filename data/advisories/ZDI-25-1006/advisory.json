@@ -1,0 +1,28 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-ca/125635",
+  "advisory_date": "2025-11-13",
+  "affected_products": [
+    "macOS"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "Hossein Lotfi (@hosselot) of Trend Zero Day Initiative",
+  "cve": "CVE-2025-43445",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-43445",
+  "cvss": 6.3,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L",
+  "disclosure_timeline": [
+    "2025-07-29 - Vulnerability reported to vendor",
+    "2025-11-13 - Coordinated public release of advisory",
+    "2025-11-13 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-1006 ZDI-CAN-27796 Apple macOS CoreText Font Glyph Parsing Out-Of-Bounds Read Remote Code Execution Vulnerability 2025-11-13 CVE-2025-43445 https://www.cve.org/CVERecord?id=CVE-2025-43445 6.3 AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L ['Apple'] ['macOS'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Apple macOS. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of font glyphs in the CoreText framework. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process. Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-ca/125635 ['2025-07-29 - Vulnerability reported to vendor', '2025-11-13 - Coordinated public release of advisory', '2025-11-13 - Advisory Updated'] Hossein Lotfi (@hosselot) of Trend Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-25-1006/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-1006/",
+  "title": "Apple macOS CoreText Font Glyph Parsing Out-Of-Bounds Read Remote Code Execution Vulnerability",
+  "updated_date": "2025-11-13",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Apple macOS. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of font glyphs in the CoreText framework. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-27796",
+  "zdi_id": "ZDI-25-1006"
+}

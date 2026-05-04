@@ -1,0 +1,28 @@
+{
+  "additional_details": "https://download.schneider-electric.com/files?p_Doc_Ref=SEVD-2022-039-01 https://www.cisa.gov/uscert/ics/advisories/icsa-22-046-01",
+  "advisory_date": "2022-02-11",
+  "affected_products": [
+    "IGSS"
+  ],
+  "affected_vendors": [
+    "Schneider Electric"
+  ],
+  "credit": "Vyacheslav Moskvin",
+  "cve": "CVE-2022-24317",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-24317",
+  "cvss": 5.3,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+  "disclosure_timeline": [
+    "2021-12-15 - Vulnerability reported to vendor",
+    "2022-02-11 - Coordinated public release of advisory",
+    "2023-09-20 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-324 ZDI-CAN-15193 Schneider Electric IGSS Missing Authentication Information Disclosure Vulnerability 2022-02-11 CVE-2022-24317 https://www.cve.org/CVERecord?id=CVE-2022-24317 5.3 AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N ['Schneider Electric'] ['IGSS'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Schneider Electric IGSS. Authentication is not required to exploit this vulnerability. The specific flaw exists within the IGSSDataServer process, which listens on TCP port 12401 by default. The issue results from the lack of authentication prior to allowing access to functionality. An attacker can leverage this vulnerability to disclose information from the IGSS application. https://download.schneider-electric.com/files?p_Doc_Ref=SEVD-2022-039-01 https://www.cisa.gov/uscert/ics/advisories/icsa-22-046-01 ['2021-12-15 - Vulnerability reported to vendor', '2022-02-11 - Coordinated public release of advisory', '2023-09-20 - Advisory Updated'] Vyacheslav Moskvin https://www.zerodayinitiative.com/advisories/ZDI-22-324/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-324/",
+  "title": "Schneider Electric IGSS Missing Authentication Information Disclosure Vulnerability",
+  "updated_date": "2023-09-20",
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Schneider Electric IGSS. Authentication is not required to exploit this vulnerability. The specific flaw exists within the IGSSDataServer process, which listens on TCP port 12401 by default. The issue results from the lack of authentication prior to allowing access to functionality. An attacker can leverage this vulnerability to disclose information from the IGSS application.",
+  "zdi_can": "ZDI-CAN-15193",
+  "zdi_id": "ZDI-22-324"
+}

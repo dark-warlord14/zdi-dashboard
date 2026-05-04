@@ -1,0 +1,27 @@
+{
+  "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb18-34.html",
+  "advisory_date": "2018-12-17",
+  "affected_products": [
+    "Reader"
+  ],
+  "affected_vendors": [
+    "Adobe"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2018-12778",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2018-12778",
+  "cvss": 3.3,
+  "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+  "disclosure_timeline": [
+    "2018-07-11 - Vulnerability reported to vendor",
+    "2018-12-17 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-1423 ZDI-CAN-6741 Adobe Acrobat Pro DC HTML2PDF HTML Parsing Use-After-Free Information Disclosure Vulnerability 2018-12-17 CVE-2018-12778 https://www.cve.org/CVERecord?id=CVE-2018-12778 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N ['Adobe'] ['Reader'] This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Adobe Acrobat Pro DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of HTML files in HTML2PDF. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this in conjunction with other vulnerabilities to execute code in the context of the current process. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb18-34.html ['2018-07-11 - Vulnerability reported to vendor', '2018-12-17 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-18-1423/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-1423/",
+  "title": "Adobe Acrobat Pro DC HTML2PDF HTML Parsing Use-After-Free Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Adobe Acrobat Pro DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of HTML files in HTML2PDF. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this in conjunction with other vulnerabilities to execute code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-6741",
+  "zdi_id": "ZDI-18-1423"
+}

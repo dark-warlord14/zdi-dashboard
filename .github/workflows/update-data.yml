@@ -1,0 +1,51 @@
+name: Update ZDI Data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "18 3 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: zdi-data-refresh
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -e ".[dev]"
+
+      - name: Run tests
+        run: python -m pytest -v
+
+      - name: Refresh advisory data
+        run: zdi run --workers 32
+
+      - name: Validate Cloudflare Pages output
+        run: bash build.sh
+
+      - name: Commit changed data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "No data changes"
+          else
+            git commit -m "chore: update ZDI advisory data"
+            git push
+          fi

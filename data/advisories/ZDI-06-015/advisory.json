@@ -1,0 +1,27 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: http://www.apple.com/support/downloads/",
+  "advisory_date": "2006-05-11",
+  "affected_products": [
+    "Quicktime"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "ATmaCA",
+  "cve": "CVE-2006-1463",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2006-1463",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2006-03-20 - Vulnerability reported to vendor",
+    "2006-05-11 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-06-015 ZDI-CAN-033 Apple QuickTime H.264 Parsing Buffer Overflow Vulnerability 2006-05-11 CVE-2006-1463 https://www.cve.org/CVERecord?id=CVE-2006-1463 ['Apple'] ['Quicktime'] This vulnerability allows attackers to execute arbitrary code on vulnerable installations of Apple's QuickTime media player. The specific flaw exists within the parsing of H.264 content. The implicit trust of a user-supplied size value during a memory copy loop allows an attacker to create an exploitable memory corruption condition. Exploitation requires that an attacker either coerce the target to open a malformed media file or visit a website embedding the malicious file. Apple has issued an update to correct this vulnerability. More details can be found at: http://www.apple.com/support/downloads/ ['2006-03-20 - Vulnerability reported to vendor', '2006-05-11 - Coordinated public release of advisory'] ATmaCA https://www.zerodayinitiative.com/advisories/ZDI-06-015/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-06-015/",
+  "title": "Apple QuickTime H.264 Parsing Buffer Overflow Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows attackers to execute arbitrary code on vulnerable installations of Apple's QuickTime media player. The specific flaw exists within the parsing of H.264 content. The implicit trust of a user-supplied size value during a memory copy loop allows an attacker to create an exploitable memory corruption condition. Exploitation requires that an attacker either coerce the target to open a malformed media file or visit a website embedding the malicious file.",
+  "zdi_can": "ZDI-CAN-033",
+  "zdi_id": "ZDI-06-015"
+}

@@ -1,0 +1,28 @@
+{
+  "additional_details": "This vulnerability is being disclosed publicly without a patch in accordance with the ZDI 120 day deadline. 07/02/2019 - ZDI reported the vulnerability to the vendor 07/02/2019 - The vendor acknowledged the report 07/31/2019 - The vendor acknowledged reproduction of the report 08/12/2019 - The vendor advised that the report does not meet their bar for servicing and the report would be closed 08/28/2019 - ZDI notified the vendor of the intention to disclose the report as a 0-day advisory -- Mitigation: Given the nature of the vulnerability the only salient mitigation strategy is to restrict interaction with the application to trusted files.",
+  "advisory_date": "2019-09-04",
+  "affected_products": [
+    "Windows"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "kdot",
+  "cve": "CVE-2019-1283",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2019-1283",
+  "cvss": 4.3,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+  "disclosure_timeline": [
+    "2019-07-02 - Vulnerability reported to vendor",
+    "2019-09-04 - Coordinated public release of advisory",
+    "2019-09-06 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-19-781 ZDI-CAN-8748 (0Day) Microsoft Windows user32 Cursor Parsing Out-Of-Bounds Read Information Disclosure Vulnerability 2019-09-04 CVE-2019-1283 https://www.cve.org/CVERecord?id=CVE-2019-1283 4.3 AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N ['Microsoft'] ['Windows'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Microsoft Windows. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of cursor files in the user32 library. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute code in the context of the current process. This vulnerability is being disclosed publicly without a patch in accordance with the ZDI 120 day deadline. 07/02/2019 - ZDI reported the vulnerability to the vendor 07/02/2019 - The vendor acknowledged the report 07/31/2019 - The vendor acknowledged reproduction of the report 08/12/2019 - The vendor advised that the report does not meet their bar for servicing and the report would be closed 08/28/2019 - ZDI notified the vendor of the intention to disclose the report as a 0-day advisory -- Mitigation: Given the nature of the vulnerability the only salient mitigation strategy is to restrict interaction with the application to trusted files. ['2019-07-02 - Vulnerability reported to vendor', '2019-09-04 - Coordinated public release of advisory', '2019-09-06 - Advisory Updated'] kdot https://www.zerodayinitiative.com/advisories/ZDI-19-781/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-19-781/",
+  "title": "(0Day) Microsoft Windows user32 Cursor Parsing Out-Of-Bounds Read Information Disclosure Vulnerability",
+  "updated_date": "2019-09-06",
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Microsoft Windows. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of cursor files in the user32 library. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-8748",
+  "zdi_id": "ZDI-19-781"
+}

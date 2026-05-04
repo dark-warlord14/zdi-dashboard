@@ -1,0 +1,27 @@
+{
+  "additional_details": "Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxitsoftware.com/support/security-bulletins.php",
+  "advisory_date": "2016-01-25",
+  "affected_products": [
+    "Foxit Reader"
+  ],
+  "affected_vendors": [
+    "Foxit"
+  ],
+  "credit": "kdot",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2015-10-01 - Vulnerability reported to vendor",
+    "2016-01-25 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-16-031 ZDI-CAN-3274 Foxit Reader ConvertToPDF Heap Buffer Overflow Remote Code Execution Vulnerability 2016-01-25 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Foxit'] ['Foxit Reader'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Foxit Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within ConvertToPDF_x86.dll. A specially crafted BMP image can force a heap buffer overflow condition. An attacker can leverage this vulnerability to execute arbitrary code under the context of the current process. Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxitsoftware.com/support/security-bulletins.php ['2015-10-01 - Vulnerability reported to vendor', '2016-01-25 - Coordinated public release of advisory'] kdot https://www.zerodayinitiative.com/advisories/ZDI-16-031/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-031/",
+  "title": "Foxit Reader ConvertToPDF Heap Buffer Overflow Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Foxit Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within ConvertToPDF_x86.dll. A specially crafted BMP image can force a heap buffer overflow condition. An attacker can leverage this vulnerability to execute arbitrary code under the context of the current process.",
+  "zdi_can": "ZDI-CAN-3274",
+  "zdi_id": "ZDI-16-031"
+}

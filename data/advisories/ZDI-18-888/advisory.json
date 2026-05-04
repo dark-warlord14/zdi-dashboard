@@ -1,0 +1,28 @@
+{
+  "additional_details": "ABB has issued an update to correct this vulnerability. More details can be found at: https://library.e.abb.com/public/30b77e0dc904475295401b66ec74cd3c/3BSE092089_A_en_SECURITY_-_Panel_Builder_800_Improper_input_validation_vulnerability.pdf?x-sign=OyK2T7i661JL8oQxBk+0/iWUV+hinpu8Nt6nvVmhw581vp4nkzkQbe1JSiJQPtp0",
+  "advisory_date": "2018-08-10",
+  "affected_products": [
+    "Panel Builder 800"
+  ],
+  "affected_vendors": [
+    "ABB"
+  ],
+  "credit": "Michael Flanders of Trend Micro Zero Day Initiative",
+  "cve": "CVE-2018-10616",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2018-10616",
+  "cvss": 6.9,
+  "cvss_vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2018-04-12 - Vulnerability reported to vendor",
+    "2018-08-10 - Coordinated public release of advisory",
+    "2018-08-10 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-888 ZDI-CAN-6084 ABB Panel Builder beabethsc IPAddress Heap-based Buffer Overflow Remote Code Execution Vulnerability 2018-08-10 CVE-2018-10616 https://www.cve.org/CVERecord?id=CVE-2018-10616 6.9 AV:L/AC:M/Au:N/C:C/I:C/A:C ['ABB'] ['Panel Builder 800'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of ABB Panel Builder 800. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of the IPAddress parameters of the ABB beabethsc OPC Driver. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute code under the context of an administrator. ABB has issued an update to correct this vulnerability. More details can be found at: https://library.e.abb.com/public/30b77e0dc904475295401b66ec74cd3c/3BSE092089_A_en_SECURITY_-_Panel_Builder_800_Improper_input_validation_vulnerability.pdf?x-sign=OyK2T7i661JL8oQxBk+0/iWUV+hinpu8Nt6nvVmhw581vp4nkzkQbe1JSiJQPtp0 ['2018-04-12 - Vulnerability reported to vendor', '2018-08-10 - Coordinated public release of advisory', '2018-08-10 - Advisory Updated'] Michael Flanders of Trend Micro Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-18-888/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-888/",
+  "title": "ABB Panel Builder beabethsc IPAddress Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+  "updated_date": "2018-08-10",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of ABB Panel Builder 800. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of the IPAddress parameters of the ABB beabethsc OPC Driver. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute code under the context of an administrator.",
+  "zdi_can": "ZDI-CAN-6084",
+  "zdi_id": "ZDI-18-888"
+}

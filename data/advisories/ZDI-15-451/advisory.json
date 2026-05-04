@@ -1,0 +1,27 @@
+{
+  "additional_details": "Indusoft has issued an update to correct this vulnerability. More details can be found at: http://www.schneider-electric.com/ww/en/download/document/SEVD-2015-251-01",
+  "advisory_date": "2015-09-28",
+  "affected_products": [
+    "WebStudio"
+  ],
+  "affected_vendors": [
+    "Indusoft"
+  ],
+  "credit": "Steven Seeley of Source Incite",
+  "cve": "CVE-2015-7374",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-7374",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2015-02-06 - Vulnerability reported to vendor",
+    "2015-09-28 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-15-451 ZDI-CAN-2649 InduSoft Web Studio Remote Agent Remote Code Execution Vulnerability 2015-09-28 CVE-2015-7374 https://www.cve.org/CVERecord?id=CVE-2015-7374 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Indusoft'] ['WebStudio'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of InduSoft WebStudio. User interaction is not required to exploit this vulnerability. The specific flaw exists within the Remote Agent service listening on TCP port 1234. The issue lies in the lack of authentication, allowing attackers to execute remote API calls on the service. An attacker can leverage this vulnerability to execute code under the context of the current process. Indusoft has issued an update to correct this vulnerability. More details can be found at: http://www.schneider-electric.com/ww/en/download/document/SEVD-2015-251-01 ['2015-02-06 - Vulnerability reported to vendor', '2015-09-28 - Coordinated public release of advisory'] Steven Seeley of Source Incite https://www.zerodayinitiative.com/advisories/ZDI-15-451/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-451/",
+  "title": "InduSoft Web Studio Remote Agent Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of InduSoft WebStudio. User interaction is not required to exploit this vulnerability. The specific flaw exists within the Remote Agent service listening on TCP port 1234. The issue lies in the lack of authentication, allowing attackers to execute remote API calls on the service. An attacker can leverage this vulnerability to execute code under the context of the current process.",
+  "zdi_can": "ZDI-CAN-2649",
+  "zdi_id": "ZDI-15-451"
+}

@@ -1,0 +1,28 @@
+{
+  "additional_details": "Hewlett Packard Enterprise has issued an update to correct this vulnerability. More details can be found at: https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbst04847en_us&docLocale=en_US",
+  "advisory_date": "2025-06-02",
+  "affected_products": [
+    "StoreOnce VSA"
+  ],
+  "affected_vendors": [
+    "Hewlett Packard Enterprise"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2025-37092",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-37092",
+  "cvss": 7.2,
+  "cvss_vector": "AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2024-10-31 - Vulnerability reported to vendor",
+    "2025-06-02 - Coordinated public release of advisory",
+    "2025-06-02 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-315 ZDI-CAN-24984 Hewlett Packard Enterprise StoreOnce VSA queryHardwareReportLocally Command Injection Remote Code Execution Vulnerability 2025-06-02 CVE-2025-37092 https://www.cve.org/CVERecord?id=CVE-2025-37092 7.2 AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H ['Hewlett Packard Enterprise'] ['StoreOnce VSA'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Hewlett Packard Enterprise StoreOnce VSA. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed. The specific flaw exists within the implementation of the queryHardwareReportLocally method. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of root. Hewlett Packard Enterprise has issued an update to correct this vulnerability. More details can be found at: https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbst04847en_us&docLocale=en_US ['2024-10-31 - Vulnerability reported to vendor', '2025-06-02 - Coordinated public release of advisory', '2025-06-02 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-25-315/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-315/",
+  "title": "Hewlett Packard Enterprise StoreOnce VSA queryHardwareReportLocally Command Injection Remote Code Execution Vulnerability",
+  "updated_date": "2025-06-02",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Hewlett Packard Enterprise StoreOnce VSA. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed. The specific flaw exists within the implementation of the queryHardwareReportLocally method. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of root.",
+  "zdi_can": "ZDI-CAN-24984",
+  "zdi_id": "ZDI-25-315"
+}

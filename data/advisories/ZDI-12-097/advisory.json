@@ -1,0 +1,27 @@
+{
+  "additional_details": "Hewlett-Packard has issued an update to correct this vulnerability. More details can be found at: https://h20566.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c03229235",
+  "advisory_date": "2012-06-21",
+  "affected_products": [
+    "Data Protector Express"
+  ],
+  "affected_vendors": [
+    "Hewlett-Packard"
+  ],
+  "credit": "e6af8de8b1d4b2b6d5ba2610cbf9cd38",
+  "cve": "CVE-2012-0121",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2012-0121",
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2011-11-29 - Vulnerability reported to vendor",
+    "2012-06-21 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-12-097 ZDI-CAN-1392 HP Data Protector Express Opcode 0x320 Parsing Remote Code Execution Vulnerability 2012-06-21 CVE-2012-0121 https://www.cve.org/CVERecord?id=CVE-2012-0121 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Hewlett-Packard'] ['Data Protector Express'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of HP Data Protector Express. Authentication is not required to exploit this vulnerability. User interaction is not required to exploit this vulnerability. The specific flaw exists within the dpwinsdr.exe process which listens on TCP port 3817 by default. The process has insufficient bounds checking on user-supplied data copied to a fixed-length buffer on the stack. Remote, unauthenticated attackers can exploit this vulnerability by sending malformed opcode 0x320 message packets to the target, which could ultimately lead to arbitrary code execution under the context of the SYSTEM user. Hewlett-Packard has issued an update to correct this vulnerability. More details can be found at: https://h20566.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c03229235 ['2011-11-29 - Vulnerability reported to vendor', '2012-06-21 - Coordinated public release of advisory'] e6af8de8b1d4b2b6d5ba2610cbf9cd38 https://www.zerodayinitiative.com/advisories/ZDI-12-097/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-12-097/",
+  "title": "HP Data Protector Express Opcode 0x320 Parsing Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of HP Data Protector Express. Authentication is not required to exploit this vulnerability. User interaction is not required to exploit this vulnerability. The specific flaw exists within the dpwinsdr.exe process which listens on TCP port 3817 by default. The process has insufficient bounds checking on user-supplied data copied to a fixed-length buffer on the stack. Remote, unauthenticated attackers can exploit this vulnerability by sending malformed opcode 0x320 message packets to the target, which could ultimately lead to arbitrary code execution under the context of the SYSTEM user.",
+  "zdi_can": "ZDI-CAN-1392",
+  "zdi_id": "ZDI-12-097"
+}

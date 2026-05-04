@@ -1,0 +1,27 @@
+{
+  "additional_details": "02/13/23 \u2013 The ZDI requested a vendor PSIRT contact. 02/14/23 \u2013 The vendor provided PSIRT Contact information. 02/14/23 \u2013 The ZDI reported the vulnerability to the vendor. 08/04/23 \u2013 The ZDI asked for an update. 08/08/23 \u2013 The vendor states that they do not have plans to fix the vulnerability now or in the future. 08/21/23 \u2013 The ZDI informed the vendor that we are publishing the case as a zero-day advisory on 08/24/23. -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the application.",
+  "advisory_date": "2023-08-24",
+  "affected_products": [
+    "Simple Editor"
+  ],
+  "affected_vendors": [
+    "LG"
+  ],
+  "credit": "rgod",
+  "cve": "CVE-2023-40498",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-40498",
+  "cvss": 9.8,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2023-02-14 - Vulnerability reported to vendor",
+    "2023-08-24 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-1204 ZDI-CAN-19925 (0Day) LG Simple Editor cp Command Directory Traversal Remote Code Execution Vulnerability 2023-08-24 CVE-2023-40498 https://www.cve.org/CVERecord?id=CVE-2023-40498 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['LG'] ['Simple Editor'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of LG Simple Editor. Authentication is not required to exploit this vulnerability. The specific flaw exists within the cp command implemented in the makeDetailContent method. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute code in the context of SYSTEM. 02/13/23 \u2013 The ZDI requested a vendor PSIRT contact. 02/14/23 \u2013 The vendor provided PSIRT Contact information. 02/14/23 \u2013 The ZDI reported the vulnerability to the vendor. 08/04/23 \u2013 The ZDI asked for an update. 08/08/23 \u2013 The vendor states that they do not have plans to fix the vulnerability now or in the future. 08/21/23 \u2013 The ZDI informed the vendor that we are publishing the case as a zero-day advisory on 08/24/23. -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the application. ['2023-02-14 - Vulnerability reported to vendor', '2023-08-24 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-23-1204/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-1204/",
+  "title": "(0Day) LG Simple Editor cp Command Directory Traversal Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of LG Simple Editor. Authentication is not required to exploit this vulnerability. The specific flaw exists within the cp command implemented in the makeDetailContent method. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-19925",
+  "zdi_id": "ZDI-23-1204"
+}

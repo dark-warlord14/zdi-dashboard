@@ -1,0 +1,28 @@
+{
+  "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/formatplugins/apsb25-114.html",
+  "advisory_date": "2025-11-13",
+  "affected_products": [
+    "USD-Fileformat-plugins"
+  ],
+  "affected_vendors": [
+    "Adobe"
+  ],
+  "credit": "Michael DePlante (@izobashi) of Trend Zero Day Initiative",
+  "cve": "CVE-2025-61840",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-61840",
+  "cvss": 3.3,
+  "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+  "disclosure_timeline": [
+    "2025-09-04 - Vulnerability reported to vendor",
+    "2025-11-13 - Coordinated public release of advisory",
+    "2025-11-13 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-995 ZDI-CAN-28026 Adobe USD-Fileformat-plugins usdGltf Out-Of-Bounds Read Information Disclosure Vulnerability 2025-11-13 CVE-2025-61840 https://www.cve.org/CVERecord?id=CVE-2025-61840 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N ['Adobe'] ['USD-Fileformat-plugins'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Adobe USD-Fileformat-plugins. Interaction with the USD library is required to exploit this vulnerability but attack vectors may vary depending on the implementation. The specific flaw exists within the usdGltf plugin. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/formatplugins/apsb25-114.html ['2025-09-04 - Vulnerability reported to vendor', '2025-11-13 - Coordinated public release of advisory', '2025-11-13 - Advisory Updated'] Michael DePlante (@izobashi) of Trend Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-25-995/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-995/",
+  "title": "Adobe USD-Fileformat-plugins usdGltf Out-Of-Bounds Read Information Disclosure Vulnerability",
+  "updated_date": "2025-11-13",
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Adobe USD-Fileformat-plugins. Interaction with the USD library is required to exploit this vulnerability but attack vectors may vary depending on the implementation. The specific flaw exists within the usdGltf plugin. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-28026",
+  "zdi_id": "ZDI-25-995"
+}

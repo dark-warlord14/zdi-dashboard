@@ -1,0 +1,27 @@
+{
+  "additional_details": "Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/javacpuapr2013-1928497.html",
+  "advisory_date": "2013-05-10",
+  "affected_products": [
+    "Java Runtime"
+  ],
+  "affected_vendors": [
+    "Oracle"
+  ],
+  "credit": "Vitaliy Toropov",
+  "cve": "CVE-2013-2428",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2013-2428",
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2013-01-07 - Vulnerability reported to vendor",
+    "2013-05-10 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-13-074 ZDI-CAN-1727 Oracle Java JavaFX WebPage Remote Code Execution Vulnerability 2013-05-10 CVE-2013-2428 https://www.cve.org/CVERecord?id=CVE-2013-2428 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Oracle'] ['Java Runtime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Oracle Java. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the JavaFX WebPage class. A descendant class can overwrite the getPage method with a custom pointer into the native function. This could lead to remote code execution under the context of the process. Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/javacpuapr2013-1928497.html ['2013-01-07 - Vulnerability reported to vendor', '2013-05-10 - Coordinated public release of advisory'] Vitaliy Toropov https://www.zerodayinitiative.com/advisories/ZDI-13-074/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-13-074/",
+  "title": "Oracle Java JavaFX WebPage Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Oracle Java. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the JavaFX WebPage class. A descendant class can overwrite the getPage method with a custom pointer into the native function. This could lead to remote code execution under the context of the process.",
+  "zdi_can": "ZDI-CAN-1727",
+  "zdi_id": "ZDI-13-074"
+}

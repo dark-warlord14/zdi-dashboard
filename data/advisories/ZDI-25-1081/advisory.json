@@ -1,0 +1,28 @@
+{
+  "additional_details": "06/19/25 - ZDI reported the vulnerability to Avanquest\u2019s support team 07/01/25 \u2013 the vendor acknowledged the receipt of the report 08/11/25 - ZDI asked for updates 08/12/25 \u2013 the vendor acknowledged that the report was escalated to the proper department 11/10/25 - ZDI asked for updates 11/21/25 \u2013 the vendor indicated that they don't offer bounties or rewards 11/21/25 - ZDI confirmed not accepting any rewards or bounties and asked for the expected fix date 12/04/25 \u2013 ZDI notified the vendor of the intention to publish the case as a 0-day advisory on 12/11/25 -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+  "advisory_date": "2025-12-11",
+  "affected_products": [
+    "Desktop"
+  ],
+  "affected_vendors": [
+    "Soda PDF"
+  ],
+  "credit": "Rocco Calvi (@TecR0c) with TecSecurity",
+  "cve": "CVE-2025-14408",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-14408",
+  "cvss": 3.3,
+  "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+  "disclosure_timeline": [
+    "2025-06-19 - Vulnerability reported to vendor",
+    "2025-12-11 - Coordinated public release of advisory",
+    "2025-12-11 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-1081 ZDI-CAN-27143 (0Day) Soda PDF Desktop PDF File Parsing Out-Of-Bounds Read Information Disclosure Vulnerability 2025-12-11 CVE-2025-14408 https://www.cve.org/CVERecord?id=CVE-2025-14408 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N ['Soda PDF'] ['Desktop'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Soda PDF Desktop. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of PDF files. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated object. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process. 06/19/25 - ZDI reported the vulnerability to Avanquest\u2019s support team 07/01/25 \u2013 the vendor acknowledged the receipt of the report 08/11/25 - ZDI asked for updates 08/12/25 \u2013 the vendor acknowledged that the report was escalated to the proper department 11/10/25 - ZDI asked for updates 11/21/25 \u2013 the vendor indicated that they don't offer bounties or rewards 11/21/25 - ZDI confirmed not accepting any rewards or bounties and asked for the expected fix date 12/04/25 \u2013 ZDI notified the vendor of the intention to publish the case as a 0-day advisory on 12/11/25 -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2025-06-19 - Vulnerability reported to vendor', '2025-12-11 - Coordinated public release of advisory', '2025-12-11 - Advisory Updated'] Rocco Calvi (@TecR0c) with TecSecurity https://www.zerodayinitiative.com/advisories/ZDI-25-1081/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-1081/",
+  "title": "(0Day) Soda PDF Desktop PDF File Parsing Out-Of-Bounds Read Information Disclosure Vulnerability",
+  "updated_date": "2025-12-11",
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Soda PDF Desktop. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of PDF files. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated object. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-27143",
+  "zdi_id": "ZDI-25-1081"
+}

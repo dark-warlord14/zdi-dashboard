@@ -1,0 +1,27 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT4276",
+  "advisory_date": "2010-08-05",
+  "affected_products": [
+    "Safari"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "wushi of team509",
+  "cve": "CVE-2010-1786",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2010-1786",
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2010-05-03 - Vulnerability reported to vendor",
+    "2010-08-05 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-10-141 ZDI-CAN-766 Apple Webkit SVG ForeignObject Rendering Layout Remote Code Execution Vulnerability 2010-08-05 CVE-2010-1786 https://www.cve.org/CVERecord?id=CVE-2010-1786 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Apple'] ['Safari'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple Safari's Webkit. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within Webkit's layout implementation of an particular tag used for embedding a foreign document into the SVG namespace. Later when the application attempts to calculate layout information for rendering the contents of the tag, the application will attempt to access a linebox that was previously destroyed. Successful exploitation can lead to code execution under the context of the application. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT4276 ['2010-05-03 - Vulnerability reported to vendor', '2010-08-05 - Coordinated public release of advisory'] wushi of team509 https://www.zerodayinitiative.com/advisories/ZDI-10-141/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-141/",
+  "title": "Apple Webkit SVG ForeignObject Rendering Layout Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple Safari's Webkit. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within Webkit's layout implementation of an particular tag used for embedding a foreign document into the SVG namespace. Later when the application attempts to calculate layout information for rendering the contents of the tag, the application will attempt to access a linebox that was previously destroyed. Successful exploitation can lead to code execution under the context of the application.",
+  "zdi_can": "ZDI-CAN-766",
+  "zdi_id": "ZDI-10-141"
+}

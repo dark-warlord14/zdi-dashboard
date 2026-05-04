@@ -1,0 +1,27 @@
+{
+  "additional_details": "Sun Microsystems has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technology/deploy/security/critical-patch-updates/cpuapr2010.html",
+  "advisory_date": "2010-04-13",
+  "affected_products": [
+    "Directory Server"
+  ],
+  "affected_vendors": [
+    "Sun Microsystems"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2010-0897",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2010-0897",
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2009-10-27 - Vulnerability reported to vendor",
+    "2010-04-13 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-10-074 ZDI-CAN-595 Sun Microsystems Directory Server Enterprise ASN.1 Parsing Remote Code Execution Vulnerability 2010-04-13 CVE-2010-0897 https://www.cve.org/CVERecord?id=CVE-2010-0897 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Sun Microsystems'] ['Directory Server'] This vulnerability allows attackers to execute arbitrary code on vulnerable installations of Sun Microsystems Directory Service Manager. Authentication is not required to exploit this vulnerability. The specific flaw exists within Sun Directory Server's LDAP implementation and can be triggered via a malformed LDAP query to the ns_slapd service. When the service decodes the malformed extendedRequest query containing a malformed requestValue string, the application will cause a buffer overflow which can lead to code execution under the context of the service. Sun Microsystems has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technology/deploy/security/critical-patch-updates/cpuapr2010.html ['2009-10-27 - Vulnerability reported to vendor', '2010-04-13 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-10-074/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-074/",
+  "title": "Sun Microsystems Directory Server Enterprise ASN.1 Parsing Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows attackers to execute arbitrary code on vulnerable installations of Sun Microsystems Directory Service Manager. Authentication is not required to exploit this vulnerability. The specific flaw exists within Sun Directory Server's LDAP implementation and can be triggered via a malformed LDAP query to the ns_slapd service. When the service decodes the malformed extendedRequest query containing a malformed requestValue string, the application will cause a buffer overflow which can lead to code execution under the context of the service.",
+  "zdi_can": "ZDI-CAN-595",
+  "zdi_id": "ZDI-10-074"
+}

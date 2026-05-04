@@ -1,0 +1,27 @@
+{
+  "additional_details": "Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/solution/1118224",
+  "advisory_date": "2017-09-15",
+  "affected_products": [
+    "Mobile Security for Enterprise"
+  ],
+  "affected_vendors": [
+    "Trend Micro"
+  ],
+  "credit": "Roberto Suggi Liverani - @malerisch - http://blog.malerisch.net/ & Steven Seeley (mr_me) of Offensive Security",
+  "cve": "CVE-2017-14078",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-14078",
+  "cvss": 9.0,
+  "cvss_vector": "AV:N/AC:L/Au:S/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2017-05-09 - Vulnerability reported to vendor",
+    "2017-09-15 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-17-795 ZDI-CAN-4791 Trend Micro Mobile Security for Enterprise edit_eas_note Id SQL Injection Remote Code Execution Vulnerability 2017-09-15 CVE-2017-14078 https://www.cve.org/CVERecord?id=CVE-2017-14078 9.0 AV:N/AC:L/Au:S/C:C/I:C/A:C ['Trend Micro'] ['Mobile Security for Enterprise'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Trend Micro Mobile Security for Enterprise. Authentication is required to exploit this vulnerability. The specific flaw exists within the processing of the edit_eas_note action. When parsing the 'device_ids_vector' field, the process does not properly validate a user-supplied string before using it to construct SQL queries. An attacker can leverage this vulnerability to execute arbitrary code under the context of SYSTEM. Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/solution/1118224 ['2017-05-09 - Vulnerability reported to vendor', '2017-09-15 - Coordinated public release of advisory'] Roberto Suggi Liverani - @malerisch - http://blog.malerisch.net/ & Steven Seeley (mr_me) of Offensive Security https://www.zerodayinitiative.com/advisories/ZDI-17-795/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-795/",
+  "title": "Trend Micro Mobile Security for Enterprise edit_eas_note Id SQL Injection Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Trend Micro Mobile Security for Enterprise. Authentication is required to exploit this vulnerability. The specific flaw exists within the processing of the edit_eas_note action. When parsing the 'device_ids_vector' field, the process does not properly validate a user-supplied string before using it to construct SQL queries. An attacker can leverage this vulnerability to execute arbitrary code under the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-4791",
+  "zdi_id": "ZDI-17-795"
+}

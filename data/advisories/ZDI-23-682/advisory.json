@@ -1,0 +1,27 @@
+{
+  "additional_details": "Delta Electronics has issued an update to correct this vulnerability. More details can be found at: https://www.cisa.gov/news-events/ics-advisories/icsa-23-080-02",
+  "advisory_date": "2023-05-17",
+  "affected_products": [
+    "InfraSuite Device Master"
+  ],
+  "affected_vendors": [
+    "Delta Electronics"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2023-1142",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-1142",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+  "disclosure_timeline": [
+    "2022-11-30 - Vulnerability reported to vendor",
+    "2023-05-17 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-682 ZDI-CAN-19406 Delta Electronics InfraSuite Device Master Directory Traversal Information Disclosure Vulnerability 2023-05-17 CVE-2023-1142 https://www.cve.org/CVERecord?id=CVE-2023-1142 7.5 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N ['Delta Electronics'] ['InfraSuite Device Master'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Delta Electronics InfraSuite Device Master. Authentication is not required to exploit this vulnerability. The specific flaw exists within the WebServerCallBack function. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to disclose stored credentials, leading to further compromise. Delta Electronics has issued an update to correct this vulnerability. More details can be found at: https://www.cisa.gov/news-events/ics-advisories/icsa-23-080-02 ['2022-11-30 - Vulnerability reported to vendor', '2023-05-17 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-23-682/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-682/",
+  "title": "Delta Electronics InfraSuite Device Master Directory Traversal Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Delta Electronics InfraSuite Device Master. Authentication is not required to exploit this vulnerability. The specific flaw exists within the WebServerCallBack function. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to disclose stored credentials, leading to further compromise.",
+  "zdi_can": "ZDI-CAN-19406",
+  "zdi_id": "ZDI-23-682"
+}

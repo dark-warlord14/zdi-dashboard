@@ -1,0 +1,28 @@
+{
+  "additional_details": "Wecon has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-18-212-03 This vulnerability is being disclosed publicly without a patch in accordance with the ZDI 120 day deadline. 05/18/18 - ZDI disclosed the reports to ICS-CERT 07/06/18 - ZDI inquired about the status of the reports 09/19/18 - ZDI notified ICS-CERT of the intent to 0-day these on 9/26 -- Mitigation: Given the nature of the vulnerability the only salient mitigation strategy is to restrict interaction with the application to trusted files.",
+  "advisory_date": "2018-09-26",
+  "affected_products": [
+    "LeviStudioU"
+  ],
+  "affected_vendors": [
+    "Wecon"
+  ],
+  "credit": "Mat Powell - Trend Micro Zero Day Initiative",
+  "cve": "CVE-2018-10610",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2018-10610",
+  "cvss": 9.3,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2018-05-18 - Vulnerability reported to vendor",
+    "2018-09-26 - Coordinated public release of advisory",
+    "2018-09-26 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-1090 ZDI-CAN-6243 (0Day) Wecon LeviStudioU cximageu TIFF Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability 2018-09-26 CVE-2018-10610 https://www.cve.org/CVERecord?id=CVE-2018-10610 9.3 AV:N/AC:M/Au:N/C:C/I:C/A:C ['Wecon'] ['LeviStudioU'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Wecon LeviStudioU. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of TIFF images. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated object. An attacker can leverage this vulnerability to execute code under the context of an administrator. Wecon has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-18-212-03 This vulnerability is being disclosed publicly without a patch in accordance with the ZDI 120 day deadline. 05/18/18 - ZDI disclosed the reports to ICS-CERT 07/06/18 - ZDI inquired about the status of the reports 09/19/18 - ZDI notified ICS-CERT of the intent to 0-day these on 9/26 -- Mitigation: Given the nature of the vulnerability the only salient mitigation strategy is to restrict interaction with the application to trusted files. ['2018-05-18 - Vulnerability reported to vendor', '2018-09-26 - Coordinated public release of advisory', '2018-09-26 - Advisory Updated'] Mat Powell - Trend Micro Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-18-1090/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-1090/",
+  "title": "(0Day) Wecon LeviStudioU cximageu TIFF Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+  "updated_date": "2018-09-26",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Wecon LeviStudioU. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of TIFF images. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated object. An attacker can leverage this vulnerability to execute code under the context of an administrator.",
+  "zdi_can": "ZDI-CAN-6243",
+  "zdi_id": "ZDI-18-1090"
+}

@@ -1,0 +1,27 @@
+{
+  "additional_details": "Valve has issued an update to correct this vulnerability. More details can be found at: http://store.steampowered.com/news/16801/",
+  "advisory_date": "2015-05-19",
+  "affected_products": [
+    "Steam"
+  ],
+  "affected_vendors": [
+    "Valve"
+  ],
+  "credit": "Elvis Collado - HP DVLabs",
+  "cve": "CVE-2015-4016",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-4016",
+  "cvss": 5.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+  "disclosure_timeline": [
+    "2015-05-14 - Vulnerability reported to vendor",
+    "2015-05-19 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-15-233 ZDI-CAN-2627 Valve Steam Client Detection Denial of Service Vulnerability 2015-05-19 CVE-2015-4016 https://www.cve.org/CVERecord?id=CVE-2015-4016 5.0 AV:N/AC:L/Au:N/C:N/I:N/A:P ['Valve'] ['Steam'] This vulnerability allows remote attackers to execute a denial of service attack on vulnerable installations of Valve Steam. Authentication is not required to exploit this vulnerability. The specific flaw exists within the Steam client detection protocol. By responding to a broadcast packet with a crafted response, an attacker can cause the Steam process to crash. Valve has issued an update to correct this vulnerability. More details can be found at: http://store.steampowered.com/news/16801/ ['2015-05-14 - Vulnerability reported to vendor', '2015-05-19 - Coordinated public release of advisory'] Elvis Collado - HP DVLabs https://www.zerodayinitiative.com/advisories/ZDI-15-233/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-233/",
+  "title": "Valve Steam Client Detection Denial of Service Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute a denial of service attack on vulnerable installations of Valve Steam. Authentication is not required to exploit this vulnerability. The specific flaw exists within the Steam client detection protocol. By responding to a broadcast packet with a crafted response, an attacker can cause the Steam process to crash.",
+  "zdi_can": "ZDI-CAN-2627",
+  "zdi_id": "ZDI-15-233"
+}

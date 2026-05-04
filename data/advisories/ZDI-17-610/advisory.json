@@ -1,0 +1,27 @@
+{
+  "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb17-24.html",
+  "advisory_date": "2017-08-08",
+  "affected_products": [
+    "Acrobat Pro DC"
+  ],
+  "affected_vendors": [
+    "Adobe"
+  ],
+  "credit": "Giwan Go of STEALIEN & HIT",
+  "cve": "CVE-2017-11228",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-11228",
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2017-05-17 - Vulnerability reported to vendor",
+    "2017-08-08 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-17-610 ZDI-CAN-4817 Adobe Acrobat Pro DC JPEG2000 Parsing Memory Corruption Remote Code Execution Vulnerability 2017-08-08 CVE-2017-11228 https://www.cve.org/CVERecord?id=CVE-2017-11228 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Adobe'] ['Acrobat Pro DC'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Adobe Acrobat Pro DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of JPEG2000 images. The issue results from the lack of proper validation of user-supplied data, which can result in a memory corruption condition. An attacker can leverage this vulnerability to execute code under the context of the current process. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb17-24.html ['2017-05-17 - Vulnerability reported to vendor', '2017-08-08 - Coordinated public release of advisory'] Giwan Go of STEALIEN & HIT https://www.zerodayinitiative.com/advisories/ZDI-17-610/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-610/",
+  "title": "Adobe Acrobat Pro DC JPEG2000 Parsing Memory Corruption Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Adobe Acrobat Pro DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of JPEG2000 images. The issue results from the lack of proper validation of user-supplied data, which can result in a memory corruption condition. An attacker can leverage this vulnerability to execute code under the context of the current process.",
+  "zdi_can": "ZDI-CAN-4817",
+  "zdi_id": "ZDI-17-610"
+}

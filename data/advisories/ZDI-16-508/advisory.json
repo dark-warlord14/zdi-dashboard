@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/library/security/MS16-107",
+  "advisory_date": "2016-09-16",
+  "affected_products": [
+    "Office Excel"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Steven Seeley of Source Incite",
+  "cve": "CVE-2016-3365",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-3365",
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2016-06-06 - Vulnerability reported to vendor",
+    "2016-09-16 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-16-508 ZDI-CAN-3781 Microsoft Office Excel Art Data Memory Corruption Remote Code Execution Vulnerability 2016-09-16 CVE-2016-3365 https://www.cve.org/CVERecord?id=CVE-2016-3365 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Microsoft'] ['Office Excel'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Office Excel. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the processing of art data within a spreadsheet. The issue lies in the failure to properly validate user-supplied data which can result in a memory corruption condition. An attacker can leverage this vulnerability to execute arbitrary code under the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/library/security/MS16-107 ['2016-06-06 - Vulnerability reported to vendor', '2016-09-16 - Coordinated public release of advisory'] Steven Seeley of Source Incite https://www.zerodayinitiative.com/advisories/ZDI-16-508/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-508/",
+  "title": "Microsoft Office Excel Art Data Memory Corruption Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Office Excel. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the processing of art data within a spreadsheet. The issue lies in the failure to properly validate user-supplied data which can result in a memory corruption condition. An attacker can leverage this vulnerability to execute arbitrary code under the context of the current process.",
+  "zdi_can": "ZDI-CAN-3781",
+  "zdi_id": "ZDI-16-508"
+}

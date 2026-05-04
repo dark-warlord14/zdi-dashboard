@@ -1,0 +1,27 @@
+{
+  "additional_details": "NETGEAR has issued an update to correct this vulnerability. More details can be found at: https://kb.netgear.com/000062687/Security-Advisory-for-Denial-of-Service-on-NMS300-PSV-2020-0561",
+  "advisory_date": "2021-03-26",
+  "affected_products": [
+    "ProSAFE Network Management System"
+  ],
+  "affected_vendors": [
+    "NETGEAR"
+  ],
+  "credit": "rgod",
+  "cve": "CVE-2021-27275",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2021-27275",
+  "cvss": 8.3,
+  "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:H",
+  "disclosure_timeline": [
+    "2020-10-30 - Vulnerability reported to vendor",
+    "2021-03-26 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-21-358 ZDI-CAN-12125 NETGEAR ProSAFE Network Management System ConfigFileController realName Directory Traversal Information Disclosure and Denial-of-Service Vulnerability 2021-03-26 CVE-2021-27275 https://www.cve.org/CVERecord?id=CVE-2021-27275 8.3 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:H ['NETGEAR'] ['ProSAFE Network Management System'] This vulnerability allows remote attackers to disclose sensitive information and delete arbitrary files on affected installations of NETGEAR ProSAFE Network Management System. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed. The specific flaw exists within the ConfigFileController class. When parsing the realName parameter, the process does not properly validate a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to disclose sensitive information or to create a denial-of-service condition on the system. NETGEAR has issued an update to correct this vulnerability. More details can be found at: https://kb.netgear.com/000062687/Security-Advisory-for-Denial-of-Service-on-NMS300-PSV-2020-0561 ['2020-10-30 - Vulnerability reported to vendor', '2021-03-26 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-21-358/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-21-358/",
+  "title": "NETGEAR ProSAFE Network Management System ConfigFileController realName Directory Traversal Information Disclosure and Denial-of-Service Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information and delete arbitrary files on affected installations of NETGEAR ProSAFE Network Management System. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed. The specific flaw exists within the ConfigFileController class. When parsing the realName parameter, the process does not properly validate a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to disclose sensitive information or to create a denial-of-service condition on the system.",
+  "zdi_can": "ZDI-CAN-12125",
+  "zdi_id": "ZDI-21-358"
+}

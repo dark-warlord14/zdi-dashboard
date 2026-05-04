@@ -1,0 +1,26 @@
+# ZDI-14-388: ARRIS VAP2500 Management Portal Authentication Bypass Vulnerability
+
+## Metadata
+
+- **ZDI ID:** ZDI-14-388
+- **ZDI-CAN:** ZDI-CAN-2136
+- **Date:** 2014-11-25
+- **CVE:** CVE-2014-8424
+- **CVSS:** 7.8
+- **CVSS Vector:** AV:N/AC:L/Au:N/C:C/I:N/A:N
+- **Affected Vendors:** ARRIS
+- **Affected Products:** VAP2500
+- **Credit:** Ricky "HeadlessZeke" Lawshae
+- **Source:** https://www.zerodayinitiative.com/advisories/ZDI-14-388/
+## Vulnerability Details
+
+This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of ARRIS VAP2500. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of user authentication. The issue lies in the failure to compare the password when authenticating. An attacker can leverage this vulnerability to bypass authentication checks which can then be chained to execute code with root privileges.
+
+## Additional Details
+
+Vendor has released a hotfix to address the issue: FW08.41
+
+## Disclosure Timeline
+
+- 2014-04-29 - Vulnerability reported to vendor
+- 2014-11-25 - Coordinated public release of advisory

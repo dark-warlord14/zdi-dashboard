@@ -1,0 +1,28 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-8316",
+  "advisory_date": "2018-08-14",
+  "affected_products": [
+    "Office Word"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Eduardo Braun Prado",
+  "cve": "CVE-2018-8316",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2018-8316",
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2018-05-24 - Vulnerability reported to vendor",
+    "2018-08-14 - Coordinated public release of advisory",
+    "2018-08-14 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-952 ZDI-CAN-6284 Microsoft Office Word Preview Unsafe Hyperlink Remote Code Execution Vulnerability 2018-08-14 CVE-2018-8316 https://www.cve.org/CVERecord?id=CVE-2018-8316 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Microsoft'] ['Office Word'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Office Word. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the display of Word documents in the preview pane in Windows Explorer. Crafted data in a Word file can result in a dangerous link being followed without first warning the user. An attacker can leverage this vulnerability to execute under the context of the current user at medium integrity. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-8316 ['2018-05-24 - Vulnerability reported to vendor', '2018-08-14 - Coordinated public release of advisory', '2018-08-14 - Advisory Updated'] Eduardo Braun Prado https://www.zerodayinitiative.com/advisories/ZDI-18-952/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-952/",
+  "title": "Microsoft Office Word Preview Unsafe Hyperlink Remote Code Execution Vulnerability",
+  "updated_date": "2018-08-14",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Office Word. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the display of Word documents in the preview pane in Windows Explorer. Crafted data in a Word file can result in a dangerous link being followed without first warning the user. An attacker can leverage this vulnerability to execute under the context of the current user at medium integrity.",
+  "zdi_can": "ZDI-CAN-6284",
+  "zdi_id": "ZDI-18-952"
+}

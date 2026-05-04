@@ -1,0 +1,27 @@
+{
+  "additional_details": "This vulnerability is being disclosed publicly without a patch in accordance with ZDI policies. 06/07/2019 - ZDI disclosed the vulnerability report to the vendor 06/07/2019 - The vendor acknowledged the report and provided a case # 07/08/2019 - The vendor confirmed the reproduction of the report, but indicated it did not meet the bar for servicing 07/09/2019 - ZDI sent a disagreement to the vendor 09/05/2019 - ZDI sent 0-day details to the vendor 09/09/2019 - The vendor sent back a clarifying question 09/10/2019 - ZDI and the vendor had a call to better understand both the report and servicing 12/06/2019 - ZDI advised the vendor of the intent to publish the report as 0-day on 12/12/2019 -- Mitigation: Given the nature of the vulnerability the only salient mitigation strategy is to restrict interaction with the application to trusted files.",
+  "advisory_date": "2019-12-12",
+  "affected_products": [
+    "Windows"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Hossein Lotfi of Trend Micro Zero Day Initiative",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 5.5,
+  "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+  "disclosure_timeline": [
+    "2019-06-07 - Vulnerability reported to vendor",
+    "2019-12-12 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-19-1013 ZDI-CAN-8824 (0Day) Microsoft Windows Kernel Type 1 Font Processing Stack Exhaustion Denial-of-Service Vulnerability 2019-12-12 5.5 AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H ['Microsoft'] ['Windows'] This vulnerability allows remote attackers to cause a denial-of-service condition on machines running affected versions of Microsoft Windows. User interaction is required to exploit this vulnerability in that the target must open a malicious font. The specific flaw exists within the handling of Type 1 fonts in the Windows kernel. A crafted font can trigger kernel stack exhaustion. An attacker can leverage this vulnerability to create a denial-of-service condition on the system. This vulnerability is being disclosed publicly without a patch in accordance with ZDI policies. 06/07/2019 - ZDI disclosed the vulnerability report to the vendor 06/07/2019 - The vendor acknowledged the report and provided a case # 07/08/2019 - The vendor confirmed the reproduction of the report, but indicated it did not meet the bar for servicing 07/09/2019 - ZDI sent a disagreement to the vendor 09/05/2019 - ZDI sent 0-day details to the vendor 09/09/2019 - The vendor sent back a clarifying question 09/10/2019 - ZDI and the vendor had a call to better understand both the report and servicing 12/06/2019 - ZDI advised the vendor of the intent to publish the report as 0-day on 12/12/2019 -- Mitigation: Given the nature of the vulnerability the only salient mitigation strategy is to restrict interaction with the application to trusted files. ['2019-06-07 - Vulnerability reported to vendor', '2019-12-12 - Coordinated public release of advisory'] Hossein Lotfi of Trend Micro Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-19-1013/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-19-1013/",
+  "title": "(0Day) Microsoft Windows Kernel Type 1 Font Processing Stack Exhaustion Denial-of-Service Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to cause a denial-of-service condition on machines running affected versions of Microsoft Windows. User interaction is required to exploit this vulnerability in that the target must open a malicious font. The specific flaw exists within the handling of Type 1 fonts in the Windows kernel. A crafted font can trigger kernel stack exhaustion. An attacker can leverage this vulnerability to create a denial-of-service condition on the system.",
+  "zdi_can": "ZDI-CAN-8824",
+  "zdi_id": "ZDI-19-1013"
+}

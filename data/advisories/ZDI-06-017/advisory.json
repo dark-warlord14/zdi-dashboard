@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/bulletin/MS06-021.mspx",
+  "advisory_date": "2006-06-13",
+  "affected_products": [
+    "Internet Explorer"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2006-2382",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2006-2382",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2006-01-20 - Vulnerability reported to vendor",
+    "2006-06-13 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-06-017 ZDI-CAN-012 Microsoft Internet Explorer UTF-8 Decoding Heap Overflow Vulnerability 2006-06-13 CVE-2006-2382 https://www.cve.org/CVERecord?id=CVE-2006-2382 ['Microsoft'] ['Internet Explorer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. Successful exploitation requires that the target user browse to a malicious web page. Exploitaton does not require JavaScript, Java or ActiveX to be enabled. The specific vulnerability is due to a miscalculation of memory sizes when translating UTF-8 characters to Unicode. A size mismatch between a heap allocation and memory copy results in an exploitable heap corruption. Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/bulletin/MS06-021.mspx ['2006-01-20 - Vulnerability reported to vendor', '2006-06-13 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-06-017/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-06-017/",
+  "title": "Microsoft Internet Explorer UTF-8 Decoding Heap Overflow Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. Successful exploitation requires that the target user browse to a malicious web page. Exploitaton does not require JavaScript, Java or ActiveX to be enabled. The specific vulnerability is due to a miscalculation of memory sizes when translating UTF-8 characters to Unicode. A size mismatch between a heap allocation and memory copy results in an exploitable heap corruption.",
+  "zdi_can": "ZDI-CAN-012",
+  "zdi_id": "ZDI-06-017"
+}

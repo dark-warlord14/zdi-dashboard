@@ -1,0 +1,28 @@
+{
+  "additional_details": "Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html",
+  "advisory_date": "2021-07-30",
+  "affected_products": [
+    "PDF Reader"
+  ],
+  "affected_vendors": [
+    "Foxit"
+  ],
+  "credit": "Mat Powell of Trend Micro Zero Day Initiative",
+  "cve": "CVE-2021-34842",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2021-34842",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2021-06-09 - Vulnerability reported to vendor",
+    "2021-07-30 - Coordinated public release of advisory",
+    "2021-08-03 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-21-924 ZDI-CAN-14024 Foxit PDF Reader Annotation Use-After-Free Remote Code Execution Vulnerability 2021-07-30 CVE-2021-34842 https://www.cve.org/CVERecord?id=CVE-2021-34842 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Foxit'] ['PDF Reader'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Annotation objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current process. Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html ['2021-06-09 - Vulnerability reported to vendor', '2021-07-30 - Coordinated public release of advisory', '2021-08-03 - Advisory Updated'] Mat Powell of Trend Micro Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-21-924/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-21-924/",
+  "title": "Foxit PDF Reader Annotation Use-After-Free Remote Code Execution Vulnerability",
+  "updated_date": "2021-08-03",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Annotation objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-14024",
+  "zdi_id": "ZDI-21-924"
+}

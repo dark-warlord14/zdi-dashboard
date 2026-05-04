@@ -1,0 +1,27 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-us/HT213259",
+  "advisory_date": "2023-10-04",
+  "affected_products": [
+    "iTunes"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "@decoder_it",
+  "cve": "CVE-2022-26773",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-26773",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2022-06-22 - Vulnerability reported to vendor",
+    "2023-10-04 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-1497 ZDI-CAN-16895 Apple iTunes Incorrect Permission Assignment Privilege Escalation Vulnerability 2023-10-04 CVE-2022-26773 https://www.cve.org/CVERecord?id=CVE-2022-26773 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Apple'] ['iTunes'] This vulnerability allows local attackers to escalate privileges on affected installations of Apple iTunes. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Apple Mobile Device Service. The issue results from incorrect permissions set on a resource used by the service. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-us/HT213259 ['2022-06-22 - Vulnerability reported to vendor', '2023-10-04 - Coordinated public release of advisory'] @decoder_it https://www.zerodayinitiative.com/advisories/ZDI-23-1497/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-1497/",
+  "title": "Apple iTunes Incorrect Permission Assignment Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Apple iTunes. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Apple Mobile Device Service. The issue results from incorrect permissions set on a resource used by the service. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-16895",
+  "zdi_id": "ZDI-23-1497"
+}

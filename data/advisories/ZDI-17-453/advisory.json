@@ -1,0 +1,27 @@
+{
+  "additional_details": "Joyent has issued an update to correct this vulnerability. More details can be found at: https://help.joyent.com/hc/en-us/articles/115009649927-Security-Advisory-ZDI-CAN-3853-Docker-File-Overwrite-Vulnerability",
+  "advisory_date": "2017-07-07",
+  "affected_products": [
+    "Smart Data Center"
+  ],
+  "affected_vendors": [
+    "Joyent"
+  ],
+  "credit": "Ben Murphy",
+  "cve": "CVE-2017-10940",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-10940",
+  "cvss": 9.0,
+  "cvss_vector": "AV:N/AC:L/Au:S/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2016-08-25 - Vulnerability reported to vendor",
+    "2017-07-07 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-17-453 ZDI-CAN-3853 Joyent Smart Data Center Docker API Zone Escape Privilege Escalation Vulnerability 2017-07-07 CVE-2017-10940 https://www.cve.org/CVERecord?id=CVE-2017-10940 9.0 AV:N/AC:L/Au:S/C:C/I:C/A:C ['Joyent'] ['Smart Data Center'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Joyent Smart Data Center. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the docker API. The process does not properly validate user-supplied data which can allow for the upload of arbitrary files. An attacker can leverage this vulnerability to execute arbitrary code under the context of root. Joyent has issued an update to correct this vulnerability. More details can be found at: https://help.joyent.com/hc/en-us/articles/115009649927-Security-Advisory-ZDI-CAN-3853-Docker-File-Overwrite-Vulnerability ['2016-08-25 - Vulnerability reported to vendor', '2017-07-07 - Coordinated public release of advisory'] Ben Murphy https://www.zerodayinitiative.com/advisories/ZDI-17-453/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-453/",
+  "title": "Joyent Smart Data Center Docker API Zone Escape Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Joyent Smart Data Center. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the docker API. The process does not properly validate user-supplied data which can allow for the upload of arbitrary files. An attacker can leverage this vulnerability to execute arbitrary code under the context of root.",
+  "zdi_can": "ZDI-CAN-3853",
+  "zdi_id": "ZDI-17-453"
+}

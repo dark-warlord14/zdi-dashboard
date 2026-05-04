@@ -1,0 +1,28 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/kb/HT201222",
+  "advisory_date": "2018-10-30",
+  "affected_products": [
+    "macOS"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "lilang wu moony Li of Trend Micro",
+  "cve": "CVE-2018-4411",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2018-4411",
+  "cvss": 4.4,
+  "cvss_vector": "AV:L/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2018-07-12 - Vulnerability reported to vendor",
+    "2018-10-30 - Coordinated public release of advisory",
+    "2018-10-30 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-1327 ZDI-CAN-6360 Apple macOS libATSServer Heap-based Buffer Overflow Privilege Escalation Vulnerability 2018-10-30 CVE-2018-4411 https://www.cve.org/CVERecord?id=CVE-2018-4411 4.4 AV:L/AC:M/Au:N/C:P/I:P/A:P ['Apple'] ['macOS'] This vulnerability allows local attackers to escalate privileges on vulnerable installations of Apple macOS. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the FODBWriteToAnnex method. The issue lies in the failure to properly validate the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current user. Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/kb/HT201222 ['2018-07-12 - Vulnerability reported to vendor', '2018-10-30 - Coordinated public release of advisory', '2018-10-30 - Advisory Updated'] lilang wu moony Li of Trend Micro https://www.zerodayinitiative.com/advisories/ZDI-18-1327/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-1327/",
+  "title": "Apple macOS libATSServer Heap-based Buffer Overflow Privilege Escalation Vulnerability",
+  "updated_date": "2018-10-30",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on vulnerable installations of Apple macOS. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the FODBWriteToAnnex method. The issue lies in the failure to properly validate the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current user.",
+  "zdi_can": "ZDI-CAN-6360",
+  "zdi_id": "ZDI-18-1327"
+}

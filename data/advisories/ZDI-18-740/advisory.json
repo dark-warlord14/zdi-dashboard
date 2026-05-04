@@ -1,0 +1,28 @@
+{
+  "additional_details": "Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxitsoftware.com/support/security-bulletins.php",
+  "advisory_date": "2018-07-19",
+  "affected_products": [
+    "Reader"
+  ],
+  "affected_vendors": [
+    "Foxit"
+  ],
+  "credit": "Steven Seeley (mr_me) of Source Incite",
+  "cve": "CVE-2018-14280",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2018-14280",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2018-04-16 - Vulnerability reported to vendor",
+    "2018-07-19 - Coordinated public release of advisory",
+    "2018-07-19 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-740 ZDI-CAN-5619 Foxit Reader exportAsFDF Arbitrary File Write Remote Code Execution Vulnerability 2018-07-19 CVE-2018-14280 https://www.cve.org/CVERecord?id=CVE-2018-14280 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Foxit'] ['Reader'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Foxit Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the exportAsFDF XFA function. The issue results from the lack of proper validation of user-supplied data, which can lead to writing arbitrary files into attacker controlled locations. An attacker can leverage this vulnerability to execute code under the context of the current process. Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxitsoftware.com/support/security-bulletins.php ['2018-04-16 - Vulnerability reported to vendor', '2018-07-19 - Coordinated public release of advisory', '2018-07-19 - Advisory Updated'] Steven Seeley (mr_me) of Source Incite https://www.zerodayinitiative.com/advisories/ZDI-18-740/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-740/",
+  "title": "Foxit Reader exportAsFDF Arbitrary File Write Remote Code Execution Vulnerability",
+  "updated_date": "2018-07-19",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Foxit Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the exportAsFDF XFA function. The issue results from the lack of proper validation of user-supplied data, which can lead to writing arbitrary files into attacker controlled locations. An attacker can leverage this vulnerability to execute code under the context of the current process.",
+  "zdi_can": "ZDI-CAN-5619",
+  "zdi_id": "ZDI-18-740"
+}

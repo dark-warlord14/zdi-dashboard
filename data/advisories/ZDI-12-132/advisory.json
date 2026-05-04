@@ -1,0 +1,27 @@
+{
+  "additional_details": "IBM has issued an update to correct this vulnerability. More details can be found at: http://www-304.ibm.com/support/docview.wss?uid=swg21596862",
+  "advisory_date": "2012-08-03",
+  "affected_products": [
+    "Lotues iNotes"
+  ],
+  "affected_vendors": [
+    "IBM"
+  ],
+  "credit": "Gaurav Baruah of eSecForte Technologies Pvt. Ltd",
+  "cve": "CVE-2012-2175",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2012-2175",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2011-12-07 - Vulnerability reported to vendor",
+    "2012-08-03 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-12-132 ZDI-CAN-1439 IBM Lotus iNotes dwa85W ActiveX Attachment_Times Remote Code Execution Vulnerability 2012-08-03 CVE-2012-2175 https://www.cve.org/CVERecord?id=CVE-2012-2175 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['IBM'] ['Lotues iNotes'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of IBM Lotus iNotes. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the dwa85W.cab ActiveX control. When passing a long string argument to the Attachment_Times parameter during the control instantiation it is possible to overflow a stack buffer causing memory corruption. This can be leveraged by an attacker to execute code under the context of the user running the browser. IBM has issued an update to correct this vulnerability. More details can be found at: http://www-304.ibm.com/support/docview.wss?uid=swg21596862 ['2011-12-07 - Vulnerability reported to vendor', '2012-08-03 - Coordinated public release of advisory'] Gaurav Baruah of eSecForte Technologies Pvt. Ltd https://www.zerodayinitiative.com/advisories/ZDI-12-132/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-12-132/",
+  "title": "IBM Lotus iNotes dwa85W ActiveX Attachment_Times Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of IBM Lotus iNotes. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the dwa85W.cab ActiveX control. When passing a long string argument to the Attachment_Times parameter during the control instantiation it is possible to overflow a stack buffer causing memory corruption. This can be leveraged by an attacker to execute code under the context of the user running the browser.",
+  "zdi_can": "ZDI-CAN-1439",
+  "zdi_id": "ZDI-12-132"
+}

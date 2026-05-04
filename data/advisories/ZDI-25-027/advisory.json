@@ -1,0 +1,28 @@
+{
+  "additional_details": "Google has issued an update to correct this vulnerability. More details can be found at: https://chromereleases.googleblog.com/2024/03/stable-channel-update-for-desktop_26.html",
+  "advisory_date": "2025-01-12",
+  "affected_products": [
+    "Chrome"
+  ],
+  "affected_vendors": [
+    "Google"
+  ],
+  "credit": "Seunghyun Lee (@0x10n) of KAIST Hacking Lab",
+  "cve": "CVE-2024-2886",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-2886",
+  "cvss": 5.4,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N",
+  "disclosure_timeline": [
+    "2024-03-26 - Vulnerability reported to vendor",
+    "2025-01-12 - Coordinated public release of advisory",
+    "2025-01-12 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-027 ZDI-CAN-23793 (Pwn2Own) Google Chrome VideoFrame Use-After-Free Remote Code Execution Vulnerability 2025-01-12 CVE-2024-2886 https://www.cve.org/CVERecord?id=CVE-2024-2886 5.4 AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N ['Google'] ['Chrome'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Google Chrome. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the implementation of the VideoFrame API. By performing actions in JavaScript, an attacker can cause a pointer to be reused after it has been freed. An attacker can leverage this vulnerability to execute code in the context of the current process at low integrity. Google has issued an update to correct this vulnerability. More details can be found at: https://chromereleases.googleblog.com/2024/03/stable-channel-update-for-desktop_26.html ['2024-03-26 - Vulnerability reported to vendor', '2025-01-12 - Coordinated public release of advisory', '2025-01-12 - Advisory Updated'] Seunghyun Lee (@0x10n) of KAIST Hacking Lab https://www.zerodayinitiative.com/advisories/ZDI-25-027/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-027/",
+  "title": "(Pwn2Own) Google Chrome VideoFrame Use-After-Free Remote Code Execution Vulnerability",
+  "updated_date": "2025-01-12",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Google Chrome. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the implementation of the VideoFrame API. By performing actions in JavaScript, an attacker can cause a pointer to be reused after it has been freed. An attacker can leverage this vulnerability to execute code in the context of the current process at low integrity.",
+  "zdi_can": "ZDI-CAN-23793",
+  "zdi_id": "ZDI-25-027"
+}

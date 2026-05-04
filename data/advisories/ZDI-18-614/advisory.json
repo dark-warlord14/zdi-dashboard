@@ -1,0 +1,28 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-8307",
+  "advisory_date": "2018-07-13",
+  "affected_products": [
+    "Windows"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Eduardo Braun Prado",
+  "cve": "CVE-2018-8307",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2018-8307",
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2018-03-21 - Vulnerability reported to vendor",
+    "2018-07-13 - Coordinated public release of advisory",
+    "2018-07-13 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-614 ZDI-CAN-5894 Microsoft Windows WordPad Privilege Chaining Remote Code Execution Vulnerability 2018-07-13 CVE-2018-8307 https://www.cve.org/CVERecord?id=CVE-2018-8307 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Microsoft'] ['Windows'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Windows. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists due to the fact that various operations can be triggered by a document in Microsoft WordPad. Considered individually, these operations do not pose a risk. However, they can be used in combination to produce an unsafe result. An attacker can leverage this vulnerability to execute code under the context of the current user at medium integrity. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-8307 ['2018-03-21 - Vulnerability reported to vendor', '2018-07-13 - Coordinated public release of advisory', '2018-07-13 - Advisory Updated'] Eduardo Braun Prado https://www.zerodayinitiative.com/advisories/ZDI-18-614/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-614/",
+  "title": "Microsoft Windows WordPad Privilege Chaining Remote Code Execution Vulnerability",
+  "updated_date": "2018-07-13",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Windows. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists due to the fact that various operations can be triggered by a document in Microsoft WordPad. Considered individually, these operations do not pose a risk. However, they can be used in combination to produce an unsafe result. An attacker can leverage this vulnerability to execute code under the context of the current user at medium integrity.",
+  "zdi_can": "ZDI-CAN-5894",
+  "zdi_id": "ZDI-18-614"
+}

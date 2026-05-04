@@ -1,0 +1,28 @@
+{
+  "additional_details": "Fixed in American Standard: V1.39.51 and European Standard: V1.56.51",
+  "advisory_date": "2025-06-11",
+  "affected_products": [
+    "Autel MaxiCharger AC Wallbox Commercial"
+  ],
+  "affected_vendors": [
+    "Autel"
+  ],
+  "credit": "Synacktiv",
+  "cve": "CVE-2025-5828",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-5828",
+  "cvss": 6.8,
+  "cvss_vector": "AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2025-03-06 - Vulnerability reported to vendor",
+    "2025-06-11 - Coordinated public release of advisory",
+    "2025-06-11 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-347 ZDI-CAN-26328 (Pwn2Own) Autel MaxiCharger AC Wallbox Commercial wLength Buffer Overflow Remote Code Execution Vulnerability 2025-06-11 CVE-2025-5828 https://www.cve.org/CVERecord?id=CVE-2025-5828 6.8 AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['Autel'] ['Autel MaxiCharger AC Wallbox Commercial'] This vulnerability allows physically present attackers to execute arbitrary code on affected installations of Autel MaxiCharger AC Wallbox Commercial EV chargers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of USB frame packets. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length buffer. An attacker can leverage this vulnerability to execute code in the context of the device. Fixed in American Standard: V1.39.51 and European Standard: V1.56.51 ['2025-03-06 - Vulnerability reported to vendor', '2025-06-11 - Coordinated public release of advisory', '2025-06-11 - Advisory Updated'] Synacktiv https://www.zerodayinitiative.com/advisories/ZDI-25-347/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-347/",
+  "title": "(Pwn2Own) Autel MaxiCharger AC Wallbox Commercial wLength Buffer Overflow Remote Code Execution Vulnerability",
+  "updated_date": "2025-06-11",
+  "vulnerability_details": "This vulnerability allows physically present attackers to execute arbitrary code on affected installations of Autel MaxiCharger AC Wallbox Commercial EV chargers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of USB frame packets. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length buffer. An attacker can leverage this vulnerability to execute code in the context of the device.",
+  "zdi_can": "ZDI-CAN-26328",
+  "zdi_id": "ZDI-25-347"
+}

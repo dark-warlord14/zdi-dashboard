@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/bulletin/MS08-044.mspx",
+  "advisory_date": "2008-08-12",
+  "affected_products": [
+    "File Format Vulnerability"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Damian Put",
+  "cve": "CVE-2008-3021",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2008-3021",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2006-09-14 - Vulnerability reported to vendor",
+    "2008-08-12 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-08-049 ZDI-CAN-103 Microsoft Windows Graphics Rendering Engine PICT Heap Corruption Vulnerability 2008-08-12 CVE-2008-3021 https://www.cve.org/CVERecord?id=CVE-2008-3021 ['Microsoft'] ['File Format Vulnerability'] This vulnerability allows attackers to execute arbitrary code on vulnerable installations of Microsoft Office. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The specific flaw exists in the handling of PICT images in an office document. Due to improper parsing of the bits_per_pixel field in a PICT image a heap overflow can occur. Successful exploitation of this vulnerability can lead to a system compromise running under the credentials of the currently logged in user. Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/bulletin/MS08-044.mspx ['2006-09-14 - Vulnerability reported to vendor', '2008-08-12 - Coordinated public release of advisory'] Damian Put https://www.zerodayinitiative.com/advisories/ZDI-08-049/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-08-049/",
+  "title": "Microsoft Windows Graphics Rendering Engine PICT Heap Corruption Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows attackers to execute arbitrary code on vulnerable installations of Microsoft Office. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The specific flaw exists in the handling of PICT images in an office document. Due to improper parsing of the bits_per_pixel field in a PICT image a heap overflow can occur. Successful exploitation of this vulnerability can lead to a system compromise running under the credentials of the currently logged in user.",
+  "zdi_can": "ZDI-CAN-103",
+  "zdi_id": "ZDI-08-049"
+}

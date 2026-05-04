@@ -1,0 +1,28 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-us/security-guidance/researcher-acknowledgments-online-services",
+  "advisory_date": "2024-04-23",
+  "affected_products": [
+    "Azure"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Nitesh Surana (@_niteshsurana) of Trend Micro Research",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 9.8,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2024-01-10 - Vulnerability reported to vendor",
+    "2024-04-23 - Coordinated public release of advisory",
+    "2024-07-01 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-396 ZDI-CAN-23024 Microsoft Azure ODSP nikisos Uncontrolled Search Path Element Remote Code Execution Vulnerability 2024-04-23 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['Microsoft'] ['Azure'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of ODSP for Microsoft Azure. Authentication is not required to exploit this vulnerability. The specific flaw exists within the installation of ODSP. When installed from the official Microsoft GitHub repository, the installation attempts to load a non-existent cloud resource that is vulnerable to takeover. An attacker can leverage this vulnerability to execute code on systems dependent on the cloud resource. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-us/security-guidance/researcher-acknowledgments-online-services ['2024-01-10 - Vulnerability reported to vendor', '2024-04-23 - Coordinated public release of advisory', '2024-07-01 - Advisory Updated'] Nitesh Surana (@_niteshsurana) of Trend Micro Research https://www.zerodayinitiative.com/advisories/ZDI-24-396/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-396/",
+  "title": "Microsoft Azure ODSP nikisos Uncontrolled Search Path Element Remote Code Execution Vulnerability",
+  "updated_date": "2024-07-01",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of ODSP for Microsoft Azure. Authentication is not required to exploit this vulnerability. The specific flaw exists within the installation of ODSP. When installed from the official Microsoft GitHub repository, the installation attempts to load a non-existent cloud resource that is vulnerable to takeover. An attacker can leverage this vulnerability to execute code on systems dependent on the cloud resource.",
+  "zdi_can": "ZDI-CAN-23024",
+  "zdi_id": "ZDI-24-396"
+}

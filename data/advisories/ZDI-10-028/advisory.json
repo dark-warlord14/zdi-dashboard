@@ -1,0 +1,27 @@
+{
+  "additional_details": "Nothing.",
+  "advisory_date": "2010-03-11",
+  "affected_products": [
+    "Skype"
+  ],
+  "affected_vendors": [
+    "Skype"
+  ],
+  "credit": "rgod",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 9.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:P/A:P",
+  "disclosure_timeline": [
+    "2009-07-14 - Vulnerability reported to vendor",
+    "2010-03-11 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-10-028 ZDI-CAN-516 Skype URI Processing Arbitrary XML File Deletion Vulnerability 2010-03-11 9.0 AV:N/AC:L/Au:N/C:C/I:P/A:P ['Skype'] ['Skype'] This vulnerability allows remote attackers to remove arbitrary XML files on vulnerable installations of Skype. User interaction is required to exploit this vulnerability in that the target must visit a malicious page. The specific flaw exists in Skype's handling of the 'skype-plugin:' protocol. An attacker can specify a malicious URI, that upon clicking, will trigger the deletion of an arbitrary attacker specified XML file. Nothing. ['2009-07-14 - Vulnerability reported to vendor', '2010-03-11 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-10-028/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-028/",
+  "title": "Skype URI Processing Arbitrary XML File Deletion Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to remove arbitrary XML files on vulnerable installations of Skype. User interaction is required to exploit this vulnerability in that the target must visit a malicious page. The specific flaw exists in Skype's handling of the 'skype-plugin:' protocol. An attacker can specify a malicious URI, that upon clicking, will trigger the deletion of an arbitrary attacker specified XML file.",
+  "zdi_can": "ZDI-CAN-516",
+  "zdi_id": "ZDI-10-028"
+}

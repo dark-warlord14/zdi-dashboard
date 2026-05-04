@@ -1,0 +1,28 @@
+{
+  "additional_details": "BMC has issued an update to correct this vulnerability. More details can be found at: https://community.bmc.com/s/article/Security-vulnerabilities-patched-in-Track-It",
+  "advisory_date": "2022-02-10",
+  "affected_products": [
+    "Track-It!"
+  ],
+  "affected_vendors": [
+    "BMC"
+  ],
+  "credit": "Markus Wulftange (@mwulftange)",
+  "cve": "CVE-2022-24047",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-24047",
+  "cvss": 5.3,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+  "disclosure_timeline": [
+    "2021-08-25 - Vulnerability reported to vendor",
+    "2022-02-10 - Coordinated public release of advisory",
+    "2022-02-11 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-290 ZDI-CAN-14618 BMC Track-It! HTTP Module Improper Access Control Authentication Bypass Vulnerability 2022-02-10 CVE-2022-24047 https://www.cve.org/CVERecord?id=CVE-2022-24047 5.3 AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N ['BMC'] ['Track-It!'] This vulnerability allows remote attackers to bypass authentication on affected installations of BMC Track-It!. Authentication is not required to exploit this vulnerability. The specific flaw exists within the authorization of HTTP requests. The issue results from the lack of authentication prior to allowing access to functionality. An attacker can leverage this vulnerability to bypass authentication on the system. BMC has issued an update to correct this vulnerability. More details can be found at: https://community.bmc.com/s/article/Security-vulnerabilities-patched-in-Track-It ['2021-08-25 - Vulnerability reported to vendor', '2022-02-10 - Coordinated public release of advisory', '2022-02-11 - Advisory Updated'] Markus Wulftange (@mwulftange) https://www.zerodayinitiative.com/advisories/ZDI-22-290/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-290/",
+  "title": "BMC Track-It! HTTP Module Improper Access Control Authentication Bypass Vulnerability",
+  "updated_date": "2022-02-11",
+  "vulnerability_details": "This vulnerability allows remote attackers to bypass authentication on affected installations of BMC Track-It!. Authentication is not required to exploit this vulnerability. The specific flaw exists within the authorization of HTTP requests. The issue results from the lack of authentication prior to allowing access to functionality. An attacker can leverage this vulnerability to bypass authentication on the system.",
+  "zdi_can": "ZDI-CAN-14618",
+  "zdi_id": "ZDI-22-290"
+}

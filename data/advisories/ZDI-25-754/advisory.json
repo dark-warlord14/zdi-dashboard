@@ -1,0 +1,28 @@
+{
+  "additional_details": "QNAP has issued an update to correct this vulnerability. More details can be found at: https://www.qnap.com/en-us/security-advisories",
+  "advisory_date": "2025-07-31",
+  "affected_products": [
+    "TS-464"
+  ],
+  "affected_vendors": [
+    "QNAP"
+  ],
+  "credit": "Chris Anastasio @mufinnnnnnn & Fabius Watson",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 8.0,
+  "cvss_vector": "AV:A/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2024-12-02 - Vulnerability reported to vendor",
+    "2025-07-31 - Coordinated public release of advisory",
+    "2025-07-31 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-754 ZDI-CAN-25653 (Pwn2Own) QNAP TS-464 privWizard.cgi Authentication CRLF Injection Privilege Escalation Vulnerability 2025-07-31 8.0 AV:A/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['QNAP'] ['TS-464'] This vulnerability allows network-adjacent attackers to escalate privileges on affected installations of QNAP TS-464 devices. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed. The specific flaw exists within the privWizard.cgi endpoint. The issue results from the lack of proper neutralization of CRLF sequences. An attacker can leverage this vulnerability to escalate privileges to resources normally protected from the user. QNAP has issued an update to correct this vulnerability. More details can be found at: https://www.qnap.com/en-us/security-advisories ['2024-12-02 - Vulnerability reported to vendor', '2025-07-31 - Coordinated public release of advisory', '2025-07-31 - Advisory Updated'] Chris Anastasio @mufinnnnnnn & Fabius Watson https://www.zerodayinitiative.com/advisories/ZDI-25-754/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-754/",
+  "title": "(Pwn2Own) QNAP TS-464 privWizard.cgi Authentication CRLF Injection Privilege Escalation Vulnerability",
+  "updated_date": "2025-07-31",
+  "vulnerability_details": "This vulnerability allows network-adjacent attackers to escalate privileges on affected installations of QNAP TS-464 devices. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed. The specific flaw exists within the privWizard.cgi endpoint. The issue results from the lack of proper neutralization of CRLF sequences. An attacker can leverage this vulnerability to escalate privileges to resources normally protected from the user.",
+  "zdi_can": "ZDI-CAN-25653",
+  "zdi_id": "ZDI-25-754"
+}

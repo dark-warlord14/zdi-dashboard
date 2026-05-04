@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2019-1412",
+  "advisory_date": "2019-11-13",
+  "affected_products": [
+    "Windows"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Hossein Lotfi of Trend Micro Zero Day Initiative",
+  "cve": "CVE-2019-1412",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2019-1412",
+  "cvss": 8.4,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:H",
+  "disclosure_timeline": [
+    "2019-08-08 - Vulnerability reported to vendor",
+    "2019-11-13 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-19-980 ZDI-CAN-9265 Microsoft Windows Kernel Type 1 Font Processing Out-Of-Bounds Read Information Disclosure Vulnerability 2019-11-13 CVE-2019-1412 https://www.cve.org/CVERecord?id=CVE-2019-1412 8.4 AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:H ['Microsoft'] ['Windows'] This vulnerability allows attackers to disclose sensitive information on affected installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of Type 1 fonts in the Windows kernel. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to escalate privileges and execute code in the context of the kernel. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2019-1412 ['2019-08-08 - Vulnerability reported to vendor', '2019-11-13 - Coordinated public release of advisory'] Hossein Lotfi of Trend Micro Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-19-980/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-19-980/",
+  "title": "Microsoft Windows Kernel Type 1 Font Processing Out-Of-Bounds Read Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows attackers to disclose sensitive information on affected installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of Type 1 fonts in the Windows kernel. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to escalate privileges and execute code in the context of the kernel.",
+  "zdi_can": "ZDI-CAN-9265",
+  "zdi_id": "ZDI-19-980"
+}

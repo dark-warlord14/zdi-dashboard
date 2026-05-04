@@ -1,0 +1,27 @@
+{
+  "additional_details": "Sun Microsystems has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technology/deploy/security/critical-patch-updates/javacpumar2010.html",
+  "advisory_date": "2010-04-05",
+  "affected_products": [
+    "Java Runtime"
+  ],
+  "affected_vendors": [
+    "Sun Microsystems"
+  ],
+  "credit": "regenrecht",
+  "cve": "CVE-2010-0841",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2010-0841",
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2009-12-10 - Vulnerability reported to vendor",
+    "2010-04-05 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-10-054 ZDI-CAN-641 Sun Java Runtime Environment JPEGImageReader stepX Remote Code Execution Vulnerability 2010-04-05 CVE-2010-0841 https://www.cve.org/CVERecord?id=CVE-2010-0841 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Sun Microsystems'] ['Java Runtime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Sun's Java Runtime Environment. User interaction is required to exploit this vulnerability in that the target must visit a malicious page. The specific flaw exists in the processing of JPEG image dimensions. When specifying large values to the dimensions of a subsample an integer overflow occurs leading to memory corruption. Successful exploitation of this vulnerability can lead to a compromise under the credentials of the currently logged in user. Sun Microsystems has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technology/deploy/security/critical-patch-updates/javacpumar2010.html ['2009-12-10 - Vulnerability reported to vendor', '2010-04-05 - Coordinated public release of advisory'] regenrecht https://www.zerodayinitiative.com/advisories/ZDI-10-054/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-054/",
+  "title": "Sun Java Runtime Environment JPEGImageReader stepX Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Sun's Java Runtime Environment. User interaction is required to exploit this vulnerability in that the target must visit a malicious page. The specific flaw exists in the processing of JPEG image dimensions. When specifying large values to the dimensions of a subsample an integer overflow occurs leading to memory corruption. Successful exploitation of this vulnerability can lead to a compromise under the credentials of the currently logged in user.",
+  "zdi_can": "ZDI-CAN-641",
+  "zdi_id": "ZDI-10-054"
+}

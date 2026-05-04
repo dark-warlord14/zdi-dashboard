@@ -1,0 +1,27 @@
+{
+  "additional_details": "eIQnetworks has issued an update to correct this vulnerability. More details can be found at: http://www.eiqnetworks.com/products/enterprisesecurity/EnterpriseSecurityAnalyzer/ESA_2.5.0_Release_Notes.pdf",
+  "advisory_date": "2006-07-25",
+  "affected_products": [
+    "Enterprise Security Analyzer"
+  ],
+  "affected_vendors": [
+    "eIQnetworks"
+  ],
+  "credit": "Titon, JxT, KF and the rest of Bastard Labs",
+  "cve": "CVE-2006-3838",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2006-3838",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2006-05-10 - Vulnerability reported to vendor",
+    "2006-07-25 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-06-023 ZDI-CAN-053 eIQnetworks Enterprise Security Analyzer Syslog TCP Server Buffer Overflow Vulnerability 2006-07-25 CVE-2006-3838 https://www.cve.org/CVERecord?id=CVE-2006-3838 ['eIQnetworks'] ['Enterprise Security Analyzer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of eIQnetworks Enterprise Security Analyzer. Authentication is not required to exploit this vulnerability. The specific flaw exists within the Syslog daemon, syslogserver.exe, during the processing of long strings transmitted to the listening TCP port. The vulnerability is not exposed over UDP. The default configuration does not expose the open TCP port. eIQnetworks has issued an update to correct this vulnerability. More details can be found at: http://www.eiqnetworks.com/products/enterprisesecurity/EnterpriseSecurityAnalyzer/ESA_2.5.0_Release_Notes.pdf ['2006-05-10 - Vulnerability reported to vendor', '2006-07-25 - Coordinated public release of advisory'] Titon, JxT, KF and the rest of Bastard Labs https://www.zerodayinitiative.com/advisories/ZDI-06-023/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-06-023/",
+  "title": "eIQnetworks Enterprise Security Analyzer Syslog TCP Server Buffer Overflow Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of eIQnetworks Enterprise Security Analyzer. Authentication is not required to exploit this vulnerability. The specific flaw exists within the Syslog daemon, syslogserver.exe, during the processing of long strings transmitted to the listening TCP port. The vulnerability is not exposed over UDP. The default configuration does not expose the open TCP port.",
+  "zdi_can": "ZDI-CAN-053",
+  "zdi_id": "ZDI-06-023"
+}

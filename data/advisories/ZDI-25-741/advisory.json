@@ -1,0 +1,28 @@
+{
+  "additional_details": "QNAP has issued an update to correct this vulnerability. More details can be found at: https://www.qnap.com/zh-tw/security-advisory/qsa-24-45",
+  "advisory_date": "2025-07-31",
+  "affected_products": [
+    "QHora-322"
+  ],
+  "affected_vendors": [
+    "QNAP"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2024-50389",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-50389",
+  "cvss": 8.1,
+  "cvss_vector": "AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2024-12-02 - Vulnerability reported to vendor",
+    "2025-07-31 - Coordinated public release of advisory",
+    "2025-07-31 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-741 ZDI-CAN-25580 (Pwn2Own) QNAP QHora-322 openvpn_cli user_name SQL Injection Authentication Bypass Vulnerability 2025-07-31 CVE-2024-50389 https://www.cve.org/CVERecord?id=CVE-2024-50389 8.1 AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H ['QNAP'] ['QHora-322'] This vulnerability allows remote attackers to bypass authentication on affected installations of QNAP QHora-322 routers. Authentication is not required to exploit this vulnerability, however a specific configuration is necessary. The specific flaw exists within the openvpn_cli module. The issue results from the lack of proper validation of a user-supplied string before using it to construct SQL queries. An attacker can leverage this vulnerability to bypass authentication on the system. QNAP has issued an update to correct this vulnerability. More details can be found at: https://www.qnap.com/zh-tw/security-advisory/qsa-24-45 ['2024-12-02 - Vulnerability reported to vendor', '2025-07-31 - Coordinated public release of advisory', '2025-07-31 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-25-741/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-741/",
+  "title": "(Pwn2Own) QNAP QHora-322 openvpn_cli user_name SQL Injection Authentication Bypass Vulnerability",
+  "updated_date": "2025-07-31",
+  "vulnerability_details": "This vulnerability allows remote attackers to bypass authentication on affected installations of QNAP QHora-322 routers. Authentication is not required to exploit this vulnerability, however a specific configuration is necessary. The specific flaw exists within the openvpn_cli module. The issue results from the lack of proper validation of a user-supplied string before using it to construct SQL queries. An attacker can leverage this vulnerability to bypass authentication on the system.",
+  "zdi_can": "ZDI-CAN-25580",
+  "zdi_id": "ZDI-25-741"
+}

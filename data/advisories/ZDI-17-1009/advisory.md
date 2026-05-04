@@ -1,0 +1,26 @@
+# ZDI-17-1009: Symantec Messaging Gateway Export Servlet snmpFileName Directory Traversal Information Disclosure Vulnerability
+
+## Metadata
+
+- **ZDI ID:** ZDI-17-1009
+- **ZDI-CAN:** ZDI-CAN-4755
+- **Date:** 2017-12-20
+- **CVE:** CVE-2017-15532
+- **CVSS:** 4.0
+- **CVSS Vector:** AV:N/AC:L/Au:S/C:P/I:N/A:N
+- **Affected Vendors:** Symantec
+- **Affected Products:** Messaging Gateway
+- **Credit:** rgod
+- **Source:** https://www.zerodayinitiative.com/advisories/ZDI-17-1009/
+## Vulnerability Details
+
+This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Symantec Messaging Gateway. Authentication is required to exploit this vulnerability. The specific flaw exists within the export servlet. When parsing the snmpFileName parameter, the process does not properly validate a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to disclose sensitive information under the context of the web service.
+
+## Additional Details
+
+Symantec has issued an update to correct this vulnerability. More details can be found at: https://www.symantec.com/security_response/securityupdates/detail.jsp?fid=security_advisory&pvid=security_advisory&year=&suid=20171220_00
+
+## Disclosure Timeline
+
+- 2017-10-23 - Vulnerability reported to vendor
+- 2017-12-20 - Coordinated public release of advisory

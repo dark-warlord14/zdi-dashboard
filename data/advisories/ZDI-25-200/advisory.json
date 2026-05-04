@@ -1,0 +1,28 @@
+{
+  "additional_details": "Exim has issued an update to correct this vulnerability. More details can be found at: https://www.exim.org/static/doc/security/CVE-2025-30232.txt",
+  "advisory_date": "2025-04-07",
+  "affected_products": [
+    "Exim"
+  ],
+  "affected_vendors": [
+    "Exim"
+  ],
+  "credit": "Oliver Ford",
+  "cve": "CVE-2025-30232",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-30232",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2025-03-13 - Vulnerability reported to vendor",
+    "2025-04-07 - Coordinated public release of advisory",
+    "2025-04-07 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-200 ZDI-CAN-26250 Exim Use-After-Free Local Privilege Escalation Vulnerability 2025-04-07 CVE-2025-30232 https://www.cve.org/CVERecord?id=CVE-2025-30232 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Exim'] ['Exim'] This vulnerability allows local attackers to escalate privileges on affected installations of Exim. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of the dp command line parameter. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root. Exim has issued an update to correct this vulnerability. More details can be found at: https://www.exim.org/static/doc/security/CVE-2025-30232.txt ['2025-03-13 - Vulnerability reported to vendor', '2025-04-07 - Coordinated public release of advisory', '2025-04-07 - Advisory Updated'] Oliver Ford https://www.zerodayinitiative.com/advisories/ZDI-25-200/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-200/",
+  "title": "Exim Use-After-Free Local Privilege Escalation Vulnerability",
+  "updated_date": "2025-04-07",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Exim. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of the dp command line parameter. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root.",
+  "zdi_can": "ZDI-CAN-26250",
+  "zdi_id": "ZDI-25-200"
+}

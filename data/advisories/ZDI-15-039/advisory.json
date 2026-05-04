@@ -1,0 +1,27 @@
+{
+  "additional_details": "Persistent Systems has issued an update to correct this vulnerability. More details can be found at: https://radiasupport.accelerite.com/hc/en-us/articles/203659814-Accelerite-releases-solutions-and-best-practices-to-enhance-the-security-for-RBAC-and-Remote-Notify-features",
+  "advisory_date": "2015-02-10",
+  "affected_products": [
+    "Radia Client Automation"
+  ],
+  "affected_vendors": [
+    "Persistent Systems"
+  ],
+  "credit": "Andrea Micalizzi aka rgod",
+  "cve": "CVE-2015-1498",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-1498",
+  "cvss": 9.0,
+  "cvss_vector": "AV:N/AC:L/Au:S/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2014-04-16 - Vulnerability reported to vendor",
+    "2015-02-10 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-15-039 ZDI-CAN-1916 Persistent Systems Client Automation Remote Elevation of Privilege Vulnerability 2015-02-10 CVE-2015-1498 https://www.cve.org/CVERecord?id=CVE-2015-1498 9.0 AV:N/AC:L/Au:S/C:C/I:C/A:C ['Persistent Systems'] ['Radia Client Automation'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Persistent Systems Client Automation. Authentication is required to exploit this vulnerability. The specific flaw exists within the handling of certain requests (including getUsers, addAssigneesToRole, and removeAssigneesFromRole). Incomplete authentication allows for crafted packets to enumerate the users on the system and change the roles of users on the system without valid credentials. By using this, an attacker with access to any valid account on the system is able to execute arbitrary code on all clients controlled by the system. Persistent Systems has issued an update to correct this vulnerability. More details can be found at: https://radiasupport.accelerite.com/hc/en-us/articles/203659814-Accelerite-releases-solutions-and-best-practices-to-enhance-the-security-for-RBAC-and-Remote-Notify-features ['2014-04-16 - Vulnerability reported to vendor', '2015-02-10 - Coordinated public release of advisory'] Andrea Micalizzi aka rgod https://www.zerodayinitiative.com/advisories/ZDI-15-039/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-039/",
+  "title": "Persistent Systems Client Automation Remote Elevation of Privilege Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Persistent Systems Client Automation. Authentication is required to exploit this vulnerability. The specific flaw exists within the handling of certain requests (including getUsers, addAssigneesToRole, and removeAssigneesFromRole). Incomplete authentication allows for crafted packets to enumerate the users on the system and change the roles of users on the system without valid credentials. By using this, an attacker with access to any valid account on the system is able to execute arbitrary code on all clients controlled by the system.",
+  "zdi_can": "ZDI-CAN-1916",
+  "zdi_id": "ZDI-15-039"
+}

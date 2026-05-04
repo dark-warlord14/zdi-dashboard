@@ -1,0 +1,27 @@
+{
+  "additional_details": "Mozilla has issued an update to correct this vulnerability. More details can be found at: https://bugzilla.mozilla.org/show_bug.cgi?id=848644",
+  "advisory_date": "2013-05-29",
+  "affected_products": [
+    "Firefox"
+  ],
+  "affected_vendors": [
+    "Mozilla"
+  ],
+  "credit": "VUPEN Security [ http://www.vupen.com ]",
+  "cve": "CVE-2013-0787",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2013-0787",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2013-04-26 - Vulnerability reported to vendor",
+    "2013-05-29 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-13-090 ZDI-CAN-1825 (Pwn2Own) Mozilla Firefox nsHTMLEditRules Use-After-Free Remote Code Execution Vulnerability 2013-05-29 CVE-2013-0787 https://www.cve.org/CVERecord?id=CVE-2013-0787 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Mozilla'] ['Firefox'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Mozilla Firefox. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of nsHTMLEditRules objects. By manipulating a document's elements an attacker can force a dangling pointer to be reused after it has been freed. An attacker can leverage this vulnerability to execute code under the context of the current process. Mozilla has issued an update to correct this vulnerability. More details can be found at: https://bugzilla.mozilla.org/show_bug.cgi?id=848644 ['2013-04-26 - Vulnerability reported to vendor', '2013-05-29 - Coordinated public release of advisory'] VUPEN Security [ http://www.vupen.com ] https://www.zerodayinitiative.com/advisories/ZDI-13-090/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-13-090/",
+  "title": "(Pwn2Own) Mozilla Firefox nsHTMLEditRules Use-After-Free Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Mozilla Firefox. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of nsHTMLEditRules objects. By manipulating a document's elements an attacker can force a dangling pointer to be reused after it has been freed. An attacker can leverage this vulnerability to execute code under the context of the current process.",
+  "zdi_can": "ZDI-CAN-1825",
+  "zdi_id": "ZDI-13-090"
+}

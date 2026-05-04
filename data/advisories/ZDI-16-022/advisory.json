@@ -1,0 +1,27 @@
+{
+  "additional_details": "Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/cpujan2016-2367955.html",
+  "advisory_date": "2016-01-22",
+  "affected_products": [
+    "GoldenGate"
+  ],
+  "affected_vendors": [
+    "Oracle"
+  ],
+  "credit": "Mike Arnold (Bruk0ut)",
+  "cve": "CVE-2016-0451",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-0451",
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2015-07-10 - Vulnerability reported to vendor",
+    "2016-01-22 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-16-022 ZDI-CAN-3040 Oracle GoldenGate File Upload Remote Code Execution Vulnerability 2016-01-22 CVE-2016-0451 https://www.cve.org/CVERecord?id=CVE-2016-0451 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Oracle'] ['GoldenGate'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Oracle GoldenGate. Authentication is not required to exploit this vulnerability. The specific flaw exists within the GoldenGate mgr process, which listens on TCP port 7809. By default, the process does not authenticate connecting machines prior to allowing them to write arbitrary files at arbitrary locations on the server. An attacker could leverage this vulnerability to execute arbitrary code under the context of the current user. Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/cpujan2016-2367955.html ['2015-07-10 - Vulnerability reported to vendor', '2016-01-22 - Coordinated public release of advisory'] Mike Arnold (Bruk0ut) https://www.zerodayinitiative.com/advisories/ZDI-16-022/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-022/",
+  "title": "Oracle GoldenGate File Upload Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Oracle GoldenGate. Authentication is not required to exploit this vulnerability. The specific flaw exists within the GoldenGate mgr process, which listens on TCP port 7809. By default, the process does not authenticate connecting machines prior to allowing them to write arbitrary files at arbitrary locations on the server. An attacker could leverage this vulnerability to execute arbitrary code under the context of the current user.",
+  "zdi_can": "ZDI-CAN-3040",
+  "zdi_id": "ZDI-16-022"
+}

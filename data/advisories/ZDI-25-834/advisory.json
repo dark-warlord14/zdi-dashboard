@@ -1,0 +1,28 @@
+{
+  "additional_details": "Academy Software Foundation has issued an update to correct this vulnerability. More details can be found at: https://github.com/AcademySoftwareFoundation/openexr/security/advisories/GHSA-h45x-qhg2-q375",
+  "advisory_date": "2025-08-13",
+  "affected_products": [
+    "OpenEXR"
+  ],
+  "affected_vendors": [
+    "Academy Software Foundation"
+  ],
+  "credit": "Dongjun Kim(@Enki WhiteHat) and Jongseong Kim(@Enki Whitehat)",
+  "cve": "CVE-2025-48071",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-48071",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2025-03-18 - Vulnerability reported to vendor",
+    "2025-08-13 - Coordinated public release of advisory",
+    "2025-08-13 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-834 ZDI-CAN-26141 Academy Software Foundation OpenEXR EXR File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability 2025-08-13 CVE-2025-48071 https://www.cve.org/CVERecord?id=CVE-2025-48071 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Academy Software Foundation'] ['OpenEXR'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Academy Software Foundation OpenEXR. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of EXR files. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. Academy Software Foundation has issued an update to correct this vulnerability. More details can be found at: https://github.com/AcademySoftwareFoundation/openexr/security/advisories/GHSA-h45x-qhg2-q375 ['2025-03-18 - Vulnerability reported to vendor', '2025-08-13 - Coordinated public release of advisory', '2025-08-13 - Advisory Updated'] Dongjun Kim(@Enki WhiteHat) and Jongseong Kim(@Enki Whitehat) https://www.zerodayinitiative.com/advisories/ZDI-25-834/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-834/",
+  "title": "Academy Software Foundation OpenEXR EXR File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+  "updated_date": "2025-08-13",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Academy Software Foundation OpenEXR. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of EXR files. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-26141",
+  "zdi_id": "ZDI-25-834"
+}

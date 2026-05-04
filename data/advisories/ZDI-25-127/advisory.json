@@ -1,0 +1,28 @@
+{
+  "additional_details": "Fixed in version 0.55.5",
+  "advisory_date": "2025-03-11",
+  "affected_products": [
+    "SmartThings"
+  ],
+  "affected_vendors": [
+    "Samsung"
+  ],
+  "credit": "NiNi (@terrynini38514) from DEVCORE Research Team",
+  "cve": "CVE-2025-2233",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-2233",
+  "cvss": 8.8,
+  "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2024-10-31 - Vulnerability reported to vendor",
+    "2025-03-11 - Coordinated public release of advisory",
+    "2025-04-16 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-127 ZDI-CAN-25615 (0Day) (Pwn2Own) Samsung SmartThings Improper Verification of Cryptographic Signature Authentication Bypass Vulnerability 2025-03-11 CVE-2025-2233 https://www.cve.org/CVERecord?id=CVE-2025-2233 8.8 AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['Samsung'] ['SmartThings'] This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of Samsung SmartThings. Authentication is not required to exploit this vulnerability. The specific flaw exists within the Hub Local API service, which listens on TCP port 8766 by default. The issue results from the lack of proper verification of a cryptographic signature. An attacker can leverage this vulnerability to bypass authentication on the system. Fixed in version 0.55.5 ['2024-10-31 - Vulnerability reported to vendor', '2025-03-11 - Coordinated public release of advisory', '2025-04-16 - Advisory Updated'] NiNi (@terrynini38514) from DEVCORE Research Team https://www.zerodayinitiative.com/advisories/ZDI-25-127/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-127/",
+  "title": "(0Day) (Pwn2Own) Samsung SmartThings Improper Verification of Cryptographic Signature Authentication Bypass Vulnerability",
+  "updated_date": "2025-04-16",
+  "vulnerability_details": "This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of Samsung SmartThings. Authentication is not required to exploit this vulnerability. The specific flaw exists within the Hub Local API service, which listens on TCP port 8766 by default. The issue results from the lack of proper verification of a cryptographic signature. An attacker can leverage this vulnerability to bypass authentication on the system.",
+  "zdi_can": "ZDI-CAN-25615",
+  "zdi_id": "ZDI-25-127"
+}

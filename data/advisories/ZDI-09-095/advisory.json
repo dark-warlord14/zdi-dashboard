@@ -1,0 +1,27 @@
+{
+  "additional_details": "Hewlett-Packard has issued an update to correct this vulnerability. More details can be found at: http://h20000.www2.hp.com/bizsupport/TechSupport/Document.jsp?objectID=c01950877",
+  "advisory_date": "2009-12-09",
+  "affected_products": [
+    "OpenView Network Node Manager"
+  ],
+  "affected_vendors": [
+    "Hewlett-Packard"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2009-3849",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2009-3849",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2009-07-16 - Vulnerability reported to vendor",
+    "2009-12-09 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-09-095 ZDI-CAN-518 Hewlett-Packard OpenView NNM Snmp.exe Oid Variable Buffer Overflow Vulnerability 2009-12-09 CVE-2009-3849 https://www.cve.org/CVERecord?id=CVE-2009-3849 ['Hewlett-Packard'] ['OpenView Network Node Manager'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Hewlett-Packard OpenView Network Node Manager. Authentication is not required to exploit this vulnerability. The specific flaw exists within the snmp.exe CGI executable accessible via the IIS web server listening by default on TCP port 80. While parsing POST variables this process copies the contents of the Oid parameter into a fixed length stack buffer using a sprintf() call. By supplying a large enough value this buffer can be overflowed leading to arbitrary code execution. Hewlett-Packard has issued an update to correct this vulnerability. More details can be found at: http://h20000.www2.hp.com/bizsupport/TechSupport/Document.jsp?objectID=c01950877 ['2009-07-16 - Vulnerability reported to vendor', '2009-12-09 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-09-095/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-09-095/",
+  "title": "Hewlett-Packard OpenView NNM Snmp.exe Oid Variable Buffer Overflow Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Hewlett-Packard OpenView Network Node Manager. Authentication is not required to exploit this vulnerability. The specific flaw exists within the snmp.exe CGI executable accessible via the IIS web server listening by default on TCP port 80. While parsing POST variables this process copies the contents of the Oid parameter into a fixed length stack buffer using a sprintf() call. By supplying a large enough value this buffer can be overflowed leading to arbitrary code execution.",
+  "zdi_can": "ZDI-CAN-518",
+  "zdi_id": "ZDI-09-095"
+}

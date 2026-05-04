@@ -1,0 +1,27 @@
+{
+  "additional_details": "NETGEAR has issued an update to correct this vulnerability. More details can be found at: https://kb.netgear.com/000064046/Security-Advisory-for-Authentication-Bypass-on-Some-Routers-and-DSL-Modem-Routers-PSV-2021-0134",
+  "advisory_date": "2021-10-28",
+  "affected_products": [
+    "R7000"
+  ],
+  "affected_vendors": [
+    "NETGEAR"
+  ],
+  "credit": "Xinan Zhou (the University of California, Riverside and Fudan University)",
+  "cve": "CVE-2021-34977",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2021-34977",
+  "cvss": 8.8,
+  "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2021-06-02 - Vulnerability reported to vendor",
+    "2021-10-28 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-21-1239 ZDI-CAN-13483 NETGEAR R7000 SOAP ParentalControl Authentication Bypass Vulnerability 2021-10-28 CVE-2021-34977 https://www.cve.org/CVERecord?id=CVE-2021-34977 8.8 AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['NETGEAR'] ['R7000'] This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of NETGEAR R7000 routers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the processing of SOAP requests. The issue results from the lack of proper authentication verification before performing a password reset. An attacker can leverage this vulnerability to reset the admin password. NETGEAR has issued an update to correct this vulnerability. More details can be found at: https://kb.netgear.com/000064046/Security-Advisory-for-Authentication-Bypass-on-Some-Routers-and-DSL-Modem-Routers-PSV-2021-0134 ['2021-06-02 - Vulnerability reported to vendor', '2021-10-28 - Coordinated public release of advisory'] Xinan Zhou (the University of California, Riverside and Fudan University) https://www.zerodayinitiative.com/advisories/ZDI-21-1239/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-21-1239/",
+  "title": "NETGEAR R7000 SOAP ParentalControl Authentication Bypass Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of NETGEAR R7000 routers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the processing of SOAP requests. The issue results from the lack of proper authentication verification before performing a password reset. An attacker can leverage this vulnerability to reset the admin password.",
+  "zdi_can": "ZDI-CAN-13483",
+  "zdi_id": "ZDI-21-1239"
+}

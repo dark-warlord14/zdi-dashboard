@@ -1,0 +1,27 @@
+{
+  "additional_details": "Mozilla Firefox has issued an update to correct this vulnerability. More details can be found at: http://www.mozilla.org/security/announce/2010/mfsa2010-81.html",
+  "advisory_date": "2010-12-09",
+  "affected_products": [
+    "3.6.x"
+  ],
+  "affected_vendors": [
+    "Mozilla Firefox"
+  ],
+  "credit": "regenrecht",
+  "cve": "CVE-2010-3767",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2010-3767",
+  "cvss": 9.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:C",
+  "disclosure_timeline": [
+    "2010-09-24 - Vulnerability reported to vendor",
+    "2010-12-09 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-10-265 ZDI-CAN-884 Mozilla Firefox NewIdArray Integer Overflow Remote Code Execution Vulnerability 2010-12-09 CVE-2010-3767 https://www.cve.org/CVERecord?id=CVE-2010-3767 9.0 AV:N/AC:L/Au:N/C:P/I:P/A:C ['Mozilla Firefox'] ['3.6.x'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Mozilla Firefox. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within Firefox's management of the JSSLOT_ARRAY_COUNT annotation. This value represents the number of items filled within a given Array object. If an attacker creates an array to a high enough value, an initialization routine can be made to mis-allocate a buffer. This can be abused by an attacker to corrupt memory and subsequently execute arbitrary code under the context of the user running the browser. Mozilla Firefox has issued an update to correct this vulnerability. More details can be found at: http://www.mozilla.org/security/announce/2010/mfsa2010-81.html ['2010-09-24 - Vulnerability reported to vendor', '2010-12-09 - Coordinated public release of advisory'] regenrecht https://www.zerodayinitiative.com/advisories/ZDI-10-265/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-265/",
+  "title": "Mozilla Firefox NewIdArray Integer Overflow Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Mozilla Firefox. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within Firefox's management of the JSSLOT_ARRAY_COUNT annotation. This value represents the number of items filled within a given Array object. If an attacker creates an array to a high enough value, an initialization routine can be made to mis-allocate a buffer. This can be abused by an attacker to corrupt memory and subsequently execute arbitrary code under the context of the user running the browser.",
+  "zdi_can": "ZDI-CAN-884",
+  "zdi_id": "ZDI-10-265"
+}

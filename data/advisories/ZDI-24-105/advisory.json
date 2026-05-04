@@ -1,0 +1,28 @@
+{
+  "additional_details": "Allegra has issued an update to correct this vulnerability. More details can be found at: https://www.trackplus.com/en/service/release-notes-reader/7-5-1-release-notes-2.html",
+  "advisory_date": "2024-02-09",
+  "affected_products": [
+    "Allegra"
+  ],
+  "affected_vendors": [
+    "Allegra"
+  ],
+  "credit": "06fe5fd2bc53027c4a3b7e395af0b850e7b8a044",
+  "cve": "CVE-2023-51642",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-51642",
+  "cvss": 9.8,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2023-12-06 - Vulnerability reported to vendor",
+    "2024-02-09 - Coordinated public release of advisory",
+    "2024-07-01 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-105 ZDI-CAN-22506 Allegra loadFieldMatch Deserialization of Untrusted Data Remote Code Execution Vulnerability 2024-02-09 CVE-2023-51642 https://www.cve.org/CVERecord?id=CVE-2023-51642 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['Allegra'] ['Allegra'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Allegra. Although authentication is required to exploit this vulnerability, product implements a registration mechanism that can be used to create a user with a sufficient privilege level. The specific flaw exists within the loadFieldMatch method. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of LOCAL SERVICE. Allegra has issued an update to correct this vulnerability. More details can be found at: https://www.trackplus.com/en/service/release-notes-reader/7-5-1-release-notes-2.html ['2023-12-06 - Vulnerability reported to vendor', '2024-02-09 - Coordinated public release of advisory', '2024-07-01 - Advisory Updated'] 06fe5fd2bc53027c4a3b7e395af0b850e7b8a044 https://www.zerodayinitiative.com/advisories/ZDI-24-105/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-105/",
+  "title": "Allegra loadFieldMatch Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+  "updated_date": "2024-07-01",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Allegra. Although authentication is required to exploit this vulnerability, product implements a registration mechanism that can be used to create a user with a sufficient privilege level. The specific flaw exists within the loadFieldMatch method. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of LOCAL SERVICE.",
+  "zdi_can": "ZDI-CAN-22506",
+  "zdi_id": "ZDI-24-105"
+}

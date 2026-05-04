@@ -1,0 +1,27 @@
+{
+  "additional_details": "Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/solution/000263633",
+  "advisory_date": "2020-09-25",
+  "affected_products": [
+    "OfficeScan"
+  ],
+  "affected_vendors": [
+    "Trend Micro"
+  ],
+  "credit": "Tran Van Khang - khangkito of VinCSS (Member of Vingroup)",
+  "cve": "CVE-2020-24562",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2020-24562",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2020-05-29 - Vulnerability reported to vendor",
+    "2020-09-25 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-20-1226 ZDI-CAN-10794 Trend Micro OfficeScan Hard Link Privilege Escalation Vulnerability 2020-09-25 CVE-2020-24562 https://www.cve.org/CVERecord?id=CVE-2020-24562 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Trend Micro'] ['OfficeScan'] This vulnerability allows local attackers to escalate privileges on affected installations of Trend Micro OfficeScan. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the OfficeScan Security Agent. By creating a hard link, an attacker can abuse the service to overwrite the contents of a chosen file. An attacker can leverage this vulnerability to escalate privileges and execute code as an administrator. Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/solution/000263633 ['2020-05-29 - Vulnerability reported to vendor', '2020-09-25 - Coordinated public release of advisory'] Tran Van Khang - khangkito of VinCSS (Member of Vingroup) https://www.zerodayinitiative.com/advisories/ZDI-20-1226/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-20-1226/",
+  "title": "Trend Micro OfficeScan Hard Link Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Trend Micro OfficeScan. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the OfficeScan Security Agent. By creating a hard link, an attacker can abuse the service to overwrite the contents of a chosen file. An attacker can leverage this vulnerability to escalate privileges and execute code as an administrator.",
+  "zdi_can": "ZDI-CAN-10794",
+  "zdi_id": "ZDI-20-1226"
+}

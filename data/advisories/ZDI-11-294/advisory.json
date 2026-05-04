@@ -1,0 +1,27 @@
+{
+  "additional_details": "Symantec has issued an update to correct this vulnerability. More details can be found at: http://www.symantec.com/business/security_response/securityupdates/detail.jsp?fid=security_advisory&pvid=security_advisory&year=2011&suid=20110929_00",
+  "advisory_date": "2011-10-18",
+  "affected_products": [
+    "IM Manager"
+  ],
+  "affected_vendors": [
+    "Symantec"
+  ],
+  "credit": "Andrea Micalizzi aka rgod",
+  "cve": "CVE-2011-0554",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-0554",
+  "cvss": 9.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:C",
+  "disclosure_timeline": [
+    "2011-04-06 - Vulnerability reported to vendor",
+    "2011-10-18 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-11-294 ZDI-CAN-1091 Symantec IM Manager ProcessAction Remote Code Execution Vulnerability 2011-10-18 CVE-2011-0554 https://www.cve.org/CVERecord?id=CVE-2011-0554 9.0 AV:N/AC:L/Au:N/C:P/I:P/A:C ['Symantec'] ['IM Manager'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Symantec IM Manager. Authentication is not required to exploit this vulnerability. The specific flaw exists within the Symantec IM Manager web interface exposed by default on TCP port 80. The code in the file '\\Program Files\\Symantec\\IMManager\\IMLogWeb\\rdprocess.aspx' and in underlying binary objects does not validate or sanitize the rdProcess variable when parsing requests. As a result, the variable can be redirected to untrusted remote network shares. Since the code rdServer.ActionProcessor.ProcessAction() parses operations from the contents of the file pointed to by this variable, a remote attacker can abuse this behavior (and additional vulnerabilities) to execute arbitrary commands with the privileges of target web server, usually NETWORK SERVICE. Symantec has issued an update to correct this vulnerability. More details can be found at: http://www.symantec.com/business/security_response/securityupdates/detail.jsp?fid=security_advisory&pvid=security_advisory&year=2011&suid=20110929_00 ['2011-04-06 - Vulnerability reported to vendor', '2011-10-18 - Coordinated public release of advisory'] Andrea Micalizzi aka rgod https://www.zerodayinitiative.com/advisories/ZDI-11-294/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-294/",
+  "title": "Symantec IM Manager ProcessAction Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Symantec IM Manager. Authentication is not required to exploit this vulnerability. The specific flaw exists within the Symantec IM Manager web interface exposed by default on TCP port 80. The code in the file '\\Program Files\\Symantec\\IMManager\\IMLogWeb\\rdprocess.aspx' and in underlying binary objects does not validate or sanitize the rdProcess variable when parsing requests. As a result, the variable can be redirected to untrusted remote network shares. Since the code rdServer.ActionProcessor.ProcessAction() parses operations from the contents of the file pointed to by this variable, a remote attacker can abuse this behavior (and additional vulnerabilities) to execute arbitrary commands with the privileges of target web server, usually NETWORK SERVICE.",
+  "zdi_can": "ZDI-CAN-1091",
+  "zdi_id": "ZDI-11-294"
+}

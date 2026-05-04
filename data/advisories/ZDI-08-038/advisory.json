@@ -1,0 +1,27 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT1222",
+  "advisory_date": "2008-06-10",
+  "affected_products": [
+    "Quicktime"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "Petko D. (pdp) Petkov | GNUCITIZEN",
+  "cve": "CVE-2008-1585",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2008-1585",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2008-05-08 - Vulnerability reported to vendor",
+    "2008-06-10 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-08-038 ZDI-CAN-326 Apple QuickTime SMIL qtnext Redirect File Execution Vulnerability 2008-06-10 CVE-2008-1585 https://www.cve.org/CVERecord?id=CVE-2008-1585 ['Apple'] ['Quicktime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple QuickTime. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The specific flaw exists in the handling of SMIL text embedded in video formats. No sanity checking is performed on values of the qt:next attribute. When the URI for this attribute is a file type not recognized by QuickTime, it is passed to url.dll!FileProtocolHandler which will allow explorer.exe handle non-http filetypes. Successful exploitation can result in the execution of arbitrary code. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT1222 ['2008-05-08 - Vulnerability reported to vendor', '2008-06-10 - Coordinated public release of advisory'] Petko D. (pdp) Petkov | GNUCITIZEN https://www.zerodayinitiative.com/advisories/ZDI-08-038/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-08-038/",
+  "title": "Apple QuickTime SMIL qtnext Redirect File Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple QuickTime. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The specific flaw exists in the handling of SMIL text embedded in video formats. No sanity checking is performed on values of the qt:next attribute. When the URI for this attribute is a file type not recognized by QuickTime, it is passed to url.dll!FileProtocolHandler which will allow explorer.exe handle non-http filetypes. Successful exploitation can result in the execution of arbitrary code.",
+  "zdi_can": "ZDI-CAN-326",
+  "zdi_id": "ZDI-08-038"
+}

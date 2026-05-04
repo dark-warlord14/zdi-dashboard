@@ -1,0 +1,28 @@
+{
+  "additional_details": "Autodesk has issued an update to correct this vulnerability. More details can be found at: https://www.autodesk.com/trust/security-advisories/adsk-sa-2024-0027",
+  "advisory_date": "2024-12-19",
+  "affected_products": [
+    "Navisworks Freedom"
+  ],
+  "affected_vendors": [
+    "Autodesk"
+  ],
+  "credit": "Rocco Calvi (@TecR0c) with TecSecurity",
+  "cve": "CVE-2024-11422",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-11422",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2024-11-13 - Vulnerability reported to vendor",
+    "2024-12-19 - Coordinated public release of advisory",
+    "2024-12-19 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-1699 ZDI-CAN-25691 Autodesk Navisworks Freedom DWFX File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability 2024-12-19 CVE-2024-11422 https://www.cve.org/CVERecord?id=CVE-2024-11422 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Autodesk'] ['Navisworks Freedom'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Autodesk Navisworks Freedom. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of DWFX files. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated object. An attacker can leverage this vulnerability to execute code in the context of the current process. Autodesk has issued an update to correct this vulnerability. More details can be found at: https://www.autodesk.com/trust/security-advisories/adsk-sa-2024-0027 ['2024-11-13 - Vulnerability reported to vendor', '2024-12-19 - Coordinated public release of advisory', '2024-12-19 - Advisory Updated'] Rocco Calvi (@TecR0c) with TecSecurity https://www.zerodayinitiative.com/advisories/ZDI-24-1699/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-1699/",
+  "title": "Autodesk Navisworks Freedom DWFX File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+  "updated_date": "2024-12-19",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Autodesk Navisworks Freedom. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of DWFX files. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated object. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-25691",
+  "zdi_id": "ZDI-24-1699"
+}

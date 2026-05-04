@@ -1,0 +1,27 @@
+{
+  "additional_details": "Advantech has issued an update to correct this vulnerability. More details can be found at: https://www.us-cert.gov/ics/advisories/icsa-19-178-05",
+  "advisory_date": "2019-07-02",
+  "affected_products": [
+    "WebAccess"
+  ],
+  "affected_vendors": [
+    "Advantech"
+  ],
+  "credit": "Mat Powell of Trend Micro Zero Day Initiative",
+  "cve": "CVE-2019-10989",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2019-10989",
+  "cvss": 9.8,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2019-02-22 - Vulnerability reported to vendor",
+    "2019-07-02 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-19-590 ZDI-CAN-8067 Advantech WebAccess Node BwPAlarm CreateMonitoredItemEx Heap-based Buffer Overflow Remote Code Execution Vulnerability 2019-07-02 CVE-2019-10989 https://www.cve.org/CVERecord?id=CVE-2019-10989 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['Advantech'] ['WebAccess'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Advantech WebAccess Node. Authentication is not required to exploit this vulnerability. The specific flaw exists within the implementation of the 0x11372 IOCTL in the webvrpcs process. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length heap-based buffer. An attacker can leverage this vulnerability to execute code under the context of Administrator. Advantech has issued an update to correct this vulnerability. More details can be found at: https://www.us-cert.gov/ics/advisories/icsa-19-178-05 ['2019-02-22 - Vulnerability reported to vendor', '2019-07-02 - Coordinated public release of advisory'] Mat Powell of Trend Micro Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-19-590/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-19-590/",
+  "title": "Advantech WebAccess Node BwPAlarm CreateMonitoredItemEx Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Advantech WebAccess Node. Authentication is not required to exploit this vulnerability. The specific flaw exists within the implementation of the 0x11372 IOCTL in the webvrpcs process. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length heap-based buffer. An attacker can leverage this vulnerability to execute code under the context of Administrator.",
+  "zdi_can": "ZDI-CAN-8067",
+  "zdi_id": "ZDI-19-590"
+}

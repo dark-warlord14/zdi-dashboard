@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft states this issue was fixed in the latest release as of February 7, 2022.",
+  "advisory_date": "2023-03-31",
+  "affected_products": [
+    "3D Builder"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Mat Powell of Trend Micro Zero Day Initiative",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 3.3,
+  "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+  "disclosure_timeline": [
+    "2022-09-30 - Vulnerability reported to vendor",
+    "2023-03-31 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-372 ZDI-CAN-19012 Microsoft 3D Builder GLB File Parsing Use-After-Free Information Disclosure Vulnerability 2023-03-31 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N ['Microsoft'] ['3D Builder'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Microsoft 3D Builder. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of GLB files. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process at low integrity. Microsoft states this issue was fixed in the latest release as of February 7, 2022. ['2022-09-30 - Vulnerability reported to vendor', '2023-03-31 - Coordinated public release of advisory'] Mat Powell of Trend Micro Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-23-372/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-372/",
+  "title": "Microsoft 3D Builder GLB File Parsing Use-After-Free Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Microsoft 3D Builder. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of GLB files. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process at low integrity.",
+  "zdi_can": "ZDI-CAN-19012",
+  "zdi_id": "ZDI-23-372"
+}

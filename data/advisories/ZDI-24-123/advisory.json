@@ -1,0 +1,28 @@
+{
+  "additional_details": "X.Org has issued an update to correct this vulnerability. More details can be found at: https://access.redhat.com/security/cve/CVE-2023-6816",
+  "advisory_date": "2024-02-09",
+  "affected_products": [
+    "Server"
+  ],
+  "affected_vendors": [
+    "X.Org"
+  ],
+  "credit": "Jan-Niklas Sohn",
+  "cve": "CVE-2023-6816",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-6816",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2023-12-08 - Vulnerability reported to vendor",
+    "2024-02-09 - Coordinated public release of advisory",
+    "2024-07-01 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-123 ZDI-CAN-22664 X.Org Server DeviceFocusEvent Improper Validation of Array Index Local Privilege Escalation Vulnerability 2024-02-09 CVE-2023-6816 https://www.cve.org/CVERecord?id=CVE-2023-6816 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['X.Org'] ['Server'] This vulnerability allows local attackers to escalate privileges on affected installations of X.Org Server. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of SetInputFocus requests. The issue results from the lack of proper validation of user-supplied data, which can result in a memory access past the end of an allocated array. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root. X.Org has issued an update to correct this vulnerability. More details can be found at: https://access.redhat.com/security/cve/CVE-2023-6816 ['2023-12-08 - Vulnerability reported to vendor', '2024-02-09 - Coordinated public release of advisory', '2024-07-01 - Advisory Updated'] Jan-Niklas Sohn https://www.zerodayinitiative.com/advisories/ZDI-24-123/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-123/",
+  "title": "X.Org Server DeviceFocusEvent Improper Validation of Array Index Local Privilege Escalation Vulnerability",
+  "updated_date": "2024-07-01",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of X.Org Server. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of SetInputFocus requests. The issue results from the lack of proper validation of user-supplied data, which can result in a memory access past the end of an allocated array. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root.",
+  "zdi_can": "ZDI-CAN-22664",
+  "zdi_id": "ZDI-24-123"
+}

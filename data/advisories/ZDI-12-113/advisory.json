@@ -1,0 +1,27 @@
+{
+  "additional_details": "IBM has issued an update to correct this vulnerability. More details can be found at: http://www-304.ibm.com/support/docview.wss?uid=swg21591705",
+  "advisory_date": "2012-06-28",
+  "affected_products": [
+    "Rational ClearQuest"
+  ],
+  "affected_vendors": [
+    "IBM"
+  ],
+  "credit": "Andrea Micalizzi aka rgod",
+  "cve": "CVE-2012-0708",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2012-0708",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2011-11-29 - Vulnerability reported to vendor",
+    "2012-06-28 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-12-113 ZDI-CAN-1249 IBM Rational ClearQuest CQOle ActiveX Control Remote Code Execution Vulnerability 2012-06-28 CVE-2012-0708 https://www.cve.org/CVERecord?id=CVE-2012-0708 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['IBM'] ['Rational ClearQuest'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of IBM Rational ClearQuest. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the CQOle ActiveX control. A function prototype mismatch in an ActiveX wrapper results in an extra argument to be pushed onto the stack, thereby misaligning the stack offset. When the function returns, it can be made to jump to a memory address provided via the ActiveX method call. This can be leveraged to execute arbitrary code under the context of the user running the browser. IBM has issued an update to correct this vulnerability. More details can be found at: http://www-304.ibm.com/support/docview.wss?uid=swg21591705 ['2011-11-29 - Vulnerability reported to vendor', '2012-06-28 - Coordinated public release of advisory'] Andrea Micalizzi aka rgod https://www.zerodayinitiative.com/advisories/ZDI-12-113/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-12-113/",
+  "title": "IBM Rational ClearQuest CQOle ActiveX Control Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of IBM Rational ClearQuest. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the CQOle ActiveX control. A function prototype mismatch in an ActiveX wrapper results in an extra argument to be pushed onto the stack, thereby misaligning the stack offset. When the function returns, it can be made to jump to a memory address provided via the ActiveX method call. This can be leveraged to execute arbitrary code under the context of the user running the browser.",
+  "zdi_can": "ZDI-CAN-1249",
+  "zdi_id": "ZDI-12-113"
+}

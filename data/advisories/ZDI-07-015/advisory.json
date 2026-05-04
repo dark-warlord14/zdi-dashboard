@@ -1,0 +1,27 @@
+{
+  "additional_details": "Novell has issued an update to correct this vulnerability. More details can be found at: http://download.novell.com/Download?buildid=8RF83go0nZg~",
+  "advisory_date": "2007-04-18",
+  "affected_products": [
+    "GroupWise WebAccess"
+  ],
+  "affected_vendors": [
+    "Novell"
+  ],
+  "credit": "Tenable Network Security",
+  "cve": "CVE-2007-2171",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2007-2171",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2007-03-19 - Vulnerability reported to vendor",
+    "2007-04-18 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-07-015 ZDI-CAN-181 Novell Groupwise WebAccess Base64 Decoding Stack Overflow Vulnerability 2007-04-18 CVE-2007-2171 https://www.cve.org/CVERecord?id=CVE-2007-2171 ['Novell'] ['GroupWise WebAccess'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Novell Groupwise WebAccess. Authentication is not required to exploit this vulnerability. The specific flaw exists in the GWINTER.exe process bound by default on TCP ports 7205 and 7211. During the handling of an HTTP Basic authentication request, the process copies user-supplied base64 data into a fixed length stack buffer. Sending at least 336 bytes will trigger a stack based buffer overflow due to a vulnerable base64_decode() call. Exploitation of this issue can result in arbitrary code execution. Novell has issued an update to correct this vulnerability. More details can be found at: http://download.novell.com/Download?buildid=8RF83go0nZg~ ['2007-03-19 - Vulnerability reported to vendor', '2007-04-18 - Coordinated public release of advisory'] Tenable Network Security https://www.zerodayinitiative.com/advisories/ZDI-07-015/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-07-015/",
+  "title": "Novell Groupwise WebAccess Base64 Decoding Stack Overflow Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Novell Groupwise WebAccess. Authentication is not required to exploit this vulnerability. The specific flaw exists in the GWINTER.exe process bound by default on TCP ports 7205 and 7211. During the handling of an HTTP Basic authentication request, the process copies user-supplied base64 data into a fixed length stack buffer. Sending at least 336 bytes will trigger a stack based buffer overflow due to a vulnerable base64_decode() call. Exploitation of this issue can result in arbitrary code execution.",
+  "zdi_can": "ZDI-CAN-181",
+  "zdi_id": "ZDI-07-015"
+}

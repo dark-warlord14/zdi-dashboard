@@ -1,0 +1,27 @@
+{
+  "additional_details": "TP-Link has issued an update to correct this vulnerability. More details can be found at: https://www.tp-link.com/us/support/download/archer-ax21/v3/#Firmware",
+  "advisory_date": "2023-04-24",
+  "affected_products": [
+    "Archer AX21"
+  ],
+  "affected_vendors": [
+    "TP-Link"
+  ],
+  "credit": "rskvp93, Q5Ca, and hoangnx99 from VcsLab of Viettel Cyber Security and Pham Nguyen Ngoc Bien & Dang Minh Tri from Qrious Secure",
+  "cve": "CVE-2023-1389",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-1389",
+  "cvss": 8.8,
+  "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2023-01-25 - Vulnerability reported to vendor",
+    "2023-04-24 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-451 ZDI-CAN-19557 (Pwn2Own) TP-Link Archer AX21 merge_country_config Command Injection Remote Code Execution Vulnerability 2023-04-24 CVE-2023-1389 https://www.cve.org/CVERecord?id=CVE-2023-1389 8.8 AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['TP-Link'] ['Archer AX21'] This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of TP-Link Archer AX21 routers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the merge_country_config function. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute arbitrary code in the context of root. TP-Link has issued an update to correct this vulnerability. More details can be found at: https://www.tp-link.com/us/support/download/archer-ax21/v3/#Firmware ['2023-01-25 - Vulnerability reported to vendor', '2023-04-24 - Coordinated public release of advisory'] rskvp93, Q5Ca, and hoangnx99 from VcsLab of Viettel Cyber Security and Pham Nguyen Ngoc Bien & Dang Minh Tri from Qrious Secure https://www.zerodayinitiative.com/advisories/ZDI-23-451/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-451/",
+  "title": "(Pwn2Own) TP-Link Archer AX21 merge_country_config Command Injection Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of TP-Link Archer AX21 routers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the merge_country_config function. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute arbitrary code in the context of root.",
+  "zdi_can": "ZDI-CAN-19557",
+  "zdi_id": "ZDI-23-451"
+}

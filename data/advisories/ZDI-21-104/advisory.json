@@ -1,0 +1,27 @@
+{
+  "additional_details": "Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/solution/000284202",
+  "advisory_date": "2021-01-29",
+  "affected_products": [
+    "Apex One"
+  ],
+  "affected_vendors": [
+    "Trend Micro"
+  ],
+  "credit": "Elias Martinez",
+  "cve": "CVE-2021-25229",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2021-25229",
+  "cvss": 5.3,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+  "disclosure_timeline": [
+    "2020-08-05 - Vulnerability reported to vendor",
+    "2021-01-29 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-21-104 ZDI-CAN-11638 Trend Micro Apex One Improper Access Control Information Disclosure Vulnerability 2021-01-29 CVE-2021-25229 https://www.cve.org/CVERecord?id=CVE-2021-25229 5.3 AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N ['Trend Micro'] ['Apex One'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Trend Micro Apex One. Authentication is not required to exploit this vulnerability. The specific flaw exists within the web console, which listens on TCP port 4343 by default. The issue results from improper access control. An attacker can leverage this vulnerability to disclose information from the application. Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/solution/000284202 ['2020-08-05 - Vulnerability reported to vendor', '2021-01-29 - Coordinated public release of advisory'] Elias Martinez https://www.zerodayinitiative.com/advisories/ZDI-21-104/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-21-104/",
+  "title": "Trend Micro Apex One Improper Access Control Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Trend Micro Apex One. Authentication is not required to exploit this vulnerability. The specific flaw exists within the web console, which listens on TCP port 4343 by default. The issue results from improper access control. An attacker can leverage this vulnerability to disclose information from the application.",
+  "zdi_can": "ZDI-CAN-11638",
+  "zdi_id": "ZDI-21-104"
+}

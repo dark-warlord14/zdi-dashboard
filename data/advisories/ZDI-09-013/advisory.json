@@ -1,0 +1,27 @@
+{
+  "additional_details": "Mozilla Firefox has issued an update to correct this vulnerability. More details can be found at: http://www.mozilla.org/security/announce/2009/mfsa2009-08.html",
+  "advisory_date": "2009-03-05",
+  "affected_products": [
+    "3.0.x"
+  ],
+  "affected_vendors": [
+    "Mozilla Firefox"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2009-0775",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2009-0775",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2009-01-19 - Vulnerability reported to vendor",
+    "2009-03-05 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-09-013 ZDI-CAN-423 Mozilla Firefox XUL Linked Clones Double Free Vulnerability 2009-03-05 CVE-2009-0775 https://www.cve.org/CVERecord?id=CVE-2009-0775 ['Mozilla Firefox'] ['3.0.x'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Mozilla Firefox. User interaction is required to exploit this vulnerability in that the target must visit a malicious page. The specific flaw exists during the browsers garbage collection process. When multiple DOM elements are cloned and linked to one another and the browser is reloaded, a memory corruption occurs resulting in a double free. This can be leveraged to execute arbitrary code under the context of the current user. Mozilla Firefox has issued an update to correct this vulnerability. More details can be found at: http://www.mozilla.org/security/announce/2009/mfsa2009-08.html ['2009-01-19 - Vulnerability reported to vendor', '2009-03-05 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-09-013/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-09-013/",
+  "title": "Mozilla Firefox XUL Linked Clones Double Free Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Mozilla Firefox. User interaction is required to exploit this vulnerability in that the target must visit a malicious page. The specific flaw exists during the browsers garbage collection process. When multiple DOM elements are cloned and linked to one another and the browser is reloaded, a memory corruption occurs resulting in a double free. This can be leveraged to execute arbitrary code under the context of the current user.",
+  "zdi_can": "ZDI-CAN-423",
+  "zdi_id": "ZDI-09-013"
+}

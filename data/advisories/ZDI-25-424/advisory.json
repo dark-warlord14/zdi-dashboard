@@ -1,0 +1,28 @@
+{
+  "additional_details": "Fixed in RouterOS v7.20",
+  "advisory_date": "2025-06-25",
+  "affected_products": [
+    "RouterOS"
+  ],
+  "affected_vendors": [
+    "Mikrotik"
+  ],
+  "credit": "Trend Micro (SHU-HAO, TUNG) (123ojp)",
+  "cve": "CVE-2025-6443",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-6443",
+  "cvss": 7.2,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N",
+  "disclosure_timeline": [
+    "2025-02-13 - Vulnerability reported to vendor",
+    "2025-06-25 - Coordinated public release of advisory",
+    "2025-06-25 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-424 ZDI-CAN-26415 Mikrotik RouterOS VXLAN Source IP Improper Access Control Vulnerability 2025-06-25 CVE-2025-6443 https://www.cve.org/CVERecord?id=CVE-2025-6443 7.2 AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N ['Mikrotik'] ['RouterOS'] This vulnerability allows remote attackers to bypass access restrictions on affected installations of Mikrotik RouterOS. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of remote IP addresses when processing VXLAN traffic. The issue results from the lack of validation of the remote IP address against configured values prior to allowing ingress traffic into the internal network. An attacker can leverage this vulnerability to gain access to internal network resources. Fixed in RouterOS v7.20 ['2025-02-13 - Vulnerability reported to vendor', '2025-06-25 - Coordinated public release of advisory', '2025-06-25 - Advisory Updated'] Trend Micro (SHU-HAO, TUNG) (123ojp) https://www.zerodayinitiative.com/advisories/ZDI-25-424/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-424/",
+  "title": "Mikrotik RouterOS VXLAN Source IP Improper Access Control Vulnerability",
+  "updated_date": "2025-06-25",
+  "vulnerability_details": "This vulnerability allows remote attackers to bypass access restrictions on affected installations of Mikrotik RouterOS. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of remote IP addresses when processing VXLAN traffic. The issue results from the lack of validation of the remote IP address against configured values prior to allowing ingress traffic into the internal network. An attacker can leverage this vulnerability to gain access to internal network resources.",
+  "zdi_can": "ZDI-CAN-26415",
+  "zdi_id": "ZDI-25-424"
+}

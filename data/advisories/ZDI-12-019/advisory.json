@@ -1,0 +1,27 @@
+{
+  "additional_details": "IBM has issued an update to correct this vulnerability. More details can be found at: http://www-01.ibm.com/support/docview.wss?uid=swg21577956",
+  "advisory_date": "2012-01-30",
+  "affected_products": [
+    "SPSS"
+  ],
+  "affected_vendors": [
+    "IBM"
+  ],
+  "credit": "Andrea Micalizzi aka rgod",
+  "cve": "CVE-2012-0188",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2012-0188",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2011-07-20 - Vulnerability reported to vendor",
+    "2012-01-30 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-12-019 ZDI-CAN-1295 IBM SPSS mraboutb.dll ActiveX Control SetLicenseInfoEx Method Remote Code Execution Vulnerability 2012-01-30 CVE-2012-0188 https://www.cve.org/CVERecord?id=CVE-2012-0188 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['IBM'] ['SPSS'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of IBM SPSS. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within SetLicenseInfoEx() method exposed by the mraboutb.dll ActiveX Control. String data supplied to the first parameter (strInstallDir) of SetLicenseInfoEx() is copied into a 256 byte global buffer without first checking the string length. This overflow can be exploited to remotely execute arbitrary code on the target system. IBM has issued an update to correct this vulnerability. More details can be found at: http://www-01.ibm.com/support/docview.wss?uid=swg21577956 ['2011-07-20 - Vulnerability reported to vendor', '2012-01-30 - Coordinated public release of advisory'] Andrea Micalizzi aka rgod https://www.zerodayinitiative.com/advisories/ZDI-12-019/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-12-019/",
+  "title": "IBM SPSS mraboutb.dll ActiveX Control SetLicenseInfoEx Method Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of IBM SPSS. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within SetLicenseInfoEx() method exposed by the mraboutb.dll ActiveX Control. String data supplied to the first parameter (strInstallDir) of SetLicenseInfoEx() is copied into a 256 byte global buffer without first checking the string length. This overflow can be exploited to remotely execute arbitrary code on the target system.",
+  "zdi_can": "ZDI-CAN-1295",
+  "zdi_id": "ZDI-12-019"
+}

@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/bulletin/MS06-037.mspx",
+  "advisory_date": "2006-07-11",
+  "affected_products": [
+    "Office Excel"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Arnaud Dovi 'class101' http://heapoverflow.com",
+  "cve": "CVE-2006-2388",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2006-2388",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2006-06-15 - Vulnerability reported to vendor",
+    "2006-07-11 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-06-022 ZDI-CAN-045 Microsoft Office Excel File Rebuilding Code Execution Vulnerability 2006-07-11 CVE-2006-2388 https://www.cve.org/CVERecord?id=CVE-2006-2388 ['Microsoft'] ['Office Excel'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Office. Exploitation requires that the attacker coerce the target into opening a malicious .XLS file. The specific flaw exists within the rebuilding of malformed cell comments. When Excel encounters a malformed record it attempts to rebuild the broken meta-data. A flaw in this rebuilding process allows the user to specify critical data offsets eventually leading to code execution with the credentials of the current user. Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/bulletin/MS06-037.mspx ['2006-06-15 - Vulnerability reported to vendor', '2006-07-11 - Coordinated public release of advisory'] Arnaud Dovi 'class101' http://heapoverflow.com https://www.zerodayinitiative.com/advisories/ZDI-06-022/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-06-022/",
+  "title": "Microsoft Office Excel File Rebuilding Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Office. Exploitation requires that the attacker coerce the target into opening a malicious .XLS file. The specific flaw exists within the rebuilding of malformed cell comments. When Excel encounters a malformed record it attempts to rebuild the broken meta-data. A flaw in this rebuilding process allows the user to specify critical data offsets eventually leading to code execution with the credentials of the current user.",
+  "zdi_can": "ZDI-CAN-045",
+  "zdi_id": "ZDI-06-022"
+}

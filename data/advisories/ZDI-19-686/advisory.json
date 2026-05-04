@@ -1,0 +1,27 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-us/HT210348",
+  "advisory_date": "2019-07-24",
+  "affected_products": [
+    "macOS"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "Lilang Wu and Moony Li of TrendMicro Mobile Security Research Team",
+  "cve": "CVE-2019-8692",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2019-8692",
+  "cvss": 4.7,
+  "cvss_vector": "AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N",
+  "disclosure_timeline": [
+    "2019-04-03 - Vulnerability reported to vendor",
+    "2019-07-24 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-19-686 ZDI-CAN-8536 Apple macOS AMDRadeonX4000_AMDAccelResource initialize Out-Of-Bounds Read Privilege Escalation Vulnerability 2019-07-24 CVE-2019-8692 https://www.cve.org/CVERecord?id=CVE-2019-8692 4.7 AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N ['Apple'] ['macOS'] This vulnerability allows local attackers to disclose sensitive information on affected installations of Apple MacOS. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the initialize method of the AMDRadeonX4000_AMDAccelSharedUserClient class. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated data structure. An attacker can leverage this in conjunction with other vulnerabilities to escalate privileges to the level of the kernel. Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-us/HT210348 ['2019-04-03 - Vulnerability reported to vendor', '2019-07-24 - Coordinated public release of advisory'] Lilang Wu and Moony Li of TrendMicro Mobile Security Research Team https://www.zerodayinitiative.com/advisories/ZDI-19-686/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-19-686/",
+  "title": "Apple macOS AMDRadeonX4000_AMDAccelResource initialize Out-Of-Bounds Read Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to disclose sensitive information on affected installations of Apple MacOS. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the initialize method of the AMDRadeonX4000_AMDAccelSharedUserClient class. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated data structure. An attacker can leverage this in conjunction with other vulnerabilities to escalate privileges to the level of the kernel.",
+  "zdi_can": "ZDI-CAN-8536",
+  "zdi_id": "ZDI-19-686"
+}

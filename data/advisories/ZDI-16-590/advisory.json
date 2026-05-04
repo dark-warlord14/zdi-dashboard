@@ -1,0 +1,27 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-us/HT207271",
+  "advisory_date": "2016-11-04",
+  "affected_products": [
+    "Safari"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2016-4677",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-4677",
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2016-08-23 - Vulnerability reported to vendor",
+    "2016-11-04 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-16-590 ZDI-CAN-3875 Apple Safari JavaScriptCore Array Out-Of-Bounds Access Remote Code Execution Vulnerability 2016-11-04 CVE-2016-4677 https://www.cve.org/CVERecord?id=CVE-2016-4677 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Apple'] ['Safari'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple Safari. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Array objects. A crafted Array object can trigger a memory access past the end of an allocated buffer. An attacker can leverage this vulnerability to execute arbitrary code under the context of the current process. Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-us/HT207271 ['2016-08-23 - Vulnerability reported to vendor', '2016-11-04 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-16-590/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-590/",
+  "title": "Apple Safari JavaScriptCore Array Out-Of-Bounds Access Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple Safari. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Array objects. A crafted Array object can trigger a memory access past the end of an allocated buffer. An attacker can leverage this vulnerability to execute arbitrary code under the context of the current process.",
+  "zdi_can": "ZDI-CAN-3875",
+  "zdi_id": "ZDI-16-590"
+}

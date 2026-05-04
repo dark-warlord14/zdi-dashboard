@@ -1,0 +1,27 @@
+{
+  "additional_details": "Hewlett Packard Enterprise has issued an update to correct this vulnerability. More details can be found at: https://h20564.www2.hpe.com/hpsc/doc/public/display?docId=emr_na-hpesbhf03745en_us",
+  "advisory_date": "2017-05-15",
+  "affected_products": [
+    "Intelligent Management Center"
+  ],
+  "affected_vendors": [
+    "Hewlett Packard Enterprise"
+  ],
+  "credit": "sztivi",
+  "cve": "CVE-2017-5819",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-5819",
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2017-01-03 - Vulnerability reported to vendor",
+    "2017-05-15 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-17-343 ZDI-CAN-4387 Hewlett Packard Enterprise Intelligent Management Center dbman Opcode 10007 Command Injection Remote Code Execution Vulnerability 2017-05-15 CVE-2017-5819 https://www.cve.org/CVERecord?id=CVE-2017-5819 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Hewlett Packard Enterprise'] ['Intelligent Management Center'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Hewlett Packard Enterprise Intelligent Management Center. Authentication is not required to exploit this vulnerability. The specific flaw exists within the dbman service, which listens on TCP port 2810 by default. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute arbitrary code under the context of SYSTEM. Hewlett Packard Enterprise has issued an update to correct this vulnerability. More details can be found at: https://h20564.www2.hpe.com/hpsc/doc/public/display?docId=emr_na-hpesbhf03745en_us ['2017-01-03 - Vulnerability reported to vendor', '2017-05-15 - Coordinated public release of advisory'] sztivi https://www.zerodayinitiative.com/advisories/ZDI-17-343/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-343/",
+  "title": "Hewlett Packard Enterprise Intelligent Management Center dbman Opcode 10007 Command Injection Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Hewlett Packard Enterprise Intelligent Management Center. Authentication is not required to exploit this vulnerability. The specific flaw exists within the dbman service, which listens on TCP port 2810 by default. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute arbitrary code under the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-4387",
+  "zdi_id": "ZDI-17-343"
+}

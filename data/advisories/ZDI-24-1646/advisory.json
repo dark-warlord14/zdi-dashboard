@@ -1,0 +1,28 @@
+{
+  "additional_details": "Epic Games has issued an update to correct this vulnerability. More details can be found at: https://trello.com/c/tcS6Jcfy/578-epic-games-launcher-1720",
+  "advisory_date": "2024-12-04",
+  "affected_products": [
+    "Epic Games Launcher"
+  ],
+  "affected_vendors": [
+    "Epic Games"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2024-11872",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-11872",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2024-07-16 - Vulnerability reported to vendor",
+    "2024-12-04 - Coordinated public release of advisory",
+    "2024-12-06 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-1646 ZDI-CAN-24329 Epic Games Launcher Incorrect Default Permissions Local Privilege Escalation Vulnerability 2024-12-04 CVE-2024-11872 https://www.cve.org/CVERecord?id=CVE-2024-11872 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Epic Games'] ['Epic Games Launcher'] This vulnerability allows local attackers to escalate privileges on affected installations of Epic Games Launcher. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the product installer. The product applies incorrect default permissions to a sensitive folder. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. Epic Games has issued an update to correct this vulnerability. More details can be found at: https://trello.com/c/tcS6Jcfy/578-epic-games-launcher-1720 ['2024-07-16 - Vulnerability reported to vendor', '2024-12-04 - Coordinated public release of advisory', '2024-12-06 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-24-1646/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-1646/",
+  "title": "Epic Games Launcher Incorrect Default Permissions Local Privilege Escalation Vulnerability",
+  "updated_date": "2024-12-06",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Epic Games Launcher. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the product installer. The product applies incorrect default permissions to a sensitive folder. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-24329",
+  "zdi_id": "ZDI-24-1646"
+}

@@ -1,0 +1,28 @@
+{
+  "additional_details": "Samsung has issued an update to correct this vulnerability. More details can be found at: https://security.samsungmobile.com/serviceWeb.smsb?year=2024&month=12",
+  "advisory_date": "2025-04-09",
+  "affected_products": [
+    "Galaxy S24"
+  ],
+  "affected_vendors": [
+    "Samsung"
+  ],
+  "credit": "Ken Gannon of NCC Group (@yogehi)",
+  "cve": "CVE-2024-49420",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-49420",
+  "cvss": 5.3,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
+  "disclosure_timeline": [
+    "2024-12-02 - Vulnerability reported to vendor",
+    "2025-04-09 - Coordinated public release of advisory",
+    "2025-04-09 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-227 ZDI-CAN-25648 (Pwn2Own) Samsung Galaxy S24 Gaming Hub Exposed Dangerous Method Local Privilege Escalation Vulnerability 2025-04-09 CVE-2024-49420 https://www.cve.org/CVERecord?id=CVE-2024-49420 5.3 AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L ['Samsung'] ['Galaxy S24'] This vulnerability allows local attackers to escalate privileges on affected installations of Samsung Galaxy S24. An attacker must first obtain the ability to execute low-privileged script on the target system in order to exploit this vulnerability. The specific flaw exists within the Gaming Hub application. The issue results from an exposed dangerous method. An attacker can leverage this vulnerability to escalate privileges and perform actions in the context of the user. Samsung has issued an update to correct this vulnerability. More details can be found at: https://security.samsungmobile.com/serviceWeb.smsb?year=2024&month=12 ['2024-12-02 - Vulnerability reported to vendor', '2025-04-09 - Coordinated public release of advisory', '2025-04-09 - Advisory Updated'] Ken Gannon of NCC Group (@yogehi) https://www.zerodayinitiative.com/advisories/ZDI-25-227/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-227/",
+  "title": "(Pwn2Own) Samsung Galaxy S24 Gaming Hub Exposed Dangerous Method Local Privilege Escalation Vulnerability",
+  "updated_date": "2025-04-09",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Samsung Galaxy S24. An attacker must first obtain the ability to execute low-privileged script on the target system in order to exploit this vulnerability. The specific flaw exists within the Gaming Hub application. The issue results from an exposed dangerous method. An attacker can leverage this vulnerability to escalate privileges and perform actions in the context of the user.",
+  "zdi_can": "ZDI-CAN-25648",
+  "zdi_id": "ZDI-25-227"
+}

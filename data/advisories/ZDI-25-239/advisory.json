@@ -1,0 +1,28 @@
+{
+  "additional_details": "Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/en-US/solution/KA-0019344",
+  "advisory_date": "2025-04-09",
+  "affected_products": [
+    "Deep Security"
+  ],
+  "affected_vendors": [
+    "Trend Micro"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2025-30640",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-30640",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2024-09-05 - Vulnerability reported to vendor",
+    "2025-04-09 - Coordinated public release of advisory",
+    "2025-04-09 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-239 ZDI-CAN-24930 Trend Micro Deep Security Link Following Local Privilege Escalation Vulnerability 2025-04-09 CVE-2025-30640 https://www.cve.org/CVERecord?id=CVE-2025-30640 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Trend Micro'] ['Deep Security'] This vulnerability allows local attackers to escalate privileges on affected installations of Trend Micro Deep Security. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Trend Micro Anti-Malware Solution Platform. By creating a symbolic link, an attacker can abuse the service to delete a file. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/en-US/solution/KA-0019344 ['2024-09-05 - Vulnerability reported to vendor', '2025-04-09 - Coordinated public release of advisory', '2025-04-09 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-25-239/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-239/",
+  "title": "Trend Micro Deep Security Link Following Local Privilege Escalation Vulnerability",
+  "updated_date": "2025-04-09",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Trend Micro Deep Security. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Trend Micro Anti-Malware Solution Platform. By creating a symbolic link, an attacker can abuse the service to delete a file. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-24930",
+  "zdi_id": "ZDI-25-239"
+}

@@ -1,0 +1,28 @@
+{
+  "additional_details": "05/12/23 \u2013 ZDI reported the vulnerability to the vendor 05/16/23 \u2013The vendor acknowledged the receipt of the report 12/01/23 \u2013 ZDI asked for updates 01/10/24 \u2013The vendor communicated that the development team was working on a fix 05/16/24 \u2013 ZDI asked for updates and notified the vendor of the intention to publish the case as 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the application.",
+  "advisory_date": "2024-06-13",
+  "affected_products": [
+    "Advanced IP Scanner"
+  ],
+  "affected_vendors": [
+    "Famatech"
+  ],
+  "credit": "Xavier DANEST",
+  "cve": "CVE-2024-30376",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-30376",
+  "cvss": 7.3,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2023-05-12 - Vulnerability reported to vendor",
+    "2024-06-13 - Coordinated public release of advisory",
+    "2024-08-15 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-670 ZDI-CAN-20768 (0Day) Famatech Advanced IP Scanner Uncontrolled Search Path Element Local Privilege Escalation Vulnerability 2024-06-13 CVE-2024-30376 https://www.cve.org/CVERecord?id=CVE-2024-30376 7.3 AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H ['Famatech'] ['Advanced IP Scanner'] This vulnerability allows local attackers to escalate privileges on affected installations of Famatech Advanced IP Scanner. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the application's use of Qt. The application loads Qt plugins from an unsecured location. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of an administrator. 05/12/23 \u2013 ZDI reported the vulnerability to the vendor 05/16/23 \u2013The vendor acknowledged the receipt of the report 12/01/23 \u2013 ZDI asked for updates 01/10/24 \u2013The vendor communicated that the development team was working on a fix 05/16/24 \u2013 ZDI asked for updates and notified the vendor of the intention to publish the case as 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the application. ['2023-05-12 - Vulnerability reported to vendor', '2024-06-13 - Coordinated public release of advisory', '2024-08-15 - Advisory Updated'] Xavier DANEST https://www.zerodayinitiative.com/advisories/ZDI-24-670/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-670/",
+  "title": "(0Day) Famatech Advanced IP Scanner Uncontrolled Search Path Element Local Privilege Escalation Vulnerability",
+  "updated_date": "2024-08-15",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Famatech Advanced IP Scanner. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the application's use of Qt. The application loads Qt plugins from an unsecured location. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of an administrator.",
+  "zdi_can": "ZDI-CAN-20768",
+  "zdi_id": "ZDI-24-670"
+}

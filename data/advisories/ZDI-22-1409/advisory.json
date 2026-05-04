@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-37986",
+  "advisory_date": "2022-10-14",
+  "affected_products": [
+    "Windows"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Marcin Wiazowski",
+  "cve": "CVE-2022-37986",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-37986",
+  "cvss": 5.3,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
+  "disclosure_timeline": [
+    "2022-06-28 - Vulnerability reported to vendor",
+    "2022-10-14 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-1409 ZDI-CAN-17358 Microsoft Windows User-Mode Print Driver Insufficient Message Authentication Local Privilege Escalation Vulnerability 2022-10-14 CVE-2022-37986 https://www.cve.org/CVERecord?id=CVE-2022-37986 5.3 AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L ['Microsoft'] ['Windows'] This vulnerability allows local attackers to escalate privileges on affected installations of Microsoft Windows. An attacker must first obtain the ability to execute code at low integrity on the target system in order to exploit this vulnerability. The specific flaw exists within the user-mode print driver host process. The issue results from insufficient validation of the origin of commands. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the current user at medium integrity. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-37986 ['2022-06-28 - Vulnerability reported to vendor', '2022-10-14 - Coordinated public release of advisory'] Marcin Wiazowski https://www.zerodayinitiative.com/advisories/ZDI-22-1409/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-1409/",
+  "title": "Microsoft Windows User-Mode Print Driver Insufficient Message Authentication Local Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Microsoft Windows. An attacker must first obtain the ability to execute code at low integrity on the target system in order to exploit this vulnerability. The specific flaw exists within the user-mode print driver host process. The issue results from insufficient validation of the origin of commands. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the current user at medium integrity.",
+  "zdi_can": "ZDI-CAN-17358",
+  "zdi_id": "ZDI-22-1409"
+}

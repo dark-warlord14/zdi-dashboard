@@ -1,0 +1,27 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT1222",
+  "advisory_date": "2013-06-11",
+  "affected_products": [
+    "QuickTime"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "Tom Gallagher (Microsoft) & Paul Bates (Microsoft)",
+  "cve": "CVE-2013-1020",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2013-1020",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2013-02-04 - Vulnerability reported to vendor",
+    "2013-06-11 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-13-114 ZDI-CAN-1720 Apple QuickTime MJPEG Frame stsd Atom Heap Overflow Remote Code Execution Vulnerability 2013-06-11 CVE-2013-1020 https://www.cve.org/CVERecord?id=CVE-2013-1020 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Apple'] ['QuickTime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple QuickTime. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within processing a mjpeg movie with an improper jpeg frame size via the stsd atom. When processing the movie, the size of the destination buffer for jpeg contents is specified separately from the JPEG size. This can lead to memory corruption that can be leveraged to achieve code execution under the context of the process. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT1222 ['2013-02-04 - Vulnerability reported to vendor', '2013-06-11 - Coordinated public release of advisory'] Tom Gallagher (Microsoft) & Paul Bates (Microsoft) https://www.zerodayinitiative.com/advisories/ZDI-13-114/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-13-114/",
+  "title": "Apple QuickTime MJPEG Frame stsd Atom Heap Overflow Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple QuickTime. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within processing a mjpeg movie with an improper jpeg frame size via the stsd atom. When processing the movie, the size of the destination buffer for jpeg contents is specified separately from the JPEG size. This can lead to memory corruption that can be leveraged to achieve code execution under the context of the process.",
+  "zdi_can": "ZDI-CAN-1720",
+  "zdi_id": "ZDI-13-114"
+}

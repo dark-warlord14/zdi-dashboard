@@ -1,0 +1,27 @@
+{
+  "additional_details": "TP-Link has issued an update to correct this vulnerability. More details can be found at: https://www.tp-link.com/ca/support/download/tl-wr902ac/v3/#Firmware",
+  "advisory_date": "2023-12-19",
+  "affected_products": [
+    "TL-WR902AC"
+  ],
+  "affected_vendors": [
+    "TP-Link"
+  ],
+  "credit": "Nicholas Zubrisky and Peter Girnus of Trend Micro Zero Day Initiative",
+  "cve": "CVE-2023-50225",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-50225",
+  "cvss": 6.8,
+  "cvss_vector": "AV:A/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2023-07-26 - Vulnerability reported to vendor",
+    "2023-12-19 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-1809 ZDI-CAN-21819 TP-Link TL-WR902AC dm_fillObjByStr Stack-based Buffer Overflow Remote Code Execution Vulnerability 2023-12-19 CVE-2023-50225 https://www.cve.org/CVERecord?id=CVE-2023-50225 6.8 AV:A/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H ['TP-Link'] ['TL-WR902AC'] This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of TP-Link TL-WR902AC routers. Authentication is required to exploit this vulnerability. The specific flaw exists within the libcmm.so module. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of root. TP-Link has issued an update to correct this vulnerability. More details can be found at: https://www.tp-link.com/ca/support/download/tl-wr902ac/v3/#Firmware ['2023-07-26 - Vulnerability reported to vendor', '2023-12-19 - Coordinated public release of advisory'] Nicholas Zubrisky and Peter Girnus of Trend Micro Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-23-1809/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-1809/",
+  "title": "TP-Link TL-WR902AC dm_fillObjByStr Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of TP-Link TL-WR902AC routers. Authentication is required to exploit this vulnerability. The specific flaw exists within the libcmm.so module. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of root.",
+  "zdi_can": "ZDI-CAN-21819",
+  "zdi_id": "ZDI-23-1809"
+}

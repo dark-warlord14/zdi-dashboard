@@ -1,0 +1,27 @@
+{
+  "additional_details": "Citrix has issued an update to correct this vulnerability. More details can be found at: http://support.citrix.com/article/CTX129699",
+  "advisory_date": "2011-06-27",
+  "affected_products": [
+    "EdgeSight"
+  ],
+  "affected_vendors": [
+    "Citrix"
+  ],
+  "credit": "AbdulAziz Hariri",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2011-01-21 - Vulnerability reported to vendor",
+    "2011-06-27 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-11-226 ZDI-CAN-1045 Citrix EdgeSight Launcher Service Remote Code Execution Vulnerability 2011-06-27 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Citrix'] ['EdgeSight'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Citrix EdgeSight. Authentication is not required to exploit this vulnerability. The flaw exists within the LauncherService.exe component which listens by default on TCP port 18747. When handling a request the process trusts a user supplied field in the packet specifying the length of data to follow, the process then copies the user supplied data, without validation, into a fixed-length buffer on the heap. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the SYSTEM user. Citrix has issued an update to correct this vulnerability. More details can be found at: http://support.citrix.com/article/CTX129699 ['2011-01-21 - Vulnerability reported to vendor', '2011-06-27 - Coordinated public release of advisory'] AbdulAziz Hariri https://www.zerodayinitiative.com/advisories/ZDI-11-226/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-226/",
+  "title": "Citrix EdgeSight Launcher Service Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Citrix EdgeSight. Authentication is not required to exploit this vulnerability. The flaw exists within the LauncherService.exe component which listens by default on TCP port 18747. When handling a request the process trusts a user supplied field in the packet specifying the length of data to follow, the process then copies the user supplied data, without validation, into a fixed-length buffer on the heap. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the SYSTEM user.",
+  "zdi_can": "ZDI-CAN-1045",
+  "zdi_id": "ZDI-11-226"
+}

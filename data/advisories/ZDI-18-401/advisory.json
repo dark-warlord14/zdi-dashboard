@@ -1,0 +1,28 @@
+{
+  "additional_details": "Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxitsoftware.com/support/security-bulletins.php",
+  "advisory_date": "2018-05-04",
+  "affected_products": [
+    "Reader"
+  ],
+  "affected_vendors": [
+    "Foxit"
+  ],
+  "credit": "kdot",
+  "cve": "CVE-2018-10491",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2018-10491",
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2018-01-12 - Vulnerability reported to vendor",
+    "2018-05-04 - Coordinated public release of advisory",
+    "2018-05-04 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-401 ZDI-CAN-5423 Foxit Reader U3D Bone Weight Modifier Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability 2018-05-04 CVE-2018-10491 https://www.cve.org/CVERecord?id=CVE-2018-10491 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Foxit'] ['Reader'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Foxit Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of U3D Bone Weight Modifier structures. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated structure. An attacker can leverage this vulnerability to execute code under the context of the current process. Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxitsoftware.com/support/security-bulletins.php ['2018-01-12 - Vulnerability reported to vendor', '2018-05-04 - Coordinated public release of advisory', '2018-05-04 - Advisory Updated'] kdot https://www.zerodayinitiative.com/advisories/ZDI-18-401/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-401/",
+  "title": "Foxit Reader U3D Bone Weight Modifier Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+  "updated_date": "2018-05-04",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Foxit Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of U3D Bone Weight Modifier structures. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated structure. An attacker can leverage this vulnerability to execute code under the context of the current process.",
+  "zdi_can": "ZDI-CAN-5423",
+  "zdi_id": "ZDI-18-401"
+}

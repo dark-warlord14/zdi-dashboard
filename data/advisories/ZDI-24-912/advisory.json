@@ -1,0 +1,28 @@
+{
+  "additional_details": "SolarWinds has issued an update to correct this vulnerability. More details can be found at: https://documentation.solarwinds.com/en/success_center/arm/content/release_notes/arm_2024-3_release_notes.htm",
+  "advisory_date": "2024-07-18",
+  "affected_products": [
+    "Access Rights Manager"
+  ],
+  "affected_vendors": [
+    "SolarWinds"
+  ],
+  "credit": "Piotr Bazydlo (@chudypb) of Trend Micro Zero Day Initiative",
+  "cve": "CVE-2024-23469",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-23469",
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2024-01-12 - Vulnerability reported to vendor",
+    "2024-07-18 - Coordinated public release of advisory",
+    "2024-08-15 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-912 ZDI-CAN-23039 SolarWinds Access Rights Manager EndUpdate Exposed Dangerous Method Remote Code Execution Vulnerability 2024-07-18 CVE-2024-23469 https://www.cve.org/CVERecord?id=CVE-2024-23469 10.0 AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H ['SolarWinds'] ['Access Rights Manager'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of SolarWinds Access Rights Manager. Authentication is not required to exploit this vulnerability. The specific flaw exists within the EndUpdate method. The issue results from an exposed dangerous method. An attacker can leverage this vulnerability to execute code in the context of SYSTEM. SolarWinds has issued an update to correct this vulnerability. More details can be found at: https://documentation.solarwinds.com/en/success_center/arm/content/release_notes/arm_2024-3_release_notes.htm ['2024-01-12 - Vulnerability reported to vendor', '2024-07-18 - Coordinated public release of advisory', '2024-08-15 - Advisory Updated'] Piotr Bazydlo (@chudypb) of Trend Micro Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-24-912/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-912/",
+  "title": "SolarWinds Access Rights Manager EndUpdate Exposed Dangerous Method Remote Code Execution Vulnerability",
+  "updated_date": "2024-08-15",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of SolarWinds Access Rights Manager. Authentication is not required to exploit this vulnerability. The specific flaw exists within the EndUpdate method. The issue results from an exposed dangerous method. An attacker can leverage this vulnerability to execute code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-23039",
+  "zdi_id": "ZDI-24-912"
+}

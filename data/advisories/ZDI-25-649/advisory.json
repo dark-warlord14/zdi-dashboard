@@ -1,0 +1,28 @@
+{
+  "additional_details": "Veeam has issued an update to correct this vulnerability. More details can be found at: https://www.veeam.com/kb4743",
+  "advisory_date": "2025-07-24",
+  "affected_products": [
+    "Veeam Agent for Microsoft Windows"
+  ],
+  "affected_vendors": [
+    "Veeam"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2025-24287",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-24287",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2025-03-10 - Vulnerability reported to vendor",
+    "2025-07-24 - Coordinated public release of advisory",
+    "2025-07-24 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-649 ZDI-CAN-25685 Veeam Agent for Microsoft Windows Incorrect Default Permissions Local Privilege Escalation Vulnerability 2025-07-24 CVE-2025-24287 https://www.cve.org/CVERecord?id=CVE-2025-24287 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Veeam'] ['Veeam Agent for Microsoft Windows'] This vulnerability allows local attackers to escalate privileges on affected installations of Veeam Agent for Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the product installer. The issue results from incorrect permissions on a file used by the product. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. Veeam has issued an update to correct this vulnerability. More details can be found at: https://www.veeam.com/kb4743 ['2025-03-10 - Vulnerability reported to vendor', '2025-07-24 - Coordinated public release of advisory', '2025-07-24 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-25-649/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-649/",
+  "title": "Veeam Agent for Microsoft Windows Incorrect Default Permissions Local Privilege Escalation Vulnerability",
+  "updated_date": "2025-07-24",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Veeam Agent for Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the product installer. The issue results from incorrect permissions on a file used by the product. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-25685",
+  "zdi_id": "ZDI-25-649"
+}

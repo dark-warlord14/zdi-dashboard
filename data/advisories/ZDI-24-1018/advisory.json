@@ -1,0 +1,28 @@
+{
+  "additional_details": "Linux has issued an update to correct this vulnerability. More details can be found at: https://lore.kernel.org/linux-cve-announce/2024051944-CVE-2024-35880-6ffb@gregkh/#r",
+  "advisory_date": "2024-07-29",
+  "affected_products": [
+    "Kernel"
+  ],
+  "affected_vendors": [
+    "Linux"
+  ],
+  "credit": "Billy Jheng Bing-Jhong, \u0110\u1ed7 Minh Tu\u1ea5n, Muhammad Alifa Ramdhan",
+  "cve": "CVE-2024-35880",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-35880",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2024-04-02 - Vulnerability reported to vendor",
+    "2024-07-29 - Coordinated public release of advisory",
+    "2024-08-15 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-1018 ZDI-CAN-23851 (Pwn2Own) Linux Kernel io_uring Buffer List Race Condition Local Privilege Escalation Vulnerability 2024-07-29 CVE-2024-35880 https://www.cve.org/CVERecord?id=CVE-2024-35880 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H ['Linux'] ['Kernel'] This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of the io_uring buffer list. The issue results from the lack of proper locking when performing operations on an object. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the kernel. Linux has issued an update to correct this vulnerability. More details can be found at: https://lore.kernel.org/linux-cve-announce/2024051944-CVE-2024-35880-6ffb@gregkh/#r ['2024-04-02 - Vulnerability reported to vendor', '2024-07-29 - Coordinated public release of advisory', '2024-08-15 - Advisory Updated'] Billy Jheng Bing-Jhong, \u0110\u1ed7 Minh Tu\u1ea5n, Muhammad Alifa Ramdhan https://www.zerodayinitiative.com/advisories/ZDI-24-1018/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-1018/",
+  "title": "(Pwn2Own) Linux Kernel io_uring Buffer List Race Condition Local Privilege Escalation Vulnerability",
+  "updated_date": "2024-08-15",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of the io_uring buffer list. The issue results from the lack of proper locking when performing operations on an object. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the kernel.",
+  "zdi_can": "ZDI-CAN-23851",
+  "zdi_id": "ZDI-24-1018"
+}

@@ -1,0 +1,27 @@
+{
+  "additional_details": "Computer Associates has issued an update to correct this vulnerability. More details can be found at: http://supportconnectw.ca.com/public/storage/infodocs/babimpsec-notice.asp",
+  "advisory_date": "2007-01-11",
+  "affected_products": [
+    "BrightStor ARCserve Server"
+  ],
+  "affected_vendors": [
+    "Computer Associates"
+  ],
+  "credit": "Tenable Network Security",
+  "cve": "CVE-2007-0169",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2007-0169",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2006-11-08 - Vulnerability reported to vendor",
+    "2007-01-11 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-07-003 ZDI-CAN-129 CA BrightStor ARCserve Backup Message Engine Buffer Overflow Vulnerability 2007-01-11 CVE-2007-0169 https://www.cve.org/CVERecord?id=CVE-2007-0169 ['Computer Associates'] ['BrightStor ARCserve Server'] This vulnerability allows attackers to execute arbitrary code on vulnerable installations of Computer Associates BrightStor ARCserve Backup. User interaction is not required to exploit this vulnerability. The specific flaws exists in the Message Engine RPC service which listens by default on TCP ports 6503 and 6504 with the following UUIDs: dc246bf0-7a7a-11ce-9f88-00805fe43838 506b1890-14c8-11d1-bbc3-00805fa6962e The service exposes buffer overflow vulnerabilities in the handlers for RPC opnums 0x2F and 0x75 that allow for arbitrary code execution when handling user-supplied data from the RPC request. Computer Associates has issued an update to correct this vulnerability. More details can be found at: http://supportconnectw.ca.com/public/storage/infodocs/babimpsec-notice.asp ['2006-11-08 - Vulnerability reported to vendor', '2007-01-11 - Coordinated public release of advisory'] Tenable Network Security https://www.zerodayinitiative.com/advisories/ZDI-07-003/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-07-003/",
+  "title": "CA BrightStor ARCserve Backup Message Engine Buffer Overflow Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows attackers to execute arbitrary code on vulnerable installations of Computer Associates BrightStor ARCserve Backup. User interaction is not required to exploit this vulnerability. The specific flaws exists in the Message Engine RPC service which listens by default on TCP ports 6503 and 6504 with the following UUIDs: dc246bf0-7a7a-11ce-9f88-00805fe43838 506b1890-14c8-11d1-bbc3-00805fa6962e The service exposes buffer overflow vulnerabilities in the handlers for RPC opnums 0x2F and 0x75 that allow for arbitrary code execution when handling user-supplied data from the RPC request.",
+  "zdi_can": "ZDI-CAN-129",
+  "zdi_id": "ZDI-07-003"
+}

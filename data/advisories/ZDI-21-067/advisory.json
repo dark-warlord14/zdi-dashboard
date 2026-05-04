@@ -1,0 +1,28 @@
+{
+  "additional_details": "Fixed in Orion Platform 2020.2.1 Hot Fix 2 - released on 12/15/2020",
+  "advisory_date": "2021-09-20",
+  "affected_products": [
+    "Orion Platform"
+  ],
+  "affected_vendors": [
+    "SolarWinds"
+  ],
+  "credit": "Piotr Bazydlo (@chudypb)",
+  "cve": "CVE-2020-27871",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2020-27871",
+  "cvss": 7.2,
+  "cvss_vector": "AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2020-10-14 - Vulnerability reported to vendor",
+    "2021-09-20 - Coordinated public release of advisory",
+    "2022-05-26 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-21-067 ZDI-CAN-11902 SolarWinds Orion Platform NCM VulnerabilitySettings Directory Traversal Arbitrary File Creation Vulnerability 2021-09-20 CVE-2020-27871 https://www.cve.org/CVERecord?id=CVE-2020-27871 7.2 AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H ['SolarWinds'] ['Orion Platform'] This vulnerability allows remote attackers to create arbitrary files on affected installations of SolarWinds Orion Platform. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed. The specific flaw exists within VulnerabilitySettings.aspx. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute arbitrary code in the context of SYSTEM. Fixed in Orion Platform 2020.2.1 Hot Fix 2 - released on 12/15/2020 ['2020-10-14 - Vulnerability reported to vendor', '2021-09-20 - Coordinated public release of advisory', '2022-05-26 - Advisory Updated'] Piotr Bazydlo (@chudypb) https://www.zerodayinitiative.com/advisories/ZDI-21-067/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-21-067/",
+  "title": "SolarWinds Orion Platform NCM VulnerabilitySettings Directory Traversal Arbitrary File Creation Vulnerability",
+  "updated_date": "2022-05-26",
+  "vulnerability_details": "This vulnerability allows remote attackers to create arbitrary files on affected installations of SolarWinds Orion Platform. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed. The specific flaw exists within VulnerabilitySettings.aspx. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute arbitrary code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-11902",
+  "zdi_id": "ZDI-21-067"
+}

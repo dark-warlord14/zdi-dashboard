@@ -1,0 +1,28 @@
+{
+  "additional_details": "Fortinet has issued an update to correct this vulnerability. More details can be found at: https://fortiguard.fortinet.com/psirt/FG-IR-25-661",
+  "advisory_date": "2026-02-19",
+  "affected_products": [
+    "FortiClient VPN"
+  ],
+  "affected_vendors": [
+    "Fortinet"
+  ],
+  "credit": "Alexander Staalgaard",
+  "cve": "CVE-2025-62676",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-62676",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2025-05-29 - Vulnerability reported to vendor",
+    "2026-02-19 - Coordinated public release of advisory",
+    "2026-02-19 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-26-115 ZDI-CAN-25710 Fortinet FortiClient VPN FCConfig Utility Link Following Local Privilege Escalation Vulnerability 2026-02-19 CVE-2025-62676 https://www.cve.org/CVERecord?id=CVE-2025-62676 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Fortinet'] ['FortiClient VPN'] This vulnerability allows local attackers to escalate privileges on affected installations of Fortinet FortiClient VPN. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the FortiClient Configuration Daemon. By creating a junction, an attacker can abuse the service to overwrite arbitrary files. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. Fortinet has issued an update to correct this vulnerability. More details can be found at: https://fortiguard.fortinet.com/psirt/FG-IR-25-661 ['2025-05-29 - Vulnerability reported to vendor', '2026-02-19 - Coordinated public release of advisory', '2026-02-19 - Advisory Updated'] Alexander Staalgaard https://www.zerodayinitiative.com/advisories/ZDI-26-115/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-115/",
+  "title": "Fortinet FortiClient VPN FCConfig Utility Link Following Local Privilege Escalation Vulnerability",
+  "updated_date": "2026-02-19",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Fortinet FortiClient VPN. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the FortiClient Configuration Daemon. By creating a junction, an attacker can abuse the service to overwrite arbitrary files. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-25710",
+  "zdi_id": "ZDI-26-115"
+}

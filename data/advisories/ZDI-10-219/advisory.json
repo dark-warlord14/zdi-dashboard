@@ -1,0 +1,27 @@
+{
+  "additional_details": "Mozilla Firefox has issued an update to correct this vulnerability. More details can be found at: http://www.mozilla.org/security/announce/2010/mfsa2010-67.html",
+  "advisory_date": "2010-10-19",
+  "affected_products": [
+    "3.6.x"
+  ],
+  "affected_vendors": [
+    "Mozilla Firefox"
+  ],
+  "credit": "regenrecht",
+  "cve": "CVE-2010-3183",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2010-3183",
+  "cvss": 9.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:C",
+  "disclosure_timeline": [
+    "2010-09-22 - Vulnerability reported to vendor",
+    "2010-10-19 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-10-219 ZDI-CAN-929 Mozilla Firefox LookupGetterOrSetter Remote Code Execution Vulnerability 2010-10-19 CVE-2010-3183 https://www.cve.org/CVERecord?id=CVE-2010-3183 9.0 AV:N/AC:L/Au:N/C:P/I:P/A:C ['Mozilla Firefox'] ['3.6.x'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Mozilla Firefox. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists in js3250.dll. When a JavaObject is created and deleted, there is not a proper sanity check for the LookupGetterorSetter() function, which can result in a dangling pointer being passed to the JS_ValueToId() function. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the CURRENT user. Mozilla Firefox has issued an update to correct this vulnerability. More details can be found at: http://www.mozilla.org/security/announce/2010/mfsa2010-67.html ['2010-09-22 - Vulnerability reported to vendor', '2010-10-19 - Coordinated public release of advisory'] regenrecht https://www.zerodayinitiative.com/advisories/ZDI-10-219/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-219/",
+  "title": "Mozilla Firefox LookupGetterOrSetter Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Mozilla Firefox. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists in js3250.dll. When a JavaObject is created and deleted, there is not a proper sanity check for the LookupGetterorSetter() function, which can result in a dangling pointer being passed to the JS_ValueToId() function. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the CURRENT user.",
+  "zdi_can": "ZDI-CAN-929",
+  "zdi_id": "ZDI-10-219"
+}

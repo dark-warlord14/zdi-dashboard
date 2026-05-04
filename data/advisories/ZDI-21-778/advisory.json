@@ -1,0 +1,28 @@
+{
+  "additional_details": "This vulnerability is being disclosed publicly without a patch in accordance with the ZDI 120 day deadline. 02/12/21 \u2013 ZDI reported the vulnerability to ICS-CERT 06/16/21 \u2013 ZDI requested an update 06/16/21 \u2013 ICS-CERT indicated that the vendor is still working on a fix 06/17/21 \u2013 ZDI notified ICS-CERT of the intention to publish the case as a 0-day advisory on 06/29/21 -- Mitigation: Given the nature of the vulnerability the only salient mitigation strategy is to restrict interaction with the application.",
+  "advisory_date": "2021-07-05",
+  "affected_products": [
+    "WebAccess"
+  ],
+  "affected_vendors": [
+    "Advantech"
+  ],
+  "credit": "Natnael Samson (@NattiSamson)",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 9.8,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2021-02-12 - Vulnerability reported to vendor",
+    "2021-07-05 - Coordinated public release of advisory",
+    "2021-07-07 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-21-778 ZDI-CAN-13038 (0Day) Advantech WebAccess Node BwImgExe Stack-based Buffer Overflow Remote Code Execution Vulnerability 2021-07-05 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['Advantech'] ['WebAccess'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Advantech WebAccess Node. Authentication is not required to exploit this vulnerability. The specific flaw exists within BwImgExe.exe, which is accessed through the 0x2711 IOCTL in the webvrpcs process. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current user. This vulnerability is being disclosed publicly without a patch in accordance with the ZDI 120 day deadline. 02/12/21 \u2013 ZDI reported the vulnerability to ICS-CERT 06/16/21 \u2013 ZDI requested an update 06/16/21 \u2013 ICS-CERT indicated that the vendor is still working on a fix 06/17/21 \u2013 ZDI notified ICS-CERT of the intention to publish the case as a 0-day advisory on 06/29/21 -- Mitigation: Given the nature of the vulnerability the only salient mitigation strategy is to restrict interaction with the application. ['2021-02-12 - Vulnerability reported to vendor', '2021-07-05 - Coordinated public release of advisory', '2021-07-07 - Advisory Updated'] Natnael Samson (@NattiSamson) https://www.zerodayinitiative.com/advisories/ZDI-21-778/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-21-778/",
+  "title": "(0Day) Advantech WebAccess Node BwImgExe Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+  "updated_date": "2021-07-07",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Advantech WebAccess Node. Authentication is not required to exploit this vulnerability. The specific flaw exists within BwImgExe.exe, which is accessed through the 0x2711 IOCTL in the webvrpcs process. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current user.",
+  "zdi_can": "ZDI-CAN-13038",
+  "zdi_id": "ZDI-21-778"
+}

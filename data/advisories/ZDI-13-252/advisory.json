@@ -1,0 +1,27 @@
+{
+  "additional_details": "Cogent Real-Time Systems has issued an update to correct this vulnerability. More details can be found at: http://www.cogentdatahub.com/Download_Software.html",
+  "advisory_date": "2013-11-24",
+  "affected_products": [
+    "Cogent Datahub"
+  ],
+  "affected_vendors": [
+    "Cogent Real-Time Systems"
+  ],
+  "credit": "Pawel Wylecial",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2013-09-06 - Vulnerability reported to vendor",
+    "2013-11-24 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-13-252 ZDI-CAN-1981 Cogent DataHub Heap Overflow Remote Code Execution Vulnerability 2013-11-24 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Cogent Real-Time Systems'] ['Cogent Datahub'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Cogent DataHub. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of POST requests. By sending a malformed POST, an attacker is able to overflow a heap buffer. An attacker could exploit this vulnerability to execute arbitrary code in the context of the DataHub process. Cogent Real-Time Systems has issued an update to correct this vulnerability. More details can be found at: http://www.cogentdatahub.com/Download_Software.html ['2013-09-06 - Vulnerability reported to vendor', '2013-11-24 - Coordinated public release of advisory'] Pawel Wylecial https://www.zerodayinitiative.com/advisories/ZDI-13-252/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-13-252/",
+  "title": "Cogent DataHub Heap Overflow Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Cogent DataHub. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of POST requests. By sending a malformed POST, an attacker is able to overflow a heap buffer. An attacker could exploit this vulnerability to execute arbitrary code in the context of the DataHub process.",
+  "zdi_can": "ZDI-CAN-1981",
+  "zdi_id": "ZDI-13-252"
+}

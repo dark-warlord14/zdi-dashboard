@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-22716",
+  "advisory_date": "2022-02-18",
+  "affected_products": [
+    "Office Excel"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Jaanus K\u00e4\u00e4p, Clarified Security",
+  "cve": "CVE-2022-22716",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-22716",
+  "cvss": 2.5,
+  "cvss_vector": "AV:L/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:N",
+  "disclosure_timeline": [
+    "2021-10-27 - Vulnerability reported to vendor",
+    "2022-02-18 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-383 ZDI-CAN-15585 Microsoft Office Excel XLS File Parsing Untrusted Pointer Dereference Information Disclosure Vulnerability 2022-02-18 CVE-2022-22716 https://www.cve.org/CVERecord?id=CVE-2022-22716 2.5 AV:L/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:N ['Microsoft'] ['Office Excel'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Microsoft Office Excel. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of XLS files. The issue results from the lack of proper validation of a user-supplied value prior to dereferencing it as a pointer. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-22716 ['2021-10-27 - Vulnerability reported to vendor', '2022-02-18 - Coordinated public release of advisory'] Jaanus K\u00e4\u00e4p, Clarified Security https://www.zerodayinitiative.com/advisories/ZDI-22-383/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-383/",
+  "title": "Microsoft Office Excel XLS File Parsing Untrusted Pointer Dereference Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Microsoft Office Excel. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of XLS files. The issue results from the lack of proper validation of a user-supplied value prior to dereferencing it as a pointer. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-15585",
+  "zdi_id": "ZDI-22-383"
+}

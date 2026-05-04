@@ -1,0 +1,27 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-us/HT213345",
+  "advisory_date": "2022-08-23",
+  "affected_products": [
+    "macOS"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "Mickey Jin (@patch1t) of Trend Micro",
+  "cve": "CVE-2022-32797",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-32797",
+  "cvss": 3.3,
+  "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+  "disclosure_timeline": [
+    "2022-04-06 - Vulnerability reported to vendor",
+    "2022-08-23 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-1130 ZDI-CAN-17034 Apple macOS AppleScript TASUnparser_PrintObject Untrusted Pointer Dereference Information Disclosure Vulnerability 2022-08-23 CVE-2022-32797 https://www.cve.org/CVERecord?id=CVE-2022-32797 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N ['Apple'] ['macOS'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Apple macOS. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within a function in AppleScript.framework. Crafted data in a SCPT file can trigger a read past the end of an allocated data structure. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process. Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-us/HT213345 ['2022-04-06 - Vulnerability reported to vendor', '2022-08-23 - Coordinated public release of advisory'] Mickey Jin (@patch1t) of Trend Micro https://www.zerodayinitiative.com/advisories/ZDI-22-1130/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-1130/",
+  "title": "Apple macOS AppleScript TASUnparser_PrintObject Untrusted Pointer Dereference Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Apple macOS. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within a function in AppleScript.framework. Crafted data in a SCPT file can trigger a read past the end of an allocated data structure. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-17034",
+  "zdi_id": "ZDI-22-1130"
+}

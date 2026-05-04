@@ -1,0 +1,28 @@
+{
+  "additional_details": "Fixed in version 11.0.00.76",
+  "advisory_date": "2020-02-20",
+  "affected_products": [
+    "Galaxy S10"
+  ],
+  "affected_vendors": [
+    "Samsung"
+  ],
+  "credit": "@fluoroacetate",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 8.4,
+  "cvss_vector": "AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2019-11-07 - Vulnerability reported to vendor",
+    "2020-02-20 - Coordinated public release of advisory",
+    "2020-02-21 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-20-256 ZDI-CAN-9666 (Pwn2Own) Samsung Galaxy S10 IndexedDB Use-After-Free Sandbox Escape Vulnerability 2020-02-20 8.4 AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['Samsung'] ['Galaxy S10'] This vulnerability allows remote attackers to escalate privileges on vulnerable installations of Samsung Galaxy S10. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the IndexedDBDatabase::Close method. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to escalate privileges and escape the Chromium sandbox. Fixed in version 11.0.00.76 ['2019-11-07 - Vulnerability reported to vendor', '2020-02-20 - Coordinated public release of advisory', '2020-02-21 - Advisory Updated'] @fluoroacetate https://www.zerodayinitiative.com/advisories/ZDI-20-256/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-20-256/",
+  "title": "(Pwn2Own) Samsung Galaxy S10 IndexedDB Use-After-Free Sandbox Escape Vulnerability",
+  "updated_date": "2020-02-21",
+  "vulnerability_details": "This vulnerability allows remote attackers to escalate privileges on vulnerable installations of Samsung Galaxy S10. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the IndexedDBDatabase::Close method. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to escalate privileges and escape the Chromium sandbox.",
+  "zdi_can": "ZDI-CAN-9666",
+  "zdi_id": "ZDI-20-256"
+}

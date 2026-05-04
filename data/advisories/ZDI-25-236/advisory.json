@@ -1,0 +1,28 @@
+{
+  "additional_details": "Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/en-US/solution/KA-0019355",
+  "advisory_date": "2025-04-09",
+  "affected_products": [
+    "Apex Central"
+  ],
+  "affected_vendors": [
+    "Trend Micro"
+  ],
+  "credit": "Poh Jia Hao of STAR Labs SG Pte. Ltd.",
+  "cve": "CVE-2025-30678",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-30678",
+  "cvss": 6.5,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+  "disclosure_timeline": [
+    "2024-09-05 - Vulnerability reported to vendor",
+    "2025-04-09 - Coordinated public release of advisory",
+    "2025-04-09 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-236 ZDI-CAN-24939 Trend Micro Apex Central modTMSM Server-Side Request Forgery Information Disclosure Vulnerability 2025-04-09 CVE-2025-30678 https://www.cve.org/CVERecord?id=CVE-2025-30678 6.5 AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N ['Trend Micro'] ['Apex Central'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Trend Micro Apex Central. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the modTMSM webapp widget. The issue results from the lack of proper validation of a URI prior to accessing resources. An attacker can leverage this vulnerability to disclose sensitive data, leading to further compromise. Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/en-US/solution/KA-0019355 ['2024-09-05 - Vulnerability reported to vendor', '2025-04-09 - Coordinated public release of advisory', '2025-04-09 - Advisory Updated'] Poh Jia Hao of STAR Labs SG Pte. Ltd. https://www.zerodayinitiative.com/advisories/ZDI-25-236/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-236/",
+  "title": "Trend Micro Apex Central modTMSM Server-Side Request Forgery Information Disclosure Vulnerability",
+  "updated_date": "2025-04-09",
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Trend Micro Apex Central. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the modTMSM webapp widget. The issue results from the lack of proper validation of a URI prior to accessing resources. An attacker can leverage this vulnerability to disclose sensitive data, leading to further compromise.",
+  "zdi_can": "ZDI-CAN-24939",
+  "zdi_id": "ZDI-25-236"
+}

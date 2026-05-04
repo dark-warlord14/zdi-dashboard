@@ -1,0 +1,27 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT4447",
+  "advisory_date": "2010-12-07",
+  "affected_products": [
+    "Quicktime"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "Moritz Jodeit of n.runs AG",
+  "cve": "CVE-2010-1508",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2010-1508",
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2010-01-06 - Vulnerability reported to vendor",
+    "2010-12-07 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-10-258 ZDI-CAN-645 Apple QuickTime 3GP Parsing Remote Code Execution Vulnerability 2010-12-07 CVE-2010-1508 https://www.cve.org/CVERecord?id=CVE-2010-1508 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Apple'] ['Quicktime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple Quicktime. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the Quicktime.qts module responsible for parsing media files. While handling 3GP streams a function within this module a loop trusts a value directly from the media file and uses it during memory copy operations. By supplying a large enough value this buffer can be overflowed leading to arbitrary code execution under the context of the user accessing the file. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT4447 ['2010-01-06 - Vulnerability reported to vendor', '2010-12-07 - Coordinated public release of advisory'] Moritz Jodeit of n.runs AG https://www.zerodayinitiative.com/advisories/ZDI-10-258/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-258/",
+  "title": "Apple QuickTime 3GP Parsing Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple Quicktime. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the Quicktime.qts module responsible for parsing media files. While handling 3GP streams a function within this module a loop trusts a value directly from the media file and uses it during memory copy operations. By supplying a large enough value this buffer can be overflowed leading to arbitrary code execution under the context of the user accessing the file.",
+  "zdi_can": "ZDI-CAN-645",
+  "zdi_id": "ZDI-10-258"
+}

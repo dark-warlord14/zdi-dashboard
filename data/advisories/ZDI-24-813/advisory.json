@@ -1,0 +1,28 @@
+{
+  "additional_details": "Toshiba has issued an update to correct this vulnerability. More details can be found at: https://www.toshibatec.com/information/20240531_01.html",
+  "advisory_date": "2024-06-18",
+  "affected_products": [
+    "e-STUDIO2518A"
+  ],
+  "affected_vendors": [
+    "Toshiba"
+  ],
+  "credit": "Zhenhua Huang from trendmicro, Harry Zhang from trendmicro, Minmin Li",
+  "cve": "CVE-2024-3496",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-3496",
+  "cvss": 8.8,
+  "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2024-02-14 - Vulnerability reported to vendor",
+    "2024-06-18 - Coordinated public release of advisory",
+    "2024-08-15 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-813 ZDI-CAN-23108 Toshiba e-STUDIO2518A Authentication Bypass Vulnerability 2024-06-18 CVE-2024-3496 https://www.cve.org/CVERecord?id=CVE-2024-3496 8.8 AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['Toshiba'] ['e-STUDIO2518A'] This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of Toshiba e-STUDIO2518A printers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the authentication mechanism. The issue results from improper session management. An attacker can leverage this vulnerability to bypass authentication on the system. Toshiba has issued an update to correct this vulnerability. More details can be found at: https://www.toshibatec.com/information/20240531_01.html ['2024-02-14 - Vulnerability reported to vendor', '2024-06-18 - Coordinated public release of advisory', '2024-08-15 - Advisory Updated'] Zhenhua Huang from trendmicro, Harry Zhang from trendmicro, Minmin Li https://www.zerodayinitiative.com/advisories/ZDI-24-813/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-813/",
+  "title": "Toshiba e-STUDIO2518A Authentication Bypass Vulnerability",
+  "updated_date": "2024-08-15",
+  "vulnerability_details": "This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of Toshiba e-STUDIO2518A printers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the authentication mechanism. The issue results from improper session management. An attacker can leverage this vulnerability to bypass authentication on the system.",
+  "zdi_can": "ZDI-CAN-23108",
+  "zdi_id": "ZDI-24-813"
+}

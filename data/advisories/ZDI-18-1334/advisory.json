@@ -1,0 +1,27 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/kb/HT201222",
+  "advisory_date": "2018-10-31",
+  "affected_products": [
+    "macOS"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "Juwei Lin(@panicaII) of TrendMicro Mobile Security Team",
+  "cve": "CVE-2018-4413",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2018-4413",
+  "cvss": 4.7,
+  "cvss_vector": "AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N",
+  "disclosure_timeline": [
+    "2018-07-20 - Vulnerability reported to vendor",
+    "2018-10-31 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-1334 ZDI-CAN-6839 Apple macOS sysctl_procargsx Uninitialized Buffer Information Disclosure Vulnerability 2018-10-31 CVE-2018-4413 https://www.cve.org/CVERecord?id=CVE-2018-4413 4.7 AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N ['Apple'] ['macOS'] This vulnerability allows local attackers to disclose sensitive information on vulnerable installations of Apple macOS. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of the sysctl_procargsx system call. The issue results from the lack of proper initialization of memory prior to accessing it. An attacker can leverage this in conjunction with other vulnerabilities to escalate privileges in the context of the kernel. Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/kb/HT201222 ['2018-07-20 - Vulnerability reported to vendor', '2018-10-31 - Coordinated public release of advisory'] Juwei Lin(@panicaII) of TrendMicro Mobile Security Team https://www.zerodayinitiative.com/advisories/ZDI-18-1334/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-1334/",
+  "title": "Apple macOS sysctl_procargsx Uninitialized Buffer Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to disclose sensitive information on vulnerable installations of Apple macOS. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of the sysctl_procargsx system call. The issue results from the lack of proper initialization of memory prior to accessing it. An attacker can leverage this in conjunction with other vulnerabilities to escalate privileges in the context of the kernel.",
+  "zdi_can": "ZDI-CAN-6839",
+  "zdi_id": "ZDI-18-1334"
+}

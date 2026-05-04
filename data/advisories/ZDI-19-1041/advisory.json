@@ -1,0 +1,28 @@
+{
+  "additional_details": "Hewlett Packard Enterprise has issued an update to correct this vulnerability. More details can be found at: https://support.hpe.com/hpsc/doc/public/display?docId=a00093539en_us",
+  "advisory_date": "2020-01-29",
+  "affected_products": [
+    "Intelligent Management Center"
+  ],
+  "affected_vendors": [
+    "Hewlett Packard Enterprise"
+  ],
+  "credit": "Steven Seeley (mr_me) of Source Incite",
+  "cve": "CVE-2020-24630",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2020-24630",
+  "cvss": 8.8,
+  "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2019-09-12 - Vulnerability reported to vendor",
+    "2020-01-29 - Coordinated public release of advisory",
+    "2021-03-02 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-19-1041 ZDI-CAN-8965 Hewlett Packard Enterprise Intelligent Management Center operatorOnlineList_content Privilege Escalation Vulnerability 2020-01-29 CVE-2020-24630 https://www.cve.org/CVERecord?id=CVE-2020-24630 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Hewlett Packard Enterprise'] ['Intelligent Management Center'] This vulnerability allows remote attackers to escalate privileges on affected installations of Hewlett Packard Enterprise Intelligent Management Center. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed. The specific flaw exists within the operatorOnlineList_content.xhtml or operatorOnlineList_contentOnly.xhtml endpoint. The issue results from displaying sensitive information without authentication as an admin user. An attacker can leverage this vulnerability to escalate privileges to resources normally protected from the user. Hewlett Packard Enterprise has issued an update to correct this vulnerability. More details can be found at: https://support.hpe.com/hpsc/doc/public/display?docId=a00093539en_us ['2019-09-12 - Vulnerability reported to vendor', '2020-01-29 - Coordinated public release of advisory', '2021-03-02 - Advisory Updated'] Steven Seeley (mr_me) of Source Incite https://www.zerodayinitiative.com/advisories/ZDI-19-1041/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-19-1041/",
+  "title": "Hewlett Packard Enterprise Intelligent Management Center operatorOnlineList_content Privilege Escalation Vulnerability",
+  "updated_date": "2021-03-02",
+  "vulnerability_details": "This vulnerability allows remote attackers to escalate privileges on affected installations of Hewlett Packard Enterprise Intelligent Management Center. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed. The specific flaw exists within the operatorOnlineList_content.xhtml or operatorOnlineList_contentOnly.xhtml endpoint. The issue results from displaying sensitive information without authentication as an admin user. An attacker can leverage this vulnerability to escalate privileges to resources normally protected from the user.",
+  "zdi_can": "ZDI-CAN-8965",
+  "zdi_id": "ZDI-19-1041"
+}

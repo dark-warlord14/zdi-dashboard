@@ -1,0 +1,27 @@
+{
+  "additional_details": "This issue was resolved with 23.0.11.44.",
+  "advisory_date": "2019-01-29",
+  "affected_products": [
+    "SafePay"
+  ],
+  "affected_vendors": [
+    "Bitdefender"
+  ],
+  "credit": "Mat Powell of Trend Micro Zero Day Initiative",
+  "cve": "CVE-2019-6737",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2019-6737",
+  "cvss": 8.8,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2018-09-19 - Vulnerability reported to vendor",
+    "2019-01-29 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-19-158 ZDI-CAN-7247 Bitdefender SafePay openFile Arbitrary File Write Remote Code Execution Vulnerability 2019-01-29 CVE-2019-6737 https://www.cve.org/CVERecord?id=CVE-2019-6737 8.8 AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Bitdefender'] ['SafePay'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Bitdefender SafePay. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the processing of TIScript. The issue lies in the handling of the openFile method, which allows for an arbitrary file write with attacker controlled data. An attacker can leverage this vulnerability execute code in the context of the current process. This issue was resolved with 23.0.11.44. ['2018-09-19 - Vulnerability reported to vendor', '2019-01-29 - Coordinated public release of advisory'] Mat Powell of Trend Micro Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-19-158/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-19-158/",
+  "title": "Bitdefender SafePay openFile Arbitrary File Write Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Bitdefender SafePay. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the processing of TIScript. The issue lies in the handling of the openFile method, which allows for an arbitrary file write with attacker controlled data. An attacker can leverage this vulnerability execute code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-7247",
+  "zdi_id": "ZDI-19-158"
+}

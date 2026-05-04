@@ -1,0 +1,27 @@
+{
+  "additional_details": "Hewlett Packard Enterprise has issued an update to correct this vulnerability. More details can be found at: https://h20566.www2.hpe.com/hpsc/doc/public/display?docId=emr_na-c05157423",
+  "advisory_date": "2016-06-03",
+  "affected_products": [
+    "LoadRunner"
+  ],
+  "affected_vendors": [
+    "Hewlett Packard Enterprise"
+  ],
+  "credit": "Tenable Network Security",
+  "cve": "CVE-2016-4359",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-4359",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2016-01-26 - Vulnerability reported to vendor",
+    "2016-06-03 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-16-363 ZDI-CAN-3516 Hewlett Packard Enterprise LoadRunner Shared Memory Name Construction Remote Code Execution Vulnerability 2016-06-03 CVE-2016-4359 https://www.cve.org/CVERecord?id=CVE-2016-4359 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Hewlett Packard Enterprise'] ['LoadRunner'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Hewlett Packard Enterprise LoadRunner. Authentication is not required to exploit this vulnerability. The specific flaw exists within mchan.dll when constructing a shared memory file name. The issue lies in the failure to validate the size of a user-supplied string prior to copying it to a stack-based buffer. An attacker can leverage this vulnerability to execute arbitrary code under the context of the current process. Hewlett Packard Enterprise has issued an update to correct this vulnerability. More details can be found at: https://h20566.www2.hpe.com/hpsc/doc/public/display?docId=emr_na-c05157423 ['2016-01-26 - Vulnerability reported to vendor', '2016-06-03 - Coordinated public release of advisory'] Tenable Network Security https://www.zerodayinitiative.com/advisories/ZDI-16-363/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-363/",
+  "title": "Hewlett Packard Enterprise LoadRunner Shared Memory Name Construction Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Hewlett Packard Enterprise LoadRunner. Authentication is not required to exploit this vulnerability. The specific flaw exists within mchan.dll when constructing a shared memory file name. The issue lies in the failure to validate the size of a user-supplied string prior to copying it to a stack-based buffer. An attacker can leverage this vulnerability to execute arbitrary code under the context of the current process.",
+  "zdi_can": "ZDI-CAN-3516",
+  "zdi_id": "ZDI-16-363"
+}

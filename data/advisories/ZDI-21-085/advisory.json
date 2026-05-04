@@ -1,0 +1,27 @@
+{
+  "additional_details": "Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/solution/000284207",
+  "advisory_date": "2021-01-27",
+  "affected_products": [
+    "ServerProtect"
+  ],
+  "affected_vendors": [
+    "Trend Micro"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2021-25224",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2021-25224",
+  "cvss": 3.3,
+  "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L",
+  "disclosure_timeline": [
+    "2020-07-16 - Vulnerability reported to vendor",
+    "2021-01-27 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-21-085 ZDI-CAN-11049 Trend Micro ServerProtect splx_manual_scan Memory Exhaustion Denial-Of-Service Vulnerability 2021-01-27 CVE-2021-25224 https://www.cve.org/CVERecord?id=CVE-2021-25224 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L ['Trend Micro'] ['ServerProtect'] This vulnerability allows local attackers to create a denial-of-service condition on affected installations of Trend Micro ServerProtect. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the splx_manual_scan executable. The issue results from the lack of proper validation of user-supplied data, which can result in a memory exhaustion condition. An attacker can leverage this vulnerability to create a denial-of-service condition on the system. Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/solution/000284207 ['2020-07-16 - Vulnerability reported to vendor', '2021-01-27 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-21-085/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-21-085/",
+  "title": "Trend Micro ServerProtect splx_manual_scan Memory Exhaustion Denial-Of-Service Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to create a denial-of-service condition on affected installations of Trend Micro ServerProtect. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the splx_manual_scan executable. The issue results from the lack of proper validation of user-supplied data, which can result in a memory exhaustion condition. An attacker can leverage this vulnerability to create a denial-of-service condition on the system.",
+  "zdi_can": "ZDI-CAN-11049",
+  "zdi_id": "ZDI-21-085"
+}

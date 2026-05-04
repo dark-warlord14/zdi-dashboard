@@ -1,0 +1,28 @@
+{
+  "additional_details": "07/11/23 \u2013 ZDI reported the vulnerability to the vendor. 11/09/23 \u2013 ZDI asked for an update. 04/29/24 \u2013 ZDI asked for an update. 05/24/24 \u2013 ZDI asked for an update. 05/29/24 \u2013 The vendor states that the vulnerability has been addressed but would need to get verification from QA. 07/22/24 \u2013 ZDI asked for an update. 07/29/24 \u2013 The ZDI informed the vendor that since we never received a confirmation that the vulnerability was patched, we have no choice but to assume this issue hasn\u2019t been remediated and that we intend to publish the report as a zero-day advisory on 8/01/24. -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the application",
+  "advisory_date": "2024-08-01",
+  "affected_products": [
+    "Home Flex"
+  ],
+  "affected_vendors": [
+    "ChargePoint"
+  ],
+  "credit": "Todd Manning of Trend Micro Research",
+  "cve": "CVE-2024-7391",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-7391",
+  "cvss": 2.6,
+  "cvss_vector": "AV:A/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:N",
+  "disclosure_timeline": [
+    "2023-07-11 - Vulnerability reported to vendor",
+    "2024-08-01 - Coordinated public release of advisory",
+    "2024-08-15 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-1046 ZDI-CAN-21454 (0Day) ChargePoint Home Flex Bluetooth Low Energy Information Disclosure Vulnerability 2024-08-01 CVE-2024-7391 https://www.cve.org/CVERecord?id=CVE-2024-7391 2.6 AV:A/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:N ['ChargePoint'] ['Home Flex'] This vulnerability allows network-adjacent attackers to disclose sensitive information on affected installations of ChargePoint Home Flex charging devices. User interaction is required to exploit this vulnerability. The specific flaw exists within the Wi-Fi setup logic. By connecting to the device over Bluetooth Low Energy during the setup process, an attacker can obtain Wi-Fi credentials. An attacker can leverage this vulnerability to disclose credentials and gain access to the device owner's Wi-Fi network. 07/11/23 \u2013 ZDI reported the vulnerability to the vendor. 11/09/23 \u2013 ZDI asked for an update. 04/29/24 \u2013 ZDI asked for an update. 05/24/24 \u2013 ZDI asked for an update. 05/29/24 \u2013 The vendor states that the vulnerability has been addressed but would need to get verification from QA. 07/22/24 \u2013 ZDI asked for an update. 07/29/24 \u2013 The ZDI informed the vendor that since we never received a confirmation that the vulnerability was patched, we have no choice but to assume this issue hasn\u2019t been remediated and that we intend to publish the report as a zero-day advisory on 8/01/24. -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the application ['2023-07-11 - Vulnerability reported to vendor', '2024-08-01 - Coordinated public release of advisory', '2024-08-15 - Advisory Updated'] Todd Manning of Trend Micro Research https://www.zerodayinitiative.com/advisories/ZDI-24-1046/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-1046/",
+  "title": "(0Day) ChargePoint Home Flex Bluetooth Low Energy Information Disclosure Vulnerability",
+  "updated_date": "2024-08-15",
+  "vulnerability_details": "This vulnerability allows network-adjacent attackers to disclose sensitive information on affected installations of ChargePoint Home Flex charging devices. User interaction is required to exploit this vulnerability. The specific flaw exists within the Wi-Fi setup logic. By connecting to the device over Bluetooth Low Energy during the setup process, an attacker can obtain Wi-Fi credentials. An attacker can leverage this vulnerability to disclose credentials and gain access to the device owner's Wi-Fi network.",
+  "zdi_can": "ZDI-CAN-21454",
+  "zdi_id": "ZDI-24-1046"
+}

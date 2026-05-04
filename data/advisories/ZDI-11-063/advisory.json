@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/bulletin/ms11-008.mspx",
+  "advisory_date": "2011-02-08",
+  "affected_products": [
+    "Other"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Procyun",
+  "cve": "CVE-2011-0092",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-0092",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2010-06-01 - Vulnerability reported to vendor",
+    "2011-02-08 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-11-063 ZDI-CAN-813 Microsoft Visio 2007 LZW Stream Decompression Exception Vulnerability 2011-02-08 CVE-2011-0092 https://www.cve.org/CVERecord?id=CVE-2011-0092 ['Microsoft'] ['Other'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Visio. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the way Visio handles parsing the VisioDocument stream. Upon handling a malformed stream, the application will raise an exception. While handling this exception, the application will access the vtable of an object that hasn't been completely initialized yet. Successful exploitation could lead to code execution under the context of the application. Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/bulletin/ms11-008.mspx ['2010-06-01 - Vulnerability reported to vendor', '2011-02-08 - Coordinated public release of advisory'] Procyun https://www.zerodayinitiative.com/advisories/ZDI-11-063/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-063/",
+  "title": "Microsoft Visio 2007 LZW Stream Decompression Exception Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Visio. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the way Visio handles parsing the VisioDocument stream. Upon handling a malformed stream, the application will raise an exception. While handling this exception, the application will access the vtable of an object that hasn't been completely initialized yet. Successful exploitation could lead to code execution under the context of the application.",
+  "zdi_can": "ZDI-CAN-813",
+  "zdi_id": "ZDI-11-063"
+}

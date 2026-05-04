@@ -1,0 +1,26 @@
+# ZDI-14-289: Attachmate Reflection Secure FTP Client rftpcom.dll StartLog Remote Code Execution Vulnerability
+
+## Metadata
+
+- **ZDI ID:** ZDI-14-289
+- **ZDI-CAN:** ZDI-CAN-2081
+- **Date:** 2014-08-12
+- **CVE:** CVE-2014-0604
+- **CVSS:** 7.5
+- **CVSS Vector:** AV:N/AC:L/Au:N/C:P/I:P/A:P
+- **Affected Vendors:** Attachmate
+- **Affected Products:** Reflection
+- **Credit:** rgod
+- **Source:** https://www.zerodayinitiative.com/advisories/ZDI-14-289/
+## Vulnerability Details
+
+This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Attachmate Reflection Secure FTP Client. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the Attachmate Reflection Secure FTP Client ActiveX control StartLog method which suffers from a directory traversal flaw. An attacker can exploit this condition to achieve code execution under the context of the browsing user.
+
+## Additional Details
+
+Attachmate has issued an update to correct this vulnerability. More details can be found at: http://support.attachmate.com/techdocs/2501.html
+
+## Disclosure Timeline
+
+- 2014-04-22 - Vulnerability reported to vendor
+- 2014-08-12 - Coordinated public release of advisory

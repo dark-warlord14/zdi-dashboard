@@ -1,0 +1,27 @@
+{
+  "additional_details": "Fixed in Patch Manager v2020.2.4",
+  "advisory_date": "2021-02-24",
+  "affected_products": [
+    "Patch Manager"
+  ],
+  "affected_vendors": [
+    "SolarWinds"
+  ],
+  "credit": "Harrison Neal",
+  "cve": "CVE-2021-27240",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2021-27240",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2020-11-13 - Vulnerability reported to vendor",
+    "2021-02-24 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-21-207 ZDI-CAN-12009 SolarWinds Patch Manager DataGridService Deserialization of Untrusted Data Privilege Escalation Vulnerability 2021-02-24 CVE-2021-27240 https://www.cve.org/CVERecord?id=CVE-2021-27240 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['SolarWinds'] ['Patch Manager'] This vulnerability allows local attackers to escalate privileges on affected installations of SolarWinds Patch Manager. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the DataGridService WCF service. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of Administrator. Fixed in Patch Manager v2020.2.4 ['2020-11-13 - Vulnerability reported to vendor', '2021-02-24 - Coordinated public release of advisory'] Harrison Neal https://www.zerodayinitiative.com/advisories/ZDI-21-207/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-21-207/",
+  "title": "SolarWinds Patch Manager DataGridService Deserialization of Untrusted Data Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of SolarWinds Patch Manager. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the DataGridService WCF service. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of Administrator.",
+  "zdi_can": "ZDI-CAN-12009",
+  "zdi_id": "ZDI-21-207"
+}

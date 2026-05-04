@@ -1,0 +1,27 @@
+{
+  "additional_details": "Advantech has issued an update to correct this vulnerability. More details can be found at: https://us-cert.cisa.gov/ics/advisories/icsa-20-289-02",
+  "advisory_date": "2020-10-19",
+  "affected_products": [
+    "R-SeeNet"
+  ],
+  "affected_vendors": [
+    "Advantech"
+  ],
+  "credit": "rgod",
+  "cve": "CVE-2020-25157",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2020-25157",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+  "disclosure_timeline": [
+    "2020-07-07 - Vulnerability reported to vendor",
+    "2020-10-19 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-20-1262 ZDI-CAN-11373 Advantech R-SeeNet device_position device_id SQL Injection Information Disclosure Vulnerability 2020-10-19 CVE-2020-25157 https://www.cve.org/CVERecord?id=CVE-2020-25157 7.5 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N ['Advantech'] ['R-SeeNet'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Advantech R-SeeNet. Authentication is not required to exploit this vulnerability. The specific flaw exists within device_position.php. When parsing the device_id parameter, the process does not properly validate a user-supplied string before using it to construct SQL queries. An attacker can leverage this vulnerability to disclose stored credentials, leading to further compromise. Advantech has issued an update to correct this vulnerability. More details can be found at: https://us-cert.cisa.gov/ics/advisories/icsa-20-289-02 ['2020-07-07 - Vulnerability reported to vendor', '2020-10-19 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-20-1262/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-20-1262/",
+  "title": "Advantech R-SeeNet device_position device_id SQL Injection Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Advantech R-SeeNet. Authentication is not required to exploit this vulnerability. The specific flaw exists within device_position.php. When parsing the device_id parameter, the process does not properly validate a user-supplied string before using it to construct SQL queries. An attacker can leverage this vulnerability to disclose stored credentials, leading to further compromise.",
+  "zdi_can": "ZDI-CAN-11373",
+  "zdi_id": "ZDI-20-1262"
+}

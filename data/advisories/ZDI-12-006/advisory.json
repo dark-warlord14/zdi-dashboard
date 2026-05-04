@@ -1,0 +1,27 @@
+{
+  "additional_details": "Novell has issued an update to correct this vulnerability. More details can be found at: http://download.novell.com/Download?buildid=Cfw1tDezgbw~",
+  "advisory_date": "2012-01-05",
+  "affected_products": [
+    "Netware"
+  ],
+  "affected_vendors": [
+    "Novell"
+  ],
+  "credit": "Francis Provencher From Protek Research Lab's",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2011-06-03 - Vulnerability reported to vendor",
+    "2012-01-05 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-12-006 ZDI-CAN-1268 Novell Netware XNFS.NLM NFS Rename Remote Code Execution Vulnerability 2012-01-05 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Novell'] ['Netware'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Novell Netware. Authentication is not required to exploit this vulnerability. The flaw exists within the xnfs.nlm component which is used when handling NFS RPC requests. This process listens on UDP port 2049. When decoding the xdr encoded filename from an NFS_RENAME procedure request the process uses the user supplied length as the bounds for its copy to a stack buffer. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the system. Novell has issued an update to correct this vulnerability. More details can be found at: http://download.novell.com/Download?buildid=Cfw1tDezgbw~ ['2011-06-03 - Vulnerability reported to vendor', '2012-01-05 - Coordinated public release of advisory'] Francis Provencher From Protek Research Lab's https://www.zerodayinitiative.com/advisories/ZDI-12-006/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-12-006/",
+  "title": "Novell Netware XNFS.NLM NFS Rename Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Novell Netware. Authentication is not required to exploit this vulnerability. The flaw exists within the xnfs.nlm component which is used when handling NFS RPC requests. This process listens on UDP port 2049. When decoding the xdr encoded filename from an NFS_RENAME procedure request the process uses the user supplied length as the bounds for its copy to a stack buffer. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the system.",
+  "zdi_can": "ZDI-CAN-1268",
+  "zdi_id": "ZDI-12-006"
+}

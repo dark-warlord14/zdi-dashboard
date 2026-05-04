@@ -1,0 +1,27 @@
+{
+  "additional_details": "Fixed in Avast v20.10",
+  "advisory_date": "2021-02-24",
+  "affected_products": [
+    "Premium Security"
+  ],
+  "affected_vendors": [
+    "Avast"
+  ],
+  "credit": "Abdelhamid Naceri",
+  "cve": "CVE-2021-27241",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2021-27241",
+  "cvss": 6.1,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:H",
+  "disclosure_timeline": [
+    "2020-11-18 - Vulnerability reported to vendor",
+    "2021-02-24 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-21-208 ZDI-CAN-12082 Avast Premium Security AvastSvc Directory Junction Denial-of-Service Vulnerability 2021-02-24 CVE-2021-27241 https://www.cve.org/CVERecord?id=CVE-2021-27241 6.1 AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:H ['Avast'] ['Premium Security'] This vulnerability allows local attackers to delete arbitrary directories on affected installations of Avast Premium Security. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the AvastSvc.exe module. By creating a directory junction, an attacker can abuse the service to delete a directory. An attacker can leverage this vulnerability to create a denial-of-service condition on the system. Fixed in Avast v20.10 ['2020-11-18 - Vulnerability reported to vendor', '2021-02-24 - Coordinated public release of advisory'] Abdelhamid Naceri https://www.zerodayinitiative.com/advisories/ZDI-21-208/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-21-208/",
+  "title": "Avast Premium Security AvastSvc Directory Junction Denial-of-Service Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to delete arbitrary directories on affected installations of Avast Premium Security. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the AvastSvc.exe module. By creating a directory junction, an attacker can abuse the service to delete a directory. An attacker can leverage this vulnerability to create a denial-of-service condition on the system.",
+  "zdi_can": "ZDI-CAN-12082",
+  "zdi_id": "ZDI-21-208"
+}

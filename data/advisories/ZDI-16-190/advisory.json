@@ -1,0 +1,27 @@
+{
+  "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb16-09.html",
+  "advisory_date": "2016-03-08",
+  "affected_products": [
+    "Acrobat Pro DC"
+  ],
+  "affected_vendors": [
+    "Adobe"
+  ],
+  "credit": "AbdulAziz Hariri and Jasiel Spelman of HP Zero Day Initiative",
+  "cve": "CVE-2016-1008",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-1008",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2015-08-03 - Vulnerability reported to vendor",
+    "2016-03-08 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-16-190 ZDI-CAN-3111 Adobe Acrobat Pro DC DLL Planting Remote Code Execution Vulnerability 2016-03-08 CVE-2016-1008 https://www.cve.org/CVERecord?id=CVE-2016-1008 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Adobe'] ['Acrobat Pro DC'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Adobe Acrobat Pro DC. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The specific flaw exists within the handling of DLL search paths. In specific situations an attacker can force Acrobat Pro DC to load an arbitrary DLL from specific locations. An attacker can leverage this vulnerability to execute code under the context of the current process. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb16-09.html ['2015-08-03 - Vulnerability reported to vendor', '2016-03-08 - Coordinated public release of advisory'] AbdulAziz Hariri and Jasiel Spelman of HP Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-16-190/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-190/",
+  "title": "Adobe Acrobat Pro DC DLL Planting Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Adobe Acrobat Pro DC. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The specific flaw exists within the handling of DLL search paths. In specific situations an attacker can force Acrobat Pro DC to load an arbitrary DLL from specific locations. An attacker can leverage this vulnerability to execute code under the context of the current process.",
+  "zdi_can": "ZDI-CAN-3111",
+  "zdi_id": "ZDI-16-190"
+}

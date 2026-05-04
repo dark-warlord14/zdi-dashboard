@@ -1,0 +1,28 @@
+{
+  "additional_details": "QEMU has issued an update to correct this vulnerability. More details can be found at: https://bugzilla.redhat.com/show_bug.cgi?id=2387588",
+  "advisory_date": "2025-09-04",
+  "affected_products": [
+    "QEMU"
+  ],
+  "affected_vendors": [
+    "QEMU"
+  ],
+  "credit": "Xiaobye(@xiaobye_tw) of DEVCORE Research Team",
+  "cve": "CVE-2025-8860",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-8860",
+  "cvss": 5.3,
+  "cvss_vector": "AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:N/A:N",
+  "disclosure_timeline": [
+    "2025-07-18 - Vulnerability reported to vendor",
+    "2025-09-04 - Coordinated public release of advisory",
+    "2025-09-04 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-884 ZDI-CAN-27261 QEMU uefi-vars Uninitialized Memory Information Disclosure Vulnerability 2025-09-04 CVE-2025-8860 https://www.cve.org/CVERecord?id=CVE-2025-8860 5.3 AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:N/A:N ['QEMU'] ['QEMU'] This vulnerability allows local attackers to disclose sensitive information on affected installations of QEMU. An attacker must first obtain the ability to execute high-privileged code on the target guest system in order to exploit this vulnerability. The specific flaw exists within the uefi-vars device. The issue results from the lack of proper initialization of memory prior to accessing it. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the emulator. QEMU has issued an update to correct this vulnerability. More details can be found at: https://bugzilla.redhat.com/show_bug.cgi?id=2387588 ['2025-07-18 - Vulnerability reported to vendor', '2025-09-04 - Coordinated public release of advisory', '2025-09-04 - Advisory Updated'] Xiaobye(@xiaobye_tw) of DEVCORE Research Team https://www.zerodayinitiative.com/advisories/ZDI-25-884/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-884/",
+  "title": "QEMU uefi-vars Uninitialized Memory Information Disclosure Vulnerability",
+  "updated_date": "2025-09-04",
+  "vulnerability_details": "This vulnerability allows local attackers to disclose sensitive information on affected installations of QEMU. An attacker must first obtain the ability to execute high-privileged code on the target guest system in order to exploit this vulnerability. The specific flaw exists within the uefi-vars device. The issue results from the lack of proper initialization of memory prior to accessing it. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the emulator.",
+  "zdi_can": "ZDI-CAN-27261",
+  "zdi_id": "ZDI-25-884"
+}

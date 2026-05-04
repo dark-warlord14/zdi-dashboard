@@ -1,0 +1,27 @@
+{
+  "additional_details": "Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/cpujul2014-1972956.html",
+  "advisory_date": "2014-07-18",
+  "affected_products": [
+    "Business Intelligence"
+  ],
+  "affected_vendors": [
+    "Oracle"
+  ],
+  "credit": "Andrea Micalizzi (rgod)",
+  "cve": "CVE-2014-4249",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-4249",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2014-01-30 - Vulnerability reported to vendor",
+    "2014-07-18 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-14-257 ZDI-CAN-2107 Oracle Business Intelligence Mobile App Designer UIXCacheResourceServlet Information Disclosure Vulnerability 2014-07-18 CVE-2014-4249 https://www.cve.org/CVERecord?id=CVE-2014-4249 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Oracle'] ['Business Intelligence'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Oracle Business Intelligence Mobile App Designer. Authentication is not required to exploit this vulnerability. The specific flaw exists within the UIXCacheResourceServlet servlet. The issue lies in the ability to download arbitrary files using a directory traversal vulnerability. A remote attacker can abuse this to disclose sensitive information that could result in remote code under the context of the process. Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/cpujul2014-1972956.html ['2014-01-30 - Vulnerability reported to vendor', '2014-07-18 - Coordinated public release of advisory'] Andrea Micalizzi (rgod) https://www.zerodayinitiative.com/advisories/ZDI-14-257/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-14-257/",
+  "title": "Oracle Business Intelligence Mobile App Designer UIXCacheResourceServlet Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Oracle Business Intelligence Mobile App Designer. Authentication is not required to exploit this vulnerability. The specific flaw exists within the UIXCacheResourceServlet servlet. The issue lies in the ability to download arbitrary files using a directory traversal vulnerability. A remote attacker can abuse this to disclose sensitive information that could result in remote code under the context of the process.",
+  "zdi_can": "ZDI-CAN-2107",
+  "zdi_id": "ZDI-14-257"
+}

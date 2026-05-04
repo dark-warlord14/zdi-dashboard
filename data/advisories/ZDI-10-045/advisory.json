@@ -1,0 +1,27 @@
+{
+  "additional_details": "http://support.apple.com/kb/HT4104 http://support.apple.com/kb/HT4077",
+  "advisory_date": "2010-04-02",
+  "affected_products": [
+    "Quicktime"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2010-0526",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2010-0526",
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2009-11-06 - Vulnerability reported to vendor",
+    "2010-04-02 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-10-045 ZDI-CAN-608 Apple QuickTime MPEG-1 genl Atom Remote Code Execution Vulnerability 2010-04-02 CVE-2010-0526 https://www.cve.org/CVERecord?id=CVE-2010-0526 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Apple'] ['Quicktime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple QuickTime. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists during the parsing of MPEG content. Upon reading a field used for compression within a 'genl' atom in the movie container, the application will decompress outside the boundary of an allocated buffer. Successful exploitation can lead to code execution under the context of the application. http://support.apple.com/kb/HT4104 http://support.apple.com/kb/HT4077 ['2009-11-06 - Vulnerability reported to vendor', '2010-04-02 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-10-045/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-045/",
+  "title": "Apple QuickTime MPEG-1 genl Atom Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple QuickTime. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists during the parsing of MPEG content. Upon reading a field used for compression within a 'genl' atom in the movie container, the application will decompress outside the boundary of an allocated buffer. Successful exploitation can lead to code execution under the context of the application.",
+  "zdi_can": "ZDI-CAN-608",
+  "zdi_id": "ZDI-10-045"
+}

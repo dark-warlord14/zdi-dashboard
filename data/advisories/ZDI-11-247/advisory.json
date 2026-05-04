@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/bulletin/MS11-057.mspx",
+  "advisory_date": "2011-08-09",
+  "affected_products": [
+    "Internet Explorer 8"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2011-1963",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-1963",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2011-05-12 - Vulnerability reported to vendor",
+    "2011-08-09 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-11-247 ZDI-CAN-1224 Microsoft Internet Explorer XSLT SetViewSlave Remote Code Execution Vulnerability 2011-08-09 CVE-2011-1963 https://www.cve.org/CVERecord?id=CVE-2011-1963 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Microsoft'] ['Internet Explorer 8'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the part of the application that is responsible for reloading the markup for a root document object. During reloading of the markup, the application will dispatch a notification whilst retaining a reference to the object in the function's context. This can allow an event callback to tamper with the root document object. Usage of this malformed object can then be used to achieve code execution under the context of the application. Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/bulletin/MS11-057.mspx ['2011-05-12 - Vulnerability reported to vendor', '2011-08-09 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-11-247/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-247/",
+  "title": "Microsoft Internet Explorer XSLT SetViewSlave Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the part of the application that is responsible for reloading the markup for a root document object. During reloading of the markup, the application will dispatch a notification whilst retaining a reference to the object in the function's context. This can allow an event callback to tamper with the root document object. Usage of this malformed object can then be used to achieve code execution under the context of the application.",
+  "zdi_can": "ZDI-CAN-1224",
+  "zdi_id": "ZDI-11-247"
+}

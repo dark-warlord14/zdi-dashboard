@@ -1,0 +1,27 @@
+{
+  "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: http://www.adobe.com/support/security/bulletins/apsb09-08.html",
+  "advisory_date": "2009-06-24",
+  "affected_products": [
+    "Shockwave Player"
+  ],
+  "affected_vendors": [
+    "Adobe"
+  ],
+  "credit": "Paul Kurczaba",
+  "cve": "CVE-2009-1860",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2009-1860",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2008-05-12 - Vulnerability reported to vendor",
+    "2009-06-24 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-09-044 ZDI-CAN-327 Adobe Shockwave Player Director File Parsing Pointer Overwrite Vulnerability 2009-06-24 CVE-2009-1860 https://www.cve.org/CVERecord?id=CVE-2009-1860 ['Adobe'] ['Shockwave Player'] This vulnerability allows remote attackers to execute code on vulnerable installations of Adobe's Shockwave Player. User interaction is required in that a user must visit a malicious web site. The specific flaw exists when the Shockwave player attempts to load a specially crafted Adobe Director File. When a malicious value is used during a memory dereference a possible 4-byte memory overwrite may occur. Exploitation can lead to remote system compromise under the credentials of the currently logged in user. Adobe has issued an update to correct this vulnerability. More details can be found at: http://www.adobe.com/support/security/bulletins/apsb09-08.html ['2008-05-12 - Vulnerability reported to vendor', '2009-06-24 - Coordinated public release of advisory'] Paul Kurczaba https://www.zerodayinitiative.com/advisories/ZDI-09-044/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-09-044/",
+  "title": "Adobe Shockwave Player Director File Parsing Pointer Overwrite Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute code on vulnerable installations of Adobe's Shockwave Player. User interaction is required in that a user must visit a malicious web site. The specific flaw exists when the Shockwave player attempts to load a specially crafted Adobe Director File. When a malicious value is used during a memory dereference a possible 4-byte memory overwrite may occur. Exploitation can lead to remote system compromise under the credentials of the currently logged in user.",
+  "zdi_can": "ZDI-CAN-327",
+  "zdi_id": "ZDI-09-044"
+}

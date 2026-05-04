@@ -1,0 +1,27 @@
+{
+  "additional_details": "Google has issued an update to correct this vulnerability. More details can be found at: http://googlechromereleases.blogspot.com/2016/03/stable-channel-update_24.html",
+  "advisory_date": "2016-04-08",
+  "affected_products": [
+    "Chrome"
+  ],
+  "affected_vendors": [
+    "Google"
+  ],
+  "credit": "lokihardt",
+  "cve": "CVE-2016-1649",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-1649",
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2016-03-16 - Vulnerability reported to vendor",
+    "2016-04-08 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-16-224 ZDI-CAN-3623 Google Chrome libANGLE glGetUniformfv Buffer Overflow Remote Code Execution Vulnerability 2016-04-08 CVE-2016-1649 https://www.cve.org/CVERecord?id=CVE-2016-1649 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Google'] ['Chrome'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Google Chrome. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the libANGLE library. The issue lies in the failure to safely copy data from buffers of disparate types. An attacker can leverage this vulnerability to execute code within the context of the GPU process. Google has issued an update to correct this vulnerability. More details can be found at: http://googlechromereleases.blogspot.com/2016/03/stable-channel-update_24.html ['2016-03-16 - Vulnerability reported to vendor', '2016-04-08 - Coordinated public release of advisory'] lokihardt https://www.zerodayinitiative.com/advisories/ZDI-16-224/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-224/",
+  "title": "Google Chrome libANGLE glGetUniformfv Buffer Overflow Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Google Chrome. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the libANGLE library. The issue lies in the failure to safely copy data from buffers of disparate types. An attacker can leverage this vulnerability to execute code within the context of the GPU process.",
+  "zdi_can": "ZDI-CAN-3623",
+  "zdi_id": "ZDI-16-224"
+}

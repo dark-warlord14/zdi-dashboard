@@ -1,0 +1,27 @@
+{
+  "additional_details": "Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/javacpufeb2011-304611.html",
+  "advisory_date": "2011-02-15",
+  "affected_products": [
+    "Java Runtime"
+  ],
+  "affected_vendors": [
+    "Oracle"
+  ],
+  "credit": "Frederic Hoguin",
+  "cve": "CVE-2010-4452",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2010-4452",
+  "cvss": 9.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:C",
+  "disclosure_timeline": [
+    "2010-09-28 - Vulnerability reported to vendor",
+    "2011-02-15 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-11-084 ZDI-CAN-926 Oracle Java Unsigned Applet Applet2ClassLoader Remote Code Execution Vulnerability 2011-02-15 CVE-2010-4452 https://www.cve.org/CVERecord?id=CVE-2010-4452 9.0 AV:N/AC:L/Au:N/C:P/I:P/A:C ['Oracle'] ['Java Runtime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of the Java Runtime Environment. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the findClass method of the sun.plugin2.applet.Applet2ClassLoader class. Due to a failure to properly validate URLs supplied by an implicitly trusted applet, it is possible to execute arbitrary code on Windows 32-bit and 64-bit, as well as Linux 32-bit platforms under the context of the SYSTEM user. Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/javacpufeb2011-304611.html ['2010-09-28 - Vulnerability reported to vendor', '2011-02-15 - Coordinated public release of advisory'] Frederic Hoguin https://www.zerodayinitiative.com/advisories/ZDI-11-084/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-084/",
+  "title": "Oracle Java Unsigned Applet Applet2ClassLoader Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of the Java Runtime Environment. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the findClass method of the sun.plugin2.applet.Applet2ClassLoader class. Due to a failure to properly validate URLs supplied by an implicitly trusted applet, it is possible to execute arbitrary code on Windows 32-bit and 64-bit, as well as Linux 32-bit platforms under the context of the SYSTEM user.",
+  "zdi_can": "ZDI-CAN-926",
+  "zdi_id": "ZDI-11-084"
+}

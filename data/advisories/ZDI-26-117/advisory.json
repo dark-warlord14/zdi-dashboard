@@ -1,0 +1,28 @@
+{
+  "additional_details": "RustDesk has issued an update to correct this vulnerability. More details can be found at: https://github.com/rustdesk/rustdesk/pull/13736",
+  "advisory_date": "2026-02-19",
+  "affected_products": [
+    "Client for Windows"
+  ],
+  "affected_vendors": [
+    "RustDesk"
+  ],
+  "credit": "mad31k",
+  "cve": "CVE-2026-2490",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-2490",
+  "cvss": 5.5,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+  "disclosure_timeline": [
+    "2025-09-11 - Vulnerability reported to vendor",
+    "2026-02-19 - Coordinated public release of advisory",
+    "2026-02-19 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-26-117 ZDI-CAN-27909 RustDesk Client for Windows Transfer File Link Following Information Disclosure Vulnerability 2026-02-19 CVE-2026-2490 https://www.cve.org/CVERecord?id=CVE-2026-2490 5.5 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N ['RustDesk'] ['Client for Windows'] This vulnerability allows local attackers to disclose sensitive information on affected installations of RustDesk Client for Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Transfer File feature. By uploading a symbolic link, an attacker can abuse the service to read arbitrary files. An attacker can leverage this vulnerability to disclose information in the context of SYSTEM. RustDesk has issued an update to correct this vulnerability. More details can be found at: https://github.com/rustdesk/rustdesk/pull/13736 ['2025-09-11 - Vulnerability reported to vendor', '2026-02-19 - Coordinated public release of advisory', '2026-02-19 - Advisory Updated'] mad31k https://www.zerodayinitiative.com/advisories/ZDI-26-117/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-117/",
+  "title": "RustDesk Client for Windows Transfer File Link Following Information Disclosure Vulnerability",
+  "updated_date": "2026-02-19",
+  "vulnerability_details": "This vulnerability allows local attackers to disclose sensitive information on affected installations of RustDesk Client for Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Transfer File feature. By uploading a symbolic link, an attacker can abuse the service to read arbitrary files. An attacker can leverage this vulnerability to disclose information in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-27909",
+  "zdi_id": "ZDI-26-117"
+}

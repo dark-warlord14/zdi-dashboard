@@ -1,0 +1,28 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-53788",
+  "advisory_date": "2025-08-14",
+  "affected_products": [
+    "Windows"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "William Gamazo Sanchez and Nitesh Surana of Trend Research",
+  "cve": "CVE-2025-53788",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-53788",
+  "cvss": 4.7,
+  "cvss_vector": "AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N",
+  "disclosure_timeline": [
+    "2025-07-09 - Vulnerability reported to vendor",
+    "2025-08-14 - Coordinated public release of advisory",
+    "2025-08-14 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-844 ZDI-CAN-27541 Microsoft Windows Subsystem for Linux WslCoreVm::Initialize Incorrect Privilege Management Information Disclosure Vulnerability 2025-08-14 CVE-2025-53788 https://www.cve.org/CVERecord?id=CVE-2025-53788 4.7 AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N ['Microsoft'] ['Windows'] This vulnerability allows local attackers to read arbitrary files on affected installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within WslCoreVm::Initialize method. The issue results from incorrect management of privileges. An attacker can leverage this vulnerability to read files in the context of SYSTEM. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-53788 ['2025-07-09 - Vulnerability reported to vendor', '2025-08-14 - Coordinated public release of advisory', '2025-08-14 - Advisory Updated'] William Gamazo Sanchez and Nitesh Surana of Trend Research https://www.zerodayinitiative.com/advisories/ZDI-25-844/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-844/",
+  "title": "Microsoft Windows Subsystem for Linux WslCoreVm::Initialize Incorrect Privilege Management Information Disclosure Vulnerability",
+  "updated_date": "2025-08-14",
+  "vulnerability_details": "This vulnerability allows local attackers to read arbitrary files on affected installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within WslCoreVm::Initialize method. The issue results from incorrect management of privileges. An attacker can leverage this vulnerability to read files in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-27541",
+  "zdi_id": "ZDI-25-844"
+}

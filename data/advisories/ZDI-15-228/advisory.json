@@ -1,0 +1,27 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-us/HT204826",
+  "advisory_date": "2015-05-15",
+  "affected_products": [
+    "Safari"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "Joe Vennix of Rapid7 Inc.",
+  "cve": "CVE-2015-1155",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-1155",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2015-02-26 - Vulnerability reported to vendor",
+    "2015-05-15 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-15-228 ZDI-CAN-2783 Apple Safari file:// Redirection Sandbox Escape Vulnerabliity 2015-05-15 CVE-2015-1155 https://www.cve.org/CVERecord?id=CVE-2015-1155 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Apple'] ['Safari'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple Safari. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of popups to invalid pages. The issue lies in the ability to control the history of a window with higher privileges. An attacker can leverage this vulnerability to execute code outside the context of the Safari sandbox. Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-us/HT204826 ['2015-02-26 - Vulnerability reported to vendor', '2015-05-15 - Coordinated public release of advisory'] Joe Vennix of Rapid7 Inc. https://www.zerodayinitiative.com/advisories/ZDI-15-228/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-228/",
+  "title": "Apple Safari file:// Redirection Sandbox Escape Vulnerabliity",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple Safari. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of popups to invalid pages. The issue lies in the ability to control the history of a window with higher privileges. An attacker can leverage this vulnerability to execute code outside the context of the Safari sandbox.",
+  "zdi_can": "ZDI-CAN-2783",
+  "zdi_id": "ZDI-15-228"
+}

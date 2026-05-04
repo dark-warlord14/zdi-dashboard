@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ZDI Published Advisory Detail",
+  "type": "object",
+  "required": ["zdi_id", "title", "source_url"],
+  "properties": {
+    "kind": {"type": "string", "const": "published"},
+    "zdi_id": {"type": "string"},
+    "zdi_can": {"type": ["string", "null"]},
+    "title": {"type": "string"},
+    "advisory_date": {"type": ["string", "null"]},
+    "updated_date": {"type": ["string", "null"]},
+    "cve": {"type": ["string", "null"]},
+    "cve_url": {"type": ["string", "null"]},
+    "cvss": {"type": ["number", "null"]},
+    "cvss_vector": {"type": ["string", "null"]},
+    "affected_vendors": {"type": "array", "items": {"type": "string"}},
+    "affected_products": {"type": "array", "items": {"type": "string"}},
+    "vulnerability_details": {"type": ["string", "null"]},
+    "additional_details": {"type": ["string", "null"]},
+    "disclosure_timeline": {"type": "array", "items": {"type": "string"}},
+    "credit": {"type": ["string", "null"]},
+    "source_url": {"type": "string"},
+    "search_text": {"type": "string"}
+  }
+}

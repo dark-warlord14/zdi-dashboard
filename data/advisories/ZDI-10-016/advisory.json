@@ -1,0 +1,31 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/bulletin/MS10-007.mspx",
+  "advisory_date": "2010-02-09",
+  "affected_products": [
+    "Windows XP",
+    "Windows 2000",
+    "Windows Server 2003"
+  ],
+  "affected_vendors": [
+    "Microsoft",
+    "Microsoft",
+    "Microsoft"
+  ],
+  "credit": "Brett Moore, Insomnia Security",
+  "cve": "CVE-2010-0027",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2010-0027",
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2009-07-20 - Vulnerability reported to vendor",
+    "2010-02-09 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-10-016 ZDI-CAN-495 Microsoft Windows ShellExecute Improper Sanitization Code Execution Vulnerability 2010-02-09 CVE-2010-0027 https://www.cve.org/CVERecord?id=CVE-2010-0027 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Microsoft', 'Microsoft', 'Microsoft'] ['Windows XP', 'Windows 2000', 'Windows Server 2003'] This vulnerability allows remote attackers to force a Microsoft Windows system to execute a given local executable. User interaction is required in that the target must access a malicious URL. The specific flaw exists within the ShellExecute API. Using a specially formatted URL an attacker can bypass sanitization checks within this function and force the calling application into running an executable of their choice. Successful exploitation requires a useful binary to exist in a predictable location on the remote system. Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/bulletin/MS10-007.mspx ['2009-07-20 - Vulnerability reported to vendor', '2010-02-09 - Coordinated public release of advisory'] Brett Moore, Insomnia Security https://www.zerodayinitiative.com/advisories/ZDI-10-016/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-016/",
+  "title": "Microsoft Windows ShellExecute Improper Sanitization Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to force a Microsoft Windows system to execute a given local executable. User interaction is required in that the target must access a malicious URL. The specific flaw exists within the ShellExecute API. Using a specially formatted URL an attacker can bypass sanitization checks within this function and force the calling application into running an executable of their choice. Successful exploitation requires a useful binary to exist in a predictable location on the remote system.",
+  "zdi_can": "ZDI-CAN-495",
+  "zdi_id": "ZDI-10-016"
+}

@@ -1,0 +1,28 @@
+{
+  "additional_details": "Wyze has issued an update to correct this vulnerability. More details can be found at: https://forums.wyze.com/t/security-advisory/289256",
+  "advisory_date": "2024-06-21",
+  "affected_products": [
+    "Cam v3"
+  ],
+  "affected_vendors": [
+    "Wyze"
+  ],
+  "credit": "Vincent DEHORS (@vdehors), Kevin DENIS (@0xmitsurugi), Romain KRAFT (@Areizen_) from Synacktiv (@Synacktiv)",
+  "cve": "CVE-2024-6246",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-6246",
+  "cvss": 9.6,
+  "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2023-11-09 - Vulnerability reported to vendor",
+    "2024-06-21 - Coordinated public release of advisory",
+    "2024-08-15 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-837 ZDI-CAN-22310 (Pwn2Own) Wyze Cam v3 Realtek Wi-Fi Driver Heap-Based Buffer Overflow Remote Code Execution Vulnerability 2024-06-21 CVE-2024-6246 https://www.cve.org/CVERecord?id=CVE-2024-6246 9.6 AV:A/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H ['Wyze'] ['Cam v3'] This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Wyze Cam v3 IP cameras. Authentication is not required to exploit this vulnerability. The specific flaw exists within the Realtek Wi-Fi kernel module. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the kernel. Wyze has issued an update to correct this vulnerability. More details can be found at: https://forums.wyze.com/t/security-advisory/289256 ['2023-11-09 - Vulnerability reported to vendor', '2024-06-21 - Coordinated public release of advisory', '2024-08-15 - Advisory Updated'] Vincent DEHORS (@vdehors), Kevin DENIS (@0xmitsurugi), Romain KRAFT (@Areizen_) from Synacktiv (@Synacktiv) https://www.zerodayinitiative.com/advisories/ZDI-24-837/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-837/",
+  "title": "(Pwn2Own) Wyze Cam v3 Realtek Wi-Fi Driver Heap-Based Buffer Overflow Remote Code Execution Vulnerability",
+  "updated_date": "2024-08-15",
+  "vulnerability_details": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Wyze Cam v3 IP cameras. Authentication is not required to exploit this vulnerability. The specific flaw exists within the Realtek Wi-Fi kernel module. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the kernel.",
+  "zdi_can": "ZDI-CAN-22310",
+  "zdi_id": "ZDI-24-837"
+}

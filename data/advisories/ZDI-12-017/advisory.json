@@ -1,0 +1,27 @@
+{
+  "additional_details": "Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/cpujan2012-366304.html",
+  "advisory_date": "2012-01-20",
+  "affected_products": [
+    "Outside In"
+  ],
+  "affected_vendors": [
+    "Oracle"
+  ],
+  "credit": "Anonymous",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 9.7,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:P",
+  "disclosure_timeline": [
+    "2011-11-02 - Vulnerability reported to vendor",
+    "2012-01-20 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-12-017 ZDI-CAN-1306 Oracle Outside In OOXML Relationship Tag Parsing Remote Code Execution Vulnerability 2012-01-20 9.7 AV:N/AC:L/Au:N/C:C/I:C/A:P ['Oracle'] ['Outside In'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Oracle Outside In. Authentication is not required to exploit this vulnerability. The flaw exists within the sccfut.dll component which is used by multiple vendors, most notably the Novell Groupwise E-Mail Client. When opening the OOXML formatted mail attachment for preview the process copies the target of a Relationship tag to a local stack buffer. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of SYSTEM. Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/cpujan2012-366304.html ['2011-11-02 - Vulnerability reported to vendor', '2012-01-20 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-12-017/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-12-017/",
+  "title": "Oracle Outside In OOXML Relationship Tag Parsing Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Oracle Outside In. Authentication is not required to exploit this vulnerability. The flaw exists within the sccfut.dll component which is used by multiple vendors, most notably the Novell Groupwise E-Mail Client. When opening the OOXML formatted mail attachment for preview the process copies the target of a Relationship tag to a local stack buffer. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-1306",
+  "zdi_id": "ZDI-12-017"
+}

@@ -1,0 +1,28 @@
+{
+  "additional_details": "https://download.schneider-electric.com/files?p_Doc_Ref=SEVD-2022-039-01 https://www.cisa.gov/uscert/ics/advisories/icsa-22-046-01",
+  "advisory_date": "2022-02-11",
+  "affected_products": [
+    "IGSS"
+  ],
+  "affected_vendors": [
+    "Schneider Electric"
+  ],
+  "credit": "Vyacheslav Moskvin",
+  "cve": "CVE-2022-24312",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-24312",
+  "cvss": 9.8,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2021-12-15 - Vulnerability reported to vendor",
+    "2022-02-11 - Coordinated public release of advisory",
+    "2023-09-20 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-321 ZDI-CAN-14943 Schneider Electric IGSS IGSSdataServer Directory Traversal Remote Code Execution Vulnerability 2022-02-11 CVE-2022-24312 https://www.cve.org/CVERecord?id=CVE-2022-24312 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['Schneider Electric'] ['IGSS'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Schneider Electric IGSS. Authentication is not required to exploit this vulnerability. The specific flaw exists within the IGSSDataServer process, which listens on TCP port 12401 by default. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute code in the context of the current user. https://download.schneider-electric.com/files?p_Doc_Ref=SEVD-2022-039-01 https://www.cisa.gov/uscert/ics/advisories/icsa-22-046-01 ['2021-12-15 - Vulnerability reported to vendor', '2022-02-11 - Coordinated public release of advisory', '2023-09-20 - Advisory Updated'] Vyacheslav Moskvin https://www.zerodayinitiative.com/advisories/ZDI-22-321/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-321/",
+  "title": "Schneider Electric IGSS IGSSdataServer Directory Traversal Remote Code Execution Vulnerability",
+  "updated_date": "2023-09-20",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Schneider Electric IGSS. Authentication is not required to exploit this vulnerability. The specific flaw exists within the IGSSDataServer process, which listens on TCP port 12401 by default. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute code in the context of the current user.",
+  "zdi_can": "ZDI-CAN-14943",
+  "zdi_id": "ZDI-22-321"
+}

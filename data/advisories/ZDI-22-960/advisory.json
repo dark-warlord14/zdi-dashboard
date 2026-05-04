@@ -1,0 +1,28 @@
+{
+  "additional_details": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/drivers/lightnvm/Kconfig?h=v5.10.114&id=549209caabc89f2877ad5f62d11fca5c052e0e8 https://access.redhat.com/security/cve/CVE-2022-2991",
+  "advisory_date": "2022-07-11",
+  "affected_products": [
+    "Kernel"
+  ],
+  "affected_vendors": [
+    "Linux"
+  ],
+  "credit": "Lucas Leong (@_wmliang_) of Trend Micro Zero Day Initiative",
+  "cve": "CVE-2022-2991",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-2991",
+  "cvss": 8.2,
+  "cvss_vector": "AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2022-04-27 - Vulnerability reported to vendor",
+    "2022-07-11 - Coordinated public release of advisory",
+    "2023-09-20 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-960 ZDI-CAN-17194 Linux Kernel LightNVM Subsystem Heap-based Overflow Privilege Escalation Vulnerability 2022-07-11 CVE-2022-2991 https://www.cve.org/CVERecord?id=CVE-2022-2991 8.2 AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H ['Linux'] ['Kernel'] This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute high-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the LightNVM subsystem. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length heap-based buffer. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the kernel. https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/drivers/lightnvm/Kconfig?h=v5.10.114&id=549209caabc89f2877ad5f62d11fca5c052e0e8 https://access.redhat.com/security/cve/CVE-2022-2991 ['2022-04-27 - Vulnerability reported to vendor', '2022-07-11 - Coordinated public release of advisory', '2023-09-20 - Advisory Updated'] Lucas Leong (@_wmliang_) of Trend Micro Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-22-960/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-960/",
+  "title": "Linux Kernel LightNVM Subsystem Heap-based Overflow Privilege Escalation Vulnerability",
+  "updated_date": "2023-09-20",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute high-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the LightNVM subsystem. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length heap-based buffer. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the kernel.",
+  "zdi_can": "ZDI-CAN-17194",
+  "zdi_id": "ZDI-22-960"
+}

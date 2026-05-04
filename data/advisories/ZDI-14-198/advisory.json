@@ -1,0 +1,27 @@
+{
+  "additional_details": "AlienVault has issued an update to correct this vulnerability. More details can be found at: http://forums.alienvault.com/discussion/2690",
+  "advisory_date": "2014-06-11",
+  "affected_products": [
+    "OSSIM"
+  ],
+  "affected_vendors": [
+    "AlienVault"
+  ],
+  "credit": "agix",
+  "cve": "CVE-2014-3805",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-3805",
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2014-04-18 - Vulnerability reported to vendor",
+    "2014-06-11 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-14-198 ZDI-CAN-2282 AlienVault OSSIM av-centerd Util.pm update_system/upgrade_pro_web Remote Code Execution Vulnerability 2014-06-11 CVE-2014-3805 https://www.cve.org/CVERecord?id=CVE-2014-3805 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['AlienVault'] ['OSSIM'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of AlienVault Ossim. Authentication is not required to exploit this vulnerability. The specific flaw exists within the av-centerd SOAP service. The issue lies in the handling of the update_system/upgrade_pro_web requests due to a failure to safely sanitize user data before executing a command. An attacker could leverage this vulnerability to execute code with root privileges. AlienVault has issued an update to correct this vulnerability. More details can be found at: http://forums.alienvault.com/discussion/2690 ['2014-04-18 - Vulnerability reported to vendor', '2014-06-11 - Coordinated public release of advisory'] agix https://www.zerodayinitiative.com/advisories/ZDI-14-198/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-14-198/",
+  "title": "AlienVault OSSIM av-centerd Util.pm update_system/upgrade_pro_web Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of AlienVault Ossim. Authentication is not required to exploit this vulnerability. The specific flaw exists within the av-centerd SOAP service. The issue lies in the handling of the update_system/upgrade_pro_web requests due to a failure to safely sanitize user data before executing a command. An attacker could leverage this vulnerability to execute code with root privileges.",
+  "zdi_can": "ZDI-CAN-2282",
+  "zdi_id": "ZDI-14-198"
+}

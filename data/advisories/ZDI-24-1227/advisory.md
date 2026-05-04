@@ -1,0 +1,27 @@
+# ZDI-24-1227: Trend Micro Deep Discovery Inspector SQL Injection Information Disclosure Vulnerability
+
+## Metadata
+
+- **ZDI ID:** ZDI-24-1227
+- **ZDI-CAN:** ZDI-CAN-24584
+- **Date:** 2024-09-17
+- **CVE:** CVE-2024-46902
+- **CVSS:** 4.9
+- **CVSS Vector:** AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N
+- **Affected Vendors:** Trend Micro
+- **Affected Products:** Deep Discovery Inspector
+- **Credit:** Kentaro Kawane of GMO Cybersecurity by Ierae
+- **Source:** https://www.zerodayinitiative.com/advisories/ZDI-24-1227/
+## Vulnerability Details
+
+This vulnerability allows remote attackers to disclose sensitive information on affected installations of Trend Micro Deep Discovery Inspector. Authentication is required to exploit this vulnerability. The specific flaw exists within the web service, which listens on TCP port 443 by default. The issue results from the lack of proper validation of a user-supplied string before using it to construct SQL queries. An attacker can leverage this vulnerability to disclose information in the context of the service account.
+
+## Additional Details
+
+Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/en-US/solution/KA-0017793
+
+## Disclosure Timeline
+
+- 2024-08-16 - Vulnerability reported to vendor
+- 2024-09-17 - Coordinated public release of advisory
+- 2024-09-17 - Advisory Updated

@@ -1,0 +1,26 @@
+# ZDI-22-426: (0Day) Microsoft .NET Link Following Denial-of-Service Vulnerability
+
+## Metadata
+
+- **ZDI ID:** ZDI-22-426
+- **ZDI-CAN:** ZDI-CAN-14528
+- **Date:** 2022-03-01
+- **CVE:** N/A
+- **CVSS:** 6.1
+- **CVSS Vector:** AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:H
+- **Affected Vendors:** Microsoft
+- **Affected Products:** .NET
+- **Credit:** Michael DePlante (@izobashi) of Trend Micro's Zero Day Initiative
+- **Source:** https://www.zerodayinitiative.com/advisories/ZDI-22-426/
+## Vulnerability Details
+
+This vulnerability allows local attackers to create a denial-of-service condition on affected installations of Microsoft .NET. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the .NET installer. By creating a symbolic link, an attacker can abuse the installer to overwrite a file. An attacker can leverage this vulnerability to create a denial-of-service condition on the system.
+
+## Additional Details
+
+This vulnerability is being disclosed publicly without a patch in accordance with the ZDI 120 day deadline. 07/07/21 – ZDI reported the vulnerabilities to the vendor 07/07/21 – The vendor acknowledged the report 07/15/21 – The vendor requested technical clarification 07/16/21 – ZDI provided additional evidence 07/21/21 – The vendor requested technical clarification 07/23/21 – ZDI provided additional evidence 07/30/21 – The vendor confirmed the behavior reported 09/24/21 – The vendor requested an extension until 01/11/22 09/28/21 – ZDI approved on an extension until 01/11/22 01/12/22 – ZDI requested an update 02/18/22 – ZDI requested an update 02/18/22 – The vendor clarified that the issues have been fixed on 01/11/22 02/22/22 – ZDI communicated that the issues were still vulnerable on the latest version and notified the vendor of the intention to publish the cases as 0-day advisories on 02/28/22 -- Mitigation: Given the nature of the vulnerability the only salient mitigation strategy is to restrict interaction with the application.
+
+## Disclosure Timeline
+
+- 2021-07-07 - Vulnerability reported to vendor
+- 2022-03-01 - Coordinated public release of advisory

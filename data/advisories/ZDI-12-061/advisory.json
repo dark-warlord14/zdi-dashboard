@@ -1,0 +1,27 @@
+{
+  "additional_details": "Samba has issued an update to correct this vulnerability. More details can be found at: http://www.samba.org/samba/security/CVE-2012-1182",
+  "advisory_date": "2012-04-18",
+  "affected_products": [
+    "3.6.x"
+  ],
+  "affected_vendors": [
+    "Samba"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2012-1182",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2012-1182",
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2011-10-20 - Vulnerability reported to vendor",
+    "2012-04-18 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-12-061 ZDI-CAN-1540 Samba ndr_pull_dfs_Info3 Heap Overflow Remote Code Execution Vulnerability 2012-04-18 CVE-2012-1182 https://www.cve.org/CVERecord?id=CVE-2012-1182 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Samba'] ['3.6.x'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Samba. Authentication is not required to exploit this vulnerability. The specific flaw exists within Samba's handling of a NDR PULL DFS INFO3 request. By sending a specially crafted packet, it is possible to cause Samba to use a different size for memory allocation than it uses for a memory copy loop. This can result in memory corruption, and may be exploited by an attacker to gain remote code execution. Samba has issued an update to correct this vulnerability. More details can be found at: http://www.samba.org/samba/security/CVE-2012-1182 ['2011-10-20 - Vulnerability reported to vendor', '2012-04-18 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-12-061/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-12-061/",
+  "title": "Samba ndr_pull_dfs_Info3 Heap Overflow Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Samba. Authentication is not required to exploit this vulnerability. The specific flaw exists within Samba's handling of a NDR PULL DFS INFO3 request. By sending a specially crafted packet, it is possible to cause Samba to use a different size for memory allocation than it uses for a memory copy loop. This can result in memory corruption, and may be exploited by an attacker to gain remote code execution.",
+  "zdi_can": "ZDI-CAN-1540",
+  "zdi_id": "ZDI-12-061"
+}

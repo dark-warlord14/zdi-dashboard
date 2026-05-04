@@ -1,0 +1,28 @@
+{
+  "additional_details": "NETGEAR has issued an update to correct this vulnerability. More details can be found at: https://kb.netgear.com/000065928/Security-Advisory-for-Multiple-Vulnerabilities-on-the-RAX30-PSV-2023-0139",
+  "advisory_date": "2024-06-10",
+  "affected_products": [
+    "RAX30"
+  ],
+  "affected_vendors": [
+    "NETGEAR"
+  ],
+  "credit": "Neodyme",
+  "cve": "CVE-2023-51634",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-51634",
+  "cvss": 7.5,
+  "cvss_vector": "AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2022-12-28 - Vulnerability reported to vendor",
+    "2024-06-10 - Coordinated public release of advisory",
+    "2024-07-01 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-583 ZDI-CAN-19589 (Pwn2Own) NETGEAR RAX30 Improper Certificate Validation Remote Code Execution Vulnerability 2024-06-10 CVE-2023-51634 https://www.cve.org/CVERecord?id=CVE-2023-51634 7.5 AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H ['NETGEAR'] ['RAX30'] This vulnerability allows network-adjacent attackers to compromise the integrity of downloaded information on affected installations of NETGEAR RAX30 routers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the downloading of files via HTTPS. The issue results from the lack of proper validation of the certificate presented by the server. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of root. NETGEAR has issued an update to correct this vulnerability. More details can be found at: https://kb.netgear.com/000065928/Security-Advisory-for-Multiple-Vulnerabilities-on-the-RAX30-PSV-2023-0139 ['2022-12-28 - Vulnerability reported to vendor', '2024-06-10 - Coordinated public release of advisory', '2024-07-01 - Advisory Updated'] Neodyme https://www.zerodayinitiative.com/advisories/ZDI-24-583/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-583/",
+  "title": "(Pwn2Own) NETGEAR RAX30 Improper Certificate Validation Remote Code Execution Vulnerability",
+  "updated_date": "2024-07-01",
+  "vulnerability_details": "This vulnerability allows network-adjacent attackers to compromise the integrity of downloaded information on affected installations of NETGEAR RAX30 routers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the downloading of files via HTTPS. The issue results from the lack of proper validation of the certificate presented by the server. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of root.",
+  "zdi_can": "ZDI-CAN-19589",
+  "zdi_id": "ZDI-24-583"
+}

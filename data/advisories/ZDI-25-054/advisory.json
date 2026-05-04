@@ -1,0 +1,28 @@
+{
+  "additional_details": "Fixed in Sante PACS Server version 4.0.10",
+  "advisory_date": "2025-01-20",
+  "affected_products": [
+    "PACS Server"
+  ],
+  "affected_vendors": [
+    "Sante"
+  ],
+  "credit": "Chizuru Toyama of TXOne Networks",
+  "cve": "CVE-2025-0572",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-0572",
+  "cvss": 4.3,
+  "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+  "disclosure_timeline": [
+    "2024-09-10 - Vulnerability reported to vendor",
+    "2025-01-20 - Coordinated public release of advisory",
+    "2025-01-20 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-054 ZDI-CAN-25308 Sante PACS Server Web Portal DCM File Parsing Directory Traversal Arbitrary File Write Vulnerability 2025-01-20 CVE-2025-0572 https://www.cve.org/CVERecord?id=CVE-2025-0572 4.3 AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N ['Sante'] ['PACS Server'] This vulnerability allows remote attackers to create arbitrary files on affected installations of Sante PACS Server. Authentication is required to exploit this vulnerability. The specific flaw exists within the parsing of DCM files. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to write files in the context of the current user. Fixed in Sante PACS Server version 4.0.10 ['2024-09-10 - Vulnerability reported to vendor', '2025-01-20 - Coordinated public release of advisory', '2025-01-20 - Advisory Updated'] Chizuru Toyama of TXOne Networks https://www.zerodayinitiative.com/advisories/ZDI-25-054/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-054/",
+  "title": "Sante PACS Server Web Portal DCM File Parsing Directory Traversal Arbitrary File Write Vulnerability",
+  "updated_date": "2025-01-20",
+  "vulnerability_details": "This vulnerability allows remote attackers to create arbitrary files on affected installations of Sante PACS Server. Authentication is required to exploit this vulnerability. The specific flaw exists within the parsing of DCM files. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to write files in the context of the current user.",
+  "zdi_can": "ZDI-CAN-25308",
+  "zdi_id": "ZDI-25-054"
+}

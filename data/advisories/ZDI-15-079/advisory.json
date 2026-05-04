@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/library/security/MS15-023",
+  "advisory_date": "2015-03-10",
+  "affected_products": [
+    "Windows"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "WanderingGlitch of HP's Zero Day Initiative",
+  "cve": "CVE-2015-0077",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-0077",
+  "cvss": 2.1,
+  "cvss_vector": "AV:L/AC:L/Au:N/C:P/I:N/A:N",
+  "disclosure_timeline": [
+    "2014-12-04 - Vulnerability reported to vendor",
+    "2015-03-10 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-15-079 ZDI-CAN-2590 Microsoft Windows NtUserfnINSTRINGNULL Information Leak Vulnerability 2015-03-10 CVE-2015-0077 https://www.cve.org/CVERecord?id=CVE-2015-0077 2.1 AV:L/AC:L/Au:N/C:P/I:N/A:N ['Microsoft'] ['Windows'] This vulnerability allows local attackers to leak sensitive information on vulnerable installations of Microsoft Windows. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of NtUserfnINSTRINGNULL function. The issue lies in the failure to sanitize a buffer before calling a userland function resulting in the leak of a kernel address. An attacker can leverage this in concert with another vulnerability to achieve code execution at SYSTEM. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/library/security/MS15-023 ['2014-12-04 - Vulnerability reported to vendor', '2015-03-10 - Coordinated public release of advisory'] WanderingGlitch of HP's Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-15-079/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-079/",
+  "title": "Microsoft Windows NtUserfnINSTRINGNULL Information Leak Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to leak sensitive information on vulnerable installations of Microsoft Windows. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of NtUserfnINSTRINGNULL function. The issue lies in the failure to sanitize a buffer before calling a userland function resulting in the leak of a kernel address. An attacker can leverage this in concert with another vulnerability to achieve code execution at SYSTEM.",
+  "zdi_can": "ZDI-CAN-2590",
+  "zdi_id": "ZDI-15-079"
+}

@@ -1,0 +1,27 @@
+{
+  "additional_details": "Novell has issued an update to correct this vulnerability. More details can be found at: http://www.novell.com/support/viewContent.do?externalId=7005573",
+  "advisory_date": "2010-04-23",
+  "affected_products": [
+    "Zenworks"
+  ],
+  "affected_vendors": [
+    "Novell"
+  ],
+  "credit": "Stephen Fewer of Harmony Security (www.harmonysecurity.com)",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2010-02-09 - Vulnerability reported to vendor",
+    "2010-04-23 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-10-078 ZDI-CAN-678 Novell ZENworks Configuration Management UploadServlet Remote Code Execution Vulnerability 2010-04-23 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Novell'] ['Zenworks'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Novell ZENworks. Authentication is not required to exploit this vulnerability. The specific flaw exists within the ZENworks Server (zenserver.exe). This Tomcat server listens by default on TCP ports 80 and 443. The vulnerability exists in the UploadServlet. Using the UploadServlet an attacker can upload a malicious file outside of the TEMP directory on the server. By accessing this uploaded file remotely it is executed in the context of the zenserver.exe process. This can be exploited to gain arbitrary code execution in the context of the user running the ZENworks server. Novell has issued an update to correct this vulnerability. More details can be found at: http://www.novell.com/support/viewContent.do?externalId=7005573 ['2010-02-09 - Vulnerability reported to vendor', '2010-04-23 - Coordinated public release of advisory'] Stephen Fewer of Harmony Security (www.harmonysecurity.com) https://www.zerodayinitiative.com/advisories/ZDI-10-078/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-078/",
+  "title": "Novell ZENworks Configuration Management UploadServlet Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Novell ZENworks. Authentication is not required to exploit this vulnerability. The specific flaw exists within the ZENworks Server (zenserver.exe). This Tomcat server listens by default on TCP ports 80 and 443. The vulnerability exists in the UploadServlet. Using the UploadServlet an attacker can upload a malicious file outside of the TEMP directory on the server. By accessing this uploaded file remotely it is executed in the context of the zenserver.exe process. This can be exploited to gain arbitrary code execution in the context of the user running the ZENworks server.",
+  "zdi_can": "ZDI-CAN-678",
+  "zdi_id": "ZDI-10-078"
+}

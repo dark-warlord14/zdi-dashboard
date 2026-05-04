@@ -1,0 +1,27 @@
+{
+  "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/incopy/apsb23-08.html",
+  "advisory_date": "2023-01-18",
+  "affected_products": [
+    "InCopy"
+  ],
+  "affected_vendors": [
+    "Adobe"
+  ],
+  "credit": "Mat Powell of Trend Micro Zero Day Initiative",
+  "cve": "CVE-2023-21594",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-21594",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2022-09-22 - Vulnerability reported to vendor",
+    "2023-01-18 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-073 ZDI-CAN-18883 Adobe InCopy Font Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability 2023-01-18 CVE-2023-21594 https://www.cve.org/CVERecord?id=CVE-2023-21594 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Adobe'] ['InCopy'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Adobe InCopy. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of embedded fonts. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/incopy/apsb23-08.html ['2022-09-22 - Vulnerability reported to vendor', '2023-01-18 - Coordinated public release of advisory'] Mat Powell of Trend Micro Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-23-073/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-073/",
+  "title": "Adobe InCopy Font Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Adobe InCopy. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of embedded fonts. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-18883",
+  "zdi_id": "ZDI-23-073"
+}

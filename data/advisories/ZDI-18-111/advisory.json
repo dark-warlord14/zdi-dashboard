@@ -1,0 +1,27 @@
+{
+  "additional_details": "Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/solution/1119158",
+  "advisory_date": "2018-01-10",
+  "affected_products": [
+    "Control Manager"
+  ],
+  "affected_vendors": [
+    "Trend Micro"
+  ],
+  "credit": "Steven Seeley (mr_me) of Offensive Security",
+  "cve": "CVE-2018-3600",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2018-3600",
+  "cvss": 4.0,
+  "cvss_vector": "AV:N/AC:L/Au:S/C:P/I:N/A:N",
+  "disclosure_timeline": [
+    "2017-10-05 - Vulnerability reported to vendor",
+    "2018-01-10 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-111 ZDI-CAN-5232 Trend Micro Control Manager AdHocQuery_Processor External Entity Processing Information Disclosure Vulnerability 2018-01-10 CVE-2018-3600 https://www.cve.org/CVERecord?id=CVE-2018-3600 4.0 AV:N/AC:L/Au:S/C:P/I:N/A:N ['Trend Micro'] ['Control Manager'] This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Trend Micro Control Manager. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed. The specific flaw exists within processing of AdHocQuery_Processor. Due to the improper restriction of XML External Entity (XXE) reference, a specially crafted URI causes the XML parser to access the contents of this URI and embed these contents back into the XML document for further processing. An attacker can leverage this vulnerability to disclose sensitive information under the context of the Network Service account. Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/solution/1119158 ['2017-10-05 - Vulnerability reported to vendor', '2018-01-10 - Coordinated public release of advisory'] Steven Seeley (mr_me) of Offensive Security https://www.zerodayinitiative.com/advisories/ZDI-18-111/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-111/",
+  "title": "Trend Micro Control Manager AdHocQuery_Processor External Entity Processing Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Trend Micro Control Manager. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed. The specific flaw exists within processing of AdHocQuery_Processor. Due to the improper restriction of XML External Entity (XXE) reference, a specially crafted URI causes the XML parser to access the contents of this URI and embed these contents back into the XML document for further processing. An attacker can leverage this vulnerability to disclose sensitive information under the context of the Network Service account.",
+  "zdi_can": "ZDI-CAN-5232",
+  "zdi_id": "ZDI-18-111"
+}

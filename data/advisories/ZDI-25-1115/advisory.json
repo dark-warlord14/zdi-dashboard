@@ -1,0 +1,28 @@
+{
+  "additional_details": "Autodesk has issued an update to correct this vulnerability. More details can be found at: https://www.autodesk.com/trust/security-advisories/adsk-sa-2025-0024",
+  "advisory_date": "2025-12-17",
+  "affected_products": [
+    "AutoCAD"
+  ],
+  "affected_vendors": [
+    "Autodesk"
+  ],
+  "credit": "Mat Powell of Trend Zero Day Initiative",
+  "cve": "CVE-2025-9457",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-9457",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2025-08-21 - Vulnerability reported to vendor",
+    "2025-12-17 - Coordinated public release of advisory",
+    "2026-01-26 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-1115 ZDI-CAN-27961 Autodesk AutoCAD PRT File Parsing Memory Corruption Remote Code Execution Vulnerability 2025-12-17 CVE-2025-9457 https://www.cve.org/CVERecord?id=CVE-2025-9457 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Autodesk'] ['AutoCAD'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Autodesk AutoCAD. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of PRT files. The issue results from the lack of proper validation of user-supplied data, which can result in a memory corruption condition. An attacker can leverage this vulnerability to execute code in the context of the current process. Autodesk has issued an update to correct this vulnerability. More details can be found at: https://www.autodesk.com/trust/security-advisories/adsk-sa-2025-0024 ['2025-08-21 - Vulnerability reported to vendor', '2025-12-17 - Coordinated public release of advisory', '2026-01-26 - Advisory Updated'] Mat Powell of Trend Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-25-1115/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-1115/",
+  "title": "Autodesk AutoCAD PRT File Parsing Memory Corruption Remote Code Execution Vulnerability",
+  "updated_date": "2026-01-26",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Autodesk AutoCAD. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of PRT files. The issue results from the lack of proper validation of user-supplied data, which can result in a memory corruption condition. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-27961",
+  "zdi_id": "ZDI-25-1115"
+}

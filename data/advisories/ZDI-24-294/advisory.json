@@ -1,0 +1,28 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-26199",
+  "advisory_date": "2024-03-13",
+  "affected_products": [
+    "Office"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Iv\u00e1n Almui\u00f1a from Hacking Corporation S\u00e0rl",
+  "cve": "CVE-2024-26199",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-26199",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2024-02-06 - Vulnerability reported to vendor",
+    "2024-03-13 - Coordinated public release of advisory",
+    "2024-07-01 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-294 ZDI-CAN-23146 Microsoft Office Performance Monitor Link Following Local Privilege Escalation Vulnerability 2024-03-13 CVE-2024-26199 https://www.cve.org/CVERecord?id=CVE-2024-26199 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Microsoft'] ['Office'] This vulnerability allows local attackers to escalate privileges on affected installations of Microsoft Office. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Office Performance Monitor executable. By creating a symbolic link, an attacker can abuse the process to delete arbitrary files. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-26199 ['2024-02-06 - Vulnerability reported to vendor', '2024-03-13 - Coordinated public release of advisory', '2024-07-01 - Advisory Updated'] Iv\u00e1n Almui\u00f1a from Hacking Corporation S\u00e0rl https://www.zerodayinitiative.com/advisories/ZDI-24-294/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-294/",
+  "title": "Microsoft Office Performance Monitor Link Following Local Privilege Escalation Vulnerability",
+  "updated_date": "2024-07-01",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Microsoft Office. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Office Performance Monitor executable. By creating a symbolic link, an attacker can abuse the process to delete arbitrary files. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-23146",
+  "zdi_id": "ZDI-24-294"
+}

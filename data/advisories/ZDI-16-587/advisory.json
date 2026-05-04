@@ -1,0 +1,27 @@
+{
+  "additional_details": "Hewlett Packard Enterprise has issued an update to correct this vulnerability. More details can be found at: https://h20564.www2.hpe.com/hpsc/doc/public/display?docId=emr_na-c05320149",
+  "advisory_date": "2016-11-02",
+  "affected_products": [
+    "System Management Homepage"
+  ],
+  "affected_vendors": [
+    "Hewlett Packard Enterprise"
+  ],
+  "credit": "Tenable Network Security",
+  "cve": "CVE-2016-4395",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-4395",
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2016-05-09 - Vulnerability reported to vendor",
+    "2016-11-02 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-16-587 ZDI-CAN-3722 Hewlett Packard Enterprise System Management Homepage SetSMHData Stack Buffer Overflow Remote Code Execution Vulnerability 2016-11-02 CVE-2016-4395 https://www.cve.org/CVERecord?id=CVE-2016-4395 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Hewlett Packard Enterprise'] ['System Management Homepage'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Hewlett Packard Enterprise System Management Homepage. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of /proxy/SetSMHData requests. When parsing admin-group, operator-group, or user-group parameters, the process copies user-supplied data into a fixed-length stack buffer. A remote attacker can leverage this vulnerability to execute remote code under the context of the process. Hewlett Packard Enterprise has issued an update to correct this vulnerability. More details can be found at: https://h20564.www2.hpe.com/hpsc/doc/public/display?docId=emr_na-c05320149 ['2016-05-09 - Vulnerability reported to vendor', '2016-11-02 - Coordinated public release of advisory'] Tenable Network Security https://www.zerodayinitiative.com/advisories/ZDI-16-587/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-587/",
+  "title": "Hewlett Packard Enterprise System Management Homepage SetSMHData Stack Buffer Overflow Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Hewlett Packard Enterprise System Management Homepage. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of /proxy/SetSMHData requests. When parsing admin-group, operator-group, or user-group parameters, the process copies user-supplied data into a fixed-length stack buffer. A remote attacker can leverage this vulnerability to execute remote code under the context of the process.",
+  "zdi_can": "ZDI-CAN-3722",
+  "zdi_id": "ZDI-16-587"
+}

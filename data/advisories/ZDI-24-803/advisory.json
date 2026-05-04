@@ -1,0 +1,28 @@
+{
+  "additional_details": "https://kb.parallels.com/129060 18.3.0 (53606)",
+  "advisory_date": "2024-06-18",
+  "affected_products": [
+    "Desktop"
+  ],
+  "affected_vendors": [
+    "Parallels"
+  ],
+  "credit": "aegis",
+  "cve": "CVE-2024-6153",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-6153",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2022-11-30 - Vulnerability reported to vendor",
+    "2024-06-18 - Coordinated public release of advisory",
+    "2024-08-15 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-803 ZDI-CAN-19481 Parallels Desktop Updater Protection Mechanism Failure Software Downgrade Vulnerability 2024-06-18 CVE-2024-6153 https://www.cve.org/CVERecord?id=CVE-2024-6153 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Parallels'] ['Desktop'] This vulnerability allows local attackers to downgrade Parallels software on affected installations of Parallels Desktop. An attacker must first obtain the ability to execute low-privileged code on the target host system in order to exploit this vulnerability. The specific flaw exists within the Updater service. The issue results from the lack of proper validation of version information before performing an update. An attacker can leverage this in conjunction with other vulnerabilities to escalate privileges and execute arbitrary code in the context of root. https://kb.parallels.com/129060 18.3.0 (53606) ['2022-11-30 - Vulnerability reported to vendor', '2024-06-18 - Coordinated public release of advisory', '2024-08-15 - Advisory Updated'] aegis https://www.zerodayinitiative.com/advisories/ZDI-24-803/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-803/",
+  "title": "Parallels Desktop Updater Protection Mechanism Failure Software Downgrade Vulnerability",
+  "updated_date": "2024-08-15",
+  "vulnerability_details": "This vulnerability allows local attackers to downgrade Parallels software on affected installations of Parallels Desktop. An attacker must first obtain the ability to execute low-privileged code on the target host system in order to exploit this vulnerability. The specific flaw exists within the Updater service. The issue results from the lack of proper validation of version information before performing an update. An attacker can leverage this in conjunction with other vulnerabilities to escalate privileges and execute arbitrary code in the context of root.",
+  "zdi_can": "ZDI-CAN-19481",
+  "zdi_id": "ZDI-24-803"
+}

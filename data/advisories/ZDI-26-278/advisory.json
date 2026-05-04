@@ -1,0 +1,28 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33104",
+  "advisory_date": "2026-04-15",
+  "affected_products": [
+    "Windows"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Marcin Wiazowski",
+  "cve": "CVE-2026-33104",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-33104",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2026-02-25 - Vulnerability reported to vendor",
+    "2026-04-15 - Coordinated public release of advisory",
+    "2026-04-15 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-26-278 ZDI-CAN-28267 Microsoft Windows win32kfull Improper Locking Local Privilege Escalation Vulnerability 2026-04-15 CVE-2026-33104 https://www.cve.org/CVERecord?id=CVE-2026-33104 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H ['Microsoft'] ['Windows'] This vulnerability allows local attackers to escalate privileges on affected installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the win32kfull driver. The issue results from the lack of proper locking when performing operations on an object. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33104 ['2026-02-25 - Vulnerability reported to vendor', '2026-04-15 - Coordinated public release of advisory', '2026-04-15 - Advisory Updated'] Marcin Wiazowski https://www.zerodayinitiative.com/advisories/ZDI-26-278/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-278/",
+  "title": "Microsoft Windows win32kfull Improper Locking Local Privilege Escalation Vulnerability",
+  "updated_date": "2026-04-15",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the win32kfull driver. The issue results from the lack of proper locking when performing operations on an object. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-28267",
+  "zdi_id": "ZDI-26-278"
+}

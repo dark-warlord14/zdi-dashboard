@@ -1,0 +1,27 @@
+{
+  "additional_details": "Schneider Electric has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-19-008-02",
+  "advisory_date": "2019-01-14",
+  "affected_products": [
+    "IIot Monitor"
+  ],
+  "affected_vendors": [
+    "Schneider Electric"
+  ],
+  "credit": "rgod of 9sg Security Team - rgod@9sgsec.com",
+  "cve": "CVE-2018-7837",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2018-7837",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+  "disclosure_timeline": [
+    "2018-08-14 - Vulnerability reported to vendor",
+    "2019-01-14 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-19-026 ZDI-CAN-7126 Schneider Electric IIoT Monitor EventMgmt addEvent XML External Entity Processing Information Disclosure Vulnerability 2019-01-14 CVE-2018-7837 https://www.cve.org/CVERecord?id=CVE-2018-7837 7.5 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N ['Schneider Electric'] ['IIot Monitor'] This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Schneider Electric IIoT Monitor. Authentication is not required to exploit this vulnerability. The specific flaw exists in the addEvent method of the EventMgmt servlet. Due to the improper restriction of XML External Entity (XXE) references, a specially crafted document specifying a URI causes the XML parser to access the URI and embed the contents back into the XML document for further processing. An attacker can leverage this in conjunction with other vulnerabilities to bypass authentication on the system. Schneider Electric has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-19-008-02 ['2018-08-14 - Vulnerability reported to vendor', '2019-01-14 - Coordinated public release of advisory'] rgod of 9sg Security Team - rgod@9sgsec.com https://www.zerodayinitiative.com/advisories/ZDI-19-026/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-19-026/",
+  "title": "Schneider Electric IIoT Monitor EventMgmt addEvent XML External Entity Processing Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Schneider Electric IIoT Monitor. Authentication is not required to exploit this vulnerability. The specific flaw exists in the addEvent method of the EventMgmt servlet. Due to the improper restriction of XML External Entity (XXE) references, a specially crafted document specifying a URI causes the XML parser to access the URI and embed the contents back into the XML document for further processing. An attacker can leverage this in conjunction with other vulnerabilities to bypass authentication on the system.",
+  "zdi_can": "ZDI-CAN-7126",
+  "zdi_id": "ZDI-19-026"
+}

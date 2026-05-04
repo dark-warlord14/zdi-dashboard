@@ -1,0 +1,28 @@
+{
+  "additional_details": "Hewlett Packard Enterprise has issued an update to correct this vulnerability. More details can be found at: https://support.hpe.com/hpsc/doc/public/display?docId=emr_na-hpesbhf03809en_us",
+  "advisory_date": "2018-01-25",
+  "affected_products": [
+    "Intelligent Management Center"
+  ],
+  "affected_vendors": [
+    "Hewlett Packard Enterprise"
+  ],
+  "credit": "Steven Seeley (mr_me) of Offensive Security",
+  "cve": "CVE-2017-8982",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-8982",
+  "cvss": 7.8,
+  "cvss_vector": "AV:N/AC:L/Au:S/C:C/I:N/A:N",
+  "disclosure_timeline": [
+    "2017-08-15 - Vulnerability reported to vendor",
+    "2018-01-25 - Coordinated public release of advisory",
+    "2018-01-25 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-139 ZDI-CAN-4757 Hewlett Packard Enterprise Intelligent Management Center UrlAccessController Authentication Bypass Vulnerability 2018-01-25 CVE-2017-8982 https://www.cve.org/CVERecord?id=CVE-2017-8982 7.8 AV:N/AC:L/Au:S/C:C/I:N/A:N ['Hewlett Packard Enterprise'] ['Intelligent Management Center'] This vulnerability allows remote attackers to escalate privileges on vulnerable installations of Hewlett Packard Enterprise Intelligent Management Center Smart Connect with Wireless Manager. Authentication is not required to exploit this vulnerability. The specific flaw exists within the UrlAccessController servlet. The issue results from the lack of proper filtering of URLs. An attacker can leverage this vulnerability to escalate privileges to resources normally protected from the user. Hewlett Packard Enterprise has issued an update to correct this vulnerability. More details can be found at: https://support.hpe.com/hpsc/doc/public/display?docId=emr_na-hpesbhf03809en_us ['2017-08-15 - Vulnerability reported to vendor', '2018-01-25 - Coordinated public release of advisory', '2018-01-25 - Advisory Updated'] Steven Seeley (mr_me) of Offensive Security https://www.zerodayinitiative.com/advisories/ZDI-18-139/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-139/",
+  "title": "Hewlett Packard Enterprise Intelligent Management Center UrlAccessController Authentication Bypass Vulnerability",
+  "updated_date": "2018-01-25",
+  "vulnerability_details": "This vulnerability allows remote attackers to escalate privileges on vulnerable installations of Hewlett Packard Enterprise Intelligent Management Center Smart Connect with Wireless Manager. Authentication is not required to exploit this vulnerability. The specific flaw exists within the UrlAccessController servlet. The issue results from the lack of proper filtering of URLs. An attacker can leverage this vulnerability to escalate privileges to resources normally protected from the user.",
+  "zdi_can": "ZDI-CAN-4757",
+  "zdi_id": "ZDI-18-139"
+}

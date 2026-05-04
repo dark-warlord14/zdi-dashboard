@@ -1,0 +1,27 @@
+{
+  "additional_details": "http://www.f-secure.com/en/web/labs_global/fsc-2013-1",
+  "advisory_date": "2013-05-29",
+  "affected_products": [
+    "E-mail and Server Security"
+  ],
+  "affected_vendors": [
+    "F-Secure"
+  ],
+  "credit": "Andrea Micalizzi aka rgod",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2013-02-14 - Vulnerability reported to vendor",
+    "2013-05-29 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-13-095 ZDI-CAN-1692 F-Secure E-mail and Server Security FSDBCom ActiveX Control GetCommand Remote Code Execution Vulnerability 2013-05-29 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['F-Secure'] ['E-mail and Server Security'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of F-Secure E-mail and Server Security. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the FSDBCom ActiveX control. The issue lies in the failure to sanitize input before executing SQL queries. By carefully constructing a series of SQL queries an attacker can force the backend database to execute arbitrary code. An attacker can leverage this vulnerability to execute code under the context of the backend database. http://www.f-secure.com/en/web/labs_global/fsc-2013-1 ['2013-02-14 - Vulnerability reported to vendor', '2013-05-29 - Coordinated public release of advisory'] Andrea Micalizzi aka rgod https://www.zerodayinitiative.com/advisories/ZDI-13-095/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-13-095/",
+  "title": "F-Secure E-mail and Server Security FSDBCom ActiveX Control GetCommand Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of F-Secure E-mail and Server Security. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the FSDBCom ActiveX control. The issue lies in the failure to sanitize input before executing SQL queries. By carefully constructing a series of SQL queries an attacker can force the backend database to execute arbitrary code. An attacker can leverage this vulnerability to execute code under the context of the backend database.",
+  "zdi_can": "ZDI-CAN-1692",
+  "zdi_id": "ZDI-13-095"
+}

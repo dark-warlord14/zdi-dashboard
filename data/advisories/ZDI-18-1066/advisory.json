@@ -1,0 +1,28 @@
+{
+  "additional_details": "Quest has issued an update to correct this vulnerability. More details can be found at: https://support.quest.com/kb/261499/zero-day-initiative-zdi-report-update resolved as of version 8.1.108 This vulnerability is being disclosed publicly without a patch in accordance with the ZDI 120 day deadline. 04/20/18 - ZDI reported the vulnerabilities to the vendor 09/12/18 - ZDI notified the vendor of the intention to disclose the report as 0-day on 9/18/18 -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the service to trusted machines. Only the clients and servers that have a legitimate procedural relationship with the service should be permitted to communicate with it. This could be accomplished in a number of ways, most notably with firewall rules/whitelisting.",
+  "advisory_date": "2018-09-28",
+  "affected_products": [
+    "KACE Systems Management"
+  ],
+  "affected_vendors": [
+    "Quest"
+  ],
+  "credit": "Kapil Khot (SlidingWindow)",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 4.0,
+  "cvss_vector": "AV:N/AC:L/Au:S/C:P/I:N/A:N",
+  "disclosure_timeline": [
+    "2018-04-20 - Vulnerability reported to vendor",
+    "2018-09-28 - Coordinated public release of advisory",
+    "2018-10-01 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-1066 ZDI-CAN-6112 (0Day) Quest KACE Systems Management download_file Improper Access Control Information Disclosure Vulnerability 2018-09-28 4.0 AV:N/AC:L/Au:S/C:P/I:N/A:N ['Quest'] ['KACE Systems Management'] This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Quest KACE Systems Management. Authentication is required to exploit this vulnerability. The specific flaw exists within the access control of the download_file page. This allows a guest user to access information otherwise restricted from them. An attacker can leverage this vulnerability to disclose sensitive information under the context of admin. Quest has issued an update to correct this vulnerability. More details can be found at: https://support.quest.com/kb/261499/zero-day-initiative-zdi-report-update resolved as of version 8.1.108 This vulnerability is being disclosed publicly without a patch in accordance with the ZDI 120 day deadline. 04/20/18 - ZDI reported the vulnerabilities to the vendor 09/12/18 - ZDI notified the vendor of the intention to disclose the report as 0-day on 9/18/18 -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the service to trusted machines. Only the clients and servers that have a legitimate procedural relationship with the service should be permitted to communicate with it. This could be accomplished in a number of ways, most notably with firewall rules/whitelisting. ['2018-04-20 - Vulnerability reported to vendor', '2018-09-28 - Coordinated public release of advisory', '2018-10-01 - Advisory Updated'] Kapil Khot (SlidingWindow) https://www.zerodayinitiative.com/advisories/ZDI-18-1066/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-1066/",
+  "title": "(0Day) Quest KACE Systems Management download_file Improper Access Control Information Disclosure Vulnerability",
+  "updated_date": "2018-10-01",
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Quest KACE Systems Management. Authentication is required to exploit this vulnerability. The specific flaw exists within the access control of the download_file page. This allows a guest user to access information otherwise restricted from them. An attacker can leverage this vulnerability to disclose sensitive information under the context of admin.",
+  "zdi_can": "ZDI-CAN-6112",
+  "zdi_id": "ZDI-18-1066"
+}

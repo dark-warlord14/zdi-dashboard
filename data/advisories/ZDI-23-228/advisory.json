@@ -1,0 +1,27 @@
+{
+  "additional_details": "Ivanti has issued an update to correct this vulnerability. More details can be found at: https://forums.ivanti.com/s/article/Avalanche-ZDI-CAN-19513-Security-Advisory?language=en_US",
+  "advisory_date": "2023-03-09",
+  "affected_products": [
+    "Avalanche"
+  ],
+  "affected_vendors": [
+    "Ivanti"
+  ],
+  "credit": "rgod",
+  "cve": "CVE-2022-44574",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-44574",
+  "cvss": 9.8,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2022-12-23 - Vulnerability reported to vendor",
+    "2023-03-09 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-228 ZDI-CAN-19513 Ivanti Avalanche Remote Control Server RCServlet Authentication Bypass Vulnerability 2023-03-09 CVE-2022-44574 https://www.cve.org/CVERecord?id=CVE-2022-44574 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['Ivanti'] ['Avalanche'] This vulnerability allows remote attackers to bypass authentication on affected installations of Ivanti Avalanche. Authentication is not required to exploit this vulnerability. The specific flaw exists within the Remote Control Server RCServlet servlet. The issue results from the lack of authentication prior to allowing access to functionality. An attacker can leverage this vulnerability to bypass authentication on the system. Ivanti has issued an update to correct this vulnerability. More details can be found at: https://forums.ivanti.com/s/article/Avalanche-ZDI-CAN-19513-Security-Advisory?language=en_US ['2022-12-23 - Vulnerability reported to vendor', '2023-03-09 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-23-228/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-228/",
+  "title": "Ivanti Avalanche Remote Control Server RCServlet Authentication Bypass Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to bypass authentication on affected installations of Ivanti Avalanche. Authentication is not required to exploit this vulnerability. The specific flaw exists within the Remote Control Server RCServlet servlet. The issue results from the lack of authentication prior to allowing access to functionality. An attacker can leverage this vulnerability to bypass authentication on the system.",
+  "zdi_can": "ZDI-CAN-19513",
+  "zdi_id": "ZDI-23-228"
+}

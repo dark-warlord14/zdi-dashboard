@@ -1,0 +1,28 @@
+{
+  "additional_details": "LiteLLM has issued an update to correct this vulnerability. More details can be found at: https://docs.litellm.ai/release_notes/v1.63.14-stable",
+  "advisory_date": "2025-10-03",
+  "affected_products": [
+    "LiteLLM"
+  ],
+  "affected_vendors": [
+    "LiteLLM"
+  ],
+  "credit": "David Fiser and Alfredo Oliveira of Trend Micro Security Research",
+  "cve": "CVE-2025-11203",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-11203",
+  "cvss": 3.5,
+  "cvss_vector": "AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:N/A:N",
+  "disclosure_timeline": [
+    "2025-03-25 - Vulnerability reported to vendor",
+    "2025-10-03 - Coordinated public release of advisory",
+    "2025-10-03 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-929 ZDI-CAN-26585 LiteLLM Information health API_KEY Information Disclosure Vulnerability 2025-10-03 CVE-2025-11203 https://www.cve.org/CVERecord?id=CVE-2025-11203 3.5 AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:N/A:N ['LiteLLM'] ['LiteLLM'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of LiteLLM. Authentication is required to exploit this vulnerability. The specific flaw exists within the handling of the API_KEY parameter provided to the health endpoint. The issue results from exposing sensitive information to an unauthorized actor. An attacker can leverage this vulnerability to disclose stored credentials, leading to further compromise. LiteLLM has issued an update to correct this vulnerability. More details can be found at: https://docs.litellm.ai/release_notes/v1.63.14-stable ['2025-03-25 - Vulnerability reported to vendor', '2025-10-03 - Coordinated public release of advisory', '2025-10-03 - Advisory Updated'] David Fiser and Alfredo Oliveira of Trend Micro Security Research https://www.zerodayinitiative.com/advisories/ZDI-25-929/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-929/",
+  "title": "LiteLLM Information health API_KEY Information Disclosure Vulnerability",
+  "updated_date": "2025-10-03",
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of LiteLLM. Authentication is required to exploit this vulnerability. The specific flaw exists within the handling of the API_KEY parameter provided to the health endpoint. The issue results from exposing sensitive information to an unauthorized actor. An attacker can leverage this vulnerability to disclose stored credentials, leading to further compromise.",
+  "zdi_can": "ZDI-CAN-26585",
+  "zdi_id": "ZDI-25-929"
+}

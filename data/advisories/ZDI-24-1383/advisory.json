@@ -1,0 +1,28 @@
+{
+  "additional_details": "PostHog has issued an update to correct this vulnerability. More details can be found at: https://github.com/PostHog/posthog/pull/25388",
+  "advisory_date": "2024-10-15",
+  "affected_products": [
+    "PostHog"
+  ],
+  "affected_vendors": [
+    "PostHog"
+  ],
+  "credit": "Mehmet INCE (@mdisec) from PRODAFT.com",
+  "cve": "CVE-2024-9710",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-9710",
+  "cvss": 7.1,
+  "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:N",
+  "disclosure_timeline": [
+    "2024-10-03 - Vulnerability reported to vendor",
+    "2024-10-15 - Coordinated public release of advisory",
+    "2024-10-15 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-1383 ZDI-CAN-25351 PostHog database_schema Server-Side Request Forgery Information Disclosure Vulnerability 2024-10-15 CVE-2024-9710 https://www.cve.org/CVERecord?id=CVE-2024-9710 7.1 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:N ['PostHog'] ['PostHog'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of PostHog. Authentication is required to exploit this vulnerability. The specific flaw exists within the implementation of the database_schema method. The issue results from the lack of proper validation of a URI prior to accessing resources. An attacker can leverage this vulnerability to execute code in the context of the service account. PostHog has issued an update to correct this vulnerability. More details can be found at: https://github.com/PostHog/posthog/pull/25388 ['2024-10-03 - Vulnerability reported to vendor', '2024-10-15 - Coordinated public release of advisory', '2024-10-15 - Advisory Updated'] Mehmet INCE (@mdisec) from PRODAFT.com https://www.zerodayinitiative.com/advisories/ZDI-24-1383/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-1383/",
+  "title": "PostHog database_schema Server-Side Request Forgery Information Disclosure Vulnerability",
+  "updated_date": "2024-10-15",
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of PostHog. Authentication is required to exploit this vulnerability. The specific flaw exists within the implementation of the database_schema method. The issue results from the lack of proper validation of a URI prior to accessing resources. An attacker can leverage this vulnerability to execute code in the context of the service account.",
+  "zdi_can": "ZDI-CAN-25351",
+  "zdi_id": "ZDI-24-1383"
+}

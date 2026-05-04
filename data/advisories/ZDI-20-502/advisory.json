@@ -1,0 +1,27 @@
+{
+  "additional_details": "Oracle has issued an update to correct this vulnerability. More details can be found at: https://www.oracle.com/security-alerts/cpuapr2020.html",
+  "advisory_date": "2020-04-16",
+  "affected_products": [
+    "E-Business Suite"
+  ],
+  "affected_vendors": [
+    "Oracle"
+  ],
+  "credit": "John Simpson of Trend Micro Security Research",
+  "cve": "CVE-2020-2882",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2020-2882",
+  "cvss": 8.1,
+  "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
+  "disclosure_timeline": [
+    "2020-02-07 - Vulnerability reported to vendor",
+    "2020-04-16 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-20-502 ZDI-CAN-10465 Oracle E-Business Suite Human Resources Organization Hierarchy Viewer OrgServer SQL Injection Privilege Escalation Vulnerability 2020-04-16 CVE-2020-2882 https://www.cve.org/CVERecord?id=CVE-2020-2882 8.1 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N ['Oracle'] ['E-Business Suite'] This vulnerability allows remote attackers to escalate privileges on affected installations of Oracle E-Business Suite Human Resources. Authentication is required to exploit this vulnerability. The specific flaw exists within the Organization Hierarchy Viewer. The issue results from the lack of proper validation of a user-supplied string before using it to construct SQL queries. An attacker can leverage this vulnerability to escalate privileges and reset the password for the SYSADMIN user. Oracle has issued an update to correct this vulnerability. More details can be found at: https://www.oracle.com/security-alerts/cpuapr2020.html ['2020-02-07 - Vulnerability reported to vendor', '2020-04-16 - Coordinated public release of advisory'] John Simpson of Trend Micro Security Research https://www.zerodayinitiative.com/advisories/ZDI-20-502/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-20-502/",
+  "title": "Oracle E-Business Suite Human Resources Organization Hierarchy Viewer OrgServer SQL Injection Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to escalate privileges on affected installations of Oracle E-Business Suite Human Resources. Authentication is required to exploit this vulnerability. The specific flaw exists within the Organization Hierarchy Viewer. The issue results from the lack of proper validation of a user-supplied string before using it to construct SQL queries. An attacker can leverage this vulnerability to escalate privileges and reset the password for the SYSADMIN user.",
+  "zdi_can": "ZDI-CAN-10465",
+  "zdi_id": "ZDI-20-502"
+}

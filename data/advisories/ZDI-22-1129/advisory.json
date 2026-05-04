@@ -1,0 +1,27 @@
+{
+  "additional_details": "AVEVA has issued an update to correct this vulnerability. More details can be found at: https://www.aveva.com/content/dam/aveva/documents/support/cyber-security-updates/SecurityBulletin_AVEVA-2022-005.pdf",
+  "advisory_date": "2022-08-23",
+  "affected_products": [
+    "Edge"
+  ],
+  "affected_vendors": [
+    "AVEVA"
+  ],
+  "credit": "Aaron Ferber",
+  "cve": "CVE-2022-36970",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-36970",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2022-06-28 - Vulnerability reported to vendor",
+    "2022-08-23 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-1129 ZDI-CAN-17370 AVEVA Edge APP File Insufficient UI Warning Remote Code Execution Vulnerability 2022-08-23 CVE-2022-36970 https://www.cve.org/CVERecord?id=CVE-2022-36970 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['AVEVA'] ['Edge'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of AVEVA Edge. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the processing of APP files. Crafted data in a APP file can cause the application to execute arbitrary Visual Basic scripts. The user interface fails to provide sufficient indication of the hazard. An attacker can leverage this vulnerability to execute code in the context of current process. AVEVA has issued an update to correct this vulnerability. More details can be found at: https://www.aveva.com/content/dam/aveva/documents/support/cyber-security-updates/SecurityBulletin_AVEVA-2022-005.pdf ['2022-06-28 - Vulnerability reported to vendor', '2022-08-23 - Coordinated public release of advisory'] Aaron Ferber https://www.zerodayinitiative.com/advisories/ZDI-22-1129/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-1129/",
+  "title": "AVEVA Edge APP File Insufficient UI Warning Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of AVEVA Edge. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the processing of APP files. Crafted data in a APP file can cause the application to execute arbitrary Visual Basic scripts. The user interface fails to provide sufficient indication of the hazard. An attacker can leverage this vulnerability to execute code in the context of current process.",
+  "zdi_can": "ZDI-CAN-17370",
+  "zdi_id": "ZDI-22-1129"
+}

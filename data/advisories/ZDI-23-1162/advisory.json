@@ -1,0 +1,27 @@
+{
+  "additional_details": "NETGEAR has issued an update to correct this vulnerability. More details can be found at: https://kb.netgear.com/000065645/Security-Advisory-for-Multiple-Vulnerabilities-on-the-RAX30-PSV-2022-0360-PSV-2022-0361",
+  "advisory_date": "2023-08-22",
+  "affected_products": [
+    "RAX30"
+  ],
+  "affected_vendors": [
+    "NETGEAR"
+  ],
+  "credit": "Kevin Wang",
+  "cve": "CVE-2023-40480",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-40480",
+  "cvss": 8.8,
+  "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2022-12-28 - Vulnerability reported to vendor",
+    "2023-08-22 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-1162 ZDI-CAN-19705 NETGEAR RAX30 DHCP Server Command Injection Remote Code Execution Vulnerability 2023-08-22 CVE-2023-40480 https://www.cve.org/CVERecord?id=CVE-2023-40480 8.8 AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['NETGEAR'] ['RAX30'] This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of NETGEAR RAX30 routers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the DHCP server. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of root. NETGEAR has issued an update to correct this vulnerability. More details can be found at: https://kb.netgear.com/000065645/Security-Advisory-for-Multiple-Vulnerabilities-on-the-RAX30-PSV-2022-0360-PSV-2022-0361 ['2022-12-28 - Vulnerability reported to vendor', '2023-08-22 - Coordinated public release of advisory'] Kevin Wang https://www.zerodayinitiative.com/advisories/ZDI-23-1162/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-1162/",
+  "title": "NETGEAR RAX30 DHCP Server Command Injection Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of NETGEAR RAX30 routers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the DHCP server. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of root.",
+  "zdi_can": "ZDI-CAN-19705",
+  "zdi_id": "ZDI-23-1162"
+}

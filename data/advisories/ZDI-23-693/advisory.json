@@ -1,0 +1,27 @@
+{
+  "additional_details": "Linux has issued an update to correct this vulnerability. More details can be found at: https://lore.kernel.org/lkml/CAH2r5msyEy20e=FBx6wPWWc3kXzNR4b+zHshSqidRdFKVf_7Jg@mail.gmail.com/",
+  "advisory_date": "2023-05-17",
+  "affected_products": [
+    "Kernel"
+  ],
+  "affected_vendors": [
+    "Linux"
+  ],
+  "credit": "Arnaud Gatignol, Quentin Minster, Florent Saudel, Guillaume Teissier (@thalium_team)",
+  "cve": "CVE-2023-2593",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-2593",
+  "cvss": 5.9,
+  "cvss_vector": "AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+  "disclosure_timeline": [
+    "2022-08-19 - Vulnerability reported to vendor",
+    "2023-05-17 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-693 ZDI-CAN-18259 Linux Kernel ksmbd Memory Exhaustion Denial-of-Service Vulnerability 2023-05-17 CVE-2023-2593 https://www.cve.org/CVERecord?id=CVE-2023-2593 5.9 AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H ['Linux'] ['Kernel'] This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of the Linux Kernel. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of new TCP connections. The issue results from the lack of memory release after its effective lifetime. An attacker can leverage this vulnerability to create a denial-of-service condition on the system. Linux has issued an update to correct this vulnerability. More details can be found at: https://lore.kernel.org/lkml/CAH2r5msyEy20e=FBx6wPWWc3kXzNR4b+zHshSqidRdFKVf_7Jg@mail.gmail.com/ ['2022-08-19 - Vulnerability reported to vendor', '2023-05-17 - Coordinated public release of advisory'] Arnaud Gatignol, Quentin Minster, Florent Saudel, Guillaume Teissier (@thalium_team) https://www.zerodayinitiative.com/advisories/ZDI-23-693/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-693/",
+  "title": "Linux Kernel ksmbd Memory Exhaustion Denial-of-Service Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of the Linux Kernel. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of new TCP connections. The issue results from the lack of memory release after its effective lifetime. An attacker can leverage this vulnerability to create a denial-of-service condition on the system.",
+  "zdi_can": "ZDI-CAN-18259",
+  "zdi_id": "ZDI-23-693"
+}

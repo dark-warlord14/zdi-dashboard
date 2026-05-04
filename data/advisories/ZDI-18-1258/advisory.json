@@ -1,0 +1,27 @@
+{
+  "additional_details": "LAquis has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-18-289-01",
+  "advisory_date": "2018-10-16",
+  "affected_products": [
+    "SCADA"
+  ],
+  "affected_vendors": [
+    "LAquis"
+  ],
+  "credit": "Mat Powell of Trend Micro Zero Day Initiative",
+  "cve": "CVE-2018-17911",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2018-17911",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2018-06-29 - Vulnerability reported to vendor",
+    "2018-10-16 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-1258 ZDI-CAN-6545 Laquis SCADA vrel Stack-based Buffer Overflow Remote Code Execution Vulnerability 2018-10-16 CVE-2018-17911 https://www.cve.org/CVERecord?id=CVE-2018-17911 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['LAquis'] ['SCADA'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of LAquis SCADA. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within vrel.exe. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this functionality to execute code in the context of the current process. LAquis has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-18-289-01 ['2018-06-29 - Vulnerability reported to vendor', '2018-10-16 - Coordinated public release of advisory'] Mat Powell of Trend Micro Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-18-1258/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-1258/",
+  "title": "Laquis SCADA vrel Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of LAquis SCADA. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within vrel.exe. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this functionality to execute code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-6545",
+  "zdi_id": "ZDI-18-1258"
+}

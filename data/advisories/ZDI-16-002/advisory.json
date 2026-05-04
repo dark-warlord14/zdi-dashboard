@@ -1,0 +1,27 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-us/HT205638",
+  "advisory_date": "2016-01-08",
+  "affected_products": [
+    "QuickTime"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "Jaanus Kp - Clarified Security",
+  "cve": "CVE-2015-7092",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-7092",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2015-10-06 - Vulnerability reported to vendor",
+    "2016-01-08 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-16-002 ZDI-CAN-3337 Apple QuickTime ID3 Tag Heap Buffer Overflow Remote Code Execution Vulnerability 2016-01-08 CVE-2015-7092 https://www.cve.org/CVERecord?id=CVE-2015-7092 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Apple'] ['QuickTime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple QuickTime. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of ID3 version tags in MP3 files. By providing a malformed TXXX frame, an attacker can cause data to be written past the end of an allocated heap buffer. An attacker could leverage this to execute arbitrary code under the context of the current user. Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-us/HT205638 ['2015-10-06 - Vulnerability reported to vendor', '2016-01-08 - Coordinated public release of advisory'] Jaanus Kp - Clarified Security https://www.zerodayinitiative.com/advisories/ZDI-16-002/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-002/",
+  "title": "Apple QuickTime ID3 Tag Heap Buffer Overflow Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple QuickTime. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of ID3 version tags in MP3 files. By providing a malformed TXXX frame, an attacker can cause data to be written past the end of an allocated heap buffer. An attacker could leverage this to execute arbitrary code under the context of the current user.",
+  "zdi_can": "ZDI-CAN-3337",
+  "zdi_id": "ZDI-16-002"
+}

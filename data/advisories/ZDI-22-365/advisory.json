@@ -1,0 +1,27 @@
+{
+  "additional_details": "MariaDB has issued an update to correct this vulnerability. More details can be found at: https://mariadb.com/kb/en/security/",
+  "advisory_date": "2022-02-16",
+  "affected_products": [
+    "MariaDB"
+  ],
+  "affected_vendors": [
+    "MariaDB"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2022-24051",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-24051",
+  "cvss": 7.0,
+  "cvss_vector": "AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2022-01-20 - Vulnerability reported to vendor",
+    "2022-02-16 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-365 ZDI-CAN-16208 MariaDB CONNECT Storage Engine Format String Privilege Escalation Vulnerability 2022-02-16 CVE-2022-24051 https://www.cve.org/CVERecord?id=CVE-2022-24051 7.0 AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H ['MariaDB'] ['MariaDB'] This vulnerability allows local attackers to escalate privileges on affected installations of MariaDB. Authentication is required to exploit this vulnerability. The specific flaw exists within the processing of SQL queries. The issue results from the lack of proper validation of a user-supplied string before using it as a format specifier. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the service account. MariaDB has issued an update to correct this vulnerability. More details can be found at: https://mariadb.com/kb/en/security/ ['2022-01-20 - Vulnerability reported to vendor', '2022-02-16 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-22-365/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-365/",
+  "title": "MariaDB CONNECT Storage Engine Format String Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of MariaDB. Authentication is required to exploit this vulnerability. The specific flaw exists within the processing of SQL queries. The issue results from the lack of proper validation of a user-supplied string before using it as a format specifier. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the service account.",
+  "zdi_can": "ZDI-CAN-16208",
+  "zdi_id": "ZDI-22-365"
+}

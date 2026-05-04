@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-35387",
+  "advisory_date": "2023-08-14",
+  "affected_products": [
+    "Windows"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Lucas Leong (@_wmliang_) of Trend Micro Zero Day Initiative",
+  "cve": "CVE-2023-35387",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-35387",
+  "cvss": 6.2,
+  "cvss_vector": "AV:A/AC:H/PR:L/UI:R/S:C/C:L/I:N/A:H",
+  "disclosure_timeline": [
+    "2023-05-01 - Vulnerability reported to vendor",
+    "2023-08-14 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-1066 ZDI-CAN-20988 Microsoft Windows Bluetooth AVDTP Protocol Integer Underflow Information Disclosure Vulnerability 2023-08-14 CVE-2023-35387 https://www.cve.org/CVERecord?id=CVE-2023-35387 6.2 AV:A/AC:H/PR:L/UI:R/S:C/C:L/I:N/A:H ['Microsoft'] ['Windows'] This vulnerability allows network-adjacent attackers to disclose sensitive information on affected installations of Microsoft Windows. User interaction is required to exploit this vulnerability in that the target must connect a malicious Bluetooth device. The specific flaw exists within the processing of AVDTP commands. The issue results from the lack of proper validation of user-supplied data, which can result in an integer underflow before reading from memory. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the kernel. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-35387 ['2023-05-01 - Vulnerability reported to vendor', '2023-08-14 - Coordinated public release of advisory'] Lucas Leong (@_wmliang_) of Trend Micro Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-23-1066/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-1066/",
+  "title": "Microsoft Windows Bluetooth AVDTP Protocol Integer Underflow Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows network-adjacent attackers to disclose sensitive information on affected installations of Microsoft Windows. User interaction is required to exploit this vulnerability in that the target must connect a malicious Bluetooth device. The specific flaw exists within the processing of AVDTP commands. The issue results from the lack of proper validation of user-supplied data, which can result in an integer underflow before reading from memory. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the kernel.",
+  "zdi_can": "ZDI-CAN-20988",
+  "zdi_id": "ZDI-23-1066"
+}

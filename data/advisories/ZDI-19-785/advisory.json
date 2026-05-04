@@ -1,0 +1,28 @@
+{
+  "additional_details": "Red Lion has issued an update to correct this vulnerability. More details can be found at: https://support.redlion.net/hc/en-us/articles/360033077531",
+  "advisory_date": "2019-09-05",
+  "affected_products": [
+    "Crimson"
+  ],
+  "affected_vendors": [
+    "Red Lion"
+  ],
+  "credit": "Michael DePlante, Anthony Fuller and Todd Manning of Trend Micro Zero Day Initiative/Trend Micro Research",
+  "cve": "CVE-2019-10990",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2019-10990",
+  "cvss": 6.5,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+  "disclosure_timeline": [
+    "2019-02-28 - Vulnerability reported to vendor",
+    "2019-09-05 - Coordinated public release of advisory",
+    "2021-06-29 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-19-785 ZDI-CAN-8188 Red Lion Crimson Hard-coded Cryptographic Key Information Disclosure Vulnerability 2019-09-05 CVE-2019-10990 https://www.cve.org/CVERecord?id=CVE-2019-10990 6.5 AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N ['Red Lion'] ['Crimson'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Red Lion Crimson. Authentication is not required to exploit this vulnerability. The specific flaw exists within the CTextStreamMemory class. The class contains hard-coded secrets in clear text. An attacker can leverage this to decrypt user passwords. Red Lion has issued an update to correct this vulnerability. More details can be found at: https://support.redlion.net/hc/en-us/articles/360033077531 ['2019-02-28 - Vulnerability reported to vendor', '2019-09-05 - Coordinated public release of advisory', '2021-06-29 - Advisory Updated'] Michael DePlante, Anthony Fuller and Todd Manning of Trend Micro Zero Day Initiative/Trend Micro Research https://www.zerodayinitiative.com/advisories/ZDI-19-785/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-19-785/",
+  "title": "Red Lion Crimson Hard-coded Cryptographic Key Information Disclosure Vulnerability",
+  "updated_date": "2021-06-29",
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Red Lion Crimson. Authentication is not required to exploit this vulnerability. The specific flaw exists within the CTextStreamMemory class. The class contains hard-coded secrets in clear text. An attacker can leverage this to decrypt user passwords.",
+  "zdi_can": "ZDI-CAN-8188",
+  "zdi_id": "ZDI-19-785"
+}

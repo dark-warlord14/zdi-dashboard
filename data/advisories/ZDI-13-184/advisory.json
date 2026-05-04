@@ -1,0 +1,27 @@
+{
+  "additional_details": "This vulnerability is being disclosed publicly without a patch in accordance with the ZDI vulnerability disclosure policy on lack of vendor response. Vendor Contact Timeline: May 16, 2013: - First email sent to PineApp May 22, 2013: - Second email sent to PineApp May 24, 2013: - Phone call placed to PineApp June 11, 2013: - Phone call placed to PineApp June 21, 2013: - Third email sent to PineApp July 26, 2013: - Vulnerability advisory published -- Mitigation: Given the requirements for users to have access to their email, and given the nature of the vulnerabilities discovered in the PineApp Mail-SeCure software, the only salient mitigation strategy is to restrict access to port 7443 of the PineApp device or VM to those machines which have a legitimate need to access the PineApp software directly. This could be accomplished in a number of ways, most notably with firewall rules/whitelisting. For systems running Microsoft Windows, these features are available in the native Windows Firewall, as described in http://technet.microsoft.com/en-us/library/cc725770%28WS.10%29.aspx and numerous other Microsoft Knowledge Base articles.",
+  "advisory_date": "2013-07-26",
+  "affected_products": [
+    "Mail-SeCure"
+  ],
+  "affected_vendors": [
+    "PineApp"
+  ],
+  "credit": "Anonymous",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2013-05-16 - Vulnerability reported to vendor",
+    "2013-07-26 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-13-184 ZDI-CAN-1890 (0Day) PineApp Mail-SeCure livelog.html Remote Code Execution Vulnerability 2013-07-26 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['PineApp'] ['Mail-SeCure'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of PineApp Mail-SeCure. Authentication is not required to exploit this vulnerability. The specific flaws exist with input sanitization in the livelog.html component. These flaws allow for the injection of arbitrary commands to the Mail-SeCure server. An attacker could leverage this vulnerability to execute arbitrary code as root. This vulnerability is being disclosed publicly without a patch in accordance with the ZDI vulnerability disclosure policy on lack of vendor response. Vendor Contact Timeline: May 16, 2013: - First email sent to PineApp May 22, 2013: - Second email sent to PineApp May 24, 2013: - Phone call placed to PineApp June 11, 2013: - Phone call placed to PineApp June 21, 2013: - Third email sent to PineApp July 26, 2013: - Vulnerability advisory published -- Mitigation: Given the requirements for users to have access to their email, and given the nature of the vulnerabilities discovered in the PineApp Mail-SeCure software, the only salient mitigation strategy is to restrict access to port 7443 of the PineApp device or VM to those machines which have a legitimate need to access the PineApp software directly. This could be accomplished in a number of ways, most notably with firewall rules/whitelisting. For systems running Microsoft Windows, these features are available in the native Windows Firewall, as described in http://technet.microsoft.com/en-us/library/cc725770%28WS.10%29.aspx and numerous other Microsoft Knowledge Base articles. ['2013-05-16 - Vulnerability reported to vendor', '2013-07-26 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-13-184/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-13-184/",
+  "title": "(0Day) PineApp Mail-SeCure livelog.html Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of PineApp Mail-SeCure. Authentication is not required to exploit this vulnerability. The specific flaws exist with input sanitization in the livelog.html component. These flaws allow for the injection of arbitrary commands to the Mail-SeCure server. An attacker could leverage this vulnerability to execute arbitrary code as root.",
+  "zdi_can": "ZDI-CAN-1890",
+  "zdi_id": "ZDI-13-184"
+}

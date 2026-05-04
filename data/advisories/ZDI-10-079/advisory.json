@@ -1,0 +1,27 @@
+{
+  "additional_details": "This issue has been addressed in v14: http://www.realnetworks.com/uploadedFiles/Support/helix-support/SecurityUpdate041410HS.pdf",
+  "advisory_date": "2010-04-28",
+  "affected_products": [
+    "Helix Server"
+  ],
+  "affected_vendors": [
+    "RealNetworks"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2010-1317",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2010-1317",
+  "cvss": 8.3,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:C",
+  "disclosure_timeline": [
+    "2009-07-14 - Vulnerability reported to vendor",
+    "2010-04-28 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-10-079 ZDI-CAN-507 Realnetworks Helix Server NTLM Authentication Invalid Base64 Remote Code Execution Vulnerability 2010-04-28 CVE-2010-1317 https://www.cve.org/CVERecord?id=CVE-2010-1317 8.3 AV:N/AC:M/Au:N/C:P/I:P/A:C ['RealNetworks'] ['Helix Server'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of RealNetworks Helix Server. Authentication is not required to exploit this vulnerability. The specific flaw exists within the authentication provided by the administrative web interface and is only present if it is configured to use NTLM. The vulnerability can be triggered by specifying invalid Base64 string within the Authorization header. If the string is not proper Base64 the vulnerable function returns -1 which is not verified and is later used as a length to a string copy routine. This issue has been addressed in v14: http://www.realnetworks.com/uploadedFiles/Support/helix-support/SecurityUpdate041410HS.pdf ['2009-07-14 - Vulnerability reported to vendor', '2010-04-28 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-10-079/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-079/",
+  "title": "Realnetworks Helix Server NTLM Authentication Invalid Base64 Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of RealNetworks Helix Server. Authentication is not required to exploit this vulnerability. The specific flaw exists within the authentication provided by the administrative web interface and is only present if it is configured to use NTLM. The vulnerability can be triggered by specifying invalid Base64 string within the Authorization header. If the string is not proper Base64 the vulnerable function returns -1 which is not verified and is later used as a length to a string copy routine.",
+  "zdi_can": "ZDI-CAN-507",
+  "zdi_id": "ZDI-10-079"
+}

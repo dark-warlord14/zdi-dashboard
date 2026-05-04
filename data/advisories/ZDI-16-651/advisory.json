@@ -1,0 +1,27 @@
+{
+  "additional_details": "Delta Industrial Automation has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-16-348-03",
+  "advisory_date": "2016-12-15",
+  "affected_products": [
+    "ISPSoft"
+  ],
+  "affected_vendors": [
+    "Delta Industrial Automation"
+  ],
+  "credit": "axt",
+  "cve": "CVE-2016-5805",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-5805",
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2016-07-26 - Vulnerability reported to vendor",
+    "2016-12-15 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-16-651 ZDI-CAN-3909 Delta Industrial Automation ISPSoft dvp File Heap-based Buffer Overflow Remote Code Execution Vulnerability 2016-12-15 CVE-2016-5805 https://www.cve.org/CVERecord?id=CVE-2016-5805 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Delta Industrial Automation'] ['ISPSoft'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Delta Industrial Automation ISPSoft. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the processing of dvp files. The process does not properly validate the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute arbitrary code under the context of current process. Delta Industrial Automation has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-16-348-03 ['2016-07-26 - Vulnerability reported to vendor', '2016-12-15 - Coordinated public release of advisory'] axt https://www.zerodayinitiative.com/advisories/ZDI-16-651/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-651/",
+  "title": "Delta Industrial Automation ISPSoft dvp File Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Delta Industrial Automation ISPSoft. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the processing of dvp files. The process does not properly validate the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute arbitrary code under the context of current process.",
+  "zdi_can": "ZDI-CAN-3909",
+  "zdi_id": "ZDI-16-651"
+}

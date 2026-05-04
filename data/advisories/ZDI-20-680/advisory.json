@@ -1,0 +1,27 @@
+{
+  "additional_details": "https://support.apple.com/en-gb/HT211170",
+  "advisory_date": "2020-05-28",
+  "affected_products": [
+    "macOS"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "@jinmo123, @setuid0x0_, and @insu_yun_en of @SSLab_Gatech",
+  "cve": "CVE-2020-9856",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2020-9856",
+  "cvss": 5.3,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
+  "disclosure_timeline": [
+    "2020-05-27 - Vulnerability reported to vendor",
+    "2020-05-28 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-20-680 ZDI-CAN-10775 (Pwn2Own) Apple macOS Core Virtual Machine Service Heap-based Buffer Overflow Vulnerability 2020-05-28 CVE-2020-9856 https://www.cve.org/CVERecord?id=CVE-2020-9856 5.3 AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L ['Apple'] ['macOS'] This vulnerability allows local attackers to escalate privileges on affected installations of Apple macOS. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of Core Virtual Machine Service caches. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this in conjunction with other vulnerabilities to escalate privileges and execute code in the context of the kernel. https://support.apple.com/en-gb/HT211170 ['2020-05-27 - Vulnerability reported to vendor', '2020-05-28 - Coordinated public release of advisory'] @jinmo123, @setuid0x0_, and @insu_yun_en of @SSLab_Gatech https://www.zerodayinitiative.com/advisories/ZDI-20-680/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-20-680/",
+  "title": "(Pwn2Own) Apple macOS Core Virtual Machine Service Heap-based Buffer Overflow Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Apple macOS. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of Core Virtual Machine Service caches. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this in conjunction with other vulnerabilities to escalate privileges and execute code in the context of the kernel.",
+  "zdi_can": "ZDI-CAN-10775",
+  "zdi_id": "ZDI-20-680"
+}

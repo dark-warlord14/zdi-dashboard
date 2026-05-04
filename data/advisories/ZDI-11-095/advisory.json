@@ -1,0 +1,27 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT4554",
+  "advisory_date": "2011-03-02",
+  "affected_products": [
+    "WebKit"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "wushi of team509",
+  "cve": "CVE-2010-1824",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2010-1824",
+  "cvss": 9.7,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:P/A:C",
+  "disclosure_timeline": [
+    "2010-10-18 - Vulnerability reported to vendor",
+    "2011-03-02 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-11-095 ZDI-CAN-982 Apple Webkit Error Message Mutation Remote Code Execution Vulnerability 2011-03-02 CVE-2010-1824 https://www.cve.org/CVERecord?id=CVE-2010-1824 9.7 AV:N/AC:L/Au:N/C:C/I:P/A:C ['Apple'] ['WebKit'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple Safari's Webkit. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the methodology the application takes to inform a user about an error while parsing a malformed document. When displaying the error message, the application will append the message to the current instance of the DOM tree causing another element to be removed which will lead to the styles being recalculated. When the styles are recalculated the application will access the initially freed element which can lead to code execution under the context of the application. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT4554 ['2010-10-18 - Vulnerability reported to vendor', '2011-03-02 - Coordinated public release of advisory'] wushi of team509 https://www.zerodayinitiative.com/advisories/ZDI-11-095/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-095/",
+  "title": "Apple Webkit Error Message Mutation Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple Safari's Webkit. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the methodology the application takes to inform a user about an error while parsing a malformed document. When displaying the error message, the application will append the message to the current instance of the DOM tree causing another element to be removed which will lead to the styles being recalculated. When the styles are recalculated the application will access the initially freed element which can lead to code execution under the context of the application.",
+  "zdi_can": "ZDI-CAN-982",
+  "zdi_id": "ZDI-11-095"
+}

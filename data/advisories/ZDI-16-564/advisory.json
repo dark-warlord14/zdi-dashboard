@@ -1,0 +1,27 @@
+{
+  "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb16-33.html",
+  "advisory_date": "2016-10-11",
+  "affected_products": [
+    "Acrobat Reader DC"
+  ],
+  "affected_vendors": [
+    "Adobe"
+  ],
+  "credit": "kdot",
+  "cve": "CVE-2016-6940",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-6940",
+  "cvss": 4.3,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N",
+  "disclosure_timeline": [
+    "2016-04-28 - Vulnerability reported to vendor",
+    "2016-10-11 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-16-564 ZDI-CAN-3724 Adobe Reader DC PRC Out-Of-Bounds Read Information Disclosure Vulnerability 2016-10-11 CVE-2016-6940 https://www.cve.org/CVERecord?id=CVE-2016-6940 4.3 AV:N/AC:M/Au:N/C:P/I:N/A:N ['Adobe'] ['Acrobat Reader DC'] This vulnerability allows an attacker to leak sensitive information on vulnerable installations of Adobe Reader DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of PRC files. The issue lies in the failure to validate PRC files embedded in PDF documents. An attacker can leverage this vulnerability to disclose the contents of adjacent memory. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb16-33.html ['2016-04-28 - Vulnerability reported to vendor', '2016-10-11 - Coordinated public release of advisory'] kdot https://www.zerodayinitiative.com/advisories/ZDI-16-564/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-564/",
+  "title": "Adobe Reader DC PRC Out-Of-Bounds Read Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows an attacker to leak sensitive information on vulnerable installations of Adobe Reader DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of PRC files. The issue lies in the failure to validate PRC files embedded in PDF documents. An attacker can leverage this vulnerability to disclose the contents of adjacent memory.",
+  "zdi_can": "ZDI-CAN-3724",
+  "zdi_id": "ZDI-16-564"
+}

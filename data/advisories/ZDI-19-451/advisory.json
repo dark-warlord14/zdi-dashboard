@@ -1,0 +1,27 @@
+{
+  "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb19-17.html",
+  "advisory_date": "2019-05-09",
+  "affected_products": [
+    "Acrobat Pro DC"
+  ],
+  "affected_vendors": [
+    "Adobe"
+  ],
+  "credit": "Esteban Ruiz (mr_me) of Source Incite",
+  "cve": "CVE-2019-7127",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2019-7127",
+  "cvss": 3.3,
+  "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+  "disclosure_timeline": [
+    "2019-03-26 - Vulnerability reported to vendor",
+    "2019-05-09 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-19-451 ZDI-CAN-8264 Adobe Acrobat Pro DC PostScript File Parsing Out-Of-Bounds Read Information Disclosure Vulnerability 2019-05-09 CVE-2019-7127 https://www.cve.org/CVERecord?id=CVE-2019-7127 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N ['Adobe'] ['Acrobat Pro DC'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Adobe Acrobat Pro DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of charstrings in PostScript files. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute code in the context of the current process. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb19-17.html ['2019-03-26 - Vulnerability reported to vendor', '2019-05-09 - Coordinated public release of advisory'] Esteban Ruiz (mr_me) of Source Incite https://www.zerodayinitiative.com/advisories/ZDI-19-451/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-19-451/",
+  "title": "Adobe Acrobat Pro DC PostScript File Parsing Out-Of-Bounds Read Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Adobe Acrobat Pro DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of charstrings in PostScript files. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-8264",
+  "zdi_id": "ZDI-19-451"
+}

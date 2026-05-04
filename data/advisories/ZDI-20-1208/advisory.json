@@ -1,0 +1,27 @@
+{
+  "additional_details": "Hewlett Packard Enterprise has issued an update to correct this vulnerability. More details can be found at: https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=emr_na-hpesbgn04024en_us",
+  "advisory_date": "2020-09-21",
+  "affected_products": [
+    "Universal API Framework"
+  ],
+  "affected_vendors": [
+    "Hewlett Packard Enterprise"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2020-24623",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2020-24623",
+  "cvss": 5.3,
+  "cvss_vector": "AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+  "disclosure_timeline": [
+    "2020-07-17 - Vulnerability reported to vendor",
+    "2020-09-21 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-20-1208 ZDI-CAN-11502 Hewlett Packard Enterprise Universal API Framework uaf_token SQL Injection Information Disclosure Vulnerability 2020-09-21 CVE-2020-24623 https://www.cve.org/CVERecord?id=CVE-2020-24623 5.3 AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N ['Hewlett Packard Enterprise'] ['Universal API Framework'] This vulnerability allows network-adjacent attackers to disclose sensitive information on affected installations of Hewlett Packard Enterprise Universal API Framework. Authentication is not required to exploit this vulnerability. The specific flaw exists within the connections resource. A crafted uaf-token header can trigger execution of SQL queries composed from a user-supplied string. An attacker can leverage this vulnerability to disclose stored credentials, leading to further compromise. Hewlett Packard Enterprise has issued an update to correct this vulnerability. More details can be found at: https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=emr_na-hpesbgn04024en_us ['2020-07-17 - Vulnerability reported to vendor', '2020-09-21 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-20-1208/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-20-1208/",
+  "title": "Hewlett Packard Enterprise Universal API Framework uaf_token SQL Injection Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows network-adjacent attackers to disclose sensitive information on affected installations of Hewlett Packard Enterprise Universal API Framework. Authentication is not required to exploit this vulnerability. The specific flaw exists within the connections resource. A crafted uaf-token header can trigger execution of SQL queries composed from a user-supplied string. An attacker can leverage this vulnerability to disclose stored credentials, leading to further compromise.",
+  "zdi_can": "ZDI-CAN-11502",
+  "zdi_id": "ZDI-20-1208"
+}

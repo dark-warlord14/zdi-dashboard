@@ -1,0 +1,27 @@
+{
+  "additional_details": "Cisco has issued an update to correct this vulnerability. More details can be found at: https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170517-pcp1",
+  "advisory_date": "2017-06-26",
+  "affected_products": [
+    "Prime Collaboration Provisioning"
+  ],
+  "affected_vendors": [
+    "Cisco"
+  ],
+  "credit": "rgod",
+  "cve": "CVE-2017-6622",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-6622",
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2017-02-01 - Vulnerability reported to vendor",
+    "2017-06-26 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-17-445 ZDI-CAN-4343 Cisco Prime Collaboration Provisioning ScriptMgr Servlet Authentication Bypass Remote Code Execution Vulnerability 2017-06-26 CVE-2017-6622 https://www.cve.org/CVERecord?id=CVE-2017-6622 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Cisco'] ['Prime Collaboration Provisioning'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Cisco Prime Collaboration Provisioning. Authentication is not required to exploit this vulnerability. The specific flaw exists within the ScriptMgr servlet, which listens on TCP port 443 by default. A crafted request can bypass authentication for this resource. An attacker can leverage this vulnerability to execute arbitrary code under the context of root. Cisco has issued an update to correct this vulnerability. More details can be found at: https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170517-pcp1 ['2017-02-01 - Vulnerability reported to vendor', '2017-06-26 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-17-445/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-445/",
+  "title": "Cisco Prime Collaboration Provisioning ScriptMgr Servlet Authentication Bypass Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Cisco Prime Collaboration Provisioning. Authentication is not required to exploit this vulnerability. The specific flaw exists within the ScriptMgr servlet, which listens on TCP port 443 by default. A crafted request can bypass authentication for this resource. An attacker can leverage this vulnerability to execute arbitrary code under the context of root.",
+  "zdi_can": "ZDI-CAN-4343",
+  "zdi_id": "ZDI-17-445"
+}

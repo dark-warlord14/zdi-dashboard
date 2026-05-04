@@ -1,0 +1,27 @@
+{
+  "additional_details": "Citrix has issued an update to correct this vulnerability. More details can be found at: http://support.citrix.com/article/CTX114487",
+  "advisory_date": "2008-01-17",
+  "affected_products": [
+    "Metaframe Server"
+  ],
+  "affected_vendors": [
+    "Citrix"
+  ],
+  "credit": "Eric DETOISIEN",
+  "cve": "CVE-2008-0356",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2008-0356",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2007-07-20 - Vulnerability reported to vendor",
+    "2008-01-17 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-08-002 ZDI-CAN-212 Citrix Metaframe Presentation Server IMA Service Heap Overflow Vulnerability 2008-01-17 CVE-2008-0356 https://www.cve.org/CVERecord?id=CVE-2008-0356 ['Citrix'] ['Metaframe Server'] This vulnerability allows attackers to execute arbitrary code on vulnerable installations of Citrix Presentation Server. Authentication is not required to exploit this vulnerability. The specific flaw resides in the Independent Management Architecture service, ImaSrv.exe, which listens by default on TCP port 2512 or 2513. The process trusts a user-suppled value as a parameter to a memory allocation. By supplying a specific value, an undersized heap buffer may be allocated. Subsequently, an attacker can then overflow that heap buffer by sending an overly large packet leading to arbitrary code execution in the context of the SYSTEM user. Citrix has issued an update to correct this vulnerability. More details can be found at: http://support.citrix.com/article/CTX114487 ['2007-07-20 - Vulnerability reported to vendor', '2008-01-17 - Coordinated public release of advisory'] Eric DETOISIEN https://www.zerodayinitiative.com/advisories/ZDI-08-002/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-08-002/",
+  "title": "Citrix Metaframe Presentation Server IMA Service Heap Overflow Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows attackers to execute arbitrary code on vulnerable installations of Citrix Presentation Server. Authentication is not required to exploit this vulnerability. The specific flaw resides in the Independent Management Architecture service, ImaSrv.exe, which listens by default on TCP port 2512 or 2513. The process trusts a user-suppled value as a parameter to a memory allocation. By supplying a specific value, an undersized heap buffer may be allocated. Subsequently, an attacker can then overflow that heap buffer by sending an overly large packet leading to arbitrary code execution in the context of the SYSTEM user.",
+  "zdi_can": "ZDI-CAN-212",
+  "zdi_id": "ZDI-08-002"
+}

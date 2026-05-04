@@ -1,0 +1,27 @@
+{
+  "additional_details": "VMware has issued an update to correct this vulnerability. More details can be found at: https://www.vmware.com/security/advisories/VMSA-2023-0007.html",
+  "advisory_date": "2023-04-24",
+  "affected_products": [
+    "Aria Operations for Logs"
+  ],
+  "affected_vendors": [
+    "VMware"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2023-20864",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-20864",
+  "cvss": 9.8,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2023-02-24 - Vulnerability reported to vendor",
+    "2023-04-24 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-482 ZDI-CAN-20380 VMware Aria Operations for Logs Cluster Controller Deserialization of Untrusted Data Remote Code Execution Vulnerability 2023-04-24 CVE-2023-20864 https://www.cve.org/CVERecord?id=CVE-2023-20864 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['VMware'] ['Aria Operations for Logs'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of VMware Aria Operations for Logs. Authentication is not required to exploit this vulnerability. The specific flaw exists within the InternalClusterController class. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of root. VMware has issued an update to correct this vulnerability. More details can be found at: https://www.vmware.com/security/advisories/VMSA-2023-0007.html ['2023-02-24 - Vulnerability reported to vendor', '2023-04-24 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-23-482/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-482/",
+  "title": "VMware Aria Operations for Logs Cluster Controller Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of VMware Aria Operations for Logs. Authentication is not required to exploit this vulnerability. The specific flaw exists within the InternalClusterController class. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of root.",
+  "zdi_can": "ZDI-CAN-20380",
+  "zdi_id": "ZDI-23-482"
+}

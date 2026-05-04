@@ -1,0 +1,28 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38024",
+  "advisory_date": "2024-11-20",
+  "affected_products": [
+    "SharePoint"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Guy Lederfein of Trend Micro Security Research",
+  "cve": "CVE-2024-38024",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-38024",
+  "cvss": 7.2,
+  "cvss_vector": "AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2024-05-28 - Vulnerability reported to vendor",
+    "2024-11-20 - Coordinated public release of advisory",
+    "2024-11-20 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-1534 ZDI-CAN-24221 Microsoft SharePoint Server FindSpecific Unsafe Reflection Remote Code Execution Vulnerability 2024-11-20 CVE-2024-38024 https://www.cve.org/CVERecord?id=CVE-2024-38024 7.2 AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H ['Microsoft'] ['SharePoint'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Microsoft SharePoint Server. Authentication is required to exploit this vulnerability. The specific flaw exists within the implementation of the FindSpecific method. The process does not properly restrict a user-supplied argument before using it to create an instance of an object. An attacker can leverage this vulnerability to execute code in the context of the service account. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38024 ['2024-05-28 - Vulnerability reported to vendor', '2024-11-20 - Coordinated public release of advisory', '2024-11-20 - Advisory Updated'] Guy Lederfein of Trend Micro Security Research https://www.zerodayinitiative.com/advisories/ZDI-24-1534/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-1534/",
+  "title": "Microsoft SharePoint Server FindSpecific Unsafe Reflection Remote Code Execution Vulnerability",
+  "updated_date": "2024-11-20",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Microsoft SharePoint Server. Authentication is required to exploit this vulnerability. The specific flaw exists within the implementation of the FindSpecific method. The process does not properly restrict a user-supplied argument before using it to create an instance of an object. An attacker can leverage this vulnerability to execute code in the context of the service account.",
+  "zdi_can": "ZDI-CAN-24221",
+  "zdi_id": "ZDI-24-1534"
+}

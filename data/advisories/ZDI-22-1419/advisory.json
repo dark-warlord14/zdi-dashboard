@@ -1,0 +1,27 @@
+{
+  "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/coldfusion/apsb22-44.html",
+  "advisory_date": "2022-10-14",
+  "affected_products": [
+    "ColdFusion"
+  ],
+  "affected_vendors": [
+    "Adobe"
+  ],
+  "credit": "rgod",
+  "cve": "CVE-2022-38422",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-38422",
+  "cvss": 5.3,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+  "disclosure_timeline": [
+    "2022-06-09 - Vulnerability reported to vendor",
+    "2022-10-14 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-1419 ZDI-CAN-16883 Adobe ColdFusion Application Server Directory Traversal Information Disclosure Vulnerability 2022-10-14 CVE-2022-38422 https://www.cve.org/CVERecord?id=CVE-2022-38422 5.3 AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N ['Adobe'] ['ColdFusion'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Adobe ColdFusion. Authentication is not required to exploit this vulnerability. The specific flaw exists within the Application Server endpoint, which listens on TCP port 8500 by default. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to disclose information in the context of SYSTEM. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/coldfusion/apsb22-44.html ['2022-06-09 - Vulnerability reported to vendor', '2022-10-14 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-22-1419/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-1419/",
+  "title": "Adobe ColdFusion Application Server Directory Traversal Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Adobe ColdFusion. Authentication is not required to exploit this vulnerability. The specific flaw exists within the Application Server endpoint, which listens on TCP port 8500 by default. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to disclose information in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-16883",
+  "zdi_id": "ZDI-22-1419"
+}

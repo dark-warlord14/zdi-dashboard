@@ -1,0 +1,28 @@
+{
+  "additional_details": "04/06/23 \u2013 ZDI reported the vulnerability to the vendor. 04/10/23 \u2013 The vendor asked us to resend the PoC. 04/19/23 \u2013 ZDI resent the PoC to the vendor. 05/16/23 \u2013 The vendor states this is by-design, and they do not consider it to be a security risk. 08/01/23 \u2013 ZDI provided the vendor with additional details on why this vulnerability should be remediated. 08/01/23 \u2013 The ZDI informed the vendor that the case is due on 08/04/23, and we will publish this case as a zero-day advisory on 08/08/23. -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the application.",
+  "advisory_date": "2023-08-08",
+  "affected_products": [
+    "GitHub"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Nitesh Surana (@_niteshsurana) of Trend Micro Research",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 9.9,
+  "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2023-04-06 - Vulnerability reported to vendor",
+    "2023-08-08 - Coordinated public release of advisory",
+    "2024-05-31 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-1044 ZDI-CAN-20784 (0Day) Microsoft GitHub Dev-Containers Improper Privilege Management Privilege Escalation Vulnerability 2023-08-08 9.9 AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H ['Microsoft'] ['GitHub'] This vulnerability allows remote attackers to escalate privileges on affected installations of Microsoft GitHub. Authentication is required to exploit this vulnerability. The specific flaw exists within the configuration of Dev-Containers. The application does not enforce the privileged flag within a devcontainer configuration. An attacker can leverage this vulnerability to escalate privileges and execute code in the context of the host. 04/06/23 \u2013 ZDI reported the vulnerability to the vendor. 04/10/23 \u2013 The vendor asked us to resend the PoC. 04/19/23 \u2013 ZDI resent the PoC to the vendor. 05/16/23 \u2013 The vendor states this is by-design, and they do not consider it to be a security risk. 08/01/23 \u2013 ZDI provided the vendor with additional details on why this vulnerability should be remediated. 08/01/23 \u2013 The ZDI informed the vendor that the case is due on 08/04/23, and we will publish this case as a zero-day advisory on 08/08/23. -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the application. ['2023-04-06 - Vulnerability reported to vendor', '2023-08-08 - Coordinated public release of advisory', '2024-05-31 - Advisory Updated'] Nitesh Surana (@_niteshsurana) of Trend Micro Research https://www.zerodayinitiative.com/advisories/ZDI-23-1044/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-1044/",
+  "title": "(0Day) Microsoft GitHub Dev-Containers Improper Privilege Management Privilege Escalation Vulnerability",
+  "updated_date": "2024-05-31",
+  "vulnerability_details": "This vulnerability allows remote attackers to escalate privileges on affected installations of Microsoft GitHub. Authentication is required to exploit this vulnerability. The specific flaw exists within the configuration of Dev-Containers. The application does not enforce the privileged flag within a devcontainer configuration. An attacker can leverage this vulnerability to escalate privileges and execute code in the context of the host.",
+  "zdi_can": "ZDI-CAN-20784",
+  "zdi_id": "ZDI-23-1044"
+}

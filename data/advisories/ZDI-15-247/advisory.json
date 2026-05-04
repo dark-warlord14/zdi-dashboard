@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/library/security/MS15-056",
+  "advisory_date": "2015-06-11",
+  "affected_products": [
+    "Internet Explorer"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Zheng Huang of Baidu Scloud XTeam",
+  "cve": "CVE-2015-1735",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-1735",
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2015-02-20 - Vulnerability reported to vendor",
+    "2015-06-11 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-15-247 ZDI-CAN-2764 Microsoft Internet Explorer hr Element Uninitialized Variable Remote Code Execution Vulnerability 2015-06-11 CVE-2015-1735 https://www.cve.org/CVERecord?id=CVE-2015-1735 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Microsoft'] ['Internet Explorer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The vulnerability relates to how Internet Explorer processes certain operations on HTML hr elements. Internet Explorer erroneously uses a VARIANT structure in memory before it has been properly initialized. An attacker can leverage this vulnerability to execute code under the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/library/security/MS15-056 ['2015-02-20 - Vulnerability reported to vendor', '2015-06-11 - Coordinated public release of advisory'] Zheng Huang of Baidu Scloud XTeam https://www.zerodayinitiative.com/advisories/ZDI-15-247/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-247/",
+  "title": "Microsoft Internet Explorer hr Element Uninitialized Variable Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The vulnerability relates to how Internet Explorer processes certain operations on HTML hr elements. Internet Explorer erroneously uses a VARIANT structure in memory before it has been properly initialized. An attacker can leverage this vulnerability to execute code under the context of the current process.",
+  "zdi_can": "ZDI-CAN-2764",
+  "zdi_id": "ZDI-15-247"
+}

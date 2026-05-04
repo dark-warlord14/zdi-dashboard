@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/en-us/library/security/ms17-007.aspx",
+  "advisory_date": "2017-03-21",
+  "affected_products": [
+    "Edge"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Suto",
+  "cve": "CVE-2017-0011",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-0011",
+  "cvss": 2.6,
+  "cvss_vector": "AV:N/AC:H/Au:N/C:P/I:N/A:N",
+  "disclosure_timeline": [
+    "2016-09-08 - Vulnerability reported to vendor",
+    "2017-03-21 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-17-167 ZDI-CAN-3934 Microsoft Edge CTransitionValues Out-Of-Bounds Read Information Disclosure Vulnerability 2017-03-21 CVE-2017-0011 https://www.cve.org/CVERecord?id=CVE-2017-0011 2.6 AV:N/AC:H/Au:N/C:P/I:N/A:N ['Microsoft'] ['Edge'] This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Microsoft Edge. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the processing of the filter attribute in CSS. By manipulating a document's elements an attacker can trigger a read past the end of an allocated data structure. An attacker could leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/en-us/library/security/ms17-007.aspx ['2016-09-08 - Vulnerability reported to vendor', '2017-03-21 - Coordinated public release of advisory'] Suto https://www.zerodayinitiative.com/advisories/ZDI-17-167/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-167/",
+  "title": "Microsoft Edge CTransitionValues Out-Of-Bounds Read Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Microsoft Edge. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the processing of the filter attribute in CSS. By manipulating a document's elements an attacker can trigger a read past the end of an allocated data structure. An attacker could leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-3934",
+  "zdi_id": "ZDI-17-167"
+}

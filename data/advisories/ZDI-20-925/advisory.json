@@ -1,0 +1,27 @@
+{
+  "additional_details": "This vulnerability is being disclosed publicly without a patch in accordance with ZDI policies. 02/19/20 \u2013 ZDI reported the vulnerability to the vendor 02/19/20 \u2013 The vendor acknowledged the report 02/27/20 \u2013 The vendor requested technical clarification 02/28/20 \u2013 ZDI provided additional evidence 03/06/20 \u2013 The vendor indicated it was a configuration issue 03/18/20 \u2013 ZDI provided additional evidence 07/03/20 \u2013 ZDI requested an update 07/21/20 \u2013 ZDI requested an update 07/21/20 \u2013 The vendor indicated it was a configuration issue 07/21/20 \u2013 ZDI provided additional evidence and notified the vendor of the intention to publish the case as a 0-day advisory on 07/28/20 -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the service. Only the clients and servers that have a legitimate procedural relationship with the service should be permitted to communicate with it.",
+  "advisory_date": "2020-07-28",
+  "affected_products": [
+    "Informix"
+  ],
+  "affected_vendors": [
+    "IBM"
+  ],
+  "credit": "Anonymous",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2020-02-19 - Vulnerability reported to vendor",
+    "2020-07-28 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-20-925 ZDI-CAN-10332 (0Day) IBM Informix bts_tracefile Directory Traversal Remote Code Execution Vulnerability 2020-07-28 7.5 AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H ['IBM'] ['Informix'] This vulnerability allows remote attackers to create arbitrary files on affected installations of IBM Informix. Authentication is required to exploit this vulnerability. The specific flaw exists within the bts_tracefile function. When parsing the trace filename, the process does not properly validate a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute code in the context of the service account. This vulnerability is being disclosed publicly without a patch in accordance with ZDI policies. 02/19/20 \u2013 ZDI reported the vulnerability to the vendor 02/19/20 \u2013 The vendor acknowledged the report 02/27/20 \u2013 The vendor requested technical clarification 02/28/20 \u2013 ZDI provided additional evidence 03/06/20 \u2013 The vendor indicated it was a configuration issue 03/18/20 \u2013 ZDI provided additional evidence 07/03/20 \u2013 ZDI requested an update 07/21/20 \u2013 ZDI requested an update 07/21/20 \u2013 The vendor indicated it was a configuration issue 07/21/20 \u2013 ZDI provided additional evidence and notified the vendor of the intention to publish the case as a 0-day advisory on 07/28/20 -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the service. Only the clients and servers that have a legitimate procedural relationship with the service should be permitted to communicate with it. ['2020-02-19 - Vulnerability reported to vendor', '2020-07-28 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-20-925/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-20-925/",
+  "title": "(0Day) IBM Informix bts_tracefile Directory Traversal Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to create arbitrary files on affected installations of IBM Informix. Authentication is required to exploit this vulnerability. The specific flaw exists within the bts_tracefile function. When parsing the trace filename, the process does not properly validate a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute code in the context of the service account.",
+  "zdi_can": "ZDI-CAN-10332",
+  "zdi_id": "ZDI-20-925"
+}

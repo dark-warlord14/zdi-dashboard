@@ -1,0 +1,27 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT1222",
+  "advisory_date": "2013-06-11",
+  "affected_products": [
+    "QuickTime"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "G. Geshev",
+  "cve": "CVE-2013-1018",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2013-1018",
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2012-11-19 - Vulnerability reported to vendor",
+    "2013-06-11 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-13-113 ZDI-CAN-1641 Apple QuickTime 3GP Parsing Remote Code Execution Vunerability 2013-06-11 CVE-2013-1018 https://www.cve.org/CVERecord?id=CVE-2013-1018 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Apple'] ['QuickTime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple QuickTime. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of H.264 compressed data. Lengths specified within the file are not properly validated before being used as a size in a memory copy. By abusing this behavior an attacker can ensure this memory is under control and leverage the situation to achieve remote code execution under the context of the user currently logged in. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT1222 ['2012-11-19 - Vulnerability reported to vendor', '2013-06-11 - Coordinated public release of advisory'] G. Geshev https://www.zerodayinitiative.com/advisories/ZDI-13-113/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-13-113/",
+  "title": "Apple QuickTime 3GP Parsing Remote Code Execution Vunerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple QuickTime. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of H.264 compressed data. Lengths specified within the file are not properly validated before being used as a size in a memory copy. By abusing this behavior an attacker can ensure this memory is under control and leverage the situation to achieve remote code execution under the context of the user currently logged in.",
+  "zdi_can": "ZDI-CAN-1641",
+  "zdi_id": "ZDI-13-113"
+}

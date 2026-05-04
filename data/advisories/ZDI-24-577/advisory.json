@@ -1,0 +1,28 @@
+{
+  "additional_details": "Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/dcx/s/solution/000298063",
+  "advisory_date": "2024-06-06",
+  "affected_products": [
+    "Apex One"
+  ],
+  "affected_vendors": [
+    "Trend Micro"
+  ],
+  "credit": "NT AUTHORITY\\ANONYMOUS LOGON",
+  "cve": "CVE-2024-37289",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-37289",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2023-08-22 - Vulnerability reported to vendor",
+    "2024-06-06 - Coordinated public release of advisory",
+    "2024-07-01 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-577 ZDI-CAN-21599 Trend Micro Apex One Improper Access Control Local Privilege Escalation Vulnerability 2024-06-06 CVE-2024-37289 https://www.cve.org/CVERecord?id=CVE-2024-37289 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Trend Micro'] ['Apex One'] This vulnerability allows local attackers to escalate privileges on affected installations of Trend Micro Apex One. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Apex One Security Agent. The specific flaw exists within the logic that controls access to the Suspect folder. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/dcx/s/solution/000298063 ['2023-08-22 - Vulnerability reported to vendor', '2024-06-06 - Coordinated public release of advisory', '2024-07-01 - Advisory Updated'] NT AUTHORITY\\ANONYMOUS LOGON https://www.zerodayinitiative.com/advisories/ZDI-24-577/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-577/",
+  "title": "Trend Micro Apex One Improper Access Control Local Privilege Escalation Vulnerability",
+  "updated_date": "2024-07-01",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Trend Micro Apex One. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Apex One Security Agent. The specific flaw exists within the logic that controls access to the Suspect folder. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-21599",
+  "zdi_id": "ZDI-24-577"
+}

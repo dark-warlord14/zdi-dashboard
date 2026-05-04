@@ -1,0 +1,27 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/kb/HT201222",
+  "advisory_date": "2018-10-31",
+  "affected_products": [
+    "macOS"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2018-4422",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2018-4422",
+  "cvss": 7.0,
+  "cvss_vector": "AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2018-07-19 - Vulnerability reported to vendor",
+    "2018-10-31 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-1333 ZDI-CAN-6834 Apple macOS IOFramebufferUserClient Race Condition Privilege Escalation Vulnerability 2018-10-31 CVE-2018-4422 https://www.cve.org/CVERecord?id=CVE-2018-4422 7.0 AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H ['Apple'] ['macOS'] This vulnerability allows local attackers to escalate privileges on vulnerable installations of Apple macOS. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of the IOFramebufferUserClient IOkit user client. The issue results from the lack of proper locking when performing operations on an object. An attacker can leverage this vulnerability to escalate privileges and execute code as the kernel. Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/kb/HT201222 ['2018-07-19 - Vulnerability reported to vendor', '2018-10-31 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-18-1333/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-1333/",
+  "title": "Apple macOS IOFramebufferUserClient Race Condition Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on vulnerable installations of Apple macOS. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of the IOFramebufferUserClient IOkit user client. The issue results from the lack of proper locking when performing operations on an object. An attacker can leverage this vulnerability to escalate privileges and execute code as the kernel.",
+  "zdi_can": "ZDI-CAN-6834",
+  "zdi_id": "ZDI-18-1333"
+}

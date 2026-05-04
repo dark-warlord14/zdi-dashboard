@@ -1,0 +1,28 @@
+{
+  "additional_details": "Fortinet has issued an update to correct this vulnerability. More details can be found at: https://fortiguard.fortinet.com/psirt/FG-IR-26-108",
+  "advisory_date": "2026-04-15",
+  "affected_products": [
+    "FortiWeb"
+  ],
+  "affected_vendors": [
+    "Fortinet"
+  ],
+  "credit": "Jason McFadyen of Trend Research",
+  "cve": "CVE-2026-39811",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-39811",
+  "cvss": 6.5,
+  "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+  "disclosure_timeline": [
+    "2025-12-09 - Vulnerability reported to vendor",
+    "2026-04-15 - Coordinated public release of advisory",
+    "2026-04-15 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-26-265 ZDI-CAN-28660 Fortinet FortiWeb cgi_buf_alloc Integer Overflow Denial-of-Service Vulnerability 2026-04-15 CVE-2026-39811 https://www.cve.org/CVERecord?id=CVE-2026-39811 6.5 AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H ['Fortinet'] ['FortiWeb'] This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of Fortinet FortiWeb. Authentication is required to exploit this vulnerability. The specific flaw exists within the handling of HTTP requests. Crafted requests can force the server into an infinite loop. An attacker can leverage this vulnerability to create a denial-of-service condition on the system. Fortinet has issued an update to correct this vulnerability. More details can be found at: https://fortiguard.fortinet.com/psirt/FG-IR-26-108 ['2025-12-09 - Vulnerability reported to vendor', '2026-04-15 - Coordinated public release of advisory', '2026-04-15 - Advisory Updated'] Jason McFadyen of Trend Research https://www.zerodayinitiative.com/advisories/ZDI-26-265/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-265/",
+  "title": "Fortinet FortiWeb cgi_buf_alloc Integer Overflow Denial-of-Service Vulnerability",
+  "updated_date": "2026-04-15",
+  "vulnerability_details": "This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of Fortinet FortiWeb. Authentication is required to exploit this vulnerability. The specific flaw exists within the handling of HTTP requests. Crafted requests can force the server into an infinite loop. An attacker can leverage this vulnerability to create a denial-of-service condition on the system.",
+  "zdi_can": "ZDI-CAN-28660",
+  "zdi_id": "ZDI-26-265"
+}

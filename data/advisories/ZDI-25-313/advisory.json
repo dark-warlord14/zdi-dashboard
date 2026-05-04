@@ -1,0 +1,28 @@
+{
+  "additional_details": "Hewlett Packard Enterprise has issued an update to correct this vulnerability. More details can be found at: https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbst04847en_us&docLocale=en_US",
+  "advisory_date": "2025-06-02",
+  "affected_products": [
+    "StoreOnce VSA"
+  ],
+  "affected_vendors": [
+    "Hewlett Packard Enterprise"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2025-37090",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-37090",
+  "cvss": 5.3,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+  "disclosure_timeline": [
+    "2024-10-31 - Vulnerability reported to vendor",
+    "2025-06-02 - Coordinated public release of advisory",
+    "2025-06-02 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-313 ZDI-CAN-24982 Hewlett Packard Enterprise StoreOnce VSA determineInclusionAndExtract Server-Side Request Forgery Vulnerability 2025-06-02 CVE-2025-37090 https://www.cve.org/CVERecord?id=CVE-2025-37090 5.3 AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N ['Hewlett Packard Enterprise'] ['StoreOnce VSA'] This vulnerability allows remote attackers to initiate arbitrary server-side requests on affected installations of Hewlett Packard Enterprise StoreOnce VSA. Authentication is not required to exploit this vulnerability. The specific flaw exists within the implementation of the determineInclusionAndExtract method. The issue results from the lack of proper validation of a URI prior to accessing resources. An attacker can leverage this vulnerability to disclose information in the context of the service account. Hewlett Packard Enterprise has issued an update to correct this vulnerability. More details can be found at: https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbst04847en_us&docLocale=en_US ['2024-10-31 - Vulnerability reported to vendor', '2025-06-02 - Coordinated public release of advisory', '2025-06-02 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-25-313/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-313/",
+  "title": "Hewlett Packard Enterprise StoreOnce VSA determineInclusionAndExtract Server-Side Request Forgery Vulnerability",
+  "updated_date": "2025-06-02",
+  "vulnerability_details": "This vulnerability allows remote attackers to initiate arbitrary server-side requests on affected installations of Hewlett Packard Enterprise StoreOnce VSA. Authentication is not required to exploit this vulnerability. The specific flaw exists within the implementation of the determineInclusionAndExtract method. The issue results from the lack of proper validation of a URI prior to accessing resources. An attacker can leverage this vulnerability to disclose information in the context of the service account.",
+  "zdi_can": "ZDI-CAN-24982",
+  "zdi_id": "ZDI-25-313"
+}

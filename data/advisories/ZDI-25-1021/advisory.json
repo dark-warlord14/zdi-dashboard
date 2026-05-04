@@ -1,0 +1,28 @@
+{
+  "additional_details": "Siemens has issued an update to correct this vulnerability. More details can be found at: https://cert-portal.siemens.com/productcert/html/ssa-318832.html",
+  "advisory_date": "2025-11-25",
+  "affected_products": [
+    "SINEC NMS"
+  ],
+  "affected_vendors": [
+    "Siemens"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2025-40755",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-40755",
+  "cvss": 8.8,
+  "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2025-06-27 - Vulnerability reported to vendor",
+    "2025-11-25 - Coordinated public release of advisory",
+    "2025-11-25 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-1021 ZDI-CAN-26570 Siemens SINEC NMS getTotalAndFilterCounts SQL Injection Privilege Escalation Vulnerability 2025-11-25 CVE-2025-40755 https://www.cve.org/CVERecord?id=CVE-2025-40755 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Siemens'] ['SINEC NMS'] This vulnerability allows remote attackers to escalate privileges on affected installations of Siemens SINEC NMS. Authentication is required to exploit this vulnerability. The specific flaw exists within the implementation of the getTotalAndFilterCounts method. The issue results from the lack of proper validation of a user-supplied string before using it to construct SQL queries. An attacker can leverage this vulnerability to escalate privileges to resources normally protected from the user. Siemens has issued an update to correct this vulnerability. More details can be found at: https://cert-portal.siemens.com/productcert/html/ssa-318832.html ['2025-06-27 - Vulnerability reported to vendor', '2025-11-25 - Coordinated public release of advisory', '2025-11-25 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-25-1021/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-1021/",
+  "title": "Siemens SINEC NMS getTotalAndFilterCounts SQL Injection Privilege Escalation Vulnerability",
+  "updated_date": "2025-11-25",
+  "vulnerability_details": "This vulnerability allows remote attackers to escalate privileges on affected installations of Siemens SINEC NMS. Authentication is required to exploit this vulnerability. The specific flaw exists within the implementation of the getTotalAndFilterCounts method. The issue results from the lack of proper validation of a user-supplied string before using it to construct SQL queries. An attacker can leverage this vulnerability to escalate privileges to resources normally protected from the user.",
+  "zdi_can": "ZDI-CAN-26570",
+  "zdi_id": "ZDI-25-1021"
+}

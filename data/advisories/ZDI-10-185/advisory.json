@@ -1,0 +1,27 @@
+{
+  "additional_details": "http://www.ibm.com/support/docview.wss?uid=swg21443820 Issue 2",
+  "advisory_date": "2010-09-29",
+  "affected_products": [
+    "Tivoli Storage Manager"
+  ],
+  "affected_vendors": [
+    "IBM"
+  ],
+  "credit": "Sebastian Apelt (www.siberas.de)",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2010-01-06 - Vulnerability reported to vendor",
+    "2010-09-29 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-10-185 ZDI-CAN-657 IBM TSM FastBack Server _Eventlog Format String Remote Code Execution Vulnerability 2010-09-29 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['IBM'] ['Tivoli Storage Manager'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of IBM Tivoli Storage Manager Fastback. Authentication is not required to exploit this vulnerability. The specific flaw exists within the FastBack server process (FastBackServer.exe) which listens by default on TCP port 11406. The process searches received packet data for a pipe character (0x7c) and then sends the remaining portion of the string to the event log without sanitization. By providing a specially crafted string with format specifiers this can be leveraged to trigger a format string vulnerability which can lead to arbitrary code execution in the context of the server process. http://www.ibm.com/support/docview.wss?uid=swg21443820 Issue 2 ['2010-01-06 - Vulnerability reported to vendor', '2010-09-29 - Coordinated public release of advisory'] Sebastian Apelt (www.siberas.de) https://www.zerodayinitiative.com/advisories/ZDI-10-185/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-185/",
+  "title": "IBM TSM FastBack Server _Eventlog Format String Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of IBM Tivoli Storage Manager Fastback. Authentication is not required to exploit this vulnerability. The specific flaw exists within the FastBack server process (FastBackServer.exe) which listens by default on TCP port 11406. The process searches received packet data for a pipe character (0x7c) and then sends the remaining portion of the string to the event log without sanitization. By providing a specially crafted string with format specifiers this can be leveraged to trigger a format string vulnerability which can lead to arbitrary code execution in the context of the server process.",
+  "zdi_can": "ZDI-CAN-657",
+  "zdi_id": "ZDI-10-185"
+}

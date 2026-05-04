@@ -1,0 +1,26 @@
+# ZDI-14-140: (0Day) Microsoft Internet Explorer CMarkup Use-After-Free Remote Code Execution Vulnerability
+
+## Metadata
+
+- **ZDI ID:** ZDI-14-140
+- **ZDI-CAN:** ZDI-CAN-1989
+- **Date:** 2014-05-21
+- **CVE:** CVE-2014-1770
+- **CVSS:** 6.8
+- **CVSS Vector:** AV:N/AC:M/Au:N/C:P/I:P/A:P
+- **Affected Vendors:** Microsoft
+- **Affected Products:** Internet Explorer 8
+- **Credit:** Peter 'corelanc0d3r' Van Eeckhoutte - Corelan - www.corelan.be
+- **Source:** https://www.zerodayinitiative.com/advisories/ZDI-14-140/
+## Vulnerability Details
+
+This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of CMarkup objects. The allocation initially happens within CMarkup::CreateInitialMarkup. The free happens after the execution of certain JavaScript code followed by a CollectGarbage call. By manipulating a document's elements an attacker can force a dangling pointer to be reused after it has been freed. An attacker can leverage this vulnerability to execute code under the context of the current process.
+
+## Additional Details
+
+This vulnerability is being disclosed publicly without a patch in accordance with the ZDI 180-day deadline. Vendor Contact Timeline: 10/11/2013 - Case disclosed to vendor 02/10/2014 - Vendor confirmed reproduction 04/09/2014 - Original predicted disclosure (180 days) 05/08/2014 - ZDI notified the vendor of the intent to publicly disclose 05/21/2014 - ZDI publicly disclosed -- Vendor Provided Mitigations: These are our mitigations which have been verified for this case: - In a web-based attack scenario, an attacker could host a specially crafted website that is designed to exploit these vulnerabilities through Internet Explorer, and then convince a user to view the website. The attacker could also take advantage of compromised websites and websites that accept or host user-provided content or advertisements. These websites could contain specially crafted content that could exploit these vulnerabilities. In all cases, however, an attacker would have no way to force users to view the attacker-controlled content. Instead, an attacker would have to convince users to take action, typically by getting them to click a link in an email message or in an Instant Messenger message that takes users to the attacker's website, or by getting them to open an attachment sent through email. - An attacker who successfully exploited these vulnerabilities could gain the same user rights as the current user. Users whose accounts are configured to have fewer user rights on the system could be less impacted than users who operate with administrative user rights. - By default, all supported versions of Microsoft Outlook, Microsoft Outlook Express, and Windows Mail open HTML email messages in the Restricted sites zone. The Restricted sites zone, which disables script and ActiveX controls, helps reduce the risk of an attacker being able to use these vulnerabilities to execute malicious code. If a user clicks a link in an email message, the user could still be vulnerable to exploitation of these vulnerabilities through the web-based attack scenario. - By default, Internet Explorer on Windows Server 2003, Windows Server 2008, Windows Server 2008 R2, Windows Server 2012, and Windows Server 2012 R2 runs in a restricted mode that is known as Enhanced Security Configuration. This mode mitigates these vulnerabilities. See the FAQ section for these vulnerabilities for more information about Internet Explorer Enhanced Security Configuration. The vendor also suggest the following workarounds: - Set Internet security zone settings to "High" to block ActiveX Controls and Active Scripting in these zones - Configure Internet Explorer to prompt before running Active Scripting or to disable Active Scripting in the Internet and Local intranet security zone - Install EMET, The Enhanced Mitigation Experience Toolkit (EMET) enables users to manage security mitigation technologies that help make it more difficult for attackers to exploit vulnerabilities in a given piece of software. EMET helps to mitigate this vulnerability in Internet Explorer on systems where EMET is installed and configured to work with Internet Explorer. For more information about EMET, see The Enhanced Mitigation Experience Toolkit. Vendor Patch: Vendor has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/library/security/ms14-035
+
+## Disclosure Timeline
+
+- 2013-10-11 - Vulnerability reported to vendor
+- 2014-05-21 - Coordinated public release of advisory

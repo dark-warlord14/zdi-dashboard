@@ -1,0 +1,27 @@
+{
+  "additional_details": "ICONICS has issued an update to correct this vulnerability. More details can be found at: https://www.cisa.gov/uscert/ics/advisories/icsa-22-202-04",
+  "advisory_date": "2022-08-03",
+  "affected_products": [
+    "GENESIS64"
+  ],
+  "affected_vendors": [
+    "ICONICS"
+  ],
+  "credit": "Chris Anastasio and Steven Seeley of Incite Team",
+  "cve": "CVE-2022-29834",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-29834",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+  "disclosure_timeline": [
+    "2022-03-30 - Vulnerability reported to vendor",
+    "2022-08-03 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-1042 ZDI-CAN-16509 ICONICS GENESIS64 colorpalletes Directory Traversal Information Disclosure Vulnerability 2022-08-03 CVE-2022-29834 https://www.cve.org/CVERecord?id=CVE-2022-29834 7.5 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N ['ICONICS'] ['GENESIS64'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of ICONICS GENESIS64. Authentication is not required to exploit this vulnerability. The specific flaw exists within the colorpalletes endpoint. When parsing the path parameter, the process does not properly validate a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to disclose stored credentials, leading to further compromise. ICONICS has issued an update to correct this vulnerability. More details can be found at: https://www.cisa.gov/uscert/ics/advisories/icsa-22-202-04 ['2022-03-30 - Vulnerability reported to vendor', '2022-08-03 - Coordinated public release of advisory'] Chris Anastasio and Steven Seeley of Incite Team https://www.zerodayinitiative.com/advisories/ZDI-22-1042/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-1042/",
+  "title": "ICONICS GENESIS64 colorpalletes Directory Traversal Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of ICONICS GENESIS64. Authentication is not required to exploit this vulnerability. The specific flaw exists within the colorpalletes endpoint. When parsing the path parameter, the process does not properly validate a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to disclose stored credentials, leading to further compromise.",
+  "zdi_can": "ZDI-CAN-16509",
+  "zdi_id": "ZDI-22-1042"
+}

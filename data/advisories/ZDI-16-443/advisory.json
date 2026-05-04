@@ -1,0 +1,27 @@
+{
+  "additional_details": "Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/security-advisory/cpujul2016-2881720.html",
+  "advisory_date": "2016-07-21",
+  "affected_products": [
+    "WebLogic"
+  ],
+  "affected_vendors": [
+    "Oracle"
+  ],
+  "credit": "Alvaro Munoz (@pwntester) & Christian Schneider (@cschneider4711)",
+  "cve": "CVE-2016-3510",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-3510",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2016-02-16 - Vulnerability reported to vendor",
+    "2016-07-21 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-16-443 ZDI-CAN-3497 Oracle WebLogic JBoss Interceptors Deserialization of Untrusted Data Remote Code Execution Vulnerability 2016-07-21 CVE-2016-3510 https://www.cve.org/CVERecord?id=CVE-2016-3510 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Oracle'] ['WebLogic'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Oracle WebLogic. Authentication is not required to exploit this vulnerability. The specific flaw exists in the use of JBoss Interceptors library. By sending a specially crafted request, the application can be made to deserialize untrusted data during the handling of the request. An attacker can leverage this vulnerability to execute arbitrary code under the context of the process. Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/security-advisory/cpujul2016-2881720.html ['2016-02-16 - Vulnerability reported to vendor', '2016-07-21 - Coordinated public release of advisory'] Alvaro Munoz (@pwntester) & Christian Schneider (@cschneider4711) https://www.zerodayinitiative.com/advisories/ZDI-16-443/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-443/",
+  "title": "Oracle WebLogic JBoss Interceptors Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Oracle WebLogic. Authentication is not required to exploit this vulnerability. The specific flaw exists in the use of JBoss Interceptors library. By sending a specially crafted request, the application can be made to deserialize untrusted data during the handling of the request. An attacker can leverage this vulnerability to execute arbitrary code under the context of the process.",
+  "zdi_can": "ZDI-CAN-3497",
+  "zdi_id": "ZDI-16-443"
+}

@@ -1,0 +1,27 @@
+{
+  "additional_details": "Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/alert-cve-2012-4681-1835715.html",
+  "advisory_date": "2012-12-21",
+  "affected_products": [
+    "Java Runtime"
+  ],
+  "affected_vendors": [
+    "Oracle"
+  ],
+  "credit": "James Forshaw (tyranid)",
+  "cve": "CVE-2012-1682",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2012-1682",
+  "cvss": 9.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:C",
+  "disclosure_timeline": [
+    "2012-07-24 - Vulnerability reported to vendor",
+    "2012-12-21 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-12-197 ZDI-CAN-1590 Oracle Java java.beans.Statement Remote Code Execution Vulnerability 2012-12-21 CVE-2012-1682 https://www.cve.org/CVERecord?id=CVE-2012-1682 9.0 AV:N/AC:L/Au:N/C:P/I:P/A:C ['Oracle'] ['Java Runtime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Oracle Java. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the java.beans.Expression class. Due to unsafe handling of reflection of privileged classes inside the Expression class it is possible for untrusted code to gain access to privileged methods and properties. This can result in remote code execution under the context of the current process. Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/alert-cve-2012-4681-1835715.html ['2012-07-24 - Vulnerability reported to vendor', '2012-12-21 - Coordinated public release of advisory'] James Forshaw (tyranid) https://www.zerodayinitiative.com/advisories/ZDI-12-197/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-12-197/",
+  "title": "Oracle Java java.beans.Statement Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Oracle Java. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the java.beans.Expression class. Due to unsafe handling of reflection of privileged classes inside the Expression class it is possible for untrusted code to gain access to privileged methods and properties. This can result in remote code execution under the context of the current process.",
+  "zdi_can": "ZDI-CAN-1590",
+  "zdi_id": "ZDI-12-197"
+}

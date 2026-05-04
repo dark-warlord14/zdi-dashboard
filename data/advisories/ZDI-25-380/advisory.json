@@ -1,0 +1,28 @@
+{
+  "additional_details": "Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://helpcenter.trendmicro.com/en-us/article/TMKA-18461",
+  "advisory_date": "2025-06-13",
+  "affected_products": [
+    "Maximum Security"
+  ],
+  "affected_vendors": [
+    "Trend Micro"
+  ],
+  "credit": "Vladislav Berghici of Trend Research",
+  "cve": "CVE-2025-49385",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-49385",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2024-12-06 - Vulnerability reported to vendor",
+    "2025-06-13 - Coordinated public release of advisory",
+    "2025-06-13 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-380 ZDI-CAN-25877 Trend Micro Maximum Security Platinum Host Service Link Following Local Privilege Escalation Vulnerability 2025-06-13 CVE-2025-49385 https://www.cve.org/CVERecord?id=CVE-2025-49385 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Trend Micro'] ['Maximum Security'] This vulnerability allows local attackers to escalate privileges on affected installations of Trend Micro Maximum Security. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Platinum Host Service. By creating a symbolic link, an attacker can abuse the service to delete a file. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://helpcenter.trendmicro.com/en-us/article/TMKA-18461 ['2024-12-06 - Vulnerability reported to vendor', '2025-06-13 - Coordinated public release of advisory', '2025-06-13 - Advisory Updated'] Vladislav Berghici of Trend Research https://www.zerodayinitiative.com/advisories/ZDI-25-380/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-380/",
+  "title": "Trend Micro Maximum Security Platinum Host Service Link Following Local Privilege Escalation Vulnerability",
+  "updated_date": "2025-06-13",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Trend Micro Maximum Security. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Platinum Host Service. By creating a symbolic link, an attacker can abuse the service to delete a file. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-25877",
+  "zdi_id": "ZDI-25-380"
+}

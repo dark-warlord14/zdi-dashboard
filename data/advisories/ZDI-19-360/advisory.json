@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2019-0841",
+  "advisory_date": "2019-04-15",
+  "affected_products": [
+    "Windows"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2019-0841",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2019-0841",
+  "cvss": 7.3,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2018-12-29 - Vulnerability reported to vendor",
+    "2019-04-15 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-19-360 ZDI-CAN-7753 Microsoft Windows AppX Deployment Service Hard Link Privilege Escalation Vulnerability 2019-04-15 CVE-2019-0841 https://www.cve.org/CVERecord?id=CVE-2019-0841 7.3 AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H ['Microsoft'] ['Windows'] This vulnerability allows local attackers to escalate privileges on vulnerable installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the AppX Deployment Service. By creating a hard link, an attacker can abuse the service to weaken the ACL of a chosen file. An attacker can leverage this vulnerability to escalate privileges to resources normally protected from the current user or app. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2019-0841 ['2018-12-29 - Vulnerability reported to vendor', '2019-04-15 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-19-360/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-19-360/",
+  "title": "Microsoft Windows AppX Deployment Service Hard Link Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on vulnerable installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the AppX Deployment Service. By creating a hard link, an attacker can abuse the service to weaken the ACL of a chosen file. An attacker can leverage this vulnerability to escalate privileges to resources normally protected from the current user or app.",
+  "zdi_can": "ZDI-CAN-7753",
+  "zdi_id": "ZDI-19-360"
+}

@@ -1,0 +1,28 @@
+{
+  "additional_details": "Wazuh has issued an update to correct this vulnerability. More details can be found at: https://github.com/wazuh/wazuh/security/advisories/GHSA-fcpw-v3pg-c327",
+  "advisory_date": "2024-04-25",
+  "affected_products": [
+    "Wazuh"
+  ],
+  "affected_vendors": [
+    "Wazuh"
+  ],
+  "credit": "@d0ntrash",
+  "cve": "CVE-2024-32038",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-32038",
+  "cvss": 9.8,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2023-11-28 - Vulnerability reported to vendor",
+    "2024-04-25 - Coordinated public release of advisory",
+    "2024-07-01 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-397 ZDI-CAN-22475 Wazuh Analysis Engine Event Decoder Heap-based Buffer Overflow Remote Code Execution Vulnerability 2024-04-25 CVE-2024-32038 https://www.cve.org/CVERecord?id=CVE-2024-32038 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['Wazuh'] ['Wazuh'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Wazuh. Authentication is not required to exploit this vulnerability. The specific flaw exists within the Analysis Engine service, which listens on TCP port 1514 by default. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the service account. Wazuh has issued an update to correct this vulnerability. More details can be found at: https://github.com/wazuh/wazuh/security/advisories/GHSA-fcpw-v3pg-c327 ['2023-11-28 - Vulnerability reported to vendor', '2024-04-25 - Coordinated public release of advisory', '2024-07-01 - Advisory Updated'] @d0ntrash https://www.zerodayinitiative.com/advisories/ZDI-24-397/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-397/",
+  "title": "Wazuh Analysis Engine Event Decoder Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+  "updated_date": "2024-07-01",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Wazuh. Authentication is not required to exploit this vulnerability. The specific flaw exists within the Analysis Engine service, which listens on TCP port 1514 by default. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the service account.",
+  "zdi_can": "ZDI-CAN-22475",
+  "zdi_id": "ZDI-24-397"
+}

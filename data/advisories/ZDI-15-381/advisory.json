@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/library/security/ms15-084",
+  "advisory_date": "2015-08-11",
+  "affected_products": [
+    "Windows"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Ucha Gobejishvili",
+  "cve": "CVE-2015-2440",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-2440",
+  "cvss": 5.4,
+  "cvss_vector": "AV:N/AC:H/Au:N/C:C/I:N/A:N",
+  "disclosure_timeline": [
+    "2015-02-17 - Vulnerability reported to vendor",
+    "2015-08-11 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-15-381 ZDI-CAN-2760 Microsoft MSXML generate-id Information Disclosure Vulnerability 2015-08-11 CVE-2015-2440 https://www.cve.org/CVERecord?id=CVE-2015-2440 5.4 AV:N/AC:H/Au:N/C:C/I:N/A:N ['Microsoft'] ['Windows'] This vulnerability allows remote attackers to gain information about the layout of memory on vulnerable installations of Microsoft Windows. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the implementation of the XSLT function generate-id. The unique ID string it returns can be used to infer the address at which an XML Node object is stored in memory. An attacker can use this information in conjunction with other vulnerabilities to execute code in the context of the process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/library/security/ms15-084 ['2015-02-17 - Vulnerability reported to vendor', '2015-08-11 - Coordinated public release of advisory'] Ucha Gobejishvili https://www.zerodayinitiative.com/advisories/ZDI-15-381/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-381/",
+  "title": "Microsoft MSXML generate-id Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to gain information about the layout of memory on vulnerable installations of Microsoft Windows. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the implementation of the XSLT function generate-id. The unique ID string it returns can be used to infer the address at which an XML Node object is stored in memory. An attacker can use this information in conjunction with other vulnerabilities to execute code in the context of the process.",
+  "zdi_can": "ZDI-CAN-2760",
+  "zdi_id": "ZDI-15-381"
+}

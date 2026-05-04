@@ -1,0 +1,27 @@
+{
+  "additional_details": "Fixed in version 5.13.14",
+  "advisory_date": "2021-10-13",
+  "affected_products": [
+    "Kernel"
+  ],
+  "affected_vendors": [
+    "Linux"
+  ],
+  "credit": "Ryota Shiga(@Ga_ryo_) of Flatt Security",
+  "cve": "CVE-2021-34866",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2021-34866",
+  "cvss": 8.8,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2021-08-20 - Vulnerability reported to vendor",
+    "2021-10-13 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-21-1148 ZDI-CAN-14689 Linux Kernel eBPF Type Confusion Privilege Escalation Vulnerability 2021-10-13 CVE-2021-34866 https://www.cve.org/CVERecord?id=CVE-2021-34866 8.8 AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H ['Linux'] ['Kernel'] This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of eBPF programs. The issue results from the lack of proper validation of user-supplied eBPF programs, which can result in a type confusion condition. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the kernel. Fixed in version 5.13.14 ['2021-08-20 - Vulnerability reported to vendor', '2021-10-13 - Coordinated public release of advisory'] Ryota Shiga(@Ga_ryo_) of Flatt Security https://www.zerodayinitiative.com/advisories/ZDI-21-1148/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-21-1148/",
+  "title": "Linux Kernel eBPF Type Confusion Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of eBPF programs. The issue results from the lack of proper validation of user-supplied eBPF programs, which can result in a type confusion condition. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the kernel.",
+  "zdi_can": "ZDI-CAN-14689",
+  "zdi_id": "ZDI-21-1148"
+}

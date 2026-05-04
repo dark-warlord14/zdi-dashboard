@@ -1,0 +1,27 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-us/HT207170",
+  "advisory_date": "2016-09-20",
+  "affected_products": [
+    "OS X"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "Jack Tang of Trend Micro (@jacktang310) Moony Li of Trend Micro",
+  "cve": "CVE-2016-4699",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-4699",
+  "cvss": 6.9,
+  "cvss_vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2016-04-26 - Vulnerability reported to vendor",
+    "2016-09-20 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-16-519 ZDI-CAN-3716 Apple OS X AudioAUUC Integer Overflow Privilege Escalation Vulnerability 2016-09-20 CVE-2016-4699 https://www.cve.org/CVERecord?id=CVE-2016-4699 6.9 AV:L/AC:M/Au:N/C:C/I:C/A:C ['Apple'] ['OS X'] This vulnerability allows local attackers to execute arbitrary code on vulnerable installations of Apple OS X. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of the AudioAUUC kernel extension. The issue lies in the failure to check for an integer overflow condition when allocating a buffer. An attacker can leverage this vulnerability to execute code within the context of the kernel. Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-us/HT207170 ['2016-04-26 - Vulnerability reported to vendor', '2016-09-20 - Coordinated public release of advisory'] Jack Tang of Trend Micro (@jacktang310) Moony Li of Trend Micro https://www.zerodayinitiative.com/advisories/ZDI-16-519/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-519/",
+  "title": "Apple OS X AudioAUUC Integer Overflow Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to execute arbitrary code on vulnerable installations of Apple OS X. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of the AudioAUUC kernel extension. The issue lies in the failure to check for an integer overflow condition when allocating a buffer. An attacker can leverage this vulnerability to execute code within the context of the kernel.",
+  "zdi_can": "ZDI-CAN-3716",
+  "zdi_id": "ZDI-16-519"
+}

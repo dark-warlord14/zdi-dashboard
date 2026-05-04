@@ -1,0 +1,28 @@
+{
+  "additional_details": "Hewlett Packard Enterprise has issued an update to correct this vulnerability. More details can be found at: https://support.hpe.com/hpsc/doc/public/display?docId=a00093539en_us",
+  "advisory_date": "2020-01-29",
+  "affected_products": [
+    "Intelligent Management Center"
+  ],
+  "affected_vendors": [
+    "Hewlett Packard Enterprise"
+  ],
+  "credit": "Dusan Stevanovic",
+  "cve": "CVE-2020-24648",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2020-24648",
+  "cvss": 8.8,
+  "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2019-06-26 - Vulnerability reported to vendor",
+    "2020-01-29 - Coordinated public release of advisory",
+    "2021-06-29 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-19-1036 ZDI-CAN-8928 Hewlett Packard Enterprise Intelligent Management Center AccessMgrServlet className Deserialization of Untrusted Data Remote Code Execution Vulnerability 2020-01-29 CVE-2020-24648 https://www.cve.org/CVERecord?id=CVE-2020-24648 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Hewlett Packard Enterprise'] ['Intelligent Management Center'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Hewlett Packard Enterprise Intelligent Management Center. Authentication is required to exploit this vulnerability. The specific flaw exists within the transformEntity method of the MgrReqMsg class. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of SYSTEM. Hewlett Packard Enterprise has issued an update to correct this vulnerability. More details can be found at: https://support.hpe.com/hpsc/doc/public/display?docId=a00093539en_us ['2019-06-26 - Vulnerability reported to vendor', '2020-01-29 - Coordinated public release of advisory', '2021-06-29 - Advisory Updated'] Dusan Stevanovic https://www.zerodayinitiative.com/advisories/ZDI-19-1036/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-19-1036/",
+  "title": "Hewlett Packard Enterprise Intelligent Management Center AccessMgrServlet className Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+  "updated_date": "2021-06-29",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Hewlett Packard Enterprise Intelligent Management Center. Authentication is required to exploit this vulnerability. The specific flaw exists within the transformEntity method of the MgrReqMsg class. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-8928",
+  "zdi_id": "ZDI-19-1036"
+}

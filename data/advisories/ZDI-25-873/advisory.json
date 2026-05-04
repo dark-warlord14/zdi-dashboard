@@ -1,0 +1,28 @@
+{
+  "additional_details": "Linux has issued an update to correct this vulnerability. More details can be found at: https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=b024d7b56c77191cde544f838debb7f8451cd0d6",
+  "advisory_date": "2025-08-28",
+  "affected_products": [
+    "Kernel"
+  ],
+  "affected_vendors": [
+    "Linux"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2025-38563",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-38563",
+  "cvss": 7.5,
+  "cvss_vector": "AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2025-07-29 - Vulnerability reported to vendor",
+    "2025-08-28 - Coordinated public release of advisory",
+    "2025-09-24 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-873 ZDI-CAN-27504 Linux Kernel perf Subsystem AUX Buffers Use-After-Free Local Privilege Escalation Vulnerability 2025-08-28 CVE-2025-38563 https://www.cve.org/CVERecord?id=CVE-2025-38563 7.5 AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H ['Linux'] ['Kernel'] This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute high-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of reference counters. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the kernel. Linux has issued an update to correct this vulnerability. More details can be found at: https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=b024d7b56c77191cde544f838debb7f8451cd0d6 ['2025-07-29 - Vulnerability reported to vendor', '2025-08-28 - Coordinated public release of advisory', '2025-09-24 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-25-873/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-873/",
+  "title": "Linux Kernel perf Subsystem AUX Buffers Use-After-Free Local Privilege Escalation Vulnerability",
+  "updated_date": "2025-09-24",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute high-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of reference counters. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the kernel.",
+  "zdi_can": "ZDI-CAN-27504",
+  "zdi_id": "ZDI-25-873"
+}

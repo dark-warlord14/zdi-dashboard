@@ -1,0 +1,28 @@
+{
+  "additional_details": "QNAP has issued an update to correct this vulnerability. More details can be found at: https://www.qnap.com/en/security-advisory/qsa-25-15",
+  "advisory_date": "2025-08-26",
+  "affected_products": [
+    "QHora-322"
+  ],
+  "affected_vendors": [
+    "QNAP"
+  ],
+  "credit": "nella17 (@nella17tw), working with DEVCORE Internship Program, and DEVCORE Research Team",
+  "cve": "CVE-2024-13087",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-13087",
+  "cvss": 7.1,
+  "cvss_vector": "AV:A/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2024-12-13 - Vulnerability reported to vendor",
+    "2025-08-26 - Coordinated public release of advisory",
+    "2025-08-26 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-871 ZDI-CAN-25847 (Pwn2Own) QNAP QHora-322 miro_webserver_lib_RunExecBash Command Injection Remote Code Execution Vulnerability 2025-08-26 CVE-2024-13087 https://www.cve.org/CVERecord?id=CVE-2024-13087 7.1 AV:A/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H ['QNAP'] ['QHora-322'] This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of QNAP QHora-322 routers. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed. The specific flaw exists within the miro_webserver_lib_RunExecBash function. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of root. QNAP has issued an update to correct this vulnerability. More details can be found at: https://www.qnap.com/en/security-advisory/qsa-25-15 ['2024-12-13 - Vulnerability reported to vendor', '2025-08-26 - Coordinated public release of advisory', '2025-08-26 - Advisory Updated'] nella17 (@nella17tw), working with DEVCORE Internship Program, and DEVCORE Research Team https://www.zerodayinitiative.com/advisories/ZDI-25-871/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-871/",
+  "title": "(Pwn2Own) QNAP QHora-322 miro_webserver_lib_RunExecBash Command Injection Remote Code Execution Vulnerability",
+  "updated_date": "2025-08-26",
+  "vulnerability_details": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of QNAP QHora-322 routers. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed. The specific flaw exists within the miro_webserver_lib_RunExecBash function. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of root.",
+  "zdi_can": "ZDI-CAN-25847",
+  "zdi_id": "ZDI-25-871"
+}

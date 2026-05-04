@@ -1,0 +1,27 @@
+{
+  "additional_details": "PDF-XChange has issued an update to correct this vulnerability. More details can be found at: https://www.tracker-software.com/product/pdf-xchange-editor/history",
+  "advisory_date": "2022-10-07",
+  "affected_products": [
+    "PDF-XChange Editor"
+  ],
+  "affected_vendors": [
+    "PDF-XChange"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2022-42407",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-42407",
+  "cvss": 3.3,
+  "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+  "disclosure_timeline": [
+    "2022-09-14 - Vulnerability reported to vendor",
+    "2022-10-07 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-1365 ZDI-CAN-18542 PDF-XChange Editor EMF File Parsing Out-Of-Bounds Read Information Disclosure Vulnerability 2022-10-07 CVE-2022-42407 https://www.cve.org/CVERecord?id=CVE-2022-42407 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N ['PDF-XChange'] ['PDF-XChange Editor'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of PDF-XChange Editor. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of EMF files. Crafted data in an EMF file can trigger a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process. PDF-XChange has issued an update to correct this vulnerability. More details can be found at: https://www.tracker-software.com/product/pdf-xchange-editor/history ['2022-09-14 - Vulnerability reported to vendor', '2022-10-07 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-22-1365/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-1365/",
+  "title": "PDF-XChange Editor EMF File Parsing Out-Of-Bounds Read Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of PDF-XChange Editor. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of EMF files. Crafted data in an EMF file can trigger a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-18542",
+  "zdi_id": "ZDI-22-1365"
+}

@@ -1,0 +1,27 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT4339",
+  "advisory_date": "2010-08-31",
+  "affected_products": [
+    "Quicktime"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "HBelite",
+  "cve": "CVE-2010-1818",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2010-1818",
+  "cvss": 9.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:C",
+  "disclosure_timeline": [
+    "2010-06-30 - Vulnerability reported to vendor",
+    "2010-08-31 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-10-168 ZDI-CAN-823 Apple QuickTime ActiveX _Marshaled_pUnk Remote Code Execution Vulnerability 2010-08-31 CVE-2010-1818 https://www.cve.org/CVERecord?id=CVE-2010-1818 9.0 AV:N/AC:L/Au:N/C:P/I:P/A:C ['Apple'] ['Quicktime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple Quicktime. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the QTPlugin.ocx ActiveX control. The plugin accepts a parameter named _Marshaled_pUnk that it uses as a valid pointer. By specifying invalid values an attacker can force the application to jump to a controlled location in memory. This can be exploited to execute remote code under the context of the user running the web browser. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT4339 ['2010-06-30 - Vulnerability reported to vendor', '2010-08-31 - Coordinated public release of advisory'] HBelite https://www.zerodayinitiative.com/advisories/ZDI-10-168/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-168/",
+  "title": "Apple QuickTime ActiveX _Marshaled_pUnk Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple Quicktime. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the QTPlugin.ocx ActiveX control. The plugin accepts a parameter named _Marshaled_pUnk that it uses as a valid pointer. By specifying invalid values an attacker can force the application to jump to a controlled location in memory. This can be exploited to execute remote code under the context of the user running the web browser.",
+  "zdi_can": "ZDI-CAN-823",
+  "zdi_id": "ZDI-10-168"
+}

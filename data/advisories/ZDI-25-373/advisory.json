@@ -1,0 +1,28 @@
+{
+  "additional_details": "Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/en-US/solution/KA-0019928",
+  "advisory_date": "2025-06-11",
+  "affected_products": [
+    "Endpoint Encryption"
+  ],
+  "affected_vendors": [
+    "Trend Micro"
+  ],
+  "credit": "Piotr Bazydlo (@chudypb) of Trend Micro Zero Day Initiative",
+  "cve": "CVE-2025-49216",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-49216",
+  "cvss": 9.8,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2024-10-11 - Vulnerability reported to vendor",
+    "2025-06-11 - Coordinated public release of advisory",
+    "2025-06-11 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-373 ZDI-CAN-25519 Trend Micro Endpoint Encryption DbAppDomain Authentication Bypass Vulnerability 2025-06-11 CVE-2025-49216 https://www.cve.org/CVERecord?id=CVE-2025-49216 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['Trend Micro'] ['Endpoint Encryption'] This vulnerability allows remote attackers to bypass authentication on affected installations of Trend Micro Endpoint Encryption. Authentication is not required to exploit this vulnerability. The specific flaw exists within the DbAppDomain service. The issue results from an improper implementation of an authentication algorithm. An attacker can leverage this vulnerability to bypass authentication on the system. Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/en-US/solution/KA-0019928 ['2024-10-11 - Vulnerability reported to vendor', '2025-06-11 - Coordinated public release of advisory', '2025-06-11 - Advisory Updated'] Piotr Bazydlo (@chudypb) of Trend Micro Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-25-373/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-373/",
+  "title": "Trend Micro Endpoint Encryption DbAppDomain Authentication Bypass Vulnerability",
+  "updated_date": "2025-06-11",
+  "vulnerability_details": "This vulnerability allows remote attackers to bypass authentication on affected installations of Trend Micro Endpoint Encryption. Authentication is not required to exploit this vulnerability. The specific flaw exists within the DbAppDomain service. The issue results from an improper implementation of an authentication algorithm. An attacker can leverage this vulnerability to bypass authentication on the system.",
+  "zdi_can": "ZDI-CAN-25519",
+  "zdi_id": "ZDI-25-373"
+}

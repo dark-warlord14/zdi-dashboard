@@ -1,0 +1,28 @@
+{
+  "additional_details": "This vulnerability is being disclosed publicly without a patch in accordance with the ZDI 120 day deadline. 02/23/18 - ZDI reported 1st vulnerability to vendor 02/23/18 - Vendor acknowledged and provided ZDI with a ticket number 03/02/18 - ZDI reported 2nd vulnerability to vendor 03/09/18 - Vendor contacted ZDI requesting additional details on the cases 03/21/18 - ZDI provided vendor the requested information 07/20/18 - Vendor provided an update on other released cases but no update on the cases involved 07/23/18 - ZDI contacted vendor requesting an update and mentioning the intention to 0-day them 08/17/18 - ZDI contacted vendor again requesting an update 08/21/18 - Vendor replied they would release the fix on August 30 and requested to hold the 0-day 08/21/18 - ZDI contacted vendor confirming an extension until August 30 08/31/18 - ZDI contacted vendor asking for release details as nothing was apparently published 09/02/18 - ZDI notified vendor these cases will 0-day on Friday September 7 -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the service to trusted machines. Only the clients and servers that have a legitimate procedural relationship with the service should be permitted to communicate with it. This could be accomplished in a number of ways, most notably with firewall rules/whitelisting.",
+  "advisory_date": "2018-09-07",
+  "affected_products": [
+    "Intelligent Management Center"
+  ],
+  "affected_vendors": [
+    "Hewlett Packard Enterprise"
+  ],
+  "credit": "sztivi",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2018-02-23 - Vulnerability reported to vendor",
+    "2018-09-07 - Coordinated public release of advisory",
+    "2018-09-07 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-999 ZDI-CAN-5672 (0Day) Hewlett Packard Enterprise Intelligent Management Center imcwlandm strUserName Stack-based Buffer Overflow Remote Code Execution Vulnerability 2018-09-07 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Hewlett Packard Enterprise'] ['Intelligent Management Center'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Hewlett Packard Enterprise Intelligent Management Center. Authentication is not required to exploit this vulnerability. The specific flaw exists within the processing of the dealInodeOfflineMsg message. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this vulnerability to execute code under the context of SYSTEM. This vulnerability is being disclosed publicly without a patch in accordance with the ZDI 120 day deadline. 02/23/18 - ZDI reported 1st vulnerability to vendor 02/23/18 - Vendor acknowledged and provided ZDI with a ticket number 03/02/18 - ZDI reported 2nd vulnerability to vendor 03/09/18 - Vendor contacted ZDI requesting additional details on the cases 03/21/18 - ZDI provided vendor the requested information 07/20/18 - Vendor provided an update on other released cases but no update on the cases involved 07/23/18 - ZDI contacted vendor requesting an update and mentioning the intention to 0-day them 08/17/18 - ZDI contacted vendor again requesting an update 08/21/18 - Vendor replied they would release the fix on August 30 and requested to hold the 0-day 08/21/18 - ZDI contacted vendor confirming an extension until August 30 08/31/18 - ZDI contacted vendor asking for release details as nothing was apparently published 09/02/18 - ZDI notified vendor these cases will 0-day on Friday September 7 -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the service to trusted machines. Only the clients and servers that have a legitimate procedural relationship with the service should be permitted to communicate with it. This could be accomplished in a number of ways, most notably with firewall rules/whitelisting. ['2018-02-23 - Vulnerability reported to vendor', '2018-09-07 - Coordinated public release of advisory', '2018-09-07 - Advisory Updated'] sztivi https://www.zerodayinitiative.com/advisories/ZDI-18-999/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-999/",
+  "title": "(0Day) Hewlett Packard Enterprise Intelligent Management Center imcwlandm strUserName Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+  "updated_date": "2018-09-07",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Hewlett Packard Enterprise Intelligent Management Center. Authentication is not required to exploit this vulnerability. The specific flaw exists within the processing of the dealInodeOfflineMsg message. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this vulnerability to execute code under the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-5672",
+  "zdi_id": "ZDI-18-999"
+}

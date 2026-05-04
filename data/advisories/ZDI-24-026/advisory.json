@@ -1,0 +1,28 @@
+{
+  "additional_details": "Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/solution/000296151",
+  "advisory_date": "2024-01-10",
+  "affected_products": [
+    "Apex One"
+  ],
+  "affected_vendors": [
+    "Trend Micro"
+  ],
+  "credit": "NT AUTHORITY\\ANONYMOUS LOGON",
+  "cve": "CVE-2023-52090",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-52090",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2023-08-03 - Vulnerability reported to vendor",
+    "2024-01-10 - Coordinated public release of advisory",
+    "2024-07-01 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-026 ZDI-CAN-21425 Trend Micro Apex One Virus Scan Engine Link Following Local Privilege Escalation Vulnerability 2024-01-10 CVE-2023-52090 https://www.cve.org/CVERecord?id=CVE-2023-52090 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Trend Micro'] ['Apex One'] This vulnerability allows local attackers to escalate privileges on affected installations of Trend Micro Apex One Security Agent. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Virus Scan Engine. By creating a mount point, an attacker can abuse the VSApiNt driver to delete a file. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/solution/000296151 ['2023-08-03 - Vulnerability reported to vendor', '2024-01-10 - Coordinated public release of advisory', '2024-07-01 - Advisory Updated'] NT AUTHORITY\\ANONYMOUS LOGON https://www.zerodayinitiative.com/advisories/ZDI-24-026/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-026/",
+  "title": "Trend Micro Apex One Virus Scan Engine Link Following Local Privilege Escalation Vulnerability",
+  "updated_date": "2024-07-01",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Trend Micro Apex One Security Agent. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Virus Scan Engine. By creating a mount point, an attacker can abuse the VSApiNt driver to delete a file. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-21425",
+  "zdi_id": "ZDI-24-026"
+}

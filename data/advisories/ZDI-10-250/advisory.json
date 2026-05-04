@@ -1,0 +1,27 @@
+{
+  "additional_details": "Fixed in Mac OS X 10.6.5: http://support.apple.com/kb/HT4435 QuickTime 7.6.9: http://support.apple.com/kb/HT4447",
+  "advisory_date": "2010-11-10",
+  "affected_products": [
+    "Quicktime"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "Damian Put",
+  "cve": "CVE-2010-3789",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2010-3789",
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2010-04-13 - Vulnerability reported to vendor",
+    "2010-11-10 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-10-250 ZDI-CAN-739 Apple Quicktime rec Chunk Parsing Remote Code Execution Vulnerability 2010-11-10 CVE-2010-3789 https://www.cve.org/CVERecord?id=CVE-2010-3789 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Apple'] ['Quicktime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple Quicktime. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the code responsible for parsing rec chunks within an AVI media file. By modifying specific values within the data structure a heap corruption condition can be triggered. An attacker can abuse this to execute arbitrary code under the context of the user running QuickTime. Fixed in Mac OS X 10.6.5: http://support.apple.com/kb/HT4435 QuickTime 7.6.9: http://support.apple.com/kb/HT4447 ['2010-04-13 - Vulnerability reported to vendor', '2010-11-10 - Coordinated public release of advisory'] Damian Put https://www.zerodayinitiative.com/advisories/ZDI-10-250/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-250/",
+  "title": "Apple Quicktime rec Chunk Parsing Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple Quicktime. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the code responsible for parsing rec chunks within an AVI media file. By modifying specific values within the data structure a heap corruption condition can be triggered. An attacker can abuse this to execute arbitrary code under the context of the user running QuickTime.",
+  "zdi_can": "ZDI-CAN-739",
+  "zdi_id": "ZDI-10-250"
+}

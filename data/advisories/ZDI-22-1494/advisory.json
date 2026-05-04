@@ -1,0 +1,27 @@
+{
+  "additional_details": "D-Link has issued an update to correct this vulnerability. More details can be found at: https://supportannouncement.us.dlink.com/announcement/publication.aspx?name=SAP10310",
+  "advisory_date": "2022-11-03",
+  "affected_products": [
+    "DIR-1935"
+  ],
+  "affected_vendors": [
+    "D-Link"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2022-43620",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-43620",
+  "cvss": 8.8,
+  "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2022-06-17 - Vulnerability reported to vendor",
+    "2022-11-03 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-1494 ZDI-CAN-16142 D-Link DIR-1935 HNAP PrivateLogin Authentication Bypass Vulnerability 2022-11-03 CVE-2022-43620 https://www.cve.org/CVERecord?id=CVE-2022-43620 8.8 AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['D-Link'] ['DIR-1935'] This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of D-Link DIR-1935 routers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of HNAP login requests. The issue results from the lack of proper implementation of the authentication algorithm. An attacker can leverage this vulnerability to bypass authentication on the system. D-Link has issued an update to correct this vulnerability. More details can be found at: https://supportannouncement.us.dlink.com/announcement/publication.aspx?name=SAP10310 ['2022-06-17 - Vulnerability reported to vendor', '2022-11-03 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-22-1494/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-1494/",
+  "title": "D-Link DIR-1935 HNAP PrivateLogin Authentication Bypass Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of D-Link DIR-1935 routers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of HNAP login requests. The issue results from the lack of proper implementation of the authentication algorithm. An attacker can leverage this vulnerability to bypass authentication on the system.",
+  "zdi_can": "ZDI-CAN-16142",
+  "zdi_id": "ZDI-22-1494"
+}

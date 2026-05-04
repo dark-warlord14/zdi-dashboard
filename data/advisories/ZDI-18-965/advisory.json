@@ -1,0 +1,28 @@
+{
+  "additional_details": "Linux has issued an update to correct this vulnerability. More details can be found at: https://bugzilla.redhat.com/show_bug.cgi?id=1590720",
+  "advisory_date": "2018-08-30",
+  "affected_products": [
+    "Linux Kernel"
+  ],
+  "affected_vendors": [
+    "Linux"
+  ],
+  "credit": "9462acee94608ea1643688d026aa95dd",
+  "cve": "CVE-2018-10902",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2018-10902",
+  "cvss": 6.9,
+  "cvss_vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2018-06-13 - Vulnerability reported to vendor",
+    "2018-08-30 - Coordinated public release of advisory",
+    "2018-08-30 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-965 ZDI-CAN-6201 Linux Kernel MIDI Race Condition Privilege Escalation Vulnerability 2018-08-30 CVE-2018-10902 https://www.cve.org/CVERecord?id=CVE-2018-10902 6.9 AV:L/AC:M/Au:N/C:C/I:C/A:C ['Linux'] ['Linux Kernel'] This vulnerability allows local attackers to escalate privileges on vulnerable installations of Linux Kernel. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of MIDI devices. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to escalate privileges to the level of kernel. Linux has issued an update to correct this vulnerability. More details can be found at: https://bugzilla.redhat.com/show_bug.cgi?id=1590720 ['2018-06-13 - Vulnerability reported to vendor', '2018-08-30 - Coordinated public release of advisory', '2018-08-30 - Advisory Updated'] 9462acee94608ea1643688d026aa95dd https://www.zerodayinitiative.com/advisories/ZDI-18-965/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-965/",
+  "title": "Linux Kernel MIDI Race Condition Privilege Escalation Vulnerability",
+  "updated_date": "2018-08-30",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on vulnerable installations of Linux Kernel. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of MIDI devices. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to escalate privileges to the level of kernel.",
+  "zdi_can": "ZDI-CAN-6201",
+  "zdi_id": "ZDI-18-965"
+}

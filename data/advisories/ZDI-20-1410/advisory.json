@@ -1,0 +1,27 @@
+{
+  "additional_details": "This issue was addressed in macOS Big Sur 11.0.1 and iOS 14.",
+  "advisory_date": "2020-12-09",
+  "affected_products": [
+    "macOS"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "Mickey Jin of Trend Micro Mobile Security Research Team",
+  "cve": "CVE-2020-9955",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2020-9955",
+  "cvss": 4.3,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+  "disclosure_timeline": [
+    "2020-07-10 - Vulnerability reported to vendor",
+    "2020-12-09 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-20-1410 ZDI-CAN-11307 Apple macOS KTX Image DecodeRow Out-Of-Bounds Read Information Disclosure Vulnerability 2020-12-09 CVE-2020-9955 https://www.cve.org/CVERecord?id=CVE-2020-9955 4.3 AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N ['Apple'] ['macOS'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Apple macOS. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the DecodeRow function. Crafted data in a KTX image can trigger a read past the end of an allocated data structure. An attacker can leverage this in conjunction with other vulnerabilities to execute code in the context of the current process. This issue was addressed in macOS Big Sur 11.0.1 and iOS 14. ['2020-07-10 - Vulnerability reported to vendor', '2020-12-09 - Coordinated public release of advisory'] Mickey Jin of Trend Micro Mobile Security Research Team https://www.zerodayinitiative.com/advisories/ZDI-20-1410/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-20-1410/",
+  "title": "Apple macOS KTX Image DecodeRow Out-Of-Bounds Read Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Apple macOS. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the DecodeRow function. Crafted data in a KTX image can trigger a read past the end of an allocated data structure. An attacker can leverage this in conjunction with other vulnerabilities to execute code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-11307",
+  "zdi_id": "ZDI-20-1410"
+}

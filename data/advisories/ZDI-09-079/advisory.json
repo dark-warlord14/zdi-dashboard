@@ -1,0 +1,27 @@
+{
+  "additional_details": "Sun Microsystems has issued an update to correct this vulnerability. More details can be found at: http://sunsolve.sun.com/search/document.do?assetkey=1-66-270474-1",
+  "advisory_date": "2009-11-04",
+  "affected_products": [
+    "Java Runtime"
+  ],
+  "affected_vendors": [
+    "Sun Microsystems"
+  ],
+  "credit": "Peter Vreugdenhil ( http://vreugdenhilresearch.nl )",
+  "cve": "CVE-2009-3871",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2009-3871",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2009-08-14 - Vulnerability reported to vendor",
+    "2009-11-04 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-09-079 ZDI-CAN-551 Sun Java Runtime AWT setBytePixels Heap Overflow Vulnerability 2009-11-04 CVE-2009-3871 https://www.cve.org/CVERecord?id=CVE-2009-3871 ['Sun Microsystems'] ['Java Runtime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Sun Java Runtime Environment. User interaction is required to exploit this vulnerability in that the target must visit a malicious page. The specific flaw exists in the processing of arguments to the setBytePixels AWT library function. Due to the lack of bounds checking on the parameters to the function a user controllable memcpy can result in a heap overflow. Successful exploitation of this vulnerability can lead to remote system compromise under the credentials of the currently logged in user. Sun Microsystems has issued an update to correct this vulnerability. More details can be found at: http://sunsolve.sun.com/search/document.do?assetkey=1-66-270474-1 ['2009-08-14 - Vulnerability reported to vendor', '2009-11-04 - Coordinated public release of advisory'] Peter Vreugdenhil ( http://vreugdenhilresearch.nl ) https://www.zerodayinitiative.com/advisories/ZDI-09-079/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-09-079/",
+  "title": "Sun Java Runtime AWT setBytePixels Heap Overflow Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Sun Java Runtime Environment. User interaction is required to exploit this vulnerability in that the target must visit a malicious page. The specific flaw exists in the processing of arguments to the setBytePixels AWT library function. Due to the lack of bounds checking on the parameters to the function a user controllable memcpy can result in a heap overflow. Successful exploitation of this vulnerability can lead to remote system compromise under the credentials of the currently logged in user.",
+  "zdi_can": "ZDI-CAN-551",
+  "zdi_id": "ZDI-09-079"
+}

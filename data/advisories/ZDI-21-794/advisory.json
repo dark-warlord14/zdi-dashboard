@@ -1,0 +1,28 @@
+{
+  "additional_details": "https://support.apple.com/HT212529",
+  "advisory_date": "2021-07-13",
+  "affected_products": [
+    "macOS"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "Mickey Jin (@patch1t) of Trend Micro",
+  "cve": "CVE-2021-30724",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2021-30724",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2021-03-17 - Vulnerability reported to vendor",
+    "2021-07-13 - Coordinated public release of advisory",
+    "2021-07-13 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-21-794 ZDI-CAN-13345 Apple macOS CVMServer Integer Overflow Privilege Escalation Vulnerability 2021-07-13 CVE-2021-30724 https://www.cve.org/CVERecord?id=CVE-2021-30724 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Apple'] ['macOS'] This vulnerability allows local attackers to escalate privileges on affected installations of Apple macOS. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the CVMServer daemon. The issue results from the lack of proper validation of user-supplied data, which can result in an integer overflow before writing to memory. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root. https://support.apple.com/HT212529 ['2021-03-17 - Vulnerability reported to vendor', '2021-07-13 - Coordinated public release of advisory', '2021-07-13 - Advisory Updated'] Mickey Jin (@patch1t) of Trend Micro https://www.zerodayinitiative.com/advisories/ZDI-21-794/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-21-794/",
+  "title": "Apple macOS CVMServer Integer Overflow Privilege Escalation Vulnerability",
+  "updated_date": "2021-07-13",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Apple macOS. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the CVMServer daemon. The issue results from the lack of proper validation of user-supplied data, which can result in an integer overflow before writing to memory. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root.",
+  "zdi_can": "ZDI-CAN-13345",
+  "zdi_id": "ZDI-21-794"
+}

@@ -1,0 +1,27 @@
+{
+  "additional_details": "Oracle has issued an update to correct this vulnerability. More details can be found at: https://www.oracle.com/technetwork/security-advisory/cpujan2019-5072801.html",
+  "advisory_date": "2019-01-16",
+  "affected_products": [
+    "Java"
+  ],
+  "affected_vendors": [
+    "Oracle"
+  ],
+  "credit": "rgod of 9sg Security Team - rgod@9sgsec.com",
+  "cve": "CVE-2019-2449",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2019-2449",
+  "cvss": 5.9,
+  "cvss_vector": "AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:L/A:H",
+  "disclosure_timeline": [
+    "2018-08-17 - Vulnerability reported to vendor",
+    "2019-01-16 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-19-033 ZDI-CAN-7151 Oracle Java jnlp Protocol Directory Traversal Arbitrary File Deletion Vulnerability 2019-01-16 CVE-2019-2449 https://www.cve.org/CVERecord?id=CVE-2019-2449 5.9 AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:L/A:H ['Oracle'] ['Java'] This vulnerability allows remote attackers to delete arbitrary files on vulnerable installations of Oracle Java. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of URIs with the jnlp: protocol. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to delete files in the context of the current user. Oracle has issued an update to correct this vulnerability. More details can be found at: https://www.oracle.com/technetwork/security-advisory/cpujan2019-5072801.html ['2018-08-17 - Vulnerability reported to vendor', '2019-01-16 - Coordinated public release of advisory'] rgod of 9sg Security Team - rgod@9sgsec.com https://www.zerodayinitiative.com/advisories/ZDI-19-033/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-19-033/",
+  "title": "Oracle Java jnlp Protocol Directory Traversal Arbitrary File Deletion Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to delete arbitrary files on vulnerable installations of Oracle Java. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of URIs with the jnlp: protocol. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to delete files in the context of the current user.",
+  "zdi_can": "ZDI-CAN-7151",
+  "zdi_id": "ZDI-19-033"
+}

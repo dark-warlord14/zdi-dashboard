@@ -1,0 +1,27 @@
+{
+  "additional_details": "NETGEAR has issued an update to correct this vulnerability. More details can be found at: https://kb.netgear.com/000065707/Security-Advisory-for-Multiple-Vulnerabilities-on-the-ProSAFE-Network-Management-System-PSV-2023-0024-PSV-2023-0025",
+  "advisory_date": "2023-07-13",
+  "affected_products": [
+    "ProSAFE Network Management System"
+  ],
+  "affected_vendors": [
+    "NETGEAR"
+  ],
+  "credit": "Steven Seeley of Source Incite",
+  "cve": "CVE-2023-38096",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-38096",
+  "cvss": 9.8,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2023-02-08 - Vulnerability reported to vendor",
+    "2023-07-13 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-920 ZDI-CAN-19718 NETGEAR ProSAFE Network Management System MyHandlerInterceptor Authentication Bypass Vulnerability 2023-07-13 CVE-2023-38096 https://www.cve.org/CVERecord?id=CVE-2023-38096 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['NETGEAR'] ['ProSAFE Network Management System'] This vulnerability allows remote attackers to bypass authentication on affected installations of NETGEAR ProSAFE Network Management System. Authentication is not required to exploit this vulnerability. The specific flaw exists within the MyHandlerInterceptor class. The issue results from improper implementation of the authentication mechanism. An attacker can leverage this vulnerability to bypass authentication on the system. NETGEAR has issued an update to correct this vulnerability. More details can be found at: https://kb.netgear.com/000065707/Security-Advisory-for-Multiple-Vulnerabilities-on-the-ProSAFE-Network-Management-System-PSV-2023-0024-PSV-2023-0025 ['2023-02-08 - Vulnerability reported to vendor', '2023-07-13 - Coordinated public release of advisory'] Steven Seeley of Source Incite https://www.zerodayinitiative.com/advisories/ZDI-23-920/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-920/",
+  "title": "NETGEAR ProSAFE Network Management System MyHandlerInterceptor Authentication Bypass Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to bypass authentication on affected installations of NETGEAR ProSAFE Network Management System. Authentication is not required to exploit this vulnerability. The specific flaw exists within the MyHandlerInterceptor class. The issue results from improper implementation of the authentication mechanism. An attacker can leverage this vulnerability to bypass authentication on the system.",
+  "zdi_can": "ZDI-CAN-19718",
+  "zdi_id": "ZDI-23-920"
+}

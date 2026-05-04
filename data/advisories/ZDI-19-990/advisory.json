@@ -1,0 +1,28 @@
+{
+  "additional_details": "Symantec has issued an update to correct this vulnerability. More details can be found at: https://support.symantec.com/us/en/article.SYMSA1488.html",
+  "advisory_date": "2019-11-14",
+  "affected_products": [
+    "Endpoint Protection"
+  ],
+  "affected_vendors": [
+    "Symantec"
+  ],
+  "credit": "gweeperx",
+  "cve": "CVE-2019-18372",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2019-18372",
+  "cvss": 5.3,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
+  "disclosure_timeline": [
+    "2019-10-17 - Vulnerability reported to vendor",
+    "2019-11-14 - Coordinated public release of advisory",
+    "2021-01-05 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-19-990 ZDI-CAN-9477 Symantec Endpoint Protection Manager OpenSSL Privilege Escalation Vulnerability 2019-11-14 CVE-2019-18372 https://www.cve.org/CVERecord?id=CVE-2019-18372 5.3 AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L ['Symantec'] ['Endpoint Protection'] This vulnerability allows local attackers to escalate privileges on affected installations of Symantec Endpoint Protection Manager. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the configuration of OpenSSL. When processing an HTTPS request, the process loads the OpenSSL configuration file, which can be used to load arbitrary executable files. An attacker can leverage this vulnerability to escalate privileges and execute code in the context of the NT SERVICE\\semwebsrv user. Symantec has issued an update to correct this vulnerability. More details can be found at: https://support.symantec.com/us/en/article.SYMSA1488.html ['2019-10-17 - Vulnerability reported to vendor', '2019-11-14 - Coordinated public release of advisory', '2021-01-05 - Advisory Updated'] gweeperx https://www.zerodayinitiative.com/advisories/ZDI-19-990/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-19-990/",
+  "title": "Symantec Endpoint Protection Manager OpenSSL Privilege Escalation Vulnerability",
+  "updated_date": "2021-01-05",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Symantec Endpoint Protection Manager. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the configuration of OpenSSL. When processing an HTTPS request, the process loads the OpenSSL configuration file, which can be used to load arbitrary executable files. An attacker can leverage this vulnerability to escalate privileges and execute code in the context of the NT SERVICE\\semwebsrv user.",
+  "zdi_can": "ZDI-CAN-9477",
+  "zdi_id": "ZDI-19-990"
+}

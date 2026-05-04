@@ -1,0 +1,28 @@
+{
+  "additional_details": "Qemu has issued an update to correct this vulnerability. More details can be found at: https://bugzilla.redhat.com/show_bug.cgi?id=1586245",
+  "advisory_date": "2018-06-07",
+  "affected_products": [
+    "Qemu"
+  ],
+  "affected_vendors": [
+    "Qemu"
+  ],
+  "credit": "jskz",
+  "cve": "CVE-2018-11806",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2018-11806",
+  "cvss": 3.7,
+  "cvss_vector": "AV:L/AC:H/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2018-04-27 - Vulnerability reported to vendor",
+    "2018-06-07 - Coordinated public release of advisory",
+    "2018-06-07 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-567 ZDI-CAN-5588 Qemu Slirp Networking Heap-based Buffer Overflow Privilege Escalation Vulnerability 2018-06-07 CVE-2018-11806 https://www.cve.org/CVERecord?id=CVE-2018-11806 3.7 AV:L/AC:H/Au:N/C:P/I:P/A:P ['Qemu'] ['Qemu'] This vulnerability allows local attackers to execute arbitrary code on vulnerable installations of Qemu. An attacker must first obtain the ability to execute code on the guest OS in order to exploit this vulnerability. The specific flaw exists within the handling of the slirp networking. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length heap-based buffer. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code under the context of current user in the host OS. Qemu has issued an update to correct this vulnerability. More details can be found at: https://bugzilla.redhat.com/show_bug.cgi?id=1586245 ['2018-04-27 - Vulnerability reported to vendor', '2018-06-07 - Coordinated public release of advisory', '2018-06-07 - Advisory Updated'] jskz https://www.zerodayinitiative.com/advisories/ZDI-18-567/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-567/",
+  "title": "Qemu Slirp Networking Heap-based Buffer Overflow Privilege Escalation Vulnerability",
+  "updated_date": "2018-06-07",
+  "vulnerability_details": "This vulnerability allows local attackers to execute arbitrary code on vulnerable installations of Qemu. An attacker must first obtain the ability to execute code on the guest OS in order to exploit this vulnerability. The specific flaw exists within the handling of the slirp networking. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length heap-based buffer. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code under the context of current user in the host OS.",
+  "zdi_can": "ZDI-CAN-5588",
+  "zdi_id": "ZDI-18-567"
+}

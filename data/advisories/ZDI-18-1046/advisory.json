@@ -1,0 +1,28 @@
+{
+  "additional_details": "This vulnerability is being disclosed publicly without a patch in accordance with the ZDI 120 day deadline. 04/10/18 - ZDI reported the vulnerability to the vendor 04/10/18 - The vendor acknowledged 08/17/18 - ZDI contacted the vendor requesting a status update 08/18/18 - The vendor indicated fixes were not available yet 08/20/18 - ZDI requested an ETA for the fix and notified the vendor the intention to 0-day -- Mitigation: Given the nature of the vulnerability the only salient mitigation strategy is to restrict interaction with the application to trusted files.",
+  "advisory_date": "2018-09-13",
+  "affected_products": [
+    "PoDoFo"
+  ],
+  "affected_vendors": [
+    "PoDoFo"
+  ],
+  "credit": "V.E.O of Trend Micro Mobile Security Research Team",
+  "cve": "CVE-2018-14320",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2018-14320",
+  "cvss": 4.3,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N",
+  "disclosure_timeline": [
+    "2018-04-10 - Vulnerability reported to vendor",
+    "2018-09-13 - Coordinated public release of advisory",
+    "2018-09-13 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-1046 ZDI-CAN-5673 (0Day) PoDoFo Library ParseToUnicode Memory Corruption Information Disclosure Vulnerability 2018-09-13 CVE-2018-14320 https://www.cve.org/CVERecord?id=CVE-2018-14320 4.3 AV:N/AC:M/Au:N/C:P/I:N/A:N ['PoDoFo'] ['PoDoFo'] This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of PoDoFo Library. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within PdfEncoding::ParseToUnicode(). The issue results from the lack of proper validation of user-supplied data, which can result in a memory corruption condition. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process. This vulnerability is being disclosed publicly without a patch in accordance with the ZDI 120 day deadline. 04/10/18 - ZDI reported the vulnerability to the vendor 04/10/18 - The vendor acknowledged 08/17/18 - ZDI contacted the vendor requesting a status update 08/18/18 - The vendor indicated fixes were not available yet 08/20/18 - ZDI requested an ETA for the fix and notified the vendor the intention to 0-day -- Mitigation: Given the nature of the vulnerability the only salient mitigation strategy is to restrict interaction with the application to trusted files. ['2018-04-10 - Vulnerability reported to vendor', '2018-09-13 - Coordinated public release of advisory', '2018-09-13 - Advisory Updated'] V.E.O of Trend Micro Mobile Security Research Team https://www.zerodayinitiative.com/advisories/ZDI-18-1046/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-1046/",
+  "title": "(0Day) PoDoFo Library ParseToUnicode Memory Corruption Information Disclosure Vulnerability",
+  "updated_date": "2018-09-13",
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of PoDoFo Library. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within PdfEncoding::ParseToUnicode(). The issue results from the lack of proper validation of user-supplied data, which can result in a memory corruption condition. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-5673",
+  "zdi_id": "ZDI-18-1046"
+}

@@ -1,0 +1,28 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-60711",
+  "advisory_date": "2025-12-17",
+  "affected_products": [
+    "Edge"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Eduardo Braun Prado",
+  "cve": "CVE-2025-60711",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-60711",
+  "cvss": 8.8,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2025-09-04 - Vulnerability reported to vendor",
+    "2025-12-17 - Coordinated public release of advisory",
+    "2025-12-17 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-1099 ZDI-CAN-27795 Microsoft Edge Mark-Of-The-Web Removal Remote Code Execution Vulnerability 2025-12-17 CVE-2025-60711 https://www.cve.org/CVERecord?id=CVE-2025-60711 8.8 AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Microsoft'] ['Edge'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Microsoft Edge. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of downloaded files. By performing crafted web requests, an attacker can cause the Mark-Of-The-Web to be removed from downloaded files. An attacker can leverage this vulnerability to execute code in the context of the current user at medium integrity. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-60711 ['2025-09-04 - Vulnerability reported to vendor', '2025-12-17 - Coordinated public release of advisory', '2025-12-17 - Advisory Updated'] Eduardo Braun Prado https://www.zerodayinitiative.com/advisories/ZDI-25-1099/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-1099/",
+  "title": "Microsoft Edge Mark-Of-The-Web Removal Remote Code Execution Vulnerability",
+  "updated_date": "2025-12-17",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Microsoft Edge. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of downloaded files. By performing crafted web requests, an attacker can cause the Mark-Of-The-Web to be removed from downloaded files. An attacker can leverage this vulnerability to execute code in the context of the current user at medium integrity.",
+  "zdi_can": "ZDI-CAN-27795",
+  "zdi_id": "ZDI-25-1099"
+}

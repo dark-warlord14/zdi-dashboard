@@ -1,0 +1,27 @@
+{
+  "additional_details": "Cerulean Studios has issued an update to correct this vulnerability. More details can be found at: http://blog.ceruleanstudios.com/?p=404",
+  "advisory_date": "2008-12-04",
+  "affected_products": [
+    "Trillian"
+  ],
+  "affected_vendors": [
+    "Cerulean Studios"
+  ],
+  "credit": "Damian Put",
+  "cve": "CVE-2008-5403",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2008-5403",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2008-11-24 - Vulnerability reported to vendor",
+    "2008-12-04 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-08-079 ZDI-CAN-410 Trillian AIM Plugin Malformed XML Tag Heap Overflow Vulnerability 2008-12-04 CVE-2008-5403 https://www.cve.org/CVERecord?id=CVE-2008-5403 ['Cerulean Studios'] ['Trillian'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Cerulean Studios Trillian. Authentication is not required to exploit this vulnerability. The specific flaw exists within the XML processing code for Trillian. When parsing a malformed XML tag, the application does not allocate enough space for it's contents. During copying of this to the newly allocated buffer, the application will overwrite heap structures with attacker-supplied data that can then be leveraged to achieve code execution with the privileges of the application. Cerulean Studios has issued an update to correct this vulnerability. More details can be found at: http://blog.ceruleanstudios.com/?p=404 ['2008-11-24 - Vulnerability reported to vendor', '2008-12-04 - Coordinated public release of advisory'] Damian Put https://www.zerodayinitiative.com/advisories/ZDI-08-079/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-08-079/",
+  "title": "Trillian AIM Plugin Malformed XML Tag Heap Overflow Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Cerulean Studios Trillian. Authentication is not required to exploit this vulnerability. The specific flaw exists within the XML processing code for Trillian. When parsing a malformed XML tag, the application does not allocate enough space for it's contents. During copying of this to the newly allocated buffer, the application will overwrite heap structures with attacker-supplied data that can then be leveraged to achieve code execution with the privileges of the application.",
+  "zdi_can": "ZDI-CAN-410",
+  "zdi_id": "ZDI-08-079"
+}

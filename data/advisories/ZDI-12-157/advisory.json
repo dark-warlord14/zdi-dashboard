@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/en-us/security/bulletin/MS12-030",
+  "advisory_date": "2012-08-22",
+  "affected_products": [
+    "Office"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2012-1847",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2012-1847",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2012-01-24 - Vulnerability reported to vendor",
+    "2012-08-22 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-12-157 ZDI-CAN-1374 Microsoft Excel Series Record Parsing Type Mismatch Remote Code Execution Vulnerability 2012-08-22 CVE-2012-1847 https://www.cve.org/CVERecord?id=CVE-2012-1847 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Microsoft'] ['Office'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Office Excel. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of Series records. The code within Excel.exe makes an assumption about the data types within a Series record and can be made to write beyond the bounds of a heap buffer when a specific combination of fields are set to unexpected values. This corruption can be leveraged to achieve code execution under the context of the user running the application. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/en-us/security/bulletin/MS12-030 ['2012-01-24 - Vulnerability reported to vendor', '2012-08-22 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-12-157/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-12-157/",
+  "title": "Microsoft Excel Series Record Parsing Type Mismatch Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Office Excel. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of Series records. The code within Excel.exe makes an assumption about the data types within a Series record and can be made to write beyond the bounds of a heap buffer when a specific combination of fields are set to unexpected values. This corruption can be leveraged to achieve code execution under the context of the user running the application.",
+  "zdi_can": "ZDI-CAN-1374",
+  "zdi_id": "ZDI-12-157"
+}

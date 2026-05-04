@@ -1,0 +1,27 @@
+{
+  "additional_details": "Cisco has issued an update to correct this vulnerability. More details can be found at: https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ucsd-mult-vulns-UNfpdW4E",
+  "advisory_date": "2020-04-16",
+  "affected_products": [
+    "UCS Director"
+  ],
+  "affected_vendors": [
+    "Cisco"
+  ],
+  "credit": "Steven Seeley (mr_me) of Source Incite",
+  "cve": "CVE-2020-3248",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2020-3248",
+  "cvss": 9.8,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2019-12-27 - Vulnerability reported to vendor",
+    "2020-04-16 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-20-543 ZDI-CAN-9596 Cisco UCS Director saveStaticConfig Directory Traversal Remote Code Execution Vulnerability 2020-04-16 CVE-2020-3248 https://www.cve.org/CVERecord?id=CVE-2020-3248 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['Cisco'] ['UCS Director'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Cisco UCS Director. Authentication is not required to exploit this vulnerability. The specific flaw exists within the saveStaticConfig method. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute code in the context of root. Cisco has issued an update to correct this vulnerability. More details can be found at: https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ucsd-mult-vulns-UNfpdW4E ['2019-12-27 - Vulnerability reported to vendor', '2020-04-16 - Coordinated public release of advisory'] Steven Seeley (mr_me) of Source Incite https://www.zerodayinitiative.com/advisories/ZDI-20-543/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-20-543/",
+  "title": "Cisco UCS Director saveStaticConfig Directory Traversal Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Cisco UCS Director. Authentication is not required to exploit this vulnerability. The specific flaw exists within the saveStaticConfig method. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute code in the context of root.",
+  "zdi_can": "ZDI-CAN-9596",
+  "zdi_id": "ZDI-20-543"
+}

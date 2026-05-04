@@ -1,0 +1,27 @@
+{
+  "additional_details": "RealNetworks has issued an update to correct this vulnerability. More details can be found at: http://service.real.com/realplayer/security/09072012_player/en/",
+  "advisory_date": "2012-11-15",
+  "affected_products": [
+    "RealPlayer"
+  ],
+  "affected_vendors": [
+    "RealNetworks"
+  ],
+  "credit": "Dan Rosenberg of Virtual Security Research Damian Put",
+  "cve": "CVE-2012-0925",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2012-0925",
+  "cvss": 9.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:C",
+  "disclosure_timeline": [
+    "2011-10-21 - Vulnerability reported to vendor",
+    "2012-11-15 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-12-183 ZDI-CAN-1191 RealNetworks RealPlayer RV40 Remote Code Execution Vulnerability 2012-11-15 CVE-2012-0925 https://www.cve.org/CVERecord?id=CVE-2012-0925 9.0 AV:N/AC:L/Au:N/C:P/I:P/A:C ['RealNetworks'] ['RealPlayer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of RealNetworks RealPlayer. User interaction is required in that a target must visit a malicious page or open a malicious file. The flaw exists within the rv40.dll component for RealNetworks RealPlayer. When parsing a stream containing RV40 sample data, a value is miscalculated before being used as an offset from a base pointer address. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the process. RealNetworks has issued an update to correct this vulnerability. More details can be found at: http://service.real.com/realplayer/security/09072012_player/en/ ['2011-10-21 - Vulnerability reported to vendor', '2012-11-15 - Coordinated public release of advisory'] Dan Rosenberg of Virtual Security Research Damian Put https://www.zerodayinitiative.com/advisories/ZDI-12-183/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-12-183/",
+  "title": "RealNetworks RealPlayer RV40 Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of RealNetworks RealPlayer. User interaction is required in that a target must visit a malicious page or open a malicious file. The flaw exists within the rv40.dll component for RealNetworks RealPlayer. When parsing a stream containing RV40 sample data, a value is miscalculated before being used as an offset from a base pointer address. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the process.",
+  "zdi_can": "ZDI-CAN-1191",
+  "zdi_id": "ZDI-12-183"
+}

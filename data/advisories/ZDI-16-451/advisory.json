@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/library/security/MS16-099",
+  "advisory_date": "2016-08-09",
+  "affected_products": [
+    "Office Word"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Arun Kumar Sharma",
+  "cve": "CVE-2016-3318",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-3318",
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2016-06-06 - Vulnerability reported to vendor",
+    "2016-08-09 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-16-451 ZDI-CAN-3743 Microsoft Office Word RTF JPEG Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability 2016-08-09 CVE-2016-3318 https://www.cve.org/CVERecord?id=CVE-2016-3318 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Microsoft'] ['Office Word'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Office Word. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the processing of a JPEG embedded within an RTF file. The issue lies in the failure to properly validate user-supplied data which can result in a write past the end of an allocated buffer. An attacker can leverage this vulnerability to execute arbitrary code under the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/library/security/MS16-099 ['2016-06-06 - Vulnerability reported to vendor', '2016-08-09 - Coordinated public release of advisory'] Arun Kumar Sharma https://www.zerodayinitiative.com/advisories/ZDI-16-451/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-451/",
+  "title": "Microsoft Office Word RTF JPEG Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Office Word. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the processing of a JPEG embedded within an RTF file. The issue lies in the failure to properly validate user-supplied data which can result in a write past the end of an allocated buffer. An attacker can leverage this vulnerability to execute arbitrary code under the context of the current process.",
+  "zdi_can": "ZDI-CAN-3743",
+  "zdi_id": "ZDI-16-451"
+}

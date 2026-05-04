@@ -1,0 +1,27 @@
+{
+  "additional_details": "VMware has issued an update to correct this vulnerability. More details can be found at: https://www.vmware.com/security/advisories/VMSA-2022-0034.html",
+  "advisory_date": "2023-01-18",
+  "affected_products": [
+    "vRealize"
+  ],
+  "affected_vendors": [
+    "VMware"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2022-31707",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-31707",
+  "cvss": 7.2,
+  "cvss_vector": "AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2022-08-31 - Vulnerability reported to vendor",
+    "2023-01-18 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-054 ZDI-CAN-17957 VMware vRealize Operations CaSA Improper Privilege Management Privilege Escalation Vulnerability 2023-01-18 CVE-2022-31707 https://www.cve.org/CVERecord?id=CVE-2022-31707 7.2 AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H ['VMware'] ['vRealize'] This vulnerability allows remote attackers to escalate privileges on affected installations of VMware vRealize Operations. Authentication is required to exploit this vulnerability. The specific flaw exists within the configuration of CaSA. A crafted administrator command can trigger execution of a privileged operation. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root. VMware has issued an update to correct this vulnerability. More details can be found at: https://www.vmware.com/security/advisories/VMSA-2022-0034.html ['2022-08-31 - Vulnerability reported to vendor', '2023-01-18 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-23-054/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-054/",
+  "title": "VMware vRealize Operations CaSA Improper Privilege Management Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to escalate privileges on affected installations of VMware vRealize Operations. Authentication is required to exploit this vulnerability. The specific flaw exists within the configuration of CaSA. A crafted administrator command can trigger execution of a privileged operation. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root.",
+  "zdi_can": "ZDI-CAN-17957",
+  "zdi_id": "ZDI-23-054"
+}

@@ -1,0 +1,27 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT6207",
+  "advisory_date": "2014-05-02",
+  "affected_products": [
+    "OS X"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "Ian Beer of Google Project Zero",
+  "cve": "CVE-2014-1318",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-1318",
+  "cvss": 6.9,
+  "cvss_vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2014-03-13 - Vulnerability reported to vendor",
+    "2014-05-02 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-14-121 ZDI-CAN-2208 (Pwn2Own\\Pwn4Fun) Apple OS X Graphics Driver Memory Corruption Remote Code Execution Vulnerability 2014-05-02 CVE-2014-1318 https://www.cve.org/CVERecord?id=CVE-2014-1318 6.9 AV:L/AC:M/Au:N/C:C/I:C/A:C ['Apple'] ['OS X'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple OS X. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the Intel graphics driver. The issue lies in the failure to properly validate a pointer. An attacker can leverage this vulnerability to execute code within the context of the kernel. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT6207 ['2014-03-13 - Vulnerability reported to vendor', '2014-05-02 - Coordinated public release of advisory'] Ian Beer of Google Project Zero https://www.zerodayinitiative.com/advisories/ZDI-14-121/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-14-121/",
+  "title": "(Pwn2Own\\Pwn4Fun) Apple OS X Graphics Driver Memory Corruption Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple OS X. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the Intel graphics driver. The issue lies in the failure to properly validate a pointer. An attacker can leverage this vulnerability to execute code within the context of the kernel.",
+  "zdi_can": "ZDI-CAN-2208",
+  "zdi_id": "ZDI-14-121"
+}

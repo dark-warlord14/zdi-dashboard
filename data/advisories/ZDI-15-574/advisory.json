@@ -1,0 +1,28 @@
+{
+  "additional_details": "Unitronics has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-15-274-02 Unitronics has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-15-274-02",
+  "advisory_date": "2015-12-02",
+  "affected_products": [
+    "UniDownloader VisiLogic OPLC IDE"
+  ],
+  "affected_vendors": [
+    "Unitronics",
+    "Unitronics"
+  ],
+  "credit": "Andrea Micalizzi (rgod)",
+  "cve": "CVE-2015-7905",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-7905",
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2015-05-28 - Vulnerability reported to vendor",
+    "2015-12-02 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-15-574 ZDI-CAN-2964 Unitronics UniDownloader and Unitronics VisiLogic OPLC IDE IPWorksSSL.HTTPS.1 ActiveX Control WinSockPath Property Remote Code Execution Vulnerability 2015-12-02 CVE-2015-7905 https://www.cve.org/CVERecord?id=CVE-2015-7905 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Unitronics', 'Unitronics'] ['UniDownloader VisiLogic OPLC IDE'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Unitronics UniDownloader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within implementation of the WinSockPath property of the HTTPS ActiveX control. The control passes this property as the URL for a DLL to the LoadLibraryA API, which will automatically execute DllMain in the DLL. This can be leveraged by an attacker for remote code execution in the context of the process. Unitronics has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-15-274-02 Unitronics has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-15-274-02 ['2015-05-28 - Vulnerability reported to vendor', '2015-12-02 - Coordinated public release of advisory'] Andrea Micalizzi (rgod) https://www.zerodayinitiative.com/advisories/ZDI-15-574/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-574/",
+  "title": "Unitronics UniDownloader and Unitronics VisiLogic OPLC IDE IPWorksSSL.HTTPS.1 ActiveX Control WinSockPath Property Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Unitronics UniDownloader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within implementation of the WinSockPath property of the HTTPS ActiveX control. The control passes this property as the URL for a DLL to the LoadLibraryA API, which will automatically execute DllMain in the DLL. This can be leveraged by an attacker for remote code execution in the context of the process.",
+  "zdi_can": "ZDI-CAN-2964",
+  "zdi_id": "ZDI-15-574"
+}

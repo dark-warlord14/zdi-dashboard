@@ -1,0 +1,28 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-8207",
+  "advisory_date": "2018-06-13",
+  "affected_products": [
+    "Windows"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Lucas Leong (@wmliang) of Trend Micro Security Research",
+  "cve": "CVE-2018-8207",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2018-8207",
+  "cvss": 5.4,
+  "cvss_vector": "AV:L/AC:M/Au:N/C:P/I:N/A:C",
+  "disclosure_timeline": [
+    "2018-02-28 - Vulnerability reported to vendor",
+    "2018-06-13 - Coordinated public release of advisory",
+    "2018-06-13 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-578 ZDI-CAN-5702 Microsoft Windows ksecdd IOCTL 0x390400 Out-Of-Bounds Read Information Disclosure Vulnerability 2018-06-13 CVE-2018-8207 https://www.cve.org/CVERecord?id=CVE-2018-8207 5.4 AV:L/AC:M/Au:N/C:P/I:N/A:C ['Microsoft'] ['Windows'] This vulnerability allows local attackers to disclose sensitive information on vulnerable installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of ksecdd IOCTL 0x390400, which is implemented in cng.sys. Crafted parameters to this IOCTL can trigger a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of SYSTEM. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-8207 ['2018-02-28 - Vulnerability reported to vendor', '2018-06-13 - Coordinated public release of advisory', '2018-06-13 - Advisory Updated'] Lucas Leong (@wmliang) of Trend Micro Security Research https://www.zerodayinitiative.com/advisories/ZDI-18-578/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-578/",
+  "title": "Microsoft Windows ksecdd IOCTL 0x390400 Out-Of-Bounds Read Information Disclosure Vulnerability",
+  "updated_date": "2018-06-13",
+  "vulnerability_details": "This vulnerability allows local attackers to disclose sensitive information on vulnerable installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of ksecdd IOCTL 0x390400, which is implemented in cng.sys. Crafted parameters to this IOCTL can trigger a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-5702",
+  "zdi_id": "ZDI-18-578"
+}

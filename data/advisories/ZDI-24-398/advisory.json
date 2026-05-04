@@ -1,0 +1,28 @@
+{
+  "additional_details": "Wazuh has issued an update to correct this vulnerability. More details can be found at: https://github.com/wazuh/wazuh/security/advisories/GHSA-mjq2-xf8g-68vw",
+  "advisory_date": "2024-04-25",
+  "affected_products": [
+    "Wazuh"
+  ],
+  "affected_vendors": [
+    "Wazuh"
+  ],
+  "credit": "@d0ntrash",
+  "cve": "CVE-2023-50260",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-50260",
+  "cvss": 8.8,
+  "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2023-11-28 - Vulnerability reported to vendor",
+    "2024-04-25 - Coordinated public release of advisory",
+    "2024-07-01 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-398 ZDI-CAN-22560 Wazuh Active Response Module Improper Input Validation Remote Code Execution Vulnerability 2024-04-25 CVE-2023-50260 https://www.cve.org/CVERecord?id=CVE-2023-50260 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Wazuh'] ['Wazuh'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Wazuh. Authentication is required to exploit this vulnerability. The specific flaw exists within the handling of IP address arguments. The issue results from the lack of proper validation of JSON messages. An attacker can leverage this vulnerability to execute code in the context of root. Wazuh has issued an update to correct this vulnerability. More details can be found at: https://github.com/wazuh/wazuh/security/advisories/GHSA-mjq2-xf8g-68vw ['2023-11-28 - Vulnerability reported to vendor', '2024-04-25 - Coordinated public release of advisory', '2024-07-01 - Advisory Updated'] @d0ntrash https://www.zerodayinitiative.com/advisories/ZDI-24-398/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-398/",
+  "title": "Wazuh Active Response Module Improper Input Validation Remote Code Execution Vulnerability",
+  "updated_date": "2024-07-01",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Wazuh. Authentication is required to exploit this vulnerability. The specific flaw exists within the handling of IP address arguments. The issue results from the lack of proper validation of JSON messages. An attacker can leverage this vulnerability to execute code in the context of root.",
+  "zdi_can": "ZDI-CAN-22560",
+  "zdi_id": "ZDI-24-398"
+}

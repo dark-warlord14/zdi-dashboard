@@ -1,0 +1,27 @@
+{
+  "additional_details": "NETGEAR has issued an update to correct this vulnerability. More details can be found at: https://kb.netgear.com/000062883/Security-Advisory-for-Multiple-Vulnerabilities-on-Some-Routers-Satellites-and-Extenders",
+  "advisory_date": "2021-02-25",
+  "affected_products": [
+    "R7800"
+  ],
+  "affected_vendors": [
+    "NETGEAR"
+  ],
+  "credit": "84c0",
+  "cve": "CVE-2021-27254",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2021-27254",
+  "cvss": 6.3,
+  "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+  "disclosure_timeline": [
+    "2020-11-06 - Vulnerability reported to vendor",
+    "2021-02-25 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-21-252 ZDI-CAN-12287 (Pwn2Own) NETGEAR Nighthawk R7800 Use of Hard-coded Password Authentication Bypass Vulnerability 2021-02-25 CVE-2021-27254 https://www.cve.org/CVERecord?id=CVE-2021-27254 6.3 AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L ['NETGEAR'] ['R7800'] This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of NETGEAR R7800. Authentication is not required to exploit this vulnerability. The specific flaw exists within the apply_save.cgi endpoint. This issue results from the use of hard-coded encryption key. An attacker can leverage this vulnerability to execute arbitrary code in the context of root. NETGEAR has issued an update to correct this vulnerability. More details can be found at: https://kb.netgear.com/000062883/Security-Advisory-for-Multiple-Vulnerabilities-on-Some-Routers-Satellites-and-Extenders ['2020-11-06 - Vulnerability reported to vendor', '2021-02-25 - Coordinated public release of advisory'] 84c0 https://www.zerodayinitiative.com/advisories/ZDI-21-252/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-21-252/",
+  "title": "(Pwn2Own) NETGEAR Nighthawk R7800 Use of Hard-coded Password Authentication Bypass Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of NETGEAR R7800. Authentication is not required to exploit this vulnerability. The specific flaw exists within the apply_save.cgi endpoint. This issue results from the use of hard-coded encryption key. An attacker can leverage this vulnerability to execute arbitrary code in the context of root.",
+  "zdi_can": "ZDI-CAN-12287",
+  "zdi_id": "ZDI-21-252"
+}

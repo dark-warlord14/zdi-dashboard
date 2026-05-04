@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-26862",
+  "advisory_date": "2021-03-15",
+  "affected_products": [
+    "Windows"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Abdelhamid Naceri (halov)",
+  "cve": "CVE-2021-26862",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2021-26862",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2020-12-04 - Vulnerability reported to vendor",
+    "2021-03-15 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-21-285 ZDI-CAN-12324 Microsoft Windows Installer Service Directory Junction Privilege Escalation Vulnerability 2021-03-15 CVE-2021-26862 https://www.cve.org/CVERecord?id=CVE-2021-26862 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Microsoft'] ['Windows'] This vulnerability allows local attackers to escalate privileges on affected installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Windows Installer Service. By creating a directory junction, an attacker can abuse the service to create an arbitrary file. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-26862 ['2020-12-04 - Vulnerability reported to vendor', '2021-03-15 - Coordinated public release of advisory'] Abdelhamid Naceri (halov) https://www.zerodayinitiative.com/advisories/ZDI-21-285/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-21-285/",
+  "title": "Microsoft Windows Installer Service Directory Junction Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Windows Installer Service. By creating a directory junction, an attacker can abuse the service to create an arbitrary file. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-12324",
+  "zdi_id": "ZDI-21-285"
+}

@@ -1,0 +1,27 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-us/HT213530",
+  "advisory_date": "2022-12-21",
+  "affected_products": [
+    "Safari"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "hazbinhotel",
+  "cve": "CVE-2022-42852",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-42852",
+  "cvss": 4.3,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+  "disclosure_timeline": [
+    "2022-10-14 - Vulnerability reported to vendor",
+    "2022-12-21 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-1682 ZDI-CAN-18337 Apple Safari DFG JIT Use-After-Free Information Disclosure Vulnerability 2022-12-21 CVE-2022-42852 https://www.cve.org/CVERecord?id=CVE-2022-42852 4.3 AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N ['Apple'] ['Safari'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Apple Safari. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the DFG JIT. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process. Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-us/HT213530 ['2022-10-14 - Vulnerability reported to vendor', '2022-12-21 - Coordinated public release of advisory'] hazbinhotel https://www.zerodayinitiative.com/advisories/ZDI-22-1682/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-1682/",
+  "title": "Apple Safari DFG JIT Use-After-Free Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Apple Safari. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the DFG JIT. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-18337",
+  "zdi_id": "ZDI-22-1682"
+}

@@ -1,0 +1,28 @@
+{
+  "additional_details": "NI has issued an update to correct this vulnerability. More details can be found at: https://www.ni.com/en/support/security/available-critical-and-security-updates-for-ni-software/incorrect-permissions-for-shared-systemlink-elixir-based-service.html",
+  "advisory_date": "2024-02-28",
+  "affected_products": [
+    "FlexLogger"
+  ],
+  "affected_vendors": [
+    "NI"
+  ],
+  "credit": "06fe5fd2bc53027c4a3b7e395af0b850e7b8a044",
+  "cve": "CVE-2024-1156",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-1156",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2023-12-01 - Vulnerability reported to vendor",
+    "2024-02-28 - Coordinated public release of advisory",
+    "2024-07-01 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-214 ZDI-CAN-21775 NI FlexLogger RabbitMQ Incorrect Permission Assignment Local Privilege Escalation Vulnerability 2024-02-28 CVE-2024-1156 https://www.cve.org/CVERecord?id=CVE-2024-1156 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['NI'] ['FlexLogger'] This vulnerability allows local attackers to escalate privileges on affected installations of NI FlexLogger. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the configuration of RabbitMQ. The issue results from incorrect permissions on a file. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. NI has issued an update to correct this vulnerability. More details can be found at: https://www.ni.com/en/support/security/available-critical-and-security-updates-for-ni-software/incorrect-permissions-for-shared-systemlink-elixir-based-service.html ['2023-12-01 - Vulnerability reported to vendor', '2024-02-28 - Coordinated public release of advisory', '2024-07-01 - Advisory Updated'] 06fe5fd2bc53027c4a3b7e395af0b850e7b8a044 https://www.zerodayinitiative.com/advisories/ZDI-24-214/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-214/",
+  "title": "NI FlexLogger RabbitMQ Incorrect Permission Assignment Local Privilege Escalation Vulnerability",
+  "updated_date": "2024-07-01",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of NI FlexLogger. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the configuration of RabbitMQ. The issue results from incorrect permissions on a file. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-21775",
+  "zdi_id": "ZDI-24-214"
+}

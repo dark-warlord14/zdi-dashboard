@@ -1,0 +1,27 @@
+{
+  "additional_details": "McAfee has issued an update to correct this vulnerability. More details can be found at: https://kc.mcafee.com/corporate/index?page=content&id=SB10302",
+  "advisory_date": "2020-06-15",
+  "affected_products": [
+    "VirusScan Enterprise"
+  ],
+  "affected_vendors": [
+    "McAfee"
+  ],
+  "credit": "Glenn Lloyd",
+  "cve": "CVE-2020-7280",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2020-7280",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2019-12-27 - Vulnerability reported to vendor",
+    "2020-06-15 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-20-702 ZDI-CAN-10005 McAfee VirusScan Enterprise Junction Privilege Escalation Vulnerability 2020-06-15 CVE-2020-7280 https://www.cve.org/CVERecord?id=CVE-2020-7280 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['McAfee'] ['VirusScan Enterprise'] This vulnerability allows local attackers to escalate privileges on affected installations of McAfee VirusScan Enterprise. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the processing of log files. By creating a junction, an attacker can abuse the product to overwrite the contents of a chosen file. An attacker can leverage this vulnerability to escalate privileges and execute code in the context of SYSTEM. McAfee has issued an update to correct this vulnerability. More details can be found at: https://kc.mcafee.com/corporate/index?page=content&id=SB10302 ['2019-12-27 - Vulnerability reported to vendor', '2020-06-15 - Coordinated public release of advisory'] Glenn Lloyd https://www.zerodayinitiative.com/advisories/ZDI-20-702/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-20-702/",
+  "title": "McAfee VirusScan Enterprise Junction Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of McAfee VirusScan Enterprise. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the processing of log files. By creating a junction, an attacker can abuse the product to overwrite the contents of a chosen file. An attacker can leverage this vulnerability to escalate privileges and execute code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-10005",
+  "zdi_id": "ZDI-20-702"
+}

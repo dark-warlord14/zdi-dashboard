@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-8581",
+  "advisory_date": "2018-11-21",
+  "affected_products": [
+    "Exchange"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2018-8581",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2018-8581",
+  "cvss": 8.1,
+  "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
+  "disclosure_timeline": [
+    "2018-06-29 - Vulnerability reported to vendor",
+    "2018-11-21 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-1355 ZDI-CAN-6548 Microsoft Exchange Server NTLM Reflection EWS User Impersonation Vulnerability 2018-11-21 CVE-2018-8581 https://www.cve.org/CVERecord?id=CVE-2018-8581 8.1 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N ['Microsoft'] ['Exchange'] This vulnerability allows remote attackers to impersonate arbitrary users on vulnerable installations of Microsoft Exchange Server. Authentication is required to exploit this vulnerability. The specific flaw exists within the use of NTLM authentication in Exchange Server. NTLM responses produced by the server can be reflected back to the server to authenticate arbitrary EWS requests. An attacker can leverage this vulnerability to disclose and modify the data of any user of the Exchange server. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-8581 ['2018-06-29 - Vulnerability reported to vendor', '2018-11-21 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-18-1355/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-1355/",
+  "title": "Microsoft Exchange Server NTLM Reflection EWS User Impersonation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to impersonate arbitrary users on vulnerable installations of Microsoft Exchange Server. Authentication is required to exploit this vulnerability. The specific flaw exists within the use of NTLM authentication in Exchange Server. NTLM responses produced by the server can be reflected back to the server to authenticate arbitrary EWS requests. An attacker can leverage this vulnerability to disclose and modify the data of any user of the Exchange server.",
+  "zdi_can": "ZDI-CAN-6548",
+  "zdi_id": "ZDI-18-1355"
+}

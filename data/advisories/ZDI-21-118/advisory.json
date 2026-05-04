@@ -1,0 +1,27 @@
+{
+  "additional_details": "Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/solution/000284202",
+  "advisory_date": "2021-01-29",
+  "affected_products": [
+    "Apex One"
+  ],
+  "affected_vendors": [
+    "Trend Micro"
+  ],
+  "credit": "Lynn and Jay Lo",
+  "cve": "CVE-2021-25248",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2021-25248",
+  "cvss": 2.5,
+  "cvss_vector": "AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:N",
+  "disclosure_timeline": [
+    "2020-09-23 - Vulnerability reported to vendor",
+    "2021-01-29 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-21-118 ZDI-CAN-11895 Trend Micro Apex One Out-Of-Bounds Read Information Disclosure Vulnerability 2021-01-29 CVE-2021-25248 https://www.cve.org/CVERecord?id=CVE-2021-25248 2.5 AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:N ['Trend Micro'] ['Apex One'] This vulnerability allows local attackers to disclose sensitive information on affected installations of Trend Micro Apex One. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within TmCCSF.exe. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to escalate privileges and execute code in the context of SYSTEM. Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/solution/000284202 ['2020-09-23 - Vulnerability reported to vendor', '2021-01-29 - Coordinated public release of advisory'] Lynn and Jay Lo https://www.zerodayinitiative.com/advisories/ZDI-21-118/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-21-118/",
+  "title": "Trend Micro Apex One Out-Of-Bounds Read Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to disclose sensitive information on affected installations of Trend Micro Apex One. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within TmCCSF.exe. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to escalate privileges and execute code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-11895",
+  "zdi_id": "ZDI-21-118"
+}

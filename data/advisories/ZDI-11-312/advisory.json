@@ -1,0 +1,27 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT5002",
+  "advisory_date": "2011-10-27",
+  "affected_products": [
+    "Quicktime"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2011-3221",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-3221",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2011-06-03 - Vulnerability reported to vendor",
+    "2011-10-27 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-11-312 ZDI-CAN-1220 Apple QuickTime Atom Hierarachy Argument Size Mismatch Remote Code Execution Vulnerability 2011-10-27 CVE-2011-3221 https://www.cve.org/CVERecord?id=CVE-2011-3221 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Apple'] ['Quicktime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple QuickTime Player. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within how the application parses the atom hierarchy within a QuickTime movie file. In a certain situation the application will pass execution to another function for handling the atom, however, will pass the incorrect number of arguments. Due to this, a variable will be treated as a pointer. This can lead to code execution under the context of the application. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT5002 ['2011-06-03 - Vulnerability reported to vendor', '2011-10-27 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-11-312/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-312/",
+  "title": "Apple QuickTime Atom Hierarachy Argument Size Mismatch Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple QuickTime Player. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within how the application parses the atom hierarchy within a QuickTime movie file. In a certain situation the application will pass execution to another function for handling the atom, however, will pass the incorrect number of arguments. Due to this, a variable will be treated as a pointer. This can lead to code execution under the context of the application.",
+  "zdi_can": "ZDI-CAN-1220",
+  "zdi_id": "ZDI-11-312"
+}

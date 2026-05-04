@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-34473",
+  "advisory_date": "2021-07-19",
+  "affected_products": [
+    "Exchange"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "orangetw",
+  "cve": "CVE-2021-34473",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2021-34473",
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2021-04-06 - Vulnerability reported to vendor",
+    "2021-07-19 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-21-821 ZDI-CAN-13611 (Pwn2Own) Microsoft Exchange Server Autodiscover Server Side Request Forgery Authentication Bypass Vulnerability 2021-07-19 CVE-2021-34473 https://www.cve.org/CVERecord?id=CVE-2021-34473 10.0 AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H ['Microsoft'] ['Exchange'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Microsoft Exchange Server. Authentication is not required to exploit this vulnerability. The specific flaw exists within the Autodiscover service. The issue results from the lack of proper validation of URI prior to accessing resources. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of SYSTEM. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-34473 ['2021-04-06 - Vulnerability reported to vendor', '2021-07-19 - Coordinated public release of advisory'] orangetw https://www.zerodayinitiative.com/advisories/ZDI-21-821/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-21-821/",
+  "title": "(Pwn2Own) Microsoft Exchange Server Autodiscover Server Side Request Forgery Authentication Bypass Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Microsoft Exchange Server. Authentication is not required to exploit this vulnerability. The specific flaw exists within the Autodiscover service. The issue results from the lack of proper validation of URI prior to accessing resources. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-13611",
+  "zdi_id": "ZDI-21-821"
+}

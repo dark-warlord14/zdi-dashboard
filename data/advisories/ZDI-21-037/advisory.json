@@ -1,0 +1,27 @@
+{
+  "additional_details": "https://us-cert.cisa.gov/ics/advisories/icsa-21-005-05",
+  "advisory_date": "2021-01-14",
+  "affected_products": [
+    "DOPSoft"
+  ],
+  "affected_vendors": [
+    "Delta Industrial Automation"
+  ],
+  "credit": "kimiya",
+  "cve": "CVE-2020-27275",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2020-27275",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2020-08-28 - Vulnerability reported to vendor",
+    "2021-01-14 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-21-037 ZDI-CAN-11660 Delta Industrial Automation DOPSoft XLS File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability 2021-01-14 CVE-2020-27275 https://www.cve.org/CVERecord?id=CVE-2020-27275 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Delta Industrial Automation'] ['DOPSoft'] This vulnerability allows remote atackers to execute arbitrary code on affected installations of Delta Industrial Automation DOPSoft. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of XLS files. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. https://us-cert.cisa.gov/ics/advisories/icsa-21-005-05 ['2020-08-28 - Vulnerability reported to vendor', '2021-01-14 - Coordinated public release of advisory'] kimiya https://www.zerodayinitiative.com/advisories/ZDI-21-037/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-21-037/",
+  "title": "Delta Industrial Automation DOPSoft XLS File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote atackers to execute arbitrary code on affected installations of Delta Industrial Automation DOPSoft. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of XLS files. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated buffer. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-11660",
+  "zdi_id": "ZDI-21-037"
+}

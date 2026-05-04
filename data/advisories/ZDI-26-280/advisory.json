@@ -1,0 +1,28 @@
+{
+  "additional_details": "HP has issued an update to correct this vulnerability. More details can be found at: https://support.hp.com/us-en/document/ish_14744451-14744475-16/hpsbpi04110",
+  "advisory_date": "2026-04-15",
+  "affected_products": [
+    "DeskJet 2855e"
+  ],
+  "affected_vendors": [
+    "HP"
+  ],
+  "credit": "Team Neodyme (@Neodyme)",
+  "cve": "CVE-2026-4682",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-4682",
+  "cvss": 8.8,
+  "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2025-11-06 - Vulnerability reported to vendor",
+    "2026-04-15 - Coordinated public release of advisory",
+    "2026-04-15 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-26-280 ZDI-CAN-28366 (Pwn2Own) HP DeskJet 2855e JobStatusEvent Stack-based Buffer Overflow Remote Code Execution Vulnerability 2026-04-15 CVE-2026-4682 https://www.cve.org/CVERecord?id=CVE-2026-4682 8.8 AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['HP'] ['DeskJet 2855e'] This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of HP DeskJet 2855e printers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of SOAP requests. When handling a JobStatusEvent, the process does not properly validate the length of user-supplied data prior to copying it to a buffer. An attacker can leverage this vulnerability to execute code in the context of root. HP has issued an update to correct this vulnerability. More details can be found at: https://support.hp.com/us-en/document/ish_14744451-14744475-16/hpsbpi04110 ['2025-11-06 - Vulnerability reported to vendor', '2026-04-15 - Coordinated public release of advisory', '2026-04-15 - Advisory Updated'] Team Neodyme (@Neodyme) https://www.zerodayinitiative.com/advisories/ZDI-26-280/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-280/",
+  "title": "(Pwn2Own) HP DeskJet 2855e JobStatusEvent Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+  "updated_date": "2026-04-15",
+  "vulnerability_details": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of HP DeskJet 2855e printers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of SOAP requests. When handling a JobStatusEvent, the process does not properly validate the length of user-supplied data prior to copying it to a buffer. An attacker can leverage this vulnerability to execute code in the context of root.",
+  "zdi_can": "ZDI-CAN-28366",
+  "zdi_id": "ZDI-26-280"
+}

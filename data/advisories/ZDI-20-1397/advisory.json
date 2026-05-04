@@ -1,0 +1,27 @@
+{
+  "additional_details": "Arcserve has issued an update to correct this vulnerability. More details can be found at: https://support.arcserve.com/s/article/P00002159?",
+  "advisory_date": "2020-12-04",
+  "affected_products": [
+    "D2D"
+  ],
+  "affected_vendors": [
+    "Arcserve"
+  ],
+  "credit": "rgod",
+  "cve": "CVE-2020-27858",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2020-27858",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+  "disclosure_timeline": [
+    "2020-06-05 - Vulnerability reported to vendor",
+    "2020-12-04 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-20-1397 ZDI-CAN-11103 Arcserve D2D getNews XML External Entity Processing Information Disclosure Vulnerability 2020-12-04 CVE-2020-27858 https://www.cve.org/CVERecord?id=CVE-2020-27858 7.5 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N ['Arcserve'] ['D2D'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of CA Arcserve D2D. Authentication is not required to exploit this vulnerability. The specific flaw exists within the getNews method. Due to the improper restriction of XML External Entity (XXE) references, a specially-crafted document specifying a URI causes the XML parser to access the URI and embed the contents back into the XML document for further processing. An attacker can leverage this vulnerability to disclose information in the context of SYSTEM. Arcserve has issued an update to correct this vulnerability. More details can be found at: https://support.arcserve.com/s/article/P00002159? ['2020-06-05 - Vulnerability reported to vendor', '2020-12-04 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-20-1397/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-20-1397/",
+  "title": "Arcserve D2D getNews XML External Entity Processing Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of CA Arcserve D2D. Authentication is not required to exploit this vulnerability. The specific flaw exists within the getNews method. Due to the improper restriction of XML External Entity (XXE) references, a specially-crafted document specifying a URI causes the XML parser to access the URI and embed the contents back into the XML document for further processing. An attacker can leverage this vulnerability to disclose information in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-11103",
+  "zdi_id": "ZDI-20-1397"
+}

@@ -1,0 +1,27 @@
+{
+  "additional_details": "The fix for this security vulnerability is included in the released \"iPrint Client for Windows XP/Vista/Win 7 5.56\" patch, available at http://download.novell.com/Download?buildid=JV7fd0tFHHM~ .",
+  "advisory_date": "2010-12-26",
+  "affected_products": [
+    "iPrint"
+  ],
+  "affected_vendors": [
+    "Novell"
+  ],
+  "credit": "Ivan Rodriguez Almuina",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 9.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:C",
+  "disclosure_timeline": [
+    "2010-11-29 - Vulnerability reported to vendor",
+    "2010-12-26 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-10-300 ZDI-CAN-979 Novell iPrint Client Netscape/ActiveX Plugin HTTP_CONNECTION Remote Code Execution Vulnerability 2010-12-26 9.0 AV:N/AC:L/Au:N/C:P/I:P/A:C ['Novell'] ['iPrint'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Novell iPrint Client. Authentication is not required to exploit this vulnerability. The flaw exists within the nipplib.dll component used by the the Mozilla and Internet Explorer browser plugins for iPrint client. When parsing an HTTP response the Connection response length is in sufficiently validated before being copied into a fixed-length buffer on the stack. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the browser. The fix for this security vulnerability is included in the released \"iPrint Client for Windows XP/Vista/Win 7 5.56\" patch, available at http://download.novell.com/Download?buildid=JV7fd0tFHHM~ . ['2010-11-29 - Vulnerability reported to vendor', '2010-12-26 - Coordinated public release of advisory'] Ivan Rodriguez Almuina https://www.zerodayinitiative.com/advisories/ZDI-10-300/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-300/",
+  "title": "Novell iPrint Client Netscape/ActiveX Plugin HTTP_CONNECTION Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Novell iPrint Client. Authentication is not required to exploit this vulnerability. The flaw exists within the nipplib.dll component used by the the Mozilla and Internet Explorer browser plugins for iPrint client. When parsing an HTTP response the Connection response length is in sufficiently validated before being copied into a fixed-length buffer on the stack. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the browser.",
+  "zdi_can": "ZDI-CAN-979",
+  "zdi_id": "ZDI-10-300"
+}

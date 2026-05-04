@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2019-0673",
+  "advisory_date": "2019-02-12",
+  "affected_products": [
+    "Office"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "rgod of 9sg Security Team - rgod@9sgsec.com",
+  "cve": "CVE-2019-0673",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2019-0673",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2018-10-25 - Vulnerability reported to vendor",
+    "2019-02-12 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-19-197 ZDI-CAN-7405 Microsoft Access Database Engine ACEEXCL Out-Of-Bounds Read Remote Code Execution Vulnerability 2019-02-12 CVE-2019-0673 https://www.cve.org/CVERecord?id=CVE-2019-0673 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Microsoft'] ['Office'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Access Database Engine. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists when reading and writing to XLS files. Crafted data in an XLS file can trigger a read past the end of an allocated data structure. An attacker can leverage this vulnerability to execute code in the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2019-0673 ['2018-10-25 - Vulnerability reported to vendor', '2019-02-12 - Coordinated public release of advisory'] rgod of 9sg Security Team - rgod@9sgsec.com https://www.zerodayinitiative.com/advisories/ZDI-19-197/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-19-197/",
+  "title": "Microsoft Access Database Engine ACEEXCL Out-Of-Bounds Read Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Access Database Engine. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists when reading and writing to XLS files. Crafted data in an XLS file can trigger a read past the end of an allocated data structure. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-7405",
+  "zdi_id": "ZDI-19-197"
+}

@@ -1,0 +1,28 @@
+{
+  "additional_details": "Patched with 2018 JAN SMR",
+  "advisory_date": "2018-09-21",
+  "affected_products": [
+    "Galaxy S8"
+  ],
+  "affected_vendors": [
+    "Samsung"
+  ],
+  "credit": "Acez",
+  "cve": "CVE-2018-14318",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2018-14318",
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2017-11-01 - Vulnerability reported to vendor",
+    "2018-09-21 - Coordinated public release of advisory",
+    "2018-09-25 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-1077 ZDI-CAN-5368 (Pwn2own) Samsung Galaxy S8 Shannon GPRS Stack-based Buffer Overflow Remote Code Execution Vulnerability 2018-09-21 CVE-2018-14318 https://www.cve.org/CVERecord?id=CVE-2018-14318 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Samsung'] ['Galaxy S8'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Samsung Galaxy S8. User interaction is required to exploit this vulnerability in that the target must have their cellular radios enabled. The specific flaw exists within the handling of IPCP headers. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length, stack-based buffer. An attacker can leverage this vulnerability to execute code under the context of the baseband processor. Patched with 2018 JAN SMR ['2017-11-01 - Vulnerability reported to vendor', '2018-09-21 - Coordinated public release of advisory', '2018-09-25 - Advisory Updated'] Acez https://www.zerodayinitiative.com/advisories/ZDI-18-1077/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-1077/",
+  "title": "(Pwn2own) Samsung Galaxy S8 Shannon GPRS Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+  "updated_date": "2018-09-25",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Samsung Galaxy S8. User interaction is required to exploit this vulnerability in that the target must have their cellular radios enabled. The specific flaw exists within the handling of IPCP headers. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length, stack-based buffer. An attacker can leverage this vulnerability to execute code under the context of the baseband processor.",
+  "zdi_can": "ZDI-CAN-5368",
+  "zdi_id": "ZDI-18-1077"
+}

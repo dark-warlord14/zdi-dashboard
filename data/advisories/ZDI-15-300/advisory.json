@@ -1,0 +1,27 @@
+{
+  "additional_details": "Resolved by: Samsung SyncThu 6 v1.0",
+  "advisory_date": "2015-07-13",
+  "affected_products": [
+    "SyncThru"
+  ],
+  "affected_vendors": [
+    "Samsung"
+  ],
+  "credit": "Andrea Micalizzi (rgod)",
+  "cve": "CVE-2015-5473",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-5473",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2015-05-18 - Vulnerability reported to vendor",
+    "2015-07-13 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-15-300 ZDI-CAN-2585 Samsung SyncThru DriverFileUploadServlet Directory Traversal Remote Code Execution Vulnerability 2015-07-13 CVE-2015-5473 https://www.cve.org/CVERecord?id=CVE-2015-5473 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Samsung'] ['SyncThru'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Samsung SyncThru. By default, authentication is not required to exploit this vulnerability. The specific flaw exists within the DriverFileUploadServlet servlet exposed by upload/driver. The issue lies in the failure to sanitize the path of files uploaded, allowing for certain ZIP files to be placed anywhere on the server. An attacker can leverage this vulnerability to execute arbitrary code in the context of the current user. Resolved by: Samsung SyncThu 6 v1.0 ['2015-05-18 - Vulnerability reported to vendor', '2015-07-13 - Coordinated public release of advisory'] Andrea Micalizzi (rgod) https://www.zerodayinitiative.com/advisories/ZDI-15-300/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-300/",
+  "title": "Samsung SyncThru DriverFileUploadServlet Directory Traversal Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Samsung SyncThru. By default, authentication is not required to exploit this vulnerability. The specific flaw exists within the DriverFileUploadServlet servlet exposed by upload/driver. The issue lies in the failure to sanitize the path of files uploaded, allowing for certain ZIP files to be placed anywhere on the server. An attacker can leverage this vulnerability to execute arbitrary code in the context of the current user.",
+  "zdi_can": "ZDI-CAN-2585",
+  "zdi_id": "ZDI-15-300"
+}

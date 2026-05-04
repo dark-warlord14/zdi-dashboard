@@ -1,0 +1,27 @@
+{
+  "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb16-14.html",
+  "advisory_date": "2016-05-10",
+  "affected_products": [
+    "Acrobat Reader DC"
+  ],
+  "affected_vendors": [
+    "Adobe"
+  ],
+  "credit": "kdot",
+  "cve": "CVE-2016-1074",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-1074",
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2016-02-04 - Vulnerability reported to vendor",
+    "2016-05-10 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-16-322 ZDI-CAN-3522 Adobe Reader DC U3D Parsing Out-Of-Bound Write Remote Code Execution Vulnerability 2016-05-10 CVE-2016-1074 https://www.cve.org/CVERecord?id=CVE-2016-1074 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Adobe'] ['Acrobat Reader DC'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Adobe Reader DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of PDF documents with embedded U3D files. A specially crafted PDF document can force Adobe Reader DC to write values past the end of an allocated object. An attacker can leverage this vulnerability to execute arbitrary code under the context of the current process. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb16-14.html ['2016-02-04 - Vulnerability reported to vendor', '2016-05-10 - Coordinated public release of advisory'] kdot https://www.zerodayinitiative.com/advisories/ZDI-16-322/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-322/",
+  "title": "Adobe Reader DC U3D Parsing Out-Of-Bound Write Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Adobe Reader DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of PDF documents with embedded U3D files. A specially crafted PDF document can force Adobe Reader DC to write values past the end of an allocated object. An attacker can leverage this vulnerability to execute arbitrary code under the context of the current process.",
+  "zdi_can": "ZDI-CAN-3522",
+  "zdi_id": "ZDI-16-322"
+}

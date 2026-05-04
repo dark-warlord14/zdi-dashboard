@@ -1,0 +1,28 @@
+{
+  "additional_details": "Oracle has issued an update to correct this vulnerability. More details can be found at: https://www.oracle.com/security-alerts/cpujul2025.html",
+  "advisory_date": "2025-07-15",
+  "affected_products": [
+    "VirtualBox"
+  ],
+  "affected_vendors": [
+    "Oracle"
+  ],
+  "credit": "Do Manh Dung & Nguyen Dang Nguyen of STAR Labs SG Pte. Ltd.",
+  "cve": "CVE-2025-53027",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-53027",
+  "cvss": 8.2,
+  "cvss_vector": "AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2025-06-02 - Vulnerability reported to vendor",
+    "2025-07-15 - Coordinated public release of advisory",
+    "2025-07-15 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-602 ZDI-CAN-27154 (Pwn2Own) Oracle VirtualBox OHCI USB Controller Time-Of-Check Time-Of-Use Local Privilege Escalation Vulnerability 2025-07-15 CVE-2025-53027 https://www.cve.org/CVERecord?id=CVE-2025-53027 8.2 AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H ['Oracle'] ['VirtualBox'] This vulnerability allows local attackers to escalate privileges on affected installations of Oracle VirtualBox. An attacker must first obtain the ability to execute high-privileged code on the target guest system in order to exploit this vulnerability. The specific flaw exists within the implementation of the virtual OHCI USB controller. The issue results from the lack of proper locking when performing operations on an object. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the hypervisor. Oracle has issued an update to correct this vulnerability. More details can be found at: https://www.oracle.com/security-alerts/cpujul2025.html ['2025-06-02 - Vulnerability reported to vendor', '2025-07-15 - Coordinated public release of advisory', '2025-07-15 - Advisory Updated'] Do Manh Dung & Nguyen Dang Nguyen of STAR Labs SG Pte. Ltd. https://www.zerodayinitiative.com/advisories/ZDI-25-602/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-602/",
+  "title": "(Pwn2Own) Oracle VirtualBox OHCI USB Controller Time-Of-Check Time-Of-Use Local Privilege Escalation Vulnerability",
+  "updated_date": "2025-07-15",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Oracle VirtualBox. An attacker must first obtain the ability to execute high-privileged code on the target guest system in order to exploit this vulnerability. The specific flaw exists within the implementation of the virtual OHCI USB controller. The issue results from the lack of proper locking when performing operations on an object. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the hypervisor.",
+  "zdi_can": "ZDI-CAN-27154",
+  "zdi_id": "ZDI-25-602"
+}

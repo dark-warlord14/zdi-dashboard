@@ -1,0 +1,27 @@
+{
+  "additional_details": "Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://helpcenter.trendmicro.com/en-us/article/tmka-10867",
+  "advisory_date": "2021-12-14",
+  "affected_products": [
+    "Maximum Security"
+  ],
+  "affected_vendors": [
+    "Trend Micro"
+  ],
+  "credit": "Michael DePlante (@izobashi) of Trend Micro's Zero Day Initiative",
+  "cve": "CVE-2021-44023",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2021-44023",
+  "cvss": 6.1,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:H",
+  "disclosure_timeline": [
+    "2021-07-13 - Vulnerability reported to vendor",
+    "2021-12-14 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-21-1536 ZDI-CAN-14587 Trend Micro Maximum Security Link Following Denial-of-Service Vulnerability 2021-12-14 CVE-2021-44023 https://www.cve.org/CVERecord?id=CVE-2021-44023 6.1 AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:H ['Trend Micro'] ['Maximum Security'] This vulnerability allows local attackers to create a denial-of-service condition on affected installations of Trend Micro Maximum Security. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Platinum Host Service. By creating a symbolic link, an attacker can abuse the service to overwrite a file. An attacker can leverage this vulnerability to create a denial-of-service condition on the system. Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://helpcenter.trendmicro.com/en-us/article/tmka-10867 ['2021-07-13 - Vulnerability reported to vendor', '2021-12-14 - Coordinated public release of advisory'] Michael DePlante (@izobashi) of Trend Micro's Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-21-1536/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-21-1536/",
+  "title": "Trend Micro Maximum Security Link Following Denial-of-Service Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to create a denial-of-service condition on affected installations of Trend Micro Maximum Security. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Platinum Host Service. By creating a symbolic link, an attacker can abuse the service to overwrite a file. An attacker can leverage this vulnerability to create a denial-of-service condition on the system.",
+  "zdi_can": "ZDI-CAN-14587",
+  "zdi_id": "ZDI-21-1536"
+}

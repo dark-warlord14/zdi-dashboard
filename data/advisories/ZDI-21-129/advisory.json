@@ -1,0 +1,27 @@
+{
+  "additional_details": "Siemens has issued an update to correct this vulnerability. More details can be found at: https://us-cert.cisa.gov/ics/advisories/icsa-21-033-02",
+  "advisory_date": "2021-02-04",
+  "affected_products": [
+    "Comfort Panel"
+  ],
+  "affected_vendors": [
+    "Siemens"
+  ],
+  "credit": "Ta-Lun Yen of TXOne IoT/ICS Security Research Labs (Trend Micro)",
+  "cve": "CVE-2020-15798",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2020-15798",
+  "cvss": 9.8,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2020-09-30 - Vulnerability reported to vendor",
+    "2021-02-04 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-21-129 ZDI-CAN-12046 Siemens Comfort Panel Telnet Service Missing Authentication Remote Code Execution Vulnerability 2021-02-04 CVE-2020-15798 https://www.cve.org/CVERecord?id=CVE-2020-15798 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['Siemens'] ['Comfort Panel'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Siemens Comfort Panel. Authentication is not required to exploit this vulnerability. The specific flaw exists within the telnet service, which listens on TCP port 22 by default. The issue results from the lack of authentication prior to allowing remote connections. An attacker can leverage this vulnerability to execute code in the context of SYSTEM. Siemens has issued an update to correct this vulnerability. More details can be found at: https://us-cert.cisa.gov/ics/advisories/icsa-21-033-02 ['2020-09-30 - Vulnerability reported to vendor', '2021-02-04 - Coordinated public release of advisory'] Ta-Lun Yen of TXOne IoT/ICS Security Research Labs (Trend Micro) https://www.zerodayinitiative.com/advisories/ZDI-21-129/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-21-129/",
+  "title": "Siemens Comfort Panel Telnet Service Missing Authentication Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Siemens Comfort Panel. Authentication is not required to exploit this vulnerability. The specific flaw exists within the telnet service, which listens on TCP port 22 by default. The issue results from the lack of authentication prior to allowing remote connections. An attacker can leverage this vulnerability to execute code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-12046",
+  "zdi_id": "ZDI-21-129"
+}

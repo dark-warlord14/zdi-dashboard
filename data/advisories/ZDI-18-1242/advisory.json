@@ -1,0 +1,28 @@
+{
+  "additional_details": "VMware has issued an update to correct this vulnerability. More details can be found at: https://www.vmware.com/security/advisories/VMSA-2018-0026.html",
+  "advisory_date": "2018-10-16",
+  "affected_products": [
+    "VMware Workstation"
+  ],
+  "affected_vendors": [
+    "VMware"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2018-6974",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2018-6974",
+  "cvss": 6.9,
+  "cvss_vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2018-06-12 - Vulnerability reported to vendor",
+    "2018-10-16 - Coordinated public release of advisory",
+    "2018-10-16 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-1242 ZDI-CAN-6365 VMware Workstation SVGA Heap-based Buffer Overflow Privilege Escalation Vulnerability 2018-10-16 CVE-2018-6974 https://www.cve.org/CVERecord?id=CVE-2018-6974 6.9 AV:L/AC:M/Au:N/C:C/I:C/A:C ['VMware'] ['VMware Workstation'] This vulnerability allows local attackers to execute arbitrary code on vulnerable installations of VMware Workstation. An attacker must first obtain the ability to execute low-privileged code on the guest system in order to exploit this vulnerability. The specific flaw exists within the handling of virtualized SVGA. The issue results from the lack of proper validation of user-supplied data, which can result in an overflow of a heap-based buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute code in the context of the host OS. VMware has issued an update to correct this vulnerability. More details can be found at: https://www.vmware.com/security/advisories/VMSA-2018-0026.html ['2018-06-12 - Vulnerability reported to vendor', '2018-10-16 - Coordinated public release of advisory', '2018-10-16 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-18-1242/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-1242/",
+  "title": "VMware Workstation SVGA Heap-based Buffer Overflow Privilege Escalation Vulnerability",
+  "updated_date": "2018-10-16",
+  "vulnerability_details": "This vulnerability allows local attackers to execute arbitrary code on vulnerable installations of VMware Workstation. An attacker must first obtain the ability to execute low-privileged code on the guest system in order to exploit this vulnerability. The specific flaw exists within the handling of virtualized SVGA. The issue results from the lack of proper validation of user-supplied data, which can result in an overflow of a heap-based buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute code in the context of the host OS.",
+  "zdi_can": "ZDI-CAN-6365",
+  "zdi_id": "ZDI-18-1242"
+}

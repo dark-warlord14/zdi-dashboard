@@ -1,0 +1,27 @@
+{
+  "additional_details": "Kaspersky has issued an update to correct this vulnerability. More details can be found at: http://www.kaspersky.com/technews?id=203038693",
+  "advisory_date": "2007-04-05",
+  "affected_products": [
+    "Anti-Virus"
+  ],
+  "affected_vendors": [
+    "Kaspersky"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2007-0445",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2007-0445",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2006-11-09 - Vulnerability reported to vendor",
+    "2007-04-05 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-07-013 ZDI-CAN-113 Kaspersky AntiVirus Engine ARJ Archive Parsing Heap Overflow Vulnerability 2007-04-05 CVE-2007-0445 https://www.cve.org/CVERecord?id=CVE-2007-0445 ['Kaspersky'] ['Anti-Virus'] This vulnerability allows remote attackers to execute arbitrary code on systems with affected installations of the Kaspersky Anti-Virus Engine. User interaction is not required to exploit this vulnerability. The specific flaw exists in the engine's handling of the ARJ archive format. The Kaspersky engine copies data from scanned archives into an unchecked heap-based buffer. This results in heap corruption when a malformed ARJ archive is processed by an application that utilizes the engine. This corruption can be exploited to execute arbitrary code. Kaspersky has issued an update to correct this vulnerability. More details can be found at: http://www.kaspersky.com/technews?id=203038693 ['2006-11-09 - Vulnerability reported to vendor', '2007-04-05 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-07-013/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-07-013/",
+  "title": "Kaspersky AntiVirus Engine ARJ Archive Parsing Heap Overflow Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on systems with affected installations of the Kaspersky Anti-Virus Engine. User interaction is not required to exploit this vulnerability. The specific flaw exists in the engine's handling of the ARJ archive format. The Kaspersky engine copies data from scanned archives into an unchecked heap-based buffer. This results in heap corruption when a malformed ARJ archive is processed by an application that utilizes the engine. This corruption can be exploited to execute arbitrary code.",
+  "zdi_can": "ZDI-CAN-113",
+  "zdi_id": "ZDI-07-013"
+}

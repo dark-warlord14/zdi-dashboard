@@ -1,0 +1,28 @@
+{
+  "additional_details": "EMC (Fix posted January 31, 2011): CVE-2011-0321 http://archives.neohapsis.com/archives/bugtraq/2011-01/0162.html http://archives.neohapsis.com/archives/bugtraq/2011-01/att-0162/ESA-2011-003.txt IBM issued patch May 16, 2011: CVE-2011-1210 11.10 - http://www.ibm.com/support/docview.wss?uid=swg1IC76179 11.50 - http://www.ibm.com/support/docview.wss?uid=swg1IC76177 11.70 - http://www.ibm.com/support/docview.wss?uid=swg1IC76178",
+  "advisory_date": "2011-05-16",
+  "affected_products": [
+    "Informix"
+  ],
+  "affected_vendors": [
+    "IBM",
+    "EMC"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2011-0321 , CVE-2011-1210",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-0321",
+  "cvss": 9.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:C",
+  "disclosure_timeline": [
+    "2010-11-15 - Vulnerability reported to vendor",
+    "2011-05-16 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-11-168 ZDI-CAN-808 Multiple Vendor librpc.dll Remote Information Disclosure Vulnerability 2011-05-16 CVE-2011-0321 , CVE-2011-1210 https://www.cve.org/CVERecord?id=CVE-2011-0321 9.0 AV:N/AC:L/Au:N/C:P/I:P/A:C ['IBM', 'EMC'] ['Informix'] This vulnerability allows remote attackers to register RPC services on vulnerable installations of EMC Legato Networker and IBM Informix Dynamic Server. Authentication is not required to exploit this vulnerability. The flaw exists within the librpc.dll component which listens by default on UDP port 111. When handling the pmap_set request the process verifies the source address is \"127.0.0.1\". This communication is via UDP and a valid source address is not required, a udp packet from source address \"127.0.0.1\" can be created sent to this service allowing a remote attacker to register and unregister RPC services. A remote attack can use this vulnerability to create a denial of service condition or eavesdrop on process communications. EMC (Fix posted January 31, 2011): CVE-2011-0321 http://archives.neohapsis.com/archives/bugtraq/2011-01/0162.html http://archives.neohapsis.com/archives/bugtraq/2011-01/att-0162/ESA-2011-003.txt IBM issued patch May 16, 2011: CVE-2011-1210 11.10 - http://www.ibm.com/support/docview.wss?uid=swg1IC76179 11.50 - http://www.ibm.com/support/docview.wss?uid=swg1IC76177 11.70 - http://www.ibm.com/support/docview.wss?uid=swg1IC76178 ['2010-11-15 - Vulnerability reported to vendor', '2011-05-16 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-11-168/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-168/",
+  "title": "Multiple Vendor librpc.dll Remote Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to register RPC services on vulnerable installations of EMC Legato Networker and IBM Informix Dynamic Server. Authentication is not required to exploit this vulnerability. The flaw exists within the librpc.dll component which listens by default on UDP port 111. When handling the pmap_set request the process verifies the source address is \"127.0.0.1\". This communication is via UDP and a valid source address is not required, a udp packet from source address \"127.0.0.1\" can be created sent to this service allowing a remote attacker to register and unregister RPC services. A remote attack can use this vulnerability to create a denial of service condition or eavesdrop on process communications.",
+  "zdi_can": "ZDI-CAN-808",
+  "zdi_id": "ZDI-11-168"
+}

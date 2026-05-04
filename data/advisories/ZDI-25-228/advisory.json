@@ -1,0 +1,28 @@
+{
+  "additional_details": "The vendor states this is intended behavior for better user experience. Therefore, there is no acknowledgement or patch for this.",
+  "advisory_date": "2025-04-09",
+  "affected_products": [
+    "Galaxy S24"
+  ],
+  "affected_vendors": [
+    "Samsung"
+  ],
+  "credit": "Ken Gannon of NCC Group (@yogehi)",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 5.3,
+  "cvss_vector": "AV:A/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N",
+  "disclosure_timeline": [
+    "2024-12-02 - Vulnerability reported to vendor",
+    "2025-04-09 - Coordinated public release of advisory",
+    "2025-04-09 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-228 ZDI-CAN-25649 (Pwn2Own) Samsung Galaxy S24 Quick Share Insufficient UI Warning Arbitrary File Write Vulnerability 2025-04-09 5.3 AV:A/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N ['Samsung'] ['Galaxy S24'] This vulnerability allows network-adjacent attackers to create arbitrary files on affected installations of Samsung Galaxy S24. An attacker must first obtain the ability to perform activities on the target device. The specific flaw exists within the Quick Share application. The user interface fails to warn the user of unsafe actions. An attacker can leverage this vulnerability to create files in the context of the current user. The vendor states this is intended behavior for better user experience. Therefore, there is no acknowledgement or patch for this. ['2024-12-02 - Vulnerability reported to vendor', '2025-04-09 - Coordinated public release of advisory', '2025-04-09 - Advisory Updated'] Ken Gannon of NCC Group (@yogehi) https://www.zerodayinitiative.com/advisories/ZDI-25-228/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-228/",
+  "title": "(Pwn2Own) Samsung Galaxy S24 Quick Share Insufficient UI Warning Arbitrary File Write Vulnerability",
+  "updated_date": "2025-04-09",
+  "vulnerability_details": "This vulnerability allows network-adjacent attackers to create arbitrary files on affected installations of Samsung Galaxy S24. An attacker must first obtain the ability to perform activities on the target device. The specific flaw exists within the Quick Share application. The user interface fails to warn the user of unsafe actions. An attacker can leverage this vulnerability to create files in the context of the current user.",
+  "zdi_can": "ZDI-CAN-25649",
+  "zdi_id": "ZDI-25-228"
+}

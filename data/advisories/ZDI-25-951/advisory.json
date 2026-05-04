@@ -1,0 +1,28 @@
+{
+  "additional_details": "Allegra has issued an update to correct this vulnerability. More details can be found at: https://alltena.com/en/resources/release-notes/release-notes-for-release-8-1-6",
+  "advisory_date": "2025-10-08",
+  "affected_products": [
+    "Allegra"
+  ],
+  "affected_vendors": [
+    "Allegra"
+  ],
+  "credit": "Swagat",
+  "cve": "CVE-2025-11466",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-11466",
+  "cvss": 4.9,
+  "cvss_vector": "AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N",
+  "disclosure_timeline": [
+    "2025-07-08 - Vulnerability reported to vendor",
+    "2025-10-08 - Coordinated public release of advisory",
+    "2025-10-08 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-951 ZDI-CAN-27136 Allegra DatabaseBackupBL Directory Traversal Information Disclosure Vulnerability 2025-10-08 CVE-2025-11466 https://www.cve.org/CVERecord?id=CVE-2025-11466 4.9 AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N ['Allegra'] ['Allegra'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Allegra. Authentication is required to exploit this vulnerability. The specific flaw exists within the DatabaseBackupBL class. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to disclose information in the context of the service account. Allegra has issued an update to correct this vulnerability. More details can be found at: https://alltena.com/en/resources/release-notes/release-notes-for-release-8-1-6 ['2025-07-08 - Vulnerability reported to vendor', '2025-10-08 - Coordinated public release of advisory', '2025-10-08 - Advisory Updated'] Swagat https://www.zerodayinitiative.com/advisories/ZDI-25-951/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-951/",
+  "title": "Allegra DatabaseBackupBL Directory Traversal Information Disclosure Vulnerability",
+  "updated_date": "2025-10-08",
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Allegra. Authentication is required to exploit this vulnerability. The specific flaw exists within the DatabaseBackupBL class. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to disclose information in the context of the service account.",
+  "zdi_can": "ZDI-CAN-27136",
+  "zdi_id": "ZDI-25-951"
+}

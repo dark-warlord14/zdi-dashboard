@@ -1,0 +1,26 @@
+# ZDI-16-326: Adobe Acrobat Pro DC app.removeToolButton Information Disclosure Vulnerability
+
+## Metadata
+
+- **ZDI ID:** ZDI-16-326
+- **ZDI-CAN:** ZDI-CAN-3569
+- **Date:** 2016-05-10
+- **CVE:** CVE-2016-1079
+- **CVSS:** 4.3
+- **CVSS Vector:** AV:N/AC:M/Au:N/C:P/I:N/A:N
+- **Affected Vendors:** Adobe
+- **Affected Products:** Acrobat Pro DC
+- **Credit:** AbdulAziz Hariri - HPE Zero Day Initiative
+- **Source:** https://www.zerodayinitiative.com/advisories/ZDI-16-326/
+## Vulnerability Details
+
+This vulnerability allows an attacker to leak sensitive information on vulnerable installations of Adobe Acrobat Pro DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the app.removeToolButton method. By calling app.removeToolButton multiple times, it is possible to force Acrobat Pro DC to leak heap addresses. An attacker can use this information in conjunction with other vulnerabilities to execute code in the context of the process.
+
+## Additional Details
+
+Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb16-14.html
+
+## Disclosure Timeline
+
+- 2016-02-09 - Vulnerability reported to vendor
+- 2016-05-10 - Coordinated public release of advisory

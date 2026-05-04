@@ -1,0 +1,28 @@
+{
+  "additional_details": "ABB has issued an update to correct this vulnerability. More details can be found at: https://library.e.abb.com/public/7a88a74b12bb492ea138b1f2365d00f6/ABBVU-PGGA-33888_ABB_SoftwareVulnerabilityHandlingAdvisory_Rev_A.pdf?x-sign=MJfu9cHtRUUubpLAYzyWFTmW5W+mg3kZ/nm7F/Jw5HlFTQf4eNyfLAgE8HozRJEC",
+  "advisory_date": "2018-02-06",
+  "affected_products": [
+    "MicroSCADA"
+  ],
+  "affected_vendors": [
+    "ABB"
+  ],
+  "credit": "Fritz Sands - Trend Micro Zero Day Initiative",
+  "cve": "CVE-2018-1168",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2018-1168",
+  "cvss": 6.0,
+  "cvss_vector": "AV:L/AC:H/Au:S/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2017-08-18 - Vulnerability reported to vendor",
+    "2018-02-06 - Coordinated public release of advisory",
+    "2018-02-07 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-141 ZDI-CAN-5097 ABB MicroSCADA Improper Access Control Privilege Escalation Vulnerability 2018-02-06 CVE-2018-1168 https://www.cve.org/CVERecord?id=CVE-2018-1168 6.0 AV:L/AC:H/Au:S/C:C/I:C/A:C ['ABB'] ['MicroSCADA'] This vulnerability allows local attackers to escalate privileges on vulnerable installations of ABB MicroSCADA. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the configuration of the access controls for the installed product files. The installation procedure leaves critical files open to manipulation by any authenticated user. An attacker can leverage this vulnerability to escalate privileges to SYSTEM. ABB has issued an update to correct this vulnerability. More details can be found at: https://library.e.abb.com/public/7a88a74b12bb492ea138b1f2365d00f6/ABBVU-PGGA-33888_ABB_SoftwareVulnerabilityHandlingAdvisory_Rev_A.pdf?x-sign=MJfu9cHtRUUubpLAYzyWFTmW5W+mg3kZ/nm7F/Jw5HlFTQf4eNyfLAgE8HozRJEC ['2017-08-18 - Vulnerability reported to vendor', '2018-02-06 - Coordinated public release of advisory', '2018-02-07 - Advisory Updated'] Fritz Sands - Trend Micro Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-18-141/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-141/",
+  "title": "ABB MicroSCADA Improper Access Control Privilege Escalation Vulnerability",
+  "updated_date": "2018-02-07",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on vulnerable installations of ABB MicroSCADA. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the configuration of the access controls for the installed product files. The installation procedure leaves critical files open to manipulation by any authenticated user. An attacker can leverage this vulnerability to escalate privileges to SYSTEM.",
+  "zdi_can": "ZDI-CAN-5097",
+  "zdi_id": "ZDI-18-141"
+}

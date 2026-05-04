@@ -1,0 +1,27 @@
+{
+  "additional_details": "Trihedral Engineering Ltd has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-16-159-01",
+  "advisory_date": "2016-07-01",
+  "affected_products": [
+    "VTScada"
+  ],
+  "affected_vendors": [
+    "Trihedral Engineering Ltd"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2016-4532",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-4532",
+  "cvss": 5.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+  "disclosure_timeline": [
+    "2016-02-18 - Vulnerability reported to vendor",
+    "2016-07-01 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-16-403 ZDI-CAN-3513 Trihedral VTScada Directory Traversal Information Disclosure Vulnerability 2016-07-01 CVE-2016-4532 https://www.cve.org/CVERecord?id=CVE-2016-4532 5.0 AV:N/AC:L/Au:N/C:P/I:N/A:N ['Trihedral Engineering Ltd'] ['VTScada'] This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Trihedral VTScada. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of Wireless Application Protocol requests. The issue lies in the failure to properly restrict the path from which images are retrieved. An attacker can leverage this vulnerability to disclose the contents of arbitrary files under the context of the user running the service. Trihedral Engineering Ltd has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-16-159-01 ['2016-02-18 - Vulnerability reported to vendor', '2016-07-01 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-16-403/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-403/",
+  "title": "Trihedral VTScada Directory Traversal Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Trihedral VTScada. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of Wireless Application Protocol requests. The issue lies in the failure to properly restrict the path from which images are retrieved. An attacker can leverage this vulnerability to disclose the contents of arbitrary files under the context of the user running the service.",
+  "zdi_can": "ZDI-CAN-3513",
+  "zdi_id": "ZDI-16-403"
+}

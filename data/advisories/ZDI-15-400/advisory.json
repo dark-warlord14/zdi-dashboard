@@ -1,0 +1,27 @@
+{
+  "additional_details": "Hewlett-Packard has issued an update to correct this vulnerability. More details can be found at: https://h20564.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c04771027",
+  "advisory_date": "2015-08-24",
+  "affected_products": [
+    "KeyView IDOL"
+  ],
+  "affected_vendors": [
+    "Hewlett-Packard"
+  ],
+  "credit": "ASD - Vulnerability Research",
+  "cve": "CVE-2015-5421",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-5421",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2015-05-19 - Vulnerability reported to vendor",
+    "2015-08-24 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-15-400 ZDI-CAN-2881 Hewlett-Packard KeyView IDOL Lotus Parsing Remote Code Execution Vulnerability 2015-08-24 CVE-2015-5421 https://www.cve.org/CVERecord?id=CVE-2015-5421 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Hewlett-Packard'] ['KeyView IDOL'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Hewlett-Packard KeyView IDOL. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The flaw exists within the handling of Lotus wk1 files. It is possible to trigger a buffer overflow when handling malformed data within a Lotus wk1 file. A remote attacker could exploit this vulnerability to execute arbitrary code under the context of the process. Hewlett-Packard has issued an update to correct this vulnerability. More details can be found at: https://h20564.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c04771027 ['2015-05-19 - Vulnerability reported to vendor', '2015-08-24 - Coordinated public release of advisory'] ASD - Vulnerability Research https://www.zerodayinitiative.com/advisories/ZDI-15-400/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-400/",
+  "title": "Hewlett-Packard KeyView IDOL Lotus Parsing Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Hewlett-Packard KeyView IDOL. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The flaw exists within the handling of Lotus wk1 files. It is possible to trigger a buffer overflow when handling malformed data within a Lotus wk1 file. A remote attacker could exploit this vulnerability to execute arbitrary code under the context of the process.",
+  "zdi_can": "ZDI-CAN-2881",
+  "zdi_id": "ZDI-15-400"
+}

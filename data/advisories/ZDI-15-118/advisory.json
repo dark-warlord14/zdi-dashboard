@@ -1,0 +1,27 @@
+{
+  "additional_details": "IBM has issued an update to correct this vulnerability. More details can be found at: http://www-01.ibm.com/support/docview.wss?uid=swg21699645",
+  "advisory_date": "2015-04-08",
+  "affected_products": [
+    "Tivoli Storage Manager FastBack"
+  ],
+  "affected_vendors": [
+    "IBM"
+  ],
+  "credit": "Brian Gorenc - HP Zero Day Initiative",
+  "cve": "CVE-2015-0119",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-0119",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2015-01-08 - Vulnerability reported to vendor",
+    "2015-04-08 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-15-118 ZDI-CAN-2667 IBM Tivoli Storage Manager FastBack Mount CMountDismount::GetVaultDump Remote Code Execution Vulnerability 2015-04-08 CVE-2015-0119 https://www.cve.org/CVERecord?id=CVE-2015-0119 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['IBM'] ['Tivoli Storage Manager FastBack'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of IBM Tivoli Storage Manager FastBack. Authentication is not required to exploit this vulnerability. The specific flaw exists within FastBackServer.exe which listens by default on TCP port 30051. When handling opcode 0x09 packets, the process blindly copies user supplied data into a stack-based buffer within CMountDismount::GetVaultDump. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the SYSTEM user. IBM has issued an update to correct this vulnerability. More details can be found at: http://www-01.ibm.com/support/docview.wss?uid=swg21699645 ['2015-01-08 - Vulnerability reported to vendor', '2015-04-08 - Coordinated public release of advisory'] Brian Gorenc - HP Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-15-118/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-118/",
+  "title": "IBM Tivoli Storage Manager FastBack Mount CMountDismount::GetVaultDump Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of IBM Tivoli Storage Manager FastBack. Authentication is not required to exploit this vulnerability. The specific flaw exists within FastBackServer.exe which listens by default on TCP port 30051. When handling opcode 0x09 packets, the process blindly copies user supplied data into a stack-based buffer within CMountDismount::GetVaultDump. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the SYSTEM user.",
+  "zdi_can": "ZDI-CAN-2667",
+  "zdi_id": "ZDI-15-118"
+}

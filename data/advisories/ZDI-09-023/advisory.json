@@ -1,0 +1,27 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT3549",
+  "advisory_date": "2009-05-13",
+  "affected_products": [
+    "OS X"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "Charlie Miller, Independent Security Evaluators",
+  "cve": "CVE-2009-0154",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2009-0154",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2009-03-19 - Vulnerability reported to vendor",
+    "2009-05-13 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-09-023 ZDI-CAN-462 Apple OS X ATSServer Compact Font Format Parsing Memory Corruption Vulnerability 2009-05-13 CVE-2009-0154 https://www.cve.org/CVERecord?id=CVE-2009-0154 ['Apple'] ['OS X'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple OS X. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw appears to exist in the ATSServer font server upon parsing of malicious Compact Font Format files. A boundary condition exists in the parsing of internal dictionaries that can lead to a memory corruption allowing the execution of arbitrary code. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT3549 ['2009-03-19 - Vulnerability reported to vendor', '2009-05-13 - Coordinated public release of advisory'] Charlie Miller, Independent Security Evaluators https://www.zerodayinitiative.com/advisories/ZDI-09-023/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-09-023/",
+  "title": "Apple OS X ATSServer Compact Font Format Parsing Memory Corruption Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple OS X. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw appears to exist in the ATSServer font server upon parsing of malicious Compact Font Format files. A boundary condition exists in the parsing of internal dictionaries that can lead to a memory corruption allowing the execution of arbitrary code.",
+  "zdi_can": "ZDI-CAN-462",
+  "zdi_id": "ZDI-09-023"
+}

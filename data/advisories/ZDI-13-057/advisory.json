@@ -1,0 +1,27 @@
+{
+  "additional_details": "Hewlett-Packard has issued an update to correct this vulnerability. More details can be found at: https://h20566.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c03689276",
+  "advisory_date": "2013-04-09",
+  "affected_products": [
+    "Intelligent Management Center"
+  ],
+  "affected_vendors": [
+    "Hewlett-Packard"
+  ],
+  "credit": "Andrea Micalizzi aka rgod",
+  "cve": "CVE-2012-5208",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2012-5208",
+  "cvss": 8.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:P/A:N",
+  "disclosure_timeline": [
+    "2012-11-19 - Vulnerability reported to vendor",
+    "2013-04-09 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-13-057 ZDI-CAN-1615 Hewlett-Packard Intelligent Management Center DownloadServlet Information Disclosure Vulnerability 2013-04-09 CVE-2012-5208 https://www.cve.org/CVERecord?id=CVE-2012-5208 8.5 AV:N/AC:L/Au:N/C:C/I:P/A:N ['Hewlett-Packard'] ['Intelligent Management Center'] This vulnerability allows remote attackers to obtain sensitive information on vulnerable installations of Hewlett-Packard Intelligent Management Center. Authentication is not required to exploit this vulnerability. The specific flaw exists within the DownloadServlet. This servlet contains a directory traversal vulnerability that allows any file readable by SYSTEM to be disclosed. By abusing this behavior an attacker can disclose administrative credentials and possibly leverage this situation to achieve remote code execution. Hewlett-Packard has issued an update to correct this vulnerability. More details can be found at: https://h20566.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c03689276 ['2012-11-19 - Vulnerability reported to vendor', '2013-04-09 - Coordinated public release of advisory'] Andrea Micalizzi aka rgod https://www.zerodayinitiative.com/advisories/ZDI-13-057/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-13-057/",
+  "title": "Hewlett-Packard Intelligent Management Center DownloadServlet Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to obtain sensitive information on vulnerable installations of Hewlett-Packard Intelligent Management Center. Authentication is not required to exploit this vulnerability. The specific flaw exists within the DownloadServlet. This servlet contains a directory traversal vulnerability that allows any file readable by SYSTEM to be disclosed. By abusing this behavior an attacker can disclose administrative credentials and possibly leverage this situation to achieve remote code execution.",
+  "zdi_can": "ZDI-CAN-1615",
+  "zdi_id": "ZDI-13-057"
+}

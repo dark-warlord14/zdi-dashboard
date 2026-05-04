@@ -1,0 +1,27 @@
+{
+  "additional_details": "Mozilla Firefox has issued an update to correct this vulnerability. More details can be found at: http://www.mozilla.org/security/announce/2010/mfsa2010-17.html",
+  "advisory_date": "2010-04-02",
+  "affected_products": [
+    "3.5.x"
+  ],
+  "affected_vendors": [
+    "Mozilla Firefox"
+  ],
+  "credit": "regenrecht",
+  "cve": "CVE-2010-0175",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2010-0175",
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2010-01-15 - Vulnerability reported to vendor",
+    "2010-04-02 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-10-050 ZDI-CAN-669 Mozilla Firefox nsTreeSelection EventListener Remote Code Execution Vulnerability 2010-04-02 CVE-2010-0175 https://www.cve.org/CVERecord?id=CVE-2010-0175 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Mozilla Firefox'] ['3.5.x'] This vulnerability allows remote attackers to execute arbitrary code on software utilizing a vulnerable version of Mozilla's Firefox. User interaction is required in that the victim must visit a malicious website or be coerced into opening a malicious document. The specific flaw exists within how the application handles particular events for an nsTreeSelection element. Upon execution of a \"select\" event the application will access an element without checking to see if it's been previously freed or not. Successful exploitation can lead to code execution under the context of the application. Mozilla Firefox has issued an update to correct this vulnerability. More details can be found at: http://www.mozilla.org/security/announce/2010/mfsa2010-17.html ['2010-01-15 - Vulnerability reported to vendor', '2010-04-02 - Coordinated public release of advisory'] regenrecht https://www.zerodayinitiative.com/advisories/ZDI-10-050/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-050/",
+  "title": "Mozilla Firefox nsTreeSelection EventListener Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on software utilizing a vulnerable version of Mozilla's Firefox. User interaction is required in that the victim must visit a malicious website or be coerced into opening a malicious document. The specific flaw exists within how the application handles particular events for an nsTreeSelection element. Upon execution of a \"select\" event the application will access an element without checking to see if it's been previously freed or not. Successful exploitation can lead to code execution under the context of the application.",
+  "zdi_can": "ZDI-CAN-669",
+  "zdi_id": "ZDI-10-050"
+}

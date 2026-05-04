@@ -1,0 +1,28 @@
+{
+  "additional_details": "Fixed in American Standard: V1.39.51 and European Standard: V1.56.51",
+  "advisory_date": "2025-06-11",
+  "affected_products": [
+    "Autel MaxiCharger AC Wallbox Commercial"
+  ],
+  "affected_vendors": [
+    "Autel"
+  ],
+  "credit": "Sina Kheirkhah (@SinSinology) of Summoning Team (@SummoningTeam)",
+  "cve": "CVE-2025-5823",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-5823",
+  "cvss": 4.9,
+  "cvss_vector": "AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N",
+  "disclosure_timeline": [
+    "2025-03-18 - Vulnerability reported to vendor",
+    "2025-06-11 - Coordinated public release of advisory",
+    "2025-06-11 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-341 ZDI-CAN-26351 (Pwn2Own) Autel MaxiCharger AC Wallbox Commercial Serial Number Exposed Dangerous Method Information Disclosure Vulnerability 2025-06-11 CVE-2025-5823 https://www.cve.org/CVERecord?id=CVE-2025-5823 4.9 AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N ['Autel'] ['Autel MaxiCharger AC Wallbox Commercial'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Autel MaxiCharger AC Wallbox Commercial EV chargers. Authentication is required to exploit this vulnerability. The specific flaw exists within the implementation of the Autel Technician API. The issue results from an exposed dangerous method. An attacker can leverage this vulnerability to disclose credentials, leading to further compromise. Fixed in American Standard: V1.39.51 and European Standard: V1.56.51 ['2025-03-18 - Vulnerability reported to vendor', '2025-06-11 - Coordinated public release of advisory', '2025-06-11 - Advisory Updated'] Sina Kheirkhah (@SinSinology) of Summoning Team (@SummoningTeam) https://www.zerodayinitiative.com/advisories/ZDI-25-341/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-341/",
+  "title": "(Pwn2Own) Autel MaxiCharger AC Wallbox Commercial Serial Number Exposed Dangerous Method Information Disclosure Vulnerability",
+  "updated_date": "2025-06-11",
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Autel MaxiCharger AC Wallbox Commercial EV chargers. Authentication is required to exploit this vulnerability. The specific flaw exists within the implementation of the Autel Technician API. The issue results from an exposed dangerous method. An attacker can leverage this vulnerability to disclose credentials, leading to further compromise.",
+  "zdi_can": "ZDI-CAN-26351",
+  "zdi_id": "ZDI-25-341"
+}

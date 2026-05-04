@@ -1,0 +1,27 @@
+{
+  "additional_details": "WebKit.Org has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT1222",
+  "advisory_date": "2012-12-21",
+  "affected_products": [
+    "WebKit"
+  ],
+  "affected_vendors": [
+    "WebKit.Org"
+  ],
+  "credit": "pa_kt / twitter.com/pa_kt",
+  "cve": "CVE-2011-3071",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-3071",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2012-03-14 - Vulnerability reported to vendor",
+    "2012-12-21 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-12-191 ZDI-CAN-1528 Webkit HTMLMedia Element beforeLoad Remote Code Execution Vulnerability 2012-12-21 CVE-2011-3071 https://www.cve.org/CVERecord?id=CVE-2011-3071 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['WebKit.Org'] ['WebKit'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple Safari Webkit. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the library's implementation of a HTMLMedia element. After a source element is created, an attacker can catch the beforeLoad event before the element is used, and delete the element. The pointer to the source element will then be referenced causing a use-after-free condition, which can lead to code execution under the context of the application. WebKit.Org has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT1222 ['2012-03-14 - Vulnerability reported to vendor', '2012-12-21 - Coordinated public release of advisory'] pa_kt / twitter.com/pa_kt https://www.zerodayinitiative.com/advisories/ZDI-12-191/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-12-191/",
+  "title": "Webkit HTMLMedia Element beforeLoad Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple Safari Webkit. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the library's implementation of a HTMLMedia element. After a source element is created, an attacker can catch the beforeLoad event before the element is used, and delete the element. The pointer to the source element will then be referenced causing a use-after-free condition, which can lead to code execution under the context of the application.",
+  "zdi_can": "ZDI-CAN-1528",
+  "zdi_id": "ZDI-12-191"
+}

@@ -1,0 +1,27 @@
+{
+  "additional_details": "Novell has issued an update to correct this vulnerability. More details can be found at: https://www.novell.com/support/kb/doc.php?id=7022443",
+  "advisory_date": "2018-01-19",
+  "affected_products": [
+    "NetIQ Access Manager"
+  ],
+  "affected_vendors": [
+    "Novell"
+  ],
+  "credit": "rgod and kimiya",
+  "cve": "CVE-2017-14803",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-14803",
+  "cvss": 5.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+  "disclosure_timeline": [
+    "2017-08-21 - Vulnerability reported to vendor",
+    "2018-01-19 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-131 ZDI-CAN-5087 Novell NetIQ Access Manager OspUIBasicSSODownload Servlet fileInfo1 Directory Traversal Information Disclosure Vulnerability 2018-01-19 CVE-2017-14803 https://www.cve.org/CVERecord?id=CVE-2017-14803 5.0 AV:N/AC:L/Au:N/C:P/I:N/A:N ['Novell'] ['NetIQ Access Manager'] This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Novell NetIQ Access Manager. Authentication is not required to exploit this vulnerability. The specific flaw exists within the downloadBasicSSOServlet servlet. When parsing the fileInfo1 parameter, the process does not properly validate a user-supplied path prior to using it in file operations. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process. Novell has issued an update to correct this vulnerability. More details can be found at: https://www.novell.com/support/kb/doc.php?id=7022443 ['2017-08-21 - Vulnerability reported to vendor', '2018-01-19 - Coordinated public release of advisory'] rgod and kimiya https://www.zerodayinitiative.com/advisories/ZDI-18-131/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-131/",
+  "title": "Novell NetIQ Access Manager OspUIBasicSSODownload Servlet fileInfo1 Directory Traversal Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Novell NetIQ Access Manager. Authentication is not required to exploit this vulnerability. The specific flaw exists within the downloadBasicSSOServlet servlet. When parsing the fileInfo1 parameter, the process does not properly validate a user-supplied path prior to using it in file operations. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-5087",
+  "zdi_id": "ZDI-18-131"
+}

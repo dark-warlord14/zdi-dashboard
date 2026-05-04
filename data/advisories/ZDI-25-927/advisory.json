@@ -1,0 +1,28 @@
+{
+  "additional_details": "Delta Electronics has issued an update to correct this vulnerability. More details can be found at: https://www.cisa.gov/news-events/ics-advisories/icsa-25-259-07",
+  "advisory_date": "2025-10-01",
+  "affected_products": [
+    "DIALink"
+  ],
+  "affected_vendors": [
+    "Delta Electronics"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2025-58320",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-58320",
+  "cvss": 7.3,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+  "disclosure_timeline": [
+    "2025-05-22 - Vulnerability reported to vendor",
+    "2025-10-01 - Coordinated public release of advisory",
+    "2025-10-01 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-927 ZDI-CAN-26843 Delta Electronics DIALink Directory Traversal Authentication Bypass Vulnerability 2025-10-01 CVE-2025-58320 https://www.cve.org/CVERecord?id=CVE-2025-58320 7.3 AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L ['Delta Electronics'] ['DIALink'] This vulnerability allows remote attackers to overwrite configuration files on affected installations of Delta Electronics DIALink. Authentication is not required to exploit this vulnerability. The specific flaw exists within the web service, which listens on TCP port 7631 by default. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to bypass authentication on the system. Delta Electronics has issued an update to correct this vulnerability. More details can be found at: https://www.cisa.gov/news-events/ics-advisories/icsa-25-259-07 ['2025-05-22 - Vulnerability reported to vendor', '2025-10-01 - Coordinated public release of advisory', '2025-10-01 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-25-927/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-927/",
+  "title": "Delta Electronics DIALink Directory Traversal Authentication Bypass Vulnerability",
+  "updated_date": "2025-10-01",
+  "vulnerability_details": "This vulnerability allows remote attackers to overwrite configuration files on affected installations of Delta Electronics DIALink. Authentication is not required to exploit this vulnerability. The specific flaw exists within the web service, which listens on TCP port 7631 by default. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to bypass authentication on the system.",
+  "zdi_can": "ZDI-CAN-26843",
+  "zdi_id": "ZDI-25-927"
+}

@@ -1,0 +1,28 @@
+{
+  "additional_details": "Fixed in Webex T33.4.0",
+  "advisory_date": "2019-02-11",
+  "affected_products": [
+    "WebEx"
+  ],
+  "affected_vendors": [
+    "Cisco"
+  ],
+  "credit": "b0nd @garage4hackers",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 4.3,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N",
+  "disclosure_timeline": [
+    "2018-07-18 - Vulnerability reported to vendor",
+    "2019-02-11 - Coordinated public release of advisory",
+    "2019-03-27 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-19-177 ZDI-CAN-6496 Cisco WebEx Recorder and Player asplayback Out-Of-Bounds Read Information Disclosure Vulnerability 2019-02-11 4.3 AV:N/AC:M/Au:N/C:P/I:N/A:N ['Cisco'] ['WebEx'] This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of WebEx Recorder and Player. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the processing of WRF files. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this vulnerability to disclose sensitive information in the context of the current process. Fixed in Webex T33.4.0 ['2018-07-18 - Vulnerability reported to vendor', '2019-02-11 - Coordinated public release of advisory', '2019-03-27 - Advisory Updated'] b0nd @garage4hackers https://www.zerodayinitiative.com/advisories/ZDI-19-177/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-19-177/",
+  "title": "Cisco WebEx Recorder and Player asplayback Out-Of-Bounds Read Information Disclosure Vulnerability",
+  "updated_date": "2019-03-27",
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of WebEx Recorder and Player. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the processing of WRF files. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this vulnerability to disclose sensitive information in the context of the current process.",
+  "zdi_can": "ZDI-CAN-6496",
+  "zdi_id": "ZDI-19-177"
+}

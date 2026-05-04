@@ -1,0 +1,28 @@
+{
+  "additional_details": "Ubiquiti Networks has issued an update to correct this vulnerability. More details can be found at: https://community.ui.com/releases/Security-Advisory-Bulletin-058-058/6922ff20-8cd7-4724-8d8c-676458a2d0f9",
+  "advisory_date": "2026-02-25",
+  "affected_products": [
+    "AI Pro"
+  ],
+  "affected_vendors": [
+    "Ubiquiti Networks"
+  ],
+  "credit": "David BERARD from @Synacktiv",
+  "cve": "CVE-2026-21633",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-21633",
+  "cvss": 5.4,
+  "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+  "disclosure_timeline": [
+    "2025-11-26 - Vulnerability reported to vendor",
+    "2026-02-25 - Coordinated public release of advisory",
+    "2026-02-25 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-26-126 ZDI-CAN-28274 (Pwn2Own) Ubiquiti Networks AI Pro Discovery Protocol Missing Encryption Protocol Downgrade Vulnerability 2026-02-25 CVE-2026-21633 https://www.cve.org/CVERecord?id=CVE-2026-21633 5.4 AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N ['Ubiquiti Networks'] ['AI Pro'] This vulnerability allows network-adjacent attackers to downgrade the communication protocol on affected installations of Ubiquiti Networks AI Pro. Authentication is not required to exploit this vulnerability. The specific flaw exists within the discovery protocol. The issue results from the lack of encryption in the communications channel. An attacker can leverage this vulnerability to downgrade the communication protocol used by the system. Ubiquiti Networks has issued an update to correct this vulnerability. More details can be found at: https://community.ui.com/releases/Security-Advisory-Bulletin-058-058/6922ff20-8cd7-4724-8d8c-676458a2d0f9 ['2025-11-26 - Vulnerability reported to vendor', '2026-02-25 - Coordinated public release of advisory', '2026-02-25 - Advisory Updated'] David BERARD from @Synacktiv https://www.zerodayinitiative.com/advisories/ZDI-26-126/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-126/",
+  "title": "(Pwn2Own) Ubiquiti Networks AI Pro Discovery Protocol Missing Encryption Protocol Downgrade Vulnerability",
+  "updated_date": "2026-02-25",
+  "vulnerability_details": "This vulnerability allows network-adjacent attackers to downgrade the communication protocol on affected installations of Ubiquiti Networks AI Pro. Authentication is not required to exploit this vulnerability. The specific flaw exists within the discovery protocol. The issue results from the lack of encryption in the communications channel. An attacker can leverage this vulnerability to downgrade the communication protocol used by the system.",
+  "zdi_can": "ZDI-CAN-28274",
+  "zdi_id": "ZDI-26-126"
+}

@@ -1,0 +1,28 @@
+{
+  "additional_details": "Synology has issued an update to correct this vulnerability. More details can be found at: https://www.synology.com/en-global/security/advisory/Synology_SA_22_23",
+  "advisory_date": "2023-05-17",
+  "affected_products": [
+    "DiskStation Manager"
+  ],
+  "affected_vendors": [
+    "Synology"
+  ],
+  "credit": "Claroty Research - Vera Mens, Noam Moshe, Uri Katz, Sharon Brizinov",
+  "cve": "CVE-2022-45188",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-45188",
+  "cvss": 8.8,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2023-01-20 - Vulnerability reported to vendor",
+    "2023-05-17 - Coordinated public release of advisory",
+    "2023-07-27 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-658 ZDI-CAN-19609 (Pwn2Own) Synology DiskStation Manager api.php Authentication Bypass Vulnerability 2023-05-17 CVE-2022-45188 https://www.cve.org/CVERecord?id=CVE-2022-45188 8.8 AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Synology'] ['DiskStation Manager'] This vulnerability allows remote attackers to bypass authentication on affected installations of Synology DiskStation Manager. Authentication is not required to exploit this vulnerability. The specific flaw exists within the api.php endpoint. The issue results from the lack of authentication prior to allowing access to functionality. An attacker can leverage this vulnerability to bypass authentication on the system. Synology has issued an update to correct this vulnerability. More details can be found at: https://www.synology.com/en-global/security/advisory/Synology_SA_22_23 ['2023-01-20 - Vulnerability reported to vendor', '2023-05-17 - Coordinated public release of advisory', '2023-07-27 - Advisory Updated'] Claroty Research - Vera Mens, Noam Moshe, Uri Katz, Sharon Brizinov https://www.zerodayinitiative.com/advisories/ZDI-23-658/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-658/",
+  "title": "(Pwn2Own) Synology DiskStation Manager api.php Authentication Bypass Vulnerability",
+  "updated_date": "2023-07-27",
+  "vulnerability_details": "This vulnerability allows remote attackers to bypass authentication on affected installations of Synology DiskStation Manager. Authentication is not required to exploit this vulnerability. The specific flaw exists within the api.php endpoint. The issue results from the lack of authentication prior to allowing access to functionality. An attacker can leverage this vulnerability to bypass authentication on the system.",
+  "zdi_can": "ZDI-CAN-19609",
+  "zdi_id": "ZDI-23-658"
+}

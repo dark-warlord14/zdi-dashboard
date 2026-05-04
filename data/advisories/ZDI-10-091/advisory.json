@@ -1,0 +1,27 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT4196",
+  "advisory_date": "2010-06-08",
+  "affected_products": [
+    "WebKit"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "Ralf Philipp Weinmann Vincenzo Iozzo",
+  "cve": "CVE-2010-1119",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2010-1119",
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2010-03-26 - Vulnerability reported to vendor",
+    "2010-06-08 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-10-091 ZDI-CAN-762 Apple Webkit Attribute Child Removal Remote Code Execution Vulnerability 2010-06-08 CVE-2010-1119 https://www.cve.org/CVERecord?id=CVE-2010-1119 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Apple'] ['WebKit'] This vulnerability allows remote attackers to execute remote code on vulnerable installations of Apple Webkit. User interaction is required in that a target must be coerced into visiting a malicious page. The specific flaw exists within Webkit's process for destructing attribute objects via the removeChild method. If an attribute's child object is accessed after the attribute was removed from the document, an invalid pointer is referenced. This can be exploited by an attacker to execute remote code under the context of the user running the browser. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT4196 ['2010-03-26 - Vulnerability reported to vendor', '2010-06-08 - Coordinated public release of advisory'] Ralf Philipp Weinmann Vincenzo Iozzo https://www.zerodayinitiative.com/advisories/ZDI-10-091/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-091/",
+  "title": "Apple Webkit Attribute Child Removal Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute remote code on vulnerable installations of Apple Webkit. User interaction is required in that a target must be coerced into visiting a malicious page. The specific flaw exists within Webkit's process for destructing attribute objects via the removeChild method. If an attribute's child object is accessed after the attribute was removed from the document, an invalid pointer is referenced. This can be exploited by an attacker to execute remote code under the context of the user running the browser.",
+  "zdi_can": "ZDI-CAN-762",
+  "zdi_id": "ZDI-10-091"
+}

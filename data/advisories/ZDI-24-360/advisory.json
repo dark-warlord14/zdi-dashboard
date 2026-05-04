@@ -1,0 +1,28 @@
+{
+  "additional_details": "JetBrains has issued an update to correct this vulnerability. More details can be found at: https://www.jetbrains.com/privacy-security/issues-fixed/",
+  "advisory_date": "2024-04-01",
+  "affected_products": [
+    "TeamCity"
+  ],
+  "affected_vendors": [
+    "JetBrains"
+  ],
+  "credit": "Alex Williams of Trend Micro Security Research",
+  "cve": "CVE-2024-31138",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-31138",
+  "cvss": 4.6,
+  "cvss_vector": "AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:N",
+  "disclosure_timeline": [
+    "2024-02-22 - Vulnerability reported to vendor",
+    "2024-04-01 - Coordinated public release of advisory",
+    "2024-07-01 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-360 ZDI-CAN-23446 JetBrains TeamCity AgentDistributionSettingsController Cross-Site Scripting Vulnerability 2024-04-01 CVE-2024-31138 https://www.cve.org/CVERecord?id=CVE-2024-31138 4.6 AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:N ['JetBrains'] ['TeamCity'] This vulnerability allows remote attackers to execute arbitrary script on affected installations of JetBrains TeamCity. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of the os parameter provided to the AgentDistributionSettingsController.doPost method. The issue results from the lack of proper validation of user-supplied data, which can lead to the injection of arbitrary script. An attacker can leverage this vulnerability to execute script in the context of the current user. JetBrains has issued an update to correct this vulnerability. More details can be found at: https://www.jetbrains.com/privacy-security/issues-fixed/ ['2024-02-22 - Vulnerability reported to vendor', '2024-04-01 - Coordinated public release of advisory', '2024-07-01 - Advisory Updated'] Alex Williams of Trend Micro Security Research https://www.zerodayinitiative.com/advisories/ZDI-24-360/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-360/",
+  "title": "JetBrains TeamCity AgentDistributionSettingsController Cross-Site Scripting Vulnerability",
+  "updated_date": "2024-07-01",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary script on affected installations of JetBrains TeamCity. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of the os parameter provided to the AgentDistributionSettingsController.doPost method. The issue results from the lack of proper validation of user-supplied data, which can lead to the injection of arbitrary script. An attacker can leverage this vulnerability to execute script in the context of the current user.",
+  "zdi_can": "ZDI-CAN-23446",
+  "zdi_id": "ZDI-24-360"
+}

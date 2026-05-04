@@ -1,0 +1,27 @@
+{
+  "additional_details": "RealNetworks has issued an update to correct this vulnerability. More details can be found at: http://service.real.com/realplayer/security/11182011_player/en/",
+  "advisory_date": "2011-11-28",
+  "affected_products": [
+    "RealPlayer"
+  ],
+  "affected_vendors": [
+    "RealNetworks"
+  ],
+  "credit": "Damian Put",
+  "cve": "CVE-2011-4250",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-4250",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2011-08-12 - Vulnerability reported to vendor",
+    "2011-11-28 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-11-333 ZDI-CAN-1311 RealNetworks RealPlayer ATRC Code Data Parsing Remote Code Execution Vulnerability 2011-11-28 CVE-2011-4250 https://www.cve.org/CVERecord?id=CVE-2011-4250 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['RealNetworks'] ['RealPlayer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of RealNetworks RealPlayer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within how the ATRC codec parses sample data out of the media file. When reading bit sizes from the sample, the application will seek a structure that is used for consuming bits from the sample stream outside the bounds of the correct data. When decoding the sample, the application will use the transformed data to initialize another structure. Due to the sizes being unbound, this can be used to corrupt memory outside the original allocation. This type of memory corruption can be leveraged to gain code execution under the context of the application. RealNetworks has issued an update to correct this vulnerability. More details can be found at: http://service.real.com/realplayer/security/11182011_player/en/ ['2011-08-12 - Vulnerability reported to vendor', '2011-11-28 - Coordinated public release of advisory'] Damian Put https://www.zerodayinitiative.com/advisories/ZDI-11-333/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-333/",
+  "title": "RealNetworks RealPlayer ATRC Code Data Parsing Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of RealNetworks RealPlayer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within how the ATRC codec parses sample data out of the media file. When reading bit sizes from the sample, the application will seek a structure that is used for consuming bits from the sample stream outside the bounds of the correct data. When decoding the sample, the application will use the transformed data to initialize another structure. Due to the sizes being unbound, this can be used to corrupt memory outside the original allocation. This type of memory corruption can be leveraged to gain code execution under the context of the application.",
+  "zdi_can": "ZDI-CAN-1311",
+  "zdi_id": "ZDI-11-333"
+}

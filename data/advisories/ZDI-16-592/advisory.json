@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/library/security/MS16-135",
+  "advisory_date": "2016-11-08",
+  "affected_products": [
+    "Windows"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "bee13oy of CloverSec Labs",
+  "cve": "CVE-2016-7215",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-7215",
+  "cvss": 7.2,
+  "cvss_vector": "AV:L/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2016-07-29 - Vulnerability reported to vendor",
+    "2016-11-08 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-16-592 ZDI-CAN-3924 Microsoft Windows win32k.sys Bitmap Null Pointer Dereference Privilege Escalation Vulnerability 2016-11-08 CVE-2016-7215 https://www.cve.org/CVERecord?id=CVE-2016-7215 7.2 AV:L/AC:L/Au:N/C:C/I:C/A:C ['Microsoft'] ['Windows'] This vulnerability allows local attackers to escalate privileges on vulnerable installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of bitmap objects. By performing a certain sequence of calls to win32k.sys, an attacker can cause the kernel to make use of a null pointer. An attacker can leverage this vulnerability to escalate privilege to SYSTEM. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/library/security/MS16-135 ['2016-07-29 - Vulnerability reported to vendor', '2016-11-08 - Coordinated public release of advisory'] bee13oy of CloverSec Labs https://www.zerodayinitiative.com/advisories/ZDI-16-592/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-592/",
+  "title": "Microsoft Windows win32k.sys Bitmap Null Pointer Dereference Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on vulnerable installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of bitmap objects. By performing a certain sequence of calls to win32k.sys, an attacker can cause the kernel to make use of a null pointer. An attacker can leverage this vulnerability to escalate privilege to SYSTEM.",
+  "zdi_can": "ZDI-CAN-3924",
+  "zdi_id": "ZDI-16-592"
+}

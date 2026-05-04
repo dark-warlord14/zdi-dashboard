@@ -1,0 +1,27 @@
+{
+  "additional_details": "D-Link has issued an update to correct this vulnerability. More details can be found at: https://supportannouncement.us.dlink.com/announcement/publication.aspx?name=SAP10157",
+  "advisory_date": "2020-02-24",
+  "affected_products": [
+    "Multiple Routers"
+  ],
+  "affected_vendors": [
+    "D-Link"
+  ],
+  "credit": "chung96vn - Security Researcher of VinCSS (Member of Vingroup)",
+  "cve": "CVE-2020-8863",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2020-8863",
+  "cvss": 8.8,
+  "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2019-12-23 - Vulnerability reported to vendor",
+    "2020-02-24 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-20-267 ZDI-CAN-9470 D-Link Multiple Routers HNAP PrivateLogin Incorrect Implementation of Authentication Algorithm Authentication Bypass Vulnerability 2020-02-24 CVE-2020-8863 https://www.cve.org/CVERecord?id=CVE-2020-8863 8.8 AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['D-Link'] ['Multiple Routers'] This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of D-Link DIR-867, DIR-878, and DIR-882 routers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of HNAP login requests. The issue results from the lack of proper implementation of the authentication algorithm. An attacker can leverage this vulnerability to escalate privileges and execute code in the context of the router. D-Link has issued an update to correct this vulnerability. More details can be found at: https://supportannouncement.us.dlink.com/announcement/publication.aspx?name=SAP10157 ['2019-12-23 - Vulnerability reported to vendor', '2020-02-24 - Coordinated public release of advisory'] chung96vn - Security Researcher of VinCSS (Member of Vingroup) https://www.zerodayinitiative.com/advisories/ZDI-20-267/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-20-267/",
+  "title": "D-Link Multiple Routers HNAP PrivateLogin Incorrect Implementation of Authentication Algorithm Authentication Bypass Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of D-Link DIR-867, DIR-878, and DIR-882 routers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of HNAP login requests. The issue results from the lack of proper implementation of the authentication algorithm. An attacker can leverage this vulnerability to escalate privileges and execute code in the context of the router.",
+  "zdi_can": "ZDI-CAN-9470",
+  "zdi_id": "ZDI-20-267"
+}

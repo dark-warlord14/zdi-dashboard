@@ -1,0 +1,28 @@
+{
+  "additional_details": "Market Update / 2018 Feb SMR O os: Patched with newest Samsung Email(5.0.02.16) in Store N os: Patched with newest Samsung Email(4.2.66.2) in Store M: Patched with 2018 FEB SMR",
+  "advisory_date": "2018-06-07",
+  "affected_products": [
+    "Email"
+  ],
+  "affected_vendors": [
+    "Samsung"
+  ],
+  "credit": "Tencent Keen Security Lab",
+  "cve": "CVE-2018-10497",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2018-10497",
+  "cvss": 4.4,
+  "cvss_vector": "AV:L/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2017-11-05 - Vulnerability reported to vendor",
+    "2018-06-07 - Coordinated public release of advisory",
+    "2018-06-07 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-556 ZDI-CAN-5328 Samsung Email EML File Parsing Privilege Escalation Vulnerability 2018-06-07 CVE-2018-10497 https://www.cve.org/CVERecord?id=CVE-2018-10497 4.4 AV:L/AC:M/Au:N/C:P/I:P/A:P ['Samsung'] ['Email'] This vulnerability allows local attackers to escalate privileges on vulnerable installations of Samsung Email. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of EML files. The issue results from the lack of proper validation of user-supplied data, which can allow arbitrary JavaScript to execute. An attacker can leverage this vulnerability to escalate privileges to resources normally protected from the application. Market Update / 2018 Feb SMR O os: Patched with newest Samsung Email(5.0.02.16) in Store N os: Patched with newest Samsung Email(4.2.66.2) in Store M: Patched with 2018 FEB SMR ['2017-11-05 - Vulnerability reported to vendor', '2018-06-07 - Coordinated public release of advisory', '2018-06-07 - Advisory Updated'] Tencent Keen Security Lab https://www.zerodayinitiative.com/advisories/ZDI-18-556/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-556/",
+  "title": "Samsung Email EML File Parsing Privilege Escalation Vulnerability",
+  "updated_date": "2018-06-07",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on vulnerable installations of Samsung Email. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of EML files. The issue results from the lack of proper validation of user-supplied data, which can allow arbitrary JavaScript to execute. An attacker can leverage this vulnerability to escalate privileges to resources normally protected from the application.",
+  "zdi_can": "ZDI-CAN-5328",
+  "zdi_id": "ZDI-18-556"
+}

@@ -1,0 +1,27 @@
+{
+  "additional_details": "Samba has issued an update to correct this vulnerability. More details can be found at: https://www.samba.org/samba/security/CVE-2021-44142.html",
+  "advisory_date": "2022-02-01",
+  "affected_products": [
+    "Samba"
+  ],
+  "affected_vendors": [
+    "Samba"
+  ],
+  "credit": "Lucas Leong (@_wmliang_) of Trend Micro Zero Day Initiative",
+  "cve": "CVE-2021-44142",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2021-44142",
+  "cvss": 9.8,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2021-12-15 - Vulnerability reported to vendor",
+    "2022-02-01 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-244 ZDI-CAN-16156 Samba AppleDouble Entry Heap-based Buffer Overflow Remote Code Execution Vulnerability 2022-02-01 CVE-2021-44142 https://www.cve.org/CVERecord?id=CVE-2021-44142 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['Samba'] ['Samba'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Samba. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of AppleDouble entries. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the service account. Samba has issued an update to correct this vulnerability. More details can be found at: https://www.samba.org/samba/security/CVE-2021-44142.html ['2021-12-15 - Vulnerability reported to vendor', '2022-02-01 - Coordinated public release of advisory'] Lucas Leong (@_wmliang_) of Trend Micro Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-22-244/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-244/",
+  "title": "Samba AppleDouble Entry Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Samba. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of AppleDouble entries. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the service account.",
+  "zdi_can": "ZDI-CAN-16156",
+  "zdi_id": "ZDI-22-244"
+}

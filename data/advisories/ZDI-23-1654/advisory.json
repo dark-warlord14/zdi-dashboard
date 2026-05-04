@@ -1,0 +1,27 @@
+{
+  "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/framemaker/apsb23-58.html",
+  "advisory_date": "2023-11-15",
+  "affected_products": [
+    "FrameMaker Publishing Server"
+  ],
+  "affected_vendors": [
+    "Adobe"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2023-44324",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-44324",
+  "cvss": 9.8,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2023-07-20 - Vulnerability reported to vendor",
+    "2023-11-15 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-1654 ZDI-CAN-21344 Adobe FrameMaker Publishing Server Authentication Bypass Vulnerability 2023-11-15 CVE-2023-44324 https://www.cve.org/CVERecord?id=CVE-2023-44324 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['Adobe'] ['FrameMaker Publishing Server'] This vulnerability allows remote attackers to bypass authentication on affected installations of Adobe FrameMaker Publishing Server. Authentication is not required to exploit this vulnerability. The specific flaw exists within the Login method. The issue results from improper implementation of the authentication algorithm. An attacker can leverage this vulnerability to bypass authentication on the system. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/framemaker/apsb23-58.html ['2023-07-20 - Vulnerability reported to vendor', '2023-11-15 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-23-1654/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-1654/",
+  "title": "Adobe FrameMaker Publishing Server Authentication Bypass Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to bypass authentication on affected installations of Adobe FrameMaker Publishing Server. Authentication is not required to exploit this vulnerability. The specific flaw exists within the Login method. The issue results from improper implementation of the authentication algorithm. An attacker can leverage this vulnerability to bypass authentication on the system.",
+  "zdi_can": "ZDI-CAN-21344",
+  "zdi_id": "ZDI-23-1654"
+}

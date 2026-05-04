@@ -1,0 +1,28 @@
+{
+  "additional_details": "Mozilla has issued an update to correct this vulnerability. More details can be found at: https://www.mozilla.org/en-US/security/advisories/mfsa2024-18/#CVE-2024-3863",
+  "advisory_date": "2025-07-29",
+  "affected_products": [
+    "Firefox"
+  ],
+  "affected_vendors": [
+    "Mozilla"
+  ],
+  "credit": "Eduardo Braun Prado",
+  "cve": "CVE-2024-3863",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-3863",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2024-02-13 - Vulnerability reported to vendor",
+    "2025-07-29 - Coordinated public release of advisory",
+    "2025-07-29 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-708 ZDI-CAN-22536 Mozilla Firefox Web Page Download Mark-Of-The-Web Protection Mechanism Failure Vulnerability 2025-07-29 CVE-2024-3863 https://www.cve.org/CVERecord?id=CVE-2024-3863 7.5 AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H ['Mozilla'] ['Firefox'] This vulnerability allows remote attackers to bypass the Mark-Of-The-Web protection mechanism on affected installations of Mozilla Firefox. User interaction is required to exploit this vulnerability in that the target must perform a specific action on a malicious page. The specific flaw exists within the web page download functionality. An attacker can abuse the functionality to create files without the Mark-Of-The-Web. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current user. Mozilla has issued an update to correct this vulnerability. More details can be found at: https://www.mozilla.org/en-US/security/advisories/mfsa2024-18/#CVE-2024-3863 ['2024-02-13 - Vulnerability reported to vendor', '2025-07-29 - Coordinated public release of advisory', '2025-07-29 - Advisory Updated'] Eduardo Braun Prado https://www.zerodayinitiative.com/advisories/ZDI-25-708/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-708/",
+  "title": "Mozilla Firefox Web Page Download Mark-Of-The-Web Protection Mechanism Failure Vulnerability",
+  "updated_date": "2025-07-29",
+  "vulnerability_details": "This vulnerability allows remote attackers to bypass the Mark-Of-The-Web protection mechanism on affected installations of Mozilla Firefox. User interaction is required to exploit this vulnerability in that the target must perform a specific action on a malicious page. The specific flaw exists within the web page download functionality. An attacker can abuse the functionality to create files without the Mark-Of-The-Web. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current user.",
+  "zdi_can": "ZDI-CAN-22536",
+  "zdi_id": "ZDI-25-708"
+}

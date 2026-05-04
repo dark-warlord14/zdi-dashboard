@@ -1,0 +1,28 @@
+{
+  "additional_details": "Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/solution/1119961",
+  "advisory_date": "2018-06-07",
+  "affected_products": [
+    "OfficeScan"
+  ],
+  "affected_vendors": [
+    "Trend Micro"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2018-10359",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2018-10359",
+  "cvss": 5.4,
+  "cvss_vector": "AV:L/AC:M/Au:N/C:N/I:P/A:C",
+  "disclosure_timeline": [
+    "2018-02-02 - Vulnerability reported to vendor",
+    "2018-06-07 - Coordinated public release of advisory",
+    "2018-06-07 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-564 ZDI-CAN-5638 Trend Micro OfficeScan TMWFP driver Pool Corruption Privilege Escalation Vulnerability 2018-06-07 CVE-2018-10359 https://www.cve.org/CVERecord?id=CVE-2018-10359 5.4 AV:L/AC:M/Au:N/C:N/I:P/A:C ['Trend Micro'] ['OfficeScan'] This vulnerability allows local attackers to escalate privileges on vulnerable installations of Trend Micro OfficeScan. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the processing of IOCTL 0x220078 in the TMWFP driver. The issue results from the lack of proper validation of the length of user-supplied data prior to using that length to initialize a pool-based buffer. An attacker can leverage this in conjunction with other vulnerabilities to escalate privileges to kernel. Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/solution/1119961 ['2018-02-02 - Vulnerability reported to vendor', '2018-06-07 - Coordinated public release of advisory', '2018-06-07 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-18-564/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-564/",
+  "title": "Trend Micro OfficeScan TMWFP driver Pool Corruption Privilege Escalation Vulnerability",
+  "updated_date": "2018-06-07",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on vulnerable installations of Trend Micro OfficeScan. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the processing of IOCTL 0x220078 in the TMWFP driver. The issue results from the lack of proper validation of the length of user-supplied data prior to using that length to initialize a pool-based buffer. An attacker can leverage this in conjunction with other vulnerabilities to escalate privileges to kernel.",
+  "zdi_can": "ZDI-CAN-5638",
+  "zdi_id": "ZDI-18-564"
+}

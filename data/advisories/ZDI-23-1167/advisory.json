@@ -1,0 +1,27 @@
+{
+  "additional_details": "Ivanti has issued an update to correct this vulnerability. More details can be found at: https://forums.ivanti.com/s/article/New-Avalanche-Landing-Page?language=en_US",
+  "advisory_date": "2023-08-23",
+  "affected_products": [
+    "Avalanche"
+  ],
+  "affected_vendors": [
+    "Ivanti"
+  ],
+  "credit": "06fe5fd2bc53027c4a3b7e395af0b850e7b8a044",
+  "cve": "CVE-2023-32567",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-32567",
+  "cvss": 6.5,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L",
+  "disclosure_timeline": [
+    "2023-05-30 - Vulnerability reported to vendor",
+    "2023-08-23 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-1167 ZDI-CAN-21030 Ivanti Avalanche decodeToMap XML External Entity Processing Information Disclosure Vulnerability 2023-08-23 CVE-2023-32567 https://www.cve.org/CVERecord?id=CVE-2023-32567 6.5 AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L ['Ivanti'] ['Avalanche'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Ivanti Avalanche. Authentication is not required to exploit this vulnerability. The specific flaw exists within the decodeToMap method. Due to the improper restriction of XML External Entity (XXE) references, a crafted document specifying a URI causes the XML parser to access the URI and embed the contents back into the XML document for further processing. An attacker can leverage this vulnerability to disclose information in the context of SYSTEM. Ivanti has issued an update to correct this vulnerability. More details can be found at: https://forums.ivanti.com/s/article/New-Avalanche-Landing-Page?language=en_US ['2023-05-30 - Vulnerability reported to vendor', '2023-08-23 - Coordinated public release of advisory'] 06fe5fd2bc53027c4a3b7e395af0b850e7b8a044 https://www.zerodayinitiative.com/advisories/ZDI-23-1167/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-1167/",
+  "title": "Ivanti Avalanche decodeToMap XML External Entity Processing Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Ivanti Avalanche. Authentication is not required to exploit this vulnerability. The specific flaw exists within the decodeToMap method. Due to the improper restriction of XML External Entity (XXE) references, a crafted document specifying a URI causes the XML parser to access the URI and embed the contents back into the XML document for further processing. An attacker can leverage this vulnerability to disclose information in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-21030",
+  "zdi_id": "ZDI-23-1167"
+}

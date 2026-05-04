@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-21758",
+  "advisory_date": "2023-03-31",
+  "affected_products": [
+    "Windows"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "insu of 78ResearchLab",
+  "cve": "CVE-2023-21758",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-21758",
+  "cvss": 5.3,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+  "disclosure_timeline": [
+    "2022-12-02 - Vulnerability reported to vendor",
+    "2023-03-31 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-378 ZDI-CAN-18935 Microsoft Windows IKEEXT Service Vendor ID Null Pointer Dereference Denial-of-Service Vulnerability 2023-03-31 CVE-2023-21758 https://www.cve.org/CVERecord?id=CVE-2023-21758 5.3 AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L ['Microsoft'] ['Windows'] This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of Microsoft Windows. Authentication is not required to exploit this vulnerability. The specific flaw exists within the IKEEXT service, which listens on UDP ports 500 and 4500. A crafted Vendor ID payload can cause a null pointer dereference. An attacker can leverage this vulnerability to create a denial-of-service condition on the system. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-21758 ['2022-12-02 - Vulnerability reported to vendor', '2023-03-31 - Coordinated public release of advisory'] insu of 78ResearchLab https://www.zerodayinitiative.com/advisories/ZDI-23-378/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-378/",
+  "title": "Microsoft Windows IKEEXT Service Vendor ID Null Pointer Dereference Denial-of-Service Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of Microsoft Windows. Authentication is not required to exploit this vulnerability. The specific flaw exists within the IKEEXT service, which listens on UDP ports 500 and 4500. A crafted Vendor ID payload can cause a null pointer dereference. An attacker can leverage this vulnerability to create a denial-of-service condition on the system.",
+  "zdi_can": "ZDI-CAN-18935",
+  "zdi_id": "ZDI-23-378"
+}

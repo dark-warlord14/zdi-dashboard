@@ -1,0 +1,27 @@
+{
+  "additional_details": "Fixed in firmware 211111",
+  "advisory_date": "2022-02-22",
+  "affected_products": [
+    "TL-WR940N"
+  ],
+  "affected_vendors": [
+    "TP-Link"
+  ],
+  "credit": "Vadym Kolisnichenko",
+  "cve": "CVE-2022-24972",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-24972",
+  "cvss": 6.5,
+  "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+  "disclosure_timeline": [
+    "2021-10-21 - Vulnerability reported to vendor",
+    "2022-02-22 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-405 ZDI-CAN-13911 TP-Link TL-WR940N httpd Improper Access Control Information Disclosure Vulnerability 2022-02-22 CVE-2022-24972 https://www.cve.org/CVERecord?id=CVE-2022-24972 6.5 AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N ['TP-Link'] ['TL-WR940N'] This vulnerability allows network-adjacent attackers to disclose sensitive information on affected installations of TP-Link TL-WR940N routers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the httpd service, which listens on TCP port 80 by default. The issue results from the lack of proper access control. An attacker can leverage this vulnerability to disclose stored credentials, leading to further compromise. Fixed in firmware 211111 ['2021-10-21 - Vulnerability reported to vendor', '2022-02-22 - Coordinated public release of advisory'] Vadym Kolisnichenko https://www.zerodayinitiative.com/advisories/ZDI-22-405/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-405/",
+  "title": "TP-Link TL-WR940N httpd Improper Access Control Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows network-adjacent attackers to disclose sensitive information on affected installations of TP-Link TL-WR940N routers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the httpd service, which listens on TCP port 80 by default. The issue results from the lack of proper access control. An attacker can leverage this vulnerability to disclose stored credentials, leading to further compromise.",
+  "zdi_can": "ZDI-CAN-13911",
+  "zdi_id": "ZDI-22-405"
+}

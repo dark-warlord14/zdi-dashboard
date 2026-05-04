@@ -1,0 +1,27 @@
+{
+  "additional_details": null,
+  "advisory_date": "2011-02-07",
+  "affected_products": [
+    "Data Protector"
+  ],
+  "affected_vendors": [
+    "Hewlett-Packard"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2011-0924",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-0924",
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2009-01-26 - Vulnerability reported to vendor",
+    "2011-02-07 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-11-054 ZDI-CAN-418 (0Day) Hewlett-Packard Data Protector Client EXEC_CMD omni_chk_ds.sh Remote Code Execution Vulnerability 2011-02-07 CVE-2011-0924 https://www.cve.org/CVERecord?id=CVE-2011-0924 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Hewlett-Packard'] ['Data Protector'] This vulnerability allows an attacker to execute remote code on vulnerable installations of the Hewlett-Packard Data Protector client. User interaction is not required to exploit this vulnerability. The specific flaw exists within the filtering of the EXEC_CMD command. The Data Protector client only verifies file names, not their contents. By supplying malicious code within specific script files, arbitrary code execution is possible under the context of the current user. ['2009-01-26 - Vulnerability reported to vendor', '2011-02-07 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-11-054/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-054/",
+  "title": "(0Day) Hewlett-Packard Data Protector Client EXEC_CMD omni_chk_ds.sh Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows an attacker to execute remote code on vulnerable installations of the Hewlett-Packard Data Protector client. User interaction is not required to exploit this vulnerability. The specific flaw exists within the filtering of the EXEC_CMD command. The Data Protector client only verifies file names, not their contents. By supplying malicious code within specific script files, arbitrary code execution is possible under the context of the current user.",
+  "zdi_can": "ZDI-CAN-418",
+  "zdi_id": "ZDI-11-054"
+}

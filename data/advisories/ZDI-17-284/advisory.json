@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2017-0158",
+  "advisory_date": "2017-04-11",
+  "affected_products": [
+    "Windows"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Simon Zuckerbraun - Trend Micro Zero Day Initiative",
+  "cve": "CVE-2017-0158",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-0158",
+  "cvss": 4.3,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N",
+  "disclosure_timeline": [
+    "2016-11-30 - Vulnerability reported to vendor",
+    "2017-04-11 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-17-284 ZDI-CAN-4218 Microsoft Windows ADO Array-Type Parameter Use-After-Free Information Disclosure Vulnerability 2017-04-11 CVE-2017-0158 https://www.cve.org/CVERecord?id=CVE-2017-0158 4.3 AV:N/AC:M/Au:N/C:P/I:N/A:N ['Microsoft'] ['Windows'] This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Microsoft Windows. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Microsoft ADO (ActiveX Data Objects) methods that accept an array as a parameter. By performing actions in script, an attacker can cause a pointer to be reused after it has been freed. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2017-0158 ['2016-11-30 - Vulnerability reported to vendor', '2017-04-11 - Coordinated public release of advisory'] Simon Zuckerbraun - Trend Micro Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-17-284/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-284/",
+  "title": "Microsoft Windows ADO Array-Type Parameter Use-After-Free Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Microsoft Windows. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Microsoft ADO (ActiveX Data Objects) methods that accept an array as a parameter. By performing actions in script, an attacker can cause a pointer to be reused after it has been freed. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-4218",
+  "zdi_id": "ZDI-17-284"
+}

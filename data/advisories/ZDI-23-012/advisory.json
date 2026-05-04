@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-21764",
+  "advisory_date": "2023-01-18",
+  "affected_products": [
+    "Exchange"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Piotr Bazydlo (@chudypb) of Trend Micro Zero Day Initiative",
+  "cve": "CVE-2023-21764",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-21764",
+  "cvss": 7.0,
+  "cvss_vector": "AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2022-11-11 - Vulnerability reported to vendor",
+    "2023-01-18 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-012 ZDI-CAN-19491 Microsoft Exchange GetTorusCmdletConfigurationEntries Uncontrolled Search Path Element Local Privilege Escalation Vulnerability 2023-01-18 CVE-2023-21764 https://www.cve.org/CVERecord?id=CVE-2023-21764 7.0 AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H ['Microsoft'] ['Exchange'] This vulnerability allows local attackers to escalate privileges on affected installations of Microsoft Exchange. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the GetTorusCmdletConfigurationEntries function. The function loads a library from an unsecured location. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-21764 ['2022-11-11 - Vulnerability reported to vendor', '2023-01-18 - Coordinated public release of advisory'] Piotr Bazydlo (@chudypb) of Trend Micro Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-23-012/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-012/",
+  "title": "Microsoft Exchange GetTorusCmdletConfigurationEntries Uncontrolled Search Path Element Local Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Microsoft Exchange. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the GetTorusCmdletConfigurationEntries function. The function loads a library from an unsecured location. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-19491",
+  "zdi_id": "ZDI-23-012"
+}

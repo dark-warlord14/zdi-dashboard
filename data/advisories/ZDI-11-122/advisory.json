@@ -1,0 +1,27 @@
+{
+  "additional_details": "RealNetworks has issued an update to correct this vulnerability. More details can be found at: http://service.real.com/realplayer/security/04122011_player/en/",
+  "advisory_date": "2011-04-12",
+  "affected_products": [
+    "RealPlayer"
+  ],
+  "affected_vendors": [
+    "RealNetworks"
+  ],
+  "credit": "Peter Vreugdenhil ( http://vreugdenhilresearch.nl ) Andrea Micalizzi aka rgod",
+  "cve": "CVE-2011-1426",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-1426",
+  "cvss": 9.7,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:P/A:C",
+  "disclosure_timeline": [
+    "2011-02-17 - Vulnerability reported to vendor",
+    "2011-04-12 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-11-122 ZDI-CAN-1016 RealNetworks RealPlayer OpenURLInDefaultBrowser Remote Code Execution Vulnerability 2011-04-12 CVE-2011-1426 https://www.cve.org/CVERecord?id=CVE-2011-1426 9.7 AV:N/AC:L/Au:N/C:C/I:P/A:C ['RealNetworks'] ['RealPlayer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of RealNetworks RealPlayer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within RealPlayer exposes a method called OpenURLInDefaultBrowser() that can be accessed through RealPlayer's internal browser. When this method is called, it will open and execute the first parameter based on the operating system's default handler for the filetype. An attacker can reach RealPlayer's internal browser by utilizing a specially crafted .rnx file. This can be leveraged to execute arbitrary code under the context of the user invoking RealPlayer. RealNetworks has issued an update to correct this vulnerability. More details can be found at: http://service.real.com/realplayer/security/04122011_player/en/ ['2011-02-17 - Vulnerability reported to vendor', '2011-04-12 - Coordinated public release of advisory'] Peter Vreugdenhil ( http://vreugdenhilresearch.nl ) Andrea Micalizzi aka rgod https://www.zerodayinitiative.com/advisories/ZDI-11-122/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-122/",
+  "title": "RealNetworks RealPlayer OpenURLInDefaultBrowser Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of RealNetworks RealPlayer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within RealPlayer exposes a method called OpenURLInDefaultBrowser() that can be accessed through RealPlayer's internal browser. When this method is called, it will open and execute the first parameter based on the operating system's default handler for the filetype. An attacker can reach RealPlayer's internal browser by utilizing a specially crafted .rnx file. This can be leveraged to execute arbitrary code under the context of the user invoking RealPlayer.",
+  "zdi_can": "ZDI-CAN-1016",
+  "zdi_id": "ZDI-11-122"
+}

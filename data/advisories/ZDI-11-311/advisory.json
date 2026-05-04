@@ -1,0 +1,27 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT5002",
+  "advisory_date": "2011-10-27",
+  "affected_products": [
+    "Quicktime"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "Luigi Auriemma",
+  "cve": "CVE-2011-3220",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-3220",
+  "cvss": 9.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:C",
+  "disclosure_timeline": [
+    "2011-05-12 - Vulnerability reported to vendor",
+    "2011-10-27 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-11-311 ZDI-CAN-1219 Apple Quicktime Empty URL Data Handler Remote Code Execution Vulnerability 2011-10-27 CVE-2011-3220 https://www.cve.org/CVERecord?id=CVE-2011-3220 9.0 AV:N/AC:L/Au:N/C:P/I:P/A:C ['Apple'] ['Quicktime'] This vulnerability allows remote attackers to potentially disclose memory addresses on vulnerable installations of Apple QuickTime Player. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within how QuickTime.qts parses a data handler in specific atom within a .mov file. The application will utilize a string length to copy data into an heap buffer, if the string is of zero-length, the application will fail to copy anything and then proceed to use the uninitialized buffer as a string. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT5002 ['2011-05-12 - Vulnerability reported to vendor', '2011-10-27 - Coordinated public release of advisory'] Luigi Auriemma https://www.zerodayinitiative.com/advisories/ZDI-11-311/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-311/",
+  "title": "Apple Quicktime Empty URL Data Handler Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to potentially disclose memory addresses on vulnerable installations of Apple QuickTime Player. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within how QuickTime.qts parses a data handler in specific atom within a .mov file. The application will utilize a string length to copy data into an heap buffer, if the string is of zero-length, the application will fail to copy anything and then proceed to use the uninitialized buffer as a string.",
+  "zdi_can": "ZDI-CAN-1219",
+  "zdi_id": "ZDI-11-311"
+}

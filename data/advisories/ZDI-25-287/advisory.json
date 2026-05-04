@@ -1,0 +1,28 @@
+{
+  "additional_details": "JetBrains has issued an update to correct this vulnerability. More details can be found at: https://www.jetbrains.com/help/teamcity/2025.03/teamcity-2025-03-1-release-notes.html#Security",
+  "advisory_date": "2025-05-13",
+  "affected_products": [
+    "TeamCity"
+  ],
+  "affected_vendors": [
+    "JetBrains"
+  ],
+  "credit": "Grigory Dorodnov of Trend Micro Security Research",
+  "cve": "CVE-2025-46618",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-46618",
+  "cvss": 5.4,
+  "cvss_vector": "AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+  "disclosure_timeline": [
+    "2025-03-10 - Vulnerability reported to vendor",
+    "2025-05-13 - Coordinated public release of advisory",
+    "2025-05-13 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-287 ZDI-CAN-25977 JetBrains TeamCity Diagnostics Data Directory Cross-Site Scripting Vulnerability 2025-05-13 CVE-2025-46618 https://www.cve.org/CVERecord?id=CVE-2025-46618 5.4 AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N ['JetBrains'] ['TeamCity'] This vulnerability allows remote attackers to execute arbitrary script on affected installations of JetBrains TeamCity. Minimal user interaction is required to exploit this vulnerability. The specific flaw exists within the handling of filenames in the diagnostics functionality. The issue results from the lack of proper validation of user-supplied data, which can lead to the injection of arbitrary script. An attacker can leverage this vulnerability to execute script in the context of a target user. JetBrains has issued an update to correct this vulnerability. More details can be found at: https://www.jetbrains.com/help/teamcity/2025.03/teamcity-2025-03-1-release-notes.html#Security ['2025-03-10 - Vulnerability reported to vendor', '2025-05-13 - Coordinated public release of advisory', '2025-05-13 - Advisory Updated'] Grigory Dorodnov of Trend Micro Security Research https://www.zerodayinitiative.com/advisories/ZDI-25-287/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-287/",
+  "title": "JetBrains TeamCity Diagnostics Data Directory Cross-Site Scripting Vulnerability",
+  "updated_date": "2025-05-13",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary script on affected installations of JetBrains TeamCity. Minimal user interaction is required to exploit this vulnerability. The specific flaw exists within the handling of filenames in the diagnostics functionality. The issue results from the lack of proper validation of user-supplied data, which can lead to the injection of arbitrary script. An attacker can leverage this vulnerability to execute script in the context of a target user.",
+  "zdi_can": "ZDI-CAN-25977",
+  "zdi_id": "ZDI-25-287"
+}

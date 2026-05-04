@@ -1,0 +1,27 @@
+{
+  "additional_details": "NETGEAR has issued an update to correct this vulnerability. More details can be found at: https://kb.netgear.com/000064313/Security-Advisory-for-Pre-Authentication-Buffer-Overflow-on-Some-Extenders-Routers-and-DSL-Modem-Routers-PSV-2021-0159",
+  "advisory_date": "2021-10-29",
+  "affected_products": [
+    "Multiple Routers"
+  ],
+  "affected_vendors": [
+    "NETGEAR"
+  ],
+  "credit": "Sungur Labs",
+  "cve": "CVE-2021-34983",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2021-34983",
+  "cvss": 6.5,
+  "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+  "disclosure_timeline": [
+    "2021-06-30 - Vulnerability reported to vendor",
+    "2021-10-29 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-21-1275 ZDI-CAN-13708 NETGEAR Multiple Routers httpd Missing Authentication for Critical Function Information Disclosure Vulnerability 2021-10-29 CVE-2021-34983 https://www.cve.org/CVERecord?id=CVE-2021-34983 6.5 AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N ['NETGEAR'] ['Multiple Routers'] This vulnerability allows network-adjacent attackers to disclose sensitive information on affected installations of multiple NETGEAR routers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the httpd service, which listens on TCP port 80 by default. The issue results from the lack of authentication prior to allowing access to system configuration information. An attacker can leverage this vulnerability to disclose stored credentials, leading to further compromise. NETGEAR has issued an update to correct this vulnerability. More details can be found at: https://kb.netgear.com/000064313/Security-Advisory-for-Pre-Authentication-Buffer-Overflow-on-Some-Extenders-Routers-and-DSL-Modem-Routers-PSV-2021-0159 ['2021-06-30 - Vulnerability reported to vendor', '2021-10-29 - Coordinated public release of advisory'] Sungur Labs https://www.zerodayinitiative.com/advisories/ZDI-21-1275/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-21-1275/",
+  "title": "NETGEAR Multiple Routers httpd Missing Authentication for Critical Function Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows network-adjacent attackers to disclose sensitive information on affected installations of multiple NETGEAR routers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the httpd service, which listens on TCP port 80 by default. The issue results from the lack of authentication prior to allowing access to system configuration information. An attacker can leverage this vulnerability to disclose stored credentials, leading to further compromise.",
+  "zdi_can": "ZDI-CAN-13708",
+  "zdi_id": "ZDI-21-1275"
+}

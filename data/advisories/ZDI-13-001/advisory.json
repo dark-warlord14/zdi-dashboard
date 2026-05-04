@@ -1,0 +1,27 @@
+{
+  "additional_details": "Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/cpujan2013-1515902.html",
+  "advisory_date": "2013-02-01",
+  "affected_products": [
+    "Outside In"
+  ],
+  "affected_vendors": [
+    "Oracle"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2013-0418",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2013-0418",
+  "cvss": 5.4,
+  "cvss_vector": "AV:A/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2012-11-14 - Vulnerability reported to vendor",
+    "2013-02-01 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-13-001 ZDI-CAN-1563 Oracle Outside In CorelDRAW File Parsing Remote Code Execution Vulnerability 2013-02-01 CVE-2013-0418 https://www.cve.org/CVERecord?id=CVE-2013-0418 5.4 AV:A/AC:M/Au:N/C:P/I:P/A:P ['Oracle'] ['Outside In'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Oracle Outside In. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of RIFF files. When processing a LIST record, the size field is treated as a signed integer during input validation but is then treated as an unsigned integer when copying data. This can be leveraged by a remote attacker can leverage to gain code execution under the context of the user running the application. Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/cpujan2013-1515902.html ['2012-11-14 - Vulnerability reported to vendor', '2013-02-01 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-13-001/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-13-001/",
+  "title": "Oracle Outside In CorelDRAW File Parsing Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Oracle Outside In. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of RIFF files. When processing a LIST record, the size field is treated as a signed integer during input validation but is then treated as an unsigned integer when copying data. This can be leveraged by a remote attacker can leverage to gain code execution under the context of the user running the application.",
+  "zdi_can": "ZDI-CAN-1563",
+  "zdi_id": "ZDI-13-001"
+}

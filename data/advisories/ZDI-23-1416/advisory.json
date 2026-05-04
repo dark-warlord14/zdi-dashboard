@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36770",
+  "advisory_date": "2023-09-12",
+  "affected_products": [
+    "3D Builder"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Mat Powell of Trend Micro Zero Day Initiative",
+  "cve": "CVE-2023-36770",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-36770",
+  "cvss": 5.3,
+  "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L",
+  "disclosure_timeline": [
+    "2023-05-05 - Vulnerability reported to vendor",
+    "2023-09-12 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-1416 ZDI-CAN-21073 Microsoft 3D Builder GLB File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability 2023-09-12 CVE-2023-36770 https://www.cve.org/CVERecord?id=CVE-2023-36770 5.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L ['Microsoft'] ['3D Builder'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Microsoft 3D Builder. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of GLB files. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated object. An attacker can leverage this vulnerability to execute code in the context of the current process at low integrity. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36770 ['2023-05-05 - Vulnerability reported to vendor', '2023-09-12 - Coordinated public release of advisory'] Mat Powell of Trend Micro Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-23-1416/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-1416/",
+  "title": "Microsoft 3D Builder GLB File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Microsoft 3D Builder. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of GLB files. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated object. An attacker can leverage this vulnerability to execute code in the context of the current process at low integrity.",
+  "zdi_can": "ZDI-CAN-21073",
+  "zdi_id": "ZDI-23-1416"
+}

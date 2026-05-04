@@ -1,0 +1,28 @@
+{
+  "additional_details": "Fixed in 7-Zip 24.08",
+  "advisory_date": "2024-11-21",
+  "affected_products": [
+    "7-Zip"
+  ],
+  "affected_vendors": [
+    "7-Zip"
+  ],
+  "credit": "2ourc3",
+  "cve": "CVE-2024-11612",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-11612",
+  "cvss": 6.5,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+  "disclosure_timeline": [
+    "2024-06-26 - Vulnerability reported to vendor",
+    "2024-11-21 - Coordinated public release of advisory",
+    "2024-11-26 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-1606 ZDI-CAN-24307 7-Zip Qcow Handler Infinite Loop Denial-of-Service Vulnerability 2024-11-21 CVE-2024-11612 https://www.cve.org/CVERecord?id=CVE-2024-11612 6.5 AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H ['7-Zip'] ['7-Zip'] This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of 7-Zip. Interaction with this library is required to exploit this vulnerability but attack vectors may vary depending on the implementation. The specific flaw exists within the processing of streams. The issue results from a logic error that can lead to an infinite loop. An attacker can leverage this vulnerability to create a denial-of-service condition on the system. Fixed in 7-Zip 24.08 ['2024-06-26 - Vulnerability reported to vendor', '2024-11-21 - Coordinated public release of advisory', '2024-11-26 - Advisory Updated'] 2ourc3 https://www.zerodayinitiative.com/advisories/ZDI-24-1606/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-1606/",
+  "title": "7-Zip Qcow Handler Infinite Loop Denial-of-Service Vulnerability",
+  "updated_date": "2024-11-26",
+  "vulnerability_details": "This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of 7-Zip. Interaction with this library is required to exploit this vulnerability but attack vectors may vary depending on the implementation. The specific flaw exists within the processing of streams. The issue results from a logic error that can lead to an infinite loop. An attacker can leverage this vulnerability to create a denial-of-service condition on the system.",
+  "zdi_can": "ZDI-CAN-24307",
+  "zdi_id": "ZDI-24-1606"
+}

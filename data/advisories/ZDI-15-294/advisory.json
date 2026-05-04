@@ -1,0 +1,27 @@
+{
+  "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/flash-player/apsb15-16.html",
+  "advisory_date": "2015-07-08",
+  "affected_products": [
+    "Flash"
+  ],
+  "affected_vendors": [
+    "Adobe"
+  ],
+  "credit": "David Kraftsow (dontsave)",
+  "cve": "CVE-2015-3125",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-3125",
+  "cvss": 5.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:N",
+  "disclosure_timeline": [
+    "2015-04-28 - Vulnerability reported to vendor",
+    "2015-07-08 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-15-294 ZDI-CAN-2872 Adobe Flash Sound Universal Cross Site Scripting Vulnerability 2015-07-08 CVE-2015-3125 https://www.cve.org/CVERecord?id=CVE-2015-3125 5.8 AV:N/AC:M/Au:N/C:P/I:P/A:N ['Adobe'] ['Flash'] This vulnerability allows remote attackers to read arbitrary data on vulnerable Adobe Flash installations. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of Sound objects. A remote attacker can run arbitrary script in the context of any domain. An attacker can leverage this vulnerability to read browser cookies or saved passwords. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/flash-player/apsb15-16.html ['2015-04-28 - Vulnerability reported to vendor', '2015-07-08 - Coordinated public release of advisory'] David Kraftsow (dontsave) https://www.zerodayinitiative.com/advisories/ZDI-15-294/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-294/",
+  "title": "Adobe Flash Sound Universal Cross Site Scripting Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to read arbitrary data on vulnerable Adobe Flash installations. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of Sound objects. A remote attacker can run arbitrary script in the context of any domain. An attacker can leverage this vulnerability to read browser cookies or saved passwords.",
+  "zdi_can": "ZDI-CAN-2872",
+  "zdi_id": "ZDI-15-294"
+}

@@ -1,0 +1,28 @@
+{
+  "additional_details": "LangChain has issued an update to correct this vulnerability. More details can be found at: https://github.com/langchain-ai/langgraph/security/advisories/GHSA-mhr3-j7m5-c7c9",
+  "advisory_date": "2026-03-03",
+  "affected_products": [
+    "LangGraph"
+  ],
+  "affected_vendors": [
+    "LangChain"
+  ],
+  "credit": "Peter Girnus (@gothburz), Demeng Chen, and Brandon Niemczyk of Trend Zero Day Initiative",
+  "cve": "CVE-2026-27794",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-27794",
+  "cvss": 8.1,
+  "cvss_vector": "AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2025-12-09 - Vulnerability reported to vendor",
+    "2026-03-03 - Coordinated public release of advisory",
+    "2026-03-03 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-26-135 ZDI-CAN-28385 LangChain LangGraph BaseCache Deserialization of Untrusted Data Remote Code Execution Vulnerability 2026-03-03 CVE-2026-27794 https://www.cve.org/CVERecord?id=CVE-2026-27794 8.1 AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H ['LangChain'] ['LangGraph'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of LangChain LangGraph. Authentication is not required to exploit this vulnerability. The specific flaw exists within the BaseCache class. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the service account. LangChain has issued an update to correct this vulnerability. More details can be found at: https://github.com/langchain-ai/langgraph/security/advisories/GHSA-mhr3-j7m5-c7c9 ['2025-12-09 - Vulnerability reported to vendor', '2026-03-03 - Coordinated public release of advisory', '2026-03-03 - Advisory Updated'] Peter Girnus (@gothburz), Demeng Chen, and Brandon Niemczyk of Trend Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-135/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-135/",
+  "title": "LangChain LangGraph BaseCache Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+  "updated_date": "2026-03-03",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of LangChain LangGraph. Authentication is not required to exploit this vulnerability. The specific flaw exists within the BaseCache class. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the service account.",
+  "zdi_can": "ZDI-CAN-28385",
+  "zdi_id": "ZDI-26-135"
+}

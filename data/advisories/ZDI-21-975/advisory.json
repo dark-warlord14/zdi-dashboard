@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-34510",
+  "advisory_date": "2021-08-18",
+  "affected_products": [
+    "Windows"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "z3r09 from Viettel Cyber Security",
+  "cve": "CVE-2021-34510",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2021-34510",
+  "cvss": 8.8,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2021-04-27 - Vulnerability reported to vendor",
+    "2021-08-18 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-21-975 ZDI-CAN-13444 (Pwn2Own) Microsoft Windows storport Integer Overflow Privilege Escalation Vulnerability 2021-08-18 CVE-2021-34510 https://www.cve.org/CVERecord?id=CVE-2021-34510 8.8 AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H ['Microsoft'] ['Windows'] This vulnerability allows local attackers to escalate privileges on affected installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the storport.sys driver. The issue results from the lack of proper validation of user-supplied data, which can result in an integer overflow before allocating a buffer. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-34510 ['2021-04-27 - Vulnerability reported to vendor', '2021-08-18 - Coordinated public release of advisory'] z3r09 from Viettel Cyber Security https://www.zerodayinitiative.com/advisories/ZDI-21-975/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-21-975/",
+  "title": "(Pwn2Own) Microsoft Windows storport Integer Overflow Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the storport.sys driver. The issue results from the lack of proper validation of user-supplied data, which can result in an integer overflow before allocating a buffer. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-13444",
+  "zdi_id": "ZDI-21-975"
+}

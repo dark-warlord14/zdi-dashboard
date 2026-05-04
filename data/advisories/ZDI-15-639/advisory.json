@@ -1,0 +1,27 @@
+{
+  "additional_details": "This vulnerability is being disclosed publicly without a patch in accordance with the ZDI 120 day deadline. 09/08/2015 - ZDI disclosed vulnerability details to the vendor 09/09/2015 - The vendor acknowledged with a case assignment 09/09/2015 - The vendor sent a question about the user notification experience 09/14/2015 - ZDI replied that the the user has to attempt to recover the data 10/08/2015 - The vendor notified ZDI that the case was \"heading towards closure\" and that it is same issue to (XXXXX, previous resolved case) 11/17/2015 - ZDI notified the vendor that the case still hits (post XXXXX previous case patch) 11/24/2015 - The vendor replied they would look into it 12/02/2015 - The vendor replied that: We took a defense in depth approach to (XXXXX, previous resolved case) and made code improvements that we believed would also mitigate (this case). While (this case) still crashes, it does so only after the user has accepted the risk. As such we will resolve (this case) as \"won't fix\". 12/17/2015 - The vendor has re-evaluated their stance and will be working on a fix. -- Mitigation: Given the stated purpose of Microsoft Office Excel, and the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the application to trusted files. -- Vendor Response Link: https://technet.microsoft.com/library/security/MS16-004",
+  "advisory_date": "2015-12-14",
+  "affected_products": [
+    "Office Excel"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Steven Seeley of Source Incite",
+  "cve": "CVE-2016-0035",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-0035",
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2015-09-08 - Vulnerability reported to vendor",
+    "2015-12-14 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-15-639 ZDI-CAN-3269 (0Day) Microsoft Office Excel Binary Worksheet Use-After-Free Remote Code Execution Vulnerability 2015-12-14 CVE-2016-0035 https://www.cve.org/CVERecord?id=CVE-2016-0035 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Microsoft'] ['Office Excel'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Office Excel. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of binary Excel files (.xlsb). By providing a malformed file, an attacker can cause a pointer to be re-used after it has been freed. An attacker could leverage this to execute arbitrary code under the context of the current user. This vulnerability is being disclosed publicly without a patch in accordance with the ZDI 120 day deadline. 09/08/2015 - ZDI disclosed vulnerability details to the vendor 09/09/2015 - The vendor acknowledged with a case assignment 09/09/2015 - The vendor sent a question about the user notification experience 09/14/2015 - ZDI replied that the the user has to attempt to recover the data 10/08/2015 - The vendor notified ZDI that the case was \"heading towards closure\" and that it is same issue to (XXXXX, previous resolved case) 11/17/2015 - ZDI notified the vendor that the case still hits (post XXXXX previous case patch) 11/24/2015 - The vendor replied they would look into it 12/02/2015 - The vendor replied that: We took a defense in depth approach to (XXXXX, previous resolved case) and made code improvements that we believed would also mitigate (this case). While (this case) still crashes, it does so only after the user has accepted the risk. As such we will resolve (this case) as \"won't fix\". 12/17/2015 - The vendor has re-evaluated their stance and will be working on a fix. -- Mitigation: Given the stated purpose of Microsoft Office Excel, and the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the application to trusted files. -- Vendor Response Link: https://technet.microsoft.com/library/security/MS16-004 ['2015-09-08 - Vulnerability reported to vendor', '2015-12-14 - Coordinated public release of advisory'] Steven Seeley of Source Incite https://www.zerodayinitiative.com/advisories/ZDI-15-639/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-639/",
+  "title": "(0Day) Microsoft Office Excel Binary Worksheet Use-After-Free Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Office Excel. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of binary Excel files (.xlsb). By providing a malformed file, an attacker can cause a pointer to be re-used after it has been freed. An attacker could leverage this to execute arbitrary code under the context of the current user.",
+  "zdi_can": "ZDI-CAN-3269",
+  "zdi_id": "ZDI-15-639"
+}

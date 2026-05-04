@@ -1,0 +1,27 @@
+{
+  "additional_details": "SAP has issued an update to correct this vulnerability. More details can be found at: http://service.sap.com/sap/support/notes/1999142",
+  "advisory_date": "2014-09-03",
+  "affected_products": [
+    "Crystal Reports"
+  ],
+  "affected_vendors": [
+    "SAP"
+  ],
+  "credit": "Aniway.Anyway@gmail.com",
+  "cve": "CVE-2014-5505",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-5505",
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2014-03-07 - Vulnerability reported to vendor",
+    "2014-09-03 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-14-301 ZDI-CAN-2146 SAP Crystal Reports Datasource Stack Buffer Overflow Remote Code Execution Vulnerability 2014-09-03 CVE-2014-5505 https://www.cve.org/CVERecord?id=CVE-2014-5505 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['SAP'] ['Crystal Reports'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of SAP Crystal Reports. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of RPT files. The issue lies in the processing of data source strings. An attacker can leverage this vulnerability to execute code under the context of the current process. SAP has issued an update to correct this vulnerability. More details can be found at: http://service.sap.com/sap/support/notes/1999142 ['2014-03-07 - Vulnerability reported to vendor', '2014-09-03 - Coordinated public release of advisory'] Aniway.Anyway@gmail.com https://www.zerodayinitiative.com/advisories/ZDI-14-301/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-14-301/",
+  "title": "SAP Crystal Reports Datasource Stack Buffer Overflow Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of SAP Crystal Reports. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of RPT files. The issue lies in the processing of data source strings. An attacker can leverage this vulnerability to execute code under the context of the current process.",
+  "zdi_can": "ZDI-CAN-2146",
+  "zdi_id": "ZDI-14-301"
+}

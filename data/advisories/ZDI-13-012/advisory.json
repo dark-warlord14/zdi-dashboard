@@ -1,0 +1,27 @@
+{
+  "additional_details": "Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/javacpufeb2013-1841061.html",
+  "advisory_date": "2013-02-11",
+  "affected_products": [
+    "Java Runtime"
+  ],
+  "affected_vendors": [
+    "Oracle"
+  ],
+  "credit": "Vitaliy Toropov",
+  "cve": "CVE-2012-1543",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2012-1543",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2013-01-07 - Vulnerability reported to vendor",
+    "2013-02-11 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-13-012 ZDI-CAN-1725 Oracle Java JavaFX WCGraphicsManager Remote Code Execution Vulnerability 2013-02-11 CVE-2012-1543 https://www.cve.org/CVERecord?id=CVE-2012-1543 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Oracle'] ['Java Runtime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Oracle Java. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the JavaFX WCGraphicsManager class. This class exposes methods that result in calls to the append() native function. One of the arguments passed to this native function is interpreted as a pointer to an object. This can be leveraged by an attacker to gain remote code execution under the context of the process. Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/javacpufeb2013-1841061.html ['2013-01-07 - Vulnerability reported to vendor', '2013-02-11 - Coordinated public release of advisory'] Vitaliy Toropov https://www.zerodayinitiative.com/advisories/ZDI-13-012/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-13-012/",
+  "title": "Oracle Java JavaFX WCGraphicsManager Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Oracle Java. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the JavaFX WCGraphicsManager class. This class exposes methods that result in calls to the append() native function. One of the arguments passed to this native function is interpreted as a pointer to an object. This can be leveraged by an attacker to gain remote code execution under the context of the process.",
+  "zdi_can": "ZDI-CAN-1725",
+  "zdi_id": "ZDI-13-012"
+}

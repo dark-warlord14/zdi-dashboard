@@ -1,0 +1,28 @@
+{
+  "additional_details": "Alpine conducted a Threat Assessment and Remediation Analysis (TARA) in accordance with ISO21434, and concluded that the vulnerability is classified as \"Sharing the Risk\". Alpine states that they will continue to use the current software without a releasing patch.",
+  "advisory_date": "2024-06-21",
+  "affected_products": [
+    "Halo9"
+  ],
+  "affected_vendors": [
+    "Alpine"
+  ],
+  "credit": "Le Tran Hai Tung",
+  "cve": "CVE-2024-23963",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-23963",
+  "cvss": 8.0,
+  "cvss_vector": "AV:A/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2024-02-01 - Vulnerability reported to vendor",
+    "2024-06-21 - Coordinated public release of advisory",
+    "2024-08-15 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-850 ZDI-CAN-23312 (Pwn2Own) Alpine Halo9 Stack-based Buffer Overflow Remote Code Execution Vulnerability 2024-06-21 CVE-2024-23963 https://www.cve.org/CVERecord?id=CVE-2024-23963 8.0 AV:A/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Alpine'] ['Halo9'] This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Alpine Halo9 devices. An attacker must first obtain the ability to pair a malicious Bluetooth device with the target system in order to exploit this vulnerability. The specific flaw exists within the PBAP_DecodeVCARD function. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of root. Alpine conducted a Threat Assessment and Remediation Analysis (TARA) in accordance with ISO21434, and concluded that the vulnerability is classified as \"Sharing the Risk\". Alpine states that they will continue to use the current software without a releasing patch. ['2024-02-01 - Vulnerability reported to vendor', '2024-06-21 - Coordinated public release of advisory', '2024-08-15 - Advisory Updated'] Le Tran Hai Tung https://www.zerodayinitiative.com/advisories/ZDI-24-850/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-850/",
+  "title": "(Pwn2Own) Alpine Halo9 Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+  "updated_date": "2024-08-15",
+  "vulnerability_details": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Alpine Halo9 devices. An attacker must first obtain the ability to pair a malicious Bluetooth device with the target system in order to exploit this vulnerability. The specific flaw exists within the PBAP_DecodeVCARD function. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of root.",
+  "zdi_can": "ZDI-CAN-23312",
+  "zdi_id": "ZDI-24-850"
+}

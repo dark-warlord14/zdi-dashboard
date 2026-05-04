@@ -1,0 +1,27 @@
+{
+  "additional_details": "Fuji Electric has issued an update to correct this vulnerability. More details can be found at: https://www.cisa.gov/news-events/ics-advisories/icsa-23-325-02",
+  "advisory_date": "2023-11-27",
+  "affected_products": [
+    "Tellus Lite"
+  ],
+  "affected_vendors": [
+    "Fuji Electric"
+  ],
+  "credit": "Fritz Sands",
+  "cve": "CVE-2023-5299",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-5299",
+  "cvss": 7.3,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2023-06-07 - Vulnerability reported to vendor",
+    "2023-11-27 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-1730 ZDI-CAN-21224 Fuji Electric Tellus Lite Incorrect Default Permissions Local Privilege Escalation Vulnerability 2023-11-27 CVE-2023-5299 https://www.cve.org/CVERecord?id=CVE-2023-5299 7.3 AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H ['Fuji Electric'] ['Tellus Lite'] This vulnerability allows local attackers to escalate privileges on affected installations of Fuji Electric Tellus Lite. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the product installer. The issue results from incorrect permissions set on product folders created by the installer. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of any user of the software. Fuji Electric has issued an update to correct this vulnerability. More details can be found at: https://www.cisa.gov/news-events/ics-advisories/icsa-23-325-02 ['2023-06-07 - Vulnerability reported to vendor', '2023-11-27 - Coordinated public release of advisory'] Fritz Sands https://www.zerodayinitiative.com/advisories/ZDI-23-1730/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-1730/",
+  "title": "Fuji Electric Tellus Lite Incorrect Default Permissions Local Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Fuji Electric Tellus Lite. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the product installer. The issue results from incorrect permissions set on product folders created by the installer. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of any user of the software.",
+  "zdi_can": "ZDI-CAN-21224",
+  "zdi_id": "ZDI-23-1730"
+}

@@ -1,0 +1,28 @@
+{
+  "additional_details": "QNAP has issued an update to correct this vulnerability. More details can be found at: https://www.qnap.com/en-us/security-advisories",
+  "advisory_date": "2025-07-31",
+  "affected_products": [
+    "QHora-322"
+  ],
+  "affected_vendors": [
+    "QNAP"
+  ],
+  "credit": "Sina Kheirkhah (@SinSinology) of Summoning Team (@SummoningTeam)",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 7.5,
+  "cvss_vector": "AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2024-12-02 - Vulnerability reported to vendor",
+    "2025-07-31 - Coordinated public release of advisory",
+    "2025-07-31 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-738 ZDI-CAN-25635 (Pwn2Own) QNAP QHora-322 SSH Use of Weak Credentials Authentication Bypass Vulnerability 2025-07-31 7.5 AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H ['QNAP'] ['QHora-322'] This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of QNAP QHora-322 routers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the default SSH credentials. The issue results from the use of the WAN MAC address as a default password. An attacker can leverage this in conjunction with other vulnerabilities to bypass authentication on the system. QNAP has issued an update to correct this vulnerability. More details can be found at: https://www.qnap.com/en-us/security-advisories ['2024-12-02 - Vulnerability reported to vendor', '2025-07-31 - Coordinated public release of advisory', '2025-07-31 - Advisory Updated'] Sina Kheirkhah (@SinSinology) of Summoning Team (@SummoningTeam) https://www.zerodayinitiative.com/advisories/ZDI-25-738/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-738/",
+  "title": "(Pwn2Own) QNAP QHora-322 SSH Use of Weak Credentials Authentication Bypass Vulnerability",
+  "updated_date": "2025-07-31",
+  "vulnerability_details": "This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of QNAP QHora-322 routers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the default SSH credentials. The issue results from the use of the WAN MAC address as a default password. An attacker can leverage this in conjunction with other vulnerabilities to bypass authentication on the system.",
+  "zdi_can": "ZDI-CAN-25635",
+  "zdi_id": "ZDI-25-738"
+}

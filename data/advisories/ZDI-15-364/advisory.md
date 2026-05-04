@@ -1,0 +1,26 @@
+# ZDI-15-364: (0Day) Hewlett-Packard Client Automation Agent Command Injection Remote Code Execution Vulnerability
+
+## Metadata
+
+- **ZDI ID:** ZDI-15-364
+- **ZDI-CAN:** ZDI-CAN-3013
+- **Date:** 2015-07-20
+- **CVE:** CVE-2015-7861
+- **CVSS:** 10.0
+- **CVSS Vector:** AV:N/AC:L/Au:N/C:C/I:C/A:C
+- **Affected Vendors:** Hewlett-Packard
+- **Affected Products:** Client Automation
+- **Credit:** Matt Molinyawe - HP Zero Day Initiative
+- **Source:** https://www.zerodayinitiative.com/advisories/ZDI-15-364/
+## Vulnerability Details
+
+This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Hewlett-Packard Client Automation. Authentication is not required to exploit this vulnerability. The specific flaw exists within the Hewlett-Packard Client Automation agent. An attacker can send arbitrary commands to the agent. An attacker can leverage this vulnerability to execute code under the context of the SYSTEM.
+
+## Additional Details
+
+This vulnerability is being disclosed publicly without a patch in accordance with the ZDI 120 day deadline. 06/15/2015 - ZDI asked HP SSRT for a contact. 06/15/2015 - HP SSRT advised ZDI that they had tried their known contacts and failed. 06/25/2015 - ZDI wrote to Persistent requesting contact, but there was no reply. 07/09/2015 - ZDI wrote to Persistent requesting contact, but there is no reply to date. -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the service to trusted machines. Only the clients and servers that have a legitimate procedural relationship with the service should be permitted to communicate with it. This could be accomplished in a number of ways, most notably with firewall rules/whitelisting. These features are available in the native Windows Firewall, as described in http://technet.microsoft.com/en-us/library/cc725770%28WS.10%29.aspx and numerous other Microsoft Knowledge Base articles. -- Vendor Mitigation: Guidelines to secure the remote notify feature: https://support.accelerite.com/hc/en-us/articles/203659814-Accelerite-releases-solutions-and-best-practices-to-enhance-the-security-for-RBAC-and-Remote-Notify-features
+
+## Disclosure Timeline
+
+- 2015-05-28 - Vulnerability reported to vendor
+- 2015-07-20 - Coordinated public release of advisory

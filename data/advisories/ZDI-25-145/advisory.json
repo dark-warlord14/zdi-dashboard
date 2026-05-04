@@ -1,0 +1,28 @@
+{
+  "additional_details": "NVIDIA has issued an update to correct this vulnerability. More details can be found at: https://nvidia.custhelp.com/app/answers/detail/a_id/5625",
+  "advisory_date": "2025-03-13",
+  "affected_products": [
+    "Riva"
+  ],
+  "affected_vendors": [
+    "NVIDIA"
+  ],
+  "credit": "David Fiser and Alfredo Oliveira ( Nebula of Trend Micro )",
+  "cve": "CVE-2025-23242",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-23242",
+  "cvss": 7.3,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+  "disclosure_timeline": [
+    "2024-11-15 - Vulnerability reported to vendor",
+    "2025-03-13 - Coordinated public release of advisory",
+    "2025-03-13 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-145 ZDI-CAN-25794 NVIDIA Riva Triton Inference Server Missing Authentication Vulnerability 2025-03-13 CVE-2025-23242 https://www.cve.org/CVERecord?id=CVE-2025-23242 7.3 AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L ['NVIDIA'] ['Riva'] This vulnerability allows remote attackers to access protected functionality on affected installations of NVIDIA Riva. Authentication is not required to exploit this vulnerability. The specific flaw exists within the configuration of the Triton Inference Server. The issue results from the lack of authentication prior to allowing access to functionality. An attacker can leverage this vulnerability to access the Triton Inference Server API on the target system. NVIDIA has issued an update to correct this vulnerability. More details can be found at: https://nvidia.custhelp.com/app/answers/detail/a_id/5625 ['2024-11-15 - Vulnerability reported to vendor', '2025-03-13 - Coordinated public release of advisory', '2025-03-13 - Advisory Updated'] David Fiser and Alfredo Oliveira ( Nebula of Trend Micro ) https://www.zerodayinitiative.com/advisories/ZDI-25-145/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-145/",
+  "title": "NVIDIA Riva Triton Inference Server Missing Authentication Vulnerability",
+  "updated_date": "2025-03-13",
+  "vulnerability_details": "This vulnerability allows remote attackers to access protected functionality on affected installations of NVIDIA Riva. Authentication is not required to exploit this vulnerability. The specific flaw exists within the configuration of the Triton Inference Server. The issue results from the lack of authentication prior to allowing access to functionality. An attacker can leverage this vulnerability to access the Triton Inference Server API on the target system.",
+  "zdi_can": "ZDI-CAN-25794",
+  "zdi_id": "ZDI-25-145"
+}

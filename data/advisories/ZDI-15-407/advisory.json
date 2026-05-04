@@ -1,0 +1,27 @@
+{
+  "additional_details": "Apache has issued an update to correct this vulnerability. More details can be found at: http://activemq.apache.org/security-advisories.data/CVE-2015-1830-announcement.txt",
+  "advisory_date": "2015-08-31",
+  "affected_products": [
+    "ActiveMQ"
+  ],
+  "affected_vendors": [
+    "Apache"
+  ],
+  "credit": "Steven Seeley of Source Incite",
+  "cve": "CVE-2015-1830",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-1830",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2015-06-30 - Vulnerability reported to vendor",
+    "2015-08-31 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-15-407 ZDI-CAN-3005 Apache ActiveMQ RestFilter Directory Traversal Remote Code Execution Vulnerability 2015-08-31 CVE-2015-1830 https://www.cve.org/CVERecord?id=CVE-2015-1830 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Apache'] ['ActiveMQ'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apache ActiveMQ. Authentication is not required to exploit this vulnerability. The specific flaw exists within ActiveMQ fileserver web application. By issuing specially crafted requests, an attacker can create an arbitrary file on the server with attacker controlled data. An attacker can leverage this vulnerability to execute code under the context of the user. Apache has issued an update to correct this vulnerability. More details can be found at: http://activemq.apache.org/security-advisories.data/CVE-2015-1830-announcement.txt ['2015-06-30 - Vulnerability reported to vendor', '2015-08-31 - Coordinated public release of advisory'] Steven Seeley of Source Incite https://www.zerodayinitiative.com/advisories/ZDI-15-407/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-407/",
+  "title": "Apache ActiveMQ RestFilter Directory Traversal Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apache ActiveMQ. Authentication is not required to exploit this vulnerability. The specific flaw exists within ActiveMQ fileserver web application. By issuing specially crafted requests, an attacker can create an arbitrary file on the server with attacker controlled data. An attacker can leverage this vulnerability to execute code under the context of the user.",
+  "zdi_can": "ZDI-CAN-3005",
+  "zdi_id": "ZDI-15-407"
+}

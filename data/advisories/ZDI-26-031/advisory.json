@@ -1,0 +1,28 @@
+{
+  "additional_details": "10/09/25 \u2013 ZDI submitted the report to the vendor\u2019s GitHub account 10/10/25 \u2013 the vendor closed the report 10/15/25 \u2013 ZDI asked for the reason 11/10/25 \u2013 ZDI asked for the fix 12/10/25 \u2013 ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+  "advisory_date": "2026-01-09",
+  "affected_products": [
+    "Open WebUI"
+  ],
+  "affected_vendors": [
+    "Open WebUI"
+  ],
+  "credit": "Peter Girnus (@gothburz), Brandon Niemczyk of Trend Zero Day Initiative",
+  "cve": "CVE-2026-0765",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-0765",
+  "cvss": 8.8,
+  "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2025-10-09 - Vulnerability reported to vendor",
+    "2026-01-09 - Coordinated public release of advisory",
+    "2026-01-09 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-26-031 ZDI-CAN-28258 (0Day) Open WebUI PIP install_frontmatter_requirements Command Injection Remote Code Execution Vulnerability 2026-01-09 CVE-2026-0765 https://www.cve.org/CVERecord?id=CVE-2026-0765 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Open WebUI'] ['Open WebUI'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Open WebUI. Authentication is required to exploit this vulnerability. The specific flaw exists within the install_frontmatter_requirements function.The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of the service account. 10/09/25 \u2013 ZDI submitted the report to the vendor\u2019s GitHub account 10/10/25 \u2013 the vendor closed the report 10/15/25 \u2013 ZDI asked for the reason 11/10/25 \u2013 ZDI asked for the fix 12/10/25 \u2013 ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2025-10-09 - Vulnerability reported to vendor', '2026-01-09 - Coordinated public release of advisory', '2026-01-09 - Advisory Updated'] Peter Girnus (@gothburz), Brandon Niemczyk of Trend Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-031/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-031/",
+  "title": "(0Day) Open WebUI PIP install_frontmatter_requirements Command Injection Remote Code Execution Vulnerability",
+  "updated_date": "2026-01-09",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Open WebUI. Authentication is required to exploit this vulnerability. The specific flaw exists within the install_frontmatter_requirements function.The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of the service account.",
+  "zdi_can": "ZDI-CAN-28258",
+  "zdi_id": "ZDI-26-031"
+}

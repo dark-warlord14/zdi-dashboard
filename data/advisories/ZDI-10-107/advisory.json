@@ -1,0 +1,30 @@
+{
+  "additional_details": "Mitigation of this problem can be accomplished by replacing the static keys with custom keys. These instructions can be found in the installation guide for your product (available on the Sourcefire support site). https://support.sourcefire.com/notices/notice/1437",
+  "advisory_date": "2010-06-10",
+  "affected_products": [
+    "3D Sensor 1000 3D Sensor 2000 3D Sensor 9900 Defense Center 1000"
+  ],
+  "affected_vendors": [
+    "Sourcefire",
+    "Sourcefire",
+    "Sourcefire",
+    "Sourcefire"
+  ],
+  "credit": "Anonymous",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 7.7,
+  "cvss_vector": "AV:A/AC:L/Au:S/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2010-06-02 - Vulnerability reported to vendor",
+    "2010-06-10 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-10-107 ZDI-CAN-799 Multiple Sourcefire Products Static Web SSL Keys Vulnerability 2010-06-10 7.7 AV:A/AC:L/Au:S/C:C/I:C/A:C ['Sourcefire', 'Sourcefire', 'Sourcefire', 'Sourcefire'] ['3D Sensor 1000 3D Sensor 2000 3D Sensor 9900 Defense Center 1000'] This vulnerability allows remote attackers to decrypt secure socket layer (SSL) communications directed to multiple Sourcefire products. The specific flaw exists within the reuse of private SSL keys for multiple devices and installations. The keypair is stored in /etc/ssl/server.crt and /etc/ssl/server.key. Disclosure of the private key allows an attacker to decrypt and monitor SSL communications with the target. Mitigation of this problem can be accomplished by replacing the static keys with custom keys. These instructions can be found in the installation guide for your product (available on the Sourcefire support site). https://support.sourcefire.com/notices/notice/1437 ['2010-06-02 - Vulnerability reported to vendor', '2010-06-10 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-10-107/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-107/",
+  "title": "Multiple Sourcefire Products Static Web SSL Keys Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to decrypt secure socket layer (SSL) communications directed to multiple Sourcefire products. The specific flaw exists within the reuse of private SSL keys for multiple devices and installations. The keypair is stored in /etc/ssl/server.crt and /etc/ssl/server.key. Disclosure of the private key allows an attacker to decrypt and monitor SSL communications with the target.",
+  "zdi_can": "ZDI-CAN-799",
+  "zdi_id": "ZDI-10-107"
+}

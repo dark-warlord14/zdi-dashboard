@@ -1,0 +1,27 @@
+{
+  "additional_details": "https://www.opendesign.com/security-advisories",
+  "advisory_date": "2023-02-09",
+  "affected_products": [
+    "Drawing SDK"
+  ],
+  "affected_vendors": [
+    "Open Design Alliance (ODA)"
+  ],
+  "credit": "Mat Powell & Jimmy Calderon (@vectors2final) of Trend Micro Zero Day Initiative",
+  "cve": "CVE-2021-32950",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2021-32950",
+  "cvss": 3.3,
+  "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+  "disclosure_timeline": [
+    "2022-10-18 - Vulnerability reported to vendor",
+    "2023-02-09 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-136 ZDI-CAN-19163 Open Design Alliance (ODA) Drawing SDK DXF File Parsing Out-Of-Bounds Read Information Disclosure Vulnerability 2023-02-09 CVE-2021-32950 https://www.cve.org/CVERecord?id=CVE-2021-32950 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N ['Open Design Alliance (ODA)'] ['Drawing SDK'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Open Design Alliance (ODA) Drawing SDK. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of DXF files. Crafted data in a DXF file can trigger a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process. https://www.opendesign.com/security-advisories ['2022-10-18 - Vulnerability reported to vendor', '2023-02-09 - Coordinated public release of advisory'] Mat Powell & Jimmy Calderon (@vectors2final) of Trend Micro Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-23-136/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-136/",
+  "title": "Open Design Alliance (ODA) Drawing SDK DXF File Parsing Out-Of-Bounds Read Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Open Design Alliance (ODA) Drawing SDK. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of DXF files. Crafted data in a DXF file can trigger a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-19163",
+  "zdi_id": "ZDI-23-136"
+}

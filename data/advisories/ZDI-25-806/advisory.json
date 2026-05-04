@@ -1,0 +1,28 @@
+{
+  "additional_details": "03/04/25 \u2013 ZDI contacted the vendor\u2019s support team to request their PSIRT contacts 04/11/25 \u2013 ZDI asked for updates 07/29/25 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product.",
+  "advisory_date": "2025-08-06",
+  "affected_products": [
+    "Backupper Workstation"
+  ],
+  "affected_vendors": [
+    "AOMEI"
+  ],
+  "credit": "Zeze and Sharkkcode with TeamT5",
+  "cve": "CVE-2025-8612",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-8612",
+  "cvss": 7.3,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2025-07-29 - Vulnerability reported to vendor",
+    "2025-08-06 - Coordinated public release of advisory",
+    "2025-08-06 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-806 ZDI-CAN-27059 (0Day) AOMEI Backupper Workstation Link Following Local Privilege Escalation Vulnerability 2025-08-06 CVE-2025-8612 https://www.cve.org/CVERecord?id=CVE-2025-8612 7.3 AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H ['AOMEI'] ['Backupper Workstation'] This vulnerability allows local attackers to escalate privileges on affected installations of AOMEI Backupper Workstation. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. User interaction on the part of an administrator is needed additionally. The specific flaw exists within the restore functionality. By creating a junction, an attacker can abuse the service to create arbitrary files. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. 03/04/25 \u2013 ZDI contacted the vendor\u2019s support team to request their PSIRT contacts 04/11/25 \u2013 ZDI asked for updates 07/29/25 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product. ['2025-07-29 - Vulnerability reported to vendor', '2025-08-06 - Coordinated public release of advisory', '2025-08-06 - Advisory Updated'] Zeze and Sharkkcode with TeamT5 https://www.zerodayinitiative.com/advisories/ZDI-25-806/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-806/",
+  "title": "(0Day) AOMEI Backupper Workstation Link Following Local Privilege Escalation Vulnerability",
+  "updated_date": "2025-08-06",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of AOMEI Backupper Workstation. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. User interaction on the part of an administrator is needed additionally. The specific flaw exists within the restore functionality. By creating a junction, an attacker can abuse the service to create arbitrary files. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-27059",
+  "zdi_id": "ZDI-25-806"
+}

@@ -1,0 +1,27 @@
+{
+  "additional_details": "Delta Electronics has issued an update to correct this vulnerability. More details can be found at: https://www.cisa.gov/uscert/ics/advisories/icsa-22-298-07",
+  "advisory_date": "2022-10-27",
+  "affected_products": [
+    "InfraSuite Device Master"
+  ],
+  "affected_vendors": [
+    "Delta Electronics"
+  ],
+  "credit": "kimiya",
+  "cve": "CVE-2022-41644",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-41644",
+  "cvss": 8.8,
+  "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2022-06-22 - Vulnerability reported to vendor",
+    "2022-10-27 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-1486 ZDI-CAN-17681 Delta Industrial Automation InfraSuite Device Master ModifyPrivByID Missing Authentication Privilege Escalation Vulnerability 2022-10-27 CVE-2022-41644 https://www.cve.org/CVERecord?id=CVE-2022-41644 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Delta Electronics'] ['InfraSuite Device Master'] This vulnerability allows remote attackers to escalate privileges or create a denial-of-service condition on affected installations of Delta Industrial Automation InfraSuite Device Master. Authentication is not required to create a denial-of-service condition. Authentication is required to achieve privilege escalation. The specific flaw exists within the ModifyPrivByID function. The issue results from the lack of authentication prior to allowing access to functionality. An attacker can leverage this vulnerability to escalate privileges to resources normally protected from the user or to create a denial-of-service condition on system. Delta Electronics has issued an update to correct this vulnerability. More details can be found at: https://www.cisa.gov/uscert/ics/advisories/icsa-22-298-07 ['2022-06-22 - Vulnerability reported to vendor', '2022-10-27 - Coordinated public release of advisory'] kimiya https://www.zerodayinitiative.com/advisories/ZDI-22-1486/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-1486/",
+  "title": "Delta Industrial Automation InfraSuite Device Master ModifyPrivByID Missing Authentication Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to escalate privileges or create a denial-of-service condition on affected installations of Delta Industrial Automation InfraSuite Device Master. Authentication is not required to create a denial-of-service condition. Authentication is required to achieve privilege escalation. The specific flaw exists within the ModifyPrivByID function. The issue results from the lack of authentication prior to allowing access to functionality. An attacker can leverage this vulnerability to escalate privileges to resources normally protected from the user or to create a denial-of-service condition on system.",
+  "zdi_can": "ZDI-CAN-17681",
+  "zdi_id": "ZDI-22-1486"
+}

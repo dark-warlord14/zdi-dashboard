@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2017-0228",
+  "advisory_date": "2017-05-10",
+  "affected_products": [
+    "Chakra"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Team Sniper (Keen Team and PC Manager)",
+  "cve": "CVE-2017-0228",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-0228",
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2017-03-17 - Vulnerability reported to vendor",
+    "2017-05-10 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-17-326 ZDI-CAN-4618 (Pwn2Own) Microsoft Chakra Array Use-After-Free Remote Code Execution Vulnerability 2017-05-10 CVE-2017-0228 https://www.cve.org/CVERecord?id=CVE-2017-0228 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Microsoft'] ['Chakra'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Chakra. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Array objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code under the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2017-0228 ['2017-03-17 - Vulnerability reported to vendor', '2017-05-10 - Coordinated public release of advisory'] Team Sniper (Keen Team and PC Manager) https://www.zerodayinitiative.com/advisories/ZDI-17-326/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-326/",
+  "title": "(Pwn2Own) Microsoft Chakra Array Use-After-Free Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Chakra. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Array objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code under the context of the current process.",
+  "zdi_can": "ZDI-CAN-4618",
+  "zdi_id": "ZDI-17-326"
+}

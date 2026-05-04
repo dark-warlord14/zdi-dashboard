@@ -1,0 +1,28 @@
+{
+  "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb18-21.html",
+  "advisory_date": "2018-07-16",
+  "affected_products": [
+    "Acrobat Pro DC"
+  ],
+  "affected_vendors": [
+    "Adobe"
+  ],
+  "credit": "kdot",
+  "cve": "CVE-2018-5045",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2018-5045",
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2018-04-25 - Vulnerability reported to vendor",
+    "2018-07-16 - Coordinated public release of advisory",
+    "2018-07-16 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-661 ZDI-CAN-6045 Adobe Acrobat Pro DC U3D TGA Heap-based Buffer Overflow Remote Code Execution Vulnerability 2018-07-16 CVE-2018-5045 https://www.cve.org/CVERecord?id=CVE-2018-5045 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Adobe'] ['Acrobat Pro DC'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Adobe Acrobat Pro DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of TGA files from U3D objects. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length, heap-based buffer. An attacker can leverage this vulnerability to execute code under the context of the current process. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb18-21.html ['2018-04-25 - Vulnerability reported to vendor', '2018-07-16 - Coordinated public release of advisory', '2018-07-16 - Advisory Updated'] kdot https://www.zerodayinitiative.com/advisories/ZDI-18-661/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-661/",
+  "title": "Adobe Acrobat Pro DC U3D TGA Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+  "updated_date": "2018-07-16",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Adobe Acrobat Pro DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of TGA files from U3D objects. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length, heap-based buffer. An attacker can leverage this vulnerability to execute code under the context of the current process.",
+  "zdi_can": "ZDI-CAN-6045",
+  "zdi_id": "ZDI-18-661"
+}

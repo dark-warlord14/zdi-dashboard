@@ -1,0 +1,28 @@
+{
+  "additional_details": "Ivanti has issued an update to correct this vulnerability. More details can be found at: https://forums.ivanti.com/s/article/Ivanti-Avalanche-6-4-5-Security-Advisory?language=en_US",
+  "advisory_date": "2024-10-08",
+  "affected_products": [
+    "Avalanche"
+  ],
+  "affected_vendors": [
+    "Ivanti"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2024-47009",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-47009",
+  "cvss": 7.3,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+  "disclosure_timeline": [
+    "2024-04-17 - Vulnerability reported to vendor",
+    "2024-10-08 - Coordinated public release of advisory",
+    "2024-10-08 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-1325 ZDI-CAN-23523 Ivanti Avalanche SecureFilter Content-Type Authentication Bypass Vulnerability 2024-10-08 CVE-2024-47009 https://www.cve.org/CVERecord?id=CVE-2024-47009 7.3 AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L ['Ivanti'] ['Avalanche'] This vulnerability allows remote attackers to partially bypass authentication on affected installations of Ivanti Avalanche. Authentication is not required to exploit this vulnerability. The specific flaw exists within the SecureFilter class. The issue results from improper handling of URIs and their accompanying Content-Type HTTP request headers. An attacker can leverage this vulnerability to partially bypass authentication on the application. Ivanti has issued an update to correct this vulnerability. More details can be found at: https://forums.ivanti.com/s/article/Ivanti-Avalanche-6-4-5-Security-Advisory?language=en_US ['2024-04-17 - Vulnerability reported to vendor', '2024-10-08 - Coordinated public release of advisory', '2024-10-08 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-24-1325/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-1325/",
+  "title": "Ivanti Avalanche SecureFilter Content-Type Authentication Bypass Vulnerability",
+  "updated_date": "2024-10-08",
+  "vulnerability_details": "This vulnerability allows remote attackers to partially bypass authentication on affected installations of Ivanti Avalanche. Authentication is not required to exploit this vulnerability. The specific flaw exists within the SecureFilter class. The issue results from improper handling of URIs and their accompanying Content-Type HTTP request headers. An attacker can leverage this vulnerability to partially bypass authentication on the application.",
+  "zdi_can": "ZDI-CAN-23523",
+  "zdi_id": "ZDI-24-1325"
+}

@@ -1,0 +1,27 @@
+{
+  "additional_details": "Oracle has issued an update to correct this vulnerability. More details can be found at: https://www.oracle.com/technetwork/security-advisory/cpujan2019-5072801.html",
+  "advisory_date": "2019-01-17",
+  "affected_products": [
+    "VirtualBox"
+  ],
+  "affected_vendors": [
+    "Oracle"
+  ],
+  "credit": "Huy Ngo (Viettel Cyber Security)",
+  "cve": "CVE-2019-2520",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2019-2520",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2018-07-30 - Vulnerability reported to vendor",
+    "2019-01-17 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-19-042 ZDI-CAN-6985 Oracle VirtualBox crStateDeleteRenderbuffersEXT Untrusted Pointer Dereference Privilege Escalation Vulnerability 2019-01-17 CVE-2019-2520 https://www.cve.org/CVERecord?id=CVE-2019-2520 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H ['Oracle'] ['VirtualBox'] This vulnerability allows local attackers to execute arbitrary code on vulnerable installations of Oracle VirtualBox. An attacker must first obtain the ability to execute low-privileged code on the target guest system in order to exploit this vulnerability. The specific flaw exists within the crStateDeleteRenderbuffersEXT method. The issue results from the lack of proper validation of a user-supplied value prior to dereferencing it as a pointer. An attacker can leverage this vulnerability to escalate privileges and execute code in the context of the hypervisor. Oracle has issued an update to correct this vulnerability. More details can be found at: https://www.oracle.com/technetwork/security-advisory/cpujan2019-5072801.html ['2018-07-30 - Vulnerability reported to vendor', '2019-01-17 - Coordinated public release of advisory'] Huy Ngo (Viettel Cyber Security) https://www.zerodayinitiative.com/advisories/ZDI-19-042/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-19-042/",
+  "title": "Oracle VirtualBox crStateDeleteRenderbuffersEXT Untrusted Pointer Dereference Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to execute arbitrary code on vulnerable installations of Oracle VirtualBox. An attacker must first obtain the ability to execute low-privileged code on the target guest system in order to exploit this vulnerability. The specific flaw exists within the crStateDeleteRenderbuffersEXT method. The issue results from the lack of proper validation of a user-supplied value prior to dereferencing it as a pointer. An attacker can leverage this vulnerability to escalate privileges and execute code in the context of the hypervisor.",
+  "zdi_can": "ZDI-CAN-6985",
+  "zdi_id": "ZDI-19-042"
+}

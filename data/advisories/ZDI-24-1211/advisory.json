@@ -1,0 +1,28 @@
+{
+  "additional_details": "Ivanti has issued an update to correct this vulnerability. More details can be found at: https://forums.ivanti.com/s/article/Security-Advisory-EPM-September-2024-for-EPM-2024-and-EPM-2022",
+  "advisory_date": "2024-09-11",
+  "affected_products": [
+    "Endpoint Manager"
+  ],
+  "affected_vendors": [
+    "Ivanti"
+  ],
+  "credit": "06fe5fd2bc53027c4a3b7e395af0b850e7b8a044",
+  "cve": "CVE-2024-8191",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-8191",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2024-06-06 - Vulnerability reported to vendor",
+    "2024-09-11 - Coordinated public release of advisory",
+    "2024-09-11 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-1211 ZDI-CAN-24274 Ivanti Endpoint Manager WasPreviouslyMapped SQL Injection Remote Code Execution Vulnerability 2024-09-11 CVE-2024-8191 https://www.cve.org/CVERecord?id=CVE-2024-8191 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Ivanti'] ['Endpoint Manager'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ivanti Endpoint Manager. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. Alternatively, no user interaction is required if the attacker has administrative credentials to the application. The specific flaw exists within the implementation of the WasPreviouslyMapped method. The issue results from the lack of proper validation of a user-supplied string before using it to construct SQL queries. An attacker can leverage this vulnerability to execute code in the context of the service account. Ivanti has issued an update to correct this vulnerability. More details can be found at: https://forums.ivanti.com/s/article/Security-Advisory-EPM-September-2024-for-EPM-2024-and-EPM-2022 ['2024-06-06 - Vulnerability reported to vendor', '2024-09-11 - Coordinated public release of advisory', '2024-09-11 - Advisory Updated'] 06fe5fd2bc53027c4a3b7e395af0b850e7b8a044 https://www.zerodayinitiative.com/advisories/ZDI-24-1211/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-1211/",
+  "title": "Ivanti Endpoint Manager WasPreviouslyMapped SQL Injection Remote Code Execution Vulnerability",
+  "updated_date": "2024-09-11",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ivanti Endpoint Manager. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. Alternatively, no user interaction is required if the attacker has administrative credentials to the application. The specific flaw exists within the implementation of the WasPreviouslyMapped method. The issue results from the lack of proper validation of a user-supplied string before using it to construct SQL queries. An attacker can leverage this vulnerability to execute code in the context of the service account.",
+  "zdi_can": "ZDI-CAN-24274",
+  "zdi_id": "ZDI-24-1211"
+}

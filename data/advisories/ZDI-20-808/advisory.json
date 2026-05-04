@@ -1,0 +1,28 @@
+{
+  "additional_details": "Fixed in version 6.60",
+  "advisory_date": "2020-07-07",
+  "affected_products": [
+    "HMI EA9"
+  ],
+  "affected_vendors": [
+    "C-MORE"
+  ],
+  "credit": "Ta-Lun Yen & Chizuru Toyama of TXOne IoT/ICS Security Research Labs (Trend Micro)",
+  "cve": "CVE-2020-10920",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2020-10920",
+  "cvss": 9.8,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2020-02-21 - Vulnerability reported to vendor",
+    "2020-07-07 - Coordinated public release of advisory",
+    "2020-07-08 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-20-808 ZDI-CAN-10493 C-MORE HMI EA9 Control Port Missing Authentication for Critical Function Remote Code Execution Vulnerability 2020-07-07 CVE-2020-10920 https://www.cve.org/CVERecord?id=CVE-2020-10920 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['C-MORE'] ['HMI EA9'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of C-More HMI EA9 touch screen panels. Authentication is not required to exploit this vulnerability. The specific flaw exists within the control service, which listens on TCP port 9999 by default. The issue results from the lack of authentication prior to allowing alterations to the system configuration. An attacker can leverage this vulnerability to execute code in the context of the device. Fixed in version 6.60 ['2020-02-21 - Vulnerability reported to vendor', '2020-07-07 - Coordinated public release of advisory', '2020-07-08 - Advisory Updated'] Ta-Lun Yen & Chizuru Toyama of TXOne IoT/ICS Security Research Labs (Trend Micro) https://www.zerodayinitiative.com/advisories/ZDI-20-808/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-20-808/",
+  "title": "C-MORE HMI EA9 Control Port Missing Authentication for Critical Function Remote Code Execution Vulnerability",
+  "updated_date": "2020-07-08",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of C-More HMI EA9 touch screen panels. Authentication is not required to exploit this vulnerability. The specific flaw exists within the control service, which listens on TCP port 9999 by default. The issue results from the lack of authentication prior to allowing alterations to the system configuration. An attacker can leverage this vulnerability to execute code in the context of the device.",
+  "zdi_can": "ZDI-CAN-10493",
+  "zdi_id": "ZDI-20-808"
+}

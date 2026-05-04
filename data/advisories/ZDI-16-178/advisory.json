@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/library/security/MS16-024",
+  "advisory_date": "2016-03-08",
+  "affected_products": [
+    "Edge"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "d81b2a7b317c035a8da11d63122964c2",
+  "cve": "CVE-2016-0123",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-0123",
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2015-11-24 - Vulnerability reported to vendor",
+    "2016-03-08 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-16-178 ZDI-CAN-3411 Microsoft Edge GetLineBoxForReuse Out-Of-Bounds Read Remote Code Execution Vulnerability 2016-03-08 CVE-2016-0123 https://www.cve.org/CVERecord?id=CVE-2016-0123 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Microsoft'] ['Edge'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Edge. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The vulnerability relates to how Microsoft Edge processes HTML content with absolute positioning. By manipulating a document's elements an attacker can force Microsoft Edge to read memory outside the bounds of an array. An attacker can leverage this vulnerability to execute code under the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/library/security/MS16-024 ['2015-11-24 - Vulnerability reported to vendor', '2016-03-08 - Coordinated public release of advisory'] d81b2a7b317c035a8da11d63122964c2 https://www.zerodayinitiative.com/advisories/ZDI-16-178/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-178/",
+  "title": "Microsoft Edge GetLineBoxForReuse Out-Of-Bounds Read Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Edge. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The vulnerability relates to how Microsoft Edge processes HTML content with absolute positioning. By manipulating a document's elements an attacker can force Microsoft Edge to read memory outside the bounds of an array. An attacker can leverage this vulnerability to execute code under the context of the current process.",
+  "zdi_can": "ZDI-CAN-3411",
+  "zdi_id": "ZDI-16-178"
+}

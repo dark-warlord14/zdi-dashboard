@@ -1,0 +1,27 @@
+{
+  "additional_details": "Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/solution/1116960",
+  "advisory_date": "2017-03-29",
+  "affected_products": [
+    "InterScan Web Security Virtual Appliance"
+  ],
+  "affected_vendors": [
+    "Trend Micro"
+  ],
+  "credit": "Steven Seeley of Source Incite",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 4.0,
+  "cvss_vector": "AV:N/AC:L/Au:S/C:N/I:N/A:P",
+  "disclosure_timeline": [
+    "2016-12-20 - Vulnerability reported to vendor",
+    "2017-03-29 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-17-199 ZDI-CAN-4311 Trend Micro InterScan Web Security Virtual Appliance LogDelete processRequest method Directory Traversal Denial of Service Vulnerability 2017-03-29 4.0 AV:N/AC:L/Au:S/C:N/I:N/A:P ['Trend Micro'] ['InterScan Web Security Virtual Appliance'] This vulnerability allows remote attackers to delete arbitrary files on vulnerable installations of Trend Micro InterScan Web Security Virtual Appliance. Authentication is required to exploit this vulnerability. The specific flaw exists within the LogDelete processRequest method. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to deny service to users of the system. Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/solution/1116960 ['2016-12-20 - Vulnerability reported to vendor', '2017-03-29 - Coordinated public release of advisory'] Steven Seeley of Source Incite https://www.zerodayinitiative.com/advisories/ZDI-17-199/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-199/",
+  "title": "Trend Micro InterScan Web Security Virtual Appliance LogDelete processRequest method Directory Traversal Denial of Service Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to delete arbitrary files on vulnerable installations of Trend Micro InterScan Web Security Virtual Appliance. Authentication is required to exploit this vulnerability. The specific flaw exists within the LogDelete processRequest method. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to deny service to users of the system.",
+  "zdi_can": "ZDI-CAN-4311",
+  "zdi_id": "ZDI-17-199"
+}

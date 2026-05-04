@@ -1,0 +1,28 @@
+{
+  "additional_details": "Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/en-US/solution/KA-0018217",
+  "advisory_date": "2025-01-08",
+  "affected_products": [
+    "Apex One"
+  ],
+  "affected_vendors": [
+    "Trend Micro"
+  ],
+  "credit": "Lays (@_L4ys) of TRAPA Security",
+  "cve": "CVE-2024-55917",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-55917",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2024-07-12 - Vulnerability reported to vendor",
+    "2025-01-08 - Coordinated public release of advisory",
+    "2025-01-08 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-004 ZDI-CAN-24566 Trend Micro Apex One Origin Validation Error Local Privilege Escalation Vulnerability 2025-01-08 CVE-2024-55917 https://www.cve.org/CVERecord?id=CVE-2024-55917 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Trend Micro'] ['Apex One'] This vulnerability allows local attackers to escalate privileges on affected installations of Trend Micro Apex One Security Agent. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Apex One NT Listener service. The issue results from insufficient validation of the origin of commands. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/en-US/solution/KA-0018217 ['2024-07-12 - Vulnerability reported to vendor', '2025-01-08 - Coordinated public release of advisory', '2025-01-08 - Advisory Updated'] Lays (@_L4ys) of TRAPA Security https://www.zerodayinitiative.com/advisories/ZDI-25-004/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-004/",
+  "title": "Trend Micro Apex One Origin Validation Error Local Privilege Escalation Vulnerability",
+  "updated_date": "2025-01-08",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Trend Micro Apex One Security Agent. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Apex One NT Listener service. The issue results from insufficient validation of the origin of commands. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-24566",
+  "zdi_id": "ZDI-25-004"
+}

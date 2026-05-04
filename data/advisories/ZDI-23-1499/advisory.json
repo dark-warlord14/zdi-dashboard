@@ -1,0 +1,27 @@
+{
+  "additional_details": "Cacti has issued an update to correct this vulnerability. More details can be found at: https://github.com/cacti/cacti/security/advisories/GHSA-v5w7-hww7-2f22",
+  "advisory_date": "2023-10-04",
+  "affected_products": [
+    "Cacti"
+  ],
+  "affected_vendors": [
+    "Cacti"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2023-39365",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-39365",
+  "cvss": 6.6,
+  "cvss_vector": "AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2023-05-03 - Vulnerability reported to vendor",
+    "2023-10-04 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-1499 ZDI-CAN-21001 Cacti link Local File Inclusion Remote Code Execution Vulnerability 2023-10-04 CVE-2023-39365 https://www.cve.org/CVERecord?id=CVE-2023-39365 6.6 AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H ['Cacti'] ['Cacti'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Cacti. Authentication is required to exploit this vulnerability. The specific flaw exists within the link endpoint. The issue results from the lack of proper validation of data retrieved from the database prior to passing it to a PHP include function. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the service account. Cacti has issued an update to correct this vulnerability. More details can be found at: https://github.com/cacti/cacti/security/advisories/GHSA-v5w7-hww7-2f22 ['2023-05-03 - Vulnerability reported to vendor', '2023-10-04 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-23-1499/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-1499/",
+  "title": "Cacti link Local File Inclusion Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Cacti. Authentication is required to exploit this vulnerability. The specific flaw exists within the link endpoint. The issue results from the lack of proper validation of data retrieved from the database prior to passing it to a PHP include function. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the service account.",
+  "zdi_can": "ZDI-CAN-21001",
+  "zdi_id": "ZDI-23-1499"
+}

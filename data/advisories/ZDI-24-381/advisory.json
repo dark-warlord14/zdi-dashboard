@@ -1,0 +1,28 @@
+{
+  "additional_details": "Ivanti has issued an update to correct this vulnerability. More details can be found at: https://forums.ivanti.com/s/article/Avalanche-6-4-3-Security-Hardening-and-CVEs-addressed?language=en_US",
+  "advisory_date": "2024-04-23",
+  "affected_products": [
+    "Avalanche"
+  ],
+  "affected_vendors": [
+    "Ivanti"
+  ],
+  "credit": "Piotr Bazydlo (@chudypb) of Trend Micro Zero Day Initiative",
+  "cve": "CVE-2024-24991",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-24991",
+  "cvss": 6.5,
+  "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+  "disclosure_timeline": [
+    "2023-12-13 - Vulnerability reported to vendor",
+    "2024-04-23 - Coordinated public release of advisory",
+    "2024-07-01 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-381 ZDI-CAN-22839 Ivanti Avalanche WLAvalancheService Null Pointer Dereference Denial-of-Service Vulnerability 2024-04-23 CVE-2024-24991 https://www.cve.org/CVERecord?id=CVE-2024-24991 6.5 AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H ['Ivanti'] ['Avalanche'] This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of Ivanti Avalanche. Authentication is required to exploit this vulnerability. The specific flaw exists within the WLAvalancheService, which listens on TCP port 1777 by default. The issue results from dereferencing a null pointer. An attacker can leverage this vulnerability to create a denial-of-service condition on the system. Ivanti has issued an update to correct this vulnerability. More details can be found at: https://forums.ivanti.com/s/article/Avalanche-6-4-3-Security-Hardening-and-CVEs-addressed?language=en_US ['2023-12-13 - Vulnerability reported to vendor', '2024-04-23 - Coordinated public release of advisory', '2024-07-01 - Advisory Updated'] Piotr Bazydlo (@chudypb) of Trend Micro Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-24-381/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-381/",
+  "title": "Ivanti Avalanche WLAvalancheService Null Pointer Dereference Denial-of-Service Vulnerability",
+  "updated_date": "2024-07-01",
+  "vulnerability_details": "This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of Ivanti Avalanche. Authentication is required to exploit this vulnerability. The specific flaw exists within the WLAvalancheService, which listens on TCP port 1777 by default. The issue results from dereferencing a null pointer. An attacker can leverage this vulnerability to create a denial-of-service condition on the system.",
+  "zdi_can": "ZDI-CAN-22839",
+  "zdi_id": "ZDI-24-381"
+}

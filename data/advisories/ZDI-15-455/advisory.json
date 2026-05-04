@@ -1,0 +1,27 @@
+{
+  "additional_details": "VMware, Inc. has issued an update to correct this vulnerability. More details can be found at: https://www.vmware.com/security/advisories/VMSA-2015-0007",
+  "advisory_date": "2015-10-02",
+  "affected_products": [
+    "VMware Server"
+  ],
+  "affected_vendors": [
+    "VMware, Inc."
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2015-2342",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-2342",
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2015-04-07 - Vulnerability reported to vendor",
+    "2015-10-02 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-15-455 ZDI-CAN-2763 VMware vCenter Server JMX RMI Remote Code Execution Vulnerability 2015-10-02 CVE-2015-2342 https://www.cve.org/CVERecord?id=CVE-2015-2342 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['VMware, Inc.'] ['VMware Server'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of VMware vCenter Server. Authentication is not required to exploit this vulnerability. The specific flaw exists in the configuration of the JMX remote interface. This interface allows a remote attacker to register attacker-controlled mbeans. This vulnerability can be leveraged by an attacker to gain remote code execution under the context of SYSTEM. VMware, Inc. has issued an update to correct this vulnerability. More details can be found at: https://www.vmware.com/security/advisories/VMSA-2015-0007 ['2015-04-07 - Vulnerability reported to vendor', '2015-10-02 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-15-455/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-455/",
+  "title": "VMware vCenter Server JMX RMI Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of VMware vCenter Server. Authentication is not required to exploit this vulnerability. The specific flaw exists in the configuration of the JMX remote interface. This interface allows a remote attacker to register attacker-controlled mbeans. This vulnerability can be leveraged by an attacker to gain remote code execution under the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-2763",
+  "zdi_id": "ZDI-15-455"
+}

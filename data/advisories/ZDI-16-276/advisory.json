@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/en-us/library/security/ms16-051.aspx",
+  "advisory_date": "2016-05-10",
+  "affected_products": [
+    "Internet Explorer"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Zheng Huang of Baidu Scloud XTeam",
+  "cve": "CVE-2016-0192",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-0192",
+  "cvss": 5.1,
+  "cvss_vector": "AV:N/AC:H/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2016-02-01 - Vulnerability reported to vendor",
+    "2016-05-10 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-16-276 ZDI-CAN-3509 Microsoft Internet Explorer AcquireLineBoxBuilderForLayout Null Array Base Remote Code Execution Vulnerability 2016-05-10 CVE-2016-0192 https://www.cve.org/CVERecord?id=CVE-2016-0192 5.1 AV:N/AC:H/Au:N/C:P/I:P/A:P ['Microsoft'] ['Internet Explorer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The vulnerability relates to how Internet Explorer performs layout of web pages. By manipulating a document's elements an attacker can cause Internet Explorer to use a null pointer as the base address of an array read. An attacker can leverage this vulnerability to execute code under the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/en-us/library/security/ms16-051.aspx ['2016-02-01 - Vulnerability reported to vendor', '2016-05-10 - Coordinated public release of advisory'] Zheng Huang of Baidu Scloud XTeam https://www.zerodayinitiative.com/advisories/ZDI-16-276/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-276/",
+  "title": "Microsoft Internet Explorer AcquireLineBoxBuilderForLayout Null Array Base Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The vulnerability relates to how Internet Explorer performs layout of web pages. By manipulating a document's elements an attacker can cause Internet Explorer to use a null pointer as the base address of an array read. An attacker can leverage this vulnerability to execute code under the context of the current process.",
+  "zdi_can": "ZDI-CAN-3509",
+  "zdi_id": "ZDI-16-276"
+}

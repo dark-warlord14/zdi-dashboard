@@ -1,0 +1,28 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-41040",
+  "advisory_date": "2022-10-17",
+  "affected_products": [
+    "Exchange"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "DA-0x43-Dx4-DA-Hx2-Tx2-TP-S-Q from GTSC",
+  "cve": "CVE-2022-41040",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-41040",
+  "cvss": 6.3,
+  "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
+  "disclosure_timeline": [
+    "2022-09-09 - Vulnerability reported to vendor",
+    "2022-10-17 - Coordinated public release of advisory",
+    "2022-11-18 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-1595 ZDI-CAN-18802 Microsoft Exchange Autodiscover Server-Side Request Forgery Privilege Escalation Vulnerability 2022-10-17 CVE-2022-41040 https://www.cve.org/CVERecord?id=CVE-2022-41040 6.3 AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L ['Microsoft'] ['Exchange'] This vulnerability allows remote attackers to escalate privileges on affected installations of Microsoft Exchange. Authentication is required to exploit this vulnerability. The specific flaw exists within the Autodiscover service. The issue results from the lack of proper validation of a URI prior to accessing resources. An attacker can leverage this vulnerability to escalate privileges to resources normally protected from the user. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-41040 ['2022-09-09 - Vulnerability reported to vendor', '2022-10-17 - Coordinated public release of advisory', '2022-11-18 - Advisory Updated'] DA-0x43-Dx4-DA-Hx2-Tx2-TP-S-Q from GTSC https://www.zerodayinitiative.com/advisories/ZDI-22-1595/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-1595/",
+  "title": "Microsoft Exchange Autodiscover Server-Side Request Forgery Privilege Escalation Vulnerability",
+  "updated_date": "2022-11-18",
+  "vulnerability_details": "This vulnerability allows remote attackers to escalate privileges on affected installations of Microsoft Exchange. Authentication is required to exploit this vulnerability. The specific flaw exists within the Autodiscover service. The issue results from the lack of proper validation of a URI prior to accessing resources. An attacker can leverage this vulnerability to escalate privileges to resources normally protected from the user.",
+  "zdi_can": "ZDI-CAN-18802",
+  "zdi_id": "ZDI-22-1595"
+}

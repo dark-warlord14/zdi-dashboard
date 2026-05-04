@@ -1,0 +1,27 @@
+{
+  "additional_details": "Symantec has issued an update to correct this vulnerability. More details can be found at: https://support.symantec.com/us/en/article.SYMSA1488.html",
+  "advisory_date": "2019-11-14",
+  "affected_products": [
+    "Endpoint Protection"
+  ],
+  "affected_vendors": [
+    "Symantec"
+  ],
+  "credit": "Z0mb1E",
+  "cve": "CVE-2019-12759",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2019-12759",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2019-09-17 - Vulnerability reported to vendor",
+    "2019-11-14 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-19-989 ZDI-CAN-9303 Symantec Endpoint Protection Manager LuComServer stDisScriptEngine Privilege Escalation Vulnerability 2019-11-14 CVE-2019-12759 https://www.cve.org/CVERecord?id=CVE-2019-12759 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Symantec'] ['Endpoint Protection'] This vulnerability allows local attackers to escalate privileges on affected installations of Symantec Endpoint Protection Manager. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the stDisScriptEngine class within LuComServer. By invoking a method of this class, an attacker can launch an arbitrary executable. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. Symantec has issued an update to correct this vulnerability. More details can be found at: https://support.symantec.com/us/en/article.SYMSA1488.html ['2019-09-17 - Vulnerability reported to vendor', '2019-11-14 - Coordinated public release of advisory'] Z0mb1E https://www.zerodayinitiative.com/advisories/ZDI-19-989/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-19-989/",
+  "title": "Symantec Endpoint Protection Manager LuComServer stDisScriptEngine Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Symantec Endpoint Protection Manager. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the stDisScriptEngine class within LuComServer. By invoking a method of this class, an attacker can launch an arbitrary executable. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-9303",
+  "zdi_id": "ZDI-19-989"
+}

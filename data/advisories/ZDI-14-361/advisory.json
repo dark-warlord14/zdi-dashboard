@@ -1,0 +1,27 @@
+{
+  "additional_details": "Hewlett-Packard has issued an update to correct this vulnerability. More details can be found at: https://h20566.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c04454636",
+  "advisory_date": "2014-10-14",
+  "affected_products": [
+    "Sprinter"
+  ],
+  "affected_vendors": [
+    "Hewlett-Packard"
+  ],
+  "credit": "Andrea Micalizzi (rgod)",
+  "cve": "CVE-2014-2636",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-2636",
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2014-05-30 - Vulnerability reported to vendor",
+    "2014-10-14 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-14-361 ZDI-CAN-2336 Hewlett-Packard Sprinter TTF16.ocx AttachToSS Memory Corruption Remote Code Execution Vulnerability 2014-10-14 CVE-2014-2636 https://www.cve.org/CVERecord?id=CVE-2014-2636 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Hewlett-Packard'] ['Sprinter'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of HP Sprinter. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The vulnerability is found in Tidestone Formula One ActiveX controls, which are installed as a part of HP Sprinter. By providing an improper parameter to the method AttachToSS provided by those controls, an attacker can execute code in the context of the browser. Hewlett-Packard has issued an update to correct this vulnerability. More details can be found at: https://h20566.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c04454636 ['2014-05-30 - Vulnerability reported to vendor', '2014-10-14 - Coordinated public release of advisory'] Andrea Micalizzi (rgod) https://www.zerodayinitiative.com/advisories/ZDI-14-361/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-14-361/",
+  "title": "Hewlett-Packard Sprinter TTF16.ocx AttachToSS Memory Corruption Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of HP Sprinter. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The vulnerability is found in Tidestone Formula One ActiveX controls, which are installed as a part of HP Sprinter. By providing an improper parameter to the method AttachToSS provided by those controls, an attacker can execute code in the context of the browser.",
+  "zdi_can": "ZDI-CAN-2336",
+  "zdi_id": "ZDI-14-361"
+}

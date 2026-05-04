@@ -1,0 +1,28 @@
+{
+  "additional_details": "Delta Electronics has issued an update to correct this vulnerability. More details can be found at: https://filecenter.deltaww.com/news/download/doc/Delta-PCSA-2025-00017_CNCSoft-G2_File%20Parsing%20Stack-based%20Buffer%20Overflow%20Vulnerability.pdf",
+  "advisory_date": "2025-10-27",
+  "affected_products": [
+    "CNCSoft-G2"
+  ],
+  "affected_vendors": [
+    "Delta Electronics"
+  ],
+  "credit": "Natnael Samson (@NattiSamson)",
+  "cve": "CVE-2025-58319",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-58319",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2025-06-30 - Vulnerability reported to vendor",
+    "2025-10-27 - Coordinated public release of advisory",
+    "2025-10-27 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-967 ZDI-CAN-25407 Delta Electronics CNCSoft-G2 DPAX File Parsing Stack-based Buffer Overflow Remote Code Execution Vulnerability 2025-10-27 CVE-2025-58319 https://www.cve.org/CVERecord?id=CVE-2025-58319 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Delta Electronics'] ['CNCSoft-G2'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Delta Electronics CNCSoft-G2. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of DPAX files in the DOPSoft component. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. Delta Electronics has issued an update to correct this vulnerability. More details can be found at: https://filecenter.deltaww.com/news/download/doc/Delta-PCSA-2025-00017_CNCSoft-G2_File%20Parsing%20Stack-based%20Buffer%20Overflow%20Vulnerability.pdf ['2025-06-30 - Vulnerability reported to vendor', '2025-10-27 - Coordinated public release of advisory', '2025-10-27 - Advisory Updated'] Natnael Samson (@NattiSamson) https://www.zerodayinitiative.com/advisories/ZDI-25-967/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-967/",
+  "title": "Delta Electronics CNCSoft-G2 DPAX File Parsing Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+  "updated_date": "2025-10-27",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Delta Electronics CNCSoft-G2. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of DPAX files in the DOPSoft component. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-25407",
+  "zdi_id": "ZDI-25-967"
+}

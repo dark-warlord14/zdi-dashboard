@@ -1,0 +1,27 @@
+{
+  "additional_details": "D-Link has issued an update to correct this vulnerability. More details can be found at: https://supportannouncement.us.dlink.com/announcement/publication.aspx?name=SAP10323",
+  "advisory_date": "2023-05-04",
+  "affected_products": [
+    "DIR-2640"
+  ],
+  "affected_vendors": [
+    "D-Link"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2023-32152",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-32152",
+  "cvss": 6.5,
+  "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+  "disclosure_timeline": [
+    "2022-12-22 - Vulnerability reported to vendor",
+    "2023-05-04 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-544 ZDI-CAN-19549 D-Link DIR-2640 HNAP LoginPassword Authentication Bypass Vulnerability 2023-05-04 CVE-2023-32152 https://www.cve.org/CVERecord?id=CVE-2023-32152 6.5 AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N ['D-Link'] ['DIR-2640'] This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of D-Link DIR-2640 routers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the web management interface, which listens on TCP port 80 by default. A specially crafted login request can cause authentication to succeed without providing proper credentials. An attacker can leverage this vulnerability to bypass authentication on the system. D-Link has issued an update to correct this vulnerability. More details can be found at: https://supportannouncement.us.dlink.com/announcement/publication.aspx?name=SAP10323 ['2022-12-22 - Vulnerability reported to vendor', '2023-05-04 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-23-544/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-544/",
+  "title": "D-Link DIR-2640 HNAP LoginPassword Authentication Bypass Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of D-Link DIR-2640 routers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the web management interface, which listens on TCP port 80 by default. A specially crafted login request can cause authentication to succeed without providing proper credentials. An attacker can leverage this vulnerability to bypass authentication on the system.",
+  "zdi_can": "ZDI-CAN-19549",
+  "zdi_id": "ZDI-23-544"
+}

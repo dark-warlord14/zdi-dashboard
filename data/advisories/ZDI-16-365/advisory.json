@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/library/security/MS16-063",
+  "advisory_date": "2016-06-15",
+  "affected_products": [
+    "Internet Explorer"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "62600BCA031B9EB5CB4A74ADDDD6771E",
+  "cve": "CVE-2016-0200",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-0200",
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2016-04-07 - Vulnerability reported to vendor",
+    "2016-06-15 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-16-365 ZDI-CAN-3666 Microsoft Internet Explorer s_DestroyLinkCallback Use-After-Free Remote Code Execution Vulnerability 2016-06-15 CVE-2016-0200 https://www.cve.org/CVERecord?id=CVE-2016-0200 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Microsoft'] ['Internet Explorer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The vulnerability relates to how Internet Explorer keeps track of linked web resources. By manipulating a document's elements, an attacker can cause Internet Explorer to use an array address after the array has been relocated elsewhere in memory. An attacker can leverage this vulnerability to execute code under the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/library/security/MS16-063 ['2016-04-07 - Vulnerability reported to vendor', '2016-06-15 - Coordinated public release of advisory'] 62600BCA031B9EB5CB4A74ADDDD6771E https://www.zerodayinitiative.com/advisories/ZDI-16-365/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-365/",
+  "title": "Microsoft Internet Explorer s_DestroyLinkCallback Use-After-Free Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The vulnerability relates to how Internet Explorer keeps track of linked web resources. By manipulating a document's elements, an attacker can cause Internet Explorer to use an array address after the array has been relocated elsewhere in memory. An attacker can leverage this vulnerability to execute code under the context of the current process.",
+  "zdi_can": "ZDI-CAN-3666",
+  "zdi_id": "ZDI-16-365"
+}

@@ -1,0 +1,27 @@
+{
+  "additional_details": "Cisco has issued an update to correct this vulnerability. More details can be found at: https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-smb-mult-vuln-KA9PK6D",
+  "advisory_date": "2022-02-22",
+  "affected_products": [
+    "RV340"
+  ],
+  "affected_vendors": [
+    "Cisco"
+  ],
+  "credit": "Benjamin Grap, Hanno Heinrichs and Lukas Kupczyk of CrowdStrike Intelligence",
+  "cve": "CVE-2022-20701",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-20701",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2022-01-26 - Vulnerability reported to vendor",
+    "2022-02-22 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-412 ZDI-CAN-15886 (Pwn2Own) Cisco RV340 confd_cli Unnecessary Privileges Local Privilege Escalation Vulnerability 2022-02-22 CVE-2022-20701 https://www.cve.org/CVERecord?id=CVE-2022-20701 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Cisco'] ['RV340'] This vulnerability allows local attackers to escalate privileges on affected installations of Cisco RV340 routers. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within confd_cli. The issue results from executing user commands at an unnecessarily high privilege level. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root. Cisco has issued an update to correct this vulnerability. More details can be found at: https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-smb-mult-vuln-KA9PK6D ['2022-01-26 - Vulnerability reported to vendor', '2022-02-22 - Coordinated public release of advisory'] Benjamin Grap, Hanno Heinrichs and Lukas Kupczyk of CrowdStrike Intelligence https://www.zerodayinitiative.com/advisories/ZDI-22-412/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-412/",
+  "title": "(Pwn2Own) Cisco RV340 confd_cli Unnecessary Privileges Local Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Cisco RV340 routers. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within confd_cli. The issue results from executing user commands at an unnecessarily high privilege level. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root.",
+  "zdi_can": "ZDI-CAN-15886",
+  "zdi_id": "ZDI-22-412"
+}

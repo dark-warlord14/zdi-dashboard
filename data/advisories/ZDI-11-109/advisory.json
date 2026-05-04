@@ -1,0 +1,27 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT4581",
+  "advisory_date": "2011-03-22",
+  "affected_products": [
+    "Safari"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "Charlie Miller and Dion Blazakis",
+  "cve": "CVE-2011-1417",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-1417",
+  "cvss": 9.7,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:P",
+  "disclosure_timeline": [
+    "2011-03-09 - Vulnerability reported to vendor",
+    "2011-03-22 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-11-109 ZDI-CAN-1156 (Pwn2Own) Apple Safari OfficeArtBlip Parsing Remote Code Execution Vulnerability 2011-03-22 CVE-2011-1417 https://www.cve.org/CVERecord?id=CVE-2011-1417 9.7 AV:N/AC:L/Au:N/C:C/I:C/A:P ['Apple'] ['Safari'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple Safari on the iPhone. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the support for parsing Office files. When handling the OfficeArtMetafileHeader the process trusts the cbSize field and performs arithmetic on it before making an allocation. As the result is not checked for overflow, the subsequent allocation can be undersized. Later when copying into this buffer, memory can be corrupted leading to arbitrary code execution under the context of the mobile user on the iPhone. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT4581 ['2011-03-09 - Vulnerability reported to vendor', '2011-03-22 - Coordinated public release of advisory'] Charlie Miller and Dion Blazakis https://www.zerodayinitiative.com/advisories/ZDI-11-109/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-109/",
+  "title": "(Pwn2Own) Apple Safari OfficeArtBlip Parsing Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple Safari on the iPhone. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the support for parsing Office files. When handling the OfficeArtMetafileHeader the process trusts the cbSize field and performs arithmetic on it before making an allocation. As the result is not checked for overflow, the subsequent allocation can be undersized. Later when copying into this buffer, memory can be corrupted leading to arbitrary code execution under the context of the mobile user on the iPhone.",
+  "zdi_can": "ZDI-CAN-1156",
+  "zdi_id": "ZDI-11-109"
+}

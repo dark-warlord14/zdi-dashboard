@@ -1,0 +1,28 @@
+{
+  "additional_details": "QNAP has issued an update to correct this vulnerability. More details can be found at: https://www.qnap.com/en/security-advisory/qsa-24-14",
+  "advisory_date": "2024-05-19",
+  "affected_products": [
+    "TS-464"
+  ],
+  "affected_vendors": [
+    "QNAP"
+  ],
+  "credit": "Le Huu Quang Linh, Do Minh Tuan & Billy Jheng Bing-Jhong of STAR Labs SG Pte. Ltd.",
+  "cve": "CVE-2023-51364",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-51364",
+  "cvss": 6.5,
+  "cvss_vector": "AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:H",
+  "disclosure_timeline": [
+    "2023-11-09 - Vulnerability reported to vendor",
+    "2024-05-19 - Coordinated public release of advisory",
+    "2024-07-01 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-475 ZDI-CAN-22410 (Pwn2Own) QNAP TS-464 File Upload Directory Traversal Arbitrary File Creation Vulnerability 2024-05-19 CVE-2023-51364 https://www.cve.org/CVERecord?id=CVE-2023-51364 6.5 AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:H ['QNAP'] ['TS-464'] This vulnerability allows remote attackers to create arbitrary files on affected installations of QNAP TS-464 NAS devices. Authentication is not required to exploit this vulnerability. The specific flaw exists within the processing of file uploads. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to create or delete the content of files in the context of admin. QNAP has issued an update to correct this vulnerability. More details can be found at: https://www.qnap.com/en/security-advisory/qsa-24-14 ['2023-11-09 - Vulnerability reported to vendor', '2024-05-19 - Coordinated public release of advisory', '2024-07-01 - Advisory Updated'] Le Huu Quang Linh, Do Minh Tuan & Billy Jheng Bing-Jhong of STAR Labs SG Pte. Ltd. https://www.zerodayinitiative.com/advisories/ZDI-24-475/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-475/",
+  "title": "(Pwn2Own) QNAP TS-464 File Upload Directory Traversal Arbitrary File Creation Vulnerability",
+  "updated_date": "2024-07-01",
+  "vulnerability_details": "This vulnerability allows remote attackers to create arbitrary files on affected installations of QNAP TS-464 NAS devices. Authentication is not required to exploit this vulnerability. The specific flaw exists within the processing of file uploads. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to create or delete the content of files in the context of admin.",
+  "zdi_can": "ZDI-CAN-22410",
+  "zdi_id": "ZDI-24-475"
+}

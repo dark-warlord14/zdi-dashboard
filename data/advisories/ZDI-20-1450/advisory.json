@@ -1,0 +1,27 @@
+{
+  "additional_details": "VMware has issued an update to correct this vulnerability. More details can be found at: https://www.vmware.com/security/advisories/VMSA-2020-0029.html",
+  "advisory_date": "2020-12-18",
+  "affected_products": [
+    "Workstation"
+  ],
+  "affected_vendors": [
+    "VMware"
+  ],
+  "credit": "Lucas Leong (@_wmliang_) of Trend Micro's Zero Day Initiative",
+  "cve": "CVE-2020-3999",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2020-3999",
+  "cvss": 6.5,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:C/C:N/I:N/A:H",
+  "disclosure_timeline": [
+    "2020-08-14 - Vulnerability reported to vendor",
+    "2020-12-18 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-20-1450 ZDI-CAN-11695 VMware Workstation SetGuestInfo Null Pointer Dereference Denial-of-Service Vulnerability 2020-12-18 CVE-2020-3999 https://www.cve.org/CVERecord?id=CVE-2020-3999 6.5 AV:L/AC:L/PR:L/UI:N/S:C/C:N/I:N/A:H ['VMware'] ['Workstation'] This vulnerability allows local attackers to create a denial-of-service condition on affected installations of VMware Workstation. An attacker must first obtain the ability to execute low-privileged code on the target guest system in order to exploit this vulnerability. The specific flaw exists within the implementation of the SetGuestInfo RPC function. The issue results from dereferencing a null pointer. An attacker can leverage this vulnerability to create a denial-of-service condition on the hypervisor. VMware has issued an update to correct this vulnerability. More details can be found at: https://www.vmware.com/security/advisories/VMSA-2020-0029.html ['2020-08-14 - Vulnerability reported to vendor', '2020-12-18 - Coordinated public release of advisory'] Lucas Leong (@_wmliang_) of Trend Micro's Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-20-1450/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-20-1450/",
+  "title": "VMware Workstation SetGuestInfo Null Pointer Dereference Denial-of-Service Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to create a denial-of-service condition on affected installations of VMware Workstation. An attacker must first obtain the ability to execute low-privileged code on the target guest system in order to exploit this vulnerability. The specific flaw exists within the implementation of the SetGuestInfo RPC function. The issue results from dereferencing a null pointer. An attacker can leverage this vulnerability to create a denial-of-service condition on the hypervisor.",
+  "zdi_can": "ZDI-CAN-11695",
+  "zdi_id": "ZDI-20-1450"
+}

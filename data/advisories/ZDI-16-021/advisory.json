@@ -1,0 +1,27 @@
+{
+  "additional_details": "Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/cpujan2016-2367955.html",
+  "advisory_date": "2016-01-22",
+  "affected_products": [
+    "GoldenGate"
+  ],
+  "affected_vendors": [
+    "Oracle"
+  ],
+  "credit": "Mike Arnold (Bruk0ut)",
+  "cve": "CVE-2016-0450",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-0450",
+  "cvss": 5.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+  "disclosure_timeline": [
+    "2015-07-10 - Vulnerability reported to vendor",
+    "2016-01-22 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-16-021 ZDI-CAN-3039 Oracle GoldenGate Denial of Service Vulnerability 2016-01-22 CVE-2016-0450 https://www.cve.org/CVERecord?id=CVE-2016-0450 5.0 AV:N/AC:L/Au:N/C:N/I:N/A:P ['Oracle'] ['GoldenGate'] This vulnerability allows remote attackers to cause a denial condition on vulnerable installations of Oracle GoldenGate. Authentication is not required to exploit this vulnerability. The specific flaw exists within the GoldenGate mgr process, which listens on TCP port 7809. By default, this process does not require authentication before accepting data delivery and GGSCI commands from a remote machine. This allows for a remote attacker to disable the service or exhaust resources on the target machine. Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/cpujan2016-2367955.html ['2015-07-10 - Vulnerability reported to vendor', '2016-01-22 - Coordinated public release of advisory'] Mike Arnold (Bruk0ut) https://www.zerodayinitiative.com/advisories/ZDI-16-021/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-021/",
+  "title": "Oracle GoldenGate Denial of Service Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to cause a denial condition on vulnerable installations of Oracle GoldenGate. Authentication is not required to exploit this vulnerability. The specific flaw exists within the GoldenGate mgr process, which listens on TCP port 7809. By default, this process does not require authentication before accepting data delivery and GGSCI commands from a remote machine. This allows for a remote attacker to disable the service or exhaust resources on the target machine.",
+  "zdi_can": "ZDI-CAN-3039",
+  "zdi_id": "ZDI-16-021"
+}

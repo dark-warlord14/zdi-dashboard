@@ -1,0 +1,28 @@
+{
+  "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb18-21.html",
+  "advisory_date": "2018-07-13",
+  "affected_products": [
+    "Acrobat Pro DC"
+  ],
+  "affected_vendors": [
+    "Adobe"
+  ],
+  "credit": "Ke Liu of Tencent's Xuanwu LAB",
+  "cve": "CVE-2018-5028",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2018-5028",
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2018-04-25 - Vulnerability reported to vendor",
+    "2018-07-13 - Coordinated public release of advisory",
+    "2018-07-13 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-638 ZDI-CAN-5983 Adobe Acrobat Pro DC ImageConversion XPS JPEG Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability 2018-07-13 CVE-2018-5028 https://www.cve.org/CVERecord?id=CVE-2018-5028 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Adobe'] ['Acrobat Pro DC'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Adobe Acrobat Pro DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of JPEG images embedded in XPS files. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length, heap-based buffer. An attacker can leverage this vulnerability to execute code under the context of the current process. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb18-21.html ['2018-04-25 - Vulnerability reported to vendor', '2018-07-13 - Coordinated public release of advisory', '2018-07-13 - Advisory Updated'] Ke Liu of Tencent's Xuanwu LAB https://www.zerodayinitiative.com/advisories/ZDI-18-638/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-638/",
+  "title": "Adobe Acrobat Pro DC ImageConversion XPS JPEG Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+  "updated_date": "2018-07-13",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Adobe Acrobat Pro DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of JPEG images embedded in XPS files. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length, heap-based buffer. An attacker can leverage this vulnerability to execute code under the context of the current process.",
+  "zdi_can": "ZDI-CAN-5983",
+  "zdi_id": "ZDI-18-638"
+}

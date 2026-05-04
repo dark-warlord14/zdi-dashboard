@@ -1,0 +1,27 @@
+{
+  "additional_details": "https://cert.vde.com/en/advisories/VDE-2023-022/ https://customers.codesys.com/index.php?eID=dumpFile&t=f&f=17767&token=7ed2d9324eff98a0a319c455d0256dc7627c705e&download=",
+  "advisory_date": "2023-08-14",
+  "affected_products": [
+    "Development System"
+  ],
+  "affected_vendors": [
+    "CODESYS"
+  ],
+  "credit": "Sina Kheirkhah (@SinSinology) of Summoning Team (@SummoningTeam)",
+  "cve": "CVE-2023-3663",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-3663",
+  "cvss": 7.1,
+  "cvss_vector": "AV:A/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2023-05-11 - Vulnerability reported to vendor",
+    "2023-08-14 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-1105 ZDI-CAN-20816 CODESYS Development System Improper Enforcement of Message Integrity Remote Code Execution Vulnerability 2023-08-14 CVE-2023-3663 https://www.cve.org/CVERecord?id=CVE-2023-3663 7.1 AV:A/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H ['CODESYS'] ['Development System'] This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of CODESYS Development System. Authentication is not required to exploit this vulnerability. The specific flaw exists within the LearnMoreAction function. The issue results from a missing integrity check on notification data. An attacker can leverage this vulnerability to execute code in the context of the current user. https://cert.vde.com/en/advisories/VDE-2023-022/ https://customers.codesys.com/index.php?eID=dumpFile&t=f&f=17767&token=7ed2d9324eff98a0a319c455d0256dc7627c705e&download= ['2023-05-11 - Vulnerability reported to vendor', '2023-08-14 - Coordinated public release of advisory'] Sina Kheirkhah (@SinSinology) of Summoning Team (@SummoningTeam) https://www.zerodayinitiative.com/advisories/ZDI-23-1105/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-1105/",
+  "title": "CODESYS Development System Improper Enforcement of Message Integrity Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of CODESYS Development System. Authentication is not required to exploit this vulnerability. The specific flaw exists within the LearnMoreAction function. The issue results from a missing integrity check on notification data. An attacker can leverage this vulnerability to execute code in the context of the current user.",
+  "zdi_can": "ZDI-CAN-20816",
+  "zdi_id": "ZDI-23-1105"
+}

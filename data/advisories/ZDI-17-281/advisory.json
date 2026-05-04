@@ -1,0 +1,27 @@
+{
+  "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb17-11.html",
+  "advisory_date": "2017-08-01",
+  "affected_products": [
+    "Acrobat Reader DC"
+  ],
+  "affected_vendors": [
+    "Adobe"
+  ],
+  "credit": "willj from Tencent PC Manager",
+  "cve": "CVE-2017-3056",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-3056",
+  "cvss": 4.3,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N",
+  "disclosure_timeline": [
+    "2017-03-19 - Vulnerability reported to vendor",
+    "2017-08-01 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-17-281 ZDI-CAN-4588 (Pwn2Own) Adobe Reader DC util streamFromString Uninitialized Memory Information Disclosure Vulnerability 2017-08-01 CVE-2017-3056 https://www.cve.org/CVERecord?id=CVE-2017-3056 4.3 AV:N/AC:M/Au:N/C:P/I:N/A:N ['Adobe'] ['Acrobat Reader DC'] This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Adobe Acrobat Reader DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of the util.streamFromString method. The issue results from the lack of proper initialization of memory prior to accessing it. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the process. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb17-11.html ['2017-03-19 - Vulnerability reported to vendor', '2017-08-01 - Coordinated public release of advisory'] willj from Tencent PC Manager https://www.zerodayinitiative.com/advisories/ZDI-17-281/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-281/",
+  "title": "(Pwn2Own) Adobe Reader DC util streamFromString Uninitialized Memory Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Adobe Acrobat Reader DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of the util.streamFromString method. The issue results from the lack of proper initialization of memory prior to accessing it. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the process.",
+  "zdi_can": "ZDI-CAN-4588",
+  "zdi_id": "ZDI-17-281"
+}

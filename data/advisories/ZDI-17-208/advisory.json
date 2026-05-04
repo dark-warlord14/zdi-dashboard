@@ -1,0 +1,27 @@
+{
+  "additional_details": "Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/solution/1116960",
+  "advisory_date": "2017-03-29",
+  "affected_products": [
+    "InterScan Web Security Virtual Appliance"
+  ],
+  "affected_vendors": [
+    "Trend Micro"
+  ],
+  "credit": "Steven Seeley of Source Incite",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 9.0,
+  "cvss_vector": "AV:N/AC:L/Au:S/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2016-12-20 - Vulnerability reported to vendor",
+    "2017-03-29 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-17-208 ZDI-CAN-4312 Trend Micro InterScan Web Security Virtual Appliance ManagePatches rollbackPatch Command Injection Remote Code Execution Vulnerability 2017-03-29 9.0 AV:N/AC:L/Au:S/C:C/I:C/A:C ['Trend Micro'] ['InterScan Web Security Virtual Appliance'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Trend Micro InterScan Web Security Virtual Appliance. Authentication is required to exploit this vulnerability. The specific flaw exists within the ManagePatches' rollbackPatch method. A crafted patchName parameter can trigger execution of a system call composed from a user-supplied string. An attacker can leverage this vulnerability to execute arbitrary code under the context of the root. Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/solution/1116960 ['2016-12-20 - Vulnerability reported to vendor', '2017-03-29 - Coordinated public release of advisory'] Steven Seeley of Source Incite https://www.zerodayinitiative.com/advisories/ZDI-17-208/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-208/",
+  "title": "Trend Micro InterScan Web Security Virtual Appliance ManagePatches rollbackPatch Command Injection Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Trend Micro InterScan Web Security Virtual Appliance. Authentication is required to exploit this vulnerability. The specific flaw exists within the ManagePatches' rollbackPatch method. A crafted patchName parameter can trigger execution of a system call composed from a user-supplied string. An attacker can leverage this vulnerability to execute arbitrary code under the context of the root.",
+  "zdi_can": "ZDI-CAN-4312",
+  "zdi_id": "ZDI-17-208"
+}

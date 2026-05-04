@@ -1,0 +1,27 @@
+{
+  "additional_details": "Hewlett Packard Enterprise has issued an update to correct this vulnerability. More details can be found at: https://softwaresupport.hpe.com/km/KM02942065",
+  "advisory_date": "2017-09-07",
+  "affected_products": [
+    "Application Performance Management System Health"
+  ],
+  "affected_vendors": [
+    "Hewlett Packard Enterprise"
+  ],
+  "credit": "rgod",
+  "cve": "CVE-2017-13983",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-13983",
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:L/Au:S/C:C/I:N/A:N",
+  "disclosure_timeline": [
+    "2017-02-01 - Vulnerability reported to vendor",
+    "2017-09-07 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-17-722 ZDI-CAN-4466 Hewlett Packard Enterprise Application Performance Management System Health Authentication Bypass Vulnerability 2017-09-07 CVE-2017-13983 https://www.cve.org/CVERecord?id=CVE-2017-13983 6.8 AV:N/AC:L/Au:S/C:C/I:N/A:N ['Hewlett Packard Enterprise'] ['Application Performance Management System Health'] This vulnerability allows remote attackers to escalate privileges on vulnerable installations of Hewlett Packard Enterprise Application Performance Management System Health. Authentication is not required to exploit this vulnerability. The specific flaw exists within the configuration of the System Health service, which listens on TCP port 18080 by default. By submitting a crafted request, an attacker can bypass authentication to access the web application. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of SYSTEM. Hewlett Packard Enterprise has issued an update to correct this vulnerability. More details can be found at: https://softwaresupport.hpe.com/km/KM02942065 ['2017-02-01 - Vulnerability reported to vendor', '2017-09-07 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-17-722/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-722/",
+  "title": "Hewlett Packard Enterprise Application Performance Management System Health Authentication Bypass Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to escalate privileges on vulnerable installations of Hewlett Packard Enterprise Application Performance Management System Health. Authentication is not required to exploit this vulnerability. The specific flaw exists within the configuration of the System Health service, which listens on TCP port 18080 by default. By submitting a crafted request, an attacker can bypass authentication to access the web application. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-4466",
+  "zdi_id": "ZDI-17-722"
+}

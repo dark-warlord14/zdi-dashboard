@@ -1,0 +1,27 @@
+{
+  "additional_details": "Valve has issued an update to correct this vulnerability. More details can be found at: http://store.steampowered.com/news/11750/",
+  "advisory_date": "2013-11-24",
+  "affected_products": [
+    "Steam"
+  ],
+  "affected_vendors": [
+    "Valve"
+  ],
+  "credit": "Arnaud Dovi ad@heapoverflow.com http://goo.gl/Fgry8j",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 6.5,
+  "cvss_vector": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2013-09-16 - Vulnerability reported to vendor",
+    "2013-11-24 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-13-269 ZDI-CAN-1975 Valve Steam User Chat Message Remote Code Execution Vulnerability 2013-11-24 6.5 AV:N/AC:L/Au:S/C:P/I:P/A:P ['Valve'] ['Steam'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Valve Steam. No action is necessary on the part of the vulnerable Steam user other than signing on to the Steam service. The specific flaw exists within the handling of user to user messages in the Steam client. An attacker can exploit this vulnerability by sending a malformed message to another Steam user via the Steam service. This can result in arbitrary code execution in the context of the Steam client. Valve has issued an update to correct this vulnerability. More details can be found at: http://store.steampowered.com/news/11750/ ['2013-09-16 - Vulnerability reported to vendor', '2013-11-24 - Coordinated public release of advisory'] Arnaud Dovi ad@heapoverflow.com http://goo.gl/Fgry8j https://www.zerodayinitiative.com/advisories/ZDI-13-269/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-13-269/",
+  "title": "Valve Steam User Chat Message Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Valve Steam. No action is necessary on the part of the vulnerable Steam user other than signing on to the Steam service. The specific flaw exists within the handling of user to user messages in the Steam client. An attacker can exploit this vulnerability by sending a malformed message to another Steam user via the Steam service. This can result in arbitrary code execution in the context of the Steam client.",
+  "zdi_can": "ZDI-CAN-1975",
+  "zdi_id": "ZDI-13-269"
+}

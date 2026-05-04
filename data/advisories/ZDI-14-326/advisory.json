@@ -1,0 +1,27 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT1222",
+  "advisory_date": "2014-09-22",
+  "affected_products": [
+    "QuickTime"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "s3tm3m",
+  "cve": "CVE-2014-4350",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-4350",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2014-04-03 - Vulnerability reported to vendor",
+    "2014-09-22 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-14-326 ZDI-CAN-2238 Apple QuickTime MIDI Heap Buffer Overflow Remote Code Execution Vulnerability 2014-09-22 CVE-2014-4350 https://www.cve.org/CVERecord?id=CVE-2014-4350 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Apple'] ['QuickTime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple QuickTime. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the processing of MIDI events. An arithmetic overflow in the handling of the sizes of certain events allows for an attacker to overflow a heap buffer. An attacker could use this to execute arbitrary code in the context of the QuickTime process. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT1222 ['2014-04-03 - Vulnerability reported to vendor', '2014-09-22 - Coordinated public release of advisory'] s3tm3m https://www.zerodayinitiative.com/advisories/ZDI-14-326/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-14-326/",
+  "title": "Apple QuickTime MIDI Heap Buffer Overflow Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple QuickTime. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the processing of MIDI events. An arithmetic overflow in the handling of the sizes of certain events allows for an attacker to overflow a heap buffer. An attacker could use this to execute arbitrary code in the context of the QuickTime process.",
+  "zdi_can": "ZDI-CAN-2238",
+  "zdi_id": "ZDI-14-326"
+}

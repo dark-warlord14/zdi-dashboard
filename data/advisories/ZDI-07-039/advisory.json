@@ -1,0 +1,27 @@
+{
+  "additional_details": "Symantec has issued an update to correct this vulnerability. More details can be found at: http://www.symantec.com/avcenter/security/Content/2007.07.11f.html",
+  "advisory_date": "2007-07-12",
+  "affected_products": [
+    "Symantec AntiVirus Engine"
+  ],
+  "affected_vendors": [
+    "Symantec"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2007-3699",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2007-3699",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2006-11-01 - Vulnerability reported to vendor",
+    "2007-07-12 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-07-039 ZDI-CAN-097 Symantec AntiVirus Engine RAR File Parsing DoS Vulnerability 2007-07-12 CVE-2007-3699 https://www.cve.org/CVERecord?id=CVE-2007-3699 ['Symantec'] ['Symantec AntiVirus Engine'] This vulnerability allows attackers to create a denial of service condition on software with vulnerable installations of the Symantec's AntiVirus engine. Authentication is not required to exploit this vulnerability. The specific flaw resides in a forged PACK_SIZE field of a RAR file header. By setting this field to a specific value an infinite loop denial of service condition will occur when the scanner processes the file. Symantec has issued an update to correct this vulnerability. More details can be found at: http://www.symantec.com/avcenter/security/Content/2007.07.11f.html ['2006-11-01 - Vulnerability reported to vendor', '2007-07-12 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-07-039/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-07-039/",
+  "title": "Symantec AntiVirus Engine RAR File Parsing DoS Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows attackers to create a denial of service condition on software with vulnerable installations of the Symantec's AntiVirus engine. Authentication is not required to exploit this vulnerability. The specific flaw resides in a forged PACK_SIZE field of a RAR file header. By setting this field to a specific value an infinite loop denial of service condition will occur when the scanner processes the file.",
+  "zdi_can": "ZDI-CAN-097",
+  "zdi_id": "ZDI-07-039"
+}

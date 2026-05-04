@@ -1,0 +1,26 @@
+# ZDI-19-034: Oracle VirtualBox crServerDispatchGetTexEnviv Uninitialized Memory Information Disclosure Vulnerability
+
+## Metadata
+
+- **ZDI ID:** ZDI-19-034
+- **ZDI-CAN:** ZDI-CAN-7198
+- **Date:** 2019-01-16
+- **CVE:** CVE-2019-2506
+- **CVSS:** 3.8
+- **CVSS Vector:** AV:L/AC:L/PR:L/UI:N/S:C/C:L/I:N/A:N
+- **Affected Vendors:** Oracle
+- **Affected Products:** VirtualBox
+- **Credit:** Root Object
+- **Source:** https://www.zerodayinitiative.com/advisories/ZDI-19-034/
+## Vulnerability Details
+
+This vulnerability allows local attackers to disclose sensitive information on vulnerable installations of Oracle VirtualBox. An attacker must first obtain the ability to execute low-privileged code on the target guest system in order to exploit this vulnerability. The specific flaw exists within the crServerDispatchGetTexEnviv method. The issue results from the lack of proper initialization of memory prior to accessing it. An attacker can leverage this in conjunction with other vulnerabilities to execute code in the context of the hypervisor.
+
+## Additional Details
+
+Oracle has issued an update to correct this vulnerability. More details can be found at: https://www.oracle.com/technetwork/security-advisory/cpujan2019-5072801.html
+
+## Disclosure Timeline
+
+- 2018-09-03 - Vulnerability reported to vendor
+- 2019-01-16 - Coordinated public release of advisory

@@ -1,0 +1,28 @@
+{
+  "additional_details": "07/12/24 \u2013 ZDI reported the vulnerability to the vendor. 07/15/24 \u2013 The vendor acknowledged the report. 07/18/24 \u2013 The vendor asked for additional details. 07/21/24 \u2013 ZDI followed up and provided more information about the case. 09/12/24 \u2013 The vendor assessed the case as not meeting the bar servicing. 07/30/25 \u2013 ZDI Informed the vendor that we plan to publish the case as a zero-day advisory on 08/06/25. -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product.",
+  "advisory_date": "2025-08-06",
+  "affected_products": [
+    "SharePoint"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Piotr Bazydlo (@chudypb) of Trend Micro Zero Day Initiative",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 8.1,
+  "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H",
+  "disclosure_timeline": [
+    "2024-07-12 - Vulnerability reported to vendor",
+    "2025-08-06 - Coordinated public release of advisory",
+    "2025-08-06 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-820 ZDI-CAN-24831 (0Day) Microsoft SharePoint IsAuthorizedType Deserialization of Untrusted Data Information Disclosure and Denial-of-Service Vulnerability 2025-08-06 8.1 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H ['Microsoft'] ['SharePoint'] This vulnerability allows remote attackers to disclose sensitive information or create a denial-of-service condition on affected installations of Microsoft SharePoint. Authentication is required to exploit this vulnerability. The specific flaw exists within the implementation of the SPNoCodeXomlCompiler.IsAuthorizedType method. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to disclose information or create a denial-of-service condition on the system. 07/12/24 \u2013 ZDI reported the vulnerability to the vendor. 07/15/24 \u2013 The vendor acknowledged the report. 07/18/24 \u2013 The vendor asked for additional details. 07/21/24 \u2013 ZDI followed up and provided more information about the case. 09/12/24 \u2013 The vendor assessed the case as not meeting the bar servicing. 07/30/25 \u2013 ZDI Informed the vendor that we plan to publish the case as a zero-day advisory on 08/06/25. -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product. ['2024-07-12 - Vulnerability reported to vendor', '2025-08-06 - Coordinated public release of advisory', '2025-08-06 - Advisory Updated'] Piotr Bazydlo (@chudypb) of Trend Micro Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-25-820/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-820/",
+  "title": "(0Day) Microsoft SharePoint IsAuthorizedType Deserialization of Untrusted Data Information Disclosure and Denial-of-Service Vulnerability",
+  "updated_date": "2025-08-06",
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information or create a denial-of-service condition on affected installations of Microsoft SharePoint. Authentication is required to exploit this vulnerability. The specific flaw exists within the implementation of the SPNoCodeXomlCompiler.IsAuthorizedType method. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to disclose information or create a denial-of-service condition on the system.",
+  "zdi_can": "ZDI-CAN-24831",
+  "zdi_id": "ZDI-25-820"
+}

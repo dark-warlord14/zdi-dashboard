@@ -1,0 +1,28 @@
+{
+  "additional_details": "Fixed in Bridge v2 Software version 1975170000 https://www.philips-hue.com/en-ca/support/release-notes/bridge",
+  "advisory_date": "2026-03-06",
+  "affected_products": [
+    "Hue Bridge"
+  ],
+  "affected_vendors": [
+    "Philips"
+  ],
+  "credit": "Xilokar (@xilokar@mamot.fr)",
+  "cve": "CVE-2026-3560",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-3560",
+  "cvss": 8.8,
+  "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2025-11-18 - Vulnerability reported to vendor",
+    "2026-03-06 - Coordinated public release of advisory",
+    "2026-03-06 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-26-158 ZDI-CAN-28469 (Pwn2Own) Philips Hue Bridge HomeKit hk_hap_pair_storage_put Heap-based Buffer Overflow Remote Code Execution Vulnerability 2026-03-06 CVE-2026-3560 https://www.cve.org/CVERecord?id=CVE-2026-3560 8.8 AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['Philips'] ['Hue Bridge'] This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Philips Hue Bridge. Authentication is not required to exploit this vulnerability. The specific flaw exists within the hk_hap_pair_storage_put function of the HomeKit implementation, which listens on TCP port 8080 by default. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the device. Fixed in Bridge v2 Software version 1975170000 https://www.philips-hue.com/en-ca/support/release-notes/bridge ['2025-11-18 - Vulnerability reported to vendor', '2026-03-06 - Coordinated public release of advisory', '2026-03-06 - Advisory Updated'] Xilokar (@xilokar@mamot.fr) https://www.zerodayinitiative.com/advisories/ZDI-26-158/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-158/",
+  "title": "(Pwn2Own) Philips Hue Bridge HomeKit hk_hap_pair_storage_put Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+  "updated_date": "2026-03-06",
+  "vulnerability_details": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Philips Hue Bridge. Authentication is not required to exploit this vulnerability. The specific flaw exists within the hk_hap_pair_storage_put function of the HomeKit implementation, which listens on TCP port 8080 by default. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the device.",
+  "zdi_can": "ZDI-CAN-28469",
+  "zdi_id": "ZDI-26-158"
+}

@@ -1,0 +1,28 @@
+{
+  "additional_details": "Schneider Electric has issued an update to correct this vulnerability. More details can be found at: https://www.cisa.gov/news-events/ics-advisories/icsa-26-015-10",
+  "advisory_date": "2026-02-12",
+  "affected_products": [
+    "EcoStruxure Power Build"
+  ],
+  "affected_vendors": [
+    "Schneider Electric"
+  ],
+  "credit": "Rocco Calvi (@TecR0c) with TecSecurity",
+  "cve": "CVE-2025-13845",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-13845",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2025-08-14 - Vulnerability reported to vendor",
+    "2026-02-12 - Coordinated public release of advisory",
+    "2026-02-12 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-26-093 ZDI-CAN-27480 Schneider Electric EcoStruxure Power Build SSD File Parsing Use-After-Free Remote Code Execution Vulnerability 2026-02-12 CVE-2025-13845 https://www.cve.org/CVERecord?id=CVE-2025-13845 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Schneider Electric'] ['EcoStruxure Power Build'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Schneider Electric EcoStruxure Power Build. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of SSD files. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current process. Schneider Electric has issued an update to correct this vulnerability. More details can be found at: https://www.cisa.gov/news-events/ics-advisories/icsa-26-015-10 ['2025-08-14 - Vulnerability reported to vendor', '2026-02-12 - Coordinated public release of advisory', '2026-02-12 - Advisory Updated'] Rocco Calvi (@TecR0c) with TecSecurity https://www.zerodayinitiative.com/advisories/ZDI-26-093/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-093/",
+  "title": "Schneider Electric EcoStruxure Power Build SSD File Parsing Use-After-Free Remote Code Execution Vulnerability",
+  "updated_date": "2026-02-12",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Schneider Electric EcoStruxure Power Build. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of SSD files. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-27480",
+  "zdi_id": "ZDI-26-093"
+}

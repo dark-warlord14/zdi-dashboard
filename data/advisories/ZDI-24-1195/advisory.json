@@ -1,0 +1,28 @@
+{
+  "additional_details": "Malwarebytes has issued an update to correct this vulnerability. More details can be found at: https://www.malwarebytes.com/secure/cves",
+  "advisory_date": "2024-09-05",
+  "affected_products": [
+    "Anti-Malware"
+  ],
+  "affected_vendors": [
+    "Malwarebytes"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2024-6260",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-6260",
+  "cvss": 7.0,
+  "cvss_vector": "AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2024-06-04 - Vulnerability reported to vendor",
+    "2024-09-05 - Coordinated public release of advisory",
+    "2024-09-05 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-1195 ZDI-CAN-22321 Malwarebytes Antimalware Link Following Local Privilege Escalation Vulnerability 2024-09-05 CVE-2024-6260 https://www.cve.org/CVERecord?id=CVE-2024-6260 7.0 AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H ['Malwarebytes'] ['Anti-Malware'] This vulnerability allows local attackers to escalate privileges on affected installations of Malwarebytes Antimalware. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Malwarebytes service. By creating a symbolic link, an attacker can abuse the service to delete a file. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. Malwarebytes has issued an update to correct this vulnerability. More details can be found at: https://www.malwarebytes.com/secure/cves ['2024-06-04 - Vulnerability reported to vendor', '2024-09-05 - Coordinated public release of advisory', '2024-09-05 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-24-1195/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-1195/",
+  "title": "Malwarebytes Antimalware Link Following Local Privilege Escalation Vulnerability",
+  "updated_date": "2024-09-05",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Malwarebytes Antimalware. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Malwarebytes service. By creating a symbolic link, an attacker can abuse the service to delete a file. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-22321",
+  "zdi_id": "ZDI-24-1195"
+}

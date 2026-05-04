@@ -1,0 +1,27 @@
+{
+  "additional_details": "Parallels has issued an update to correct this vulnerability. More details can be found at: https://kb.parallels.com/en/125013",
+  "advisory_date": "2020-08-18",
+  "affected_products": [
+    "Desktop"
+  ],
+  "affected_vendors": [
+    "Parallels"
+  ],
+  "credit": "grigoritchy",
+  "cve": "CVE-2020-17390",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2020-17390",
+  "cvss": 3.8,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:C/C:L/I:N/A:N",
+  "disclosure_timeline": [
+    "2020-03-15 - Vulnerability reported to vendor",
+    "2020-08-18 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-20-1008 ZDI-CAN-10030 Parallels Desktop hypervisor Out-Of-Bounds Read Privilege Escalation Vulnerability 2020-08-18 CVE-2020-17390 https://www.cve.org/CVERecord?id=CVE-2020-17390 3.8 AV:L/AC:L/PR:L/UI:N/S:C/C:L/I:N/A:N ['Parallels'] ['Desktop'] This vulnerability allows local attackers to escalate privileges on affected installations of Parallels Desktop. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the hypervisor kernel extension. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this vulnerability to escalate privileges and execute code in the context of the hypervisor. Parallels has issued an update to correct this vulnerability. More details can be found at: https://kb.parallels.com/en/125013 ['2020-03-15 - Vulnerability reported to vendor', '2020-08-18 - Coordinated public release of advisory'] grigoritchy https://www.zerodayinitiative.com/advisories/ZDI-20-1008/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-20-1008/",
+  "title": "Parallels Desktop hypervisor Out-Of-Bounds Read Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Parallels Desktop. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the hypervisor kernel extension. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this vulnerability to escalate privileges and execute code in the context of the hypervisor.",
+  "zdi_can": "ZDI-CAN-10030",
+  "zdi_id": "ZDI-20-1008"
+}

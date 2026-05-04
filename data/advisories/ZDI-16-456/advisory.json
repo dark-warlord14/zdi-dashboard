@@ -1,0 +1,27 @@
+{
+  "additional_details": "Trend Micro has issued an update to correct this vulnerability. More details can be found at: http://esupport.trendmicro.com/solution/en-US/1114749.aspx",
+  "advisory_date": "2016-08-09",
+  "affected_products": [
+    "Control Manager"
+  ],
+  "affected_vendors": [
+    "Trend Micro"
+  ],
+  "credit": "k0rpr1t_z0mb1e",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 6.5,
+  "cvss_vector": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2016-03-29 - Vulnerability reported to vendor",
+    "2016-08-09 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-16-456 ZDI-CAN-3636 Trend Micro Control Manager AdHocQuery_CustomProfiles SQL Injection Remote Code Execution Vulnerability 2016-08-09 6.5 AV:N/AC:L/Au:S/C:P/I:P/A:P ['Trend Micro'] ['Control Manager'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Trend Micro Control Manager. Authentication is required to exploit this vulnerability. The specific flaw exists within AdHocQuery_CustomProfiles.aspx. The issue lies in the failure to sanitize user-supplied input prior to executing a SQL statement. An attacker could leverage this vulnerability to execute code under the context of the database. Trend Micro has issued an update to correct this vulnerability. More details can be found at: http://esupport.trendmicro.com/solution/en-US/1114749.aspx ['2016-03-29 - Vulnerability reported to vendor', '2016-08-09 - Coordinated public release of advisory'] k0rpr1t_z0mb1e https://www.zerodayinitiative.com/advisories/ZDI-16-456/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-456/",
+  "title": "Trend Micro Control Manager AdHocQuery_CustomProfiles SQL Injection Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Trend Micro Control Manager. Authentication is required to exploit this vulnerability. The specific flaw exists within AdHocQuery_CustomProfiles.aspx. The issue lies in the failure to sanitize user-supplied input prior to executing a SQL statement. An attacker could leverage this vulnerability to execute code under the context of the database.",
+  "zdi_can": "ZDI-CAN-3636",
+  "zdi_id": "ZDI-16-456"
+}

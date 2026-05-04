@@ -1,0 +1,27 @@
+{
+  "additional_details": "12/05/23 \u2013 ZDI reported the vulnerability to the vendor. 12/05/23 \u2013 The vendor states that this model vulnerability type is out of the scope of their bug bounty program and that they would pass the report on to the appropriate team. 12/06/23\u2013 ZDI acknowledged their rejection and informed the vendor that we\u2019re publishing this case as a zero-day advisory. -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the application.",
+  "advisory_date": "2023-12-13",
+  "affected_products": [
+    "ChatGPT"
+  ],
+  "affected_vendors": [
+    "OpenAI"
+  ],
+  "credit": "Demeng Chen",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 6.5,
+  "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+  "disclosure_timeline": [
+    "2023-11-21 - Vulnerability reported to vendor",
+    "2023-12-13 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-1772 ZDI-CAN-22660 (0Day) OpenAI ChatGPT Improper Input Validation Model Policy Bypass Vulnerability 2023-12-13 6.5 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N ['OpenAI'] ['ChatGPT'] This vulnerability allows remote attackers to bypass policy restictions on affected versions of OpenAI ChatGPT. Authentication is required to exploit this vulnerability. The specific flaw exists within the interface to the ChatGPT-Vision Data model. The issue results from the lack of proper validation of a user-supplied string before using it as a prompt to the model. An attacker can leverage this vulnerability to bypass model policy restrictions and obtain generated text concerning subjects in a picture. 12/05/23 \u2013 ZDI reported the vulnerability to the vendor. 12/05/23 \u2013 The vendor states that this model vulnerability type is out of the scope of their bug bounty program and that they would pass the report on to the appropriate team. 12/06/23\u2013 ZDI acknowledged their rejection and informed the vendor that we\u2019re publishing this case as a zero-day advisory. -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the application. ['2023-11-21 - Vulnerability reported to vendor', '2023-12-13 - Coordinated public release of advisory'] Demeng Chen https://www.zerodayinitiative.com/advisories/ZDI-23-1772/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-1772/",
+  "title": "(0Day) OpenAI ChatGPT Improper Input Validation Model Policy Bypass Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to bypass policy restictions on affected versions of OpenAI ChatGPT. Authentication is required to exploit this vulnerability. The specific flaw exists within the interface to the ChatGPT-Vision Data model. The issue results from the lack of proper validation of a user-supplied string before using it as a prompt to the model. An attacker can leverage this vulnerability to bypass model policy restrictions and obtain generated text concerning subjects in a picture.",
+  "zdi_can": "ZDI-CAN-22660",
+  "zdi_id": "ZDI-23-1772"
+}

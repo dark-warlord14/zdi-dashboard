@@ -1,0 +1,28 @@
+{
+  "additional_details": "SonicWALL has issued an update to correct this vulnerability. More details can be found at: https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2025-0003",
+  "advisory_date": "2025-01-09",
+  "affected_products": [
+    "NSv"
+  ],
+  "affected_vendors": [
+    "SonicWALL"
+  ],
+  "credit": "Daan Keuper, Thijs Alkemade and Khaled Nassar of Computest Security",
+  "cve": "CVE-2024-53706",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-53706",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2024-11-05 - Vulnerability reported to vendor",
+    "2025-01-09 - Coordinated public release of advisory",
+    "2025-01-09 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-014 ZDI-CAN-24821 SonicWALL NSv setSshdConfig Exposed Dangerous Function Local Privilege Escalation Vulnerability 2025-01-09 CVE-2024-53706 https://www.cve.org/CVERecord?id=CVE-2024-53706 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['SonicWALL'] ['NSv'] This vulnerability allows local attackers to escalate privileges on affected installations of SonicWALL NSv. An attacker must first obtain the ability to execute low-privileged code on the target system or send a TCP packet to a local service in order to exploit this vulnerability. The specific flaw exists within the setSshdConfig command. The issue results from an exposed dangerous function. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root. SonicWALL has issued an update to correct this vulnerability. More details can be found at: https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2025-0003 ['2024-11-05 - Vulnerability reported to vendor', '2025-01-09 - Coordinated public release of advisory', '2025-01-09 - Advisory Updated'] Daan Keuper, Thijs Alkemade and Khaled Nassar of Computest Security https://www.zerodayinitiative.com/advisories/ZDI-25-014/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-014/",
+  "title": "SonicWALL NSv setSshdConfig Exposed Dangerous Function Local Privilege Escalation Vulnerability",
+  "updated_date": "2025-01-09",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of SonicWALL NSv. An attacker must first obtain the ability to execute low-privileged code on the target system or send a TCP packet to a local service in order to exploit this vulnerability. The specific flaw exists within the setSshdConfig command. The issue results from an exposed dangerous function. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root.",
+  "zdi_can": "ZDI-CAN-24821",
+  "zdi_id": "ZDI-25-014"
+}

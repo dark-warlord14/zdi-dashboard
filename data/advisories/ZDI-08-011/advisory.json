@@ -1,0 +1,27 @@
+{
+  "additional_details": "IBM has released an update available at the following URLs: http://www-1.ibm.com/support/docview.wss?uid=swg1IC55208 http://www-1.ibm.com/support/docview.wss?uid=swg1IC55207",
+  "advisory_date": "2008-03-13",
+  "affected_products": [
+    "Informix"
+  ],
+  "affected_vendors": [
+    "IBM"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2008-0727",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2008-0727",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2007-11-07 - Vulnerability reported to vendor",
+    "2008-03-13 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-08-011 ZDI-CAN-254 IBM Informix Dynamic Server DBPATH Buffer Overflow Vulnerability 2008-03-13 CVE-2008-0727 https://www.cve.org/CVERecord?id=CVE-2008-0727 ['IBM'] ['Informix'] This vulnerability allows remote attackers to execute arbitrary code on systems with vulnerable installations of IBM's Informix Dynamic Server. User interaction is not required to exploit this vulnerability. Authentication is required in that an attacker must have database connection priviliges. The specific flaw exists in the oninit.exe process that listens by default on TCP port 1526. During authentication, the process does not validate the length of the DBPATH variable. An attacker can provide a overly long variable name and overflow a global buffer, overwriting function pointers leading to arbitrary code execution. IBM has released an update available at the following URLs: http://www-1.ibm.com/support/docview.wss?uid=swg1IC55208 http://www-1.ibm.com/support/docview.wss?uid=swg1IC55207 ['2007-11-07 - Vulnerability reported to vendor', '2008-03-13 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-08-011/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-08-011/",
+  "title": "IBM Informix Dynamic Server DBPATH Buffer Overflow Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on systems with vulnerable installations of IBM's Informix Dynamic Server. User interaction is not required to exploit this vulnerability. Authentication is required in that an attacker must have database connection priviliges. The specific flaw exists in the oninit.exe process that listens by default on TCP port 1526. During authentication, the process does not validate the length of the DBPATH variable. An attacker can provide a overly long variable name and overflow a global buffer, overwriting function pointers leading to arbitrary code execution.",
+  "zdi_can": "ZDI-CAN-254",
+  "zdi_id": "ZDI-08-011"
+}

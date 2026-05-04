@@ -1,0 +1,28 @@
+{
+  "additional_details": "D-Link has issued an update to correct this vulnerability. More details can be found at: https://supportannouncement.us.dlink.com/announcement/publication.aspx?name=SAP10365",
+  "advisory_date": "2024-01-11",
+  "affected_products": [
+    "DIR-X3260"
+  ],
+  "affected_vendors": [
+    "D-Link"
+  ],
+  "credit": "Peter Girnus, Nicholas Zubrisky",
+  "cve": "CVE-2023-51613",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-51613",
+  "cvss": 6.8,
+  "cvss_vector": "AV:A/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2023-07-06 - Vulnerability reported to vendor",
+    "2024-01-11 - Coordinated public release of advisory",
+    "2024-07-01 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-033 ZDI-CAN-21590 D-Link DIR-X3260 prog.cgi SetDynamicDNSSettings Stack-Based Buffer Overflow Remote Code Execution Vulnerability 2024-01-11 CVE-2023-51613 https://www.cve.org/CVERecord?id=CVE-2023-51613 6.8 AV:A/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H ['D-Link'] ['DIR-X3260'] This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of D-Link DIR-X3260 routers. Authentication is required to exploit this vulnerability. The specific flaw exists within the prog.cgi binary, which handles HNAP requests made to the lighttpd webserver listening on TCP ports 80 and 443. The issue results from the lack of proper validation of a user-supplied string before copying it to a fixed-length stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of root. D-Link has issued an update to correct this vulnerability. More details can be found at: https://supportannouncement.us.dlink.com/announcement/publication.aspx?name=SAP10365 ['2023-07-06 - Vulnerability reported to vendor', '2024-01-11 - Coordinated public release of advisory', '2024-07-01 - Advisory Updated'] Peter Girnus, Nicholas Zubrisky https://www.zerodayinitiative.com/advisories/ZDI-24-033/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-033/",
+  "title": "D-Link DIR-X3260 prog.cgi SetDynamicDNSSettings Stack-Based Buffer Overflow Remote Code Execution Vulnerability",
+  "updated_date": "2024-07-01",
+  "vulnerability_details": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of D-Link DIR-X3260 routers. Authentication is required to exploit this vulnerability. The specific flaw exists within the prog.cgi binary, which handles HNAP requests made to the lighttpd webserver listening on TCP ports 80 and 443. The issue results from the lack of proper validation of a user-supplied string before copying it to a fixed-length stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of root.",
+  "zdi_can": "ZDI-CAN-21590",
+  "zdi_id": "ZDI-24-033"
+}

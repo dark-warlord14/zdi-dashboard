@@ -1,0 +1,27 @@
+{
+  "additional_details": "Dell has issued an update to correct this vulnerability. More details can be found at: https://support.sonicwall.com/product-notification/215257?productName=SonicWALL%20GMS",
+  "advisory_date": "2016-12-02",
+  "affected_products": [
+    "SonicWALL Universal Management Suite"
+  ],
+  "affected_vendors": [
+    "Dell"
+  ],
+  "credit": "rgod",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2016-05-09 - Vulnerability reported to vendor",
+    "2016-12-02 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-16-617 ZDI-CAN-3748 Dell SonicWALL Universal Management Suite ImagePreviewServlet SQL Injection Remote Code Execution Vulnerability 2016-12-02 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Dell'] ['SonicWALL Universal Management Suite'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Dell SonicWALL Universal Management Suite. Authentication is not required to exploit this vulnerability. The specific flaw exists within the ImagePreviewServlet servlet. A SQL Injection vulnerability exists in processing of the logoID parameter. An attacker can leverage this vulnerability to execute arbitrary code in the context of SYSTEM. Dell has issued an update to correct this vulnerability. More details can be found at: https://support.sonicwall.com/product-notification/215257?productName=SonicWALL%20GMS ['2016-05-09 - Vulnerability reported to vendor', '2016-12-02 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-16-617/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-617/",
+  "title": "Dell SonicWALL Universal Management Suite ImagePreviewServlet SQL Injection Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Dell SonicWALL Universal Management Suite. Authentication is not required to exploit this vulnerability. The specific flaw exists within the ImagePreviewServlet servlet. A SQL Injection vulnerability exists in processing of the logoID parameter. An attacker can leverage this vulnerability to execute arbitrary code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-3748",
+  "zdi_id": "ZDI-16-617"
+}

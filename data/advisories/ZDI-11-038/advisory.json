@@ -1,0 +1,27 @@
+{
+  "additional_details": "http://support.apple.com/kb/HT4435 and http://support.apple.com/kb/HT4447",
+  "advisory_date": "2011-02-01",
+  "affected_products": [
+    "Quicktime"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2010-3790",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2010-3790",
+  "cvss": 9.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:C",
+  "disclosure_timeline": [
+    "2010-11-05 - Vulnerability reported to vendor",
+    "2011-02-01 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-11-038 ZDI-CAN-910 Apple Quicktime Sprite Transformation Remote Code Execution Vulnerability 2011-02-01 CVE-2010-3790 https://www.cve.org/CVERecord?id=CVE-2010-3790 9.0 AV:N/AC:L/Au:N/C:P/I:P/A:C ['Apple'] ['Quicktime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple Quicktime. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within how the application performs a transformation on an image sample using the sprite handler. When performing the transformation, the application will scale the sprite outside the bounds of the original buffer. This can cause memory corruption which can lead to code execution within the context of the application. http://support.apple.com/kb/HT4435 and http://support.apple.com/kb/HT4447 ['2010-11-05 - Vulnerability reported to vendor', '2011-02-01 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-11-038/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-038/",
+  "title": "Apple Quicktime Sprite Transformation Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple Quicktime. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within how the application performs a transformation on an image sample using the sprite handler. When performing the transformation, the application will scale the sprite outside the bounds of the original buffer. This can cause memory corruption which can lead to code execution within the context of the application.",
+  "zdi_can": "ZDI-CAN-910",
+  "zdi_id": "ZDI-11-038"
+}

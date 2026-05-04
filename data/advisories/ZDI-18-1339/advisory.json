@@ -1,0 +1,28 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-us/HT208848",
+  "advisory_date": "2018-11-05",
+  "affected_products": [
+    "macOS"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "Samuel Gross (saelo)",
+  "cve": "CVE-2018-4237",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2018-4237",
+  "cvss": 7.2,
+  "cvss_vector": "AV:L/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2018-04-07 - Vulnerability reported to vendor",
+    "2018-11-05 - Coordinated public release of advisory",
+    "2018-11-05 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-1339 ZDI-CAN-5821 (Pwn2Own) Apple macOS task_set_special_port Port Overwrite Privilege Escalation Vulnerability 2018-11-05 CVE-2018-4237 https://www.cve.org/CVERecord?id=CVE-2018-4237 7.2 AV:L/AC:L/Au:N/C:C/I:C/A:C ['Apple'] ['macOS'] This vulnerability allows local attackers to escalate privileges on vulnerable installations of Apple macOS. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of Mach ports. The issue results from ability to modify ports that are inherited by child processes. An attacker can leverage this vulnerability to execute code under the context of root. Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-us/HT208848 ['2018-04-07 - Vulnerability reported to vendor', '2018-11-05 - Coordinated public release of advisory', '2018-11-05 - Advisory Updated'] Samuel Gross (saelo) https://www.zerodayinitiative.com/advisories/ZDI-18-1339/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-1339/",
+  "title": "(Pwn2Own) Apple macOS task_set_special_port Port Overwrite Privilege Escalation Vulnerability",
+  "updated_date": "2018-11-05",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on vulnerable installations of Apple macOS. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of Mach ports. The issue results from ability to modify ports that are inherited by child processes. An attacker can leverage this vulnerability to execute code under the context of root.",
+  "zdi_can": "ZDI-CAN-5821",
+  "zdi_id": "ZDI-18-1339"
+}

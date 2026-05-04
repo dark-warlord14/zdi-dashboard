@@ -1,0 +1,28 @@
+{
+  "additional_details": "Allegra has issued an update to correct this vulnerability. More details can be found at: https://www.trackplus.com/en/service/release-notes-reader/7-5-1-release-notes-2.html",
+  "advisory_date": "2024-02-09",
+  "affected_products": [
+    "Allegra"
+  ],
+  "affected_vendors": [
+    "Allegra"
+  ],
+  "credit": "06fe5fd2bc53027c4a3b7e395af0b850e7b8a044",
+  "cve": "CVE-2023-51647",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-51647",
+  "cvss": 7.2,
+  "cvss_vector": "AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2023-12-06 - Vulnerability reported to vendor",
+    "2024-02-09 - Coordinated public release of advisory",
+    "2024-07-01 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-108 ZDI-CAN-22528 Allegra saveInlineEdit Directory Traversal Remote Code Execution Vulnerability 2024-02-09 CVE-2023-51647 https://www.cve.org/CVERecord?id=CVE-2023-51647 7.2 AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H ['Allegra'] ['Allegra'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Allegra. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed. The specific flaw exists within the saveInlineEdit method. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute code in the context of LOCAL SERVICE. Allegra has issued an update to correct this vulnerability. More details can be found at: https://www.trackplus.com/en/service/release-notes-reader/7-5-1-release-notes-2.html ['2023-12-06 - Vulnerability reported to vendor', '2024-02-09 - Coordinated public release of advisory', '2024-07-01 - Advisory Updated'] 06fe5fd2bc53027c4a3b7e395af0b850e7b8a044 https://www.zerodayinitiative.com/advisories/ZDI-24-108/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-108/",
+  "title": "Allegra saveInlineEdit Directory Traversal Remote Code Execution Vulnerability",
+  "updated_date": "2024-07-01",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Allegra. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed. The specific flaw exists within the saveInlineEdit method. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute code in the context of LOCAL SERVICE.",
+  "zdi_can": "ZDI-CAN-22528",
+  "zdi_id": "ZDI-24-108"
+}

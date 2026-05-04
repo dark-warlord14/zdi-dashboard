@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2017-11781",
+  "advisory_date": "2017-10-10",
+  "affected_products": [
+    "Windows"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "pesante",
+  "cve": "CVE-2017-11781",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-11781",
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:L/Au:S/C:N/I:N/A:C",
+  "disclosure_timeline": [
+    "2017-07-27 - Vulnerability reported to vendor",
+    "2017-10-10 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-17-843 ZDI-CAN-5069 Microsoft Windows SMB Out-Of-Bounds Read Denial of Service Vulnerability 2017-10-10 CVE-2017-11781 https://www.cve.org/CVERecord?id=CVE-2017-11781 6.8 AV:N/AC:L/Au:S/C:N/I:N/A:C ['Microsoft'] ['Windows'] This vulnerability allows remote attackers to create a denial-of-service on vulnerable installations of Microsoft Windows. Authentication is required to exploit this vulnerability, assuming the product is in its default configuration. The specific flaw exists within the srv driver. A crafted request to an SMB share can trigger a read past the end of an allocated buffer. An attacker can leverage this vulnerability to create a denial-of-service condition to users of the system. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2017-11781 ['2017-07-27 - Vulnerability reported to vendor', '2017-10-10 - Coordinated public release of advisory'] pesante https://www.zerodayinitiative.com/advisories/ZDI-17-843/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-843/",
+  "title": "Microsoft Windows SMB Out-Of-Bounds Read Denial of Service Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to create a denial-of-service on vulnerable installations of Microsoft Windows. Authentication is required to exploit this vulnerability, assuming the product is in its default configuration. The specific flaw exists within the srv driver. A crafted request to an SMB share can trigger a read past the end of an allocated buffer. An attacker can leverage this vulnerability to create a denial-of-service condition to users of the system.",
+  "zdi_can": "ZDI-CAN-5069",
+  "zdi_id": "ZDI-17-843"
+}

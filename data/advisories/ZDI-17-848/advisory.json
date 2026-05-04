@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2017-11812",
+  "advisory_date": "2017-10-11",
+  "affected_products": [
+    "Chakra"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Simon Zuckerbraun - Trend Micro Zero Day Initiative",
+  "cve": "CVE-2017-11812",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-11812",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2017-09-01 - Vulnerability reported to vendor",
+    "2017-10-11 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-17-848 ZDI-CAN-5115 Microsoft Chakra asm.js ArrayBuffer Use-After-Free Remote Code Execution Vulnerability 2017-10-11 CVE-2017-11812 https://www.cve.org/CVERecord?id=CVE-2017-11812 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Microsoft'] ['Chakra'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Chakra. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of ArrayBuffer objects in asm.js. By performing actions in JavaScript an attacker can cause a pointer to be reused after it has been freed. An attacker can leverage this vulnerability to execute code under the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2017-11812 ['2017-09-01 - Vulnerability reported to vendor', '2017-10-11 - Coordinated public release of advisory'] Simon Zuckerbraun - Trend Micro Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-17-848/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-848/",
+  "title": "Microsoft Chakra asm.js ArrayBuffer Use-After-Free Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Chakra. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of ArrayBuffer objects in asm.js. By performing actions in JavaScript an attacker can cause a pointer to be reused after it has been freed. An attacker can leverage this vulnerability to execute code under the context of the current process.",
+  "zdi_can": "ZDI-CAN-5115",
+  "zdi_id": "ZDI-17-848"
+}

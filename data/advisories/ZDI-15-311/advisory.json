@@ -1,0 +1,27 @@
+{
+  "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/reader/apsb15-15.html",
+  "advisory_date": "2015-07-14",
+  "affected_products": [
+    "Reader"
+  ],
+  "affected_vendors": [
+    "Adobe"
+  ],
+  "credit": "AbdulAziz Hariri and Jasiel Spelman - HP Zero Day Initiative",
+  "cve": "CVE-2015-5086",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-5086",
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2015-05-14 - Vulnerability reported to vendor",
+    "2015-07-14 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-15-311 ZDI-CAN-2935 Adobe Reader JavaScript API Race Condition Restrictions Bypass Vulnerability 2015-07-14 CVE-2015-5086 https://www.cve.org/CVERecord?id=CVE-2015-5086 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Adobe'] ['Reader'] This vulnerability allows remote attackers to bypass API restrictions on vulnerable installations of Adobe Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the way Adobe handles execution in certain contexts. By creating a specially crafted PDF with specific JavaScript instructions, it is possible to trigger a race condition that allows bypassing of Javascript API restrictions. A remote attacker could exploit this vulnerability to execute arbitrary code. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/reader/apsb15-15.html ['2015-05-14 - Vulnerability reported to vendor', '2015-07-14 - Coordinated public release of advisory'] AbdulAziz Hariri and Jasiel Spelman - HP Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-15-311/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-311/",
+  "title": "Adobe Reader JavaScript API Race Condition Restrictions Bypass Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to bypass API restrictions on vulnerable installations of Adobe Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the way Adobe handles execution in certain contexts. By creating a specially crafted PDF with specific JavaScript instructions, it is possible to trigger a race condition that allows bypassing of Javascript API restrictions. A remote attacker could exploit this vulnerability to execute arbitrary code.",
+  "zdi_can": "ZDI-CAN-2935",
+  "zdi_id": "ZDI-15-311"
+}

@@ -1,0 +1,28 @@
+{
+  "additional_details": "Delta Industrial Automation has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-18-058-02 This vulnerability is being disclosed publicly without a patch in accordance with the ZDI 120 day deadline. 02/01/17 - ZDI disclosed reports to ICS-CERT 02/07/17 - ICS-CERT provided ZDI with an ICS-VU # ICS-VU-974568 03/16/17 - ICS-CERT asked ZDI questions about reproduction 03/27/17 - ICS-CERT asked ZDI again some questions about reproduction 06/07/17 - ICS-CERT offered ZDI a pre-release patch to test 06/07/17 - ZDI replied that we cannot do the testing for the vendor 07/20/17 - ZDI sent a mail to ICS-CERT asking the status 07/26/17 - ICS-CERT advised that the vendor has a new version they believe addressed the reports (though to ZDI knowledge, no advisory was released) 08/02/17 - ZDI advised ICS-CERT that our finder indicated that the vulnerabilities are still present 08/11/17 - ZDI wrote ICS-CERT to indicate the intention to move these reports to 0-day on 8/24 -- Mitigation: Given the nature of the vulnerability the only salient mitigation strategy is to restrict interaction with the application to trusted files.",
+  "advisory_date": "2017-08-24",
+  "affected_products": [
+    "WPLSoft"
+  ],
+  "affected_vendors": [
+    "Delta Industrial Automation"
+  ],
+  "credit": "axt",
+  "cve": "CVE-2018-7507",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2018-7507",
+  "cvss": 5.1,
+  "cvss_vector": "AV:N/AC:H/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2017-02-01 - Vulnerability reported to vendor",
+    "2017-08-24 - Coordinated public release of advisory",
+    "2018-03-28 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-17-704 ZDI-CAN-4441 (0Day) Delta Industrial Automation WPLSoft dvp File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability 2017-08-24 CVE-2018-7507 https://www.cve.org/CVERecord?id=CVE-2018-7507 5.1 AV:N/AC:H/Au:N/C:P/I:P/A:P ['Delta Industrial Automation'] ['WPLSoft'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Delta Industrial Automation WPLSoft. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of dvp files. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length heap-based buffer. An attacker can leverage this vulnerability to execute arbitrary code under the context of the current process. Delta Industrial Automation has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-18-058-02 This vulnerability is being disclosed publicly without a patch in accordance with the ZDI 120 day deadline. 02/01/17 - ZDI disclosed reports to ICS-CERT 02/07/17 - ICS-CERT provided ZDI with an ICS-VU # ICS-VU-974568 03/16/17 - ICS-CERT asked ZDI questions about reproduction 03/27/17 - ICS-CERT asked ZDI again some questions about reproduction 06/07/17 - ICS-CERT offered ZDI a pre-release patch to test 06/07/17 - ZDI replied that we cannot do the testing for the vendor 07/20/17 - ZDI sent a mail to ICS-CERT asking the status 07/26/17 - ICS-CERT advised that the vendor has a new version they believe addressed the reports (though to ZDI knowledge, no advisory was released) 08/02/17 - ZDI advised ICS-CERT that our finder indicated that the vulnerabilities are still present 08/11/17 - ZDI wrote ICS-CERT to indicate the intention to move these reports to 0-day on 8/24 -- Mitigation: Given the nature of the vulnerability the only salient mitigation strategy is to restrict interaction with the application to trusted files. ['2017-02-01 - Vulnerability reported to vendor', '2017-08-24 - Coordinated public release of advisory', '2018-03-28 - Advisory Updated'] axt https://www.zerodayinitiative.com/advisories/ZDI-17-704/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-704/",
+  "title": "(0Day) Delta Industrial Automation WPLSoft dvp File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+  "updated_date": "2018-03-28",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Delta Industrial Automation WPLSoft. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of dvp files. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length heap-based buffer. An attacker can leverage this vulnerability to execute arbitrary code under the context of the current process.",
+  "zdi_can": "ZDI-CAN-4441",
+  "zdi_id": "ZDI-17-704"
+}

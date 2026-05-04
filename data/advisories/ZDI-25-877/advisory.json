@@ -1,0 +1,28 @@
+{
+  "additional_details": "Delta Electronics has issued an update to correct this vulnerability. More details can be found at: https://www.cisa.gov/news-events/ics-advisories/icsa-25-240-05",
+  "advisory_date": "2025-08-28",
+  "affected_products": [
+    "ISPSoft"
+  ],
+  "affected_vendors": [
+    "Delta Electronics"
+  ],
+  "credit": "Guillaume Orlando",
+  "cve": "CVE-2025-53419",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-53419",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2025-05-22 - Vulnerability reported to vendor",
+    "2025-08-28 - Coordinated public release of advisory",
+    "2025-08-28 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-877 ZDI-CAN-25875 Delta Electronics ISPSoft ISP File Parsing Improper Control of Dynamically-Managed Code Remote Code Execution Vulnerability 2025-08-28 CVE-2025-53419 https://www.cve.org/CVERecord?id=CVE-2025-53419 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Delta Electronics'] ['ISPSoft'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Delta Electronics ISPSoft. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of ISP files. The issue results from insufficient restriction of dynamically-managed code. An attacker can leverage this vulnerability to execute code in the context of the current process. Delta Electronics has issued an update to correct this vulnerability. More details can be found at: https://www.cisa.gov/news-events/ics-advisories/icsa-25-240-05 ['2025-05-22 - Vulnerability reported to vendor', '2025-08-28 - Coordinated public release of advisory', '2025-08-28 - Advisory Updated'] Guillaume Orlando https://www.zerodayinitiative.com/advisories/ZDI-25-877/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-877/",
+  "title": "Delta Electronics ISPSoft ISP File Parsing Improper Control of Dynamically-Managed Code Remote Code Execution Vulnerability",
+  "updated_date": "2025-08-28",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Delta Electronics ISPSoft. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of ISP files. The issue results from insufficient restriction of dynamically-managed code. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-25875",
+  "zdi_id": "ZDI-25-877"
+}

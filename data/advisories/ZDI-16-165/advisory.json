@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/library/security/MS16-009",
+  "advisory_date": "2016-02-10",
+  "affected_products": [
+    "Edge"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "003",
+  "cve": "CVE-2016-0060",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-0060",
+  "cvss": 5.1,
+  "cvss_vector": "AV:N/AC:H/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2015-11-02 - Vulnerability reported to vendor",
+    "2016-02-10 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-16-165 ZDI-CAN-3368 Microsoft Edge Text Node Type Confusion Remote Code Execution Vulnerability 2016-02-10 CVE-2016-0060 https://www.cve.org/CVERecord?id=CVE-2016-0060 5.1 AV:N/AC:H/Au:N/C:P/I:P/A:P ['Microsoft'] ['Edge'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Edge. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The vulnerability relates to how Microsoft Edge processes text nodes within document fragments. By manipulating a document's elements an attacker can cause Microsoft Edge to use a flag value as if it were a pointer to a Tree::ANode object. An attacker can leverage this vulnerability to execute code under the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/library/security/MS16-009 ['2015-11-02 - Vulnerability reported to vendor', '2016-02-10 - Coordinated public release of advisory'] 003 https://www.zerodayinitiative.com/advisories/ZDI-16-165/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-165/",
+  "title": "Microsoft Edge Text Node Type Confusion Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Edge. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The vulnerability relates to how Microsoft Edge processes text nodes within document fragments. By manipulating a document's elements an attacker can cause Microsoft Edge to use a flag value as if it were a pointer to a Tree::ANode object. An attacker can leverage this vulnerability to execute code under the context of the current process.",
+  "zdi_can": "ZDI-CAN-3368",
+  "zdi_id": "ZDI-16-165"
+}

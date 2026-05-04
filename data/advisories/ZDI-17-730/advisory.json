@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2017-8744",
+  "advisory_date": "2017-09-12",
+  "affected_products": [
+    "Office Word"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Lucas Leong of Trend Micro",
+  "cve": "CVE-2017-8744",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-8744",
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2017-06-14 - Vulnerability reported to vendor",
+    "2017-09-12 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-17-730 ZDI-CAN-4893 Microsoft Office Word WordPerfect Document Converter Heap-based Buffer Overflow Remote Code Execution Vulnerability 2017-09-12 CVE-2017-8744 https://www.cve.org/CVERecord?id=CVE-2017-8744 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Microsoft'] ['Office Word'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Office Word. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the converter for WordPerfect documents. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute code under the context of the process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2017-8744 ['2017-06-14 - Vulnerability reported to vendor', '2017-09-12 - Coordinated public release of advisory'] Lucas Leong of Trend Micro https://www.zerodayinitiative.com/advisories/ZDI-17-730/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-730/",
+  "title": "Microsoft Office Word WordPerfect Document Converter Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Office Word. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the converter for WordPerfect documents. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute code under the context of the process.",
+  "zdi_can": "ZDI-CAN-4893",
+  "zdi_id": "ZDI-17-730"
+}

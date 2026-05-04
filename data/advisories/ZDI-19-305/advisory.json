@@ -1,0 +1,27 @@
+{
+  "additional_details": "Jaspersoft has issued an update to correct this vulnerability. More details can be found at: https://www.tibco.com/support/advisories/2019/03/tibco-security-advisory-march-6-2019-tibco-jasperreports-server-2018-18815",
+  "advisory_date": "2019-04-02",
+  "affected_products": [
+    "Jasper Reports"
+  ],
+  "affected_vendors": [
+    "Jaspersoft"
+  ],
+  "credit": "Steven Seeley (mr_me) of Source Incite",
+  "cve": "CVE-2018-18815",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2018-18815",
+  "cvss": 6.2,
+  "cvss_vector": "AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+  "disclosure_timeline": [
+    "2018-12-10 - Vulnerability reported to vendor",
+    "2019-04-02 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-19-305 ZDI-CAN-7654 Jaspersoft JasperReports Server DiagnosticDataCipherer Hard-coded Cryptographic Key Information Disclosure Vulnerability 2019-04-02 CVE-2018-18815 https://www.cve.org/CVERecord?id=CVE-2018-18815 6.2 AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N ['Jaspersoft'] ['Jasper Reports'] This vulnerability allows the decryption of the passwords on vulnerable installations of Jaspersoft JasperReports Server. Authentication is not required to exploit this vulnerability. The specific flaw exists within encryption of user passwords in the DiagnosticDataCipherer class. A hard-coded cryptographic key is used which can allow the reversal of the encryption process. An attacker can leverage this vulnerability in conjunction with other vulnerabilities to bypass authentication on the system. Jaspersoft has issued an update to correct this vulnerability. More details can be found at: https://www.tibco.com/support/advisories/2019/03/tibco-security-advisory-march-6-2019-tibco-jasperreports-server-2018-18815 ['2018-12-10 - Vulnerability reported to vendor', '2019-04-02 - Coordinated public release of advisory'] Steven Seeley (mr_me) of Source Incite https://www.zerodayinitiative.com/advisories/ZDI-19-305/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-19-305/",
+  "title": "Jaspersoft JasperReports Server DiagnosticDataCipherer Hard-coded Cryptographic Key Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows the decryption of the passwords on vulnerable installations of Jaspersoft JasperReports Server. Authentication is not required to exploit this vulnerability. The specific flaw exists within encryption of user passwords in the DiagnosticDataCipherer class. A hard-coded cryptographic key is used which can allow the reversal of the encryption process. An attacker can leverage this vulnerability in conjunction with other vulnerabilities to bypass authentication on the system.",
+  "zdi_can": "ZDI-CAN-7654",
+  "zdi_id": "ZDI-19-305"
+}

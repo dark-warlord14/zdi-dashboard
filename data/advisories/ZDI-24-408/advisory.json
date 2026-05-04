@@ -1,0 +1,28 @@
+{
+  "additional_details": "Oracle has issued an update to correct this vulnerability. More details can be found at: https://www.oracle.com/security-alerts/cpuapr2024.html",
+  "advisory_date": "2024-04-26",
+  "affected_products": [
+    "VirtualBox"
+  ],
+  "affected_vendors": [
+    "Oracle"
+  ],
+  "credit": "anonymous",
+  "cve": "CVE-2024-21109",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-21109",
+  "cvss": 5.9,
+  "cvss_vector": "AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+  "disclosure_timeline": [
+    "2024-03-13 - Vulnerability reported to vendor",
+    "2024-04-26 - Coordinated public release of advisory",
+    "2024-07-01 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-408 ZDI-CAN-23076 Oracle VirtualBox Web Service Exposure of Resource to Wrong Sphere Information Disclosure Vulnerability 2024-04-26 CVE-2024-21109 https://www.cve.org/CVERecord?id=CVE-2024-21109 5.9 AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N ['Oracle'] ['VirtualBox'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Oracle VirtualBox. Authentication is not required to exploit this vulnerability. The specific flaw exists within the vboxwebsrv service. The issue results from the exposure of a resource to the wrong control sphere. An attacker can leverage this vulnerability to disclose sensitive session information, leading to further compromise. Oracle has issued an update to correct this vulnerability. More details can be found at: https://www.oracle.com/security-alerts/cpuapr2024.html ['2024-03-13 - Vulnerability reported to vendor', '2024-04-26 - Coordinated public release of advisory', '2024-07-01 - Advisory Updated'] anonymous https://www.zerodayinitiative.com/advisories/ZDI-24-408/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-408/",
+  "title": "Oracle VirtualBox Web Service Exposure of Resource to Wrong Sphere Information Disclosure Vulnerability",
+  "updated_date": "2024-07-01",
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Oracle VirtualBox. Authentication is not required to exploit this vulnerability. The specific flaw exists within the vboxwebsrv service. The issue results from the exposure of a resource to the wrong control sphere. An attacker can leverage this vulnerability to disclose sensitive session information, leading to further compromise.",
+  "zdi_can": "ZDI-CAN-23076",
+  "zdi_id": "ZDI-24-408"
+}

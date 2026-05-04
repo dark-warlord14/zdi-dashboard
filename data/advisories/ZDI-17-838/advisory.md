@@ -1,0 +1,26 @@
+# ZDI-17-838: (0Day) Microsoft Windows WAV File Uninitialized Pointer Denial of Service Vulnerability
+
+## Metadata
+
+- **ZDI ID:** ZDI-17-838
+- **ZDI-CAN:** ZDI-CAN-5130
+- **Date:** 2017-10-06
+- **CVE:** N/A
+- **CVSS:** 5.0
+- **CVSS Vector:** AV:N/AC:L/Au:N/C:N/I:N/A:P
+- **Affected Vendors:** Microsoft
+- **Affected Products:** Windows
+- **Credit:** Andre Fassbender
+- **Source:** https://www.zerodayinitiative.com/advisories/ZDI-17-838/
+## Vulnerability Details
+
+This vulnerability allows remote attackers to cause a denial-of-service condition on vulnerable installations of Microsoft Windows. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the processing of WAV audio files. The issue results from the lack of proper initialization of a pointer prior to accessing it. An attacker can leverage this vulnerability to create a denial-of-service condition in the context of the Explorer process or other current process.
+
+## Additional Details
+
+This vulnerability is being disclosed publicly without a patch in accordance with the ZDI 120 day deadline. 09/01/17 - ZDI disclosed the report to the vendor. 09/01/17 - The vendor acknowledged the report and provided a case manager and a tracking number. 09/15/17 - The vendor responded that "We have finished our investigation into this report and determined this does not meet our bar for servicing a downlevel security patch. This requires user interaction to trigger and is not a persistent DOS. Our analysis has determined it does not bugcheck. A blackscreen will show and explorer.exe will restart. Can you confirm your disclosure timeline?" 09/15/17 - ZDI advised the vendor that this report will 0-day on 10/06/17. -- Mitigation: Given the nature of the vulnerability the only salient mitigation strategy is to restrict interaction with the application to trusted files.
+
+## Disclosure Timeline
+
+- 2017-09-01 - Vulnerability reported to vendor
+- 2017-10-06 - Coordinated public release of advisory

@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2019-0746",
+  "advisory_date": "2019-03-12",
+  "affected_products": [
+    "Chakra"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2019-0746",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2019-0746",
+  "cvss": 3.1,
+  "cvss_vector": "AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:N",
+  "disclosure_timeline": [
+    "2019-01-22 - Vulnerability reported to vendor",
+    "2019-03-12 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-19-280 ZDI-CAN-7919 Microsoft Chakra lastIndexOf Integer Underflow Information Disclosure Vulnerability 2019-03-12 CVE-2019-0746 https://www.cve.org/CVERecord?id=CVE-2019-0746 3.1 AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:N ['Microsoft'] ['Chakra'] This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Microsoft Chakra. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the implementation of the lastIndexOf method in JavaScript. By performing actions in JavaScript, an attacker can trigger an integer underflow before reading memory. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2019-0746 ['2019-01-22 - Vulnerability reported to vendor', '2019-03-12 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-19-280/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-19-280/",
+  "title": "Microsoft Chakra lastIndexOf Integer Underflow Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Microsoft Chakra. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the implementation of the lastIndexOf method in JavaScript. By performing actions in JavaScript, an attacker can trigger an integer underflow before reading memory. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-7919",
+  "zdi_id": "ZDI-19-280"
+}

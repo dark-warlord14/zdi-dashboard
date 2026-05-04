@@ -1,0 +1,28 @@
+{
+  "additional_details": "12/06/24 \u2013 ZDI contacted the vendor\u2019s support team via email 02/13/25 \u2013 ZDI requested an update 03/12/25 \u2013 ZDI informed the vendor that since we have not received a response, we will publish the report as a 0-day advisory 03/25/25 - ZDI published the report as a 0-day advisory 11/20/25 - The vendor notified ZDI that the vulnerability has been patched Mitigation: For all firmware versions 1.04.1.x, update to 1.04.1.676 or later. For all firmware versions 1.00.1.x, update to 1.00.1.196 or later.",
+  "advisory_date": "2025-03-25",
+  "affected_products": [
+    "Multiple Routers"
+  ],
+  "affected_vendors": [
+    "BEC Technologies"
+  ],
+  "credit": "Steven C Yu of Trend Micro Research",
+  "cve": "CVE-2025-2771",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-2771",
+  "cvss": 5.3,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+  "disclosure_timeline": [
+    "2025-03-11 - Vulnerability reported to vendor",
+    "2025-03-25 - Coordinated public release of advisory",
+    "2025-11-25 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-184 ZDI-CAN-25894 (0Day) BEC Technologies Multiple Routers Authentication Bypass Vulnerability 2025-03-25 CVE-2025-2771 https://www.cve.org/CVERecord?id=CVE-2025-2771 5.3 AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N ['BEC Technologies'] ['Multiple Routers'] This vulnerability allows remote attackers to bypass authentication on affected installations of BEC Technologies routers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the web-based user interface. The issue results from the lack of authentication prior to allowing access to functionality. An attacker can leverage this vulnerability to bypass authentication on the system. 12/06/24 \u2013 ZDI contacted the vendor\u2019s support team via email 02/13/25 \u2013 ZDI requested an update 03/12/25 \u2013 ZDI informed the vendor that since we have not received a response, we will publish the report as a 0-day advisory 03/25/25 - ZDI published the report as a 0-day advisory 11/20/25 - The vendor notified ZDI that the vulnerability has been patched Mitigation: For all firmware versions 1.04.1.x, update to 1.04.1.676 or later. For all firmware versions 1.00.1.x, update to 1.00.1.196 or later. ['2025-03-11 - Vulnerability reported to vendor', '2025-03-25 - Coordinated public release of advisory', '2025-11-25 - Advisory Updated'] Steven C Yu of Trend Micro Research https://www.zerodayinitiative.com/advisories/ZDI-25-184/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-184/",
+  "title": "(0Day) BEC Technologies Multiple Routers Authentication Bypass Vulnerability",
+  "updated_date": "2025-11-25",
+  "vulnerability_details": "This vulnerability allows remote attackers to bypass authentication on affected installations of BEC Technologies routers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the web-based user interface. The issue results from the lack of authentication prior to allowing access to functionality. An attacker can leverage this vulnerability to bypass authentication on the system.",
+  "zdi_can": "ZDI-CAN-25894",
+  "zdi_id": "ZDI-25-184"
+}

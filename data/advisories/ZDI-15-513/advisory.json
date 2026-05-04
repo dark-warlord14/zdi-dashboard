@@ -1,0 +1,27 @@
+{
+  "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/flash-player/apsb15-25.html",
+  "advisory_date": "2015-10-13",
+  "affected_products": [
+    "Flash"
+  ],
+  "affected_vendors": [
+    "Adobe"
+  ],
+  "credit": "bilou",
+  "cve": "CVE-2015-7631",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-7631",
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2015-08-03 - Vulnerability reported to vendor",
+    "2015-10-13 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-15-513 ZDI-CAN-3108 Adobe Flash TextLine validity Use-After-Free Remote Code Execution Vulnerability 2015-10-13 CVE-2015-7631 https://www.cve.org/CVERecord?id=CVE-2015-7631 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Adobe'] ['Flash'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Adobe Flash. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the TextLine object. By manipulating the validity property of a TextLine object, an attacker can force a dangling pointer to be reused after it has been freed. An attacker can leverage this vulnerability to execute arbitrary code under the context of the current process. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/flash-player/apsb15-25.html ['2015-08-03 - Vulnerability reported to vendor', '2015-10-13 - Coordinated public release of advisory'] bilou https://www.zerodayinitiative.com/advisories/ZDI-15-513/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-513/",
+  "title": "Adobe Flash TextLine validity Use-After-Free Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Adobe Flash. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the TextLine object. By manipulating the validity property of a TextLine object, an attacker can force a dangling pointer to be reused after it has been freed. An attacker can leverage this vulnerability to execute arbitrary code under the context of the current process.",
+  "zdi_can": "ZDI-CAN-3108",
+  "zdi_id": "ZDI-15-513"
+}

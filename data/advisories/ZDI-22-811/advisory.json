@@ -1,0 +1,28 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-us/HT213055",
+  "advisory_date": "2022-06-02",
+  "affected_products": [
+    "macOS"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "Mickey Jin (@patch1t) of Trend Micro",
+  "cve": "CVE-2022-22583",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-22583",
+  "cvss": 5.5,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+  "disclosure_timeline": [
+    "2021-11-18 - Vulnerability reported to vendor",
+    "2022-06-02 - Coordinated public release of advisory",
+    "2022-06-02 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-811 ZDI-CAN-16024 Apple macOS PackageKit PKInstallSandbox SIP Bypass vulnerability 2022-06-02 CVE-2022-22583 https://www.cve.org/CVERecord?id=CVE-2022-22583 5.5 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N ['Apple'] ['macOS'] This vulnerability allows local attackers to disclose sensitive information on affected installations of Apple macOS. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within PackageKit. The issue results from improper access control. An attacker can leverage this vulnerability to disclose information in the context of the current user. Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-us/HT213055 ['2021-11-18 - Vulnerability reported to vendor', '2022-06-02 - Coordinated public release of advisory', '2022-06-02 - Advisory Updated'] Mickey Jin (@patch1t) of Trend Micro https://www.zerodayinitiative.com/advisories/ZDI-22-811/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-811/",
+  "title": "Apple macOS PackageKit PKInstallSandbox SIP Bypass vulnerability",
+  "updated_date": "2022-06-02",
+  "vulnerability_details": "This vulnerability allows local attackers to disclose sensitive information on affected installations of Apple macOS. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within PackageKit. The issue results from improper access control. An attacker can leverage this vulnerability to disclose information in the context of the current user.",
+  "zdi_can": "ZDI-CAN-16024",
+  "zdi_id": "ZDI-22-811"
+}

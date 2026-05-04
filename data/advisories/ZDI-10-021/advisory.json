@@ -1,0 +1,27 @@
+{
+  "additional_details": "Novell has issued an update to correct this vulnerability. More details can be found at: http://www.novell.com/support/viewContent.do?externalId=7005282",
+  "advisory_date": "2010-02-23",
+  "affected_products": [
+    "NetStorage"
+  ],
+  "affected_vendors": [
+    "Novell"
+  ],
+  "credit": "1c239c43f521145fa8385d64a9c32243",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2009-10-21 - Vulnerability reported to vendor",
+    "2010-02-23 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-10-021 ZDI-CAN-607 Novell NetStorage xsrvd Long Pathname Remote Code Execution Vulnerability 2010-02-23 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Novell'] ['NetStorage'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Novell NetStorage. Authentication is not required to exploit this vulnerability. The specific flaws exists within the xsrvd process during the wide character conversion of requested file paths. In conjunction with a long username value the file path conversion will result in a heap overflow corrupting a chunk that will be immediately freed. This can be leveraged by remote attackers to compromise the NetStorage server. Novell has issued an update to correct this vulnerability. More details can be found at: http://www.novell.com/support/viewContent.do?externalId=7005282 ['2009-10-21 - Vulnerability reported to vendor', '2010-02-23 - Coordinated public release of advisory'] 1c239c43f521145fa8385d64a9c32243 https://www.zerodayinitiative.com/advisories/ZDI-10-021/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-021/",
+  "title": "Novell NetStorage xsrvd Long Pathname Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Novell NetStorage. Authentication is not required to exploit this vulnerability. The specific flaws exists within the xsrvd process during the wide character conversion of requested file paths. In conjunction with a long username value the file path conversion will result in a heap overflow corrupting a chunk that will be immediately freed. This can be leveraged by remote attackers to compromise the NetStorage server.",
+  "zdi_can": "ZDI-CAN-607",
+  "zdi_id": "ZDI-10-021"
+}

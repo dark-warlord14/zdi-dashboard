@@ -1,0 +1,27 @@
+{
+  "additional_details": "Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/cpuapr2014-1972952.html",
+  "advisory_date": "2014-04-21",
+  "affected_products": [
+    "Java Runtime"
+  ],
+  "affected_vendors": [
+    "Oracle"
+  ],
+  "credit": "Vitaliy Toropov",
+  "cve": "CVE-2014-2421",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-2421",
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2013-12-09 - Vulnerability reported to vendor",
+    "2014-04-21 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-14-102 ZDI-CAN-2038 Oracle Java JPEG Buffer Overflow Remote Code Execution Vulnerability 2014-04-21 CVE-2014-2421 https://www.cve.org/CVERecord?id=CVE-2014-2421 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Oracle'] ['Java Runtime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Oracle Java. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of JPEG images. The issue lies in the ability to control the count parameter to a call to memmove. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the process. Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/cpuapr2014-1972952.html ['2013-12-09 - Vulnerability reported to vendor', '2014-04-21 - Coordinated public release of advisory'] Vitaliy Toropov https://www.zerodayinitiative.com/advisories/ZDI-14-102/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-14-102/",
+  "title": "Oracle Java JPEG Buffer Overflow Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Oracle Java. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of JPEG images. The issue lies in the ability to control the count parameter to a call to memmove. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the process.",
+  "zdi_can": "ZDI-CAN-2038",
+  "zdi_id": "ZDI-14-102"
+}

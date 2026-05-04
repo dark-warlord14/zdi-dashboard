@@ -1,0 +1,28 @@
+{
+  "additional_details": "Advantech has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-18-135-01",
+  "advisory_date": "2018-05-18",
+  "affected_products": [
+    "WebAccess Node"
+  ],
+  "affected_vendors": [
+    "Advantech"
+  ],
+  "credit": "rgod",
+  "cve": "CVE-2018-7501",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2018-7501",
+  "cvss": 4.0,
+  "cvss_vector": "AV:N/AC:L/Au:S/C:P/I:N/A:N",
+  "disclosure_timeline": [
+    "2018-01-23 - Vulnerability reported to vendor",
+    "2018-05-18 - Coordinated public release of advisory",
+    "2018-05-18 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-481 ZDI-CAN-5611 Advantech WebAccess Node BWSCADASoap GetAlarms SQL Injection Information Disclosure Vulnerability 2018-05-18 CVE-2018-7501 https://www.cve.org/CVERecord?id=CVE-2018-7501 4.0 AV:N/AC:L/Au:S/C:P/I:N/A:N ['Advantech'] ['WebAccess Node'] This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Advantech WebAccess Node. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed. The specific flaw exists within the handling of the GetAlarms function in BWMobileService.dll. When parsing the ProjectName parameter, the process does not properly validate a user-supplied string before using it to construct SQL queries. An attacker can leverage this vulnerability to disclose sensitive information under the context of the database. Advantech has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-18-135-01 ['2018-01-23 - Vulnerability reported to vendor', '2018-05-18 - Coordinated public release of advisory', '2018-05-18 - Advisory Updated'] rgod https://www.zerodayinitiative.com/advisories/ZDI-18-481/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-481/",
+  "title": "Advantech WebAccess Node BWSCADASoap GetAlarms SQL Injection Information Disclosure Vulnerability",
+  "updated_date": "2018-05-18",
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Advantech WebAccess Node. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed. The specific flaw exists within the handling of the GetAlarms function in BWMobileService.dll. When parsing the ProjectName parameter, the process does not properly validate a user-supplied string before using it to construct SQL queries. An attacker can leverage this vulnerability to disclose sensitive information under the context of the database.",
+  "zdi_can": "ZDI-CAN-5611",
+  "zdi_id": "ZDI-18-481"
+}

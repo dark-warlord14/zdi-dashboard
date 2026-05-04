@@ -1,0 +1,27 @@
+{
+  "additional_details": "Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/javacpuapr2013-1928497.html",
+  "advisory_date": "2013-05-10",
+  "affected_products": [
+    "Java Runtime"
+  ],
+  "affected_vendors": [
+    "Oracle"
+  ],
+  "credit": "Alin Rad Pop",
+  "cve": "CVE-2013-2384",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2013-2384",
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2012-12-10 - Vulnerability reported to vendor",
+    "2013-05-10 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-13-068 ZDI-CAN-1685 Oracle Java GSUB TTF Table LookupCount Remote Code Execution Vulnerability 2013-05-10 CVE-2013-2384 https://www.cve.org/CVERecord?id=CVE-2013-2384 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Oracle'] ['Java Runtime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of the Oracle Java. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the fontmanager native component. There is a vulnerability when processing GSUB tables having an overlarge \"LookupCount\" sum in a TTF file, which can result in memory corruption. This allows a malicious applet to execute attacker-supplied code resulting in remote code execution under the context of the current user. Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/javacpuapr2013-1928497.html ['2012-12-10 - Vulnerability reported to vendor', '2013-05-10 - Coordinated public release of advisory'] Alin Rad Pop https://www.zerodayinitiative.com/advisories/ZDI-13-068/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-13-068/",
+  "title": "Oracle Java GSUB TTF Table LookupCount Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of the Oracle Java. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the fontmanager native component. There is a vulnerability when processing GSUB tables having an overlarge \"LookupCount\" sum in a TTF file, which can result in memory corruption. This allows a malicious applet to execute attacker-supplied code resulting in remote code execution under the context of the current user.",
+  "zdi_can": "ZDI-CAN-1685",
+  "zdi_id": "ZDI-13-068"
+}

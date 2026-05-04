@@ -1,0 +1,27 @@
+{
+  "additional_details": "NETGEAR has issued an update to correct this vulnerability. More details can be found at: https://kb.netgear.com/000065650/Security-Advisory-for-Multiple-Vulnerabilities-on-the-RAX30-PSV-2023-0003-PSV-2023-0004?article=000065650",
+  "advisory_date": "2023-06-08",
+  "affected_products": [
+    "RAX30"
+  ],
+  "affected_vendors": [
+    "NETGEAR"
+  ],
+  "credit": "Dmitry \"InfoSecDJ\" Janushkevich of Trend Micro Zero Day Initiative",
+  "cve": "CVE-2023-34283",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-34283",
+  "cvss": 4.6,
+  "cvss_vector": "AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+  "disclosure_timeline": [
+    "2023-01-04 - Vulnerability reported to vendor",
+    "2023-06-08 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-837 ZDI-CAN-19498 NETGEAR RAX30 USB Share Link Following Information Disclosure Vulnerability 2023-06-08 CVE-2023-34283 https://www.cve.org/CVERecord?id=CVE-2023-34283 4.6 AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N ['NETGEAR'] ['RAX30'] This vulnerability allows physically present attackers to disclose sensitive information on affected installations of NETGEAR RAX30 routers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of symbolic links on removable USB media. By creating a symbolic link, an attacker can abuse the router's web server to access arbitrary local files. An attacker can leverage this vulnerability to disclose information in the context of root. NETGEAR has issued an update to correct this vulnerability. More details can be found at: https://kb.netgear.com/000065650/Security-Advisory-for-Multiple-Vulnerabilities-on-the-RAX30-PSV-2023-0003-PSV-2023-0004?article=000065650 ['2023-01-04 - Vulnerability reported to vendor', '2023-06-08 - Coordinated public release of advisory'] Dmitry \"InfoSecDJ\" Janushkevich of Trend Micro Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-23-837/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-837/",
+  "title": "NETGEAR RAX30 USB Share Link Following Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows physically present attackers to disclose sensitive information on affected installations of NETGEAR RAX30 routers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of symbolic links on removable USB media. By creating a symbolic link, an attacker can abuse the router's web server to access arbitrary local files. An attacker can leverage this vulnerability to disclose information in the context of root.",
+  "zdi_can": "ZDI-CAN-19498",
+  "zdi_id": "ZDI-23-837"
+}

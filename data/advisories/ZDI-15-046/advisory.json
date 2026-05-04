@@ -1,0 +1,27 @@
+{
+  "additional_details": "Lexmark has issued an update to correct this vulnerability. More details can be found at: http://support.lexmark.com/index?page=content&id=TE677&locale=EN&userlocale=EN_US",
+  "advisory_date": "2015-02-13",
+  "affected_products": [
+    "MarkVision Enterprise"
+  ],
+  "affected_vendors": [
+    "Lexmark"
+  ],
+  "credit": "Andrea Micalizzi (rgod)",
+  "cve": "CVE-2014-9375",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-9375",
+  "cvss": 9.0,
+  "cvss_vector": "AV:N/AC:L/Au:S/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2014-12-04 - Vulnerability reported to vendor",
+    "2015-02-13 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-15-046 ZDI-CAN-2648 Lexmark Markvision Enterprise LibraryFileUploadServlet Remote Code Execution Vulnerability 2015-02-13 CVE-2014-9375 https://www.cve.org/CVERecord?id=CVE-2014-9375 9.0 AV:N/AC:L/Au:S/C:C/I:C/A:C ['Lexmark'] ['MarkVision Enterprise'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Lexmark MarkVision Enterprise. Authentication is not required to exploit this vulnerability. The specific flaw exists within the LibraryFileUploadServlet servlet. By supplying a crafted ZIP archive which includes directory traversal in the archive filenames, an attacker is able to upload files to any location on the system. An attacker could leverage this to execute arbitrary code as SYSTEM. Lexmark has issued an update to correct this vulnerability. More details can be found at: http://support.lexmark.com/index?page=content&id=TE677&locale=EN&userlocale=EN_US ['2014-12-04 - Vulnerability reported to vendor', '2015-02-13 - Coordinated public release of advisory'] Andrea Micalizzi (rgod) https://www.zerodayinitiative.com/advisories/ZDI-15-046/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-046/",
+  "title": "Lexmark Markvision Enterprise LibraryFileUploadServlet Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Lexmark MarkVision Enterprise. Authentication is not required to exploit this vulnerability. The specific flaw exists within the LibraryFileUploadServlet servlet. By supplying a crafted ZIP archive which includes directory traversal in the archive filenames, an attacker is able to upload files to any location on the system. An attacker could leverage this to execute arbitrary code as SYSTEM.",
+  "zdi_can": "ZDI-CAN-2648",
+  "zdi_id": "ZDI-15-046"
+}

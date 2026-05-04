@@ -1,0 +1,27 @@
+{
+  "additional_details": "Novell has issued an update to correct this vulnerability. More details can be found at: http://www.novell.com/support/kb/doc.php?id=7008708",
+  "advisory_date": "2012-08-29",
+  "affected_products": [
+    "iPrint"
+  ],
+  "affected_vendors": [
+    "Novell"
+  ],
+  "credit": "Ivan Rodriguez Almuina",
+  "cve": "CVE-2011-4186",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-4186",
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2011-12-22 - Vulnerability reported to vendor",
+    "2012-08-29 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-12-181 ZDI-CAN-1466 Novell iPrint nipplib.dll client-file-name Parsing Remote Code Execution Vulnerability 2012-08-29 CVE-2011-4186 https://www.cve.org/CVERecord?id=CVE-2011-4186 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Novell'] ['iPrint'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Novell iPrint Client. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The flaw exists within the nipplib component which is used by both the ActiveX and Netscape compatible browser plugins as well as the Microsoft Windows spooler service. When handling certain requests the client-file-name parameter is improperly copied to a local stack buffer. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the SYSTEM. Novell has issued an update to correct this vulnerability. More details can be found at: http://www.novell.com/support/kb/doc.php?id=7008708 ['2011-12-22 - Vulnerability reported to vendor', '2012-08-29 - Coordinated public release of advisory'] Ivan Rodriguez Almuina https://www.zerodayinitiative.com/advisories/ZDI-12-181/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-12-181/",
+  "title": "Novell iPrint nipplib.dll client-file-name Parsing Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Novell iPrint Client. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The flaw exists within the nipplib component which is used by both the ActiveX and Netscape compatible browser plugins as well as the Microsoft Windows spooler service. When handling certain requests the client-file-name parameter is improperly copied to a local stack buffer. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the SYSTEM.",
+  "zdi_can": "ZDI-CAN-1466",
+  "zdi_id": "ZDI-12-181"
+}

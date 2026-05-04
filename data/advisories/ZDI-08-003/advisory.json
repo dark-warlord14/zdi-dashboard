@@ -1,0 +1,27 @@
+{
+  "additional_details": "Symantec has issued an update to correct this vulnerability. More details can be found at: http://www.symantec.com/avcenter/security/Content/2008.02.04.html",
+  "advisory_date": "2008-02-06",
+  "affected_products": [
+    "Backup Exec System Recovery Manager"
+  ],
+  "affected_vendors": [
+    "Symantec"
+  ],
+  "credit": "Titon of BastardLabs",
+  "cve": "CVE-2008-0457",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2008-0457",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2007-12-11 - Vulnerability reported to vendor",
+    "2008-02-06 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-08-003 ZDI-CAN-253 Symantec Backup Exec Remote File Upload Vulnerability 2008-02-06 CVE-2008-0457 https://www.cve.org/CVERecord?id=CVE-2008-0457 ['Symantec'] ['Backup Exec System Recovery Manager'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Symantec Backup Exec System Recovery Manager. Authentication is not required to exploit this vulnerability. The specific flaw exists in the FileUpload class running on the Symantec LiveState Apache Tomcat server. The server is found on TCP ports 8080 and 8443. A malicious HTTP POST request can upload a JSP script to the publicly accessible web directories allowing for arbitrary code execution. Symantec has issued an update to correct this vulnerability. More details can be found at: http://www.symantec.com/avcenter/security/Content/2008.02.04.html ['2007-12-11 - Vulnerability reported to vendor', '2008-02-06 - Coordinated public release of advisory'] Titon of BastardLabs https://www.zerodayinitiative.com/advisories/ZDI-08-003/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-08-003/",
+  "title": "Symantec Backup Exec Remote File Upload Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Symantec Backup Exec System Recovery Manager. Authentication is not required to exploit this vulnerability. The specific flaw exists in the FileUpload class running on the Symantec LiveState Apache Tomcat server. The server is found on TCP ports 8080 and 8443. A malicious HTTP POST request can upload a JSP script to the publicly accessible web directories allowing for arbitrary code execution.",
+  "zdi_can": "ZDI-CAN-253",
+  "zdi_id": "ZDI-08-003"
+}

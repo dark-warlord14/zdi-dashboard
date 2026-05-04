@@ -1,0 +1,27 @@
+{
+  "additional_details": "Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxitsoftware.com/support/security-bulletins.php Resolved with Foxit Reader 7.3.4",
+  "advisory_date": "2016-03-23",
+  "affected_products": [
+    "Reader"
+  ],
+  "affected_vendors": [
+    "Foxit"
+  ],
+  "credit": "AbdulAziz Hariri - HPE Zero Day Initiative",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2015-11-12 - Vulnerability reported to vendor",
+    "2016-03-23 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-16-222 ZDI-CAN-3406 Foxit Reader Fields Format Action Use-After-Free Remote Code Execution Vulnerability 2016-03-23 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Foxit'] ['Reader'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Foxit Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The flaw exists within the handling of fields. A specially crafted PDF with specific fields with the Format action can force a dangling pointer to be reused after it has been freed. An attacker can leverage this vulnerability to execute code under the context of the current process. Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxitsoftware.com/support/security-bulletins.php Resolved with Foxit Reader 7.3.4 ['2015-11-12 - Vulnerability reported to vendor', '2016-03-23 - Coordinated public release of advisory'] AbdulAziz Hariri - HPE Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-16-222/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-222/",
+  "title": "Foxit Reader Fields Format Action Use-After-Free Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Foxit Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The flaw exists within the handling of fields. A specially crafted PDF with specific fields with the Format action can force a dangling pointer to be reused after it has been freed. An attacker can leverage this vulnerability to execute code under the context of the current process.",
+  "zdi_can": "ZDI-CAN-3406",
+  "zdi_id": "ZDI-16-222"
+}

@@ -1,0 +1,28 @@
+{
+  "additional_details": "10/09/25 \u2013 ZDI submitted the report to the vendor\u2019s GitHub account 10/10/25 \u2013 the vendor closed the report 10/15/25 \u2013 ZDI asked for the reason 11/10/25 \u2013 ZDI asked for the fix 12/10/25 \u2013 ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+  "advisory_date": "2026-01-09",
+  "affected_products": [
+    "Open WebUI"
+  ],
+  "affected_vendors": [
+    "Open WebUI"
+  ],
+  "credit": "Peter Girnus (@gothburz), Brandon Niemczyk of Trend Zero Day Initiative",
+  "cve": "CVE-2026-0767",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-0767",
+  "cvss": 5.3,
+  "cvss_vector": "AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+  "disclosure_timeline": [
+    "2025-10-09 - Vulnerability reported to vendor",
+    "2026-01-09 - Coordinated public release of advisory",
+    "2026-01-09 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-26-033 ZDI-CAN-28259 (0Day) Open WebUI Cleartext Transmission of Credentials Information Disclosure Vulnerability 2026-01-09 CVE-2026-0767 https://www.cve.org/CVERecord?id=CVE-2026-0767 5.3 AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N ['Open WebUI'] ['Open WebUI'] This vulnerability allows network-adjacent attackers to disclose sensitive information on affected installations of Open WebUI. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of credentials provided to the endpoint. The issue results from transmitting sensitive information in plaintext. An attacker can leverage this vulnerability to disclose transmitted credentials, leading to further compromise. 10/09/25 \u2013 ZDI submitted the report to the vendor\u2019s GitHub account 10/10/25 \u2013 the vendor closed the report 10/15/25 \u2013 ZDI asked for the reason 11/10/25 \u2013 ZDI asked for the fix 12/10/25 \u2013 ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2025-10-09 - Vulnerability reported to vendor', '2026-01-09 - Coordinated public release of advisory', '2026-01-09 - Advisory Updated'] Peter Girnus (@gothburz), Brandon Niemczyk of Trend Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-033/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-033/",
+  "title": "(0Day) Open WebUI Cleartext Transmission of Credentials Information Disclosure Vulnerability",
+  "updated_date": "2026-01-09",
+  "vulnerability_details": "This vulnerability allows network-adjacent attackers to disclose sensitive information on affected installations of Open WebUI. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of credentials provided to the endpoint. The issue results from transmitting sensitive information in plaintext. An attacker can leverage this vulnerability to disclose transmitted credentials, leading to further compromise.",
+  "zdi_can": "ZDI-CAN-28259",
+  "zdi_id": "ZDI-26-033"
+}

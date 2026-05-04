@@ -1,0 +1,28 @@
+{
+  "additional_details": "IceWarp has issued an update to correct this vulnerability. More details can be found at: https://support.icewarp.com/hc/en-us/community/posts/40040980098705-EPOS-Update-2-build-9-14-2-0-9",
+  "advisory_date": "2025-12-10",
+  "affected_products": [
+    "IceWarp"
+  ],
+  "affected_vendors": [
+    "IceWarp"
+  ],
+  "credit": "Oscar Bataille",
+  "cve": "CVE-2025-14500",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-14500",
+  "cvss": 9.8,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2025-09-26 - Vulnerability reported to vendor",
+    "2025-12-10 - Coordinated public release of advisory",
+    "2025-12-10 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-1072 ZDI-CAN-27394 IceWarp14 X-File-Operation Command Injection Remote Code Execution Vulnerability 2025-12-10 CVE-2025-14500 https://www.cve.org/CVERecord?id=CVE-2025-14500 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['IceWarp'] ['IceWarp'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of IceWarp. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of the X-File-Operation header. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of SYSTEM. IceWarp has issued an update to correct this vulnerability. More details can be found at: https://support.icewarp.com/hc/en-us/community/posts/40040980098705-EPOS-Update-2-build-9-14-2-0-9 ['2025-09-26 - Vulnerability reported to vendor', '2025-12-10 - Coordinated public release of advisory', '2025-12-10 - Advisory Updated'] Oscar Bataille https://www.zerodayinitiative.com/advisories/ZDI-25-1072/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-1072/",
+  "title": "IceWarp14 X-File-Operation Command Injection Remote Code Execution Vulnerability",
+  "updated_date": "2025-12-10",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of IceWarp. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of the X-File-Operation header. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-27394",
+  "zdi_id": "ZDI-25-1072"
+}

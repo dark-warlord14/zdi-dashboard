@@ -1,0 +1,27 @@
+{
+  "additional_details": "Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/javacpufeb2013-1841061.html",
+  "advisory_date": "2013-02-11",
+  "affected_products": [
+    "Java Runtime"
+  ],
+  "affected_vendors": [
+    "Oracle"
+  ],
+  "credit": "James Forshaw (tyranid)",
+  "cve": "CVE-2012-3213",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2012-3213",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2012-07-24 - Vulnerability reported to vendor",
+    "2013-02-11 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-13-011 ZDI-CAN-1587 Oracle Java NativeJavaConstructor Class Serialization Remote Code Execution Vulnerability 2013-02-11 CVE-2012-3213 https://www.cve.org/CVERecord?id=CVE-2012-3213 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Oracle'] ['Java Runtime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Oracle Java. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists due to insufficient checks during deserialization in the NativeJavaConstructor class that is part of the Rhino JavaScript Engine. This allows for the construction of otherwise privileged objects which can lead to remote code execution under the context of the current user. Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/javacpufeb2013-1841061.html ['2012-07-24 - Vulnerability reported to vendor', '2013-02-11 - Coordinated public release of advisory'] James Forshaw (tyranid) https://www.zerodayinitiative.com/advisories/ZDI-13-011/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-13-011/",
+  "title": "Oracle Java NativeJavaConstructor Class Serialization Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Oracle Java. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists due to insufficient checks during deserialization in the NativeJavaConstructor class that is part of the Rhino JavaScript Engine. This allows for the construction of otherwise privileged objects which can lead to remote code execution under the context of the current user.",
+  "zdi_can": "ZDI-CAN-1587",
+  "zdi_id": "ZDI-13-011"
+}

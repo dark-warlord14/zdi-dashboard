@@ -1,0 +1,28 @@
+{
+  "additional_details": "Autodesk has issued an update to correct this vulnerability. More details can be found at: https://www.autodesk.com/trust/security-advisories/adsk-sa-2024-0010",
+  "advisory_date": "2024-06-18",
+  "affected_products": [
+    "AutoCAD"
+  ],
+  "affected_vendors": [
+    "Autodesk"
+  ],
+  "credit": "Mat Powell of Trend Micro Zero Day Initiative",
+  "cve": "CVE-2024-23156",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-23156",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2024-04-03 - Vulnerability reported to vendor",
+    "2024-06-18 - Coordinated public release of advisory",
+    "2024-08-15 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-799 ZDI-CAN-23897 (0Day) Autodesk AutoCAD 3DM File Parsing Memory Corruption Remote Code Execution Vulnerability 2024-06-18 CVE-2024-23156 https://www.cve.org/CVERecord?id=CVE-2024-23156 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Autodesk'] ['AutoCAD'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Autodesk AutoCAD. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of 3DM files. The issue results from the lack of proper validation of user-supplied data, which can result in a memory corruption condition. An attacker can leverage this vulnerability to execute code in the context of the current process. Autodesk has issued an update to correct this vulnerability. More details can be found at: https://www.autodesk.com/trust/security-advisories/adsk-sa-2024-0010 ['2024-04-03 - Vulnerability reported to vendor', '2024-06-18 - Coordinated public release of advisory', '2024-08-15 - Advisory Updated'] Mat Powell of Trend Micro Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-24-799/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-799/",
+  "title": "(0Day) Autodesk AutoCAD 3DM File Parsing Memory Corruption Remote Code Execution Vulnerability",
+  "updated_date": "2024-08-15",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Autodesk AutoCAD. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of 3DM files. The issue results from the lack of proper validation of user-supplied data, which can result in a memory corruption condition. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-23897",
+  "zdi_id": "ZDI-24-799"
+}

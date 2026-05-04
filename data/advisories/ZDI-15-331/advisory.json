@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/en-us/library/security/MS15-065",
+  "advisory_date": "2015-07-14",
+  "affected_products": [
+    "Internet Explorer"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Ashutosh Mehra (https://twitter.com/ashutoshmehra)",
+  "cve": "CVE-2015-2412",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-2412",
+  "cvss": 4.7,
+  "cvss_vector": "AV:L/AC:M/Au:N/C:C/I:N/A:N",
+  "disclosure_timeline": [
+    "2015-04-07 - Vulnerability reported to vendor",
+    "2015-07-14 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-15-331 ZDI-CAN-2863 Microsoft Internet Explorer Enhanced Protected Mode Read-Restrictions Bypass Vulnerability 2015-07-14 CVE-2015-2412 https://www.cve.org/CVERecord?id=CVE-2015-2412 4.7 AV:L/AC:M/Au:N/C:C/I:N/A:N ['Microsoft'] ['Internet Explorer'] This vulnerability allows remote attackers to partially escape AppContainer limitations on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the IE broker process when processing a file name for reading in the routine IShdocvwBroker::MOTWCreateFileW. Using a directory junction and a symbolic link, code running inside the EPM AppContainer can read any file that the normal user account can read, bypassing the restrictions designed into EPM. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/en-us/library/security/MS15-065 ['2015-04-07 - Vulnerability reported to vendor', '2015-07-14 - Coordinated public release of advisory'] Ashutosh Mehra (https://twitter.com/ashutoshmehra) https://www.zerodayinitiative.com/advisories/ZDI-15-331/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-331/",
+  "title": "Microsoft Internet Explorer Enhanced Protected Mode Read-Restrictions Bypass Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to partially escape AppContainer limitations on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the IE broker process when processing a file name for reading in the routine IShdocvwBroker::MOTWCreateFileW. Using a directory junction and a symbolic link, code running inside the EPM AppContainer can read any file that the normal user account can read, bypassing the restrictions designed into EPM.",
+  "zdi_can": "ZDI-CAN-2863",
+  "zdi_id": "ZDI-15-331"
+}

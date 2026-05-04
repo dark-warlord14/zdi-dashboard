@@ -1,0 +1,26 @@
+# ZDI-21-156: (0Day) Squid Cache WCCP Protocol Use-After-Free Remote Code Execution Vulnerability
+
+## Metadata
+
+- **ZDI ID:** ZDI-21-156
+- **ZDI-CAN:** ZDI-CAN-11609
+- **Date:** 2021-02-09
+- **CVE:** N/A
+- **CVSS:** 5.6
+- **CVSS Vector:** AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L
+- **Affected Vendors:** Squid
+- **Affected Products:** Cache
+- **Credit:** Lyu
+- **Source:** https://www.zerodayinitiative.com/advisories/ZDI-21-156/
+## Vulnerability Details
+
+This vulnerability allows remote attackers to execute arbitrary code on affected installations of Squid Cache. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of the WCCP protocol. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the "nobody" user.
+
+## Additional Details
+
+This vulnerability is being disclosed publicly without a patch in accordance with the ZDI 120 day deadline. 08/17/20 – ZDI reported the vulnerability to the vendor 08/17/20 –The vendor acknowledged the report 12/14/20 – ZDI requested an update 12/18/20 – ZDI requested an update 12/18/20 – The vendor indicated the issue was not valid and requested more details 01/07/21 – ZDI provided more details 01/20/21 – ZDI requested an update 02/02/21 – ZDI notified the vendor of the intention to publish the case as a 0-day advisory on 02/09/21 -- Mitigation: Given the nature of the vulnerability the only salient mitigation strategy is to restrict interaction with the application.
+
+## Disclosure Timeline
+
+- 2020-08-17 - Vulnerability reported to vendor
+- 2021-02-09 - Coordinated public release of advisory

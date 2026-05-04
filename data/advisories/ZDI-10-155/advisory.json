@@ -1,0 +1,27 @@
+{
+  "additional_details": "This issue has been resolved in T27FR14, deployed to WebEx customers in April.",
+  "advisory_date": "2010-08-23",
+  "affected_products": [
+    "WebEx"
+  ],
+  "affected_vendors": [
+    "Cisco"
+  ],
+  "credit": "Gabriel Menezes Nunes",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2010-01-06 - Vulnerability reported to vendor",
+    "2010-08-23 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-10-155 ZDI-CAN-627 Cisco WebEx Player ARF String Parsing Remote Code Execution Vulnerability 2010-08-23 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Cisco'] ['WebEx'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Cisco WebEx Player. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists during the parsing of strings defined within the ARF file format. Strings are typically prefixed by their valid length. By supplying a string much longer than the defined length a heap overflow will occur which can be further leveraged to execute arbitrary code under the context of the current user. This issue has been resolved in T27FR14, deployed to WebEx customers in April. ['2010-01-06 - Vulnerability reported to vendor', '2010-08-23 - Coordinated public release of advisory'] Gabriel Menezes Nunes https://www.zerodayinitiative.com/advisories/ZDI-10-155/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-155/",
+  "title": "Cisco WebEx Player ARF String Parsing Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Cisco WebEx Player. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists during the parsing of strings defined within the ARF file format. Strings are typically prefixed by their valid length. By supplying a string much longer than the defined length a heap overflow will occur which can be further leveraged to execute arbitrary code under the context of the current user.",
+  "zdi_can": "ZDI-CAN-627",
+  "zdi_id": "ZDI-10-155"
+}

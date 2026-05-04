@@ -1,0 +1,27 @@
+{
+  "additional_details": "Mozilla Firefox has issued an update to correct this vulnerability. More details can be found at: http://www.mozilla.org/security/announce/2010/mfsa2010-08.html",
+  "advisory_date": "2010-04-06",
+  "affected_products": [
+    "3.6.x"
+  ],
+  "affected_vendors": [
+    "Mozilla Firefox"
+  ],
+  "credit": "regenrecht",
+  "cve": "CVE-2010-1028",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2010-1028",
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2010-03-22 - Vulnerability reported to vendor",
+    "2010-04-06 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-10-064 ZDI-CAN-741 Mozilla Firefox WOFF Font Format dirEntry Remote Code Execution Vulnerability 2010-04-06 CVE-2010-1028 https://www.cve.org/CVERecord?id=CVE-2010-1028 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Mozilla Firefox'] ['3.6.x'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Mozilla Firefox. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the way the browser loads a WOFF-based font. Upon calculating the length of some data read from the file, the application will miscalculate a size used for an allocation, and then copy an incorrect amount of data into that buffer. Due to the difference between the size of the allocation and the size of the copy, a buffer overflow will occur which can lead to code execution under the context of the application. Mozilla Firefox has issued an update to correct this vulnerability. More details can be found at: http://www.mozilla.org/security/announce/2010/mfsa2010-08.html ['2010-03-22 - Vulnerability reported to vendor', '2010-04-06 - Coordinated public release of advisory'] regenrecht https://www.zerodayinitiative.com/advisories/ZDI-10-064/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-064/",
+  "title": "Mozilla Firefox WOFF Font Format dirEntry Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Mozilla Firefox. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the way the browser loads a WOFF-based font. Upon calculating the length of some data read from the file, the application will miscalculate a size used for an allocation, and then copy an incorrect amount of data into that buffer. Due to the difference between the size of the allocation and the size of the copy, a buffer overflow will occur which can lead to code execution under the context of the application.",
+  "zdi_can": "ZDI-CAN-741",
+  "zdi_id": "ZDI-10-064"
+}

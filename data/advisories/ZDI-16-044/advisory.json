@@ -1,0 +1,27 @@
+{
+  "additional_details": "Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/cpujan2016-2367955.html",
+  "advisory_date": "2016-01-25",
+  "affected_products": [
+    "Application Testing Suite"
+  ],
+  "affected_vendors": [
+    "Oracle"
+  ],
+  "credit": "rgod",
+  "cve": "CVE-2016-0481",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-0481",
+  "cvss": 7.8,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:N/A:N",
+  "disclosure_timeline": [
+    "2015-09-29 - Vulnerability reported to vendor",
+    "2016-01-25 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-16-044 ZDI-CAN-3304 Oracle Application Testing Suite DownloadServlet scheduleReportName Parameter Directory Traversal Information Disclosure Vulnerability 2016-01-25 CVE-2016-0481 https://www.cve.org/CVERecord?id=CVE-2016-0481 7.8 AV:N/AC:L/Au:N/C:C/I:N/A:N ['Oracle'] ['Application Testing Suite'] This vulnerability allows remote attackers to exfiltrate arbitrary files on vulnerable installations of Oracle Application Testing Suite. Authentication is not required to exploit this vulnerability. The specific flaw exists within the DownloadServlet servlet. By providing a scheduleReportName parameter containing a directory traversal where the downloadType is specified as scheduleTaskResults, an attacker can exfiltrate arbitrary files from the system. Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/cpujan2016-2367955.html ['2015-09-29 - Vulnerability reported to vendor', '2016-01-25 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-16-044/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-044/",
+  "title": "Oracle Application Testing Suite DownloadServlet scheduleReportName Parameter Directory Traversal Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to exfiltrate arbitrary files on vulnerable installations of Oracle Application Testing Suite. Authentication is not required to exploit this vulnerability. The specific flaw exists within the DownloadServlet servlet. By providing a scheduleReportName parameter containing a directory traversal where the downloadType is specified as scheduleTaskResults, an attacker can exfiltrate arbitrary files from the system.",
+  "zdi_can": "ZDI-CAN-3304",
+  "zdi_id": "ZDI-16-044"
+}

@@ -1,0 +1,27 @@
+{
+  "additional_details": "Skype has issued an update to correct this vulnerability. More details can be found at: http://share.skype.com/sites/garage/2010/03/10/ReleaseNotes_4.2.0.155.pdf",
+  "advisory_date": "2010-03-11",
+  "affected_products": [
+    "Skype"
+  ],
+  "affected_vendors": [
+    "Skype"
+  ],
+  "credit": "Anonymous",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 8.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:P/A:N",
+  "disclosure_timeline": [
+    "2009-07-14 - Vulnerability reported to vendor",
+    "2010-03-11 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-10-027 ZDI-CAN-510 Skype Protocol Handler datapath Argument Injection Remote Code Execution Vulnerability 2010-03-11 8.5 AV:N/AC:L/Au:N/C:C/I:P/A:N ['Skype'] ['Skype'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Skype. User interaction is required to exploit this vulnerability in that the target must visit a malicious page. The specific flaw exists with how the OS web-browser passes command line arguments to Skype through the registered 'skype:' protocol handler. Insufficient sanity checking to the /datapath argument allows an attacker to construct a link that will execute Skype with arbitrary arguments. This can be abused to specify a remote configuration storage directory which can be leveraged to glean target user credentials. Skype has issued an update to correct this vulnerability. More details can be found at: http://share.skype.com/sites/garage/2010/03/10/ReleaseNotes_4.2.0.155.pdf ['2009-07-14 - Vulnerability reported to vendor', '2010-03-11 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-10-027/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-027/",
+  "title": "Skype Protocol Handler datapath Argument Injection Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Skype. User interaction is required to exploit this vulnerability in that the target must visit a malicious page. The specific flaw exists with how the OS web-browser passes command line arguments to Skype through the registered 'skype:' protocol handler. Insufficient sanity checking to the /datapath argument allows an attacker to construct a link that will execute Skype with arbitrary arguments. This can be abused to specify a remote configuration storage directory which can be leveraged to glean target user credentials.",
+  "zdi_can": "ZDI-CAN-510",
+  "zdi_id": "ZDI-10-027"
+}

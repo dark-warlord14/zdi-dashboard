@@ -1,0 +1,27 @@
+{
+  "additional_details": "Sophos has issued an update to correct this vulnerability. More details can be found at: http://kb.cyberoam.com/default.asp?id=3049&Lang=1&SID",
+  "advisory_date": "2014-10-01",
+  "affected_products": [
+    "Cyberoam"
+  ],
+  "affected_vendors": [
+    "Sophos"
+  ],
+  "credit": "agix",
+  "cve": "CVE-2014-5502",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-5502",
+  "cvss": 9.0,
+  "cvss_vector": "AV:N/AC:L/Au:S/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2014-06-04 - Vulnerability reported to vendor",
+    "2014-10-01 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-14-328 ZDI-CAN-2330 Sophos Cyberoam ccc_flush_sql_file Command Injection Remote Code Execution Vulnerability 2014-10-01 CVE-2014-5502 https://www.cve.org/CVERecord?id=CVE-2014-5502 9.0 AV:N/AC:L/Au:S/C:C/I:C/A:C ['Sophos'] ['Cyberoam'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Sophos Cyberoam. Authentication is required to exploit this vulnerability. The specific flaw exists within the ccc_flush_sql_file opcode. The issue lies in the failure to properly sanitize user-supplied input before executing commands. An attacker can leverage this vulnerability to execute code under the context of the current process. Sophos has issued an update to correct this vulnerability. More details can be found at: http://kb.cyberoam.com/default.asp?id=3049&Lang=1&SID ['2014-06-04 - Vulnerability reported to vendor', '2014-10-01 - Coordinated public release of advisory'] agix https://www.zerodayinitiative.com/advisories/ZDI-14-328/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-14-328/",
+  "title": "Sophos Cyberoam ccc_flush_sql_file Command Injection Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Sophos Cyberoam. Authentication is required to exploit this vulnerability. The specific flaw exists within the ccc_flush_sql_file opcode. The issue lies in the failure to properly sanitize user-supplied input before executing commands. An attacker can leverage this vulnerability to execute code under the context of the current process.",
+  "zdi_can": "ZDI-CAN-2330",
+  "zdi_id": "ZDI-14-328"
+}

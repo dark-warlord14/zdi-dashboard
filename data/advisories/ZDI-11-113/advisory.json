@@ -1,0 +1,27 @@
+{
+  "additional_details": "Zend Server Java Bridge Hotfix http://www.zend.com/en/products/server/downloads Mention and notification can also be found here: http://www.zend.com/en/products/server/updates",
+  "advisory_date": "2011-03-28",
+  "affected_products": [
+    "Zend Server"
+  ],
+  "affected_vendors": [
+    "Zend"
+  ],
+  "credit": "Luca Carettoni",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2010-09-30 - Vulnerability reported to vendor",
+    "2011-03-28 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-11-113 ZDI-CAN-928 Zend Server Java Bridge Design Flaw Remote Code Execution Vulnerability 2011-03-28 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Zend'] ['Zend Server'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Zend Server. Authentication is not required to exploit this vulnerability. The specific flaw exists within the Zend Java Bridge v3.1 component of the Zend Server framework. The javamw.jar service accepts TCP requests on port 10001 by default. With nothing more than the knowledge of the proprietary communication protocol used by the Zend Server Java Bridge, it is possible to send arbitrary Java code to javamw.jar service and remotely execute these commands under the context of the user running the web server process. Zend Server Java Bridge Hotfix http://www.zend.com/en/products/server/downloads Mention and notification can also be found here: http://www.zend.com/en/products/server/updates ['2010-09-30 - Vulnerability reported to vendor', '2011-03-28 - Coordinated public release of advisory'] Luca Carettoni https://www.zerodayinitiative.com/advisories/ZDI-11-113/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-113/",
+  "title": "Zend Server Java Bridge Design Flaw Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Zend Server. Authentication is not required to exploit this vulnerability. The specific flaw exists within the Zend Java Bridge v3.1 component of the Zend Server framework. The javamw.jar service accepts TCP requests on port 10001 by default. With nothing more than the knowledge of the proprietary communication protocol used by the Zend Server Java Bridge, it is possible to send arbitrary Java code to javamw.jar service and remotely execute these commands under the context of the user running the web server process.",
+  "zdi_can": "ZDI-CAN-928",
+  "zdi_id": "ZDI-11-113"
+}

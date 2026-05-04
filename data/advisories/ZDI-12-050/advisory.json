@@ -1,0 +1,27 @@
+{
+  "additional_details": "RealNetworks has issued an update to correct this vulnerability. More details can be found at: http://service.real.com/realplayer/security/11182011_player/en/",
+  "advisory_date": "2012-03-22",
+  "affected_products": [
+    "RealPlayer"
+  ],
+  "affected_vendors": [
+    "RealNetworks"
+  ],
+  "credit": "Alexander Gavrun",
+  "cve": "CVE-2011-4262",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-4262",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2011-09-08 - Vulnerability reported to vendor",
+    "2012-03-22 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-12-050 ZDI-CAN-1319 RealNetworks RealPlayer mp4fformat rdrf Remote Code Execution Vulnerability 2012-03-22 CVE-2011-4262 https://www.cve.org/CVERecord?id=CVE-2011-4262 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['RealNetworks'] ['RealPlayer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of RealNetworks Realplayer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within mp4fformat. The vulnerability resides in adding 1 to a trusted size value being taken out of the file data. The size value is then used in an operator_new call. This can be leveraged when the pointer returned from the operator_new is used in a memcpy as the destination buffer pointer. This vulnerability can result in remote code execution under the context of the user running the application. RealNetworks has issued an update to correct this vulnerability. More details can be found at: http://service.real.com/realplayer/security/11182011_player/en/ ['2011-09-08 - Vulnerability reported to vendor', '2012-03-22 - Coordinated public release of advisory'] Alexander Gavrun https://www.zerodayinitiative.com/advisories/ZDI-12-050/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-12-050/",
+  "title": "RealNetworks RealPlayer mp4fformat rdrf Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of RealNetworks Realplayer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within mp4fformat. The vulnerability resides in adding 1 to a trusted size value being taken out of the file data. The size value is then used in an operator_new call. This can be leveraged when the pointer returned from the operator_new is used in a memcpy as the destination buffer pointer. This vulnerability can result in remote code execution under the context of the user running the application.",
+  "zdi_can": "ZDI-CAN-1319",
+  "zdi_id": "ZDI-12-050"
+}

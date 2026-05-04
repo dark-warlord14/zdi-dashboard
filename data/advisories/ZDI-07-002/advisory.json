@@ -1,0 +1,27 @@
+{
+  "additional_details": "Computer Associates has issued an update to correct this vulnerability. More details can be found at: http://supportconnectw.ca.com/public/storage/infodocs/babimpsec-notice.asp",
+  "advisory_date": "2007-01-11",
+  "affected_products": [
+    "BrightStor ARCserve Server"
+  ],
+  "affected_vendors": [
+    "Computer Associates"
+  ],
+  "credit": "LSsecurity - LSsec.com",
+  "cve": "CVE-2007-0168",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2007-0168",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2006-11-01 - Vulnerability reported to vendor",
+    "2007-01-11 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-07-002 ZDI-CAN-118 CA BrightStor ARCserve Backup Tape Engine Code Execution Vulnerability 2007-01-11 CVE-2007-0168 https://www.cve.org/CVERecord?id=CVE-2007-0168 ['Computer Associates'] ['BrightStor ARCserve Server'] This vulnerability allows attackers to execute arbitrary code on vulnerable installations of Computer Associates BrightStor ARCserve Backup. User interaction is not required to exploit this vulnerability. The specific flaw exists in the handling of RPC requests to the Tape Engine service which listens by default on TCP port 6502 with the following UUID: 62b93df0-8b02-11ce-876c-00805f842837 The handler function for RPC opnum 0xBF directly calls user-supplied data in the RPC request, resulting in trivial arbitrary code execution. Computer Associates has issued an update to correct this vulnerability. More details can be found at: http://supportconnectw.ca.com/public/storage/infodocs/babimpsec-notice.asp ['2006-11-01 - Vulnerability reported to vendor', '2007-01-11 - Coordinated public release of advisory'] LSsecurity - LSsec.com https://www.zerodayinitiative.com/advisories/ZDI-07-002/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-07-002/",
+  "title": "CA BrightStor ARCserve Backup Tape Engine Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows attackers to execute arbitrary code on vulnerable installations of Computer Associates BrightStor ARCserve Backup. User interaction is not required to exploit this vulnerability. The specific flaw exists in the handling of RPC requests to the Tape Engine service which listens by default on TCP port 6502 with the following UUID: 62b93df0-8b02-11ce-876c-00805f842837 The handler function for RPC opnum 0xBF directly calls user-supplied data in the RPC request, resulting in trivial arbitrary code execution.",
+  "zdi_can": "ZDI-CAN-118",
+  "zdi_id": "ZDI-07-002"
+}

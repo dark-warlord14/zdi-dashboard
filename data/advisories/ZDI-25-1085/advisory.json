@@ -1,0 +1,28 @@
+{
+  "additional_details": "08/26/25 - ZDI reported the vulnerability to Avanquest\u2019s support team 09/11/25 - ZDI asked for updates 11/12/25 - ZDI asked for updates 11/21/25 \u2013 the vendor indicated that they don't offer bounties or rewards 11/21/25 - ZDI confirmed not accepting any rewards or bounties and asked for the expected fix date 12/04/25 \u2013 ZDI notified the vendor of the intention to publish the case as a 0-day advisory on 12/11/25 -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+  "advisory_date": "2025-12-11",
+  "affected_products": [
+    "Desktop"
+  ],
+  "affected_vendors": [
+    "Soda PDF"
+  ],
+  "credit": "kimiya",
+  "cve": "CVE-2025-14412",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-14412",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2025-08-26 - Vulnerability reported to vendor",
+    "2025-12-11 - Coordinated public release of advisory",
+    "2025-12-11 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-1085 ZDI-CAN-27495 (0Day) Soda PDF Desktop XLS File Insufficient UI Warning Remote Code Execution Vulnerability 2025-12-11 CVE-2025-14412 https://www.cve.org/CVERecord?id=CVE-2025-14412 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Soda PDF'] ['Desktop'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Soda PDF Desktop. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of XLS files. The issue results from allowing the execution of dangerous script without user warning. An attacker can leverage this vulnerability to execute code in the context of the current user. 08/26/25 - ZDI reported the vulnerability to Avanquest\u2019s support team 09/11/25 - ZDI asked for updates 11/12/25 - ZDI asked for updates 11/21/25 \u2013 the vendor indicated that they don't offer bounties or rewards 11/21/25 - ZDI confirmed not accepting any rewards or bounties and asked for the expected fix date 12/04/25 \u2013 ZDI notified the vendor of the intention to publish the case as a 0-day advisory on 12/11/25 -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2025-08-26 - Vulnerability reported to vendor', '2025-12-11 - Coordinated public release of advisory', '2025-12-11 - Advisory Updated'] kimiya https://www.zerodayinitiative.com/advisories/ZDI-25-1085/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-1085/",
+  "title": "(0Day) Soda PDF Desktop XLS File Insufficient UI Warning Remote Code Execution Vulnerability",
+  "updated_date": "2025-12-11",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Soda PDF Desktop. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of XLS files. The issue results from allowing the execution of dangerous script without user warning. An attacker can leverage this vulnerability to execute code in the context of the current user.",
+  "zdi_can": "ZDI-CAN-27495",
+  "zdi_id": "ZDI-25-1085"
+}

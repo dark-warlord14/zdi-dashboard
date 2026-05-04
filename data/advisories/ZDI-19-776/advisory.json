@@ -1,0 +1,27 @@
+{
+  "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/photoshop/apsb19-44.html",
+  "advisory_date": "2019-08-27",
+  "affected_products": [
+    "Photoshop"
+  ],
+  "affected_vendors": [
+    "Adobe"
+  ],
+  "credit": "Steven Seeley (mr_me) of Source Incite",
+  "cve": "CVE-2019-7989",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2019-7989",
+  "cvss": 5.5,
+  "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+  "disclosure_timeline": [
+    "2019-05-09 - Vulnerability reported to vendor",
+    "2019-08-27 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-19-776 ZDI-CAN-8504 Adobe Photoshop JSX File ExtendScript File.remove Insufficient UI Warning Denial-of-Service Vulnerability 2019-08-27 CVE-2019-7989 https://www.cve.org/CVERecord?id=CVE-2019-7989 5.5 AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H ['Adobe'] ['Photoshop'] This vulnerability allows remote attackers to trigger a denial-of-service condition on affected installations of Adobe Photoshop. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of the File.remove method when processing JSX files. When opening a JSX file, the user interface fails to warn the user of unsafe actions. An attacker can leverage this vulnerability to delete files in the context of the current process. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/photoshop/apsb19-44.html ['2019-05-09 - Vulnerability reported to vendor', '2019-08-27 - Coordinated public release of advisory'] Steven Seeley (mr_me) of Source Incite https://www.zerodayinitiative.com/advisories/ZDI-19-776/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-19-776/",
+  "title": "Adobe Photoshop JSX File ExtendScript File.remove Insufficient UI Warning Denial-of-Service Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to trigger a denial-of-service condition on affected installations of Adobe Photoshop. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of the File.remove method when processing JSX files. When opening a JSX file, the user interface fails to warn the user of unsafe actions. An attacker can leverage this vulnerability to delete files in the context of the current process.",
+  "zdi_can": "ZDI-CAN-8504",
+  "zdi_id": "ZDI-19-776"
+}

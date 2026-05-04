@@ -1,0 +1,28 @@
+{
+  "additional_details": "https://success.trendmicro.com/solution/000253095",
+  "advisory_date": "2020-05-27",
+  "affected_products": [
+    "InterScan Web Security Virtual Appliance"
+  ],
+  "affected_vendors": [
+    "Trend Micro"
+  ],
+  "credit": "Mehmet INCE (@mdisec)",
+  "cve": "CVE-2020-8606",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2020-8606",
+  "cvss": 9.8,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2020-02-04 - Vulnerability reported to vendor",
+    "2020-05-27 - Coordinated public release of advisory",
+    "2020-05-28 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-20-677 ZDI-CAN-10117 Trend Micro InterScan Web Security Virtual Appliance Apache Solr Authentication Bypass Vulnerability 2020-05-27 CVE-2020-8606 https://www.cve.org/CVERecord?id=CVE-2020-8606 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['Trend Micro'] ['InterScan Web Security Virtual Appliance'] This vulnerability allows remote attackers to bypass authentication on affected installations of Trend Micro InterScan Web Security Virtual Appliance. The specific flaw exists within the Apache Solr application. The issue results from the lack of proper implementation of authentication. An attacker can leverage this vulnerability to bypass authentication on the system. https://success.trendmicro.com/solution/000253095 ['2020-02-04 - Vulnerability reported to vendor', '2020-05-27 - Coordinated public release of advisory', '2020-05-28 - Advisory Updated'] Mehmet INCE (@mdisec) https://www.zerodayinitiative.com/advisories/ZDI-20-677/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-20-677/",
+  "title": "Trend Micro InterScan Web Security Virtual Appliance Apache Solr Authentication Bypass Vulnerability",
+  "updated_date": "2020-05-28",
+  "vulnerability_details": "This vulnerability allows remote attackers to bypass authentication on affected installations of Trend Micro InterScan Web Security Virtual Appliance. The specific flaw exists within the Apache Solr application. The issue results from the lack of proper implementation of authentication. An attacker can leverage this vulnerability to bypass authentication on the system.",
+  "zdi_can": "ZDI-CAN-10117",
+  "zdi_id": "ZDI-20-677"
+}

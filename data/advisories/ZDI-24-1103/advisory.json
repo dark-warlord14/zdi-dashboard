@@ -1,0 +1,28 @@
+{
+  "additional_details": "Logsign has issued an update to correct this vulnerability. More details can be found at: https://support.logsign.net/hc/en-us/articles/20617133769362-06-08-2024-Version-6-4-23-Release-Notes",
+  "advisory_date": "2024-08-08",
+  "affected_products": [
+    "Unified SecOps Platform"
+  ],
+  "affected_vendors": [
+    "Logsign"
+  ],
+  "credit": "Abdessamad Lahlali and Smile Thanapattheerakul of Trend Micro",
+  "cve": "CVE-2024-7600",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-7600",
+  "cvss": 7.1,
+  "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:H",
+  "disclosure_timeline": [
+    "2024-08-06 - Vulnerability reported to vendor",
+    "2024-08-08 - Coordinated public release of advisory",
+    "2024-08-15 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-1103 ZDI-CAN-25025 Logsign Unified SecOps Platform Directory Traversal Arbitrary File Deletion Vulnerability 2024-08-08 CVE-2024-7600 https://www.cve.org/CVERecord?id=CVE-2024-7600 7.1 AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:H ['Logsign'] ['Unified SecOps Platform'] This vulnerability allows remote attackers to delete arbitrary files on affected installations of Logsign Unified SecOps Platform. Authentication is required to exploit this vulnerability. The specific flaw exists within the HTTP API service, which listens on TCP port 443 by default. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to delete files in the context of root. Logsign has issued an update to correct this vulnerability. More details can be found at: https://support.logsign.net/hc/en-us/articles/20617133769362-06-08-2024-Version-6-4-23-Release-Notes ['2024-08-06 - Vulnerability reported to vendor', '2024-08-08 - Coordinated public release of advisory', '2024-08-15 - Advisory Updated'] Abdessamad Lahlali and Smile Thanapattheerakul of Trend Micro https://www.zerodayinitiative.com/advisories/ZDI-24-1103/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-1103/",
+  "title": "Logsign Unified SecOps Platform Directory Traversal Arbitrary File Deletion Vulnerability",
+  "updated_date": "2024-08-15",
+  "vulnerability_details": "This vulnerability allows remote attackers to delete arbitrary files on affected installations of Logsign Unified SecOps Platform. Authentication is required to exploit this vulnerability. The specific flaw exists within the HTTP API service, which listens on TCP port 443 by default. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to delete files in the context of root.",
+  "zdi_can": "ZDI-CAN-25025",
+  "zdi_id": "ZDI-24-1103"
+}

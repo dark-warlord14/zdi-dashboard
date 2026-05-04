@@ -1,0 +1,28 @@
+{
+  "additional_details": "Fixed in American Standard: V1.39.51 and European Standard: V1.56.51",
+  "advisory_date": "2025-06-11",
+  "affected_products": [
+    "Autel MaxiCharger AC Wallbox Commercial"
+  ],
+  "affected_vendors": [
+    "Autel"
+  ],
+  "credit": "Sina Kheirkhah (@SinSinology) of Summoning Team (@SummoningTeam)",
+  "cve": "CVE-2025-5824",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-5824",
+  "cvss": 5.0,
+  "cvss_vector": "AV:A/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L",
+  "disclosure_timeline": [
+    "2025-05-28 - Vulnerability reported to vendor",
+    "2025-06-11 - Coordinated public release of advisory",
+    "2025-06-11 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-343 ZDI-CAN-26353 (Pwn2Own) Autel MaxiCharger AC Wallbox Commercial Origin Validation Error Authentication Bypass Vulnerability 2025-06-11 CVE-2025-5824 https://www.cve.org/CVERecord?id=CVE-2025-5824 5.0 AV:A/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L ['Autel'] ['Autel MaxiCharger AC Wallbox Commercial'] This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of Autel MaxiCharger AC Wallbox Commercial. An attacker must first obtain the ability to pair a malicious Bluetooth device with the target system in order to exploit this vulnerability. The specific flaw exists within the handling of bluetooth pairing requests. The issue results from insufficient validation of the origin of commands. An attacker can leverage this vulnerability to bypass authentication on the system. Fixed in American Standard: V1.39.51 and European Standard: V1.56.51 ['2025-05-28 - Vulnerability reported to vendor', '2025-06-11 - Coordinated public release of advisory', '2025-06-11 - Advisory Updated'] Sina Kheirkhah (@SinSinology) of Summoning Team (@SummoningTeam) https://www.zerodayinitiative.com/advisories/ZDI-25-343/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-343/",
+  "title": "(Pwn2Own) Autel MaxiCharger AC Wallbox Commercial Origin Validation Error Authentication Bypass Vulnerability",
+  "updated_date": "2025-06-11",
+  "vulnerability_details": "This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of Autel MaxiCharger AC Wallbox Commercial. An attacker must first obtain the ability to pair a malicious Bluetooth device with the target system in order to exploit this vulnerability. The specific flaw exists within the handling of bluetooth pairing requests. The issue results from insufficient validation of the origin of commands. An attacker can leverage this vulnerability to bypass authentication on the system.",
+  "zdi_can": "ZDI-CAN-26353",
+  "zdi_id": "ZDI-25-343"
+}

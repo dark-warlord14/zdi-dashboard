@@ -1,0 +1,28 @@
+{
+  "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb18-09.html",
+  "advisory_date": "2018-05-15",
+  "affected_products": [
+    "Acrobat Pro DC"
+  ],
+  "affected_vendors": [
+    "Adobe"
+  ],
+  "credit": "AbdulAziz Hariri - Trend Micro Zero Day Initiative",
+  "cve": "CVE-2018-4980",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2018-4980",
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2018-03-06 - Vulnerability reported to vendor",
+    "2018-05-15 - Coordinated public release of advisory",
+    "2018-05-15 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-464 ZDI-CAN-5811 Adobe Acrobat Pro DC Compare Files Use-After-Free Remote Code Execution Vulnerability 2018-05-15 CVE-2018-4980 https://www.cve.org/CVERecord?id=CVE-2018-4980 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Adobe'] ['Acrobat Pro DC'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Adobe Acrobat Pro DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the Compare Files tool. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code under the context of the current process. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb18-09.html ['2018-03-06 - Vulnerability reported to vendor', '2018-05-15 - Coordinated public release of advisory', '2018-05-15 - Advisory Updated'] AbdulAziz Hariri - Trend Micro Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-18-464/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-464/",
+  "title": "Adobe Acrobat Pro DC Compare Files Use-After-Free Remote Code Execution Vulnerability",
+  "updated_date": "2018-05-15",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Adobe Acrobat Pro DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the Compare Files tool. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code under the context of the current process.",
+  "zdi_can": "ZDI-CAN-5811",
+  "zdi_id": "ZDI-18-464"
+}

@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-us/security-guidance/researcher-acknowledgments-online-services",
+  "advisory_date": "2023-10-05",
+  "affected_products": [
+    "PC Manager"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Nitesh Surana (@_niteshsurana) of Trend Micro Research",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2023-09-28 - Vulnerability reported to vendor",
+    "2023-10-05 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-1527 ZDI-CAN-22263 Microsoft PC Manager SAS Token Incorrect Permission Assignment Authentication Bypass Vulnerability 2023-10-05 10.0 AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H ['Microsoft'] ['PC Manager'] This vulnerability allows remote attackers to bypass authentication on Microsoft PC Manager. Authentication is not required to exploit this vulnerability. The specific flaw exists within the permissions granted to an SAS token. An attacker can leverage this vulnerability to launch a supply-chain attack and execute arbitrary code on customers' endpoints. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-us/security-guidance/researcher-acknowledgments-online-services ['2023-09-28 - Vulnerability reported to vendor', '2023-10-05 - Coordinated public release of advisory'] Nitesh Surana (@_niteshsurana) of Trend Micro Research https://www.zerodayinitiative.com/advisories/ZDI-23-1527/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-1527/",
+  "title": "Microsoft PC Manager SAS Token Incorrect Permission Assignment Authentication Bypass Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to bypass authentication on Microsoft PC Manager. Authentication is not required to exploit this vulnerability. The specific flaw exists within the permissions granted to an SAS token. An attacker can leverage this vulnerability to launch a supply-chain attack and execute arbitrary code on customers' endpoints.",
+  "zdi_can": "ZDI-CAN-22263",
+  "zdi_id": "ZDI-23-1527"
+}

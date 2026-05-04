@@ -1,0 +1,28 @@
+{
+  "additional_details": "LibreNMS has issued an update to correct this vulnerability. More details can be found at: https://github.com/librenms/librenms/security/advisories/GHSA-c89f-8g7g-59wj",
+  "advisory_date": "2025-12-23",
+  "affected_products": [
+    "LibreNMS"
+  ],
+  "affected_vendors": [
+    "LibreNMS"
+  ],
+  "credit": "Simon Humbert of Trend Research",
+  "cve": "CVE-2025-68614",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-68614",
+  "cvss": 4.3,
+  "cvss_vector": "AV:N/AC:L/PR:H/UI:R/S:U/C:L/I:L/A:L",
+  "disclosure_timeline": [
+    "2025-11-18 - Vulnerability reported to vendor",
+    "2025-12-23 - Coordinated public release of advisory",
+    "2025-12-23 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-1182 ZDI-CAN-28575 LibreNMS Alert Rule API Cross-Site Scripting Vulnerability 2025-12-23 CVE-2025-68614 https://www.cve.org/CVERecord?id=CVE-2025-68614 4.3 AV:N/AC:L/PR:H/UI:R/S:U/C:L/I:L/A:L ['LibreNMS'] ['LibreNMS'] This vulnerability allows remote attackers to execute arbitrary script on affected installations of LibreNMS. Authentication is required to exploit this vulnerability. The specific flaw exists within the handling of the name parameter provided to the rules endpoint. The issue results from the lack of proper validation of user-supplied data, which can lead to the injection of arbitrary script. An attacker can leverage this vulnerability to execute script in the context of a target user. LibreNMS has issued an update to correct this vulnerability. More details can be found at: https://github.com/librenms/librenms/security/advisories/GHSA-c89f-8g7g-59wj ['2025-11-18 - Vulnerability reported to vendor', '2025-12-23 - Coordinated public release of advisory', '2025-12-23 - Advisory Updated'] Simon Humbert of Trend Research https://www.zerodayinitiative.com/advisories/ZDI-25-1182/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-1182/",
+  "title": "LibreNMS Alert Rule API Cross-Site Scripting Vulnerability",
+  "updated_date": "2025-12-23",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary script on affected installations of LibreNMS. Authentication is required to exploit this vulnerability. The specific flaw exists within the handling of the name parameter provided to the rules endpoint. The issue results from the lack of proper validation of user-supplied data, which can lead to the injection of arbitrary script. An attacker can leverage this vulnerability to execute script in the context of a target user.",
+  "zdi_can": "ZDI-CAN-28575",
+  "zdi_id": "ZDI-25-1182"
+}

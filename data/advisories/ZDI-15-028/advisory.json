@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/library/security/MS15-009",
+  "advisory_date": "2015-02-10",
+  "affected_products": [
+    "Internet Explorer"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Stephen Fewer of Harmony Security (www.harmonysecurity.com)",
+  "cve": "CVE-2015-0046",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-0046",
+  "cvss": 2.6,
+  "cvss_vector": "AV:N/AC:H/Au:N/C:P/I:N/A:N",
+  "disclosure_timeline": [
+    "2014-11-04 - Vulnerability reported to vendor",
+    "2015-02-10 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-15-028 ZDI-CAN-2607 Microsoft Internet Explorer Type Confusion Information Disclosure Vulnerability 2015-02-10 CVE-2015-0046 https://www.cve.org/CVERecord?id=CVE-2015-0046 2.6 AV:N/AC:H/Au:N/C:P/I:N/A:N ['Microsoft'] ['Internet Explorer'] This vulnerability allows remote attackers to disclose information on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of DOM manipulations. By manipulating the DOM, an attacker can cause the browser to confuse an ActiveX control with a string. This could allow an attacker to disclose memory from the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/library/security/MS15-009 ['2014-11-04 - Vulnerability reported to vendor', '2015-02-10 - Coordinated public release of advisory'] Stephen Fewer of Harmony Security (www.harmonysecurity.com) https://www.zerodayinitiative.com/advisories/ZDI-15-028/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-028/",
+  "title": "Microsoft Internet Explorer Type Confusion Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose information on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of DOM manipulations. By manipulating the DOM, an attacker can cause the browser to confuse an ActiveX control with a string. This could allow an attacker to disclose memory from the current process.",
+  "zdi_can": "ZDI-CAN-2607",
+  "zdi_id": "ZDI-15-028"
+}

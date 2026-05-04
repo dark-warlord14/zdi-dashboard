@@ -1,0 +1,28 @@
+{
+  "additional_details": "Synology has issued an update to correct this vulnerability. More details can be found at: https://www.synology.com/zh-hk/security/advisory/Synology_SA_20_26",
+  "advisory_date": "2021-03-22",
+  "affected_products": [
+    "DiskStation Manager"
+  ],
+  "affected_vendors": [
+    "Synology"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2021-27646",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2021-27646",
+  "cvss": 6.3,
+  "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+  "disclosure_timeline": [
+    "2021-03-17 - Vulnerability reported to vendor",
+    "2021-03-22 - Coordinated public release of advisory",
+    "2021-05-24 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-21-340 ZDI-CAN-13476 (Pwn2Own) Synology DiskStation Manager iscsi_snapshot_comm_core Use-After-Free Remote Code Execution Vulnerability 2021-03-22 CVE-2021-27646 https://www.cve.org/CVERecord?id=CVE-2021-27646 6.3 AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L ['Synology'] ['DiskStation Manager'] This vulnerability allows local attackers to execute arbitrary code on affected installations of Synology DS418play. Authentication is not required to exploit this vulnerability. The specific flaw exists within the iscsi_snapshot_comm_core service. The issue results from the lack of proper locking when performing operations on an object, which can cause a pointer to be reused after it has been freed. An attacker can leverage this in conjunction with other vulnerabilities to escalate privileges and execute code in the context of the current process. Synology has issued an update to correct this vulnerability. More details can be found at: https://www.synology.com/zh-hk/security/advisory/Synology_SA_20_26 ['2021-03-17 - Vulnerability reported to vendor', '2021-03-22 - Coordinated public release of advisory', '2021-05-24 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-21-340/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-21-340/",
+  "title": "(Pwn2Own) Synology DiskStation Manager iscsi_snapshot_comm_core Use-After-Free Remote Code Execution Vulnerability",
+  "updated_date": "2021-05-24",
+  "vulnerability_details": "This vulnerability allows local attackers to execute arbitrary code on affected installations of Synology DS418play. Authentication is not required to exploit this vulnerability. The specific flaw exists within the iscsi_snapshot_comm_core service. The issue results from the lack of proper locking when performing operations on an object, which can cause a pointer to be reused after it has been freed. An attacker can leverage this in conjunction with other vulnerabilities to escalate privileges and execute code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-13476",
+  "zdi_id": "ZDI-21-340"
+}

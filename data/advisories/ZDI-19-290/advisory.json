@@ -1,0 +1,27 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-us/HT209599",
+  "advisory_date": "2019-03-26",
+  "affected_products": [
+    "macOS"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "Juwei Lin(@panicaII) of TrendMicro Research",
+  "cve": "CVE-2019-8529",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2019-8529",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2019-01-21 - Vulnerability reported to vendor",
+    "2019-03-26 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-19-290 ZDI-CAN-7889 Apple macOS SCSITaskUserClient Out-Of-Bounds Write Privilege Escalation Vulnerability 2019-03-26 CVE-2019-8529 https://www.cve.org/CVERecord?id=CVE-2019-8529 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H ['Apple'] ['macOS'] This vulnerability allows local attackers to escalate privileges on vulnerable installations of Apple macOS. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the SCSITaskUserClient module. The issue triggers a write past the end of an allocated data structure. An attacker can leverage this vulnerability to escalate privileges and execute code in the context of the kernel. Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-us/HT209599 ['2019-01-21 - Vulnerability reported to vendor', '2019-03-26 - Coordinated public release of advisory'] Juwei Lin(@panicaII) of TrendMicro Research https://www.zerodayinitiative.com/advisories/ZDI-19-290/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-19-290/",
+  "title": "Apple macOS SCSITaskUserClient Out-Of-Bounds Write Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on vulnerable installations of Apple macOS. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the SCSITaskUserClient module. The issue triggers a write past the end of an allocated data structure. An attacker can leverage this vulnerability to escalate privileges and execute code in the context of the kernel.",
+  "zdi_can": "ZDI-CAN-7889",
+  "zdi_id": "ZDI-19-290"
+}

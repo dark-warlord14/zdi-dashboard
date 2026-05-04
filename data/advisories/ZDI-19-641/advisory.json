@@ -1,0 +1,28 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2019-0948",
+  "advisory_date": "2019-07-10",
+  "affected_products": [
+    "Windows"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Sooraj K S",
+  "cve": "CVE-2019-0948",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2019-0948",
+  "cvss": 2.6,
+  "cvss_vector": "AV:N/AC:H/Au:N/C:P/I:N/A:N",
+  "disclosure_timeline": [
+    "2018-05-08 - Vulnerability reported to vendor",
+    "2019-07-10 - Coordinated public release of advisory",
+    "2019-07-10 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-19-641 ZDI-CAN-6191 Microsoft Windows Event Viewer XML External Entity Processing Information Disclosure Vulnerability 2019-07-10 CVE-2019-0948 https://www.cve.org/CVERecord?id=CVE-2019-0948 2.6 AV:N/AC:H/Au:N/C:P/I:N/A:N ['Microsoft'] ['Windows'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Microsoft Windows. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within Event Viewer. Due to the improper restriction of XML External Entity (XXE) references, a specially crafted document specifying a URI causes the XML parser to access the URI and embed the contents back into the XML document for further processing. An attacker can leverage this vulnerability to disclose the contents of files in the context of the current user. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2019-0948 ['2018-05-08 - Vulnerability reported to vendor', '2019-07-10 - Coordinated public release of advisory', '2019-07-10 - Advisory Updated'] Sooraj K S https://www.zerodayinitiative.com/advisories/ZDI-19-641/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-19-641/",
+  "title": "Microsoft Windows Event Viewer XML External Entity Processing Information Disclosure Vulnerability",
+  "updated_date": "2019-07-10",
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Microsoft Windows. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within Event Viewer. Due to the improper restriction of XML External Entity (XXE) references, a specially crafted document specifying a URI causes the XML parser to access the URI and embed the contents back into the XML document for further processing. An attacker can leverage this vulnerability to disclose the contents of files in the context of the current user.",
+  "zdi_can": "ZDI-CAN-6191",
+  "zdi_id": "ZDI-19-641"
+}

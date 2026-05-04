@@ -1,0 +1,26 @@
+# ZDI-23-921: NETGEAR ProSAFE Network Management System MFileUploadController Unrestricted File Upload Remote Code Execution Vulnerability
+
+## Metadata
+
+- **ZDI ID:** ZDI-23-921
+- **ZDI-CAN:** ZDI-CAN-19717
+- **Date:** 2023-07-13
+- **CVE:** CVE-2023-38095
+- **CVSS:** 8.8
+- **CVSS Vector:** AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+- **Affected Vendors:** NETGEAR
+- **Affected Products:** ProSAFE Network Management System
+- **Credit:** Steven Seeley of Source Incite
+- **Source:** https://www.zerodayinitiative.com/advisories/ZDI-23-921/
+## Vulnerability Details
+
+This vulnerability allows remote attackers to execute arbitrary code on affected installations of NETGEAR ProSAFE Network Management System. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed. The specific flaw exists within the MFileUploadController class. The issue results from the lack of proper validation of user-supplied data, which can allow the upload of arbitrary files. An attacker can leverage this vulnerability to execute code in the context of SYSTEM.
+
+## Additional Details
+
+NETGEAR has issued an update to correct this vulnerability. More details can be found at: https://kb.netgear.com/000065707/Security-Advisory-for-Multiple-Vulnerabilities-on-the-ProSAFE-Network-Management-System-PSV-2023-0024-PSV-2023-0025
+
+## Disclosure Timeline
+
+- 2023-02-08 - Vulnerability reported to vendor
+- 2023-07-13 - Coordinated public release of advisory

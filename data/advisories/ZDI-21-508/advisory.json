@@ -1,0 +1,27 @@
+{
+  "additional_details": "Fixed in version 10.0.20236.1001",
+  "advisory_date": "2021-05-05",
+  "affected_products": [
+    "Raw Image Extension"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Wen guang Jiao",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 4.5,
+  "cvss_vector": "AV:L/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:L",
+  "disclosure_timeline": [
+    "2020-10-28 - Vulnerability reported to vendor",
+    "2021-05-05 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-21-508 ZDI-CAN-12152 Microsoft Windows Raw Image Extension 3FR File Parsing Integer Underflow Remote Code Execution Vulnerability 2021-05-05 4.5 AV:L/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:L ['Microsoft'] ['Raw Image Extension'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Microsoft Raw Image Extension. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of 3FR images. The issue results from the lack of proper validation of user-supplied data, which can result in an integer underflow before writing to memory. An attacker can leverage this vulnerability to execute code in the context of the current user at low integrity. Fixed in version 10.0.20236.1001 ['2020-10-28 - Vulnerability reported to vendor', '2021-05-05 - Coordinated public release of advisory'] Wen guang Jiao https://www.zerodayinitiative.com/advisories/ZDI-21-508/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-21-508/",
+  "title": "Microsoft Windows Raw Image Extension 3FR File Parsing Integer Underflow Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Microsoft Raw Image Extension. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of 3FR images. The issue results from the lack of proper validation of user-supplied data, which can result in an integer underflow before writing to memory. An attacker can leverage this vulnerability to execute code in the context of the current user at low integrity.",
+  "zdi_can": "ZDI-CAN-12152",
+  "zdi_id": "ZDI-21-508"
+}

@@ -1,0 +1,27 @@
+{
+  "additional_details": "Sun Microsystems has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technology/deploy/security/critical-patch-updates/javacpumar2010.html",
+  "advisory_date": "2010-04-05",
+  "affected_products": [
+    "Java Runtime"
+  ],
+  "affected_vendors": [
+    "Sun Microsystems"
+  ],
+  "credit": "Peter Vreugdenhil (http://vreugdenhilresearch.nl)",
+  "cve": "CVE-2010-0844",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2010-0844",
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2009-12-10 - Vulnerability reported to vendor",
+    "2010-04-05 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-10-053 ZDI-CAN-631 Sun Java Runtime Environment MIDI File metaEvent Remote Code Execution Vulnerability 2010-04-05 CVE-2010-0844 https://www.cve.org/CVERecord?id=CVE-2010-0844 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Sun Microsystems'] ['Java Runtime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Sun's Java Runtime Environment. User interaction is required to exploit this vulnerability in that the target must visit a malicious page. The specific flaw exists within the handling of MIDI streams. When the code responsible for creating a MixerSequencer object from a MIDI stream encounters an 0xFF byte, it assumes it has reached a metaEvent. It then proceeds to parse out a variable-length field. By abusing the way this structure is stored an attacker can corrupt a pointer address later allowing a NULL byte write to an arbitrary memory address. This can be leveraged to execute remote code under the context of the user running the applet. Sun Microsystems has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technology/deploy/security/critical-patch-updates/javacpumar2010.html ['2009-12-10 - Vulnerability reported to vendor', '2010-04-05 - Coordinated public release of advisory'] Peter Vreugdenhil (http://vreugdenhilresearch.nl) https://www.zerodayinitiative.com/advisories/ZDI-10-053/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-053/",
+  "title": "Sun Java Runtime Environment MIDI File metaEvent Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Sun's Java Runtime Environment. User interaction is required to exploit this vulnerability in that the target must visit a malicious page. The specific flaw exists within the handling of MIDI streams. When the code responsible for creating a MixerSequencer object from a MIDI stream encounters an 0xFF byte, it assumes it has reached a metaEvent. It then proceeds to parse out a variable-length field. By abusing the way this structure is stored an attacker can corrupt a pointer address later allowing a NULL byte write to an arbitrary memory address. This can be leveraged to execute remote code under the context of the user running the applet.",
+  "zdi_can": "ZDI-CAN-631",
+  "zdi_id": "ZDI-10-053"
+}

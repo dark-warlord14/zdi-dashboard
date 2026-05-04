@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: http://technet.microsoft.com/en-us/security/advisory/2757760",
+  "advisory_date": "2012-12-21",
+  "affected_products": [
+    "Internet Explorer 9"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2012-4969",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2012-4969",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2012-07-24 - Vulnerability reported to vendor",
+    "2012-12-21 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-12-199 ZDI-CAN-1586 Microsoft Internet Explorer execCommand Remote Code Execution Vulnerability 2012-12-21 CVE-2012-4969 https://www.cve.org/CVERecord?id=CVE-2012-4969 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Microsoft'] ['Internet Explorer 9'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the CCommand::Exec function. It is possible to free certain objects in a callback function called from the CCommand::Exec function. Upon return from this function a local variable is being re-used without check. This can lead to a use-after-free issue that can result in remote code execution under the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: http://technet.microsoft.com/en-us/security/advisory/2757760 ['2012-07-24 - Vulnerability reported to vendor', '2012-12-21 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-12-199/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-12-199/",
+  "title": "Microsoft Internet Explorer execCommand Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the CCommand::Exec function. It is possible to free certain objects in a callback function called from the CCommand::Exec function. Upon return from this function a local variable is being re-used without check. This can lead to a use-after-free issue that can result in remote code execution under the context of the current process.",
+  "zdi_can": "ZDI-CAN-1586",
+  "zdi_id": "ZDI-12-199"
+}

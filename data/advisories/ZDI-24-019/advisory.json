@@ -1,0 +1,28 @@
+{
+  "additional_details": "Bentley has issued an update to correct this vulnerability. More details can be found at: https://www.bentley.com/advisories/be-2022-0019/",
+  "advisory_date": "2024-01-08",
+  "affected_products": [
+    "View"
+  ],
+  "affected_vendors": [
+    "Bentley"
+  ],
+  "credit": "Michael DePlante (@izobashi) of Trend Micro's Zero Day Initiative",
+  "cve": "CVE-2023-44430",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-44430",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2022-10-06 - Vulnerability reported to vendor",
+    "2024-01-08 - Coordinated public release of advisory",
+    "2024-07-01 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-019 ZDI-CAN-19067 Bentley View SKP File Parsing Use-After-Free Remote Code Execution Vulnerability 2024-01-08 CVE-2023-44430 https://www.cve.org/CVERecord?id=CVE-2023-44430 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Bentley'] ['View'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Bentley View. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of SKP files. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current process. Bentley has issued an update to correct this vulnerability. More details can be found at: https://www.bentley.com/advisories/be-2022-0019/ ['2022-10-06 - Vulnerability reported to vendor', '2024-01-08 - Coordinated public release of advisory', '2024-07-01 - Advisory Updated'] Michael DePlante (@izobashi) of Trend Micro's Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-24-019/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-019/",
+  "title": "Bentley View SKP File Parsing Use-After-Free Remote Code Execution Vulnerability",
+  "updated_date": "2024-07-01",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Bentley View. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of SKP files. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-19067",
+  "zdi_id": "ZDI-24-019"
+}

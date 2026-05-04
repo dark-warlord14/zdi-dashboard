@@ -1,0 +1,27 @@
+{
+  "additional_details": "Visualware has issued an update to correct this vulnerability. More details can be found at: https://myconnectionserver.visualware.com/support/security-advisories",
+  "advisory_date": "2023-09-08",
+  "affected_products": [
+    "MyConnection Server"
+  ],
+  "affected_vendors": [
+    "Visualware"
+  ],
+  "credit": "06fe5fd2bc53027c4a3b7e395af0b850e7b8a044",
+  "cve": "CVE-2023-42033",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-42033",
+  "cvss": 7.2,
+  "cvss_vector": "AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2023-07-28 - Vulnerability reported to vendor",
+    "2023-09-08 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-1396 ZDI-CAN-21612 Visualware MyConnection Server doPostUploadfiles Directory Traversal Remote Code Execution Vulnerability 2023-09-08 CVE-2023-42033 https://www.cve.org/CVERecord?id=CVE-2023-42033 7.2 AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H ['Visualware'] ['MyConnection Server'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Visualware MyConnection Server. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed. The specific flaw exists within the doPostUploadfiles method. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute code in the context of root. Visualware has issued an update to correct this vulnerability. More details can be found at: https://myconnectionserver.visualware.com/support/security-advisories ['2023-07-28 - Vulnerability reported to vendor', '2023-09-08 - Coordinated public release of advisory'] 06fe5fd2bc53027c4a3b7e395af0b850e7b8a044 https://www.zerodayinitiative.com/advisories/ZDI-23-1396/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-1396/",
+  "title": "Visualware MyConnection Server doPostUploadfiles Directory Traversal Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Visualware MyConnection Server. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed. The specific flaw exists within the doPostUploadfiles method. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute code in the context of root.",
+  "zdi_can": "ZDI-CAN-21612",
+  "zdi_id": "ZDI-23-1396"
+}

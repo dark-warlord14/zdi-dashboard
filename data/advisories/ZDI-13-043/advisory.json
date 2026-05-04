@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/en-us/security/bulletin/ms13-021",
+  "advisory_date": "2013-03-22",
+  "affected_products": [
+    "Internet Explorer"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2013-0088",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2013-0088",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2012-10-24 - Vulnerability reported to vendor",
+    "2013-03-22 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-13-043 ZDI-CAN-1649 Microsoft Internet Explorer saveHistory Use-After-Free Remote Code Execution Vulnerability 2013-03-22 CVE-2013-0088 https://www.cve.org/CVERecord?id=CVE-2013-0088 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Microsoft'] ['Internet Explorer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page. The specific issue is due to the way Internet Explorer handles elements associated to the saveHistory behavior and an onload event handler. The process can be made to re-use a freed object. This can lead to a use-after-free scenario which can be leveraged to execute code under the context of the user running the browser. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/en-us/security/bulletin/ms13-021 ['2012-10-24 - Vulnerability reported to vendor', '2013-03-22 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-13-043/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-13-043/",
+  "title": "Microsoft Internet Explorer saveHistory Use-After-Free Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page. The specific issue is due to the way Internet Explorer handles elements associated to the saveHistory behavior and an onload event handler. The process can be made to re-use a freed object. This can lead to a use-after-free scenario which can be leveraged to execute code under the context of the user running the browser.",
+  "zdi_can": "ZDI-CAN-1649",
+  "zdi_id": "ZDI-13-043"
+}

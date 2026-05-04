@@ -1,0 +1,27 @@
+{
+  "additional_details": "IZ21983: http://www-01.ibm.com/support/docview.wss?uid=swg1IZ21983 IZ22143: http://www-01.ibm.com/support/docview.wss?uid=swg1IZ22143",
+  "advisory_date": "2010-10-19",
+  "affected_products": [
+    "DB2 Universal Database"
+  ],
+  "affected_vendors": [
+    "IBM"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2008-2154",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2008-2154",
+  "cvss": 9.0,
+  "cvss_vector": "AV:N/AC:L/Au:S/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2010-06-17 - Vulnerability reported to vendor",
+    "2010-10-19 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-10-218 ZDI-CAN-743 IBM DB2 install_jar Arbitrary File Upload Remote Code Execution Vulnerability 2010-10-19 CVE-2008-2154 https://www.cve.org/CVERecord?id=CVE-2008-2154 9.0 AV:N/AC:L/Au:S/C:C/I:C/A:C ['IBM'] ['DB2 Universal Database'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of IBM DB2. Authentication is required in that a user must have the ability to connect to the database. The specific flaw exists within the install_jar procedure. The install_jar procedure contains a directory traversal vulnerability that will allow the attacker to upload a Jar file to a directory outside of the intended \"\\function\\jar\\Name_of_logged_user\\\" directory. A remote attacker can abuse this to execute arbitrary code under the context of the current user. IZ21983: http://www-01.ibm.com/support/docview.wss?uid=swg1IZ21983 IZ22143: http://www-01.ibm.com/support/docview.wss?uid=swg1IZ22143 ['2010-06-17 - Vulnerability reported to vendor', '2010-10-19 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-10-218/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-218/",
+  "title": "IBM DB2 install_jar Arbitrary File Upload Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of IBM DB2. Authentication is required in that a user must have the ability to connect to the database. The specific flaw exists within the install_jar procedure. The install_jar procedure contains a directory traversal vulnerability that will allow the attacker to upload a Jar file to a directory outside of the intended \"\\function\\jar\\Name_of_logged_user\\\" directory. A remote attacker can abuse this to execute arbitrary code under the context of the current user.",
+  "zdi_can": "ZDI-CAN-743",
+  "zdi_id": "ZDI-10-218"
+}

@@ -1,0 +1,27 @@
+{
+  "additional_details": "Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/security-advisory/cpujan2017-2881727.html",
+  "advisory_date": "2017-01-24",
+  "affected_products": [
+    "WebLogic"
+  ],
+  "affected_vendors": [
+    "Oracle"
+  ],
+  "credit": "Tenable Network Security - Jacob Baines",
+  "cve": "CVE-2017-3248",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-3248",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2016-06-30 - Vulnerability reported to vendor",
+    "2017-01-24 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-17-055 ZDI-CAN-3826 Oracle WebLogic RMI Registry UnicastRef Object Deserialization of Untrusted Data Remote Code Execution Vulnerability 2017-01-24 CVE-2017-3248 https://www.cve.org/CVERecord?id=CVE-2017-3248 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Oracle'] ['WebLogic'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Oracle WebLogic. Authentication is not required to exploit this vulnerability. The specific flaw exists within the insufficient blacklisting of certain Java objects. The issue lies in the failure to properly validate user-supplied data which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute arbitrary code under the context of the current process. Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/security-advisory/cpujan2017-2881727.html ['2016-06-30 - Vulnerability reported to vendor', '2017-01-24 - Coordinated public release of advisory'] Tenable Network Security - Jacob Baines https://www.zerodayinitiative.com/advisories/ZDI-17-055/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-055/",
+  "title": "Oracle WebLogic RMI Registry UnicastRef Object Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Oracle WebLogic. Authentication is not required to exploit this vulnerability. The specific flaw exists within the insufficient blacklisting of certain Java objects. The issue lies in the failure to properly validate user-supplied data which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute arbitrary code under the context of the current process.",
+  "zdi_can": "ZDI-CAN-3826",
+  "zdi_id": "ZDI-17-055"
+}

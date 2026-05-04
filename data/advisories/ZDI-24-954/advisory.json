@@ -1,0 +1,28 @@
+{
+  "additional_details": "08/29/23 \u2013 ZDI submitted the vulnerability report to Xcitium support team 04/30/24 \u2013 ZDI asked for updates 05/01/24 \u2013 Xcitium\u2019s support team rejected the report and advised ZDI to resubmit the report Comodo\u2019s GeekBuddy Support team 05/03/24 \u2013 ZDI resubmitted the report Comodo\u2019s GeekBuddy Support team 07/12/24 \u2013 ZDI asked for updates 07/12/24 - Comodo\u2019s GeekBuddy Support team asked ZDI to submit the false positive file to Comodo\u2019s Malware Analysis team 07/12/24 \u2013 ZDI notified the vendor of the intention to publish the cases as 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the application.",
+  "advisory_date": "2024-07-23",
+  "affected_products": [
+    "Firewall"
+  ],
+  "affected_vendors": [
+    "Comodo"
+  ],
+  "credit": "Amol Dosanjh of Trend Micro and Michael DePlante (@izobashi) of Trend Micro's Zero Day Initiative",
+  "cve": "CVE-2024-7249",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-7249",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2023-08-29 - Vulnerability reported to vendor",
+    "2024-07-23 - Coordinated public release of advisory",
+    "2024-08-15 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-954 ZDI-CAN-21794 (0Day) Comodo Firewall Link Following Local Privilege Escalation Vulnerability 2024-07-23 CVE-2024-7249 https://www.cve.org/CVERecord?id=CVE-2024-7249 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Comodo'] ['Firewall'] This vulnerability allows local attackers to escalate privileges on affected installations of Comodo Firewall. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the cmdagent executable. By creating a symbolic link, an attacker can abuse the application to delete a file. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. 08/29/23 \u2013 ZDI submitted the vulnerability report to Xcitium support team 04/30/24 \u2013 ZDI asked for updates 05/01/24 \u2013 Xcitium\u2019s support team rejected the report and advised ZDI to resubmit the report Comodo\u2019s GeekBuddy Support team 05/03/24 \u2013 ZDI resubmitted the report Comodo\u2019s GeekBuddy Support team 07/12/24 \u2013 ZDI asked for updates 07/12/24 - Comodo\u2019s GeekBuddy Support team asked ZDI to submit the false positive file to Comodo\u2019s Malware Analysis team 07/12/24 \u2013 ZDI notified the vendor of the intention to publish the cases as 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the application. ['2023-08-29 - Vulnerability reported to vendor', '2024-07-23 - Coordinated public release of advisory', '2024-08-15 - Advisory Updated'] Amol Dosanjh of Trend Micro and Michael DePlante (@izobashi) of Trend Micro's Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-24-954/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-954/",
+  "title": "(0Day) Comodo Firewall Link Following Local Privilege Escalation Vulnerability",
+  "updated_date": "2024-08-15",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Comodo Firewall. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the cmdagent executable. By creating a symbolic link, an attacker can abuse the application to delete a file. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-21794",
+  "zdi_id": "ZDI-24-954"
+}

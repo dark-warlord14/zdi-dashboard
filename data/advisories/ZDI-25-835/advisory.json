@@ -1,0 +1,28 @@
+{
+  "additional_details": "NoMachine has issued an update to correct this vulnerability. More details can be found at: https://kb.nomachine.com/TR04W11314",
+  "advisory_date": "2025-08-13",
+  "affected_products": [
+    "NoMachine"
+  ],
+  "affected_vendors": [
+    "NoMachine"
+  ],
+  "credit": "Xavier DANEST",
+  "cve": "CVE-2025-8614",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-8614",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2025-04-25 - Vulnerability reported to vendor",
+    "2025-08-13 - Coordinated public release of advisory",
+    "2025-09-02 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-835 ZDI-CAN-26766 NoMachine Uncontrolled Search Path Element Local Privilege Escalation Vulnerability 2025-08-13 CVE-2025-8614 https://www.cve.org/CVERecord?id=CVE-2025-8614 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['NoMachine'] ['NoMachine'] This vulnerability allows local attackers to escalate privileges on affected installations of NoMachine. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the configuration of OpenSSL. The product loads an OpenSSL configuration file from an unsecured location. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the service account. NoMachine has issued an update to correct this vulnerability. More details can be found at: https://kb.nomachine.com/TR04W11314 ['2025-04-25 - Vulnerability reported to vendor', '2025-08-13 - Coordinated public release of advisory', '2025-09-02 - Advisory Updated'] Xavier DANEST https://www.zerodayinitiative.com/advisories/ZDI-25-835/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-835/",
+  "title": "NoMachine Uncontrolled Search Path Element Local Privilege Escalation Vulnerability",
+  "updated_date": "2025-09-02",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of NoMachine. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the configuration of OpenSSL. The product loads an OpenSSL configuration file from an unsecured location. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the service account.",
+  "zdi_can": "ZDI-CAN-26766",
+  "zdi_id": "ZDI-25-835"
+}

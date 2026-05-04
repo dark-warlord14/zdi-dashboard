@@ -1,0 +1,27 @@
+{
+  "additional_details": "There was not an advisory posted and no patch required, the issue was fixed server side.",
+  "advisory_date": "2015-04-29",
+  "affected_products": [
+    "App Store"
+  ],
+  "affected_vendors": [
+    "Amazon"
+  ],
+  "credit": "MWR Labs",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2014-11-12 - Vulnerability reported to vendor",
+    "2015-04-29 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-15-160 ZDI-CAN-2618 (Mobile Pwn2Own) Amazon App Store HTTPS Downgrade Vulnerability 2015-04-29 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Amazon'] ['App Store'] This vulnerability allows remote attackers to transmit unencrypted traffic on the Amazon App Store. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. All the HTML content within the Amazon App Store is transmitted over HTTPS and URIMatchers. The URIMatchers do not limit traffic to only HTTPS; Therefore, it is possible to request traffic over HTTP. An attacker can chain this vulnerability with other vulnerabilities to install malicious applications. There was not an advisory posted and no patch required, the issue was fixed server side. ['2014-11-12 - Vulnerability reported to vendor', '2015-04-29 - Coordinated public release of advisory'] MWR Labs https://www.zerodayinitiative.com/advisories/ZDI-15-160/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-160/",
+  "title": "(Mobile Pwn2Own) Amazon App Store HTTPS Downgrade Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to transmit unencrypted traffic on the Amazon App Store. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. All the HTML content within the Amazon App Store is transmitted over HTTPS and URIMatchers. The URIMatchers do not limit traffic to only HTTPS; Therefore, it is possible to request traffic over HTTP. An attacker can chain this vulnerability with other vulnerabilities to install malicious applications.",
+  "zdi_can": "ZDI-CAN-2618",
+  "zdi_id": "ZDI-15-160"
+}

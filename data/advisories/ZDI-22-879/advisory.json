@@ -1,0 +1,27 @@
+{
+  "additional_details": "ZyXel has issued an update to correct this vulnerability. More details can be found at: https://www.zyxel.com/support/Zyxel-security-advisory-for-local-privilege-escalation-vulnerability-of-AP-Configurator.shtml",
+  "advisory_date": "2022-06-29",
+  "affected_products": [
+    "AP Configurator"
+  ],
+  "affected_vendors": [
+    "ZyXel"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2022-0556",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-0556",
+  "cvss": 7.3,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2022-01-07 - Vulnerability reported to vendor",
+    "2022-06-29 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-879 ZDI-CAN-14791 ZyXel AP Configurator Incorrect Permission Assignment Local Privilege Escalation Vulnerability 2022-06-29 CVE-2022-0556 https://www.cve.org/CVERecord?id=CVE-2022-0556 7.3 AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H ['ZyXel'] ['AP Configurator'] This vulnerability allows local attackers to escalate privileges on affected installations of ZyXel AP Configurator. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the installer. The issue results from incorrect permissions set on a directory. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of an Administrator. ZyXel has issued an update to correct this vulnerability. More details can be found at: https://www.zyxel.com/support/Zyxel-security-advisory-for-local-privilege-escalation-vulnerability-of-AP-Configurator.shtml ['2022-01-07 - Vulnerability reported to vendor', '2022-06-29 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-22-879/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-879/",
+  "title": "ZyXel AP Configurator Incorrect Permission Assignment Local Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of ZyXel AP Configurator. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the installer. The issue results from incorrect permissions set on a directory. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of an Administrator.",
+  "zdi_can": "ZDI-CAN-14791",
+  "zdi_id": "ZDI-22-879"
+}

@@ -1,0 +1,27 @@
+{
+  "additional_details": "SAP has issued an update to correct this vulnerability. More details can be found at: https://wiki.scn.sap.com/wiki/pages/viewpage.action?pageId=557449700",
+  "advisory_date": "2020-09-10",
+  "affected_products": [
+    "3D Visual Enterprise Viewer"
+  ],
+  "affected_vendors": [
+    "SAP"
+  ],
+  "credit": "Francis Provencher {PRL}",
+  "cve": "CVE-2020-6339",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2020-6339",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2020-07-01 - Vulnerability reported to vendor",
+    "2020-09-10 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-20-1156 ZDI-CAN-11288 SAP 3D Visual Enterprise Viewer BMP File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability 2020-09-10 CVE-2020-6339 https://www.cve.org/CVERecord?id=CVE-2020-6339 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['SAP'] ['3D Visual Enterprise Viewer'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of SAP 3D Visual Enterprise Viewer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of BMP files. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. SAP has issued an update to correct this vulnerability. More details can be found at: https://wiki.scn.sap.com/wiki/pages/viewpage.action?pageId=557449700 ['2020-07-01 - Vulnerability reported to vendor', '2020-09-10 - Coordinated public release of advisory'] Francis Provencher {PRL} https://www.zerodayinitiative.com/advisories/ZDI-20-1156/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-20-1156/",
+  "title": "SAP 3D Visual Enterprise Viewer BMP File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of SAP 3D Visual Enterprise Viewer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of BMP files. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated buffer. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-11288",
+  "zdi_id": "ZDI-20-1156"
+}

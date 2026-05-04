@@ -1,0 +1,28 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-8164",
+  "advisory_date": "2018-06-08",
+  "affected_products": [
+    "Windows"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Richard Zhu (fluorescence)",
+  "cve": "CVE-2018-8164",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2018-8164",
+  "cvss": 7.2,
+  "cvss_vector": "AV:L/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2018-03-18 - Vulnerability reported to vendor",
+    "2018-06-08 - Coordinated public release of advisory",
+    "2018-06-08 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-573 ZDI-CAN-5823 (Pwn2Own) Microsoft Windows D3DKMTCreateDCFromMemory Memory Corruption Privilege Escalation Vulnerability 2018-06-08 CVE-2018-8164 https://www.cve.org/CVERecord?id=CVE-2018-8164 7.2 AV:L/AC:L/Au:N/C:C/I:C/A:C ['Microsoft'] ['Windows'] This vulnerability allows local attackers to escalate privileges on vulnerable installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the creation of a device context from memory using the D3DKMTCreateDCFromMemory API. When processing the width parameter, the process does not properly validate user-supplied data, which can result in a memory corruption condition. An attacker can leverage this vulnerability to escalate privileges to SYSTEM. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-8164 ['2018-03-18 - Vulnerability reported to vendor', '2018-06-08 - Coordinated public release of advisory', '2018-06-08 - Advisory Updated'] Richard Zhu (fluorescence) https://www.zerodayinitiative.com/advisories/ZDI-18-573/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-573/",
+  "title": "(Pwn2Own) Microsoft Windows D3DKMTCreateDCFromMemory Memory Corruption Privilege Escalation Vulnerability",
+  "updated_date": "2018-06-08",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on vulnerable installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the creation of a device context from memory using the D3DKMTCreateDCFromMemory API. When processing the width parameter, the process does not properly validate user-supplied data, which can result in a memory corruption condition. An attacker can leverage this vulnerability to escalate privileges to SYSTEM.",
+  "zdi_can": "ZDI-CAN-5823",
+  "zdi_id": "ZDI-18-573"
+}

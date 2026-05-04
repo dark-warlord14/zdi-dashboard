@@ -1,0 +1,27 @@
+{
+  "additional_details": "Veritas has issued an update to correct this vulnerability. More details can be found at: https://www.veritas.com/content/support/en_US/security/VTS21-003",
+  "advisory_date": "2021-12-23",
+  "affected_products": [
+    "Enterprise Vault"
+  ],
+  "affected_vendors": [
+    "Veritas"
+  ],
+  "credit": "Markus Wulftange (@mwulftange)",
+  "cve": "CVE-2021-44679",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2021-44679",
+  "cvss": 9.8,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2021-08-13 - Vulnerability reported to vendor",
+    "2021-12-23 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-21-1589 ZDI-CAN-14074 Veritas Enterprise Vault EVTaskGuardian Deserialization of Untrusted Data Remote Code Execution Vulnerability 2021-12-23 CVE-2021-44679 https://www.cve.org/CVERecord?id=CVE-2021-44679 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['Veritas'] ['Enterprise Vault'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Veritas Enterprise Vault. Authentication is not required to exploit this vulnerability. The specific flaw exists within EVTaskGuardian.exe. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the Enterprise Vault Task Controller Service. Veritas has issued an update to correct this vulnerability. More details can be found at: https://www.veritas.com/content/support/en_US/security/VTS21-003 ['2021-08-13 - Vulnerability reported to vendor', '2021-12-23 - Coordinated public release of advisory'] Markus Wulftange (@mwulftange) https://www.zerodayinitiative.com/advisories/ZDI-21-1589/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-21-1589/",
+  "title": "Veritas Enterprise Vault EVTaskGuardian Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Veritas Enterprise Vault. Authentication is not required to exploit this vulnerability. The specific flaw exists within EVTaskGuardian.exe. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the Enterprise Vault Task Controller Service.",
+  "zdi_can": "ZDI-CAN-14074",
+  "zdi_id": "ZDI-21-1589"
+}

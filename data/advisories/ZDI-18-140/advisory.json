@@ -1,0 +1,28 @@
+{
+  "additional_details": "Hewlett Packard Enterprise has issued an update to correct this vulnerability. More details can be found at: https://support.hpe.com/hpsc/doc/public/display?docId=emr_na-hpesbhf03813en_us",
+  "advisory_date": "2018-01-25",
+  "affected_products": [
+    "Intelligent Management Center"
+  ],
+  "affected_vendors": [
+    "Hewlett Packard Enterprise"
+  ],
+  "credit": "sztivi",
+  "cve": "CVE-2017-8981",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-8981",
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2017-09-20 - Vulnerability reported to vendor",
+    "2018-01-25 - Coordinated public release of advisory",
+    "2018-01-25 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-140 ZDI-CAN-5120 Hewlett Packard Enterprise Intelligent Management Center dbman Stack-based Buffer Overflow Remote Code Execution Vulnerability 2018-01-25 CVE-2017-8981 https://www.cve.org/CVERecord?id=CVE-2017-8981 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Hewlett Packard Enterprise'] ['Intelligent Management Center'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Hewlett Packard Enterprise Intelligent Management Center. Authentication is not required to exploit this vulnerability. The specific flaw exists within dbman.exe. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a stack-based buffer. An attacker can leverage this vulnerability to execute code under the context of SYSTEM. Hewlett Packard Enterprise has issued an update to correct this vulnerability. More details can be found at: https://support.hpe.com/hpsc/doc/public/display?docId=emr_na-hpesbhf03813en_us ['2017-09-20 - Vulnerability reported to vendor', '2018-01-25 - Coordinated public release of advisory', '2018-01-25 - Advisory Updated'] sztivi https://www.zerodayinitiative.com/advisories/ZDI-18-140/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-140/",
+  "title": "Hewlett Packard Enterprise Intelligent Management Center dbman Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+  "updated_date": "2018-01-25",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Hewlett Packard Enterprise Intelligent Management Center. Authentication is not required to exploit this vulnerability. The specific flaw exists within dbman.exe. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a stack-based buffer. An attacker can leverage this vulnerability to execute code under the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-5120",
+  "zdi_id": "ZDI-18-140"
+}

@@ -1,0 +1,27 @@
+{
+  "additional_details": "March 23, 2011 - This vulnerability is being disclosed publicly without a patch in accordance with the ZDI 180 day deadline. -- Mitigations: This vulnerability could be mitigated by administrators by restricting communication with the hydra agent to known client IP addresses.",
+  "advisory_date": "2011-03-23",
+  "affected_products": [
+    "Virtual SAN Appliance"
+  ],
+  "affected_vendors": [
+    "Hewlett-Packard"
+  ],
+  "credit": "Nicolas Gregoire of Agarri (www.agarri.fr)",
+  "cve": "CVE-2011-4147",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-4147",
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2010-09-24 - Vulnerability reported to vendor",
+    "2011-03-23 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-11-111 ZDI-CAN-906 (0Day) Hewlett-Packard Virtual SAN Appliance hydra.exe Login Request Remote Code Execution Vulnerability 2011-03-23 CVE-2011-4147 https://www.cve.org/CVERecord?id=CVE-2011-4147 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Hewlett-Packard'] ['Virtual SAN Appliance'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Hewlett-Packard Virtual SAN appliance. Authentication is not required to exploit this vulnerability. The flaw exists within the hydra.exe component which listens by default on port 13838. When parsing a login request the Hydra daemon will call sscanf() using fixed-length stack buffers and no length checks. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the SYSTEM service. March 23, 2011 - This vulnerability is being disclosed publicly without a patch in accordance with the ZDI 180 day deadline. -- Mitigations: This vulnerability could be mitigated by administrators by restricting communication with the hydra agent to known client IP addresses. ['2010-09-24 - Vulnerability reported to vendor', '2011-03-23 - Coordinated public release of advisory'] Nicolas Gregoire of Agarri (www.agarri.fr) https://www.zerodayinitiative.com/advisories/ZDI-11-111/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-111/",
+  "title": "(0Day) Hewlett-Packard Virtual SAN Appliance hydra.exe Login Request Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Hewlett-Packard Virtual SAN appliance. Authentication is not required to exploit this vulnerability. The flaw exists within the hydra.exe component which listens by default on port 13838. When parsing a login request the Hydra daemon will call sscanf() using fixed-length stack buffers and no length checks. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the SYSTEM service.",
+  "zdi_can": "ZDI-CAN-906",
+  "zdi_id": "ZDI-11-111"
+}

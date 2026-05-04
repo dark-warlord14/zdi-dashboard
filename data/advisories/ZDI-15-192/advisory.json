@@ -1,0 +1,27 @@
+{
+  "additional_details": "Hewlett-Packard has issued an update to correct this vulnerability. More details can be found at: https://h20566.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c04657310",
+  "advisory_date": "2015-05-12",
+  "affected_products": [
+    "Network Virtualization"
+  ],
+  "affected_vendors": [
+    "Hewlett-Packard"
+  ],
+  "credit": "Aniway.Anyway@gmail.com",
+  "cve": "CVE-2015-2121",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-2121",
+  "cvss": 7.8,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:N/A:N",
+  "disclosure_timeline": [
+    "2015-02-04 - Vulnerability reported to vendor",
+    "2015-05-12 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-15-192 ZDI-CAN-2569 Hewlett-Packard Network Virtualization Information Disclosure Vulnerability 2015-05-12 CVE-2015-2121 https://www.cve.org/CVERecord?id=CVE-2015-2121 7.8 AV:N/AC:L/Au:N/C:C/I:N/A:N ['Hewlett-Packard'] ['Network Virtualization'] This vulnerability allows remote attackers to read arbitrary files on vulnerable installations of Hewlett-Packard Network Virtualization. Authentication is not required to exploit this vulnerability. The specific flaw exists because neither the HttpServlet nor the NetworkEditorController sanitize the URL, and hence the file name, requested. An attacker can use this to read any file on the system under the context of SYSTEM. Hewlett-Packard has issued an update to correct this vulnerability. More details can be found at: https://h20566.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c04657310 ['2015-02-04 - Vulnerability reported to vendor', '2015-05-12 - Coordinated public release of advisory'] Aniway.Anyway@gmail.com https://www.zerodayinitiative.com/advisories/ZDI-15-192/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-192/",
+  "title": "Hewlett-Packard Network Virtualization Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to read arbitrary files on vulnerable installations of Hewlett-Packard Network Virtualization. Authentication is not required to exploit this vulnerability. The specific flaw exists because neither the HttpServlet nor the NetworkEditorController sanitize the URL, and hence the file name, requested. An attacker can use this to read any file on the system under the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-2569",
+  "zdi_id": "ZDI-15-192"
+}

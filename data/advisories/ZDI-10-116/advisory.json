@@ -1,0 +1,29 @@
+{
+  "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: http://www.adobe.com/support/security/bulletins/apsb10-15.html",
+  "advisory_date": "2010-06-30",
+  "affected_products": [
+    "Acrobat",
+    "Reader"
+  ],
+  "affected_vendors": [
+    "Adobe",
+    "Adobe"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2010-2202",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2010-2202",
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2010-03-31 - Vulnerability reported to vendor",
+    "2010-06-30 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-10-116 ZDI-CAN-721 Adobe Reader CLOD Progressive Mesh Continuation Resolution Remote Code Execution Vulnerability 2010-06-30 CVE-2010-2202 https://www.cve.org/CVERecord?id=CVE-2010-2202 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Adobe', 'Adobe'] ['Acrobat', 'Reader'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Adobe Acrobat and Adobe Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists when the application parses a PDF file containing a malformed CLOD Progressive Mesh Continuation Resolution Update. Specific values can cause a memory corruption during floating point operations which can be subsequently leveraged to achieve arbitrary code execution under the privileges of the current user. Adobe has issued an update to correct this vulnerability. More details can be found at: http://www.adobe.com/support/security/bulletins/apsb10-15.html ['2010-03-31 - Vulnerability reported to vendor', '2010-06-30 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-10-116/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-116/",
+  "title": "Adobe Reader CLOD Progressive Mesh Continuation Resolution Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Adobe Acrobat and Adobe Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists when the application parses a PDF file containing a malformed CLOD Progressive Mesh Continuation Resolution Update. Specific values can cause a memory corruption during floating point operations which can be subsequently leveraged to achieve arbitrary code execution under the privileges of the current user.",
+  "zdi_can": "ZDI-CAN-721",
+  "zdi_id": "ZDI-10-116"
+}

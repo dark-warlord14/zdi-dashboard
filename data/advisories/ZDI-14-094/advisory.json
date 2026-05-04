@@ -1,0 +1,27 @@
+{
+  "additional_details": "CA has issued an update to correct this vulnerability. More details can be found at: https://support.ca.com/irj/portal/anonymous/phpsupcontent?contentID={7F968A14-7407-4BCF-9EB1-EFE9F0E6D663}",
+  "advisory_date": "2014-04-17",
+  "affected_products": [
+    "ERwin Web Portal"
+  ],
+  "affected_vendors": [
+    "CA"
+  ],
+  "credit": "Andrea Micalizzi aka rgod",
+  "cve": "CVE-2014-2210",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-2210",
+  "cvss": 7.1,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:C/I:N/A:N",
+  "disclosure_timeline": [
+    "2014-04-11 - Vulnerability reported to vendor",
+    "2014-04-17 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-14-094 ZDI-CAN-2015 CA ERwin Web Portal MIMM downloadScriptFile.do Information Disclosure Vulnerability 2014-04-17 CVE-2014-2210 https://www.cve.org/CVERecord?id=CVE-2014-2210 7.1 AV:N/AC:M/Au:N/C:C/I:N/A:N ['CA'] ['ERwin Web Portal'] This vulnerability allows remote attackers to read nearly any system file, including database credentials, on a system with vulnerable installations of CA ERwin Web Portal's Meta Integration Metadata Management service. Authentication is not required to exploit this vulnerability. The specific flaw exists within the \"Meta Integration Web Server and Services\" struts-controller servlet, part of a Struts application, which is vulnerable to a directory traversal. An attacker can leverage this vulnerability to read arbitrary files, including files which store database credentials, under the context of SYSTEM. An attacker can couple this vulnerability with others to gain remote code execution. CA has issued an update to correct this vulnerability. More details can be found at: https://support.ca.com/irj/portal/anonymous/phpsupcontent?contentID={7F968A14-7407-4BCF-9EB1-EFE9F0E6D663} ['2014-04-11 - Vulnerability reported to vendor', '2014-04-17 - Coordinated public release of advisory'] Andrea Micalizzi aka rgod https://www.zerodayinitiative.com/advisories/ZDI-14-094/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-14-094/",
+  "title": "CA ERwin Web Portal MIMM downloadScriptFile.do Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to read nearly any system file, including database credentials, on a system with vulnerable installations of CA ERwin Web Portal's Meta Integration Metadata Management service. Authentication is not required to exploit this vulnerability. The specific flaw exists within the \"Meta Integration Web Server and Services\" struts-controller servlet, part of a Struts application, which is vulnerable to a directory traversal. An attacker can leverage this vulnerability to read arbitrary files, including files which store database credentials, under the context of SYSTEM. An attacker can couple this vulnerability with others to gain remote code execution.",
+  "zdi_can": "ZDI-CAN-2015",
+  "zdi_id": "ZDI-14-094"
+}

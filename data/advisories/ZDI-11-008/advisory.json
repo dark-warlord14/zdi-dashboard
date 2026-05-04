@@ -1,0 +1,27 @@
+{
+  "additional_details": "Hewlett-Packard has issued an update to correct this vulnerability. More details can be found at: http://h20000.www2.hp.com/bizsupport/TechSupport/Document.jsp?objectID=c02670501",
+  "advisory_date": "2011-01-10",
+  "affected_products": [
+    "OpenView Network Node Manager"
+  ],
+  "affected_vendors": [
+    "Hewlett-Packard"
+  ],
+  "credit": "Aniway (Aniway.Anyway AT gmail DOT com)",
+  "cve": "CVE-2011-0266",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-0266",
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2010-09-23 - Vulnerability reported to vendor",
+    "2011-01-10 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-11-008 ZDI-CAN-932 Hewlett-Packard OpenView Network Node Manager nnmRptConfig.exe nameParams Remote Code Execution Vulnerability 2011-01-10 CVE-2011-0266 https://www.cve.org/CVERecord?id=CVE-2011-0266 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Hewlett-Packard'] ['OpenView Network Node Manager'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of HP Network Node Manager. Authentication is not required to exploit this vulnerability. The specific flaw exists within the nnmRptConfig.exe module exposed by the webserver that listens by default on TCP port 80. A remote user can send an oversized nameParams parameter via a POST request to one of the CGI functions of NNM to trigger a buffer overflow in this module. Exploitation of this issue leads to remote code execution under the context of the target service. Hewlett-Packard has issued an update to correct this vulnerability. More details can be found at: http://h20000.www2.hp.com/bizsupport/TechSupport/Document.jsp?objectID=c02670501 ['2010-09-23 - Vulnerability reported to vendor', '2011-01-10 - Coordinated public release of advisory'] Aniway (Aniway.Anyway AT gmail DOT com) https://www.zerodayinitiative.com/advisories/ZDI-11-008/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-008/",
+  "title": "Hewlett-Packard OpenView Network Node Manager nnmRptConfig.exe nameParams Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of HP Network Node Manager. Authentication is not required to exploit this vulnerability. The specific flaw exists within the nnmRptConfig.exe module exposed by the webserver that listens by default on TCP port 80. A remote user can send an oversized nameParams parameter via a POST request to one of the CGI functions of NNM to trigger a buffer overflow in this module. Exploitation of this issue leads to remote code execution under the context of the target service.",
+  "zdi_can": "ZDI-CAN-932",
+  "zdi_id": "ZDI-11-008"
+}

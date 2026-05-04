@@ -1,0 +1,27 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT5130",
+  "advisory_date": "2012-04-09",
+  "affected_products": [
+    "Quicktime"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "Luigi Auriemma",
+  "cve": "CVE-2011-3460",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-3460",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2011-10-21 - Vulnerability reported to vendor",
+    "2012-04-09 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-12-058 ZDI-CAN-1372 Apple Quicktime PNG Depth Decoding Remote Code Execution Vulnerability 2012-04-09 CVE-2011-3460 https://www.cve.org/CVERecord?id=CVE-2011-3460 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Apple'] ['Quicktime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of AppleQuickTime Player. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw occurs when the application allocates space for decoding a video sample encoded with the .png format. When calculating space for this surface, the application will explicitly trust the bit-depth within the MediaVideo header. During the decoding process, the application will write outside the surface's boundaries. This can be leveraged to allow for one to earn code execution under the context of the application. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT5130 ['2011-10-21 - Vulnerability reported to vendor', '2012-04-09 - Coordinated public release of advisory'] Luigi Auriemma https://www.zerodayinitiative.com/advisories/ZDI-12-058/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-12-058/",
+  "title": "Apple Quicktime PNG Depth Decoding Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of AppleQuickTime Player. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw occurs when the application allocates space for decoding a video sample encoded with the .png format. When calculating space for this surface, the application will explicitly trust the bit-depth within the MediaVideo header. During the decoding process, the application will write outside the surface's boundaries. This can be leveraged to allow for one to earn code execution under the context of the application.",
+  "zdi_can": "ZDI-CAN-1372",
+  "zdi_id": "ZDI-12-058"
+}

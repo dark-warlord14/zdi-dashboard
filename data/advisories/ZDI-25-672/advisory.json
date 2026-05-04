@@ -1,0 +1,28 @@
+{
+  "additional_details": "Samsung has issued an update to correct this vulnerability. More details can be found at: https://security.samsungtv.com/securityUpdates",
+  "advisory_date": "2025-07-28",
+  "affected_products": [
+    "MagicINFO 9 Server"
+  ],
+  "affected_vendors": [
+    "Samsung"
+  ],
+  "credit": "06fe5fd2bc53027c4a3b7e395af0b850e7b8a044",
+  "cve": "CVE-2025-54442",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-54442",
+  "cvss": 9.8,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2025-03-25 - Vulnerability reported to vendor",
+    "2025-07-28 - Coordinated public release of advisory",
+    "2025-07-29 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-672 ZDI-CAN-25806 Samsung MagicINFO 9 Server filenameHasExecutableType Unrestricted File Upload Remote Code Execution Vulnerability 2025-07-28 CVE-2025-54442 https://www.cve.org/CVERecord?id=CVE-2025-54442 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['Samsung'] ['MagicINFO 9 Server'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Samsung MagicINFO 9 Server. Authentication is not required to exploit this vulnerability. The specific flaw exists within the implementation of the filenameHasExecutableType method. The issue results from the lack of proper validation of user-supplied data, which can allow the upload of arbitrary files. An attacker can leverage this vulnerability to execute code in the context of SYSTEM. Samsung has issued an update to correct this vulnerability. More details can be found at: https://security.samsungtv.com/securityUpdates ['2025-03-25 - Vulnerability reported to vendor', '2025-07-28 - Coordinated public release of advisory', '2025-07-29 - Advisory Updated'] 06fe5fd2bc53027c4a3b7e395af0b850e7b8a044 https://www.zerodayinitiative.com/advisories/ZDI-25-672/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-672/",
+  "title": "Samsung MagicINFO 9 Server filenameHasExecutableType Unrestricted File Upload Remote Code Execution Vulnerability",
+  "updated_date": "2025-07-29",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Samsung MagicINFO 9 Server. Authentication is not required to exploit this vulnerability. The specific flaw exists within the implementation of the filenameHasExecutableType method. The issue results from the lack of proper validation of user-supplied data, which can allow the upload of arbitrary files. An attacker can leverage this vulnerability to execute code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-25806",
+  "zdi_id": "ZDI-25-672"
+}

@@ -1,0 +1,28 @@
+{
+  "additional_details": "Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://helpcenter.trendmicro.com/en-us/article/tmka-07247",
+  "advisory_date": "2024-06-10",
+  "affected_products": [
+    "VPN Proxy One Pro"
+  ],
+  "affected_vendors": [
+    "Trend Micro"
+  ],
+  "credit": "Hashim Jawad (@ihack4falafel)",
+  "cve": "CVE-2024-36473",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-36473",
+  "cvss": 5.3,
+  "cvss_vector": "AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:H",
+  "disclosure_timeline": [
+    "2024-01-28 - Vulnerability reported to vendor",
+    "2024-06-10 - Coordinated public release of advisory",
+    "2024-07-01 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-585 ZDI-CAN-22715 Trend Micro VPN Proxy One Pro Link Following Denial-of-Service Vulnerability 2024-06-10 CVE-2024-36473 https://www.cve.org/CVERecord?id=CVE-2024-36473 5.3 AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:H ['Trend Micro'] ['VPN Proxy One Pro'] This vulnerability allows local attackers to create a denial-of-service condition on affected installations of Trend Micro VPN Proxy One Pro. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Vpn Background Controller. By creating a symbolic link, an attacker can abuse the application to create a file. An attacker can leverage this vulnerability to create a denial-of-service condition on the system. Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://helpcenter.trendmicro.com/en-us/article/tmka-07247 ['2024-01-28 - Vulnerability reported to vendor', '2024-06-10 - Coordinated public release of advisory', '2024-07-01 - Advisory Updated'] Hashim Jawad (@ihack4falafel) https://www.zerodayinitiative.com/advisories/ZDI-24-585/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-585/",
+  "title": "Trend Micro VPN Proxy One Pro Link Following Denial-of-Service Vulnerability",
+  "updated_date": "2024-07-01",
+  "vulnerability_details": "This vulnerability allows local attackers to create a denial-of-service condition on affected installations of Trend Micro VPN Proxy One Pro. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Vpn Background Controller. By creating a symbolic link, an attacker can abuse the application to create a file. An attacker can leverage this vulnerability to create a denial-of-service condition on the system.",
+  "zdi_can": "ZDI-CAN-22715",
+  "zdi_id": "ZDI-24-585"
+}

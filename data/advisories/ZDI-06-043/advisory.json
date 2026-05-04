@@ -1,0 +1,27 @@
+{
+  "additional_details": "Novell has issued an update to correct this vulnerability. More details can be found at: http://www.novell.com/support/search.do?cmd=displayKC&externalId=3125538&sliceId=SAL_Public",
+  "advisory_date": "2006-11-29",
+  "affected_products": [
+    "Netware"
+  ],
+  "affected_vendors": [
+    "Novell"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2006-5854",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2006-5854",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2006-10-02 - Vulnerability reported to vendor",
+    "2006-11-29 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-06-043 ZDI-CAN-100 Novell Netware Client Print Provider Buffer Overflow Vulnerability 2006-11-29 CVE-2006-5854 https://www.cve.org/CVERecord?id=CVE-2006-5854 ['Novell'] ['Netware'] This vulnerability allows remote attackers to execute arbitrary code on systems with vulnerable installations of the Novell Netware Client. Authentication is not required to exploit this vulnerability. The specific flaw exists in a print provider installed by the Netware Client. The nwspool.dll library does not properly handle long arguments to the Win32 EnumPrinters() and OpenPrinter() functions. Exceeding 458 bytes in the first argument to OpenPrinter() or 524 bytes in the second argument to EnumPrinters() results in an exploitable buffer overflow within the Spooler service. This vulnerability can be exploited remotely via Remote Procedure Call (RPC) requests to the Spooler service. The Spooler exposes the \"spoolss\" named pipe, which allows an anonymous user to issue certain spooler commands. These include the OpenPrinter() and EnumPrinters() calls required to exploit this vulnerability. Novell has issued an update to correct this vulnerability. More details can be found at: http://www.novell.com/support/search.do?cmd=displayKC&externalId=3125538&sliceId=SAL_Public ['2006-10-02 - Vulnerability reported to vendor', '2006-11-29 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-06-043/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-06-043/",
+  "title": "Novell Netware Client Print Provider Buffer Overflow Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on systems with vulnerable installations of the Novell Netware Client. Authentication is not required to exploit this vulnerability. The specific flaw exists in a print provider installed by the Netware Client. The nwspool.dll library does not properly handle long arguments to the Win32 EnumPrinters() and OpenPrinter() functions. Exceeding 458 bytes in the first argument to OpenPrinter() or 524 bytes in the second argument to EnumPrinters() results in an exploitable buffer overflow within the Spooler service. This vulnerability can be exploited remotely via Remote Procedure Call (RPC) requests to the Spooler service. The Spooler exposes the \"spoolss\" named pipe, which allows an anonymous user to issue certain spooler commands. These include the OpenPrinter() and EnumPrinters() calls required to exploit this vulnerability.",
+  "zdi_can": "ZDI-CAN-100",
+  "zdi_id": "ZDI-06-043"
+}

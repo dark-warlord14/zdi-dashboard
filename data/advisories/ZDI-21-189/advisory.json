@@ -1,0 +1,27 @@
+{
+  "additional_details": "Advantech has issued an update to correct this vulnerability. More details can be found at: https://us-cert.cisa.gov/ics/advisories/icsa-21-040-02",
+  "advisory_date": "2021-02-11",
+  "affected_products": [
+    "iView"
+  ],
+  "affected_vendors": [
+    "Advantech"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2021-22656",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2021-22656",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+  "disclosure_timeline": [
+    "2020-11-18 - Vulnerability reported to vendor",
+    "2021-02-11 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-21-189 ZDI-CAN-12096 Advantech iView CommandServlet Directory Traversal Information Disclosure Vulnerability 2021-02-11 CVE-2021-22656 https://www.cve.org/CVERecord?id=CVE-2021-22656 7.5 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N ['Advantech'] ['iView'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Advantech iView. Authentication is not required to exploit this vulnerability. The specific flaw exists within the CommandServlet class. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to disclose information in the context of SYSTEM. Advantech has issued an update to correct this vulnerability. More details can be found at: https://us-cert.cisa.gov/ics/advisories/icsa-21-040-02 ['2020-11-18 - Vulnerability reported to vendor', '2021-02-11 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-21-189/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-21-189/",
+  "title": "Advantech iView CommandServlet Directory Traversal Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Advantech iView. Authentication is not required to exploit this vulnerability. The specific flaw exists within the CommandServlet class. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to disclose information in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-12096",
+  "zdi_id": "ZDI-21-189"
+}

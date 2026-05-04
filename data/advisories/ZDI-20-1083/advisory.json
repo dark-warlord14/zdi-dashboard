@@ -1,0 +1,27 @@
+{
+  "additional_details": "Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/solution/000252039",
+  "advisory_date": "2020-08-27",
+  "affected_products": [
+    "Vulnerability Protection"
+  ],
+  "affected_vendors": [
+    "Trend Micro"
+  ],
+  "credit": "Partick Hussey - Longwall Security",
+  "cve": "CVE-2020-15605",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2020-15605",
+  "cvss": 8.1,
+  "cvss_vector": "AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2020-07-02 - Vulnerability reported to vendor",
+    "2020-08-27 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-20-1083 ZDI-CAN-11431 Trend Micro Vulnerability Protection Authentication Bypass Vulnerability 2020-08-27 CVE-2020-15605 https://www.cve.org/CVERecord?id=CVE-2020-15605 8.1 AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H ['Trend Micro'] ['Vulnerability Protection'] This vulnerability allows remote attackers to bypass authentication on affected installations of Trend Micro Vulnerability Protection. Authentication is not required to exploit this vulnerability. The specific flaw exists within the Vulnerability Protection console. The issue results from the lack of proper validation prior to authentication. An attacker can leverage this vulnerability to bypass authentication on the system. Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/solution/000252039 ['2020-07-02 - Vulnerability reported to vendor', '2020-08-27 - Coordinated public release of advisory'] Partick Hussey - Longwall Security https://www.zerodayinitiative.com/advisories/ZDI-20-1083/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-20-1083/",
+  "title": "Trend Micro Vulnerability Protection Authentication Bypass Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to bypass authentication on affected installations of Trend Micro Vulnerability Protection. Authentication is not required to exploit this vulnerability. The specific flaw exists within the Vulnerability Protection console. The issue results from the lack of proper validation prior to authentication. An attacker can leverage this vulnerability to bypass authentication on the system.",
+  "zdi_can": "ZDI-CAN-11431",
+  "zdi_id": "ZDI-20-1083"
+}

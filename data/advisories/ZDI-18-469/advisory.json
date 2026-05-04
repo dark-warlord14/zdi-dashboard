@@ -1,0 +1,28 @@
+{
+  "additional_details": "Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/solution/1119811",
+  "advisory_date": "2018-05-17",
+  "affected_products": [
+    "Endpoint Application Control"
+  ],
+  "affected_vendors": [
+    "Trend Micro"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2018-10357",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2018-10357",
+  "cvss": 9.0,
+  "cvss_vector": "AV:N/AC:L/Au:S/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2018-02-02 - Vulnerability reported to vendor",
+    "2018-05-17 - Coordinated public release of advisory",
+    "2018-05-17 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-469 ZDI-CAN-5640 Trend Micro Endpoint Application Control FileDrop Directory Traversal Remote Code Execution Vulnerability 2018-05-17 CVE-2018-10357 https://www.cve.org/CVERecord?id=CVE-2018-10357 9.0 AV:N/AC:L/Au:S/C:C/I:C/A:C ['Trend Micro'] ['Endpoint Application Control'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Trend Micro Endpoint Application Control. Authentication is required to exploit this vulnerability. The specific flaw exists within the FileDrop servlet. When parsing filenames, the process does not properly validate a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute code under the context of administrator. Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/solution/1119811 ['2018-02-02 - Vulnerability reported to vendor', '2018-05-17 - Coordinated public release of advisory', '2018-05-17 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-18-469/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-469/",
+  "title": "Trend Micro Endpoint Application Control FileDrop Directory Traversal Remote Code Execution Vulnerability",
+  "updated_date": "2018-05-17",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Trend Micro Endpoint Application Control. Authentication is required to exploit this vulnerability. The specific flaw exists within the FileDrop servlet. When parsing filenames, the process does not properly validate a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute code under the context of administrator.",
+  "zdi_can": "ZDI-CAN-5640",
+  "zdi_id": "ZDI-18-469"
+}

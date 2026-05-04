@@ -1,0 +1,27 @@
+{
+  "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb16-14.html",
+  "advisory_date": "2016-05-10",
+  "affected_products": [
+    "Acrobat Reader DC"
+  ],
+  "affected_vendors": [
+    "Adobe"
+  ],
+  "credit": "Matthias Kaiser",
+  "cve": "CVE-2016-1040",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-1040",
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2015-12-01 - Vulnerability reported to vendor",
+    "2016-05-10 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-16-289 ZDI-CAN-3428 Adobe Acrobat Reader DC Net.HTTP.runTaskSet Javascript API Restrictions Bypass Vulnerability 2016-05-10 CVE-2016-1040 https://www.cve.org/CVERecord?id=CVE-2016-1040 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Adobe'] ['Acrobat Reader DC'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Adobe Reader DC.User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the Net.HTTP.runTaskSet method. By creating a specially crafted PDF with specific Javascript instructions, it is possible to bypass the Javascript API restrictions. A remote attacker could exploit this vulnerability to execute arbitrary code. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb16-14.html ['2015-12-01 - Vulnerability reported to vendor', '2016-05-10 - Coordinated public release of advisory'] Matthias Kaiser https://www.zerodayinitiative.com/advisories/ZDI-16-289/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-289/",
+  "title": "Adobe Acrobat Reader DC Net.HTTP.runTaskSet Javascript API Restrictions Bypass Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Adobe Reader DC.User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the Net.HTTP.runTaskSet method. By creating a specially crafted PDF with specific Javascript instructions, it is possible to bypass the Javascript API restrictions. A remote attacker could exploit this vulnerability to execute arbitrary code.",
+  "zdi_can": "ZDI-CAN-3428",
+  "zdi_id": "ZDI-16-289"
+}

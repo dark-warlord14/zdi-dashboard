@@ -1,0 +1,28 @@
+{
+  "additional_details": "Hewlett Packard Enterprise has issued an update to correct this vulnerability. More details can be found at: https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbgn04586en_us&docLocale=en_US",
+  "advisory_date": "2024-06-18",
+  "affected_products": [
+    "OneView"
+  ],
+  "affected_vendors": [
+    "Hewlett Packard Enterprise"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2023-50275",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-50275",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+  "disclosure_timeline": [
+    "2023-11-28 - Vulnerability reported to vendor",
+    "2024-06-18 - Coordinated public release of advisory",
+    "2024-08-15 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-811 ZDI-CAN-22455 Hewlett Packard Enterprise OneView clusterService Authentication Bypass Denial-of-Service Vulnerability 2024-06-18 CVE-2023-50275 https://www.cve.org/CVERecord?id=CVE-2023-50275 7.5 AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H ['Hewlett Packard Enterprise'] ['OneView'] This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of Hewlett Packard Enterprise OneView. Authentication is not required to exploit this vulnerability. The specific flaw exists within the clusterService. The issue results from the lack of proper validation of the attacker's IP address, which results in exposure of functionality that should be available only on the loopback interface. An attacker can leverage this vulnerability to create a denial-of-service condition on the system. Hewlett Packard Enterprise has issued an update to correct this vulnerability. More details can be found at: https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbgn04586en_us&docLocale=en_US ['2023-11-28 - Vulnerability reported to vendor', '2024-06-18 - Coordinated public release of advisory', '2024-08-15 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-24-811/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-811/",
+  "title": "Hewlett Packard Enterprise OneView clusterService Authentication Bypass Denial-of-Service Vulnerability",
+  "updated_date": "2024-08-15",
+  "vulnerability_details": "This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of Hewlett Packard Enterprise OneView. Authentication is not required to exploit this vulnerability. The specific flaw exists within the clusterService. The issue results from the lack of proper validation of the attacker's IP address, which results in exposure of functionality that should be available only on the loopback interface. An attacker can leverage this vulnerability to create a denial-of-service condition on the system.",
+  "zdi_can": "ZDI-CAN-22455",
+  "zdi_id": "ZDI-24-811"
+}

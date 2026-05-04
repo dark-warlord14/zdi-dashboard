@@ -1,0 +1,27 @@
+{
+  "additional_details": "GE has issued an update to correct this vulnerability. More details can be found at: http://support.ge-ip.com/support/index?page=kbchannel&id=S:KB14863",
+  "advisory_date": "2012-08-29",
+  "affected_products": [
+    "Proficy Historian"
+  ],
+  "affected_vendors": [
+    "GE"
+  ],
+  "credit": "Andrea Micalizzi aka rgod",
+  "cve": "CVE-2012-2516",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2012-2516",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2012-01-24 - Vulnerability reported to vendor",
+    "2012-08-29 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-12-169 ZDI-CAN-1491 GE Proficy Historian KeyHelp ActiveX LaunchTriPane Remote Code Execution Vulnerability 2012-08-29 CVE-2012-2516 https://www.cve.org/CVERecord?id=CVE-2012-2516 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['GE'] ['Proficy Historian'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of GE Proficy Historian. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the KeyHelp.ocx ActiveX control. The control contains a LaunchTriPane function that allows launching of the HTML Help executable (hh.exe) with customized command line parameters. By using the -decompile switch, an attacker can specify the folder to decompile to and a UNC path to a specially crafted .chm file. The attacker can utilize this vulnerability to execute remote code under the context of the process. GE has issued an update to correct this vulnerability. More details can be found at: http://support.ge-ip.com/support/index?page=kbchannel&id=S:KB14863 ['2012-01-24 - Vulnerability reported to vendor', '2012-08-29 - Coordinated public release of advisory'] Andrea Micalizzi aka rgod https://www.zerodayinitiative.com/advisories/ZDI-12-169/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-12-169/",
+  "title": "GE Proficy Historian KeyHelp ActiveX LaunchTriPane Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of GE Proficy Historian. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the KeyHelp.ocx ActiveX control. The control contains a LaunchTriPane function that allows launching of the HTML Help executable (hh.exe) with customized command line parameters. By using the -decompile switch, an attacker can specify the folder to decompile to and a UNC path to a specially crafted .chm file. The attacker can utilize this vulnerability to execute remote code under the context of the process.",
+  "zdi_can": "ZDI-CAN-1491",
+  "zdi_id": "ZDI-12-169"
+}

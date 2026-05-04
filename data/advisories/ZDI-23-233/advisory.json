@@ -1,0 +1,28 @@
+{
+  "additional_details": "PaperCut has issued an update to correct this vulnerability. More details can be found at: https://www.papercut.com/kb/Main/PO-1216-and-PO-1219",
+  "advisory_date": "2023-03-14",
+  "affected_products": [
+    "NG"
+  ],
+  "affected_vendors": [
+    "PaperCut"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2023-27350",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-27350",
+  "cvss": 9.8,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2023-01-10 - Vulnerability reported to vendor",
+    "2023-03-14 - Coordinated public release of advisory",
+    "2023-04-19 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-233 ZDI-CAN-18987 PaperCut NG SetupCompleted Improper Access Control Authentication Bypass Vulnerability 2023-03-14 CVE-2023-27350 https://www.cve.org/CVERecord?id=CVE-2023-27350 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['PaperCut'] ['NG'] This vulnerability allows remote attackers to bypass authentication on affected installations of PaperCut NG. Authentication is not required to exploit this vulnerability. The specific flaw exists within the SetupCompleted class. The issue results from improper access control. An attacker can leverage this vulnerability to bypass authentication and execute arbitrary code in the context of SYSTEM. PaperCut has issued an update to correct this vulnerability. More details can be found at: https://www.papercut.com/kb/Main/PO-1216-and-PO-1219 ['2023-01-10 - Vulnerability reported to vendor', '2023-03-14 - Coordinated public release of advisory', '2023-04-19 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-23-233/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-233/",
+  "title": "PaperCut NG SetupCompleted Improper Access Control Authentication Bypass Vulnerability",
+  "updated_date": "2023-04-19",
+  "vulnerability_details": "This vulnerability allows remote attackers to bypass authentication on affected installations of PaperCut NG. Authentication is not required to exploit this vulnerability. The specific flaw exists within the SetupCompleted class. The issue results from improper access control. An attacker can leverage this vulnerability to bypass authentication and execute arbitrary code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-18987",
+  "zdi_id": "ZDI-23-233"
+}

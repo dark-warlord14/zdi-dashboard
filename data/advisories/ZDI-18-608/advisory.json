@@ -1,0 +1,28 @@
+{
+  "additional_details": "Eaton has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-18-193-01",
+  "advisory_date": "2018-07-12",
+  "affected_products": [
+    "9000XDrive"
+  ],
+  "affected_vendors": [
+    "Eaton"
+  ],
+  "credit": "Ghirmay Desta",
+  "cve": "CVE-2018-8847",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2018-8847",
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2018-02-23 - Vulnerability reported to vendor",
+    "2018-07-12 - Coordinated public release of advisory",
+    "2018-07-12 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-608 ZDI-CAN-5669 Eaton 9000XDrive TLF File Parsing Stack-based Buffer Overflow Remote Code Execution Vulnerability 2018-07-12 CVE-2018-8847 https://www.cve.org/CVERecord?id=CVE-2018-8847 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Eaton'] ['9000XDrive'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Eaton 9000XDrive. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the processing of a TLF file. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a stack-based buffer. An attacker can leverage this vulnerability to execute code under the context of the current process. Eaton has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-18-193-01 ['2018-02-23 - Vulnerability reported to vendor', '2018-07-12 - Coordinated public release of advisory', '2018-07-12 - Advisory Updated'] Ghirmay Desta https://www.zerodayinitiative.com/advisories/ZDI-18-608/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-608/",
+  "title": "Eaton 9000XDrive TLF File Parsing Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+  "updated_date": "2018-07-12",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Eaton 9000XDrive. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the processing of a TLF file. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a stack-based buffer. An attacker can leverage this vulnerability to execute code under the context of the current process.",
+  "zdi_can": "ZDI-CAN-5669",
+  "zdi_id": "ZDI-18-608"
+}

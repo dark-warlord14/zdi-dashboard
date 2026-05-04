@@ -1,0 +1,27 @@
+{
+  "additional_details": "Oracle has issued an update to correct this vulnerability. More details can be found at: https://www.oracle.com/security-alerts/cpuapr2021.html",
+  "advisory_date": "2021-04-22",
+  "affected_products": [
+    "WebLogic Server"
+  ],
+  "affected_vendors": [
+    "Oracle"
+  ],
+  "credit": "Quynh Le of VNPT ISC",
+  "cve": "CVE-2021-2211",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2021-2211",
+  "cvss": 4.9,
+  "cvss_vector": "AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N",
+  "disclosure_timeline": [
+    "2020-12-04 - Vulnerability reported to vendor",
+    "2021-04-22 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-21-454 ZDI-CAN-12492 Oracle WebLogic Server T3 Protocol Deserialization of Untrusted Data Information Disclosure Vulnerability 2021-04-22 CVE-2021-2211 https://www.cve.org/CVERecord?id=CVE-2021-2211 4.9 AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N ['Oracle'] ['WebLogic Server'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Oracle WebLogic Server. Authentication is required to exploit this vulnerability. The specific flaw exists within the handling of the T3 protocol. Crafted data in a T3 protocol message can trigger the deserialization of untrusted data. An attacker can leverage this vulnerability to disclose information in the context of the service account. Oracle has issued an update to correct this vulnerability. More details can be found at: https://www.oracle.com/security-alerts/cpuapr2021.html ['2020-12-04 - Vulnerability reported to vendor', '2021-04-22 - Coordinated public release of advisory'] Quynh Le of VNPT ISC https://www.zerodayinitiative.com/advisories/ZDI-21-454/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-21-454/",
+  "title": "Oracle WebLogic Server T3 Protocol Deserialization of Untrusted Data Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Oracle WebLogic Server. Authentication is required to exploit this vulnerability. The specific flaw exists within the handling of the T3 protocol. Crafted data in a T3 protocol message can trigger the deserialization of untrusted data. An attacker can leverage this vulnerability to disclose information in the context of the service account.",
+  "zdi_can": "ZDI-CAN-12492",
+  "zdi_id": "ZDI-21-454"
+}

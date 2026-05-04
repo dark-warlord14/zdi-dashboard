@@ -1,0 +1,27 @@
+{
+  "additional_details": "Hewlett-Packard has issued an update to correct this vulnerability. More details can be found at: https://h20566.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c03864640",
+  "advisory_date": "2013-08-13",
+  "affected_products": [
+    "Application Lifecycle Management"
+  ],
+  "affected_vendors": [
+    "Hewlett-Packard"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2013-4802",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2013-4802",
+  "cvss": 5.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+  "disclosure_timeline": [
+    "2013-02-01 - Vulnerability reported to vendor",
+    "2013-08-13 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-13-200 ZDI-CAN-1565 Hewlett-Packard Application Lifecycle Management Quality Center Multiple Cross-Site Scripting Vulnerabilities 2013-08-13 CVE-2013-4802 https://www.cve.org/CVERecord?id=CVE-2013-4802 5.0 AV:N/AC:L/Au:N/C:P/I:N/A:N ['Hewlett-Packard'] ['Application Lifecycle Management'] This vulnerability allows remote attackers to execute arbitrary client side script on vulnerable installations of HP Application Lifecycle Management Quality Center. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of html messages sent to HP Application Lifecycle Management Quality Center. Messages are improperly sanitized allowing an attacker to inject arbitrary javascript into the page. This can be abused by an attacker to perform a cross-site scripting attack on the user. Hewlett-Packard has issued an update to correct this vulnerability. More details can be found at: https://h20566.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c03864640 ['2013-02-01 - Vulnerability reported to vendor', '2013-08-13 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-13-200/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-13-200/",
+  "title": "Hewlett-Packard Application Lifecycle Management Quality Center Multiple Cross-Site Scripting Vulnerabilities",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary client side script on vulnerable installations of HP Application Lifecycle Management Quality Center. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of html messages sent to HP Application Lifecycle Management Quality Center. Messages are improperly sanitized allowing an attacker to inject arbitrary javascript into the page. This can be abused by an attacker to perform a cross-site scripting attack on the user.",
+  "zdi_can": "ZDI-CAN-1565",
+  "zdi_id": "ZDI-13-200"
+}

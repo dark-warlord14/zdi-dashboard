@@ -1,0 +1,27 @@
+{
+  "additional_details": "Citrix has issued an update to correct this vulnerability. More details can be found at: http://support.citrix.com/article/CTX111186",
+  "advisory_date": "2006-11-09",
+  "affected_products": [
+    "Metaframe Server"
+  ],
+  "affected_vendors": [
+    "Citrix"
+  ],
+  "credit": "Eric Detoisien and an anonymous researcher",
+  "cve": "CVE-2006-5821",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2006-5821",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2006-06-16 - Vulnerability reported to vendor",
+    "2006-11-09 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-06-038 ZDI-CAN-062 Citrix MetaFrame IMA Management Module Remote Heap Overflow Vulnerability 2006-11-09 CVE-2006-5821 https://www.cve.org/CVERecord?id=CVE-2006-5821 ['Citrix'] ['Metaframe Server'] This vulnerability allows attackers to execute arbitrary code on vulnerable installations of Citrix MetaFrame Presentation Server. Authentication is not required to exploit this vulnerability. The specific flaw exists within the routine IMA_SECURE_DecryptData1() defined in ImaSystem.dll and is reachable through the Independant Management Architecture (IMA) service (ImaSrv.exe) that listens on TCP port 2512 or 2513. The encryption scheme used is reversible and relies on several 32-bit fields indicating the size of the packet and the offsets to the authentication strings. During the decryption of authentication data an attacker can specify invalid sizes that result in an exploitable heap corruption. Citrix has issued an update to correct this vulnerability. More details can be found at: http://support.citrix.com/article/CTX111186 ['2006-06-16 - Vulnerability reported to vendor', '2006-11-09 - Coordinated public release of advisory'] Eric Detoisien and an anonymous researcher https://www.zerodayinitiative.com/advisories/ZDI-06-038/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-06-038/",
+  "title": "Citrix MetaFrame IMA Management Module Remote Heap Overflow Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows attackers to execute arbitrary code on vulnerable installations of Citrix MetaFrame Presentation Server. Authentication is not required to exploit this vulnerability. The specific flaw exists within the routine IMA_SECURE_DecryptData1() defined in ImaSystem.dll and is reachable through the Independant Management Architecture (IMA) service (ImaSrv.exe) that listens on TCP port 2512 or 2513. The encryption scheme used is reversible and relies on several 32-bit fields indicating the size of the packet and the offsets to the authentication strings. During the decryption of authentication data an attacker can specify invalid sizes that result in an exploitable heap corruption.",
+  "zdi_can": "ZDI-CAN-062",
+  "zdi_id": "ZDI-06-038"
+}

@@ -1,0 +1,27 @@
+{
+  "additional_details": "Fixed in version 7.4.1",
+  "advisory_date": "2020-08-26",
+  "affected_products": [
+    "Symphony"
+  ],
+  "affected_vendors": [
+    "Senstar"
+  ],
+  "credit": "Joachim Kerschbaumer (@joachimk)",
+  "cve": "CVE-2020-17405",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2020-17405",
+  "cvss": 8.8,
+  "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2020-05-27 - Vulnerability reported to vendor",
+    "2020-08-26 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-20-1080 ZDI-CAN-10980 Senstar Symphony SSOAuth Deserialization of Untrusted Data Remote Code Execution Vulnerability 2020-08-26 CVE-2020-17405 https://www.cve.org/CVERecord?id=CVE-2020-17405 8.8 AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['Senstar'] ['Symphony'] This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Senstar Symphony. Authentication is not required to exploit this vulnerability. The specific flaw exists within the SSOAuth process. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of SYSTEM. Fixed in version 7.4.1 ['2020-05-27 - Vulnerability reported to vendor', '2020-08-26 - Coordinated public release of advisory'] Joachim Kerschbaumer (@joachimk) https://www.zerodayinitiative.com/advisories/ZDI-20-1080/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-20-1080/",
+  "title": "Senstar Symphony SSOAuth Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Senstar Symphony. Authentication is not required to exploit this vulnerability. The specific flaw exists within the SSOAuth process. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-10980",
+  "zdi_id": "ZDI-20-1080"
+}

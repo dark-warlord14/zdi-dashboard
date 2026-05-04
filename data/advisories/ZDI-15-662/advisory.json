@@ -1,0 +1,27 @@
+{
+  "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/flash-player/apsb15-32.html",
+  "advisory_date": "2016-03-02",
+  "affected_products": [
+    "Flash"
+  ],
+  "affected_vendors": [
+    "Adobe"
+  ],
+  "credit": "AbdulAziz Hariri - HPE Zero Day Initiative",
+  "cve": "CVE-2015-8658",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-8658",
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2015-12-01 - Vulnerability reported to vendor",
+    "2016-03-02 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-15-662 ZDI-CAN-3439 Adobe Flash MPEG Parsing Uninitialized Pointer Remote Code Execution Vulnerability 2016-03-02 CVE-2015-8658 https://www.cve.org/CVERecord?id=CVE-2015-8658 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Adobe'] ['Flash'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Adobe Flash. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within MPEG-4 parsing. A specially crafted MP4 file can force the dereference of an uninitialized pointer. An attacker can leverage this vulnerability to execute arbitrary code under the context of the current process. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/flash-player/apsb15-32.html ['2015-12-01 - Vulnerability reported to vendor', '2016-03-02 - Coordinated public release of advisory'] AbdulAziz Hariri - HPE Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-15-662/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-662/",
+  "title": "Adobe Flash MPEG Parsing Uninitialized Pointer Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Adobe Flash. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within MPEG-4 parsing. A specially crafted MP4 file can force the dereference of an uninitialized pointer. An attacker can leverage this vulnerability to execute arbitrary code under the context of the current process.",
+  "zdi_can": "ZDI-CAN-3439",
+  "zdi_id": "ZDI-15-662"
+}

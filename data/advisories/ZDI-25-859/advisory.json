@@ -1,0 +1,28 @@
+{
+  "additional_details": "Firebird has issued an update to correct this vulnerability. More details can be found at: https://github.com/FirebirdSQL/firebird/commit/169da595f8693fc1a65a79c741724b1bc8db9f25",
+  "advisory_date": "2025-08-21",
+  "affected_products": [
+    "Firebird SQL"
+  ],
+  "affected_vendors": [
+    "Firebird"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2025-54989",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-54989",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+  "disclosure_timeline": [
+    "2025-05-02 - Vulnerability reported to vendor",
+    "2025-08-21 - Coordinated public release of advisory",
+    "2025-08-21 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-859 ZDI-CAN-26486 Firebird SQL Database Server XDR Message Parsing NULL Pointer Dereference Denial-of-Service Vulnerability 2025-08-21 CVE-2025-54989 https://www.cve.org/CVERecord?id=CVE-2025-54989 7.5 AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H ['Firebird'] ['Firebird SQL'] This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of Firebird SQL. Authentication is not required to exploit this vulnerability. The specific flaw exists within the parsing of XDR messages. The issue results from dereferencing a null pointer. An attacker can leverage this vulnerability to create a denial-of-service condition on the system. Firebird has issued an update to correct this vulnerability. More details can be found at: https://github.com/FirebirdSQL/firebird/commit/169da595f8693fc1a65a79c741724b1bc8db9f25 ['2025-05-02 - Vulnerability reported to vendor', '2025-08-21 - Coordinated public release of advisory', '2025-08-21 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-25-859/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-859/",
+  "title": "Firebird SQL Database Server XDR Message Parsing NULL Pointer Dereference Denial-of-Service Vulnerability",
+  "updated_date": "2025-08-21",
+  "vulnerability_details": "This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of Firebird SQL. Authentication is not required to exploit this vulnerability. The specific flaw exists within the parsing of XDR messages. The issue results from dereferencing a null pointer. An attacker can leverage this vulnerability to create a denial-of-service condition on the system.",
+  "zdi_can": "ZDI-CAN-26486",
+  "zdi_id": "ZDI-25-859"
+}

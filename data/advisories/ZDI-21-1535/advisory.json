@@ -1,0 +1,27 @@
+{
+  "additional_details": "McAfee has issued an update to correct this vulnerability. More details can be found at: https://kc.mcafee.com/corporate/index?page=content&id=SB10358",
+  "advisory_date": "2021-12-14",
+  "affected_products": [
+    "Database Security"
+  ],
+  "affected_vendors": [
+    "McAfee"
+  ],
+  "credit": "Jokubas Arsoba (ikth)",
+  "cve": "CVE-2021-31850",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2021-31850",
+  "cvss": 5.9,
+  "cvss_vector": "AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:L/A:H",
+  "disclosure_timeline": [
+    "2021-10-21 - Vulnerability reported to vendor",
+    "2021-12-14 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-21-1535 ZDI-CAN-14792 McAfee Database Security Improper Access Control Denial-of-Service Vulnerability 2021-12-14 CVE-2021-31850 https://www.cve.org/CVERecord?id=CVE-2021-31850 5.9 AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:L/A:H ['McAfee'] ['Database Security'] This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of McAfee Database Security. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the McAfee DBS service. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to create a denial-of-service condition on the system. McAfee has issued an update to correct this vulnerability. More details can be found at: https://kc.mcafee.com/corporate/index?page=content&id=SB10358 ['2021-10-21 - Vulnerability reported to vendor', '2021-12-14 - Coordinated public release of advisory'] Jokubas Arsoba (ikth) https://www.zerodayinitiative.com/advisories/ZDI-21-1535/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-21-1535/",
+  "title": "McAfee Database Security Improper Access Control Denial-of-Service Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of McAfee Database Security. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the McAfee DBS service. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to create a denial-of-service condition on the system.",
+  "zdi_can": "ZDI-CAN-14792",
+  "zdi_id": "ZDI-21-1535"
+}

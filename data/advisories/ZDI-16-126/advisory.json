@@ -1,0 +1,27 @@
+{
+  "additional_details": "Advantech has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-16-014-01",
+  "advisory_date": "2016-02-05",
+  "affected_products": [
+    "WebAccess"
+  ],
+  "affected_vendors": [
+    "Advantech"
+  ],
+  "credit": "kimiya & rgod",
+  "cve": "CVE-2016-0855",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-0855",
+  "cvss": 7.8,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:N/A:N",
+  "disclosure_timeline": [
+    "2015-09-15 - Vulnerability reported to vendor",
+    "2016-02-05 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-16-126 ZDI-CAN-3133 Advantech WebAccess Dashboard Viewer openWidget Directory Traversal Information Disclosure Vulnerability 2016-02-05 CVE-2016-0855 https://www.cve.org/CVERecord?id=CVE-2016-0855 7.8 AV:N/AC:L/Au:N/C:C/I:N/A:N ['Advantech'] ['WebAccess'] This vulnerability allows remote attackers to disclose arbitrary file contents on vulnerable installations of Advantech WebAccess. Authentication is not required to exploit this vulnerability. The specific flaw exists within the WebAccess Dashboard Viewer. Insufficient validation within the openWidget script allows unauthenticated callers to read the content of arbitrary files on the WebAccess server. Advantech has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-16-014-01 ['2015-09-15 - Vulnerability reported to vendor', '2016-02-05 - Coordinated public release of advisory'] kimiya & rgod https://www.zerodayinitiative.com/advisories/ZDI-16-126/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-126/",
+  "title": "Advantech WebAccess Dashboard Viewer openWidget Directory Traversal Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose arbitrary file contents on vulnerable installations of Advantech WebAccess. Authentication is not required to exploit this vulnerability. The specific flaw exists within the WebAccess Dashboard Viewer. Insufficient validation within the openWidget script allows unauthenticated callers to read the content of arbitrary files on the WebAccess server.",
+  "zdi_can": "ZDI-CAN-3133",
+  "zdi_id": "ZDI-16-126"
+}

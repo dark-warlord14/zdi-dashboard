@@ -1,0 +1,28 @@
+{
+  "additional_details": "Schneider Electric has issued an update to correct this vulnerability. More details can be found at: https://download.schneider-electric.com/files?p_Doc_Ref=SEVD-2026-069-05&p_enDocType=Security+and+Safety+Notice&p_File_Name=SEVD-2026-069-05.pdf",
+  "advisory_date": "2026-03-16",
+  "affected_products": [
+    "EcoStruxure Data Center Expert"
+  ],
+  "affected_vendors": [
+    "Schneider Electric"
+  ],
+  "credit": "hassan ali",
+  "cve": "CVE-2025-13957",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-13957",
+  "cvss": 8.8,
+  "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2026-02-02 - Vulnerability reported to vendor",
+    "2026-03-16 - Coordinated public release of advisory",
+    "2026-03-16 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-26-212 ZDI-CAN-28034 Schneider Electric EcoStruxure Data Center Expert Hard-coded Password Remote Code Execution Vulnerability 2026-03-16 CVE-2025-13957 https://www.cve.org/CVERecord?id=CVE-2025-13957 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Schneider Electric'] ['EcoStruxure Data Center Expert'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Schneider Electric EcoStruxure Data Center Expert. Authentication is required to exploit this vulnerability. The specific flaw exists within the postgres service, which listens on TCP port 5432 by default. The issue results from the use of hard-coded credentials. An attacker can leverage this vulnerability to execute code in the context of the service account. Schneider Electric has issued an update to correct this vulnerability. More details can be found at: https://download.schneider-electric.com/files?p_Doc_Ref=SEVD-2026-069-05&p_enDocType=Security+and+Safety+Notice&p_File_Name=SEVD-2026-069-05.pdf ['2026-02-02 - Vulnerability reported to vendor', '2026-03-16 - Coordinated public release of advisory', '2026-03-16 - Advisory Updated'] hassan ali https://www.zerodayinitiative.com/advisories/ZDI-26-212/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-212/",
+  "title": "Schneider Electric EcoStruxure Data Center Expert Hard-coded Password Remote Code Execution Vulnerability",
+  "updated_date": "2026-03-16",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Schneider Electric EcoStruxure Data Center Expert. Authentication is required to exploit this vulnerability. The specific flaw exists within the postgres service, which listens on TCP port 5432 by default. The issue results from the use of hard-coded credentials. An attacker can leverage this vulnerability to execute code in the context of the service account.",
+  "zdi_can": "ZDI-CAN-28034",
+  "zdi_id": "ZDI-26-212"
+}

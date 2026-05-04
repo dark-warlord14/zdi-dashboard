@@ -1,0 +1,27 @@
+{
+  "additional_details": "Advantech has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-16-173-01",
+  "advisory_date": "2016-07-18",
+  "affected_products": [
+    "WebAccess"
+  ],
+  "affected_vendors": [
+    "Advantech"
+  ],
+  "credit": "Zhou Yu",
+  "cve": "CVE-2016-5810",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-5810",
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:L/Au:S/C:C/I:N/A:N",
+  "disclosure_timeline": [
+    "2016-05-11 - Vulnerability reported to vendor",
+    "2016-07-18 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-16-429 ZDI-CAN-3746 Advantech WebAccess upAdminPg Information Disclosure Vulnerability 2016-07-18 CVE-2016-5810 https://www.cve.org/CVERecord?id=CVE-2016-5810 6.8 AV:N/AC:L/Au:S/C:C/I:N/A:N ['Advantech'] ['WebAccess'] This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Advantech WebAccess. Authentication is required to exploit this vulnerability. The specific flaw exists within upAdminPg.asp. One project administrator can view other project administrators' passwords along with the system administrator's password. An attacker can leverage this vulnerability to escalate privileges within the system. Advantech has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-16-173-01 ['2016-05-11 - Vulnerability reported to vendor', '2016-07-18 - Coordinated public release of advisory'] Zhou Yu https://www.zerodayinitiative.com/advisories/ZDI-16-429/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-429/",
+  "title": "Advantech WebAccess upAdminPg Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Advantech WebAccess. Authentication is required to exploit this vulnerability. The specific flaw exists within upAdminPg.asp. One project administrator can view other project administrators' passwords along with the system administrator's password. An attacker can leverage this vulnerability to escalate privileges within the system.",
+  "zdi_can": "ZDI-CAN-3746",
+  "zdi_id": "ZDI-16-429"
+}

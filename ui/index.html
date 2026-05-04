@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZDI Advisories</title>
+    <meta name="description" content="Searchable archive of Zero Day Initiative published and upcoming advisories.">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%230a0a0a'/><text x='50' y='64' font-size='40' font-weight='800' text-anchor='middle' fill='%23ededed' font-family='monospace'>ZDI</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Geist+Mono:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+    <header class="masthead">
+        <div class="masthead-inner">
+            <a href="#/published" class="brand" aria-label="ZDI Advisories home">
+                <span class="brand-mark">Z</span>
+                <span class="brand-word">ZDI Advisories</span>
+                <span class="brand-badge">archive</span>
+            </a>
+            <nav class="mast-nav">
+                <a href="#/published" class="nav-link" data-nav="published">Published</a>
+                <a href="#/upcoming" class="nav-link" data-nav="upcoming">Upcoming</a>
+                <a href="#/stats" class="nav-link" data-nav="stats">Stats</a>
+                <a href="/skill.md" class="nav-link" target="_blank" rel="noopener">Agents</a>
+                <span class="nav-sep" aria-hidden="true"></span>
+                <button class="theme-toggle" onclick="App.toggleTheme()" title="Toggle theme" aria-label="Toggle theme">◐</button>
+            </nav>
+        </div>
+    </header>
+
+    <main id="app" class="page">
+        <p class="loading-initial" aria-busy="true">Loading advisories...</p>
+    </main>
+
+    <footer class="colophon">
+        <div class="colophon-inner">
+            <div class="colophon-col">
+                <span class="colophon-label">Source</span>
+                <a href="https://www.zerodayinitiative.com/advisories/" target="_blank" rel="noopener">zerodayinitiative.com</a>
+            </div>
+            <div class="colophon-col">
+                <span class="colophon-label">Data</span>
+                <a href="/data/index.json">index.json</a>
+                <a href="/data/stats.json">stats.json</a>
+            </div>
+            <div class="colophon-col">
+                <span class="colophon-label">Agents</span>
+                <a href="/skill.md">skill.md</a>
+                <a href="/schema.json">schema.json</a>
+                <a href="/llms.txt">llms.txt</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/vendor/markdown-it.min.js"></script>
+    <script src="js/vendor/chart.umd.min.js"></script>
+    <script src="js/components.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

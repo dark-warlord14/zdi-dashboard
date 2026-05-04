@@ -1,0 +1,27 @@
+{
+  "additional_details": "Tukaani has issued an update to correct this vulnerability. More details can be found at: https://www.mail-archive.com/xz-devel@tukaani.org/msg00551.html",
+  "advisory_date": "2022-04-12",
+  "affected_products": [
+    "XZ Utils"
+  ],
+  "affected_vendors": [
+    "Tukaani"
+  ],
+  "credit": "cleemy desu wayo",
+  "cve": "CVE-2022-1271",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-1271",
+  "cvss": 7.0,
+  "cvss_vector": "AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2022-03-23 - Vulnerability reported to vendor",
+    "2022-04-12 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-619 ZDI-CAN-16587 Tukaani XZ Utils xzgrep Argument Injection Remote Code Execution Vulnerability 2022-04-12 CVE-2022-1271 https://www.cve.org/CVERecord?id=CVE-2022-1271 7.0 AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H ['Tukaani'] ['XZ Utils'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Tukaani XZ Utils. Interaction with this script is required to exploit this vulnerability but attack vectors may vary depending on the implementation. The specific flaw exists within the handling of special characters. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system command. An attacker can leverage this vulnerability to execute code on the system. Tukaani has issued an update to correct this vulnerability. More details can be found at: https://www.mail-archive.com/xz-devel@tukaani.org/msg00551.html ['2022-03-23 - Vulnerability reported to vendor', '2022-04-12 - Coordinated public release of advisory'] cleemy desu wayo https://www.zerodayinitiative.com/advisories/ZDI-22-619/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-619/",
+  "title": "Tukaani XZ Utils xzgrep Argument Injection Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Tukaani XZ Utils. Interaction with this script is required to exploit this vulnerability but attack vectors may vary depending on the implementation. The specific flaw exists within the handling of special characters. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system command. An attacker can leverage this vulnerability to execute code on the system.",
+  "zdi_can": "ZDI-CAN-16587",
+  "zdi_id": "ZDI-22-619"
+}

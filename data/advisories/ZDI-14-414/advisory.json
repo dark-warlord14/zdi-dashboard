@@ -1,0 +1,27 @@
+{
+  "additional_details": "SAP released Security Note 2057277 ( http://scn.sap.com/docs/DOC-8218 ) to address this issue.",
+  "advisory_date": "2014-12-09",
+  "affected_products": [
+    "SQL Anywhere"
+  ],
+  "affected_vendors": [
+    "SAP"
+  ],
+  "credit": "John Leitch",
+  "cve": "CVE-2014-9264",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-9264",
+  "cvss": 8.5,
+  "cvss_vector": "AV:U/AC:M/Au:U/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2014-04-06 - Vulnerability reported to vendor",
+    "2014-12-09 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-14-414 ZDI-CAN-2351 SAP SQL Anywhere .NET Data Provider REPLICATE Function Heap Overflow Code Execution Vulnerability 2014-12-09 CVE-2014-9264 https://www.cve.org/CVERecord?id=CVE-2014-9264 8.5 AV:U/AC:M/Au:U/C:P/I:P/A:P ['SAP'] ['SQL Anywhere'] This allows attackers to execute arbitrary code on applications which pass user provided data to the vulnerable API in SAP SQL Anywhere. The specific flaw exists within the handling of the REPLICATE function. If an application allows untrusted input to be used as the length of a REPLICATE function in a query, even if the input is correctly filtered against SQL injection, an attacker could take advantage of an arithmetic truncation error to overflow a heap buffer and execute arbitrary code in the context of the application. SAP released Security Note 2057277 ( http://scn.sap.com/docs/DOC-8218 ) to address this issue. ['2014-04-06 - Vulnerability reported to vendor', '2014-12-09 - Coordinated public release of advisory'] John Leitch https://www.zerodayinitiative.com/advisories/ZDI-14-414/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-14-414/",
+  "title": "SAP SQL Anywhere .NET Data Provider REPLICATE Function Heap Overflow Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This allows attackers to execute arbitrary code on applications which pass user provided data to the vulnerable API in SAP SQL Anywhere. The specific flaw exists within the handling of the REPLICATE function. If an application allows untrusted input to be used as the length of a REPLICATE function in a query, even if the input is correctly filtered against SQL injection, an attacker could take advantage of an arithmetic truncation error to overflow a heap buffer and execute arbitrary code in the context of the application.",
+  "zdi_can": "ZDI-CAN-2351",
+  "zdi_id": "ZDI-14-414"
+}

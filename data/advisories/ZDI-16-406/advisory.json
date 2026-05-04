@@ -1,0 +1,27 @@
+{
+  "additional_details": "Novell has issued an update to correct this vulnerability. More details can be found at: https://www.netiq.com/support/kb/doc.php?id=7017803",
+  "advisory_date": "2016-07-07",
+  "affected_products": [
+    "NetIQ Sentinel"
+  ],
+  "affected_vendors": [
+    "Novell"
+  ],
+  "credit": "rgod",
+  "cve": "CVE-2016-1605",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-1605",
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:L/Au:S/C:C/I:N/A:N",
+  "disclosure_timeline": [
+    "2016-05-09 - Vulnerability reported to vendor",
+    "2016-07-07 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-16-406 ZDI-CAN-3717 Novell NetIQ Sentinel Server ReportViewServlet fileName Directory Traversal Information Disclosure Vulnerability 2016-07-07 CVE-2016-1605 https://www.cve.org/CVERecord?id=CVE-2016-1605 6.8 AV:N/AC:L/Au:S/C:C/I:N/A:N ['Novell'] ['NetIQ Sentinel'] This vulnerability allows remote attackers to disclose arbitrary file contents on vulnerable installations of Novell NetIQ Sentinel Server. Authentication is required to exploit this vulnerability but it can be bypassed using a separate flaw within the LogonFormController. The specific flaw exists within the ReportViewServlet servlet. When fileType is specified as \"PREVIEW\", the fileName parameter is vulnerable to directory traversal. An attacker could leverage this vulnerability to read the content of arbitrary files from the system. Novell has issued an update to correct this vulnerability. More details can be found at: https://www.netiq.com/support/kb/doc.php?id=7017803 ['2016-05-09 - Vulnerability reported to vendor', '2016-07-07 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-16-406/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-406/",
+  "title": "Novell NetIQ Sentinel Server ReportViewServlet fileName Directory Traversal Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose arbitrary file contents on vulnerable installations of Novell NetIQ Sentinel Server. Authentication is required to exploit this vulnerability but it can be bypassed using a separate flaw within the LogonFormController. The specific flaw exists within the ReportViewServlet servlet. When fileType is specified as \"PREVIEW\", the fileName parameter is vulnerable to directory traversal. An attacker could leverage this vulnerability to read the content of arbitrary files from the system.",
+  "zdi_can": "ZDI-CAN-3717",
+  "zdi_id": "ZDI-16-406"
+}

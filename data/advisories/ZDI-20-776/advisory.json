@@ -1,0 +1,27 @@
+{
+  "additional_details": "ICONICS has issued an update to correct this vulnerability. More details can be found at: https://www.us-cert.gov/ics/advisories/icsa-20-170-03",
+  "advisory_date": "2020-06-30",
+  "affected_products": [
+    "Genesis64"
+  ],
+  "affected_vendors": [
+    "ICONICS"
+  ],
+  "credit": "Yehuda Anikster of Claroty Research",
+  "cve": "CVE-2020-12007",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2020-12007",
+  "cvss": 5.3,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+  "disclosure_timeline": [
+    "2020-01-30 - Vulnerability reported to vendor",
+    "2020-06-30 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-20-776 ZDI-CAN-10267 (Pwn2Own) ICONICS Genesis64 fwxserver Deserialization Denial-Of-Service Vulnerability 2020-06-30 CVE-2020-12007 https://www.cve.org/CVERecord?id=CVE-2020-12007 5.3 AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L ['ICONICS'] ['Genesis64'] This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of ICONICS Genesis64. Authentication is not required to exploit this vulnerability. The specific flaw exists with the handling of serialized objects. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to create a denial-of-service condition on the system. ICONICS has issued an update to correct this vulnerability. More details can be found at: https://www.us-cert.gov/ics/advisories/icsa-20-170-03 ['2020-01-30 - Vulnerability reported to vendor', '2020-06-30 - Coordinated public release of advisory'] Yehuda Anikster of Claroty Research https://www.zerodayinitiative.com/advisories/ZDI-20-776/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-20-776/",
+  "title": "(Pwn2Own) ICONICS Genesis64 fwxserver Deserialization Denial-Of-Service Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of ICONICS Genesis64. Authentication is not required to exploit this vulnerability. The specific flaw exists with the handling of serialized objects. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to create a denial-of-service condition on the system.",
+  "zdi_can": "ZDI-CAN-10267",
+  "zdi_id": "ZDI-20-776"
+}

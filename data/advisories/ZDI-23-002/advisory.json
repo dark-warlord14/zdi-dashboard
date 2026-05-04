@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-21531",
+  "advisory_date": "2023-01-18",
+  "affected_products": [
+    "Azure"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "David Fiser (Trend Micro - Project Nebula)",
+  "cve": "CVE-2023-21531",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-21531",
+  "cvss": 5.3,
+  "cvss_vector": "AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:N/A:N",
+  "disclosure_timeline": [
+    "2022-09-20 - Vulnerability reported to vendor",
+    "2023-01-18 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-002 ZDI-CAN-18519 Microsoft Azure Service Fabric WAagent Exposure of Resource to Wrong Sphere Information Disclosure Vulnerability 2023-01-18 CVE-2023-21531 https://www.cve.org/CVERecord?id=CVE-2023-21531 5.3 AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:N/A:N ['Microsoft'] ['Azure'] This vulnerability allows local attackers to disclose sensitive information on Microsoft Azure. An attacker must first obtain the ability to execute high-privileged code within a container on the target system in order to exploit this vulnerability. The specific flaw exists within the WAagent daemon. The issue results from insufficient verification of the origin of requests. An attacker can leverage this vulnerability to disclose stored credentials, leading to further compromise. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-21531 ['2022-09-20 - Vulnerability reported to vendor', '2023-01-18 - Coordinated public release of advisory'] David Fiser (Trend Micro - Project Nebula) https://www.zerodayinitiative.com/advisories/ZDI-23-002/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-002/",
+  "title": "Microsoft Azure Service Fabric WAagent Exposure of Resource to Wrong Sphere Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to disclose sensitive information on Microsoft Azure. An attacker must first obtain the ability to execute high-privileged code within a container on the target system in order to exploit this vulnerability. The specific flaw exists within the WAagent daemon. The issue results from insufficient verification of the origin of requests. An attacker can leverage this vulnerability to disclose stored credentials, leading to further compromise.",
+  "zdi_can": "ZDI-CAN-18519",
+  "zdi_id": "ZDI-23-002"
+}

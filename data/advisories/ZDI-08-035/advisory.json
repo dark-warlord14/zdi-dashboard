@@ -1,0 +1,27 @@
+{
+  "additional_details": "Computer Associates has issued an update to correct this vulnerability. More details can be found at: https://support.ca.com/irj/portal/anonymous/phpsupcontent?contentID=177784",
+  "advisory_date": "2008-06-04",
+  "affected_products": [
+    "eTrust Secure Content Manager"
+  ],
+  "affected_vendors": [
+    "Computer Associates"
+  ],
+  "credit": "Sebastian Apelt (webmaster@buzzworld.org)",
+  "cve": "CVE-2008-2541",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2008-2541",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2008-05-23 - Vulnerability reported to vendor",
+    "2008-06-04 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-08-035 ZDI-CAN-340 CA ETrust Secure Content Manager Gateway FTP PASV Stack Overflow Vulnerability 2008-06-04 CVE-2008-2541 https://www.cve.org/CVERecord?id=CVE-2008-2541 ['Computer Associates'] ['eTrust Secure Content Manager'] This vulnerability allows attackers to execute arbitrary code on vulnerable installations of Computer Associates eTrust Secure Content Manager. Authentication is not required to exploit this vulnerability. The specific flaw exists in the HTTP Gateway service icihttp.exe running on port 8080. By specifying a overly long response to a PASV command a stack buffer can be overflowed. Successful exploitation can lead to complete system compromise under the SYSTEM context. Computer Associates has issued an update to correct this vulnerability. More details can be found at: https://support.ca.com/irj/portal/anonymous/phpsupcontent?contentID=177784 ['2008-05-23 - Vulnerability reported to vendor', '2008-06-04 - Coordinated public release of advisory'] Sebastian Apelt (webmaster@buzzworld.org) https://www.zerodayinitiative.com/advisories/ZDI-08-035/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-08-035/",
+  "title": "CA ETrust Secure Content Manager Gateway FTP PASV Stack Overflow Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows attackers to execute arbitrary code on vulnerable installations of Computer Associates eTrust Secure Content Manager. Authentication is not required to exploit this vulnerability. The specific flaw exists in the HTTP Gateway service icihttp.exe running on port 8080. By specifying a overly long response to a PASV command a stack buffer can be overflowed. Successful exploitation can lead to complete system compromise under the SYSTEM context.",
+  "zdi_can": "ZDI-CAN-340",
+  "zdi_id": "ZDI-08-035"
+}

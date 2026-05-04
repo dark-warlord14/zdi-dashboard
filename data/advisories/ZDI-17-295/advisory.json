@@ -1,0 +1,27 @@
+{
+  "additional_details": "ThinPrint has issued an update to correct this vulnerability. More details can be found at: https://www.vmware.com/security/advisories/VMSA-2017-0008.html",
+  "advisory_date": "2017-04-19",
+  "affected_products": [
+    "ThinPrint"
+  ],
+  "affected_vendors": [
+    "ThinPrint"
+  ],
+  "credit": "Giwan Go of STEALIEN",
+  "cve": "CVE-2017-4911",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-4911",
+  "cvss": 6.2,
+  "cvss_vector": "AV:L/AC:H/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2017-01-03 - Vulnerability reported to vendor",
+    "2017-04-19 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-17-295 ZDI-CAN-4388 ThinPrint TPView JPEG2000 Parsing Out-Of-Bounds Write Privilege Escalation Vulnerability 2017-04-19 CVE-2017-4911 https://www.cve.org/CVERecord?id=CVE-2017-4911 6.2 AV:L/AC:H/Au:N/C:C/I:C/A:C ['ThinPrint'] ['ThinPrint'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of ThinPrint. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within JPEG2000 parsing. The process does not properly validate user-supplied data which can result in a write past the end of an allocated object. An attacker can leverage this vulnerability to execute code under the context of the host OS. ThinPrint has issued an update to correct this vulnerability. More details can be found at: https://www.vmware.com/security/advisories/VMSA-2017-0008.html ['2017-01-03 - Vulnerability reported to vendor', '2017-04-19 - Coordinated public release of advisory'] Giwan Go of STEALIEN https://www.zerodayinitiative.com/advisories/ZDI-17-295/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-295/",
+  "title": "ThinPrint TPView JPEG2000 Parsing Out-Of-Bounds Write Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of ThinPrint. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within JPEG2000 parsing. The process does not properly validate user-supplied data which can result in a write past the end of an allocated object. An attacker can leverage this vulnerability to execute code under the context of the host OS.",
+  "zdi_can": "ZDI-CAN-4388",
+  "zdi_id": "ZDI-17-295"
+}

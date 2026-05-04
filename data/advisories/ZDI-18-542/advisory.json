@@ -1,0 +1,28 @@
+{
+  "additional_details": "GE has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-18-151-02",
+  "advisory_date": "2018-06-06",
+  "affected_products": [
+    "MDS PulseNET"
+  ],
+  "affected_vendors": [
+    "GE"
+  ],
+  "credit": "rgod",
+  "cve": "CVE-2018-10613",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2018-10613",
+  "cvss": 5.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+  "disclosure_timeline": [
+    "2018-01-05 - Vulnerability reported to vendor",
+    "2018-06-06 - Coordinated public release of advisory",
+    "2018-06-06 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-542 ZDI-CAN-5518 GE MDS PulseNET XmlAdapterServlet XML External Entity Processing Information Disclosure Vulnerability 2018-06-06 CVE-2018-10613 https://www.cve.org/CVERecord?id=CVE-2018-10613 5.0 AV:N/AC:L/Au:N/C:P/I:N/A:N ['GE'] ['MDS PulseNET'] This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of GE MDS PulseNET. Authentication is not required to exploit this vulnerability. The specific flaw exists within the XmlAdapterServlet servlet. Due to the improper restriction of XML External Entity (XXE) references, a specially crafted document specifying a URI causes the XML parser to access the URI and embed the contents back into the XML document for further processing. An attacker can leverage this vulnerability to disclose information under the context of the service. GE has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-18-151-02 ['2018-01-05 - Vulnerability reported to vendor', '2018-06-06 - Coordinated public release of advisory', '2018-06-06 - Advisory Updated'] rgod https://www.zerodayinitiative.com/advisories/ZDI-18-542/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-542/",
+  "title": "GE MDS PulseNET XmlAdapterServlet XML External Entity Processing Information Disclosure Vulnerability",
+  "updated_date": "2018-06-06",
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of GE MDS PulseNET. Authentication is not required to exploit this vulnerability. The specific flaw exists within the XmlAdapterServlet servlet. Due to the improper restriction of XML External Entity (XXE) references, a specially crafted document specifying a URI causes the XML parser to access the URI and embed the contents back into the XML document for further processing. An attacker can leverage this vulnerability to disclose information under the context of the service.",
+  "zdi_can": "ZDI-CAN-5518",
+  "zdi_id": "ZDI-18-542"
+}

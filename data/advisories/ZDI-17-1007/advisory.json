@@ -1,0 +1,27 @@
+{
+  "additional_details": "QNAP has issued an update to correct this vulnerability. More details can be found at: https://www.qnap.com/en/security-advisory/nas-201712-15",
+  "advisory_date": "2017-12-20",
+  "affected_products": [
+    "QTS"
+  ],
+  "affected_vendors": [
+    "QNAP"
+  ],
+  "credit": "@nervoir",
+  "cve": "CVE-2017-17033",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-17033",
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2017-10-09 - Vulnerability reported to vendor",
+    "2017-12-20 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-17-1007 ZDI-CAN-5279 QNAP QTS Web sysinfoReq Stack-based Buffer Overflow Remote Code Execution Vulnerability 2017-12-20 CVE-2017-17033 https://www.cve.org/CVERecord?id=CVE-2017-17033 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['QNAP'] ['QTS'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of QNAP QTS. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of the lang parameter provided to the sysinfoReq.cgi endpoint. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this vulnerability to execute code under the context of root. QNAP has issued an update to correct this vulnerability. More details can be found at: https://www.qnap.com/en/security-advisory/nas-201712-15 ['2017-10-09 - Vulnerability reported to vendor', '2017-12-20 - Coordinated public release of advisory'] @nervoir https://www.zerodayinitiative.com/advisories/ZDI-17-1007/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-1007/",
+  "title": "QNAP QTS Web sysinfoReq Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of QNAP QTS. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of the lang parameter provided to the sysinfoReq.cgi endpoint. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this vulnerability to execute code under the context of root.",
+  "zdi_can": "ZDI-CAN-5279",
+  "zdi_id": "ZDI-17-1007"
+}

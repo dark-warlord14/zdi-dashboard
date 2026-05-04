@@ -1,0 +1,27 @@
+{
+  "additional_details": "Advantech has issued an update to correct this vulnerability. More details can be found at: https://www.us-cert.gov/ics/advisories/icsa-20-128-36",
+  "advisory_date": "2020-05-08",
+  "affected_products": [
+    "WebAccess/SCADA"
+  ],
+  "affected_vendors": [
+    "Advantech"
+  ],
+  "credit": "Z0mb1E",
+  "cve": "CVE-2020-12006",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2020-12006",
+  "cvss": 9.8,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2020-01-15 - Vulnerability reported to vendor",
+    "2020-05-08 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-20-605 ZDI-CAN-9901 Advantech WebAccess/SCADA DrawSrv IOCTL 0x00002711 Command Injection Remote Code Execution Vulnerability 2020-05-08 CVE-2020-12006 https://www.cve.org/CVERecord?id=CVE-2020-12006 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['Advantech'] ['WebAccess/SCADA'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Advantech WebAccess/SCADA. Authentication is not required to exploit this vulnerability. The specific flaw exists within the implementation of IOCTL 0x00002711 in DrawSrv.dll. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of Administrator. Advantech has issued an update to correct this vulnerability. More details can be found at: https://www.us-cert.gov/ics/advisories/icsa-20-128-36 ['2020-01-15 - Vulnerability reported to vendor', '2020-05-08 - Coordinated public release of advisory'] Z0mb1E https://www.zerodayinitiative.com/advisories/ZDI-20-605/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-20-605/",
+  "title": "Advantech WebAccess/SCADA DrawSrv IOCTL 0x00002711 Command Injection Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Advantech WebAccess/SCADA. Authentication is not required to exploit this vulnerability. The specific flaw exists within the implementation of IOCTL 0x00002711 in DrawSrv.dll. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of Administrator.",
+  "zdi_can": "ZDI-CAN-9901",
+  "zdi_id": "ZDI-20-605"
+}

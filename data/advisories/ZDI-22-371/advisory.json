@@ -1,0 +1,27 @@
+{
+  "additional_details": "Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://helpcenter.trendmicro.com/en-us/article/tmka-10937",
+  "advisory_date": "2022-02-16",
+  "affected_products": [
+    "Antivirus for Mac"
+  ],
+  "affected_vendors": [
+    "Trend Micro"
+  ],
+  "credit": "Cees Elzinga",
+  "cve": "CVE-2022-24671",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-24671",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2021-10-15 - Vulnerability reported to vendor",
+    "2022-02-16 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-371 ZDI-CAN-14998 Trend Micro Antivirus for Mac Link Following Privilege Escalation Vulnerability 2022-02-16 CVE-2022-24671 https://www.cve.org/CVERecord?id=CVE-2022-24671 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Trend Micro'] ['Antivirus for Mac'] This vulnerability allows local attackers to escalate privileges on affected installations of Trend Micro Antivirus for Mac. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the program_after_update script. By creating a symbolic link, an attacker can abuse the product to loosen permissions on a local file. An attacker can leverage this vulnerability to escalate privileges and execute code in the context of root. Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://helpcenter.trendmicro.com/en-us/article/tmka-10937 ['2021-10-15 - Vulnerability reported to vendor', '2022-02-16 - Coordinated public release of advisory'] Cees Elzinga https://www.zerodayinitiative.com/advisories/ZDI-22-371/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-371/",
+  "title": "Trend Micro Antivirus for Mac Link Following Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Trend Micro Antivirus for Mac. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the program_after_update script. By creating a symbolic link, an attacker can abuse the product to loosen permissions on a local file. An attacker can leverage this vulnerability to escalate privileges and execute code in the context of root.",
+  "zdi_can": "ZDI-CAN-14998",
+  "zdi_id": "ZDI-22-371"
+}

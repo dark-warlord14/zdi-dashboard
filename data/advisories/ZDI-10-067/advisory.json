@@ -1,0 +1,27 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT4104",
+  "advisory_date": "2010-04-06",
+  "affected_products": [
+    "Quicktime"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "Damian Put",
+  "cve": "CVE-2010-0529",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2010-0529",
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2009-11-06 - Vulnerability reported to vendor",
+    "2010-04-06 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-10-067 ZDI-CAN-593 Apple QuickTime Pict BkPixPat Remote Code Execution Vulnerability 2010-04-06 CVE-2010-0529 https://www.cve.org/CVERecord?id=CVE-2010-0529 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Apple'] ['Quicktime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple QuickTime. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the primary QuickTime.qts library when parsing the BkPixPat opcode (0x12) within a PICT file. The application will use 2 fields within the file in a multiply which is then passed as an argument to an allocation. As both operands in the multiply are user-controllable, specific values can cause an under allocation which will later result in a heap overflow. Successful exploitation can lead to code execution under the context of the current user. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT4104 ['2009-11-06 - Vulnerability reported to vendor', '2010-04-06 - Coordinated public release of advisory'] Damian Put https://www.zerodayinitiative.com/advisories/ZDI-10-067/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-067/",
+  "title": "Apple QuickTime Pict BkPixPat Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple QuickTime. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the primary QuickTime.qts library when parsing the BkPixPat opcode (0x12) within a PICT file. The application will use 2 fields within the file in a multiply which is then passed as an argument to an allocation. As both operands in the multiply are user-controllable, specific values can cause an under allocation which will later result in a heap overflow. Successful exploitation can lead to code execution under the context of the current user.",
+  "zdi_can": "ZDI-CAN-593",
+  "zdi_id": "ZDI-10-067"
+}

@@ -1,0 +1,27 @@
+{
+  "additional_details": "Fixed with update id: 73456",
+  "advisory_date": "2017-12-12",
+  "affected_products": [
+    "Internet Security"
+  ],
+  "affected_vendors": [
+    "Bitdefender"
+  ],
+  "credit": "Pagefault",
+  "cve": "CVE-2017-17409",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-17409",
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2017-10-12 - Vulnerability reported to vendor",
+    "2017-12-12 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-17-943 ZDI-CAN-5102 Bitdefender Internet Security Emulator 0x10A Integer Overflow Remote Code Execution Vulnerability 2017-12-12 CVE-2017-17409 https://www.cve.org/CVERecord?id=CVE-2017-17409 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Bitdefender'] ['Internet Security'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Bitdefender Internet Security. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within emulator 0x10A in cevakrnl.xmd. The issue results from the lack of proper validation of user-supplied data, which can result in an integer overflow before writing to memory. An attacker can leverage this vulnerability to execute code under the context of SYSTEM. Fixed with update id: 73456 ['2017-10-12 - Vulnerability reported to vendor', '2017-12-12 - Coordinated public release of advisory'] Pagefault https://www.zerodayinitiative.com/advisories/ZDI-17-943/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-943/",
+  "title": "Bitdefender Internet Security Emulator 0x10A Integer Overflow Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Bitdefender Internet Security. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within emulator 0x10A in cevakrnl.xmd. The issue results from the lack of proper validation of user-supplied data, which can result in an integer overflow before writing to memory. An attacker can leverage this vulnerability to execute code under the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-5102",
+  "zdi_id": "ZDI-17-943"
+}

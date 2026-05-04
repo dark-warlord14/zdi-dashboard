@@ -1,0 +1,28 @@
+{
+  "additional_details": "04/30/25 \u2013 ZDI reported the vulnerability to the vendor\u2019s security team 07/30/25 \u2013 ZDI asked for updates 08/12/25 - ZDI asked for updates 08/26/25 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product.",
+  "advisory_date": "2025-10-08",
+  "affected_products": [
+    "Repairit"
+  ],
+  "affected_vendors": [
+    "Wondershare"
+  ],
+  "credit": "Alfredo Oliveira and David Fiser of Trend Research",
+  "cve": "CVE-2025-10643",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-10643",
+  "cvss": 9.1,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+  "disclosure_timeline": [
+    "2025-04-30 - Vulnerability reported to vendor",
+    "2025-10-08 - Coordinated public release of advisory",
+    "2025-10-08 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-895 ZDI-CAN-26902 (0Day) Wondershare Repairit Incorrect Permission Assignment Authentication Bypass Vulnerability 2025-10-08 CVE-2025-10643 https://www.cve.org/CVERecord?id=CVE-2025-10643 9.1 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N ['Wondershare'] ['Repairit'] This vulnerability allows remote attackers to bypass authentication on affected installations of Wondershare Repairit. Authentication is not required to exploit this vulnerability. The specific flaw exists within the permissions granted to a storage account token. An attacker can leverage this vulnerability to bypass authentication on the system. 04/30/25 \u2013 ZDI reported the vulnerability to the vendor\u2019s security team 07/30/25 \u2013 ZDI asked for updates 08/12/25 - ZDI asked for updates 08/26/25 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product. ['2025-04-30 - Vulnerability reported to vendor', '2025-10-08 - Coordinated public release of advisory', '2025-10-08 - Advisory Updated'] Alfredo Oliveira and David Fiser of Trend Research https://www.zerodayinitiative.com/advisories/ZDI-25-895/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-895/",
+  "title": "(0Day) Wondershare Repairit Incorrect Permission Assignment Authentication Bypass Vulnerability",
+  "updated_date": "2025-10-08",
+  "vulnerability_details": "This vulnerability allows remote attackers to bypass authentication on affected installations of Wondershare Repairit. Authentication is not required to exploit this vulnerability. The specific flaw exists within the permissions granted to a storage account token. An attacker can leverage this vulnerability to bypass authentication on the system.",
+  "zdi_can": "ZDI-CAN-26902",
+  "zdi_id": "ZDI-25-895"
+}

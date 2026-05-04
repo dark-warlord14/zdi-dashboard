@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/bulletin/MS09-019.mspx",
+  "advisory_date": "2009-06-10",
+  "affected_products": [
+    "Internet Explorer 7"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "ling&wushi of team509",
+  "cve": "CVE-2009-1531",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2009-1531",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2009-01-26 - Vulnerability reported to vendor",
+    "2009-06-10 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-09-039 ZDI-CAN-429 Microsoft Internet Explorer onreadystatechange Memory Corruption Vulnerability 2009-06-10 CVE-2009-1531 https://www.cve.org/CVERecord?id=CVE-2009-1531 ['Microsoft'] ['Internet Explorer 7'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page. The specific flaw exists when repeated calls are made to getElementsByTagName() and the reordering of the elements in the document causes an object to be allocated. The use of the event \"onreadystatechange\" during this operation improperly frees the previously allocated resource. The combination, with repeated page rendering, leads to the exploitable memory corruption. Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/bulletin/MS09-019.mspx ['2009-01-26 - Vulnerability reported to vendor', '2009-06-10 - Coordinated public release of advisory'] ling&wushi of team509 https://www.zerodayinitiative.com/advisories/ZDI-09-039/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-09-039/",
+  "title": "Microsoft Internet Explorer onreadystatechange Memory Corruption Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page. The specific flaw exists when repeated calls are made to getElementsByTagName() and the reordering of the elements in the document causes an object to be allocated. The use of the event \"onreadystatechange\" during this operation improperly frees the previously allocated resource. The combination, with repeated page rendering, leads to the exploitable memory corruption.",
+  "zdi_can": "ZDI-CAN-429",
+  "zdi_id": "ZDI-09-039"
+}

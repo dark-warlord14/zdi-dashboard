@@ -1,0 +1,27 @@
+{
+  "additional_details": "ManageEngine has issued an update to correct this vulnerability. More details can be found at: https://www.manageengine.com/products/service-desk/CVE-2022-40771.html",
+  "advisory_date": "2022-11-21",
+  "affected_products": [
+    "ServiceDesk Plus"
+  ],
+  "affected_vendors": [
+    "ManageEngine"
+  ],
+  "credit": "Piotr Bazydlo (@chudypb) of Trend Micro Zero Day Initiative",
+  "cve": "CVE-2022-40771",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-40771",
+  "cvss": 5.5,
+  "cvss_vector": "AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:L",
+  "disclosure_timeline": [
+    "2022-08-31 - Vulnerability reported to vendor",
+    "2022-11-21 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-1612 ZDI-CAN-18280 ManageEngine ServiceDesk Plus getAsDoc XML External Entity Processing Information Disclosure Vulnerability 2022-11-21 CVE-2022-40771 https://www.cve.org/CVERecord?id=CVE-2022-40771 5.5 AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:L ['ManageEngine'] ['ServiceDesk Plus'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of ManageEngine ServiceDesk Plus. Authentication is required to exploit this vulnerability. The specific flaw exists within the getAsDoc function. Due to the improper restriction of XML External Entity (XXE) references, a crafted document specifying a URI causes the XML parser to access the URI and embed the contents back into the XML document for further processing. An attacker can leverage this vulnerability to disclose information in the context of SYSTEM or to create a denial-of-service condition on the system. ManageEngine has issued an update to correct this vulnerability. More details can be found at: https://www.manageengine.com/products/service-desk/CVE-2022-40771.html ['2022-08-31 - Vulnerability reported to vendor', '2022-11-21 - Coordinated public release of advisory'] Piotr Bazydlo (@chudypb) of Trend Micro Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-22-1612/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-1612/",
+  "title": "ManageEngine ServiceDesk Plus getAsDoc XML External Entity Processing Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of ManageEngine ServiceDesk Plus. Authentication is required to exploit this vulnerability. The specific flaw exists within the getAsDoc function. Due to the improper restriction of XML External Entity (XXE) references, a crafted document specifying a URI causes the XML parser to access the URI and embed the contents back into the XML document for further processing. An attacker can leverage this vulnerability to disclose information in the context of SYSTEM or to create a denial-of-service condition on the system.",
+  "zdi_can": "ZDI-CAN-18280",
+  "zdi_id": "ZDI-22-1612"
+}

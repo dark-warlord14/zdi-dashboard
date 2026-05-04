@@ -1,0 +1,28 @@
+{
+  "additional_details": "04/25/24 \u2013 ZDI reported the vulnerability to the vendor. 04/25/24 \u2013 The vendor acknowledged the report. 05/15/24 \u2013 The vendor confirmed the reported behavior. 07/26/24 \u2013 The vendor states they are working on a response for this case. 08/16/24 \u2013 The vendor assessed the case as not meeting the bar servicing. 07/30/25 \u2013 ZDI Informed the vendor that we plan to publish the case as a zero-day advisory on 08/06/25 -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product.",
+  "advisory_date": "2025-08-06",
+  "affected_products": [
+    "Azure"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Richard Y Lin, Salim S. I. (CTOne/TrendMicro)",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 5.3,
+  "cvss_vector": "AV:A/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+  "disclosure_timeline": [
+    "2024-04-25 - Vulnerability reported to vendor",
+    "2025-08-06 - Coordinated public release of advisory",
+    "2025-08-06 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-816 ZDI-CAN-23960 (0Day) Microsoft Azure AP5GC gNB-ID Use of Multiple Resources with Duplicate Identifier Denial-Of-Service Vulnerability 2025-08-06 5.3 AV:A/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H ['Microsoft'] ['Azure'] This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of Microsoft Azure. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of the gNB-ID provided to the AP5GC endpoint. The product expects a unique id for each resource but does not enforce it correctly. An attacker can leverage this vulnerability to create a denial-of-service condition on connected clients. 04/25/24 \u2013 ZDI reported the vulnerability to the vendor. 04/25/24 \u2013 The vendor acknowledged the report. 05/15/24 \u2013 The vendor confirmed the reported behavior. 07/26/24 \u2013 The vendor states they are working on a response for this case. 08/16/24 \u2013 The vendor assessed the case as not meeting the bar servicing. 07/30/25 \u2013 ZDI Informed the vendor that we plan to publish the case as a zero-day advisory on 08/06/25 -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product. ['2024-04-25 - Vulnerability reported to vendor', '2025-08-06 - Coordinated public release of advisory', '2025-08-06 - Advisory Updated'] Richard Y Lin, Salim S. I. (CTOne/TrendMicro) https://www.zerodayinitiative.com/advisories/ZDI-25-816/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-816/",
+  "title": "(0Day) Microsoft Azure AP5GC gNB-ID Use of Multiple Resources with Duplicate Identifier Denial-Of-Service Vulnerability",
+  "updated_date": "2025-08-06",
+  "vulnerability_details": "This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of Microsoft Azure. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of the gNB-ID provided to the AP5GC endpoint. The product expects a unique id for each resource but does not enforce it correctly. An attacker can leverage this vulnerability to create a denial-of-service condition on connected clients.",
+  "zdi_can": "ZDI-CAN-23960",
+  "zdi_id": "ZDI-25-816"
+}

@@ -1,0 +1,27 @@
+{
+  "additional_details": "Hewlett-Packard has issued an update to correct this vulnerability. More details can be found at: https://h20566.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c03054052",
+  "advisory_date": "2012-01-05",
+  "affected_products": [
+    "OpenView Network Node Manager"
+  ],
+  "affected_vendors": [
+    "Hewlett-Packard"
+  ],
+  "credit": "Aniway (Aniway.Anyway@gmail.com)",
+  "cve": "CVE-2011-3166",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-3166",
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2011-05-12 - Vulnerability reported to vendor",
+    "2012-01-05 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-12-003 ZDI-CAN-1209 HP OpenView NNM webappmon.exe parameter Remote Code Execution Vulnerability 2012-01-05 CVE-2011-3166 https://www.cve.org/CVERecord?id=CVE-2011-3166 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Hewlett-Packard'] ['OpenView Network Node Manager'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of OpenView Network Node Manager. Authentication is not required to exploit this vulnerability. The specific flaw exists within webappmon.exe CGI program. When processing crafted parameters, there exists an insufficient boundary check before supplying a format string with the values, causing a stack overflow. This can lead to memory corruption which can be leveraged to execute arbitrary code under the context of the target service. Hewlett-Packard has issued an update to correct this vulnerability. More details can be found at: https://h20566.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c03054052 ['2011-05-12 - Vulnerability reported to vendor', '2012-01-05 - Coordinated public release of advisory'] Aniway (Aniway.Anyway@gmail.com) https://www.zerodayinitiative.com/advisories/ZDI-12-003/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-12-003/",
+  "title": "HP OpenView NNM webappmon.exe parameter Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of OpenView Network Node Manager. Authentication is not required to exploit this vulnerability. The specific flaw exists within webappmon.exe CGI program. When processing crafted parameters, there exists an insufficient boundary check before supplying a format string with the values, causing a stack overflow. This can lead to memory corruption which can be leveraged to execute arbitrary code under the context of the target service.",
+  "zdi_can": "ZDI-CAN-1209",
+  "zdi_id": "ZDI-12-003"
+}

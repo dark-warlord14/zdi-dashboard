@@ -1,0 +1,28 @@
+{
+  "additional_details": "Fixed in CXLBL.230.408",
+  "advisory_date": "2025-04-09",
+  "affected_products": [
+    "CX331adwe"
+  ],
+  "affected_vendors": [
+    "Lexmark"
+  ],
+  "credit": "nella17 (@nella17tw), working with DEVCORE Internship Program, and DEVCORE Research Team",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 6.3,
+  "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+  "disclosure_timeline": [
+    "2024-12-12 - Vulnerability reported to vendor",
+    "2025-04-09 - Coordinated public release of advisory",
+    "2025-04-09 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-220 ZDI-CAN-25848 (Pwn2Own) Lexmark CX331adwe basic_auth.cgi PATH_TRANSLATED Directory Traversal Remote Code Execution Vulnerability 2025-04-09 6.3 AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L ['Lexmark'] ['CX331adwe'] This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Lexmark CX331adwe printers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of the PATH_TRANSLATED parameter provided to the basic_auth.cgi endpoint. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute code in the context of the pagemaker user. Fixed in CXLBL.230.408 ['2024-12-12 - Vulnerability reported to vendor', '2025-04-09 - Coordinated public release of advisory', '2025-04-09 - Advisory Updated'] nella17 (@nella17tw), working with DEVCORE Internship Program, and DEVCORE Research Team https://www.zerodayinitiative.com/advisories/ZDI-25-220/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-220/",
+  "title": "(Pwn2Own) Lexmark CX331adwe basic_auth.cgi PATH_TRANSLATED Directory Traversal Remote Code Execution Vulnerability",
+  "updated_date": "2025-04-09",
+  "vulnerability_details": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Lexmark CX331adwe printers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of the PATH_TRANSLATED parameter provided to the basic_auth.cgi endpoint. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute code in the context of the pagemaker user.",
+  "zdi_can": "ZDI-CAN-25848",
+  "zdi_id": "ZDI-25-220"
+}

@@ -1,0 +1,27 @@
+{
+  "additional_details": "Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/solution/1119158",
+  "advisory_date": "2018-01-10",
+  "affected_products": [
+    "Control Manager"
+  ],
+  "affected_vendors": [
+    "Trend Micro"
+  ],
+  "credit": "Steven Seeley (mr_me) of Offensive Security",
+  "cve": "CVE-2018-3601",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2018-3601",
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2017-10-17 - Vulnerability reported to vendor",
+    "2018-01-10 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-113 ZDI-CAN-5233 Trend Micro Control Manager TMCM_MembershipProvider ValidateUser Password Hash Usage Authentication Bypass Vulnerability 2018-01-10 CVE-2018-3601 https://www.cve.org/CVERecord?id=CVE-2018-3601 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Trend Micro'] ['Control Manager'] This vulnerability allows remote attackers to bypass authentication on vulnerable installations of Trend Micro Control Manager. User interaction is not required to exploit this vulnerability. The specific flaw exists within the handling of challenges for authentication. The implementation of the challenge allows an attacker to authenticate to the system if they have possession of the password hash but not the password for a user. An attacker can leverage this vulnerability in conjunction with other vulnerabilities to bypass authentication. Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/solution/1119158 ['2017-10-17 - Vulnerability reported to vendor', '2018-01-10 - Coordinated public release of advisory'] Steven Seeley (mr_me) of Offensive Security https://www.zerodayinitiative.com/advisories/ZDI-18-113/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-113/",
+  "title": "Trend Micro Control Manager TMCM_MembershipProvider ValidateUser Password Hash Usage Authentication Bypass Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to bypass authentication on vulnerable installations of Trend Micro Control Manager. User interaction is not required to exploit this vulnerability. The specific flaw exists within the handling of challenges for authentication. The implementation of the challenge allows an attacker to authenticate to the system if they have possession of the password hash but not the password for a user. An attacker can leverage this vulnerability in conjunction with other vulnerabilities to bypass authentication.",
+  "zdi_can": "ZDI-CAN-5233",
+  "zdi_id": "ZDI-18-113"
+}

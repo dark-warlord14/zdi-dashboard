@@ -1,0 +1,27 @@
+{
+  "additional_details": "Linux - http://download.novell.com/Download?buildid=04oMMaiI9nI~ NetWare/Windows - http://download.novell.com/Download?buildid=aq06Eoy7rf4~ The GroupWise Internet Agent (GWIA) has multiple vulnerabilities in the way that it parses variables within a received VCALENDAR message, which could potentially allow an unauthenticated remote attacker to execute arbitrary code on vulnerable installations of GWIA. Affected versions: GroupWise 8.0x, 8.01x, 8.02. Previous versions of GroupWise are likely also vulnerable but are no longer supported. Customers on earlier versions of GroupWise should, at a minimum, upgrade their GWIAs and associated Domains to version 8.02HP in order to secure their system. These vulnerabilities were discovered and reported by Anonymous working with TippingPoint's Zero Day Initiative ( http://www.zerodayinitiative.com ) ZDI-CAN-954,ZDI-CAN-960, ZDI-CAN-961 Novell bugs 642339, 642345, 642349, CVE numbers pending Related TID: http://www.novell.com/support/search.do?usemicrosite=true&searchString=7007155",
+  "advisory_date": "2010-11-08",
+  "affected_products": [
+    "Groupwise"
+  ],
+  "affected_vendors": [
+    "Novell"
+  ],
+  "credit": "Anonymous",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2010-09-24 - Vulnerability reported to vendor",
+    "2010-11-08 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-10-240 ZDI-CAN-961 Novell GroupWise Internet Agent COMMENT Parsing Remote Code Execution Vulnerability 2010-11-08 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Novell'] ['Groupwise'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Novell GroupWise. Authentication is not required to exploit this vulnerability. The specific flaw exists within the gwwww1.dll module responsible for parsing VCALENDAR data within e-mail messages. When the code encounters a COMMENT variable it allocates up to 0xFFFF bytes for the variable's value. It then proceeds to copy the value into the fixed-length buffer without checking if it will fit. By specifying a large enough string in the e-mail, an attacker can overflow the buffer and execute arbitrary code under the context of the SYSTEM user. Linux - http://download.novell.com/Download?buildid=04oMMaiI9nI~ NetWare/Windows - http://download.novell.com/Download?buildid=aq06Eoy7rf4~ The GroupWise Internet Agent (GWIA) has multiple vulnerabilities in the way that it parses variables within a received VCALENDAR message, which could potentially allow an unauthenticated remote attacker to execute arbitrary code on vulnerable installations of GWIA. Affected versions: GroupWise 8.0x, 8.01x, 8.02. Previous versions of GroupWise are likely also vulnerable but are no longer supported. Customers on earlier versions of GroupWise should, at a minimum, upgrade their GWIAs and associated Domains to version 8.02HP in order to secure their system. These vulnerabilities were discovered and reported by Anonymous working with TippingPoint's Zero Day Initiative ( http://www.zerodayinitiative.com ) ZDI-CAN-954,ZDI-CAN-960, ZDI-CAN-961 Novell bugs 642339, 642345, 642349, CVE numbers pending Related TID: http://www.novell.com/support/search.do?usemicrosite=true&searchString=7007155 ['2010-09-24 - Vulnerability reported to vendor', '2010-11-08 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-10-240/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-240/",
+  "title": "Novell GroupWise Internet Agent COMMENT Parsing Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Novell GroupWise. Authentication is not required to exploit this vulnerability. The specific flaw exists within the gwwww1.dll module responsible for parsing VCALENDAR data within e-mail messages. When the code encounters a COMMENT variable it allocates up to 0xFFFF bytes for the variable's value. It then proceeds to copy the value into the fixed-length buffer without checking if it will fit. By specifying a large enough string in the e-mail, an attacker can overflow the buffer and execute arbitrary code under the context of the SYSTEM user.",
+  "zdi_can": "ZDI-CAN-961",
+  "zdi_id": "ZDI-10-240"
+}

@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-1640",
+  "advisory_date": "2021-04-29",
+  "affected_products": [
+    "Windows"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "JeongOh Kyea (@kkokkokye) of THEORI",
+  "cve": "CVE-2021-1640",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2021-1640",
+  "cvss": 6.1,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:H",
+  "disclosure_timeline": [
+    "2020-12-04 - Vulnerability reported to vendor",
+    "2021-04-29 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-21-493 ZDI-CAN-12511 Microsoft Windows Print Spooler Time-Of-Check Time-Of-Use Denial-of-Service Vulnerability 2021-04-29 CVE-2021-1640 https://www.cve.org/CVERecord?id=CVE-2021-1640 6.1 AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:H ['Microsoft'] ['Windows'] This vulnerability allows local attackers to create a denial-of-service condition on affected installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Print Spooler service. By creating a directory junction, an attacker can abuse the Print Spooler service to delete a file. An attacker can leverage this vulnerability to create a denial-of-service condition on the system. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-1640 ['2020-12-04 - Vulnerability reported to vendor', '2021-04-29 - Coordinated public release of advisory'] JeongOh Kyea (@kkokkokye) of THEORI https://www.zerodayinitiative.com/advisories/ZDI-21-493/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-21-493/",
+  "title": "Microsoft Windows Print Spooler Time-Of-Check Time-Of-Use Denial-of-Service Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to create a denial-of-service condition on affected installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Print Spooler service. By creating a directory junction, an attacker can abuse the Print Spooler service to delete a file. An attacker can leverage this vulnerability to create a denial-of-service condition on the system.",
+  "zdi_can": "ZDI-CAN-12511",
+  "zdi_id": "ZDI-21-493"
+}

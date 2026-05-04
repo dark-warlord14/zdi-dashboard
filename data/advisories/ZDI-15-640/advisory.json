@@ -1,0 +1,27 @@
+{
+  "additional_details": "Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxitsoftware.com/support/security-bulletins.php",
+  "advisory_date": "2015-12-15",
+  "affected_products": [
+    "Foxit Reader"
+  ],
+  "affected_vendors": [
+    "Foxit"
+  ],
+  "credit": "AbdulAziz Hariri of HP Zero Day Initiative and Jasiel Spelman of HP Zero Day Initiative",
+  "cve": "CVE-2015-8843",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-8843",
+  "cvss": 6.9,
+  "cvss_vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2015-09-14 - Vulnerability reported to vendor",
+    "2015-12-15 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-15-640 ZDI-CAN-3286 Foxit FoxitCloudUpdateService Local Privilege Escalation Vulnerability 2015-12-15 CVE-2015-8843 https://www.cve.org/CVERecord?id=CVE-2015-8843 6.9 AV:L/AC:M/Au:N/C:C/I:C/A:C ['Foxit'] ['Foxit Reader'] This vulnerability allows local attackers to elevate privileges on vulnerable installations of Foxit Reader. Authentication is not required to exploit this vulnerability. The specific flaw exists within the FoxitCloudUpdateService service. An attacker can trigger a memory corruption condition by writing certain data to a shared memory region. An attacker can leverage this vulnerability to execute code under the context of SYSTEM. Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxitsoftware.com/support/security-bulletins.php ['2015-09-14 - Vulnerability reported to vendor', '2015-12-15 - Coordinated public release of advisory'] AbdulAziz Hariri of HP Zero Day Initiative and Jasiel Spelman of HP Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-15-640/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-640/",
+  "title": "Foxit FoxitCloudUpdateService Local Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to elevate privileges on vulnerable installations of Foxit Reader. Authentication is not required to exploit this vulnerability. The specific flaw exists within the FoxitCloudUpdateService service. An attacker can trigger a memory corruption condition by writing certain data to a shared memory region. An attacker can leverage this vulnerability to execute code under the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-3286",
+  "zdi_id": "ZDI-15-640"
+}

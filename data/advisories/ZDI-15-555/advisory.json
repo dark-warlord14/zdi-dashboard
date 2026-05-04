@@ -1,0 +1,27 @@
+{
+  "additional_details": "SolarWinds has issued an update to correct this vulnerability. More details can be found at: https://thwack.solarwinds.com/message/308973",
+  "advisory_date": "2015-11-10",
+  "affected_products": [
+    "DameWare Mini Remote Control"
+  ],
+  "affected_vendors": [
+    "SolarWinds"
+  ],
+  "credit": "rgod",
+  "cve": "CVE-2015-8220",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-8220",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2015-09-29 - Vulnerability reported to vendor",
+    "2015-11-10 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-15-555 ZDI-CAN-3125 SolarWinds DameWare Mini Remote Control URI Handler Stack Buffer Overflow Remote Code Execution Vulnerability 2015-11-10 CVE-2015-8220 https://www.cve.org/CVERecord?id=CVE-2015-8220 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['SolarWinds'] ['DameWare Mini Remote Control'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of SolarWinds DameWare Mini Remote Control. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within DWRCC.exe. By crafting a malicious link, an attacker can trigger a stack buffer overflow while parsing the command-line arguments. This vulnerability could be used to execute arbitrary code in the context of the browser. SolarWinds has issued an update to correct this vulnerability. More details can be found at: https://thwack.solarwinds.com/message/308973 ['2015-09-29 - Vulnerability reported to vendor', '2015-11-10 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-15-555/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-555/",
+  "title": "SolarWinds DameWare Mini Remote Control URI Handler Stack Buffer Overflow Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of SolarWinds DameWare Mini Remote Control. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within DWRCC.exe. By crafting a malicious link, an attacker can trigger a stack buffer overflow while parsing the command-line arguments. This vulnerability could be used to execute arbitrary code in the context of the browser.",
+  "zdi_can": "ZDI-CAN-3125",
+  "zdi_id": "ZDI-15-555"
+}

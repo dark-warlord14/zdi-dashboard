@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36777",
+  "advisory_date": "2023-09-12",
+  "affected_products": [
+    "Exchange"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Piotr Bazydlo (@chudypb) of Trend Micro Zero Day Initiative",
+  "cve": "CVE-2023-36777",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-36777",
+  "cvss": 7.1,
+  "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:L",
+  "disclosure_timeline": [
+    "2023-06-27 - Vulnerability reported to vendor",
+    "2023-09-12 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-1417 ZDI-CAN-21489 Microsoft Exchange Project Deserialization of Untrusted Data Information Disclosure Vulnerability 2023-09-12 CVE-2023-36777 https://www.cve.org/CVERecord?id=CVE-2023-36777 7.1 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:L ['Microsoft'] ['Exchange'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Microsoft Exchange. Authentication is required to exploit this vulnerability. The specific flaw exists within the lack of protection against deserialization of the Project class. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to disclose information in the context of SYSTEM. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36777 ['2023-06-27 - Vulnerability reported to vendor', '2023-09-12 - Coordinated public release of advisory'] Piotr Bazydlo (@chudypb) of Trend Micro Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-23-1417/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-1417/",
+  "title": "Microsoft Exchange Project Deserialization of Untrusted Data Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Microsoft Exchange. Authentication is required to exploit this vulnerability. The specific flaw exists within the lack of protection against deserialization of the Project class. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to disclose information in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-21489",
+  "zdi_id": "ZDI-23-1417"
+}

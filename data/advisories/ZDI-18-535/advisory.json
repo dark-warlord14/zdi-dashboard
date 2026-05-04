@@ -1,0 +1,28 @@
+{
+  "additional_details": "Delta Industrial Automation has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-18-151-01",
+  "advisory_date": "2018-06-05",
+  "affected_products": [
+    "DOPSoft"
+  ],
+  "affected_vendors": [
+    "Delta Industrial Automation"
+  ],
+  "credit": "b0nd @garage4hackers",
+  "cve": "CVE-2018-10623",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2018-10623",
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2018-04-05 - Vulnerability reported to vendor",
+    "2018-06-05 - Coordinated public release of advisory",
+    "2018-06-05 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-535 ZDI-CAN-5973 Delta Industrial Automation DOPSoft DPA File Parsing Out-Of-Bounds Read Remote Code Execution Vulnerability 2018-06-05 CVE-2018-10623 https://www.cve.org/CVERecord?id=CVE-2018-10623 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Delta Industrial Automation'] ['DOPSoft'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Delta Industrial Automation DOPSoft. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of fields in DPA files. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute code under the context of the current process. Delta Industrial Automation has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-18-151-01 ['2018-04-05 - Vulnerability reported to vendor', '2018-06-05 - Coordinated public release of advisory', '2018-06-05 - Advisory Updated'] b0nd @garage4hackers https://www.zerodayinitiative.com/advisories/ZDI-18-535/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-535/",
+  "title": "Delta Industrial Automation DOPSoft DPA File Parsing Out-Of-Bounds Read Remote Code Execution Vulnerability",
+  "updated_date": "2018-06-05",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Delta Industrial Automation DOPSoft. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of fields in DPA files. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute code under the context of the current process.",
+  "zdi_can": "ZDI-CAN-5973",
+  "zdi_id": "ZDI-18-535"
+}

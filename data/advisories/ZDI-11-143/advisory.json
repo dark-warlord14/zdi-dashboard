@@ -1,0 +1,27 @@
+{
+  "additional_details": "Cisco has issued an update to correct this vulnerability. More details can be found at: http://www.cisco.com/warp/public/707/cisco-sa-20110427-cucm.shtml",
+  "advisory_date": "2011-04-28",
+  "affected_products": [
+    "Cisco Call Manager"
+  ],
+  "affected_vendors": [
+    "Cisco"
+  ],
+  "credit": "Sven Taute",
+  "cve": "CVE-2011-1610",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-1610",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2010-11-05 - Vulnerability reported to vendor",
+    "2011-04-28 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-11-143 ZDI-CAN-965 Cisco Unified CallManager xmldirectorylist.jsp SQL Injection Vulnerability 2011-04-28 CVE-2011-1610 https://www.cve.org/CVERecord?id=CVE-2011-1610 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Cisco'] ['Cisco Call Manager'] This vulnerability allows remote attackers to inject arbitrary SQL into the backend database on vulnerable installations of Cisco Unified CM. Authentication is not required to exploit this vulnerability. The specific flaw exists within the Call Manager component. The system exposes an Apache webserver which contains a JSP script vulnerable to SQL injection. The xmldirectorylist.jsp file does not properly validate the f, l, and n parameters before passing them to the database. A remote attacker can abuse this to inject SQL statements to be evaluated by the underlying database. Cisco has issued an update to correct this vulnerability. More details can be found at: http://www.cisco.com/warp/public/707/cisco-sa-20110427-cucm.shtml ['2010-11-05 - Vulnerability reported to vendor', '2011-04-28 - Coordinated public release of advisory'] Sven Taute https://www.zerodayinitiative.com/advisories/ZDI-11-143/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-143/",
+  "title": "Cisco Unified CallManager xmldirectorylist.jsp SQL Injection Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to inject arbitrary SQL into the backend database on vulnerable installations of Cisco Unified CM. Authentication is not required to exploit this vulnerability. The specific flaw exists within the Call Manager component. The system exposes an Apache webserver which contains a JSP script vulnerable to SQL injection. The xmldirectorylist.jsp file does not properly validate the f, l, and n parameters before passing them to the database. A remote attacker can abuse this to inject SQL statements to be evaluated by the underlying database.",
+  "zdi_can": "ZDI-CAN-965",
+  "zdi_id": "ZDI-11-143"
+}

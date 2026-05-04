@@ -1,0 +1,27 @@
+{
+  "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: http://www.adobe.com/support/security/bulletins/apsb08-11.html",
+  "advisory_date": "2008-05-22",
+  "affected_products": [
+    "Flash Player"
+  ],
+  "affected_vendors": [
+    "Adobe"
+  ],
+  "credit": "wushi of team509",
+  "cve": "CVE-2007-0071",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2007-0071",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2008-02-07 - Vulnerability reported to vendor",
+    "2008-05-22 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-08-032 ZDI-CAN-280 Adobe Flash DefineSceneAndFrameLabelData Parsing Memory Corruption Vulnerability 2008-05-22 CVE-2007-0071 https://www.cve.org/CVERecord?id=CVE-2007-0071 ['Adobe'] ['Flash Player'] TippingPoint Note: This issue was originally disclosed on April 8, 2008 as ZDI-08-022 but due to an error on our behalf the original advisory was clobbered and is now being re-released as ZDI-08-032. This vulnerability allows attackers to execute arbitrary code on vulnerable installations of the Adobe Flash Player. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the DLL responsible for parsing SWF tags. The vulnerable function trusts an offset present within the vulnerable tag and performs memory operations accordingly. By specifying certain values, an attacker is able to control a memory write leading to arbitrary code execution under the context of the currently logged in user. Adobe has issued an update to correct this vulnerability. More details can be found at: http://www.adobe.com/support/security/bulletins/apsb08-11.html ['2008-02-07 - Vulnerability reported to vendor', '2008-05-22 - Coordinated public release of advisory'] wushi of team509 https://www.zerodayinitiative.com/advisories/ZDI-08-032/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-08-032/",
+  "title": "Adobe Flash DefineSceneAndFrameLabelData Parsing Memory Corruption Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "TippingPoint Note: This issue was originally disclosed on April 8, 2008 as ZDI-08-022 but due to an error on our behalf the original advisory was clobbered and is now being re-released as ZDI-08-032. This vulnerability allows attackers to execute arbitrary code on vulnerable installations of the Adobe Flash Player. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the DLL responsible for parsing SWF tags. The vulnerable function trusts an offset present within the vulnerable tag and performs memory operations accordingly. By specifying certain values, an attacker is able to control a memory write leading to arbitrary code execution under the context of the currently logged in user.",
+  "zdi_can": "ZDI-CAN-280",
+  "zdi_id": "ZDI-08-032"
+}

@@ -1,0 +1,27 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT1241",
+  "advisory_date": "2008-04-03",
+  "affected_products": [
+    "Quicktime"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2008-1021",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2008-1021",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2008-02-07 - Vulnerability reported to vendor",
+    "2008-04-03 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-08-018 ZDI-CAN-296 Apple QuickTime Run Length Encoding Heap Overflow Vulnerability 2008-04-03 CVE-2008-1021 https://www.cve.org/CVERecord?id=CVE-2008-1021 ['Apple'] ['Quicktime'] This vulnerability allows attackers to execute arbitrary code on vulnerable installations of Apple QuickTime Player. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of QuickTime files that utilize the Animation codec. A lack of proper length checks can result in a heap based buffer overflow leading to arbitrary code execution under the context of the currently logged in user. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT1241 ['2008-02-07 - Vulnerability reported to vendor', '2008-04-03 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-08-018/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-08-018/",
+  "title": "Apple QuickTime Run Length Encoding Heap Overflow Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows attackers to execute arbitrary code on vulnerable installations of Apple QuickTime Player. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of QuickTime files that utilize the Animation codec. A lack of proper length checks can result in a heap based buffer overflow leading to arbitrary code execution under the context of the currently logged in user.",
+  "zdi_can": "ZDI-CAN-296",
+  "zdi_id": "ZDI-08-018"
+}

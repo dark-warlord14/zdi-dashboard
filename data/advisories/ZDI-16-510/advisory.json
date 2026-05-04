@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/library/security/MS16-104",
+  "advisory_date": "2016-09-16",
+  "affected_products": [
+    "Internet Explorer"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Thomas Vanhoutte",
+  "cve": "CVE-2016-3292",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-3292",
+  "cvss": 6.9,
+  "cvss_vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2016-05-24 - Vulnerability reported to vendor",
+    "2016-09-16 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-16-510 ZDI-CAN-3788 Microsoft Internet Explorer Add-on Installer Enhanced Protected Mode Sandbox Escape Vulnerability 2016-09-16 CVE-2016-3292 https://www.cve.org/CVERecord?id=CVE-2016-3292 6.9 AV:L/AC:M/Au:N/C:C/I:C/A:C ['Microsoft'] ['Internet Explorer'] This vulnerability allows attackers to escape from the Enhanced Protected Mode sandbox on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the usage of the Internet Explorer Add-on Installer component. An attacker who has gained code execution within the Internet Explorer Enhanced Protected Mode sandbox can leverage this component to place a malicious HTML file in a predictable location at medium integrity. An attacker can leverage this in conjunction with other vulnerabilities to execute code under the context of the user at medium integrity. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/library/security/MS16-104 ['2016-05-24 - Vulnerability reported to vendor', '2016-09-16 - Coordinated public release of advisory'] Thomas Vanhoutte https://www.zerodayinitiative.com/advisories/ZDI-16-510/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-510/",
+  "title": "Microsoft Internet Explorer Add-on Installer Enhanced Protected Mode Sandbox Escape Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows attackers to escape from the Enhanced Protected Mode sandbox on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the usage of the Internet Explorer Add-on Installer component. An attacker who has gained code execution within the Internet Explorer Enhanced Protected Mode sandbox can leverage this component to place a malicious HTML file in a predictable location at medium integrity. An attacker can leverage this in conjunction with other vulnerabilities to execute code under the context of the user at medium integrity.",
+  "zdi_can": "ZDI-CAN-3788",
+  "zdi_id": "ZDI-16-510"
+}

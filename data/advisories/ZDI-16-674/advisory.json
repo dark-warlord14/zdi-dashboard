@@ -1,0 +1,27 @@
+{
+  "additional_details": "BitTorrent has issued an update to correct this vulnerability. More details can be found at: http://blog.utorrent.com/releases/windows/",
+  "advisory_date": "2016-12-26",
+  "affected_products": [
+    "BitTorrent"
+  ],
+  "affected_vendors": [
+    "BitTorrent"
+  ],
+  "credit": "Simon Zuckerbraun - Trend Micro Zero Day Initiative",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2016-10-17 - Vulnerability reported to vendor",
+    "2016-12-26 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-16-674 ZDI-CAN-4050 BitTorrent API Cross-Site Scripting Remote Code Execution Vulnerability 2016-12-26 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['BitTorrent'] ['BitTorrent'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of BitTorrent and uTorrent. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. These applications expose a web service locally on port 10000. An attacker can use a cross site scripting vulnerability in this web service to obtain a credential allowing full access to the web service. An attacker can leverage this vulnerability to execute arbitrary code under the context of the current user. BitTorrent has issued an update to correct this vulnerability. More details can be found at: http://blog.utorrent.com/releases/windows/ ['2016-10-17 - Vulnerability reported to vendor', '2016-12-26 - Coordinated public release of advisory'] Simon Zuckerbraun - Trend Micro Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-16-674/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-674/",
+  "title": "BitTorrent API Cross-Site Scripting Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of BitTorrent and uTorrent. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. These applications expose a web service locally on port 10000. An attacker can use a cross site scripting vulnerability in this web service to obtain a credential allowing full access to the web service. An attacker can leverage this vulnerability to execute arbitrary code under the context of the current user.",
+  "zdi_can": "ZDI-CAN-4050",
+  "zdi_id": "ZDI-16-674"
+}

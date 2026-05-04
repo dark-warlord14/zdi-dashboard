@@ -1,0 +1,28 @@
+{
+  "additional_details": "Fixed in Firmware Version 2024.8",
+  "advisory_date": "2025-04-30",
+  "affected_products": [
+    "Model S"
+  ],
+  "affected_vendors": [
+    "Tesla"
+  ],
+  "credit": "Synacktiv (@Synacktiv)",
+  "cve": "CVE-2024-6030",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-6030",
+  "cvss": 7.0,
+  "cvss_vector": "AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2024-02-02 - Vulnerability reported to vendor",
+    "2025-04-30 - Coordinated public release of advisory",
+    "2025-04-30 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-263 ZDI-CAN-23200 (Pwn2Own) Tesla Model S oFono Unnecessary Privileges Sandbox Escape Vulnerability 2025-04-30 CVE-2024-6030 https://www.cve.org/CVERecord?id=CVE-2024-6030 7.0 AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H ['Tesla'] ['Model S'] This vulnerability allows local attackers to escape the sandbox on affected Tesla Model S vehicles. An attacker must first obtain the ability to execute code within the sandbox on the target system in order to exploit this vulnerability. The specific flaw exists within the oFono process. The process allows an attacker to modify interfaces. An attacker can leverage this vulnerability to bypass the iptables network sandbox. Fixed in Firmware Version 2024.8 ['2024-02-02 - Vulnerability reported to vendor', '2025-04-30 - Coordinated public release of advisory', '2025-04-30 - Advisory Updated'] Synacktiv (@Synacktiv) https://www.zerodayinitiative.com/advisories/ZDI-25-263/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-263/",
+  "title": "(Pwn2Own) Tesla Model S oFono Unnecessary Privileges Sandbox Escape Vulnerability",
+  "updated_date": "2025-04-30",
+  "vulnerability_details": "This vulnerability allows local attackers to escape the sandbox on affected Tesla Model S vehicles. An attacker must first obtain the ability to execute code within the sandbox on the target system in order to exploit this vulnerability. The specific flaw exists within the oFono process. The process allows an attacker to modify interfaces. An attacker can leverage this vulnerability to bypass the iptables network sandbox.",
+  "zdi_can": "ZDI-CAN-23200",
+  "zdi_id": "ZDI-25-263"
+}

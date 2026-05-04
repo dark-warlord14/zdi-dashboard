@@ -1,0 +1,28 @@
+{
+  "additional_details": "Fixed in versions SP2016, SP2019, and SPSE Sept 2024 PU",
+  "advisory_date": "2025-09-09",
+  "affected_products": [
+    ".NET"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Piotr Bazydlo (@chudypb) of Trend Micro Zero Day Initiative",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+  "disclosure_timeline": [
+    "2024-07-12 - Vulnerability reported to vendor",
+    "2025-09-09 - Coordinated public release of advisory",
+    "2025-09-09 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-892 ZDI-CAN-24739 Microsoft .NET IsTypeAuthorized Deserialization of Untrusted Data Denial-of-Service Vulnerability 2025-09-09 7.5 AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H ['Microsoft'] ['.NET'] This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of Microsoft .NET. Interaction with the .NET framework is required to exploit this vulnerability but attack vectors may vary depending on the implementation. The specific flaw exists within the implementations of the IsTypeAuthorized method on .NET workflow classes. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to create a denial-of-service condition on the system. Fixed in versions SP2016, SP2019, and SPSE Sept 2024 PU ['2024-07-12 - Vulnerability reported to vendor', '2025-09-09 - Coordinated public release of advisory', '2025-09-09 - Advisory Updated'] Piotr Bazydlo (@chudypb) of Trend Micro Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-25-892/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-892/",
+  "title": "Microsoft .NET IsTypeAuthorized Deserialization of Untrusted Data Denial-of-Service Vulnerability",
+  "updated_date": "2025-09-09",
+  "vulnerability_details": "This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of Microsoft .NET. Interaction with the .NET framework is required to exploit this vulnerability but attack vectors may vary depending on the implementation. The specific flaw exists within the implementations of the IsTypeAuthorized method on .NET workflow classes. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to create a denial-of-service condition on the system.",
+  "zdi_can": "ZDI-CAN-24739",
+  "zdi_id": "ZDI-25-892"
+}

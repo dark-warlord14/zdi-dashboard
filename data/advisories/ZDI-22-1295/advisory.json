@@ -1,0 +1,27 @@
+{
+  "additional_details": "According to Apple, ZDI-CAN-16749 was addressed in macOS Monterey 12.5 and iOS & iPadOS 15.6. Apple informed ZDI they would assign a CVE, but never followed through.",
+  "advisory_date": "2022-09-21",
+  "affected_products": [
+    "macOS"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "Mickey Jin (@patch1t) of Trend Micro",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 2.5,
+  "cvss_vector": "AV:L/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:N",
+  "disclosure_timeline": [
+    "2022-03-04 - Vulnerability reported to vendor",
+    "2022-09-21 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-1295 ZDI-CAN-16749 Apple macOS TIFF File Parsing Out-Of-Bounds Read Information Disclosure Vulnerability 2022-09-21 2.5 AV:L/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:N ['Apple'] ['macOS'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Apple macOS. Interaction with the CoreGraphics framework is required to exploit this vulnerability but attack vectors may vary depending on the implementation. The specific flaw exists within the parsing of TIFF images. Crafted data in a TIFF image can trigger a read past the end of an allocated data structure. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process. According to Apple, ZDI-CAN-16749 was addressed in macOS Monterey 12.5 and iOS & iPadOS 15.6. Apple informed ZDI they would assign a CVE, but never followed through. ['2022-03-04 - Vulnerability reported to vendor', '2022-09-21 - Coordinated public release of advisory'] Mickey Jin (@patch1t) of Trend Micro https://www.zerodayinitiative.com/advisories/ZDI-22-1295/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-1295/",
+  "title": "Apple macOS TIFF File Parsing Out-Of-Bounds Read Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Apple macOS. Interaction with the CoreGraphics framework is required to exploit this vulnerability but attack vectors may vary depending on the implementation. The specific flaw exists within the parsing of TIFF images. Crafted data in a TIFF image can trigger a read past the end of an allocated data structure. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-16749",
+  "zdi_id": "ZDI-22-1295"
+}

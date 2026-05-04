@@ -1,0 +1,27 @@
+{
+  "additional_details": "Fixed in Tesla\u2019s 2022.28 release.",
+  "advisory_date": "2022-10-07",
+  "affected_products": [
+    "Model 3"
+  ],
+  "affected_vendors": [
+    "Tesla"
+  ],
+  "credit": "Vincent DEHORS of @Synacktiv",
+  "cve": "CVE-2022-42431",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-42431",
+  "cvss": 8.8,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2022-05-24 - Vulnerability reported to vendor",
+    "2022-10-07 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-1407 ZDI-CAN-17544 Tesla bcmdhd Buffer Overflow Privilege Escalation Vulnerability 2022-10-07 CVE-2022-42431 https://www.cve.org/CVERecord?id=CVE-2022-42431 8.8 AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H ['Tesla'] ['Model 3'] This vulnerability allows local attackers to escalate privileges on affected Tesla vehicles. An attacker must first obtain the ability to execute privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the bcmdhd driver. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a buffer. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root. Fixed in Tesla\u2019s 2022.28 release. ['2022-05-24 - Vulnerability reported to vendor', '2022-10-07 - Coordinated public release of advisory'] Vincent DEHORS of @Synacktiv https://www.zerodayinitiative.com/advisories/ZDI-22-1407/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-1407/",
+  "title": "Tesla bcmdhd Buffer Overflow Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected Tesla vehicles. An attacker must first obtain the ability to execute privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the bcmdhd driver. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a buffer. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root.",
+  "zdi_can": "ZDI-CAN-17544",
+  "zdi_id": "ZDI-22-1407"
+}

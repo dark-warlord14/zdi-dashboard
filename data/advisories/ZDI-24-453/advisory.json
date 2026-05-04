@@ -1,0 +1,28 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30043",
+  "advisory_date": "2024-05-14",
+  "affected_products": [
+    "SharePoint"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Piotr Bazydlo (@chudypb) of Trend Micro Zero Day Initiative",
+  "cve": "CVE-2024-30043",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-30043",
+  "cvss": 7.1,
+  "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:N",
+  "disclosure_timeline": [
+    "2024-03-07 - Vulnerability reported to vendor",
+    "2024-05-14 - Coordinated public release of advisory",
+    "2024-07-01 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-453 ZDI-CAN-23586 Microsoft SharePoint BaseXmlDataSource XML External Entity Processing Information Disclosure Vulnerability 2024-05-14 CVE-2024-30043 https://www.cve.org/CVERecord?id=CVE-2024-30043 7.1 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:N ['Microsoft'] ['SharePoint'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Microsoft SharePoint. Authentication is required to exploit this vulnerability. The specific flaw exists within the BaseXmlDataSource class. Due to the improper restriction of XML External Entity (XXE) references, a crafted document specifying a URI causes the XML parser to access the URI and embed the contents back into the XML document for further processing. An attacker can leverage this vulnerability to disclose information in the context of the service account. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30043 ['2024-03-07 - Vulnerability reported to vendor', '2024-05-14 - Coordinated public release of advisory', '2024-07-01 - Advisory Updated'] Piotr Bazydlo (@chudypb) of Trend Micro Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-24-453/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-453/",
+  "title": "Microsoft SharePoint BaseXmlDataSource XML External Entity Processing Information Disclosure Vulnerability",
+  "updated_date": "2024-07-01",
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Microsoft SharePoint. Authentication is required to exploit this vulnerability. The specific flaw exists within the BaseXmlDataSource class. Due to the improper restriction of XML External Entity (XXE) references, a crafted document specifying a URI causes the XML parser to access the URI and embed the contents back into the XML document for further processing. An attacker can leverage this vulnerability to disclose information in the context of the service account.",
+  "zdi_can": "ZDI-CAN-23586",
+  "zdi_id": "ZDI-24-453"
+}

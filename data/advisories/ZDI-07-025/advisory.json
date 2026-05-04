@@ -1,0 +1,27 @@
+{
+  "additional_details": "Trend Micro has issued an update to correct this vulnerability. More details can be found at: http://www.trendmicro.com/download_beta/product.asp?productid=17",
+  "advisory_date": "2007-05-07",
+  "affected_products": [
+    "ServerProtect"
+  ],
+  "affected_vendors": [
+    "Trend Micro"
+  ],
+  "credit": "Eric DETOISIEN",
+  "cve": "CVE-2007-2508",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2007-2508",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2007-02-01 - Vulnerability reported to vendor",
+    "2007-05-07 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-07-025 ZDI-CAN-156 Trend Micro ServerProtect AgRpcCln.dll Stack Overflow Vulnerability 2007-05-07 CVE-2007-2508 https://www.cve.org/CVERecord?id=CVE-2007-2508 ['Trend Micro'] ['ServerProtect'] This vulnerability allows attackers to execute arbitrary code on vulnerable installations of Trend Micro ServerProtect. Authentication is not required to exploit this vulnerability. The specific flaw exists in the SpntSvc.exe daemon, bound by default on TCP port 5168 and exposing the following DCE/RPC interface through TmRpcSrv.dll: /* opcode: 0x00, address: 0x65741030 */ error_status_t sub_65741030 ( [in] handle_t arg_1, [in] long arg_2, [in][size_is(arg_4)] byte arg_3[], [in] long arg_4, [out][size_is(arg_6)] byte arg_5[], [in] long arg_6 ); A sub-function within this interface is vulnerable to a stack overflow due an unbounded call to wcscpy() within the routine CAgRpcClient::CreateBinding() defined in AgRpcCln.dll library. Trend Micro has issued an update to correct this vulnerability. More details can be found at: http://www.trendmicro.com/download_beta/product.asp?productid=17 ['2007-02-01 - Vulnerability reported to vendor', '2007-05-07 - Coordinated public release of advisory'] Eric DETOISIEN https://www.zerodayinitiative.com/advisories/ZDI-07-025/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-07-025/",
+  "title": "Trend Micro ServerProtect AgRpcCln.dll Stack Overflow Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows attackers to execute arbitrary code on vulnerable installations of Trend Micro ServerProtect. Authentication is not required to exploit this vulnerability. The specific flaw exists in the SpntSvc.exe daemon, bound by default on TCP port 5168 and exposing the following DCE/RPC interface through TmRpcSrv.dll: /* opcode: 0x00, address: 0x65741030 */ error_status_t sub_65741030 ( [in] handle_t arg_1, [in] long arg_2, [in][size_is(arg_4)] byte arg_3[], [in] long arg_4, [out][size_is(arg_6)] byte arg_5[], [in] long arg_6 ); A sub-function within this interface is vulnerable to a stack overflow due an unbounded call to wcscpy() within the routine CAgRpcClient::CreateBinding() defined in AgRpcCln.dll library.",
+  "zdi_can": "ZDI-CAN-156",
+  "zdi_id": "ZDI-07-025"
+}

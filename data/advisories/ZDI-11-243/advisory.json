@@ -1,0 +1,28 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/kb/HT4808",
+  "advisory_date": "2011-07-27",
+  "affected_products": [
+    "WebKit"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "J23 -- http://twitter.com/HansJ23",
+  "cve": "CVE-2011-0232",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-0232",
+  "cvss": 9.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:P/A:P",
+  "disclosure_timeline": [
+    "2011-03-31 - Vulnerability reported to vendor",
+    "2011-07-27 - Coordinated public release of advisory",
+    "2020-07-30 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-11-243 ZDI-CAN-1108 WebKit ContentEditable Inline Style Remote Code Execution Vulnerability 2011-07-27 CVE-2011-0232 https://www.cve.org/CVERecord?id=CVE-2011-0232 9.0 AV:N/AC:L/Au:N/C:C/I:P/A:P ['Apple'] ['WebKit'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Webkit as utilized by either Apple Safari, or Google's Chrome browser. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within how the library handles implicitly defined styles. When processing a specific case for a style, the application will dispatch an event. During this dispatch, code can be executed that can be used to manipulate the DOM tree causing a type-switch. This type-switch can lead to code execution under the context of the application. Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/kb/HT4808 ['2011-03-31 - Vulnerability reported to vendor', '2011-07-27 - Coordinated public release of advisory', '2020-07-30 - Advisory Updated'] J23 -- http://twitter.com/HansJ23 https://www.zerodayinitiative.com/advisories/ZDI-11-243/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-243/",
+  "title": "WebKit ContentEditable Inline Style Remote Code Execution Vulnerability",
+  "updated_date": "2020-07-30",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Webkit as utilized by either Apple Safari, or Google's Chrome browser. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within how the library handles implicitly defined styles. When processing a specific case for a style, the application will dispatch an event. During this dispatch, code can be executed that can be used to manipulate the DOM tree causing a type-switch. This type-switch can lead to code execution under the context of the application.",
+  "zdi_can": "ZDI-CAN-1108",
+  "zdi_id": "ZDI-11-243"
+}

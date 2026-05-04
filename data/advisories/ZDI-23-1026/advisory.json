@@ -1,0 +1,27 @@
+{
+  "additional_details": "Triangle MicroWorks has issued an update to correct this vulnerability. More details can be found at: https://www.trianglemicroworks.com/products/scada-data-gateway/what's-new",
+  "advisory_date": "2023-08-04",
+  "affected_products": [
+    "SCADA Data Gateway"
+  ],
+  "affected_vendors": [
+    "Triangle MicroWorks"
+  ],
+  "credit": "Team ECQ",
+  "cve": "CVE-2023-39458",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-39458",
+  "cvss": 5.3,
+  "cvss_vector": "AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+  "disclosure_timeline": [
+    "2023-02-24 - Vulnerability reported to vendor",
+    "2023-08-04 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-1026 ZDI-CAN-20509 (Pwn2Own) Triangle MicroWorks SCADA Data Gateway Use of Hard-coded Credentials Authentication Bypass Vulnerability 2023-08-04 CVE-2023-39458 https://www.cve.org/CVERecord?id=CVE-2023-39458 5.3 AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N ['Triangle MicroWorks'] ['SCADA Data Gateway'] This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of Triangle MicroWorks SCADA Data Gateway. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of certificates. The service uses a hard-coded default SSL certificate. An attacker can leverage this vulnerability to bypass authentication on the system. Triangle MicroWorks has issued an update to correct this vulnerability. More details can be found at: https://www.trianglemicroworks.com/products/scada-data-gateway/what's-new ['2023-02-24 - Vulnerability reported to vendor', '2023-08-04 - Coordinated public release of advisory'] Team ECQ https://www.zerodayinitiative.com/advisories/ZDI-23-1026/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-1026/",
+  "title": "(Pwn2Own) Triangle MicroWorks SCADA Data Gateway Use of Hard-coded Credentials Authentication Bypass Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of Triangle MicroWorks SCADA Data Gateway. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of certificates. The service uses a hard-coded default SSL certificate. An attacker can leverage this vulnerability to bypass authentication on the system.",
+  "zdi_can": "ZDI-CAN-20509",
+  "zdi_id": "ZDI-23-1026"
+}

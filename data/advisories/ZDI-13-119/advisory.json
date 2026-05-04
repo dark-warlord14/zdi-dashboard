@@ -1,0 +1,27 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT1222",
+  "advisory_date": "2013-06-11",
+  "affected_products": [
+    "QuickTime"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "G. Geshev",
+  "cve": "CVE-2013-0988",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2013-0988",
+  "cvss": 5.1,
+  "cvss_vector": "AV:N/AC:H/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2013-03-29 - Vulnerability reported to vendor",
+    "2013-06-11 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-13-119 ZDI-CAN-1710 Apple QuickTime FlashPix Parsing Remote Code Execution Vulnerability 2013-06-11 CVE-2013-0988 https://www.cve.org/CVERecord?id=CVE-2013-0988 5.1 AV:N/AC:H/Au:N/C:P/I:P/A:P ['Apple'] ['QuickTime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple QuickTime. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of FlashPix files. While parsing FlashPix files, a length is multiplied by four when allocating the buffer but is multiplied by eight when copying data into the buffer. By abusing this behavior an attacker can ensure this memory is under control and leverage the situation to achieve remote code execution under the context of the user currently logged in. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT1222 ['2013-03-29 - Vulnerability reported to vendor', '2013-06-11 - Coordinated public release of advisory'] G. Geshev https://www.zerodayinitiative.com/advisories/ZDI-13-119/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-13-119/",
+  "title": "Apple QuickTime FlashPix Parsing Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple QuickTime. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of FlashPix files. While parsing FlashPix files, a length is multiplied by four when allocating the buffer but is multiplied by eight when copying data into the buffer. By abusing this behavior an attacker can ensure this memory is under control and leverage the situation to achieve remote code execution under the context of the user currently logged in.",
+  "zdi_can": "ZDI-CAN-1710",
+  "zdi_id": "ZDI-13-119"
+}

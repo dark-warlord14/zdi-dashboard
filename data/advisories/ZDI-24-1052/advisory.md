@@ -1,0 +1,27 @@
+# ZDI-24-1052: (0Day) (Pwn2Own) ChargePoint Home Flex Improper Certificate Validation Vulnerability
+
+## Metadata
+
+- **ZDI ID:** ZDI-24-1052
+- **ZDI-CAN:** ZDI-CAN-23229
+- **Date:** 2024-08-01
+- **CVE:** CVE-2024-23970
+- **CVSS:** 6.5
+- **CVSS Vector:** AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
+- **Affected Vendors:** ChargePoint
+- **Affected Products:** Home Flex
+- **Credit:** Daan Keuper, Thijs Alkemade and Khaled Nassar from Computest Sector 7
+- **Source:** https://www.zerodayinitiative.com/advisories/ZDI-24-1052/
+## Vulnerability Details
+
+This vulnerability allows network-adjacent attackers to compromise transport security on affected installations of ChargePoint Home Flex charging stations. Authentication is not required to exploit this vulnerability. The specific flaw exists within the CURLOPT_SSL_VERIFYHOST setting. The issue results from the lack of proper validation of the certificate presented by the server. An attacker can leverage this in conjunction with other vulnerabilities to execute code in the context of root.
+
+## Additional Details
+
+01/28/24 – ZDI reported the vulnerability to the vendor. 02/05/24 – ZDI asked for confirmation of receipt. 02/06/24 – The vendor confirmed receipt of the report. 04/29/24 – ZDI asked for an update. 05/24/24 – ZDI asked for an update. 05/29/24 – The vendor states that the vulnerability has been addressed but would need to get verification from QA. 07/22/24 – ZDI asked for an update. 07/29/24 – The ZDI informed the vendor that since we never received a confirmation that the vulnerability was patched, we have no choice but to assume this issue hasn’t been remediated and that we intend to publish the report as a zero-day advisory on 8/01/24. -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the application
+
+## Disclosure Timeline
+
+- 2024-02-02 - Vulnerability reported to vendor
+- 2024-08-01 - Coordinated public release of advisory
+- 2024-08-15 - Advisory Updated

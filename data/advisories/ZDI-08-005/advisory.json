@@ -1,0 +1,27 @@
+{
+  "additional_details": "Novell has issued an update to correct this vulnerability. More details can be found at: http://download.novell.com/Download?buildid=SszG22IIugM~",
+  "advisory_date": "2008-02-11",
+  "affected_products": [
+    "Netware"
+  ],
+  "affected_vendors": [
+    "Novell"
+  ],
+  "credit": "Anonymous and Avosani Gabriele",
+  "cve": "CVE-2008-0639",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2008-0639",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2007-12-11 - Vulnerability reported to vendor",
+    "2008-02-11 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-08-005 ZDI-CAN-266 Novell Client NWSPOOL.DLL EnumPrinters Stack Overflow Vulnerability 2008-02-11 CVE-2008-0639 https://www.cve.org/CVERecord?id=CVE-2008-0639 ['Novell'] ['Netware'] This vulnerability allows remote attackers to execute arbitrary code on systems with vulnerable installations of the Novell Netware Client. Authentication is not required to exploit this vulnerability. The specific flaw exists in nwspool.dll which is responsible for handling RPC requests through the spoolss named pipe. The EnumPrinters function exposed by this DLL contains a logical flaw allowing an attacker to bypass a patch introduced to prevent the vulnerability described in ZDI-07-045. Exploitation of this vulnerability leads to arbitrary code execution in the context of the SYSTEM user. Novell has issued an update to correct this vulnerability. More details can be found at: http://download.novell.com/Download?buildid=SszG22IIugM~ ['2007-12-11 - Vulnerability reported to vendor', '2008-02-11 - Coordinated public release of advisory'] Anonymous and Avosani Gabriele https://www.zerodayinitiative.com/advisories/ZDI-08-005/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-08-005/",
+  "title": "Novell Client NWSPOOL.DLL EnumPrinters Stack Overflow Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on systems with vulnerable installations of the Novell Netware Client. Authentication is not required to exploit this vulnerability. The specific flaw exists in nwspool.dll which is responsible for handling RPC requests through the spoolss named pipe. The EnumPrinters function exposed by this DLL contains a logical flaw allowing an attacker to bypass a patch introduced to prevent the vulnerability described in ZDI-07-045. Exploitation of this vulnerability leads to arbitrary code execution in the context of the SYSTEM user.",
+  "zdi_can": "ZDI-CAN-266",
+  "zdi_id": "ZDI-08-005"
+}

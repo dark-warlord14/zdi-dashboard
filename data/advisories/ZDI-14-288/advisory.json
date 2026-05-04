@@ -1,0 +1,27 @@
+{
+  "additional_details": "Attachmate has issued an update to correct this vulnerability. More details can be found at: http://support.attachmate.com/techdocs/2501.html",
+  "advisory_date": "2014-08-12",
+  "affected_products": [
+    "Reflection"
+  ],
+  "affected_vendors": [
+    "Attachmate"
+  ],
+  "credit": "rgod",
+  "cve": "CVE-2014-0603",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-0603",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2014-04-22 - Vulnerability reported to vendor",
+    "2014-08-12 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-14-288 ZDI-CAN-2075 Attachmate Reflection Secure FTP Client rftpcom.dll Multiple Memory Corruption Remote Code Execution Vulnerabilities 2014-08-12 CVE-2014-0603 https://www.cve.org/CVERecord?id=CVE-2014-0603 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Attachmate'] ['Reflection'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Attachmate Reflection Secure FTP Client. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the Attachmate Reflection Secure FTP Client rftpcom.dll ActiveX control GetGlobalSettings method which dereferences attacker-supplied input as memory addresses. An attacker can exploit this condition to achieve code execution under the context of the browser process. Attachmate has issued an update to correct this vulnerability. More details can be found at: http://support.attachmate.com/techdocs/2501.html ['2014-04-22 - Vulnerability reported to vendor', '2014-08-12 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-14-288/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-14-288/",
+  "title": "Attachmate Reflection Secure FTP Client rftpcom.dll Multiple Memory Corruption Remote Code Execution Vulnerabilities",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Attachmate Reflection Secure FTP Client. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the Attachmate Reflection Secure FTP Client rftpcom.dll ActiveX control GetGlobalSettings method which dereferences attacker-supplied input as memory addresses. An attacker can exploit this condition to achieve code execution under the context of the browser process.",
+  "zdi_can": "ZDI-CAN-2075",
+  "zdi_id": "ZDI-14-288"
+}

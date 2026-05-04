@@ -1,0 +1,27 @@
+{
+  "additional_details": "Kaspersky has issued an update to correct this vulnerability. More details can be found at: https://support.kaspersky.com/general/vulnerability.aspx?el=12430#221121",
+  "advisory_date": "2021-11-29",
+  "affected_products": [
+    "Password Manager"
+  ],
+  "affected_vendors": [
+    "Kaspersky"
+  ],
+  "credit": "Abdelhamid Naceri",
+  "cve": "CVE-2021-35052",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2021-35052",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2021-08-25 - Vulnerability reported to vendor",
+    "2021-11-29 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-21-1335 ZDI-CAN-14235 Kaspersky Password Manager Improper Privilege Management Privilege Escalation Vulnerability 2021-11-29 CVE-2021-35052 https://www.cve.org/CVERecord?id=CVE-2021-35052 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Kaspersky'] ['Password Manager'] This vulnerability allows local attackers to escalate privileges on affected installations of Kaspersky Password Manager. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Kaspersky Password Manager Service. The issue results from execution with unnecessary privileges. An attacker can leverage this vulnerability to escalate privileges from medium integrity and execute code in the context of the current user at high integrity. Kaspersky has issued an update to correct this vulnerability. More details can be found at: https://support.kaspersky.com/general/vulnerability.aspx?el=12430#221121 ['2021-08-25 - Vulnerability reported to vendor', '2021-11-29 - Coordinated public release of advisory'] Abdelhamid Naceri https://www.zerodayinitiative.com/advisories/ZDI-21-1335/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-21-1335/",
+  "title": "Kaspersky Password Manager Improper Privilege Management Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Kaspersky Password Manager. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Kaspersky Password Manager Service. The issue results from execution with unnecessary privileges. An attacker can leverage this vulnerability to escalate privileges from medium integrity and execute code in the context of the current user at high integrity.",
+  "zdi_can": "ZDI-CAN-14235",
+  "zdi_id": "ZDI-21-1335"
+}

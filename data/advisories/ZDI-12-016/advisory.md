@@ -1,0 +1,26 @@
+# ZDI-12-016: (0Day) HP Diagnostics Server magentservice.exe Remote Code Execution Vulnerability
+
+## Metadata
+
+- **ZDI ID:** ZDI-12-016
+- **ZDI-CAN:** ZDI-CAN-1259
+- **Date:** 2012-01-12
+- **CVE:** CVE-2011-4789
+- **CVSS:** 10.0
+- **CVSS Vector:** AV:N/AC:L/Au:N/C:C/I:C/A:C
+- **Affected Vendors:** Hewlett-Packard
+- **Affected Products:** Diagnostics Server
+- **Credit:** AbdulAziz Hariri
+- **Source:** https://www.zerodayinitiative.com/advisories/ZDI-12-016/
+## Vulnerability Details
+
+This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of HP Diagnostics server. Authentication is not required to exploit this vulnerability. The specific flaw exists within the way the HP Diagnostics server handles incomming packets with 0x00000000 as the first 32-bit value. The magentservice.exe process listens on port 23472 by default. It will eventually take that first dword, decrease it by one and use it as a size value to copy data into a stack buffer. The resulting stack-based buffer overflow can result in remote code execution under the system user.
+
+## Additional Details
+
+This vulnerability is being disclosed publicly without a patch in accordance with the ZDI 180 day deadline. -- Mitigation: HP states that a patch for this vulnerability will be made available to the public "soon." Until that time, it is recommended that administrators of Diagnostics Server enabled systems restrict access to port 23472 to trusted hosts only.
+
+## Disclosure Timeline
+
+- 2011-06-03 - Vulnerability reported to vendor
+- 2012-01-12 - Coordinated public release of advisory

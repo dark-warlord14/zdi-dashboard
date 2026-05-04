@@ -1,0 +1,31 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/advisory/954157.mspx",
+  "advisory_date": "2009-12-08",
+  "affected_products": [
+    "Windows 2000 SP4",
+    "Windows 2003 SP2",
+    "Windows XP SP3"
+  ],
+  "affected_vendors": [
+    "Microsoft",
+    "Microsoft",
+    "Microsoft"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2009-4310",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2009-4310",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2009-03-13 - Vulnerability reported to vendor",
+    "2009-12-08 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-09-090 ZDI-CAN-432 Microsoft Windows Intel Indeo Codec Parsing Stack Overflow Vulnerability 2009-12-08 CVE-2009-4310 https://www.cve.org/CVERecord?id=CVE-2009-4310 ['Microsoft', 'Microsoft', 'Microsoft'] ['Windows 2000 SP4', 'Windows 2003 SP2', 'Windows XP SP3'] This vulnerability allows attackers to execute arbitrary code on vulnerable installations of Microsoft Windows Media Player. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the Intel Indeo41 codec which is accessed by various applications through the Video Compression Manager. This codec is registered to handle IV41 streams within a container such as the AVI format. While decompressing a video stream malicious data can cause a loop to execute excessively and consequently corrupt the application's stack. By providing specific values this can lead to an exploitable condition which can be leveraged by attackers to execute arbitrary code under the context of the user accessing the file. Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/advisory/954157.mspx ['2009-03-13 - Vulnerability reported to vendor', '2009-12-08 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-09-090/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-09-090/",
+  "title": "Microsoft Windows Intel Indeo Codec Parsing Stack Overflow Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows attackers to execute arbitrary code on vulnerable installations of Microsoft Windows Media Player. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the Intel Indeo41 codec which is accessed by various applications through the Video Compression Manager. This codec is registered to handle IV41 streams within a container such as the AVI format. While decompressing a video stream malicious data can cause a loop to execute excessively and consequently corrupt the application's stack. By providing specific values this can lead to an exploitable condition which can be leveraged by attackers to execute arbitrary code under the context of the user accessing the file.",
+  "zdi_can": "ZDI-CAN-432",
+  "zdi_id": "ZDI-09-090"
+}

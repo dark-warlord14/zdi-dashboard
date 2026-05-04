@@ -1,0 +1,27 @@
+{
+  "additional_details": "Hewlett-Packard has issued an update to correct this vulnerability. More details can be found at: https://h20566.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c04341295",
+  "advisory_date": "2014-06-18",
+  "affected_products": [
+    "IT Executive Scorecard"
+  ],
+  "affected_vendors": [
+    "Hewlett-Packard"
+  ],
+  "credit": "Mike Arnold (Bruk0ut)",
+  "cve": "CVE-2014-2609",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-2609",
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2014-01-31 - Vulnerability reported to vendor",
+    "2014-06-18 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-14-208 ZDI-CAN-2116 Hewlett-Packard IT Executive Scorecard Java Glassfish Admin Console Remote Code Execution Vulnerability 2014-06-18 CVE-2014-2609 https://www.cve.org/CVERecord?id=CVE-2014-2609 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Hewlett-Packard'] ['IT Executive Scorecard'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Hewlett-Packard IT Executive Scorecard. Authentication is not required to exploit this vulnerability. The specific flaw exists within allowed HTTP access to a Glassfish administrative console on port 10001 with no authentication. A remote attacker can abuse this to execute remote code under the context of the SYSTEM user. Hewlett-Packard has issued an update to correct this vulnerability. More details can be found at: https://h20566.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c04341295 ['2014-01-31 - Vulnerability reported to vendor', '2014-06-18 - Coordinated public release of advisory'] Mike Arnold (Bruk0ut) https://www.zerodayinitiative.com/advisories/ZDI-14-208/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-14-208/",
+  "title": "Hewlett-Packard IT Executive Scorecard Java Glassfish Admin Console Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Hewlett-Packard IT Executive Scorecard. Authentication is not required to exploit this vulnerability. The specific flaw exists within allowed HTTP access to a Glassfish administrative console on port 10001 with no authentication. A remote attacker can abuse this to execute remote code under the context of the SYSTEM user.",
+  "zdi_can": "ZDI-CAN-2116",
+  "zdi_id": "ZDI-14-208"
+}

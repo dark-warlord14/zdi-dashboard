@@ -1,0 +1,27 @@
+{
+  "additional_details": "GE has issued an update to correct this vulnerability. More details can be found at: http://support.ge-ip.com/support/index?page=kbchannel&id=S:KB14493",
+  "advisory_date": "2011-11-07",
+  "affected_products": [
+    "Proficy Historian ihDataArchiver"
+  ],
+  "affected_vendors": [
+    "GE"
+  ],
+  "credit": "Luigi Auriemma",
+  "cve": "CVE-2011-1918",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-1918",
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2011-06-02 - Vulnerability reported to vendor",
+    "2011-11-07 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-11-320 ZDI-CAN-1233 GE Proficy Historian ihDataArchiver.exe Trusted Header Size Remote Code Execution Vulnerability 2011-11-07 CVE-2011-1918 https://www.cve.org/CVERecord?id=CVE-2011-1918 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['GE'] ['Proficy Historian ihDataArchiver'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of GE Proficy Historian. Authentication is not required to exploit this vulnerability. The specific flaw exists within the ihDataArchiver.exe process which listens by default on TCP port 14000. The code within this module trusts a value supplied over the network and uses it as a length when copying user-supplied data to a stack buffer. By providing a large enough value, this buffer can be overflowed leading to arbitrary code execution under the context of the user running the service. GE has issued an update to correct this vulnerability. More details can be found at: http://support.ge-ip.com/support/index?page=kbchannel&id=S:KB14493 ['2011-06-02 - Vulnerability reported to vendor', '2011-11-07 - Coordinated public release of advisory'] Luigi Auriemma https://www.zerodayinitiative.com/advisories/ZDI-11-320/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-320/",
+  "title": "GE Proficy Historian ihDataArchiver.exe Trusted Header Size Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of GE Proficy Historian. Authentication is not required to exploit this vulnerability. The specific flaw exists within the ihDataArchiver.exe process which listens by default on TCP port 14000. The code within this module trusts a value supplied over the network and uses it as a length when copying user-supplied data to a stack buffer. By providing a large enough value, this buffer can be overflowed leading to arbitrary code execution under the context of the user running the service.",
+  "zdi_can": "ZDI-CAN-1233",
+  "zdi_id": "ZDI-11-320"
+}

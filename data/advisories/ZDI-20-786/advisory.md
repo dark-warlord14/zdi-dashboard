@@ -1,0 +1,27 @@
+# ZDI-20-786: VMware Workstation SVGA3D Command Heap Overflow Privilege Escalation Vulnerability
+
+## Metadata
+
+- **ZDI ID:** ZDI-20-786
+- **ZDI-CAN:** ZDI-CAN-10891
+- **Date:** 2020-06-30
+- **CVE:** CVE-2020-3969
+- **CVSS:** 8.8
+- **CVSS Vector:** AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H
+- **Affected Vendors:** VMware
+- **Affected Products:** Workstation
+- **Credit:** Corentin Bayet (@OnlyTheDuck) and Bruno Pujos (@BrunoPujos) from Synacktiv (@Synacktiv)
+- **Source:** https://www.zerodayinitiative.com/advisories/ZDI-20-786/
+## Vulnerability Details
+
+This vulnerability allows local attackers to escalate privileges on affected installations of VMware Workstation. An attacker must first obtain the ability to execute low-privileged code on the target guest system in order to exploit this vulnerability. The specific flaw exists within the implementation of SVGA3D commands. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the hypervisor.
+
+## Additional Details
+
+VMware has issued an update to correct this vulnerability. More details can be found at: https://www.vmware.com/security/advisories/VMSA-2020-0015.html
+
+## Disclosure Timeline
+
+- 2020-04-21 - Vulnerability reported to vendor
+- 2020-06-30 - Coordinated public release of advisory
+- 2021-06-29 - Advisory Updated

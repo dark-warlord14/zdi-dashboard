@@ -1,0 +1,28 @@
+{
+  "additional_details": "Fixed in version 26.3",
+  "advisory_date": "2026-04-15",
+  "affected_products": [
+    "Premium Security"
+  ],
+  "affected_vendors": [
+    "Avast"
+  ],
+  "credit": "aviel zohar",
+  "cve": "CVE-2026-5424",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-5424",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2026-04-01 - Vulnerability reported to vendor",
+    "2026-04-15 - Coordinated public release of advisory",
+    "2026-04-15 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-26-271 ZDI-CAN-29388 Avast Premium Security Gen Self Protection Driver Exposed Dangerous Function Local Privilege Escalation Vulnerability 2026-04-15 CVE-2026-5424 https://www.cve.org/CVERecord?id=CVE-2026-5424 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Avast'] ['Premium Security'] This vulnerability allows local attackers to escalate privileges on affected installations of Avast Premium Security. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Gen Self Protection driver. The issue results from an exposed dangerous function. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. Fixed in version 26.3 ['2026-04-01 - Vulnerability reported to vendor', '2026-04-15 - Coordinated public release of advisory', '2026-04-15 - Advisory Updated'] aviel zohar https://www.zerodayinitiative.com/advisories/ZDI-26-271/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-271/",
+  "title": "Avast Premium Security Gen Self Protection Driver Exposed Dangerous Function Local Privilege Escalation Vulnerability",
+  "updated_date": "2026-04-15",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Avast Premium Security. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Gen Self Protection driver. The issue results from an exposed dangerous function. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-29388",
+  "zdi_id": "ZDI-26-271"
+}

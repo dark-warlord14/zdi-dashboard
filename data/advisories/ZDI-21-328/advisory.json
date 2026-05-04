@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-26889",
+  "advisory_date": "2021-03-17",
+  "affected_products": [
+    "Windows"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Abdelhamid Naceri (halov)",
+  "cve": "CVE-2021-26889",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2021-26889",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2020-11-11 - Vulnerability reported to vendor",
+    "2021-03-17 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-21-328 ZDI-CAN-12109 Microsoft Windows Setup Directory Junction Privilege Escalation Vulnerability 2021-03-17 CVE-2021-26889 https://www.cve.org/CVERecord?id=CVE-2021-26889 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Microsoft'] ['Windows'] This vulnerability allows local attackers to escalate privileges on affected installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within Windows Setup. By creating a directory junction, an attacker can abuse Windows Setup to create a file in an arbitrary location. An attacker can leverage this vulnerability to escalate privileges and execute code in the context of SYSTEM. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-26889 ['2020-11-11 - Vulnerability reported to vendor', '2021-03-17 - Coordinated public release of advisory'] Abdelhamid Naceri (halov) https://www.zerodayinitiative.com/advisories/ZDI-21-328/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-21-328/",
+  "title": "Microsoft Windows Setup Directory Junction Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within Windows Setup. By creating a directory junction, an attacker can abuse Windows Setup to create a file in an arbitrary location. An attacker can leverage this vulnerability to escalate privileges and execute code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-12109",
+  "zdi_id": "ZDI-21-328"
+}

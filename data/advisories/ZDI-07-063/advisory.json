@@ -1,0 +1,28 @@
+{
+  "additional_details": "RealNetworks has issued an update to correct this vulnerability. More details can be found at: http://service.real.com/realplayer/security/10252007_player/en/",
+  "advisory_date": "2007-10-31",
+  "affected_products": [
+    "RealPlayer"
+  ],
+  "affected_vendors": [
+    "RealNetworks"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2007-2264",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2007-2264",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2007-02-16 - Vulnerability reported to vendor",
+    "2007-10-31 - Coordinated public release of advisory",
+    "2023-09-20 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-07-063 ZDI-CAN-150 RealPlayer RA Field Size File Processing Heap Overflow Vulnerability 2007-10-31 CVE-2007-2264 https://www.cve.org/CVERecord?id=CVE-2007-2264 ['RealNetworks'] ['RealPlayer'] This vulnerability allows remote attackers to execute code on vulnerable installations of RealPlayer. User interaction is required in that a user must open a malicious .ra/.ram file or visit a malicious web site. The specific flaw exists during the parsing of files with improperly defined size field in the RA header. Specifying a large unsigned value data can trigger a heap corruption and further result in arbitrary code execution under the context of the logged in user. RealNetworks has issued an update to correct this vulnerability. More details can be found at: http://service.real.com/realplayer/security/10252007_player/en/ ['2007-02-16 - Vulnerability reported to vendor', '2007-10-31 - Coordinated public release of advisory', '2023-09-20 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-07-063/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-07-063/",
+  "title": "RealPlayer RA Field Size File Processing Heap Overflow Vulnerability",
+  "updated_date": "2023-09-20",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute code on vulnerable installations of RealPlayer. User interaction is required in that a user must open a malicious .ra/.ram file or visit a malicious web site. The specific flaw exists during the parsing of files with improperly defined size field in the RA header. Specifying a large unsigned value data can trigger a heap corruption and further result in arbitrary code execution under the context of the logged in user.",
+  "zdi_can": "ZDI-CAN-150",
+  "zdi_id": "ZDI-07-063"
+}

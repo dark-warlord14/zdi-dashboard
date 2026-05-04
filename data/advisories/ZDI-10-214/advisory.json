@@ -1,0 +1,27 @@
+{
+  "additional_details": "this issue was fixed in Version 7.9.0.3 build: 1046. The down load for the rules update is called \"Apache Tomcat Weak Default Administrative Account Credentials\" and is available here: http://download4.boulder.ibm.com/sar/CMA/RAA/013m6/0/Rules-Update-749.exe It's called.",
+  "advisory_date": "2010-10-18",
+  "affected_products": [
+    "Rational Quality Manager"
+  ],
+  "affected_vendors": [
+    "IBM"
+  ],
+  "credit": "AbdulAziz Hariri",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2010-06-30 - Vulnerability reported to vendor",
+    "2010-10-18 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-10-214 ZDI-CAN-699 IBM Rational Quality Manager and Test Lab Manager Backdoor Account Remote Code Execution Vulnerability 2010-10-18 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['IBM'] ['Rational Quality Manager'] This vulnerability allows remote attackers to execute code on vulnerable installations of Rational Quality Manager and Rational Test Lab Manager. Authentication is not required to exploit this vulnerability. The flaw exists within the installation of the bundled tomcat server. The default ADMIN account is improperly disabled within 'tomcat-users.xml' An account providing manager role level access is left enabled with a default password. A remote attacker can use this vulnerability to execute arbitrary code under the context of the tomcat server. this issue was fixed in Version 7.9.0.3 build: 1046. The down load for the rules update is called \"Apache Tomcat Weak Default Administrative Account Credentials\" and is available here: http://download4.boulder.ibm.com/sar/CMA/RAA/013m6/0/Rules-Update-749.exe It's called. ['2010-06-30 - Vulnerability reported to vendor', '2010-10-18 - Coordinated public release of advisory'] AbdulAziz Hariri https://www.zerodayinitiative.com/advisories/ZDI-10-214/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-214/",
+  "title": "IBM Rational Quality Manager and Test Lab Manager Backdoor Account Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute code on vulnerable installations of Rational Quality Manager and Rational Test Lab Manager. Authentication is not required to exploit this vulnerability. The flaw exists within the installation of the bundled tomcat server. The default ADMIN account is improperly disabled within 'tomcat-users.xml' An account providing manager role level access is left enabled with a default password. A remote attacker can use this vulnerability to execute arbitrary code under the context of the tomcat server.",
+  "zdi_can": "ZDI-CAN-699",
+  "zdi_id": "ZDI-10-214"
+}

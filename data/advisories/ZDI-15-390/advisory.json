@@ -1,0 +1,27 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT201222",
+  "advisory_date": "2015-08-13",
+  "affected_products": [
+    "OS X"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2015-3799",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-3799",
+  "cvss": 7.2,
+  "cvss_vector": "AV:L/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2015-06-10 - Vulnerability reported to vendor",
+    "2015-08-13 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-15-390 ZDI-CAN-2996 Apple OS X iCloud Account Authentication Elevation Of Privilege Vulnerability 2015-08-13 CVE-2015-3799 https://www.cve.org/CVERecord?id=CVE-2015-3799 7.2 AV:L/AC:L/Au:N/C:C/I:C/A:C ['Apple'] ['OS X'] This vulnerability allows attackers to execute arbitrary code on vulnerable installations of Apple OS X. An attacker must have shell access to exploit this vulnerability, however Guest access is sufficient. The specific flaw exists within the authentication of users who use their iCloud account and password to log in to OS X. Any user is able to change the password of these users without knowing the previous password. This allows an attacker to run arbitrary commands as that user. If the target user is an Admin, the attacker can run arbitrary commands as root. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT201222 ['2015-06-10 - Vulnerability reported to vendor', '2015-08-13 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-15-390/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-390/",
+  "title": "Apple OS X iCloud Account Authentication Elevation Of Privilege Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows attackers to execute arbitrary code on vulnerable installations of Apple OS X. An attacker must have shell access to exploit this vulnerability, however Guest access is sufficient. The specific flaw exists within the authentication of users who use their iCloud account and password to log in to OS X. Any user is able to change the password of these users without knowing the previous password. This allows an attacker to run arbitrary commands as that user. If the target user is an Admin, the attacker can run arbitrary commands as root.",
+  "zdi_can": "ZDI-CAN-2996",
+  "zdi_id": "ZDI-15-390"
+}

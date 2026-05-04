@@ -1,0 +1,27 @@
+{
+  "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/creative-cloud/apsb16-11.html",
+  "advisory_date": "2016-04-12",
+  "affected_products": [
+    "Creative Cloud"
+  ],
+  "affected_vendors": [
+    "Adobe"
+  ],
+  "credit": "lokihardt",
+  "cve": "CVE-2016-1034",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-1034",
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2016-02-16 - Vulnerability reported to vendor",
+    "2016-04-12 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-16-235 ZDI-CAN-3543 Adobe Creative Cloud Node.js Remote Code Execution Vulnerability 2016-04-12 CVE-2016-1034 https://www.cve.org/CVERecord?id=CVE-2016-1034 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Adobe'] ['Creative Cloud'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Adobe Creative Cloud. Authentication is not required to exploit this vulnerability. The application exposes a services that listens on a random TCP port. The lack of authentication in the exposed service allows remote users to execute various methods from the API exposed by this service. An attacker can leverage this to execute code under the context of the current user. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/creative-cloud/apsb16-11.html ['2016-02-16 - Vulnerability reported to vendor', '2016-04-12 - Coordinated public release of advisory'] lokihardt https://www.zerodayinitiative.com/advisories/ZDI-16-235/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-235/",
+  "title": "Adobe Creative Cloud Node.js Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Adobe Creative Cloud. Authentication is not required to exploit this vulnerability. The application exposes a services that listens on a random TCP port. The lack of authentication in the exposed service allows remote users to execute various methods from the API exposed by this service. An attacker can leverage this to execute code under the context of the current user.",
+  "zdi_can": "ZDI-CAN-3543",
+  "zdi_id": "ZDI-16-235"
+}

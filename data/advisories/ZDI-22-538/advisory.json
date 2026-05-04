@@ -1,0 +1,28 @@
+{
+  "additional_details": "This vulnerability is being disclosed publicly without a patch in accordance with the ZDI 120 day deadline. 08/11/21 \u2013 ZDI reported the vulnerabilities to vendor 02/22/22 \u2013 ZDI requested an update 03/16/22 \u2013 ZDI notified the vendor of the intention to publish the cases as 0-day advisories on 03/24/22 -- Mitigation: Given the nature of the vulnerability the only salient mitigation strategy is to restrict interaction with the application.",
+  "advisory_date": "2022-03-24",
+  "affected_products": [
+    "Epic Games Launcher"
+  ],
+  "affected_vendors": [
+    "Epic Games"
+  ],
+  "credit": "Michael DePlante (@izobashi) of Trend Micro's Zero Day Initiative",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 6.1,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:H",
+  "disclosure_timeline": [
+    "2021-08-27 - Vulnerability reported to vendor",
+    "2022-03-24 - Coordinated public release of advisory",
+    "2022-03-29 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-538 ZDI-CAN-14615 (0Day) Epic Games Launcher Link Following Denial-of-Service Vulnerability 2022-03-24 6.1 AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:H ['Epic Games'] ['Epic Games Launcher'] This vulnerability allows local attackers to create a denial-of-service condition on affected installations of Epic Games Launcher. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Epic Games installer. By creating a symbolic link, an attacker can abuse the installer to delete a file. An attacker can leverage this vulnerability to create a denial-of-service condition on the system. This vulnerability is being disclosed publicly without a patch in accordance with the ZDI 120 day deadline. 08/11/21 \u2013 ZDI reported the vulnerabilities to vendor 02/22/22 \u2013 ZDI requested an update 03/16/22 \u2013 ZDI notified the vendor of the intention to publish the cases as 0-day advisories on 03/24/22 -- Mitigation: Given the nature of the vulnerability the only salient mitigation strategy is to restrict interaction with the application. ['2021-08-27 - Vulnerability reported to vendor', '2022-03-24 - Coordinated public release of advisory', '2022-03-29 - Advisory Updated'] Michael DePlante (@izobashi) of Trend Micro's Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-22-538/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-538/",
+  "title": "(0Day) Epic Games Launcher Link Following Denial-of-Service Vulnerability",
+  "updated_date": "2022-03-29",
+  "vulnerability_details": "This vulnerability allows local attackers to create a denial-of-service condition on affected installations of Epic Games Launcher. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Epic Games installer. By creating a symbolic link, an attacker can abuse the installer to delete a file. An attacker can leverage this vulnerability to create a denial-of-service condition on the system.",
+  "zdi_can": "ZDI-CAN-14615",
+  "zdi_id": "ZDI-22-538"
+}

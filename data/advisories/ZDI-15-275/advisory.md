@@ -1,0 +1,26 @@
+# ZDI-15-275: (0Day) SolarWinds Storage Manager AuthenticationFilter Remote Code Execution Vulnerability
+
+## Metadata
+
+- **ZDI ID:** ZDI-15-275
+- **ZDI-CAN:** ZDI-CAN-2622
+- **Date:** 2015-06-30
+- **CVE:** CVE-2015-5371
+- **CVSS:** 10.0
+- **CVSS Vector:** AV:N/AC:L/Au:N/C:C/I:C/A:C
+- **Affected Vendors:** SolarWinds
+- **Affected Products:** Storage Manager
+- **Credit:** Andrea Micalizzi (rgod)
+- **Source:** https://www.zerodayinitiative.com/advisories/ZDI-15-275/
+## Vulnerability Details
+
+This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of SolarWinds Storage Manager. Authentication is not required to exploit this vulnerability. The specific flaw exists within the AuthenticationFilter class. The issue lies in the ability to subvert the authentication filter. An attacker can leverage this vulnerability to upload malicious scripts that can then be used to execute code under the context of SYSTEM.
+
+## Additional Details
+
+This vulnerability is being disclosed publicly without a patch in accordance with the ZDI 120 day deadline. 01/15/2015 - ZDI disclosed the case to the vendor 01/15/2015 - The vendor acknowledged the report 04/29/2015 - ZDI sent an inquiry to the vendor regarding case status - no reply 06/24/2015 - ZDI sent an inquiry to the vendor regarding case status 06/24/2015 - The vendor replied. However, due to personnel changes was not familiar with the report. 06/25/2015 - ZDI indicated the case is overdue public release/0-day and has offered to re-send the report if needed 07/10/2015 - Vendor releases a hot fix -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the service to trusted machines. Only the clients and servers that have a legitimate procedural relationship with the service should be permitted to communicate with it. This could be accomplished in a number of ways, most notably with firewall rules/whitelisting. These features are available in the native Windows Firewall, as described in http://technet.microsoft.com/en-us/library/cc725770%28WS.10%29.aspx and numerous other Microsoft Knowledge Base articles. -- Vendor Response: The hot fix for the vulnerability is available to all SolarWinds Storage Manager customers. After applying this fix, the authentication bypass issue should no longer occur. For more information, contact Technical Support at www.solarwinds.net/support . The patch is available at http://downloads.solarwinds.com/solarwinds/Release/HotFix/STM-v6.1.0-HotFix1.zip
+
+## Disclosure Timeline
+
+- 2015-01-15 - Vulnerability reported to vendor
+- 2015-06-30 - Coordinated public release of advisory

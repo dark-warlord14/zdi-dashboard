@@ -1,0 +1,27 @@
+{
+  "additional_details": "Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html",
+  "advisory_date": "2022-11-23",
+  "affected_products": [
+    "PDF Reader"
+  ],
+  "affected_vendors": [
+    "Foxit"
+  ],
+  "credit": "Mat Powell of Trend Micro Zero Day Initiative",
+  "cve": "CVE-2022-43641",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-43641",
+  "cvss": 3.3,
+  "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+  "disclosure_timeline": [
+    "2022-09-20 - Vulnerability reported to vendor",
+    "2022-11-23 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-1661 ZDI-CAN-18894 Foxit PDF Reader U3D File Parsing Use-After-Free Information Disclosure Vulnerability 2022-11-23 CVE-2022-43641 https://www.cve.org/CVERecord?id=CVE-2022-43641 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N ['Foxit'] ['PDF Reader'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of U3D files. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process. Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html ['2022-09-20 - Vulnerability reported to vendor', '2022-11-23 - Coordinated public release of advisory'] Mat Powell of Trend Micro Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-22-1661/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-1661/",
+  "title": "Foxit PDF Reader U3D File Parsing Use-After-Free Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of U3D files. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-18894",
+  "zdi_id": "ZDI-22-1661"
+}

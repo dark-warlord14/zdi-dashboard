@@ -1,0 +1,28 @@
+{
+  "additional_details": "SAP has issued an update to correct this vulnerability. More details can be found at: https://blogs.sap.com/2018/05/08/sap-security-patch-day-may-2018/",
+  "advisory_date": "2018-05-14",
+  "affected_products": [
+    "MaxDB"
+  ],
+  "affected_vendors": [
+    "SAP"
+  ],
+  "credit": "rgod",
+  "cve": "CVE-2018-2418",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2018-2418",
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2018-01-04 - Vulnerability reported to vendor",
+    "2018-05-14 - Coordinated public release of advisory",
+    "2018-05-14 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-423 ZDI-CAN-5478 SAP MaxDB Data Link Properties Stack-based Buffer Overflow Remote Code Execution Vulnerability 2018-05-14 CVE-2018-2418 https://www.cve.org/CVERecord?id=CVE-2018-2418 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['SAP'] ['MaxDB'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of SAP MaxDB. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of UDL files by the Data Link Properties dialog. When parsing the Servername element, the process does not properly validate the length of user-supplied data prior to copying it to a stack-based buffer. An attacker can leverage this vulnerability to execute code under the context of the process. SAP has issued an update to correct this vulnerability. More details can be found at: https://blogs.sap.com/2018/05/08/sap-security-patch-day-may-2018/ ['2018-01-04 - Vulnerability reported to vendor', '2018-05-14 - Coordinated public release of advisory', '2018-05-14 - Advisory Updated'] rgod https://www.zerodayinitiative.com/advisories/ZDI-18-423/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-423/",
+  "title": "SAP MaxDB Data Link Properties Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+  "updated_date": "2018-05-14",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of SAP MaxDB. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of UDL files by the Data Link Properties dialog. When parsing the Servername element, the process does not properly validate the length of user-supplied data prior to copying it to a stack-based buffer. An attacker can leverage this vulnerability to execute code under the context of the process.",
+  "zdi_can": "ZDI-CAN-5478",
+  "zdi_id": "ZDI-18-423"
+}

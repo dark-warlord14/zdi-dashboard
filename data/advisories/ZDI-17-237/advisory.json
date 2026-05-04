@@ -1,0 +1,27 @@
+{
+  "additional_details": "VMware has issued an update to correct this vulnerability. More details can be found at: http://www.vmware.com/security/advisories/VMSA-2017-0006.html",
+  "advisory_date": "2017-03-30",
+  "affected_products": [
+    "VMware Workstation"
+  ],
+  "affected_vendors": [
+    "VMware"
+  ],
+  "credit": "360 Security",
+  "cve": "CVE-2017-4903",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-4903",
+  "cvss": 6.9,
+  "cvss_vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2017-03-18 - Vulnerability reported to vendor",
+    "2017-03-30 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-17-237 ZDI-CAN-4627 (Pwn2Own) VMware Workstation SVGA Uninitialized Memory Privilege Escalation Vulnerability 2017-03-30 CVE-2017-4903 https://www.cve.org/CVERecord?id=CVE-2017-4903 6.9 AV:L/AC:M/Au:N/C:C/I:C/A:C ['VMware'] ['VMware Workstation'] This vulnerability allows local attackers to execute arbitrary code on vulnerable installations of VMware Workstation. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of SVGA graphics. The issue results from the lack of proper initialization of memory prior to accessing it. An attacker can leverage this vulnerability to elevate privileges and execute arbitrary code under the context of the hypervisor. VMware has issued an update to correct this vulnerability. More details can be found at: http://www.vmware.com/security/advisories/VMSA-2017-0006.html ['2017-03-18 - Vulnerability reported to vendor', '2017-03-30 - Coordinated public release of advisory'] 360 Security https://www.zerodayinitiative.com/advisories/ZDI-17-237/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-237/",
+  "title": "(Pwn2Own) VMware Workstation SVGA Uninitialized Memory Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to execute arbitrary code on vulnerable installations of VMware Workstation. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of SVGA graphics. The issue results from the lack of proper initialization of memory prior to accessing it. An attacker can leverage this vulnerability to elevate privileges and execute arbitrary code under the context of the hypervisor.",
+  "zdi_can": "ZDI-CAN-4627",
+  "zdi_id": "ZDI-17-237"
+}

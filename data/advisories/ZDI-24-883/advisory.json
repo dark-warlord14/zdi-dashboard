@@ -1,0 +1,28 @@
+{
+  "additional_details": "Zen Cart has issued an update to correct this vulnerability. More details can be found at: https://docs.zen-cart.com/release/whatsnew_2.0.0",
+  "advisory_date": "2024-06-26",
+  "affected_products": [
+    "Zen Cart"
+  ],
+  "affected_vendors": [
+    "Zen Cart"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2024-5762",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-5762",
+  "cvss": 8.1,
+  "cvss_vector": "AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2023-08-28 - Vulnerability reported to vendor",
+    "2024-06-26 - Coordinated public release of advisory",
+    "2024-08-15 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-883 ZDI-CAN-21408 Zen Cart findPluginAdminPage Local File Inclusion Remote Code Execution Vulnerability 2024-06-26 CVE-2024-5762 https://www.cve.org/CVERecord?id=CVE-2024-5762 8.1 AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H ['Zen Cart'] ['Zen Cart'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Zen Cart. Authentication is not required to exploit this vulnerability. The specific flaw exists within the findPluginAdminPage function. The issue results from the lack of proper validation of user-supplied data prior to passing it to a PHP include function. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the service account. Zen Cart has issued an update to correct this vulnerability. More details can be found at: https://docs.zen-cart.com/release/whatsnew_2.0.0 ['2023-08-28 - Vulnerability reported to vendor', '2024-06-26 - Coordinated public release of advisory', '2024-08-15 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-24-883/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-883/",
+  "title": "Zen Cart findPluginAdminPage Local File Inclusion Remote Code Execution Vulnerability",
+  "updated_date": "2024-08-15",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Zen Cart. Authentication is not required to exploit this vulnerability. The specific flaw exists within the findPluginAdminPage function. The issue results from the lack of proper validation of user-supplied data prior to passing it to a PHP include function. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the service account.",
+  "zdi_can": "ZDI-CAN-21408",
+  "zdi_id": "ZDI-24-883"
+}

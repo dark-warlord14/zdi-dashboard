@@ -1,0 +1,27 @@
+{
+  "additional_details": "Cisco has issued an update to correct this vulnerability. More details can be found at: https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200304-webex-player",
+  "advisory_date": "2020-03-05",
+  "affected_products": [
+    "WebEx"
+  ],
+  "affected_vendors": [
+    "Cisco"
+  ],
+  "credit": "Francis Provencher {PRL}",
+  "cve": "CVE-2020-3127",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2020-3127",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2019-10-24 - Vulnerability reported to vendor",
+    "2020-03-05 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-20-269 ZDI-CAN-9491 Cisco WebEx Network Recording Player ARF File Uninitialized Pointer Remote Code Execution Vulnerability 2020-03-05 CVE-2020-3127 https://www.cve.org/CVERecord?id=CVE-2020-3127 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Cisco'] ['WebEx'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Cisco WebEx Network Recording Player. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of ARF files. Crafted data in an ARF file can trigger access to memory prior to initialization. An attacker can leverage this vulnerability to execute code in the context of the current process. Cisco has issued an update to correct this vulnerability. More details can be found at: https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200304-webex-player ['2019-10-24 - Vulnerability reported to vendor', '2020-03-05 - Coordinated public release of advisory'] Francis Provencher {PRL} https://www.zerodayinitiative.com/advisories/ZDI-20-269/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-20-269/",
+  "title": "Cisco WebEx Network Recording Player ARF File Uninitialized Pointer Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Cisco WebEx Network Recording Player. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of ARF files. Crafted data in an ARF file can trigger access to memory prior to initialization. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-9491",
+  "zdi_id": "ZDI-20-269"
+}

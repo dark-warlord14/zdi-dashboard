@@ -1,0 +1,27 @@
+{
+  "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/coldfusion/apsb23-25.html",
+  "advisory_date": "2023-08-14",
+  "affected_products": [
+    "ColdFusion"
+  ],
+  "affected_vendors": [
+    "Adobe"
+  ],
+  "credit": "Dusan Stevanovic of Trend Micro Security Research",
+  "cve": "CVE-2023-26361",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-26361",
+  "cvss": 4.9,
+  "cvss_vector": "AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N",
+  "disclosure_timeline": [
+    "2023-02-21 - Vulnerability reported to vendor",
+    "2023-08-14 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-1102 ZDI-CAN-20474 Adobe ColdFusion copydirectory Directory Traversal Information Disclosure Vulnerability 2023-08-14 CVE-2023-26361 https://www.cve.org/CVERecord?id=CVE-2023-26361 4.9 AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N ['Adobe'] ['ColdFusion'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Adobe ColdFusion. Authentication is required to exploit this vulnerability. The specific flaw exists within the copydirectory endpoint. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to disclose information in the context of SYSTEM. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/coldfusion/apsb23-25.html ['2023-02-21 - Vulnerability reported to vendor', '2023-08-14 - Coordinated public release of advisory'] Dusan Stevanovic of Trend Micro Security Research https://www.zerodayinitiative.com/advisories/ZDI-23-1102/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-1102/",
+  "title": "Adobe ColdFusion copydirectory Directory Traversal Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Adobe ColdFusion. Authentication is required to exploit this vulnerability. The specific flaw exists within the copydirectory endpoint. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to disclose information in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-20474",
+  "zdi_id": "ZDI-23-1102"
+}

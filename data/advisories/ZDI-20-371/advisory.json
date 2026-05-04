@@ -1,0 +1,27 @@
+{
+  "additional_details": "Schneider Electric has issued an update to correct this vulnerability. More details can be found at: https://www.us-cert.gov/ics/advisories/icsa-20-084-02",
+  "advisory_date": "2020-04-03",
+  "affected_products": [
+    "IGSS"
+  ],
+  "affected_vendors": [
+    "Schneider Electric"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2020-7478",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2020-7478",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+  "disclosure_timeline": [
+    "2019-12-11 - Vulnerability reported to vendor",
+    "2020-04-03 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-20-371 ZDI-CAN-9757 Schneider Electric IGSS IGSSupdateservice Directory Traversal Information Disclosure Vulnerability 2020-04-03 CVE-2020-7478 https://www.cve.org/CVERecord?id=CVE-2020-7478 7.5 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N ['Schneider Electric'] ['IGSS'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Schneider Electric IGSS. Authentication is not required to exploit this vulnerability. The specific flaw exists within the IGSSupdateservice service, which listens on TCP port 12414 by default. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to disclose files in the context of SYSTEM. Schneider Electric has issued an update to correct this vulnerability. More details can be found at: https://www.us-cert.gov/ics/advisories/icsa-20-084-02 ['2019-12-11 - Vulnerability reported to vendor', '2020-04-03 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-20-371/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-20-371/",
+  "title": "Schneider Electric IGSS IGSSupdateservice Directory Traversal Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Schneider Electric IGSS. Authentication is not required to exploit this vulnerability. The specific flaw exists within the IGSSupdateservice service, which listens on TCP port 12414 by default. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to disclose files in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-9757",
+  "zdi_id": "ZDI-20-371"
+}

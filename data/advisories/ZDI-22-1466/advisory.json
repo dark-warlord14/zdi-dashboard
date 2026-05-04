@@ -1,0 +1,27 @@
+{
+  "additional_details": "Fixed in firmware 220914.",
+  "advisory_date": "2022-10-25",
+  "affected_products": [
+    "TL-WR841N"
+  ],
+  "affected_vendors": [
+    "TP-Link"
+  ],
+  "credit": "Cyrille Chatras",
+  "cve": "CVE-2022-42433",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-42433",
+  "cvss": 6.4,
+  "cvss_vector": "AV:A/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2022-07-19 - Vulnerability reported to vendor",
+    "2022-10-25 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-1466 ZDI-CAN-17356 TP-Link TL-WR841N ated_tp Command Injection Remote Code Execution Vulnerability 2022-10-25 CVE-2022-42433 https://www.cve.org/CVERecord?id=CVE-2022-42433 6.4 AV:A/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H ['TP-Link'] ['TL-WR841N'] This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of TP-Link TL-WR841N routers. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed. The specific flaw exists within the ated_tp service. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of root. Fixed in firmware 220914. ['2022-07-19 - Vulnerability reported to vendor', '2022-10-25 - Coordinated public release of advisory'] Cyrille Chatras https://www.zerodayinitiative.com/advisories/ZDI-22-1466/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-1466/",
+  "title": "TP-Link TL-WR841N ated_tp Command Injection Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of TP-Link TL-WR841N routers. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed. The specific flaw exists within the ated_tp service. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of root.",
+  "zdi_can": "ZDI-CAN-17356",
+  "zdi_id": "ZDI-22-1466"
+}

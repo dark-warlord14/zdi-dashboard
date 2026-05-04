@@ -1,0 +1,27 @@
+{
+  "additional_details": "Symantec has issued an update to correct this vulnerability. More details can be found at: http://www.symantec.com/business/security_response/securityupdates/detail.jsp?fid=security_advisory&pvid=security_advisory&year=2011&suid=20110112_00",
+  "advisory_date": "2011-01-12",
+  "affected_products": [
+    "Web Gateway"
+  ],
+  "affected_vendors": [
+    "Symantec"
+  ],
+  "credit": "RadLSneak",
+  "cve": "CVE-2010-0115",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2010-0115",
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2010-09-23 - Vulnerability reported to vendor",
+    "2011-01-12 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-11-013 ZDI-CAN-879 Symantec Web Gateway Management Interface USERNAME Blind SQL Injection Remote Code Execution Vulnerability 2011-01-12 CVE-2010-0115 https://www.cve.org/CVERecord?id=CVE-2010-0115 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Symantec'] ['Web Gateway'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Symantec Web Gateway. Authentication is not required to exploit this vulnerability. The specific flaw exists within the management interface which listens by default on TCP port 443. While parsing requests sent to the login.php page, the process does not properly sanitize the USERNAME POST parameter. By sending a specially crafted string, a remote attacker can leverage this vulnerability to inject arbitrary SQL into the backend database on the server. Symantec has issued an update to correct this vulnerability. More details can be found at: http://www.symantec.com/business/security_response/securityupdates/detail.jsp?fid=security_advisory&pvid=security_advisory&year=2011&suid=20110112_00 ['2010-09-23 - Vulnerability reported to vendor', '2011-01-12 - Coordinated public release of advisory'] RadLSneak https://www.zerodayinitiative.com/advisories/ZDI-11-013/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-013/",
+  "title": "Symantec Web Gateway Management Interface USERNAME Blind SQL Injection Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Symantec Web Gateway. Authentication is not required to exploit this vulnerability. The specific flaw exists within the management interface which listens by default on TCP port 443. While parsing requests sent to the login.php page, the process does not properly sanitize the USERNAME POST parameter. By sending a specially crafted string, a remote attacker can leverage this vulnerability to inject arbitrary SQL into the backend database on the server.",
+  "zdi_can": "ZDI-CAN-879",
+  "zdi_id": "ZDI-11-013"
+}

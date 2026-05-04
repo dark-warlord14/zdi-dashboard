@@ -1,0 +1,28 @@
+{
+  "additional_details": "Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html",
+  "advisory_date": "2025-08-21",
+  "affected_products": [
+    "PDF Reader"
+  ],
+  "affected_vendors": [
+    "Foxit"
+  ],
+  "credit": "Alexander Staalgaard",
+  "cve": "CVE-2025-9330",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-9330",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2025-06-17 - Vulnerability reported to vendor",
+    "2025-08-21 - Coordinated public release of advisory",
+    "2025-08-21 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-870 ZDI-CAN-25709 Foxit PDF Reader Update Service Uncontrolled Search Path Element Local Privilege Escalation Vulnerability 2025-08-21 CVE-2025-9330 https://www.cve.org/CVERecord?id=CVE-2025-9330 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Foxit'] ['PDF Reader'] This vulnerability allows local attackers to escalate privileges on affected installations of Foxit PDF Reader. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Foxit Reader Update Service. The product loads a library from an unsecured location. An attacker can leverage this vulnerability to escalate privileges and execute code in the context of SYSTEM. Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html ['2025-06-17 - Vulnerability reported to vendor', '2025-08-21 - Coordinated public release of advisory', '2025-08-21 - Advisory Updated'] Alexander Staalgaard https://www.zerodayinitiative.com/advisories/ZDI-25-870/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-870/",
+  "title": "Foxit PDF Reader Update Service Uncontrolled Search Path Element Local Privilege Escalation Vulnerability",
+  "updated_date": "2025-08-21",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Foxit PDF Reader. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Foxit Reader Update Service. The product loads a library from an unsecured location. An attacker can leverage this vulnerability to escalate privileges and execute code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-25709",
+  "zdi_id": "ZDI-25-870"
+}

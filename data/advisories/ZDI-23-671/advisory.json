@@ -1,0 +1,27 @@
+{
+  "additional_details": "Delta Electronics has issued an update to correct this vulnerability. More details can be found at: https://www.cisa.gov/news-events/ics-advisories/icsa-22-307-03",
+  "advisory_date": "2023-05-17",
+  "affected_products": [
+    "DIALink"
+  ],
+  "affected_vendors": [
+    "Delta Electronics"
+  ],
+  "credit": "Y4er",
+  "cve": "CVE-2022-2969",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-2969",
+  "cvss": 8.1,
+  "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H",
+  "disclosure_timeline": [
+    "2022-07-26 - Vulnerability reported to vendor",
+    "2023-05-17 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-671 ZDI-CAN-16888 Delta Industrial Automation DIALink Directory Traversal Arbitrary File Creation Vulnerability 2023-05-17 CVE-2022-2969 https://www.cve.org/CVERecord?id=CVE-2022-2969 8.1 AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H ['Delta Electronics'] ['DIALink'] This vulnerability allows remote attackers to create arbitrary files on affected installations of Delta Industrial Automation DIALink. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed. The specific flaw exists within the opcua endpoint of the web service, which listens on TCP port 5000 by default. When parsing the filename parameter, the process does not properly validate a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to create files in the context of the web service. Delta Electronics has issued an update to correct this vulnerability. More details can be found at: https://www.cisa.gov/news-events/ics-advisories/icsa-22-307-03 ['2022-07-26 - Vulnerability reported to vendor', '2023-05-17 - Coordinated public release of advisory'] Y4er https://www.zerodayinitiative.com/advisories/ZDI-23-671/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-671/",
+  "title": "Delta Industrial Automation DIALink Directory Traversal Arbitrary File Creation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to create arbitrary files on affected installations of Delta Industrial Automation DIALink. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed. The specific flaw exists within the opcua endpoint of the web service, which listens on TCP port 5000 by default. When parsing the filename parameter, the process does not properly validate a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to create files in the context of the web service.",
+  "zdi_can": "ZDI-CAN-16888",
+  "zdi_id": "ZDI-23-671"
+}

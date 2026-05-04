@@ -1,0 +1,27 @@
+{
+  "additional_details": "Sophos has issued an update to correct this vulnerability. More details can be found at: http://www.sophos.com/support/knowledgebase/article/4934.html",
+  "advisory_date": "2006-05-08",
+  "affected_products": [
+    "Sophos Anti-Virus"
+  ],
+  "affected_vendors": [
+    "Sophos"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2006-0994",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2006-0994",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2006-03-20 - Vulnerability reported to vendor",
+    "2006-05-08 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-06-012 ZDI-CAN-032 Sophos Anti-Virus CAB Unpacking Code Execution Vulnerability 2006-05-08 CVE-2006-0994 https://www.cve.org/CVERecord?id=CVE-2006-0994 ['Sophos'] ['Sophos Anti-Virus'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Sophos AntiVirus. Authentication is not required to exploit this vulnerability. The specific flaw exists within the unpacking of Microsoft Cabinet files that contain invalid folder count values within the CAB header. Parsing of a specially crafted cabinet file can lead to an exploitable heap corruption. This vulnerability is only exposed when cabinet file inspection is explicitly enabled. Sophos has issued an update to correct this vulnerability. More details can be found at: http://www.sophos.com/support/knowledgebase/article/4934.html ['2006-03-20 - Vulnerability reported to vendor', '2006-05-08 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-06-012/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-06-012/",
+  "title": "Sophos Anti-Virus CAB Unpacking Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Sophos AntiVirus. Authentication is not required to exploit this vulnerability. The specific flaw exists within the unpacking of Microsoft Cabinet files that contain invalid folder count values within the CAB header. Parsing of a specially crafted cabinet file can lead to an exploitable heap corruption. This vulnerability is only exposed when cabinet file inspection is explicitly enabled.",
+  "zdi_can": "ZDI-CAN-032",
+  "zdi_id": "ZDI-06-012"
+}

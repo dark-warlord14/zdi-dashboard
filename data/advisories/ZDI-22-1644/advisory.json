@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-41082",
+  "advisory_date": "2022-11-22",
+  "affected_products": [
+    "Exchange"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Piotr Bazydlo (@chudypb) of Trend Micro Zero Day Initiative",
+  "cve": "CVE-2022-41082",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-41082",
+  "cvss": 7.1,
+  "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:L",
+  "disclosure_timeline": [
+    "2022-09-29 - Vulnerability reported to vendor",
+    "2022-11-22 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-1644 ZDI-CAN-18952 Microsoft Exchange RecipientProvisioningDefinition External Entity Processing Information Disclosure Vulnerability 2022-11-22 CVE-2022-41082 https://www.cve.org/CVERecord?id=CVE-2022-41082 7.1 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:L ['Microsoft'] ['Exchange'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Microsoft Exchange. Authentication is required to exploit this vulnerability. The specific flaw exists within the RecipientProvisioningDefinition class. Due to the improper restriction of XML External Entity (XXE) references, a crafted document specifying a URI causes the XML parser to access the URI and embed the contents back into the XML document for further processing. An attacker can leverage this vulnerability to disclose information in the context of SYSTEM. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-41082 ['2022-09-29 - Vulnerability reported to vendor', '2022-11-22 - Coordinated public release of advisory'] Piotr Bazydlo (@chudypb) of Trend Micro Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-22-1644/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-1644/",
+  "title": "Microsoft Exchange RecipientProvisioningDefinition External Entity Processing Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Microsoft Exchange. Authentication is required to exploit this vulnerability. The specific flaw exists within the RecipientProvisioningDefinition class. Due to the improper restriction of XML External Entity (XXE) references, a crafted document specifying a URI causes the XML parser to access the URI and embed the contents back into the XML document for further processing. An attacker can leverage this vulnerability to disclose information in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-18952",
+  "zdi_id": "ZDI-22-1644"
+}

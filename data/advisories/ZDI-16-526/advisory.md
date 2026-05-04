@@ -1,0 +1,26 @@
+# ZDI-16-526: (0Day) Google Chrome Protocol Handler Logic Error Restrictions Bypass Vulnerability
+
+## Metadata
+
+- **ZDI ID:** ZDI-16-526
+- **ZDI-CAN:** ZDI-CAN-3625
+- **Date:** 2016-09-21
+- **CVE:** N/A
+- **CVSS:** 6.8
+- **CVSS Vector:** AV:N/AC:M/Au:N/C:P/I:P/A:P
+- **Affected Vendors:** Google
+- **Affected Products:** Chrome
+- **Credit:** lokihardt
+- **Source:** https://www.zerodayinitiative.com/advisories/ZDI-16-526/
+## Vulnerability Details
+
+This vulnerability allows remote attackers to bypass restrictions on vulnerable installations of Google Chrome. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of URIs with the chrome protocol handler. The issue lies in the failure to isolate JavaScript from interacting with privileged chrome URIs. An attacker can leverage this in conjunction with other vulnerabilities to execute code in the context of the current process.
+
+## Additional Details
+
+This vulnerability is being disclosed publicly without a patch in accordance with the ZDI 120 day deadline. 03/17/2016 - ZDI disclosed the report to the vendor 03/17/2016 - The vendor acknowledged that "This is known behavior, we should reevaluate if this can be fixed / restricted in some manner." 05/18/2016 - ZDI sent a follow-up inquiry to the vendor 06/22/2016 - ZDI sent a follow-up inquiry to the vendor 06/30/2016 - The vendor let ZDI know they were still discussing the case, whether to 'fix' or 'working as intended' Given this, ZDI granted an extension. 08/25/2016 - ZDI notified the vendor of the intent to publish the report as 0-day 08/29/2016 - ZDI got an ACK from the vendor and a inquiry as to our "drop dead date" 08/30/2016 - ZDI replied that date as 09/19/2016 -- Mitigation: Given the stated purpose of Google Chrome, and the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the application to trusted sites.
+
+## Disclosure Timeline
+
+- 2016-03-19 - Vulnerability reported to vendor
+- 2016-09-21 - Coordinated public release of advisory

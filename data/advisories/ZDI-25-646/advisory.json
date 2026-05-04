@@ -1,0 +1,28 @@
+{
+  "additional_details": "Amazon has issued an update to correct this vulnerability. More details can be found at: https://aws.amazon.com/security/security-bulletins/AWS-2025-014/",
+  "advisory_date": "2025-07-24",
+  "affected_products": [
+    "AWS Client VPN"
+  ],
+  "affected_vendors": [
+    "Amazon"
+  ],
+  "credit": "Xavier DANEST",
+  "cve": "CVE-2025-8069",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-8069",
+  "cvss": 7.0,
+  "cvss_vector": "AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2025-05-21 - Vulnerability reported to vendor",
+    "2025-07-24 - Coordinated public release of advisory",
+    "2025-07-24 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-646 ZDI-CAN-26780 Amazon AWS Client VPN Uncontrolled Search Path Element Local Privilege Escalation Vulnerability 2025-07-24 CVE-2025-8069 https://www.cve.org/CVERecord?id=CVE-2025-8069 7.0 AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H ['Amazon'] ['AWS Client VPN'] This vulnerability allows local attackers to escalate privileges on affected installations of Amazon AWS Client VPN. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the configuration of OpenSSL. The process loads an OpenSSL configuration file from an unsecured location. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. Amazon has issued an update to correct this vulnerability. More details can be found at: https://aws.amazon.com/security/security-bulletins/AWS-2025-014/ ['2025-05-21 - Vulnerability reported to vendor', '2025-07-24 - Coordinated public release of advisory', '2025-07-24 - Advisory Updated'] Xavier DANEST https://www.zerodayinitiative.com/advisories/ZDI-25-646/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-646/",
+  "title": "Amazon AWS Client VPN Uncontrolled Search Path Element Local Privilege Escalation Vulnerability",
+  "updated_date": "2025-07-24",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Amazon AWS Client VPN. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the configuration of OpenSSL. The process loads an OpenSSL configuration file from an unsecured location. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-26780",
+  "zdi_id": "ZDI-25-646"
+}

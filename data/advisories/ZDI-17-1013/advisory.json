@@ -1,0 +1,28 @@
+{
+  "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb17-36.html",
+  "advisory_date": "2018-03-07",
+  "affected_products": [
+    "Acrobat Pro DC"
+  ],
+  "affected_vendors": [
+    "Adobe"
+  ],
+  "credit": "Ke Liu of Tencent's Xuanwu LAB",
+  "cve": "CVE-2017-11308",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-11308",
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2017-10-26 - Vulnerability reported to vendor",
+    "2018-03-07 - Coordinated public release of advisory",
+    "2018-03-07 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-17-1013 ZDI-CAN-5154 Adobe Acrobat Pro DC ImageConversion EMF BMP Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability 2018-03-07 CVE-2017-11308 https://www.cve.org/CVERecord?id=CVE-2017-11308 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Adobe'] ['Acrobat Pro DC'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Adobe Acrobat Pro DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of BMP images embedded inside EMF files. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length heap-based buffer. An attacker can leverage this vulnerability to execute code under the context of the current process. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb17-36.html ['2017-10-26 - Vulnerability reported to vendor', '2018-03-07 - Coordinated public release of advisory', '2018-03-07 - Advisory Updated'] Ke Liu of Tencent's Xuanwu LAB https://www.zerodayinitiative.com/advisories/ZDI-17-1013/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-1013/",
+  "title": "Adobe Acrobat Pro DC ImageConversion EMF BMP Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+  "updated_date": "2018-03-07",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Adobe Acrobat Pro DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of BMP images embedded inside EMF files. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length heap-based buffer. An attacker can leverage this vulnerability to execute code under the context of the current process.",
+  "zdi_can": "ZDI-CAN-5154",
+  "zdi_id": "ZDI-17-1013"
+}

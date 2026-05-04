@@ -1,0 +1,28 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-0841",
+  "advisory_date": "2018-02-28",
+  "affected_products": [
+    "Office Excel"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "A3F2160DCA1BDE70DA1D99ED267D5DC1EC336192",
+  "cve": "CVE-2018-0841",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2018-0841",
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2017-12-07 - Vulnerability reported to vendor",
+    "2018-02-28 - Coordinated public release of advisory",
+    "2018-02-28 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-219 ZDI-CAN-5470 Microsoft Office Excel XLS File Type Confusion Remote Code Execution Vulnerability 2018-02-28 CVE-2018-0841 https://www.cve.org/CVERecord?id=CVE-2018-0841 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Microsoft'] ['Office Excel'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Office Excel. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the processing of XLS files. The issue results from the lack of proper validation of user-supplied data, which can result in a type confusion condition. An attacker can leverage this vulnerability to execute code under the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-0841 ['2017-12-07 - Vulnerability reported to vendor', '2018-02-28 - Coordinated public release of advisory', '2018-02-28 - Advisory Updated'] A3F2160DCA1BDE70DA1D99ED267D5DC1EC336192 https://www.zerodayinitiative.com/advisories/ZDI-18-219/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-219/",
+  "title": "Microsoft Office Excel XLS File Type Confusion Remote Code Execution Vulnerability",
+  "updated_date": "2018-02-28",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Office Excel. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the processing of XLS files. The issue results from the lack of proper validation of user-supplied data, which can result in a type confusion condition. An attacker can leverage this vulnerability to execute code under the context of the current process.",
+  "zdi_can": "ZDI-CAN-5470",
+  "zdi_id": "ZDI-18-219"
+}

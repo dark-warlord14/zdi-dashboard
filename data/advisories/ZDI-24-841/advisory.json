@@ -1,0 +1,28 @@
+{
+  "additional_details": "07/13/23 \u2013 ZDI reported the vulnerability to the vendor 11/15/23 \u2013 ZDI asked for updates 12/19/23 \u2013 ZDI asked for updates 06/20/24 \u2013 ZDI notified the vendor of the intention to publish the cases as 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the application.",
+  "advisory_date": "2024-06-21",
+  "affected_products": [
+    "Zope"
+  ],
+  "affected_vendors": [
+    "Zope"
+  ],
+  "credit": "Anonymous",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+  "disclosure_timeline": [
+    "2023-07-13 - Vulnerability reported to vendor",
+    "2024-06-21 - Coordinated public release of advisory",
+    "2024-08-15 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-841 ZDI-CAN-21491 (0Day) Zope CMFCore Uncontrolled Resource Consumption Denial-of-Service Vulnerability 2024-06-21 7.5 AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H ['Zope'] ['Zope'] This vulnerability allows network-adjacent attackers to create a denial-of-service condition on affected installations of Zope Application Server. Authentication is not required to exploit this vulnerability. The specific flaw exists within the contentFilter class. The issue results from uncontrolled resource consumption. An attacker can leverage this vulnerability to create a denial-of-service condition on the server. 07/13/23 \u2013 ZDI reported the vulnerability to the vendor 11/15/23 \u2013 ZDI asked for updates 12/19/23 \u2013 ZDI asked for updates 06/20/24 \u2013 ZDI notified the vendor of the intention to publish the cases as 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the application. ['2023-07-13 - Vulnerability reported to vendor', '2024-06-21 - Coordinated public release of advisory', '2024-08-15 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-24-841/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-841/",
+  "title": "(0Day) Zope CMFCore Uncontrolled Resource Consumption Denial-of-Service Vulnerability",
+  "updated_date": "2024-08-15",
+  "vulnerability_details": "This vulnerability allows network-adjacent attackers to create a denial-of-service condition on affected installations of Zope Application Server. Authentication is not required to exploit this vulnerability. The specific flaw exists within the contentFilter class. The issue results from uncontrolled resource consumption. An attacker can leverage this vulnerability to create a denial-of-service condition on the server.",
+  "zdi_can": "ZDI-CAN-21491",
+  "zdi_id": "ZDI-24-841"
+}

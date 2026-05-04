@@ -1,0 +1,27 @@
+{
+  "additional_details": "ManageEngine has issued an update to correct this vulnerability. More details can be found at: https://www.manageengine.com/products/self-service-password/advisory/CVE-2023-28342.html",
+  "advisory_date": "2023-04-12",
+  "affected_products": [
+    "ADSelfService Plus"
+  ],
+  "affected_vendors": [
+    "ManageEngine"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2023-28342",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-28342",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+  "disclosure_timeline": [
+    "2023-02-17 - Vulnerability reported to vendor",
+    "2023-04-12 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-437 ZDI-CAN-20008 ManageEngine ADSelfService Plus DomainUserSSPLogonAuth Improper Input Validation Denial-of-Service Vulnerability 2023-04-12 CVE-2023-28342 https://www.cve.org/CVERecord?id=CVE-2023-28342 7.5 AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H ['ManageEngine'] ['ADSelfService Plus'] This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of ManageEngine ADSelfService Plus. Authentication is not required to exploit this vulnerability. The specific flaw exists within the DomainUserSSPLogonAuth method. The issue results from improper input validation. An attacker can leverage this vulnerability to create a denial-of-service condition on the system. ManageEngine has issued an update to correct this vulnerability. More details can be found at: https://www.manageengine.com/products/self-service-password/advisory/CVE-2023-28342.html ['2023-02-17 - Vulnerability reported to vendor', '2023-04-12 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-23-437/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-437/",
+  "title": "ManageEngine ADSelfService Plus DomainUserSSPLogonAuth Improper Input Validation Denial-of-Service Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of ManageEngine ADSelfService Plus. Authentication is not required to exploit this vulnerability. The specific flaw exists within the DomainUserSSPLogonAuth method. The issue results from improper input validation. An attacker can leverage this vulnerability to create a denial-of-service condition on the system.",
+  "zdi_can": "ZDI-CAN-20008",
+  "zdi_id": "ZDI-23-437"
+}

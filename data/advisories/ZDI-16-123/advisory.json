@@ -1,0 +1,27 @@
+{
+  "additional_details": "Advantech has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-16-014-01",
+  "advisory_date": "2016-02-05",
+  "affected_products": [
+    "WebAccess"
+  ],
+  "affected_vendors": [
+    "Advantech"
+  ],
+  "credit": "rgod",
+  "cve": "CVE-2016-0855",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-0855",
+  "cvss": 7.8,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:N/I:N/A:C",
+  "disclosure_timeline": [
+    "2015-09-15 - Vulnerability reported to vendor",
+    "2016-02-05 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-16-123 ZDI-CAN-3131 Advantech WebAccess Dashboard Viewer addFolder Directory Traversal Arbitrary File Deletion Denial of Service Vulnerability 2016-02-05 CVE-2016-0855 https://www.cve.org/CVERecord?id=CVE-2016-0855 7.8 AV:N/AC:L/Au:N/C:N/I:N/A:C ['Advantech'] ['WebAccess'] This vulnerability allows remote attackers to deny service to all users on vulnerable installations of Advantech WebAccess. Authentication is not required to exploit this vulnerability. The specific flaw exists within the WebAccess Dashboard Viewer. Insufficient validation within the addFolder script allows unauthenticated callers to overwrite key system files so that access to the functionality of WebAccess is completely blocked to all users. Advantech has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-16-014-01 ['2015-09-15 - Vulnerability reported to vendor', '2016-02-05 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-16-123/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-123/",
+  "title": "Advantech WebAccess Dashboard Viewer addFolder Directory Traversal Arbitrary File Deletion Denial of Service Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to deny service to all users on vulnerable installations of Advantech WebAccess. Authentication is not required to exploit this vulnerability. The specific flaw exists within the WebAccess Dashboard Viewer. Insufficient validation within the addFolder script allows unauthenticated callers to overwrite key system files so that access to the functionality of WebAccess is completely blocked to all users.",
+  "zdi_can": "ZDI-CAN-3131",
+  "zdi_id": "ZDI-16-123"
+}

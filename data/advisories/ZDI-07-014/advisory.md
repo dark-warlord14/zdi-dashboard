@@ -1,0 +1,22 @@
+# ZDI-07-014: Kaspersky Antivirus ActiveX Unsafe Methods Vulnerability
+
+## Metadata
+
+- **ZDI ID:** ZDI-07-014
+- **ZDI-CAN:** ZDI-CAN-138
+- **Date:** 2007-04-05
+- **CVE:** CVE-2007-1112
+- **CVSS:** N/A
+- **CVSS Vector:** N/A
+- **Affected Vendors:** Kaspersky
+- **Affected Products:** Anti-Virus
+- **Credit:** Anonymous
+- **Source:** https://www.zerodayinitiative.com/advisories/ZDI-07-014/
+## Vulnerability Details
+
+This vulnerability allows remote attackers to download and remove any file on vulnerable installations of Kaspersky Anti-Virus. User interaction is required to exploit this vulnerability in that the target must visit a malicious page. The specific flaws exist within the ActiveX controls AXKLPROD60Lib.KAV60Info and AXKLSYSINFOLib.SysInfo defined in the following DLLs/CLSIDs: DLL: AxKLProd60.dll CLSID: D9EC22E7-1A86-4F7C-8940-0303AE5D6756 DLL: AxKLSysInfo.dll CLSID: BA61606B-258C-4021-AD27-E07A3F3B91DB Several methods exposed by these ActiveX controls can be abused by attackers: Function DeleteFile ( ByVal strFileName As String ) Function StartBatchUploading ( ByVal arrFiles As Variant , ByVal strFTPAddress As String , ByVal strFTPUploadPath As String ) As Long Function StartStrBatchUploading ( ByVal strFiles As String , ByVal strFTPAddress As String , ByVal strFTPUploadPath As String ) As Long Function StartUploading ( ByVal strFilePath As String , ByVal strFTPAddress As String , ByVal strFTPUploadPath As String ) As Long
+
+## Disclosure Timeline
+
+- 2007-01-08 - Vulnerability reported to vendor
+- 2007-04-05 - Coordinated public release of advisory

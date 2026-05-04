@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/library/security/MS16-037",
+  "advisory_date": "2016-04-12",
+  "affected_products": [
+    "Internet Explorer"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "B6BEB4D5E828CF0CCB47BB24AAC22515",
+  "cve": "CVE-2016-0159",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-0159",
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2015-11-24 - Vulnerability reported to vendor",
+    "2016-04-12 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-16-231 ZDI-CAN-3422 Microsoft Internet Explorer CTableLayout AddRow Out-Of-Bounds Write Remote Code Execution Vulnerability 2016-04-12 CVE-2016-0159 https://www.cve.org/CVERecord?id=CVE-2016-0159 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Microsoft'] ['Internet Explorer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The vulnerability relates to how Internet Explorer keeps track of table rows when performing layout of HTML tables. By manipulating a document's elements an attacker can cause Internet Explorer to write beyond the end of an array of pointers to CTableRow objects. An attacker can leverage this vulnerability to execute code under the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/library/security/MS16-037 ['2015-11-24 - Vulnerability reported to vendor', '2016-04-12 - Coordinated public release of advisory'] B6BEB4D5E828CF0CCB47BB24AAC22515 https://www.zerodayinitiative.com/advisories/ZDI-16-231/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-231/",
+  "title": "Microsoft Internet Explorer CTableLayout AddRow Out-Of-Bounds Write Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The vulnerability relates to how Internet Explorer keeps track of table rows when performing layout of HTML tables. By manipulating a document's elements an attacker can cause Internet Explorer to write beyond the end of an array of pointers to CTableRow objects. An attacker can leverage this vulnerability to execute code under the context of the current process.",
+  "zdi_can": "ZDI-CAN-3422",
+  "zdi_id": "ZDI-16-231"
+}

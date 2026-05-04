@@ -1,0 +1,27 @@
+{
+  "additional_details": "Fixed in Avast v12.1, released 21 June 2016.",
+  "advisory_date": "2017-05-11",
+  "affected_products": [
+    "Free Antivirus"
+  ],
+  "affected_vendors": [
+    "Avast"
+  ],
+  "credit": "bee13oy of CloverSec Labs",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 7.2,
+  "cvss_vector": "AV:L/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2016-04-29 - Vulnerability reported to vendor",
+    "2017-05-11 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-16-681 ZDI-CAN-3712 Avast Free Antivirus aswSnx Kernel Driver Untrusted Pointer Dereference Privilege Escalation Vulnerability 2017-05-11 7.2 AV:L/AC:L/Au:N/C:C/I:C/A:C ['Avast'] ['Free Antivirus'] This vulnerability allows attackers to elevate their privileges on vulnerable installations of Avast Free Antivirus. Authentication is not required to exploit this vulnerability. The specific flaw exists within processing of the 0x82ac0170 IOCTL by the aswSnx driver in the kernel. An address passed into the kernel through a DeviceIoControl call is trusted and used without validation. An attacker could leverage this vulnerability to execute arbitrary code in the context of the kernel. Fixed in Avast v12.1, released 21 June 2016. ['2016-04-29 - Vulnerability reported to vendor', '2017-05-11 - Coordinated public release of advisory'] bee13oy of CloverSec Labs https://www.zerodayinitiative.com/advisories/ZDI-16-681/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-681/",
+  "title": "Avast Free Antivirus aswSnx Kernel Driver Untrusted Pointer Dereference Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows attackers to elevate their privileges on vulnerable installations of Avast Free Antivirus. Authentication is not required to exploit this vulnerability. The specific flaw exists within processing of the 0x82ac0170 IOCTL by the aswSnx driver in the kernel. An address passed into the kernel through a DeviceIoControl call is trusted and used without validation. An attacker could leverage this vulnerability to execute arbitrary code in the context of the kernel.",
+  "zdi_can": "ZDI-CAN-3712",
+  "zdi_id": "ZDI-16-681"
+}

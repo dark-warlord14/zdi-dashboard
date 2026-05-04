@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-34691",
+  "advisory_date": "2022-09-06",
+  "affected_products": [
+    "Windows"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Oliver Lyak (@ly4k_)",
+  "cve": "CVE-2022-34691",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-34691",
+  "cvss": 8.4,
+  "cvss_vector": "AV:A/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2022-08-19 - Vulnerability reported to vendor",
+    "2022-09-06 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-1185 ZDI-CAN-16214 Microsoft Windows Active Directory Certificate Services Improper Authorization Privilege Escalation Vulnerability 2022-09-06 CVE-2022-34691 https://www.cve.org/CVERecord?id=CVE-2022-34691 8.4 AV:A/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H ['Microsoft'] ['Windows'] This vulnerability allows network-adjacent attackers to escalate privileges on affected installations of Microsoft Windows Active Directory Certificate Services. Authentication is required to exploit this vulnerability. The specific flaw exists within the issuance of certificates. By including crafted data in a certificate request, an attacker can obtain a certificate that allows the attacker to authenticate as a domain administrator. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code on domain-joined endpoints. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-34691 ['2022-08-19 - Vulnerability reported to vendor', '2022-09-06 - Coordinated public release of advisory'] Oliver Lyak (@ly4k_) https://www.zerodayinitiative.com/advisories/ZDI-22-1185/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-1185/",
+  "title": "Microsoft Windows Active Directory Certificate Services Improper Authorization Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows network-adjacent attackers to escalate privileges on affected installations of Microsoft Windows Active Directory Certificate Services. Authentication is required to exploit this vulnerability. The specific flaw exists within the issuance of certificates. By including crafted data in a certificate request, an attacker can obtain a certificate that allows the attacker to authenticate as a domain administrator. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code on domain-joined endpoints.",
+  "zdi_can": "ZDI-CAN-16214",
+  "zdi_id": "ZDI-22-1185"
+}

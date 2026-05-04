@@ -1,0 +1,27 @@
+{
+  "additional_details": "IBM has issued an update to correct this vulnerability. More details can be found at: https://www.ibm.com/support/pages/node/6343587",
+  "advisory_date": "2020-10-08",
+  "affected_products": [
+    "Informix"
+  ],
+  "affected_vendors": [
+    "IBM"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2020-4799",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2020-4799",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2020-05-06 - Vulnerability reported to vendor",
+    "2020-10-08 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-20-1237 ZDI-CAN-10580 IBM Informix spatial Out-Of-Bounds Write Privilege Escalation Vulnerability 2020-10-08 CVE-2020-4799 https://www.cve.org/CVERecord?id=CVE-2020-4799 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['IBM'] ['Informix'] This vulnerability allows local attackers to escalate privileges on affected installations of IBM Informix. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the spatial.bld module. When parsing SQL statements, the process does not properly validate user-supplied data, which can result in a write past the end of an allocated buffer. An attacker can leverage this vulnerability to escalate privileges and execute code in the context of the informix user. IBM has issued an update to correct this vulnerability. More details can be found at: https://www.ibm.com/support/pages/node/6343587 ['2020-05-06 - Vulnerability reported to vendor', '2020-10-08 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-20-1237/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-20-1237/",
+  "title": "IBM Informix spatial Out-Of-Bounds Write Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of IBM Informix. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the spatial.bld module. When parsing SQL statements, the process does not properly validate user-supplied data, which can result in a write past the end of an allocated buffer. An attacker can leverage this vulnerability to escalate privileges and execute code in the context of the informix user.",
+  "zdi_can": "ZDI-CAN-10580",
+  "zdi_id": "ZDI-20-1237"
+}

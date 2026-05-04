@@ -1,0 +1,27 @@
+{
+  "additional_details": "RealNetworks has issued an update to correct this vulnerability. More details can be found at: http://service.real.com/realplayer/security/11182011_player/en/",
+  "advisory_date": "2012-06-06",
+  "affected_products": [
+    "RealPlayer"
+  ],
+  "affected_vendors": [
+    "RealNetworks"
+  ],
+  "credit": "Luigi Auriemma",
+  "cve": "CVE-2011-4261",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-4261",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2011-08-28 - Vulnerability reported to vendor",
+    "2012-06-06 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-12-085 ZDI-CAN-1360 RealNetworks RealPlayer dmp4 esds Width Remote Code Execution Vulnerability 2012-06-06 CVE-2011-4261 https://www.cve.org/CVERecord?id=CVE-2011-4261 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['RealNetworks'] ['RealPlayer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of RealNetworks RealPlayer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the dmp4 component. If the width value is altered inside the esds atom, arithmetic instructions within RealPlayer code can result in a loop counter wrapping to a large value. This can cause the loop to run too many times while operating on heap memory. By exploiting this condition, an attacker can corrupt memory and leverage that to execute code under the context of the user running the application. RealNetworks has issued an update to correct this vulnerability. More details can be found at: http://service.real.com/realplayer/security/11182011_player/en/ ['2011-08-28 - Vulnerability reported to vendor', '2012-06-06 - Coordinated public release of advisory'] Luigi Auriemma https://www.zerodayinitiative.com/advisories/ZDI-12-085/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-12-085/",
+  "title": "RealNetworks RealPlayer dmp4 esds Width Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of RealNetworks RealPlayer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the dmp4 component. If the width value is altered inside the esds atom, arithmetic instructions within RealPlayer code can result in a loop counter wrapping to a large value. This can cause the loop to run too many times while operating on heap memory. By exploiting this condition, an attacker can corrupt memory and leverage that to execute code under the context of the user running the application.",
+  "zdi_can": "ZDI-CAN-1360",
+  "zdi_id": "ZDI-12-085"
+}

@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/library/security/MS15-009",
+  "advisory_date": "2015-02-10",
+  "affected_products": [
+    "Internet Explorer"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "AMol NAik",
+  "cve": "CVE-2015-0035",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-0035",
+  "cvss": 5.1,
+  "cvss_vector": "AV:N/AC:H/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2014-10-09 - Vulnerability reported to vendor",
+    "2015-02-10 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-15-018 ZDI-CAN-2561 Microsoft Internet Explorer CIFrameElement Use-After-Free Remote Code Execution Vulnerability 2015-02-10 CVE-2015-0035 https://www.cve.org/CVERecord?id=CVE-2015-0035 5.1 AV:N/AC:H/Au:N/C:P/I:P/A:P ['Microsoft'] ['Internet Explorer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The vulnerability relates to how Internet Explorer displays iframe elements. By manipulating a document's elements an attacker can force a CIFrameElement object in memory to be reused after it has been freed. An attacker can leverage this vulnerability to execute code under the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/library/security/MS15-009 ['2014-10-09 - Vulnerability reported to vendor', '2015-02-10 - Coordinated public release of advisory'] AMol NAik https://www.zerodayinitiative.com/advisories/ZDI-15-018/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-018/",
+  "title": "Microsoft Internet Explorer CIFrameElement Use-After-Free Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The vulnerability relates to how Internet Explorer displays iframe elements. By manipulating a document's elements an attacker can force a CIFrameElement object in memory to be reused after it has been freed. An attacker can leverage this vulnerability to execute code under the context of the current process.",
+  "zdi_can": "ZDI-CAN-2561",
+  "zdi_id": "ZDI-15-018"
+}

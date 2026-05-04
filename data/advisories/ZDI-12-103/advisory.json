@@ -1,0 +1,27 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT5130",
+  "advisory_date": "2012-06-27",
+  "affected_products": [
+    "QuickTime"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "Luigi Auriemma",
+  "cve": "CVE-2011-3459",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-3459",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2011-10-21 - Vulnerability reported to vendor",
+    "2012-06-27 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-12-103 ZDI-CAN-1369 Apple Quicktime Dataref URI Buffer Remote Code Execution Vulnerability 2012-06-27 CVE-2011-3459 https://www.cve.org/CVERecord?id=CVE-2011-3459 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Apple'] ['QuickTime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of QuickTime Player. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw occurs when parsing a movie file containing multiple atoms with a different string length. When resizing a buffer in order to make space for the string, the application will forget to include the null-terminator. When the application attempts to null-terminate the string, an out-of-bounds write will occur. If an aggressor can place the a useful heap buffer contiguous to the reallocated string, this can lead to code execution under the context of the applicaiton. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT5130 ['2011-10-21 - Vulnerability reported to vendor', '2012-06-27 - Coordinated public release of advisory'] Luigi Auriemma https://www.zerodayinitiative.com/advisories/ZDI-12-103/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-12-103/",
+  "title": "Apple Quicktime Dataref URI Buffer Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of QuickTime Player. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw occurs when parsing a movie file containing multiple atoms with a different string length. When resizing a buffer in order to make space for the string, the application will forget to include the null-terminator. When the application attempts to null-terminate the string, an out-of-bounds write will occur. If an aggressor can place the a useful heap buffer contiguous to the reallocated string, this can lead to code execution under the context of the applicaiton.",
+  "zdi_can": "ZDI-CAN-1369",
+  "zdi_id": "ZDI-12-103"
+}

@@ -1,0 +1,27 @@
+{
+  "additional_details": "Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://esupport.trendmicro.com/en-us/home/pages/technical-support/1124043.aspx",
+  "advisory_date": "2019-12-19",
+  "affected_products": [
+    "Maximum Security"
+  ],
+  "affected_vendors": [
+    "Trend Micro"
+  ],
+  "credit": "Nabeel Ahmed (@rogue_kdc)",
+  "cve": "CVE-2019-19693",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2019-19693",
+  "cvss": 7.1,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H",
+  "disclosure_timeline": [
+    "2019-10-17 - Vulnerability reported to vendor",
+    "2019-12-19 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-19-1025 ZDI-CAN-9391 Trend Micro Maximum Security Link Resolution Information Disclosure And Denial-of-Service Vulnerability 2019-12-19 CVE-2019-19693 https://www.cve.org/CVERecord?id=CVE-2019-19693 7.1 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H ['Trend Micro'] ['Maximum Security'] This vulnerability allows local attackers to disclose sensitive information or to create a denial-of-service condition on affected installations of Trend Micro Maximum Security. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of junctions. By creating a junction, an attacker can abuse the service to delete arbitrary files. An attacker can leverage this vulnerability to disclose sensitive information or to create a denial-of-service condition on the system. Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://esupport.trendmicro.com/en-us/home/pages/technical-support/1124043.aspx ['2019-10-17 - Vulnerability reported to vendor', '2019-12-19 - Coordinated public release of advisory'] Nabeel Ahmed (@rogue_kdc) https://www.zerodayinitiative.com/advisories/ZDI-19-1025/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-19-1025/",
+  "title": "Trend Micro Maximum Security Link Resolution Information Disclosure And Denial-of-Service Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to disclose sensitive information or to create a denial-of-service condition on affected installations of Trend Micro Maximum Security. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of junctions. By creating a junction, an attacker can abuse the service to delete arbitrary files. An attacker can leverage this vulnerability to disclose sensitive information or to create a denial-of-service condition on the system.",
+  "zdi_can": "ZDI-CAN-9391",
+  "zdi_id": "ZDI-19-1025"
+}

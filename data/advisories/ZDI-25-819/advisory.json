@@ -1,0 +1,28 @@
+{
+  "additional_details": "06/12/24 \u2013 ZDI reported the vulnerability to the vendor 06/12/24 \u2013 the vendor acknowledged the receipt of the report 07/11/24 \u2013 the vendor rated the severity of the vulnerability to be Low and communicated that the issues did not meet the bar for immediate servicing 07/31/25 \u2013 ZDI notified the vendor of the intention to publish the cases as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product.",
+  "advisory_date": "2025-08-06",
+  "affected_products": [
+    "Windows"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Simon Zuckerbraun and Peter Girnus (@gothburz) - Trend Micro Zero Day Initiative",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 7.1,
+  "cvss_vector": "AV:A/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2024-06-12 - Vulnerability reported to vendor",
+    "2025-08-06 - Coordinated public release of advisory",
+    "2025-08-06 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-819 ZDI-CAN-24425 (0Day) Microsoft Windows NetBIOS Hostname SmartScreen Bypass Remote Code Execution Vulnerability 2025-08-06 7.1 AV:A/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H ['Microsoft'] ['Windows'] This vulnerability allows network-adjacent attackers to bypass the SmartScreen security feature on affected installations of Microsoft Windows. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of NetBIOS hostnames. By advertising a NetBIOS name on a host, an attacker can bypass SmartScreen on files originating from that host when accessed via the NetBIOS name. An attacker can leverage this vulnerability to execute arbitrary code in the context of the current user. 06/12/24 \u2013 ZDI reported the vulnerability to the vendor 06/12/24 \u2013 the vendor acknowledged the receipt of the report 07/11/24 \u2013 the vendor rated the severity of the vulnerability to be Low and communicated that the issues did not meet the bar for immediate servicing 07/31/25 \u2013 ZDI notified the vendor of the intention to publish the cases as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product. ['2024-06-12 - Vulnerability reported to vendor', '2025-08-06 - Coordinated public release of advisory', '2025-08-06 - Advisory Updated'] Simon Zuckerbraun and Peter Girnus (@gothburz) - Trend Micro Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-25-819/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-819/",
+  "title": "(0Day) Microsoft Windows NetBIOS Hostname SmartScreen Bypass Remote Code Execution Vulnerability",
+  "updated_date": "2025-08-06",
+  "vulnerability_details": "This vulnerability allows network-adjacent attackers to bypass the SmartScreen security feature on affected installations of Microsoft Windows. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of NetBIOS hostnames. By advertising a NetBIOS name on a host, an attacker can bypass SmartScreen on files originating from that host when accessed via the NetBIOS name. An attacker can leverage this vulnerability to execute arbitrary code in the context of the current user.",
+  "zdi_can": "ZDI-CAN-24425",
+  "zdi_id": "ZDI-25-819"
+}

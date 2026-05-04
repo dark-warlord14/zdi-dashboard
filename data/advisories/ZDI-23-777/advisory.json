@@ -1,0 +1,27 @@
+{
+  "additional_details": "Unified Automation has issued an update to correct this vulnerability. More details can be found at: https://documentation.unified-automation.com/uagateway/1.5.14/CHANGELOG.txt",
+  "advisory_date": "2023-05-31",
+  "affected_products": [
+    "UaGateway"
+  ],
+  "affected_vendors": [
+    "Unified Automation"
+  ],
+  "credit": "Claroty Research - Team82 - Uri Katz, Noam Moshe, Vera Mens, Sharon Brizinov",
+  "cve": "CVE-2023-32172",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-32172",
+  "cvss": 6.5,
+  "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+  "disclosure_timeline": [
+    "2023-02-24 - Vulnerability reported to vendor",
+    "2023-05-31 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-777 ZDI-CAN-20497 (Pwn2Own) Unified Automation UaGateway OPC UA Server Use-After-Free Denial-of-Service Vulnerability 2023-05-31 CVE-2023-32172 https://www.cve.org/CVERecord?id=CVE-2023-32172 6.5 AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H ['Unified Automation'] ['UaGateway'] This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of Unified Automation UaGateway. Authentication is required to exploit this vulnerability. The specific flaw exists within the implementation of the ImportXML function. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to create a denial-of-service condition on the system. Unified Automation has issued an update to correct this vulnerability. More details can be found at: https://documentation.unified-automation.com/uagateway/1.5.14/CHANGELOG.txt ['2023-02-24 - Vulnerability reported to vendor', '2023-05-31 - Coordinated public release of advisory'] Claroty Research - Team82 - Uri Katz, Noam Moshe, Vera Mens, Sharon Brizinov https://www.zerodayinitiative.com/advisories/ZDI-23-777/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-777/",
+  "title": "(Pwn2Own) Unified Automation UaGateway OPC UA Server Use-After-Free Denial-of-Service Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of Unified Automation UaGateway. Authentication is required to exploit this vulnerability. The specific flaw exists within the implementation of the ImportXML function. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to create a denial-of-service condition on the system.",
+  "zdi_can": "ZDI-CAN-20497",
+  "zdi_id": "ZDI-23-777"
+}

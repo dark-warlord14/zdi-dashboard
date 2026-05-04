@@ -1,0 +1,27 @@
+{
+  "additional_details": "Patched April 12, 2011 http://www.microsoft.com/technet/security/bulletin/ms11-021.mspx",
+  "advisory_date": "2011-02-07",
+  "affected_products": [
+    "Office Excel"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2011-0980",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-0980",
+  "cvss": 9.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:C",
+  "disclosure_timeline": [
+    "2010-07-20 - Vulnerability reported to vendor",
+    "2011-02-07 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-11-040 ZDI-CAN-811 (0Day) Microsoft Office Excel 2003 Invalid Object Type Remote Code Execution Vulnerability 2011-02-07 CVE-2011-0980 https://www.cve.org/CVERecord?id=CVE-2011-0980 9.0 AV:N/AC:L/Au:N/C:P/I:P/A:C ['Microsoft'] ['Office Excel'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Office Excel. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The flaw occurs when parsing a document with a malformed Excel document. When parsing an office art object, the application will add the malformed object to a linked list. After this addition, the application will process each element in the linked list. When handling the object in question, the application will explicitly trust a function pointer off of this object. If an attacker can substitute an object of their choosing in place of this function pointer, code execution under the context of the application can be achieved. Patched April 12, 2011 http://www.microsoft.com/technet/security/bulletin/ms11-021.mspx ['2010-07-20 - Vulnerability reported to vendor', '2011-02-07 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-11-040/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-040/",
+  "title": "(0Day) Microsoft Office Excel 2003 Invalid Object Type Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Office Excel. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The flaw occurs when parsing a document with a malformed Excel document. When parsing an office art object, the application will add the malformed object to a linked list. After this addition, the application will process each element in the linked list. When handling the object in question, the application will explicitly trust a function pointer off of this object. If an attacker can substitute an object of their choosing in place of this function pointer, code execution under the context of the application can be achieved.",
+  "zdi_can": "ZDI-CAN-811",
+  "zdi_id": "ZDI-11-040"
+}

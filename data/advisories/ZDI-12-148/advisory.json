@@ -1,0 +1,27 @@
+{
+  "additional_details": "GE has issued an update to correct this vulnerability. More details can be found at: http://support.ge-ip.com/support/index?page=kbchannel&id=S:KB14768",
+  "advisory_date": "2012-08-22",
+  "affected_products": [
+    "Proficy Real-Time Information Portal"
+  ],
+  "affected_vendors": [
+    "GE"
+  ],
+  "credit": "Luigi Auriemma",
+  "cve": "CVE-2012-0232",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2012-0232",
+  "cvss": 9.4,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:N",
+  "disclosure_timeline": [
+    "2011-10-17 - Vulnerability reported to vendor",
+    "2012-08-22 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-12-148 ZDI-CAN-1419 GE Proficy Real-Time Information Portal Remote Interface Service Remote Code Execution Vulnerability 2012-08-22 CVE-2012-0232 https://www.cve.org/CVERecord?id=CVE-2012-0232 9.4 AV:N/AC:L/Au:N/C:C/I:C/A:N ['GE'] ['Proficy Real-Time Information Portal'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of GE Proficy Real-Time Information Portal. Authentication is not required to exploit this vulnerability. This specific flaw exists within the Remote Interface Service (rifsrvd.exe). The Remote Interface Service listens on TCP port 5159 by default. The process does not sufficiently validate two input strings that are used to create a configuration file on the server. Remote, unauthenticated attackers can exploit this vulnerability by sending malformed ID_SAVE_SRVC_CFG message packets to the target, which could ultimately lead to remote code execution under the context of the SYSTEM user. GE has issued an update to correct this vulnerability. More details can be found at: http://support.ge-ip.com/support/index?page=kbchannel&id=S:KB14768 ['2011-10-17 - Vulnerability reported to vendor', '2012-08-22 - Coordinated public release of advisory'] Luigi Auriemma https://www.zerodayinitiative.com/advisories/ZDI-12-148/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-12-148/",
+  "title": "GE Proficy Real-Time Information Portal Remote Interface Service Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of GE Proficy Real-Time Information Portal. Authentication is not required to exploit this vulnerability. This specific flaw exists within the Remote Interface Service (rifsrvd.exe). The Remote Interface Service listens on TCP port 5159 by default. The process does not sufficiently validate two input strings that are used to create a configuration file on the server. Remote, unauthenticated attackers can exploit this vulnerability by sending malformed ID_SAVE_SRVC_CFG message packets to the target, which could ultimately lead to remote code execution under the context of the SYSTEM user.",
+  "zdi_can": "ZDI-CAN-1419",
+  "zdi_id": "ZDI-12-148"
+}

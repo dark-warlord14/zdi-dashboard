@@ -1,0 +1,31 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: http://technet.microsoft.com/en-us/security/bulletin/ms12-039 Microsoft has issued an update to correct this vulnerability. More details can be found at: http://technet.microsoft.com/en-us/security/bulletin/ms12-039 Microsoft has issued an update to correct this vulnerability. More details can be found at: http://technet.microsoft.com/en-us/security/bulletin/ms12-039",
+  "advisory_date": "2012-08-03",
+  "affected_products": [
+    "Windows XP SP3",
+    "Windows Vista",
+    "Windows 7"
+  ],
+  "affected_vendors": [
+    "Microsoft",
+    "Microsoft",
+    "Microsoft"
+  ],
+  "credit": "Alin Rad Pop (binaryproof)",
+  "cve": "CVE-2012-0159",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2012-0159",
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2011-11-04 - Vulnerability reported to vendor",
+    "2012-08-03 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-12-129 ZDI-CAN-1338 Microsoft Windows TrueType Font Parsing Remote Code Execution Vulnerability (Remote Kernel) 2012-08-03 CVE-2012-0159 https://www.cve.org/CVERecord?id=CVE-2012-0159 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Microsoft', 'Microsoft', 'Microsoft'] ['Windows XP SP3', 'Windows Vista', 'Windows 7'] This vulnerability allows remote attackers to execute arbitrary code from the contact of kernelspace on vulnerable installations of Microsoft Windows. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the kernel's support for TrueType font parsing of compound glyphs. A sign extension error exists in win32k.sys when processing compound glyphs having a total number of contours above 0x7FFF. This can be exploited to corrupt kernel heap memory placed below the space allocated for the \"flags\" buffer and potentially execute arbitrary code in kernel space. Microsoft has issued an update to correct this vulnerability. More details can be found at: http://technet.microsoft.com/en-us/security/bulletin/ms12-039 Microsoft has issued an update to correct this vulnerability. More details can be found at: http://technet.microsoft.com/en-us/security/bulletin/ms12-039 Microsoft has issued an update to correct this vulnerability. More details can be found at: http://technet.microsoft.com/en-us/security/bulletin/ms12-039 ['2011-11-04 - Vulnerability reported to vendor', '2012-08-03 - Coordinated public release of advisory'] Alin Rad Pop (binaryproof) https://www.zerodayinitiative.com/advisories/ZDI-12-129/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-12-129/",
+  "title": "Microsoft Windows TrueType Font Parsing Remote Code Execution Vulnerability (Remote Kernel)",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code from the contact of kernelspace on vulnerable installations of Microsoft Windows. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the kernel's support for TrueType font parsing of compound glyphs. A sign extension error exists in win32k.sys when processing compound glyphs having a total number of contours above 0x7FFF. This can be exploited to corrupt kernel heap memory placed below the space allocated for the \"flags\" buffer and potentially execute arbitrary code in kernel space.",
+  "zdi_can": "ZDI-CAN-1338",
+  "zdi_id": "ZDI-12-129"
+}

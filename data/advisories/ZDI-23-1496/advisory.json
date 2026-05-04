@@ -1,0 +1,27 @@
+{
+  "additional_details": "A10 has issued an update to correct this vulnerability. More details can be found at: https://support.a10networks.com/support/security_advisory/a10-acos-file-access-vulnerability/",
+  "advisory_date": "2023-10-04",
+  "affected_products": [
+    "Thunder ADC"
+  ],
+  "affected_vendors": [
+    "A10"
+  ],
+  "credit": "Piotr Bazydlo (@chudypb) of Trend Micro Zero Day Initiative",
+  "cve": "CVE-2023-42130",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-42130",
+  "cvss": 8.3,
+  "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:H",
+  "disclosure_timeline": [
+    "2022-09-20 - Vulnerability reported to vendor",
+    "2023-10-04 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-1496 ZDI-CAN-17905 A10 Thunder ADC FileMgmtExport Directory Traversal Arbitrary File Read and Deletion Vulnerability 2023-10-04 CVE-2023-42130 https://www.cve.org/CVERecord?id=CVE-2023-42130 8.3 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:H ['A10'] ['Thunder ADC'] This vulnerability allows remote attackers to read and delete arbitrary files on affected installations of A10 Thunder ADC. Authentication is required to exploit this vulnerability. The specific flaw exists within the FileMgmtExport class. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to read and delete files in the context of the service account. A10 has issued an update to correct this vulnerability. More details can be found at: https://support.a10networks.com/support/security_advisory/a10-acos-file-access-vulnerability/ ['2022-09-20 - Vulnerability reported to vendor', '2023-10-04 - Coordinated public release of advisory'] Piotr Bazydlo (@chudypb) of Trend Micro Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-23-1496/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-1496/",
+  "title": "A10 Thunder ADC FileMgmtExport Directory Traversal Arbitrary File Read and Deletion Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to read and delete arbitrary files on affected installations of A10 Thunder ADC. Authentication is required to exploit this vulnerability. The specific flaw exists within the FileMgmtExport class. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to read and delete files in the context of the service account.",
+  "zdi_can": "ZDI-CAN-17905",
+  "zdi_id": "ZDI-23-1496"
+}

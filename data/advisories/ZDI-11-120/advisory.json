@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/bulletin/ms11-021.mspx",
+  "advisory_date": "2011-04-12",
+  "affected_products": [
+    "Office Excel 2002"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Aniway (Aniway.Anyway AT gmail DOT com)",
+  "cve": "CVE-2011-0101",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-0101",
+  "cvss": 9.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:C",
+  "disclosure_timeline": [
+    "2010-11-15 - Vulnerability reported to vendor",
+    "2011-04-12 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-11-120 ZDI-CAN-1007 Microsoft Office Excel RealTimeData Record Parsing Remote Code Execution Vulnerability 2011-04-12 CVE-2011-0101 https://www.cve.org/CVERecord?id=CVE-2011-0101 9.0 AV:N/AC:L/Au:N/C:P/I:P/A:C ['Microsoft'] ['Office Excel 2002'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Office Excel. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The flaw exists within the methods used for RealTimeData Record Parsing. When handling a stTopic field has a bit set specifying double byte characters in the following field the value of a global pointer is improperly calculated. This pointer is later used in a memcpy operation whose source is user supplied data. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the user. Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/bulletin/ms11-021.mspx ['2010-11-15 - Vulnerability reported to vendor', '2011-04-12 - Coordinated public release of advisory'] Aniway (Aniway.Anyway AT gmail DOT com) https://www.zerodayinitiative.com/advisories/ZDI-11-120/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-120/",
+  "title": "Microsoft Office Excel RealTimeData Record Parsing Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Office Excel. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The flaw exists within the methods used for RealTimeData Record Parsing. When handling a stTopic field has a bit set specifying double byte characters in the following field the value of a global pointer is improperly calculated. This pointer is later used in a memcpy operation whose source is user supplied data. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the user.",
+  "zdi_can": "ZDI-CAN-1007",
+  "zdi_id": "ZDI-11-120"
+}

@@ -1,0 +1,27 @@
+{
+  "additional_details": "Bentley has issued an update to correct this vulnerability. More details can be found at: https://www.bentley.com/en/common-vulnerability-exposure/BE-2021-0005",
+  "advisory_date": "2022-01-31",
+  "affected_products": [
+    "MicroStation CONNECT"
+  ],
+  "affected_vendors": [
+    "Bentley"
+  ],
+  "credit": "Mat Powell of Trend Micro Zero Day Initiative",
+  "cve": "CVE-2021-46610",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2021-46610",
+  "cvss": 3.3,
+  "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+  "disclosure_timeline": [
+    "2021-10-01 - Vulnerability reported to vendor",
+    "2022-01-31 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-197 ZDI-CAN-15404 Bentley MicroStation CONNECT JT File Parsing Out-Of-Bounds Read Information Disclosure Vulnerability 2022-01-31 CVE-2021-46610 https://www.cve.org/CVERecord?id=CVE-2021-46610 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N ['Bentley'] ['MicroStation CONNECT'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Bentley MicroStation CONNECT. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of JT files. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process. Bentley has issued an update to correct this vulnerability. More details can be found at: https://www.bentley.com/en/common-vulnerability-exposure/BE-2021-0005 ['2021-10-01 - Vulnerability reported to vendor', '2022-01-31 - Coordinated public release of advisory'] Mat Powell of Trend Micro Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-22-197/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-197/",
+  "title": "Bentley MicroStation CONNECT JT File Parsing Out-Of-Bounds Read Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Bentley MicroStation CONNECT. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of JT files. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-15404",
+  "zdi_id": "ZDI-22-197"
+}

@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-42297",
+  "advisory_date": "2021-11-24",
+  "affected_products": [
+    "Windows"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Abdelhamid Naceri",
+  "cve": "CVE-2021-42297",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2021-42297",
+  "cvss": 6.7,
+  "cvss_vector": "AV:L/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2021-10-06 - Vulnerability reported to vendor",
+    "2021-11-24 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-21-1334 ZDI-CAN-14954 Microsoft Windows Update Assistant Link Following Local Privilege Escalation Vulnerability 2021-11-24 CVE-2021-42297 https://www.cve.org/CVERecord?id=CVE-2021-42297 6.7 AV:L/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H ['Microsoft'] ['Windows'] This vulnerability allows local attackers to escalate privileges on affected installations of Microsoft Windows. User interaction is required to exploit this vulnerability. The specific flaw exists within Windows Update Assistant. By creating a symbolic link, an attacker can abuse the Update Assistant to delete a folder. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-42297 ['2021-10-06 - Vulnerability reported to vendor', '2021-11-24 - Coordinated public release of advisory'] Abdelhamid Naceri https://www.zerodayinitiative.com/advisories/ZDI-21-1334/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-21-1334/",
+  "title": "Microsoft Windows Update Assistant Link Following Local Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Microsoft Windows. User interaction is required to exploit this vulnerability. The specific flaw exists within Windows Update Assistant. By creating a symbolic link, an attacker can abuse the Update Assistant to delete a folder. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-14954",
+  "zdi_id": "ZDI-21-1334"
+}

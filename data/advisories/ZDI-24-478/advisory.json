@@ -1,0 +1,28 @@
+{
+  "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb24-29.html",
+  "advisory_date": "2024-05-19",
+  "affected_products": [
+    "Acrobat Reader DC"
+  ],
+  "affected_vendors": [
+    "Adobe"
+  ],
+  "credit": "Mark Vincent Yason (markyason.github.io)",
+  "cve": "CVE-2024-34097",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-34097",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2024-03-12 - Vulnerability reported to vendor",
+    "2024-05-19 - Coordinated public release of advisory",
+    "2024-07-01 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-478 ZDI-CAN-23473 Adobe Acrobat Reader DC Annotation Use-After-Free Remote Code Execution Vulnerability 2024-05-19 CVE-2024-34097 https://www.cve.org/CVERecord?id=CVE-2024-34097 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Adobe'] ['Acrobat Reader DC'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Adobe Acrobat Reader DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Annotation objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current process. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb24-29.html ['2024-03-12 - Vulnerability reported to vendor', '2024-05-19 - Coordinated public release of advisory', '2024-07-01 - Advisory Updated'] Mark Vincent Yason (markyason.github.io) https://www.zerodayinitiative.com/advisories/ZDI-24-478/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-478/",
+  "title": "Adobe Acrobat Reader DC Annotation Use-After-Free Remote Code Execution Vulnerability",
+  "updated_date": "2024-07-01",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Adobe Acrobat Reader DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Annotation objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-23473",
+  "zdi_id": "ZDI-24-478"
+}

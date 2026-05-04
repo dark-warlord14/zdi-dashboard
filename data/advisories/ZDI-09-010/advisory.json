@@ -1,0 +1,27 @@
+{
+  "additional_details": "Novell has issued an update to correct this vulnerability. More details can be found at: http://download.novell.com/Download?buildid=GjZRRdqCFW0",
+  "advisory_date": "2009-02-02",
+  "affected_products": [
+    "Netware"
+  ],
+  "affected_vendors": [
+    "Novell"
+  ],
+  "credit": "Nick DeBaggis",
+  "cve": "CVE-2009-0410",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2009-0410",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2008-08-26 - Vulnerability reported to vendor",
+    "2009-02-02 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-09-010 ZDI-CAN-384 Novell Netware Groupwise GWIA RCPT Command Buffer Overflow Vulnerability 2009-02-02 CVE-2009-0410 https://www.cve.org/CVERecord?id=CVE-2009-0410 ['Novell'] ['Netware'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Novell Netware Groupwise SMTP daemon. Authentication is not required to exploit this vulnerability. The specific flaw exists during the parsing of malformed RCPT verb arguments to the SMTP daemon. When an overly long e-mail address is received an off-by-one condition is triggered which minimally will cause a denial of service and can result in arbitrary code execution. Novell has issued an update to correct this vulnerability. More details can be found at: http://download.novell.com/Download?buildid=GjZRRdqCFW0 ['2008-08-26 - Vulnerability reported to vendor', '2009-02-02 - Coordinated public release of advisory'] Nick DeBaggis https://www.zerodayinitiative.com/advisories/ZDI-09-010/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-09-010/",
+  "title": "Novell Netware Groupwise GWIA RCPT Command Buffer Overflow Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Novell Netware Groupwise SMTP daemon. Authentication is not required to exploit this vulnerability. The specific flaw exists during the parsing of malformed RCPT verb arguments to the SMTP daemon. When an overly long e-mail address is received an off-by-one condition is triggered which minimally will cause a denial of service and can result in arbitrary code execution.",
+  "zdi_can": "ZDI-CAN-384",
+  "zdi_id": "ZDI-09-010"
+}

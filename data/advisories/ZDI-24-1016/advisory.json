@@ -1,0 +1,28 @@
+{
+  "additional_details": "02/06/24 \u2013 ZDI reported the vulnerability to the vendor\u2019s Security team. 02/06/24 \u2013 The vendor\u2019s Security team advised ZDI to resubmit the report to WatchGuard PSIRT 02/13/24 \u2013 ZDI resubmitted the report to WatchGuard PSIRT 06/19/24 \u2013 ZDI asked for updates and notified the vendor of the intention to publish the cases as 0-day advisory 07/26/24 \u2013 ZDI informed the vendor that since we have not received a response that we will publish the report as zero-day advisory on 07/29/2 -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the application",
+  "advisory_date": "2024-07-29",
+  "affected_products": [
+    "Dome"
+  ],
+  "affected_vendors": [
+    "Panda Security"
+  ],
+  "credit": "Nicholas Zubrisky (@NZubrisky) and Michael DePlante (@izobashi) of Trend Micro's Zero Day Initiative",
+  "cve": "CVE-2024-7241",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-7241",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2024-02-06 - Vulnerability reported to vendor",
+    "2024-07-29 - Coordinated public release of advisory",
+    "2024-08-15 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-1016 ZDI-CAN-23375 (0Day) Panda Security Dome Link Following Local Privilege Escalation Vulnerability 2024-07-29 CVE-2024-7241 https://www.cve.org/CVERecord?id=CVE-2024-7241 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Panda Security'] ['Dome'] This vulnerability allows local attackers to escalate privileges on affected installations of Panda Security Dome. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the PSANHost service. By creating a junction, an attacker can abuse the service to create an arbitrary file. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. 02/06/24 \u2013 ZDI reported the vulnerability to the vendor\u2019s Security team. 02/06/24 \u2013 The vendor\u2019s Security team advised ZDI to resubmit the report to WatchGuard PSIRT 02/13/24 \u2013 ZDI resubmitted the report to WatchGuard PSIRT 06/19/24 \u2013 ZDI asked for updates and notified the vendor of the intention to publish the cases as 0-day advisory 07/26/24 \u2013 ZDI informed the vendor that since we have not received a response that we will publish the report as zero-day advisory on 07/29/2 -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the application ['2024-02-06 - Vulnerability reported to vendor', '2024-07-29 - Coordinated public release of advisory', '2024-08-15 - Advisory Updated'] Nicholas Zubrisky (@NZubrisky) and Michael DePlante (@izobashi) of Trend Micro's Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-24-1016/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-1016/",
+  "title": "(0Day) Panda Security Dome Link Following Local Privilege Escalation Vulnerability",
+  "updated_date": "2024-08-15",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Panda Security Dome. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the PSANHost service. By creating a junction, an attacker can abuse the service to create an arbitrary file. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-23375",
+  "zdi_id": "ZDI-24-1016"
+}

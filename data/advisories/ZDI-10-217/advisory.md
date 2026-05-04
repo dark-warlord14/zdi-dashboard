@@ -1,0 +1,26 @@
+# ZDI-10-217: IBM Informix Dynamic Server DBINFO Remote Code Execution Vulnerability
+
+## Metadata
+
+- **ZDI ID:** ZDI-10-217
+- **ZDI-CAN:** ZDI-CAN-381
+- **Date:** 2010-10-18
+- **CVE:** N/A
+- **CVSS:** 9.0
+- **CVSS Vector:** AV:N/AC:L/Au:S/C:C/I:C/A:C
+- **Affected Vendors:** IBM
+- **Affected Products:** Informix
+- **Credit:** Anonymous
+- **Source:** https://www.zerodayinitiative.com/advisories/ZDI-10-217/
+## Vulnerability Details
+
+This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of IBM Informix Database Server. SQL query execution privileges are required to exploit this vulnerability. The specific flaw exists when processing the arguments to the DBINFO keyword in a SQL query. User-supplied data is copied into a stack-based buffer without proper bounds checking resulting in an exploitable overflow. Exploitation can result in arbitrary code execution under the context of the database server.
+
+## Additional Details
+
+This issue was fixed in version by defect# idsdb00165017 - Fix checked in after last 7.31 fix pack was released. 7.31 is now EOS. Fix is available for special build request if Service Extension has been purchased. Fix is not included in an available fix pack. idsdb00165019 - Fix checked in after last 9.40 fix pack was released. 9.40 is now EOS. Fix is available for special build request if Service Extension has been purchased. Fix is not included in an available fix pack. idsdb00165021 - IDS 10.00.xC10 idsdb00165022 - IDS 11.10.xC3 idsdb00165023 - IDS 11.50.xC3
+
+## Disclosure Timeline
+
+- 2008-08-26 - Vulnerability reported to vendor
+- 2010-10-18 - Coordinated public release of advisory

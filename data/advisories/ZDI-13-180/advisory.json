@@ -1,0 +1,27 @@
+{
+  "additional_details": "GE has issued an update to correct this vulnerability. More details can be found at: http://support.ge-ip.com/support/index?page=kbchannel&id=KB15602",
+  "advisory_date": "2013-07-26",
+  "affected_products": [
+    "Proficy CIMPLICITY"
+  ],
+  "affected_vendors": [
+    "GE"
+  ],
+  "credit": "ZombiE and amisto0x07",
+  "cve": "CVE-2013-2785",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2013-2785",
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2013-02-22 - Vulnerability reported to vendor",
+    "2013-07-26 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-13-180 ZDI-CAN-1621 GE Proficy CIMPLICITY CimWebServer Password Decode Remote Code Execution Vulnerability 2013-07-26 CVE-2013-2785 https://www.cve.org/CVERecord?id=CVE-2013-2785 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['GE'] ['Proficy CIMPLICITY'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of GE Proficy CIMPLICITY. Authentication is not required to exploit this vulnerability. The specific flaw exists within the CimWebServer component. This component performs insufficient bounds checking on user-supplied data passed in the szPassword field which results in stack corruption. An attacker can leverage this situation to execute code under the context of the process. GE has issued an update to correct this vulnerability. More details can be found at: http://support.ge-ip.com/support/index?page=kbchannel&id=KB15602 ['2013-02-22 - Vulnerability reported to vendor', '2013-07-26 - Coordinated public release of advisory'] ZombiE and amisto0x07 https://www.zerodayinitiative.com/advisories/ZDI-13-180/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-13-180/",
+  "title": "GE Proficy CIMPLICITY CimWebServer Password Decode Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of GE Proficy CIMPLICITY. Authentication is not required to exploit this vulnerability. The specific flaw exists within the CimWebServer component. This component performs insufficient bounds checking on user-supplied data passed in the szPassword field which results in stack corruption. An attacker can leverage this situation to execute code under the context of the process.",
+  "zdi_can": "ZDI-CAN-1621",
+  "zdi_id": "ZDI-13-180"
+}

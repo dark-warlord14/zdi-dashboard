@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-23382",
+  "advisory_date": "2023-02-24",
+  "affected_products": [
+    "Azure"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Nitesh Surana (@_niteshsurana) of Project Nebula, Trend Micro Research",
+  "cve": "CVE-2023-23382",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-23382",
+  "cvss": 6.5,
+  "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+  "disclosure_timeline": [
+    "2022-08-23 - Vulnerability reported to vendor",
+    "2023-02-24 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-161 ZDI-CAN-18520 Microsoft Azure Machine Learning Service Cleartext Storage of Credentials Information Disclosure Vulnerability 2023-02-24 CVE-2023-23382 https://www.cve.org/CVERecord?id=CVE-2023-23382 6.5 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N ['Microsoft'] ['Azure'] This vulnerability allows remote attackers to disclose sensitive information on Microsoft Azure. Authentication is required to exploit this vulnerability. The specific flaw exists within the handling of credentials within Azure Machine Learning Service workbooks. The issue results from storing sensitive information in plaintext. An attacker can leverage this vulnerability to disclose stored credentials, leading to further compromise. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-23382 ['2022-08-23 - Vulnerability reported to vendor', '2023-02-24 - Coordinated public release of advisory'] Nitesh Surana (@_niteshsurana) of Project Nebula, Trend Micro Research https://www.zerodayinitiative.com/advisories/ZDI-23-161/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-161/",
+  "title": "Microsoft Azure Machine Learning Service Cleartext Storage of Credentials Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on Microsoft Azure. Authentication is required to exploit this vulnerability. The specific flaw exists within the handling of credentials within Azure Machine Learning Service workbooks. The issue results from storing sensitive information in plaintext. An attacker can leverage this vulnerability to disclose stored credentials, leading to further compromise.",
+  "zdi_can": "ZDI-CAN-18520",
+  "zdi_id": "ZDI-23-161"
+}

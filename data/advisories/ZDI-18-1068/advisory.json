@@ -1,0 +1,28 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/HT208849",
+  "advisory_date": "2018-09-19",
+  "affected_products": [
+    "macOS"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "G. Geshev",
+  "cve": "CVE-2018-4196",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2018-4196",
+  "cvss": 4.4,
+  "cvss_vector": "AV:L/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2018-04-25 - Vulnerability reported to vendor",
+    "2018-09-19 - Coordinated public release of advisory",
+    "2018-09-19 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-1068 ZDI-CAN-6126 Apple macOS Dock Service DSCopyPreferences Uninitialized Pointer Privilege Escalation Vulnerability 2018-09-19 CVE-2018-4196 https://www.cve.org/CVERecord?id=CVE-2018-4196 4.4 AV:L/AC:M/Au:N/C:P/I:P/A:P ['Apple'] ['macOS'] This vulnerability allows local attackers to escalate privileges on vulnerable installations of Apple macOS. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of Mach messages to the Dock. The issue results from the lack of proper initialization of a pointer prior to accessing it. An attacker can leverage this vulnerability to execute code within the context of the Dock process. Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/HT208849 ['2018-04-25 - Vulnerability reported to vendor', '2018-09-19 - Coordinated public release of advisory', '2018-09-19 - Advisory Updated'] G. Geshev https://www.zerodayinitiative.com/advisories/ZDI-18-1068/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-1068/",
+  "title": "Apple macOS Dock Service DSCopyPreferences Uninitialized Pointer Privilege Escalation Vulnerability",
+  "updated_date": "2018-09-19",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on vulnerable installations of Apple macOS. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of Mach messages to the Dock. The issue results from the lack of proper initialization of a pointer prior to accessing it. An attacker can leverage this vulnerability to execute code within the context of the Dock process.",
+  "zdi_can": "ZDI-CAN-6126",
+  "zdi_id": "ZDI-18-1068"
+}

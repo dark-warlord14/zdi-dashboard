@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/Bulletin/MS08-016.mspx",
+  "advisory_date": "2008-03-11",
+  "affected_products": [
+    "Office Excel Viewer"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Arnaud Dovi - ad@heapoverflow.com",
+  "cve": "CVE-2008-0113",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2008-0113",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2007-05-22 - Vulnerability reported to vendor",
+    "2008-03-11 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-08-008 ZDI-CAN-195 Microsoft Excel BIFF File Format Cell Record Parsing Memory Corruption Vulnerability 2008-03-11 CVE-2008-0113 https://www.cve.org/CVERecord?id=CVE-2008-0113 ['Microsoft'] ['Office Excel Viewer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Office. Exploitation requires that the attacker coerce the target into opening a malicious .XLS file. The specific flaw exists within the parsing of malformed cell comments. When Excel encounters a malformed record it attempts to rebuild the broken meta-data. A flaw in this rebuilding process allows the user to specify critical data offsets eventually leading to code execution under the logged in users credentials. Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/Bulletin/MS08-016.mspx ['2007-05-22 - Vulnerability reported to vendor', '2008-03-11 - Coordinated public release of advisory'] Arnaud Dovi - ad@heapoverflow.com https://www.zerodayinitiative.com/advisories/ZDI-08-008/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-08-008/",
+  "title": "Microsoft Excel BIFF File Format Cell Record Parsing Memory Corruption Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Office. Exploitation requires that the attacker coerce the target into opening a malicious .XLS file. The specific flaw exists within the parsing of malformed cell comments. When Excel encounters a malformed record it attempts to rebuild the broken meta-data. A flaw in this rebuilding process allows the user to specify critical data offsets eventually leading to code execution under the logged in users credentials.",
+  "zdi_can": "ZDI-CAN-195",
+  "zdi_id": "ZDI-08-008"
+}

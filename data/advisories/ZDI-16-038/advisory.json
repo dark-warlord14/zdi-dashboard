@@ -1,0 +1,27 @@
+{
+  "additional_details": "Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/cpujan2016-2367955.html",
+  "advisory_date": "2016-01-25",
+  "affected_products": [
+    "Application Testing Suite"
+  ],
+  "affected_vendors": [
+    "Oracle"
+  ],
+  "credit": "rgod",
+  "cve": "CVE-2016-0489",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-0489",
+  "cvss": 9.0,
+  "cvss_vector": "AV:N/AC:L/Au:S/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2015-10-08 - Vulnerability reported to vendor",
+    "2016-01-25 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-16-038 ZDI-CAN-3323 Oracle Application Testing Suite ReportImage tempfilename Parameter Directory Traversal Remote Code Execution Vulnerability 2016-01-25 CVE-2016-0489 https://www.cve.org/CVERecord?id=CVE-2016-0489 9.0 AV:N/AC:L/Au:S/C:C/I:C/A:C ['Oracle'] ['Application Testing Suite'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Oracle Application Testing Suite. Authentication is required but can be bypassed. The specific vulnerability is exposed by the ActionServlet servlet. In the ReportImage action, the tempfilename parameter is vulnerable to directory traversal. An attacker could leverage this to execute arbitrary code under the context of SYSTEM. Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/cpujan2016-2367955.html ['2015-10-08 - Vulnerability reported to vendor', '2016-01-25 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-16-038/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-038/",
+  "title": "Oracle Application Testing Suite ReportImage tempfilename Parameter Directory Traversal Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Oracle Application Testing Suite. Authentication is required but can be bypassed. The specific vulnerability is exposed by the ActionServlet servlet. In the ReportImage action, the tempfilename parameter is vulnerable to directory traversal. An attacker could leverage this to execute arbitrary code under the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-3323",
+  "zdi_id": "ZDI-16-038"
+}

@@ -1,0 +1,28 @@
+{
+  "additional_details": "Linux has issued an update to correct this vulnerability. More details can be found at: https://github.com/torvalds/linux/commit/a30f895ad3239f45012e860d4f94c1a388b36d14",
+  "advisory_date": "2022-02-16",
+  "affected_products": [
+    "Kernel"
+  ],
+  "affected_vendors": [
+    "Linux"
+  ],
+  "credit": "Ryota Shiga(@Ga_ryo_) of Flatt Security",
+  "cve": "CVE-2022-1043",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-1043",
+  "cvss": 8.8,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2021-08-20 - Vulnerability reported to vendor",
+    "2022-02-16 - Coordinated public release of advisory",
+    "2022-07-21 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-362 ZDI-CAN-14621 Linux Kernel io_uring Use-After-Free Privilege Escalation Vulnerability 2022-02-16 CVE-2022-1043 https://www.cve.org/CVERecord?id=CVE-2022-1043 8.8 AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H ['Linux'] ['Kernel'] This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of credentials in io_uring. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the kernel. Linux has issued an update to correct this vulnerability. More details can be found at: https://github.com/torvalds/linux/commit/a30f895ad3239f45012e860d4f94c1a388b36d14 ['2021-08-20 - Vulnerability reported to vendor', '2022-02-16 - Coordinated public release of advisory', '2022-07-21 - Advisory Updated'] Ryota Shiga(@Ga_ryo_) of Flatt Security https://www.zerodayinitiative.com/advisories/ZDI-22-362/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-362/",
+  "title": "Linux Kernel io_uring Use-After-Free Privilege Escalation Vulnerability",
+  "updated_date": "2022-07-21",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of credentials in io_uring. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the kernel.",
+  "zdi_can": "ZDI-CAN-14621",
+  "zdi_id": "ZDI-22-362"
+}

@@ -1,0 +1,31 @@
+{
+  "additional_details": "https://support.ca.com/irj/portal/anonymous/phpsupcontent?contentID={FEB41CE8-5023-46DF-B257-5299F492BF23}",
+  "advisory_date": "2010-12-09",
+  "affected_products": [
+    "XOsoft High Availability",
+    "XOsoft Replication"
+  ],
+  "affected_vendors": [
+    "CA",
+    "CA",
+    "CA",
+    "CA"
+  ],
+  "credit": "AbdulAziz Hariri",
+  "cve": "CVE-2010-3984",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2010-3984",
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2010-08-12 - Vulnerability reported to vendor",
+    "2010-12-09 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-10-263 ZDI-CAN-878 CA Multiple Products create_session_bab SOAP Request Remote Code Execution Vulnerability 2010-12-09 CVE-2010-3984 https://www.cve.org/CVERecord?id=CVE-2010-3984 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['CA', 'CA', 'CA', 'CA'] ['XOsoft High Availability', 'XOsoft Replication'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of CA ARCserve Replication and High Availability. Authentication is not required to exploit this vulnerability. The specific flaw exists within the \"create_session_bab\" SOAP operation, which is handled by the xosoapapi.asmx process that is crucial to the remote administration of both the High Availability and the Replication products. By sending a specially crafted POST request to the xosoapapi.asmx process a remote, unauthenticated attacker can trigger a buffer overflow condition that results in arbitrary code execution under the context of the SOAP server process. https://support.ca.com/irj/portal/anonymous/phpsupcontent?contentID={FEB41CE8-5023-46DF-B257-5299F492BF23} ['2010-08-12 - Vulnerability reported to vendor', '2010-12-09 - Coordinated public release of advisory'] AbdulAziz Hariri https://www.zerodayinitiative.com/advisories/ZDI-10-263/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-263/",
+  "title": "CA Multiple Products create_session_bab SOAP Request Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of CA ARCserve Replication and High Availability. Authentication is not required to exploit this vulnerability. The specific flaw exists within the \"create_session_bab\" SOAP operation, which is handled by the xosoapapi.asmx process that is crucial to the remote administration of both the High Availability and the Replication products. By sending a specially crafted POST request to the xosoapapi.asmx process a remote, unauthenticated attacker can trigger a buffer overflow condition that results in arbitrary code execution under the context of the SOAP server process.",
+  "zdi_can": "ZDI-CAN-878",
+  "zdi_id": "ZDI-10-263"
+}

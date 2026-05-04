@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2020-0615",
+  "advisory_date": "2020-01-15",
+  "affected_products": [
+    "Windows"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2020-0615",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2020-0615",
+  "cvss": 8.4,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:H",
+  "disclosure_timeline": [
+    "2019-10-01 - Vulnerability reported to vendor",
+    "2020-01-15 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-20-123 ZDI-CAN-9423 Microsoft Windows CLFS Driver Out-Of-Bounds Read Information Disclosure Vulnerability 2020-01-15 CVE-2020-0615 https://www.cve.org/CVERecord?id=CVE-2020-0615 8.4 AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:H ['Microsoft'] ['Windows'] This vulnerability allows attackers to disclose sensitive information on affected installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the CLFS driver. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to escalate privileges and execute code in the context of the kernel. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2020-0615 ['2019-10-01 - Vulnerability reported to vendor', '2020-01-15 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-20-123/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-20-123/",
+  "title": "Microsoft Windows CLFS Driver Out-Of-Bounds Read Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows attackers to disclose sensitive information on affected installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the CLFS driver. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to escalate privileges and execute code in the context of the kernel.",
+  "zdi_can": "ZDI-CAN-9423",
+  "zdi_id": "ZDI-20-123"
+}

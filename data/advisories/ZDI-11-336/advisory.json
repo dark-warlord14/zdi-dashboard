@@ -1,0 +1,27 @@
+{
+  "additional_details": "RealNetworks has issued an update to correct this vulnerability. More details can be found at: http://service.real.com/realplayer/security/11182011_player/en/",
+  "advisory_date": "2011-11-28",
+  "affected_products": [
+    "RealPlayer"
+  ],
+  "affected_vendors": [
+    "RealNetworks"
+  ],
+  "credit": "Damian Put",
+  "cve": "CVE-2011-4255",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-4255",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2011-08-12 - Vulnerability reported to vendor",
+    "2011-11-28 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-11-336 ZDI-CAN-1278 RealNetworks RealPlayer Invalid Codec Name Remote Code Execution Vulnerability 2011-11-28 CVE-2011-4255 https://www.cve.org/CVERecord?id=CVE-2011-4255 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['RealNetworks'] ['RealPlayer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of RealNetworks Real Player. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists when a user attempts to play a malicious video file containing a malformed codec name. When playing a malformed codec, the application will incorrectly free an object and then later attempt to use it by calling a virtual method pointer upon destruction. This can lead to code execution under the context of the application. RealNetworks has issued an update to correct this vulnerability. More details can be found at: http://service.real.com/realplayer/security/11182011_player/en/ ['2011-08-12 - Vulnerability reported to vendor', '2011-11-28 - Coordinated public release of advisory'] Damian Put https://www.zerodayinitiative.com/advisories/ZDI-11-336/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-336/",
+  "title": "RealNetworks RealPlayer Invalid Codec Name Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of RealNetworks Real Player. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists when a user attempts to play a malicious video file containing a malformed codec name. When playing a malformed codec, the application will incorrectly free an object and then later attempt to use it by calling a virtual method pointer upon destruction. This can lead to code execution under the context of the application.",
+  "zdi_can": "ZDI-CAN-1278",
+  "zdi_id": "ZDI-11-336"
+}

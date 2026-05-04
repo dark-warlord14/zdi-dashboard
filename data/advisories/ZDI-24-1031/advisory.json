@@ -1,0 +1,28 @@
+{
+  "additional_details": "NI has issued an update to correct this vulnerability. More details can be found at: https://www.ni.com/en/support/security/available-critical-and-security-updates-for-ni-software/deserialization-of-untrusted-data-vulnerability-in-ni-veristand-project-file.html",
+  "advisory_date": "2024-07-30",
+  "affected_products": [
+    "VeriStand"
+  ],
+  "affected_vendors": [
+    "NI"
+  ],
+  "credit": "kimiya",
+  "cve": "CVE-2024-6675",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-6675",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2024-03-08 - Vulnerability reported to vendor",
+    "2024-07-30 - Coordinated public release of advisory",
+    "2024-08-15 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-1031 ZDI-CAN-21927 NI VeriStand NIVSPRJ File Parsing Deserialization of Untrusted Data Remote Code Execution Vulnerability 2024-07-30 CVE-2024-6675 https://www.cve.org/CVERecord?id=CVE-2024-6675 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['NI'] ['VeriStand'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of NI VeriStand. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the processing of NIVSPRJ files. When parsing the BinaryElements element, the process does not properly validate user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current user. NI has issued an update to correct this vulnerability. More details can be found at: https://www.ni.com/en/support/security/available-critical-and-security-updates-for-ni-software/deserialization-of-untrusted-data-vulnerability-in-ni-veristand-project-file.html ['2024-03-08 - Vulnerability reported to vendor', '2024-07-30 - Coordinated public release of advisory', '2024-08-15 - Advisory Updated'] kimiya https://www.zerodayinitiative.com/advisories/ZDI-24-1031/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-1031/",
+  "title": "NI VeriStand NIVSPRJ File Parsing Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+  "updated_date": "2024-08-15",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of NI VeriStand. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the processing of NIVSPRJ files. When parsing the BinaryElements element, the process does not properly validate user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current user.",
+  "zdi_can": "ZDI-CAN-21927",
+  "zdi_id": "ZDI-24-1031"
+}

@@ -1,0 +1,28 @@
+{
+  "additional_details": "Vector 35 has issued an update to correct this vulnerability. More details can be found at: https://binary.ninja/2021/06/03/2.4-release.html#security-advisories",
+  "advisory_date": "2021-06-10",
+  "affected_products": [
+    "Binary Ninja"
+  ],
+  "affected_vendors": [
+    "Vector 35"
+  ],
+  "credit": "Mat Powell of Trend Micro Zero Day Initiative",
+  "cve": "CVE-2021-31516",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2021-31516",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2021-04-27 - Vulnerability reported to vendor",
+    "2021-06-10 - Coordinated public release of advisory",
+    "2021-06-29 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-21-677 ZDI-CAN-13670 Vector 35 Binary Ninja BNDB File Parsing Use-After-Free Remote Code Execution Vulnerability 2021-06-10 CVE-2021-31516 https://www.cve.org/CVERecord?id=CVE-2021-31516 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Vector 35'] ['Binary Ninja'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Vector 35 Binary Ninja. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of BNDB files. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current process. Vector 35 has issued an update to correct this vulnerability. More details can be found at: https://binary.ninja/2021/06/03/2.4-release.html#security-advisories ['2021-04-27 - Vulnerability reported to vendor', '2021-06-10 - Coordinated public release of advisory', '2021-06-29 - Advisory Updated'] Mat Powell of Trend Micro Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-21-677/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-21-677/",
+  "title": "Vector 35 Binary Ninja BNDB File Parsing Use-After-Free Remote Code Execution Vulnerability",
+  "updated_date": "2021-06-29",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Vector 35 Binary Ninja. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of BNDB files. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-13670",
+  "zdi_id": "ZDI-21-677"
+}

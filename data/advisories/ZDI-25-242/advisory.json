@@ -1,0 +1,28 @@
+{
+  "additional_details": "Fixed in version 7.3.5.860",
+  "advisory_date": "2025-04-09",
+  "affected_products": [
+    "PACS Server"
+  ],
+  "affected_vendors": [
+    "MedDream"
+  ],
+  "credit": "Chizuru Toyama of TXOne Networks",
+  "cve": "CVE-2025-3484",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-3484",
+  "cvss": 9.8,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2024-12-10 - Vulnerability reported to vendor",
+    "2025-04-09 - Coordinated public release of advisory",
+    "2025-04-22 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-242 ZDI-CAN-25853 MedDream PACS Server DICOM File Parsing Stack-based Buffer Overflow Remote Code Execution Vulnerability 2025-04-09 CVE-2025-3484 https://www.cve.org/CVERecord?id=CVE-2025-3484 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['MedDream'] ['PACS Server'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of MedDream PACS Server. Authentication is not required to exploit this vulnerability. The specific flaw exists within the parsing of DICOM files. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of the service account. Fixed in version 7.3.5.860 ['2024-12-10 - Vulnerability reported to vendor', '2025-04-09 - Coordinated public release of advisory', '2025-04-22 - Advisory Updated'] Chizuru Toyama of TXOne Networks https://www.zerodayinitiative.com/advisories/ZDI-25-242/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-242/",
+  "title": "MedDream PACS Server DICOM File Parsing Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+  "updated_date": "2025-04-22",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of MedDream PACS Server. Authentication is not required to exploit this vulnerability. The specific flaw exists within the parsing of DICOM files. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of the service account.",
+  "zdi_can": "ZDI-CAN-25853",
+  "zdi_id": "ZDI-25-242"
+}

@@ -1,0 +1,27 @@
+{
+  "additional_details": "http://www-01.ibm.com/support/docview.wss?uid=swg21461514",
+  "advisory_date": "2011-02-07",
+  "affected_products": [
+    "Lotus Domino"
+  ],
+  "affected_vendors": [
+    "IBM"
+  ],
+  "credit": "Intevydis, http://intevydis.com",
+  "cve": "CVE-2011-0913",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-0913",
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2010-07-20 - Vulnerability reported to vendor",
+    "2011-02-07 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-11-053 ZDI-CAN-758 (0Day) Lotus Domino Server diiop getEnvironmentString Remote Code Execution Vulnerability 2011-02-07 CVE-2011-0913 https://www.cve.org/CVERecord?id=CVE-2011-0913 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['IBM'] ['Lotus Domino'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of IBM Lotus Domino. Authentication is not required to exploit this vulnerability. The flaw exists within the ndiiop.exe component which listens by default on a dynamic TCP port. When handling a GIOP getEnvironmentString request the process blindly copies user supplied argument into an stack buffer while checking the local variable cache. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the SYSTEM user. http://www-01.ibm.com/support/docview.wss?uid=swg21461514 ['2010-07-20 - Vulnerability reported to vendor', '2011-02-07 - Coordinated public release of advisory'] Intevydis, http://intevydis.com https://www.zerodayinitiative.com/advisories/ZDI-11-053/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-053/",
+  "title": "(0Day) Lotus Domino Server diiop getEnvironmentString Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of IBM Lotus Domino. Authentication is not required to exploit this vulnerability. The flaw exists within the ndiiop.exe component which listens by default on a dynamic TCP port. When handling a GIOP getEnvironmentString request the process blindly copies user supplied argument into an stack buffer while checking the local variable cache. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the SYSTEM user.",
+  "zdi_can": "ZDI-CAN-758",
+  "zdi_id": "ZDI-11-053"
+}

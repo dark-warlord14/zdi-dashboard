@@ -1,0 +1,27 @@
+{
+  "additional_details": "This vulnerability is being disclosed publicly without a patch because vendor indicates that the vulnerability does not meet the bar for security servicing. 06/30/2014 - ZDI disclosed report to vendor 06/30/2014 - Vendor provided acknowledgment and tracking number 07/09/2014 - Vendor re-provided tracking number, also case manager 08/15/2014 - Vendor provided update indicating this case 'does not meet the bar for security servicing' 08/25/2014 - ZDI requested the case not be closed 08/28/2014 - ZDI indicated intent to disclose and requested vendor mitigation 08/28/2014 - Vendor provided mitigation -- Vendor Mitigation: For users who have not modified the default configuration for the \"Disable script debugging (Internet Explorer)\" option, no action is required. For users who have modified the default configuration, or want to verify the configuration, follow the steps below: 1.) In Internet Explorer, choose Internet Options from the Tools menu. 2.) In the Internet Options dialog box, click the Advanced tab. 3.) On the Advanced tab, under Browsing, make sure \"Disable Script Debugging (Internet Explorer)\" is checked. 4.) Click OK.",
+  "advisory_date": "2014-10-02",
+  "affected_products": [
+    "Internet Explorer"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Aniway.Anyway@gmail.com",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2014-06-30 - Vulnerability reported to vendor",
+    "2014-10-02 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-14-349 ZDI-CAN-2387 (0Day) Microsoft Internet Explorer ScriptEngine Use-After-Free Remote Code Execution Vulnerability 2014-10-02 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Microsoft'] ['Internet Explorer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of ScriptEngine objects. By manipulating a document's elements an attacker can force a dangling pointer to be reused after it has been freed. An attacker can leverage this vulnerability to execute code under the context of the current process. This vulnerability is being disclosed publicly without a patch because vendor indicates that the vulnerability does not meet the bar for security servicing. 06/30/2014 - ZDI disclosed report to vendor 06/30/2014 - Vendor provided acknowledgment and tracking number 07/09/2014 - Vendor re-provided tracking number, also case manager 08/15/2014 - Vendor provided update indicating this case 'does not meet the bar for security servicing' 08/25/2014 - ZDI requested the case not be closed 08/28/2014 - ZDI indicated intent to disclose and requested vendor mitigation 08/28/2014 - Vendor provided mitigation -- Vendor Mitigation: For users who have not modified the default configuration for the \"Disable script debugging (Internet Explorer)\" option, no action is required. For users who have modified the default configuration, or want to verify the configuration, follow the steps below: 1.) In Internet Explorer, choose Internet Options from the Tools menu. 2.) In the Internet Options dialog box, click the Advanced tab. 3.) On the Advanced tab, under Browsing, make sure \"Disable Script Debugging (Internet Explorer)\" is checked. 4.) Click OK. ['2014-06-30 - Vulnerability reported to vendor', '2014-10-02 - Coordinated public release of advisory'] Aniway.Anyway@gmail.com https://www.zerodayinitiative.com/advisories/ZDI-14-349/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-14-349/",
+  "title": "(0Day) Microsoft Internet Explorer ScriptEngine Use-After-Free Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of ScriptEngine objects. By manipulating a document's elements an attacker can force a dangling pointer to be reused after it has been freed. An attacker can leverage this vulnerability to execute code under the context of the current process.",
+  "zdi_can": "ZDI-CAN-2387",
+  "zdi_id": "ZDI-14-349"
+}

@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/bulletin/MS11-002.mspx",
+  "advisory_date": "2011-01-11",
+  "affected_products": [
+    "Data Access Components"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "AbdulAziz Hariri",
+  "cve": "CVE-2011-0026",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-0026",
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2010-06-23 - Vulnerability reported to vendor",
+    "2011-01-11 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-11-001 ZDI-CAN-708 Microsoft Data Access Components DSN Overflow Code Execution Vulnerability 2011-01-11 CVE-2011-0026 https://www.cve.org/CVERecord?id=CVE-2011-0026 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Microsoft'] ['Data Access Components'] This vulnerability allows attackers to execute arbitrary code on vulnerable installations of Microsoft Data Access Components. The vulnerability is present in an API call and as such successful exploitation will depend on an application's implementation of this call. The specific flaw exists within the SQLConnectW call in the odbc32.dll component. When calculating the size of a user provided szDSN, the result of a call to lstrlenW is used in a signed comparison to SQL_MAX_DSN_LENGTH to verify the destination buffer size. This value is later used to copy user supplied data to a fixed length stack buffer. A malicious szDSN length could be used to exploit this signedness bug and execute arbitrary code. Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/bulletin/MS11-002.mspx ['2010-06-23 - Vulnerability reported to vendor', '2011-01-11 - Coordinated public release of advisory'] AbdulAziz Hariri https://www.zerodayinitiative.com/advisories/ZDI-11-001/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-001/",
+  "title": "Microsoft Data Access Components DSN Overflow Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows attackers to execute arbitrary code on vulnerable installations of Microsoft Data Access Components. The vulnerability is present in an API call and as such successful exploitation will depend on an application's implementation of this call. The specific flaw exists within the SQLConnectW call in the odbc32.dll component. When calculating the size of a user provided szDSN, the result of a call to lstrlenW is used in a signed comparison to SQL_MAX_DSN_LENGTH to verify the destination buffer size. This value is later used to copy user supplied data to a fixed length stack buffer. A malicious szDSN length could be used to exploit this signedness bug and execute arbitrary code.",
+  "zdi_can": "ZDI-CAN-708",
+  "zdi_id": "ZDI-11-001"
+}

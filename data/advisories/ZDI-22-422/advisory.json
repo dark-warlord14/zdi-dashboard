@@ -1,0 +1,28 @@
+{
+  "additional_details": "This vulnerability is being disclosed publicly without a patch in accordance with the ZDI 120 day deadline. 10/15/21 \u2013 ZDI reported the vulnerability to the vendor 01/12/22 \u2013 ZDI requested an update 02/18/22 \u2013 ZDI notified the vendor of the intention to publish the cases as 0-day advisories on 02/28/22 -- Mitigation: Given the nature of the vulnerability the only salient mitigation strategy is to restrict interaction with the application.",
+  "advisory_date": "2022-03-01",
+  "affected_products": [
+    "CNCSoft ScreenEditor"
+  ],
+  "affected_vendors": [
+    "Delta Industrial Automation"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2022-1404",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-1404",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2021-10-15 - Vulnerability reported to vendor",
+    "2022-03-01 - Coordinated public release of advisory",
+    "2022-05-10 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-422 ZDI-CAN-15202 (0Day) Delta Industrial Automation CNCSoft ScreenEditor DPB File Parsing Stack-based Buffer Overflow Remote Code Execution Vulnerability 2022-03-01 CVE-2022-1404 https://www.cve.org/CVERecord?id=CVE-2022-1404 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Delta Industrial Automation'] ['CNCSoft ScreenEditor'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Delta Industrial Automation CNCSoft ScreenEditor. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of DPB files. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of Administrator. This vulnerability is being disclosed publicly without a patch in accordance with the ZDI 120 day deadline. 10/15/21 \u2013 ZDI reported the vulnerability to the vendor 01/12/22 \u2013 ZDI requested an update 02/18/22 \u2013 ZDI notified the vendor of the intention to publish the cases as 0-day advisories on 02/28/22 -- Mitigation: Given the nature of the vulnerability the only salient mitigation strategy is to restrict interaction with the application. ['2021-10-15 - Vulnerability reported to vendor', '2022-03-01 - Coordinated public release of advisory', '2022-05-10 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-22-422/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-422/",
+  "title": "(0Day) Delta Industrial Automation CNCSoft ScreenEditor DPB File Parsing Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+  "updated_date": "2022-05-10",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Delta Industrial Automation CNCSoft ScreenEditor. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of DPB files. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of Administrator.",
+  "zdi_can": "ZDI-CAN-15202",
+  "zdi_id": "ZDI-22-422"
+}

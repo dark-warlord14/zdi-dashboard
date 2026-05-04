@@ -1,0 +1,27 @@
+{
+  "additional_details": "Hewlett-Packard has issued an update to correct this vulnerability. More details can be found in HP document ID #SB2294r1.",
+  "advisory_date": "2007-12-17",
+  "affected_products": [
+    "HP-UX"
+  ],
+  "affected_vendors": [
+    "Hewlett-Packard"
+  ],
+  "credit": "Tenable Network Security",
+  "cve": "CVE-2007-6195",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2007-6195",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2007-07-20 - Vulnerability reported to vendor",
+    "2007-12-17 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-07-079 ZDI-CAN-201 Hewlett-Packard HP-UX swagentd Buffer Overflow Vulnerability 2007-12-17 CVE-2007-6195 https://www.cve.org/CVERecord?id=CVE-2007-6195 ['Hewlett-Packard'] ['HP-UX'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Hewlett-Packard HP-UX operating system. Authentication is not required to exploit this vulnerability. The specific flaw exists within the function sw_rpc_agent_init (opcode 0x04) defined in swagentd. Specific malformed arguments can cause function pointers to be overwritten and thereby result in arbitrary code execution. Hewlett-Packard has issued an update to correct this vulnerability. More details can be found in HP document ID #SB2294r1. ['2007-07-20 - Vulnerability reported to vendor', '2007-12-17 - Coordinated public release of advisory'] Tenable Network Security https://www.zerodayinitiative.com/advisories/ZDI-07-079/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-07-079/",
+  "title": "Hewlett-Packard HP-UX swagentd Buffer Overflow Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Hewlett-Packard HP-UX operating system. Authentication is not required to exploit this vulnerability. The specific flaw exists within the function sw_rpc_agent_init (opcode 0x04) defined in swagentd. Specific malformed arguments can cause function pointers to be overwritten and thereby result in arbitrary code execution.",
+  "zdi_can": "ZDI-CAN-201",
+  "zdi_id": "ZDI-07-079"
+}

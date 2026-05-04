@@ -1,0 +1,27 @@
+{
+  "additional_details": "Eaton has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-16-182-01",
+  "advisory_date": "2016-07-07",
+  "affected_products": [
+    "ELCSoft"
+  ],
+  "affected_vendors": [
+    "Eaton"
+  ],
+  "credit": "Ariele Caltabiano (kimiya)",
+  "cve": "CVE-2016-4509",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-4509",
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2016-04-07 - Vulnerability reported to vendor",
+    "2016-07-07 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-16-408 ZDI-CAN-3675 Eaton ELCSoft Heap Memory Corruption Remote Code Execution Vulnerability 2016-07-07 CVE-2016-4509 https://www.cve.org/CVERecord?id=CVE-2016-4509 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Eaton'] ['ELCSoft'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Eaton ELCSoft. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within processing of EPC files. Parsing a specially crafted EPC file can cause ELCSoft.exe to overwrite a TList object in memory. An attacker can leverage this vulnerability to execute arbitrary code in the context of the process. Eaton has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-16-182-01 ['2016-04-07 - Vulnerability reported to vendor', '2016-07-07 - Coordinated public release of advisory'] Ariele Caltabiano (kimiya) https://www.zerodayinitiative.com/advisories/ZDI-16-408/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-408/",
+  "title": "Eaton ELCSoft Heap Memory Corruption Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Eaton ELCSoft. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within processing of EPC files. Parsing a specially crafted EPC file can cause ELCSoft.exe to overwrite a TList object in memory. An attacker can leverage this vulnerability to execute arbitrary code in the context of the process.",
+  "zdi_can": "ZDI-CAN-3675",
+  "zdi_id": "ZDI-16-408"
+}

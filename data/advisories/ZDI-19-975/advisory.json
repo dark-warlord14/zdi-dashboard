@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2019-1388",
+  "advisory_date": "2019-11-13",
+  "affected_products": [
+    "Windows"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Eduardo Braun Prado",
+  "cve": "CVE-2019-1388",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2019-1388",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2019-07-23 - Vulnerability reported to vendor",
+    "2019-11-13 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-19-975 ZDI-CAN-9022 Microsoft Windows UAC Unsafe Interaction Privilege Escalation Vulnerability 2019-11-13 CVE-2019-1388 https://www.cve.org/CVERecord?id=CVE-2019-1388 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Microsoft'] ['Windows'] This vulnerability allows local attackers to escalate privileges on affected installations of Microsoft Windows. An attacker must first obtain the ability to access an interactive desktop as a low-privileged user on the target system in order to exploit this vulnerability. The specific flaw exists within the User Account Control (UAC) user interface shown on the secure desktop. By interacting with the user interface, an attacker can launch a highly-privileged web browser on the normal desktop. An attacker can leverage this vulnerability to escalate privileges and execute code in the context of SYSTEM. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2019-1388 ['2019-07-23 - Vulnerability reported to vendor', '2019-11-13 - Coordinated public release of advisory'] Eduardo Braun Prado https://www.zerodayinitiative.com/advisories/ZDI-19-975/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-19-975/",
+  "title": "Microsoft Windows UAC Unsafe Interaction Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Microsoft Windows. An attacker must first obtain the ability to access an interactive desktop as a low-privileged user on the target system in order to exploit this vulnerability. The specific flaw exists within the User Account Control (UAC) user interface shown on the secure desktop. By interacting with the user interface, an attacker can launch a highly-privileged web browser on the normal desktop. An attacker can leverage this vulnerability to escalate privileges and execute code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-9022",
+  "zdi_id": "ZDI-19-975"
+}

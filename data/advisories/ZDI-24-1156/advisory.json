@@ -1,0 +1,28 @@
+{
+  "additional_details": "Rockwell Automation has issued an update to correct this vulnerability. More details can be found at: https://www.rockwellautomation.com/en-ca/trust-center/security-advisories/advisory.SD1692.html",
+  "advisory_date": "2024-08-22",
+  "affected_products": [
+    "ThinManager"
+  ],
+  "affected_vendors": [
+    "Rockwell Automation"
+  ],
+  "credit": "Nicholas Zubrisky (@NZubrisky) of Trend Micro Security Research",
+  "cve": "CVE-2024-7986",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-7986",
+  "cvss": 5.5,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+  "disclosure_timeline": [
+    "2024-04-24 - Vulnerability reported to vendor",
+    "2024-08-22 - Coordinated public release of advisory",
+    "2024-08-22 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-1156 ZDI-CAN-24002 Rockwell Automation ThinManager ThinServer Arbitrary File Read Information Disclosure Vulnerability 2024-08-22 CVE-2024-7986 https://www.cve.org/CVERecord?id=CVE-2024-7986 5.5 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N ['Rockwell Automation'] ['ThinManager'] This vulnerability allows local attackers to read arbitrary files on affected installations of Rockwell Automation ThinManager. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the ThinServer service which listens on TCP port 8443 by default. The issue results from the lack of proper access controls set on resources used by the service. An attacker can leverage this vulnerability to read files in the context of the SYSTEM. Rockwell Automation has issued an update to correct this vulnerability. More details can be found at: https://www.rockwellautomation.com/en-ca/trust-center/security-advisories/advisory.SD1692.html ['2024-04-24 - Vulnerability reported to vendor', '2024-08-22 - Coordinated public release of advisory', '2024-08-22 - Advisory Updated'] Nicholas Zubrisky (@NZubrisky) of Trend Micro Security Research https://www.zerodayinitiative.com/advisories/ZDI-24-1156/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-1156/",
+  "title": "Rockwell Automation ThinManager ThinServer Arbitrary File Read Information Disclosure Vulnerability",
+  "updated_date": "2024-08-22",
+  "vulnerability_details": "This vulnerability allows local attackers to read arbitrary files on affected installations of Rockwell Automation ThinManager. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the ThinServer service which listens on TCP port 8443 by default. The issue results from the lack of proper access controls set on resources used by the service. An attacker can leverage this vulnerability to read files in the context of the SYSTEM.",
+  "zdi_can": "ZDI-CAN-24002",
+  "zdi_id": "ZDI-24-1156"
+}

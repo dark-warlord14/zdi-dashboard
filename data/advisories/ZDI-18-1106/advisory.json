@@ -1,0 +1,28 @@
+{
+  "additional_details": "Wecon has issued an update to correct this vulnerability. More details can be found at: https://us-cert.cisa.gov/ics/advisories/ICSA-18-277-01 This vulnerability is being disclosed publicly without a patch in accordance with the ZDI 120 day deadline. 05/08/18 - ZDI sent the report to ICS-CERT 05/09/18 - ICS-CERT acknowledged, confirmed the report was sent to the vendor and sent an ICS-VU # 09/17/18 - ZDI asked ICS-CERT to confirm the report remains unpatched and to advise the vendor of the intent to publish the report as 0-day on 10/02/18 -- Mitigation: Given the nature of the vulnerability the only salient mitigation strategy is to restrict interaction with the application to trusted files.",
+  "advisory_date": "2018-10-02",
+  "affected_products": [
+    "PIStudio"
+  ],
+  "affected_vendors": [
+    "Wecon"
+  ],
+  "credit": "Mat Powell - Trend Micro Zero Day Initiative",
+  "cve": "CVE-2018-17889",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2018-17889",
+  "cvss": 7.1,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:C/I:N/A:N",
+  "disclosure_timeline": [
+    "2018-05-09 - Vulnerability reported to vendor",
+    "2018-10-02 - Coordinated public release of advisory",
+    "2021-12-02 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-1106 ZDI-CAN-6162 (0Day) Wecon PIStudio xmlparser LoadXMLFile XML External Entity Processing Information Disclosure Vulnerability 2018-10-02 CVE-2018-17889 https://www.cve.org/CVERecord?id=CVE-2018-17889 7.1 AV:N/AC:M/Au:N/C:C/I:N/A:N ['Wecon'] ['PIStudio'] This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Wecon PIStudio. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the processing of project files. Due to the improper restriction of XML External Entity (XXE) references, a specially crafted document specifying a URI causes the XML parser to access the URI and embed the contents back into the XML document for further processing. An attacker can leverage this vulnerability to disclose information under the context of Administrator. Wecon has issued an update to correct this vulnerability. More details can be found at: https://us-cert.cisa.gov/ics/advisories/ICSA-18-277-01 This vulnerability is being disclosed publicly without a patch in accordance with the ZDI 120 day deadline. 05/08/18 - ZDI sent the report to ICS-CERT 05/09/18 - ICS-CERT acknowledged, confirmed the report was sent to the vendor and sent an ICS-VU # 09/17/18 - ZDI asked ICS-CERT to confirm the report remains unpatched and to advise the vendor of the intent to publish the report as 0-day on 10/02/18 -- Mitigation: Given the nature of the vulnerability the only salient mitigation strategy is to restrict interaction with the application to trusted files. ['2018-05-09 - Vulnerability reported to vendor', '2018-10-02 - Coordinated public release of advisory', '2021-12-02 - Advisory Updated'] Mat Powell - Trend Micro Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-18-1106/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-1106/",
+  "title": "(0Day) Wecon PIStudio xmlparser LoadXMLFile XML External Entity Processing Information Disclosure Vulnerability",
+  "updated_date": "2021-12-02",
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Wecon PIStudio. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the processing of project files. Due to the improper restriction of XML External Entity (XXE) references, a specially crafted document specifying a URI causes the XML parser to access the URI and embed the contents back into the XML document for further processing. An attacker can leverage this vulnerability to disclose information under the context of Administrator.",
+  "zdi_can": "ZDI-CAN-6162",
+  "zdi_id": "ZDI-18-1106"
+}

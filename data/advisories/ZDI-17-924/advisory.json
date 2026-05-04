@@ -1,0 +1,27 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-us/HT208112",
+  "advisory_date": "2017-11-20",
+  "affected_products": [
+    "macOS"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "Niklas Baumstark and Samuel Gro",
+  "cve": "CVE-2017-13829",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-13829",
+  "cvss": 4.4,
+  "cvss_vector": "AV:L/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2017-06-22 - Vulnerability reported to vendor",
+    "2017-11-20 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-17-924 ZDI-CAN-4908 Apple macOS nsurlstoraged Heap-based Buffer Overflow Privilege Escalation Vulnerability 2017-11-20 CVE-2017-13829 https://www.cve.org/CVERecord?id=CVE-2017-13829 4.4 AV:L/AC:M/Au:N/C:P/I:P/A:P ['Apple'] ['macOS'] This vulnerability allows local attackers to escalate privileges on vulnerable installations of Apple macOS. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the nsurlstoraged service. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to escalate privileges under the context of the current service. Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-us/HT208112 ['2017-06-22 - Vulnerability reported to vendor', '2017-11-20 - Coordinated public release of advisory'] Niklas Baumstark and Samuel Gro https://www.zerodayinitiative.com/advisories/ZDI-17-924/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-924/",
+  "title": "Apple macOS nsurlstoraged Heap-based Buffer Overflow Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on vulnerable installations of Apple macOS. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the nsurlstoraged service. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to escalate privileges under the context of the current service.",
+  "zdi_can": "ZDI-CAN-4908",
+  "zdi_id": "ZDI-17-924"
+}

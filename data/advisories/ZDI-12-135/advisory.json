@@ -1,0 +1,27 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT1222",
+  "advisory_date": "2012-08-03",
+  "affected_products": [
+    "QuickTime"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "Damian Put",
+  "cve": "CVE-2012-0661",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2012-0661",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2011-11-29 - Vulnerability reported to vendor",
+    "2012-08-03 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-12-135 ZDI-CAN-1459 Apple QuickTime JPEG2k Sample Size Atom Remote Code Execution Vulnerability 2012-08-03 CVE-2012-0661 https://www.cve.org/CVERecord?id=CVE-2012-0661 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Apple'] ['QuickTime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple QuickTime. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the way Apple QuickTime handles movies with the jpeg2k codec. When the size for a sample defined in the stsz atom is too big the QuickTime player fails to allocate the required memory for that sample. A pointer to the previous sample data still exists after the previous sample got freed. This pointer normally gets updated to point to the current sample data, but this does not happen when the allocation fails. The QuickTime player then re-uses the stale pointer and a use-after-free situation occurs. This can lead to remote code execution under that context of the current process. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT1222 ['2011-11-29 - Vulnerability reported to vendor', '2012-08-03 - Coordinated public release of advisory'] Damian Put https://www.zerodayinitiative.com/advisories/ZDI-12-135/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-12-135/",
+  "title": "Apple QuickTime JPEG2k Sample Size Atom Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple QuickTime. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the way Apple QuickTime handles movies with the jpeg2k codec. When the size for a sample defined in the stsz atom is too big the QuickTime player fails to allocate the required memory for that sample. A pointer to the previous sample data still exists after the previous sample got freed. This pointer normally gets updated to point to the current sample data, but this does not happen when the allocation fails. The QuickTime player then re-uses the stale pointer and a use-after-free situation occurs. This can lead to remote code execution under that context of the current process.",
+  "zdi_can": "ZDI-CAN-1459",
+  "zdi_id": "ZDI-12-135"
+}

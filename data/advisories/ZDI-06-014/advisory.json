@@ -1,0 +1,27 @@
+{
+  "additional_details": "Verisign has issued an update to correct this vulnerability. More details can be found at: http://www.idnnow.com/",
+  "advisory_date": "2006-05-10",
+  "affected_products": [
+    "I-Nav"
+  ],
+  "affected_vendors": [
+    "Verisign"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2006-2273",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2006-2273",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2006-03-27 - Vulnerability reported to vendor",
+    "2006-05-10 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-06-014 ZDI-CAN-030 Verisign I-Nav ActiveX Control Code Execution Vulnerability 2006-05-10 CVE-2006-2273 https://www.cve.org/CVERecord?id=CVE-2006-2273 ['Verisign'] ['I-Nav'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of the Verisign i-Nav ActiveX control. User interaction is required to exploit this vulnerability in that the target must visit a malicious web page. The specific flaw exists within the \"VUpdater.Install\" ActiveX control which is used to provide native support for Internationalized Domain Names (IDNs) in Microsoft Internet Explorer, Microsoft Outlook and Microsoft Outlook Express. Due to the lack of verification on Microsoft Cabinet (.CAB) files from the \"InstallProduct\" routine, an attacker can specify an arbitrary executable to run under the context of the current user. Verisign has issued an update to correct this vulnerability. More details can be found at: http://www.idnnow.com/ ['2006-03-27 - Vulnerability reported to vendor', '2006-05-10 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-06-014/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-06-014/",
+  "title": "Verisign I-Nav ActiveX Control Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of the Verisign i-Nav ActiveX control. User interaction is required to exploit this vulnerability in that the target must visit a malicious web page. The specific flaw exists within the \"VUpdater.Install\" ActiveX control which is used to provide native support for Internationalized Domain Names (IDNs) in Microsoft Internet Explorer, Microsoft Outlook and Microsoft Outlook Express. Due to the lack of verification on Microsoft Cabinet (.CAB) files from the \"InstallProduct\" routine, an attacker can specify an arbitrary executable to run under the context of the current user.",
+  "zdi_can": "ZDI-CAN-030",
+  "zdi_id": "ZDI-06-014"
+}

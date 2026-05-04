@@ -1,0 +1,27 @@
+{
+  "additional_details": "This vulnerability is being disclosed publicly without a patch in accordance with the ZDI 120 day deadline. 12/18/20 \u2013 ZDI reported the vulnerability to ICS-CERT 01/15/21 \u2013 ICS-CERT acknowledged the report 02/23/21 \u2013 ICS-CERT requested an extension for early May 02/24/21 \u2013 ZDI agreed on the extension 04/29/21 \u2013 ICS-CERT indicated the vendor had delayed the release until the end of June 04/29/20 \u2013 ZDI notified ICS-CERT of the intention to publish the case as a 0-day advisory on 05/06/21 -- Mitigation: Given the nature of the vulnerability the only salient mitigation strategy is to restrict interaction with the application.",
+  "advisory_date": "2021-05-06",
+  "affected_products": [
+    "DOPSoft"
+  ],
+  "affected_vendors": [
+    "Delta Industrial Automation"
+  ],
+  "credit": "Natnael Samson (@NattiSamson)",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 3.3,
+  "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+  "disclosure_timeline": [
+    "2020-12-18 - Vulnerability reported to vendor",
+    "2021-05-06 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-21-510 ZDI-CAN-12336 (0Day) Delta Industrial Automation DOPSoft DPA File Parsing Out-Of-Bounds Read Information Disclosure Vulnerability 2021-05-06 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N ['Delta Industrial Automation'] ['DOPSoft'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Delta Industrial Automation DOPSoft. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of DPA files. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process. This vulnerability is being disclosed publicly without a patch in accordance with the ZDI 120 day deadline. 12/18/20 \u2013 ZDI reported the vulnerability to ICS-CERT 01/15/21 \u2013 ICS-CERT acknowledged the report 02/23/21 \u2013 ICS-CERT requested an extension for early May 02/24/21 \u2013 ZDI agreed on the extension 04/29/21 \u2013 ICS-CERT indicated the vendor had delayed the release until the end of June 04/29/20 \u2013 ZDI notified ICS-CERT of the intention to publish the case as a 0-day advisory on 05/06/21 -- Mitigation: Given the nature of the vulnerability the only salient mitigation strategy is to restrict interaction with the application. ['2020-12-18 - Vulnerability reported to vendor', '2021-05-06 - Coordinated public release of advisory'] Natnael Samson (@NattiSamson) https://www.zerodayinitiative.com/advisories/ZDI-21-510/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-21-510/",
+  "title": "(0Day) Delta Industrial Automation DOPSoft DPA File Parsing Out-Of-Bounds Read Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Delta Industrial Automation DOPSoft. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of DPA files. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-12336",
+  "zdi_id": "ZDI-21-510"
+}

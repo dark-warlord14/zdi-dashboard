@@ -1,0 +1,27 @@
+{
+  "additional_details": "D-Link has issued an update to correct this vulnerability. More details can be found at: https://supportannouncement.us.dlink.com/announcement/publication.aspx?name=SAP10323",
+  "advisory_date": "2023-05-04",
+  "affected_products": [
+    "DIR-2640"
+  ],
+  "affected_vendors": [
+    "D-Link"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2023-32149",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-32149",
+  "cvss": 8.8,
+  "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2022-12-22 - Vulnerability reported to vendor",
+    "2023-05-04 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-541 ZDI-CAN-19546 D-Link DIR-2640 prog.cgi Request Handling Stack-based Buffer Overflow Remote Code Execution Vulnerability 2023-05-04 CVE-2023-32149 https://www.cve.org/CVERecord?id=CVE-2023-32149 8.8 AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['D-Link'] ['DIR-2640'] This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of D-Link DIR-2640 routers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the web management interface, which listens on TCP port 80 by default. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of root. D-Link has issued an update to correct this vulnerability. More details can be found at: https://supportannouncement.us.dlink.com/announcement/publication.aspx?name=SAP10323 ['2022-12-22 - Vulnerability reported to vendor', '2023-05-04 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-23-541/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-541/",
+  "title": "D-Link DIR-2640 prog.cgi Request Handling Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of D-Link DIR-2640 routers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the web management interface, which listens on TCP port 80 by default. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of root.",
+  "zdi_can": "ZDI-CAN-19546",
+  "zdi_id": "ZDI-23-541"
+}

@@ -1,0 +1,27 @@
+{
+  "additional_details": "SolarWinds has issued an update to correct this vulnerability. More details can be found at: https://www.solarwinds.com/trust-center/security-advisories/cve-2023-40062",
+  "advisory_date": "2023-11-06",
+  "affected_products": [
+    "Orion Platform"
+  ],
+  "affected_vendors": [
+    "SolarWinds"
+  ],
+  "credit": "Piotr Bazydlo (@chudypb) of Trend Micro Zero Day Initiative",
+  "cve": "CVE-2023-40062",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-40062",
+  "cvss": 8.8,
+  "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2023-08-03 - Vulnerability reported to vendor",
+    "2023-11-06 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-1584 ZDI-CAN-21839 SolarWinds Orion Platform BlacklistedFilesChecker Incomplete List of Disallowed Inputs Remote Code Execution Vulnerability 2023-11-06 CVE-2023-40062 https://www.cve.org/CVERecord?id=CVE-2023-40062 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['SolarWinds'] ['Orion Platform'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of SolarWinds Orion Platform. Authentication is required to exploit this vulnerability. The specific flaw exists within the BlacklistedFilesChecker class. The issue results from an incomplete list of disallowed inputs. An attacker can leverage this vulnerability to execute code in the context of SYSTEM. SolarWinds has issued an update to correct this vulnerability. More details can be found at: https://www.solarwinds.com/trust-center/security-advisories/cve-2023-40062 ['2023-08-03 - Vulnerability reported to vendor', '2023-11-06 - Coordinated public release of advisory'] Piotr Bazydlo (@chudypb) of Trend Micro Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-23-1584/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-1584/",
+  "title": "SolarWinds Orion Platform BlacklistedFilesChecker Incomplete List of Disallowed Inputs Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of SolarWinds Orion Platform. Authentication is required to exploit this vulnerability. The specific flaw exists within the BlacklistedFilesChecker class. The issue results from an incomplete list of disallowed inputs. An attacker can leverage this vulnerability to execute code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-21839",
+  "zdi_id": "ZDI-23-1584"
+}

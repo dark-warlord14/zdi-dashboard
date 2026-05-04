@@ -1,0 +1,27 @@
+{
+  "additional_details": "Kaseya has issued an update to correct this vulnerability. More details can be found at: https://helpdesk.kaseya.com/entries/96164487--Kaseya-Security-Advisory",
+  "advisory_date": "2015-09-23",
+  "affected_products": [
+    "Virtual System Administrator"
+  ],
+  "affected_vendors": [
+    "Kaseya"
+  ],
+  "credit": "Pedro Ribeiro (pedrib@gmail.com) / Agile Information Security",
+  "cve": "CVE-2015-6922",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-6922",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2015-04-02 - Vulnerability reported to vendor",
+    "2015-09-23 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-15-449 ZDI-CAN-2840 Kaseya Virtual System Administrator Remote File Upload Remote Code Execution Vulnerability 2015-09-23 CVE-2015-6922 https://www.cve.org/CVERecord?id=CVE-2015-6922 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Kaseya'] ['Virtual System Administrator'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Kaseya Virtual System Administrator. Authentication is not required to exploit this vulnerability. The specific flaw exists within the uploader.aspx page, which does not properly require that users be authenticated and does not restrict destination file paths. Attackers can leverage this vulnerability to upload and execute arbitrary code on the server under the context of IIS. Kaseya has issued an update to correct this vulnerability. More details can be found at: https://helpdesk.kaseya.com/entries/96164487--Kaseya-Security-Advisory ['2015-04-02 - Vulnerability reported to vendor', '2015-09-23 - Coordinated public release of advisory'] Pedro Ribeiro (pedrib@gmail.com) / Agile Information Security https://www.zerodayinitiative.com/advisories/ZDI-15-449/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-449/",
+  "title": "Kaseya Virtual System Administrator Remote File Upload Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Kaseya Virtual System Administrator. Authentication is not required to exploit this vulnerability. The specific flaw exists within the uploader.aspx page, which does not properly require that users be authenticated and does not restrict destination file paths. Attackers can leverage this vulnerability to upload and execute arbitrary code on the server under the context of IIS.",
+  "zdi_can": "ZDI-CAN-2840",
+  "zdi_id": "ZDI-15-449"
+}

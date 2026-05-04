@@ -1,0 +1,27 @@
+{
+  "additional_details": "This vulnerability is being disclosed publicly without a patch in accordance with the ZDI 120 day deadline. 09/04/20 \u2013 ZDI reported the vulnerabilities to the vendor 09/04/20 \u2013 The vendor acknowledged the report 01/20/21 \u2013 ZDI requested an update 01/21/21 \u2013 The vendor indicated the product was End Of Life and not supported 01/21/21 \u2013 ZDI requested details of the public notification 01/22/21 \u2013 The vendor indicated they could not provide any customer facing notification as they were still documenting the product as End Of Life 01/29/21 \u2013 ZDI notified the vendor of the intention to publish the reports as 0-day advisories on 02/04/21 02/02/21 \u2013 The vendor released a note indicating the End Of Life status of the product -- Mitigation: Given the nature of the vulnerability the only salient mitigation strategy is to restrict interaction with the application.",
+  "advisory_date": "2021-02-04",
+  "affected_products": [
+    "Moonshot Provisioning Manager"
+  ],
+  "affected_vendors": [
+    "Hewlett Packard Enterprise"
+  ],
+  "credit": "Sivathmican Sivakumaran",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 9.8,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2020-09-04 - Vulnerability reported to vendor",
+    "2021-02-04 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-21-151 ZDI-CAN-11830 (0Day) Hewlett Packard Enterprise Moonshot Provisioning Manager khuploadfile Stack-based Buffer Overflow Remote Code Execution Vulnerability 2021-02-04 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['Hewlett Packard Enterprise'] ['Moonshot Provisioning Manager'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Hewlett Packard Enterprise Moonshot Provisioning Manager. Authentication is not required to exploit this vulnerability. The specific flaw exists within the khuploadfile.cgi binary. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of root. This vulnerability is being disclosed publicly without a patch in accordance with the ZDI 120 day deadline. 09/04/20 \u2013 ZDI reported the vulnerabilities to the vendor 09/04/20 \u2013 The vendor acknowledged the report 01/20/21 \u2013 ZDI requested an update 01/21/21 \u2013 The vendor indicated the product was End Of Life and not supported 01/21/21 \u2013 ZDI requested details of the public notification 01/22/21 \u2013 The vendor indicated they could not provide any customer facing notification as they were still documenting the product as End Of Life 01/29/21 \u2013 ZDI notified the vendor of the intention to publish the reports as 0-day advisories on 02/04/21 02/02/21 \u2013 The vendor released a note indicating the End Of Life status of the product -- Mitigation: Given the nature of the vulnerability the only salient mitigation strategy is to restrict interaction with the application. ['2020-09-04 - Vulnerability reported to vendor', '2021-02-04 - Coordinated public release of advisory'] Sivathmican Sivakumaran https://www.zerodayinitiative.com/advisories/ZDI-21-151/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-21-151/",
+  "title": "(0Day) Hewlett Packard Enterprise Moonshot Provisioning Manager khuploadfile Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Hewlett Packard Enterprise Moonshot Provisioning Manager. Authentication is not required to exploit this vulnerability. The specific flaw exists within the khuploadfile.cgi binary. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of root.",
+  "zdi_can": "ZDI-CAN-11830",
+  "zdi_id": "ZDI-21-151"
+}

@@ -1,0 +1,28 @@
+{
+  "additional_details": "Netgate has issued an update to correct this vulnerability. More details can be found at: https://github.com/pfsense/FreeBSD-ports/commit/36b2303dfca35a1183d76f26bcc6ce26d4ea682d",
+  "advisory_date": "2025-10-30",
+  "affected_products": [
+    "pfSense"
+  ],
+  "affected_vendors": [
+    "Netgate"
+  ],
+  "credit": "Alex Williams from Pellera Technologies",
+  "cve": "CVE-2025-12490",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-12490",
+  "cvss": 8.8,
+  "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2025-10-15 - Vulnerability reported to vendor",
+    "2025-10-30 - Coordinated public release of advisory",
+    "2025-10-30 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-979 ZDI-CAN-28085 Netgate pfSense CE Suricata Path Traversal Remote Code Execution Vulnerability 2025-10-30 CVE-2025-12490 https://www.cve.org/CVERecord?id=CVE-2025-12490 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Netgate'] ['pfSense'] This vulnerability allows remote attackers to create arbitrary files on affected installations of Netgate pfSense. Authentication is required to exploit this vulnerability. The specific flaw exists within the Suricata package. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to create files in the context of root. Netgate has issued an update to correct this vulnerability. More details can be found at: https://github.com/pfsense/FreeBSD-ports/commit/36b2303dfca35a1183d76f26bcc6ce26d4ea682d ['2025-10-15 - Vulnerability reported to vendor', '2025-10-30 - Coordinated public release of advisory', '2025-10-30 - Advisory Updated'] Alex Williams from Pellera Technologies https://www.zerodayinitiative.com/advisories/ZDI-25-979/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-979/",
+  "title": "Netgate pfSense CE Suricata Path Traversal Remote Code Execution Vulnerability",
+  "updated_date": "2025-10-30",
+  "vulnerability_details": "This vulnerability allows remote attackers to create arbitrary files on affected installations of Netgate pfSense. Authentication is required to exploit this vulnerability. The specific flaw exists within the Suricata package. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to create files in the context of root.",
+  "zdi_can": "ZDI-CAN-28085",
+  "zdi_id": "ZDI-25-979"
+}

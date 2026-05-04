@@ -1,0 +1,27 @@
+{
+  "additional_details": "Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/cpuapr2014-1972952.html",
+  "advisory_date": "2014-04-21",
+  "affected_products": [
+    "Data Quality"
+  ],
+  "affected_vendors": [
+    "Oracle"
+  ],
+  "credit": "Andrea Micalizzi aka rgod",
+  "cve": "CVE-2014-2416",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-2416",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2013-07-23 - Vulnerability reported to vendor",
+    "2014-04-21 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-14-107 ZDI-CAN-1934 Oracle Data Quality DateTimeWrapper onchange Remote Code Execution Vulnerability 2014-04-21 CVE-2014-2416 https://www.cve.org/CVERecord?id=CVE-2014-2416 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Oracle'] ['Data Quality'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Oracle Data Quality. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the TSS12.DscForms.DateTimeWrapper ActiveX control. The issue lies in the ability to dereference arbitrary pointers from JavaScript. An attacker can leverage this vulnerability to execute code under the context of the current process. Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/cpuapr2014-1972952.html ['2013-07-23 - Vulnerability reported to vendor', '2014-04-21 - Coordinated public release of advisory'] Andrea Micalizzi aka rgod https://www.zerodayinitiative.com/advisories/ZDI-14-107/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-14-107/",
+  "title": "Oracle Data Quality DateTimeWrapper onchange Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Oracle Data Quality. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the TSS12.DscForms.DateTimeWrapper ActiveX control. The issue lies in the ability to dereference arbitrary pointers from JavaScript. An attacker can leverage this vulnerability to execute code under the context of the current process.",
+  "zdi_can": "ZDI-CAN-1934",
+  "zdi_id": "ZDI-14-107"
+}

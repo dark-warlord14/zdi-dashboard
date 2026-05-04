@@ -1,0 +1,28 @@
+{
+  "additional_details": "Samsung has issued an update to correct this vulnerability. More details can be found at: https://security.samsungmobile.com/serviceWeb.smsb?year=2024&month=12",
+  "advisory_date": "2025-04-09",
+  "affected_products": [
+    "Galaxy S24"
+  ],
+  "affected_vendors": [
+    "Samsung"
+  ],
+  "credit": "Ken Gannon of NCC Group (@yogehi)",
+  "cve": "CVE-2024-49421",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-49421",
+  "cvss": 5.9,
+  "cvss_vector": "AV:A/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:L",
+  "disclosure_timeline": [
+    "2024-12-02 - Vulnerability reported to vendor",
+    "2025-04-09 - Coordinated public release of advisory",
+    "2025-04-09 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-229 ZDI-CAN-25650 (Pwn2Own) Samsung Galaxy S24 Quick Share Directory Traversal Arbitrary File Write Vulnerability 2025-04-09 CVE-2024-49421 https://www.cve.org/CVERecord?id=CVE-2024-49421 5.9 AV:A/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:L ['Samsung'] ['Galaxy S24'] This vulnerability allows network-adjacent attackers to create arbitrary files on affected installations of Samsung Galaxy S24. An attacker must first obtain the ability to perform activities on the target device. The specific flaw exists within the Quick Share application. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to create files in the context of the current user. Samsung has issued an update to correct this vulnerability. More details can be found at: https://security.samsungmobile.com/serviceWeb.smsb?year=2024&month=12 ['2024-12-02 - Vulnerability reported to vendor', '2025-04-09 - Coordinated public release of advisory', '2025-04-09 - Advisory Updated'] Ken Gannon of NCC Group (@yogehi) https://www.zerodayinitiative.com/advisories/ZDI-25-229/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-229/",
+  "title": "(Pwn2Own) Samsung Galaxy S24 Quick Share Directory Traversal Arbitrary File Write Vulnerability",
+  "updated_date": "2025-04-09",
+  "vulnerability_details": "This vulnerability allows network-adjacent attackers to create arbitrary files on affected installations of Samsung Galaxy S24. An attacker must first obtain the ability to perform activities on the target device. The specific flaw exists within the Quick Share application. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to create files in the context of the current user.",
+  "zdi_can": "ZDI-CAN-25650",
+  "zdi_id": "ZDI-25-229"
+}

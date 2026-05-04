@@ -1,0 +1,27 @@
+{
+  "additional_details": "Novell has issued an update to correct this vulnerability. More details can be found at: http://www.novell.com/support/kb/doc.php?id=7010770",
+  "advisory_date": "2012-12-21",
+  "affected_products": [
+    "Groupwise"
+  ],
+  "affected_vendors": [
+    "Novell"
+  ],
+  "credit": "Francis Provencher From Protek Research Lab's",
+  "cve": "CVE-2012-0417",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2012-0417",
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2011-10-21 - Vulnerability reported to vendor",
+    "2012-12-21 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-12-196 ZDI-CAN-1347 Novell Groupwise GWIA ber_get_stringa Remote Code Execution Vulnerability 2012-12-21 CVE-2012-0417 https://www.cve.org/CVERecord?id=CVE-2012-0417 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Novell'] ['Groupwise'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Novell Groupwise. Authentication is not required to exploit this vulnerability. The flaw exists within the Groupwise Internet Agent component, specifically the optional LDAP server which listens on tcp port 389. When parsing a BER encoded parameter the specified size is used to allocate a destination buffer. A properly encoded BER chunk could cause an integer size value to wrap before buffer allocation. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the SYSTEM account. Novell has issued an update to correct this vulnerability. More details can be found at: http://www.novell.com/support/kb/doc.php?id=7010770 ['2011-10-21 - Vulnerability reported to vendor', '2012-12-21 - Coordinated public release of advisory'] Francis Provencher From Protek Research Lab's https://www.zerodayinitiative.com/advisories/ZDI-12-196/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-12-196/",
+  "title": "Novell Groupwise GWIA ber_get_stringa Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Novell Groupwise. Authentication is not required to exploit this vulnerability. The flaw exists within the Groupwise Internet Agent component, specifically the optional LDAP server which listens on tcp port 389. When parsing a BER encoded parameter the specified size is used to allocate a destination buffer. A properly encoded BER chunk could cause an integer size value to wrap before buffer allocation. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the SYSTEM account.",
+  "zdi_can": "ZDI-CAN-1347",
+  "zdi_id": "ZDI-12-196"
+}

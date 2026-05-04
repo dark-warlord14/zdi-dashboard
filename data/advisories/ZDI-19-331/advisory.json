@@ -1,0 +1,27 @@
+{
+  "additional_details": "Advantech has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-19-092-01",
+  "advisory_date": "2019-04-02",
+  "affected_products": [
+    "WebAccess"
+  ],
+  "affected_vendors": [
+    "Advantech"
+  ],
+  "credit": "Mat Powell of Trend Micro Zero Day Initiative",
+  "cve": "CVE-2019-6554",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2019-6554",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+  "disclosure_timeline": [
+    "2019-01-22 - Vulnerability reported to vendor",
+    "2019-04-02 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-19-331 ZDI-CAN-7908 Advantech WebAccess Node UninstallWA Improper Access Control Denial-of-Service Vulnerability 2019-04-02 CVE-2019-6554 https://www.cve.org/CVERecord?id=CVE-2019-6554 7.5 AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H ['Advantech'] ['WebAccess'] This vulnerability allows remote attackers to create a denial-of-service condition on vulnerable installations of Advantech WebAccess Node. Authentication is not required to exploit this vulnerability. The specific flaw exists within UninstallWA.exe, which is accessed through the 0x2711 IOCTL in the webvrpcs process. An attacker can leverage this vulnerability to uninstall the application and create a denial-of-service condition on the system. Advantech has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-19-092-01 ['2019-01-22 - Vulnerability reported to vendor', '2019-04-02 - Coordinated public release of advisory'] Mat Powell of Trend Micro Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-19-331/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-19-331/",
+  "title": "Advantech WebAccess Node UninstallWA Improper Access Control Denial-of-Service Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to create a denial-of-service condition on vulnerable installations of Advantech WebAccess Node. Authentication is not required to exploit this vulnerability. The specific flaw exists within UninstallWA.exe, which is accessed through the 0x2711 IOCTL in the webvrpcs process. An attacker can leverage this vulnerability to uninstall the application and create a denial-of-service condition on the system.",
+  "zdi_can": "ZDI-CAN-7908",
+  "zdi_id": "ZDI-19-331"
+}

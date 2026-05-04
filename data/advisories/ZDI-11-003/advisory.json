@@ -1,0 +1,27 @@
+{
+  "additional_details": "Hewlett-Packard has issued an update to correct this vulnerability. More details can be found at: http://h20000.www2.hp.com/bizsupport/TechSupport/Document.jsp?objectID=c02670501",
+  "advisory_date": "2011-01-10",
+  "affected_products": [
+    "OpenView Network Node Manager"
+  ],
+  "affected_vendors": [
+    "Hewlett-Packard"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2011-0261",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-0261",
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2010-09-14 - Vulnerability reported to vendor",
+    "2011-01-10 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-11-003 ZDI-CAN-753 HP OpenView Network Node Manager jovgraph.exe displayWidth Remote Code Execution Vulnerability 2011-01-10 CVE-2011-0261 https://www.cve.org/CVERecord?id=CVE-2011-0261 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Hewlett-Packard'] ['OpenView Network Node Manager'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Hewlett-Packard OpenView Network Node Manager. Authentication is not required to exploit this vulnerability. The exploit would require a crafted HTTP request to the target host. The specific flaw exists within jovgraph.exe, a Java-based grapher that extends the SNMP Data Presenter to include xnmgraph-like applications created by the application builder. The vulnerability occurs within jovgraph when processing malformed displayWidth option passed from the arg parameter to the CGI program. A remote unauthenticated attacker can send a crafted HTTP request to the target host to exploit this vulnerability. Successful attack could allow for arbitrary code being injected and executed with the privileges of the affected process, normally Internet Guest Account on Windows platforms. Hewlett-Packard has issued an update to correct this vulnerability. More details can be found at: http://h20000.www2.hp.com/bizsupport/TechSupport/Document.jsp?objectID=c02670501 ['2010-09-14 - Vulnerability reported to vendor', '2011-01-10 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-11-003/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-003/",
+  "title": "HP OpenView Network Node Manager jovgraph.exe displayWidth Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Hewlett-Packard OpenView Network Node Manager. Authentication is not required to exploit this vulnerability. The exploit would require a crafted HTTP request to the target host. The specific flaw exists within jovgraph.exe, a Java-based grapher that extends the SNMP Data Presenter to include xnmgraph-like applications created by the application builder. The vulnerability occurs within jovgraph when processing malformed displayWidth option passed from the arg parameter to the CGI program. A remote unauthenticated attacker can send a crafted HTTP request to the target host to exploit this vulnerability. Successful attack could allow for arbitrary code being injected and executed with the privileges of the affected process, normally Internet Guest Account on Windows platforms.",
+  "zdi_can": "ZDI-CAN-753",
+  "zdi_id": "ZDI-11-003"
+}

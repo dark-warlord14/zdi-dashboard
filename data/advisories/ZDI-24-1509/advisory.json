@@ -1,0 +1,28 @@
+{
+  "additional_details": "Ivanti has issued an update to correct this vulnerability. More details can be found at: https://forums.ivanti.com/s/article/Security-Advisory-EPM-November-2024-for-EPM-2024-and-EPM-2022",
+  "advisory_date": "2024-11-13",
+  "affected_products": [
+    "Endpoint Manager"
+  ],
+  "affected_vendors": [
+    "Ivanti"
+  ],
+  "credit": "06fe5fd2bc53027c4a3b7e395af0b850e7b8a044",
+  "cve": "CVE-2024-50329",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-50329",
+  "cvss": 8.8,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2024-10-08 - Vulnerability reported to vendor",
+    "2024-11-13 - Coordinated public release of advisory",
+    "2024-11-13 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-1509 ZDI-CAN-25250 Ivanti Endpoint Manager vulscan Directory Traversal Remote Code Execution Vulnerability 2024-11-13 CVE-2024-50329 https://www.cve.org/CVERecord?id=CVE-2024-50329 8.8 AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Ivanti'] ['Endpoint Manager'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ivanti Endpoint Manager. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the vulscan utility. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute code in the context of the NETWORK SERVICE. Ivanti has issued an update to correct this vulnerability. More details can be found at: https://forums.ivanti.com/s/article/Security-Advisory-EPM-November-2024-for-EPM-2024-and-EPM-2022 ['2024-10-08 - Vulnerability reported to vendor', '2024-11-13 - Coordinated public release of advisory', '2024-11-13 - Advisory Updated'] 06fe5fd2bc53027c4a3b7e395af0b850e7b8a044 https://www.zerodayinitiative.com/advisories/ZDI-24-1509/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-1509/",
+  "title": "Ivanti Endpoint Manager vulscan Directory Traversal Remote Code Execution Vulnerability",
+  "updated_date": "2024-11-13",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ivanti Endpoint Manager. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the vulscan utility. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute code in the context of the NETWORK SERVICE.",
+  "zdi_can": "ZDI-CAN-25250",
+  "zdi_id": "ZDI-24-1509"
+}

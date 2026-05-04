@@ -1,0 +1,28 @@
+{
+  "additional_details": "Action1 has issued an update to correct this vulnerability. More details can be found at: https://www.action1.com/blog/acknowledging-zdi-can-26767-high-severity-vulnerability-in-action1-agent/",
+  "advisory_date": "2025-06-03",
+  "affected_products": [
+    "Action1"
+  ],
+  "affected_vendors": [
+    "Action1"
+  ],
+  "credit": "Xavier DANEST",
+  "cve": "CVE-2025-5480",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-5480",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2025-04-28 - Vulnerability reported to vendor",
+    "2025-06-03 - Coordinated public release of advisory",
+    "2025-06-06 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-323 ZDI-CAN-26767 Action1 Uncontrolled Search Path Element Local Privilege Escalation Vulnerability 2025-06-03 CVE-2025-5480 https://www.cve.org/CVERecord?id=CVE-2025-5480 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Action1'] ['Action1'] This vulnerability allows local attackers to escalate privileges on affected installations of Action1. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the configuration of OpenSSL. The product loads an OpenSSL configuration file from an unsecured location. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. Action1 has issued an update to correct this vulnerability. More details can be found at: https://www.action1.com/blog/acknowledging-zdi-can-26767-high-severity-vulnerability-in-action1-agent/ ['2025-04-28 - Vulnerability reported to vendor', '2025-06-03 - Coordinated public release of advisory', '2025-06-06 - Advisory Updated'] Xavier DANEST https://www.zerodayinitiative.com/advisories/ZDI-25-323/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-323/",
+  "title": "Action1 Uncontrolled Search Path Element Local Privilege Escalation Vulnerability",
+  "updated_date": "2025-06-06",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Action1. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the configuration of OpenSSL. The product loads an OpenSSL configuration file from an unsecured location. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-26767",
+  "zdi_id": "ZDI-25-323"
+}

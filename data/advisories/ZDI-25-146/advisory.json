@@ -1,0 +1,28 @@
+{
+  "additional_details": "03/13/24 \u2013 ZDI reported the vulnerability to the vendor 03/15/24 - the vendor acknowledged the receipt of the report 12/11/24 - ZDI asked for updates 12/18/24 - the vendor requested an extension until January 2025 01/31/25 - ZDI asked for updates 03/03/25 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory",
+  "advisory_date": "2025-03-17",
+  "affected_products": [
+    "FlexLogger"
+  ],
+  "affected_vendors": [
+    "NI"
+  ],
+  "credit": "06fe5fd2bc53027c4a3b7e395af0b850e7b8a044",
+  "cve": "CVE-2025-2449",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-2449",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2024-03-13 - Vulnerability reported to vendor",
+    "2025-03-17 - Coordinated public release of advisory",
+    "2025-03-17 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-146 ZDI-CAN-21805 (0Day) NI FlexLogger usiReg URI File Parsing Directory Traversal Remote Code Execution Vulnerability 2025-03-17 CVE-2025-2449 https://www.cve.org/CVERecord?id=CVE-2025-2449 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['NI'] ['FlexLogger'] This vulnerability allows remote attackers to create arbitrary files on affected installations of NI FlexLogger. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of URI files by the usiReg component. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute code in the context of the current user. 03/13/24 \u2013 ZDI reported the vulnerability to the vendor 03/15/24 - the vendor acknowledged the receipt of the report 12/11/24 - ZDI asked for updates 12/18/24 - the vendor requested an extension until January 2025 01/31/25 - ZDI asked for updates 03/03/25 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory ['2024-03-13 - Vulnerability reported to vendor', '2025-03-17 - Coordinated public release of advisory', '2025-03-17 - Advisory Updated'] 06fe5fd2bc53027c4a3b7e395af0b850e7b8a044 https://www.zerodayinitiative.com/advisories/ZDI-25-146/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-146/",
+  "title": "(0Day) NI FlexLogger usiReg URI File Parsing Directory Traversal Remote Code Execution Vulnerability",
+  "updated_date": "2025-03-17",
+  "vulnerability_details": "This vulnerability allows remote attackers to create arbitrary files on affected installations of NI FlexLogger. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of URI files by the usiReg component. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute code in the context of the current user.",
+  "zdi_can": "ZDI-CAN-21805",
+  "zdi_id": "ZDI-25-146"
+}

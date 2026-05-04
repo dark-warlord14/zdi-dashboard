@@ -1,0 +1,27 @@
+{
+  "additional_details": "Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/solution/1118224",
+  "advisory_date": "2017-09-15",
+  "affected_products": [
+    "Mobile Security for Enterprise"
+  ],
+  "affected_vendors": [
+    "Trend Micro"
+  ],
+  "credit": "Roberto Suggi Liverani - @malerisch - http://blog.malerisch.net/ & Steven Seeley (mr_me) of Offensive Security",
+  "cve": "CVE-2017-14079",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-14079",
+  "cvss": 6.5,
+  "cvss_vector": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2017-05-16 - Vulnerability reported to vendor",
+    "2017-09-15 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-17-807 ZDI-CAN-4805 Trend Micro Mobile Security for Enterprise upload_img_file Unrestricted File Upload Remote Code Execution Vulnerability 2017-09-15 CVE-2017-14079 https://www.cve.org/CVERecord?id=CVE-2017-14079 6.5 AV:N/AC:L/Au:S/C:P/I:P/A:P ['Trend Micro'] ['Mobile Security for Enterprise'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Trend Micro Mobile Security for Enterprise. Authentication is required to exploit this vulnerability. The specific flaw exists within the processing of the upload_img_file action. The issue results from the lack of proper validation of user-supplied data, which can allow for the upload of arbitrary files. An attacker can leverage this vulnerability to execute arbitrary code under the context of the IUSR account. Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/solution/1118224 ['2017-05-16 - Vulnerability reported to vendor', '2017-09-15 - Coordinated public release of advisory'] Roberto Suggi Liverani - @malerisch - http://blog.malerisch.net/ & Steven Seeley (mr_me) of Offensive Security https://www.zerodayinitiative.com/advisories/ZDI-17-807/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-807/",
+  "title": "Trend Micro Mobile Security for Enterprise upload_img_file Unrestricted File Upload Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Trend Micro Mobile Security for Enterprise. Authentication is required to exploit this vulnerability. The specific flaw exists within the processing of the upload_img_file action. The issue results from the lack of proper validation of user-supplied data, which can allow for the upload of arbitrary files. An attacker can leverage this vulnerability to execute arbitrary code under the context of the IUSR account.",
+  "zdi_can": "ZDI-CAN-4805",
+  "zdi_id": "ZDI-17-807"
+}

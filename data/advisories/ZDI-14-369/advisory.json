@@ -1,0 +1,27 @@
+{
+  "additional_details": "Ecava has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-14-224-01",
+  "advisory_date": "2014-10-24",
+  "affected_products": [
+    "IntegraXor"
+  ],
+  "affected_vendors": [
+    "Ecava"
+  ],
+  "credit": "Andrea Micalizzi (rgod)",
+  "cve": "CVE-2014-0786",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-0786",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2014-05-02 - Vulnerability reported to vendor",
+    "2014-10-24 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-14-369 ZDI-CAN-2310 Ecava IntegraXor Guest Acccount Information Disclosure Vulnerability 2014-10-24 CVE-2014-0786 https://www.cve.org/CVERecord?id=CVE-2014-0786 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Ecava'] ['IntegraXor'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Ecava IntegraXor. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of the \"guest\" user. The issue lies in the ability the retrieve all project credentials. By abusing this flaw an attacker can disclose credentials and leverage this situation to achieve remote code execution. Ecava has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-14-224-01 ['2014-05-02 - Vulnerability reported to vendor', '2014-10-24 - Coordinated public release of advisory'] Andrea Micalizzi (rgod) https://www.zerodayinitiative.com/advisories/ZDI-14-369/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-14-369/",
+  "title": "Ecava IntegraXor Guest Acccount Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Ecava IntegraXor. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of the \"guest\" user. The issue lies in the ability the retrieve all project credentials. By abusing this flaw an attacker can disclose credentials and leverage this situation to achieve remote code execution.",
+  "zdi_can": "ZDI-CAN-2310",
+  "zdi_id": "ZDI-14-369"
+}

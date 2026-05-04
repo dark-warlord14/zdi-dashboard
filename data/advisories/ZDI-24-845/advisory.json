@@ -1,0 +1,28 @@
+{
+  "additional_details": "Alpine conducted a Threat Assessment and Remediation Analysis (TARA) in accordance with ISO21434, and concluded that the vulnerability is classified as \"Sharing the Risk\". Alpine states that they will continue to use the current software without a releasing patch.",
+  "advisory_date": "2024-06-21",
+  "affected_products": [
+    "Halo9"
+  ],
+  "affected_vendors": [
+    "Alpine"
+  ],
+  "credit": "NCC Group EDG (@nccgroupinfosec @_mccaulay @alexjplaskett)",
+  "cve": "CVE-2024-23960",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-23960",
+  "cvss": 4.6,
+  "cvss_vector": "AV:P/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+  "disclosure_timeline": [
+    "2024-02-01 - Vulnerability reported to vendor",
+    "2024-06-21 - Coordinated public release of advisory",
+    "2024-08-15 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-845 ZDI-CAN-23102 (Pwn2Own) Alpine Halo9 Improper Verification of Cryptographic Signature Vulnerability 2024-06-21 CVE-2024-23960 https://www.cve.org/CVERecord?id=CVE-2024-23960 4.6 AV:P/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N ['Alpine'] ['Halo9'] This vulnerability allows physically present attackers to bypass signature validation mechanism on affected installations of Alpine Halo9 devices. Authentication is not required to exploit this vulnerability. The specific flaw exists within the firmware metadata signature validation mechanism. The issue results from the lack of proper verification of a cryptographic signature. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of root. Alpine conducted a Threat Assessment and Remediation Analysis (TARA) in accordance with ISO21434, and concluded that the vulnerability is classified as \"Sharing the Risk\". Alpine states that they will continue to use the current software without a releasing patch. ['2024-02-01 - Vulnerability reported to vendor', '2024-06-21 - Coordinated public release of advisory', '2024-08-15 - Advisory Updated'] NCC Group EDG (@nccgroupinfosec @_mccaulay @alexjplaskett) https://www.zerodayinitiative.com/advisories/ZDI-24-845/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-845/",
+  "title": "(Pwn2Own) Alpine Halo9 Improper Verification of Cryptographic Signature Vulnerability",
+  "updated_date": "2024-08-15",
+  "vulnerability_details": "This vulnerability allows physically present attackers to bypass signature validation mechanism on affected installations of Alpine Halo9 devices. Authentication is not required to exploit this vulnerability. The specific flaw exists within the firmware metadata signature validation mechanism. The issue results from the lack of proper verification of a cryptographic signature. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of root.",
+  "zdi_can": "ZDI-CAN-23102",
+  "zdi_id": "ZDI-24-845"
+}

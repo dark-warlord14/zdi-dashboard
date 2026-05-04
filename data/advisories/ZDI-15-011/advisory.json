@@ -1,0 +1,27 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/en-us/HT204244",
+  "advisory_date": "2015-01-27",
+  "affected_products": [
+    "OS X"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "Gaurav Baruah",
+  "cve": "CVE-2014-4484",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-4484",
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2014-10-22 - Vulnerability reported to vendor",
+    "2015-01-27 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-15-011 ZDI-CAN-2532 Apple Mac OS X DFont Memory Corruption Remote Code Execution Vulnerability 2015-01-27 CVE-2014-4484 https://www.cve.org/CVERecord?id=CVE-2014-4484 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Apple'] ['OS X'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple Mac OSX. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of a dfont file. When processing a malformed dfont file, a specified value is parsed from the file and passed to the memmove API call which can cause memory corruption. A remote attacker can use this to execute remote code under the context of the user. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/en-us/HT204244 ['2014-10-22 - Vulnerability reported to vendor', '2015-01-27 - Coordinated public release of advisory'] Gaurav Baruah https://www.zerodayinitiative.com/advisories/ZDI-15-011/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-011/",
+  "title": "Apple Mac OS X DFont Memory Corruption Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple Mac OSX. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of a dfont file. When processing a malformed dfont file, a specified value is parsed from the file and passed to the memmove API call which can cause memory corruption. A remote attacker can use this to execute remote code under the context of the user.",
+  "zdi_can": "ZDI-CAN-2532",
+  "zdi_id": "ZDI-15-011"
+}

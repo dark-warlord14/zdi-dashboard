@@ -1,0 +1,28 @@
+{
+  "additional_details": "PaperCut has issued an update to correct this vulnerability. More details can be found at: https://www.papercut.com/kb/Main/Security-Bulletin-March-2024",
+  "advisory_date": "2024-06-18",
+  "affected_products": [
+    "MF"
+  ],
+  "affected_vendors": [
+    "PaperCut"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2024-1884",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-1884",
+  "cvss": 8.2,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N",
+  "disclosure_timeline": [
+    "2024-02-22 - Vulnerability reported to vendor",
+    "2024-06-18 - Coordinated public release of advisory",
+    "2024-08-15 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-783 ZDI-CAN-23116 PaperCut MF pc-upconnector-service Server-Side Request Forgery Information Disclosure Vulnerability 2024-06-18 CVE-2024-1884 https://www.cve.org/CVERecord?id=CVE-2024-1884 8.2 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N ['PaperCut'] ['MF'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of PaperCut MF. Authentication is not required to exploit this vulnerability. The specific flaw exists within the pc-upconnector-service service, which listens on TCP port 9151 by default. The issue results from the lack of proper validation of a URI prior to accessing resources. An attacker can leverage this vulnerability to disclose information in the context of the service account. PaperCut has issued an update to correct this vulnerability. More details can be found at: https://www.papercut.com/kb/Main/Security-Bulletin-March-2024 ['2024-02-22 - Vulnerability reported to vendor', '2024-06-18 - Coordinated public release of advisory', '2024-08-15 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-24-783/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-783/",
+  "title": "PaperCut MF pc-upconnector-service Server-Side Request Forgery Information Disclosure Vulnerability",
+  "updated_date": "2024-08-15",
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of PaperCut MF. Authentication is not required to exploit this vulnerability. The specific flaw exists within the pc-upconnector-service service, which listens on TCP port 9151 by default. The issue results from the lack of proper validation of a URI prior to accessing resources. An attacker can leverage this vulnerability to disclose information in the context of the service account.",
+  "zdi_can": "ZDI-CAN-23116",
+  "zdi_id": "ZDI-24-783"
+}

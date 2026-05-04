@@ -1,0 +1,28 @@
+{
+  "additional_details": "Slack Technologies has issued an update to correct this vulnerability. More details can be found at: https://electronjs.org/blog/protocol-handler-fix",
+  "advisory_date": "2018-03-28",
+  "affected_products": [
+    "Slack"
+  ],
+  "affected_vendors": [
+    "Slack Technologies"
+  ],
+  "credit": "rgod",
+  "cve": "CVE-2018-1000006",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2018-1000006",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2018-01-31 - Vulnerability reported to vendor",
+    "2018-03-28 - Coordinated public release of advisory",
+    "2018-04-26 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-265 ZDI-CAN-5523 Slack Technologies Slack URI Parsing Command Injection Remote Code Execution Vulnerability 2018-03-28 CVE-2018-1000006 https://www.cve.org/CVERecord?id=CVE-2018-1000006 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Slack Technologies'] ['Slack'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Slack Technologies Slack. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the processing of URI handlers. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code under the context of the current process. Slack Technologies has issued an update to correct this vulnerability. More details can be found at: https://electronjs.org/blog/protocol-handler-fix ['2018-01-31 - Vulnerability reported to vendor', '2018-03-28 - Coordinated public release of advisory', '2018-04-26 - Advisory Updated'] rgod https://www.zerodayinitiative.com/advisories/ZDI-18-265/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-265/",
+  "title": "Slack Technologies Slack URI Parsing Command Injection Remote Code Execution Vulnerability",
+  "updated_date": "2018-04-26",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Slack Technologies Slack. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the processing of URI handlers. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code under the context of the current process.",
+  "zdi_can": "ZDI-CAN-5523",
+  "zdi_id": "ZDI-18-265"
+}

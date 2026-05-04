@@ -1,0 +1,27 @@
+{
+  "additional_details": "Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/solution/000289038",
+  "advisory_date": "2021-09-26",
+  "affected_products": [
+    "ServerProtect"
+  ],
+  "affected_vendors": [
+    "Trend Micro"
+  ],
+  "credit": "Yuto Maeda from Cyber Defense Institute, Inc.",
+  "cve": "CVE-2021-36745",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2021-36745",
+  "cvss": 9.8,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2021-04-14 - Vulnerability reported to vendor",
+    "2021-09-26 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-21-1115 ZDI-CAN-12771 Trend Micro ServerProtect Authentication Bypass Vulnerability 2021-09-26 CVE-2021-36745 https://www.cve.org/CVERecord?id=CVE-2021-36745 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['Trend Micro'] ['ServerProtect'] This vulnerability allows remote attackers to bypass authentication on affected installations of Trend Micro ServerProtect. Authentication is not required to exploit this vulnerability. The specific flaw exists within the ServerProtect console. The issue results from the lack of proper validation prior to authentication. An attacker can leverage this vulnerability to bypass authentication on the system. Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/solution/000289038 ['2021-04-14 - Vulnerability reported to vendor', '2021-09-26 - Coordinated public release of advisory'] Yuto Maeda from Cyber Defense Institute, Inc. https://www.zerodayinitiative.com/advisories/ZDI-21-1115/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-21-1115/",
+  "title": "Trend Micro ServerProtect Authentication Bypass Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to bypass authentication on affected installations of Trend Micro ServerProtect. Authentication is not required to exploit this vulnerability. The specific flaw exists within the ServerProtect console. The issue results from the lack of proper validation prior to authentication. An attacker can leverage this vulnerability to bypass authentication on the system.",
+  "zdi_can": "ZDI-CAN-12771",
+  "zdi_id": "ZDI-21-1115"
+}

@@ -1,0 +1,27 @@
+{
+  "additional_details": "Hewlett Packard Enterprise has issued an update to correct this vulnerability. More details can be found at: https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=hpesbgn04068en_us",
+  "advisory_date": "2020-12-18",
+  "affected_products": [
+    "Systems Insight Manager"
+  ],
+  "affected_vendors": [
+    "Hewlett Packard Enterprise"
+  ],
+  "credit": "Harrison Neal",
+  "cve": "CVE-2020-7200",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2020-7200",
+  "cvss": 9.8,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2020-10-30 - Vulnerability reported to vendor",
+    "2020-12-18 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-20-1449 ZDI-CAN-11847 Hewlett Packard Enterprise Systems Insight Manager AMF Deserialization of Untrusted Data Remote Code Execution Vulnerability 2020-12-18 CVE-2020-7200 https://www.cve.org/CVERecord?id=CVE-2020-7200 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['Hewlett Packard Enterprise'] ['Systems Insight Manager'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Hewlett Packard Enterprise Systems Insight Manager. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of the AMF protocol. Crafted data in an AMF protocol message can trigger the deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of SYSTEM. Hewlett Packard Enterprise has issued an update to correct this vulnerability. More details can be found at: https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=hpesbgn04068en_us ['2020-10-30 - Vulnerability reported to vendor', '2020-12-18 - Coordinated public release of advisory'] Harrison Neal https://www.zerodayinitiative.com/advisories/ZDI-20-1449/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-20-1449/",
+  "title": "Hewlett Packard Enterprise Systems Insight Manager AMF Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Hewlett Packard Enterprise Systems Insight Manager. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of the AMF protocol. Crafted data in an AMF protocol message can trigger the deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-11847",
+  "zdi_id": "ZDI-20-1449"
+}

@@ -1,0 +1,27 @@
+{
+  "additional_details": "AlienVault has issued an update to correct this vulnerability. More details can be found at: https://www.alienvault.com/forums/discussion/5830/",
+  "advisory_date": "2015-11-10",
+  "affected_products": [
+    "Unified Security Management"
+  ],
+  "affected_vendors": [
+    "AlienVault"
+  ],
+  "credit": "agix",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2015-06-25 - Vulnerability reported to vendor",
+    "2015-11-10 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-15-549 ZDI-CAN-2992 AlienVault Unified Security Management av-forward Deserialization of Untrusted Data Remote Code Execution Vulnerability 2015-11-10 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['AlienVault'] ['Unified Security Management'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of AlienVault Unified Security Management. Authentication is not required to exploit this vulnerability. The specific flaw exists within the av-forward Python daemon. A remote attacker can cause the daemon to deserialize arbitrary cPickle objects. This vulnerability can be leveraged to gain remote code execution under the context of the avforw account. AlienVault has issued an update to correct this vulnerability. More details can be found at: https://www.alienvault.com/forums/discussion/5830/ ['2015-06-25 - Vulnerability reported to vendor', '2015-11-10 - Coordinated public release of advisory'] agix https://www.zerodayinitiative.com/advisories/ZDI-15-549/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-549/",
+  "title": "AlienVault Unified Security Management av-forward Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of AlienVault Unified Security Management. Authentication is not required to exploit this vulnerability. The specific flaw exists within the av-forward Python daemon. A remote attacker can cause the daemon to deserialize arbitrary cPickle objects. This vulnerability can be leveraged to gain remote code execution under the context of the avforw account.",
+  "zdi_can": "ZDI-CAN-2992",
+  "zdi_id": "ZDI-15-549"
+}

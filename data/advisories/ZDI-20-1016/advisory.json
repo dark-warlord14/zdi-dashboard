@@ -1,0 +1,27 @@
+{
+  "additional_details": "Parallels has issued an update to correct this vulnerability. More details can be found at: https://kb.parallels.com/en/125013",
+  "advisory_date": "2020-08-18",
+  "affected_products": [
+    "Desktop"
+  ],
+  "affected_vendors": [
+    "Parallels"
+  ],
+  "credit": "grigoritchy",
+  "cve": "CVE-2020-17398",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2020-17398",
+  "cvss": 6.5,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N",
+  "disclosure_timeline": [
+    "2020-07-01 - Vulnerability reported to vendor",
+    "2020-08-18 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-20-1016 ZDI-CAN-11302 Parallels Desktop prl_hypervisor Out-Of-Bounds Read Information Disclosure Vulnerability 2020-08-18 CVE-2020-17398 https://www.cve.org/CVERecord?id=CVE-2020-17398 6.5 AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N ['Parallels'] ['Desktop'] This vulnerability allows local attackers to disclose information on affected installations of Parallels Desktop. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the prl_hypervisor kext. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the kernel. Parallels has issued an update to correct this vulnerability. More details can be found at: https://kb.parallels.com/en/125013 ['2020-07-01 - Vulnerability reported to vendor', '2020-08-18 - Coordinated public release of advisory'] grigoritchy https://www.zerodayinitiative.com/advisories/ZDI-20-1016/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-20-1016/",
+  "title": "Parallels Desktop prl_hypervisor Out-Of-Bounds Read Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to disclose information on affected installations of Parallels Desktop. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the prl_hypervisor kext. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the kernel.",
+  "zdi_can": "ZDI-CAN-11302",
+  "zdi_id": "ZDI-20-1016"
+}

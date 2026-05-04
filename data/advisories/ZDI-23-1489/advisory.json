@@ -1,0 +1,27 @@
+{
+  "additional_details": "Linux has issued an update to correct this vulnerability. More details can be found at: https://lore.kernel.org/all/20230121002241.2113993-1-memxor@gmail.com/",
+  "advisory_date": "2023-09-29",
+  "affected_products": [
+    "Kernel"
+  ],
+  "affected_vendors": [
+    "Linux"
+  ],
+  "credit": "Ryota Shiga(@Ga_ryo_) of Flatt Security",
+  "cve": "CVE-2023-39191",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-39191",
+  "cvss": 8.2,
+  "cvss_vector": "AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2022-12-28 - Vulnerability reported to vendor",
+    "2023-09-29 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-1489 ZDI-CAN-19399 Linux Kernel eBPF Improper Input Validation Privilege Escalation Vulnerability 2023-09-29 CVE-2023-39191 https://www.cve.org/CVERecord?id=CVE-2023-39191 8.2 AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H ['Linux'] ['Kernel'] This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute high-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of eBPF programs. The issue results from the lack of proper validation of user-supplied eBPF programs prior to executing them. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the kernel. Linux has issued an update to correct this vulnerability. More details can be found at: https://lore.kernel.org/all/20230121002241.2113993-1-memxor@gmail.com/ ['2022-12-28 - Vulnerability reported to vendor', '2023-09-29 - Coordinated public release of advisory'] Ryota Shiga(@Ga_ryo_) of Flatt Security https://www.zerodayinitiative.com/advisories/ZDI-23-1489/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-1489/",
+  "title": "Linux Kernel eBPF Improper Input Validation Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute high-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of eBPF programs. The issue results from the lack of proper validation of user-supplied eBPF programs prior to executing them. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the kernel.",
+  "zdi_can": "ZDI-CAN-19399",
+  "zdi_id": "ZDI-23-1489"
+}

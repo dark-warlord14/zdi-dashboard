@@ -1,0 +1,28 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-ca/125640",
+  "advisory_date": "2025-11-13",
+  "affected_products": [
+    "Safari"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "Hossein Lotfi (@hosselot) of Trend Zero Day Initiative",
+  "cve": "CVE-2025-43432",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-43432",
+  "cvss": 8.8,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2025-09-04 - Vulnerability reported to vendor",
+    "2025-11-13 - Coordinated public release of advisory",
+    "2025-11-13 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-1011 ZDI-CAN-28039 Apple Safari JavaScriptCore Wasm Function Parsing Use-After-Free Remote Code Execution Vulnerability 2025-11-13 CVE-2025-43432 https://www.cve.org/CVERecord?id=CVE-2025-43432 8.8 AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Apple'] ['Safari'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Apple Safari. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of Wasm functions. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the browser process. Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-ca/125640 ['2025-09-04 - Vulnerability reported to vendor', '2025-11-13 - Coordinated public release of advisory', '2025-11-13 - Advisory Updated'] Hossein Lotfi (@hosselot) of Trend Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-25-1011/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-1011/",
+  "title": "Apple Safari JavaScriptCore Wasm Function Parsing Use-After-Free Remote Code Execution Vulnerability",
+  "updated_date": "2025-11-13",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Apple Safari. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of Wasm functions. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the browser process.",
+  "zdi_can": "ZDI-CAN-28039",
+  "zdi_id": "ZDI-25-1011"
+}

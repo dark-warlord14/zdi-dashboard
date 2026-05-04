@@ -1,0 +1,28 @@
+{
+  "additional_details": "Silicon Labs has issued an update to correct this vulnerability. More details can be found at: https://community.silabs.com/a45Vm0000000Atp",
+  "advisory_date": "2024-06-21",
+  "affected_products": [
+    "Gecko OS"
+  ],
+  "affected_vendors": [
+    "Silicon Labs"
+  ],
+  "credit": "PCAutomotive",
+  "cve": "CVE-2025-2838",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-2838",
+  "cvss": 6.5,
+  "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+  "disclosure_timeline": [
+    "2024-02-12 - Vulnerability reported to vendor",
+    "2024-06-21 - Coordinated public release of advisory",
+    "2025-03-26 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-872 ZDI-CAN-23392 (Pwn2Own) Silicon Labs Gecko OS DNS Response Processing Infinite Loop Denial-of-Service Vulnerability 2024-06-21 CVE-2025-2838 https://www.cve.org/CVERecord?id=CVE-2025-2838 6.5 AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H ['Silicon Labs'] ['Gecko OS'] This vulnerability allows network-adjacent attackers to create a denial-of-service condition on affected installations of Silicon Labs Gecko OS. Authentication is not required to exploit this vulnerability. The specific flaw exists within the processing of DNS responses. The issue results from a logic error that can lead to an infinite loop. An attacker can leverage this vulnerability to create a denial-of-service condition on the system. Silicon Labs has issued an update to correct this vulnerability. More details can be found at: https://community.silabs.com/a45Vm0000000Atp ['2024-02-12 - Vulnerability reported to vendor', '2024-06-21 - Coordinated public release of advisory', '2025-03-26 - Advisory Updated'] PCAutomotive https://www.zerodayinitiative.com/advisories/ZDI-24-872/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-872/",
+  "title": "(Pwn2Own) Silicon Labs Gecko OS DNS Response Processing Infinite Loop Denial-of-Service Vulnerability",
+  "updated_date": "2025-03-26",
+  "vulnerability_details": "This vulnerability allows network-adjacent attackers to create a denial-of-service condition on affected installations of Silicon Labs Gecko OS. Authentication is not required to exploit this vulnerability. The specific flaw exists within the processing of DNS responses. The issue results from a logic error that can lead to an infinite loop. An attacker can leverage this vulnerability to create a denial-of-service condition on the system.",
+  "zdi_can": "ZDI-CAN-23392",
+  "zdi_id": "ZDI-24-872"
+}

@@ -1,0 +1,27 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-us/HT205731",
+  "advisory_date": "2016-01-22",
+  "affected_products": [
+    "OS X"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "Juwei Lin - Trend Micro",
+  "cve": "CVE-2016-1718",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-1718",
+  "cvss": 6.9,
+  "cvss_vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2015-11-02 - Vulnerability reported to vendor",
+    "2016-01-22 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-16-020 ZDI-CAN-3316 Apple OS X IOAcceleratorFamily2 Out-Of-Bounds Indexing Privilege Escalation Vulnerability 2016-01-22 CVE-2016-1718 https://www.cve.org/CVERecord?id=CVE-2016-1718 6.9 AV:L/AC:M/Au:N/C:C/I:C/A:C ['Apple'] ['OS X'] This vulnerability allows local attackers to elevate privileges on vulnerable installations of Apple OS X. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The specific flaw exists within the IOAcceleratorFamily2 interface. The issue lies in the failure to properly test a user-supplied index to ensure it is within the bounds of an array. An attacker can leverage this to escalate their privileges and execute code under the context of the kernel. Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-us/HT205731 ['2015-11-02 - Vulnerability reported to vendor', '2016-01-22 - Coordinated public release of advisory'] Juwei Lin - Trend Micro https://www.zerodayinitiative.com/advisories/ZDI-16-020/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-020/",
+  "title": "Apple OS X IOAcceleratorFamily2 Out-Of-Bounds Indexing Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to elevate privileges on vulnerable installations of Apple OS X. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The specific flaw exists within the IOAcceleratorFamily2 interface. The issue lies in the failure to properly test a user-supplied index to ensure it is within the bounds of an array. An attacker can leverage this to escalate their privileges and execute code under the context of the kernel.",
+  "zdi_can": "ZDI-CAN-3316",
+  "zdi_id": "ZDI-16-020"
+}

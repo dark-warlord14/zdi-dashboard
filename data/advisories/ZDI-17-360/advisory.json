@@ -1,0 +1,27 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-us/HT207798",
+  "advisory_date": "2017-05-18",
+  "affected_products": [
+    "Safari"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "Chaitin Security Research Lab",
+  "cve": "CVE-2017-6991",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-6991",
+  "cvss": 4.3,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N",
+  "disclosure_timeline": [
+    "2017-03-17 - Vulnerability reported to vendor",
+    "2017-05-18 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-17-360 ZDI-CAN-4593 (Pwn2Own) Apple Safari WebSQL Type Confusion Information Disclosure Vulnerability 2017-05-18 CVE-2017-6991 https://www.cve.org/CVERecord?id=CVE-2017-6991 4.3 AV:N/AC:M/Au:N/C:P/I:N/A:N ['Apple'] ['Safari'] This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Apple Safari. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of WebSQL. The issue results from the lack of proper validation of user-supplied data, which can result in a type confusion condition. An attacker can leverage this in conjunction with other vulnerabilities to execute code under the context of the current process. Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-us/HT207798 ['2017-03-17 - Vulnerability reported to vendor', '2017-05-18 - Coordinated public release of advisory'] Chaitin Security Research Lab https://www.zerodayinitiative.com/advisories/ZDI-17-360/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-360/",
+  "title": "(Pwn2Own) Apple Safari WebSQL Type Confusion Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Apple Safari. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of WebSQL. The issue results from the lack of proper validation of user-supplied data, which can result in a type confusion condition. An attacker can leverage this in conjunction with other vulnerabilities to execute code under the context of the current process.",
+  "zdi_can": "ZDI-CAN-4593",
+  "zdi_id": "ZDI-17-360"
+}

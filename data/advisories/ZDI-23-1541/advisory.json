@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/acknowledgement/online",
+  "advisory_date": "2023-10-11",
+  "affected_products": [
+    "Teams"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "vcslab of Team Viettel (@vcslab)",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2023-04-05 - Vulnerability reported to vendor",
+    "2023-10-11 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-1541 ZDI-CAN-20751 (Pwn2Own) Microsoft Teams Incorrect Privilege Assignment Local Privilege Escalation Vulnerability 2023-10-11 7.5 AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H ['Microsoft'] ['Teams'] This vulnerability allows remote attackers to escalate privileges on affected installations of Microsoft Teams. An attacker must first obtain the ability to execute script within the application window in order to exploit this vulnerability. The specific flaw exists within the processing of global settings. The issue results from an incorrect privilege assignment. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/acknowledgement/online ['2023-04-05 - Vulnerability reported to vendor', '2023-10-11 - Coordinated public release of advisory'] vcslab of Team Viettel (@vcslab) https://www.zerodayinitiative.com/advisories/ZDI-23-1541/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-1541/",
+  "title": "(Pwn2Own) Microsoft Teams Incorrect Privilege Assignment Local Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to escalate privileges on affected installations of Microsoft Teams. An attacker must first obtain the ability to execute script within the application window in order to exploit this vulnerability. The specific flaw exists within the processing of global settings. The issue results from an incorrect privilege assignment. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-20751",
+  "zdi_id": "ZDI-23-1541"
+}

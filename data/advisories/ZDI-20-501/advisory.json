@@ -1,0 +1,28 @@
+{
+  "additional_details": "Oracle has issued an update to correct this vulnerability. More details can be found at: https://www.oracle.com/security-alerts/cpuapr2020.html",
+  "advisory_date": "2020-04-16",
+  "affected_products": [
+    "VirtualBox"
+  ],
+  "affected_vendors": [
+    "Oracle"
+  ],
+  "credit": "Reno Robert of Trend Micro Zero Day Initiative",
+  "cve": "CVE-2020-2908",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2020-2908",
+  "cvss": 7.5,
+  "cvss_vector": "AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2020-02-04 - Vulnerability reported to vendor",
+    "2020-04-16 - Coordinated public release of advisory",
+    "2021-03-02 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-20-501 ZDI-CAN-10179 Oracle VirtualBox Virtual USB Numeric Truncation Privilege Escalation Vulnerability 2020-04-16 CVE-2020-2908 https://www.cve.org/CVERecord?id=CVE-2020-2908 7.5 AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H ['Oracle'] ['VirtualBox'] This vulnerability allows local attackers to escalate privileges on affected installations of Oracle VirtualBox. An attacker must first obtain the ability to execute high-privileged code on the target guest system in order to exploit this vulnerability. The specific flaw exists within the virtual USB component. The issue results from the lack of proper validation of guest-supplied data, which can result in a write past the end of an allocated buffer. An attacker can leverage this vulnerability to escalate privileges and execute code in the context of the hypervisor. Oracle has issued an update to correct this vulnerability. More details can be found at: https://www.oracle.com/security-alerts/cpuapr2020.html ['2020-02-04 - Vulnerability reported to vendor', '2020-04-16 - Coordinated public release of advisory', '2021-03-02 - Advisory Updated'] Reno Robert of Trend Micro Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-20-501/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-20-501/",
+  "title": "Oracle VirtualBox Virtual USB Numeric Truncation Privilege Escalation Vulnerability",
+  "updated_date": "2021-03-02",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Oracle VirtualBox. An attacker must first obtain the ability to execute high-privileged code on the target guest system in order to exploit this vulnerability. The specific flaw exists within the virtual USB component. The issue results from the lack of proper validation of guest-supplied data, which can result in a write past the end of an allocated buffer. An attacker can leverage this vulnerability to escalate privileges and execute code in the context of the hypervisor.",
+  "zdi_can": "ZDI-CAN-10179",
+  "zdi_id": "ZDI-20-501"
+}

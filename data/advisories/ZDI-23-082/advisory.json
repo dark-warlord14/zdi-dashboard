@@ -1,0 +1,27 @@
+{
+  "additional_details": "Delta Electronics has issued an update to correct this vulnerability. More details can be found at: https://www.cisa.gov/uscert/ics/advisories/icsa-22-298-07",
+  "advisory_date": "2023-01-18",
+  "affected_products": [
+    "InfraSuite Device Master"
+  ],
+  "affected_vendors": [
+    "Delta Electronics"
+  ],
+  "credit": "Piotr Bazydlo (@chudypb) of Trend Micro Zero Day Initiative",
+  "cve": "CVE-2022-41657",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-41657",
+  "cvss": 6.5,
+  "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+  "disclosure_timeline": [
+    "2022-11-10 - Vulnerability reported to vendor",
+    "2023-01-18 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-082 ZDI-CAN-19414 Delta Electronics InfraSuite Device Master CtrlLayerNWCmd_FileOperation Directory Traversal Information Disclosure Vulnerability 2023-01-18 CVE-2022-41657 https://www.cve.org/CVERecord?id=CVE-2022-41657 6.5 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N ['Delta Electronics'] ['InfraSuite Device Master'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Delta Electronics InfraSuite Device Master. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed. The specific flaw exists within the CtrlLayerNWCmd_FileOperation function. When parsing the fileName element, the process does not properly validate a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to disclose stored credentials, leading to further compromise. Delta Electronics has issued an update to correct this vulnerability. More details can be found at: https://www.cisa.gov/uscert/ics/advisories/icsa-22-298-07 ['2022-11-10 - Vulnerability reported to vendor', '2023-01-18 - Coordinated public release of advisory'] Piotr Bazydlo (@chudypb) of Trend Micro Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-23-082/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-082/",
+  "title": "Delta Electronics InfraSuite Device Master CtrlLayerNWCmd_FileOperation Directory Traversal Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Delta Electronics InfraSuite Device Master. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed. The specific flaw exists within the CtrlLayerNWCmd_FileOperation function. When parsing the fileName element, the process does not properly validate a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to disclose stored credentials, leading to further compromise.",
+  "zdi_can": "ZDI-CAN-19414",
+  "zdi_id": "ZDI-23-082"
+}

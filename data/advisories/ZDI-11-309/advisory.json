@@ -1,0 +1,27 @@
+{
+  "additional_details": "Novell has issued an update to correct this vulnerability. More details can be found at: http://download.novell.com/Download?buildid=bSpj4nhVEZ0~",
+  "advisory_date": "2011-10-26",
+  "affected_products": [
+    "iPrint"
+  ],
+  "affected_vendors": [
+    "Novell"
+  ],
+  "credit": "gwslabs.com Anonymous",
+  "cve": "CVE-2011-3173",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-3173",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2011-07-21 - Vulnerability reported to vendor",
+    "2011-10-26 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-11-309 ZDI-CAN-1289 Novell iPrint Client nipplib.dll GetDriverSettings Remote Code Execution Vulnerability 2011-10-26 CVE-2011-3173 https://www.cve.org/CVERecord?id=CVE-2011-3173 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Novell'] ['iPrint'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Novell iPrint Client. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The flaw exists within the nipplib.dll component. When handling the exposed method GetDriverSettings the application assembles a string for logging consisting of the hostname/port provided as a parameter. When building this message the process will blindly copy user supplied data into a fixed-length buffer on the stack. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the browser. Novell has issued an update to correct this vulnerability. More details can be found at: http://download.novell.com/Download?buildid=bSpj4nhVEZ0~ ['2011-07-21 - Vulnerability reported to vendor', '2011-10-26 - Coordinated public release of advisory'] gwslabs.com Anonymous https://www.zerodayinitiative.com/advisories/ZDI-11-309/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-309/",
+  "title": "Novell iPrint Client nipplib.dll GetDriverSettings Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Novell iPrint Client. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The flaw exists within the nipplib.dll component. When handling the exposed method GetDriverSettings the application assembles a string for logging consisting of the hostname/port provided as a parameter. When building this message the process will blindly copy user supplied data into a fixed-length buffer on the stack. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the browser.",
+  "zdi_can": "ZDI-CAN-1289",
+  "zdi_id": "ZDI-11-309"
+}

@@ -1,0 +1,27 @@
+{
+  "additional_details": "Fixed in version 1.1",
+  "advisory_date": "2021-12-02",
+  "affected_products": [
+    "Report Info"
+  ],
+  "affected_vendors": [
+    "Jenkins"
+  ],
+  "credit": "Adith Sudhakar",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 6.5,
+  "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+  "disclosure_timeline": [
+    "2021-07-09 - Vulnerability reported to vendor",
+    "2021-12-02 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-21-1373 ZDI-CAN-13946 Jenkins Report Info XML External Entity Processing Information Disclosure Vulnerability 2021-12-02 6.5 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N ['Jenkins'] ['Report Info'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Jenkins Report Info. Authentication is required to exploit this vulnerability. The specific flaw exists within the PMD class. Due to the improper restriction of XML External Entity (XXE) references, a crafted document specifying a URI causes the XML parser to access the URI and embed the contents back into the XML document for further processing. An attacker can leverage this vulnerability to disclose information in the context of the service account. Fixed in version 1.1 ['2021-07-09 - Vulnerability reported to vendor', '2021-12-02 - Coordinated public release of advisory'] Adith Sudhakar https://www.zerodayinitiative.com/advisories/ZDI-21-1373/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-21-1373/",
+  "title": "Jenkins Report Info XML External Entity Processing Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Jenkins Report Info. Authentication is required to exploit this vulnerability. The specific flaw exists within the PMD class. Due to the improper restriction of XML External Entity (XXE) references, a crafted document specifying a URI causes the XML parser to access the URI and embed the contents back into the XML document for further processing. An attacker can leverage this vulnerability to disclose information in the context of the service account.",
+  "zdi_can": "ZDI-CAN-13946",
+  "zdi_id": "ZDI-21-1373"
+}

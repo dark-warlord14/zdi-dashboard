@@ -1,0 +1,27 @@
+{
+  "additional_details": "GStreamer has issued an update to correct this vulnerability. More details can be found at: https://gitlab.freedesktop.org/gstreamer/gstreamer/uploads/d4a0aa4ec2165f6c418703b9e1459d8b/0002-rmdemux-Check-for-integer-overflow-when-calculation-.patch",
+  "advisory_date": "2023-07-27",
+  "affected_products": [
+    "GStreamer"
+  ],
+  "affected_vendors": [
+    "GStreamer"
+  ],
+  "credit": "MICHAEL RANDRIANANTENAINA [https://elkamika.blogspot.com/]",
+  "cve": "CVE-2023-38103",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-38103",
+  "cvss": 8.8,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2023-07-06 - Vulnerability reported to vendor",
+    "2023-07-27 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-1007 ZDI-CAN-21443 GStreamer RealMedia File Parsing Integer Overflow Remote Code Execution Vulnerability 2023-07-27 CVE-2023-38103 https://www.cve.org/CVERecord?id=CVE-2023-38103 8.8 AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['GStreamer'] ['GStreamer'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of GStreamer. Interaction with this library is required to exploit this vulnerability but attack vectors may vary depending on the implementation. The specific flaw exists within the parsing of MDPR chunks. The issue results from the lack of proper validation of user-supplied data, which can result in an integer overflow before allocating a buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. GStreamer has issued an update to correct this vulnerability. More details can be found at: https://gitlab.freedesktop.org/gstreamer/gstreamer/uploads/d4a0aa4ec2165f6c418703b9e1459d8b/0002-rmdemux-Check-for-integer-overflow-when-calculation-.patch ['2023-07-06 - Vulnerability reported to vendor', '2023-07-27 - Coordinated public release of advisory'] MICHAEL RANDRIANANTENAINA [https://elkamika.blogspot.com/] https://www.zerodayinitiative.com/advisories/ZDI-23-1007/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-1007/",
+  "title": "GStreamer RealMedia File Parsing Integer Overflow Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of GStreamer. Interaction with this library is required to exploit this vulnerability but attack vectors may vary depending on the implementation. The specific flaw exists within the parsing of MDPR chunks. The issue results from the lack of proper validation of user-supplied data, which can result in an integer overflow before allocating a buffer. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-21443",
+  "zdi_id": "ZDI-23-1007"
+}

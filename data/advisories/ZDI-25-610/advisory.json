@@ -1,0 +1,28 @@
+{
+  "additional_details": "Linux has issued an update to correct this vulnerability. More details can be found at: https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=7ac5b66acafcc9292fb935d7e03790f2b8b2dc0e",
+  "advisory_date": "2025-07-17",
+  "affected_products": [
+    "Kernel"
+  ],
+  "affected_vendors": [
+    "Linux"
+  ],
+  "credit": "Nicholas Zubrisky (@NZubrisky) of Trend Research",
+  "cve": "CVE-2025-38191",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-38191",
+  "cvss": 5.9,
+  "cvss_vector": "AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+  "disclosure_timeline": [
+    "2025-06-12 - Vulnerability reported to vendor",
+    "2025-07-17 - Coordinated public release of advisory",
+    "2025-07-17 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-610 ZDI-CAN-27391 Linux Kernel ksmbd destroy_previous_session Null Pointer Dereference Denial-of-Service Vulnerability 2025-07-17 CVE-2025-38191 https://www.cve.org/CVERecord?id=CVE-2025-38191 5.9 AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H ['Linux'] ['Kernel'] This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of the Linux Kernel. Authentication is not required to exploit this vulnerability. The specific flaw exists within the destroy_previous_session function. The issue results from the lack of proper validation of a pointer prior to accessing it. An attacker can leverage this vulnerability to create a denial-of-service condition on the system. Linux has issued an update to correct this vulnerability. More details can be found at: https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=7ac5b66acafcc9292fb935d7e03790f2b8b2dc0e ['2025-06-12 - Vulnerability reported to vendor', '2025-07-17 - Coordinated public release of advisory', '2025-07-17 - Advisory Updated'] Nicholas Zubrisky (@NZubrisky) of Trend Research https://www.zerodayinitiative.com/advisories/ZDI-25-610/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-610/",
+  "title": "Linux Kernel ksmbd destroy_previous_session Null Pointer Dereference Denial-of-Service Vulnerability",
+  "updated_date": "2025-07-17",
+  "vulnerability_details": "This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of the Linux Kernel. Authentication is not required to exploit this vulnerability. The specific flaw exists within the destroy_previous_session function. The issue results from the lack of proper validation of a pointer prior to accessing it. An attacker can leverage this vulnerability to create a denial-of-service condition on the system.",
+  "zdi_can": "ZDI-CAN-27391",
+  "zdi_id": "ZDI-25-610"
+}

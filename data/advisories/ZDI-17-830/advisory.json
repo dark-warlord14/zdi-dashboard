@@ -1,0 +1,27 @@
+{
+  "additional_details": "Hewlett Packard Enterprise has issued an update to correct this vulnerability. More details can be found at: https://h20564.www2.hpe.com/hpsc/doc/public/display?docId=emr_na-hpesbhf03782en_us",
+  "advisory_date": "2017-10-03",
+  "affected_products": [
+    "Intelligent Management Center"
+  ],
+  "affected_vendors": [
+    "Hewlett Packard Enterprise"
+  ],
+  "credit": "Steven Seeley (mr_me) of Offensive Security",
+  "cve": "CVE-2017-12554",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-12554",
+  "cvss": 9.0,
+  "cvss_vector": "AV:N/AC:L/Au:S/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2017-05-30 - Vulnerability reported to vendor",
+    "2017-10-03 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-17-830 ZDI-CAN-4837 Hewlett Packard Enterprise Intelligent Management Center mibFileServlet Directory Traversal Remote Code Execution Vulnerability 2017-10-03 CVE-2017-12554 https://www.cve.org/CVERecord?id=CVE-2017-12554 9.0 AV:N/AC:L/Au:S/C:C/I:C/A:C ['Hewlett Packard Enterprise'] ['Intelligent Management Center'] This vulnerability allows remote attackers to rename arbitrary files on vulnerable installations of Hewlett Packard Enterprise Intelligent Management Center. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed. The specific flaw exists within the mibFileServlet servlet, which listens on TCP ports 8080 and 8443 by default. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute code under the context of SYSTEM. Hewlett Packard Enterprise has issued an update to correct this vulnerability. More details can be found at: https://h20564.www2.hpe.com/hpsc/doc/public/display?docId=emr_na-hpesbhf03782en_us ['2017-05-30 - Vulnerability reported to vendor', '2017-10-03 - Coordinated public release of advisory'] Steven Seeley (mr_me) of Offensive Security https://www.zerodayinitiative.com/advisories/ZDI-17-830/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-830/",
+  "title": "Hewlett Packard Enterprise Intelligent Management Center mibFileServlet Directory Traversal Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to rename arbitrary files on vulnerable installations of Hewlett Packard Enterprise Intelligent Management Center. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed. The specific flaw exists within the mibFileServlet servlet, which listens on TCP ports 8080 and 8443 by default. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute code under the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-4837",
+  "zdi_id": "ZDI-17-830"
+}

@@ -1,0 +1,27 @@
+{
+  "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb17-01.html",
+  "advisory_date": "2017-01-10",
+  "affected_products": [
+    "Acrobat Reader DC"
+  ],
+  "affected_vendors": [
+    "Adobe"
+  ],
+  "credit": "Sebastian Apelt siberas",
+  "cve": "CVE-2017-2967",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-2967",
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2016-12-01 - Vulnerability reported to vendor",
+    "2017-01-10 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-17-031 ZDI-CAN-4317 Adobe Reader DC XFA template Out-Of-Bounds Read Remote Code Execution Vulnerability 2017-01-10 CVE-2017-2967 https://www.cve.org/CVERecord?id=CVE-2017-2967 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Adobe'] ['Acrobat Reader DC'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Adobe Reader DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within XFA's template objects. The issue results from the lack of proper validation of user-supplied data which can result in a read past the endof an allocated object. An attacker can leverage this vulnerability to execute code under the context of the current process. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb17-01.html ['2016-12-01 - Vulnerability reported to vendor', '2017-01-10 - Coordinated public release of advisory'] Sebastian Apelt siberas https://www.zerodayinitiative.com/advisories/ZDI-17-031/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-031/",
+  "title": "Adobe Reader DC XFA template Out-Of-Bounds Read Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Adobe Reader DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within XFA's template objects. The issue results from the lack of proper validation of user-supplied data which can result in a read past the endof an allocated object. An attacker can leverage this vulnerability to execute code under the context of the current process.",
+  "zdi_can": "ZDI-CAN-4317",
+  "zdi_id": "ZDI-17-031"
+}

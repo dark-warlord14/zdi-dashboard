@@ -1,0 +1,27 @@
+{
+  "additional_details": "Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/solution/1119158",
+  "advisory_date": "2018-01-10",
+  "affected_products": [
+    "Control Manager"
+  ],
+  "affected_vendors": [
+    "Trend Micro"
+  ],
+  "credit": "Steven Seeley (mr_me) of Offensive Security",
+  "cve": "CVE-2018-3605",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2018-3605",
+  "cvss": 6.0,
+  "cvss_vector": "AV:N/AC:M/Au:S/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2017-09-05 - Vulnerability reported to vendor",
+    "2018-01-10 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-077 ZDI-CAN-5182 Trend Micro Control Manager ViolationCntByChannel SQL Injection Remote Code Execution Vulnerability 2018-01-10 CVE-2018-3605 https://www.cve.org/CVERecord?id=CVE-2018-3605 6.0 AV:N/AC:M/Au:S/C:P/I:P/A:P ['Trend Micro'] ['Control Manager'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Trend Micro Control Manager. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed. The specific flaw exists within the ViolationCntByChannel method, which is called by the reporting servlet. The issue results from the lack of proper validation of a user-supplied string before using it to construct SQL queries. An attacker can leverage this vulnerability to execute code under the context of the Network Service account. Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/solution/1119158 ['2017-09-05 - Vulnerability reported to vendor', '2018-01-10 - Coordinated public release of advisory'] Steven Seeley (mr_me) of Offensive Security https://www.zerodayinitiative.com/advisories/ZDI-18-077/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-077/",
+  "title": "Trend Micro Control Manager ViolationCntByChannel SQL Injection Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Trend Micro Control Manager. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed. The specific flaw exists within the ViolationCntByChannel method, which is called by the reporting servlet. The issue results from the lack of proper validation of a user-supplied string before using it to construct SQL queries. An attacker can leverage this vulnerability to execute code under the context of the Network Service account.",
+  "zdi_can": "ZDI-CAN-5182",
+  "zdi_id": "ZDI-18-077"
+}

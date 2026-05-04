@@ -1,0 +1,28 @@
+{
+  "additional_details": "Mozilla has issued an update to correct this vulnerability. More details can be found at: https://www.mozilla.org/en-US/security/advisories/mfsa2018-08/",
+  "advisory_date": "2018-03-23",
+  "affected_products": [
+    "Firefox"
+  ],
+  "affected_vendors": [
+    "Mozilla"
+  ],
+  "credit": "Richard Zhu (fluorescence)",
+  "cve": "CVE-2018-5146",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2018-5146",
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2018-03-18 - Vulnerability reported to vendor",
+    "2018-03-23 - Coordinated public release of advisory",
+    "2018-03-23 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-263 ZDI-CAN-5822 (Pwn2Own) Mozilla Firefox libvorbis OGG Decoding Out-Of-Bounds Write Remote Code Execution Vulnerability 2018-03-23 CVE-2018-5146 https://www.cve.org/CVERecord?id=CVE-2018-5146 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Mozilla'] ['Firefox'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Mozilla Firefox. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the libvorbis library. A crafted Vorbis audio file can trigger a write past the end of an allocated buffer. An attacker can leverage this vulnerability to execute code under the context of the current process. Mozilla has issued an update to correct this vulnerability. More details can be found at: https://www.mozilla.org/en-US/security/advisories/mfsa2018-08/ ['2018-03-18 - Vulnerability reported to vendor', '2018-03-23 - Coordinated public release of advisory', '2018-03-23 - Advisory Updated'] Richard Zhu (fluorescence) https://www.zerodayinitiative.com/advisories/ZDI-18-263/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-263/",
+  "title": "(Pwn2Own) Mozilla Firefox libvorbis OGG Decoding Out-Of-Bounds Write Remote Code Execution Vulnerability",
+  "updated_date": "2018-03-23",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Mozilla Firefox. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the libvorbis library. A crafted Vorbis audio file can trigger a write past the end of an allocated buffer. An attacker can leverage this vulnerability to execute code under the context of the current process.",
+  "zdi_can": "ZDI-CAN-5822",
+  "zdi_id": "ZDI-18-263"
+}

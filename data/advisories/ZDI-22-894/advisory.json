@@ -1,0 +1,27 @@
+{
+  "additional_details": "Advantech has issued an update to correct this vulnerability. More details can be found at: https://www.cisa.gov/uscert/ics/advisories/icsa-22-179-03",
+  "advisory_date": "2022-06-30",
+  "affected_products": [
+    "iView"
+  ],
+  "affected_vendors": [
+    "Advantech"
+  ],
+  "credit": "@rgod777",
+  "cve": "CVE-2022-2135",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-2135",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+  "disclosure_timeline": [
+    "2022-03-04 - Vulnerability reported to vendor",
+    "2022-06-30 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-894 ZDI-CAN-16649 Advantech iView findUpdateDeviceListExport sort_type/search_json SQL Injection Information Disclosure Vulnerability 2022-06-30 CVE-2022-2135 https://www.cve.org/CVERecord?id=CVE-2022-2135 7.5 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N ['Advantech'] ['iView'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Advantech iView. Authentication is not required to exploit this vulnerability. The specific flaw exists within the NetworkServlet endpoint, which listens on TCP port 8080 by default. When parsing the sort_type and search_json elements of the findUpdateDeviceListExport action, the process does not properly validate a user-supplied string before using it to construct SQL queries. An attacker can leverage this vulnerability to disclose stored credentials, leading to further compromise. Advantech has issued an update to correct this vulnerability. More details can be found at: https://www.cisa.gov/uscert/ics/advisories/icsa-22-179-03 ['2022-03-04 - Vulnerability reported to vendor', '2022-06-30 - Coordinated public release of advisory'] @rgod777 https://www.zerodayinitiative.com/advisories/ZDI-22-894/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-894/",
+  "title": "Advantech iView findUpdateDeviceListExport sort_type/search_json SQL Injection Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Advantech iView. Authentication is not required to exploit this vulnerability. The specific flaw exists within the NetworkServlet endpoint, which listens on TCP port 8080 by default. When parsing the sort_type and search_json elements of the findUpdateDeviceListExport action, the process does not properly validate a user-supplied string before using it to construct SQL queries. An attacker can leverage this vulnerability to disclose stored credentials, leading to further compromise.",
+  "zdi_can": "ZDI-CAN-16649",
+  "zdi_id": "ZDI-22-894"
+}

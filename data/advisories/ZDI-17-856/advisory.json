@@ -1,0 +1,27 @@
+{
+  "additional_details": "Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxitsoftware.com/support/security-bulletins.php",
+  "advisory_date": "2017-11-29",
+  "affected_products": [
+    "Reader"
+  ],
+  "affected_vendors": [
+    "Foxit"
+  ],
+  "credit": "kdot",
+  "cve": "CVE-2017-16588",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-16588",
+  "cvss": 4.3,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N",
+  "disclosure_timeline": [
+    "2017-08-11 - Vulnerability reported to vendor",
+    "2017-11-29 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-17-856 ZDI-CAN-4976 Foxit Reader JPEG2000 SOT marker Out-Of-Bounds Read Information Disclosure Vulnerability 2017-11-29 CVE-2017-16588 https://www.cve.org/CVERecord?id=CVE-2017-16588 4.3 AV:N/AC:M/Au:N/C:P/I:N/A:N ['Foxit'] ['Reader'] This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Foxit Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of SOT markers. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated object. An attacker can leverage this in conjunction with other vulnerabilities to execute code in the context of the current process. Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxitsoftware.com/support/security-bulletins.php ['2017-08-11 - Vulnerability reported to vendor', '2017-11-29 - Coordinated public release of advisory'] kdot https://www.zerodayinitiative.com/advisories/ZDI-17-856/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-856/",
+  "title": "Foxit Reader JPEG2000 SOT marker Out-Of-Bounds Read Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Foxit Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of SOT markers. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated object. An attacker can leverage this in conjunction with other vulnerabilities to execute code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-4976",
+  "zdi_id": "ZDI-17-856"
+}

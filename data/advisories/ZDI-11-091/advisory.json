@@ -1,0 +1,27 @@
+{
+  "additional_details": "February 28, 2011 Vendor provided: http://tools.cisco.com/security/center/viewAlert.x?alertId=22529 --- February 23, 2011 - This vulnerability is being disclosed publicly without a patch in accordance with the ZDI 180 day deadline. -- Mitigations: Cisco states that they will have a patch for this issue on March 31st, 2011. In the meantime, we suggest users implement the mitigations below. The killbit can be set on this control to disable scripting within Internet Explorer by modifying the data value of the Compatibilty Flags DWORD within the following location in the registry: HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Internet Explorer\\ActiveX Compatibility\\705EC6D4-B138-4079-A307-EF13E4889A82 If the Compatibility Flags value is set to 0x00000400 the control can no longer be instantiated inside the browser. For more information, please see: http://support.microsoft.com/kb/240797",
+  "advisory_date": "2011-02-28",
+  "affected_products": [
+    "Secure Desktop"
+  ],
+  "affected_vendors": [
+    "Cisco"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2011-0926",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-0926",
+  "cvss": 9.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:C",
+  "disclosure_timeline": [
+    "2010-09-14 - Vulnerability reported to vendor",
+    "2011-02-28 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-11-091 ZDI-CAN-861 (0Day) Cisco Secure Desktop CSDWebInstaller Remote Code Execution Vulnerability 2011-02-28 CVE-2011-0926 https://www.cve.org/CVERecord?id=CVE-2011-0926 9.0 AV:N/AC:L/Au:N/C:P/I:P/A:C ['Cisco'] ['Secure Desktop'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Cisco Secure Desktop. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within CSDWebInstaller.ocx ActiveX control. The vulnerable Cisco-signed ActiveX control verifies the signing authority names in the certificate chain but fails to properly verify the digital signature of an executable file that is downloaded and executed by the Cisco Secure Desktop installation process. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the browser. February 28, 2011 Vendor provided: http://tools.cisco.com/security/center/viewAlert.x?alertId=22529 --- February 23, 2011 - This vulnerability is being disclosed publicly without a patch in accordance with the ZDI 180 day deadline. -- Mitigations: Cisco states that they will have a patch for this issue on March 31st, 2011. In the meantime, we suggest users implement the mitigations below. The killbit can be set on this control to disable scripting within Internet Explorer by modifying the data value of the Compatibilty Flags DWORD within the following location in the registry: HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Internet Explorer\\ActiveX Compatibility\\705EC6D4-B138-4079-A307-EF13E4889A82 If the Compatibility Flags value is set to 0x00000400 the control can no longer be instantiated inside the browser. For more information, please see: http://support.microsoft.com/kb/240797 ['2010-09-14 - Vulnerability reported to vendor', '2011-02-28 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-11-091/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-091/",
+  "title": "(0Day) Cisco Secure Desktop CSDWebInstaller Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Cisco Secure Desktop. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within CSDWebInstaller.ocx ActiveX control. The vulnerable Cisco-signed ActiveX control verifies the signing authority names in the certificate chain but fails to properly verify the digital signature of an executable file that is downloaded and executed by the Cisco Secure Desktop installation process. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the browser.",
+  "zdi_can": "ZDI-CAN-861",
+  "zdi_id": "ZDI-11-091"
+}

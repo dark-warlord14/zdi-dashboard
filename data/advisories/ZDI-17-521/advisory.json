@@ -1,0 +1,27 @@
+{
+  "additional_details": "Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/solution/1117769",
+  "advisory_date": "2017-08-02",
+  "affected_products": [
+    "OfficeScan"
+  ],
+  "affected_vendors": [
+    "Trend Micro"
+  ],
+  "credit": "Steven Seeley of Source Incite",
+  "cve": "CVE-2017-11394",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-11394",
+  "cvss": 9.0,
+  "cvss_vector": "AV:N/AC:L/Au:S/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2017-03-01 - Vulnerability reported to vendor",
+    "2017-08-02 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-17-521 ZDI-CAN-4544 Trend Micro OfficeScan Proxy Command Injection Remote Code Execution Vulnerability 2017-08-02 CVE-2017-11394 https://www.cve.org/CVERecord?id=CVE-2017-11394 9.0 AV:N/AC:L/Au:S/C:C/I:C/A:C ['Trend Micro'] ['OfficeScan'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Trend Micro OfficeScan. Authentication is required to exploit this vulnerability. The specific flaw exists within the Web Console, which listens on TCP port 4343 by default. When parsing the T parameter in Proxy.php, the process does not properly validate a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute arbitrary code under the context of the current service. Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/solution/1117769 ['2017-03-01 - Vulnerability reported to vendor', '2017-08-02 - Coordinated public release of advisory'] Steven Seeley of Source Incite https://www.zerodayinitiative.com/advisories/ZDI-17-521/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-521/",
+  "title": "Trend Micro OfficeScan Proxy Command Injection Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Trend Micro OfficeScan. Authentication is required to exploit this vulnerability. The specific flaw exists within the Web Console, which listens on TCP port 4343 by default. When parsing the T parameter in Proxy.php, the process does not properly validate a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute arbitrary code under the context of the current service.",
+  "zdi_can": "ZDI-CAN-4544",
+  "zdi_id": "ZDI-17-521"
+}

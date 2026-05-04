@@ -1,0 +1,27 @@
+{
+  "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/substance3d_stager/apsb23-26.html",
+  "advisory_date": "2023-04-12",
+  "affected_products": [
+    "Substance 3D Stager"
+  ],
+  "affected_vendors": [
+    "Adobe"
+  ],
+  "credit": "Mat Powell of Trend Micro Zero Day Initiative",
+  "cve": "CVE-2023-26386",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-26386",
+  "cvss": 3.3,
+  "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+  "disclosure_timeline": [
+    "2023-01-26 - Vulnerability reported to vendor",
+    "2023-04-12 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-411 ZDI-CAN-20266 Adobe Substance 3D Stager USDC File Parsing Uninitialized Variable Information Disclosure Vulnerability 2023-04-12 CVE-2023-26386 https://www.cve.org/CVERecord?id=CVE-2023-26386 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N ['Adobe'] ['Substance 3D Stager'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Adobe Substance 3D Stager. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of USDC files. The issue results from the lack of proper initialization of memory prior to accessing it. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/substance3d_stager/apsb23-26.html ['2023-01-26 - Vulnerability reported to vendor', '2023-04-12 - Coordinated public release of advisory'] Mat Powell of Trend Micro Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-23-411/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-411/",
+  "title": "Adobe Substance 3D Stager USDC File Parsing Uninitialized Variable Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Adobe Substance 3D Stager. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of USDC files. The issue results from the lack of proper initialization of memory prior to accessing it. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-20266",
+  "zdi_id": "ZDI-23-411"
+}

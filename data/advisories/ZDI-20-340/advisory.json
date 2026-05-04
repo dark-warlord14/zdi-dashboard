@@ -1,0 +1,27 @@
+{
+  "additional_details": "Fixed in version A7(US)_V5_200220",
+  "advisory_date": "2020-03-25",
+  "affected_products": [
+    "Archer A7"
+  ],
+  "affected_vendors": [
+    "TP-Link"
+  ],
+  "credit": "F-Secure Labs - Mark Barnes, Toby Drew, Max Van Amerongen, and James Loureiro",
+  "cve": "CVE-2020-10888",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2020-10888",
+  "cvss": 5.9,
+  "cvss_vector": "AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N",
+  "disclosure_timeline": [
+    "2019-11-19 - Vulnerability reported to vendor",
+    "2020-03-25 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-20-340 ZDI-CAN-9664 (Pwn2Own) TP-Link Archer A7 SSH Port Forwarding Authentication Bypass Vulnerability 2020-03-25 CVE-2020-10888 https://www.cve.org/CVERecord?id=CVE-2020-10888 5.9 AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N ['TP-Link'] ['Archer A7'] This vulnerability allows remote attackers to bypass authentication on affected installations of TP-Link Archer A7 AC1750 routers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of SSH port forwarding requests during initial setup. The issue results from the lack of proper authentication prior to establishing SSH port forwarding rules. An attacker can leverage this vulnerability to escalate privileges to resources normally protected from the WAN interface. Fixed in version A7(US)_V5_200220 ['2019-11-19 - Vulnerability reported to vendor', '2020-03-25 - Coordinated public release of advisory'] F-Secure Labs - Mark Barnes, Toby Drew, Max Van Amerongen, and James Loureiro https://www.zerodayinitiative.com/advisories/ZDI-20-340/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-20-340/",
+  "title": "(Pwn2Own) TP-Link Archer A7 SSH Port Forwarding Authentication Bypass Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to bypass authentication on affected installations of TP-Link Archer A7 AC1750 routers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of SSH port forwarding requests during initial setup. The issue results from the lack of proper authentication prior to establishing SSH port forwarding rules. An attacker can leverage this vulnerability to escalate privileges to resources normally protected from the WAN interface.",
+  "zdi_can": "ZDI-CAN-9664",
+  "zdi_id": "ZDI-20-340"
+}

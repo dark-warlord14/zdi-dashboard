@@ -1,0 +1,28 @@
+{
+  "additional_details": "Patched with Samsung Notes v. 2.0.02.31",
+  "advisory_date": "2018-06-07",
+  "affected_products": [
+    "Notes"
+  ],
+  "affected_vendors": [
+    "Samsung"
+  ],
+  "credit": "MWR Labs - Alex Plaskett James Loureiro Robert Miller and Georgi Geshev",
+  "cve": "CVE-2018-10501",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2018-10501",
+  "cvss": 4.4,
+  "cvss_vector": "AV:L/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2017-11-05 - Vulnerability reported to vendor",
+    "2018-06-07 - Coordinated public release of advisory",
+    "2018-06-07 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-561 ZDI-CAN-5358 (Pwn2Own) Samsung Notes ZIP File Directory Traversal File Write Vulnerability 2018-06-07 CVE-2018-10501 https://www.cve.org/CVERecord?id=CVE-2018-10501 4.4 AV:L/AC:M/Au:N/C:P/I:P/A:P ['Samsung'] ['Notes'] This vulnerability allows local attackers to escalate privileges on vulnerable installations of Samsung Notes. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of ZIP files. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to escalate privileges to resources normally protected from the application. Patched with Samsung Notes v. 2.0.02.31 ['2017-11-05 - Vulnerability reported to vendor', '2018-06-07 - Coordinated public release of advisory', '2018-06-07 - Advisory Updated'] MWR Labs - Alex Plaskett James Loureiro Robert Miller and Georgi Geshev https://www.zerodayinitiative.com/advisories/ZDI-18-561/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-561/",
+  "title": "(Pwn2Own) Samsung Notes ZIP File Directory Traversal File Write Vulnerability",
+  "updated_date": "2018-06-07",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on vulnerable installations of Samsung Notes. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of ZIP files. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to escalate privileges to resources normally protected from the application.",
+  "zdi_can": "ZDI-CAN-5358",
+  "zdi_id": "ZDI-18-561"
+}

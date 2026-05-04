@@ -1,0 +1,28 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-8239",
+  "advisory_date": "2018-07-13",
+  "affected_products": [
+    "Internet Explorer"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "willJ of Tencent PC Manager",
+  "cve": "CVE-2018-8239",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2018-8239",
+  "cvss": 4.3,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N",
+  "disclosure_timeline": [
+    "2018-05-22 - Vulnerability reported to vendor",
+    "2018-07-13 - Coordinated public release of advisory",
+    "2018-07-13 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-615 ZDI-CAN-6257 Microsoft Internet Explorer EMF Graphic Out-Of-Bounds Read Information Disclosure Vulnerability 2018-07-13 CVE-2018-8239 https://www.cve.org/CVERecord?id=CVE-2018-8239 4.3 AV:N/AC:M/Au:N/C:P/I:N/A:N ['Microsoft'] ['Internet Explorer'] This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Microsoft Windows. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the processing of EMF graphics. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute code in the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-8239 ['2018-05-22 - Vulnerability reported to vendor', '2018-07-13 - Coordinated public release of advisory', '2018-07-13 - Advisory Updated'] willJ of Tencent PC Manager https://www.zerodayinitiative.com/advisories/ZDI-18-615/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-615/",
+  "title": "Microsoft Internet Explorer EMF Graphic Out-Of-Bounds Read Information Disclosure Vulnerability",
+  "updated_date": "2018-07-13",
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Microsoft Windows. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the processing of EMF graphics. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-6257",
+  "zdi_id": "ZDI-18-615"
+}

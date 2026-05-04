@@ -1,0 +1,28 @@
+{
+  "additional_details": "08/28/23 \u2013 ZDI reported the vulnerability to the vendor 08/24/23 \u2013 The vendor communicated that the cases would be fixed in Q4, 2023 release 05/01/24 \u2013 ZDI notified the vendor of the intention to publish the case as 0-day advisory on 05/14/24 -- Mitigation: On May 16, 2024, the vendor informed ZDI about v 4.0.0.21 EOL/EOS announcement https://supportannouncement.us.dlink.com/security/publication.aspx?name=SAP10388",
+  "advisory_date": "2024-05-24",
+  "affected_products": [
+    "Network Assistant"
+  ],
+  "affected_vendors": [
+    "D-Link"
+  ],
+  "credit": "Xavier DANEST",
+  "cve": "CVE-2024-5292",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-5292",
+  "cvss": 7.3,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2023-08-02 - Vulnerability reported to vendor",
+    "2024-05-24 - Coordinated public release of advisory",
+    "2024-07-01 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-443 ZDI-CAN-21426 (0Day) D-Link Network Assistant Uncontrolled Search Path Element Local Privilege Escalation Vulnerability 2024-05-24 CVE-2024-5292 https://www.cve.org/CVERecord?id=CVE-2024-5292 7.3 AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H ['D-Link'] ['Network Assistant'] This vulnerability allows local attackers to escalate privileges on affected installations of D-Link Network Assistant. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the DNACore service. The service loads a file from an unsecured location. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. 08/28/23 \u2013 ZDI reported the vulnerability to the vendor 08/24/23 \u2013 The vendor communicated that the cases would be fixed in Q4, 2023 release 05/01/24 \u2013 ZDI notified the vendor of the intention to publish the case as 0-day advisory on 05/14/24 -- Mitigation: On May 16, 2024, the vendor informed ZDI about v 4.0.0.21 EOL/EOS announcement https://supportannouncement.us.dlink.com/security/publication.aspx?name=SAP10388 ['2023-08-02 - Vulnerability reported to vendor', '2024-05-24 - Coordinated public release of advisory', '2024-07-01 - Advisory Updated'] Xavier DANEST https://www.zerodayinitiative.com/advisories/ZDI-24-443/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-443/",
+  "title": "(0Day) D-Link Network Assistant Uncontrolled Search Path Element Local Privilege Escalation Vulnerability",
+  "updated_date": "2024-07-01",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of D-Link Network Assistant. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the DNACore service. The service loads a file from an unsecured location. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-21426",
+  "zdi_id": "ZDI-24-443"
+}

@@ -1,0 +1,27 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-us/HT206167",
+  "advisory_date": "2016-03-22",
+  "affected_products": [
+    "OS X"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "Juwei Lin Trend Micro",
+  "cve": "CVE-2016-1753",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-1753",
+  "cvss": 6.9,
+  "cvss_vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2015-11-02 - Vulnerability reported to vendor",
+    "2016-03-22 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-16-207 ZDI-CAN-3315 Apple OS X IOGeneralMemoryDescriptor Integer Overflow Privilege Escalation Vulnerability 2016-03-22 CVE-2016-1753 https://www.cve.org/CVERecord?id=CVE-2016-1753 6.9 AV:L/AC:M/Au:N/C:C/I:C/A:C ['Apple'] ['OS X'] This vulnerability allows local attackers to elevate privileges on vulnerable installations of Apple OS X. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The specific flaw exists within the IOGeneralMemoryDescriptor interface. The issue lies in the failure to test user-supplied input for integer overflow. An attacker can leverage this to escalate their privileges and execute code under the context of the kernel. Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-us/HT206167 ['2015-11-02 - Vulnerability reported to vendor', '2016-03-22 - Coordinated public release of advisory'] Juwei Lin Trend Micro https://www.zerodayinitiative.com/advisories/ZDI-16-207/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-207/",
+  "title": "Apple OS X IOGeneralMemoryDescriptor Integer Overflow Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to elevate privileges on vulnerable installations of Apple OS X. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The specific flaw exists within the IOGeneralMemoryDescriptor interface. The issue lies in the failure to test user-supplied input for integer overflow. An attacker can leverage this to escalate their privileges and execute code under the context of the kernel.",
+  "zdi_can": "ZDI-CAN-3315",
+  "zdi_id": "ZDI-16-207"
+}

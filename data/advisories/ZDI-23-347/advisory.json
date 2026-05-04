@@ -1,0 +1,27 @@
+{
+  "additional_details": "Fixed in Bentley View version 17.2",
+  "advisory_date": "2023-03-31",
+  "affected_products": [
+    "View"
+  ],
+  "affected_vendors": [
+    "Bentley"
+  ],
+  "credit": "Michael DePlante (@izobashi) of Trend Micro's Zero Day Initiative",
+  "cve": "CVE-2022-43652",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-43652",
+  "cvss": 3.3,
+  "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+  "disclosure_timeline": [
+    "2022-09-28 - Vulnerability reported to vendor",
+    "2023-03-31 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-347 ZDI-CAN-18981 Bentley View SKP File Parsing Use-After-Free Information Disclosure Vulnerability 2023-03-31 CVE-2022-43652 https://www.cve.org/CVERecord?id=CVE-2022-43652 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N ['Bentley'] ['View'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Bentley View. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of SKP files. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process. Fixed in Bentley View version 17.2 ['2022-09-28 - Vulnerability reported to vendor', '2023-03-31 - Coordinated public release of advisory'] Michael DePlante (@izobashi) of Trend Micro's Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-23-347/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-347/",
+  "title": "Bentley View SKP File Parsing Use-After-Free Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Bentley View. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of SKP files. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-18981",
+  "zdi_id": "ZDI-23-347"
+}

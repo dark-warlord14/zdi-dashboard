@@ -1,0 +1,28 @@
+{
+  "additional_details": "https://www.cisa.gov/news-events/ics-advisories/icsa-24-289-02 https://community.se.com/t5/Data-Center-Expert-release-notes/EcoStruxure-IT-Data-Center-Expert-8-2-0-release-notes/ta-p/463789",
+  "advisory_date": "2024-10-17",
+  "affected_products": [
+    "EcoStruxure Data Center Expert"
+  ],
+  "affected_vendors": [
+    "Schneider Electric"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2024-8530",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-8530",
+  "cvss": 5.9,
+  "cvss_vector": "AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+  "disclosure_timeline": [
+    "2024-07-16 - Vulnerability reported to vendor",
+    "2024-10-17 - Coordinated public release of advisory",
+    "2024-10-18 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-1416 ZDI-CAN-23489 Schneider Electric EcoStruxure Data Center Expert Missing Authentication Information Disclosure Vulnerability 2024-10-17 CVE-2024-8530 https://www.cve.org/CVERecord?id=CVE-2024-8530 5.9 AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N ['Schneider Electric'] ['EcoStruxure Data Center Expert'] The vulnerability allows remote attackers to disclose sensitive information on affected installations of Schneider Electric EcoStruxure Data Center Expert. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of log files. The issue results from the lack of authentication prior to allowing access to functionality. An attacker can leverage this vulnerability to disclose sensitive information, leading to further compromise. https://www.cisa.gov/news-events/ics-advisories/icsa-24-289-02 https://community.se.com/t5/Data-Center-Expert-release-notes/EcoStruxure-IT-Data-Center-Expert-8-2-0-release-notes/ta-p/463789 ['2024-07-16 - Vulnerability reported to vendor', '2024-10-17 - Coordinated public release of advisory', '2024-10-18 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-24-1416/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-1416/",
+  "title": "Schneider Electric EcoStruxure Data Center Expert Missing Authentication Information Disclosure Vulnerability",
+  "updated_date": "2024-10-18",
+  "vulnerability_details": "The vulnerability allows remote attackers to disclose sensitive information on affected installations of Schneider Electric EcoStruxure Data Center Expert. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of log files. The issue results from the lack of authentication prior to allowing access to functionality. An attacker can leverage this vulnerability to disclose sensitive information, leading to further compromise.",
+  "zdi_can": "ZDI-CAN-23489",
+  "zdi_id": "ZDI-24-1416"
+}

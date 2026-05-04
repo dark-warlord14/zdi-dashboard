@@ -1,0 +1,28 @@
+{
+  "additional_details": "Fixed in Chrome 117 https://swiftshader-review.googlesource.com/c/SwiftShader/+/71928",
+  "advisory_date": "2023-11-06",
+  "affected_products": [
+    "Chromium"
+  ],
+  "affected_vendors": [
+    "Google"
+  ],
+  "credit": "Dohyun Lee (@l33d0hyun)",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 8.8,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2023-09-14 - Vulnerability reported to vendor",
+    "2023-11-06 - Coordinated public release of advisory",
+    "2023-11-07 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-1583 ZDI-CAN-22148 Google Chromium Vulkan SwiftShader Double Free Remote Code Execution Vulnerability 2023-11-06 8.8 AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Google'] ['Chromium'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Google Chromium-based browsers. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within Vulkan SwiftShader. The issue results from the lack of validating the existence of an object prior to performing further free operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current process. Fixed in Chrome 117 https://swiftshader-review.googlesource.com/c/SwiftShader/+/71928 ['2023-09-14 - Vulnerability reported to vendor', '2023-11-06 - Coordinated public release of advisory', '2023-11-07 - Advisory Updated'] Dohyun Lee (@l33d0hyun) https://www.zerodayinitiative.com/advisories/ZDI-23-1583/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-1583/",
+  "title": "Google Chromium Vulkan SwiftShader Double Free Remote Code Execution Vulnerability",
+  "updated_date": "2023-11-07",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Google Chromium-based browsers. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within Vulkan SwiftShader. The issue results from the lack of validating the existence of an object prior to performing further free operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-22148",
+  "zdi_id": "ZDI-23-1583"
+}

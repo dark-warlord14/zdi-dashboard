@@ -1,0 +1,28 @@
+{
+  "additional_details": "OPC Foundation has issued an update to correct this vulnerability. More details can be found at: https://opcfoundation.org/SecurityBulletins/OPC%20Foundation%20Security%20Bulletin%20CVE-2020-8867.pdf",
+  "advisory_date": "2020-04-16",
+  "affected_products": [
+    "UA .NET Standard"
+  ],
+  "affected_vendors": [
+    "OPC Foundation"
+  ],
+  "credit": "Steven Seeley (mr_me) and Chris Anastasio (muffin)",
+  "cve": "CVE-2020-8867",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2020-8867",
+  "cvss": 5.3,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+  "disclosure_timeline": [
+    "2020-02-07 - Vulnerability reported to vendor",
+    "2020-04-16 - Coordinated public release of advisory",
+    "2021-06-29 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-20-536 ZDI-CAN-10295 (Pwn2Own) OPC Foundation UA .NET Standard CreateSessionRequest Race Condition Denial-of-Service Vulnerability 2020-04-16 CVE-2020-8867 https://www.cve.org/CVERecord?id=CVE-2020-8867 5.3 AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L ['OPC Foundation'] ['UA .NET Standard'] This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of OPC Foundation UA .NET Standard. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of sessions. The issue results from the lack of proper locking when performing operations on an object. An attacker can leverage this vulnerability to create a denial-of-service condition against the application. OPC Foundation has issued an update to correct this vulnerability. More details can be found at: https://opcfoundation.org/SecurityBulletins/OPC%20Foundation%20Security%20Bulletin%20CVE-2020-8867.pdf ['2020-02-07 - Vulnerability reported to vendor', '2020-04-16 - Coordinated public release of advisory', '2021-06-29 - Advisory Updated'] Steven Seeley (mr_me) and Chris Anastasio (muffin) https://www.zerodayinitiative.com/advisories/ZDI-20-536/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-20-536/",
+  "title": "(Pwn2Own) OPC Foundation UA .NET Standard CreateSessionRequest Race Condition Denial-of-Service Vulnerability",
+  "updated_date": "2021-06-29",
+  "vulnerability_details": "This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of OPC Foundation UA .NET Standard. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of sessions. The issue results from the lack of proper locking when performing operations on an object. An attacker can leverage this vulnerability to create a denial-of-service condition against the application.",
+  "zdi_can": "ZDI-CAN-10295",
+  "zdi_id": "ZDI-20-536"
+}

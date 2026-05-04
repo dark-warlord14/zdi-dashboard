@@ -1,0 +1,27 @@
+{
+  "additional_details": "This vulnerability is being disclosed publicly without a patch in accordance with the ZDI 180 day deadline. -- Mitigation: The overall design of Operations Orchestra assumes it runs as an application on a Windows server. Given the stated purpose of Operations Orchestra, and the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the service to trusted machines. Only the clients and servers that have a legitimate procedural relationship with the HP Operations Orchestra service should be permitted to communicate with it. This could be accomplished in a number of ways, most notably with firewall rules/whitelisting. These features are available in the native Windows Firewall, as described in http://technet.microsoft.com/en-us/library/cc725770%28WS.10%29.aspx and numerous other Microsoft Knowledge Base articles.",
+  "advisory_date": "2012-08-29",
+  "affected_products": [
+    "Operations Orchestra"
+  ],
+  "affected_vendors": [
+    "Hewlett-Packard"
+  ],
+  "credit": "Andrea Micalizzi aka rgod",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2011-12-19 - Vulnerability reported to vendor",
+    "2012-08-29 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-12-172 ZDI-CAN-1456 (0Day) HP Operations Orchestration RSScheduler Service JDBC Connector Remote Code Execution Vulnerability 2012-08-29 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Hewlett-Packard'] ['Operations Orchestra'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of HP Operations Orchestration. Authentication is not required to exploit this vulnerability. The specific flaw exists within the RSScheduler service JDBC component of Operations Orchestra which listens by default on TCP port 9001. The component is vulnerable to SQL injection attacks. Remote, unauthenticated attackers can exploit this vulnerability by injecting malicious SQL into the target, which could ultimately lead to arbitrary code execution under the context of the SYSTEM user. This vulnerability is being disclosed publicly without a patch in accordance with the ZDI 180 day deadline. -- Mitigation: The overall design of Operations Orchestra assumes it runs as an application on a Windows server. Given the stated purpose of Operations Orchestra, and the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the service to trusted machines. Only the clients and servers that have a legitimate procedural relationship with the HP Operations Orchestra service should be permitted to communicate with it. This could be accomplished in a number of ways, most notably with firewall rules/whitelisting. These features are available in the native Windows Firewall, as described in http://technet.microsoft.com/en-us/library/cc725770%28WS.10%29.aspx and numerous other Microsoft Knowledge Base articles. ['2011-12-19 - Vulnerability reported to vendor', '2012-08-29 - Coordinated public release of advisory'] Andrea Micalizzi aka rgod https://www.zerodayinitiative.com/advisories/ZDI-12-172/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-12-172/",
+  "title": "(0Day) HP Operations Orchestration RSScheduler Service JDBC Connector Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of HP Operations Orchestration. Authentication is not required to exploit this vulnerability. The specific flaw exists within the RSScheduler service JDBC component of Operations Orchestra which listens by default on TCP port 9001. The component is vulnerable to SQL injection attacks. Remote, unauthenticated attackers can exploit this vulnerability by injecting malicious SQL into the target, which could ultimately lead to arbitrary code execution under the context of the SYSTEM user.",
+  "zdi_can": "ZDI-CAN-1456",
+  "zdi_id": "ZDI-12-172"
+}

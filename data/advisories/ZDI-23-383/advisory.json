@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-28227",
+  "advisory_date": "2023-04-11",
+  "affected_products": [
+    "Windows"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2023-28227",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-28227",
+  "cvss": 7.6,
+  "cvss_vector": "AV:A/AC:H/PR:L/UI:R/S:C/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2023-03-10 - Vulnerability reported to vendor",
+    "2023-04-11 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-383 ZDI-CAN-20475 Microsoft Windows Bluetooth BNEP Protocol Out-Of-Bounds Write Remote Code Execution Vulnerability 2023-04-11 CVE-2023-28227 https://www.cve.org/CVERecord?id=CVE-2023-28227 7.6 AV:A/AC:H/PR:L/UI:R/S:C/C:H/I:H/A:H ['Microsoft'] ['Windows'] This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Microsoft Windows. User interaction is required to exploit this vulnerability in that the target must connect a malicious Bluetooth device. The specific flaw exists within the processing of BNEP packets. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated buffer. An attacker can leverage this vulnerability to execute code in the context of the kernel. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-28227 ['2023-03-10 - Vulnerability reported to vendor', '2023-04-11 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-23-383/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-383/",
+  "title": "Microsoft Windows Bluetooth BNEP Protocol Out-Of-Bounds Write Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Microsoft Windows. User interaction is required to exploit this vulnerability in that the target must connect a malicious Bluetooth device. The specific flaw exists within the processing of BNEP packets. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated buffer. An attacker can leverage this vulnerability to execute code in the context of the kernel.",
+  "zdi_can": "ZDI-CAN-20475",
+  "zdi_id": "ZDI-23-383"
+}

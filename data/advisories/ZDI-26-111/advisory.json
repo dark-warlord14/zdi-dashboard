@@ -1,0 +1,28 @@
+{
+  "additional_details": "MLflow has issued an update to correct this vulnerability. More details can be found at: https://github.com/mlflow/mlflow/pull/19260",
+  "advisory_date": "2026-02-19",
+  "affected_products": [
+    "MLflow"
+  ],
+  "affected_vendors": [
+    "MLflow"
+  ],
+  "credit": "Peter Girnus (@gothburz) of Trend Zero Day Initiative",
+  "cve": "CVE-2026-2635",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-2635",
+  "cvss": 9.8,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2025-10-14 - Vulnerability reported to vendor",
+    "2026-02-19 - Coordinated public release of advisory",
+    "2026-02-19 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-26-111 ZDI-CAN-28256 MLflow Use of Default Password Authentication Bypass Vulnerability 2026-02-19 CVE-2026-2635 https://www.cve.org/CVERecord?id=CVE-2026-2635 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['MLflow'] ['MLflow'] This vulnerability allows remote attackers to bypass authentication on affected installations of MLflow. Authentication is not required to exploit this vulnerability. The specific flaw exists within the basic_auth.ini file. The file contains hard-coded default credentials. An attacker can leverage this vulnerability to bypass authentication and execute arbitrary code in the context of the administrator. MLflow has issued an update to correct this vulnerability. More details can be found at: https://github.com/mlflow/mlflow/pull/19260 ['2025-10-14 - Vulnerability reported to vendor', '2026-02-19 - Coordinated public release of advisory', '2026-02-19 - Advisory Updated'] Peter Girnus (@gothburz) of Trend Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-111/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-111/",
+  "title": "MLflow Use of Default Password Authentication Bypass Vulnerability",
+  "updated_date": "2026-02-19",
+  "vulnerability_details": "This vulnerability allows remote attackers to bypass authentication on affected installations of MLflow. Authentication is not required to exploit this vulnerability. The specific flaw exists within the basic_auth.ini file. The file contains hard-coded default credentials. An attacker can leverage this vulnerability to bypass authentication and execute arbitrary code in the context of the administrator.",
+  "zdi_can": "ZDI-CAN-28256",
+  "zdi_id": "ZDI-26-111"
+}

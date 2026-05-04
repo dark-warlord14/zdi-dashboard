@@ -1,0 +1,28 @@
+{
+  "additional_details": "02/22/24 \u2013 ZDI reported the vulnerability to F-secure\u2019s Security team. 06/19/24 \u2013 ZDI asked for updates. 07/26/24 \u2013 ZDI informed the vendor that since we have not received a response that we will publish the case as a zero-day advisory on 07/29/24 -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the application.",
+  "advisory_date": "2024-07-29",
+  "affected_products": [
+    "Total"
+  ],
+  "affected_vendors": [
+    "F-Secure"
+  ],
+  "credit": "Nicholas Zubrisky (@NZubrisky) and Michael DePlante (@izobashi) of Trend Micro's Zero Day Initiative",
+  "cve": "CVE-2024-7240",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-7240",
+  "cvss": 7.3,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2024-02-22 - Vulnerability reported to vendor",
+    "2024-07-29 - Coordinated public release of advisory",
+    "2024-08-15 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-1012 ZDI-CAN-23005 (0Day) F-Secure Total Link Following Local Privilege Escalation Vulnerability 2024-07-29 CVE-2024-7240 https://www.cve.org/CVERecord?id=CVE-2024-7240 7.3 AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H ['F-Secure'] ['Total'] This vulnerability allows local attackers to escalate privileges on affected installations of F-Secure Total. User interaction on the part of an administrator is required to exploit this vulnerability. The specific flaw exists within the WithSecure plugin hosting service. By creating a symbolic link, an attacker can abuse the service to create a file. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. 02/22/24 \u2013 ZDI reported the vulnerability to F-secure\u2019s Security team. 06/19/24 \u2013 ZDI asked for updates. 07/26/24 \u2013 ZDI informed the vendor that since we have not received a response that we will publish the case as a zero-day advisory on 07/29/24 -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the application. ['2024-02-22 - Vulnerability reported to vendor', '2024-07-29 - Coordinated public release of advisory', '2024-08-15 - Advisory Updated'] Nicholas Zubrisky (@NZubrisky) and Michael DePlante (@izobashi) of Trend Micro's Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-24-1012/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-1012/",
+  "title": "(0Day) F-Secure Total Link Following Local Privilege Escalation Vulnerability",
+  "updated_date": "2024-08-15",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of F-Secure Total. User interaction on the part of an administrator is required to exploit this vulnerability. The specific flaw exists within the WithSecure plugin hosting service. By creating a symbolic link, an attacker can abuse the service to create a file. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-23005",
+  "zdi_id": "ZDI-24-1012"
+}

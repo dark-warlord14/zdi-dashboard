@@ -1,0 +1,28 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-8533",
+  "advisory_date": "2018-10-10",
+  "affected_products": [
+    "SQL Server Management Studio"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "John Page (aka hyp3rlinx) - ApparitionSec",
+  "cve": "CVE-2018-8533",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2018-8533",
+  "cvss": 2.6,
+  "cvss_vector": "AV:N/AC:H/Au:N/C:P/I:N/A:N",
+  "disclosure_timeline": [
+    "2018-06-11 - Vulnerability reported to vendor",
+    "2018-10-10 - Coordinated public release of advisory",
+    "2018-10-10 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-1133 ZDI-CAN-6375 Microsoft SQL Server Management Studio regsrvr File XML External Entity Processing Information Disclosure Vulnerability 2018-10-10 CVE-2018-8533 https://www.cve.org/CVERecord?id=CVE-2018-8533 2.6 AV:N/AC:H/Au:N/C:P/I:N/A:N ['Microsoft'] ['SQL Server Management Studio'] This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Microsoft SQL Server Management Studio. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of REGSRVR files. Due to the improper restriction of XML External Entity (XXE) references, a specially crafted document specifying a URI causes the XML parser to access the URI and embed the contents back into the XML document for further processing. An attacker can leverage this vulnerability to disclose information in the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-8533 ['2018-06-11 - Vulnerability reported to vendor', '2018-10-10 - Coordinated public release of advisory', '2018-10-10 - Advisory Updated'] John Page (aka hyp3rlinx) - ApparitionSec https://www.zerodayinitiative.com/advisories/ZDI-18-1133/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-1133/",
+  "title": "Microsoft SQL Server Management Studio regsrvr File XML External Entity Processing Information Disclosure Vulnerability",
+  "updated_date": "2018-10-10",
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Microsoft SQL Server Management Studio. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of REGSRVR files. Due to the improper restriction of XML External Entity (XXE) references, a specially crafted document specifying a URI causes the XML parser to access the URI and embed the contents back into the XML document for further processing. An attacker can leverage this vulnerability to disclose information in the context of the current process.",
+  "zdi_can": "ZDI-CAN-6375",
+  "zdi_id": "ZDI-18-1133"
+}

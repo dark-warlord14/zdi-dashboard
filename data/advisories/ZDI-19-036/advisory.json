@@ -1,0 +1,27 @@
+{
+  "additional_details": "Oracle has issued an update to correct this vulnerability. More details can be found at: https://www.oracle.com/technetwork/security-advisory/cpujan2019-5072801.html",
+  "advisory_date": "2019-01-16",
+  "affected_products": [
+    "VirtualBox"
+  ],
+  "affected_vendors": [
+    "Oracle"
+  ],
+  "credit": "Root Object",
+  "cve": "CVE-2019-2504",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2019-2504",
+  "cvss": 3.8,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:C/C:L/I:N/A:N",
+  "disclosure_timeline": [
+    "2018-09-03 - Vulnerability reported to vendor",
+    "2019-01-16 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-19-036 ZDI-CAN-7200 Oracle VirtualBox crServerDispatchGetTexEnvfv Uninitialized Memory Information Disclosure Vulnerability 2019-01-16 CVE-2019-2504 https://www.cve.org/CVERecord?id=CVE-2019-2504 3.8 AV:L/AC:L/PR:L/UI:N/S:C/C:L/I:N/A:N ['Oracle'] ['VirtualBox'] This vulnerability allows local attackers to disclose sensitive information on vulnerable installations of Oracle VirtualBox. An attacker must first obtain the ability to execute low-privileged code on the target guest system in order to exploit this vulnerability. The specific flaw exists within the crServerDispatchGetTexEnvfv method. The issue results from the lack of proper initialization of memory prior to accessing it. An attacker can leverage this in conjunction with other vulnerabilities to execute code in the context of the hypervisor. Oracle has issued an update to correct this vulnerability. More details can be found at: https://www.oracle.com/technetwork/security-advisory/cpujan2019-5072801.html ['2018-09-03 - Vulnerability reported to vendor', '2019-01-16 - Coordinated public release of advisory'] Root Object https://www.zerodayinitiative.com/advisories/ZDI-19-036/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-19-036/",
+  "title": "Oracle VirtualBox crServerDispatchGetTexEnvfv Uninitialized Memory Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to disclose sensitive information on vulnerable installations of Oracle VirtualBox. An attacker must first obtain the ability to execute low-privileged code on the target guest system in order to exploit this vulnerability. The specific flaw exists within the crServerDispatchGetTexEnvfv method. The issue results from the lack of proper initialization of memory prior to accessing it. An attacker can leverage this in conjunction with other vulnerabilities to execute code in the context of the hypervisor.",
+  "zdi_can": "ZDI-CAN-7200",
+  "zdi_id": "ZDI-19-036"
+}

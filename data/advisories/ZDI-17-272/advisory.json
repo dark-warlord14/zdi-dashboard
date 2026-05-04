@@ -1,0 +1,27 @@
+{
+  "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb17-11.html",
+  "advisory_date": "2017-04-11",
+  "affected_products": [
+    "Acrobat Pro DC"
+  ],
+  "affected_vendors": [
+    "Adobe"
+  ],
+  "credit": "Ke Liu of Tencent's Xuanwu LAB",
+  "cve": "CVE-2017-3048",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-3048",
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2017-02-16 - Vulnerability reported to vendor",
+    "2017-04-11 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-17-272 ZDI-CAN-4488 Adobe Acrobat Pro DC ImageConversion TIFF Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability 2017-04-11 CVE-2017-3048 https://www.cve.org/CVERecord?id=CVE-2017-3048 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Adobe'] ['Acrobat Pro DC'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Adobe Acrobat Pro DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of TIFF images. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length heap-based buffer. An attacker can leverage this vulnerability to execute code under the context of the current process. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb17-11.html ['2017-02-16 - Vulnerability reported to vendor', '2017-04-11 - Coordinated public release of advisory'] Ke Liu of Tencent's Xuanwu LAB https://www.zerodayinitiative.com/advisories/ZDI-17-272/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-272/",
+  "title": "Adobe Acrobat Pro DC ImageConversion TIFF Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Adobe Acrobat Pro DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of TIFF images. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length heap-based buffer. An attacker can leverage this vulnerability to execute code under the context of the current process.",
+  "zdi_can": "ZDI-CAN-4488",
+  "zdi_id": "ZDI-17-272"
+}

@@ -1,0 +1,27 @@
+{
+  "additional_details": "Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/solution/000290464",
+  "advisory_date": "2022-02-16",
+  "affected_products": [
+    "Apex One"
+  ],
+  "affected_vendors": [
+    "Trend Micro"
+  ],
+  "credit": "Elias Martinez (filenotfound - https://www.linkedin.com/in/eli-martinez07/)",
+  "cve": "CVE-2022-24678",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-24678",
+  "cvss": 5.3,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+  "disclosure_timeline": [
+    "2021-10-27 - Vulnerability reported to vendor",
+    "2022-02-16 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-372 ZDI-CAN-15047 Trend Micro Apex One Security Agent Resource Exhaustion Denial-of-Service Vulnerability 2022-02-16 CVE-2022-24678 https://www.cve.org/CVERecord?id=CVE-2022-24678 5.3 AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L ['Trend Micro'] ['Apex One'] This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of Trend Micro Apex One Security Agent. Authentication is not required to exploit this vulnerability. The specific flaw exists within the logging of requests received on the management port. By sending a large number of requests, an attacker can cause log files to grow without limit. An attacker can leverage this vulnerability to create a denial-of-service condition on the system. Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/solution/000290464 ['2021-10-27 - Vulnerability reported to vendor', '2022-02-16 - Coordinated public release of advisory'] Elias Martinez (filenotfound - https://www.linkedin.com/in/eli-martinez07/) https://www.zerodayinitiative.com/advisories/ZDI-22-372/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-372/",
+  "title": "Trend Micro Apex One Security Agent Resource Exhaustion Denial-of-Service Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of Trend Micro Apex One Security Agent. Authentication is not required to exploit this vulnerability. The specific flaw exists within the logging of requests received on the management port. By sending a large number of requests, an attacker can cause log files to grow without limit. An attacker can leverage this vulnerability to create a denial-of-service condition on the system.",
+  "zdi_can": "ZDI-CAN-15047",
+  "zdi_id": "ZDI-22-372"
+}

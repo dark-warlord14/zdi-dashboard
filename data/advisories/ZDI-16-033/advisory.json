@@ -1,0 +1,27 @@
+{
+  "additional_details": "Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/cpujan2016-2367955.html",
+  "advisory_date": "2016-01-25",
+  "affected_products": [
+    "Application Testing Suite"
+  ],
+  "affected_vendors": [
+    "Oracle"
+  ],
+  "credit": "rgod",
+  "cve": "CVE-2016-0487",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-0487",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2015-10-08 - Vulnerability reported to vendor",
+    "2016-01-25 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-16-033 ZDI-CAN-3356 Oracle Application Testing Suite Authentication Bypass Vulnerability 2016-01-25 CVE-2016-0487 https://www.cve.org/CVERecord?id=CVE-2016-0487 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Oracle'] ['Application Testing Suite'] This vulnerability allows remote attackers to bypass authentication on vulnerable installations of Oracle Application Testing Suite. The specific flaw exists within the ActionServlet servlet. The process method for this servlet will bypass authentication if the URI starts with a specific string. By providing that string, and a directory traversal that follows it, an attacker is able to reach any URI that would map to that servlet without authentication. Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/cpujan2016-2367955.html ['2015-10-08 - Vulnerability reported to vendor', '2016-01-25 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-16-033/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-033/",
+  "title": "Oracle Application Testing Suite Authentication Bypass Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to bypass authentication on vulnerable installations of Oracle Application Testing Suite. The specific flaw exists within the ActionServlet servlet. The process method for this servlet will bypass authentication if the URI starts with a specific string. By providing that string, and a directory traversal that follows it, an attacker is able to reach any URI that would map to that servlet without authentication.",
+  "zdi_can": "ZDI-CAN-3356",
+  "zdi_id": "ZDI-16-033"
+}

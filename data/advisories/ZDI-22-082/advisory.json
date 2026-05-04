@@ -1,0 +1,27 @@
+{
+  "additional_details": "TeamViewer has issued an update to correct this vulnerability. More details can be found at: https://community.teamviewer.com/English/discussion/117794/august-updates-security-patches",
+  "advisory_date": "2022-01-20",
+  "affected_products": [
+    "TeamViewer"
+  ],
+  "affected_vendors": [
+    "TeamViewer"
+  ],
+  "credit": "@Kharosx0",
+  "cve": "CVE-2021-35005",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2021-35005",
+  "cvss": 3.3,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+  "disclosure_timeline": [
+    "2021-06-18 - Vulnerability reported to vendor",
+    "2022-01-20 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-082 ZDI-CAN-13818 TeamViewer Improper Validation of Array Index Information Disclosure Vulnerability 2022-01-20 CVE-2021-35005 https://www.cve.org/CVERecord?id=CVE-2021-35005 3.3 AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N ['TeamViewer'] ['TeamViewer'] This vulnerability allows local attackers to disclose sensitive information on affected installations of TeamViewer. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the TeamViewer service. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated array. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of SYSTEM. TeamViewer has issued an update to correct this vulnerability. More details can be found at: https://community.teamviewer.com/English/discussion/117794/august-updates-security-patches ['2021-06-18 - Vulnerability reported to vendor', '2022-01-20 - Coordinated public release of advisory'] @Kharosx0 https://www.zerodayinitiative.com/advisories/ZDI-22-082/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-082/",
+  "title": "TeamViewer Improper Validation of Array Index Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to disclose sensitive information on affected installations of TeamViewer. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the TeamViewer service. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated array. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-13818",
+  "zdi_id": "ZDI-22-082"
+}

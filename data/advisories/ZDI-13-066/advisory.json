@@ -1,0 +1,27 @@
+{
+  "additional_details": "Cisco has issued an update to correct this vulnerability. More details can be found at: http://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20130417-nac",
+  "advisory_date": "2013-05-10",
+  "affected_products": [
+    "Clean Access Manager"
+  ],
+  "affected_vendors": [
+    "Cisco"
+  ],
+  "credit": "Nenad Stojanovski",
+  "cve": "CVE-2013-1177",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2013-1177",
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2012-07-24 - Vulnerability reported to vendor",
+    "2013-05-10 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-13-066 ZDI-CAN-1536 Cisco Clean Access Manager sortColumn SQL Injection Remote Code Execution Vulnerability 2013-05-10 CVE-2013-1177 https://www.cve.org/CVERecord?id=CVE-2013-1177 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Cisco'] ['Clean Access Manager'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Cisco Clean Access Manager. Authentication is not required to exploit this vulnerability. The specific flaw is in the handling of sortColumn URL parameters when constructing SQL database queries. By specially crafting URL parameters, it is possible to influence the SQL queries to gain remote code execution on the affected system. Cisco has issued an update to correct this vulnerability. More details can be found at: http://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20130417-nac ['2012-07-24 - Vulnerability reported to vendor', '2013-05-10 - Coordinated public release of advisory'] Nenad Stojanovski https://www.zerodayinitiative.com/advisories/ZDI-13-066/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-13-066/",
+  "title": "Cisco Clean Access Manager sortColumn SQL Injection Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Cisco Clean Access Manager. Authentication is not required to exploit this vulnerability. The specific flaw is in the handling of sortColumn URL parameters when constructing SQL database queries. By specially crafting URL parameters, it is possible to influence the SQL queries to gain remote code execution on the affected system.",
+  "zdi_can": "ZDI-CAN-1536",
+  "zdi_id": "ZDI-13-066"
+}

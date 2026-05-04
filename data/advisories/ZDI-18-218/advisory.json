@@ -1,0 +1,28 @@
+{
+  "additional_details": "Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/solution/1119385",
+  "advisory_date": "2018-02-28",
+  "affected_products": [
+    "Smart Protection Server"
+  ],
+  "affected_vendors": [
+    "Trend Micro"
+  ],
+  "credit": "Alain Homewood (Insomnia Security)",
+  "cve": "CVE-2018-6231",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2018-6231",
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2018-02-02 - Vulnerability reported to vendor",
+    "2018-02-28 - Coordinated public release of advisory",
+    "2018-02-28 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-218 ZDI-CAN-5625 Trend Micro Smart Protection Server Auth Command Injection Authentication Bypass Vulnerability 2018-02-28 CVE-2018-6231 https://www.cve.org/CVERecord?id=CVE-2018-6231 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Trend Micro'] ['Smart Protection Server'] This vulnerability allows remote attackers to escalate privileges on vulnerable installations of Trend Micro Smart Protection Server. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of credentials provided at login. When parsing the username, the process does not properly validate a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to escalate privileges to resources normally protected from the user. Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/solution/1119385 ['2018-02-02 - Vulnerability reported to vendor', '2018-02-28 - Coordinated public release of advisory', '2018-02-28 - Advisory Updated'] Alain Homewood (Insomnia Security) https://www.zerodayinitiative.com/advisories/ZDI-18-218/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-218/",
+  "title": "Trend Micro Smart Protection Server Auth Command Injection Authentication Bypass Vulnerability",
+  "updated_date": "2018-02-28",
+  "vulnerability_details": "This vulnerability allows remote attackers to escalate privileges on vulnerable installations of Trend Micro Smart Protection Server. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of credentials provided at login. When parsing the username, the process does not properly validate a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to escalate privileges to resources normally protected from the user.",
+  "zdi_can": "ZDI-CAN-5625",
+  "zdi_id": "ZDI-18-218"
+}

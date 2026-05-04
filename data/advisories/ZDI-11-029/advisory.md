@@ -1,0 +1,26 @@
+# ZDI-11-029: Symantec AMS Intel Alert Handler Service CreateProcess Remote Code Execution Vulnerability
+
+## Metadata
+
+- **ZDI ID:** ZDI-11-029
+- **ZDI-CAN:** ZDI-CAN-529
+- **Date:** 2011-01-27
+- **CVE:** CVE-2010-0111
+- **CVSS:** 10.0
+- **CVSS Vector:** AV:N/AC:L/Au:N/C:C/I:C/A:C
+- **Affected Vendors:** Symantec
+- **Affected Products:** Alert Management System
+- **Credit:** Anonymous
+- **Source:** https://www.zerodayinitiative.com/advisories/ZDI-11-029/
+## Vulnerability Details
+
+This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Symantec Alert Management System. Authentication is not required to exploit this vulnerability. The specific flaw exists within the HDNLRSVC.EXE service while processing data sent from the msgsys.exe process which listens by default on TCP port 38292. This process passes user-supplied data directly to a CreateProcessA call. By supplying a UNC path to a controlled binary a remote attacker can execute arbitrary code under the context of the vulnerable daemon.
+
+## Additional Details
+
+Symantec has issued an update to correct this vulnerability. More details can be found at: http://www.symantec.com/business/security_response/securityupdates/detail.jsp?fid=security_advisory&pvid=security_advisory&year=2011&suid=20110126_00
+
+## Disclosure Timeline
+
+- 2010-07-14 - Vulnerability reported to vendor
+- 2011-01-27 - Coordinated public release of advisory

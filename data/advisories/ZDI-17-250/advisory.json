@@ -1,0 +1,27 @@
+{
+  "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb17-11.html",
+  "advisory_date": "2017-04-11",
+  "affected_products": [
+    "Acrobat Reader DC"
+  ],
+  "affected_vendors": [
+    "Adobe"
+  ],
+  "credit": "Ke Liu of Tencent's Xuanwu LAB",
+  "cve": "CVE-2017-3020",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-3020",
+  "cvss": 4.3,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N",
+  "disclosure_timeline": [
+    "2016-11-30 - Vulnerability reported to vendor",
+    "2017-04-11 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-17-250 ZDI-CAN-4201 Adobe Reader DC Weblink Out-Of-Bounds Read Information Disclosure Vulnerability 2017-04-11 CVE-2017-3020 https://www.cve.org/CVERecord?id=CVE-2017-3020 4.3 AV:N/AC:M/Au:N/C:P/I:N/A:N ['Adobe'] ['Acrobat Reader DC'] This vulnerability allows a remote attacker to disclose sensitive information on vulnerable installations of Adobe Reader DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the Weblink plugin. The process does not properly validate user-supplied data which can result in a read past the end of an allocated object. An attacker can leverage this in conjunction with other vulnerabilities to execute code under the context of the current process. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb17-11.html ['2016-11-30 - Vulnerability reported to vendor', '2017-04-11 - Coordinated public release of advisory'] Ke Liu of Tencent's Xuanwu LAB https://www.zerodayinitiative.com/advisories/ZDI-17-250/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-250/",
+  "title": "Adobe Reader DC Weblink Out-Of-Bounds Read Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows a remote attacker to disclose sensitive information on vulnerable installations of Adobe Reader DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the Weblink plugin. The process does not properly validate user-supplied data which can result in a read past the end of an allocated object. An attacker can leverage this in conjunction with other vulnerabilities to execute code under the context of the current process.",
+  "zdi_can": "ZDI-CAN-4201",
+  "zdi_id": "ZDI-17-250"
+}

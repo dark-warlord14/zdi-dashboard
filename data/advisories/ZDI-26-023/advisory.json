@@ -1,0 +1,28 @@
+{
+  "additional_details": "07/31/25 \u2013 ZDI submitted the reports to the vendor 11/10/25 \u2013 ZDI asked for updates 12/16/25 \u2013 ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+  "advisory_date": "2026-01-09",
+  "affected_products": [
+    "MCP Manager for Claude Desktop"
+  ],
+  "affected_vendors": [
+    "MCP Manager for Claude Desktop"
+  ],
+  "credit": "Peter Girnus (@gothburz), Brandon Niemczyk of Trend Zero Day Initiative",
+  "cve": "CVE-2026-0757",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-0757",
+  "cvss": 8.8,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2025-07-31 - Vulnerability reported to vendor",
+    "2026-01-09 - Coordinated public release of advisory",
+    "2026-01-09 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-26-023 ZDI-CAN-27810 (0Day) MCP Manager for Claude Desktop execute-command Command Injection Sandbox Escape Vulnerability 2026-01-09 CVE-2026-0757 https://www.cve.org/CVERecord?id=CVE-2026-0757 8.8 AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['MCP Manager for Claude Desktop'] ['MCP Manager for Claude Desktop'] This vulnerability allows remote attackers to bypass the sandbox on affected installations of MCP Manager for Claude Desktop. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the processing of MCP config objects. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to escape the sandbox and execute arbitrary code in the context of the current process at medium integrity. 07/31/25 \u2013 ZDI submitted the reports to the vendor 11/10/25 \u2013 ZDI asked for updates 12/16/25 \u2013 ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2025-07-31 - Vulnerability reported to vendor', '2026-01-09 - Coordinated public release of advisory', '2026-01-09 - Advisory Updated'] Peter Girnus (@gothburz), Brandon Niemczyk of Trend Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-023/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-023/",
+  "title": "(0Day) MCP Manager for Claude Desktop execute-command Command Injection Sandbox Escape Vulnerability",
+  "updated_date": "2026-01-09",
+  "vulnerability_details": "This vulnerability allows remote attackers to bypass the sandbox on affected installations of MCP Manager for Claude Desktop. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the processing of MCP config objects. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to escape the sandbox and execute arbitrary code in the context of the current process at medium integrity.",
+  "zdi_can": "ZDI-CAN-27810",
+  "zdi_id": "ZDI-26-023"
+}

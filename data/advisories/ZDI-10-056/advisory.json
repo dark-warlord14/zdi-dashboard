@@ -1,0 +1,27 @@
+{
+  "additional_details": null,
+  "advisory_date": "2010-04-05",
+  "affected_products": [
+    "Java Runtime"
+  ],
+  "affected_vendors": [
+    "Oracle"
+  ],
+  "credit": "Sami Koivu",
+  "cve": "CVE-2010-0840",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2010-0840",
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2009-11-24 - Vulnerability reported to vendor",
+    "2010-04-05 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-10-056 ZDI-CAN-623 Sun Java Runtime Environment Trusted Methods Chaining Remote Code Execution Vulnerability 2010-04-05 CVE-2010-0840 https://www.cve.org/CVERecord?id=CVE-2010-0840 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Oracle'] ['Java Runtime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Sun Java Runtime. Authentication is not required to exploit this vulnerability. The specific flaw exists within the code responsible for ensuring proper privileged execution of methods. If an untrusted method in an applet attempts to call a method that requires privileges, Java will walk the call stack and for each entry verify that the method called is defined within a class that has that privilege. However, this does not take into account an untrusted object that has extended the trusted class without overwriting the target method. Additionally, this can be bypassed by abusing a similar trust issue with interfaces. An attacker can leverage these insecurities to execute vulnerable code under the context of the user invoking the JRE. ['2009-11-24 - Vulnerability reported to vendor', '2010-04-05 - Coordinated public release of advisory'] Sami Koivu https://www.zerodayinitiative.com/advisories/ZDI-10-056/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-056/",
+  "title": "Sun Java Runtime Environment Trusted Methods Chaining Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Sun Java Runtime. Authentication is not required to exploit this vulnerability. The specific flaw exists within the code responsible for ensuring proper privileged execution of methods. If an untrusted method in an applet attempts to call a method that requires privileges, Java will walk the call stack and for each entry verify that the method called is defined within a class that has that privilege. However, this does not take into account an untrusted object that has extended the trusted class without overwriting the target method. Additionally, this can be bypassed by abusing a similar trust issue with interfaces. An attacker can leverage these insecurities to execute vulnerable code under the context of the user invoking the JRE.",
+  "zdi_can": "ZDI-CAN-623",
+  "zdi_id": "ZDI-10-056"
+}

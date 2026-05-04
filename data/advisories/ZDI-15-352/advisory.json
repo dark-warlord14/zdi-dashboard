@@ -1,0 +1,27 @@
+{
+  "additional_details": "Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/cpujul2015-2367936.html",
+  "advisory_date": "2015-07-20",
+  "affected_products": [
+    "Endeca Tools and Frameworks"
+  ],
+  "affected_vendors": [
+    "Oracle"
+  ],
+  "credit": "Steven Seeley of Source Incite",
+  "cve": "CVE-2015-2606",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-2606",
+  "cvss": 6.5,
+  "cvss_vector": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2015-02-25 - Vulnerability reported to vendor",
+    "2015-07-20 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-15-352 ZDI-CAN-2775 Oracle Endeca Information Discovery Integrator ETL Server RenameFile Remote Code Execution Vulnerability 2015-07-20 CVE-2015-2606 https://www.cve.org/CVERecord?id=CVE-2015-2606 6.5 AV:N/AC:L/Au:S/C:P/I:P/A:P ['Oracle'] ['Endeca Tools and Frameworks'] This vulnerability allows remote attackers the ability to execute arbitrary code on vulnerable instances of Oracle Endeca Information Discovery. Authentication is required to exploit this vulnerability but an authentication bypass is known. The specific flaw exists in the handling of the RenameFile endpoint. The issue lies in the failure to properly sanitize the path of files. A remote attacker can exploit this vulnerability to read server configuration files. This exfiltrated information can then be used to access the system with the privileges of the clover server. Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/cpujul2015-2367936.html ['2015-02-25 - Vulnerability reported to vendor', '2015-07-20 - Coordinated public release of advisory'] Steven Seeley of Source Incite https://www.zerodayinitiative.com/advisories/ZDI-15-352/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-352/",
+  "title": "Oracle Endeca Information Discovery Integrator ETL Server RenameFile Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers the ability to execute arbitrary code on vulnerable instances of Oracle Endeca Information Discovery. Authentication is required to exploit this vulnerability but an authentication bypass is known. The specific flaw exists in the handling of the RenameFile endpoint. The issue lies in the failure to properly sanitize the path of files. A remote attacker can exploit this vulnerability to read server configuration files. This exfiltrated information can then be used to access the system with the privileges of the clover server.",
+  "zdi_can": "ZDI-CAN-2775",
+  "zdi_id": "ZDI-15-352"
+}

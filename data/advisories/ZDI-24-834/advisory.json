@@ -1,0 +1,28 @@
+{
+  "additional_details": "Synology has issued an update to correct this vulnerability. More details can be found at: https://www.synology.com/en-id/security/advisory/Synology_SA_23_15",
+  "advisory_date": "2024-07-11",
+  "affected_products": [
+    "BC500"
+  ],
+  "affected_vendors": [
+    "Synology"
+  ],
+  "credit": "Romain JOUET (@JouetR), Baptiste MOINE (@Creased_) from Synacktiv (@Synacktiv)",
+  "cve": "CVE-2024-39350",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-39350",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2023-11-09 - Vulnerability reported to vendor",
+    "2024-07-11 - Coordinated public release of advisory",
+    "2024-08-15 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-834 ZDI-CAN-22311 (Pwn2Own) Synology BC500 Improper Compartmentalization Local Privilege Escalation Vulnerability 2024-07-11 CVE-2024-39350 https://www.cve.org/CVERecord?id=CVE-2024-39350 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Synology'] ['BC500'] This vulnerability allows local attackers to escalate privileges on affected installations of Synology BC500 cameras. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the implementation of user accounts. The issue results from the lack of proper configuration for non-admin accounts. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root. Synology has issued an update to correct this vulnerability. More details can be found at: https://www.synology.com/en-id/security/advisory/Synology_SA_23_15 ['2023-11-09 - Vulnerability reported to vendor', '2024-07-11 - Coordinated public release of advisory', '2024-08-15 - Advisory Updated'] Romain JOUET (@JouetR), Baptiste MOINE (@Creased_) from Synacktiv (@Synacktiv) https://www.zerodayinitiative.com/advisories/ZDI-24-834/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-834/",
+  "title": "(Pwn2Own) Synology BC500 Improper Compartmentalization Local Privilege Escalation Vulnerability",
+  "updated_date": "2024-08-15",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Synology BC500 cameras. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the implementation of user accounts. The issue results from the lack of proper configuration for non-admin accounts. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root.",
+  "zdi_can": "ZDI-CAN-22311",
+  "zdi_id": "ZDI-24-834"
+}

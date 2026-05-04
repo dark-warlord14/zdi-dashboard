@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: http://technet.microsoft.com/en-us/security/bulletin/ms12-029",
+  "advisory_date": "2012-11-15",
+  "affected_products": [
+    "Office"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2012-0183",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2012-0183",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2011-11-29 - Vulnerability reported to vendor",
+    "2012-11-15 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-12-186 ZDI-CAN-1402 Microsoft Office 2007 RTF Mismatch Remote Code Execution Vulnerability 2012-11-15 CVE-2012-0183 https://www.cve.org/CVERecord?id=CVE-2012-0183 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Microsoft'] ['Office'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Office. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of RTF files. The code responsible for lexing control words from the input file does not properly validate that all objects are properly defined. By removing terminating values within an RTF file an attacker can cause the program to re-use a freed object. Combined with basic memory layout control an attacker can abuse this situation to achieve code execution under the context of the user running the application. Microsoft has issued an update to correct this vulnerability. More details can be found at: http://technet.microsoft.com/en-us/security/bulletin/ms12-029 ['2011-11-29 - Vulnerability reported to vendor', '2012-11-15 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-12-186/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-12-186/",
+  "title": "Microsoft Office 2007 RTF Mismatch Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Office. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of RTF files. The code responsible for lexing control words from the input file does not properly validate that all objects are properly defined. By removing terminating values within an RTF file an attacker can cause the program to re-use a freed object. Combined with basic memory layout control an attacker can abuse this situation to achieve code execution under the context of the user running the application.",
+  "zdi_can": "ZDI-CAN-1402",
+  "zdi_id": "ZDI-12-186"
+}

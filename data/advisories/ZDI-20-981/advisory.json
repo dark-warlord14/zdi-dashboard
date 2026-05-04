@@ -1,0 +1,27 @@
+{
+  "additional_details": "Canonical has issued an update to correct this vulnerability. More details can be found at: https://ubuntu.com/security/notices/USN-4452-1",
+  "advisory_date": "2020-08-11",
+  "affected_products": [
+    "Ubuntu"
+  ],
+  "affected_vendors": [
+    "Canonical"
+  ],
+  "credit": "Trent Shea",
+  "cve": "CVE-2020-15708",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2020-15708",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2020-07-24 - Vulnerability reported to vendor",
+    "2020-08-11 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-20-981 ZDI-CAN-11561 Canonical Ubuntu Virtualization Library Arbitrary File Write Privilege Escalation Vulnerability 2020-08-11 CVE-2020-15708 https://www.cve.org/CVERecord?id=CVE-2020-15708 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Canonical'] ['Ubuntu'] This vulnerability allows local attackers to write arbitrary files on affected installations of Libvirt. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the libvirt service. The issue results from improper access control when handling the vol-upload command, which allows an arbitrary file write with attacker controlled data. An attacker can leverage this vulnerability to escalate privileges and execute code in the context of root. Canonical has issued an update to correct this vulnerability. More details can be found at: https://ubuntu.com/security/notices/USN-4452-1 ['2020-07-24 - Vulnerability reported to vendor', '2020-08-11 - Coordinated public release of advisory'] Trent Shea https://www.zerodayinitiative.com/advisories/ZDI-20-981/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-20-981/",
+  "title": "Canonical Ubuntu Virtualization Library Arbitrary File Write Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to write arbitrary files on affected installations of Libvirt. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the libvirt service. The issue results from improper access control when handling the vol-upload command, which allows an arbitrary file write with attacker controlled data. An attacker can leverage this vulnerability to escalate privileges and execute code in the context of root.",
+  "zdi_can": "ZDI-CAN-11561",
+  "zdi_id": "ZDI-20-981"
+}

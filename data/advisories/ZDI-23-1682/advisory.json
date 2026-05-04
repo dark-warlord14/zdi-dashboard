@@ -1,0 +1,27 @@
+{
+  "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/premiere_pro/apsb23-65.html",
+  "advisory_date": "2023-11-15",
+  "affected_products": [
+    "Premiere Pro"
+  ],
+  "affected_vendors": [
+    "Adobe"
+  ],
+  "credit": "Mat Powell of Trend Micro Zero Day Initiative",
+  "cve": "CVE-2023-47060",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-47060",
+  "cvss": 3.3,
+  "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+  "disclosure_timeline": [
+    "2023-07-20 - Vulnerability reported to vendor",
+    "2023-11-15 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-1682 ZDI-CAN-21792 Adobe Premiere Pro MP4 File Uninitialized Variable Information Disclosure Vulnerability 2023-11-15 CVE-2023-47060 https://www.cve.org/CVERecord?id=CVE-2023-47060 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N ['Adobe'] ['Premiere Pro'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Adobe Premiere Pro. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of MP4 files. The issue results from the lack of proper initialization of memory prior to accessing it. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/premiere_pro/apsb23-65.html ['2023-07-20 - Vulnerability reported to vendor', '2023-11-15 - Coordinated public release of advisory'] Mat Powell of Trend Micro Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-23-1682/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-1682/",
+  "title": "Adobe Premiere Pro MP4 File Uninitialized Variable Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Adobe Premiere Pro. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of MP4 files. The issue results from the lack of proper initialization of memory prior to accessing it. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-21792",
+  "zdi_id": "ZDI-23-1682"
+}

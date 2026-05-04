@@ -1,0 +1,28 @@
+{
+  "additional_details": "Siemens has issued an update to correct this vulnerability. More details can be found at: https://cert-portal.siemens.com/productcert/html/ssa-605717.html",
+  "advisory_date": "2026-04-23",
+  "affected_products": [
+    "SINEC NMS"
+  ],
+  "affected_vendors": [
+    "Siemens"
+  ],
+  "credit": "Rocco Calvi (@TecR0c) with TecSecurity",
+  "cve": "CVE-2026-25654",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-25654",
+  "cvss": 8.8,
+  "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2026-01-22 - Vulnerability reported to vendor",
+    "2026-04-23 - Coordinated public release of advisory",
+    "2026-04-23 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-26-297 ZDI-CAN-28759 Siemens SINEC NMS Improper Authentication Privilege Escalation Vulnerability 2026-04-23 CVE-2026-25654 https://www.cve.org/CVERecord?id=CVE-2026-25654 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Siemens'] ['SINEC NMS'] This vulnerability allows remote attackers to escalate privileges on affected installations of Siemens SINEC NMS. Authentication is required to exploit this vulnerability. The specific flaw exists within the web service, which listens on TCP port 443 by default. The issue results from improper authentication prior to allowing access to functionality. An attacker can leverage this vulnerability to escalate privileges to resources normally protected from the user. Siemens has issued an update to correct this vulnerability. More details can be found at: https://cert-portal.siemens.com/productcert/html/ssa-605717.html ['2026-01-22 - Vulnerability reported to vendor', '2026-04-23 - Coordinated public release of advisory', '2026-04-23 - Advisory Updated'] Rocco Calvi (@TecR0c) with TecSecurity https://www.zerodayinitiative.com/advisories/ZDI-26-297/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-297/",
+  "title": "Siemens SINEC NMS Improper Authentication Privilege Escalation Vulnerability",
+  "updated_date": "2026-04-23",
+  "vulnerability_details": "This vulnerability allows remote attackers to escalate privileges on affected installations of Siemens SINEC NMS. Authentication is required to exploit this vulnerability. The specific flaw exists within the web service, which listens on TCP port 443 by default. The issue results from improper authentication prior to allowing access to functionality. An attacker can leverage this vulnerability to escalate privileges to resources normally protected from the user.",
+  "zdi_can": "ZDI-CAN-28759",
+  "zdi_id": "ZDI-26-297"
+}

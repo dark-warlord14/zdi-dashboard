@@ -1,0 +1,27 @@
+{
+  "additional_details": "Attachmate has issued an update to correct this vulnerability. More details can be found at: https://www.netiq.com/support/kb/doc.php?id=7015459&path=725&number=f.1",
+  "advisory_date": "2014-09-03",
+  "affected_products": [
+    "AppManager"
+  ],
+  "affected_vendors": [
+    "Attachmate"
+  ],
+  "credit": "Anonymous",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2014-05-05 - Vulnerability reported to vendor",
+    "2014-09-03 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-14-300 ZDI-CAN-2139 Attachmate AppManager Client Resource Monitor Remote Code Execution Vulnerability 2014-09-03 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Attachmate'] ['AppManager'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of NetIQ AppManager Client Resource Monitor. Authentication is not required to exploit this vulnerability. The specific flaw exists because the installer defaults to a vulnerable configuration wherein \"knowledge script\" information is accepted from any source. An attacker can exploit this condition to achieve remote code execution as SYSTEM. Attachmate has issued an update to correct this vulnerability. More details can be found at: https://www.netiq.com/support/kb/doc.php?id=7015459&path=725&number=f.1 ['2014-05-05 - Vulnerability reported to vendor', '2014-09-03 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-14-300/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-14-300/",
+  "title": "Attachmate AppManager Client Resource Monitor Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of NetIQ AppManager Client Resource Monitor. Authentication is not required to exploit this vulnerability. The specific flaw exists because the installer defaults to a vulnerable configuration wherein \"knowledge script\" information is accepted from any source. An attacker can exploit this condition to achieve remote code execution as SYSTEM.",
+  "zdi_can": "ZDI-CAN-2139",
+  "zdi_id": "ZDI-14-300"
+}

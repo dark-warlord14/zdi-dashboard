@@ -1,0 +1,26 @@
+# ZDI-16-479: (0Day) ABB DataManagerPro File Permissions Privilege Escalation Vulnerability
+
+## Metadata
+
+- **ZDI ID:** ZDI-16-479
+- **ZDI-CAN:** ZDI-CAN-3500
+- **Date:** 2016-08-17
+- **CVE:** N/A
+- **CVSS:** 6.8
+- **CVSS Vector:** AV:L/AC:L/Au:S/C:C/I:C/A:C
+- **Affected Vendors:** ABB
+- **Affected Products:** DataManagerPro
+- **Credit:** rgod
+- **Source:** https://www.zerodayinitiative.com/advisories/ZDI-16-479/
+## Vulnerability Details
+
+This vulnerability allows attackers to escalate their privilege to system administrator on vulnerable installations of ABB DataManagerPro. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the file permissions set during product installation. The World account is set to have full rights to the directory that contains the binaries that are executed by system administrators. File substitution would then allow a standard user on the system to replace code that is subsequently run by a system administrator.
+
+## Additional Details
+
+This vulnerability is being disclosed publicly without a patch in accordance with the ZDI 120 day deadline. 01/13/2016 - ZDI disclosed the report for this vendor to ICS-CERT 01/19/2016 - ICS-CERT acknowledged the report and provided a tracking number 05/31/2016 - ZDI requested an update 06/01/2016 - ICS-CERT advised ZDI that the timeline for introduction of the fix was June/July 06/02/2016 - ZDI asked if the vendor could bring the release date in slightly 08/09/2016 - ZDI notified ICS-CERT of the intention to disclose the reports as 0-day the next week -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the service to trusted users.
+
+## Disclosure Timeline
+
+- 2016-01-13 - Vulnerability reported to vendor
+- 2016-08-17 - Coordinated public release of advisory

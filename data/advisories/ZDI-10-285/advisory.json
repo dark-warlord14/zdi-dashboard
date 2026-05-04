@@ -1,0 +1,27 @@
+{
+  "additional_details": "Fixed in ZENworks 7 Desktop Management Support Pack 1 Interim Release 4 Hot Patch 5: http://download.novell.com/Download?buildid=r9kcCymJ7Os Documented in TID 7007321 http://www.novell.com/support/dynamickc.do?cmd=show&forward=nonthreadedKC&docType=kc&externalId=7007321&sliceId=1",
+  "advisory_date": "2010-12-13",
+  "affected_products": [
+    "Zenworks"
+  ],
+  "affected_vendors": [
+    "Novell"
+  ],
+  "credit": "Francis Provencher for Protek Researchh Lab's",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 9.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:C",
+  "disclosure_timeline": [
+    "2010-07-20 - Vulnerability reported to vendor",
+    "2010-12-13 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-10-285 ZDI-CAN-847 Novell ZENworks Desktop Management Linux TFTPD Remote Code Execution Vulnerability 2010-12-13 9.0 AV:N/AC:L/Au:N/C:P/I:P/A:C ['Novell'] ['Zenworks'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Novell Zenworks Desktop Management. Authentication is not required to exploit this vulnerability. The flaw exists within the tftpd server component which listens by default on UDP port 69. When handling the filename in a Read Request (0x01) packet type the process blindly copies user supplied data into a fixed-length buffer on the stack. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the tftpd server process. Fixed in ZENworks 7 Desktop Management Support Pack 1 Interim Release 4 Hot Patch 5: http://download.novell.com/Download?buildid=r9kcCymJ7Os Documented in TID 7007321 http://www.novell.com/support/dynamickc.do?cmd=show&forward=nonthreadedKC&docType=kc&externalId=7007321&sliceId=1 ['2010-07-20 - Vulnerability reported to vendor', '2010-12-13 - Coordinated public release of advisory'] Francis Provencher for Protek Researchh Lab's https://www.zerodayinitiative.com/advisories/ZDI-10-285/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-285/",
+  "title": "Novell ZENworks Desktop Management Linux TFTPD Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Novell Zenworks Desktop Management. Authentication is not required to exploit this vulnerability. The flaw exists within the tftpd server component which listens by default on UDP port 69. When handling the filename in a Read Request (0x01) packet type the process blindly copies user supplied data into a fixed-length buffer on the stack. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the tftpd server process.",
+  "zdi_can": "ZDI-CAN-847",
+  "zdi_id": "ZDI-10-285"
+}

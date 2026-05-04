@@ -1,0 +1,28 @@
+{
+  "additional_details": "Allegra has issued an update to correct this vulnerability. More details can be found at: https://www.trackplus.com/en/service/release-notes-reader/7-5-1-release-notes-2.html",
+  "advisory_date": "2024-02-09",
+  "affected_products": [
+    "Allegra"
+  ],
+  "affected_vendors": [
+    "Allegra"
+  ],
+  "credit": "06fe5fd2bc53027c4a3b7e395af0b850e7b8a044",
+  "cve": "CVE-2023-51648",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-51648",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+  "disclosure_timeline": [
+    "2023-12-08 - Vulnerability reported to vendor",
+    "2024-02-09 - Coordinated public release of advisory",
+    "2024-07-01 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-099 ZDI-CAN-22530 Allegra getFileContentAsString Directory Traversal Information Disclosure Vulnerability 2024-02-09 CVE-2023-51648 https://www.cve.org/CVERecord?id=CVE-2023-51648 7.5 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N ['Allegra'] ['Allegra'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Allegra. Although authentication is required to exploit this vulnerability, the product implements a registration mechanism that can be used to create a new user with a sufficient privilege level. The specific flaw exists within the getFileContentAsString method. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to disclose stored credentials, leading to further compromise. Allegra has issued an update to correct this vulnerability. More details can be found at: https://www.trackplus.com/en/service/release-notes-reader/7-5-1-release-notes-2.html ['2023-12-08 - Vulnerability reported to vendor', '2024-02-09 - Coordinated public release of advisory', '2024-07-01 - Advisory Updated'] 06fe5fd2bc53027c4a3b7e395af0b850e7b8a044 https://www.zerodayinitiative.com/advisories/ZDI-24-099/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-099/",
+  "title": "Allegra getFileContentAsString Directory Traversal Information Disclosure Vulnerability",
+  "updated_date": "2024-07-01",
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Allegra. Although authentication is required to exploit this vulnerability, the product implements a registration mechanism that can be used to create a new user with a sufficient privilege level. The specific flaw exists within the getFileContentAsString method. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to disclose stored credentials, leading to further compromise.",
+  "zdi_can": "ZDI-CAN-22530",
+  "zdi_id": "ZDI-24-099"
+}

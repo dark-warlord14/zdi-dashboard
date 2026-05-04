@@ -1,0 +1,27 @@
+{
+  "additional_details": "Novell has issued an update to correct this vulnerability. More details can be found at: http://www.novell.com/support/search.do?usemicrosite=true&searchString=7009207",
+  "advisory_date": "2011-10-14",
+  "affected_products": [
+    "Groupwise"
+  ],
+  "affected_vendors": [
+    "Novell"
+  ],
+  "credit": "Anonymous",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2010-11-30 - Vulnerability reported to vendor",
+    "2011-10-14 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-11-286 ZDI-CAN-966 Novell Groupwise Client DOCX Loader Relationship Id Remote Code Execution Vulnerability 2011-10-14 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Novell'] ['Groupwise'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Novell Groupwise Client. User interaction is required to exploit this vulnerability in that the target must open a malicious e-mail message. The specific flaw exists within the component responsible for parsing DOCX attachment files. When handling the \"Relationship Id\" field within such a file, the process copies the contents into a static buffer on the stack. By supplying a large enough value this buffer can be overflowed leading to arbitrary code execution under the context of the user running the mail client. Novell has issued an update to correct this vulnerability. More details can be found at: http://www.novell.com/support/search.do?usemicrosite=true&searchString=7009207 ['2010-11-30 - Vulnerability reported to vendor', '2011-10-14 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-11-286/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-286/",
+  "title": "Novell Groupwise Client DOCX Loader Relationship Id Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Novell Groupwise Client. User interaction is required to exploit this vulnerability in that the target must open a malicious e-mail message. The specific flaw exists within the component responsible for parsing DOCX attachment files. When handling the \"Relationship Id\" field within such a file, the process copies the contents into a static buffer on the stack. By supplying a large enough value this buffer can be overflowed leading to arbitrary code execution under the context of the user running the mail client.",
+  "zdi_can": "ZDI-CAN-966",
+  "zdi_id": "ZDI-11-286"
+}

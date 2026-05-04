@@ -1,0 +1,27 @@
+{
+  "additional_details": "IBM has issued an update to correct this vulnerability. More details can be found at: http://www.ibm.com/support/docview.wss?rs=463&uid=swg21303920",
+  "advisory_date": "2008-05-21",
+  "affected_products": [
+    "Lotus Sametime"
+  ],
+  "affected_vendors": [
+    "IBM"
+  ],
+  "credit": "Manuel Santamarina Suarez",
+  "cve": "CVE-2008-2499",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2008-2499",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2007-12-11 - Vulnerability reported to vendor",
+    "2008-05-21 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-08-028 ZDI-CAN-247 IBM Lotus Sametime Community Services Multiplexer Stack Overflow Vulnerability 2008-05-21 CVE-2008-2499 https://www.cve.org/CVERecord?id=CVE-2008-2499 ['IBM'] ['Lotus Sametime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of IBM Lotus Sametime. Authentication is not required to exploit this vulnerability. The specific flaw exists in the handling of long URLs in the Community Services Multiplexer (StMux.exe) listening on TCP port 1533. A specially crafted URL can be passed into a vulnerable sscanf() function that will result in a stack overflow resulting in the ability to execute arbitrary code. IBM has issued an update to correct this vulnerability. More details can be found at: http://www.ibm.com/support/docview.wss?rs=463&uid=swg21303920 ['2007-12-11 - Vulnerability reported to vendor', '2008-05-21 - Coordinated public release of advisory'] Manuel Santamarina Suarez https://www.zerodayinitiative.com/advisories/ZDI-08-028/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-08-028/",
+  "title": "IBM Lotus Sametime Community Services Multiplexer Stack Overflow Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of IBM Lotus Sametime. Authentication is not required to exploit this vulnerability. The specific flaw exists in the handling of long URLs in the Community Services Multiplexer (StMux.exe) listening on TCP port 1533. A specially crafted URL can be passed into a vulnerable sscanf() function that will result in a stack overflow resulting in the ability to execute arbitrary code.",
+  "zdi_can": "ZDI-CAN-247",
+  "zdi_id": "ZDI-08-028"
+}

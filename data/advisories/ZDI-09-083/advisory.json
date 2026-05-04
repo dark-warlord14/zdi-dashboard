@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/bulletin/MS09-067.mspx",
+  "advisory_date": "2009-11-10",
+  "affected_products": [
+    "Office Excel"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2009-3129",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2009-3129",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2009-10-20 - Vulnerability reported to vendor",
+    "2009-11-10 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-09-083 ZDI-CAN-587 Microsoft Excel Shared Feature Header Pointer Offset Memory Corruption Vulnerability 2009-11-10 CVE-2009-3129 https://www.cve.org/CVERecord?id=CVE-2009-3129 ['Microsoft'] ['Office Excel'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Office Excel. User interaction is required to exploit this vulnerability in that the target must open a malicious spreadsheet. The specific flaw exists in the handling of Shared Feature Header (0x867) tags in an Excel BIFF file format. When processing the cbHdrData size element of the FEATHEADER it is possible to directly control the distance of a calculated pointer. This condition can be leveraged successfully to execute arbitrary code under the context of the currently logged in user. Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/bulletin/MS09-067.mspx ['2009-10-20 - Vulnerability reported to vendor', '2009-11-10 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-09-083/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-09-083/",
+  "title": "Microsoft Excel Shared Feature Header Pointer Offset Memory Corruption Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Office Excel. User interaction is required to exploit this vulnerability in that the target must open a malicious spreadsheet. The specific flaw exists in the handling of Shared Feature Header (0x867) tags in an Excel BIFF file format. When processing the cbHdrData size element of the FEATHEADER it is possible to directly control the distance of a calculated pointer. This condition can be leveraged successfully to execute arbitrary code under the context of the currently logged in user.",
+  "zdi_can": "ZDI-CAN-587",
+  "zdi_id": "ZDI-09-083"
+}

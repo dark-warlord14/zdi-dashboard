@@ -1,0 +1,27 @@
+{
+  "additional_details": "Oracle has issued an update to correct this vulnerability. More details can be found at: https://www.oracle.com/security-alerts/cpujan2022.html",
+  "advisory_date": "2022-01-21",
+  "affected_products": [
+    "MySQL Cluster"
+  ],
+  "affected_vendors": [
+    "Oracle"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2022-21307",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-21307",
+  "cvss": 9.8,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2021-07-23 - Vulnerability reported to vendor",
+    "2022-01-21 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-092 ZDI-CAN-14206 Oracle MySQL Cluster Data Node Stack-based Buffer Overflow Remote Code Execution Vulnerability 2022-01-21 CVE-2022-21307 https://www.cve.org/CVERecord?id=CVE-2022-21307 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['Oracle'] ['MySQL Cluster'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Oracle MySQL Cluster. Authentication is not required to exploit this vulnerability. The specific flaw exists within the processing of Data Node jobs. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of the service account. Oracle has issued an update to correct this vulnerability. More details can be found at: https://www.oracle.com/security-alerts/cpujan2022.html ['2021-07-23 - Vulnerability reported to vendor', '2022-01-21 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-22-092/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-092/",
+  "title": "Oracle MySQL Cluster Data Node Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Oracle MySQL Cluster. Authentication is not required to exploit this vulnerability. The specific flaw exists within the processing of Data Node jobs. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of the service account.",
+  "zdi_can": "ZDI-CAN-14206",
+  "zdi_id": "ZDI-22-092"
+}

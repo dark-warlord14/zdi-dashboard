@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-23266",
+  "advisory_date": "2022-03-09",
+  "affected_products": [
+    "Azure Defender for IoT"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Simon Zuckerbraun - Trend Micro Zero Day Initiative",
+  "cve": "CVE-2022-23266",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-23266",
+  "cvss": 8.8,
+  "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2021-12-10 - Vulnerability reported to vendor",
+    "2022-03-09 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-496 ZDI-CAN-16123 Microsoft Azure Defender for IoT Password Change Command Injection Privilege Escalation Vulnerability 2022-03-09 CVE-2022-23266 https://www.cve.org/CVERecord?id=CVE-2022-23266 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Microsoft'] ['Azure Defender for IoT'] This vulnerability allows remote attackers to escalate privileges on affected installations of Microsoft Azure Defender for IoT. Authentication is required to exploit this vulnerability. The specific flaw exists within the password change mechanism. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-23266 ['2021-12-10 - Vulnerability reported to vendor', '2022-03-09 - Coordinated public release of advisory'] Simon Zuckerbraun - Trend Micro Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-22-496/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-496/",
+  "title": "Microsoft Azure Defender for IoT Password Change Command Injection Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to escalate privileges on affected installations of Microsoft Azure Defender for IoT. Authentication is required to exploit this vulnerability. The specific flaw exists within the password change mechanism. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root.",
+  "zdi_can": "ZDI-CAN-16123",
+  "zdi_id": "ZDI-22-496"
+}

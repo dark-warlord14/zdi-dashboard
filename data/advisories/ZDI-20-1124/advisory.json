@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2020-16874",
+  "advisory_date": "2020-09-10",
+  "affected_products": [
+    "Visual Studio"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Wen guang Jiao",
+  "cve": "CVE-2020-16874",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2020-16874",
+  "cvss": 3.3,
+  "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+  "disclosure_timeline": [
+    "2020-06-11 - Vulnerability reported to vendor",
+    "2020-09-10 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-20-1124 ZDI-CAN-11212 Microsoft Visual Studio DDS File Parsing Out-Of-Bounds Read Information Disclosure Vulnerability 2020-09-10 CVE-2020-16874 https://www.cve.org/CVERecord?id=CVE-2020-16874 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N ['Microsoft'] ['Visual Studio'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Microsoft Visual Studio. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the dxtex module. Crafted data in a DDS file can trigger a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute code in the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2020-16874 ['2020-06-11 - Vulnerability reported to vendor', '2020-09-10 - Coordinated public release of advisory'] Wen guang Jiao https://www.zerodayinitiative.com/advisories/ZDI-20-1124/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-20-1124/",
+  "title": "Microsoft Visual Studio DDS File Parsing Out-Of-Bounds Read Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Microsoft Visual Studio. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the dxtex module. Crafted data in a DDS file can trigger a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-11212",
+  "zdi_id": "ZDI-20-1124"
+}

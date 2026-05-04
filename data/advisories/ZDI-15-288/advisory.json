@@ -1,0 +1,27 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT201222",
+  "advisory_date": "2015-07-01",
+  "affected_products": [
+    "OS X"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "Peter Rutenbar",
+  "cve": "CVE-2015-3711",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-3711",
+  "cvss": 4.9,
+  "cvss_vector": "AV:L/AC:L/Au:N/C:C/I:N/A:N",
+  "disclosure_timeline": [
+    "2015-03-27 - Vulnerability reported to vendor",
+    "2015-07-01 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-15-288 ZDI-CAN-2815 Apple OS X NTFS Compression Block Information Disclosure Vulnerability 2015-07-01 CVE-2015-3711 https://www.cve.org/CVERecord?id=CVE-2015-3711 4.9 AV:L/AC:L/Au:N/C:C/I:N/A:N ['Apple'] ['OS X'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple OS X. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The specific flaw exists within the handling of NTFS file systems. The issue lies in the handling of compressed blocks. An attacker can leverage this vulnerability to leak the sensitive contents of physical memory. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT201222 ['2015-03-27 - Vulnerability reported to vendor', '2015-07-01 - Coordinated public release of advisory'] Peter Rutenbar https://www.zerodayinitiative.com/advisories/ZDI-15-288/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-288/",
+  "title": "Apple OS X NTFS Compression Block Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple OS X. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The specific flaw exists within the handling of NTFS file systems. The issue lies in the handling of compressed blocks. An attacker can leverage this vulnerability to leak the sensitive contents of physical memory.",
+  "zdi_can": "ZDI-CAN-2815",
+  "zdi_id": "ZDI-15-288"
+}

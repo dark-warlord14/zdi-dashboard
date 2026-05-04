@@ -1,0 +1,28 @@
+{
+  "additional_details": "Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://esupport.trendmicro.com/en-US/home/pages/technical-support/1120742.aspx",
+  "advisory_date": "2018-08-30",
+  "affected_products": [
+    "Maximum Security"
+  ],
+  "affected_vendors": [
+    "Trend Micro"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2018-15363",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2018-15363",
+  "cvss": 6.9,
+  "cvss_vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2018-04-19 - Vulnerability reported to vendor",
+    "2018-08-30 - Coordinated public release of advisory",
+    "2018-08-30 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-963 ZDI-CAN-6105 Trend Micro Maximum Security ID_AMSP_MASTER Out-Of-Bounds Read Privilege Escalation Vulnerability 2018-08-30 CVE-2018-15363 https://www.cve.org/CVERecord?id=CVE-2018-15363 6.9 AV:L/AC:M/Au:N/C:C/I:C/A:C ['Trend Micro'] ['Maximum Security'] This vulnerability allows local attackers to escalate privileges on vulnerable installations of Trend Micro Maximum Security. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the processing of request ID 0x2002 for IDAMSPMASTER in the service process coreServiceShell.exe. The issue results from the lack of proper validation of user-supplied data, which can result in a memory access past the end of an allocated buffer. An attacker can leverage this vulnerability to execute code under the context of SYSTEM. Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://esupport.trendmicro.com/en-US/home/pages/technical-support/1120742.aspx ['2018-04-19 - Vulnerability reported to vendor', '2018-08-30 - Coordinated public release of advisory', '2018-08-30 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-18-963/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-963/",
+  "title": "Trend Micro Maximum Security ID_AMSP_MASTER Out-Of-Bounds Read Privilege Escalation Vulnerability",
+  "updated_date": "2018-08-30",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on vulnerable installations of Trend Micro Maximum Security. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the processing of request ID 0x2002 for IDAMSPMASTER in the service process coreServiceShell.exe. The issue results from the lack of proper validation of user-supplied data, which can result in a memory access past the end of an allocated buffer. An attacker can leverage this vulnerability to execute code under the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-6105",
+  "zdi_id": "ZDI-18-963"
+}

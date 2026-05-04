@@ -1,0 +1,27 @@
+{
+  "additional_details": "Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/cpuoct2014-1972960.html",
+  "advisory_date": "2014-11-19",
+  "affected_products": [
+    "Java Runtime"
+  ],
+  "affected_vendors": [
+    "Oracle"
+  ],
+  "credit": "Yuki Chen of Qihoo",
+  "cve": "CVE-2014-6466",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-6466",
+  "cvss": 4.6,
+  "cvss_vector": "AV:L/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2014-10-06 - Vulnerability reported to vendor",
+    "2014-11-19 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-14-382 ZDI-CAN-2535 Oracle Java jp2launcher.exe Privilege Escalation Vulnerability 2014-11-19 CVE-2014-6466 https://www.cve.org/CVERecord?id=CVE-2014-6466 4.6 AV:L/AC:L/Au:N/C:P/I:P/A:P ['Oracle'] ['Java Runtime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Oracle Java. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of paths within jp2launcher.exe. The issue lies in assumptions made in preparation for the call to java.exe. An attacker can leverage this vulnerability to execute code as the current user with medium integrity. Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/cpuoct2014-1972960.html ['2014-10-06 - Vulnerability reported to vendor', '2014-11-19 - Coordinated public release of advisory'] Yuki Chen of Qihoo https://www.zerodayinitiative.com/advisories/ZDI-14-382/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-14-382/",
+  "title": "Oracle Java jp2launcher.exe Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Oracle Java. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of paths within jp2launcher.exe. The issue lies in assumptions made in preparation for the call to java.exe. An attacker can leverage this vulnerability to execute code as the current user with medium integrity.",
+  "zdi_can": "ZDI-CAN-2535",
+  "zdi_id": "ZDI-14-382"
+}

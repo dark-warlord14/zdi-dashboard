@@ -1,0 +1,27 @@
+{
+  "additional_details": "Advantech has issued an update to correct this vulnerability. More details can be found at: https://us-cert.cisa.gov/ics/advisories/icsa-21-154-01",
+  "advisory_date": "2021-06-07",
+  "affected_products": [
+    "iView"
+  ],
+  "affected_vendors": [
+    "Advantech"
+  ],
+  "credit": "Selim Enes Karaduman @enesdex",
+  "cve": "CVE-2021-32932",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2021-32932",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+  "disclosure_timeline": [
+    "2021-03-26 - Vulnerability reported to vendor",
+    "2021-06-07 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-21-656 ZDI-CAN-13141 Advantech iView NetworkServlet getPSInventoryInfo SQL Injection Information Disclosure Vulnerability 2021-06-07 CVE-2021-32932 https://www.cve.org/CVERecord?id=CVE-2021-32932 7.5 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N ['Advantech'] ['iView'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Advantech iView. Authentication is not required to exploit this vulnerability. The specific flaw exists within the NetworkServlet class. The issue results from the lack of proper validation of a user-supplied string before using it to construct SQL queries. An attacker can leverage this vulnerability to disclose stored credentials, leading to further compromise. Advantech has issued an update to correct this vulnerability. More details can be found at: https://us-cert.cisa.gov/ics/advisories/icsa-21-154-01 ['2021-03-26 - Vulnerability reported to vendor', '2021-06-07 - Coordinated public release of advisory'] Selim Enes Karaduman @enesdex https://www.zerodayinitiative.com/advisories/ZDI-21-656/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-21-656/",
+  "title": "Advantech iView NetworkServlet getPSInventoryInfo SQL Injection Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Advantech iView. Authentication is not required to exploit this vulnerability. The specific flaw exists within the NetworkServlet class. The issue results from the lack of proper validation of a user-supplied string before using it to construct SQL queries. An attacker can leverage this vulnerability to disclose stored credentials, leading to further compromise.",
+  "zdi_can": "ZDI-CAN-13141",
+  "zdi_id": "ZDI-21-656"
+}

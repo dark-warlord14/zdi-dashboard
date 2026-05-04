@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/bulletin/MS10-104.mspx",
+  "advisory_date": "2010-12-14",
+  "affected_products": [
+    "SharePoint"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Oleksandr Mirosh",
+  "cve": "CVE-2010-3964",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2010-3964",
+  "cvss": 10.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2010-03-12 - Vulnerability reported to vendor",
+    "2010-12-14 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-10-287 ZDI-CAN-706 Microsoft SharePoint Server Arbitrary File Upload Remote Code Execution Vulnerability 2010-12-14 CVE-2010-3964 https://www.cve.org/CVERecord?id=CVE-2010-3964 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Microsoft'] ['SharePoint'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Sharepoint Server utilizing Microsoft's Office Document Load Balancer. Authentication is not required to exploit this vulnerability. The specific flaw exists within the Office Document Conversions Launcher service and occurs due to insufficient parameter validation on a particular SOAP request. Sucessful exploitation will allow an attacker to upload and execute an arbitrary file on the target server. Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/bulletin/MS10-104.mspx ['2010-03-12 - Vulnerability reported to vendor', '2010-12-14 - Coordinated public release of advisory'] Oleksandr Mirosh https://www.zerodayinitiative.com/advisories/ZDI-10-287/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-287/",
+  "title": "Microsoft SharePoint Server Arbitrary File Upload Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Sharepoint Server utilizing Microsoft's Office Document Load Balancer. Authentication is not required to exploit this vulnerability. The specific flaw exists within the Office Document Conversions Launcher service and occurs due to insufficient parameter validation on a particular SOAP request. Sucessful exploitation will allow an attacker to upload and execute an arbitrary file on the target server.",
+  "zdi_can": "ZDI-CAN-706",
+  "zdi_id": "ZDI-10-287"
+}

@@ -1,0 +1,27 @@
+{
+  "additional_details": "Google has issued an update to correct this vulnerability. More details can be found at: https://source.android.com/security/bulletin/pixel/2020-02-01.html",
+  "advisory_date": "2020-02-07",
+  "affected_products": [
+    "Android"
+  ],
+  "affected_vendors": [
+    "Google"
+  ],
+  "credit": "Lacne Jiang and Moony Li of TrendMicro Mobile Security Research Team",
+  "cve": "CVE-2019-14088",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2019-14088",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2019-10-18 - Vulnerability reported to vendor",
+    "2020-02-07 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-20-199 ZDI-CAN-9549 Google Android V4l2 cam_actuator_driver_cmd Use-After-Free Privilege Escalation Vulnerability 2020-02-07 CVE-2019-14088 https://www.cve.org/CVERecord?id=CVE-2019-14088 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H ['Google'] ['Android'] This vulnerability allows local attackers to escalate privileges on affected installations of Google Android. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the cam_actuator_driver_cmd function in the V4l2 driver. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to escalate privileges and execute code in the context of the kernel. Google has issued an update to correct this vulnerability. More details can be found at: https://source.android.com/security/bulletin/pixel/2020-02-01.html ['2019-10-18 - Vulnerability reported to vendor', '2020-02-07 - Coordinated public release of advisory'] Lacne Jiang and Moony Li of TrendMicro Mobile Security Research Team https://www.zerodayinitiative.com/advisories/ZDI-20-199/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-20-199/",
+  "title": "Google Android V4l2 cam_actuator_driver_cmd Use-After-Free Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Google Android. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the cam_actuator_driver_cmd function in the V4l2 driver. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to escalate privileges and execute code in the context of the kernel.",
+  "zdi_can": "ZDI-CAN-9549",
+  "zdi_id": "ZDI-20-199"
+}

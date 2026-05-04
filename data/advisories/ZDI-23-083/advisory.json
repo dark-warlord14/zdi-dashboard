@@ -1,0 +1,27 @@
+{
+  "additional_details": "Delta Electronics has issued an update to correct this vulnerability. More details can be found at: https://www.cisa.gov/uscert/ics/advisories/icsa-22-298-07",
+  "advisory_date": "2023-01-18",
+  "affected_products": [
+    "InfraSuite Device Master"
+  ],
+  "affected_vendors": [
+    "Delta Electronics"
+  ],
+  "credit": "Piotr Bazydlo (@chudypb) of Trend Micro Zero Day Initiative",
+  "cve": "CVE-2022-40202",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-40202",
+  "cvss": 8.8,
+  "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2022-11-10 - Vulnerability reported to vendor",
+    "2023-01-18 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-083 ZDI-CAN-19415 Delta Electronics InfraSuite Device Master ExeCommandInCommandLineMode Exposed Dangerous Function Remote Code Execution Vulnerability 2023-01-18 CVE-2022-40202 https://www.cve.org/CVERecord?id=CVE-2022-40202 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Delta Electronics'] ['InfraSuite Device Master'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Delta Electronics InfraSuite Device Master. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed. The specific flaw exists within the ExeCommandInCommandLineMode function. The issue results from an exposed dangerous function. An attacker can leverage this vulnerability to execute code in the context of an administrator. Delta Electronics has issued an update to correct this vulnerability. More details can be found at: https://www.cisa.gov/uscert/ics/advisories/icsa-22-298-07 ['2022-11-10 - Vulnerability reported to vendor', '2023-01-18 - Coordinated public release of advisory'] Piotr Bazydlo (@chudypb) of Trend Micro Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-23-083/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-083/",
+  "title": "Delta Electronics InfraSuite Device Master ExeCommandInCommandLineMode Exposed Dangerous Function Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Delta Electronics InfraSuite Device Master. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed. The specific flaw exists within the ExeCommandInCommandLineMode function. The issue results from an exposed dangerous function. An attacker can leverage this vulnerability to execute code in the context of an administrator.",
+  "zdi_can": "ZDI-CAN-19415",
+  "zdi_id": "ZDI-23-083"
+}

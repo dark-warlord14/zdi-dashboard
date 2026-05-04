@@ -1,0 +1,27 @@
+{
+  "additional_details": "McAfee has issued an update to correct this vulnerability. More details can be found at: https://kc.mcafee.com/corporate/index?page=content&id=SB10066",
+  "advisory_date": "2014-04-03",
+  "affected_products": [
+    "Cloud Identity Manager"
+  ],
+  "affected_vendors": [
+    "McAfee"
+  ],
+  "credit": "Andrea Micalizzi aka rgod",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 7.8,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:N/A:N",
+  "disclosure_timeline": [
+    "2013-09-30 - Vulnerability reported to vendor",
+    "2014-04-03 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-14-050 ZDI-CAN-1929 McAfee Cloud Identity Manager ExtensionAccessServlet Information Disclosure Vulnerability 2014-04-03 7.8 AV:N/AC:L/Au:N/C:C/I:N/A:N ['McAfee'] ['Cloud Identity Manager'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of McAfee Cloud Identify Manager. Authentication is not required to exploit this vulnerability. The specific flaw exists within a servlet called ExtensionAccessServlet which contains a directory traversal vulnerability inside the path info string of a GET request. A remote attacker can leverage this vulnerability to read arbitrary files from the underlying OS with SYSTEM privileges. McAfee has issued an update to correct this vulnerability. More details can be found at: https://kc.mcafee.com/corporate/index?page=content&id=SB10066 ['2013-09-30 - Vulnerability reported to vendor', '2014-04-03 - Coordinated public release of advisory'] Andrea Micalizzi aka rgod https://www.zerodayinitiative.com/advisories/ZDI-14-050/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-14-050/",
+  "title": "McAfee Cloud Identity Manager ExtensionAccessServlet Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of McAfee Cloud Identify Manager. Authentication is not required to exploit this vulnerability. The specific flaw exists within a servlet called ExtensionAccessServlet which contains a directory traversal vulnerability inside the path info string of a GET request. A remote attacker can leverage this vulnerability to read arbitrary files from the underlying OS with SYSTEM privileges.",
+  "zdi_can": "ZDI-CAN-1929",
+  "zdi_id": "ZDI-14-050"
+}

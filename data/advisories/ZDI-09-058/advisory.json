@@ -1,0 +1,27 @@
+{
+  "additional_details": "Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technology/deploy/security/critical-patch-updates/cpujul2009.html",
+  "advisory_date": "2009-08-18",
+  "affected_products": [
+    "Secure Backup"
+  ],
+  "affected_vendors": [
+    "Oracle"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2009-1977",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2009-1977",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2009-03-26 - Vulnerability reported to vendor",
+    "2009-08-18 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-09-058 ZDI-CAN-443 Oracle Secure Backup Administration Server Authentication Bypass Vulnerability 2009-08-18 CVE-2009-1977 https://www.cve.org/CVERecord?id=CVE-2009-1977 ['Oracle'] ['Secure Backup'] This vulnerability allows remote attackers to bypass authentication on vulnerable installations of Oracle Secure Backup. User interaction is not required to exploit this vulnerability. The specific flaw exists in the logic used to authenticate a user to the administration server running on port 443. The script login.php does not properly sanitize the 'username' variable before using it in a database query. A specially crafted 'username' allows unauthorized attackers to log in with full administrative capabilities. Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technology/deploy/security/critical-patch-updates/cpujul2009.html ['2009-03-26 - Vulnerability reported to vendor', '2009-08-18 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-09-058/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-09-058/",
+  "title": "Oracle Secure Backup Administration Server Authentication Bypass Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to bypass authentication on vulnerable installations of Oracle Secure Backup. User interaction is not required to exploit this vulnerability. The specific flaw exists in the logic used to authenticate a user to the administration server running on port 443. The script login.php does not properly sanitize the 'username' variable before using it in a database query. A specially crafted 'username' allows unauthorized attackers to log in with full administrative capabilities.",
+  "zdi_can": "ZDI-CAN-443",
+  "zdi_id": "ZDI-09-058"
+}

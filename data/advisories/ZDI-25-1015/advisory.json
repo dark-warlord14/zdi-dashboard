@@ -1,0 +1,28 @@
+{
+  "additional_details": "Fixed in Parallels Toolbox for Windows versions 7.1.1",
+  "advisory_date": "2025-11-25",
+  "affected_products": [
+    "Toolbox"
+  ],
+  "affected_vendors": [
+    "Parallels"
+  ],
+  "credit": "Zeze with TeamT5",
+  "cve": "CVE-2025-66288",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-66288",
+  "cvss": 7.3,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2025-03-19 - Vulnerability reported to vendor",
+    "2025-11-25 - Coordinated public release of advisory",
+    "2025-12-03 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-1015 ZDI-CAN-26516 Parallels Toolbox CleanDrive Link Following Local Privilege Escalation Vulnerability 2025-11-25 CVE-2025-66288 https://www.cve.org/CVERecord?id=CVE-2025-66288 7.3 AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H ['Parallels'] ['Toolbox'] This vulnerability allows local attackers to escalate privileges on affected installations of Parallels Toolbox. An attacker must first obtain the ability to execute low-privileged code on the target host system in order to exploit this vulnerability. Additional user interaction is required in that an administrator must begin a cleanup of temporary files on the system. The specific flaw exists within the CleanDrive service. By creating a symbolic link, an attacker can abuse the service to delete arbitrary files. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. Fixed in Parallels Toolbox for Windows versions 7.1.1 ['2025-03-19 - Vulnerability reported to vendor', '2025-11-25 - Coordinated public release of advisory', '2025-12-03 - Advisory Updated'] Zeze with TeamT5 https://www.zerodayinitiative.com/advisories/ZDI-25-1015/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-1015/",
+  "title": "Parallels Toolbox CleanDrive Link Following Local Privilege Escalation Vulnerability",
+  "updated_date": "2025-12-03",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Parallels Toolbox. An attacker must first obtain the ability to execute low-privileged code on the target host system in order to exploit this vulnerability. Additional user interaction is required in that an administrator must begin a cleanup of temporary files on the system. The specific flaw exists within the CleanDrive service. By creating a symbolic link, an attacker can abuse the service to delete arbitrary files. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-26516",
+  "zdi_id": "ZDI-25-1015"
+}

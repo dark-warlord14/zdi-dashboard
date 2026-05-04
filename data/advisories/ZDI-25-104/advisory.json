@@ -1,0 +1,28 @@
+{
+  "additional_details": "SolarWinds has issued an update to correct this vulnerability. More details can be found at: https://www.solarwinds.com/trust-center/security-advisories/cve-2024-52606",
+  "advisory_date": "2025-03-03",
+  "affected_products": [
+    "Platform"
+  ],
+  "affected_vendors": [
+    "SolarWinds"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2024-52606",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-52606",
+  "cvss": 7.1,
+  "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:N",
+  "disclosure_timeline": [
+    "2024-10-31 - Vulnerability reported to vendor",
+    "2025-03-03 - Coordinated public release of advisory",
+    "2025-03-03 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-104 ZDI-CAN-25334 SolarWinds Platform TestWebsiteUrl Server-Side Request Forgery Information Disclosure Vulnerability 2025-03-03 CVE-2024-52606 https://www.cve.org/CVERecord?id=CVE-2024-52606 7.1 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:N ['SolarWinds'] ['Platform'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of SolarWinds Platform. Authentication is required to exploit this vulnerability. The specific flaw exists within the implementation of the TestWebsiteUrl method. The issue results from the lack of proper validation of a URI prior to accessing resources. An attacker can leverage this vulnerability to disclose information in the context of the service account. SolarWinds has issued an update to correct this vulnerability. More details can be found at: https://www.solarwinds.com/trust-center/security-advisories/cve-2024-52606 ['2024-10-31 - Vulnerability reported to vendor', '2025-03-03 - Coordinated public release of advisory', '2025-03-03 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-25-104/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-104/",
+  "title": "SolarWinds Platform TestWebsiteUrl Server-Side Request Forgery Information Disclosure Vulnerability",
+  "updated_date": "2025-03-03",
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of SolarWinds Platform. Authentication is required to exploit this vulnerability. The specific flaw exists within the implementation of the TestWebsiteUrl method. The issue results from the lack of proper validation of a URI prior to accessing resources. An attacker can leverage this vulnerability to disclose information in the context of the service account.",
+  "zdi_can": "ZDI-CAN-25334",
+  "zdi_id": "ZDI-25-104"
+}

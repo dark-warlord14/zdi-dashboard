@@ -1,0 +1,27 @@
+{
+  "additional_details": "Synology has issued an update to correct this vulnerability. More details can be found at: https://www.synology.com/en-global/security/advisory/Synology_SA_23_10",
+  "advisory_date": "2023-09-07",
+  "affected_products": [
+    "RT6600ax"
+  ],
+  "affected_vendors": [
+    "Synology"
+  ],
+  "credit": "Discovered by: Claroty Research - Vera Mens, Noam Moshe, Uri Katz, Sharon Brizinov",
+  "cve": "CVE-2023-41740",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-41740",
+  "cvss": 4.3,
+  "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+  "disclosure_timeline": [
+    "2022-12-02 - Vulnerability reported to vendor",
+    "2023-09-07 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-1341 ZDI-CAN-19743 Synology RT6600ax uistrings.cgi Path Traversal Information Disclosure Vulnerability 2023-09-07 CVE-2023-41740 https://www.cve.org/CVERecord?id=CVE-2023-41740 4.3 AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N ['Synology'] ['RT6600ax'] This vulnerability allows network-adjacent attackers to disclose sensitive information on affected installations of Synology RT6600ax routers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the uistrings.cgi file. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to disclose information in the context of the current process. Synology has issued an update to correct this vulnerability. More details can be found at: https://www.synology.com/en-global/security/advisory/Synology_SA_23_10 ['2022-12-02 - Vulnerability reported to vendor', '2023-09-07 - Coordinated public release of advisory'] Discovered by: Claroty Research - Vera Mens, Noam Moshe, Uri Katz, Sharon Brizinov https://www.zerodayinitiative.com/advisories/ZDI-23-1341/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-1341/",
+  "title": "Synology RT6600ax uistrings.cgi Path Traversal Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows network-adjacent attackers to disclose sensitive information on affected installations of Synology RT6600ax routers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the uistrings.cgi file. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to disclose information in the context of the current process.",
+  "zdi_can": "ZDI-CAN-19743",
+  "zdi_id": "ZDI-23-1341"
+}

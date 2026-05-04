@@ -1,0 +1,28 @@
+{
+  "additional_details": "X.Org has issued an update to correct this vulnerability. More details can be found at: https://lists.x.org/archives/xorg-announce/2025-February/003584.html",
+  "advisory_date": "2025-03-13",
+  "affected_products": [
+    "Server"
+  ],
+  "affected_vendors": [
+    "X.Org"
+  ],
+  "credit": "Jan-Niklas Sohn",
+  "cve": "CVE-2025-26597",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-26597",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2024-11-15 - Vulnerability reported to vendor",
+    "2025-03-13 - Coordinated public release of advisory",
+    "2025-03-13 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-25-140 ZDI-CAN-25683 X.Org Server XkbChangeTypesOfKey Heap-based Buffer Overflow Privilege Escalation Vulnerability 2025-03-13 CVE-2025-26597 https://www.cve.org/CVERecord?id=CVE-2025-26597 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['X.Org'] ['Server'] This vulnerability allows local attackers to escalate privileges on affected installations of X.Org Server. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the XkbChangeTypesOfKey function. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root. X.Org has issued an update to correct this vulnerability. More details can be found at: https://lists.x.org/archives/xorg-announce/2025-February/003584.html ['2024-11-15 - Vulnerability reported to vendor', '2025-03-13 - Coordinated public release of advisory', '2025-03-13 - Advisory Updated'] Jan-Niklas Sohn https://www.zerodayinitiative.com/advisories/ZDI-25-140/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-25-140/",
+  "title": "X.Org Server XkbChangeTypesOfKey Heap-based Buffer Overflow Privilege Escalation Vulnerability",
+  "updated_date": "2025-03-13",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of X.Org Server. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the XkbChangeTypesOfKey function. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root.",
+  "zdi_can": "ZDI-CAN-25683",
+  "zdi_id": "ZDI-25-140"
+}

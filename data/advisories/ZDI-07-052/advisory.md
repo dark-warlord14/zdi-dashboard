@@ -1,0 +1,26 @@
+# ZDI-07-052: Multiple Kerberos Implementations Authentication Context Stack Overflow Vulnerability
+
+## Metadata
+
+- **ZDI ID:** ZDI-07-052
+- **ZDI-CAN:** ZDI-CAN-208
+- **Date:** 2007-09-12
+- **CVE:** CVE-2007-3999
+- **CVSS:** N/A
+- **CVSS Vector:** N/A
+- **Affected Vendors:** MIT
+- **Affected Products:** Kerberos
+- **Credit:** Tenable Network Security
+- **Source:** https://www.zerodayinitiative.com/advisories/ZDI-07-052/
+## Vulnerability Details
+
+This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of MIT Kerberos. Authentication is not required to exploit this vulnerability. The specific flaw exists in the svcauth_gss_validate() function. By sending a large authentication context over RPC, a stack based buffer overflow occurs, resulting in a situation allowing for remote code execution. The vulnerable line of the function is: memcpy((caddr_t)buf, oa->oa_base, oa->oa_length); If 128 < oa->oa_length < 400, the exploitable situation occurs. Over 400 bytes is caught during a separate check for MAX_AUTH_SIZE earlier in the RPC packet decoding process.
+
+## Additional Details
+
+MIT has issued an update to correct this vulnerability. More details can be found at: http://web.mit.edu/kerberos/advisories/MITKRB5-SA-2007-006.txt
+
+## Disclosure Timeline
+
+- 2007-07-20 - Vulnerability reported to vendor
+- 2007-09-12 - Coordinated public release of advisory

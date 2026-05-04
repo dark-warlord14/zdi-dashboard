@@ -1,0 +1,27 @@
+{
+  "additional_details": "Fixed in version 22.1.1.",
+  "advisory_date": "2022-07-28",
+  "affected_products": [
+    "CompleteFTP"
+  ],
+  "affected_vendors": [
+    "EnterpriseDT"
+  ],
+  "credit": "rgod",
+  "cve": "CVE-2022-2560",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-2560",
+  "cvss": 8.2,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:H",
+  "disclosure_timeline": [
+    "2022-06-07 - Vulnerability reported to vendor",
+    "2022-07-28 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-1032 ZDI-CAN-17481 EnterpriseDT CompleteFTP Server HttpFile Directory Traversal Arbitrary File Deletion Vulnerability 2022-07-28 CVE-2022-2560 https://www.cve.org/CVERecord?id=CVE-2022-2560 8.2 AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:H ['EnterpriseDT'] ['CompleteFTP'] This vulnerability allows remote attackers to delete arbitrary files on affected installations of EnterpriseDT CompleteFTP Server. Authentication is not required to exploit this vulnerability. The specific flaw exists within the HttpFile class. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to delete files in the context of SYSTEM. Fixed in version 22.1.1. ['2022-06-07 - Vulnerability reported to vendor', '2022-07-28 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-22-1032/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-1032/",
+  "title": "EnterpriseDT CompleteFTP Server HttpFile Directory Traversal Arbitrary File Deletion Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to delete arbitrary files on affected installations of EnterpriseDT CompleteFTP Server. Authentication is not required to exploit this vulnerability. The specific flaw exists within the HttpFile class. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to delete files in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-17481",
+  "zdi_id": "ZDI-22-1032"
+}

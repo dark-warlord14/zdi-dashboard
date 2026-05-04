@@ -1,0 +1,27 @@
+{
+  "additional_details": "Joyent has issued an update to correct this vulnerability. More details can be found at: https://help.joyent.com/entries/98788667-Security-Advisory-ZDI-CAN-3263-ZDI-CAN-3284-and-ZDI-CAN-3364-Vulnerabilities",
+  "advisory_date": "2016-02-18",
+  "affected_products": [
+    "SmartOS"
+  ],
+  "affected_vendors": [
+    "Joyent"
+  ],
+  "credit": "Ben Murphy",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 6.9,
+  "cvss_vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2015-11-04 - Vulnerability reported to vendor",
+    "2016-02-18 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-16-170 ZDI-CAN-3364 Joyent SmartOS Linux Zone Escape SS Exception Privilege Escalation Vulnerability 2016-02-18 6.9 AV:L/AC:M/Au:N/C:C/I:C/A:C ['Joyent'] ['SmartOS'] This vulnerability allows attackers to execute arbitrary code on vulnerable installations of Joyent SmartOS. An attacker must be logged in as a user on the system in order to execute the attack. The specific flaw exists within the handling of an SS Exception. The stack segment fault handling code allows for a GS register to be user controlled. This allows an attacker to elevate privileges to escape a Linux zone and achieve privileged execution on the global zone. Joyent has issued an update to correct this vulnerability. More details can be found at: https://help.joyent.com/entries/98788667-Security-Advisory-ZDI-CAN-3263-ZDI-CAN-3284-and-ZDI-CAN-3364-Vulnerabilities ['2015-11-04 - Vulnerability reported to vendor', '2016-02-18 - Coordinated public release of advisory'] Ben Murphy https://www.zerodayinitiative.com/advisories/ZDI-16-170/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-170/",
+  "title": "Joyent SmartOS Linux Zone Escape SS Exception Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows attackers to execute arbitrary code on vulnerable installations of Joyent SmartOS. An attacker must be logged in as a user on the system in order to execute the attack. The specific flaw exists within the handling of an SS Exception. The stack segment fault handling code allows for a GS register to be user controlled. This allows an attacker to elevate privileges to escape a Linux zone and achieve privileged execution on the global zone.",
+  "zdi_can": "ZDI-CAN-3364",
+  "zdi_id": "ZDI-16-170"
+}

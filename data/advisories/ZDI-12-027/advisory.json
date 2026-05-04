@@ -1,0 +1,27 @@
+{
+  "additional_details": "IBM has issued an update to correct this vulnerability. More details can be found at: http://www-01.ibm.com/support/docview.wss?uid=swg21577951",
+  "advisory_date": "2012-02-08",
+  "affected_products": [
+    "SPSS"
+  ],
+  "affected_vendors": [
+    "IBM"
+  ],
+  "credit": "Andrea Micalizzi aka rgod",
+  "cve": "CVE-2012-0189",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2012-0189",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2011-07-20 - Vulnerability reported to vendor",
+    "2012-02-08 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-12-027 ZDI-CAN-1307 IBM SPSS VsVIEW6.ocx ActiveX Control SaveDoc Method Remote Code Execution Vulnerability 2012-02-08 CVE-2012-0189 https://www.cve.org/CVERecord?id=CVE-2012-0189 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['IBM'] ['SPSS'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of IBM SPSS. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the SaveDoc function exposed by the VsVIEW6.ocx ActiveX control. The SaveDoc function causes a file to be created at an arbitrary path specified by the first argument (FileName). The file contents can be controlled by first setting the 'Text' member of the object. These behaviors can be exploited by a remote attacker to execute arbitrary code on the target system. IBM has issued an update to correct this vulnerability. More details can be found at: http://www-01.ibm.com/support/docview.wss?uid=swg21577951 ['2011-07-20 - Vulnerability reported to vendor', '2012-02-08 - Coordinated public release of advisory'] Andrea Micalizzi aka rgod https://www.zerodayinitiative.com/advisories/ZDI-12-027/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-12-027/",
+  "title": "IBM SPSS VsVIEW6.ocx ActiveX Control SaveDoc Method Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of IBM SPSS. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the SaveDoc function exposed by the VsVIEW6.ocx ActiveX control. The SaveDoc function causes a file to be created at an arbitrary path specified by the first argument (FileName). The file contents can be controlled by first setting the 'Text' member of the object. These behaviors can be exploited by a remote attacker to execute arbitrary code on the target system.",
+  "zdi_can": "ZDI-CAN-1307",
+  "zdi_id": "ZDI-12-027"
+}

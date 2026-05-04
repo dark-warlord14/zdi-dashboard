@@ -1,0 +1,28 @@
+{
+  "additional_details": "This vulnerability is being disclosed publicly without a patch in accordance with the ZDI 120 day deadline. 08/17/21 \u2013 ZDI reported the vulnerability to vendor 08/19/21 \u2013 The vendor acknowledged the report 08/29/21 \u2013 The vendor requested technical clarification 08/31/21 \u2013 ZDI provided additional evidence 02/22/22 \u2013 ZDI requested an update 02/22/22 \u2013 The vendor indicated the case does not meet the bar for servicing 03/16/22 \u2013 ZDI notified the vendor of the intention to publish the case as 0-day advisory on 03/24/22 -- Mitigation: Given the nature of the vulnerability the only salient mitigation strategy is to restrict interaction with the application.",
+  "advisory_date": "2022-03-24",
+  "affected_products": [
+    "Origin"
+  ],
+  "affected_vendors": [
+    "Electronic Arts"
+  ],
+  "credit": "brsn (@brsn76945860)",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2021-08-18 - Vulnerability reported to vendor",
+    "2022-03-24 - Coordinated public release of advisory",
+    "2022-03-29 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-536 ZDI-CAN-14470 (0Day) Electronic Arts Origin Web Helper Service Link Following Privilege Escalation Vulnerability 2022-03-24 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Electronic Arts'] ['Origin'] This vulnerability allows local attackers to escalate privileges on affected installations of Electronic Arts Origin. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Web Helper Service. By creating a symbolic link, an attacker can abuse the service to set a permissive DACL. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. This vulnerability is being disclosed publicly without a patch in accordance with the ZDI 120 day deadline. 08/17/21 \u2013 ZDI reported the vulnerability to vendor 08/19/21 \u2013 The vendor acknowledged the report 08/29/21 \u2013 The vendor requested technical clarification 08/31/21 \u2013 ZDI provided additional evidence 02/22/22 \u2013 ZDI requested an update 02/22/22 \u2013 The vendor indicated the case does not meet the bar for servicing 03/16/22 \u2013 ZDI notified the vendor of the intention to publish the case as 0-day advisory on 03/24/22 -- Mitigation: Given the nature of the vulnerability the only salient mitigation strategy is to restrict interaction with the application. ['2021-08-18 - Vulnerability reported to vendor', '2022-03-24 - Coordinated public release of advisory', '2022-03-29 - Advisory Updated'] brsn (@brsn76945860) https://www.zerodayinitiative.com/advisories/ZDI-22-536/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-536/",
+  "title": "(0Day) Electronic Arts Origin Web Helper Service Link Following Privilege Escalation Vulnerability",
+  "updated_date": "2022-03-29",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Electronic Arts Origin. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Web Helper Service. By creating a symbolic link, an attacker can abuse the service to set a permissive DACL. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-14470",
+  "zdi_id": "ZDI-22-536"
+}

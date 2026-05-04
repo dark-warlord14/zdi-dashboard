@@ -1,0 +1,28 @@
+{
+  "additional_details": "Unified Automation has issued an update to correct this vulnerability. More details can be found at: https://documentation.unified-automation.com/uasdkcpp/1.7.7/CHANGELOG.txt",
+  "advisory_date": "2022-07-28",
+  "affected_products": [
+    "OPC UA C++ Demo Server"
+  ],
+  "affected_vendors": [
+    "Unified Automation"
+  ],
+  "credit": "20urdjk",
+  "cve": "CVE-2022-37012",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-37012",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+  "disclosure_timeline": [
+    "2022-05-09 - Vulnerability reported to vendor",
+    "2022-07-28 - Coordinated public release of advisory",
+    "2022-07-28 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-1030 ZDI-CAN-16927 (Pwn2Own) Unified Automation OPC UA C++ Improper Update of Reference Count Denial-of-Service Vulnerability 2022-07-28 CVE-2022-37012 https://www.cve.org/CVERecord?id=CVE-2022-37012 7.5 AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H ['Unified Automation'] ['OPC UA C++ Demo Server'] This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of Unified Automation OPC UA C++ Demo Server. Authentication is not required to exploit this vulnerability. The specific flaw exists within the OpcUa_SecureListener_ProcessSessionCallRequest method. A crafted OPC UA message can force the server to incorrectly update a reference count. An attacker can leverage this vulnerability to create a denial-of-service condition on the system. Unified Automation has issued an update to correct this vulnerability. More details can be found at: https://documentation.unified-automation.com/uasdkcpp/1.7.7/CHANGELOG.txt ['2022-05-09 - Vulnerability reported to vendor', '2022-07-28 - Coordinated public release of advisory', '2022-07-28 - Advisory Updated'] 20urdjk https://www.zerodayinitiative.com/advisories/ZDI-22-1030/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-1030/",
+  "title": "(Pwn2Own) Unified Automation OPC UA C++ Improper Update of Reference Count Denial-of-Service Vulnerability",
+  "updated_date": "2022-07-28",
+  "vulnerability_details": "This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of Unified Automation OPC UA C++ Demo Server. Authentication is not required to exploit this vulnerability. The specific flaw exists within the OpcUa_SecureListener_ProcessSessionCallRequest method. A crafted OPC UA message can force the server to incorrectly update a reference count. An attacker can leverage this vulnerability to create a denial-of-service condition on the system.",
+  "zdi_can": "ZDI-CAN-16927",
+  "zdi_id": "ZDI-22-1030"
+}

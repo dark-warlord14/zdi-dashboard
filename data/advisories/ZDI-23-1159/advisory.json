@@ -1,0 +1,27 @@
+{
+  "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-ca/HT213670",
+  "advisory_date": "2023-08-22",
+  "affected_products": [
+    "macOS"
+  ],
+  "affected_vendors": [
+    "Apple"
+  ],
+  "credit": "jzhu",
+  "cve": "CVE-2023-27939",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-27939",
+  "cvss": 3.3,
+  "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+  "disclosure_timeline": [
+    "2022-12-16 - Vulnerability reported to vendor",
+    "2023-08-22 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-1159 ZDI-CAN-19367 Apple macOS KTX Image Parsing Out-Of-Bounds Read Information Disclosure Vulnerability 2023-08-22 CVE-2023-27939 https://www.cve.org/CVERecord?id=CVE-2023-27939 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N ['Apple'] ['macOS'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Apple macOS. Interaction with the ImageIO framework is required to exploit this vulnerability but attack vectors may vary depending on the implementation. The specific flaw exists within the ImageIO framework. Crafted data in a KTX image can trigger a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process. Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-ca/HT213670 ['2022-12-16 - Vulnerability reported to vendor', '2023-08-22 - Coordinated public release of advisory'] jzhu https://www.zerodayinitiative.com/advisories/ZDI-23-1159/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-1159/",
+  "title": "Apple macOS KTX Image Parsing Out-Of-Bounds Read Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Apple macOS. Interaction with the ImageIO framework is required to exploit this vulnerability but attack vectors may vary depending on the implementation. The specific flaw exists within the ImageIO framework. Crafted data in a KTX image can trigger a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-19367",
+  "zdi_id": "ZDI-23-1159"
+}

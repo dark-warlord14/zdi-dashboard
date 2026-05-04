@@ -1,0 +1,27 @@
+{
+  "additional_details": "Samba has issued an update to correct this vulnerability. More details can be found at: http://us1.samba.org/samba/security/CVE-2007-2446.html",
+  "advisory_date": "2007-07-11",
+  "affected_products": [
+    "3.0.x"
+  ],
+  "affected_vendors": [
+    "Samba"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2007-2446",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2007-2446",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2007-04-25 - Vulnerability reported to vendor",
+    "2007-07-11 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-07-029 ZDI-CAN-191 Samba lsa_io_privilege_set Heap Overflow Vulnerability 2007-07-11 CVE-2007-2446 https://www.cve.org/CVERecord?id=CVE-2007-2446 ['Samba'] ['3.0.x'] This vulnerability allows attackers to execute arbitrary code on vulnerable installations of Samba. User interaction is not required to exploit this vulnerability. The specific flaw exists in the parsing of RPC requests to the LSA RPC interface. When parsing a request to LsarAddPrivilegesToAccount, heap allocation is calculated based on user input. By specifying invalid values, heap blocks can be overwritten leading to remote code execution. Samba has issued an update to correct this vulnerability. More details can be found at: http://us1.samba.org/samba/security/CVE-2007-2446.html ['2007-04-25 - Vulnerability reported to vendor', '2007-07-11 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-07-029/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-07-029/",
+  "title": "Samba lsa_io_privilege_set Heap Overflow Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows attackers to execute arbitrary code on vulnerable installations of Samba. User interaction is not required to exploit this vulnerability. The specific flaw exists in the parsing of RPC requests to the LSA RPC interface. When parsing a request to LsarAddPrivilegesToAccount, heap allocation is calculated based on user input. By specifying invalid values, heap blocks can be overwritten leading to remote code execution.",
+  "zdi_can": "ZDI-CAN-191",
+  "zdi_id": "ZDI-07-029"
+}

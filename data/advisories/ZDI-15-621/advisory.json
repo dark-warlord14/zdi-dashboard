@@ -1,0 +1,27 @@
+{
+  "additional_details": "Lepide has issued an update to correct this vulnerability. More details can be found at: http://www.lepide.com/active-directory-self-service/",
+  "advisory_date": "2015-12-08",
+  "affected_products": [
+    "Active Directory Self Service"
+  ],
+  "affected_vendors": [
+    "Lepide"
+  ],
+  "credit": "Alain Homewood",
+  "cve": "CVE-2015-8570",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-8570",
+  "cvss": 7.4,
+  "cvss_vector": "AV:A/AC:M/Au:S/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2015-08-20 - Vulnerability reported to vendor",
+    "2015-12-08 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-15-621 ZDI-CAN-3001 Lepide Active Directory Self Service Arbitrary User Password Change Domain Privilege Escalation Vulnerability 2015-12-08 CVE-2015-8570 https://www.cve.org/CVERecord?id=CVE-2015-8570 7.4 AV:A/AC:M/Au:S/C:C/I:C/A:C ['Lepide'] ['Active Directory Self Service'] This vulnerability allows domain users to reset arbitrary account passwords on vulnerable installations of Lepide Active Directory Self Service. No user interaction is required to exploit this vulnerability. The specific flaw exists within processing of the password reset functionality of Active Directory Self Service. A user should only be able to change the password of other users who have explicitly delegated that power to him. By crafting request packets to the Lepide web service, a domain user can change the password of any user in the Active Directory domain. A malicious user can use this to appropriate the account of a Domain Administrator. Lepide has issued an update to correct this vulnerability. More details can be found at: http://www.lepide.com/active-directory-self-service/ ['2015-08-20 - Vulnerability reported to vendor', '2015-12-08 - Coordinated public release of advisory'] Alain Homewood https://www.zerodayinitiative.com/advisories/ZDI-15-621/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-621/",
+  "title": "Lepide Active Directory Self Service Arbitrary User Password Change Domain Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows domain users to reset arbitrary account passwords on vulnerable installations of Lepide Active Directory Self Service. No user interaction is required to exploit this vulnerability. The specific flaw exists within processing of the password reset functionality of Active Directory Self Service. A user should only be able to change the password of other users who have explicitly delegated that power to him. By crafting request packets to the Lepide web service, a domain user can change the password of any user in the Active Directory domain. A malicious user can use this to appropriate the account of a Domain Administrator.",
+  "zdi_can": "ZDI-CAN-3001",
+  "zdi_id": "ZDI-15-621"
+}

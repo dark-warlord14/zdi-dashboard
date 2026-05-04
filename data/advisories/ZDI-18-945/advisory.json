@@ -1,0 +1,28 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-8404",
+  "advisory_date": "2018-08-14",
+  "affected_products": [
+    "Windows"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "RanchoIce of Tencent ZhanluLab",
+  "cve": "CVE-2018-8404",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2018-8404",
+  "cvss": 7.2,
+  "cvss_vector": "AV:L/AC:L/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2018-04-25 - Vulnerability reported to vendor",
+    "2018-08-14 - Coordinated public release of advisory",
+    "2018-08-14 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-945 ZDI-CAN-6117 Microsoft Windows NtGdiClearBitmapAttributes Use-After-Free Privilege Escalation Vulnerability 2018-08-14 CVE-2018-8404 https://www.cve.org/CVERecord?id=CVE-2018-8404 7.2 AV:L/AC:L/Au:N/C:C/I:C/A:C ['Microsoft'] ['Windows'] This vulnerability allows local attackers to escalate privileges on vulnerable installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the processing a malformed bitmap handle as a parameter to the NtGdiClearBitmapAttributes API. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to escalate privileges to SYSTEM. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2018-8404 ['2018-04-25 - Vulnerability reported to vendor', '2018-08-14 - Coordinated public release of advisory', '2018-08-14 - Advisory Updated'] RanchoIce of Tencent ZhanluLab https://www.zerodayinitiative.com/advisories/ZDI-18-945/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-945/",
+  "title": "Microsoft Windows NtGdiClearBitmapAttributes Use-After-Free Privilege Escalation Vulnerability",
+  "updated_date": "2018-08-14",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on vulnerable installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the processing a malformed bitmap handle as a parameter to the NtGdiClearBitmapAttributes API. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to escalate privileges to SYSTEM.",
+  "zdi_can": "ZDI-CAN-6117",
+  "zdi_id": "ZDI-18-945"
+}

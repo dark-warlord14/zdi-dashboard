@@ -1,0 +1,27 @@
+{
+  "additional_details": "Advantech has issued an update to correct this vulnerability. More details can be found at: https://us-cert.cisa.gov/ics/advisories/icsa-21-154-01",
+  "advisory_date": "2021-06-07",
+  "affected_products": [
+    "iView"
+  ],
+  "affected_vendors": [
+    "Advantech"
+  ],
+  "credit": "Selim Enes Karaduman (@Enesdex)",
+  "cve": "CVE-2021-32930",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2021-32930",
+  "cvss": 9.8,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2021-01-29 - Vulnerability reported to vendor",
+    "2021-06-07 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-21-648 ZDI-CAN-11832 Advantech iView runProViewUpgrade Missing Authentication Remote Code Execution Vulnerability 2021-06-07 CVE-2021-32930 https://www.cve.org/CVERecord?id=CVE-2021-32930 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['Advantech'] ['iView'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Advantech iView. Authentication is not required to exploit this vulnerability. The specific flaw exists within the runProViewUpgrade action of NetworkServlet, which listens on TCP port 8080 by default. The issue results from the lack of authentication prior to allowing access to functionality. An attacker can leverage this vulnerability to execute code in the context of the service acccount. Advantech has issued an update to correct this vulnerability. More details can be found at: https://us-cert.cisa.gov/ics/advisories/icsa-21-154-01 ['2021-01-29 - Vulnerability reported to vendor', '2021-06-07 - Coordinated public release of advisory'] Selim Enes Karaduman (@Enesdex) https://www.zerodayinitiative.com/advisories/ZDI-21-648/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-21-648/",
+  "title": "Advantech iView runProViewUpgrade Missing Authentication Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Advantech iView. Authentication is not required to exploit this vulnerability. The specific flaw exists within the runProViewUpgrade action of NetworkServlet, which listens on TCP port 8080 by default. The issue results from the lack of authentication prior to allowing access to functionality. An attacker can leverage this vulnerability to execute code in the context of the service acccount.",
+  "zdi_can": "ZDI-CAN-11832",
+  "zdi_id": "ZDI-21-648"
+}

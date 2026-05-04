@@ -1,0 +1,27 @@
+{
+  "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb18-41.html",
+  "advisory_date": "2018-12-12",
+  "affected_products": [
+    "Reader"
+  ],
+  "affected_vendors": [
+    "Adobe"
+  ],
+  "credit": "guyio",
+  "cve": "CVE-2018-15995",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2018-15995",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2018-07-05 - Vulnerability reported to vendor",
+    "2018-12-12 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-1375 ZDI-CAN-6631 Adobe Acrobat Pro DC XSLT Parsing Integer Overflow Remote Code Execution Vulnerability 2018-12-12 CVE-2018-15995 https://www.cve.org/CVERecord?id=CVE-2018-15995 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Adobe'] ['Reader'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Adobe Acrobat Pro DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of XSLT files. By manipulating a document's elements, an attacker can trigger an integer overflow before allocating a buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb18-41.html ['2018-07-05 - Vulnerability reported to vendor', '2018-12-12 - Coordinated public release of advisory'] guyio https://www.zerodayinitiative.com/advisories/ZDI-18-1375/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-1375/",
+  "title": "Adobe Acrobat Pro DC XSLT Parsing Integer Overflow Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Adobe Acrobat Pro DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of XSLT files. By manipulating a document's elements, an attacker can trigger an integer overflow before allocating a buffer. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-6631",
+  "zdi_id": "ZDI-18-1375"
+}

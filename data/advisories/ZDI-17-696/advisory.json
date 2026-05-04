@@ -1,0 +1,27 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2017-8496",
+  "advisory_date": "2017-08-24",
+  "affected_products": [
+    "Edge"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Jose A. Vazquez",
+  "cve": "CVE-2017-8496",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-8496",
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2017-06-12 - Vulnerability reported to vendor",
+    "2017-08-24 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-17-696 ZDI-CAN-4884 Microsoft Edge DOMAttrModified Type Confusion Remote Code Execution Vulnerability 2017-08-24 CVE-2017-8496 https://www.cve.org/CVERecord?id=CVE-2017-8496 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Microsoft'] ['Edge'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Edge. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of the DOMAttrModified event. By manipulating a document's elements an attacker can trigger a type confusion condition. An attacker can leverage this vulnerability to execute code under the context of the process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2017-8496 ['2017-06-12 - Vulnerability reported to vendor', '2017-08-24 - Coordinated public release of advisory'] Jose A. Vazquez https://www.zerodayinitiative.com/advisories/ZDI-17-696/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-696/",
+  "title": "Microsoft Edge DOMAttrModified Type Confusion Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Edge. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of the DOMAttrModified event. By manipulating a document's elements an attacker can trigger a type confusion condition. An attacker can leverage this vulnerability to execute code under the context of the process.",
+  "zdi_can": "ZDI-CAN-4884",
+  "zdi_id": "ZDI-17-696"
+}

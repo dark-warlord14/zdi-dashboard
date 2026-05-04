@@ -1,0 +1,27 @@
+{
+  "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb16-14.html",
+  "advisory_date": "2016-05-26",
+  "affected_products": [
+    "Reader"
+  ],
+  "affected_vendors": [
+    "Adobe"
+  ],
+  "credit": "Steven Seeley of Source Incite",
+  "cve": "CVE-2016-1094",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-1094",
+  "cvss": 6.8,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "disclosure_timeline": [
+    "2016-04-14 - Vulnerability reported to vendor",
+    "2016-05-26 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-16-359 ZDI-CAN-3699 Adobe Reader DC FlateDecode Use-After-Free Remote Code Execution Vulnerability 2016-05-26 CVE-2016-1094 https://www.cve.org/CVERecord?id=CVE-2016-1094 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Adobe'] ['Reader'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Adobe Reader DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within FlateDecode. A specially crafted PDF with a specific FlateDecode stream can force a dangling pointer to be reused after it has been freed. An attacker can leverage this vulnerability to execute arbitrary code under the context of the current process. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb16-14.html ['2016-04-14 - Vulnerability reported to vendor', '2016-05-26 - Coordinated public release of advisory'] Steven Seeley of Source Incite https://www.zerodayinitiative.com/advisories/ZDI-16-359/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-359/",
+  "title": "Adobe Reader DC FlateDecode Use-After-Free Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Adobe Reader DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within FlateDecode. A specially crafted PDF with a specific FlateDecode stream can force a dangling pointer to be reused after it has been freed. An attacker can leverage this vulnerability to execute arbitrary code under the context of the current process.",
+  "zdi_can": "ZDI-CAN-3699",
+  "zdi_id": "ZDI-16-359"
+}

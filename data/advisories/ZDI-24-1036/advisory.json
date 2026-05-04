@@ -1,0 +1,28 @@
+{
+  "additional_details": "Fixed in version 4.2.712 https://www.zonealarm.com/software/extreme-security-nextgen",
+  "advisory_date": "2024-07-31",
+  "affected_products": [
+    "ZoneAlarm Extreme Security"
+  ],
+  "affected_vendors": [
+    "Check Point"
+  ],
+  "credit": "Filip Dragovic (@filip_dragovic)",
+  "cve": "CVE-2024-6233",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-6233",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2023-09-07 - Vulnerability reported to vendor",
+    "2024-07-31 - Coordinated public release of advisory",
+    "2024-08-15 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-24-1036 ZDI-CAN-21677 Check Point ZoneAlarm Extreme Security Link Following Local Privilege Escalation Vulnerability 2024-07-31 CVE-2024-6233 https://www.cve.org/CVERecord?id=CVE-2024-6233 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Check Point'] ['ZoneAlarm Extreme Security'] This vulnerability allows local attackers to escalate privileges on affected installations of Check Point ZoneAlarm Extreme Security. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Forensic Recorder service. By creating a symbolic link, an attacker can abuse the service to overwrite arbitrary files. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. Fixed in version 4.2.712 https://www.zonealarm.com/software/extreme-security-nextgen ['2023-09-07 - Vulnerability reported to vendor', '2024-07-31 - Coordinated public release of advisory', '2024-08-15 - Advisory Updated'] Filip Dragovic (@filip_dragovic) https://www.zerodayinitiative.com/advisories/ZDI-24-1036/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-24-1036/",
+  "title": "Check Point ZoneAlarm Extreme Security Link Following Local Privilege Escalation Vulnerability",
+  "updated_date": "2024-08-15",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Check Point ZoneAlarm Extreme Security. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Forensic Recorder service. By creating a symbolic link, an attacker can abuse the service to overwrite arbitrary files. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-21677",
+  "zdi_id": "ZDI-24-1036"
+}

@@ -1,0 +1,27 @@
+{
+  "additional_details": "ManageEngine has issued an update to correct this vulnerability. More details can be found at: https://www.manageengine.com/products/ad-manager/admanager-kb/cve-2023-29084.html",
+  "advisory_date": "2023-04-12",
+  "affected_products": [
+    "ADManager Plus"
+  ],
+  "affected_vendors": [
+    "ManageEngine"
+  ],
+  "credit": "Simon Humbert of Trend Micro Security Research",
+  "cve": "CVE-2023-29084",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2023-29084",
+  "cvss": 7.2,
+  "cvss_vector": "AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2023-01-12 - Vulnerability reported to vendor",
+    "2023-04-12 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-23-438 ZDI-CAN-20033 ManageEngine ADManager Plus ChangePasswordAction Command Injection Remote Code Execution Vulnerability 2023-04-12 CVE-2023-29084 https://www.cve.org/CVERecord?id=CVE-2023-29084 7.2 AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H ['ManageEngine'] ['ADManager Plus'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of ManageEngine ADManager Plus. Authentication is required to exploit this vulnerability. The specific flaw exists within the ChangePasswordAction function. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of the service account. ManageEngine has issued an update to correct this vulnerability. More details can be found at: https://www.manageengine.com/products/ad-manager/admanager-kb/cve-2023-29084.html ['2023-01-12 - Vulnerability reported to vendor', '2023-04-12 - Coordinated public release of advisory'] Simon Humbert of Trend Micro Security Research https://www.zerodayinitiative.com/advisories/ZDI-23-438/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-23-438/",
+  "title": "ManageEngine ADManager Plus ChangePasswordAction Command Injection Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of ManageEngine ADManager Plus. Authentication is required to exploit this vulnerability. The specific flaw exists within the ChangePasswordAction function. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of the service account.",
+  "zdi_can": "ZDI-CAN-20033",
+  "zdi_id": "ZDI-23-438"
+}

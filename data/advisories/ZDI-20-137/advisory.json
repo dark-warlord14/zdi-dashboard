@@ -1,0 +1,27 @@
+{
+  "additional_details": "Oracle has issued an update to correct this vulnerability. More details can be found at: https://www.oracle.com/security-alerts/cpujan2020.html",
+  "advisory_date": "2020-01-15",
+  "affected_products": [
+    "VirtualBox"
+  ],
+  "affected_vendors": [
+    "Oracle"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2020-2701",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2020-2701",
+  "cvss": 7.5,
+  "cvss_vector": "AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2019-11-22 - Vulnerability reported to vendor",
+    "2020-01-15 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-20-137 ZDI-CAN-9763 Oracle VirtualBox xHCI Time-Of-Check Time-Of-Use Privilege Escalation Vulnerability 2020-01-15 CVE-2020-2701 https://www.cve.org/CVERecord?id=CVE-2020-2701 7.5 AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H ['Oracle'] ['VirtualBox'] This vulnerability allows local attackers to escalate privileges on affected installations of Oracle VirtualBox. An attacker must first obtain the ability to execute high-privileged code on the target guest system in order to exploit this vulnerability. The specific flaw exists within the xHCI component. The issue results from the lack of proper locking when performing operations on an object. An attacker can leverage this vulnerability to escalate privileges and execute code in the context of the hypervisor. Oracle has issued an update to correct this vulnerability. More details can be found at: https://www.oracle.com/security-alerts/cpujan2020.html ['2019-11-22 - Vulnerability reported to vendor', '2020-01-15 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-20-137/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-20-137/",
+  "title": "Oracle VirtualBox xHCI Time-Of-Check Time-Of-Use Privilege Escalation Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Oracle VirtualBox. An attacker must first obtain the ability to execute high-privileged code on the target guest system in order to exploit this vulnerability. The specific flaw exists within the xHCI component. The issue results from the lack of proper locking when performing operations on an object. An attacker can leverage this vulnerability to escalate privileges and execute code in the context of the hypervisor.",
+  "zdi_can": "ZDI-CAN-9763",
+  "zdi_id": "ZDI-20-137"
+}

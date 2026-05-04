@@ -1,0 +1,28 @@
+{
+  "additional_details": "Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxitsoftware.com/support/security-bulletins.php",
+  "advisory_date": "2018-07-19",
+  "affected_products": [
+    "Reader"
+  ],
+  "affected_vendors": [
+    "Foxit"
+  ],
+  "credit": "soiax",
+  "cve": "CVE-2018-11621",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2018-11621",
+  "cvss": 4.3,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N",
+  "disclosure_timeline": [
+    "2018-03-21 - Vulnerability reported to vendor",
+    "2018-07-19 - Coordinated public release of advisory",
+    "2018-07-19 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-18-698 ZDI-CAN-5896 Foxit Reader ConvertToPDF_x86 JPG Parsing Out-Of-Bounds Read Information Disclosure Vulnerability 2018-07-19 CVE-2018-11621 https://www.cve.org/CVERecord?id=CVE-2018-11621 4.3 AV:N/AC:M/Au:N/C:P/I:N/A:N ['Foxit'] ['Reader'] This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Foxit Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within ConvertToPDF_x86.dll. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated object. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process. Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxitsoftware.com/support/security-bulletins.php ['2018-03-21 - Vulnerability reported to vendor', '2018-07-19 - Coordinated public release of advisory', '2018-07-19 - Advisory Updated'] soiax https://www.zerodayinitiative.com/advisories/ZDI-18-698/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-698/",
+  "title": "Foxit Reader ConvertToPDF_x86 JPG Parsing Out-Of-Bounds Read Information Disclosure Vulnerability",
+  "updated_date": "2018-07-19",
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Foxit Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within ConvertToPDF_x86.dll. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated object. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-5896",
+  "zdi_id": "ZDI-18-698"
+}

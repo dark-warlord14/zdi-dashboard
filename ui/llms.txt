@@ -1,0 +1,12 @@
+# ZDI Advisories
+
+Zero Day Initiative advisory archive with static data files for LLM and agent use.
+
+- Skill: /skill.md
+- Schema: /schema.json
+- Index: /data/index.json
+- Published: /data/published.json
+- Upcoming: /data/upcoming.json
+- Stats: /data/stats.json
+- Advisory detail: /data/advisories/<zdi_id>/advisory.json
+- Advisory Markdown: /data/advisories/<zdi_id>/advisory.md

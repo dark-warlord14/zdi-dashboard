@@ -1,0 +1,27 @@
+{
+  "additional_details": "http://esupport.trendmicro.com/solution/en-us/1058280.aspx Fix is posted at download center: tmcm-55-win-en-criticalpatch1422.exe http://downloadcenter.trendmicro.com/index.php?regs=NABU&clk=latest&clkval=1763&lang_loc=1 This critical patch resolves the following issue(s): Issue: A vulnerability allows an attacker to create and insert a user account which can be used to execute codes through the management console. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Solution: This critical patch imposes stricter rules for the insertion of system account relative tables to prevent attackers from inserting user accounts. Reference: http://www.trendmicro.com/ftp/documentation/readme/readme_critical_patch_TMCM55_1422.txt",
+  "advisory_date": "2011-07-11",
+  "affected_products": [
+    "Control Manager"
+  ],
+  "affected_vendors": [
+    "Trend Micro"
+  ],
+  "credit": "Andrea Micalizzi aka rgod",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 9.0,
+  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:C",
+  "disclosure_timeline": [
+    "2011-04-01 - Vulnerability reported to vendor",
+    "2011-07-11 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-11-234 ZDI-CAN-1125 Trend Micro Control Manager CasLogDirectInsertHandler.cs Remote Code Execution Vulnerability 2011-07-11 9.0 AV:N/AC:L/Au:N/C:P/I:P/A:C ['Trend Micro'] ['Control Manager'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Trend Micro Control Manager. User interaction is required to exploit this vulnerability in that the target must visit a malicious page. The specific flaw exists within the Cas_LogDirectInsert.aspx http handler, which listens by default on TCP port 443. A specially crafted POST request allows remote attackers to supply XML and schema information which is used within queries to the backend database. By supplying malicious values, an attacker can inject themselves a user account which can be used to execute code via the management console on the service. http://esupport.trendmicro.com/solution/en-us/1058280.aspx Fix is posted at download center: tmcm-55-win-en-criticalpatch1422.exe http://downloadcenter.trendmicro.com/index.php?regs=NABU&clk=latest&clkval=1763&lang_loc=1 This critical patch resolves the following issue(s): Issue: A vulnerability allows an attacker to create and insert a user account which can be used to execute codes through the management console. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Solution: This critical patch imposes stricter rules for the insertion of system account relative tables to prevent attackers from inserting user accounts. Reference: http://www.trendmicro.com/ftp/documentation/readme/readme_critical_patch_TMCM55_1422.txt ['2011-04-01 - Vulnerability reported to vendor', '2011-07-11 - Coordinated public release of advisory'] Andrea Micalizzi aka rgod https://www.zerodayinitiative.com/advisories/ZDI-11-234/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-234/",
+  "title": "Trend Micro Control Manager CasLogDirectInsertHandler.cs Remote Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Trend Micro Control Manager. User interaction is required to exploit this vulnerability in that the target must visit a malicious page. The specific flaw exists within the Cas_LogDirectInsert.aspx http handler, which listens by default on TCP port 443. A specially crafted POST request allows remote attackers to supply XML and schema information which is used within queries to the backend database. By supplying malicious values, an attacker can inject themselves a user account which can be used to execute code via the management console on the service.",
+  "zdi_can": "ZDI-CAN-1125",
+  "zdi_id": "ZDI-11-234"
+}

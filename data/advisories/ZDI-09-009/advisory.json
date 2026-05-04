@@ -1,0 +1,27 @@
+{
+  "additional_details": "Customers who are using older versions are advised to upgrade to EMC AutoStart 5.3 SP2 For EMC AutoStart 5.3. SP2 Software navigate to the following location: Powerlink > Support > Software Downloads and Licensing > Downloads A-B > AutoStart",
+  "advisory_date": "2009-01-23",
+  "affected_products": [
+    "AutoStart"
+  ],
+  "affected_vendors": [
+    "EMC"
+  ],
+  "credit": "Manuel Santamarina Suarez",
+  "cve": "CVE-2009-0311",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2009-0311",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2008-08-26 - Vulnerability reported to vendor",
+    "2009-01-23 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-09-009 ZDI-CAN-364 EMC AutoStart Backbone Engine Trusted Pointer Code Execution Vulnerability 2009-01-23 CVE-2009-0311 https://www.cve.org/CVERecord?id=CVE-2009-0311 ['EMC'] ['AutoStart'] This vulnerability allows remote attackers to execute arbitrary code on systems with vulnerable installations of EMC AutoStart. Authentication is not required to exploit this vulnerability. The specific flaw exists within the Backbone service (ftbackbone.exe) which listens by default on TCP port 8042. The process trusts a DWORD value from incoming packets which it arbitrarily calls. Exploitation of this issue leads to code execution under the context of the SYSTEM user. Customers who are using older versions are advised to upgrade to EMC AutoStart 5.3 SP2 For EMC AutoStart 5.3. SP2 Software navigate to the following location: Powerlink > Support > Software Downloads and Licensing > Downloads A-B > AutoStart ['2008-08-26 - Vulnerability reported to vendor', '2009-01-23 - Coordinated public release of advisory'] Manuel Santamarina Suarez https://www.zerodayinitiative.com/advisories/ZDI-09-009/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-09-009/",
+  "title": "EMC AutoStart Backbone Engine Trusted Pointer Code Execution Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on systems with vulnerable installations of EMC AutoStart. Authentication is not required to exploit this vulnerability. The specific flaw exists within the Backbone service (ftbackbone.exe) which listens by default on TCP port 8042. The process trusts a DWORD value from incoming packets which it arbitrarily calls. Exploitation of this issue leads to code execution under the context of the SYSTEM user.",
+  "zdi_can": "ZDI-CAN-364",
+  "zdi_id": "ZDI-09-009"
+}

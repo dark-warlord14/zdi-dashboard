@@ -1,0 +1,27 @@
+{
+  "additional_details": "Fixed in Kernel v5.4.92",
+  "advisory_date": "2021-01-29",
+  "affected_products": [
+    "Kernel"
+  ],
+  "affected_vendors": [
+    "Linux"
+  ],
+  "credit": "Ryota Shiga(@Ga_ryo_) of Flatt Security",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 6.5,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N",
+  "disclosure_timeline": [
+    "2020-12-22 - Vulnerability reported to vendor",
+    "2021-01-29 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-21-100 ZDI-CAN-11171 Linux Kernel setsockopt System Call Untrusted Pointer Dereference Information Disclosure Vulnerability 2021-01-29 6.5 AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N ['Linux'] ['Kernel'] This vulnerability allows local attackers to disclose sensitive information on affected installations of Linux Kernel. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of arguments to the setsockopt system call. The issue results from the lack of proper validation of a user-supplied value prior to dereferencing it as a pointer. An attacker can leverage this in conjunction with other vulnerabilities to escalate privileges and execute code in the context of the kernel. Fixed in Kernel v5.4.92 ['2020-12-22 - Vulnerability reported to vendor', '2021-01-29 - Coordinated public release of advisory'] Ryota Shiga(@Ga_ryo_) of Flatt Security https://www.zerodayinitiative.com/advisories/ZDI-21-100/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-21-100/",
+  "title": "Linux Kernel setsockopt System Call Untrusted Pointer Dereference Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows local attackers to disclose sensitive information on affected installations of Linux Kernel. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of arguments to the setsockopt system call. The issue results from the lack of proper validation of a user-supplied value prior to dereferencing it as a pointer. An attacker can leverage this in conjunction with other vulnerabilities to escalate privileges and execute code in the context of the kernel.",
+  "zdi_can": "ZDI-CAN-11171",
+  "zdi_id": "ZDI-21-100"
+}

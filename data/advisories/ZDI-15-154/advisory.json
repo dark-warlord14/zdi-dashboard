@@ -1,0 +1,27 @@
+{
+  "additional_details": "Hewlett-Packard has issued an update to correct this vulnerability. More details can be found at: https://h20566.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c04626974",
+  "advisory_date": "2015-04-22",
+  "affected_products": [
+    "Security Management System"
+  ],
+  "affected_vendors": [
+    "Hewlett-Packard"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2015-2117",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-2117",
+  "cvss": 9.3,
+  "cvss_vector": "AV:N/AC:M/Au:N/C:C/I:C/A:C",
+  "disclosure_timeline": [
+    "2014-12-22 - Vulnerability reported to vendor",
+    "2015-04-22 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-15-154 ZDI-CAN-2679 HP TippingPoint SMS and vSMS JBoss RMI Remote Code Execution Vulnerabilty 2015-04-22 CVE-2015-2117 https://www.cve.org/CVERecord?id=CVE-2015-2117 9.3 AV:N/AC:M/Au:N/C:C/I:C/A:C ['Hewlett-Packard'] ['Security Management System'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of HP TippingPoint SMS and vSMS. Authentication is not required to exploit this vulnerability. The flaw exists within the Remote Method Invocation (RMI) component which is exposed on TCP ports 4444. Requests to these services are not authenticated and can be used to instantiate arbitrary classes or to upload and execute arbitrary archives. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the SMS user. Hewlett-Packard has issued an update to correct this vulnerability. More details can be found at: https://h20566.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c04626974 ['2014-12-22 - Vulnerability reported to vendor', '2015-04-22 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-15-154/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-154/",
+  "title": "HP TippingPoint SMS and vSMS JBoss RMI Remote Code Execution Vulnerabilty",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of HP TippingPoint SMS and vSMS. Authentication is not required to exploit this vulnerability. The flaw exists within the Remote Method Invocation (RMI) component which is exposed on TCP ports 4444. Requests to these services are not authenticated and can be used to instantiate arbitrary classes or to upload and execute arbitrary archives. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the SMS user.",
+  "zdi_can": "ZDI-CAN-2679",
+  "zdi_id": "ZDI-15-154"
+}

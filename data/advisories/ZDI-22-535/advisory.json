@@ -1,0 +1,27 @@
+{
+  "additional_details": "https://support.hp.com/us-en/document/ish_5950417-5950443-16/hpsbpi03781",
+  "advisory_date": "2022-03-23",
+  "affected_products": [
+    "LaserJet Pro MFP M283fdw"
+  ],
+  "affected_vendors": [
+    "HP"
+  ],
+  "credit": "Alexander Bolshev (@dark_k3y), Timo Hirvonen (@TimoHirvonen), and Dmitry Janushkevich (@InfoSecDJ)",
+  "cve": "CVE-2022-24292",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-24292",
+  "cvss": 4.3,
+  "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+  "disclosure_timeline": [
+    "2022-01-21 - Vulnerability reported to vendor",
+    "2022-03-23 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-22-535 ZDI-CAN-15832 (Pwn2Own) HP LaserJet Pro MFP M283fdw CFF Font Out-Of-Bounds Read Information Disclosure Vulnerability 2022-03-23 CVE-2022-24292 https://www.cve.org/CVERecord?id=CVE-2022-24292 4.3 AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N ['HP'] ['LaserJet Pro MFP M283fdw'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of HP LaserJet Pro MFP M283fdw printers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the PostScript interpreter. Crafted data in a CFF font can trigger a read past the end of an allocated data structure. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of root. https://support.hp.com/us-en/document/ish_5950417-5950443-16/hpsbpi03781 ['2022-01-21 - Vulnerability reported to vendor', '2022-03-23 - Coordinated public release of advisory'] Alexander Bolshev (@dark_k3y), Timo Hirvonen (@TimoHirvonen), and Dmitry Janushkevich (@InfoSecDJ) https://www.zerodayinitiative.com/advisories/ZDI-22-535/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-535/",
+  "title": "(Pwn2Own) HP LaserJet Pro MFP M283fdw CFF Font Out-Of-Bounds Read Information Disclosure Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of HP LaserJet Pro MFP M283fdw printers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the PostScript interpreter. Crafted data in a CFF font can trigger a read past the end of an allocated data structure. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of root.",
+  "zdi_can": "ZDI-CAN-15832",
+  "zdi_id": "ZDI-22-535"
+}

@@ -1,0 +1,27 @@
+{
+  "additional_details": "Ipswitch has issued an update to correct this vulnerability. More details can be found at: http://www.ipswitch.com/support/imail/releases/im20061.asp",
+  "advisory_date": "2006-09-08",
+  "affected_products": [
+    "IMail"
+  ],
+  "affected_vendors": [
+    "Ipswitch"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2006-4379",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2006-4379",
+  "cvss": null,
+  "cvss_vector": null,
+  "disclosure_timeline": [
+    "2006-06-22 - Vulnerability reported to vendor",
+    "2006-09-08 - Coordinated public release of advisory"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-06-028 ZDI-CAN-067 Ipswitch Collaboration Suite SMTP Server Stack Overflow Vulnerability 2006-09-08 CVE-2006-4379 https://www.cve.org/CVERecord?id=CVE-2006-4379 ['Ipswitch'] ['IMail'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Ipswitch Collaboration Suite and IMail. Authentication is not required to exploit this vulnerability. The specific flaw exists within the SMTP daemon. A lack of bounds checking during the parsing of long strings contained within the characters '@' and ':' leads to a stack overflow vulnerability. Exploitation can result in code execution or a denial of service. Ipswitch has issued an update to correct this vulnerability. More details can be found at: http://www.ipswitch.com/support/imail/releases/im20061.asp ['2006-06-22 - Vulnerability reported to vendor', '2006-09-08 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-06-028/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-06-028/",
+  "title": "Ipswitch Collaboration Suite SMTP Server Stack Overflow Vulnerability",
+  "updated_date": null,
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Ipswitch Collaboration Suite and IMail. Authentication is not required to exploit this vulnerability. The specific flaw exists within the SMTP daemon. A lack of bounds checking during the parsing of long strings contained within the characters '@' and ':' leads to a stack overflow vulnerability. Exploitation can result in code execution or a denial of service.",
+  "zdi_can": "ZDI-CAN-067",
+  "zdi_id": "ZDI-06-028"
+}
