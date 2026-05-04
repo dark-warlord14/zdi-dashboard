@@ -60,6 +60,7 @@ const App = {
 
     showList(kind) {
         this.resetListStateIfNeeded(kind);
+        const focusState = this.captureFilterFocus();
         const records = kind === 'published' ? this.published : this.upcoming;
         const filtered = this.filterRecords(records, kind);
         const sorted = this.sortRecords(filtered);
@@ -89,27 +90,28 @@ const App = {
                 this.showList(kind);
             }));
         }
+        this.restoreFilterFocus(focusState);
     },
 
     filtersHtml(kind, vendors) {
         return `
             <div class="filters">
-                <input class="search-box" type="search" placeholder="Search IDs, title, vendor, CVE, detail text..." value="${Components.escapeHtml(this.filters.search)}" oninput="App.onFilterDebounced('search', this.value)">
-                <select onchange="App.onFilter('vendor', this.value)">
+                <input class="search-box" data-filter="search" type="search" placeholder="Search IDs, title, vendor, CVE, detail text..." value="${Components.escapeHtml(this.filters.search)}" oninput="App.onFilterDebounced('search', this.value)">
+                <select data-filter="vendor" onchange="App.onFilter('vendor', this.value)">
                     <option value="">All Vendors</option>
                     ${vendors.map(v => `<option value="${Components.escapeHtml(v)}" ${this.filters.vendor === v ? 'selected' : ''}>${Components.escapeHtml(v)}</option>`).join('')}
                 </select>
-                <select onchange="App.onFilter('cvss', this.value)">
+                <select data-filter="cvss" onchange="App.onFilter('cvss', this.value)">
                     <option value="">All CVSS</option>
                     ${['critical', 'high', 'medium', 'low'].map(v => `<option value="${v}" ${this.filters.cvss === v ? 'selected' : ''}>${v}</option>`).join('')}
                 </select>
                 ${kind === 'published' ? `
-                    <select onchange="App.onFilter('cve', this.value)">
+                    <select data-filter="cve" onchange="App.onFilter('cve', this.value)">
                         <option value="">All CVE States</option>
                         <option value="present" ${this.filters.cve === 'present' ? 'selected' : ''}>CVE present</option>
                         <option value="missing" ${this.filters.cve === 'missing' ? 'selected' : ''}>CVE missing</option>
                     </select>` : `
-                    <select onchange="App.onFilter('deadline', this.value)">
+                    <select data-filter="deadline" onchange="App.onFilter('deadline', this.value)">
                         <option value="">All Deadlines</option>
                         <option value="past_due" ${this.filters.deadline === 'past_due' ? 'selected' : ''}>Past due</option>
                         <option value="due_soon" ${this.filters.deadline === 'due_soon' ? 'selected' : ''}>Due soon</option>
@@ -118,6 +120,26 @@ const App = {
                 <button class="outline" onclick="App.clearFilters()">Clear</button>
             </div>
         `;
+    },
+
+    captureFilterFocus() {
+        const active = document.activeElement;
+        if (!active || !active.dataset || !active.dataset.filter) return null;
+        return {
+            filter: active.dataset.filter,
+            selectionStart: active.selectionStart,
+            selectionEnd: active.selectionEnd,
+        };
+    },
+
+    restoreFilterFocus(focusState) {
+        if (!focusState) return;
+        const next = document.querySelector(`[data-filter="${focusState.filter}"]`);
+        if (!next) return;
+        next.focus();
+        if (typeof next.setSelectionRange === 'function' && focusState.selectionStart !== null) {
+            next.setSelectionRange(focusState.selectionStart, focusState.selectionEnd);
+        }
     },
 
     publishedTable(records) {
