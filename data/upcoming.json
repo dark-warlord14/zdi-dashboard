@@ -1,5 +1,53 @@
 [
   {
+    "cvss": 8.8,
+    "cvss_vector": "AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "deadline": "2026-09-03",
+    "discoverer": "Dvir Gozlan",
+    "kind": "upcoming",
+    "reported_date": "2026-05-06",
+    "status": "upcoming",
+    "vendor": "Samsung",
+    "vendor_url": "https://www.samsung.com",
+    "zdi_can": "ZDI-CAN-29432"
+  },
+  {
+    "cvss": 7.2,
+    "cvss_vector": "AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+    "deadline": "2026-09-03",
+    "discoverer": "Syed Ibrahim Ahmed of TrendAI Research, Sean Shekhtman (@sheep_trend) of TrendAI Research, and Jacky Yang of TrendAI Research",
+    "kind": "upcoming",
+    "reported_date": "2026-05-06",
+    "status": "upcoming",
+    "vendor": "Progress Software",
+    "vendor_url": "https://www.progress.com/",
+    "zdi_can": "ZDI-CAN-31117"
+  },
+  {
+    "cvss": 6.3,
+    "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
+    "deadline": "2026-09-03",
+    "discoverer": "Alex Williams from Pellera Technologies",
+    "kind": "upcoming",
+    "reported_date": "2026-05-06",
+    "status": "upcoming",
+    "vendor": "Smoothwall",
+    "vendor_url": "https://www.smoothwall.org/index.html",
+    "zdi_can": "ZDI-CAN-28518"
+  },
+  {
+    "cvss": 6.3,
+    "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
+    "deadline": "2026-09-03",
+    "discoverer": "Alex Williams from Pellera Technologies",
+    "kind": "upcoming",
+    "reported_date": "2026-05-06",
+    "status": "upcoming",
+    "vendor": "Smoothwall",
+    "vendor_url": "https://www.smoothwall.org/index.html",
+    "zdi_can": "ZDI-CAN-28519"
+  },
+  {
     "cvss": 6.5,
     "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:C/C:N/I:N/A:H",
     "deadline": "2026-08-28",
