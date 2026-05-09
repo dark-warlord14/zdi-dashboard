@@ -1,5 +1,29 @@
 [
   {
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "deadline": "2026-09-05",
+    "discoverer": "YJK(@YJK0805) of ZUSO ART",
+    "kind": "upcoming",
+    "reported_date": "2026-05-08",
+    "status": "upcoming",
+    "vendor": "NVIDIA",
+    "vendor_url": "https://www.nvidia.com/en-us/",
+    "zdi_can": "ZDI-CAN-30917"
+  },
+  {
+    "cvss": 6.5,
+    "cvss_vector": "AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+    "deadline": "2026-09-05",
+    "discoverer": "Aaron Luo at VicOne Inc., LabR7",
+    "kind": "upcoming",
+    "reported_date": "2026-05-08",
+    "status": "upcoming",
+    "vendor": "LiteLLM",
+    "vendor_url": "https://www.litellm.ai/",
+    "zdi_can": "ZDI-CAN-30873"
+  },
+  {
     "cvss": 8.1,
     "cvss_vector": "AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
     "deadline": "2026-09-04",
