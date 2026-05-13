@@ -1,0 +1,28 @@
+{
+  "additional_details": "Ivanti has issued an update to correct this vulnerability. More details can be found at: https://hub.ivanti.com/s/article/Security-Advisory-Ivanti-Endpoint-Manager-EPM-May-2026?language=en_US",
+  "advisory_date": "2026-05-12",
+  "affected_products": [
+    "Endpoint Manager"
+  ],
+  "affected_vendors": [
+    "Ivanti"
+  ],
+  "credit": "06fe5fd2bc53027c4a3b7e395af0b850e7b8a044",
+  "cve": "CVE-2026-8109",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-8109",
+  "cvss": 4.9,
+  "cvss_vector": "AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N",
+  "disclosure_timeline": [
+    "2025-11-25 - Vulnerability reported to vendor",
+    "2026-05-12 - Coordinated public release of advisory",
+    "2026-05-12 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-26-308 ZDI-CAN-28617 Ivanti Endpoint Manager RemoteControlAuth Exposed Dangerous Method Information Disclosure Vulnerability 2026-05-12 CVE-2026-8109 https://www.cve.org/CVERecord?id=CVE-2026-8109 4.9 AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N ['Ivanti'] ['Endpoint Manager'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Ivanti Endpoint Manager. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed. The specific flaw exists within the RemoteControlAuth module. The issue results from an exposed dangerous method. An attacker can leverage this vulnerability to disclose stored credentials, leading to further compromise. Ivanti has issued an update to correct this vulnerability. More details can be found at: https://hub.ivanti.com/s/article/Security-Advisory-Ivanti-Endpoint-Manager-EPM-May-2026?language=en_US ['2025-11-25 - Vulnerability reported to vendor', '2026-05-12 - Coordinated public release of advisory', '2026-05-12 - Advisory Updated'] 06fe5fd2bc53027c4a3b7e395af0b850e7b8a044 https://www.zerodayinitiative.com/advisories/ZDI-26-308/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-308/",
+  "title": "Ivanti Endpoint Manager RemoteControlAuth Exposed Dangerous Method Information Disclosure Vulnerability",
+  "updated_date": "2026-05-12",
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Ivanti Endpoint Manager. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed. The specific flaw exists within the RemoteControlAuth module. The issue results from an exposed dangerous method. An attacker can leverage this vulnerability to disclose stored credentials, leading to further compromise.",
+  "zdi_can": "ZDI-CAN-28617",
+  "zdi_id": "ZDI-26-308"
+}

@@ -2808,18 +2808,6 @@
     "zdi_can": "ZDI-CAN-29630"
   },
   {
-    "cvss": 8.8,
-    "cvss_vector": "AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-07-24",
-    "discoverer": "Anonymous",
-    "kind": "upcoming",
-    "reported_date": "2026-03-26",
-    "status": "upcoming",
-    "vendor": "Apple",
-    "vendor_url": "https://www.apple.com",
-    "zdi_can": "ZDI-CAN-29186"
-  },
-  {
     "cvss": 7.8,
     "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
     "deadline": "2026-07-24",
@@ -3432,30 +3420,6 @@
     "zdi_can": "ZDI-CAN-29287"
   },
   {
-    "cvss": 7.5,
-    "cvss_vector": "AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-07-03",
-    "discoverer": "wac and Kookhwan Lee",
-    "kind": "upcoming",
-    "reported_date": "2026-03-05",
-    "status": "upcoming",
-    "vendor": "Apple",
-    "vendor_url": "https://www.apple.com",
-    "zdi_can": "ZDI-CAN-28879"
-  },
-  {
-    "cvss": 3.3,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
-    "deadline": "2026-07-03",
-    "discoverer": "Anonymous",
-    "kind": "upcoming",
-    "reported_date": "2026-03-05",
-    "status": "upcoming",
-    "vendor": "Apple",
-    "vendor_url": "https://www.apple.com",
-    "zdi_can": "ZDI-CAN-28695"
-  },
-  {
     "cvss": 7.8,
     "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
     "deadline": "2026-07-02",
@@ -3864,18 +3828,6 @@
     "zdi_can": "ZDI-CAN-29368"
   },
   {
-    "cvss": 3.3,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
-    "deadline": "2026-06-19",
-    "discoverer": "Michael DePlante (@izobashi) of TrendAI Zero Day Initiative",
-    "kind": "upcoming",
-    "reported_date": "2026-02-19",
-    "status": "upcoming",
-    "vendor": "Apple",
-    "vendor_url": "https://www.apple.com",
-    "zdi_can": "ZDI-CAN-29240"
-  },
-  {
     "cvss": 7.8,
     "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
     "deadline": "2026-06-19",
@@ -4138,18 +4090,6 @@
     "vendor": "Cisco",
     "vendor_url": "https://www.cisco.com",
     "zdi_can": "ZDI-CAN-29197"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-06-12",
-    "discoverer": "Michael DePlante (@izobashi) of TrendAI Zero Day Initiative",
-    "kind": "upcoming",
-    "reported_date": "2026-02-12",
-    "status": "upcoming",
-    "vendor": "Apple",
-    "vendor_url": "https://www.apple.com",
-    "zdi_can": "ZDI-CAN-29239"
   },
   {
     "cvss": 7.8,
@@ -4536,18 +4476,6 @@
     "zdi_can": "ZDI-CAN-28892"
   },
   {
-    "cvss": 4.4,
-    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:L",
-    "deadline": "2026-05-12",
-    "discoverer": "Marcin Wiazowski",
-    "kind": "upcoming",
-    "reported_date": "2026-01-12",
-    "status": "upcoming",
-    "vendor": "Microsoft",
-    "vendor_url": "https://www.microsoft.com",
-    "zdi_can": "ZDI-CAN-28605"
-  },
-  {
     "cvss": 7.8,
     "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
     "deadline": "2026-05-09",
@@ -4558,18 +4486,6 @@
     "vendor": "FontForge",
     "vendor_url": "https://fontforge.org/",
     "zdi_can": "ZDI-CAN-28710"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
-    "deadline": "2026-05-08",
-    "discoverer": "Anonymous",
-    "kind": "upcoming",
-    "reported_date": "2026-01-08",
-    "status": "upcoming",
-    "vendor": "Microsoft",
-    "vendor_url": "https://www.microsoft.com",
-    "zdi_can": "ZDI-CAN-28559"
   },
   {
     "cvss": 5.5,
@@ -4918,18 +4834,6 @@
     "vendor": "pdfforge",
     "vendor_url": "https://www.pdfforge.org/",
     "zdi_can": "ZDI-CAN-28570"
-  },
-  {
-    "cvss": 4.9,
-    "cvss_vector": "AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N",
-    "deadline": "2026-03-25",
-    "discoverer": "06fe5fd2bc53027c4a3b7e395af0b850e7b8a044",
-    "kind": "upcoming",
-    "reported_date": "2025-11-25",
-    "status": "upcoming",
-    "vendor": "Ivanti",
-    "vendor_url": "https://www.ivanti.com/",
-    "zdi_can": "ZDI-CAN-28617"
   },
   {
     "cvss": 8.8,
@@ -5470,30 +5374,6 @@
     "vendor": "GIMP",
     "vendor_url": "https://www.gimp.org/",
     "zdi_can": "ZDI-CAN-27792"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2025-12-19",
-    "discoverer": "Rocco Calvi (@TecR0c) with TecSecurity",
-    "kind": "upcoming",
-    "reported_date": "2025-08-21",
-    "status": "upcoming",
-    "vendor": "Siemens",
-    "vendor_url": "https://www.siemens.com/",
-    "zdi_can": "ZDI-CAN-27389"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2025-12-10",
-    "discoverer": "Rocco Calvi (@TecR0c) with TecSecurity",
-    "kind": "upcoming",
-    "reported_date": "2025-08-12",
-    "status": "upcoming",
-    "vendor": "Siemens",
-    "vendor_url": "https://www.siemens.com/",
-    "zdi_can": "ZDI-CAN-27349"
   },
   {
     "cvss": 6.5,

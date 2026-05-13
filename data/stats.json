@@ -55,15 +55,15 @@
     "2023": 1908,
     "2024": 1749,
     "2025": 1203,
-    "2026": 307
+    "2026": 317
   },
-  "cve_coverage": 15123,
+  "cve_coverage": 15133,
   "high_cvss": 11455,
-  "total_published": 16715,
-  "total_upcoming": 503,
+  "total_published": 16725,
+  "total_upcoming": 493,
   "upcoming_deadline_state": {
-    "due_soon": 26,
-    "future": 352,
-    "past_due": 125
+    "due_soon": 44,
+    "future": 328,
+    "past_due": 121
   }
 }
