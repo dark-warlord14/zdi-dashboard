@@ -1,18 +1,18 @@
 {
   "by_cvss_band": {
     "critical": 2365,
-    "high": 9090,
+    "high": 9100,
     "low": 1428,
     "medium": 3998,
     "unknown": 337
   },
   "by_vendor": {
-    "Adobe": 2005,
+    "Adobe": 2006,
     "Advantech": 734,
     "Apple": 811,
     "Autodesk": 508,
     "Bentley": 208,
-    "Cisco": 316,
+    "Cisco": 318,
     "D-Link": 261,
     "Delta Electronics": 285,
     "Delta Industrial Automation": 220,
@@ -58,12 +58,12 @@
     "2026": 317
   },
   "cve_coverage": 15133,
-  "high_cvss": 11455,
+  "high_cvss": 11465,
   "total_published": 16725,
-  "total_upcoming": 493,
+  "total_upcoming": 503,
   "upcoming_deadline_state": {
-    "due_soon": 52,
-    "future": 319,
+    "due_soon": 56,
+    "future": 325,
     "past_due": 122
   }
 }
