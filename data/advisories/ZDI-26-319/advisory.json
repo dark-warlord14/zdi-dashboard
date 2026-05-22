@@ -1,0 +1,28 @@
+{
+  "additional_details": "Progress Software has issued an update to correct this vulnerability. More details can be found at: https://docs.progress.com/bundle/release-notes_loadmaster-7-2-63-1/page/Security-Updates.html",
+  "advisory_date": "2026-05-21",
+  "affected_products": [
+    "Kemp LoadMaster"
+  ],
+  "affected_vendors": [
+    "Progress Software"
+  ],
+  "credit": "Michael Argany of TrendAI Research",
+  "cve": "CVE-2026-3517",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-3517",
+  "cvss": 8.8,
+  "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2026-02-23 - Vulnerability reported to vendor",
+    "2026-05-21 - Coordinated public release of advisory",
+    "2026-05-21 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-26-319 ZDI-CAN-29249 Progress Software Kemp LoadMaster addcountry Command Injection Remote Code Execution Vulnerability 2026-05-21 CVE-2026-3517 https://www.cve.org/CVERecord?id=CVE-2026-3517 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Progress Software'] ['Kemp LoadMaster'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Progress Software Kemp LoadMaster. Authentication is required to exploit this vulnerability. The specific flaw exists within handling of the customLocation parameter. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of the appliance. Progress Software has issued an update to correct this vulnerability. More details can be found at: https://docs.progress.com/bundle/release-notes_loadmaster-7-2-63-1/page/Security-Updates.html ['2026-02-23 - Vulnerability reported to vendor', '2026-05-21 - Coordinated public release of advisory', '2026-05-21 - Advisory Updated'] Michael Argany of TrendAI Research https://www.zerodayinitiative.com/advisories/ZDI-26-319/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-319/",
+  "title": "Progress Software Kemp LoadMaster addcountry Command Injection Remote Code Execution Vulnerability",
+  "updated_date": "2026-05-21",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Progress Software Kemp LoadMaster. Authentication is required to exploit this vulnerability. The specific flaw exists within handling of the customLocation parameter. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of the appliance.",
+  "zdi_can": "ZDI-CAN-29249",
+  "zdi_id": "ZDI-26-319"
+}

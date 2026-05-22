@@ -1,5 +1,37 @@
 [
   {
+    "cve": "CVE-2026-3517",
+    "cvss": 8.8,
+    "cvss_vector": null,
+    "description_snippet": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Progress Software Kemp LoadMaster. Authentication is required to exploit this vulnerability. The specific flaw exists within handling of the customLocation param...",
+    "detail_path": "advisories/ZDI-26-319",
+    "kind": "published",
+    "published_date": "2026-05-21",
+    "title": "Progress Software Kemp LoadMaster addcountry Command Injection Remote Code Execution Vulnerability",
+    "updated_date": "2026-05-21",
+    "url": "https://www.zerodayinitiative.com/advisories/ZDI-26-319/",
+    "vendor": "Progress Software",
+    "vendor_url": null,
+    "zdi_can": "ZDI-CAN-29249",
+    "zdi_id": "ZDI-26-319"
+  },
+  {
+    "cve": "CVE-2026-3518",
+    "cvss": 8.8,
+    "cvss_vector": null,
+    "description_snippet": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Progress Software Kemp LoadMaster. Authentication is required to exploit this vulnerability. The specific flaw exists within the handling of the key parameter. T...",
+    "detail_path": "advisories/ZDI-26-318",
+    "kind": "published",
+    "published_date": "2026-05-21",
+    "title": "Progress Software Kemp LoadMaster ssodomain_killsession Command Injection Remote Code Execution Vulnerability",
+    "updated_date": "2026-05-21",
+    "url": "https://www.zerodayinitiative.com/advisories/ZDI-26-318/",
+    "vendor": "Progress Software",
+    "vendor_url": null,
+    "zdi_can": "ZDI-CAN-29222",
+    "zdi_id": "ZDI-26-318"
+  },
+  {
     "cve": "CVE-2025-12659",
     "cvss": 7.8,
     "cvss_vector": null,
