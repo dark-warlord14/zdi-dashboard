@@ -1,9 +1,9 @@
 {
   "by_cvss_band": {
     "critical": 2365,
-    "high": 9128,
+    "high": 9140,
     "low": 1428,
-    "medium": 3999,
+    "medium": 4003,
     "unknown": 337
   },
   "by_vendor": {
@@ -20,9 +20,9 @@
     "Fuji Electric": 196,
     "Hewlett Packard Enterprise": 304,
     "Hewlett-Packard": 241,
-    "IBM": 126,
     "IrfanView": 180,
     "Ivanti": 179,
+    "Linux": 126,
     "Microsoft": 1893,
     "Novell": 130,
     "Oracle": 499,
@@ -58,12 +58,12 @@
     "2026": 319
   },
   "cve_coverage": 15135,
-  "high_cvss": 11493,
+  "high_cvss": 11505,
   "total_published": 16727,
-  "total_upcoming": 530,
+  "total_upcoming": 546,
   "upcoming_deadline_state": {
-    "due_soon": 56,
-    "future": 352,
-    "past_due": 122
+    "due_soon": 54,
+    "future": 368,
+    "past_due": 124
   }
 }
