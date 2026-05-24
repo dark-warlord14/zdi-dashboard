@@ -1,6 +1,6 @@
 # ZDI Dashboard
 
-Static Zero Day Initiative advisory archive with daily data refresh, searchable UI, and agent-readable JSON outputs.
+Static Zero Day Initiative advisory archive with daily data refresh, searchable UI, and agent-readable JSON outputs. Maintained as part of Shantanu Ghumade's professional security tooling network.
 
 Live site: https://zdi-dashboard.pages.dev/
 

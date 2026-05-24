@@ -2,6 +2,9 @@
 
 Zero Day Initiative advisory archive with static data files for LLM and agent use.
 
+Maintainer: Shantanu Ghumade, Security Tech Lead - Security Assurance at Deriv.
+Professional network: https://resume.aivault.securityjunky.com/ and https://securityjunky.com/
+
 - Skill: /skill.md
 - Schema: /schema.json
 - Index: /data/index.json
