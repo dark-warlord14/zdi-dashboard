@@ -2,6 +2,18 @@
   {
     "cvss": 7.8,
     "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "deadline": "2026-09-22",
+    "discoverer": "Nurihan Kim (HanTul), Hyeon-gyu Lee (hy30nq)",
+    "kind": "upcoming",
+    "reported_date": "2026-05-25",
+    "status": "upcoming",
+    "vendor": "Anysphere",
+    "vendor_url": "https://anysphere.inc/",
+    "zdi_can": "ZDI-CAN-30890"
+  },
+  {
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
     "deadline": "2026-09-19",
     "discoverer": "Anonymous",
     "kind": "upcoming",
