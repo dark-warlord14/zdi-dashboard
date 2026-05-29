@@ -1,0 +1,28 @@
+{
+  "additional_details": "TrendAI has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/en-US/solution/KA-0023430",
+  "advisory_date": "2026-05-28",
+  "affected_products": [
+    "Vision One"
+  ],
+  "affected_vendors": [
+    "TrendAI"
+  ],
+  "credit": "Lays (@_L4ys) of TRAPA Security",
+  "cve": "CVE-2026-45208",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-45208",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2025-09-11 - Vulnerability reported to vendor",
+    "2026-05-28 - Coordinated public release of advisory",
+    "2026-05-28 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-26-326 ZDI-CAN-27982 TrendAI Vision One Security Agent Time-Of-Check Time-Of-Use Local Privilege Escalation Vulnerability 2026-05-28 CVE-2026-45208 https://www.cve.org/CVERecord?id=CVE-2026-45208 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['TrendAI'] ['Vision One'] This vulnerability allows local attackers to escalate privileges on affected installations of TrendAI Vision One Security Agent. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Apex One NT RealTime Scan service. The issue results from the lack of proper locking when performing operations on an object. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. TrendAI has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/en-US/solution/KA-0023430 ['2025-09-11 - Vulnerability reported to vendor', '2026-05-28 - Coordinated public release of advisory', '2026-05-28 - Advisory Updated'] Lays (@_L4ys) of TRAPA Security https://www.zerodayinitiative.com/advisories/ZDI-26-326/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-326/",
+  "title": "TrendAI Vision One Security Agent Time-Of-Check Time-Of-Use Local Privilege Escalation Vulnerability",
+  "updated_date": "2026-05-28",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of TrendAI Vision One Security Agent. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Apex One NT RealTime Scan service. The issue results from the lack of proper locking when performing operations on an object. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-27982",
+  "zdi_id": "ZDI-26-326"
+}

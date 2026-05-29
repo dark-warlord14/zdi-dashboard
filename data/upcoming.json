@@ -2,6 +2,102 @@
   {
     "cvss": 7.8,
     "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "deadline": "2026-09-25",
+    "discoverer": "Richard Chen of TrendAI Research",
+    "kind": "upcoming",
+    "reported_date": "2026-05-28",
+    "status": "upcoming",
+    "vendor": "Microsoft",
+    "vendor_url": "https://www.microsoft.com",
+    "zdi_can": "ZDI-CAN-31478"
+  },
+  {
+    "cvss": 6.5,
+    "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+    "deadline": "2026-09-25",
+    "discoverer": "pl4tyz",
+    "kind": "upcoming",
+    "reported_date": "2026-05-28",
+    "status": "upcoming",
+    "vendor": "Apache",
+    "vendor_url": "https://www.apache.org/",
+    "zdi_can": "ZDI-CAN-28625"
+  },
+  {
+    "cvss": 7.2,
+    "cvss_vector": "AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+    "deadline": "2026-09-25",
+    "discoverer": "Jonathan Lein of TrendAI Research",
+    "kind": "upcoming",
+    "reported_date": "2026-05-28",
+    "status": "upcoming",
+    "vendor": "Cisco",
+    "vendor_url": "https://www.cisco.com",
+    "zdi_can": "ZDI-CAN-31320"
+  },
+  {
+    "cvss": 4.9,
+    "cvss_vector": "AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N",
+    "deadline": "2026-09-25",
+    "discoverer": "Jonathan Lein of TrendAI Research",
+    "kind": "upcoming",
+    "reported_date": "2026-05-28",
+    "status": "upcoming",
+    "vendor": "Cisco",
+    "vendor_url": "https://www.cisco.com",
+    "zdi_can": "ZDI-CAN-31322"
+  },
+  {
+    "cvss": 6.7,
+    "cvss_vector": "AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+    "deadline": "2026-09-25",
+    "discoverer": "David Bors (@davidxbors), Catalin Iovita (@ciovita)",
+    "kind": "upcoming",
+    "reported_date": "2026-05-28",
+    "status": "upcoming",
+    "vendor": "Debian",
+    "vendor_url": null,
+    "zdi_can": "ZDI-CAN-30693"
+  },
+  {
+    "cvss": 4.7,
+    "cvss_vector": "AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H",
+    "deadline": "2026-09-25",
+    "discoverer": "HeeChan Kim (@heegong123) of TeamH4C",
+    "kind": "upcoming",
+    "reported_date": "2026-05-28",
+    "status": "upcoming",
+    "vendor": "Microsoft",
+    "vendor_url": "https://www.microsoft.com",
+    "zdi_can": "ZDI-CAN-29932"
+  },
+  {
+    "cvss": 6.0,
+    "cvss_vector": "AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:N/A:N",
+    "deadline": "2026-09-25",
+    "discoverer": "Lucas Leong (@_wmliang_) of TrendAI Zero Day Initiative",
+    "kind": "upcoming",
+    "reported_date": "2026-05-28",
+    "status": "upcoming",
+    "vendor": "Linux",
+    "vendor_url": "https://www.linux.org/",
+    "zdi_can": "ZDI-CAN-31585"
+  },
+  {
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "deadline": "2026-09-25",
+    "discoverer": "winters0x64",
+    "kind": "upcoming",
+    "reported_date": "2026-05-28",
+    "status": "upcoming",
+    "vendor": "NVIDIA",
+    "vendor_url": "https://www.nvidia.com/en-us/",
+    "zdi_can": "ZDI-CAN-29471"
+  },
+  {
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
     "deadline": "2026-09-22",
     "discoverer": "Nurihan Kim (HanTul), Hyeon-gyu Lee (hy30nq)",
     "kind": "upcoming",
@@ -4224,18 +4320,6 @@
     "zdi_can": "ZDI-CAN-29262"
   },
   {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-    "deadline": "2026-06-30",
-    "discoverer": "Lays (@_L4ys) of TRAPA Security",
-    "kind": "upcoming",
-    "reported_date": "2026-03-02",
-    "status": "upcoming",
-    "vendor": "Trend Micro",
-    "vendor_url": "https://www.trendmicro.com",
-    "zdi_can": "ZDI-CAN-29177"
-  },
-  {
     "cvss": 7.0,
     "cvss_vector": "AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
     "deadline": "2026-06-30",
@@ -5580,18 +5664,6 @@
     "zdi_can": "ZDI-CAN-28216"
   },
   {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-    "deadline": "2026-02-26",
-    "discoverer": "Lays (@_L4ys) of TRAPA Security",
-    "kind": "upcoming",
-    "reported_date": "2025-10-29",
-    "status": "upcoming",
-    "vendor": "Trend Micro",
-    "vendor_url": "https://www.trendmicro.com",
-    "zdi_can": "ZDI-CAN-28061"
-  },
-  {
     "cvss": 7.7,
     "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N",
     "deadline": "2026-02-26",
@@ -5626,54 +5698,6 @@
     "vendor": "Trend Micro",
     "vendor_url": "https://www.trendmicro.com",
     "zdi_can": "ZDI-CAN-27896"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-    "deadline": "2026-02-26",
-    "discoverer": "Lays (@_L4ys) of TRAPA Security",
-    "kind": "upcoming",
-    "reported_date": "2025-10-29",
-    "status": "upcoming",
-    "vendor": "Trend Micro",
-    "vendor_url": "https://www.trendmicro.com",
-    "zdi_can": "ZDI-CAN-27959"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-    "deadline": "2026-02-26",
-    "discoverer": "Lays (@_L4ys) of TRAPA Security",
-    "kind": "upcoming",
-    "reported_date": "2025-10-29",
-    "status": "upcoming",
-    "vendor": "Trend Micro",
-    "vendor_url": "https://www.trendmicro.com",
-    "zdi_can": "ZDI-CAN-28118"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-    "deadline": "2026-02-26",
-    "discoverer": "Lays (@_L4ys) of TRAPA Security",
-    "kind": "upcoming",
-    "reported_date": "2025-10-29",
-    "status": "upcoming",
-    "vendor": "Trend Micro",
-    "vendor_url": "https://www.trendmicro.com",
-    "zdi_can": "ZDI-CAN-28089"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-    "deadline": "2026-02-26",
-    "discoverer": "Lays (@_L4ys) of TRAPA Security",
-    "kind": "upcoming",
-    "reported_date": "2025-10-29",
-    "status": "upcoming",
-    "vendor": "Trend Micro",
-    "vendor_url": "https://www.trendmicro.com",
-    "zdi_can": "ZDI-CAN-28077"
   },
   {
     "cvss": 8.8,
@@ -5986,18 +6010,6 @@
     "vendor": "Fuji Electric",
     "vendor_url": "https://www.fujielectric.com",
     "zdi_can": "ZDI-CAN-27670"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-    "deadline": "2026-01-09",
-    "discoverer": "Lays (@_L4ys) of TRAPA Security",
-    "kind": "upcoming",
-    "reported_date": "2025-09-11",
-    "status": "upcoming",
-    "vendor": "Trend Micro",
-    "vendor_url": "https://www.trendmicro.com",
-    "zdi_can": "ZDI-CAN-27982"
   },
   {
     "cvss": 7.8,
