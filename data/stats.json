@@ -62,8 +62,8 @@
   "total_published": 16734,
   "total_upcoming": 559,
   "upcoming_deadline_state": {
-    "due_soon": 70,
-    "future": 368,
+    "due_soon": 78,
+    "future": 360,
     "past_due": 121
   }
 }
