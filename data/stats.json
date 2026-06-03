@@ -1,13 +1,13 @@
 {
   "by_cvss_band": {
     "critical": 2365,
-    "high": 9153,
-    "low": 1429,
-    "medium": 4009,
+    "high": 9165,
+    "low": 1430,
+    "medium": 4017,
     "unknown": 337
   },
   "by_vendor": {
-    "Adobe": 2006,
+    "Adobe": 2010,
     "Advantech": 734,
     "Apple": 811,
     "Autodesk": 508,
@@ -23,7 +23,7 @@
     "IrfanView": 180,
     "Ivanti": 179,
     "Linux": 127,
-    "Microsoft": 1895,
+    "Microsoft": 1896,
     "Novell": 130,
     "Oracle": 499,
     "PDF-XChange": 280,
@@ -58,12 +58,12 @@
     "2026": 326
   },
   "cve_coverage": 15142,
-  "high_cvss": 11518,
+  "high_cvss": 11530,
   "total_published": 16734,
-  "total_upcoming": 559,
+  "total_upcoming": 580,
   "upcoming_deadline_state": {
     "due_soon": 78,
-    "future": 360,
+    "future": 381,
     "past_due": 121
   }
 }
