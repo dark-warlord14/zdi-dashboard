@@ -1416,18 +1416,6 @@
     "zdi_can": "ZDI-CAN-28519"
   },
   {
-    "cvss": 6.5,
-    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:C/C:N/I:N/A:H",
-    "deadline": "2026-08-28",
-    "discoverer": "Nitesh Surana (niteshsurana.com) of TrendAI Research",
-    "kind": "upcoming",
-    "reported_date": "2026-04-30",
-    "status": "upcoming",
-    "vendor": "Docker",
-    "vendor_url": "https://www.docker.com/",
-    "zdi_can": "ZDI-CAN-30796"
-  },
-  {
     "cvss": 7.8,
     "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
     "deadline": "2026-08-28",

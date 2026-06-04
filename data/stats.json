@@ -3,7 +3,7 @@
     "critical": 2365,
     "high": 9165,
     "low": 1430,
-    "medium": 4017,
+    "medium": 4016,
     "unknown": 337
   },
   "by_vendor": {
@@ -60,10 +60,10 @@
   "cve_coverage": 15142,
   "high_cvss": 11530,
   "total_published": 16734,
-  "total_upcoming": 580,
+  "total_upcoming": 579,
   "upcoming_deadline_state": {
-    "due_soon": 78,
-    "future": 381,
-    "past_due": 121
+    "due_soon": 79,
+    "future": 377,
+    "past_due": 123
   }
 }
