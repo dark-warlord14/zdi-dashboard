@@ -1,5 +1,29 @@
 [
   {
+    "cvss": 9.8,
+    "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "deadline": "2026-10-02",
+    "discoverer": "Ahmed Kamal of TrendAI",
+    "kind": "upcoming",
+    "reported_date": "2026-06-04",
+    "status": "upcoming",
+    "vendor": "Devman",
+    "vendor_url": "https://devmanextensions.com/",
+    "zdi_can": "ZDI-CAN-31724"
+  },
+  {
+    "cvss": 7.2,
+    "cvss_vector": "AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+    "deadline": "2026-10-02",
+    "discoverer": "Andy Niu of TrendAI Research",
+    "kind": "upcoming",
+    "reported_date": "2026-06-04",
+    "status": "upcoming",
+    "vendor": "Cisco",
+    "vendor_url": "https://www.cisco.com",
+    "zdi_can": "ZDI-CAN-31647"
+  },
+  {
     "cvss": 5.0,
     "cvss_vector": "AV:L/AC:H/PR:L/UI:R/S:U/C:N/I:L/A:H",
     "deadline": "2026-09-30",
@@ -4258,18 +4282,6 @@
     "vendor": "vLLM",
     "vendor_url": "https://github.com/vllm-project",
     "zdi_can": "ZDI-CAN-30098"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-    "deadline": "2026-07-23",
-    "discoverer": "Gu YongZeng (@0x0dee)",
-    "kind": "upcoming",
-    "reported_date": "2026-03-25",
-    "status": "upcoming",
-    "vendor": "ASUS",
-    "vendor_url": "https://www.asus.com/",
-    "zdi_can": "ZDI-CAN-28776"
   },
   {
     "cvss": 5.4,
