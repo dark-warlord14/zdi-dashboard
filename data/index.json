@@ -318041,6 +318041,32 @@
     "zdi_id": "ZDI-05-001"
   },
   {
+    "cvss": 7.0,
+    "cvss_vector": "AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "deadline": "2026-10-03",
+    "discoverer": "Lunbun LLC (Landon Peng)",
+    "id": "ZDI-CAN-30169",
+    "kind": "upcoming",
+    "reported_date": "2026-06-05",
+    "status": "upcoming",
+    "vendor": "7-Zip",
+    "vendor_url": null,
+    "zdi_can": "ZDI-CAN-30169"
+  },
+  {
+    "cvss": 6.7,
+    "cvss_vector": "AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+    "deadline": "2026-10-03",
+    "discoverer": "David Bors (@davidxbors), Catalin Iovita (@ciovita)",
+    "id": "ZDI-CAN-31716",
+    "kind": "upcoming",
+    "reported_date": "2026-06-05",
+    "status": "upcoming",
+    "vendor": "Canonical",
+    "vendor_url": "https://canonical.com/",
+    "zdi_can": "ZDI-CAN-31716"
+  },
+  {
     "cvss": 9.8,
     "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
     "deadline": "2026-10-02",
