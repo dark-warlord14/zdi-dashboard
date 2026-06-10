@@ -1,0 +1,28 @@
+{
+  "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb26-63.html",
+  "advisory_date": "2026-06-09",
+  "affected_products": [
+    "Acrobat Reader DC"
+  ],
+  "affected_vendors": [
+    "Adobe"
+  ],
+  "credit": "Mark Vincent Yason (markyason.github.io)",
+  "cve": "CVE-2026-47923",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-47923",
+  "cvss": 3.3,
+  "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+  "disclosure_timeline": [
+    "2026-03-30 - Vulnerability reported to vendor",
+    "2026-06-09 - Coordinated public release of advisory",
+    "2026-06-09 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-26-344 ZDI-CAN-29477 Adobe Acrobat Reader DC Doc Object Out-Of-Bounds Read Information Disclosure Vulnerability 2026-06-09 CVE-2026-47923 https://www.cve.org/CVERecord?id=CVE-2026-47923 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N ['Adobe'] ['Acrobat Reader DC'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Adobe Acrobat Reader DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Doc objects. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated object. An attacker can leverage this vulnerability in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb26-63.html ['2026-03-30 - Vulnerability reported to vendor', '2026-06-09 - Coordinated public release of advisory', '2026-06-09 - Advisory Updated'] Mark Vincent Yason (markyason.github.io) https://www.zerodayinitiative.com/advisories/ZDI-26-344/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-344/",
+  "title": "Adobe Acrobat Reader DC Doc Object Out-Of-Bounds Read Information Disclosure Vulnerability",
+  "updated_date": "2026-06-09",
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Adobe Acrobat Reader DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Doc objects. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated object. An attacker can leverage this vulnerability in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-29477",
+  "zdi_id": "ZDI-26-344"
+}

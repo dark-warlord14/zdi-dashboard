@@ -1,0 +1,28 @@
+{
+  "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/formatplugins/apsb26-65.html",
+  "advisory_date": "2026-06-09",
+  "affected_products": [
+    "USD-Fileformat-plugins"
+  ],
+  "affected_vendors": [
+    "Adobe"
+  ],
+  "credit": "DongHyeon Hwang (kind_killerwhale)",
+  "cve": "CVE-2026-48292",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-48292",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2026-04-09 - Vulnerability reported to vendor",
+    "2026-06-09 - Coordinated public release of advisory",
+    "2026-06-09 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-26-351 ZDI-CAN-30375 Adobe USD-Fileformat-plugins Heap-based Buffer Overflow Remote Code Execution Vulnerability 2026-06-09 CVE-2026-48292 https://www.cve.org/CVERecord?id=CVE-2026-48292 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Adobe'] ['USD-Fileformat-plugins'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Adobe USD-Fileformat-plugins. Interaction with the USD library is required to exploit this vulnerability but attack vectors may vary depending on the implementation. The specific flaw exists within the usdGltf plugin. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/formatplugins/apsb26-65.html ['2026-04-09 - Vulnerability reported to vendor', '2026-06-09 - Coordinated public release of advisory', '2026-06-09 - Advisory Updated'] DongHyeon Hwang (kind_killerwhale) https://www.zerodayinitiative.com/advisories/ZDI-26-351/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-351/",
+  "title": "Adobe USD-Fileformat-plugins Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+  "updated_date": "2026-06-09",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Adobe USD-Fileformat-plugins. Interaction with the USD library is required to exploit this vulnerability but attack vectors may vary depending on the implementation. The specific flaw exists within the usdGltf plugin. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-30375",
+  "zdi_id": "ZDI-26-351"
+}
