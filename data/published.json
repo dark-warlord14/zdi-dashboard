@@ -1,5 +1,21 @@
 [
   {
+    "cve": "CVE-2026-27220",
+    "cvss": 7.8,
+    "cvss_vector": null,
+    "description_snippet": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Adobe Acrobat Reader DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The...",
+    "detail_path": "advisories/ZDI-26-355",
+    "kind": "published",
+    "published_date": "2026-06-10",
+    "title": "Adobe Acrobat Reader DC Annotation Use-After-Free Remote Code Execution Vulnerability",
+    "updated_date": "2026-06-10",
+    "url": "https://www.zerodayinitiative.com/advisories/ZDI-26-355/",
+    "vendor": "Adobe",
+    "vendor_url": null,
+    "zdi_can": "ZDI-CAN-28816",
+    "zdi_id": "ZDI-26-355"
+  },
+  {
     "cve": "CVE-2026-47919",
     "cvss": 7.8,
     "cvss_vector": null,
@@ -419,16 +435,16 @@
     "cve": "CVE-2026-7480",
     "cvss": 7.8,
     "cvss_vector": null,
-    "description_snippet": "This vulnerability allows local attackers to escalate privileges on affected installations of ASUS Business Manager. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The spec...",
+    "description_snippet": "This vulnerability allows local attackers to escalate privileges on affected installations of ASUS MyASUS. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw...",
     "detail_path": "advisories/ZDI-26-328",
     "kind": "published",
-    "published_date": "2026-06-04",
-    "title": "ASUS Business Manager Service Client-Side Authentication Local Privilege Escalation Vulnerability",
-    "updated_date": "2026-06-04",
+    "published_date": "2026-06-10",
+    "title": "ASUS MyASUS Origin Validation Error Local Privilege Escalation Vulnerability",
+    "updated_date": "2026-06-10",
     "url": "https://www.zerodayinitiative.com/advisories/ZDI-26-328/",
     "vendor": "ASUS",
     "vendor_url": null,
-    "zdi_can": "ZDI-CAN-28776",
+    "zdi_can": "ZDI-CAN-28489",
     "zdi_id": "ZDI-26-328"
   },
   {

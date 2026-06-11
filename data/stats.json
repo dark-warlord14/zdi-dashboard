@@ -1,13 +1,13 @@
 {
   "by_cvss_band": {
-    "critical": 2367,
-    "high": 9171,
-    "low": 1430,
-    "medium": 4024,
+    "critical": 2369,
+    "high": 9186,
+    "low": 1431,
+    "medium": 4028,
     "unknown": 337
   },
   "by_vendor": {
-    "Adobe": 2010,
+    "Adobe": 2014,
     "Advantech": 734,
     "Apple": 811,
     "Autodesk": 508,
@@ -22,10 +22,10 @@
     "Hewlett-Packard": 241,
     "IrfanView": 180,
     "Ivanti": 179,
-    "Linux": 127,
+    "Linux": 137,
     "Microsoft": 1899,
     "Novell": 130,
-    "Oracle": 499,
+    "Oracle": 506,
     "PDF-XChange": 280,
     "SAP": 226,
     "Schneider Electric": 162,
@@ -55,15 +55,15 @@
     "2023": 1908,
     "2024": 1749,
     "2025": 1203,
-    "2026": 354
+    "2026": 355
   },
-  "cve_coverage": 15170,
-  "high_cvss": 11538,
-  "total_published": 16762,
-  "total_upcoming": 567,
+  "cve_coverage": 15171,
+  "high_cvss": 11555,
+  "total_published": 16763,
+  "total_upcoming": 588,
   "upcoming_deadline_state": {
-    "due_soon": 64,
-    "future": 366,
-    "past_due": 137
+    "due_soon": 71,
+    "future": 381,
+    "past_due": 136
   }
 }
