@@ -73,7 +73,7 @@ def load_existing_detail(
 ) -> AdvisoryDetail | None:
     year = advisory_year(record.zdi_id, published_lookup)
     existing = chunks.get(year, {}).get(record.zdi_id)
-    if existing and record.updated_date and existing.updated_date == record.updated_date:
+    if existing and existing.updated_date == record.updated_date:
         return existing
     return None
 
