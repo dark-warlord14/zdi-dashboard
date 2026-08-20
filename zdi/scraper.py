@@ -118,6 +118,28 @@ def description_snippet(detail: AdvisoryDetail | None, max_length: int = 260) ->
     return text[: max_length - 1].rstrip() + "..."
 
 
+def advisory_year(zdi_id: str, published_lookup: dict[str, str], detail: AdvisoryDetail | None = None) -> str:
+    """Return the 4-digit year bucket for an advisory, or 'unknown' if it can't be determined."""
+    published_date = published_lookup.get(zdi_id)
+    if published_date and published_date[:4].isdigit():
+        return published_date[:4]
+    if detail and detail.advisory_date and detail.advisory_date[:4].isdigit():
+        return detail.advisory_date[:4]
+    return "unknown"
+
+
+def group_details_by_year(
+    details: dict[str, AdvisoryDetail],
+    published: list[PublishedAdvisory],
+) -> dict[str, dict[str, AdvisoryDetail]]:
+    published_lookup = {record.zdi_id: record.published_date for record in published if record.published_date}
+    grouped: dict[str, dict[str, AdvisoryDetail]] = {}
+    for zdi_id, detail in details.items():
+        year = advisory_year(zdi_id, published_lookup, detail)
+        grouped.setdefault(year, {})[zdi_id] = detail
+    return grouped
+
+
 def published_entries(published: list[PublishedAdvisory], details: dict[str, AdvisoryDetail]) -> list[dict]:
     entries: list[dict] = []
     for record in published:

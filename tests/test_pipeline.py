@@ -3,7 +3,7 @@ import json
 import pytest
 
 from zdi.models import AdvisoryDetail, PublishedAdvisory, UpcomingAdvisory
-from zdi.scraper import guard_against_empty_scrape, write_public_data
+from zdi.scraper import advisory_year, group_details_by_year, guard_against_empty_scrape, write_public_data
 from zdi.stats import build_stats
 
 
@@ -47,6 +47,40 @@ def sample_detail() -> AdvisoryDetail:
         vulnerability_details="Local attackers can escalate privileges.",
         source_url="https://www.zerodayinitiative.com/advisories/ZDI-26-040/",
     )
+
+
+def test_advisory_year_uses_published_date_first():
+    lookup = {"ZDI-26-001": "2026-03-01"}
+    assert advisory_year("ZDI-26-001", lookup) == "2026"
+
+
+def test_advisory_year_falls_back_to_detail_advisory_date():
+    detail = AdvisoryDetail(
+        zdi_id="ZDI-10-001", title="Old", source_url="https://x", advisory_date="2010-05-01"
+    )
+    assert advisory_year("ZDI-10-001", {}, detail) == "2010"
+
+
+def test_advisory_year_falls_back_to_unknown_when_no_date_available():
+    assert advisory_year("ZDI-00-000", {}) == "unknown"
+
+
+def test_group_details_by_year_buckets_by_published_date():
+    published = [
+        sample_published(),
+        PublishedAdvisory(
+            zdi_id="ZDI-10-001", title="Old", url="https://x", published_date="2010-05-01"
+        ),
+    ]
+    details = {
+        "ZDI-26-040": sample_detail(),
+        "ZDI-10-001": AdvisoryDetail(zdi_id="ZDI-10-001", title="Old", source_url="https://x"),
+    }
+
+    grouped = group_details_by_year(details, published)
+
+    assert set(grouped["2026"]) == {"ZDI-26-040"}
+    assert set(grouped["2010"]) == {"ZDI-10-001"}
 
 
 def test_build_stats_counts_core_dimensions():
