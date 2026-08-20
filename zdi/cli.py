@@ -5,8 +5,15 @@ from pathlib import Path
 import click
 
 from zdi.config import DATA_DIR
-from zdi.models import AdvisoryDetail, PublishedAdvisory, UpcomingAdvisory
-from zdi.scraper import load_advisory_chunks, run as run_pipeline, scrape_published, scrape_upcoming, write_public_data
+from zdi.models import PublishedAdvisory, UpcomingAdvisory
+from zdi.scraper import (
+    flatten_advisory_chunks,
+    load_advisory_chunks,
+    run as run_pipeline,
+    scrape_published,
+    scrape_upcoming,
+    write_public_data,
+)
 from zdi.server import serve as serve_dashboard
 
 
@@ -48,9 +55,7 @@ def rebuild_index(data_dir: Path) -> None:
         UpcomingAdvisory.model_validate(item)
         for item in json.loads((data_dir / "upcoming.json").read_text(encoding="utf-8"))
     ]
-    details: dict[str, AdvisoryDetail] = {}
-    for year_details in load_advisory_chunks(data_dir).values():
-        details.update(year_details)
+    details = flatten_advisory_chunks(load_advisory_chunks(data_dir))
     write_public_data(data_dir, published, upcoming, details)
     click.echo(f"Rebuilt index for {len(published)} published and {len(upcoming)} upcoming advisories")
 

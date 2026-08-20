@@ -5,6 +5,7 @@ import pytest
 from zdi.models import AdvisoryDetail, PublishedAdvisory, UpcomingAdvisory
 from zdi.scraper import (
     advisory_year,
+    flatten_advisory_chunks,
     group_details_by_year,
     guard_against_empty_scrape,
     guard_against_year_chunk_collapse,
@@ -72,11 +73,11 @@ def test_advisory_year_falls_back_to_detail_advisory_date():
 def test_load_existing_detail_reuses_cache_when_updated_date_matches():
     cached = sample_detail()
     cached.updated_date = "2026-01-09"
-    chunks = {"2026": {"ZDI-26-040": cached}}
+    flat_chunks = {"ZDI-26-040": cached}
     record = sample_published()
     record.updated_date = "2026-01-09"
 
-    result = load_existing_detail(chunks, {"ZDI-26-040": "2026-01-09"}, record)
+    result = load_existing_detail(flat_chunks, record)
 
     assert result is cached
 
@@ -84,11 +85,11 @@ def test_load_existing_detail_reuses_cache_when_updated_date_matches():
 def test_load_existing_detail_misses_cache_when_updated_date_differs():
     cached = sample_detail()
     cached.updated_date = "2026-01-01"
-    chunks = {"2026": {"ZDI-26-040": cached}}
+    flat_chunks = {"ZDI-26-040": cached}
     record = sample_published()
     record.updated_date = "2026-01-09"
 
-    result = load_existing_detail(chunks, {"ZDI-26-040": "2026-01-09"}, record)
+    result = load_existing_detail(flat_chunks, record)
 
     assert result is None
 
@@ -96,11 +97,11 @@ def test_load_existing_detail_misses_cache_when_updated_date_differs():
 def test_load_existing_detail_reuses_cache_when_updated_date_is_null_on_both_sides():
     cached = sample_detail()
     cached.updated_date = None
-    chunks = {"2026": {"ZDI-26-040": cached}}
+    flat_chunks = {"ZDI-26-040": cached}
     record = sample_published()
     record.updated_date = None
 
-    result = load_existing_detail(chunks, {"ZDI-26-040": "2026-01-09"}, record)
+    result = load_existing_detail(flat_chunks, record)
 
     assert result is cached
 
@@ -108,13 +109,23 @@ def test_load_existing_detail_reuses_cache_when_updated_date_is_null_on_both_sid
 def test_load_existing_detail_misses_cache_when_only_new_updated_date_is_present():
     cached = sample_detail()
     cached.updated_date = None
-    chunks = {"2026": {"ZDI-26-040": cached}}
+    flat_chunks = {"ZDI-26-040": cached}
     record = sample_published()
     record.updated_date = "2026-01-09"
 
-    result = load_existing_detail(chunks, {"ZDI-26-040": "2026-01-09"}, record)
+    result = load_existing_detail(flat_chunks, record)
 
     assert result is None
+
+
+def test_flatten_advisory_chunks_merges_multiple_years():
+    detail_2026 = sample_detail()
+    detail_2010 = AdvisoryDetail(zdi_id="ZDI-10-001", title="Old", source_url="https://x")
+    chunks = {"2026": {"ZDI-26-040": detail_2026}, "2010": {"ZDI-10-001": detail_2010}}
+
+    flat = flatten_advisory_chunks(chunks)
+
+    assert flat == {"ZDI-26-040": detail_2026, "ZDI-10-001": detail_2010}
 
 
 def test_advisory_year_falls_back_to_unknown_when_no_date_available():

@@ -67,12 +67,10 @@ def scrape_upcoming(fetch=fetch_html) -> list[UpcomingAdvisory]:
 
 
 def load_existing_detail(
-    chunks: dict[str, dict[str, AdvisoryDetail]],
-    published_lookup: dict[str, str],
+    flat_chunks: dict[str, AdvisoryDetail],
     record: PublishedAdvisory,
 ) -> AdvisoryDetail | None:
-    year = advisory_year(record.zdi_id, published_lookup)
-    existing = chunks.get(year, {}).get(record.zdi_id)
+    existing = flat_chunks.get(record.zdi_id)
     if existing and existing.updated_date == record.updated_date:
         return existing
     return None
@@ -80,11 +78,10 @@ def load_existing_detail(
 
 def fetch_detail(
     record: PublishedAdvisory,
-    chunks: dict[str, dict[str, AdvisoryDetail]],
-    published_lookup: dict[str, str],
+    flat_chunks: dict[str, AdvisoryDetail],
     fetch=fetch_html,
 ) -> AdvisoryDetail:
-    existing = load_existing_detail(chunks, published_lookup, record)
+    existing = load_existing_detail(flat_chunks, record)
     if existing:
         return existing
     html = fetch(record.url)
@@ -100,14 +97,13 @@ def scrape_details(
     max_workers: int = 12,
     verbose: bool = False,
 ) -> dict[str, AdvisoryDetail]:
-    chunks = load_advisory_chunks(data_dir)
-    published_lookup = {record.zdi_id: record.published_date for record in records if record.published_date}
+    flat_chunks = flatten_advisory_chunks(load_advisory_chunks(data_dir))
     details: dict[str, AdvisoryDetail] = {}
     total = len(records)
     completed = 0
     with ThreadPoolExecutor(max_workers=max_workers) as executor:
         futures = {
-            executor.submit(fetch_detail, record, chunks, published_lookup, fetch): record
+            executor.submit(fetch_detail, record, flat_chunks, fetch): record
             for record in records
         }
         for future in as_completed(futures):
@@ -167,6 +163,14 @@ def load_advisory_chunks(data_dir: Path) -> dict[str, dict[str, AdvisoryDetail]]
         except (json.JSONDecodeError, OSError, ValidationError):
             continue
     return chunks
+
+
+def flatten_advisory_chunks(chunks: dict[str, dict[str, AdvisoryDetail]]) -> dict[str, AdvisoryDetail]:
+    """Flatten year-chunked details into a single ID-keyed dict (ZDI IDs are globally unique)."""
+    flat: dict[str, AdvisoryDetail] = {}
+    for details_by_id in chunks.values():
+        flat.update(details_by_id)
+    return flat
 
 
 def write_advisory_chunks(data_dir: Path, grouped: dict[str, dict[str, AdvisoryDetail]]) -> None:
