@@ -266,6 +266,17 @@ def test_write_public_data_guard_runs_before_any_file_is_written(tmp_path):
     assert not (tmp_path / "stats.json").exists()
 
 
+def test_write_public_data_with_empty_details_skips_guard_and_leaves_chunks_untouched(tmp_path):
+    write_advisory_chunks(tmp_path, {"2026": {f"ZDI-26-{i:03d}": sample_detail() for i in range(20)}})
+    before = (tmp_path / "advisories" / "2026.json").read_bytes()
+
+    write_public_data(tmp_path, [sample_published()], [], {})
+
+    after = (tmp_path / "advisories" / "2026.json").read_bytes()
+    assert before == after
+    assert (tmp_path / "published.json").exists()
+
+
 def test_guard_against_empty_scrape_raises_when_published_collapses(tmp_path):
     (tmp_path / "published.json").write_text(json.dumps([{"id": i} for i in range(20)]), encoding="utf-8")
 
