@@ -235,6 +235,24 @@ def test_load_advisory_chunks_skips_schema_invalid_file_but_keeps_valid_ones(tmp
     assert loaded["2025"]["ZDI-25-001"].title == sample_detail().title
 
 
+def test_load_advisory_chunks_skips_non_dict_json(tmp_path):
+    advisories_dir = tmp_path / "advisories"
+    advisories_dir.mkdir()
+    (advisories_dir / "2026.json").write_text("[]", encoding="utf-8")
+    (advisories_dir / "2025.json").write_text("null", encoding="utf-8")
+    (advisories_dir / "2024.json").write_text("42", encoding="utf-8")
+
+    assert load_advisory_chunks(tmp_path) == {}
+
+
+def test_guard_against_year_chunk_collapse_skips_non_dict_json(tmp_path):
+    advisories_dir = tmp_path / "advisories"
+    advisories_dir.mkdir()
+    (advisories_dir / "2026.json").write_text("42", encoding="utf-8")
+
+    guard_against_year_chunk_collapse(tmp_path, {"2026": {"ZDI-26-001": sample_detail()}})
+
+
 def test_guard_against_year_chunk_collapse_raises_on_drop(tmp_path):
     write_advisory_chunks(tmp_path, {"2026": {f"ZDI-26-{i:03d}": sample_detail() for i in range(20)}})
 

@@ -159,6 +159,8 @@ def load_advisory_chunks(data_dir: Path) -> dict[str, dict[str, AdvisoryDetail]]
     for path in advisories_dir.glob("*.json"):
         try:
             raw = json.loads(path.read_text(encoding="utf-8"))
+            if not isinstance(raw, dict):
+                continue
             chunks[path.stem] = {
                 zdi_id: AdvisoryDetail.model_validate(payload) for zdi_id, payload in raw.items()
             }
@@ -251,7 +253,7 @@ def guard_against_year_chunk_collapse(data_dir: Path, grouped: dict[str, dict[st
             continue
         try:
             existing_count = len(json.loads(path.read_text(encoding="utf-8")))
-        except (json.JSONDecodeError, OSError):
+        except (json.JSONDecodeError, OSError, TypeError):
             continue
         new_count = len(grouped.get(year, {}))
         if existing_count >= 10 and new_count < existing_count * 0.5:
