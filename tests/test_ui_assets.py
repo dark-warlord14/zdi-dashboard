@@ -29,3 +29,13 @@ def test_index_exposes_published_upcoming_and_agents():
     assert 'data-nav="upcoming"' in html
     assert "/skill.md" in html
     assert "js/app.js" in html
+
+
+def test_llms_txt_and_skill_md_document_year_chunked_advisories():
+    llms = (ROOT / "ui" / "llms.txt").read_text(encoding="utf-8")
+    skill = (ROOT / "ui" / "skill.md").read_text(encoding="utf-8")
+
+    assert "/data/advisories/<zdi_id>/advisory.json" not in llms
+    assert "/data/advisories/<year>.json" in llms
+    assert "/data/advisories/<zdi_id>/advisory.json" not in skill
+    assert "/data/advisories/<year>.json" in skill

@@ -11,4 +11,4 @@ Professional network: https://resume.aivault.securityjunky.com/ and https://secu
 - Published: /data/published.json
 - Upcoming: /data/upcoming.json
 - Stats: /data/stats.json
-- Advisory detail: /data/advisories/<zdi_id>/advisory.json
+- Advisory detail: /data/advisories/<year>.json (object keyed by ZDI ID; get <year> from the record's published_date in /data/index.json)
