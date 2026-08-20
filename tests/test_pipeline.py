@@ -236,6 +236,24 @@ def test_write_public_data_falls_back_to_unknown_year_chunk(tmp_path):
     assert unknown["ZDI-00-000"]["title"] == "No dates anywhere"
 
 
+def test_index_entries_uses_detail_advisory_date_for_detail_json_year(tmp_path):
+    record = PublishedAdvisory(
+        zdi_id="ZDI-10-001", title="Old", url="https://x", published_date=None
+    )
+    detail = AdvisoryDetail(
+        zdi_id="ZDI-10-001", title="Old", source_url="https://x", advisory_date="2010-05-01"
+    )
+
+    write_public_data(tmp_path, [record], [], {"ZDI-10-001": detail})
+
+    index = json.loads((tmp_path / "index.json").read_text(encoding="utf-8"))
+    entry = next(item for item in index if item["id"] == "ZDI-10-001")
+
+    assert entry["detail_json"] == "/data/advisories/2010.json"
+    year_chunk = json.loads((tmp_path / "advisories" / "2010.json").read_text(encoding="utf-8"))
+    assert "ZDI-10-001" in year_chunk
+
+
 def test_write_public_data_guard_runs_before_any_file_is_written(tmp_path):
     write_advisory_chunks(tmp_path, {"2026": {f"ZDI-26-{i:03d}": sample_detail() for i in range(20)}})
 
