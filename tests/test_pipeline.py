@@ -347,6 +347,15 @@ def test_guard_against_year_chunk_collapse_skips_non_dict_json(tmp_path):
     guard_against_year_chunk_collapse(tmp_path, {"2026": {"ZDI-26-001": sample_detail()}})
 
 
+def test_guard_against_year_chunk_collapse_skips_json_array_instead_of_miscounting_len(tmp_path):
+    advisories_dir = tmp_path / "advisories"
+    advisories_dir.mkdir()
+    (advisories_dir / "2025.json").write_text(json.dumps([1] * 20), encoding="utf-8")
+    (advisories_dir / "2024.json").write_text(json.dumps("a very long string" * 5), encoding="utf-8")
+
+    guard_against_year_chunk_collapse(tmp_path, {})
+
+
 def test_guard_against_year_chunk_collapse_raises_on_drop(tmp_path):
     write_advisory_chunks(tmp_path, {"2026": {f"ZDI-26-{i:03d}": sample_detail() for i in range(20)}})
 

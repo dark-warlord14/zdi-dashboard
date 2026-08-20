@@ -266,9 +266,12 @@ def guard_against_year_chunk_collapse(data_dir: Path, grouped: dict[str, dict[st
             # (4-digit) years count as a suspicious collapse when absent from `grouped`.
             continue
         try:
-            existing_count = len(json.loads(path.read_text(encoding="utf-8")))
-        except (json.JSONDecodeError, OSError, TypeError):
+            raw = json.loads(path.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, OSError):
             continue
+        if not isinstance(raw, dict):
+            continue
+        existing_count = len(raw)
         new_count = len(grouped.get(year, {}))
         if existing_count >= 10 and new_count < existing_count * 0.5:
             raise RuntimeError(
