@@ -1,7 +1,9 @@
 import json
 
+import pytest
+
 from zdi.models import AdvisoryDetail, PublishedAdvisory, UpcomingAdvisory
-from zdi.scraper import write_public_data
+from zdi.scraper import guard_against_empty_scrape, write_public_data
 from zdi.stats import build_stats
 
 
@@ -76,3 +78,20 @@ def test_write_public_data_creates_index_and_detail_files(tmp_path):
     assert published[0]["description_snippet"] == "Local attackers can escalate privileges."
     assert upcoming[0]["zdi_can"] == "ZDI-CAN-30796"
     assert detail_json.exists()
+
+
+def test_guard_against_empty_scrape_raises_when_published_collapses(tmp_path):
+    (tmp_path / "published.json").write_text(json.dumps([{"id": i} for i in range(20)]), encoding="utf-8")
+
+    with pytest.raises(RuntimeError):
+        guard_against_empty_scrape(tmp_path, [], [sample_upcoming()])
+
+
+def test_guard_against_empty_scrape_allows_normal_fluctuation(tmp_path):
+    (tmp_path / "published.json").write_text(json.dumps([{"id": i} for i in range(20)]), encoding="utf-8")
+
+    guard_against_empty_scrape(tmp_path, [sample_published() for _ in range(18)], [sample_upcoming()])
+
+
+def test_guard_against_empty_scrape_ignores_missing_existing_file(tmp_path):
+    guard_against_empty_scrape(tmp_path, [], [])

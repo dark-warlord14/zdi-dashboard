@@ -36,9 +36,13 @@ def parse_float(value: str | None) -> float | None:
 def extract_vector(url: str | None) -> str | None:
     if not url:
         return None
-    query = parse_qs(urlparse(url).query)
+    parsed = urlparse(url)
+    query = parse_qs(parsed.query)
     vector = query.get("vector", [None])[0]
-    return vector or None
+    if vector:
+        return vector
+    match = re.search(r"CVSS:[\d.]+/(.+)", parsed.fragment)
+    return match.group(1) if match else None
 
 
 def parse_display_date(value: str | None) -> str | None:
@@ -57,7 +61,7 @@ def parse_display_date(value: str | None) -> str | None:
 def parse_years(html: str) -> list[int]:
     soup = BeautifulSoup(html, "html.parser")
     years: list[int] = []
-    for option in soup.select("#select-year option"):
+    for option in soup.select("#yearSelect option"):
         value = clean_text(option.get("value") or option.get_text())
         if value.isdigit():
             years.append(int(value))
@@ -67,16 +71,17 @@ def parse_years(html: str) -> list[int]:
 def parse_published(html: str) -> list[PublishedAdvisory]:
     soup = BeautifulSoup(html, "html.parser")
     records: list[PublishedAdvisory] = []
-    for row in soup.select("tr#publishedAdvisories"):
+    for row in soup.select("tr.advisory-row"):
         cells = row.find_all("td")
         if len(cells) < 8:
             continue
-        title_link = cells[7].find("a")
-        url = urljoin(BASE_URL, title_link.get("href", "")) if title_link else ""
+        zdi_id = clean_text(cells[0].get_text())
+        id_link = cells[0].find("a")
+        url = urljoin(BASE_URL, id_link.get("href", "")) if id_link else ""
         vendor_link = cells[2].find("a")
         records.append(
             PublishedAdvisory(
-                zdi_id=clean_text(cells[0].get_text()),
+                zdi_id=zdi_id,
                 zdi_can=empty_to_none(cells[1].get_text()),
                 vendor=empty_to_none(cells[2].get_text()),
                 vendor_url=urljoin(BASE_URL, vendor_link["href"]) if vendor_link and vendor_link.get("href") else None,
@@ -84,9 +89,9 @@ def parse_published(html: str) -> list[PublishedAdvisory]:
                 cvss=parse_float(cells[4].get_text()),
                 published_date=empty_to_none(cells[5].get_text()),
                 updated_date=empty_to_none(cells[6].get_text()),
-                title=clean_text(title_link.get_text() if title_link else cells[7].get_text()),
+                title=clean_text(cells[7].get_text()),
                 url=url,
-                detail_path=f"advisories/{clean_text(cells[0].get_text())}",
+                detail_path=f"advisories/{zdi_id}",
             )
         )
     return records
@@ -95,13 +100,12 @@ def parse_published(html: str) -> list[PublishedAdvisory]:
 def parse_upcoming(html: str) -> list[UpcomingAdvisory]:
     soup = BeautifulSoup(html, "html.parser")
     records: list[UpcomingAdvisory] = []
-    for row in soup.select("tr#upcomingAdvisories"):
+    for row in soup.select("tr.advisory-row"):
         cells = row.find_all("td")
         if len(cells) < 6:
             continue
         vendor_link = cells[1].find("a")
         cvss_link = cells[2].find("a")
-        reported = clean_text(cells[3].contents[0] if cells[3].contents else cells[3].get_text())
         discoverer = clean_text(cells[5].get_text()).removeprefix("Discovered by:").strip()
         records.append(
             UpcomingAdvisory(
@@ -110,7 +114,7 @@ def parse_upcoming(html: str) -> list[UpcomingAdvisory]:
                 vendor_url=vendor_link.get("href") if vendor_link and vendor_link.get("href") else None,
                 cvss=parse_float(cells[2].get_text()),
                 cvss_vector=extract_vector(cvss_link.get("href") if cvss_link else None),
-                reported_date=empty_to_none(reported),
+                reported_date=empty_to_none(cells[3].get_text()),
                 deadline=empty_to_none(cells[4].get_text()),
                 discoverer=empty_to_none(discoverer),
             )
@@ -132,46 +136,83 @@ def link_texts(node) -> list[str]:
     return [text] if text else []
 
 
+def metadata_value_node(row):
+    value = row.select_one(".metadata-value")
+    return value if value is not None else row
+
+
+def sections_by_heading(container) -> dict[str, list]:
+    sections: dict[str, list] = {}
+    current: str | None = None
+    for child in container.find_all(recursive=False):
+        name = getattr(child, "name", None)
+        if name == "h3":
+            current = clean_text(child.get_text()).upper()
+            sections[current] = []
+            continue
+        if name == "ul" and "blog-tags" in (child.get("class") or []):
+            break
+        if current is not None:
+            sections[current].append(child)
+    return sections
+
+
+def section_text(nodes: list) -> str | None:
+    texts = [html_to_text(node) for node in nodes if getattr(node, "name", None) == "p"]
+    texts = [text for text in texts if text]
+    return " ".join(texts) if texts else None
+
+
 def parse_advisory_detail(html: str, source_url: str) -> AdvisoryDetail:
     soup = BeautifulSoup(html, "html.parser")
-    content = soup.select_one(".advisories-details") or soup
-    title = clean_text(content.find("h2").get_text() if content.find("h2") else "")
-    id_text = content.find("h3").get_text(" ") if content.find("h3") else ""
-    ids = re.findall(r"ZDI-\d{2,5}-\d{3,5}|ZDI-CAN-\d{3,6}", id_text)
-    zdi_id = next((i for i in ids if i.startswith("ZDI-") and not i.startswith("ZDI-CAN-")), "")
-    zdi_can = next((i for i in ids if i.startswith("ZDI-CAN-")), None)
-    fields: dict[str, object] = {}
+    article = soup.find("article") or soup
+    title = clean_text(article.find("h1").get_text() if article.find("h1") else "")
 
-    for row in content.select("table tr"):
-        cells = row.find_all("td")
-        if len(cells) < 2:
-            continue
-        label = clean_text(cells[0].get_text()).upper()
-        value = cells[1]
-        fields[label] = value
+    calendar_icon = article.select_one('i[data-lucide="calendar"]')
+    date_span = calendar_icon.find_next_sibling("span") if calendar_icon else None
+    advisory_date = parse_display_date(date_span.get_text() if date_span else None)
 
-    cve_node = fields.get("CVE ID")
-    cvss_node = fields.get("CVSS SCORE")
-    cve_link = cve_node.find("a") if cve_node else None
-    cvss_link = cvss_node.find("a") if cvss_node else None
-    timeline_node = fields.get("DISCLOSURE TIMELINE")
-    timeline = [clean_text(li.get_text()) for li in timeline_node.find_all("li")] if timeline_node else []
+    metadata: dict[str, object] = {}
+    zdi_id = ""
+    zdi_can: str | None = None
+    metadata_col = article.select_one("#metadata-col")
+    if metadata_col:
+        rows = metadata_col.select(".metadata-row")
+        if rows:
+            id_spans = rows[0].select("span.metadata-value")
+            zdi_id = clean_text(id_spans[0].get_text()) if id_spans else ""
+            zdi_can = empty_to_none(id_spans[1].get_text()) if len(id_spans) > 1 else None
+        for row in rows[1:]:
+            label_node = row.find("p", class_="metadata-label")
+            if label_node:
+                metadata[clean_text(label_node.get_text()).upper()] = row
+
+    cve_row = metadata.get("CVE ID")
+    cve_link = cve_row.find("a") if cve_row else None
+    cvss_row = metadata.get("CVSS SCORE")
+    cvss_value_span = cvss_row.select_one("span.metadata-value") if cvss_row else None
+    cvss_link = cvss_row.find("a") if cvss_row else None
+
+    content_article = article.select_one(".content-article .prose") or article.select_one(".content-article")
+    sections = sections_by_heading(content_article) if content_article else {}
+    timeline_list = next((node for node in sections.get("DISCLOSURE TIMELINE", []) if getattr(node, "name", None) == "ul"), None)
+    disclosure_timeline = [clean_text(li.get_text()) for li in timeline_list.find_all("li")] if timeline_list else []
 
     detail = AdvisoryDetail(
         zdi_id=zdi_id,
         zdi_can=zdi_can,
         title=title,
-        advisory_date=parse_display_date(content.find("data").get_text() if content.find("data") else None),
-        cve=html_to_text(cve_node),
+        advisory_date=advisory_date,
+        cve=clean_text(cve_link.get_text()) or None if cve_link else None,
         cve_url=cve_link.get("href") if cve_link and cve_link.get("href") else None,
-        cvss=parse_float(html_to_text(cvss_node)),
+        cvss=parse_float(cvss_value_span.get_text()) if cvss_value_span else None,
         cvss_vector=extract_vector(cvss_link.get("href") if cvss_link else None),
-        affected_vendors=link_texts(fields.get("AFFECTED VENDORS")),
-        affected_products=link_texts(fields.get("AFFECTED PRODUCTS")),
-        vulnerability_details=html_to_text(fields.get("VULNERABILITY DETAILS")),
-        additional_details=html_to_text(fields.get("ADDITIONAL DETAILS")),
-        disclosure_timeline=timeline,
-        credit=html_to_text(fields.get("CREDIT")),
+        affected_vendors=link_texts(metadata_value_node(metadata["AFFECTED VENDORS"])) if metadata.get("AFFECTED VENDORS") else [],
+        affected_products=link_texts(metadata_value_node(metadata["AFFECTED PRODUCTS"])) if metadata.get("AFFECTED PRODUCTS") else [],
+        vulnerability_details=section_text(sections.get("VULNERABILITY DETAILS", [])),
+        additional_details=section_text(sections.get("ADDITIONAL DETAILS", [])),
+        disclosure_timeline=disclosure_timeline,
+        credit=section_text(sections.get("CREDIT", [])),
         source_url=source_url,
     )
     detail.search_text = clean_text(" ".join(str(v) for v in detail.model_dump().values() if v))

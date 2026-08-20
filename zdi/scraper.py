@@ -165,6 +165,23 @@ def write_public_data(
         dump_json(target / "advisory.json", detail.model_dump())
 
 
+def guard_against_empty_scrape(data_dir: Path, published: list[PublishedAdvisory], upcoming: list[UpcomingAdvisory]) -> None:
+    """Refuse to overwrite good data with a near-empty scrape (e.g. site markup changed)."""
+    for name, scraped in (("published", published), ("upcoming", upcoming)):
+        path = data_dir / f"{name}.json"
+        if not path.exists():
+            continue
+        try:
+            existing_count = len(json.loads(path.read_text(encoding="utf-8")))
+        except (json.JSONDecodeError, OSError):
+            continue
+        if existing_count >= 10 and len(scraped) < existing_count * 0.5:
+            raise RuntimeError(
+                f"Refusing to overwrite {existing_count} {name} advisories with only {len(scraped)} "
+                "newly scraped ones. The ZDI site markup likely changed and broke the parser selectors."
+            )
+
+
 def run(
     data_dir: Path = DATA_DIR,
     fetch=fetch_html,
@@ -177,6 +194,7 @@ def run(
     upcoming = scrape_upcoming(fetch=fetch)
     if verbose:
         print(f"Found {len(upcoming)} upcoming advisories")
+    guard_against_empty_scrape(data_dir, published, upcoming)
     details = scrape_details(published, data_dir=data_dir, fetch=fetch, max_workers=max_workers, verbose=verbose)
     write_public_data(data_dir, published, upcoming, details)
     return published, upcoming

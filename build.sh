@@ -16,6 +16,12 @@ if [ ! -f "${DATA}/index.json" ] || [ ! -f "${DATA}/published.json" ] || [ ! -f 
     exit 1
 fi
 
+INDEX_COUNT=$(python3 -c "import json; print(len(json.load(open('${DATA}/index.json'))))")
+if [ "${INDEX_COUNT}" -eq 0 ]; then
+    echo "ERROR: ${DATA}/index.json is empty. Refusing to deploy zero advisories." >&2
+    exit 1
+fi
+
 mkdir -p "${DIST}/data"
 cp "${DATA}/index.json" "${DIST}/data/"
 cp "${DATA}/published.json" "${DIST}/data/"
