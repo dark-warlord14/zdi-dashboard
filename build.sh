@@ -41,5 +41,9 @@ for path in glob.glob('${DIST}/data/advisories/*.json'):
         total += len(json.load(f))
 print(total)
 ")
+if [ "${COUNT}" -eq 0 ]; then
+    echo "ERROR: no advisory detail records found across data/advisories/*.json. Refusing to deploy." >&2
+    exit 1
+fi
 SIZE=$(du -sh "${DIST}" | cut -f1)
 echo "Done: ${DIST}/ is ${SIZE}, ${COUNT} advisories deployed."
