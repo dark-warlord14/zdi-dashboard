@@ -91,7 +91,6 @@ def parse_published(html: str) -> list[PublishedAdvisory]:
                 updated_date=empty_to_none(cells[6].get_text()),
                 title=clean_text(cells[7].get_text()),
                 url=url,
-                detail_path=f"advisories/{zdi_id}",
             )
         )
     return records

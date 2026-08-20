@@ -33,6 +33,17 @@ if [ -d "${DATA}/advisories" ]; then
     cp -R "${DATA}/advisories/." "${DIST}/data/advisories/"
 fi
 
-COUNT=$(find "${DIST}/data/advisories" -name advisory.json 2>/dev/null | wc -l | tr -d ' ')
+COUNT=$(python3 -c "
+import glob, json
+total = 0
+for path in glob.glob('${DIST}/data/advisories/*.json'):
+    with open(path) as f:
+        total += len(json.load(f))
+print(total)
+")
+if [ "${COUNT}" -eq 0 ]; then
+    echo "ERROR: no advisory detail records found across data/advisories/*.json. Refusing to deploy." >&2
+    exit 1
+fi
 SIZE=$(du -sh "${DIST}" | cut -f1)
 echo "Done: ${DIST}/ is ${SIZE}, ${COUNT} advisories deployed."

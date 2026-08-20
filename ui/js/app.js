@@ -242,12 +242,19 @@ const App = {
     async showDetail(id) {
         const app = document.getElementById('app');
         app.innerHTML = '<p class="loading-initial">Loading advisory...</p>';
-        const jsonRes = await fetch(`/data/advisories/${id}/advisory.json`);
-        if (!jsonRes.ok) {
-            app.innerHTML = '<div class="panel">Advisory detail not found.</div>';
-            return;
-        }
-        const detail = await jsonRes.json();
+        const notFound = () => { app.innerHTML = '<div class="panel">Advisory detail not found.</div>'; };
+
+        const indexRecord = (this.index || []).find(r => r.id === id);
+        const year = indexRecord && indexRecord.published_date ? indexRecord.published_date.slice(0, 4) : null;
+        if (!year) return notFound();
+
+        const chunkRes = await fetch(`/data/advisories/${year}.json`);
+        if (!chunkRes.ok) return notFound();
+
+        const chunk = await chunkRes.json();
+        const detail = chunk[id];
+        if (!detail) return notFound();
+
         const markdown = this.detailMarkdown(detail);
         app.innerHTML = `
             <div class="detail-layout">
@@ -259,7 +266,7 @@ const App = {
                     ${this.meta('CVSS', detail.cvss)}
                     ${this.meta('Vendor', (detail.affected_vendors || []).join(', '))}
                     <a class="outline" href="${detail.source_url}" target="_blank" rel="noopener">Source</a>
-                    <a class="outline" href="/data/advisories/${id}/advisory.json">JSON</a>
+                    <a class="outline" href="/data/advisories/${year}.json">JSON</a>
                 </aside>
             </div>
         `;

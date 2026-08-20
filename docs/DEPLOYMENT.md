@@ -40,7 +40,7 @@ The deployed site exposes:
 - `/data/published.json`
 - `/data/upcoming.json`
 - `/data/stats.json`
-- `/data/advisories/<zdi_id>/advisory.json`
+- `/data/advisories/<year>.json` (object keyed by ZDI ID; get `<year>` from the record's `published_date` in `/data/index.json`)
 - `/skill.md`
 - `/schema.json`
 - `/llms.txt`
@@ -56,3 +56,14 @@ bash build.sh
 ```
 
 Open `http://127.0.0.1:8080/`.
+
+## Recovering From a Cache-Poisoning Parser Bug
+
+`zdi run` skips re-fetching any advisory whose `updated_date` already matches
+the cached year-chunk copy (including advisories that have never shown an
+"Updated" date at all, where `None == None` counts as a match). This keeps
+routine runs fast, but it means a parser fix will not reach already-cached
+advisories on its own. If you fix a parser bug and need it to reach the full
+archive, run `zdi run --force` to bypass the cache and re-fetch every
+advisory. As a last resort (e.g. the cached files themselves are corrupt),
+delete the year-chunk files and re-run from scratch: `rm data/advisories/*.json && zdi run`.

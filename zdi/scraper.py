@@ -9,6 +9,7 @@ from pathlib import Path
 from urllib.parse import urljoin
 
 import requests
+from pydantic import ValidationError
 
 from zdi.config import BASE_URL, DATA_DIR, PUBLISHED_URL, UPCOMING_URL
 from zdi.models import AdvisoryDetail, PublishedAdvisory, UpcomingAdvisory
@@ -65,21 +66,22 @@ def scrape_upcoming(fetch=fetch_html) -> list[UpcomingAdvisory]:
     return parse_upcoming(fetch(UPCOMING_URL))
 
 
-def load_existing_detail(data_dir: Path, record: PublishedAdvisory) -> AdvisoryDetail | None:
-    path = data_dir / "advisories" / record.zdi_id / "advisory.json"
-    if not path.exists():
-        return None
-    try:
-        existing = AdvisoryDetail.model_validate_json(path.read_text(encoding="utf-8"))
-    except ValueError:
-        return None
-    if record.updated_date and existing.updated_date == record.updated_date:
+def load_existing_detail(
+    flat_chunks: dict[str, AdvisoryDetail],
+    record: PublishedAdvisory,
+) -> AdvisoryDetail | None:
+    existing = flat_chunks.get(record.zdi_id)
+    if existing and existing.updated_date == record.updated_date:
         return existing
     return None
 
 
-def fetch_detail(record: PublishedAdvisory, data_dir: Path, fetch=fetch_html) -> AdvisoryDetail:
-    existing = load_existing_detail(data_dir, record)
+def fetch_detail(
+    record: PublishedAdvisory,
+    flat_chunks: dict[str, AdvisoryDetail],
+    fetch=fetch_html,
+) -> AdvisoryDetail:
+    existing = load_existing_detail(flat_chunks, record)
     if existing:
         return existing
     html = fetch(record.url)
@@ -94,12 +96,17 @@ def scrape_details(
     fetch=fetch_html,
     max_workers: int = 12,
     verbose: bool = False,
+    force: bool = False,
 ) -> dict[str, AdvisoryDetail]:
+    flat_chunks = {} if force else flatten_advisory_chunks(load_advisory_chunks(data_dir))
     details: dict[str, AdvisoryDetail] = {}
     total = len(records)
     completed = 0
     with ThreadPoolExecutor(max_workers=max_workers) as executor:
-        futures = {executor.submit(fetch_detail, record, data_dir, fetch): record for record in records}
+        futures = {
+            executor.submit(fetch_detail, record, flat_chunks, fetch): record
+            for record in records
+        }
         for future in as_completed(futures):
             record = futures[future]
             details[record.zdi_id] = future.result()
@@ -118,6 +125,63 @@ def description_snippet(detail: AdvisoryDetail | None, max_length: int = 260) ->
     return text[: max_length - 1].rstrip() + "..."
 
 
+def advisory_year(zdi_id: str, published_lookup: dict[str, str], detail: AdvisoryDetail | None = None) -> str:
+    """Return the 4-digit year bucket for an advisory, or 'unknown' if it can't be determined."""
+    published_date = published_lookup.get(zdi_id)
+    if published_date and published_date[:4].isdigit():
+        return published_date[:4]
+    if detail and detail.advisory_date and detail.advisory_date[:4].isdigit():
+        return detail.advisory_date[:4]
+    return "unknown"
+
+
+def group_details_by_year(
+    details: dict[str, AdvisoryDetail],
+    published: list[PublishedAdvisory],
+) -> dict[str, dict[str, AdvisoryDetail]]:
+    published_lookup = {record.zdi_id: record.published_date for record in published if record.published_date}
+    grouped: dict[str, dict[str, AdvisoryDetail]] = {}
+    for zdi_id, detail in details.items():
+        year = advisory_year(zdi_id, published_lookup, detail)
+        grouped.setdefault(year, {})[zdi_id] = detail
+    return grouped
+
+
+def load_advisory_chunks(data_dir: Path) -> dict[str, dict[str, AdvisoryDetail]]:
+    """Load every existing data/advisories/<year>.json into memory, once per run."""
+    advisories_dir = data_dir / "advisories"
+    chunks: dict[str, dict[str, AdvisoryDetail]] = {}
+    if not advisories_dir.exists():
+        return chunks
+    for path in advisories_dir.glob("*.json"):
+        try:
+            raw = json.loads(path.read_text(encoding="utf-8"))
+            if not isinstance(raw, dict):
+                continue
+            chunks[path.stem] = {
+                zdi_id: AdvisoryDetail.model_validate(payload) for zdi_id, payload in raw.items()
+            }
+        except (json.JSONDecodeError, OSError, ValidationError):
+            continue
+    return chunks
+
+
+def flatten_advisory_chunks(chunks: dict[str, dict[str, AdvisoryDetail]]) -> dict[str, AdvisoryDetail]:
+    """Flatten year-chunked details into a single ID-keyed dict (ZDI IDs are globally unique)."""
+    flat: dict[str, AdvisoryDetail] = {}
+    for details_by_id in chunks.values():
+        flat.update(details_by_id)
+    return flat
+
+
+def write_advisory_chunks(data_dir: Path, grouped: dict[str, dict[str, AdvisoryDetail]]) -> None:
+    advisories_dir = data_dir / "advisories"
+    advisories_dir.mkdir(parents=True, exist_ok=True)
+    for year, details_by_id in grouped.items():
+        payload = {zdi_id: detail.model_dump() for zdi_id, detail in details_by_id.items()}
+        dump_json(advisories_dir / f"{year}.json", payload)
+
+
 def published_entries(published: list[PublishedAdvisory], details: dict[str, AdvisoryDetail]) -> list[dict]:
     entries: list[dict] = []
     for record in published:
@@ -132,13 +196,16 @@ def index_entries(
     upcoming: list[UpcomingAdvisory],
     details: dict[str, AdvisoryDetail],
 ) -> list[dict]:
+    published_lookup = {record.zdi_id: record.published_date for record in published if record.published_date}
     entries: list[dict] = []
     for record in published:
         data = record.model_dump()
         data["id"] = record.zdi_id
         data["status"] = "published"
         data["description_snippet"] = description_snippet(details.get(record.zdi_id))
-        data["detail_json"] = f"/data/advisories/{record.zdi_id}/advisory.json"
+        data["detail_json"] = (
+            f"/data/advisories/{advisory_year(record.zdi_id, published_lookup, details.get(record.zdi_id))}.json"
+        )
         entries.append(data)
     for record in upcoming:
         data = record.model_dump()
@@ -155,14 +222,15 @@ def write_public_data(
     details: dict[str, AdvisoryDetail],
 ) -> None:
     data_dir.mkdir(parents=True, exist_ok=True)
+    if details:
+        grouped = group_details_by_year(details, published)
+        guard_against_year_chunk_collapse(data_dir, grouped)
     dump_json(data_dir / "published.json", published_entries(published, details))
     dump_json(data_dir / "upcoming.json", [record.model_dump() for record in upcoming])
     dump_json(data_dir / "index.json", index_entries(published, upcoming, details))
     dump_json(data_dir / "stats.json", build_stats(published, upcoming).model_dump())
-    for zdi_id, detail in details.items():
-        target = data_dir / "advisories" / zdi_id
-        target.mkdir(parents=True, exist_ok=True)
-        dump_json(target / "advisory.json", detail.model_dump())
+    if details:
+        write_advisory_chunks(data_dir, grouped)
 
 
 def guard_against_empty_scrape(data_dir: Path, published: list[PublishedAdvisory], upcoming: list[UpcomingAdvisory]) -> None:
@@ -182,11 +250,42 @@ def guard_against_empty_scrape(data_dir: Path, published: list[PublishedAdvisory
             )
 
 
+def guard_against_year_chunk_collapse(data_dir: Path, grouped: dict[str, dict[str, AdvisoryDetail]]) -> None:
+    """Refuse to overwrite a year's advisories with a near-empty result (e.g. a broken parser)."""
+    advisories_dir = data_dir / "advisories"
+    existing_years = set()
+    if advisories_dir.exists():
+        existing_years = {path.stem for path in advisories_dir.glob("*.json")}
+    for year in existing_years | set(grouped.keys()):
+        path = advisories_dir / f"{year}.json"
+        if not path.exists():
+            continue
+        if year == "unknown" and year not in grouped:
+            # Unlike real years, the unknown bucket is expected to shrink to nothing as
+            # parser fixes resolve dates for previously-unbucketed records. Only real
+            # (4-digit) years count as a suspicious collapse when absent from `grouped`.
+            continue
+        try:
+            raw = json.loads(path.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, OSError):
+            continue
+        if not isinstance(raw, dict):
+            continue
+        existing_count = len(raw)
+        new_count = len(grouped.get(year, {}))
+        if existing_count >= 10 and new_count < existing_count * 0.5:
+            raise RuntimeError(
+                f"Refusing to overwrite {existing_count} advisories in {year}.json with only "
+                f"{new_count} newly built ones. The parser may be broken."
+            )
+
+
 def run(
     data_dir: Path = DATA_DIR,
     fetch=fetch_html,
     max_workers: int = 12,
     verbose: bool = False,
+    force: bool = False,
 ) -> tuple[list[PublishedAdvisory], list[UpcomingAdvisory]]:
     published = scrape_published(fetch=fetch, verbose=verbose)
     if verbose:
@@ -195,6 +294,8 @@ def run(
     if verbose:
         print(f"Found {len(upcoming)} upcoming advisories")
     guard_against_empty_scrape(data_dir, published, upcoming)
-    details = scrape_details(published, data_dir=data_dir, fetch=fetch, max_workers=max_workers, verbose=verbose)
+    details = scrape_details(
+        published, data_dir=data_dir, fetch=fetch, max_workers=max_workers, verbose=verbose, force=force
+    )
     write_public_data(data_dir, published, upcoming, details)
     return published, upcoming

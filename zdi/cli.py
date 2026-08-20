@@ -5,8 +5,15 @@ from pathlib import Path
 import click
 
 from zdi.config import DATA_DIR
-from zdi.models import AdvisoryDetail, PublishedAdvisory, UpcomingAdvisory
-from zdi.scraper import run as run_pipeline, scrape_published, scrape_upcoming, write_public_data
+from zdi.models import PublishedAdvisory, UpcomingAdvisory
+from zdi.scraper import (
+    flatten_advisory_chunks,
+    load_advisory_chunks,
+    run as run_pipeline,
+    scrape_published,
+    scrape_upcoming,
+    write_public_data,
+)
 from zdi.server import serve as serve_dashboard
 
 
@@ -18,9 +25,10 @@ def cli() -> None:
 @cli.command()
 @click.option("--data-dir", type=click.Path(path_type=Path), default=DATA_DIR)
 @click.option("--workers", default=12, show_default=True, help="Concurrent detail fetch workers.")
-def run(data_dir: Path, workers: int) -> None:
+@click.option("--force", is_flag=True, default=False, help="Re-fetch every advisory, ignoring the cache.")
+def run(data_dir: Path, workers: int, force: bool) -> None:
     """Fetch advisories and rebuild public data files."""
-    published, upcoming = run_pipeline(data_dir=data_dir, max_workers=workers, verbose=True)
+    published, upcoming = run_pipeline(data_dir=data_dir, max_workers=workers, verbose=True, force=force)
     click.echo(f"Wrote {len(published)} published and {len(upcoming)} upcoming advisories to {data_dir}")
 
 
@@ -48,10 +56,7 @@ def rebuild_index(data_dir: Path) -> None:
         UpcomingAdvisory.model_validate(item)
         for item in json.loads((data_dir / "upcoming.json").read_text(encoding="utf-8"))
     ]
-    details: dict[str, AdvisoryDetail] = {}
-    for path in (data_dir / "advisories").glob("*/advisory.json"):
-        detail = AdvisoryDetail.model_validate_json(path.read_text(encoding="utf-8"))
-        details[detail.zdi_id] = detail
+    details = flatten_advisory_chunks(load_advisory_chunks(data_dir))
     write_public_data(data_dir, published, upcoming, details)
     click.echo(f"Rebuilt index for {len(published)} published and {len(upcoming)} upcoming advisories")
 

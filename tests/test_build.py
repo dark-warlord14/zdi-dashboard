@@ -21,7 +21,6 @@ def seed_data(data_dir: Path) -> None:
             updated_date="2026-01-09",
             title="Discord Client Privilege Escalation",
             url="https://www.zerodayinitiative.com/advisories/ZDI-26-040/",
-            detail_path="advisories/ZDI-26-040",
         )
     ]
     upcoming = [
@@ -60,7 +59,7 @@ def test_build_script_creates_cloudflare_dist():
         required = [
             project / "dist" / "index.html",
             project / "dist" / "data" / "index.json",
-            project / "dist" / "data" / "advisories" / "ZDI-26-040" / "advisory.json",
+            project / "dist" / "data" / "advisories" / "2026.json",
             project / "dist" / "skill.md",
             project / "dist" / "schema.json",
             project / "dist" / "llms.txt",
@@ -68,4 +67,3 @@ def test_build_script_creates_cloudflare_dist():
         ]
         missing = [str(path.relative_to(project)) for path in required if not path.exists()]
         assert missing == []
-        assert not (project / "dist" / "data" / "advisories" / "ZDI-26-040" / "advisory.md").exists()

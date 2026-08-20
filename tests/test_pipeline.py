@@ -3,7 +3,18 @@ import json
 import pytest
 
 from zdi.models import AdvisoryDetail, PublishedAdvisory, UpcomingAdvisory
-from zdi.scraper import guard_against_empty_scrape, write_public_data
+from zdi.scraper import (
+    advisory_year,
+    flatten_advisory_chunks,
+    group_details_by_year,
+    guard_against_empty_scrape,
+    guard_against_year_chunk_collapse,
+    load_advisory_chunks,
+    load_existing_detail,
+    scrape_details,
+    write_advisory_chunks,
+    write_public_data,
+)
 from zdi.stats import build_stats
 
 
@@ -18,7 +29,6 @@ def sample_published() -> PublishedAdvisory:
         updated_date="2026-01-09",
         title="Discord Client Privilege Escalation",
         url="https://www.zerodayinitiative.com/advisories/ZDI-26-040/",
-        detail_path="advisories/ZDI-26-040",
     )
 
 
@@ -49,6 +59,117 @@ def sample_detail() -> AdvisoryDetail:
     )
 
 
+def test_advisory_year_uses_published_date_first():
+    lookup = {"ZDI-26-001": "2026-03-01"}
+    assert advisory_year("ZDI-26-001", lookup) == "2026"
+
+
+def test_advisory_year_falls_back_to_detail_advisory_date():
+    detail = AdvisoryDetail(
+        zdi_id="ZDI-10-001", title="Old", source_url="https://x", advisory_date="2010-05-01"
+    )
+    assert advisory_year("ZDI-10-001", {}, detail) == "2010"
+
+
+def test_load_existing_detail_reuses_cache_when_updated_date_matches():
+    cached = sample_detail()
+    cached.updated_date = "2026-01-09"
+    flat_chunks = {"ZDI-26-040": cached}
+    record = sample_published()
+    record.updated_date = "2026-01-09"
+
+    result = load_existing_detail(flat_chunks, record)
+
+    assert result is cached
+
+
+def test_load_existing_detail_misses_cache_when_updated_date_differs():
+    cached = sample_detail()
+    cached.updated_date = "2026-01-01"
+    flat_chunks = {"ZDI-26-040": cached}
+    record = sample_published()
+    record.updated_date = "2026-01-09"
+
+    result = load_existing_detail(flat_chunks, record)
+
+    assert result is None
+
+
+def test_load_existing_detail_reuses_cache_when_updated_date_is_null_on_both_sides():
+    cached = sample_detail()
+    cached.updated_date = None
+    flat_chunks = {"ZDI-26-040": cached}
+    record = sample_published()
+    record.updated_date = None
+
+    result = load_existing_detail(flat_chunks, record)
+
+    assert result is cached
+
+
+def test_load_existing_detail_misses_cache_when_only_new_updated_date_is_present():
+    cached = sample_detail()
+    cached.updated_date = None
+    flat_chunks = {"ZDI-26-040": cached}
+    record = sample_published()
+    record.updated_date = "2026-01-09"
+
+    result = load_existing_detail(flat_chunks, record)
+
+    assert result is None
+
+
+def test_scrape_details_force_bypasses_cache_and_refetches(tmp_path):
+    cached = sample_detail()
+    cached.updated_date = "2026-01-09"
+    write_advisory_chunks(tmp_path, {"2026": {"ZDI-26-040": cached}})
+    record = sample_published()
+    record.updated_date = "2026-01-09"
+
+    calls = []
+
+    def fake_fetch(url):
+        calls.append(url)
+        return "<html><article><h1>Refetched</h1></article></html>"
+
+    details = scrape_details([record], data_dir=tmp_path, fetch=fake_fetch, force=True)
+
+    assert calls == [record.url]
+    assert details["ZDI-26-040"].title == "Refetched"
+
+
+def test_flatten_advisory_chunks_merges_multiple_years():
+    detail_2026 = sample_detail()
+    detail_2010 = AdvisoryDetail(zdi_id="ZDI-10-001", title="Old", source_url="https://x")
+    chunks = {"2026": {"ZDI-26-040": detail_2026}, "2010": {"ZDI-10-001": detail_2010}}
+
+    flat = flatten_advisory_chunks(chunks)
+
+    assert flat == {"ZDI-26-040": detail_2026, "ZDI-10-001": detail_2010}
+
+
+def test_advisory_year_falls_back_to_unknown_when_no_date_available():
+    assert advisory_year("ZDI-00-000", {}) == "unknown"
+
+
+def test_group_details_by_year_buckets_by_published_date():
+    published = [
+        sample_published(),
+        PublishedAdvisory(
+            zdi_id="ZDI-10-001", title="Old", url="https://x", published_date="2010-05-01"
+        ),
+    ]
+    details = {
+        "ZDI-26-040": sample_detail(),
+        "ZDI-10-001": AdvisoryDetail(zdi_id="ZDI-10-001", title="Old", source_url="https://x"),
+    }
+
+    grouped = group_details_by_year(details, published)
+
+    assert set(grouped["2026"]) == {"ZDI-26-040"}
+    assert set(grouped["2010"]) == {"ZDI-10-001"}
+
+
 def test_build_stats_counts_core_dimensions():
     stats = build_stats([sample_published()], [sample_upcoming()])
 
@@ -68,16 +189,92 @@ def test_write_public_data_creates_index_and_detail_files(tmp_path):
     index = json.loads((tmp_path / "index.json").read_text(encoding="utf-8"))
     published = json.loads((tmp_path / "published.json").read_text(encoding="utf-8"))
     upcoming = json.loads((tmp_path / "upcoming.json").read_text(encoding="utf-8"))
-    detail_json = tmp_path / "advisories" / "ZDI-26-040" / "advisory.json"
+    year_chunk = json.loads((tmp_path / "advisories" / "2026.json").read_text(encoding="utf-8"))
 
     assert index[0]["id"] == "ZDI-26-040"
     assert index[0]["description_snippet"] == "Local attackers can escalate privileges."
+    assert index[0]["detail_json"] == "/data/advisories/2026.json"
     assert "detail_markdown" not in index[0]
     assert index[1]["id"] == "ZDI-CAN-30796"
     assert published[0]["zdi_id"] == "ZDI-26-040"
     assert published[0]["description_snippet"] == "Local attackers can escalate privileges."
     assert upcoming[0]["zdi_can"] == "ZDI-CAN-30796"
-    assert detail_json.exists()
+    assert year_chunk["ZDI-26-040"]["title"] == "Discord Client Privilege Escalation"
+
+
+def test_write_public_data_is_idempotent(tmp_path):
+    write_public_data(tmp_path, [sample_published()], [sample_upcoming()], {"ZDI-26-040": sample_detail()})
+    first = (tmp_path / "advisories" / "2026.json").read_bytes()
+
+    write_public_data(tmp_path, [sample_published()], [sample_upcoming()], {"ZDI-26-040": sample_detail()})
+    second = (tmp_path / "advisories" / "2026.json").read_bytes()
+
+    assert first == second
+
+
+def test_scrape_details_cache_hit_never_calls_fetch(tmp_path):
+    cached = sample_detail()
+    cached.updated_date = "2026-01-09"
+    write_advisory_chunks(tmp_path, {"2026": {"ZDI-26-040": cached}})
+    record = sample_published()
+    record.updated_date = "2026-01-09"
+
+    def fetch_should_not_be_called(url):
+        pytest.fail(f"fetch should not be called for a cache hit, but was called with {url}")
+
+    details = scrape_details([record], data_dir=tmp_path, fetch=fetch_should_not_be_called)
+
+    assert details["ZDI-26-040"] == cached
+
+
+def test_write_public_data_falls_back_to_unknown_year_chunk(tmp_path):
+    detail = AdvisoryDetail(zdi_id="ZDI-00-000", title="No dates anywhere", source_url="https://x")
+
+    write_public_data(tmp_path, [], [], {"ZDI-00-000": detail})
+
+    unknown = json.loads((tmp_path / "advisories" / "unknown.json").read_text(encoding="utf-8"))
+    assert unknown["ZDI-00-000"]["title"] == "No dates anywhere"
+
+
+def test_index_entries_uses_detail_advisory_date_for_detail_json_year(tmp_path):
+    record = PublishedAdvisory(
+        zdi_id="ZDI-10-001", title="Old", url="https://x", published_date=None
+    )
+    detail = AdvisoryDetail(
+        zdi_id="ZDI-10-001", title="Old", source_url="https://x", advisory_date="2010-05-01"
+    )
+
+    write_public_data(tmp_path, [record], [], {"ZDI-10-001": detail})
+
+    index = json.loads((tmp_path / "index.json").read_text(encoding="utf-8"))
+    entry = next(item for item in index if item["id"] == "ZDI-10-001")
+
+    assert entry["detail_json"] == "/data/advisories/2010.json"
+    year_chunk = json.loads((tmp_path / "advisories" / "2010.json").read_text(encoding="utf-8"))
+    assert "ZDI-10-001" in year_chunk
+
+
+def test_write_public_data_guard_runs_before_any_file_is_written(tmp_path):
+    write_advisory_chunks(tmp_path, {"2026": {f"ZDI-26-{i:03d}": sample_detail() for i in range(20)}})
+
+    with pytest.raises(RuntimeError):
+        write_public_data(tmp_path, [sample_published()], [sample_upcoming()], {"ZDI-26-040": sample_detail()})
+
+    assert not (tmp_path / "published.json").exists()
+    assert not (tmp_path / "upcoming.json").exists()
+    assert not (tmp_path / "index.json").exists()
+    assert not (tmp_path / "stats.json").exists()
+
+
+def test_write_public_data_with_empty_details_skips_guard_and_leaves_chunks_untouched(tmp_path):
+    write_advisory_chunks(tmp_path, {"2026": {f"ZDI-26-{i:03d}": sample_detail() for i in range(20)}})
+    before = (tmp_path / "advisories" / "2026.json").read_bytes()
+
+    write_public_data(tmp_path, [sample_published()], [], {})
+
+    after = (tmp_path / "advisories" / "2026.json").read_bytes()
+    assert before == after
+    assert (tmp_path / "published.json").exists()
 
 
 def test_guard_against_empty_scrape_raises_when_published_collapses(tmp_path):
@@ -95,3 +292,97 @@ def test_guard_against_empty_scrape_allows_normal_fluctuation(tmp_path):
 
 def test_guard_against_empty_scrape_ignores_missing_existing_file(tmp_path):
     guard_against_empty_scrape(tmp_path, [], [])
+
+
+def test_write_and_load_advisory_chunks_round_trip(tmp_path):
+    grouped = {"2026": {"ZDI-26-040": sample_detail()}}
+
+    write_advisory_chunks(tmp_path, grouped)
+    loaded = load_advisory_chunks(tmp_path)
+
+    assert set(loaded) == {"2026"}
+    assert loaded["2026"]["ZDI-26-040"].title == sample_detail().title
+
+
+def test_load_advisory_chunks_returns_empty_dict_when_dir_missing(tmp_path):
+    assert load_advisory_chunks(tmp_path) == {}
+
+
+def test_load_advisory_chunks_skips_unreadable_files(tmp_path):
+    advisories_dir = tmp_path / "advisories"
+    advisories_dir.mkdir()
+    (advisories_dir / "2026.json").write_text("not valid json", encoding="utf-8")
+
+    assert load_advisory_chunks(tmp_path) == {}
+
+
+def test_load_advisory_chunks_skips_schema_invalid_file_but_keeps_valid_ones(tmp_path):
+    write_advisory_chunks(tmp_path, {"2025": {"ZDI-25-001": sample_detail()}})
+    advisories_dir = tmp_path / "advisories"
+    (advisories_dir / "2026.json").write_text(
+        json.dumps({"ZDI-26-999": {"not_a_real_field": "boom"}}), encoding="utf-8"
+    )
+
+    loaded = load_advisory_chunks(tmp_path)
+
+    assert set(loaded) == {"2025"}
+    assert loaded["2025"]["ZDI-25-001"].title == sample_detail().title
+
+
+def test_load_advisory_chunks_skips_non_dict_json(tmp_path):
+    advisories_dir = tmp_path / "advisories"
+    advisories_dir.mkdir()
+    (advisories_dir / "2026.json").write_text("[]", encoding="utf-8")
+    (advisories_dir / "2025.json").write_text("null", encoding="utf-8")
+    (advisories_dir / "2024.json").write_text("42", encoding="utf-8")
+
+    assert load_advisory_chunks(tmp_path) == {}
+
+
+def test_guard_against_year_chunk_collapse_skips_non_dict_json(tmp_path):
+    advisories_dir = tmp_path / "advisories"
+    advisories_dir.mkdir()
+    (advisories_dir / "2026.json").write_text("42", encoding="utf-8")
+
+    guard_against_year_chunk_collapse(tmp_path, {"2026": {"ZDI-26-001": sample_detail()}})
+
+
+def test_guard_against_year_chunk_collapse_skips_json_array_instead_of_miscounting_len(tmp_path):
+    advisories_dir = tmp_path / "advisories"
+    advisories_dir.mkdir()
+    (advisories_dir / "2025.json").write_text(json.dumps([1] * 20), encoding="utf-8")
+    (advisories_dir / "2024.json").write_text(json.dumps("a very long string" * 5), encoding="utf-8")
+
+    guard_against_year_chunk_collapse(tmp_path, {})
+
+
+def test_guard_against_year_chunk_collapse_raises_on_drop(tmp_path):
+    write_advisory_chunks(tmp_path, {"2026": {f"ZDI-26-{i:03d}": sample_detail() for i in range(20)}})
+
+    with pytest.raises(RuntimeError):
+        guard_against_year_chunk_collapse(tmp_path, {"2026": {"ZDI-26-001": sample_detail()}})
+
+
+def test_guard_against_year_chunk_collapse_allows_growth(tmp_path):
+    write_advisory_chunks(tmp_path, {"2026": {f"ZDI-26-{i:03d}": sample_detail() for i in range(20)}})
+
+    guard_against_year_chunk_collapse(
+        tmp_path, {"2026": {f"ZDI-26-{i:03d}": sample_detail() for i in range(25)}}
+    )
+
+
+def test_guard_against_year_chunk_collapse_ignores_new_year(tmp_path):
+    guard_against_year_chunk_collapse(tmp_path, {"2026": {"ZDI-26-001": sample_detail()}})
+
+
+def test_guard_against_year_chunk_collapse_raises_when_year_vanishes_entirely(tmp_path):
+    write_advisory_chunks(tmp_path, {"2015": {f"ZDI-15-{i:03d}": sample_detail() for i in range(20)}})
+
+    with pytest.raises(RuntimeError):
+        guard_against_year_chunk_collapse(tmp_path, {"2026": {"ZDI-26-001": sample_detail()}})
+
+
+def test_guard_against_year_chunk_collapse_allows_unknown_bucket_to_vanish_entirely(tmp_path):
+    write_advisory_chunks(tmp_path, {"unknown": {f"ZDI-15-{i:03d}": sample_detail() for i in range(15)}})
+
+    guard_against_year_chunk_collapse(tmp_path, {"2026": {"ZDI-26-001": sample_detail()}})
