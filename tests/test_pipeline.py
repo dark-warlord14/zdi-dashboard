@@ -110,7 +110,7 @@ def test_write_public_data_creates_index_and_detail_files(tmp_path):
     index = json.loads((tmp_path / "index.json").read_text(encoding="utf-8"))
     published = json.loads((tmp_path / "published.json").read_text(encoding="utf-8"))
     upcoming = json.loads((tmp_path / "upcoming.json").read_text(encoding="utf-8"))
-    detail_json = tmp_path / "advisories" / "ZDI-26-040" / "advisory.json"
+    year_chunk = json.loads((tmp_path / "advisories" / "2026.json").read_text(encoding="utf-8"))
 
     assert index[0]["id"] == "ZDI-26-040"
     assert index[0]["description_snippet"] == "Local attackers can escalate privileges."
@@ -119,7 +119,7 @@ def test_write_public_data_creates_index_and_detail_files(tmp_path):
     assert published[0]["zdi_id"] == "ZDI-26-040"
     assert published[0]["description_snippet"] == "Local attackers can escalate privileges."
     assert upcoming[0]["zdi_can"] == "ZDI-CAN-30796"
-    assert detail_json.exists()
+    assert year_chunk["ZDI-26-040"]["title"] == "Discord Client Privilege Escalation"
 
 
 def test_guard_against_empty_scrape_raises_when_published_collapses(tmp_path):

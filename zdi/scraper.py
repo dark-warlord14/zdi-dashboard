@@ -207,10 +207,9 @@ def write_public_data(
     dump_json(data_dir / "upcoming.json", [record.model_dump() for record in upcoming])
     dump_json(data_dir / "index.json", index_entries(published, upcoming, details))
     dump_json(data_dir / "stats.json", build_stats(published, upcoming).model_dump())
-    for zdi_id, detail in details.items():
-        target = data_dir / "advisories" / zdi_id
-        target.mkdir(parents=True, exist_ok=True)
-        dump_json(target / "advisory.json", detail.model_dump())
+    grouped = group_details_by_year(details, published)
+    guard_against_year_chunk_collapse(data_dir, grouped)
+    write_advisory_chunks(data_dir, grouped)
 
 
 def guard_against_empty_scrape(data_dir: Path, published: list[PublishedAdvisory], upcoming: list[UpcomingAdvisory]) -> None:
