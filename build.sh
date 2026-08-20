@@ -33,6 +33,13 @@ if [ -d "${DATA}/advisories" ]; then
     cp -R "${DATA}/advisories/." "${DIST}/data/advisories/"
 fi
 
-COUNT=$(find "${DIST}/data/advisories" -name advisory.json 2>/dev/null | wc -l | tr -d ' ')
+COUNT=$(python3 -c "
+import glob, json
+total = 0
+for path in glob.glob('${DIST}/data/advisories/*.json'):
+    with open(path) as f:
+        total += len(json.load(f))
+print(total)
+")
 SIZE=$(du -sh "${DIST}" | cut -f1)
 echo "Done: ${DIST}/ is ${SIZE}, ${COUNT} advisories deployed."

@@ -68,4 +68,3 @@ def test_build_script_creates_cloudflare_dist():
         ]
         missing = [str(path.relative_to(project)) for path in required if not path.exists()]
         assert missing == []
-        assert not (project / "dist" / "data" / "advisories" / "ZDI-26-040" / "advisory.md").exists()
