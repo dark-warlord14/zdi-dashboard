@@ -6,7 +6,7 @@ import click
 
 from zdi.config import DATA_DIR
 from zdi.models import AdvisoryDetail, PublishedAdvisory, UpcomingAdvisory
-from zdi.scraper import run as run_pipeline, scrape_published, scrape_upcoming, write_public_data
+from zdi.scraper import load_advisory_chunks, run as run_pipeline, scrape_published, scrape_upcoming, write_public_data
 from zdi.server import serve as serve_dashboard
 
 
@@ -49,9 +49,8 @@ def rebuild_index(data_dir: Path) -> None:
         for item in json.loads((data_dir / "upcoming.json").read_text(encoding="utf-8"))
     ]
     details: dict[str, AdvisoryDetail] = {}
-    for path in (data_dir / "advisories").glob("*/advisory.json"):
-        detail = AdvisoryDetail.model_validate_json(path.read_text(encoding="utf-8"))
-        details[detail.zdi_id] = detail
+    for year_details in load_advisory_chunks(data_dir).values():
+        details.update(year_details)
     write_public_data(data_dir, published, upcoming, details)
     click.echo(f"Rebuilt index for {len(published)} published and {len(upcoming)} upcoming advisories")
 
