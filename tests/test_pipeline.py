@@ -252,3 +252,10 @@ def test_guard_against_year_chunk_collapse_allows_growth(tmp_path):
 
 def test_guard_against_year_chunk_collapse_ignores_new_year(tmp_path):
     guard_against_year_chunk_collapse(tmp_path, {"2026": {"ZDI-26-001": sample_detail()}})
+
+
+def test_guard_against_year_chunk_collapse_raises_when_year_vanishes_entirely(tmp_path):
+    write_advisory_chunks(tmp_path, {"2015": {f"ZDI-15-{i:03d}": sample_detail() for i in range(20)}})
+
+    with pytest.raises(RuntimeError):
+        guard_against_year_chunk_collapse(tmp_path, {"2026": {"ZDI-26-001": sample_detail()}})
