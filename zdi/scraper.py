@@ -66,21 +66,25 @@ def scrape_upcoming(fetch=fetch_html) -> list[UpcomingAdvisory]:
     return parse_upcoming(fetch(UPCOMING_URL))
 
 
-def load_existing_detail(data_dir: Path, record: PublishedAdvisory) -> AdvisoryDetail | None:
-    path = data_dir / "advisories" / record.zdi_id / "advisory.json"
-    if not path.exists():
-        return None
-    try:
-        existing = AdvisoryDetail.model_validate_json(path.read_text(encoding="utf-8"))
-    except ValueError:
-        return None
-    if record.updated_date and existing.updated_date == record.updated_date:
+def load_existing_detail(
+    chunks: dict[str, dict[str, AdvisoryDetail]],
+    published_lookup: dict[str, str],
+    record: PublishedAdvisory,
+) -> AdvisoryDetail | None:
+    year = advisory_year(record.zdi_id, published_lookup)
+    existing = chunks.get(year, {}).get(record.zdi_id)
+    if existing and record.updated_date and existing.updated_date == record.updated_date:
         return existing
     return None
 
 
-def fetch_detail(record: PublishedAdvisory, data_dir: Path, fetch=fetch_html) -> AdvisoryDetail:
-    existing = load_existing_detail(data_dir, record)
+def fetch_detail(
+    record: PublishedAdvisory,
+    chunks: dict[str, dict[str, AdvisoryDetail]],
+    published_lookup: dict[str, str],
+    fetch=fetch_html,
+) -> AdvisoryDetail:
+    existing = load_existing_detail(chunks, published_lookup, record)
     if existing:
         return existing
     html = fetch(record.url)
@@ -96,11 +100,16 @@ def scrape_details(
     max_workers: int = 12,
     verbose: bool = False,
 ) -> dict[str, AdvisoryDetail]:
+    chunks = load_advisory_chunks(data_dir)
+    published_lookup = {record.zdi_id: record.published_date for record in records if record.published_date}
     details: dict[str, AdvisoryDetail] = {}
     total = len(records)
     completed = 0
     with ThreadPoolExecutor(max_workers=max_workers) as executor:
-        futures = {executor.submit(fetch_detail, record, data_dir, fetch): record for record in records}
+        futures = {
+            executor.submit(fetch_detail, record, chunks, published_lookup, fetch): record
+            for record in records
+        }
         for future in as_completed(futures):
             record = futures[future]
             details[record.zdi_id] = future.result()
