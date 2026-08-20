@@ -40,7 +40,7 @@ The deployed site exposes:
 - `/data/published.json`
 - `/data/upcoming.json`
 - `/data/stats.json`
-- `/data/advisories/<zdi_id>/advisory.json`
+- `/data/advisories/<year>.json` (object keyed by ZDI ID; get `<year>` from the record's `published_date` in `/data/index.json`)
 - `/skill.md`
 - `/schema.json`
 - `/llms.txt`
