@@ -5,6 +5,3 @@
 
 /data/*
   Cache-Control: public, max-age=300
-
-/data/advisories/*
-  Cache-Control: public, max-age=86400
