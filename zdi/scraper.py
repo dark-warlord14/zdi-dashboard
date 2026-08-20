@@ -213,12 +213,12 @@ def write_public_data(
     details: dict[str, AdvisoryDetail],
 ) -> None:
     data_dir.mkdir(parents=True, exist_ok=True)
+    grouped = group_details_by_year(details, published)
+    guard_against_year_chunk_collapse(data_dir, grouped)
     dump_json(data_dir / "published.json", published_entries(published, details))
     dump_json(data_dir / "upcoming.json", [record.model_dump() for record in upcoming])
     dump_json(data_dir / "index.json", index_entries(published, upcoming, details))
     dump_json(data_dir / "stats.json", build_stats(published, upcoming).model_dump())
-    grouped = group_details_by_year(details, published)
-    guard_against_year_chunk_collapse(data_dir, grouped)
     write_advisory_chunks(data_dir, grouped)
 
 

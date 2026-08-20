@@ -171,6 +171,18 @@ def test_write_public_data_creates_index_and_detail_files(tmp_path):
     assert year_chunk["ZDI-26-040"]["title"] == "Discord Client Privilege Escalation"
 
 
+def test_write_public_data_guard_runs_before_any_file_is_written(tmp_path):
+    write_advisory_chunks(tmp_path, {"2026": {f"ZDI-26-{i:03d}": sample_detail() for i in range(20)}})
+
+    with pytest.raises(RuntimeError):
+        write_public_data(tmp_path, [sample_published()], [sample_upcoming()], {"ZDI-26-040": sample_detail()})
+
+    assert not (tmp_path / "published.json").exists()
+    assert not (tmp_path / "upcoming.json").exists()
+    assert not (tmp_path / "index.json").exists()
+    assert not (tmp_path / "stats.json").exists()
+
+
 def test_guard_against_empty_scrape_raises_when_published_collapses(tmp_path):
     (tmp_path / "published.json").write_text(json.dumps([{"id": i} for i in range(20)]), encoding="utf-8")
 
