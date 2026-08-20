@@ -11,13 +11,13 @@
   "cve": "CVE-2016-7630",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-7630",
   "cvss": 4.4,
-  "cvss_vector": "AV:L/AC:M/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2016-08-30 - Vulnerability reported to vendor",
     "2017-03-31 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-16-679 ZDI-CAN-3954 Apple iOS legacy-diagnostics Privilege Escalation Vulnerability 2017-03-31 CVE-2016-7630 https://www.cve.org/CVERecord?id=CVE-2016-7630 4.4 AV:L/AC:M/Au:N/C:P/I:P/A:P ['Apple'] ['iOS'] This vulnerability allows remote attackers to escalate privileges on vulnerable installations of Apple iOS. User interaction is required to exploit this vulnerability in that the target must connect to a WiFi access point. The specific flaw exists within the usage of the legacy-diagnostics protocol handler. The issue lies in the launching of a diagnostic application that is able to render webpages outside of the sandbox. An attacker can leverage this vulnerability to escalate privileges outside the context of the sandbox. Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/HT207422 ['2016-08-30 - Vulnerability reported to vendor', '2017-03-31 - Coordinated public release of advisory'] 7cd6cbc56470722cd7dea01561796431 https://www.zerodayinitiative.com/advisories/ZDI-16-679/",
+  "search_text": "published ZDI-16-679 ZDI-CAN-3954 Apple iOS legacy-diagnostics Privilege Escalation Vulnerability 2017-03-31 CVE-2016-7630 https://www.cve.org/CVERecord?id=CVE-2016-7630 4.4 ['Apple'] ['iOS'] This vulnerability allows remote attackers to escalate privileges on vulnerable installations of Apple iOS. User interaction is required to exploit this vulnerability in that the target must connect to a WiFi access point. The specific flaw exists within the usage of the legacy-diagnostics protocol handler. The issue lies in the launching of a diagnostic application that is able to render webpages outside of the sandbox. An attacker can leverage this vulnerability to escalate privileges outside the context of the sandbox. Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/HT207422 ['2016-08-30 - Vulnerability reported to vendor', '2017-03-31 - Coordinated public release of advisory'] 7cd6cbc56470722cd7dea01561796431 https://www.zerodayinitiative.com/advisories/ZDI-16-679/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-679/",
   "title": "Apple iOS legacy-diagnostics Privilege Escalation Vulnerability",
   "updated_date": null,

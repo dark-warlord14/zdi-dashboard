@@ -11,13 +11,13 @@
   "cve": "CVE-2014-3802",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-3802",
   "cvss": 6.8,
-  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2013-05-13 - Vulnerability reported to vendor",
     "2014-05-14 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-14-129 ZDI-CAN-1856 Microsoft DIA SDK msdia.dll Memory Corruption Vulnerability 2014-05-14 CVE-2014-3802 https://www.cve.org/CVERecord?id=CVE-2014-3802 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Microsoft'] ['Debug Interface Access SDK'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Debug Interface Access SDK. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of PDB files. The issue lies in a failure to sanitize a value which is then used in the calculation of an address for a dynamic call. An attacker can leverage this vulnerability to execute code under the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: http://go.microsoft.com/fwlink/p/?LinkId=306566 ['2013-05-13 - Vulnerability reported to vendor', '2014-05-14 - Coordinated public release of advisory'] 80ceb6400c43bd3fa9f1ef561f7c51d929fe0199 https://www.zerodayinitiative.com/advisories/ZDI-14-129/",
+  "search_text": "published ZDI-14-129 ZDI-CAN-1856 Microsoft DIA SDK msdia.dll Memory Corruption Vulnerability 2014-05-14 CVE-2014-3802 https://www.cve.org/CVERecord?id=CVE-2014-3802 6.8 ['Microsoft'] ['Debug Interface Access SDK'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Debug Interface Access SDK. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of PDB files. The issue lies in a failure to sanitize a value which is then used in the calculation of an address for a dynamic call. An attacker can leverage this vulnerability to execute code under the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: http://go.microsoft.com/fwlink/p/?LinkId=306566 ['2013-05-13 - Vulnerability reported to vendor', '2014-05-14 - Coordinated public release of advisory'] 80ceb6400c43bd3fa9f1ef561f7c51d929fe0199 https://www.zerodayinitiative.com/advisories/ZDI-14-129/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-14-129/",
   "title": "Microsoft DIA SDK msdia.dll Memory Corruption Vulnerability",
   "updated_date": null,

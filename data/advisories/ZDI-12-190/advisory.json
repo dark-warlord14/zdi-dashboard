@@ -11,13 +11,13 @@
   "cve": "CVE-2012-1877",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2012-1877",
   "cvss": 7.5,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2012-03-14 - Vulnerability reported to vendor",
     "2012-12-21 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-12-190 ZDI-CAN-1520 Microsoft Internet Explorer Title Element Change Remote Code Execution Vulnerability 2012-12-21 CVE-2012-1877 https://www.cve.org/CVERecord?id=CVE-2012-1877 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Microsoft'] ['Internet Explorer 9'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists in the 'onpropertychange' user callback function for the document.title. If the function changes the document in the callback function by using, for example, a document.write call, this can result in a use-after-free vulnerability. This can lead to remote code execution under the context of the program. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/en-us/security/bulletin/ms12-037 ['2012-03-14 - Vulnerability reported to vendor', '2012-12-21 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-12-190/",
+  "search_text": "published ZDI-12-190 ZDI-CAN-1520 Microsoft Internet Explorer Title Element Change Remote Code Execution Vulnerability 2012-12-21 CVE-2012-1877 https://www.cve.org/CVERecord?id=CVE-2012-1877 7.5 ['Microsoft'] ['Internet Explorer 9'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists in the 'onpropertychange' user callback function for the document.title. If the function changes the document in the callback function by using, for example, a document.write call, this can result in a use-after-free vulnerability. This can lead to remote code execution under the context of the program. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/en-us/security/bulletin/ms12-037 ['2012-03-14 - Vulnerability reported to vendor', '2012-12-21 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-12-190/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-12-190/",
   "title": "Microsoft Internet Explorer Title Element Change Remote Code Execution Vulnerability",
   "updated_date": null,

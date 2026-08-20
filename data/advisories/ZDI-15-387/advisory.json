@@ -11,13 +11,13 @@
   "cve": "CVE-2015-2435",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-2435",
   "cvss": 10.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2015-03-18 - Vulnerability reported to vendor",
     "2015-08-11 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-15-387 ZDI-CAN-2824 (Pwn2Own) Microsoft Windows TrueType Font Pool Overflow Remote Code Execution Vulnerability 2015-08-11 CVE-2015-2435 https://www.cve.org/CVERecord?id=CVE-2015-2435 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Microsoft'] ['Windows'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Windows. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the processing of TrueType fonts. A glyph can be crafted to cause a buffer overflow in win32k!vCopyClearTypeBits in the Windows kernel, allowing read and write access to kernel memory. This can be leveraged by an attacker to run arbitrary code in the context of SYSTEM. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/library/security/MS15-080 ['2015-03-18 - Vulnerability reported to vendor', '2015-08-11 - Coordinated public release of advisory'] KeenTeam's Jihui Lu and Peter Hlavaty https://www.zerodayinitiative.com/advisories/ZDI-15-387/",
+  "search_text": "published ZDI-15-387 ZDI-CAN-2824 (Pwn2Own) Microsoft Windows TrueType Font Pool Overflow Remote Code Execution Vulnerability 2015-08-11 CVE-2015-2435 https://www.cve.org/CVERecord?id=CVE-2015-2435 10.0 ['Microsoft'] ['Windows'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Windows. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the processing of TrueType fonts. A glyph can be crafted to cause a buffer overflow in win32k!vCopyClearTypeBits in the Windows kernel, allowing read and write access to kernel memory. This can be leveraged by an attacker to run arbitrary code in the context of SYSTEM. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/library/security/MS15-080 ['2015-03-18 - Vulnerability reported to vendor', '2015-08-11 - Coordinated public release of advisory'] KeenTeam's Jihui Lu and Peter Hlavaty https://www.zerodayinitiative.com/advisories/ZDI-15-387/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-387/",
   "title": "(Pwn2Own) Microsoft Windows TrueType Font Pool Overflow Remote Code Execution Vulnerability",
   "updated_date": null,

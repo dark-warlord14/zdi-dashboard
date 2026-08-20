@@ -11,13 +11,13 @@
   "cve": "CVE-2016-1803",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-1803",
   "cvss": 6.9,
-  "cvss_vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2016-02-12 - Vulnerability reported to vendor",
     "2016-05-19 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-16-339 ZDI-CAN-3565 Apple OS X IOKit CoreCaptureResponder Privilege Escalation Vulnerability 2016-05-19 CVE-2016-1803 https://www.cve.org/CVERecord?id=CVE-2016-1803 6.9 AV:L/AC:M/Au:N/C:C/I:C/A:C ['Apple'] ['OS X'] This vulnerability allows local attackers to execute arbitrary code on vulnerable installations of Apple OS X. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The specific flaw exists within CoreCaptureResponder in IOKit. The issue lies with the failure to validate user-supplied arguments which can cause a null pointer dereference. An attacker can leverage this vulnerability to escalate privileges and execute code under the context of the kernel. Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-us/HT201222 ['2016-02-12 - Vulnerability reported to vendor', '2016-05-19 - Coordinated public release of advisory'] daybreaker https://www.zerodayinitiative.com/advisories/ZDI-16-339/",
+  "search_text": "published ZDI-16-339 ZDI-CAN-3565 Apple OS X IOKit CoreCaptureResponder Privilege Escalation Vulnerability 2016-05-19 CVE-2016-1803 https://www.cve.org/CVERecord?id=CVE-2016-1803 6.9 ['Apple'] ['OS X'] This vulnerability allows local attackers to execute arbitrary code on vulnerable installations of Apple OS X. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The specific flaw exists within CoreCaptureResponder in IOKit. The issue lies with the failure to validate user-supplied arguments which can cause a null pointer dereference. An attacker can leverage this vulnerability to escalate privileges and execute code under the context of the kernel. Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-us/HT201222 ['2016-02-12 - Vulnerability reported to vendor', '2016-05-19 - Coordinated public release of advisory'] daybreaker https://www.zerodayinitiative.com/advisories/ZDI-16-339/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-339/",
   "title": "Apple OS X IOKit CoreCaptureResponder Privilege Escalation Vulnerability",
   "updated_date": null,

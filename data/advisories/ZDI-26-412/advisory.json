@@ -1,0 +1,28 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2026-50522",
+  "advisory_date": "2026-07-15",
+  "affected_products": [
+    "SharePoint"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "splitline (@_splitline_) from DEVCORE Research Team",
+  "cve": "CVE-2026-50522",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-50522",
+  "cvss": 8.1,
+  "cvss_vector": "AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2026-05-21 - Vulnerability reported to vendor",
+    "2026-07-15 - Coordinated public release of advisory",
+    "2026-07-15 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-26-412 ZDI-CAN-31490 (Pwn2Own) Microsoft SharePoint Deserialization of Untrusted Data Remote Code Execution Vulnerability 2026-07-15 CVE-2026-50522 https://www.cve.org/CVERecord?id=CVE-2026-50522 8.1 AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H ['Microsoft'] ['SharePoint'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Microsoft SharePoint. Authentication is not required to exploit this vulnerability. The specific flaw exists within the SessionSecurityTokenHandler class. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this in conjunction with other vulnerabilities to execute code in the context of the service account. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2026-50522 ['2026-05-21 - Vulnerability reported to vendor', '2026-07-15 - Coordinated public release of advisory', '2026-07-15 - Advisory Updated'] splitline (@_splitline_) from DEVCORE Research Team https://www.zerodayinitiative.com/advisories/ZDI-26-412/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-412/",
+  "title": "(Pwn2Own) Microsoft SharePoint Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+  "updated_date": "2026-07-15",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Microsoft SharePoint. Authentication is not required to exploit this vulnerability. The specific flaw exists within the SessionSecurityTokenHandler class. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this in conjunction with other vulnerabilities to execute code in the context of the service account.",
+  "zdi_can": "ZDI-CAN-31490",
+  "zdi_id": "ZDI-26-412"
+}

@@ -1,0 +1,28 @@
+{
+  "additional_details": "Sony has issued an update to correct this vulnerability. More details can be found at: https://www.sony.com/electronics/support/mobile-cd-players-digital-media-players-xav-series/xav-9500es/software/00274922",
+  "advisory_date": "2026-07-29",
+  "affected_products": [
+    "XAV-9500ES"
+  ],
+  "affected_vendors": [
+    "Sony"
+  ],
+  "credit": "Synacktiv",
+  "cve": "CVE-2026-18284",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-18284",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2026-03-19 - Vulnerability reported to vendor",
+    "2026-07-29 - Coordinated public release of advisory",
+    "2026-07-29 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-26-477 ZDI-CAN-29061 (Pwn2Own) Sony XAV-9500ES Crash Dump Handler Command Injection Local Privilege Escalation Vulnerability 2026-07-29 CVE-2026-18284 https://www.cve.org/CVERecord?id=CVE-2026-18284 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Sony'] ['XAV-9500ES'] This vulnerability allows local attackers to escalate privileges on affected installations of Sony XAV-9500ES devices. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of process crash dumps. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root. Sony has issued an update to correct this vulnerability. More details can be found at: https://www.sony.com/electronics/support/mobile-cd-players-digital-media-players-xav-series/xav-9500es/software/00274922 ['2026-03-19 - Vulnerability reported to vendor', '2026-07-29 - Coordinated public release of advisory', '2026-07-29 - Advisory Updated'] Synacktiv https://www.zerodayinitiative.com/advisories/ZDI-26-477/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-477/",
+  "title": "(Pwn2Own) Sony XAV-9500ES Crash Dump Handler Command Injection Local Privilege Escalation Vulnerability",
+  "updated_date": "2026-07-29",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Sony XAV-9500ES devices. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of process crash dumps. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root.",
+  "zdi_can": "ZDI-CAN-29061",
+  "zdi_id": "ZDI-26-477"
+}

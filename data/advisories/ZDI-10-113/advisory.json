@@ -11,13 +11,13 @@
   "cve": "CVE-2010-1199",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2010-1199",
   "cvss": 10.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2010-03-22 - Vulnerability reported to vendor",
     "2010-06-23 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-10-113 ZDI-CAN-747 Mozilla Firefox XSLT Sort Remote Code Execution Vulnerability 2010-06-23 CVE-2010-1199 https://www.cve.org/CVERecord?id=CVE-2010-1199 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Mozilla Firefox'] ['3.6.x'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Mozilla Firefox. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or otherwise render a malicious file. The specific flaw exists within a particular XSLT transformation when applied to an XML document. If a large number of elements have this transformation applied to them, the application will misallocate a buffer. Upon usage of this buffer the application will copy more data than allocated thus causing an overflow. This can lead to code execution under the context of the application. Mozilla Firefox has issued an update to correct this vulnerability. More details can be found at: http://www.mozilla.org/security/announce/2010/mfsa2010-30.html ['2010-03-22 - Vulnerability reported to vendor', '2010-06-23 - Coordinated public release of advisory'] Martin Barbella https://www.zerodayinitiative.com/advisories/ZDI-10-113/",
+  "search_text": "published ZDI-10-113 ZDI-CAN-747 Mozilla Firefox XSLT Sort Remote Code Execution Vulnerability 2010-06-23 CVE-2010-1199 https://www.cve.org/CVERecord?id=CVE-2010-1199 10.0 ['Mozilla Firefox'] ['3.6.x'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Mozilla Firefox. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or otherwise render a malicious file. The specific flaw exists within a particular XSLT transformation when applied to an XML document. If a large number of elements have this transformation applied to them, the application will misallocate a buffer. Upon usage of this buffer the application will copy more data than allocated thus causing an overflow. This can lead to code execution under the context of the application. Mozilla Firefox has issued an update to correct this vulnerability. More details can be found at: http://www.mozilla.org/security/announce/2010/mfsa2010-30.html ['2010-03-22 - Vulnerability reported to vendor', '2010-06-23 - Coordinated public release of advisory'] Martin Barbella https://www.zerodayinitiative.com/advisories/ZDI-10-113/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-113/",
   "title": "Mozilla Firefox XSLT Sort Remote Code Execution Vulnerability",
   "updated_date": null,

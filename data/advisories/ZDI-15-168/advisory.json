@@ -11,13 +11,13 @@
   "cve": null,
   "cve_url": null,
   "cvss": 10.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2014-08-19 - Vulnerability reported to vendor",
     "2015-05-06 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-15-168 ZDI-CAN-2469 ManageEngine Applications Manager MaintenanceTaskAPIUtil resourceid SQL Injection Remote Code Execution Vulnerability 2015-05-06 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['ManageEngine'] ['Applications Manager'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of ManageEngine Applications Manager. Authentication is not required to exploit this vulnerability. The specific flaw exists within the MaintenanceTaskAPIUtil class. The issue lies in the failure to sanitize user-supplied input prior to executing a SQL statement. An attacker could leverage this vulnerability to execute code under the context of the database, which defaults to SYSTEM. Upgrade to version 11 build 11912 or higher, to address this vulnerability. ['2014-08-19 - Vulnerability reported to vendor', '2015-05-06 - Coordinated public release of advisory'] Andrea Micalizzi (rgod) https://www.zerodayinitiative.com/advisories/ZDI-15-168/",
+  "search_text": "published ZDI-15-168 ZDI-CAN-2469 ManageEngine Applications Manager MaintenanceTaskAPIUtil resourceid SQL Injection Remote Code Execution Vulnerability 2015-05-06 10.0 ['ManageEngine'] ['Applications Manager'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of ManageEngine Applications Manager. Authentication is not required to exploit this vulnerability. The specific flaw exists within the MaintenanceTaskAPIUtil class. The issue lies in the failure to sanitize user-supplied input prior to executing a SQL statement. An attacker could leverage this vulnerability to execute code under the context of the database, which defaults to SYSTEM. Upgrade to version 11 build 11912 or higher, to address this vulnerability. ['2014-08-19 - Vulnerability reported to vendor', '2015-05-06 - Coordinated public release of advisory'] Andrea Micalizzi (rgod) https://www.zerodayinitiative.com/advisories/ZDI-15-168/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-168/",
   "title": "ManageEngine Applications Manager MaintenanceTaskAPIUtil resourceid SQL Injection Remote Code Execution Vulnerability",
   "updated_date": null,

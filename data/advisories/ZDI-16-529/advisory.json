@@ -11,13 +11,13 @@
   "cve": null,
   "cve_url": null,
   "cvss": 6.9,
-  "cvss_vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2016-07-12 - Vulnerability reported to vendor",
     "2016-10-06 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-16-529 ZDI-CAN-3843 Trend Micro Maximum Security tmnciesc driver Untrusted Pointer Dereference Privilege Escalation Vulnerability 2016-10-06 6.9 AV:L/AC:M/Au:N/C:C/I:C/A:C ['Trend Micro'] ['Maximum Security'] This vulnerability allows local attackers to execute arbitrary code on vulnerable installations of Trend Micro Maximum Security. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the processing of IOCTL 0x00222813 by the tmnciesc device driver. The issue lies in the failure to validate a user-supplied value prior to dereferencing it as a pointer. An attacker can leverage this vulnerability to execute arbitrary code under the context of the kernel. Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://esupport.trendmicro.com/en-us/home/pages/technical-support/1115282.aspx ['2016-07-12 - Vulnerability reported to vendor', '2016-10-06 - Coordinated public release of advisory'] Jaanus Kp Clarified Security https://www.zerodayinitiative.com/advisories/ZDI-16-529/",
+  "search_text": "published ZDI-16-529 ZDI-CAN-3843 Trend Micro Maximum Security tmnciesc driver Untrusted Pointer Dereference Privilege Escalation Vulnerability 2016-10-06 6.9 ['Trend Micro'] ['Maximum Security'] This vulnerability allows local attackers to execute arbitrary code on vulnerable installations of Trend Micro Maximum Security. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the processing of IOCTL 0x00222813 by the tmnciesc device driver. The issue lies in the failure to validate a user-supplied value prior to dereferencing it as a pointer. An attacker can leverage this vulnerability to execute arbitrary code under the context of the kernel. Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://esupport.trendmicro.com/en-us/home/pages/technical-support/1115282.aspx ['2016-07-12 - Vulnerability reported to vendor', '2016-10-06 - Coordinated public release of advisory'] Jaanus Kp Clarified Security https://www.zerodayinitiative.com/advisories/ZDI-16-529/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-529/",
   "title": "Trend Micro Maximum Security tmnciesc driver Untrusted Pointer Dereference Privilege Escalation Vulnerability",
   "updated_date": null,

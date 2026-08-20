@@ -11,13 +11,13 @@
   "cve": "CVE-2012-0162",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2012-0162",
   "cvss": 7.5,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2011-12-07 - Vulnerability reported to vendor",
     "2012-08-03 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-12-131 ZDI-CAN-1432 Microsoft .NET Framework Undersized Glyph Buffer Remote Code Execution Vulnerability 2012-08-03 CVE-2012-0162 https://www.cve.org/CVERecord?id=CVE-2012-0162 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Microsoft'] ['.NET'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of the .NET Framework. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within Microsoft .NET handling of XAML Browser Applications (XBAP) graphics components. It is possible to cause an undersized allocation for a buffer which is populated with user-supplied glyph data, resulting in memory corruption which can be leveraged to remotely execute code. Microsoft has issued an update to correct this vulnerability. More details can be found at: http://technet.microsoft.com/en-us/security/bulletin/ms12-034 ['2011-12-07 - Vulnerability reported to vendor', '2012-08-03 - Coordinated public release of advisory'] Vitaliy Toropov https://www.zerodayinitiative.com/advisories/ZDI-12-131/",
+  "search_text": "published ZDI-12-131 ZDI-CAN-1432 Microsoft .NET Framework Undersized Glyph Buffer Remote Code Execution Vulnerability 2012-08-03 CVE-2012-0162 https://www.cve.org/CVERecord?id=CVE-2012-0162 7.5 ['Microsoft'] ['.NET'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of the .NET Framework. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within Microsoft .NET handling of XAML Browser Applications (XBAP) graphics components. It is possible to cause an undersized allocation for a buffer which is populated with user-supplied glyph data, resulting in memory corruption which can be leveraged to remotely execute code. Microsoft has issued an update to correct this vulnerability. More details can be found at: http://technet.microsoft.com/en-us/security/bulletin/ms12-034 ['2011-12-07 - Vulnerability reported to vendor', '2012-08-03 - Coordinated public release of advisory'] Vitaliy Toropov https://www.zerodayinitiative.com/advisories/ZDI-12-131/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-12-131/",
   "title": "Microsoft .NET Framework Undersized Glyph Buffer Remote Code Execution Vulnerability",
   "updated_date": null,

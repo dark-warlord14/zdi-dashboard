@@ -11,13 +11,13 @@
   "cve": "CVE-2015-2284",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-2284",
   "cvss": 10.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2013-11-26 - Vulnerability reported to vendor",
     "2015-03-13 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-15-107 ZDI-CAN-1999 SolarWinds Firewall Security Manager userlogin.jsp Remote Code Execution Vulnerability 2015-03-13 CVE-2015-2284 https://www.cve.org/CVERecord?id=CVE-2015-2284 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['SolarWinds'] ['Firewall Security Manager'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of SolarWinds Firewall Security Manager. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of client sessions. The issue lies in the ability to elevate to administrative privileges. An attacker can leverage this vulnerability to execute code under the context of SYSTEM. SolarWinds has issued an update to correct this vulnerability. More details can be found at: http://downloads.solarwinds.com/solarwinds/Release/HotFix/FSM-v6.6.5-HotFix1.zip ['2013-11-26 - Vulnerability reported to vendor', '2015-03-13 - Coordinated public release of advisory'] Andrea Micalizzi aka rgod https://www.zerodayinitiative.com/advisories/ZDI-15-107/",
+  "search_text": "published ZDI-15-107 ZDI-CAN-1999 SolarWinds Firewall Security Manager userlogin.jsp Remote Code Execution Vulnerability 2015-03-13 CVE-2015-2284 https://www.cve.org/CVERecord?id=CVE-2015-2284 10.0 ['SolarWinds'] ['Firewall Security Manager'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of SolarWinds Firewall Security Manager. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of client sessions. The issue lies in the ability to elevate to administrative privileges. An attacker can leverage this vulnerability to execute code under the context of SYSTEM. SolarWinds has issued an update to correct this vulnerability. More details can be found at: http://downloads.solarwinds.com/solarwinds/Release/HotFix/FSM-v6.6.5-HotFix1.zip ['2013-11-26 - Vulnerability reported to vendor', '2015-03-13 - Coordinated public release of advisory'] Andrea Micalizzi aka rgod https://www.zerodayinitiative.com/advisories/ZDI-15-107/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-107/",
   "title": "SolarWinds Firewall Security Manager userlogin.jsp Remote Code Execution Vulnerability",
   "updated_date": null,

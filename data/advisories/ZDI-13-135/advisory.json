@@ -11,13 +11,13 @@
   "cve": "CVE-2013-3118",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2013-3118",
   "cvss": 7.5,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2013-03-22 - Vulnerability reported to vendor",
     "2013-06-27 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-13-135 ZDI-CAN-1789 Microsoft Internet Explorer CSVGMaskElement Double-Free Remote Code Execution Vulnerability 2013-06-27 CVE-2013-3118 https://www.cve.org/CVERecord?id=CVE-2013-3118 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Microsoft'] ['Internet Explorer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within handling CSVGMaskElement objects. By manipulating a document's elements an attacker can force a double free condition. An attacker can leverage this vulnerability to execute code under the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: http://technet.microsoft.com/en-us/security/bulletin/ms13-047 ['2013-03-22 - Vulnerability reported to vendor', '2013-06-27 - Coordinated public release of advisory'] Omair https://www.zerodayinitiative.com/advisories/ZDI-13-135/",
+  "search_text": "published ZDI-13-135 ZDI-CAN-1789 Microsoft Internet Explorer CSVGMaskElement Double-Free Remote Code Execution Vulnerability 2013-06-27 CVE-2013-3118 https://www.cve.org/CVERecord?id=CVE-2013-3118 7.5 ['Microsoft'] ['Internet Explorer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within handling CSVGMaskElement objects. By manipulating a document's elements an attacker can force a double free condition. An attacker can leverage this vulnerability to execute code under the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: http://technet.microsoft.com/en-us/security/bulletin/ms13-047 ['2013-03-22 - Vulnerability reported to vendor', '2013-06-27 - Coordinated public release of advisory'] Omair https://www.zerodayinitiative.com/advisories/ZDI-13-135/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-13-135/",
   "title": "Microsoft Internet Explorer CSVGMaskElement Double-Free Remote Code Execution Vulnerability",
   "updated_date": null,

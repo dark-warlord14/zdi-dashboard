@@ -11,13 +11,13 @@
   "cve": null,
   "cve_url": null,
   "cvss": 10.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2014-08-18 - Vulnerability reported to vendor",
     "2015-05-07 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-15-180 ZDI-CAN-2441 ManageEngine Desktop Central MSP FileUploadServlet computerName File Upload Remote Code Execution Vulnerability 2015-05-07 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['ManageEngine'] ['Destkop Central MSP'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of ManageEngine Desktop Central MSP. Authentication is not required to exploit this vulnerability. The specific flaw exists within the FileUploadServlet servlet. The issue lies in the failure to sanitize the filenames uploaded to the servlet. An attacker can leverage this vulnerability to execute code under the context of SYSTEM. Upgrade to version 9 build 90142 or higher, to address this vulnerability. ['2014-08-18 - Vulnerability reported to vendor', '2015-05-07 - Coordinated public release of advisory'] Andrea Micalizzi (rgod) https://www.zerodayinitiative.com/advisories/ZDI-15-180/",
+  "search_text": "published ZDI-15-180 ZDI-CAN-2441 ManageEngine Desktop Central MSP FileUploadServlet computerName File Upload Remote Code Execution Vulnerability 2015-05-07 10.0 ['ManageEngine'] ['Destkop Central MSP'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of ManageEngine Desktop Central MSP. Authentication is not required to exploit this vulnerability. The specific flaw exists within the FileUploadServlet servlet. The issue lies in the failure to sanitize the filenames uploaded to the servlet. An attacker can leverage this vulnerability to execute code under the context of SYSTEM. Upgrade to version 9 build 90142 or higher, to address this vulnerability. ['2014-08-18 - Vulnerability reported to vendor', '2015-05-07 - Coordinated public release of advisory'] Andrea Micalizzi (rgod) https://www.zerodayinitiative.com/advisories/ZDI-15-180/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-180/",
   "title": "ManageEngine Desktop Central MSP FileUploadServlet computerName File Upload Remote Code Execution Vulnerability",
   "updated_date": null,

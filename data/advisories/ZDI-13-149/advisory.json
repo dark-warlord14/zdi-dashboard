@@ -11,13 +11,13 @@
   "cve": "CVE-2013-1493",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2013-1493",
   "cvss": 10.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2013-02-01 - Vulnerability reported to vendor",
     "2013-06-27 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-13-149 ZDI-CAN-1718 Oracle Java cmmColorConvert Remote Code Execution Vulnerability 2013-06-27 CVE-2013-1493 https://www.cve.org/CVERecord?id=CVE-2013-1493 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Oracle'] ['Java Runtime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Oracle Java. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the sun.java2d.cmm.kcms.CMM.cmmColorConvert's native function. The issue lies in the handling of the destCMMImageLayout argument, which is not properly validated before being used. By manipulating the functions arguments an attacker can force an integer overflow to occur before indexing into an array. An attacker can leverage this vulnerability to execute code under the context of the current process. Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/alert-cve-2013-1493-1915081.html ['2013-02-01 - Vulnerability reported to vendor', '2013-06-27 - Coordinated public release of advisory'] Vitaliy Toropov https://www.zerodayinitiative.com/advisories/ZDI-13-149/",
+  "search_text": "published ZDI-13-149 ZDI-CAN-1718 Oracle Java cmmColorConvert Remote Code Execution Vulnerability 2013-06-27 CVE-2013-1493 https://www.cve.org/CVERecord?id=CVE-2013-1493 10.0 ['Oracle'] ['Java Runtime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Oracle Java. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the sun.java2d.cmm.kcms.CMM.cmmColorConvert's native function. The issue lies in the handling of the destCMMImageLayout argument, which is not properly validated before being used. By manipulating the functions arguments an attacker can force an integer overflow to occur before indexing into an array. An attacker can leverage this vulnerability to execute code under the context of the current process. Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/alert-cve-2013-1493-1915081.html ['2013-02-01 - Vulnerability reported to vendor', '2013-06-27 - Coordinated public release of advisory'] Vitaliy Toropov https://www.zerodayinitiative.com/advisories/ZDI-13-149/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-13-149/",
   "title": "Oracle Java cmmColorConvert Remote Code Execution Vulnerability",
   "updated_date": null,

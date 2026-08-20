@@ -2,23 +2,22 @@
   "additional_details": "Apache has issued an update to correct this vulnerability. More details can be found at: http://groovy-lang.org/security.html Elastic has issued an update to correct this vulnerability. More details can be found at: https://www.elastic.co/community/security",
   "advisory_date": "2015-07-20",
   "affected_products": [
-    "Groovy",
-    "Elasticsearch"
+    "Groovy"
   ],
   "affected_vendors": [
-    "Elastic"
+    "Apache"
   ],
   "credit": "cpnrodzc7",
   "cve": "CVE-2015-3253",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-3253",
   "cvss": 7.5,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2015-06-30 - Vulnerability reported to vendor",
     "2015-07-20 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-15-365 ZDI-CAN-2947 Apache Groovy Deserialization of Untrusted Data Remote Code Execution Vulnerability 2015-07-20 CVE-2015-3253 https://www.cve.org/CVERecord?id=CVE-2015-3253 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Elastic'] ['Groovy', 'Elasticsearch'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apache Groovy. Authentication is not required to exploit this vulnerability. The specific flaw exists within the Closure implementation which accepts and deserializes a Java serialized binary stream. An attacker can leverage this vulnerability to execute arbitrary code under the context of the user. Apache has issued an update to correct this vulnerability. More details can be found at: http://groovy-lang.org/security.html Elastic has issued an update to correct this vulnerability. More details can be found at: https://www.elastic.co/community/security ['2015-06-30 - Vulnerability reported to vendor', '2015-07-20 - Coordinated public release of advisory'] cpnrodzc7 https://www.zerodayinitiative.com/advisories/ZDI-15-365/",
+  "search_text": "published ZDI-15-365 ZDI-CAN-2947 Apache Groovy Deserialization of Untrusted Data Remote Code Execution Vulnerability 2015-07-20 CVE-2015-3253 https://www.cve.org/CVERecord?id=CVE-2015-3253 7.5 ['Apache'] ['Groovy'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apache Groovy. Authentication is not required to exploit this vulnerability. The specific flaw exists within the Closure implementation which accepts and deserializes a Java serialized binary stream. An attacker can leverage this vulnerability to execute arbitrary code under the context of the user. Apache has issued an update to correct this vulnerability. More details can be found at: http://groovy-lang.org/security.html Elastic has issued an update to correct this vulnerability. More details can be found at: https://www.elastic.co/community/security ['2015-06-30 - Vulnerability reported to vendor', '2015-07-20 - Coordinated public release of advisory'] cpnrodzc7 https://www.zerodayinitiative.com/advisories/ZDI-15-365/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-365/",
   "title": "Apache Groovy Deserialization of Untrusted Data Remote Code Execution Vulnerability",
   "updated_date": null,

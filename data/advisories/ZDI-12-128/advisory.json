@@ -11,13 +11,13 @@
   "cve": "CVE-2011-3671",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-3671",
   "cvss": 7.5,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2011-12-07 - Vulnerability reported to vendor",
     "2012-08-03 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-12-128 ZDI-CAN-1301 Mozilla Firefox nsHTMLSelectElement Remote Code Execution Vulnerability 2012-08-03 CVE-2011-3671 https://www.cve.org/CVERecord?id=CVE-2011-3671 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Mozilla'] ['Firefox'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Mozilla Firefox. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within nsINode::ReplaceOrInsertBefore() in content/base/src/nsGenericElement.cpp. A use-after-free condition can be triggered by adding an already parented option element to an option collection and then removing its associated select element during an event handler execution. Successful exploitation of this vulnerability will lead to code execution in the context of the browser. Mozilla has issued an update to correct this vulnerability. More details can be found at: https://bugzilla.mozilla.org/show_bug.cgi?id=335998 ['2011-12-07 - Vulnerability reported to vendor', '2012-08-03 - Coordinated public release of advisory'] regenrecht https://www.zerodayinitiative.com/advisories/ZDI-12-128/",
+  "search_text": "published ZDI-12-128 ZDI-CAN-1301 Mozilla Firefox nsHTMLSelectElement Remote Code Execution Vulnerability 2012-08-03 CVE-2011-3671 https://www.cve.org/CVERecord?id=CVE-2011-3671 7.5 ['Mozilla'] ['Firefox'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Mozilla Firefox. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within nsINode::ReplaceOrInsertBefore() in content/base/src/nsGenericElement.cpp. A use-after-free condition can be triggered by adding an already parented option element to an option collection and then removing its associated select element during an event handler execution. Successful exploitation of this vulnerability will lead to code execution in the context of the browser. Mozilla has issued an update to correct this vulnerability. More details can be found at: https://bugzilla.mozilla.org/show_bug.cgi?id=335998 ['2011-12-07 - Vulnerability reported to vendor', '2012-08-03 - Coordinated public release of advisory'] regenrecht https://www.zerodayinitiative.com/advisories/ZDI-12-128/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-12-128/",
   "title": "Mozilla Firefox nsHTMLSelectElement Remote Code Execution Vulnerability",
   "updated_date": null,

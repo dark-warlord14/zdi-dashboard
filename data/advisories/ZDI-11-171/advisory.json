@@ -11,13 +11,13 @@
   "cve": null,
   "cve_url": null,
   "cvss": 10.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2011-01-21 - Vulnerability reported to vendor",
     "2011-06-03 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-11-171 ZDI-CAN-1068 Sybase OneBridge Mobile Data Suite Format String Remote Code Execution Vulnerability 2011-06-03 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Sybase'] ['OneBridge'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Sybase OneBridge Mobile Data Suite. Authentication is not required to exploit this vulnerability. The specific flaw exists within the iMailGatewayService server process (ECTrace.dll) which listens for encrypted requests by default on TCP port 993 (IMAP) and port 587 (SMTP). The process fails to properly sanitize malformed user string inputs before passing to the authentication logging function. By providing a specially crafted string with format specifiers this can be leveraged to trigger a format string vulnerability which can lead to arbitrary code execution in the context of the server process. Sybase has issued an update to correct this vulnerability. More details can be found at: http://www.sybase.com/detail?id=1092074 ['2011-01-21 - Vulnerability reported to vendor', '2011-06-03 - Coordinated public release of advisory'] Luigi Auriemma https://www.zerodayinitiative.com/advisories/ZDI-11-171/",
+  "search_text": "published ZDI-11-171 ZDI-CAN-1068 Sybase OneBridge Mobile Data Suite Format String Remote Code Execution Vulnerability 2011-06-03 10.0 ['Sybase'] ['OneBridge'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Sybase OneBridge Mobile Data Suite. Authentication is not required to exploit this vulnerability. The specific flaw exists within the iMailGatewayService server process (ECTrace.dll) which listens for encrypted requests by default on TCP port 993 (IMAP) and port 587 (SMTP). The process fails to properly sanitize malformed user string inputs before passing to the authentication logging function. By providing a specially crafted string with format specifiers this can be leveraged to trigger a format string vulnerability which can lead to arbitrary code execution in the context of the server process. Sybase has issued an update to correct this vulnerability. More details can be found at: http://www.sybase.com/detail?id=1092074 ['2011-01-21 - Vulnerability reported to vendor', '2011-06-03 - Coordinated public release of advisory'] Luigi Auriemma https://www.zerodayinitiative.com/advisories/ZDI-11-171/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-171/",
   "title": "Sybase OneBridge Mobile Data Suite Format String Remote Code Execution Vulnerability",
   "updated_date": null,

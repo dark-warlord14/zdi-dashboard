@@ -11,13 +11,13 @@
   "cve": "CVE-2017-2978",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-2978",
   "cvss": 4.3,
-  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2016-09-08 - Vulnerability reported to vendor",
     "2017-02-14 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-17-104 ZDI-CAN-3980 Adobe Digital Editions PDF Font Parsing Out-Of-Bounds Read Information Disclosure Vulnerability 2017-02-14 CVE-2017-2978 https://www.cve.org/CVERecord?id=CVE-2017-2978 4.3 AV:N/AC:M/Au:N/C:P/I:N/A:N ['Adobe'] ['Digital Editions'] This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Adobe Digital Editions. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of fonts inside PDF files. A crafted PDF can trigger a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/Digital-Editions/apsb17-05.html ['2016-09-08 - Vulnerability reported to vendor', '2017-02-14 - Coordinated public release of advisory'] Steven Seeley of Source Incite https://www.zerodayinitiative.com/advisories/ZDI-17-104/",
+  "search_text": "published ZDI-17-104 ZDI-CAN-3980 Adobe Digital Editions PDF Font Parsing Out-Of-Bounds Read Information Disclosure Vulnerability 2017-02-14 CVE-2017-2978 https://www.cve.org/CVERecord?id=CVE-2017-2978 4.3 ['Adobe'] ['Digital Editions'] This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Adobe Digital Editions. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of fonts inside PDF files. A crafted PDF can trigger a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/Digital-Editions/apsb17-05.html ['2016-09-08 - Vulnerability reported to vendor', '2017-02-14 - Coordinated public release of advisory'] Steven Seeley of Source Incite https://www.zerodayinitiative.com/advisories/ZDI-17-104/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-104/",
   "title": "Adobe Digital Editions PDF Font Parsing Out-Of-Bounds Read Information Disclosure Vulnerability",
   "updated_date": null,

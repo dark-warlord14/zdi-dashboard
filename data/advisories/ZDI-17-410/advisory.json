@@ -11,13 +11,13 @@
   "cve": null,
   "cve_url": null,
   "cvss": 6.8,
-  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2016-07-29 - Vulnerability reported to vendor",
     "2017-06-14 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-17-410 ZDI-CAN-3879 Novell ZENworks Reporting Appliance Directory Traversal Arbitrary File Creation Vulnerability 2017-06-14 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Novell'] ['ZENworks Reporting Appliance'] This vulnerability allows remote attackers to create arbitrary files on vulnerable installations of Novell ZENworks Reporting Appliance. Authentication is not required to exploit this vulnerability. The specific flaw exists within the FCExporter servlet. The process does not properly validate a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute arbitrary code under the context of the web server process. Micro Focus shipped a fix for this issue in ZENworks reporting v6.2.1 in January 2017. ['2016-07-29 - Vulnerability reported to vendor', '2017-06-14 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-17-410/",
+  "search_text": "published ZDI-17-410 ZDI-CAN-3879 Novell ZENworks Reporting Appliance Directory Traversal Arbitrary File Creation Vulnerability 2017-06-14 6.8 ['Novell'] ['ZENworks Reporting Appliance'] This vulnerability allows remote attackers to create arbitrary files on vulnerable installations of Novell ZENworks Reporting Appliance. Authentication is not required to exploit this vulnerability. The specific flaw exists within the FCExporter servlet. The process does not properly validate a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute arbitrary code under the context of the web server process. Micro Focus shipped a fix for this issue in ZENworks reporting v6.2.1 in January 2017. ['2016-07-29 - Vulnerability reported to vendor', '2017-06-14 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-17-410/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-410/",
   "title": "Novell ZENworks Reporting Appliance Directory Traversal Arbitrary File Creation Vulnerability",
   "updated_date": null,

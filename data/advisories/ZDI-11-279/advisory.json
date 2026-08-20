@@ -2,22 +2,22 @@
   "additional_details": "Due to the small number of installations using this software the risk of potential exploitation has been determined to be very low and therefore this issue will not be addressed. Avaya recommends implementing firewall rules that restrict access to trusted hosts to mitigate the risk. Witness Systems: No response was ever given.",
   "advisory_date": "2011-09-02",
   "affected_products": [
-    "eQuality"
+    "Contact Recording and Quality Monitoring"
   ],
   "affected_vendors": [
-    "Witness Systems"
+    "Nortel"
   ],
   "credit": "AbdulAziz Hariri of ThirdEyeTesters",
   "cve": null,
   "cve_url": null,
   "cvss": 10.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2011-03-01 - Vulnerability reported to vendor",
     "2011-09-02 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-11-279 ZDI-CAN-1097 (0Day) Witness Systems eQuality Unify Remote Code Execution Vulnerability 2011-09-02 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Witness Systems'] ['eQuality'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Witness Systems eQuality Suite. This application is bundled with Nortel Contact Recording and Quality Monitoring Suite. Authentication is not required to exploit this vulnerability. The flaw exists within the Unify2.exe component which listens by default on TCP port 6821. When handling a packet type the process trusts a remaining packet length value provided by the user and blindly copies user supplied data into a fixed-length buffer on the stack. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the SYSTEM user. Due to the small number of installations using this software the risk of potential exploitation has been determined to be very low and therefore this issue will not be addressed. Avaya recommends implementing firewall rules that restrict access to trusted hosts to mitigate the risk. Witness Systems: No response was ever given. ['2011-03-01 - Vulnerability reported to vendor', '2011-09-02 - Coordinated public release of advisory'] AbdulAziz Hariri of ThirdEyeTesters https://www.zerodayinitiative.com/advisories/ZDI-11-279/",
+  "search_text": "published ZDI-11-279 ZDI-CAN-1097 (0Day) Witness Systems eQuality Unify Remote Code Execution Vulnerability 2011-09-02 10.0 ['Nortel'] ['Contact Recording and Quality Monitoring'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Witness Systems eQuality Suite. This application is bundled with Nortel Contact Recording and Quality Monitoring Suite. Authentication is not required to exploit this vulnerability. The flaw exists within the Unify2.exe component which listens by default on TCP port 6821. When handling a packet type the process trusts a remaining packet length value provided by the user and blindly copies user supplied data into a fixed-length buffer on the stack. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the SYSTEM user. Due to the small number of installations using this software the risk of potential exploitation has been determined to be very low and therefore this issue will not be addressed. Avaya recommends implementing firewall rules that restrict access to trusted hosts to mitigate the risk. Witness Systems: No response was ever given. ['2011-03-01 - Vulnerability reported to vendor', '2011-09-02 - Coordinated public release of advisory'] AbdulAziz Hariri of ThirdEyeTesters https://www.zerodayinitiative.com/advisories/ZDI-11-279/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-279/",
   "title": "(0Day) Witness Systems eQuality Unify Remote Code Execution Vulnerability",
   "updated_date": null,

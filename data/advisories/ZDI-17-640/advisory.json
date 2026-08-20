@@ -11,13 +11,13 @@
   "cve": "CVE-2017-8653",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-8653",
   "cvss": 5.1,
-  "cvss_vector": "AV:N/AC:H/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2017-05-16 - Vulnerability reported to vendor",
     "2017-08-08 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-17-640 ZDI-CAN-4777 Microsoft Internet Explorer SVG Layout Uninitialized Memory Remote Code Execution Vulnerability 2017-08-08 CVE-2017-8653 https://www.cve.org/CVERecord?id=CVE-2017-8653 5.1 AV:N/AC:H/Au:N/C:P/I:P/A:P ['Microsoft'] ['Internet Explorer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of the layout of HTML documents. By manipulating a document's elements, an attacker can trigger access to memory prior to initialization. An attacker can leverage this vulnerability to execute code under the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2017-8653 ['2017-05-16 - Vulnerability reported to vendor', '2017-08-08 - Coordinated public release of advisory'] 62600BCA031B9EB5CB4A74ADDDD6771E https://www.zerodayinitiative.com/advisories/ZDI-17-640/",
+  "search_text": "published ZDI-17-640 ZDI-CAN-4777 Microsoft Internet Explorer SVG Layout Uninitialized Memory Remote Code Execution Vulnerability 2017-08-08 CVE-2017-8653 https://www.cve.org/CVERecord?id=CVE-2017-8653 5.1 ['Microsoft'] ['Internet Explorer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of the layout of HTML documents. By manipulating a document's elements, an attacker can trigger access to memory prior to initialization. An attacker can leverage this vulnerability to execute code under the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2017-8653 ['2017-05-16 - Vulnerability reported to vendor', '2017-08-08 - Coordinated public release of advisory'] 62600BCA031B9EB5CB4A74ADDDD6771E https://www.zerodayinitiative.com/advisories/ZDI-17-640/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-640/",
   "title": "Microsoft Internet Explorer SVG Layout Uninitialized Memory Remote Code Execution Vulnerability",
   "updated_date": null,

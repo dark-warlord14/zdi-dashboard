@@ -11,13 +11,13 @@
   "cve": "CVE-2015-5115",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-5115",
   "cvss": 6.8,
-  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2015-01-20 - Vulnerability reported to vendor",
     "2015-07-14 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-15-312 ZDI-CAN-2693 Adobe Acrobat Pro Reports Save Out-Of-Bounds Read Remote Code Execution Vulnerability 2015-07-14 CVE-2015-5115 https://www.cve.org/CVERecord?id=CVE-2015-5115 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Adobe'] ['Acrobat Pro'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Adobe Acrobat Pro. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the Report object. Attempting to save specially crafted reports can force Adobe Acrobat Pro to read memory past the end of an allocated object. An attacker could leverage this vulnerability to execute code under the context of the current process. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/reader/apsb15-15.html ['2015-01-20 - Vulnerability reported to vendor', '2015-07-14 - Coordinated public release of advisory'] AbdulAziz Hariri - HP Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-15-312/",
+  "search_text": "published ZDI-15-312 ZDI-CAN-2693 Adobe Acrobat Pro Reports Save Out-Of-Bounds Read Remote Code Execution Vulnerability 2015-07-14 CVE-2015-5115 https://www.cve.org/CVERecord?id=CVE-2015-5115 6.8 ['Adobe'] ['Acrobat Pro'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Adobe Acrobat Pro. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the Report object. Attempting to save specially crafted reports can force Adobe Acrobat Pro to read memory past the end of an allocated object. An attacker could leverage this vulnerability to execute code under the context of the current process. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/reader/apsb15-15.html ['2015-01-20 - Vulnerability reported to vendor', '2015-07-14 - Coordinated public release of advisory'] AbdulAziz Hariri - HP Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-15-312/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-312/",
   "title": "Adobe Acrobat Pro Reports Save Out-Of-Bounds Read Remote Code Execution Vulnerability",
   "updated_date": null,

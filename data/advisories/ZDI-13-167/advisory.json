@@ -11,13 +11,13 @@
   "cve": "CVE-2013-3153",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2013-3153",
   "cvss": 5.1,
-  "cvss_vector": "AV:N/AC:H/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2013-04-26 - Vulnerability reported to vendor",
     "2013-07-26 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-13-167 ZDI-CAN-1854 Microsoft Internet Explorer RemoveSplice Use-After-Free Remote Code Execution Vulnerabliity 2013-07-26 CVE-2013-3153 https://www.cve.org/CVERecord?id=CVE-2013-3153 5.1 AV:N/AC:H/Au:N/C:P/I:P/A:P ['Microsoft'] ['Internet Explorer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the onpropertychange event handler. By manipulating a document's elements an attacker can force a dangling pointer to be reused after it has been freed. An attacker can leverage this vulnerability to execute code under the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/en-us/security/bulletin/ms13-055 ['2013-04-26 - Vulnerability reported to vendor', '2013-07-26 - Coordinated public release of advisory'] e6af8de8b1d4b2b6d5ba2610cbf9cd38 https://www.zerodayinitiative.com/advisories/ZDI-13-167/",
+  "search_text": "published ZDI-13-167 ZDI-CAN-1854 Microsoft Internet Explorer RemoveSplice Use-After-Free Remote Code Execution Vulnerabliity 2013-07-26 CVE-2013-3153 https://www.cve.org/CVERecord?id=CVE-2013-3153 5.1 ['Microsoft'] ['Internet Explorer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the onpropertychange event handler. By manipulating a document's elements an attacker can force a dangling pointer to be reused after it has been freed. An attacker can leverage this vulnerability to execute code under the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/en-us/security/bulletin/ms13-055 ['2013-04-26 - Vulnerability reported to vendor', '2013-07-26 - Coordinated public release of advisory'] e6af8de8b1d4b2b6d5ba2610cbf9cd38 https://www.zerodayinitiative.com/advisories/ZDI-13-167/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-13-167/",
   "title": "Microsoft Internet Explorer RemoveSplice Use-After-Free Remote Code Execution Vulnerabliity",
   "updated_date": null,

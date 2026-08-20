@@ -2,13 +2,9 @@
   "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/bulletin/ms09-054.mspx",
   "advisory_date": "2009-10-13",
   "affected_products": [
-    "Internet Explorer 6",
-    "Internet Explorer 7",
-    "Internet Explorer 8"
+    "Internet Explorer 6"
   ],
   "affected_vendors": [
-    "Microsoft",
-    "Microsoft",
     "Microsoft"
   ],
   "credit": "Anonymous Anonymous",
@@ -21,7 +17,7 @@
     "2009-10-13 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-09-070 ZDI-CAN-489 Microsoft Internet Explorer Event Object Type Double-Free Vulnerability 2009-10-13 CVE-2009-2530 https://www.cve.org/CVERecord?id=CVE-2009-2530 ['Microsoft', 'Microsoft', 'Microsoft'] ['Internet Explorer 6', 'Internet Explorer 7', 'Internet Explorer 8'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page. The specific flaw exists within the copy constructor for a specific DOM object. When duplicated, more than one reference can be made of anything assigned to it's properties. When the variable/object goes out of scope, these properties will be deallocated twice. This results in a heap corruption which can lead to code execution under the context of the current user. Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/bulletin/ms09-054.mspx ['2009-06-23 - Vulnerability reported to vendor', '2009-10-13 - Coordinated public release of advisory'] Anonymous Anonymous https://www.zerodayinitiative.com/advisories/ZDI-09-070/",
+  "search_text": "published ZDI-09-070 ZDI-CAN-489 Microsoft Internet Explorer Event Object Type Double-Free Vulnerability 2009-10-13 CVE-2009-2530 https://www.cve.org/CVERecord?id=CVE-2009-2530 ['Microsoft'] ['Internet Explorer 6'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page. The specific flaw exists within the copy constructor for a specific DOM object. When duplicated, more than one reference can be made of anything assigned to it's properties. When the variable/object goes out of scope, these properties will be deallocated twice. This results in a heap corruption which can lead to code execution under the context of the current user. Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/bulletin/ms09-054.mspx ['2009-06-23 - Vulnerability reported to vendor', '2009-10-13 - Coordinated public release of advisory'] Anonymous Anonymous https://www.zerodayinitiative.com/advisories/ZDI-09-070/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-09-070/",
   "title": "Microsoft Internet Explorer Event Object Type Double-Free Vulnerability",
   "updated_date": null,

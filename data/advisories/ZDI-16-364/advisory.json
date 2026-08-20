@@ -11,13 +11,13 @@
   "cve": "CVE-2016-4360",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-4360",
   "cvss": 8.5,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:N/I:P/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2016-02-12 - Vulnerability reported to vendor",
     "2016-06-03 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-16-364 ZDI-CAN-3555 Hewlett Packard Enterprise LoadRunner Virtual Table Server import_csv Denial of Service Vulnerability 2016-06-03 CVE-2016-4360 https://www.cve.org/CVERecord?id=CVE-2016-4360 8.5 AV:N/AC:L/Au:N/C:N/I:P/A:C ['Hewlett Packard Enterprise'] ['LoadRunner'] This vulnerability allows remote attackers to delete arbitrary files on vulnerable installations of Hewlett Packard Enterprise LoadRunner. Authentication is not required to exploit this vulnerability. The specific flaw exists within the import_csv functionality. The issue lies in the failure to restrict file paths sent to an unlink call which allows for the deletion of arbitrary files as SYSTEM. A remote attacker can leverage this vulnerability to cause a denial-of-service condition. Hewlett Packard Enterprise has issued an update to correct this vulnerability. More details can be found at: https://h20566.www2.hpe.com/hpsc/doc/public/display?docId=emr_na-c05157423 ['2016-02-12 - Vulnerability reported to vendor', '2016-06-03 - Coordinated public release of advisory'] Tenable Network Security https://www.zerodayinitiative.com/advisories/ZDI-16-364/",
+  "search_text": "published ZDI-16-364 ZDI-CAN-3555 Hewlett Packard Enterprise LoadRunner Virtual Table Server import_csv Denial of Service Vulnerability 2016-06-03 CVE-2016-4360 https://www.cve.org/CVERecord?id=CVE-2016-4360 8.5 ['Hewlett Packard Enterprise'] ['LoadRunner'] This vulnerability allows remote attackers to delete arbitrary files on vulnerable installations of Hewlett Packard Enterprise LoadRunner. Authentication is not required to exploit this vulnerability. The specific flaw exists within the import_csv functionality. The issue lies in the failure to restrict file paths sent to an unlink call which allows for the deletion of arbitrary files as SYSTEM. A remote attacker can leverage this vulnerability to cause a denial-of-service condition. Hewlett Packard Enterprise has issued an update to correct this vulnerability. More details can be found at: https://h20566.www2.hpe.com/hpsc/doc/public/display?docId=emr_na-c05157423 ['2016-02-12 - Vulnerability reported to vendor', '2016-06-03 - Coordinated public release of advisory'] Tenable Network Security https://www.zerodayinitiative.com/advisories/ZDI-16-364/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-364/",
   "title": "Hewlett Packard Enterprise LoadRunner Virtual Table Server import_csv Denial of Service Vulnerability",
   "updated_date": null,

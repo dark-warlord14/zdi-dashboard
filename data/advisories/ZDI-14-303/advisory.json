@@ -11,13 +11,13 @@
   "cve": "CVE-2014-5504",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-5504",
   "cvss": 7.5,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2014-02-18 - Vulnerability reported to vendor",
     "2014-09-03 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-14-303 ZDI-CAN-2154 SolarWinds Log and Event Manager Static Credential Remote Code Execution Vulnerability 2014-09-03 CVE-2014-5504 https://www.cve.org/CVERecord?id=CVE-2014-5504 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['SolarWinds'] ['Log and Event Manager'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of SolarWinds Log and Event Manager. Authentication is not required to exploit this vulnerability. The specific flaw exists within the usage of HyperSQL. The issue lies in the usage of static credentials to access the database. A remote attacker can use this vulnerability to execute code under the context of the database. SolarWinds has issued an update to correct this vulnerability. More details can be found at: http://www.solarwinds.com/documentation/lem/docs/releasenotes/releasenotes.htm ['2014-02-18 - Vulnerability reported to vendor', '2014-09-03 - Coordinated public release of advisory'] G. Geshev https://www.zerodayinitiative.com/advisories/ZDI-14-303/",
+  "search_text": "published ZDI-14-303 ZDI-CAN-2154 SolarWinds Log and Event Manager Static Credential Remote Code Execution Vulnerability 2014-09-03 CVE-2014-5504 https://www.cve.org/CVERecord?id=CVE-2014-5504 7.5 ['SolarWinds'] ['Log and Event Manager'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of SolarWinds Log and Event Manager. Authentication is not required to exploit this vulnerability. The specific flaw exists within the usage of HyperSQL. The issue lies in the usage of static credentials to access the database. A remote attacker can use this vulnerability to execute code under the context of the database. SolarWinds has issued an update to correct this vulnerability. More details can be found at: http://www.solarwinds.com/documentation/lem/docs/releasenotes/releasenotes.htm ['2014-02-18 - Vulnerability reported to vendor', '2014-09-03 - Coordinated public release of advisory'] G. Geshev https://www.zerodayinitiative.com/advisories/ZDI-14-303/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-14-303/",
   "title": "SolarWinds Log and Event Manager Static Credential Remote Code Execution Vulnerability",
   "updated_date": null,

@@ -11,13 +11,13 @@
   "cve": "CVE-2016-8364",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-8364",
   "cvss": 9.3,
-  "cvss_vector": "AV:N/AC:M/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2016-07-12 - Vulnerability reported to vendor",
     "2016-11-08 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-16-604 ZDI-CAN-3832 IBHsoftec S7-SoftPLC CPX43 Heap-based Buffer Overflow Remote Code Execution Vulnerability 2016-11-08 CVE-2016-8364 https://www.cve.org/CVERecord?id=CVE-2016-8364 9.3 AV:N/AC:M/Au:N/C:C/I:C/A:C ['IBHsoftec'] ['S7-SoftPLC'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of IBHsoftec SoftPLC. Authentication is not required to exploit this vulnerability. The specific flaw exists within the processing of packets by the service listening on TCP port 502. The issue lies in the failure to properly validate the length of user-supplied data prior to copying it to a fixed-length heap-based buffer. An attacker can leverage this vulnerability to execute arbitrary code under the context of Administrator. IBHsoftec has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-16-306-02 ['2016-07-12 - Vulnerability reported to vendor', '2016-11-08 - Coordinated public release of advisory'] Ariele Caltabiano (kimiya) https://www.zerodayinitiative.com/advisories/ZDI-16-604/",
+  "search_text": "published ZDI-16-604 ZDI-CAN-3832 IBHsoftec S7-SoftPLC CPX43 Heap-based Buffer Overflow Remote Code Execution Vulnerability 2016-11-08 CVE-2016-8364 https://www.cve.org/CVERecord?id=CVE-2016-8364 9.3 ['IBHsoftec'] ['S7-SoftPLC'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of IBHsoftec SoftPLC. Authentication is not required to exploit this vulnerability. The specific flaw exists within the processing of packets by the service listening on TCP port 502. The issue lies in the failure to properly validate the length of user-supplied data prior to copying it to a fixed-length heap-based buffer. An attacker can leverage this vulnerability to execute arbitrary code under the context of Administrator. IBHsoftec has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-16-306-02 ['2016-07-12 - Vulnerability reported to vendor', '2016-11-08 - Coordinated public release of advisory'] Ariele Caltabiano (kimiya) https://www.zerodayinitiative.com/advisories/ZDI-16-604/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-604/",
   "title": "IBHsoftec S7-SoftPLC CPX43 Heap-based Buffer Overflow Remote Code Execution Vulnerability",
   "updated_date": null,

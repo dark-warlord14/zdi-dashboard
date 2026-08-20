@@ -1,0 +1,28 @@
+{
+  "additional_details": "OpenSSL has issued an update to correct this vulnerability. More details can be found at: https://openssl-library.org/news/vulnerabilities/#CVE-2026-35188",
+  "advisory_date": "2026-07-15",
+  "affected_products": [
+    "OpenSSL"
+  ],
+  "affected_vendors": [
+    "OpenSSL"
+  ],
+  "credit": "TrendAI Zero Day Initiative",
+  "cve": "CVE-2026-35188",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-35188",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2026-04-16 - Vulnerability reported to vendor",
+    "2026-07-15 - Coordinated public release of advisory",
+    "2026-07-15 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-26-425 ZDI-CAN-30391 OpenSSL OCSP Stapling Verification Double Free Remote Code Execution Vulnerability 2026-07-15 CVE-2026-35188 https://www.cve.org/CVERecord?id=CVE-2026-35188 7.5 AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H ['OpenSSL'] ['OpenSSL'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of OpenSSL. User interaction is required to exploit this vulnerability in that the target must make a request to a malicious server. The specific flaw exists within the processing of malformed OCSP responses. The issue results from the lack of validating the existence of an object prior to performing further free operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current process. OpenSSL has issued an update to correct this vulnerability. More details can be found at: https://openssl-library.org/news/vulnerabilities/#CVE-2026-35188 ['2026-04-16 - Vulnerability reported to vendor', '2026-07-15 - Coordinated public release of advisory', '2026-07-15 - Advisory Updated'] TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-425/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-425/",
+  "title": "OpenSSL OCSP Stapling Verification Double Free Remote Code Execution Vulnerability",
+  "updated_date": "2026-07-15",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OpenSSL. User interaction is required to exploit this vulnerability in that the target must make a request to a malicious server. The specific flaw exists within the processing of malformed OCSP responses. The issue results from the lack of validating the existence of an object prior to performing further free operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+  "zdi_can": "ZDI-CAN-30391",
+  "zdi_id": "ZDI-26-425"
+}

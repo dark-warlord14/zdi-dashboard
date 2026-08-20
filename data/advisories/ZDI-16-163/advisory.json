@@ -11,13 +11,13 @@
   "cve": "CVE-2016-2397",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-2397",
   "cvss": 10.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2015-09-13 - Vulnerability reported to vendor",
     "2016-02-10 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-16-163 ZDI-CAN-3137 Dell SonicWALL GMS Virtual Appliance Deserialization of Untrusted Data Remote Code Execution Vulnerability 2016-02-10 CVE-2016-2397 https://www.cve.org/CVERecord?id=CVE-2016-2397 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['SonicWALL'] ['GMS Virtual Appliance'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Dell SonicWALL GMS Virtual Appliance. Authentication is not required to exploit this vulnerability. The specific flaw exists within the cliserver implementation, which accepts, deserializes, and executes XML-encoded, serialized Java code. An attacker can leverage this vulnerability to execute arbitrary code under the context of root. SonicWALL has issued an update to correct this vulnerability. More details can be found at: https://www.mysonicwall.com/firmware/downloadcenter.aspx Hotfix 168056 ['2015-09-13 - Vulnerability reported to vendor', '2016-02-10 - Coordinated public release of advisory'] cpnrodzc7 https://www.zerodayinitiative.com/advisories/ZDI-16-163/",
+  "search_text": "published ZDI-16-163 ZDI-CAN-3137 Dell SonicWALL GMS Virtual Appliance Deserialization of Untrusted Data Remote Code Execution Vulnerability 2016-02-10 CVE-2016-2397 https://www.cve.org/CVERecord?id=CVE-2016-2397 10.0 ['SonicWALL'] ['GMS Virtual Appliance'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Dell SonicWALL GMS Virtual Appliance. Authentication is not required to exploit this vulnerability. The specific flaw exists within the cliserver implementation, which accepts, deserializes, and executes XML-encoded, serialized Java code. An attacker can leverage this vulnerability to execute arbitrary code under the context of root. SonicWALL has issued an update to correct this vulnerability. More details can be found at: https://www.mysonicwall.com/firmware/downloadcenter.aspx Hotfix 168056 ['2015-09-13 - Vulnerability reported to vendor', '2016-02-10 - Coordinated public release of advisory'] cpnrodzc7 https://www.zerodayinitiative.com/advisories/ZDI-16-163/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-163/",
   "title": "Dell SonicWALL GMS Virtual Appliance Deserialization of Untrusted Data Remote Code Execution Vulnerability",
   "updated_date": null,

@@ -11,13 +11,13 @@
   "cve": "CVE-2014-8425",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-8425",
   "cvss": 7.8,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:N/A:N",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2014-04-29 - Vulnerability reported to vendor",
     "2014-11-25 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-14-387 ZDI-CAN-2135 ARRIS VAP2500 Management Portal Information Disclosure Vulnerability 2014-11-25 CVE-2014-8425 https://www.cve.org/CVERecord?id=CVE-2014-8425 7.8 AV:N/AC:L/Au:N/C:C/I:N/A:N ['ARRIS'] ['VAP2500'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of ARRIS VAP2500. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of access to the management portal. The issue lies in the failure to restrict access to configuration files. An attacker can leverage this vulnerability to leak credentials which can then be chained to execute code with root privileges. Vendor has released a hotfix to address the issue: FW08.41 ['2014-04-29 - Vulnerability reported to vendor', '2014-11-25 - Coordinated public release of advisory'] Ricky \"HeadlessZeke\" Lawshae https://www.zerodayinitiative.com/advisories/ZDI-14-387/",
+  "search_text": "published ZDI-14-387 ZDI-CAN-2135 ARRIS VAP2500 Management Portal Information Disclosure Vulnerability 2014-11-25 CVE-2014-8425 https://www.cve.org/CVERecord?id=CVE-2014-8425 7.8 ['ARRIS'] ['VAP2500'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of ARRIS VAP2500. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of access to the management portal. The issue lies in the failure to restrict access to configuration files. An attacker can leverage this vulnerability to leak credentials which can then be chained to execute code with root privileges. Vendor has released a hotfix to address the issue: FW08.41 ['2014-04-29 - Vulnerability reported to vendor', '2014-11-25 - Coordinated public release of advisory'] Ricky \"HeadlessZeke\" Lawshae https://www.zerodayinitiative.com/advisories/ZDI-14-387/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-14-387/",
   "title": "ARRIS VAP2500 Management Portal Information Disclosure Vulnerability",
   "updated_date": null,

@@ -11,13 +11,13 @@
   "cve": null,
   "cve_url": null,
   "cvss": 10.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2011-10-28 - Vulnerability reported to vendor",
     "2012-06-27 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-12-104 ZDI-CAN-1395 SAP Netweaver ABAP msg_server.exe Parameter Value Remote Code Execution Vulnerability 2012-06-27 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['SAP'] ['NetWeaver'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of SAP NetWeaver ABAP. Authentication is not required to exploit this vulnerability. The specific flaw exists within the way SAP NetWeaver handles packages with opcode 0x43. If a package with sub opcode 0x4 contains a long parameter value string NetWeaver will eventually write a \\x00 byte onto the stack to mark the end of the string. The location of this null byte is dependent on user supplied data and the resulting stack corruption can lead to remote code execution under the context of the running process. SAP has issued an update to correct this vulnerability. More details can be found at: https://websmp230.sap-ag.de/sap(bD1lbiZjPTAwMQ==)/bc/bsp/spn/sapnotes/index2.htm?numm=1649838 ['2011-10-28 - Vulnerability reported to vendor', '2012-06-27 - Coordinated public release of advisory'] e6af8de8b1d4b2b6d5ba2610cbf9cd38 https://www.zerodayinitiative.com/advisories/ZDI-12-104/",
+  "search_text": "published ZDI-12-104 ZDI-CAN-1395 SAP Netweaver ABAP msg_server.exe Parameter Value Remote Code Execution Vulnerability 2012-06-27 10.0 ['SAP'] ['NetWeaver'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of SAP NetWeaver ABAP. Authentication is not required to exploit this vulnerability. The specific flaw exists within the way SAP NetWeaver handles packages with opcode 0x43. If a package with sub opcode 0x4 contains a long parameter value string NetWeaver will eventually write a \\x00 byte onto the stack to mark the end of the string. The location of this null byte is dependent on user supplied data and the resulting stack corruption can lead to remote code execution under the context of the running process. SAP has issued an update to correct this vulnerability. More details can be found at: https://websmp230.sap-ag.de/sap(bD1lbiZjPTAwMQ==)/bc/bsp/spn/sapnotes/index2.htm?numm=1649838 ['2011-10-28 - Vulnerability reported to vendor', '2012-06-27 - Coordinated public release of advisory'] e6af8de8b1d4b2b6d5ba2610cbf9cd38 https://www.zerodayinitiative.com/advisories/ZDI-12-104/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-12-104/",
   "title": "SAP Netweaver ABAP msg_server.exe Parameter Value Remote Code Execution Vulnerability",
   "updated_date": null,

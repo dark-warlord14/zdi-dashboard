@@ -11,13 +11,13 @@
   "cve": "CVE-2014-2849",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-2849",
   "cvss": 8.5,
-  "cvss_vector": "AV:N/AC:M/Au:S/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2014-01-05 - Vulnerability reported to vendor",
     "2014-04-08 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-14-069 ZDI-CAN-2026 Sophos Web Appliance Privilege Escalation and Remote Code Execution Vulnerability 2014-04-08 CVE-2014-2849 https://www.cve.org/CVERecord?id=CVE-2014-2849 8.5 AV:N/AC:M/Au:S/C:C/I:C/A:C ['Sophos'] ['Web Appliance'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Sophos Web Appliance. Authentication is required to exploit this vulnerability. The specific flaws exist within the change_password and netinterface functions of the web appliance. The first flaw will allow for an unprivileged user to change the admin's password and a remote code execution vulnerability exists when updating the network interface. This allows for an attacker to execute under root privileges. Sophos has issued an update to correct this vulnerability. More details can be found at: http://www.sophos.com/en-us/support/knowledgebase/120230.aspx ['2014-01-05 - Vulnerability reported to vendor', '2014-04-08 - Coordinated public release of advisory'] Brandon Perry https://www.zerodayinitiative.com/advisories/ZDI-14-069/",
+  "search_text": "published ZDI-14-069 ZDI-CAN-2026 Sophos Web Appliance Privilege Escalation and Remote Code Execution Vulnerability 2014-04-08 CVE-2014-2849 https://www.cve.org/CVERecord?id=CVE-2014-2849 8.5 ['Sophos'] ['Web Appliance'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Sophos Web Appliance. Authentication is required to exploit this vulnerability. The specific flaws exist within the change_password and netinterface functions of the web appliance. The first flaw will allow for an unprivileged user to change the admin's password and a remote code execution vulnerability exists when updating the network interface. This allows for an attacker to execute under root privileges. Sophos has issued an update to correct this vulnerability. More details can be found at: http://www.sophos.com/en-us/support/knowledgebase/120230.aspx ['2014-01-05 - Vulnerability reported to vendor', '2014-04-08 - Coordinated public release of advisory'] Brandon Perry https://www.zerodayinitiative.com/advisories/ZDI-14-069/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-14-069/",
   "title": "Sophos Web Appliance Privilege Escalation and Remote Code Execution Vulnerability",
   "updated_date": null,

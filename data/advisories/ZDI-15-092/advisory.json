@@ -11,13 +11,13 @@
   "cve": "CVE-2014-7914",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-7914",
   "cvss": 4.8,
-  "cvss_vector": "AV:A/AC:L/Au:N/C:P/I:P/A:N",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2014-11-19 - Vulnerability reported to vendor",
     "2015-03-12 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-15-092 ZDI-CAN-2616 (Mobile Pwn2Own) Google Android Bluetooth Forced Pairing Vulnerability 2015-03-12 CVE-2014-7914 https://www.cve.org/CVERecord?id=CVE-2014-7914 4.8 AV:A/AC:L/Au:N/C:P/I:P/A:N ['Google'] ['Android'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Google Android. Authentication is not required to exploit this vulnerability. The specific flaw exists within the Bluetooth application stack allowing for arbitrary Host Controller Interface commands to be issued without prior pairing. By obtaining a Bluetooth address, creating and emulating a Bluetooth out-of-band 'handover' NFC NDEF tag, and sniffing encryption keys and exchanging them with the device, an attacker can force pairing with a Bluetooth device. A remote attacker can use this to achieve remote code execution under the context of the process. Google has issued an update to correct this vulnerability. More details can be found at: https://android.googlesource.com/platform/external/bluetooth/bluedroid/+/0360aa7c418152a3e5e335a065ac3629cbb09559 ['2014-11-19 - Vulnerability reported to vendor', '2015-03-12 - Coordinated public release of advisory'] Adam Laurie Aperture Labs https://www.zerodayinitiative.com/advisories/ZDI-15-092/",
+  "search_text": "published ZDI-15-092 ZDI-CAN-2616 (Mobile Pwn2Own) Google Android Bluetooth Forced Pairing Vulnerability 2015-03-12 CVE-2014-7914 https://www.cve.org/CVERecord?id=CVE-2014-7914 4.8 ['Google'] ['Android'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Google Android. Authentication is not required to exploit this vulnerability. The specific flaw exists within the Bluetooth application stack allowing for arbitrary Host Controller Interface commands to be issued without prior pairing. By obtaining a Bluetooth address, creating and emulating a Bluetooth out-of-band 'handover' NFC NDEF tag, and sniffing encryption keys and exchanging them with the device, an attacker can force pairing with a Bluetooth device. A remote attacker can use this to achieve remote code execution under the context of the process. Google has issued an update to correct this vulnerability. More details can be found at: https://android.googlesource.com/platform/external/bluetooth/bluedroid/+/0360aa7c418152a3e5e335a065ac3629cbb09559 ['2014-11-19 - Vulnerability reported to vendor', '2015-03-12 - Coordinated public release of advisory'] Adam Laurie Aperture Labs https://www.zerodayinitiative.com/advisories/ZDI-15-092/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-092/",
   "title": "(Mobile Pwn2Own) Google Android Bluetooth Forced Pairing Vulnerability",
   "updated_date": null,

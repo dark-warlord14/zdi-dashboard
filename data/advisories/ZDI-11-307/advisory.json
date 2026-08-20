@@ -11,13 +11,13 @@
   "cve": "CVE-2011-3545",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-3545",
   "cvss": 9.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2011-05-12 - Vulnerability reported to vendor",
     "2011-10-26 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-11-307 ZDI-CAN-1218 Oracle Java MixerSequencer.nAddControllerEventCallback Remote Code Execution Vulnerability 2011-10-26 CVE-2011-3545 https://www.cve.org/CVERecord?id=CVE-2011-3545 9.0 AV:N/AC:L/Au:N/C:P/I:P/A:C ['Oracle'] ['Java Runtime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Oracle Java. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists because Java does not sufficiently verify parameters certain functions. The function MixerSequencer.nAddControllerEventCallback fails to check for negative index numbers before writing user supplied data into a static array. This allows a malicious applet to write user controlled data outside the array boundaries resulting in remote code execution under the context of the current user. Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/javacpuoct2011-443431.html ['2011-05-12 - Vulnerability reported to vendor', '2011-10-26 - Coordinated public release of advisory'] axtaxt https://www.zerodayinitiative.com/advisories/ZDI-11-307/",
+  "search_text": "published ZDI-11-307 ZDI-CAN-1218 Oracle Java MixerSequencer.nAddControllerEventCallback Remote Code Execution Vulnerability 2011-10-26 CVE-2011-3545 https://www.cve.org/CVERecord?id=CVE-2011-3545 9.0 ['Oracle'] ['Java Runtime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Oracle Java. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists because Java does not sufficiently verify parameters certain functions. The function MixerSequencer.nAddControllerEventCallback fails to check for negative index numbers before writing user supplied data into a static array. This allows a malicious applet to write user controlled data outside the array boundaries resulting in remote code execution under the context of the current user. Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/javacpuoct2011-443431.html ['2011-05-12 - Vulnerability reported to vendor', '2011-10-26 - Coordinated public release of advisory'] axtaxt https://www.zerodayinitiative.com/advisories/ZDI-11-307/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-307/",
   "title": "Oracle Java MixerSequencer.nAddControllerEventCallback Remote Code Execution Vulnerability",
   "updated_date": null,

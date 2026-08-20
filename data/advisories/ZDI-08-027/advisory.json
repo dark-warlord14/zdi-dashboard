@@ -7,7 +7,7 @@
   "affected_vendors": [
     "Computer Associates"
   ],
-  "credit": "Damian Put",
+  "credit": "Damian Put <pucik@overflow.pl>",
   "cve": "CVE-2008-2241",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2008-2241",
   "cvss": null,
@@ -17,7 +17,7 @@
     "2008-05-19 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-08-027 ZDI-CAN-088 CA BrightStor ARCserve Backup caloggerd Arbitrary File Writing Vulnerability 2008-05-19 CVE-2008-2241 https://www.cve.org/CVERecord?id=CVE-2008-2241 ['Computer Associates'] ['BrightStor ARCserve Server'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Computer Associates ARCserve Backup. Authentication is not required exploit this vulnerability. The specific flaw exists within the caloggerd log daemon during the processing of log messages that contain directory traversal modifiers. A lack of sanity checking on the provided path allows attackers to append arbitrary data to a file of their choosing and can easily result in a full system compromise. Computer Associates has issued an update to correct this vulnerability. More details can be found at: https://support.ca.com/irj/portal/anonymous/phpsupcontent?contentID=176798 ['2006-09-12 - Vulnerability reported to vendor', '2008-05-19 - Coordinated public release of advisory'] Damian Put https://www.zerodayinitiative.com/advisories/ZDI-08-027/",
+  "search_text": "published ZDI-08-027 ZDI-CAN-088 CA BrightStor ARCserve Backup caloggerd Arbitrary File Writing Vulnerability 2008-05-19 CVE-2008-2241 https://www.cve.org/CVERecord?id=CVE-2008-2241 ['Computer Associates'] ['BrightStor ARCserve Server'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Computer Associates ARCserve Backup. Authentication is not required exploit this vulnerability. The specific flaw exists within the caloggerd log daemon during the processing of log messages that contain directory traversal modifiers. A lack of sanity checking on the provided path allows attackers to append arbitrary data to a file of their choosing and can easily result in a full system compromise. Computer Associates has issued an update to correct this vulnerability. More details can be found at: https://support.ca.com/irj/portal/anonymous/phpsupcontent?contentID=176798 ['2006-09-12 - Vulnerability reported to vendor', '2008-05-19 - Coordinated public release of advisory'] Damian Put <pucik@overflow.pl> https://www.zerodayinitiative.com/advisories/ZDI-08-027/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-08-027/",
   "title": "CA BrightStor ARCserve Backup caloggerd Arbitrary File Writing Vulnerability",
   "updated_date": null,

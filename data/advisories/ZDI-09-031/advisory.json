@@ -2,12 +2,10 @@
   "additional_details": "Pidgin has issued an update to correct this vulnerability. More details can be found at: http://pidgin.im/news/security/?id=32",
   "advisory_date": "2009-06-08",
   "affected_products": [
-    "Adiumx",
-    "Pidgin"
+    "Adiumx"
   ],
   "affected_vendors": [
-    "Adium",
-    "Pidgin"
+    "Adium"
   ],
   "credit": "Loic VALBON",
   "cve": "CVE-2009-1376",
@@ -19,7 +17,7 @@
     "2009-06-08 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-09-031 ZDI-CAN-424 Multiple Vendor libpurple MSN Protocol SLP Message Heap Overflow Vulnerability 2009-06-08 CVE-2009-1376 https://www.cve.org/CVERecord?id=CVE-2009-1376 ['Adium', 'Pidgin'] ['Adiumx', 'Pidgin'] This vulnerability allows remote attackers to execute arbitrary code on systems with vulnerable installations of messaging applications that make use of the libpurple library. User interaction is not required to exploit this vulnerability. The specific flaw exists in the implementation of the MSN protocol, specifically the handling of SLP messages. The function msn_slplink_process_msg() fails to properly validate an offset value specified in the SLP packet. By providing a specific value, an attacker can overflow a heap buffer resulting in arbitrary code execution. Pidgin has issued an update to correct this vulnerability. More details can be found at: http://pidgin.im/news/security/?id=32 ['2009-02-25 - Vulnerability reported to vendor', '2009-06-08 - Coordinated public release of advisory'] Loic VALBON https://www.zerodayinitiative.com/advisories/ZDI-09-031/",
+  "search_text": "published ZDI-09-031 ZDI-CAN-424 Multiple Vendor libpurple MSN Protocol SLP Message Heap Overflow Vulnerability 2009-06-08 CVE-2009-1376 https://www.cve.org/CVERecord?id=CVE-2009-1376 ['Adium'] ['Adiumx'] This vulnerability allows remote attackers to execute arbitrary code on systems with vulnerable installations of messaging applications that make use of the libpurple library. User interaction is not required to exploit this vulnerability. The specific flaw exists in the implementation of the MSN protocol, specifically the handling of SLP messages. The function msn_slplink_process_msg() fails to properly validate an offset value specified in the SLP packet. By providing a specific value, an attacker can overflow a heap buffer resulting in arbitrary code execution. Pidgin has issued an update to correct this vulnerability. More details can be found at: http://pidgin.im/news/security/?id=32 ['2009-02-25 - Vulnerability reported to vendor', '2009-06-08 - Coordinated public release of advisory'] Loic VALBON https://www.zerodayinitiative.com/advisories/ZDI-09-031/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-09-031/",
   "title": "Multiple Vendor libpurple MSN Protocol SLP Message Heap Overflow Vulnerability",
   "updated_date": null,

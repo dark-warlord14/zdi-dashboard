@@ -11,13 +11,13 @@
   "cve": "CVE-2014-1300",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-1300",
   "cvss": 6.8,
-  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2014-03-13 - Vulnerability reported to vendor",
     "2014-04-11 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-14-090 ZDI-CAN-2206 (Pwn2Own\\Pwn4Fun) Apple Webkit JSStringJoiner Memory Corruption Remote Code Execution Vulnerability 2014-04-11 CVE-2014-1300 https://www.cve.org/CVERecord?id=CVE-2014-1300 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Apple'] ['WebKit'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple WebKit. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of string objects. The issue lies in the joining of strings in an array. An attacker can leverage this vulnerability to execute code under the context of the current process. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT6181 ['2014-03-13 - Vulnerability reported to vendor', '2014-04-11 - Coordinated public release of advisory'] Ian Beer of Google Project Zero https://www.zerodayinitiative.com/advisories/ZDI-14-090/",
+  "search_text": "published ZDI-14-090 ZDI-CAN-2206 (Pwn2Own\\Pwn4Fun) Apple Webkit JSStringJoiner Memory Corruption Remote Code Execution Vulnerability 2014-04-11 CVE-2014-1300 https://www.cve.org/CVERecord?id=CVE-2014-1300 6.8 ['Apple'] ['WebKit'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple WebKit. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of string objects. The issue lies in the joining of strings in an array. An attacker can leverage this vulnerability to execute code under the context of the current process. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT6181 ['2014-03-13 - Vulnerability reported to vendor', '2014-04-11 - Coordinated public release of advisory'] Ian Beer of Google Project Zero https://www.zerodayinitiative.com/advisories/ZDI-14-090/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-14-090/",
   "title": "(Pwn2Own\\Pwn4Fun) Apple Webkit JSStringJoiner Memory Corruption Remote Code Execution Vulnerability",
   "updated_date": null,

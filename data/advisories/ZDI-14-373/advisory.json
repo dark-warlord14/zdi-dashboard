@@ -11,13 +11,13 @@
   "cve": "CVE-2014-8510",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-8510",
   "cvss": 6.5,
-  "cvss_vector": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2014-06-12 - Vulnerability reported to vendor",
     "2014-11-06 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-14-373 ZDI-CAN-2369 Trend Micro InterScan Web Security Virtual Appliance Information Disclosure Vulnerability 2014-11-06 CVE-2014-8510 https://www.cve.org/CVERecord?id=CVE-2014-8510 6.5 AV:N/AC:L/Au:S/C:P/I:P/A:P ['Trend Micro'] ['InterScan Web Security'] This vulnerability allows remote attackers to read files from the underlying operating system on vulnerable installations of Trend Micro InterScan Web Security Virtual Appliance web application authentication is required to exploit this vulnerability. The specific flaw exists within multiple areas of the AdminUI. The issue lies in the handling of configuration input due to a failure to safely sanitize user data before saving filters. An attacker could leverage this vulnerability to read any file to which the web app has read access. Vendor has released a hotfix to address the issue: IWSVA 6.0 HF build 1244 ['2014-06-12 - Vulnerability reported to vendor', '2014-11-06 - Coordinated public release of advisory'] Brandon Perry https://www.zerodayinitiative.com/advisories/ZDI-14-373/",
+  "search_text": "published ZDI-14-373 ZDI-CAN-2369 Trend Micro InterScan Web Security Virtual Appliance Information Disclosure Vulnerability 2014-11-06 CVE-2014-8510 https://www.cve.org/CVERecord?id=CVE-2014-8510 6.5 ['Trend Micro'] ['InterScan Web Security'] This vulnerability allows remote attackers to read files from the underlying operating system on vulnerable installations of Trend Micro InterScan Web Security Virtual Appliance web application authentication is required to exploit this vulnerability. The specific flaw exists within multiple areas of the AdminUI. The issue lies in the handling of configuration input due to a failure to safely sanitize user data before saving filters. An attacker could leverage this vulnerability to read any file to which the web app has read access. Vendor has released a hotfix to address the issue: IWSVA 6.0 HF build 1244 ['2014-06-12 - Vulnerability reported to vendor', '2014-11-06 - Coordinated public release of advisory'] Brandon Perry https://www.zerodayinitiative.com/advisories/ZDI-14-373/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-14-373/",
   "title": "Trend Micro InterScan Web Security Virtual Appliance Information Disclosure Vulnerability",
   "updated_date": null,

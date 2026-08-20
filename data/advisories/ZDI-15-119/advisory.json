@@ -11,13 +11,13 @@
   "cve": "CVE-2015-0120",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-0120",
   "cvss": 9.3,
-  "cvss_vector": "AV:N/AC:M/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2015-01-08 - Vulnerability reported to vendor",
     "2015-04-08 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-15-119 ZDI-CAN-2656 IBM Tivoli Storage Manager FastBack CRYPTO_S_EncryptBufferToBuffer Buffer Overflow Remote Code Execution Vulnerability 2015-04-08 CVE-2015-0120 https://www.cve.org/CVERecord?id=CVE-2015-0120 9.3 AV:N/AC:M/Au:N/C:C/I:C/A:C ['IBM'] ['Tivoli Storage Manager FastBack'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of IBM Storage Manager FastBack. Authentication is not required to exploit this vulnerability. The specific flaw exists within the CRYPTO_S_EncryptBufferToBuffer function. By sending a specially crafted packet on TCP port 30051, an attacker is able to cause a stack buffer overflow. An attacker can use this to execute arbitrary code in the context of the SYSTEM. IBM has issued an update to correct this vulnerability. More details can be found at: http://www-01.ibm.com/support/docview.wss?uid=swg21700549 ['2015-01-08 - Vulnerability reported to vendor', '2015-04-08 - Coordinated public release of advisory'] AbdulAziz Hariri - HP Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-15-119/",
+  "search_text": "published ZDI-15-119 ZDI-CAN-2656 IBM Tivoli Storage Manager FastBack CRYPTO_S_EncryptBufferToBuffer Buffer Overflow Remote Code Execution Vulnerability 2015-04-08 CVE-2015-0120 https://www.cve.org/CVERecord?id=CVE-2015-0120 9.3 ['IBM'] ['Tivoli Storage Manager FastBack'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of IBM Storage Manager FastBack. Authentication is not required to exploit this vulnerability. The specific flaw exists within the CRYPTO_S_EncryptBufferToBuffer function. By sending a specially crafted packet on TCP port 30051, an attacker is able to cause a stack buffer overflow. An attacker can use this to execute arbitrary code in the context of the SYSTEM. IBM has issued an update to correct this vulnerability. More details can be found at: http://www-01.ibm.com/support/docview.wss?uid=swg21700549 ['2015-01-08 - Vulnerability reported to vendor', '2015-04-08 - Coordinated public release of advisory'] AbdulAziz Hariri - HP Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-15-119/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-119/",
   "title": "IBM Tivoli Storage Manager FastBack CRYPTO_S_EncryptBufferToBuffer Buffer Overflow Remote Code Execution Vulnerability",
   "updated_date": null,

@@ -11,13 +11,13 @@
   "cve": "CVE-2013-1084",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2013-1084",
   "cvss": 7.8,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:N/A:N",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2013-02-22 - Vulnerability reported to vendor",
     "2013-11-24 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-13-258 ZDI-CAN-1790 Novell ZENworks umaninv Information Disclosure Vulnerability 2013-11-24 CVE-2013-1084 https://www.cve.org/CVERecord?id=CVE-2013-1084 7.8 AV:N/AC:L/Au:N/C:C/I:N/A:N ['Novell'] ['Zenworks'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Novell ZENworks. Authentication is not required to exploit this vulnerability. The specific flaw exists within the unmaninv web service. The issue lies in the failure to user-supplied sanitize input when returning the contents of a file. An attacker can leverage this vulnerability to retrieve credentials which can then be leveraged to execute code under the context of SYSTEM. Novell has issued an update to correct this vulnerability. More details can be found at: http://www.novell.com/support/kb/doc.php?id=7012760 ['2013-02-22 - Vulnerability reported to vendor', '2013-11-24 - Coordinated public release of advisory'] Brett Gervasoni https://www.zerodayinitiative.com/advisories/ZDI-13-258/",
+  "search_text": "published ZDI-13-258 ZDI-CAN-1790 Novell ZENworks umaninv Information Disclosure Vulnerability 2013-11-24 CVE-2013-1084 https://www.cve.org/CVERecord?id=CVE-2013-1084 7.8 ['Novell'] ['Zenworks'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Novell ZENworks. Authentication is not required to exploit this vulnerability. The specific flaw exists within the unmaninv web service. The issue lies in the failure to user-supplied sanitize input when returning the contents of a file. An attacker can leverage this vulnerability to retrieve credentials which can then be leveraged to execute code under the context of SYSTEM. Novell has issued an update to correct this vulnerability. More details can be found at: http://www.novell.com/support/kb/doc.php?id=7012760 ['2013-02-22 - Vulnerability reported to vendor', '2013-11-24 - Coordinated public release of advisory'] Brett Gervasoni https://www.zerodayinitiative.com/advisories/ZDI-13-258/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-13-258/",
   "title": "Novell ZENworks umaninv Information Disclosure Vulnerability",
   "updated_date": null,

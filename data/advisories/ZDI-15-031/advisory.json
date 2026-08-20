@@ -11,13 +11,13 @@
   "cve": "CVE-2015-1044",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-1044",
   "cvss": 5.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2014-07-17 - Vulnerability reported to vendor",
     "2015-02-10 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-15-031 ZDI-CAN-2383 VMware Workstation Authorization Service Denial-of-Service Vulnerability 2015-02-10 CVE-2015-1044 https://www.cve.org/CVERecord?id=CVE-2015-1044 5.0 AV:N/AC:L/Au:N/C:N/I:N/A:P ['VMware, Inc.'] ['VMware Workstation'] This vulnerability allows remote attackers to cause a denial-of-service on vulnerable installations of VMWare Workstation. Authentication is not required to exploit this vulnerability. The specific flaw exists within the VMWare Authorization service, which is listening on port 912. By sending a malformed packet, an attacker is able to cause the service to shut itself down. The service will not automatically restart, and once disabled virtual machines will not be able to get access to new resources. VMware, Inc. has issued an update to correct this vulnerability. More details can be found at: http://www.vmware.com/security/advisories/VMSA-2015-0001.html ['2014-07-17 - Vulnerability reported to vendor', '2015-02-10 - Coordinated public release of advisory'] Dmitry Yudin @ret5et https://www.zerodayinitiative.com/advisories/ZDI-15-031/",
+  "search_text": "published ZDI-15-031 ZDI-CAN-2383 VMware Workstation Authorization Service Denial-of-Service Vulnerability 2015-02-10 CVE-2015-1044 https://www.cve.org/CVERecord?id=CVE-2015-1044 5.0 ['VMware, Inc.'] ['VMware Workstation'] This vulnerability allows remote attackers to cause a denial-of-service on vulnerable installations of VMWare Workstation. Authentication is not required to exploit this vulnerability. The specific flaw exists within the VMWare Authorization service, which is listening on port 912. By sending a malformed packet, an attacker is able to cause the service to shut itself down. The service will not automatically restart, and once disabled virtual machines will not be able to get access to new resources. VMware, Inc. has issued an update to correct this vulnerability. More details can be found at: http://www.vmware.com/security/advisories/VMSA-2015-0001.html ['2014-07-17 - Vulnerability reported to vendor', '2015-02-10 - Coordinated public release of advisory'] Dmitry Yudin @ret5et https://www.zerodayinitiative.com/advisories/ZDI-15-031/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-031/",
   "title": "VMware Workstation Authorization Service Denial-of-Service Vulnerability",
   "updated_date": null,

@@ -11,13 +11,13 @@
   "cve": "CVE-2016-9165",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-9165",
   "cvss": 5.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2016-04-28 - Vulnerability reported to vendor",
     "2016-11-09 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-16-606 ZDI-CAN-3708 CA Unified Infrastructure Management get_sessions Session Information Disclosure Remote Authentication Bypass Vulnerability 2016-11-09 CVE-2016-9165 https://www.cve.org/CVERecord?id=CVE-2016-9165 5.0 AV:N/AC:L/Au:N/C:P/I:N/A:N ['CA'] ['Unified Infrastructure Management'] This vulnerability allows remote attackers to disclose session information on vulnerable installations of CA Unified Infrastructure Management. Authentication is not required to exploit this vulnerability. The specific flaw exists within processing of the get_sessions servlet. The servlet can return the session IDs for all active sessions. An attacker can use this information to hijack any current active session, including administrative sessions. CA has issued an update to correct this vulnerability. More details can be found at: http://www.ca.com/us/services-support/ca-support/ca-support-online/product-content/recommended-reading/security-notices/ca20161109-01-security-notice-for-ca-unified-infrastructure-mgmt.html ['2016-04-28 - Vulnerability reported to vendor', '2016-11-09 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-16-606/",
+  "search_text": "published ZDI-16-606 ZDI-CAN-3708 CA Unified Infrastructure Management get_sessions Session Information Disclosure Remote Authentication Bypass Vulnerability 2016-11-09 CVE-2016-9165 https://www.cve.org/CVERecord?id=CVE-2016-9165 5.0 ['CA'] ['Unified Infrastructure Management'] This vulnerability allows remote attackers to disclose session information on vulnerable installations of CA Unified Infrastructure Management. Authentication is not required to exploit this vulnerability. The specific flaw exists within processing of the get_sessions servlet. The servlet can return the session IDs for all active sessions. An attacker can use this information to hijack any current active session, including administrative sessions. CA has issued an update to correct this vulnerability. More details can be found at: http://www.ca.com/us/services-support/ca-support/ca-support-online/product-content/recommended-reading/security-notices/ca20161109-01-security-notice-for-ca-unified-infrastructure-mgmt.html ['2016-04-28 - Vulnerability reported to vendor', '2016-11-09 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-16-606/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-606/",
   "title": "CA Unified Infrastructure Management get_sessions Session Information Disclosure Remote Authentication Bypass Vulnerability",
   "updated_date": null,

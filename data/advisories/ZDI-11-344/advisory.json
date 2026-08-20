@@ -11,13 +11,13 @@
   "cve": "CVE-2011-4253",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-4253",
   "cvss": 7.5,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2011-08-12 - Vulnerability reported to vendor",
     "2011-12-07 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-11-344 ZDI-CAN-1304 RealNetworks RealPlayer RV20 Decoding Remote Code Execution Vulnerability 2011-12-07 CVE-2011-4253 https://www.cve.org/CVERecord?id=CVE-2011-4253 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['RealNetworks'] ['RealPlayer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of RealNetworks RealPlayer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the way that the application allocates space for parsing sample data encoded with the RV20 codec. After allocation, the application will partially fill the allocation with sample data. Upon usage of this sample data, the application will use the uninitialized data to calculate an index that is then written into. This can lead to code execution under the context of the application. RealNetworks has issued an update to correct this vulnerability. More details can be found at: http://service.real.com/realplayer/security/11182011_player/en/ ['2011-08-12 - Vulnerability reported to vendor', '2011-12-07 - Coordinated public release of advisory'] Damian Put Andrzej Dyjak https://www.zerodayinitiative.com/advisories/ZDI-11-344/",
+  "search_text": "published ZDI-11-344 ZDI-CAN-1304 RealNetworks RealPlayer RV20 Decoding Remote Code Execution Vulnerability 2011-12-07 CVE-2011-4253 https://www.cve.org/CVERecord?id=CVE-2011-4253 7.5 ['RealNetworks'] ['RealPlayer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of RealNetworks RealPlayer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the way that the application allocates space for parsing sample data encoded with the RV20 codec. After allocation, the application will partially fill the allocation with sample data. Upon usage of this sample data, the application will use the uninitialized data to calculate an index that is then written into. This can lead to code execution under the context of the application. RealNetworks has issued an update to correct this vulnerability. More details can be found at: http://service.real.com/realplayer/security/11182011_player/en/ ['2011-08-12 - Vulnerability reported to vendor', '2011-12-07 - Coordinated public release of advisory'] Damian Put Andrzej Dyjak https://www.zerodayinitiative.com/advisories/ZDI-11-344/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-344/",
   "title": "RealNetworks RealPlayer RV20 Decoding Remote Code Execution Vulnerability",
   "updated_date": null,

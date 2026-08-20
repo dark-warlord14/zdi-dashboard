@@ -11,13 +11,13 @@
   "cve": "CVE-2017-8601",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-8601",
   "cvss": 6.8,
-  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2017-06-07 - Vulnerability reported to vendor",
     "2017-07-11 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-17-478 ZDI-CAN-4886 Microsoft Chakra Typed Array JIT Optimization Use-After-Free Remote Code Execution Vulnerability 2017-07-11 CVE-2017-8601 https://www.cve.org/CVERecord?id=CVE-2017-8601 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Microsoft'] ['Chakra'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Chakra. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the generation of JIT code for functions that manipulate typed arrays. By performing actions in JavaScript an attacker can cause a pointer to be reused after it has been freed. An attacker can leverage this vulnerability to execute code under the context of the process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2017-8601 ['2017-06-07 - Vulnerability reported to vendor', '2017-07-11 - Coordinated public release of advisory'] Wang Yuan of Nanyang Technological University https://www.zerodayinitiative.com/advisories/ZDI-17-478/",
+  "search_text": "published ZDI-17-478 ZDI-CAN-4886 Microsoft Chakra Typed Array JIT Optimization Use-After-Free Remote Code Execution Vulnerability 2017-07-11 CVE-2017-8601 https://www.cve.org/CVERecord?id=CVE-2017-8601 6.8 ['Microsoft'] ['Chakra'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Chakra. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the generation of JIT code for functions that manipulate typed arrays. By performing actions in JavaScript an attacker can cause a pointer to be reused after it has been freed. An attacker can leverage this vulnerability to execute code under the context of the process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2017-8601 ['2017-06-07 - Vulnerability reported to vendor', '2017-07-11 - Coordinated public release of advisory'] Wang Yuan of Nanyang Technological University https://www.zerodayinitiative.com/advisories/ZDI-17-478/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-478/",
   "title": "Microsoft Chakra Typed Array JIT Optimization Use-After-Free Remote Code Execution Vulnerability",
   "updated_date": null,

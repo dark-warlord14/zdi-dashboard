@@ -11,13 +11,13 @@
   "cve": "CVE-2010-4325",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2010-4325",
   "cvss": 10.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2011-04-01 - Vulnerability reported to vendor",
     "2011-10-13 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-11-285 ZDI-CAN-1187 Novell Groupwise iCal COMMENT, RRULE, TZNAME Remote Code Execution Vulnerabilities 2011-10-13 CVE-2010-4325 https://www.cve.org/CVERecord?id=CVE-2010-4325 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Novell'] ['Groupwise'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Novell GroupWise. Authentication is not required to exploit this vulnerability. Multiple flaws exist within the gwwww1.dll module responsible for parsing VCALENDAR data within e-mail messages. When encountering a RRULE, COMMENT, or TZNAME parameter a static sized memory buffer is allocated. Insufficient checks are performed to ensure the size of the parameter's value can be contained in this buffer. An attacker can overflow the buffer and execute arbitrary code under the context of the SYSTEM user. Novell has issued an update to correct this vulnerability. More details can be found at: http://www.novell.com/support/search.do?usemicrosite=true&searchString=7009212 ['2011-04-01 - Vulnerability reported to vendor', '2011-10-13 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-11-285/",
+  "search_text": "published ZDI-11-285 ZDI-CAN-1187 Novell Groupwise iCal COMMENT, RRULE, TZNAME Remote Code Execution Vulnerabilities 2011-10-13 CVE-2010-4325 https://www.cve.org/CVERecord?id=CVE-2010-4325 10.0 ['Novell'] ['Groupwise'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Novell GroupWise. Authentication is not required to exploit this vulnerability. Multiple flaws exist within the gwwww1.dll module responsible for parsing VCALENDAR data within e-mail messages. When encountering a RRULE, COMMENT, or TZNAME parameter a static sized memory buffer is allocated. Insufficient checks are performed to ensure the size of the parameter's value can be contained in this buffer. An attacker can overflow the buffer and execute arbitrary code under the context of the SYSTEM user. Novell has issued an update to correct this vulnerability. More details can be found at: http://www.novell.com/support/search.do?usemicrosite=true&searchString=7009212 ['2011-04-01 - Vulnerability reported to vendor', '2011-10-13 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-11-285/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-285/",
   "title": "Novell Groupwise iCal COMMENT, RRULE, TZNAME Remote Code Execution Vulnerabilities",
   "updated_date": null,

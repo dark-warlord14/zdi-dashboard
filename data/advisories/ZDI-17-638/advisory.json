@@ -11,13 +11,13 @@
   "cve": "CVE-2017-0250",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-0250",
   "cvss": 5.1,
-  "cvss_vector": "AV:N/AC:H/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2017-01-05 - Vulnerability reported to vendor",
     "2017-08-08 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-17-638 ZDI-CAN-4405 Microsoft Windows Jet Engine Library Stack-based Buffer Overflow Remote Code Execution Vulnerability 2017-08-08 CVE-2017-0250 https://www.cve.org/CVERecord?id=CVE-2017-0250 5.1 AV:N/AC:H/Au:N/C:P/I:P/A:P ['Microsoft'] ['Windows'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Windows. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the Microsoft Jet Engine Library. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a stack-based buffer. An attacker can leverage this vulnerability to execute arbitrary code under the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2017-0250 ['2017-01-05 - Vulnerability reported to vendor', '2017-08-08 - Coordinated public release of advisory'] Zhou Yu https://www.zerodayinitiative.com/advisories/ZDI-17-638/",
+  "search_text": "published ZDI-17-638 ZDI-CAN-4405 Microsoft Windows Jet Engine Library Stack-based Buffer Overflow Remote Code Execution Vulnerability 2017-08-08 CVE-2017-0250 https://www.cve.org/CVERecord?id=CVE-2017-0250 5.1 ['Microsoft'] ['Windows'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Windows. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the Microsoft Jet Engine Library. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a stack-based buffer. An attacker can leverage this vulnerability to execute arbitrary code under the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2017-0250 ['2017-01-05 - Vulnerability reported to vendor', '2017-08-08 - Coordinated public release of advisory'] Zhou Yu https://www.zerodayinitiative.com/advisories/ZDI-17-638/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-638/",
   "title": "Microsoft Windows Jet Engine Library Stack-based Buffer Overflow Remote Code Execution Vulnerability",
   "updated_date": null,

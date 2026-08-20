@@ -11,13 +11,13 @@
   "cve": "CVE-2010-1882",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2010-1882",
   "cvss": 10.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2010-04-06 - Vulnerability reported to vendor",
     "2010-08-10 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-10-147 ZDI-CAN-698 Microsoft Windows MPEG Layer-3 Audio Decoder Remote Code Execution Vulnerability 2010-08-10 CVE-2010-1882 https://www.cve.org/CVERecord?id=CVE-2010-1882 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Microsoft'] ['Windows XP'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Windows. User interaction is required in that a target must open a malicious media file or visit a malicious page. The specific flaw exists within the codec responsible for parsing layer 3 MPEG audio streams. By providing invalid values within the stream, heap memory can be easily corrupted. This could be leveraged by an attacker to execute remote code under the context of the user running the application. Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/Bulletin/MS10-052.mspx ['2010-04-06 - Vulnerability reported to vendor', '2010-08-10 - Coordinated public release of advisory'] Moritz Jodeit of n.runs AG https://www.zerodayinitiative.com/advisories/ZDI-10-147/",
+  "search_text": "published ZDI-10-147 ZDI-CAN-698 Microsoft Windows MPEG Layer-3 Audio Decoder Remote Code Execution Vulnerability 2010-08-10 CVE-2010-1882 https://www.cve.org/CVERecord?id=CVE-2010-1882 10.0 ['Microsoft'] ['Windows XP'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Windows. User interaction is required in that a target must open a malicious media file or visit a malicious page. The specific flaw exists within the codec responsible for parsing layer 3 MPEG audio streams. By providing invalid values within the stream, heap memory can be easily corrupted. This could be leveraged by an attacker to execute remote code under the context of the user running the application. Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/Bulletin/MS10-052.mspx ['2010-04-06 - Vulnerability reported to vendor', '2010-08-10 - Coordinated public release of advisory'] Moritz Jodeit of n.runs AG https://www.zerodayinitiative.com/advisories/ZDI-10-147/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-147/",
   "title": "Microsoft Windows MPEG Layer-3 Audio Decoder Remote Code Execution Vulnerability",
   "updated_date": null,

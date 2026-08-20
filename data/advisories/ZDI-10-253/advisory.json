@@ -11,13 +11,13 @@
   "cve": "CVE-2010-3795",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2010-3795",
   "cvss": 9.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2010-06-30 - Vulnerability reported to vendor",
     "2010-11-10 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-10-253 ZDI-CAN-828 Apple QuickTime GIF LZW Decompression Remote Code Execution Vulnerability 2010-11-10 CVE-2010-3795 https://www.cve.org/CVERecord?id=CVE-2010-3795 9.0 AV:N/AC:L/Au:N/C:P/I:P/A:C ['Apple'] ['Quicktime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple QuickTime. User interaction is required in that a target must open a malicious media file or visit a malicious page. The specific flaw exists within the application's implementation of the LZW compression when opening a certain file format. The application will allocate a buffer for the image and then decompress image data into it. Due to explicitly trusting the decompressed data, a buffer overflow will occur. This can lead to memory corruption and code execution under the context of the application. Fixed in Mac OS X 10.6.5: http://support.apple.com/kb/HT4435 QuickTime 7.6.9: http://support.apple.com/kb/HT4447 ['2010-06-30 - Vulnerability reported to vendor', '2010-11-10 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-10-253/",
+  "search_text": "published ZDI-10-253 ZDI-CAN-828 Apple QuickTime GIF LZW Decompression Remote Code Execution Vulnerability 2010-11-10 CVE-2010-3795 https://www.cve.org/CVERecord?id=CVE-2010-3795 9.0 ['Apple'] ['Quicktime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple QuickTime. User interaction is required in that a target must open a malicious media file or visit a malicious page. The specific flaw exists within the application's implementation of the LZW compression when opening a certain file format. The application will allocate a buffer for the image and then decompress image data into it. Due to explicitly trusting the decompressed data, a buffer overflow will occur. This can lead to memory corruption and code execution under the context of the application. Fixed in Mac OS X 10.6.5: http://support.apple.com/kb/HT4435 QuickTime 7.6.9: http://support.apple.com/kb/HT4447 ['2010-06-30 - Vulnerability reported to vendor', '2010-11-10 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-10-253/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-253/",
   "title": "Apple QuickTime GIF LZW Decompression Remote Code Execution Vulnerability",
   "updated_date": null,

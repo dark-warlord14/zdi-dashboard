@@ -1,0 +1,28 @@
+{
+  "additional_details": "TrendLife has issued an update to correct this vulnerability. More details can be found at: https://helpcenter.trendlife.com/en-us/article/TMKA-13331/",
+  "advisory_date": "2026-08-13",
+  "affected_products": [
+    "VPN"
+  ],
+  "affected_vendors": [
+    "TrendLife"
+  ],
+  "credit": "Xavier DANEST",
+  "cve": "CVE-2026-67212",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-67212",
+  "cvss": 7.0,
+  "cvss_vector": "AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2026-04-16 - Vulnerability reported to vendor",
+    "2026-08-13 - Coordinated public release of advisory",
+    "2026-08-13 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-26-577 ZDI-CAN-29830 Trend Micro VPN OpenSSL Configuration Uncontrolled Search Path Element Local Privilege Escalation Vulnerability 2026-08-13 CVE-2026-67212 https://www.cve.org/CVERecord?id=CVE-2026-67212 7.0 AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H ['TrendLife'] ['VPN'] This vulnerability allows local attackers to escalate privileges on affected installations of Trend Micro VPN. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the configuration of OpenSSL. The product loads configuration from an unsecured location. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. TrendLife has issued an update to correct this vulnerability. More details can be found at: https://helpcenter.trendlife.com/en-us/article/TMKA-13331/ ['2026-04-16 - Vulnerability reported to vendor', '2026-08-13 - Coordinated public release of advisory', '2026-08-13 - Advisory Updated'] Xavier DANEST https://www.zerodayinitiative.com/advisories/ZDI-26-577/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-577/",
+  "title": "Trend Micro VPN OpenSSL Configuration Uncontrolled Search Path Element Local Privilege Escalation Vulnerability",
+  "updated_date": "2026-08-13",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Trend Micro VPN. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the configuration of OpenSSL. The product loads configuration from an unsecured location. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-29830",
+  "zdi_id": "ZDI-26-577"
+}

@@ -11,13 +11,13 @@
   "cve": "CVE-2010-0248",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2010-0248",
   "cvss": 10.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2009-08-14 - Vulnerability reported to vendor",
     "2010-01-21 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-10-014 ZDI-CAN-544 Microsoft Internet Explorer item Object Memory Corruption Remote Code Execution Vulnerability 2010-01-21 CVE-2010-0248 https://www.cve.org/CVERecord?id=CVE-2010-0248 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Microsoft'] ['Internet Explorer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page. The specific flaw exists in the handling of cloned DOM objects in JavaScript. A specially crafted sequence of object cloning can result in the use of a pointer after it has been freed. Successful exploitation can lead to remote system compromise under the credentials of the currently logged in user. Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/bulletin/ms10-002.mspx ['2009-08-14 - Vulnerability reported to vendor', '2010-01-21 - Coordinated public release of advisory'] Peter Vreugdenhil ( http://www.vreugdenhilresearch.nl ) https://www.zerodayinitiative.com/advisories/ZDI-10-014/",
+  "search_text": "published ZDI-10-014 ZDI-CAN-544 Microsoft Internet Explorer item Object Memory Corruption Remote Code Execution Vulnerability 2010-01-21 CVE-2010-0248 https://www.cve.org/CVERecord?id=CVE-2010-0248 10.0 ['Microsoft'] ['Internet Explorer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page. The specific flaw exists in the handling of cloned DOM objects in JavaScript. A specially crafted sequence of object cloning can result in the use of a pointer after it has been freed. Successful exploitation can lead to remote system compromise under the credentials of the currently logged in user. Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/bulletin/ms10-002.mspx ['2009-08-14 - Vulnerability reported to vendor', '2010-01-21 - Coordinated public release of advisory'] Peter Vreugdenhil ( http://www.vreugdenhilresearch.nl ) https://www.zerodayinitiative.com/advisories/ZDI-10-014/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-014/",
   "title": "Microsoft Internet Explorer item Object Memory Corruption Remote Code Execution Vulnerability",
   "updated_date": null,

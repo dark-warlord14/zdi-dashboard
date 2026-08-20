@@ -11,13 +11,13 @@
   "cve": "CVE-2011-4051",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-4051",
   "cvss": 9.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2011-04-27 - Vulnerability reported to vendor",
     "2011-11-16 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-11-330 ZDI-CAN-1181 InduSoft WebStudio Unauthenticated Remote Operations Remote Code Execution Vulnerability 2011-11-16 CVE-2011-4051 https://www.cve.org/CVERecord?id=CVE-2011-4051 9.0 AV:N/AC:L/Au:N/C:P/I:P/A:C ['Indusoft'] ['WebStudio'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Indusoft Web Studio. Authentication is not required to exploit this vulnerability. The flaw exists within the Remote Agent component (CEServer.exe) which listens by default on TCP port 4322. When handling incoming requests the process fails to perform any type of authentication. Many available operations allow direct manipulation and creation of files on disk, loading of arbitrary DLLs and process control. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the User. Indusoft has issued an update to correct this vulnerability. More details can be found at: http://www.indusoft.com/hotfixes/hotfixes.php ['2011-04-27 - Vulnerability reported to vendor', '2011-11-16 - Coordinated public release of advisory'] Luigi Auriemma https://www.zerodayinitiative.com/advisories/ZDI-11-330/",
+  "search_text": "published ZDI-11-330 ZDI-CAN-1181 InduSoft WebStudio Unauthenticated Remote Operations Remote Code Execution Vulnerability 2011-11-16 CVE-2011-4051 https://www.cve.org/CVERecord?id=CVE-2011-4051 9.0 ['Indusoft'] ['WebStudio'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Indusoft Web Studio. Authentication is not required to exploit this vulnerability. The flaw exists within the Remote Agent component (CEServer.exe) which listens by default on TCP port 4322. When handling incoming requests the process fails to perform any type of authentication. Many available operations allow direct manipulation and creation of files on disk, loading of arbitrary DLLs and process control. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the User. Indusoft has issued an update to correct this vulnerability. More details can be found at: http://www.indusoft.com/hotfixes/hotfixes.php ['2011-04-27 - Vulnerability reported to vendor', '2011-11-16 - Coordinated public release of advisory'] Luigi Auriemma https://www.zerodayinitiative.com/advisories/ZDI-11-330/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-330/",
   "title": "InduSoft WebStudio Unauthenticated Remote Operations Remote Code Execution Vulnerability",
   "updated_date": null,

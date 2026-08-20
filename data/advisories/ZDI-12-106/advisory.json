@@ -11,13 +11,13 @@
   "cve": "CVE-2012-3811",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2012-3811",
   "cvss": 9.7,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2011-11-22 - Vulnerability reported to vendor",
     "2012-06-28 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-12-106 ZDI-CAN-1355 Avaya IP Office Customer Call Reporter ImageUpload Remote Code Execution Vulnerability 2012-06-28 CVE-2012-3811 https://www.cve.org/CVERecord?id=CVE-2012-3811 9.7 AV:N/AC:L/Au:N/C:C/I:C/A:P ['Avaya'] ['IP Office'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Avaya IP Office Customer Call Reporter. Authentication is not required to exploit this vulnerability. The specific flaw exists because Avaya IP Office Customer Call Reporter allows unauthenticated users to upload files to the webserver through ImageUpload.ashx. The uploaded files will not be stripped of their file extensions and the directory where they are uploaded to has no scripting restrictions. This flaw can lead the remote code execution under the context of the user running the IP Office Customer Call Reporter, usually NETWORK SERVICE. Avaya has issued an update to correct this vulnerability. More details can be found at: https://downloads.avaya.com/css/P8/documents/100164021 ['2011-11-22 - Vulnerability reported to vendor', '2012-06-28 - Coordinated public release of advisory'] Andrea Micalizzi aka rgod https://www.zerodayinitiative.com/advisories/ZDI-12-106/",
+  "search_text": "published ZDI-12-106 ZDI-CAN-1355 Avaya IP Office Customer Call Reporter ImageUpload Remote Code Execution Vulnerability 2012-06-28 CVE-2012-3811 https://www.cve.org/CVERecord?id=CVE-2012-3811 9.7 ['Avaya'] ['IP Office'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Avaya IP Office Customer Call Reporter. Authentication is not required to exploit this vulnerability. The specific flaw exists because Avaya IP Office Customer Call Reporter allows unauthenticated users to upload files to the webserver through ImageUpload.ashx. The uploaded files will not be stripped of their file extensions and the directory where they are uploaded to has no scripting restrictions. This flaw can lead the remote code execution under the context of the user running the IP Office Customer Call Reporter, usually NETWORK SERVICE. Avaya has issued an update to correct this vulnerability. More details can be found at: https://downloads.avaya.com/css/P8/documents/100164021 ['2011-11-22 - Vulnerability reported to vendor', '2012-06-28 - Coordinated public release of advisory'] Andrea Micalizzi aka rgod https://www.zerodayinitiative.com/advisories/ZDI-12-106/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-12-106/",
   "title": "Avaya IP Office Customer Call Reporter ImageUpload Remote Code Execution Vulnerability",
   "updated_date": null,

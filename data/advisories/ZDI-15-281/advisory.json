@@ -11,13 +11,13 @@
   "cve": "CVE-2015-3727",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-3727",
   "cvss": 7.5,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2015-04-24 - Vulnerability reported to vendor",
     "2015-07-01 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-15-281 ZDI-CAN-2900 WebKit WebSQL ALTER TABLE Authorization Bypass Vulnerability 2015-07-01 CVE-2015-3727 https://www.cve.org/CVERecord?id=CVE-2015-3727 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['WebKit.Org'] ['WebKit'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of WebKit. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of WebSQL. The issue lies in the failure to properly utilize SQLite's authorization code. An attacker can leverage this vulnerability to execute restricted SQL statements under the context of the current process. WebKit.Org has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT201222 ['2015-04-24 - Vulnerability reported to vendor', '2015-07-01 - Coordinated public release of advisory'] Peter Rutenbar https://www.zerodayinitiative.com/advisories/ZDI-15-281/",
+  "search_text": "published ZDI-15-281 ZDI-CAN-2900 WebKit WebSQL ALTER TABLE Authorization Bypass Vulnerability 2015-07-01 CVE-2015-3727 https://www.cve.org/CVERecord?id=CVE-2015-3727 7.5 ['WebKit.Org'] ['WebKit'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of WebKit. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of WebSQL. The issue lies in the failure to properly utilize SQLite's authorization code. An attacker can leverage this vulnerability to execute restricted SQL statements under the context of the current process. WebKit.Org has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT201222 ['2015-04-24 - Vulnerability reported to vendor', '2015-07-01 - Coordinated public release of advisory'] Peter Rutenbar https://www.zerodayinitiative.com/advisories/ZDI-15-281/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-281/",
   "title": "WebKit WebSQL ALTER TABLE Authorization Bypass Vulnerability",
   "updated_date": null,

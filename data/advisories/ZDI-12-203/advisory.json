@@ -11,13 +11,13 @@
   "cve": "CVE-2012-2054",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2012-2054",
   "cvss": 7.5,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2011-11-23 - Vulnerability reported to vendor",
     "2012-12-21 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-12-203 ZDI-CAN-1437 Honeywell HMIWeb Browser ActiveX Control RequestDSPLoad Remote Code Execution Vulnerability 2012-12-21 CVE-2012-2054 https://www.cve.org/CVERecord?id=CVE-2012-2054 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Honeywell'] ['HMIWeb'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Honeywell HMIWeb. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the ActiveX control defined within the HSCDSPRenderDll.dll file. The RequestDSPLoad method does not properly verify the length of a supplied argument before copying it into a fixed-length heap buffer. A remote attacker can abuse this to execute arbitrary code under the context of the user running the browser. http://www.us-cert.gov/control_systems/pdf/ICSA-12-150-01.pdf ['2011-11-23 - Vulnerability reported to vendor', '2012-12-21 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-12-203/",
+  "search_text": "published ZDI-12-203 ZDI-CAN-1437 Honeywell HMIWeb Browser ActiveX Control RequestDSPLoad Remote Code Execution Vulnerability 2012-12-21 CVE-2012-2054 https://www.cve.org/CVERecord?id=CVE-2012-2054 7.5 ['Honeywell'] ['HMIWeb'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Honeywell HMIWeb. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the ActiveX control defined within the HSCDSPRenderDll.dll file. The RequestDSPLoad method does not properly verify the length of a supplied argument before copying it into a fixed-length heap buffer. A remote attacker can abuse this to execute arbitrary code under the context of the user running the browser. http://www.us-cert.gov/control_systems/pdf/ICSA-12-150-01.pdf ['2011-11-23 - Vulnerability reported to vendor', '2012-12-21 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-12-203/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-12-203/",
   "title": "Honeywell HMIWeb Browser ActiveX Control RequestDSPLoad Remote Code Execution Vulnerability",
   "updated_date": null,

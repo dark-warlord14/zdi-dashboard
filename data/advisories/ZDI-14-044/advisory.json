@@ -11,13 +11,13 @@
   "cve": "CVE-2014-1243",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-1243",
   "cvss": 6.8,
-  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2013-07-13 - Vulnerability reported to vendor",
     "2014-04-03 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-14-044 ZDI-CAN-1737 Apple QuickTime nam Atom Parsing Remote Code Execution Vulnerability 2014-04-03 CVE-2014-1243 https://www.cve.org/CVERecord?id=CVE-2014-1243 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Apple'] ['QuickTime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple QuickTime. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the nam atom in an mp4 file. Manipulation of this atom can corrupt memory and a remote attacker can exploit this vulnerability to execute arbitrary code under the context of the process. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT1222 ['2013-07-13 - Vulnerability reported to vendor', '2014-04-03 - Coordinated public release of advisory'] Tom Gallagher (Microsoft) & Paul Bates (Microsoft) https://www.zerodayinitiative.com/advisories/ZDI-14-044/",
+  "search_text": "published ZDI-14-044 ZDI-CAN-1737 Apple QuickTime nam Atom Parsing Remote Code Execution Vulnerability 2014-04-03 CVE-2014-1243 https://www.cve.org/CVERecord?id=CVE-2014-1243 6.8 ['Apple'] ['QuickTime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple QuickTime. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the nam atom in an mp4 file. Manipulation of this atom can corrupt memory and a remote attacker can exploit this vulnerability to execute arbitrary code under the context of the process. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT1222 ['2013-07-13 - Vulnerability reported to vendor', '2014-04-03 - Coordinated public release of advisory'] Tom Gallagher (Microsoft) & Paul Bates (Microsoft) https://www.zerodayinitiative.com/advisories/ZDI-14-044/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-14-044/",
   "title": "Apple QuickTime nam Atom Parsing Remote Code Execution Vulnerability",
   "updated_date": null,

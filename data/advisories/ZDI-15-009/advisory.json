@@ -11,13 +11,13 @@
   "cve": "CVE-2014-4477",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-4477",
   "cvss": 6.8,
-  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2014-11-13 - Vulnerability reported to vendor",
     "2015-01-27 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-15-009 ZDI-CAN-2611 (Mobile Pwn2Own) Apple Safari Set Use-After-Free Remote Code Execution Vulnerability 2015-01-27 CVE-2014-4477 https://www.cve.org/CVERecord?id=CVE-2014-4477 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Apple'] ['Safari'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple Safari. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Set objects. The issue lies in the usage of an iterator after clearing the object. An attacker can leverage this vulnerability to execute code under the context of the renderer process. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/en-us/HT204243 ['2014-11-13 - Vulnerability reported to vendor', '2015-01-27 - Coordinated public release of advisory'] lokihardt@ASRT https://www.zerodayinitiative.com/advisories/ZDI-15-009/",
+  "search_text": "published ZDI-15-009 ZDI-CAN-2611 (Mobile Pwn2Own) Apple Safari Set Use-After-Free Remote Code Execution Vulnerability 2015-01-27 CVE-2014-4477 https://www.cve.org/CVERecord?id=CVE-2014-4477 6.8 ['Apple'] ['Safari'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple Safari. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Set objects. The issue lies in the usage of an iterator after clearing the object. An attacker can leverage this vulnerability to execute code under the context of the renderer process. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/en-us/HT204243 ['2014-11-13 - Vulnerability reported to vendor', '2015-01-27 - Coordinated public release of advisory'] lokihardt@ASRT https://www.zerodayinitiative.com/advisories/ZDI-15-009/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-009/",
   "title": "(Mobile Pwn2Own) Apple Safari Set Use-After-Free Remote Code Execution Vulnerability",
   "updated_date": null,

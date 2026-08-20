@@ -11,13 +11,13 @@
   "cve": "CVE-2016-9353",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-9353",
   "cvss": 7.2,
-  "cvss_vector": "AV:L/AC:L/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2016-08-30 - Vulnerability reported to vendor",
     "2016-12-13 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-16-629 ZDI-CAN-3987 Advantech SUSIAccess Server Static Encryption Key Privilege Escalation Vulnerability 2016-12-13 CVE-2016-9353 https://www.cve.org/CVERecord?id=CVE-2016-9353 7.2 AV:L/AC:L/Au:N/C:C/I:C/A:C ['Advantech'] ['SUSIAccess Server'] This vulnerability allows attackers to escalate privileges on vulnerable installations of Advantech SUSIAccess Server. Authentication is not required to exploit this vulnerability. The specific flaw exists within encryption and storage of the administrator password. The password is stored in a known location and is encrypted with a static encryption key. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of SYSTEM. Advantech has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-16-336-04 ['2016-08-30 - Vulnerability reported to vendor', '2016-12-13 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-16-629/",
+  "search_text": "published ZDI-16-629 ZDI-CAN-3987 Advantech SUSIAccess Server Static Encryption Key Privilege Escalation Vulnerability 2016-12-13 CVE-2016-9353 https://www.cve.org/CVERecord?id=CVE-2016-9353 7.2 ['Advantech'] ['SUSIAccess Server'] This vulnerability allows attackers to escalate privileges on vulnerable installations of Advantech SUSIAccess Server. Authentication is not required to exploit this vulnerability. The specific flaw exists within encryption and storage of the administrator password. The password is stored in a known location and is encrypted with a static encryption key. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of SYSTEM. Advantech has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-16-336-04 ['2016-08-30 - Vulnerability reported to vendor', '2016-12-13 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-16-629/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-629/",
   "title": "Advantech SUSIAccess Server Static Encryption Key Privilege Escalation Vulnerability",
   "updated_date": null,

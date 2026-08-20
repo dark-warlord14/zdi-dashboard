@@ -1,0 +1,28 @@
+{
+  "additional_details": "Fixed in firmware v1.9.1, available by Aug 12, 2026. https://certvde.com/en/advisories/VDE-2026-008/",
+  "advisory_date": "2026-07-30",
+  "affected_products": [
+    "CHARX SEC-3150"
+  ],
+  "affected_vendors": [
+    "Phoenix Contact"
+  ],
+  "credit": "Giuseppe Cal\u00ec (_gcali) and 8cf53a459714977f6bb11ee2d90416bf1675fa0e2451d80cf55a06d0b6ac2",
+  "cve": "CVE-2026-44093",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-44093",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2026-02-09 - Vulnerability reported to vendor",
+    "2026-07-30 - Coordinated public release of advisory",
+    "2026-07-30 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-26-511 ZDI-CAN-29075 (Pwn2Own) Phoenix Contact CHARX SEC-3150 user-applications Symlink Following Local Privilege Escalation Vulnerability 2026-07-30 CVE-2026-44093 https://www.cve.org/CVERecord?id=CVE-2026-44093 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Phoenix Contact'] ['CHARX SEC-3150'] This vulnerability allows local attackers to escalate privileges on affected installations of Phoenix Contact CHARX SEC-3150 devices. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the user-applications script. By creating a symbolic link, an attacker can abuse the service to move arbitrary files. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root. Fixed in firmware v1.9.1, available by Aug 12, 2026. https://certvde.com/en/advisories/VDE-2026-008/ ['2026-02-09 - Vulnerability reported to vendor', '2026-07-30 - Coordinated public release of advisory', '2026-07-30 - Advisory Updated'] Giuseppe Cal\u00ec (_gcali) and 8cf53a459714977f6bb11ee2d90416bf1675fa0e2451d80cf55a06d0b6ac2 https://www.zerodayinitiative.com/advisories/ZDI-26-511/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-511/",
+  "title": "(Pwn2Own) Phoenix Contact CHARX SEC-3150 user-applications Symlink Following Local Privilege Escalation Vulnerability",
+  "updated_date": "2026-07-30",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Phoenix Contact CHARX SEC-3150 devices. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the user-applications script. By creating a symbolic link, an attacker can abuse the service to move arbitrary files. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root.",
+  "zdi_can": "ZDI-CAN-29075",
+  "zdi_id": "ZDI-26-511"
+}

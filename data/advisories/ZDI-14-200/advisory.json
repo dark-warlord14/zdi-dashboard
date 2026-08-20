@@ -11,13 +11,13 @@
   "cve": "CVE-2014-3804",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-3804",
   "cvss": 10.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2014-04-18 - Vulnerability reported to vendor",
     "2014-06-11 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-14-200 ZDI-CAN-2297 AlienVault OSSIM av-centerd Util.pm admin_ip Remote Code Execution Vulnerability 2014-06-11 CVE-2014-3804 https://www.cve.org/CVERecord?id=CVE-2014-3804 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['AlienVault'] ['OSSIM'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of AlienVault OSSIM. Authentication is not required to exploit this vulnerability. The specific flaw exists within the av-centerd SOAP service. The issue lies in the handling of the set_ossim_setup admin_ip requests due to a failure to safely sanitize user data before executing a command. An attacker could leverage this vulnerability to execute code with root privileges. AlienVault has issued an update to correct this vulnerability. More details can be found at: http://forums.alienvault.com/discussion/2690 ['2014-04-18 - Vulnerability reported to vendor', '2014-06-11 - Coordinated public release of advisory'] HP Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-14-200/",
+  "search_text": "published ZDI-14-200 ZDI-CAN-2297 AlienVault OSSIM av-centerd Util.pm admin_ip Remote Code Execution Vulnerability 2014-06-11 CVE-2014-3804 https://www.cve.org/CVERecord?id=CVE-2014-3804 10.0 ['AlienVault'] ['OSSIM'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of AlienVault OSSIM. Authentication is not required to exploit this vulnerability. The specific flaw exists within the av-centerd SOAP service. The issue lies in the handling of the set_ossim_setup admin_ip requests due to a failure to safely sanitize user data before executing a command. An attacker could leverage this vulnerability to execute code with root privileges. AlienVault has issued an update to correct this vulnerability. More details can be found at: http://forums.alienvault.com/discussion/2690 ['2014-04-18 - Vulnerability reported to vendor', '2014-06-11 - Coordinated public release of advisory'] HP Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-14-200/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-14-200/",
   "title": "AlienVault OSSIM av-centerd Util.pm admin_ip Remote Code Execution Vulnerability",
   "updated_date": null,

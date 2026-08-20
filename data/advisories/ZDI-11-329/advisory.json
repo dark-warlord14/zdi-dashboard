@@ -11,13 +11,13 @@
   "cve": "CVE-2011-4052",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-4052",
   "cvss": 9.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2011-04-27 - Vulnerability reported to vendor",
     "2011-11-16 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-11-329 ZDI-CAN-1183 InduSoft WebStudio CEServer Operation 0x15 Remote Code Execution Vulnerability 2011-11-16 CVE-2011-4052 https://www.cve.org/CVERecord?id=CVE-2011-4052 9.0 AV:N/AC:L/Au:N/C:P/I:P/A:C ['Indusoft'] ['WebStudio'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Indusoft WebStudio. Authentication is not required to exploit this vulnerability. The flaw exists within the CEServer component which is used as a runtime dependency for applications deployed using Indusoft WebStudio. When handling the Remove File operation (0x15) the process blindly copies user supplied data to a fixed-length buffer on the stack. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the browser. Indusoft has issued an update to correct this vulnerability. More details can be found at: http://www.indusoft.com/hotfixes/hotfixes.php ['2011-04-27 - Vulnerability reported to vendor', '2011-11-16 - Coordinated public release of advisory'] Luigi Auriemma https://www.zerodayinitiative.com/advisories/ZDI-11-329/",
+  "search_text": "published ZDI-11-329 ZDI-CAN-1183 InduSoft WebStudio CEServer Operation 0x15 Remote Code Execution Vulnerability 2011-11-16 CVE-2011-4052 https://www.cve.org/CVERecord?id=CVE-2011-4052 9.0 ['Indusoft'] ['WebStudio'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Indusoft WebStudio. Authentication is not required to exploit this vulnerability. The flaw exists within the CEServer component which is used as a runtime dependency for applications deployed using Indusoft WebStudio. When handling the Remove File operation (0x15) the process blindly copies user supplied data to a fixed-length buffer on the stack. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the browser. Indusoft has issued an update to correct this vulnerability. More details can be found at: http://www.indusoft.com/hotfixes/hotfixes.php ['2011-04-27 - Vulnerability reported to vendor', '2011-11-16 - Coordinated public release of advisory'] Luigi Auriemma https://www.zerodayinitiative.com/advisories/ZDI-11-329/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-329/",
   "title": "InduSoft WebStudio CEServer Operation 0x15 Remote Code Execution Vulnerability",
   "updated_date": null,

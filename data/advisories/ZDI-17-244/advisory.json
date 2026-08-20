@@ -11,13 +11,13 @@
   "cve": null,
   "cve_url": null,
   "cvss": 7.5,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2017-03-30 - Vulnerability reported to vendor",
     "2017-04-05 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-17-244 ZDI-CAN-4511 Trend Micro Control Manager cgiShowClientAdm Missing Authentication for Critical Function Vulnerability 2017-04-05 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Trend Micro'] ['Control Manager'] This vulnerability allows remote attackers to modify the security posture of the underlying product on vulnerable installations of Trend Micro Control Manager. Authentication is not required to exploit this vulnerability. The specific flaw exists within the processing of calls to the cgiShowClientAdm web function. The software does not provide any authentication for functionality that can expose, modify, and delete DLP templates involved in filtering. An attacker can leverage this vulnerability to modify the security posture of the underlying product. Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/solution/1116863 ['2017-03-30 - Vulnerability reported to vendor', '2017-04-05 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-17-244/",
+  "search_text": "published ZDI-17-244 ZDI-CAN-4511 Trend Micro Control Manager cgiShowClientAdm Missing Authentication for Critical Function Vulnerability 2017-04-05 7.5 ['Trend Micro'] ['Control Manager'] This vulnerability allows remote attackers to modify the security posture of the underlying product on vulnerable installations of Trend Micro Control Manager. Authentication is not required to exploit this vulnerability. The specific flaw exists within the processing of calls to the cgiShowClientAdm web function. The software does not provide any authentication for functionality that can expose, modify, and delete DLP templates involved in filtering. An attacker can leverage this vulnerability to modify the security posture of the underlying product. Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/solution/1116863 ['2017-03-30 - Vulnerability reported to vendor', '2017-04-05 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-17-244/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-244/",
   "title": "Trend Micro Control Manager cgiShowClientAdm Missing Authentication for Critical Function Vulnerability",
   "updated_date": null,

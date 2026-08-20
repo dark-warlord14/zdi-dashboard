@@ -11,13 +11,13 @@
   "cve": "CVE-2014-2780",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-2780",
   "cvss": 4.4,
-  "cvss_vector": "AV:L/AC:M/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2014-03-11 - Vulnerability reported to vendor",
     "2014-07-09 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-14-221 ZDI-CAN-2231 (Pwn2Own) Microsoft Windows DirectShow Privilege Escalation Vulnerability 2014-07-09 CVE-2014-2780 https://www.cve.org/CVERecord?id=CVE-2014-2780 4.4 AV:L/AC:M/Au:N/C:P/I:P/A:P ['Microsoft'] ['DirectShow'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Windows. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of the Stretch object. The issue lies in the failure to properly sanitize user-supplied data. An attacker can leverage this vulnerability to elevate privileges and execute code under the context of the current user. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/en-us/library/security/MS14-041.aspx ['2014-03-11 - Vulnerability reported to vendor', '2014-07-09 - Coordinated public release of advisory'] VUPEN https://www.zerodayinitiative.com/advisories/ZDI-14-221/",
+  "search_text": "published ZDI-14-221 ZDI-CAN-2231 (Pwn2Own) Microsoft Windows DirectShow Privilege Escalation Vulnerability 2014-07-09 CVE-2014-2780 https://www.cve.org/CVERecord?id=CVE-2014-2780 4.4 ['Microsoft'] ['DirectShow'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Windows. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of the Stretch object. The issue lies in the failure to properly sanitize user-supplied data. An attacker can leverage this vulnerability to elevate privileges and execute code under the context of the current user. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/en-us/library/security/MS14-041.aspx ['2014-03-11 - Vulnerability reported to vendor', '2014-07-09 - Coordinated public release of advisory'] VUPEN https://www.zerodayinitiative.com/advisories/ZDI-14-221/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-14-221/",
   "title": "(Pwn2Own) Microsoft Windows DirectShow Privilege Escalation Vulnerability",
   "updated_date": null,

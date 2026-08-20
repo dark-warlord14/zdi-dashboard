@@ -11,13 +11,13 @@
   "cve": "CVE-2017-2535",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-2535",
   "cvss": 6.9,
-  "cvss_vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2017-03-17 - Vulnerability reported to vendor",
     "2017-05-18 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-17-356 ZDI-CAN-4579 (Pwn2Own) Apple macOS authd Privilege Escalation Vulnerability 2017-05-18 CVE-2017-2535 https://www.cve.org/CVERecord?id=CVE-2017-2535 6.9 AV:L/AC:M/Au:N/C:C/I:C/A:C ['Apple'] ['macOS'] This vulnerability allows local attackers to escalate privileges on vulnerable installations of Apple macOS. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the authd service. The issue lies in the lack of proper validation of authorization tokens prior to using them. An attacker can leverage this vulnerability to escalate privileges under the context of root. Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-us/HT207797 ['2017-03-17 - Vulnerability reported to vendor', '2017-05-18 - Coordinated public release of advisory'] Samuel Gro\u00df and Niklas Baumstark https://www.zerodayinitiative.com/advisories/ZDI-17-356/",
+  "search_text": "published ZDI-17-356 ZDI-CAN-4579 (Pwn2Own) Apple macOS authd Privilege Escalation Vulnerability 2017-05-18 CVE-2017-2535 https://www.cve.org/CVERecord?id=CVE-2017-2535 6.9 ['Apple'] ['macOS'] This vulnerability allows local attackers to escalate privileges on vulnerable installations of Apple macOS. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the authd service. The issue lies in the lack of proper validation of authorization tokens prior to using them. An attacker can leverage this vulnerability to escalate privileges under the context of root. Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-us/HT207797 ['2017-03-17 - Vulnerability reported to vendor', '2017-05-18 - Coordinated public release of advisory'] Samuel Gro\u00df and Niklas Baumstark https://www.zerodayinitiative.com/advisories/ZDI-17-356/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-356/",
   "title": "(Pwn2Own) Apple macOS authd Privilege Escalation Vulnerability",
   "updated_date": null,

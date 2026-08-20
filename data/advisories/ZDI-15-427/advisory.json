@@ -11,13 +11,13 @@
   "cve": "CVE-2015-2501",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-2501",
   "cvss": 6.8,
-  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2015-07-02 - Vulnerability reported to vendor",
     "2015-09-08 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-15-427 ZDI-CAN-3025 Microsoft Internet Explorer CImgTaskSvgDoc Use-After-Free Remote Code Execution Vulnerability 2015-09-08 CVE-2015-2501 https://www.cve.org/CVERecord?id=CVE-2015-2501 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Microsoft'] ['Internet Explorer'] This vulnerability allows remote attackers to cause a use-after-free condition on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the processing of svg images. A specially crafted svg image can cause Internet Explorer to reuse a CImgTaskSvgDoc object in memory after it has been freed. An attacker may be able to leverage this vulnerability to execute arbitrary code under the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/library/security/ms15-094 ['2015-07-02 - Vulnerability reported to vendor', '2015-09-08 - Coordinated public release of advisory'] Sean Verity https://www.zerodayinitiative.com/advisories/ZDI-15-427/",
+  "search_text": "published ZDI-15-427 ZDI-CAN-3025 Microsoft Internet Explorer CImgTaskSvgDoc Use-After-Free Remote Code Execution Vulnerability 2015-09-08 CVE-2015-2501 https://www.cve.org/CVERecord?id=CVE-2015-2501 6.8 ['Microsoft'] ['Internet Explorer'] This vulnerability allows remote attackers to cause a use-after-free condition on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the processing of svg images. A specially crafted svg image can cause Internet Explorer to reuse a CImgTaskSvgDoc object in memory after it has been freed. An attacker may be able to leverage this vulnerability to execute arbitrary code under the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/library/security/ms15-094 ['2015-07-02 - Vulnerability reported to vendor', '2015-09-08 - Coordinated public release of advisory'] Sean Verity https://www.zerodayinitiative.com/advisories/ZDI-15-427/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-427/",
   "title": "Microsoft Internet Explorer CImgTaskSvgDoc Use-After-Free Remote Code Execution Vulnerability",
   "updated_date": null,

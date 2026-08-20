@@ -11,13 +11,13 @@
   "cve": "CVE-2016-7202",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-7202",
   "cvss": 6.8,
-  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2016-09-20 - Vulnerability reported to vendor",
     "2016-11-08 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-16-593 ZDI-CAN-4031 Microsoft Windows JavaScript reverse Method Heap-based Buffer Overflow Remote Code Execution Vulnerability 2016-11-08 CVE-2016-7202 https://www.cve.org/CVERecord?id=CVE-2016-7202 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Microsoft'] ['Windows'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Windows. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of the JavaScript Array.reverse method, as implemented in chakra.dll. By performing actions in JavaScript an attacker can trigger an overflow of a heap-based buffer. An attacker can leverage this vulnerability to execute arbitrary code under the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/library/security/MS16-129 ['2016-09-20 - Vulnerability reported to vendor', '2016-11-08 - Coordinated public release of advisory'] bee13oy of CloverSec Labs https://www.zerodayinitiative.com/advisories/ZDI-16-593/",
+  "search_text": "published ZDI-16-593 ZDI-CAN-4031 Microsoft Windows JavaScript reverse Method Heap-based Buffer Overflow Remote Code Execution Vulnerability 2016-11-08 CVE-2016-7202 https://www.cve.org/CVERecord?id=CVE-2016-7202 6.8 ['Microsoft'] ['Windows'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Windows. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of the JavaScript Array.reverse method, as implemented in chakra.dll. By performing actions in JavaScript an attacker can trigger an overflow of a heap-based buffer. An attacker can leverage this vulnerability to execute arbitrary code under the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/library/security/MS16-129 ['2016-09-20 - Vulnerability reported to vendor', '2016-11-08 - Coordinated public release of advisory'] bee13oy of CloverSec Labs https://www.zerodayinitiative.com/advisories/ZDI-16-593/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-593/",
   "title": "Microsoft Windows JavaScript reverse Method Heap-based Buffer Overflow Remote Code Execution Vulnerability",
   "updated_date": null,

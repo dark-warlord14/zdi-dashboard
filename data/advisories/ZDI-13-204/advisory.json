@@ -11,13 +11,13 @@
   "cve": "CVE-2013-2362",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2013-2362",
   "cvss": 10.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2013-01-08 - Vulnerability reported to vendor",
     "2013-08-13 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-13-204 ZDI-CAN-1676 Hewlett-Packard System Management iprange Parameter Remote Code Execution Vulnerability 2013-08-13 CVE-2013-2362 https://www.cve.org/CVERecord?id=CVE-2013-2362 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Hewlett-Packard'] ['System Management'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of HP System Management. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of the iprange parameter when passed to /proxy/DataValidation in an HTTP request. Overflowing this parameter with data will cause a stack buffer overflow. An attacker can exploit this condition to gain remote code execution as SYSTEM. Hewlett-Packard has issued an update to correct this vulnerability. More details can be found at: https://h20566.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c03839862 ['2013-01-08 - Vulnerability reported to vendor', '2013-08-13 - Coordinated public release of advisory'] agix https://www.zerodayinitiative.com/advisories/ZDI-13-204/",
+  "search_text": "published ZDI-13-204 ZDI-CAN-1676 Hewlett-Packard System Management iprange Parameter Remote Code Execution Vulnerability 2013-08-13 CVE-2013-2362 https://www.cve.org/CVERecord?id=CVE-2013-2362 10.0 ['Hewlett-Packard'] ['System Management'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of HP System Management. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of the iprange parameter when passed to /proxy/DataValidation in an HTTP request. Overflowing this parameter with data will cause a stack buffer overflow. An attacker can exploit this condition to gain remote code execution as SYSTEM. Hewlett-Packard has issued an update to correct this vulnerability. More details can be found at: https://h20566.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c03839862 ['2013-01-08 - Vulnerability reported to vendor', '2013-08-13 - Coordinated public release of advisory'] agix https://www.zerodayinitiative.com/advisories/ZDI-13-204/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-13-204/",
   "title": "Hewlett-Packard System Management iprange Parameter Remote Code Execution Vulnerability",
   "updated_date": null,

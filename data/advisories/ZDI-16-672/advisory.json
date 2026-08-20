@@ -11,13 +11,13 @@
   "cve": "CVE-2016-8377",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-8377",
   "cvss": 6.5,
-  "cvss_vector": "AV:L/AC:L/Au:M/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2016-09-27 - Vulnerability reported to vendor",
     "2016-12-15 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-16-672 ZDI-CAN-3705 Fatek Automation PLC WinProladder Stack-based Buffer Overflow Remote Code Execution Vulnerability 2016-12-15 CVE-2016-8377 https://www.cve.org/CVERecord?id=CVE-2016-8377 6.5 AV:L/AC:L/Au:M/C:C/I:C/A:C ['Fatek Automation'] ['PLC WinProladder'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Fatek Automation PLC WinProladder. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of PLC configuration data from a network source. The process does not properly validate the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this vulnerability to execute arbitrary code under the context of the user. Fatek Automation has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-16-350-01 ['2016-09-27 - Vulnerability reported to vendor', '2016-12-15 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-16-672/",
+  "search_text": "published ZDI-16-672 ZDI-CAN-3705 Fatek Automation PLC WinProladder Stack-based Buffer Overflow Remote Code Execution Vulnerability 2016-12-15 CVE-2016-8377 https://www.cve.org/CVERecord?id=CVE-2016-8377 6.5 ['Fatek Automation'] ['PLC WinProladder'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Fatek Automation PLC WinProladder. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of PLC configuration data from a network source. The process does not properly validate the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this vulnerability to execute arbitrary code under the context of the user. Fatek Automation has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-16-350-01 ['2016-09-27 - Vulnerability reported to vendor', '2016-12-15 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-16-672/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-672/",
   "title": "Fatek Automation PLC WinProladder Stack-based Buffer Overflow Remote Code Execution Vulnerability",
   "updated_date": null,

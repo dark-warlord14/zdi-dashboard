@@ -11,13 +11,13 @@
   "cve": "CVE-2014-2210",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-2210",
   "cvss": 9.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2014-04-11 - Vulnerability reported to vendor",
     "2014-04-17 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-14-095 ZDI-CAN-2016 CA ERwin Web Portal MIMM ConfigServiceProvider Information Disclosure Vulnerability 2014-04-17 CVE-2014-2210 https://www.cve.org/CVERecord?id=CVE-2014-2210 9.0 AV:N/AC:L/Au:N/C:C/I:P/A:P ['CA'] ['ERwin Web Portal'] This vulnerability allows remote attackers to read database credentials on a system with vulnerable installations of CA ERwin Web Portal's Meta Integration Metadata Management service. Authentication is not required to exploit this vulnerability. The specific flaw exists within the \"Meta Integration Web Server and Services\" ConfigServiceProvider servlet which is vulnerable to a directory traversal. An attacker can leverage this vulnerability to read arbitrary XML files, including files which store database credentials, under the context of SYSTEM. An attacker can couple this vulnerability with others to gain remote code execution. CA has issued an update to correct this vulnerability. More details can be found at: https://support.ca.com/irj/portal/anonymous/phpsupcontent?contentID={7F968A14-7407-4BCF-9EB1-EFE9F0E6D663} ['2014-04-11 - Vulnerability reported to vendor', '2014-04-17 - Coordinated public release of advisory'] Andrea Micalizzi aka rgod https://www.zerodayinitiative.com/advisories/ZDI-14-095/",
+  "search_text": "published ZDI-14-095 ZDI-CAN-2016 CA ERwin Web Portal MIMM ConfigServiceProvider Information Disclosure Vulnerability 2014-04-17 CVE-2014-2210 https://www.cve.org/CVERecord?id=CVE-2014-2210 9.0 ['CA'] ['ERwin Web Portal'] This vulnerability allows remote attackers to read database credentials on a system with vulnerable installations of CA ERwin Web Portal's Meta Integration Metadata Management service. Authentication is not required to exploit this vulnerability. The specific flaw exists within the \"Meta Integration Web Server and Services\" ConfigServiceProvider servlet which is vulnerable to a directory traversal. An attacker can leverage this vulnerability to read arbitrary XML files, including files which store database credentials, under the context of SYSTEM. An attacker can couple this vulnerability with others to gain remote code execution. CA has issued an update to correct this vulnerability. More details can be found at: https://support.ca.com/irj/portal/anonymous/phpsupcontent?contentID={7F968A14-7407-4BCF-9EB1-EFE9F0E6D663} ['2014-04-11 - Vulnerability reported to vendor', '2014-04-17 - Coordinated public release of advisory'] Andrea Micalizzi aka rgod https://www.zerodayinitiative.com/advisories/ZDI-14-095/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-14-095/",
   "title": "CA ERwin Web Portal MIMM ConfigServiceProvider Information Disclosure Vulnerability",
   "updated_date": null,

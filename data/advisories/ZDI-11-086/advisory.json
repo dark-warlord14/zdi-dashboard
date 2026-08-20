@@ -11,13 +11,13 @@
   "cve": "CVE-2010-4463",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2010-4463",
   "cvss": 9.7,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2010-10-18 - Vulnerability reported to vendor",
     "2011-02-15 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-11-086 ZDI-CAN-976 Oracle Java Webstart Trusted JNLP Extension Remote Code Execution Vulnerability 2011-02-15 CVE-2010-4463 https://www.cve.org/CVERecord?id=CVE-2010-4463 9.7 AV:N/AC:L/Au:N/C:C/I:C/A:P ['Oracle'] ['Java Runtime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Oracle's Java Runtime Environment. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the Java Webstart loader of the Java Runtime Environment. When parsing a .jnlp file containing an extension, the loader will honor the permissions defined within. This will allow one to explicitly define the security permissions of their java component which will then get executed. This will allow one to execute code outside of the context of the JRE sandbox. Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/javacpufeb2011-304611.html ['2010-10-18 - Vulnerability reported to vendor', '2011-02-15 - Coordinated public release of advisory'] Peter Csepely https://www.zerodayinitiative.com/advisories/ZDI-11-086/",
+  "search_text": "published ZDI-11-086 ZDI-CAN-976 Oracle Java Webstart Trusted JNLP Extension Remote Code Execution Vulnerability 2011-02-15 CVE-2010-4463 https://www.cve.org/CVERecord?id=CVE-2010-4463 9.7 ['Oracle'] ['Java Runtime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Oracle's Java Runtime Environment. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the Java Webstart loader of the Java Runtime Environment. When parsing a .jnlp file containing an extension, the loader will honor the permissions defined within. This will allow one to explicitly define the security permissions of their java component which will then get executed. This will allow one to execute code outside of the context of the JRE sandbox. Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/javacpufeb2011-304611.html ['2010-10-18 - Vulnerability reported to vendor', '2011-02-15 - Coordinated public release of advisory'] Peter Csepely https://www.zerodayinitiative.com/advisories/ZDI-11-086/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-086/",
   "title": "Oracle Java Webstart Trusted JNLP Extension Remote Code Execution Vulnerability",
   "updated_date": null,

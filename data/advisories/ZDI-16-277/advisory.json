@@ -11,13 +11,13 @@
   "cve": "CVE-2016-0185",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-0185",
   "cvss": 6.8,
-  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2016-02-08 - Vulnerability reported to vendor",
     "2016-05-10 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-16-277 ZDI-CAN-3568 Microsoft Windows Media Center .MCL File Remote Code Execution Vulnerability 2016-05-10 CVE-2016-0185 https://www.cve.org/CVERecord?id=CVE-2016-0185 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Microsoft'] ['Windows Media Center'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Windows Media Center. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. An attacker can craft a malicious file with a .MCL extension. Contained within the .MCL file is a URL that points to a second crafted file of type .LNK or .URL. If the victim opens the .MCL file, the attacker can execute arbitrary code on the victim's machine under the context of the user. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/en-us/library/security/ms16-059.aspx ['2016-02-08 - Vulnerability reported to vendor', '2016-05-10 - Coordinated public release of advisory'] Eduardo Braun Prado https://www.zerodayinitiative.com/advisories/ZDI-16-277/",
+  "search_text": "published ZDI-16-277 ZDI-CAN-3568 Microsoft Windows Media Center .MCL File Remote Code Execution Vulnerability 2016-05-10 CVE-2016-0185 https://www.cve.org/CVERecord?id=CVE-2016-0185 6.8 ['Microsoft'] ['Windows Media Center'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Windows Media Center. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. An attacker can craft a malicious file with a .MCL extension. Contained within the .MCL file is a URL that points to a second crafted file of type .LNK or .URL. If the victim opens the .MCL file, the attacker can execute arbitrary code on the victim's machine under the context of the user. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/en-us/library/security/ms16-059.aspx ['2016-02-08 - Vulnerability reported to vendor', '2016-05-10 - Coordinated public release of advisory'] Eduardo Braun Prado https://www.zerodayinitiative.com/advisories/ZDI-16-277/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-277/",
   "title": "Microsoft Windows Media Center .MCL File Remote Code Execution Vulnerability",
   "updated_date": null,

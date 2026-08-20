@@ -11,13 +11,13 @@
   "cve": "CVE-2011-0084",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-0084",
   "cvss": 7.5,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2011-04-04 - Vulnerability reported to vendor",
     "2011-08-17 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-11-270 ZDI-CAN-1143 Mozilla Firefox SVGTextElement.getCharNumAtPosition Remote Code Execution Vulnerability 2011-08-17 CVE-2011-0084 https://www.cve.org/CVERecord?id=CVE-2011-0084 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Mozilla'] ['Firefox'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Mozilla Firefox. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the code responsible for parsing SVG text containers. The code within nsSVGGlyphFrame::GetCharNumAtPosition() does not account for user defined getter methods modifying or destroying the parent object. An attacker can abuse this flaw to create a dangling pointer which is referenced during the traversal of the SVG container hierarchy. This can be leveraged to execute arbitrary code within the context of the browser. Mozilla has issued an update to correct this vulnerability. More details can be found at: http://www.mozilla.org/security/announce/2011/mfsa2011-30.html#cve-2011-0084 ['2011-04-04 - Vulnerability reported to vendor', '2011-08-17 - Coordinated public release of advisory'] regenrecht https://www.zerodayinitiative.com/advisories/ZDI-11-270/",
+  "search_text": "published ZDI-11-270 ZDI-CAN-1143 Mozilla Firefox SVGTextElement.getCharNumAtPosition Remote Code Execution Vulnerability 2011-08-17 CVE-2011-0084 https://www.cve.org/CVERecord?id=CVE-2011-0084 7.5 ['Mozilla'] ['Firefox'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Mozilla Firefox. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the code responsible for parsing SVG text containers. The code within nsSVGGlyphFrame::GetCharNumAtPosition() does not account for user defined getter methods modifying or destroying the parent object. An attacker can abuse this flaw to create a dangling pointer which is referenced during the traversal of the SVG container hierarchy. This can be leveraged to execute arbitrary code within the context of the browser. Mozilla has issued an update to correct this vulnerability. More details can be found at: http://www.mozilla.org/security/announce/2011/mfsa2011-30.html#cve-2011-0084 ['2011-04-04 - Vulnerability reported to vendor', '2011-08-17 - Coordinated public release of advisory'] regenrecht https://www.zerodayinitiative.com/advisories/ZDI-11-270/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-270/",
   "title": "Mozilla Firefox SVGTextElement.getCharNumAtPosition Remote Code Execution Vulnerability",
   "updated_date": null,

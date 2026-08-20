@@ -11,13 +11,13 @@
   "cve": "CVE-2016-4727",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-4727",
   "cvss": 6.9,
-  "cvss_vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2016-06-02 - Vulnerability reported to vendor",
     "2016-09-20 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-16-522 ZDI-CAN-3814 Apple OS X IOThunderboltFamily Uninitialized Memory Privilege Escalation Vulnerability 2016-09-20 CVE-2016-4727 https://www.cve.org/CVERecord?id=CVE-2016-4727 6.9 AV:L/AC:M/Au:N/C:C/I:C/A:C ['Apple'] ['OS X'] This vulnerability allows local attackers to escalate privileges on vulnerable installations of Apple OS X. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the IOThunderboltFamily kext. The issue lies in the failure to properly initialize memory prior to accessing it. An attacker can leverage this vulnerability to escalate privileges under the context of the kernel. Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-us/HT207170 ['2016-06-02 - Vulnerability reported to vendor', '2016-09-20 - Coordinated public release of advisory'] wmin https://www.zerodayinitiative.com/advisories/ZDI-16-522/",
+  "search_text": "published ZDI-16-522 ZDI-CAN-3814 Apple OS X IOThunderboltFamily Uninitialized Memory Privilege Escalation Vulnerability 2016-09-20 CVE-2016-4727 https://www.cve.org/CVERecord?id=CVE-2016-4727 6.9 ['Apple'] ['OS X'] This vulnerability allows local attackers to escalate privileges on vulnerable installations of Apple OS X. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the IOThunderboltFamily kext. The issue lies in the failure to properly initialize memory prior to accessing it. An attacker can leverage this vulnerability to escalate privileges under the context of the kernel. Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-us/HT207170 ['2016-06-02 - Vulnerability reported to vendor', '2016-09-20 - Coordinated public release of advisory'] wmin https://www.zerodayinitiative.com/advisories/ZDI-16-522/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-522/",
   "title": "Apple OS X IOThunderboltFamily Uninitialized Memory Privilege Escalation Vulnerability",
   "updated_date": null,

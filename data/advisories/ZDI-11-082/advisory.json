@@ -11,13 +11,13 @@
   "cve": "CVE-2010-4466",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2010-4466",
   "cvss": 6.4,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:N",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2009-08-20 - Vulnerability reported to vendor",
     "2011-02-15 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-11-082 ZDI-CAN-552 Oracle Java Runtime NTLM Authentication Information Leakage Vulnerability 2011-02-15 CVE-2010-4466 https://www.cve.org/CVERecord?id=CVE-2010-4466 6.4 AV:N/AC:L/Au:N/C:P/I:P/A:N ['Oracle'] ['Java Runtime'] This vulnerability allows remote attackers to leak authentication details on vulnerable installations of the Oracle Java Runtime. User interaction is required to exploit this vulnerability in that the target must visit a malicious page. The specific flaw exists in the handling of NTLM authentication requested generated in the context of the Java Runtime. The Java Virtual Machine will ignore browser policies and respond to WWW-Authenticate requests from the Internet zone resulting in the leakage of NTLM authentication hashes to attackers. Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/javacpufeb2011-304611.html ['2009-08-20 - Vulnerability reported to vendor', '2011-02-15 - Coordinated public release of advisory'] Sami Koivu https://www.zerodayinitiative.com/advisories/ZDI-11-082/",
+  "search_text": "published ZDI-11-082 ZDI-CAN-552 Oracle Java Runtime NTLM Authentication Information Leakage Vulnerability 2011-02-15 CVE-2010-4466 https://www.cve.org/CVERecord?id=CVE-2010-4466 6.4 ['Oracle'] ['Java Runtime'] This vulnerability allows remote attackers to leak authentication details on vulnerable installations of the Oracle Java Runtime. User interaction is required to exploit this vulnerability in that the target must visit a malicious page. The specific flaw exists in the handling of NTLM authentication requested generated in the context of the Java Runtime. The Java Virtual Machine will ignore browser policies and respond to WWW-Authenticate requests from the Internet zone resulting in the leakage of NTLM authentication hashes to attackers. Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/javacpufeb2011-304611.html ['2009-08-20 - Vulnerability reported to vendor', '2011-02-15 - Coordinated public release of advisory'] Sami Koivu https://www.zerodayinitiative.com/advisories/ZDI-11-082/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-082/",
   "title": "Oracle Java Runtime NTLM Authentication Information Leakage Vulnerability",
   "updated_date": null,

@@ -2,11 +2,9 @@
   "additional_details": "Mozilla Firefox has issued an update to correct this vulnerability. More details can be found at: http://www.mozilla.org/security/announce/2006/mfsa2006-73.html",
   "advisory_date": "2006-12-19",
   "affected_products": [
-    "2.0.x",
-    "1.0.x"
+    "2.0.x"
   ],
   "affected_vendors": [
-    "Mozilla Firefox",
     "Mozilla Firefox"
   ],
   "credit": "Anonymous",
@@ -19,7 +17,7 @@
     "2006-12-19 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-06-051 ZDI-CAN-126 Mozilla Firefox SVG Processing Remote Code Execution Vulnerability 2006-12-19 CVE-2006-6504 https://www.cve.org/CVERecord?id=CVE-2006-6504 ['Mozilla Firefox', 'Mozilla Firefox'] ['2.0.x', '1.0.x'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Mozilla Firefox. User interaction is required to exploit this vulnerability in that the target must visit a malicious page. The specific flaw exists in the browser's handling of SVG comment objects. Firefox does not correctly handle requests to append SVG comments to elements in other types of documents. Attempting such an operation results in a memory corruption that can be exploited to execute arbitrary code. Mozilla Firefox has issued an update to correct this vulnerability. More details can be found at: http://www.mozilla.org/security/announce/2006/mfsa2006-73.html ['2006-11-08 - Vulnerability reported to vendor', '2006-12-19 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-06-051/",
+  "search_text": "published ZDI-06-051 ZDI-CAN-126 Mozilla Firefox SVG Processing Remote Code Execution Vulnerability 2006-12-19 CVE-2006-6504 https://www.cve.org/CVERecord?id=CVE-2006-6504 ['Mozilla Firefox'] ['2.0.x'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Mozilla Firefox. User interaction is required to exploit this vulnerability in that the target must visit a malicious page. The specific flaw exists in the browser's handling of SVG comment objects. Firefox does not correctly handle requests to append SVG comments to elements in other types of documents. Attempting such an operation results in a memory corruption that can be exploited to execute arbitrary code. Mozilla Firefox has issued an update to correct this vulnerability. More details can be found at: http://www.mozilla.org/security/announce/2006/mfsa2006-73.html ['2006-11-08 - Vulnerability reported to vendor', '2006-12-19 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-06-051/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-06-051/",
   "title": "Mozilla Firefox SVG Processing Remote Code Execution Vulnerability",
   "updated_date": null,

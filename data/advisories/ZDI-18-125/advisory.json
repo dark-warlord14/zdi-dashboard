@@ -11,13 +11,13 @@
   "cve": "CVE-2017-16739",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-16739",
   "cvss": 4.6,
-  "cvss_vector": "AV:L/AC:L/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2017-12-01 - Vulnerability reported to vendor",
     "2018-01-18 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-18-125 ZDI-CAN-5217 Wecon LeviStudioU MulStatus szFilename Stack-based Buffer Overflow Remote Code Execution Vulnerability 2018-01-18 CVE-2017-16739 https://www.cve.org/CVERecord?id=CVE-2017-16739 4.6 AV:L/AC:L/Au:N/C:P/I:P/A:P ['Wecon'] ['LeviStudioU'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of WECON LeviStudioU. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists in the handling of LeviStudioU Project files. When providing an overly long MulStatus szFilename XML attribute, the process does not properly validate the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this vulnerability to execute code under the context of the current process. Wecon has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-18-011-01 ['2017-12-01 - Vulnerability reported to vendor', '2018-01-18 - Coordinated public release of advisory'] Brian Gorenc - Trend Micro Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-18-125/",
+  "search_text": "published ZDI-18-125 ZDI-CAN-5217 Wecon LeviStudioU MulStatus szFilename Stack-based Buffer Overflow Remote Code Execution Vulnerability 2018-01-18 CVE-2017-16739 https://www.cve.org/CVERecord?id=CVE-2017-16739 4.6 ['Wecon'] ['LeviStudioU'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of WECON LeviStudioU. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists in the handling of LeviStudioU Project files. When providing an overly long MulStatus szFilename XML attribute, the process does not properly validate the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this vulnerability to execute code under the context of the current process. Wecon has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-18-011-01 ['2017-12-01 - Vulnerability reported to vendor', '2018-01-18 - Coordinated public release of advisory'] Brian Gorenc - Trend Micro Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-18-125/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-125/",
   "title": "Wecon LeviStudioU MulStatus szFilename Stack-based Buffer Overflow Remote Code Execution Vulnerability",
   "updated_date": null,

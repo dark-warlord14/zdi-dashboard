@@ -11,13 +11,13 @@
   "cve": "CVE-2013-4827",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2013-4827",
   "cvss": 7.5,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2012-11-19 - Vulnerability reported to vendor",
     "2013-10-16 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-13-243 ZDI-CAN-1664 Hewlett-Packard Intelligent Management Center APM monitorId SQL Injection Vulnerability 2013-10-16 CVE-2013-4827 https://www.cve.org/CVERecord?id=CVE-2013-4827 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Hewlett-Packard'] ['Intelligent Management Center'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of HP Intelligent Management Center. Authentication is not required to exploit this vulnerability. The specific flaw exists within the APM module's AppDataDaoImpl class. The monitorId parameter does not sufficiently sanitize input, allowing for SQL injection without authentication. An attacker could leverage this vulnerability to retrieve the usernames and passwords of configured devices. Hewlett-Packard has issued an update to correct this vulnerability. More details can be found at: https://h20566.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c03943547 ['2012-11-19 - Vulnerability reported to vendor', '2013-10-16 - Coordinated public release of advisory'] Andrea Micalizzi aka rgod https://www.zerodayinitiative.com/advisories/ZDI-13-243/",
+  "search_text": "published ZDI-13-243 ZDI-CAN-1664 Hewlett-Packard Intelligent Management Center APM monitorId SQL Injection Vulnerability 2013-10-16 CVE-2013-4827 https://www.cve.org/CVERecord?id=CVE-2013-4827 7.5 ['Hewlett-Packard'] ['Intelligent Management Center'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of HP Intelligent Management Center. Authentication is not required to exploit this vulnerability. The specific flaw exists within the APM module's AppDataDaoImpl class. The monitorId parameter does not sufficiently sanitize input, allowing for SQL injection without authentication. An attacker could leverage this vulnerability to retrieve the usernames and passwords of configured devices. Hewlett-Packard has issued an update to correct this vulnerability. More details can be found at: https://h20566.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c03943547 ['2012-11-19 - Vulnerability reported to vendor', '2013-10-16 - Coordinated public release of advisory'] Andrea Micalizzi aka rgod https://www.zerodayinitiative.com/advisories/ZDI-13-243/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-13-243/",
   "title": "Hewlett-Packard Intelligent Management Center APM monitorId SQL Injection Vulnerability",
   "updated_date": null,

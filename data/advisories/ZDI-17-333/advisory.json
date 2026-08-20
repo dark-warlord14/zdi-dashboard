@@ -11,13 +11,13 @@
   "cve": null,
   "cve_url": null,
   "cvss": 9.3,
-  "cvss_vector": "AV:N/AC:M/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2017-03-24 - Vulnerability reported to vendor",
     "2017-05-11 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-17-333 ZDI-CAN-4574 Bitdefender Internet Security cevakrnl Out-Of-Bounds Write Remote Code Execution Vulnerability 2017-05-11 9.3 AV:N/AC:M/Au:N/C:C/I:C/A:C ['Bitdefender'] ['Internet Security'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Bitdefender Internet Security. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within cevakrnl.xmd. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated object. An attacker can leverage this vulnerability to execute code under the context of SYSTEM. Fixed in cevakrnl.xmd (7.70464). ['2017-03-24 - Vulnerability reported to vendor', '2017-05-11 - Coordinated public release of advisory'] Valentin Shilnenkov https://www.zerodayinitiative.com/advisories/ZDI-17-333/",
+  "search_text": "published ZDI-17-333 ZDI-CAN-4574 Bitdefender Internet Security cevakrnl Out-Of-Bounds Write Remote Code Execution Vulnerability 2017-05-11 9.3 ['Bitdefender'] ['Internet Security'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Bitdefender Internet Security. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within cevakrnl.xmd. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated object. An attacker can leverage this vulnerability to execute code under the context of SYSTEM. Fixed in cevakrnl.xmd (7.70464). ['2017-03-24 - Vulnerability reported to vendor', '2017-05-11 - Coordinated public release of advisory'] Valentin Shilnenkov https://www.zerodayinitiative.com/advisories/ZDI-17-333/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-333/",
   "title": "Bitdefender Internet Security cevakrnl Out-Of-Bounds Write Remote Code Execution Vulnerability",
   "updated_date": null,

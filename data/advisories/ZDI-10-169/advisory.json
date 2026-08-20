@@ -11,13 +11,13 @@
   "cve": null,
   "cve_url": null,
   "cvss": 9.0,
-  "cvss_vector": "AV:N/AC:L/Au:S/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2010-04-06 - Vulnerability reported to vendor",
     "2010-09-01 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-10-169 ZDI-CAN-674 Novell Netware SSHD.NLM Remote Code Execution Vulnerability 2010-09-01 9.0 AV:N/AC:L/Au:S/C:C/I:C/A:C ['Novell'] ['Netware'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Novell Netware. Authentication is required to exploit this vulnerability. The flaw exists within SSHD.NLM. When the application attempts to resolve an absolute path on the server, a 512 byte destination buffer is used without bounds checking. By providing a large enough value, an attacker can cause a buffer to be overflowed. Successful exploitation results in remote code execution under the context of the server. Novell has issued an update to correct this vulnerability. More details can be found at: http://www.novell.com/support/php/search.do?cmd=displayKC&docType=kc&externalId=7006756&sliceId=1&docTypeID=DT_TID_1_1&dialogID=164386838&stateId=0%200%20164390561 ['2010-04-06 - Vulnerability reported to vendor', '2010-09-01 - Coordinated public release of advisory'] Francis Provencher https://www.zerodayinitiative.com/advisories/ZDI-10-169/",
+  "search_text": "published ZDI-10-169 ZDI-CAN-674 Novell Netware SSHD.NLM Remote Code Execution Vulnerability 2010-09-01 9.0 ['Novell'] ['Netware'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Novell Netware. Authentication is required to exploit this vulnerability. The flaw exists within SSHD.NLM. When the application attempts to resolve an absolute path on the server, a 512 byte destination buffer is used without bounds checking. By providing a large enough value, an attacker can cause a buffer to be overflowed. Successful exploitation results in remote code execution under the context of the server. Novell has issued an update to correct this vulnerability. More details can be found at: http://www.novell.com/support/php/search.do?cmd=displayKC&docType=kc&externalId=7006756&sliceId=1&docTypeID=DT_TID_1_1&dialogID=164386838&stateId=0%200%20164390561 ['2010-04-06 - Vulnerability reported to vendor', '2010-09-01 - Coordinated public release of advisory'] Francis Provencher https://www.zerodayinitiative.com/advisories/ZDI-10-169/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-169/",
   "title": "Novell Netware SSHD.NLM Remote Code Execution Vulnerability",
   "updated_date": null,

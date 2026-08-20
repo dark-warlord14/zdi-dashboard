@@ -11,13 +11,13 @@
   "cve": null,
   "cve_url": null,
   "cvss": 6.9,
-  "cvss_vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2016-06-21 - Vulnerability reported to vendor",
     "2016-10-06 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-16-530 ZDI-CAN-3827 Trend Micro Maximum Security tmnciesc Kernel Driver Memory Corruption Privilege Escalation Vulnerability 2016-10-06 6.9 AV:L/AC:M/Au:N/C:C/I:C/A:C ['Trend Micro'] ['Maximum Security'] This vulnerability allows local attackers to escalate privileges on vulnerable installations of Trend Micro Maximum Security. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the processing of IOCTL 0x0022205c by the tmnciesc kernel driver. The issue lies in the failure to properly validate user-supplied data which can result in a memory corruption condition. An attacker can leverage this vulnerability to execute arbitrary code under the context of kernel. Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://esupport.trendmicro.com/en-us/home/pages/technical-support/1115282.aspx ['2016-06-21 - Vulnerability reported to vendor', '2016-10-06 - Coordinated public release of advisory'] bee13oy of CloverSec Labs https://www.zerodayinitiative.com/advisories/ZDI-16-530/",
+  "search_text": "published ZDI-16-530 ZDI-CAN-3827 Trend Micro Maximum Security tmnciesc Kernel Driver Memory Corruption Privilege Escalation Vulnerability 2016-10-06 6.9 ['Trend Micro'] ['Maximum Security'] This vulnerability allows local attackers to escalate privileges on vulnerable installations of Trend Micro Maximum Security. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the processing of IOCTL 0x0022205c by the tmnciesc kernel driver. The issue lies in the failure to properly validate user-supplied data which can result in a memory corruption condition. An attacker can leverage this vulnerability to execute arbitrary code under the context of kernel. Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://esupport.trendmicro.com/en-us/home/pages/technical-support/1115282.aspx ['2016-06-21 - Vulnerability reported to vendor', '2016-10-06 - Coordinated public release of advisory'] bee13oy of CloverSec Labs https://www.zerodayinitiative.com/advisories/ZDI-16-530/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-530/",
   "title": "Trend Micro Maximum Security tmnciesc Kernel Driver Memory Corruption Privilege Escalation Vulnerability",
   "updated_date": null,

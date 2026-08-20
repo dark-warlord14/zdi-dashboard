@@ -11,13 +11,13 @@
   "cve": "CVE-2015-6047",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-6047",
   "cvss": 6.9,
-  "cvss_vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2015-07-07 - Vulnerability reported to vendor",
     "2015-10-13 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-15-522 ZDI-CAN-3042 Microsoft Internet Explorer EditWith Sandbox Escape Vulnerability 2015-10-13 CVE-2015-6047 https://www.cve.org/CVERecord?id=CVE-2015-6047 6.9 AV:L/AC:M/Au:N/C:C/I:C/A:C ['Microsoft'] ['Internet Explorer'] This vulnerability allows remote attackers to escape the Application Container and execute code in the context of the logged-in user on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the EditWith functionality of the broker process for Internet Explorer. Code that is running in the AppContainer can use the DelegateExecute functionality of shell execution to execute arbitrary applications in the context of the user, not just applications that are in the Internet Explorer allowed list. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/en-us/library/security/MS15-106 ['2015-07-07 - Vulnerability reported to vendor', '2015-10-13 - Coordinated public release of advisory'] Ashutosh Mehra (https://twitter.com/ashutoshmehra) https://www.zerodayinitiative.com/advisories/ZDI-15-522/",
+  "search_text": "published ZDI-15-522 ZDI-CAN-3042 Microsoft Internet Explorer EditWith Sandbox Escape Vulnerability 2015-10-13 CVE-2015-6047 https://www.cve.org/CVERecord?id=CVE-2015-6047 6.9 ['Microsoft'] ['Internet Explorer'] This vulnerability allows remote attackers to escape the Application Container and execute code in the context of the logged-in user on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the EditWith functionality of the broker process for Internet Explorer. Code that is running in the AppContainer can use the DelegateExecute functionality of shell execution to execute arbitrary applications in the context of the user, not just applications that are in the Internet Explorer allowed list. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/en-us/library/security/MS15-106 ['2015-07-07 - Vulnerability reported to vendor', '2015-10-13 - Coordinated public release of advisory'] Ashutosh Mehra (https://twitter.com/ashutoshmehra) https://www.zerodayinitiative.com/advisories/ZDI-15-522/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-522/",
   "title": "Microsoft Internet Explorer EditWith Sandbox Escape Vulnerability",
   "updated_date": null,

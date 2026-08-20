@@ -11,13 +11,13 @@
   "cve": "CVE-2016-8211",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-8211",
   "cvss": 5.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2016-07-07 - Vulnerability reported to vendor",
     "2017-06-12 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-17-394 ZDI-CAN-3844 EMC Data Protection Advisor ImageServlet Directory Traversal Information Disclosure Vulnerability 2017-06-12 CVE-2016-8211 https://www.cve.org/CVERecord?id=CVE-2016-8211 5.0 AV:N/AC:L/Au:N/C:P/I:N/A:N ['EMC'] ['Data Protection Advisor'] This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of EMC Data Protection Advisor. Authentication is not required to exploit this vulnerability. The specific flaw exists within the ImageServlet servlet which listens on TCP ports 9002 and 9004. The issue lies in the failure to properly validate a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to disclose files under the context of SYSTEM. EMC has issued an update to correct this vulnerability. More details can be found at: http://seclists.org/bugtraq/2017/Jan/att-87/ESA-2016-133.txt ['2016-07-07 - Vulnerability reported to vendor', '2017-06-12 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-17-394/",
+  "search_text": "published ZDI-17-394 ZDI-CAN-3844 EMC Data Protection Advisor ImageServlet Directory Traversal Information Disclosure Vulnerability 2017-06-12 CVE-2016-8211 https://www.cve.org/CVERecord?id=CVE-2016-8211 5.0 ['EMC'] ['Data Protection Advisor'] This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of EMC Data Protection Advisor. Authentication is not required to exploit this vulnerability. The specific flaw exists within the ImageServlet servlet which listens on TCP ports 9002 and 9004. The issue lies in the failure to properly validate a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to disclose files under the context of SYSTEM. EMC has issued an update to correct this vulnerability. More details can be found at: http://seclists.org/bugtraq/2017/Jan/att-87/ESA-2016-133.txt ['2016-07-07 - Vulnerability reported to vendor', '2017-06-12 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-17-394/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-394/",
   "title": "EMC Data Protection Advisor ImageServlet Directory Traversal Information Disclosure Vulnerability",
   "updated_date": null,

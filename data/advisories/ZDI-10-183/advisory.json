@@ -11,13 +11,13 @@
   "cve": null,
   "cve_url": null,
   "cvss": 10.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2010-02-02 - Vulnerability reported to vendor",
     "2010-09-29 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-10-183 ZDI-CAN-662 IBM TSM FastBack Server FXCLI_checkIndexDBLocation Remote Code Execution Vulnerability 2010-09-29 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['IBM'] ['Tivoli Storage Manager FastBack'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of IBM Tivoli FastBack Server. Authentication is not required to exploit this vulnerability. The flaw exists within FastBackServer.exe which listens by default on TCP port 11460. The issue is due to a strcpy of user supplied data and length to a fixed size buffer located on the stack. Specifically, this issue can be triggered by providing a large enough user_path variable. Successful exploitation leads to remote code execution under the context of the fastback server. http://www.ibm.com/support/docview.wss?uid=swg21443820 Issue 2 ['2010-02-02 - Vulnerability reported to vendor', '2010-09-29 - Coordinated public release of advisory'] Sebastian Apelt (www.siberas.de) https://www.zerodayinitiative.com/advisories/ZDI-10-183/",
+  "search_text": "published ZDI-10-183 ZDI-CAN-662 IBM TSM FastBack Server FXCLI_checkIndexDBLocation Remote Code Execution Vulnerability 2010-09-29 10.0 ['IBM'] ['Tivoli Storage Manager FastBack'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of IBM Tivoli FastBack Server. Authentication is not required to exploit this vulnerability. The flaw exists within FastBackServer.exe which listens by default on TCP port 11460. The issue is due to a strcpy of user supplied data and length to a fixed size buffer located on the stack. Specifically, this issue can be triggered by providing a large enough user_path variable. Successful exploitation leads to remote code execution under the context of the fastback server. http://www.ibm.com/support/docview.wss?uid=swg21443820 Issue 2 ['2010-02-02 - Vulnerability reported to vendor', '2010-09-29 - Coordinated public release of advisory'] Sebastian Apelt (www.siberas.de) https://www.zerodayinitiative.com/advisories/ZDI-10-183/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-183/",
   "title": "IBM TSM FastBack Server FXCLI_checkIndexDBLocation Remote Code Execution Vulnerability",
   "updated_date": null,

@@ -11,13 +11,13 @@
   "cve": "CVE-2013-4854",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2013-4854",
   "cvss": 7.8,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:N/I:N/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2013-07-15 - Vulnerability reported to vendor",
     "2013-08-13 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-13-210 ZDI-CAN-1911 ISC BIND rdata Denial Of Service Vulnerability 2013-08-13 CVE-2013-4854 https://www.cve.org/CVERecord?id=CVE-2013-4854 7.8 AV:N/AC:L/Au:N/C:N/I:N/A:C ['ISC'] ['BIND'] This vulnerability allows remote attackers to cause a denial of service condition on vulnerable installations of ISC BIND. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of an rdata section with a length that is less than four. The issue lies in the creation of an error message when an invalid message class is specified. An attacker can leverage this vulnerability to crash a remote instance of ISC BIND. ISC has issued an update to correct this vulnerability. More details can be found at: https://kb.isc.org/article/AA-01015/0/CVE-2013-4854%3A-A-specially-crafted-query-can-cause-BIND-to-terminate-abnormally.html ['2013-07-15 - Vulnerability reported to vendor', '2013-08-13 - Coordinated public release of advisory'] Maxim Shudrak https://www.zerodayinitiative.com/advisories/ZDI-13-210/",
+  "search_text": "published ZDI-13-210 ZDI-CAN-1911 ISC BIND rdata Denial Of Service Vulnerability 2013-08-13 CVE-2013-4854 https://www.cve.org/CVERecord?id=CVE-2013-4854 7.8 ['ISC'] ['BIND'] This vulnerability allows remote attackers to cause a denial of service condition on vulnerable installations of ISC BIND. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of an rdata section with a length that is less than four. The issue lies in the creation of an error message when an invalid message class is specified. An attacker can leverage this vulnerability to crash a remote instance of ISC BIND. ISC has issued an update to correct this vulnerability. More details can be found at: https://kb.isc.org/article/AA-01015/0/CVE-2013-4854%3A-A-specially-crafted-query-can-cause-BIND-to-terminate-abnormally.html ['2013-07-15 - Vulnerability reported to vendor', '2013-08-13 - Coordinated public release of advisory'] Maxim Shudrak https://www.zerodayinitiative.com/advisories/ZDI-13-210/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-13-210/",
   "title": "ISC BIND rdata Denial Of Service Vulnerability",
   "updated_date": null,

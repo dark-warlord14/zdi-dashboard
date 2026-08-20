@@ -1,0 +1,28 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-65773",
+  "advisory_date": "2026-08-11",
+  "affected_products": [
+    "Windows"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Angelboy (@scwuaptx) from DEVCORE Research Team and TwinkleStar03 (@_twinklestar03), working with DEVCORE Internship Program",
+  "cve": "CVE-2026-65773",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-65773",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2026-05-21 - Vulnerability reported to vendor",
+    "2026-08-11 - Coordinated public release of advisory",
+    "2026-08-11 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-26-539 ZDI-CAN-31260 (Pwn2Own) Microsoft Windows ipt.sys Incorrect Permission Assignment Local Privilege Escalation Vulnerability 2026-08-11 CVE-2026-65773 https://www.cve.org/CVERecord?id=CVE-2026-65773 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Microsoft'] ['Windows'] This vulnerability allows local attackers to escalate privileges on affected installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the ipt.sys driver. The issue results from incorrect permissions on a registry key. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-65773 ['2026-05-21 - Vulnerability reported to vendor', '2026-08-11 - Coordinated public release of advisory', '2026-08-11 - Advisory Updated'] Angelboy (@scwuaptx) from DEVCORE Research Team and TwinkleStar03 (@_twinklestar03), working with DEVCORE Internship Program https://www.zerodayinitiative.com/advisories/ZDI-26-539/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-539/",
+  "title": "(Pwn2Own) Microsoft Windows ipt.sys Incorrect Permission Assignment Local Privilege Escalation Vulnerability",
+  "updated_date": "2026-08-11",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the ipt.sys driver. The issue results from incorrect permissions on a registry key. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-31260",
+  "zdi_id": "ZDI-26-539"
+}

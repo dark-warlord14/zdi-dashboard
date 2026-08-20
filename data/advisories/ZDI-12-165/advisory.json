@@ -11,13 +11,13 @@
   "cve": null,
   "cve_url": null,
   "cvss": 10.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2011-12-22 - Vulnerability reported to vendor",
     "2012-08-22 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-12-165 ZDI-CAN-1391 (0Day) HP Operations Agent for NonStop Server HEALTH Packet Parsing Remote Code Execution Vulnerability 2012-08-22 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Hewlett-Packard'] ['Operations Agent for NonStop'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of HP Operations Agent for NonStop Server. User interaction is required to exploit this vulnerability in that the target must check the status of an existing node on the network. The specific flaw exists within ELinkService process which listens on TCP ports 7771 and 8976 by default. The process performs insufficient bounds checking on user-supplied data within in a HEALTH packet prior to copying it into a fixed-length buffer on the stack. Remote, unauthenticated attackers can exploit this vulnerability by sending malformed message packets to the target, which could ultimately lead to arbitrary code execution under the context of the SYSTEM user. This vulnerability is being disclosed publicly without a patch in accordance with the ZDI 180 day deadline. ['2011-12-22 - Vulnerability reported to vendor', '2012-08-22 - Coordinated public release of advisory'] e6af8de8b1d4b2b6d5ba2610cbf9cd38 https://www.zerodayinitiative.com/advisories/ZDI-12-165/",
+  "search_text": "published ZDI-12-165 ZDI-CAN-1391 (0Day) HP Operations Agent for NonStop Server HEALTH Packet Parsing Remote Code Execution Vulnerability 2012-08-22 10.0 ['Hewlett-Packard'] ['Operations Agent for NonStop'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of HP Operations Agent for NonStop Server. User interaction is required to exploit this vulnerability in that the target must check the status of an existing node on the network. The specific flaw exists within ELinkService process which listens on TCP ports 7771 and 8976 by default. The process performs insufficient bounds checking on user-supplied data within in a HEALTH packet prior to copying it into a fixed-length buffer on the stack. Remote, unauthenticated attackers can exploit this vulnerability by sending malformed message packets to the target, which could ultimately lead to arbitrary code execution under the context of the SYSTEM user. This vulnerability is being disclosed publicly without a patch in accordance with the ZDI 180 day deadline. ['2011-12-22 - Vulnerability reported to vendor', '2012-08-22 - Coordinated public release of advisory'] e6af8de8b1d4b2b6d5ba2610cbf9cd38 https://www.zerodayinitiative.com/advisories/ZDI-12-165/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-12-165/",
   "title": "(0Day) HP Operations Agent for NonStop Server HEALTH Packet Parsing Remote Code Execution Vulnerability",
   "updated_date": null,

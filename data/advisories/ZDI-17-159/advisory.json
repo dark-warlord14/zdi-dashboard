@@ -11,13 +11,13 @@
   "cve": null,
   "cve_url": null,
   "cvss": 10.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2017-01-05 - Vulnerability reported to vendor",
     "2017-03-09 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-17-159 ZDI-CAN-4418 Trend Micro Deep Discovery Email Inspector download_pdf Command Injection Remote Code Execution Vulnerability 2017-03-09 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Trend Micro'] ['Deep Discovery Email Inspector'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Trend Micro Deep Discovery Email Inspector. Authentication is not required to exploit this vulnerability. The specific flaw exists within download_pdf.php. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code under the context of root. Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/solution/1116750 ['2017-01-05 - Vulnerability reported to vendor', '2017-03-09 - Coordinated public release of advisory'] Nikolay Klendar https://www.zerodayinitiative.com/advisories/ZDI-17-159/",
+  "search_text": "published ZDI-17-159 ZDI-CAN-4418 Trend Micro Deep Discovery Email Inspector download_pdf Command Injection Remote Code Execution Vulnerability 2017-03-09 10.0 ['Trend Micro'] ['Deep Discovery Email Inspector'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Trend Micro Deep Discovery Email Inspector. Authentication is not required to exploit this vulnerability. The specific flaw exists within download_pdf.php. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code under the context of root. Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/solution/1116750 ['2017-01-05 - Vulnerability reported to vendor', '2017-03-09 - Coordinated public release of advisory'] Nikolay Klendar https://www.zerodayinitiative.com/advisories/ZDI-17-159/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-159/",
   "title": "Trend Micro Deep Discovery Email Inspector download_pdf Command Injection Remote Code Execution Vulnerability",
   "updated_date": null,

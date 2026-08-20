@@ -11,13 +11,13 @@
   "cve": "CVE-2010-2753",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2010-2753",
   "cvss": 10.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2010-06-09 - Vulnerability reported to vendor",
     "2010-07-20 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-10-131 ZDI-CAN-755 Mozilla Firefox nsTreeSelection Dangling Pointer Remote Code Execution Vulnerability 2010-07-20 CVE-2010-2753 https://www.cve.org/CVERecord?id=CVE-2010-2753 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Mozilla Firefox'] ['3.6.x'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Mozilla Firefox. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the implementation of XUL <tree> element's \"selection\" attribute. There is an integer overflow when calculating the bounds of a new selection range. When calling adjustSelection on this manged range both ranges are deleted leaving a dangling reference. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the browser. Mozilla Firefox has issued an update to correct this vulnerability. More details can be found at: http://www.mozilla.org/security/announce/2010/mfsa2010-40.html ['2010-06-09 - Vulnerability reported to vendor', '2010-07-20 - Coordinated public release of advisory'] regenrecht https://www.zerodayinitiative.com/advisories/ZDI-10-131/",
+  "search_text": "published ZDI-10-131 ZDI-CAN-755 Mozilla Firefox nsTreeSelection Dangling Pointer Remote Code Execution Vulnerability 2010-07-20 CVE-2010-2753 https://www.cve.org/CVERecord?id=CVE-2010-2753 10.0 ['Mozilla Firefox'] ['3.6.x'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Mozilla Firefox. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the implementation of XUL <tree> element's \"selection\" attribute. There is an integer overflow when calculating the bounds of a new selection range. When calling adjustSelection on this manged range both ranges are deleted leaving a dangling reference. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the browser. Mozilla Firefox has issued an update to correct this vulnerability. More details can be found at: http://www.mozilla.org/security/announce/2010/mfsa2010-40.html ['2010-06-09 - Vulnerability reported to vendor', '2010-07-20 - Coordinated public release of advisory'] regenrecht https://www.zerodayinitiative.com/advisories/ZDI-10-131/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-131/",
   "title": "Mozilla Firefox nsTreeSelection Dangling Pointer Remote Code Execution Vulnerability",
   "updated_date": null,

@@ -11,13 +11,13 @@
   "cve": "CVE-2013-0755",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2013-0755",
   "cvss": 7.5,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2012-11-21 - Vulnerability reported to vendor",
     "2013-03-22 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-13-038 ZDI-CAN-1589 Mozilla Firefox mozVibrate Use-After-Free Remote Code Execution Vulnerability 2013-03-22 CVE-2013-0755 https://www.cve.org/CVERecord?id=CVE-2013-0755 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Mozilla'] ['Firefox'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Mozilla Firefox. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the construction of VibrateWindowListener objects. A dangling pointer can be created that will then be sent to the VibrateWindowListener constructor. By abusing this behavior an attacker can ensure this memory is under control and leverage the situation to achieve remote code execution under the context of the user running the browser. Mozilla has issued an update to correct this vulnerability. More details can be found at: https://www.mozilla.org/security/announce/2013/mfsa2013-18.html ['2012-11-21 - Vulnerability reported to vendor', '2013-03-22 - Coordinated public release of advisory'] regenrecht https://www.zerodayinitiative.com/advisories/ZDI-13-038/",
+  "search_text": "published ZDI-13-038 ZDI-CAN-1589 Mozilla Firefox mozVibrate Use-After-Free Remote Code Execution Vulnerability 2013-03-22 CVE-2013-0755 https://www.cve.org/CVERecord?id=CVE-2013-0755 7.5 ['Mozilla'] ['Firefox'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Mozilla Firefox. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the construction of VibrateWindowListener objects. A dangling pointer can be created that will then be sent to the VibrateWindowListener constructor. By abusing this behavior an attacker can ensure this memory is under control and leverage the situation to achieve remote code execution under the context of the user running the browser. Mozilla has issued an update to correct this vulnerability. More details can be found at: https://www.mozilla.org/security/announce/2013/mfsa2013-18.html ['2012-11-21 - Vulnerability reported to vendor', '2013-03-22 - Coordinated public release of advisory'] regenrecht https://www.zerodayinitiative.com/advisories/ZDI-13-038/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-13-038/",
   "title": "Mozilla Firefox mozVibrate Use-After-Free Remote Code Execution Vulnerability",
   "updated_date": null,

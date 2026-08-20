@@ -11,13 +11,13 @@
   "cve": "CVE-2013-1081",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2013-1081",
   "cvss": 7.5,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2013-02-22 - Vulnerability reported to vendor",
     "2013-05-29 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-13-087 ZDI-CAN-1763 Novell ZENworks Mobile Management MDM.php Remote Code Execution Vulnerability 2013-05-29 CVE-2013-1081 https://www.cve.org/CVERecord?id=CVE-2013-1081 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Novell'] ['ZENworks Mobile Management'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Novell ZENworks Mobile Management. Authentication is not required to exploit this vulnerability. The specific flaw exists within MDM.php, which receives a 'language' variable which later is used to include arbitrary resources from the local filesystem via require_once(). A remote attacker can abuse this to execute remote code under the context of the process running. Novell has issued an update to correct this vulnerability. More details can be found at: http://www.novell.com/support/kb/doc.php?id=7011895 ['2013-02-22 - Vulnerability reported to vendor', '2013-05-29 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-13-087/",
+  "search_text": "published ZDI-13-087 ZDI-CAN-1763 Novell ZENworks Mobile Management MDM.php Remote Code Execution Vulnerability 2013-05-29 CVE-2013-1081 https://www.cve.org/CVERecord?id=CVE-2013-1081 7.5 ['Novell'] ['ZENworks Mobile Management'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Novell ZENworks Mobile Management. Authentication is not required to exploit this vulnerability. The specific flaw exists within MDM.php, which receives a 'language' variable which later is used to include arbitrary resources from the local filesystem via require_once(). A remote attacker can abuse this to execute remote code under the context of the process running. Novell has issued an update to correct this vulnerability. More details can be found at: http://www.novell.com/support/kb/doc.php?id=7011895 ['2013-02-22 - Vulnerability reported to vendor', '2013-05-29 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-13-087/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-13-087/",
   "title": "Novell ZENworks Mobile Management MDM.php Remote Code Execution Vulnerability",
   "updated_date": null,

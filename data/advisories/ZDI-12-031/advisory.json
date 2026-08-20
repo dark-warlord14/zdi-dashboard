@@ -11,13 +11,13 @@
   "cve": "CVE-2011-4194",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-4194",
   "cvss": 9.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2011-10-21 - Vulnerability reported to vendor",
     "2012-02-08 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-12-031 ZDI-CAN-1354 Novell iPrint Server attributes-natural-language Remote Code Execution Vulnerability 2012-02-08 CVE-2011-4194 https://www.cve.org/CVERecord?id=CVE-2011-4194 9.0 AV:N/AC:L/Au:N/C:P/I:P/A:C ['Novell'] ['iPrint'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Novell iPrint Server. Authentication is not required to exploit this vulnerability. The flaw exists within the mod_ipp apache module component of the iprint-server, which listens by default on 631/tcp. During the handling of get-printer-attributes requests containing a attributes-natural-language attribute cause a validation routine to be hit. When validating this parameter the contents of the attribute are copied, without validation, to a fixed length buffer on the stack. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the process. Novell has issued an update to correct this vulnerability. More details can be found at: http://www.novell.com/support/viewContent.do?externalId=7010084 ['2011-10-21 - Vulnerability reported to vendor', '2012-02-08 - Coordinated public release of advisory'] G. Geshev https://www.zerodayinitiative.com/advisories/ZDI-12-031/",
+  "search_text": "published ZDI-12-031 ZDI-CAN-1354 Novell iPrint Server attributes-natural-language Remote Code Execution Vulnerability 2012-02-08 CVE-2011-4194 https://www.cve.org/CVERecord?id=CVE-2011-4194 9.0 ['Novell'] ['iPrint'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Novell iPrint Server. Authentication is not required to exploit this vulnerability. The flaw exists within the mod_ipp apache module component of the iprint-server, which listens by default on 631/tcp. During the handling of get-printer-attributes requests containing a attributes-natural-language attribute cause a validation routine to be hit. When validating this parameter the contents of the attribute are copied, without validation, to a fixed length buffer on the stack. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the process. Novell has issued an update to correct this vulnerability. More details can be found at: http://www.novell.com/support/viewContent.do?externalId=7010084 ['2011-10-21 - Vulnerability reported to vendor', '2012-02-08 - Coordinated public release of advisory'] G. Geshev https://www.zerodayinitiative.com/advisories/ZDI-12-031/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-12-031/",
   "title": "Novell iPrint Server attributes-natural-language Remote Code Execution Vulnerability",
   "updated_date": null,

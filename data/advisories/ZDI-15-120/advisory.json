@@ -11,13 +11,13 @@
   "cve": "CVE-2015-1000",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-1000",
   "cvss": 7.5,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2015-02-05 - Vulnerability reported to vendor",
     "2015-04-08 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-15-120 ZDI-CAN-2519 Moxa SoftCMS SStreamVideo Activex Control OpenForIPCamTest Method Stack Buffer Overflow Vulnerability 2015-04-08 CVE-2015-1000 https://www.cve.org/CVERecord?id=CVE-2015-1000 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Moxa'] ['SoftCMS'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Moxa SoftCMS. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the RTSPVIDEO.rtspvideoCtrl.1 ActiveX control. By passing an overly long string to the OpenForIPCamTest method's StrRtspPath parameter, an attacker can overflow a buffer on the stack. This vulnerability could be used to execute arbitrary code in the context of the browser. Moxa has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-15-097-01 ['2015-02-05 - Vulnerability reported to vendor', '2015-04-08 - Coordinated public release of advisory'] Ariele Caltabiano (kimiya) https://www.zerodayinitiative.com/advisories/ZDI-15-120/",
+  "search_text": "published ZDI-15-120 ZDI-CAN-2519 Moxa SoftCMS SStreamVideo Activex Control OpenForIPCamTest Method Stack Buffer Overflow Vulnerability 2015-04-08 CVE-2015-1000 https://www.cve.org/CVERecord?id=CVE-2015-1000 7.5 ['Moxa'] ['SoftCMS'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Moxa SoftCMS. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the RTSPVIDEO.rtspvideoCtrl.1 ActiveX control. By passing an overly long string to the OpenForIPCamTest method's StrRtspPath parameter, an attacker can overflow a buffer on the stack. This vulnerability could be used to execute arbitrary code in the context of the browser. Moxa has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-15-097-01 ['2015-02-05 - Vulnerability reported to vendor', '2015-04-08 - Coordinated public release of advisory'] Ariele Caltabiano (kimiya) https://www.zerodayinitiative.com/advisories/ZDI-15-120/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-120/",
   "title": "Moxa SoftCMS SStreamVideo Activex Control OpenForIPCamTest Method Stack Buffer Overflow Vulnerability",
   "updated_date": null,

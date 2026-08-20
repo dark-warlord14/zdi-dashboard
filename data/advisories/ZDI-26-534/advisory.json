@@ -1,0 +1,28 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62911",
+  "advisory_date": "2026-08-11",
+  "affected_products": [
+    "Exchange"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Orange Tsai (@orange_8361) from DEVCORE Research Team",
+  "cve": "CVE-2026-62911",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-62911",
+  "cvss": 8.1,
+  "cvss_vector": "AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2026-05-21 - Vulnerability reported to vendor",
+    "2026-08-11 - Coordinated public release of advisory",
+    "2026-08-11 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-26-534 ZDI-CAN-31262 (Pwn2Own) Microsoft Exchange Capture-Replay Authentication Bypass Vulnerability 2026-08-11 CVE-2026-62911 https://www.cve.org/CVERecord?id=CVE-2026-62911 8.1 AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H ['Microsoft'] ['Exchange'] This vulnerability allows remote attackers to bypass authentication on affected installations of Microsoft Exchange. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of authentication requests. The issue results from using an alternative, weak authentication path. An attacker can leverage this vulnerability to bypass authentication on the system. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62911 ['2026-05-21 - Vulnerability reported to vendor', '2026-08-11 - Coordinated public release of advisory', '2026-08-11 - Advisory Updated'] Orange Tsai (@orange_8361) from DEVCORE Research Team https://www.zerodayinitiative.com/advisories/ZDI-26-534/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-534/",
+  "title": "(Pwn2Own) Microsoft Exchange Capture-Replay Authentication Bypass Vulnerability",
+  "updated_date": "2026-08-11",
+  "vulnerability_details": "This vulnerability allows remote attackers to bypass authentication on affected installations of Microsoft Exchange. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of authentication requests. The issue results from using an alternative, weak authentication path. An attacker can leverage this vulnerability to bypass authentication on the system.",
+  "zdi_can": "ZDI-CAN-31262",
+  "zdi_id": "ZDI-26-534"
+}

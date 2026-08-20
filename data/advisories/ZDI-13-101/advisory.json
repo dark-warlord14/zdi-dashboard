@@ -11,13 +11,13 @@
   "cve": "CVE-2012-5947",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2012-5947",
   "cvss": 7.5,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2012-11-21 - Vulnerability reported to vendor",
     "2013-05-29 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-13-101 ZDI-CAN-1546 IBM SPSS SamplePower Vsflex7l.ocx ActiveX ComboList Remote Code Execution Vulnerability 2013-05-29 CVE-2012-5947 https://www.cve.org/CVERecord?id=CVE-2012-5947 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['IBM'] ['SPSS'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of IBM SPSS SamplePower. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the Vsflex7l.ocx ActiveX Control. This component performs insufficient bounds checking on user-supplied data passed into the ComboList or ColComboList methods which results in memory corruption. This vulnerability can be leveraged by an attacker to execute code under the context of the user. IBM has issued an update to correct this vulnerability. More details can be found at: http://www.ibm.com/support/docview.wss?uid=swg21635511 ['2012-11-21 - Vulnerability reported to vendor', '2013-05-29 - Coordinated public release of advisory'] Alexander Gavrun https://www.zerodayinitiative.com/advisories/ZDI-13-101/",
+  "search_text": "published ZDI-13-101 ZDI-CAN-1546 IBM SPSS SamplePower Vsflex7l.ocx ActiveX ComboList Remote Code Execution Vulnerability 2013-05-29 CVE-2012-5947 https://www.cve.org/CVERecord?id=CVE-2012-5947 7.5 ['IBM'] ['SPSS'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of IBM SPSS SamplePower. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the Vsflex7l.ocx ActiveX Control. This component performs insufficient bounds checking on user-supplied data passed into the ComboList or ColComboList methods which results in memory corruption. This vulnerability can be leveraged by an attacker to execute code under the context of the user. IBM has issued an update to correct this vulnerability. More details can be found at: http://www.ibm.com/support/docview.wss?uid=swg21635511 ['2012-11-21 - Vulnerability reported to vendor', '2013-05-29 - Coordinated public release of advisory'] Alexander Gavrun https://www.zerodayinitiative.com/advisories/ZDI-13-101/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-13-101/",
   "title": "IBM SPSS SamplePower Vsflex7l.ocx ActiveX ComboList Remote Code Execution Vulnerability",
   "updated_date": null,

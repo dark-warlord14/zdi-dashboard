@@ -11,13 +11,13 @@
   "cve": "CVE-2015-3072",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-3072",
   "cvss": 6.8,
-  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2014-12-23 - Vulnerability reported to vendor",
     "2015-05-12 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-15-196 ZDI-CAN-2664 Adobe Acrobat Reader ADBCAnnotEnumerator Javascript API Restrictions Bypass Vulnerability 2015-05-12 CVE-2015-3072 https://www.cve.org/CVERecord?id=CVE-2015-3072 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Adobe'] ['Reader'] This vulnerability allows remote attackers to bypass API restrictions on vulnerable installations of Adobe Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within ADBCAnnotEnumerator. By creating a specially crafted PDF with specific JavaScript instructions, it is possible to bypass the Javascript API restrictions. A remote attacker could exploit this vulnerability to execute arbitrary code. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/reader/apsb15-10.html ['2014-12-23 - Vulnerability reported to vendor', '2015-05-12 - Coordinated public release of advisory'] AbdulAziz Hariri - HP Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-15-196/",
+  "search_text": "published ZDI-15-196 ZDI-CAN-2664 Adobe Acrobat Reader ADBCAnnotEnumerator Javascript API Restrictions Bypass Vulnerability 2015-05-12 CVE-2015-3072 https://www.cve.org/CVERecord?id=CVE-2015-3072 6.8 ['Adobe'] ['Reader'] This vulnerability allows remote attackers to bypass API restrictions on vulnerable installations of Adobe Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within ADBCAnnotEnumerator. By creating a specially crafted PDF with specific JavaScript instructions, it is possible to bypass the Javascript API restrictions. A remote attacker could exploit this vulnerability to execute arbitrary code. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/reader/apsb15-10.html ['2014-12-23 - Vulnerability reported to vendor', '2015-05-12 - Coordinated public release of advisory'] AbdulAziz Hariri - HP Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-15-196/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-196/",
   "title": "Adobe Acrobat Reader ADBCAnnotEnumerator Javascript API Restrictions Bypass Vulnerability",
   "updated_date": null,

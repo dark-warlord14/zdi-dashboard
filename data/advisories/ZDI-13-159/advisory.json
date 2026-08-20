@@ -11,13 +11,13 @@
   "cve": "CVE-2013-2455",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2013-2455",
   "cvss": 5.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2013-02-22 - Vulnerability reported to vendor",
     "2013-06-27 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-13-159 ZDI-CAN-1729 Oracle Java ManagedObjectManagerFactory Security Manager Bypass Remote Code Execution Vulnerabillity 2013-06-27 CVE-2013-2455 https://www.cve.org/CVERecord?id=CVE-2013-2455 5.0 AV:N/AC:L/Au:N/C:P/I:N/A:N ['Oracle'] ['Java Runtime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Oracle Java. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the com.sun.org.glassfish.gmbal.ManagedObjectManagerFactor class. The issue lies in the failure to validate permission to access a method during method call. This allows access to methods in classes that would otherwise not be reachable. An attacker can leverage this vulnerability to execute code under the context of the current process. Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/javacpujun2013-1899847.html ['2013-02-22 - Vulnerability reported to vendor', '2013-06-27 - Coordinated public release of advisory'] Ben Murphy https://www.zerodayinitiative.com/advisories/ZDI-13-159/",
+  "search_text": "published ZDI-13-159 ZDI-CAN-1729 Oracle Java ManagedObjectManagerFactory Security Manager Bypass Remote Code Execution Vulnerabillity 2013-06-27 CVE-2013-2455 https://www.cve.org/CVERecord?id=CVE-2013-2455 5.0 ['Oracle'] ['Java Runtime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Oracle Java. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the com.sun.org.glassfish.gmbal.ManagedObjectManagerFactor class. The issue lies in the failure to validate permission to access a method during method call. This allows access to methods in classes that would otherwise not be reachable. An attacker can leverage this vulnerability to execute code under the context of the current process. Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/javacpujun2013-1899847.html ['2013-02-22 - Vulnerability reported to vendor', '2013-06-27 - Coordinated public release of advisory'] Ben Murphy https://www.zerodayinitiative.com/advisories/ZDI-13-159/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-13-159/",
   "title": "Oracle Java ManagedObjectManagerFactory Security Manager Bypass Remote Code Execution Vulnerabillity",
   "updated_date": null,

@@ -11,13 +11,13 @@
   "cve": "CVE-2011-1256",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-1256",
   "cvss": 7.5,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2011-02-28 - Vulnerability reported to vendor",
     "2011-06-14 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-11-193 ZDI-CAN-1020 Microsoft Internet Explorer DOM Modification Race Remote Code Execution Vulnerability 2011-06-14 CVE-2011-1256 https://www.cve.org/CVERecord?id=CVE-2011-1256 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Microsoft'] ['Internet Explorer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within how the application handles multiple javascript modifications to the document. In certain instances the application will free an object due to a modification and then later access it again when attempting to destroy it. This re-use can lead to code execution under the context of the application. Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/Bulletin/MS11-050.mspx ['2011-02-28 - Vulnerability reported to vendor', '2011-06-14 - Coordinated public release of advisory'] Damian Put https://www.zerodayinitiative.com/advisories/ZDI-11-193/",
+  "search_text": "published ZDI-11-193 ZDI-CAN-1020 Microsoft Internet Explorer DOM Modification Race Remote Code Execution Vulnerability 2011-06-14 CVE-2011-1256 https://www.cve.org/CVERecord?id=CVE-2011-1256 7.5 ['Microsoft'] ['Internet Explorer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within how the application handles multiple javascript modifications to the document. In certain instances the application will free an object due to a modification and then later access it again when attempting to destroy it. This re-use can lead to code execution under the context of the application. Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/Bulletin/MS11-050.mspx ['2011-02-28 - Vulnerability reported to vendor', '2011-06-14 - Coordinated public release of advisory'] Damian Put https://www.zerodayinitiative.com/advisories/ZDI-11-193/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-193/",
   "title": "Microsoft Internet Explorer DOM Modification Race Remote Code Execution Vulnerability",
   "updated_date": null,

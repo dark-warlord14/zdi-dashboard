@@ -11,13 +11,13 @@
   "cve": "CVE-2014-3789",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-3789",
   "cvss": 7.5,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2014-04-07 - Vulnerability reported to vendor",
     "2014-05-19 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-14-136 ZDI-CAN-2160 Cogent DataHub Command Injection Remote Code Execution Vulnerability 2014-05-19 CVE-2014-3789 https://www.cve.org/CVERecord?id=CVE-2014-3789 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Cogent Real-Time Systems'] ['Cogent Datahub'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Cogent DataHub. Authentication is not required to exploit this vulnerability. The specific flaw exists within the GetPermissions.asp component of the web server. This active server page is vulnerable to command injection which allows an attacker to execute arbitrary code in the context of the DataHub process. Cogent Real-Time Systems has issued an update to correct this vulnerability. More details can be found at: http://cogentdatahub.com/ReleaseNotes.html ['2014-04-07 - Vulnerability reported to vendor', '2014-05-19 - Coordinated public release of advisory'] John Leitch https://www.zerodayinitiative.com/advisories/ZDI-14-136/",
+  "search_text": "published ZDI-14-136 ZDI-CAN-2160 Cogent DataHub Command Injection Remote Code Execution Vulnerability 2014-05-19 CVE-2014-3789 https://www.cve.org/CVERecord?id=CVE-2014-3789 7.5 ['Cogent Real-Time Systems'] ['Cogent Datahub'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Cogent DataHub. Authentication is not required to exploit this vulnerability. The specific flaw exists within the GetPermissions.asp component of the web server. This active server page is vulnerable to command injection which allows an attacker to execute arbitrary code in the context of the DataHub process. Cogent Real-Time Systems has issued an update to correct this vulnerability. More details can be found at: http://cogentdatahub.com/ReleaseNotes.html ['2014-04-07 - Vulnerability reported to vendor', '2014-05-19 - Coordinated public release of advisory'] John Leitch https://www.zerodayinitiative.com/advisories/ZDI-14-136/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-14-136/",
   "title": "Cogent DataHub Command Injection Remote Code Execution Vulnerability",
   "updated_date": null,

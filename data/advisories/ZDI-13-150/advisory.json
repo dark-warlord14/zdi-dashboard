@@ -11,13 +11,13 @@
   "cve": "CVE-2013-0975",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2013-0975",
   "cvss": 5.1,
-  "cvss_vector": "AV:N/AC:H/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2012-11-19 - Vulnerability reported to vendor",
     "2013-06-27 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-13-150 ZDI-CAN-1620 Apple QuickTime PICT Image LongComment Opcode Remote Code Execution Vulnerability 2013-06-27 CVE-2013-0975 https://www.cve.org/CVERecord?id=CVE-2013-0975 5.1 AV:N/AC:H/Au:N/C:P/I:P/A:P ['Apple'] ['QuickTime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple QuickTime. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the way QuickTime handles the LongComment PICT opcode. It converts an unsigned 16 bit value into a signed 32 bit value after it performs some mathematical operations on it. This value is later used as a size parameter for a memory copy function that copies from the file onto the heap. An attacker can leverage the situation to achieve remote code execution under the context of the user currently logged in. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT1222 ['2012-11-19 - Vulnerability reported to vendor', '2013-06-27 - Coordinated public release of advisory'] Tobias Klein https://www.zerodayinitiative.com/advisories/ZDI-13-150/",
+  "search_text": "published ZDI-13-150 ZDI-CAN-1620 Apple QuickTime PICT Image LongComment Opcode Remote Code Execution Vulnerability 2013-06-27 CVE-2013-0975 https://www.cve.org/CVERecord?id=CVE-2013-0975 5.1 ['Apple'] ['QuickTime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple QuickTime. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the way QuickTime handles the LongComment PICT opcode. It converts an unsigned 16 bit value into a signed 32 bit value after it performs some mathematical operations on it. This value is later used as a size parameter for a memory copy function that copies from the file onto the heap. An attacker can leverage the situation to achieve remote code execution under the context of the user currently logged in. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT1222 ['2012-11-19 - Vulnerability reported to vendor', '2013-06-27 - Coordinated public release of advisory'] Tobias Klein https://www.zerodayinitiative.com/advisories/ZDI-13-150/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-13-150/",
   "title": "Apple QuickTime PICT Image LongComment Opcode Remote Code Execution Vulnerability",
   "updated_date": null,

@@ -11,13 +11,13 @@
   "cve": "CVE-2010-0620",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2010-0620",
   "cvss": 10.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2009-12-10 - Vulnerability reported to vendor",
     "2010-02-23 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-10-020 ZDI-CAN-644 EMC HomeBase SSL Service Arbitrary File Upload Remote Code Execution Vulnerability 2010-02-23 CVE-2010-0620 https://www.cve.org/CVERecord?id=CVE-2010-0620 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['EMC'] ['HomeBase Server'] This vulnerability allows remote attackers to upload arbitrary files on vulnerable installations of EMC HomeBase Server. Authentication is not required to exploit this vulnerability. The specific flaw exists within the HomeBase SSL Service due to a failure to sanitize '../' directory traversal modifiers from a parameter. This will allow a user to specify any filename to upload arbitrary contents into. Successful exploitation can result in code execution under the context of the service. EMC has released a Security Advisory (ESA-2010-003) identifier to customers through Powerlink. ['2009-12-10 - Vulnerability reported to vendor', '2010-02-23 - Coordinated public release of advisory'] Stephen Fewer of Harmony Security (www.harmonysecurity.com) https://www.zerodayinitiative.com/advisories/ZDI-10-020/",
+  "search_text": "published ZDI-10-020 ZDI-CAN-644 EMC HomeBase SSL Service Arbitrary File Upload Remote Code Execution Vulnerability 2010-02-23 CVE-2010-0620 https://www.cve.org/CVERecord?id=CVE-2010-0620 10.0 ['EMC'] ['HomeBase Server'] This vulnerability allows remote attackers to upload arbitrary files on vulnerable installations of EMC HomeBase Server. Authentication is not required to exploit this vulnerability. The specific flaw exists within the HomeBase SSL Service due to a failure to sanitize '../' directory traversal modifiers from a parameter. This will allow a user to specify any filename to upload arbitrary contents into. Successful exploitation can result in code execution under the context of the service. EMC has released a Security Advisory (ESA-2010-003) identifier to customers through Powerlink. ['2009-12-10 - Vulnerability reported to vendor', '2010-02-23 - Coordinated public release of advisory'] Stephen Fewer of Harmony Security (www.harmonysecurity.com) https://www.zerodayinitiative.com/advisories/ZDI-10-020/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-020/",
   "title": "EMC HomeBase SSL Service Arbitrary File Upload Remote Code Execution Vulnerability",
   "updated_date": null,

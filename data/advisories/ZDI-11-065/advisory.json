@@ -11,13 +11,13 @@
   "cve": "CVE-2011-0567",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-0567",
   "cvss": 10.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2010-06-30 - Vulnerability reported to vendor",
     "2011-02-08 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-11-065 ZDI-CAN-842 Adobe Reader Controlled memset Remote Code Execution Vulnerability 2011-02-08 CVE-2011-0567 https://www.cve.org/CVERecord?id=CVE-2011-0567 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Adobe'] ['Reader'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Adobe Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within AcroRd32.dll. Initially, a pointer passed to memset can be miscalculated and the resulting copy operation corrupts heap memory. Later, the application attempts to use the modified data which can be leveraged to execute arbitrary code under the context of the user invoking the Reader application. Adobe has issued an update to correct this vulnerability. More details can be found at: http://www.adobe.com/support/security/bulletins/apsb11-03.html ['2010-06-30 - Vulnerability reported to vendor', '2011-02-08 - Coordinated public release of advisory'] Abdullah Ada https://www.zerodayinitiative.com/advisories/ZDI-11-065/",
+  "search_text": "published ZDI-11-065 ZDI-CAN-842 Adobe Reader Controlled memset Remote Code Execution Vulnerability 2011-02-08 CVE-2011-0567 https://www.cve.org/CVERecord?id=CVE-2011-0567 10.0 ['Adobe'] ['Reader'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Adobe Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within AcroRd32.dll. Initially, a pointer passed to memset can be miscalculated and the resulting copy operation corrupts heap memory. Later, the application attempts to use the modified data which can be leveraged to execute arbitrary code under the context of the user invoking the Reader application. Adobe has issued an update to correct this vulnerability. More details can be found at: http://www.adobe.com/support/security/bulletins/apsb11-03.html ['2010-06-30 - Vulnerability reported to vendor', '2011-02-08 - Coordinated public release of advisory'] Abdullah Ada https://www.zerodayinitiative.com/advisories/ZDI-11-065/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-065/",
   "title": "Adobe Reader Controlled memset Remote Code Execution Vulnerability",
   "updated_date": null,

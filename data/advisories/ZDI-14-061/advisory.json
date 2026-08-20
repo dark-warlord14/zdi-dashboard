@@ -11,13 +11,13 @@
   "cve": "CVE-2014-0274",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-0274",
   "cvss": 6.8,
-  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2014-02-04 - Vulnerability reported to vendor",
     "2014-04-08 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-14-061 ZDI-CAN-2074 Microsoft Internet Explorer CDomRange Use-After-Free Remote Code Execution Vulnerability 2014-04-08 CVE-2014-0274 https://www.cve.org/CVERecord?id=CVE-2014-0274 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Microsoft'] ['Internet Explorer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of CDomRange objects. By manipulating a document's elements an attacker can force a dangling pointer to be reused after it has been freed. An attacker can leverage this vulnerability to execute code under the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: http://go.microsoft.com/fwlink/?LinkID=390977 ['2014-02-04 - Vulnerability reported to vendor', '2014-04-08 - Coordinated public release of advisory'] Arthur Gerkis https://www.zerodayinitiative.com/advisories/ZDI-14-061/",
+  "search_text": "published ZDI-14-061 ZDI-CAN-2074 Microsoft Internet Explorer CDomRange Use-After-Free Remote Code Execution Vulnerability 2014-04-08 CVE-2014-0274 https://www.cve.org/CVERecord?id=CVE-2014-0274 6.8 ['Microsoft'] ['Internet Explorer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of CDomRange objects. By manipulating a document's elements an attacker can force a dangling pointer to be reused after it has been freed. An attacker can leverage this vulnerability to execute code under the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: http://go.microsoft.com/fwlink/?LinkID=390977 ['2014-02-04 - Vulnerability reported to vendor', '2014-04-08 - Coordinated public release of advisory'] Arthur Gerkis https://www.zerodayinitiative.com/advisories/ZDI-14-061/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-14-061/",
   "title": "Microsoft Internet Explorer CDomRange Use-After-Free Remote Code Execution Vulnerability",
   "updated_date": null,

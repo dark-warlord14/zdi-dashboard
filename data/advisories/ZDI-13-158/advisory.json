@@ -11,13 +11,13 @@
   "cve": "CVE-2013-2470",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2013-2470",
   "cvss": 10.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2013-03-29 - Vulnerability reported to vendor",
     "2013-06-27 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-13-158 ZDI-CAN-1820 Oracle Java AWT Memory Corruption Remote Code Execution Vulnerability 2013-06-27 CVE-2013-2470 https://www.cve.org/CVERecord?id=CVE-2013-2470 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Oracle'] ['Java Runtime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Oracle Java. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific vulnerability is an array indexing flaw inside the Java AWT imaging library allowing for memory corruption. An attacker could leverage this vulnerability into remote execution of arbitrary code as the current user. Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/javacpujun2013-1899847.html ['2013-03-29 - Vulnerability reported to vendor', '2013-06-27 - Coordinated public release of advisory'] Vitaliy Toropov https://www.zerodayinitiative.com/advisories/ZDI-13-158/",
+  "search_text": "published ZDI-13-158 ZDI-CAN-1820 Oracle Java AWT Memory Corruption Remote Code Execution Vulnerability 2013-06-27 CVE-2013-2470 https://www.cve.org/CVERecord?id=CVE-2013-2470 10.0 ['Oracle'] ['Java Runtime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Oracle Java. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific vulnerability is an array indexing flaw inside the Java AWT imaging library allowing for memory corruption. An attacker could leverage this vulnerability into remote execution of arbitrary code as the current user. Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/javacpujun2013-1899847.html ['2013-03-29 - Vulnerability reported to vendor', '2013-06-27 - Coordinated public release of advisory'] Vitaliy Toropov https://www.zerodayinitiative.com/advisories/ZDI-13-158/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-13-158/",
   "title": "Oracle Java AWT Memory Corruption Remote Code Execution Vulnerability",
   "updated_date": null,

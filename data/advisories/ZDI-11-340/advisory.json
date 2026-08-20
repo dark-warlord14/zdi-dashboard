@@ -11,13 +11,13 @@
   "cve": "CVE-2011-3248",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-3248",
   "cvss": 7.5,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2011-07-20 - Vulnerability reported to vendor",
     "2011-12-07 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-11-340 ZDI-CAN-1302 Apple Quicktime Font Table Signed Length Remote Code Execution Vulnerability 2011-12-07 CVE-2011-3248 https://www.cve.org/CVERecord?id=CVE-2011-3248 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Apple'] ['Quicktime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple Quicktime. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within how the application parses font names embedded within an atom. When parsing the font name, the application will treat a length from the file as a signed value when copying font data into a buffer. Due to an unsigned promotion, this can be used to write outside the bounds of a buffer which can lead to code execution under the context of the application. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT5016 ['2011-07-20 - Vulnerability reported to vendor', '2011-12-07 - Coordinated public release of advisory'] Luigi Auriemma https://www.zerodayinitiative.com/advisories/ZDI-11-340/",
+  "search_text": "published ZDI-11-340 ZDI-CAN-1302 Apple Quicktime Font Table Signed Length Remote Code Execution Vulnerability 2011-12-07 CVE-2011-3248 https://www.cve.org/CVERecord?id=CVE-2011-3248 7.5 ['Apple'] ['Quicktime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple Quicktime. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within how the application parses font names embedded within an atom. When parsing the font name, the application will treat a length from the file as a signed value when copying font data into a buffer. Due to an unsigned promotion, this can be used to write outside the bounds of a buffer which can lead to code execution under the context of the application. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT5016 ['2011-07-20 - Vulnerability reported to vendor', '2011-12-07 - Coordinated public release of advisory'] Luigi Auriemma https://www.zerodayinitiative.com/advisories/ZDI-11-340/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-340/",
   "title": "Apple Quicktime Font Table Signed Length Remote Code Execution Vulnerability",
   "updated_date": null,

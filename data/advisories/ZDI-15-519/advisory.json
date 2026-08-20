@@ -11,13 +11,13 @@
   "cve": "CVE-2015-2557",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-2557",
   "cvss": 6.8,
-  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2015-08-03 - Vulnerability reported to vendor",
     "2015-10-13 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-15-519 ZDI-CAN-3096 Microsoft Office Visio UML Remote Code Execution Vulnerability 2015-10-13 CVE-2015-2557 https://www.cve.org/CVERecord?id=CVE-2015-2557 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Microsoft'] ['Office Visio'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Office Visio. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within UML parsing. By providing a malformed Visio file, an attacker is able to cause data to be written outside of a normal buffer. An attacker could use this to execute arbitrary code under the context of the Visio process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/en-us/library/security/ms15-110 ['2015-08-03 - Vulnerability reported to vendor', '2015-10-13 - Coordinated public release of advisory'] kdot https://www.zerodayinitiative.com/advisories/ZDI-15-519/",
+  "search_text": "published ZDI-15-519 ZDI-CAN-3096 Microsoft Office Visio UML Remote Code Execution Vulnerability 2015-10-13 CVE-2015-2557 https://www.cve.org/CVERecord?id=CVE-2015-2557 6.8 ['Microsoft'] ['Office Visio'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Office Visio. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within UML parsing. By providing a malformed Visio file, an attacker is able to cause data to be written outside of a normal buffer. An attacker could use this to execute arbitrary code under the context of the Visio process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/en-us/library/security/ms15-110 ['2015-08-03 - Vulnerability reported to vendor', '2015-10-13 - Coordinated public release of advisory'] kdot https://www.zerodayinitiative.com/advisories/ZDI-15-519/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-519/",
   "title": "Microsoft Office Visio UML Remote Code Execution Vulnerability",
   "updated_date": null,

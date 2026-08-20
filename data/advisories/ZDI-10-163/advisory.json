@@ -11,13 +11,13 @@
   "cve": "CVE-2010-2874",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2010-2874",
   "cvss": 10.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2010-06-30 - Vulnerability reported to vendor",
     "2010-08-24 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-10-163 ZDI-CAN-840 Adobe Shockwave Director tSAC Chunk Parsing Remote Code Execution Vulnerability 2010-08-24 CVE-2010-2874 https://www.cve.org/CVERecord?id=CVE-2010-2874 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Adobe'] ['Shockwave Player'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of the Adobe Shockwave Player. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of the undocumented tSAC RIFF chunk. By setting a specified field within this structure to NULL, the application fails to initialize an object pointer. This uninitialized pointer is later called which causes the application to jump into random heap memory. By crafting the applications memory state an attacker can utilize this issue to execute arbitrary code under the context of the user running the browser. Adobe has issued an update to correct this vulnerability. More details can be found at: http://www.adobe.com/support/security/bulletins/apsb10-20.html ['2010-06-30 - Vulnerability reported to vendor', '2010-08-24 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-10-163/",
+  "search_text": "published ZDI-10-163 ZDI-CAN-840 Adobe Shockwave Director tSAC Chunk Parsing Remote Code Execution Vulnerability 2010-08-24 CVE-2010-2874 https://www.cve.org/CVERecord?id=CVE-2010-2874 10.0 ['Adobe'] ['Shockwave Player'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of the Adobe Shockwave Player. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of the undocumented tSAC RIFF chunk. By setting a specified field within this structure to NULL, the application fails to initialize an object pointer. This uninitialized pointer is later called which causes the application to jump into random heap memory. By crafting the applications memory state an attacker can utilize this issue to execute arbitrary code under the context of the user running the browser. Adobe has issued an update to correct this vulnerability. More details can be found at: http://www.adobe.com/support/security/bulletins/apsb10-20.html ['2010-06-30 - Vulnerability reported to vendor', '2010-08-24 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-10-163/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-163/",
   "title": "Adobe Shockwave Director tSAC Chunk Parsing Remote Code Execution Vulnerability",
   "updated_date": null,

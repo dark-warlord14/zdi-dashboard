@@ -11,13 +11,13 @@
   "cve": "CVE-2010-2996",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2010-2996",
   "cvss": 10.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2009-04-15 - Vulnerability reported to vendor",
     "2010-08-26 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-10-166 ZDI-CAN-472 RealNetworks RealPlayer Malformed IVR Object Index Code Execution Vulnerability 2010-08-26 CVE-2010-2996 https://www.cve.org/CVERecord?id=CVE-2010-2996 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['RealNetworks'] ['RealPlayer'] This vulnerability allows attackers to execute arbitrary code on vulnerable installations of RealNetworks RealPlayer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists when parsing a RealMedia .IVR file containing a malformed data header. The application explicitly trusts an index in this data structure to seek into a list of objects. If one specifies an index outside the bounds of the array, the application will later dereference an object from the calculated pointer and then call it, leading to code execution under the context of the current user. RealNetworks has issued an update to correct this vulnerability. More details can be found at: http://service.real.com/realplayer/security/08262010_player/en/ ['2009-04-15 - Vulnerability reported to vendor', '2010-08-26 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-10-166/",
+  "search_text": "published ZDI-10-166 ZDI-CAN-472 RealNetworks RealPlayer Malformed IVR Object Index Code Execution Vulnerability 2010-08-26 CVE-2010-2996 https://www.cve.org/CVERecord?id=CVE-2010-2996 10.0 ['RealNetworks'] ['RealPlayer'] This vulnerability allows attackers to execute arbitrary code on vulnerable installations of RealNetworks RealPlayer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists when parsing a RealMedia .IVR file containing a malformed data header. The application explicitly trusts an index in this data structure to seek into a list of objects. If one specifies an index outside the bounds of the array, the application will later dereference an object from the calculated pointer and then call it, leading to code execution under the context of the current user. RealNetworks has issued an update to correct this vulnerability. More details can be found at: http://service.real.com/realplayer/security/08262010_player/en/ ['2009-04-15 - Vulnerability reported to vendor', '2010-08-26 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-10-166/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-166/",
   "title": "RealNetworks RealPlayer Malformed IVR Object Index Code Execution Vulnerability",
   "updated_date": null,

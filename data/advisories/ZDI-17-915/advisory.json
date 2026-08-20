@@ -11,13 +11,13 @@
   "cve": "CVE-2017-11878",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-11878",
   "cvss": 5.1,
-  "cvss_vector": "AV:N/AC:H/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2017-08-22 - Vulnerability reported to vendor",
     "2017-11-20 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-17-915 ZDI-CAN-5105 Microsoft Office Excel Workbook Use-After-Free Remote Code Execution Vulnerability 2017-11-20 CVE-2017-11878 https://www.cve.org/CVERecord?id=CVE-2017-11878 5.1 AV:N/AC:H/Au:N/C:P/I:P/A:P ['Microsoft'] ['Office Excel'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Office Excel. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Excel workbooks. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code under the context of the process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2017-11878 ['2017-08-22 - Vulnerability reported to vendor', '2017-11-20 - Coordinated public release of advisory'] Jaanus Kp Clarified Security https://www.zerodayinitiative.com/advisories/ZDI-17-915/",
+  "search_text": "published ZDI-17-915 ZDI-CAN-5105 Microsoft Office Excel Workbook Use-After-Free Remote Code Execution Vulnerability 2017-11-20 CVE-2017-11878 https://www.cve.org/CVERecord?id=CVE-2017-11878 5.1 ['Microsoft'] ['Office Excel'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Office Excel. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Excel workbooks. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code under the context of the process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2017-11878 ['2017-08-22 - Vulnerability reported to vendor', '2017-11-20 - Coordinated public release of advisory'] Jaanus Kp Clarified Security https://www.zerodayinitiative.com/advisories/ZDI-17-915/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-915/",
   "title": "Microsoft Office Excel Workbook Use-After-Free Remote Code Execution Vulnerability",
   "updated_date": null,

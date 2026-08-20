@@ -11,13 +11,13 @@
   "cve": null,
   "cve_url": null,
   "cvss": 6.6,
-  "cvss_vector": "AV:L/AC:M/Au:S/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2016-05-12 - Vulnerability reported to vendor",
     "2016-09-01 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-16-503 ZDI-CAN-3749 Bitdefender Antivirus Plus bdfwfpf Integer Overflow Privilege Escalation Vulnerability 2016-09-01 6.6 AV:L/AC:M/Au:S/C:C/I:C/A:C ['Bitdefender'] ['Antivirus Plus'] This vulnerability allows local attackers to escalate their privileges on vulnerable installations of Bitdefender Antivirus Plus. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within processing of the 0x8000e038 IOCTL by the bdfwfpf device driver. A crafted buffer sent to the DeviceIoControl API can cause the corruption of pool memory in the kernel because of an integer overflow in the calculation of length for a memcpy command. An attacker can leverage this vulnerability execute arbitrary code in the context of SYSTEM. Bitdefender has issued an update to correct this vulnerability. More details can be found at: http://www.bitdefender.com/site/view/bug-bounty-hall-of-fame.html ['2016-05-12 - Vulnerability reported to vendor', '2016-09-01 - Coordinated public release of advisory'] bear13oy of CloverSec Labs https://www.zerodayinitiative.com/advisories/ZDI-16-503/",
+  "search_text": "published ZDI-16-503 ZDI-CAN-3749 Bitdefender Antivirus Plus bdfwfpf Integer Overflow Privilege Escalation Vulnerability 2016-09-01 6.6 ['Bitdefender'] ['Antivirus Plus'] This vulnerability allows local attackers to escalate their privileges on vulnerable installations of Bitdefender Antivirus Plus. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within processing of the 0x8000e038 IOCTL by the bdfwfpf device driver. A crafted buffer sent to the DeviceIoControl API can cause the corruption of pool memory in the kernel because of an integer overflow in the calculation of length for a memcpy command. An attacker can leverage this vulnerability execute arbitrary code in the context of SYSTEM. Bitdefender has issued an update to correct this vulnerability. More details can be found at: http://www.bitdefender.com/site/view/bug-bounty-hall-of-fame.html ['2016-05-12 - Vulnerability reported to vendor', '2016-09-01 - Coordinated public release of advisory'] bear13oy of CloverSec Labs https://www.zerodayinitiative.com/advisories/ZDI-16-503/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-503/",
   "title": "Bitdefender Antivirus Plus bdfwfpf Integer Overflow Privilege Escalation Vulnerability",
   "updated_date": null,

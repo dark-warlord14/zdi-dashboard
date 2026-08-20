@@ -2,11 +2,9 @@
   "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/bulletin/MS08-045.mspx",
   "advisory_date": "2008-08-12",
   "affected_products": [
-    "Internet Explorer 7",
-    "Internet Explorer 6"
+    "Internet Explorer 7"
   ],
   "affected_vendors": [
-    "Microsoft",
     "Microsoft"
   ],
   "credit": "Sam Thomas",
@@ -19,7 +17,7 @@
     "2008-08-12 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-08-050 ZDI-CAN-322 Microsoft Internet Explorer XHTML Rendering Memory Corruption Vulnerability 2008-08-12 CVE-2008-2257 https://www.cve.org/CVERecord?id=CVE-2008-2257 ['Microsoft', 'Microsoft'] ['Internet Explorer 7', 'Internet Explorer 6'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page. The specific flaw exists in the handling of document objects. When an object is appended in a specific order, memory corruption occurs. Successful exploitation leads to remote compromise of the affected system under the credentials of the currently logged in user. Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/bulletin/MS08-045.mspx ['2008-04-16 - Vulnerability reported to vendor', '2008-08-12 - Coordinated public release of advisory'] Sam Thomas https://www.zerodayinitiative.com/advisories/ZDI-08-050/",
+  "search_text": "published ZDI-08-050 ZDI-CAN-322 Microsoft Internet Explorer XHTML Rendering Memory Corruption Vulnerability 2008-08-12 CVE-2008-2257 https://www.cve.org/CVERecord?id=CVE-2008-2257 ['Microsoft'] ['Internet Explorer 7'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page. The specific flaw exists in the handling of document objects. When an object is appended in a specific order, memory corruption occurs. Successful exploitation leads to remote compromise of the affected system under the credentials of the currently logged in user. Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/bulletin/MS08-045.mspx ['2008-04-16 - Vulnerability reported to vendor', '2008-08-12 - Coordinated public release of advisory'] Sam Thomas https://www.zerodayinitiative.com/advisories/ZDI-08-050/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-08-050/",
   "title": "Microsoft Internet Explorer XHTML Rendering Memory Corruption Vulnerability",
   "updated_date": null,

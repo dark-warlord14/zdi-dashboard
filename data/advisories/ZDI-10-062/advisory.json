@@ -11,13 +11,13 @@
   "cve": "CVE-2010-0625",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2010-0625",
   "cvss": 10.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2008-08-26 - Vulnerability reported to vendor",
     "2010-04-05 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-10-062 ZDI-CAN-383 Novell Netware NWFTPD RMD/RNFR/DELE Argument Parsing Remote Code Execution Vulnerabilities 2010-04-05 CVE-2010-0625 https://www.cve.org/CVERecord?id=CVE-2010-0625 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Novell'] ['Netware'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Novell Netware NWFTPD daemon. Authentication or default anonymous access is required to exploit this vulnerability. The specific flaw exists when parsing malformed arguments to the verbs RMD, RNFR, and DELE. Overly long parameters will result in stack based buffer overflows which can be leveraged to execute arbitrary code. A public fix for this issue has been released in download nwftpd16.zip, available at http://download.novell.com/patch/finder/ ['2008-08-26 - Vulnerability reported to vendor', '2010-04-05 - Coordinated public release of advisory'] Nick DeBaggis Francis Provencher https://www.zerodayinitiative.com/advisories/ZDI-10-062/",
+  "search_text": "published ZDI-10-062 ZDI-CAN-383 Novell Netware NWFTPD RMD/RNFR/DELE Argument Parsing Remote Code Execution Vulnerabilities 2010-04-05 CVE-2010-0625 https://www.cve.org/CVERecord?id=CVE-2010-0625 10.0 ['Novell'] ['Netware'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Novell Netware NWFTPD daemon. Authentication or default anonymous access is required to exploit this vulnerability. The specific flaw exists when parsing malformed arguments to the verbs RMD, RNFR, and DELE. Overly long parameters will result in stack based buffer overflows which can be leveraged to execute arbitrary code. A public fix for this issue has been released in download nwftpd16.zip, available at http://download.novell.com/patch/finder/ ['2008-08-26 - Vulnerability reported to vendor', '2010-04-05 - Coordinated public release of advisory'] Nick DeBaggis Francis Provencher https://www.zerodayinitiative.com/advisories/ZDI-10-062/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-062/",
   "title": "Novell Netware NWFTPD RMD/RNFR/DELE Argument Parsing Remote Code Execution Vulnerabilities",
   "updated_date": null,

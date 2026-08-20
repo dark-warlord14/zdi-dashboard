@@ -11,13 +11,13 @@
   "cve": "CVE-2011-3252",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-3252",
   "cvss": 8.3,
-  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2011-04-11 - Vulnerability reported to vendor",
     "2011-10-26 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-11-304 ZDI-CAN-1150 Apple Quicktime Advanced Audio Codec Frame Parsing Remote Code Execution Vulnerability 2011-10-26 CVE-2011-3252 https://www.cve.org/CVERecord?id=CVE-2011-3252 8.3 AV:N/AC:M/Au:N/C:P/I:P/A:C ['Apple'] ['Quicktime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple QuickTime Player. Authentication is not required to exploit this vulnerability. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within how the application parses an audio stream encoded with the advanced audio codec. A field will be read from the file in order to calculate a length that is later used in a memory copy operation into a statically sized buffer. Successful exploitation can lead to code execution under the context of the application. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT4981 ['2011-04-11 - Vulnerability reported to vendor', '2011-10-26 - Coordinated public release of advisory'] Luigi Auriemma https://www.zerodayinitiative.com/advisories/ZDI-11-304/",
+  "search_text": "published ZDI-11-304 ZDI-CAN-1150 Apple Quicktime Advanced Audio Codec Frame Parsing Remote Code Execution Vulnerability 2011-10-26 CVE-2011-3252 https://www.cve.org/CVERecord?id=CVE-2011-3252 8.3 ['Apple'] ['Quicktime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple QuickTime Player. Authentication is not required to exploit this vulnerability. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within how the application parses an audio stream encoded with the advanced audio codec. A field will be read from the file in order to calculate a length that is later used in a memory copy operation into a statically sized buffer. Successful exploitation can lead to code execution under the context of the application. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT4981 ['2011-04-11 - Vulnerability reported to vendor', '2011-10-26 - Coordinated public release of advisory'] Luigi Auriemma https://www.zerodayinitiative.com/advisories/ZDI-11-304/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-304/",
   "title": "Apple Quicktime Advanced Audio Codec Frame Parsing Remote Code Execution Vulnerability",
   "updated_date": null,

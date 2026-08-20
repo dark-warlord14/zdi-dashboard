@@ -11,13 +11,13 @@
   "cve": "CVE-2017-11779",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-11779",
   "cvss": 6.8,
-  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2017-09-22 - Vulnerability reported to vendor",
     "2017-10-10 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-17-846 ZDI-CAN-5207 Microsoft Windows DNSAPI NSEC3_RecordRead Heap-based Buffer Overflow Remote Code Execution Vulnerability 2017-10-10 CVE-2017-11779 https://www.cve.org/CVERecord?id=CVE-2017-11779 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Microsoft'] ['Windows'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Windows. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of DNS responses. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute code under the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2017-11779 ['2017-09-22 - Vulnerability reported to vendor', '2017-10-10 - Coordinated public release of advisory'] Nelson William Gamazo Sanchez - Trend Micro https://www.zerodayinitiative.com/advisories/ZDI-17-846/",
+  "search_text": "published ZDI-17-846 ZDI-CAN-5207 Microsoft Windows DNSAPI NSEC3_RecordRead Heap-based Buffer Overflow Remote Code Execution Vulnerability 2017-10-10 CVE-2017-11779 https://www.cve.org/CVERecord?id=CVE-2017-11779 6.8 ['Microsoft'] ['Windows'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Windows. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of DNS responses. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute code under the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2017-11779 ['2017-09-22 - Vulnerability reported to vendor', '2017-10-10 - Coordinated public release of advisory'] Nelson William Gamazo Sanchez - Trend Micro https://www.zerodayinitiative.com/advisories/ZDI-17-846/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-846/",
   "title": "Microsoft Windows DNSAPI NSEC3_RecordRead Heap-based Buffer Overflow Remote Code Execution Vulnerability",
   "updated_date": null,

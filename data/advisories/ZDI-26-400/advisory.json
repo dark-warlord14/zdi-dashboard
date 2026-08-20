@@ -1,0 +1,28 @@
+{
+  "additional_details": "03/25/25 ZDI submitted the report to the vendor\u2019s SOC team 08/04/25 - ZDI followed up asking the vendor to confirm receipt 09/24/25 - due to lack of response, ZDI informed the vendor of the planned disclosure date 09/26/25 - the vendor\u2019s support team confirmed escalating the issue to the Security Team 10/28/25 - ZDI followed up requesting a status update 12/11/25 - the vendor\u2019s support team communicated that the issue was out of their scope 06/26/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+  "advisory_date": "2026-07-13",
+  "affected_products": [
+    "AnyDesk"
+  ],
+  "affected_vendors": [
+    "AnyDesk"
+  ],
+  "credit": "Giuliano Sanfins from SiDi",
+  "cve": "CVE-2026-15681",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-15681",
+  "cvss": 4.7,
+  "cvss_vector": "AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H",
+  "disclosure_timeline": [
+    "2025-03-25 - Vulnerability reported to vendor",
+    "2026-07-13 - Coordinated public release of advisory",
+    "2026-07-13 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-26-400 ZDI-CAN-26591 (0Day) AnyDesk Screen Recording Link Following Denial-of-Service Vulnerability 2026-07-13 CVE-2026-15681 https://www.cve.org/CVERecord?id=CVE-2026-15681 4.7 AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H ['AnyDesk'] ['AnyDesk'] This vulnerability allows local attackers to create a denial-of-service condition on affected installations of AnyDesk. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of screen recording files. By creating a junction, an attacker can abuse the service to create arbitrary files. An attacker can leverage this vulnerability to create a denial-of-service condition on the system. 03/25/25 ZDI submitted the report to the vendor\u2019s SOC team 08/04/25 - ZDI followed up asking the vendor to confirm receipt 09/24/25 - due to lack of response, ZDI informed the vendor of the planned disclosure date 09/26/25 - the vendor\u2019s support team confirmed escalating the issue to the Security Team 10/28/25 - ZDI followed up requesting a status update 12/11/25 - the vendor\u2019s support team communicated that the issue was out of their scope 06/26/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2025-03-25 - Vulnerability reported to vendor', '2026-07-13 - Coordinated public release of advisory', '2026-07-13 - Advisory Updated'] Giuliano Sanfins from SiDi https://www.zerodayinitiative.com/advisories/ZDI-26-400/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-400/",
+  "title": "(0Day) AnyDesk Screen Recording Link Following Denial-of-Service Vulnerability",
+  "updated_date": "2026-07-13",
+  "vulnerability_details": "This vulnerability allows local attackers to create a denial-of-service condition on affected installations of AnyDesk. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of screen recording files. By creating a junction, an attacker can abuse the service to create arbitrary files. An attacker can leverage this vulnerability to create a denial-of-service condition on the system.",
+  "zdi_can": "ZDI-CAN-26591",
+  "zdi_id": "ZDI-26-400"
+}

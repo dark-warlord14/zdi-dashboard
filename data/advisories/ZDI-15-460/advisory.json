@@ -11,13 +11,13 @@
   "cve": "CVE-2015-7838",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-7838",
   "cvss": 10.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2015-02-04 - Vulnerability reported to vendor",
     "2015-10-07 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-15-460 ZDI-CAN-2731 Solarwinds Storage Manager ProcessFileUpload.jsp File Upload Remote Code Execution Vulnerability 2015-10-07 CVE-2015-7838 https://www.cve.org/CVERecord?id=CVE-2015-7838 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['SolarWinds'] ['Storage Manager'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Solarwinds Storage Manager. Authentication is not required to exploit this vulnerability. The specific flaw exists within ProcessFileUpload.jsp within the handling of file uploads. The issue lies in the failure to sanitize the files uploaded, allowing them to be placed within directories accessible through the service. An attacker can leverage this vulnerability to execute code as SYSTEM. SolarWinds has issued an update to correct this vulnerability. More details can be found at: http://www.solarwinds.com/documentation/srm/docs/releasenotes/releasenotes.htm ['2015-02-04 - Vulnerability reported to vendor', '2015-10-07 - Coordinated public release of advisory'] Matt Molinyawe - HP Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-15-460/",
+  "search_text": "published ZDI-15-460 ZDI-CAN-2731 Solarwinds Storage Manager ProcessFileUpload.jsp File Upload Remote Code Execution Vulnerability 2015-10-07 CVE-2015-7838 https://www.cve.org/CVERecord?id=CVE-2015-7838 10.0 ['SolarWinds'] ['Storage Manager'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Solarwinds Storage Manager. Authentication is not required to exploit this vulnerability. The specific flaw exists within ProcessFileUpload.jsp within the handling of file uploads. The issue lies in the failure to sanitize the files uploaded, allowing them to be placed within directories accessible through the service. An attacker can leverage this vulnerability to execute code as SYSTEM. SolarWinds has issued an update to correct this vulnerability. More details can be found at: http://www.solarwinds.com/documentation/srm/docs/releasenotes/releasenotes.htm ['2015-02-04 - Vulnerability reported to vendor', '2015-10-07 - Coordinated public release of advisory'] Matt Molinyawe - HP Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-15-460/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-460/",
   "title": "Solarwinds Storage Manager ProcessFileUpload.jsp File Upload Remote Code Execution Vulnerability",
   "updated_date": null,

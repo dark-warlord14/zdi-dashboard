@@ -11,13 +11,13 @@
   "cve": "CVE-2017-0292",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-0292",
   "cvss": 6.8,
-  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2017-02-13 - Vulnerability reported to vendor",
     "2017-06-13 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-17-397 ZDI-CAN-4480 Microsoft Windows PDF Library JPEG2000 Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability 2017-06-13 CVE-2017-0292 https://www.cve.org/CVERecord?id=CVE-2017-0292 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Microsoft'] ['Windows PDF Library'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Windows PDF Library. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the processing of JPEG2000 images. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated object. An attacker can leverage this vulnerability to execute code under the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2017-0292 ['2017-02-13 - Vulnerability reported to vendor', '2017-06-13 - Coordinated public release of advisory'] Ke Liu (winsonliu) of Tencent's Xuanwu LAB https://www.zerodayinitiative.com/advisories/ZDI-17-397/",
+  "search_text": "published ZDI-17-397 ZDI-CAN-4480 Microsoft Windows PDF Library JPEG2000 Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability 2017-06-13 CVE-2017-0292 https://www.cve.org/CVERecord?id=CVE-2017-0292 6.8 ['Microsoft'] ['Windows PDF Library'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Windows PDF Library. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the processing of JPEG2000 images. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated object. An attacker can leverage this vulnerability to execute code under the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2017-0292 ['2017-02-13 - Vulnerability reported to vendor', '2017-06-13 - Coordinated public release of advisory'] Ke Liu (winsonliu) of Tencent's Xuanwu LAB https://www.zerodayinitiative.com/advisories/ZDI-17-397/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-397/",
   "title": "Microsoft Windows PDF Library JPEG2000 Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
   "updated_date": null,

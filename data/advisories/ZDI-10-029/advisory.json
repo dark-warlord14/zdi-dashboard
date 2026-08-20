@@ -2,26 +2,22 @@
   "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT4070",
   "advisory_date": "2010-03-15",
   "affected_products": [
-    "Chrome",
-    "Safari",
-    "WebKit"
+    "Chrome"
   ],
   "affected_vendors": [
-    "Google",
-    "Apple",
-    "Apple"
+    "Google"
   ],
   "credit": "wushi of team509",
   "cve": "CVE-2010-0047",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2010-0047",
   "cvss": 10.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2009-10-21 - Vulnerability reported to vendor",
     "2010-03-15 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-10-029 ZDI-CAN-579 Apple WebKit innerHTML element Substitution Remote Code Execution Vulnerability 2010-03-15 CVE-2010-0047 https://www.cve.org/CVERecord?id=CVE-2010-0047 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Google', 'Apple', 'Apple'] ['Chrome', 'Safari', 'WebKit'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple WebKit. User interaction is required to exploit this vulnerability in that the target must visit a malicious page. The specific flaw exists in the WebCore's HTMLObjectElement::renderFallBackContent() method. By rewriting an HTML element via the document's innerHTML() method a memory corruption occurs resulting from a call-after-free. This can be leveraged to execute arbitrary code under the context of the current user. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT4070 ['2009-10-21 - Vulnerability reported to vendor', '2010-03-15 - Coordinated public release of advisory'] wushi of team509 https://www.zerodayinitiative.com/advisories/ZDI-10-029/",
+  "search_text": "published ZDI-10-029 ZDI-CAN-579 Apple WebKit innerHTML element Substitution Remote Code Execution Vulnerability 2010-03-15 CVE-2010-0047 https://www.cve.org/CVERecord?id=CVE-2010-0047 10.0 ['Google'] ['Chrome'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple WebKit. User interaction is required to exploit this vulnerability in that the target must visit a malicious page. The specific flaw exists in the WebCore's HTMLObjectElement::renderFallBackContent() method. By rewriting an HTML element via the document's innerHTML() method a memory corruption occurs resulting from a call-after-free. This can be leveraged to execute arbitrary code under the context of the current user. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT4070 ['2009-10-21 - Vulnerability reported to vendor', '2010-03-15 - Coordinated public release of advisory'] wushi of team509 https://www.zerodayinitiative.com/advisories/ZDI-10-029/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-029/",
   "title": "Apple WebKit innerHTML element Substitution Remote Code Execution Vulnerability",
   "updated_date": null,

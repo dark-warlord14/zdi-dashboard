@@ -11,13 +11,13 @@
   "cve": "CVE-2016-0148",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-0148",
   "cvss": 7.5,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2016-03-29 - Vulnerability reported to vendor",
     "2016-04-12 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-16-234 ZDI-CAN-3578 Microsoft .NET Framework mscoreei DLL Planting Remote Code Execution Vulnerability 2016-04-12 CVE-2016-0148 https://www.cve.org/CVERecord?id=CVE-2016-0148 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Microsoft'] ['.NET Framework'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft .NET Framework. User interaction is required to exploit this vulnerability in that the target must visit a malicious web page or open a malicious directory or device. The specific flaw exists within the handling of a specific named DLL used by .NET Framework. By providing a directory with this specific DLL, an attacker is able to force the process to load an arbitrary DLL. This allows an attacker to execute arbitrary code in the context of the process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/library/security/MS16-041 ['2016-03-29 - Vulnerability reported to vendor', '2016-04-12 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-16-234/",
+  "search_text": "published ZDI-16-234 ZDI-CAN-3578 Microsoft .NET Framework mscoreei DLL Planting Remote Code Execution Vulnerability 2016-04-12 CVE-2016-0148 https://www.cve.org/CVERecord?id=CVE-2016-0148 7.5 ['Microsoft'] ['.NET Framework'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft .NET Framework. User interaction is required to exploit this vulnerability in that the target must visit a malicious web page or open a malicious directory or device. The specific flaw exists within the handling of a specific named DLL used by .NET Framework. By providing a directory with this specific DLL, an attacker is able to force the process to load an arbitrary DLL. This allows an attacker to execute arbitrary code in the context of the process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/library/security/MS16-041 ['2016-03-29 - Vulnerability reported to vendor', '2016-04-12 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-16-234/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-234/",
   "title": "Microsoft .NET Framework mscoreei DLL Planting Remote Code Execution Vulnerability",
   "updated_date": null,

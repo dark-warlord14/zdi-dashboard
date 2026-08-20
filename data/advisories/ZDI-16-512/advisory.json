@@ -11,13 +11,13 @@
   "cve": "CVE-2016-3376",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-3376",
   "cvss": 4.3,
-  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2016-06-06 - Vulnerability reported to vendor",
     "2016-09-16 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-16-512 ZDI-CAN-3821 Microsoft Windows MSXML IDispatch Use-After-Free Information Disclosure Vulnerability 2016-09-16 CVE-2016-3376 https://www.cve.org/CVERecord?id=CVE-2016-3376 4.3 AV:N/AC:M/Au:N/C:P/I:N/A:N ['Microsoft'] ['Windows'] This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Microsoft Windows. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within MSXML. By performing actions in script, an attacker can cause a pointer to be reused after it has been freed. An attacker can leverage this in conjunction with other vulnerabilities to execute code in the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/library/security/MS16-116 ['2016-06-06 - Vulnerability reported to vendor', '2016-09-16 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-16-512/",
+  "search_text": "published ZDI-16-512 ZDI-CAN-3821 Microsoft Windows MSXML IDispatch Use-After-Free Information Disclosure Vulnerability 2016-09-16 CVE-2016-3376 https://www.cve.org/CVERecord?id=CVE-2016-3376 4.3 ['Microsoft'] ['Windows'] This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Microsoft Windows. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within MSXML. By performing actions in script, an attacker can cause a pointer to be reused after it has been freed. An attacker can leverage this in conjunction with other vulnerabilities to execute code in the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/library/security/MS16-116 ['2016-06-06 - Vulnerability reported to vendor', '2016-09-16 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-16-512/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-512/",
   "title": "Microsoft Windows MSXML IDispatch Use-After-Free Information Disclosure Vulnerability",
   "updated_date": null,

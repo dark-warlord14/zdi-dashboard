@@ -2,12 +2,10 @@
   "additional_details": "This issue has been addressed in TippingPoint IPS version 2.5.1.6826 released on April 2nd 2007. Customers can obtain the update through the SMS device or by visiting http://tmc.tippingpoint.com This issue has been addressed in ScreenOS versions 6.0 and 5.4R4, released in April of 2007.",
   "advisory_date": "2010-01-27",
   "affected_products": [
-    "TippingPoint IPS",
-    "ScreenOS"
+    "TippingPoint IPS"
   ],
   "affected_vendors": [
-    "3Com TippingPoint",
-    "Juniper"
+    "3Com TippingPoint"
   ],
   "credit": "Anonymous",
   "cve": null,
@@ -19,7 +17,7 @@
     "2010-01-27 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-07-080 ZDI-CAN-173 Multiple Vendor Web Console Privilege Escalation Vulnerability 2010-01-27 ['3Com TippingPoint', 'Juniper'] ['TippingPoint IPS', 'ScreenOS'] This vulnerability allows attackers to execute arbitrary code on vulnerable installations of TippingPoint IPS and Juniper ScreenOS. Authentication is required to exploit this vulnerability. The specific flaw exists in the web-based administrative console of the affected devices. Unprivileged users with read only permissions are not presented with restricted functionality such as the ability to modify users, device configuration or reboot the device. However, no check is made on the back end to prevent unprivileged users from accessing these resources. By manually generating requests to administrative components, privilege restrictions are easily bypassed. This issue has been addressed in TippingPoint IPS version 2.5.1.6826 released on April 2nd 2007. Customers can obtain the update through the SMS device or by visiting http://tmc.tippingpoint.com This issue has been addressed in ScreenOS versions 6.0 and 5.4R4, released in April of 2007. ['2007-03-16 - Vulnerability reported to vendor', '2010-01-27 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-07-080/",
+  "search_text": "published ZDI-07-080 ZDI-CAN-173 Multiple Vendor Web Console Privilege Escalation Vulnerability 2010-01-27 ['3Com TippingPoint'] ['TippingPoint IPS'] This vulnerability allows attackers to execute arbitrary code on vulnerable installations of TippingPoint IPS and Juniper ScreenOS. Authentication is required to exploit this vulnerability. The specific flaw exists in the web-based administrative console of the affected devices. Unprivileged users with read only permissions are not presented with restricted functionality such as the ability to modify users, device configuration or reboot the device. However, no check is made on the back end to prevent unprivileged users from accessing these resources. By manually generating requests to administrative components, privilege restrictions are easily bypassed. This issue has been addressed in TippingPoint IPS version 2.5.1.6826 released on April 2nd 2007. Customers can obtain the update through the SMS device or by visiting http://tmc.tippingpoint.com This issue has been addressed in ScreenOS versions 6.0 and 5.4R4, released in April of 2007. ['2007-03-16 - Vulnerability reported to vendor', '2010-01-27 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-07-080/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-07-080/",
   "title": "Multiple Vendor Web Console Privilege Escalation Vulnerability",
   "updated_date": null,

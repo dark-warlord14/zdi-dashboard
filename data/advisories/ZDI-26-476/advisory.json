@@ -1,0 +1,28 @@
+{
+  "additional_details": "Sony has issued an update to correct this vulnerability. More details can be found at: https://www.sony.com/electronics/support/mobile-cd-players-digital-media-players-xav-series/xav-9500es/software/00274922",
+  "advisory_date": "2026-07-29",
+  "affected_products": [
+    "XAV-9500ES"
+  ],
+  "affected_vendors": [
+    "Sony"
+  ],
+  "credit": "Synacktiv",
+  "cve": "CVE-2026-18283",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-18283",
+  "cvss": 2.4,
+  "cvss_vector": "AV:P/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+  "disclosure_timeline": [
+    "2026-03-19 - Vulnerability reported to vendor",
+    "2026-07-29 - Coordinated public release of advisory",
+    "2026-07-29 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-26-476 ZDI-CAN-28992 (Pwn2Own) Sony XAV-9500ES udev USB Rules Authorization Bypass Vulnerability 2026-07-29 CVE-2026-18283 https://www.cve.org/CVERecord?id=CVE-2026-18283 2.4 AV:P/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N ['Sony'] ['XAV-9500ES'] This vulnerability allows physically present attackers to bypass authorization on affected installations on Sony XAV-9500ES devices. Authentication is not required to exploit this vulnerability. The specific flaw exists within the udev rules. A crafted USB device connected to the system can trigger instantiation of otherwise restricted USB device types. An attacker can leverage this vulnerability to bypass authorization on the system. Sony has issued an update to correct this vulnerability. More details can be found at: https://www.sony.com/electronics/support/mobile-cd-players-digital-media-players-xav-series/xav-9500es/software/00274922 ['2026-03-19 - Vulnerability reported to vendor', '2026-07-29 - Coordinated public release of advisory', '2026-07-29 - Advisory Updated'] Synacktiv https://www.zerodayinitiative.com/advisories/ZDI-26-476/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-476/",
+  "title": "(Pwn2Own) Sony XAV-9500ES udev USB Rules Authorization Bypass Vulnerability",
+  "updated_date": "2026-07-29",
+  "vulnerability_details": "This vulnerability allows physically present attackers to bypass authorization on affected installations on Sony XAV-9500ES devices. Authentication is not required to exploit this vulnerability. The specific flaw exists within the udev rules. A crafted USB device connected to the system can trigger instantiation of otherwise restricted USB device types. An attacker can leverage this vulnerability to bypass authorization on the system.",
+  "zdi_can": "ZDI-CAN-28992",
+  "zdi_id": "ZDI-26-476"
+}

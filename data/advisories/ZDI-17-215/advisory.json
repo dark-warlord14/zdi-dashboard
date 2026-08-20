@@ -11,13 +11,13 @@
   "cve": null,
   "cve_url": null,
   "cvss": 9.0,
-  "cvss_vector": "AV:N/AC:L/Au:S/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2016-12-21 - Vulnerability reported to vendor",
     "2017-03-30 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-17-215 ZDI-CAN-4302 Trend Micro InterScan Web Security Virtual Appliance ConfigIPNetwork saveNetworkConfiguration mgmtPingChanged Command Injection Remote Code Execution Vulnerability 2017-03-30 9.0 AV:N/AC:L/Au:S/C:C/I:C/A:C ['Trend Micro'] ['InterScan Web Security Virtual Appliance'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Trend Micro InterScan Web Security Virtual Appliance. Authentication is required to exploit this vulnerability. The specific flaw exists within ConfigIPNetwork's saveNetworkConfiguration method. A crafted IP parameter can trigger execution of a system call composed from a user-supplied string. An attacker can leverage this vulnerability to execute arbitrary code under the context of root. Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/solution/1116960 ['2016-12-21 - Vulnerability reported to vendor', '2017-03-30 - Coordinated public release of advisory'] Steven Seeley of Source Incite https://www.zerodayinitiative.com/advisories/ZDI-17-215/",
+  "search_text": "published ZDI-17-215 ZDI-CAN-4302 Trend Micro InterScan Web Security Virtual Appliance ConfigIPNetwork saveNetworkConfiguration mgmtPingChanged Command Injection Remote Code Execution Vulnerability 2017-03-30 9.0 ['Trend Micro'] ['InterScan Web Security Virtual Appliance'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Trend Micro InterScan Web Security Virtual Appliance. Authentication is required to exploit this vulnerability. The specific flaw exists within ConfigIPNetwork's saveNetworkConfiguration method. A crafted IP parameter can trigger execution of a system call composed from a user-supplied string. An attacker can leverage this vulnerability to execute arbitrary code under the context of root. Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/solution/1116960 ['2016-12-21 - Vulnerability reported to vendor', '2017-03-30 - Coordinated public release of advisory'] Steven Seeley of Source Incite https://www.zerodayinitiative.com/advisories/ZDI-17-215/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-215/",
   "title": "Trend Micro InterScan Web Security Virtual Appliance ConfigIPNetwork saveNetworkConfiguration mgmtPingChanged Command Injection Remote Code Execution Vulnerability",
   "updated_date": null,

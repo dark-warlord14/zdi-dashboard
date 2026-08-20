@@ -11,13 +11,13 @@
   "cve": "CVE-2011-0045",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-0045",
   "cvss": 6.8,
-  "cvss_vector": "AV:L/AC:L/Au:S/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2010-09-29 - Vulnerability reported to vendor",
     "2011-02-08 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-11-064 ZDI-CAN-890 Microsoft Windows WmiTraceMessageVa Local Kernel Vulnerability 2011-02-08 CVE-2011-0045 https://www.cve.org/CVERecord?id=CVE-2011-0045 6.8 AV:L/AC:L/Au:S/C:C/I:C/A:C ['Microsoft'] ['Windows XP'] This vulnerability allows local attackers to execute arbitrary code from the context of kernelspace on vulnerable installations of Microsoft Windows. The ability to make a system call is required in order to exploit this vulnerability. The specific flaw exists within the kernel's support for Trace Events. Due to a bad type conversion, the kernel will use a truncated length for allocating data from userspace. When populating this buffer the kernel will use a differing length causing a buffer overflow. This will cause memory corruption and can lead to code execution under the context of the kernel. Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/bulletin/ms11-011.mspx ['2010-09-29 - Vulnerability reported to vendor', '2011-02-08 - Coordinated public release of advisory'] std_logic https://www.zerodayinitiative.com/advisories/ZDI-11-064/",
+  "search_text": "published ZDI-11-064 ZDI-CAN-890 Microsoft Windows WmiTraceMessageVa Local Kernel Vulnerability 2011-02-08 CVE-2011-0045 https://www.cve.org/CVERecord?id=CVE-2011-0045 6.8 ['Microsoft'] ['Windows XP'] This vulnerability allows local attackers to execute arbitrary code from the context of kernelspace on vulnerable installations of Microsoft Windows. The ability to make a system call is required in order to exploit this vulnerability. The specific flaw exists within the kernel's support for Trace Events. Due to a bad type conversion, the kernel will use a truncated length for allocating data from userspace. When populating this buffer the kernel will use a differing length causing a buffer overflow. This will cause memory corruption and can lead to code execution under the context of the kernel. Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/bulletin/ms11-011.mspx ['2010-09-29 - Vulnerability reported to vendor', '2011-02-08 - Coordinated public release of advisory'] std_logic https://www.zerodayinitiative.com/advisories/ZDI-11-064/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-064/",
   "title": "Microsoft Windows WmiTraceMessageVa Local Kernel Vulnerability",
   "updated_date": null,

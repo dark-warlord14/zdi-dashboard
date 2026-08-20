@@ -11,13 +11,13 @@
   "cve": "CVE-2014-2772",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-2772",
   "cvss": 6.8,
-  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2014-03-07 - Vulnerability reported to vendor",
     "2014-06-11 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-14-185 ZDI-CAN-2199 Microsoft Internet Explorer textContent Heap Buffer Overflow Remote Code Execution Vulnerability 2014-06-11 CVE-2014-2772 https://www.cve.org/CVERecord?id=CVE-2014-2772 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Microsoft'] ['Internet Explorer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of the textContent element property. The issue lies in the failure to properly calculate the length of the buffer during a call to memcpy. An attacker can leverage this vulnerability to execute code under the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/library/security/ms14-035 ['2014-03-07 - Vulnerability reported to vendor', '2014-06-11 - Coordinated public release of advisory'] Stephen Fewer of Harmony Security (www.harmonysecurity.com) https://www.zerodayinitiative.com/advisories/ZDI-14-185/",
+  "search_text": "published ZDI-14-185 ZDI-CAN-2199 Microsoft Internet Explorer textContent Heap Buffer Overflow Remote Code Execution Vulnerability 2014-06-11 CVE-2014-2772 https://www.cve.org/CVERecord?id=CVE-2014-2772 6.8 ['Microsoft'] ['Internet Explorer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of the textContent element property. The issue lies in the failure to properly calculate the length of the buffer during a call to memcpy. An attacker can leverage this vulnerability to execute code under the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/library/security/ms14-035 ['2014-03-07 - Vulnerability reported to vendor', '2014-06-11 - Coordinated public release of advisory'] Stephen Fewer of Harmony Security (www.harmonysecurity.com) https://www.zerodayinitiative.com/advisories/ZDI-14-185/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-14-185/",
   "title": "Microsoft Internet Explorer textContent Heap Buffer Overflow Remote Code Execution Vulnerability",
   "updated_date": null,

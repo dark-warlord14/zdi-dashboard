@@ -11,13 +11,13 @@
   "cve": "CVE-2018-2615",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2018-2615",
   "cvss": 8.5,
-  "cvss_vector": "AV:N/AC:M/Au:S/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2017-07-19 - Vulnerability reported to vendor",
     "2018-01-18 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-18-115 ZDI-CAN-5032 Oracle WebLogic Remote Diagnosis Assistant rda_tfa_ref_date Command Injection Remote Code Execution Vulnerability 2018-01-18 CVE-2018-2615 https://www.cve.org/CVERecord?id=CVE-2018-2615 8.5 AV:N/AC:M/Au:S/C:C/I:C/A:C ['Oracle'] ['WebLogic'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Oracle WebLogic. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed. The specific flaw exists within the processing of the rda_tfa_ref_date command in the Remote Diagnosis Assistant. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code under the context of Administrator. Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/security-advisory/cpujan2018-3236628.html ['2017-07-19 - Vulnerability reported to vendor', '2018-01-18 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-18-115/",
+  "search_text": "published ZDI-18-115 ZDI-CAN-5032 Oracle WebLogic Remote Diagnosis Assistant rda_tfa_ref_date Command Injection Remote Code Execution Vulnerability 2018-01-18 CVE-2018-2615 https://www.cve.org/CVERecord?id=CVE-2018-2615 8.5 ['Oracle'] ['WebLogic'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Oracle WebLogic. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed. The specific flaw exists within the processing of the rda_tfa_ref_date command in the Remote Diagnosis Assistant. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code under the context of Administrator. Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/security-advisory/cpujan2018-3236628.html ['2017-07-19 - Vulnerability reported to vendor', '2018-01-18 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-18-115/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-115/",
   "title": "Oracle WebLogic Remote Diagnosis Assistant rda_tfa_ref_date Command Injection Remote Code Execution Vulnerability",
   "updated_date": null,

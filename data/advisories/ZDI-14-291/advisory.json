@@ -11,13 +11,13 @@
   "cve": "CVE-2014-0603",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-0603",
   "cvss": 7.5,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2014-06-23 - Vulnerability reported to vendor",
     "2014-08-12 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-14-291 ZDI-CAN-2354 Attachmate Reflection Pro FTP rftpcom15.dll GetSiteProperties3 Remote Code Execution Vulnerability 2014-08-12 CVE-2014-0603 https://www.cve.org/CVERecord?id=CVE-2014-0603 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Attachmate'] ['Reflection'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Attachmate Reflection Pro FTP. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the ActiveX control's GetSiteProperties3 method. The control suffers from an untrusted pointer dereference vulnerability because it blindly dereferences an attacker-supplied memory address. An attacker can exploit this condition to achieve code execution under the context of the browser process. Attachmate has issued an update to correct this vulnerability. More details can be found at: http://support.attachmate.com/techdocs/2501.html ['2014-06-23 - Vulnerability reported to vendor', '2014-08-12 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-14-291/",
+  "search_text": "published ZDI-14-291 ZDI-CAN-2354 Attachmate Reflection Pro FTP rftpcom15.dll GetSiteProperties3 Remote Code Execution Vulnerability 2014-08-12 CVE-2014-0603 https://www.cve.org/CVERecord?id=CVE-2014-0603 7.5 ['Attachmate'] ['Reflection'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Attachmate Reflection Pro FTP. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the ActiveX control's GetSiteProperties3 method. The control suffers from an untrusted pointer dereference vulnerability because it blindly dereferences an attacker-supplied memory address. An attacker can exploit this condition to achieve code execution under the context of the browser process. Attachmate has issued an update to correct this vulnerability. More details can be found at: http://support.attachmate.com/techdocs/2501.html ['2014-06-23 - Vulnerability reported to vendor', '2014-08-12 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-14-291/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-14-291/",
   "title": "Attachmate Reflection Pro FTP rftpcom15.dll GetSiteProperties3 Remote Code Execution Vulnerability",
   "updated_date": null,

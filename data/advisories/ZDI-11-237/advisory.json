@@ -11,13 +11,13 @@
   "cve": "CVE-2011-2667",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-2667",
   "cvss": 10.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2011-01-21 - Vulnerability reported to vendor",
     "2011-07-20 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-11-237 ZDI-CAN-1017 CA Total Defense Suite Gateway Security Malformed HTTP Packet Remote Code Execution Vulnerability 2011-07-20 CVE-2011-2667 https://www.cve.org/CVERecord?id=CVE-2011-2667 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['CA'] ['Total Defense Suite'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of CA Total Defense Suite r12. Authentication is not required to exploit this vulnerability. The specific flaw exists within the Icihttp.exe module (CA Gateway Security for HTTP), which responds to incoming HTTP requests on port 8080. Due to a flawed copy-loop algorithm in the URL parsing routine, it is possible for a remote unauthenticated user to cause an exploitable heap corruption condition. This could result in the execution of arbitrary code under the context of the Gateway Security service. CA20110720-01: Security Notice for CA Gateway Security and Total Defense https://support.ca.com/irj/portal/anonymous/phpsupcontent?contentID=%7b5E404992-6B58-4C44-A29D-027D05B6285D%7d ['2011-01-21 - Vulnerability reported to vendor', '2011-07-20 - Coordinated public release of advisory'] Andrea Micalizzi aka rgod https://www.zerodayinitiative.com/advisories/ZDI-11-237/",
+  "search_text": "published ZDI-11-237 ZDI-CAN-1017 CA Total Defense Suite Gateway Security Malformed HTTP Packet Remote Code Execution Vulnerability 2011-07-20 CVE-2011-2667 https://www.cve.org/CVERecord?id=CVE-2011-2667 10.0 ['CA'] ['Total Defense Suite'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of CA Total Defense Suite r12. Authentication is not required to exploit this vulnerability. The specific flaw exists within the Icihttp.exe module (CA Gateway Security for HTTP), which responds to incoming HTTP requests on port 8080. Due to a flawed copy-loop algorithm in the URL parsing routine, it is possible for a remote unauthenticated user to cause an exploitable heap corruption condition. This could result in the execution of arbitrary code under the context of the Gateway Security service. CA20110720-01: Security Notice for CA Gateway Security and Total Defense https://support.ca.com/irj/portal/anonymous/phpsupcontent?contentID=%7b5E404992-6B58-4C44-A29D-027D05B6285D%7d ['2011-01-21 - Vulnerability reported to vendor', '2011-07-20 - Coordinated public release of advisory'] Andrea Micalizzi aka rgod https://www.zerodayinitiative.com/advisories/ZDI-11-237/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-237/",
   "title": "CA Total Defense Suite Gateway Security Malformed HTTP Packet Remote Code Execution Vulnerability",
   "updated_date": null,

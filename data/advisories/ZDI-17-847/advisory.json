@@ -11,13 +11,13 @@
   "cve": "CVE-2017-11790",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-11790",
   "cvss": 2.6,
-  "cvss_vector": "AV:N/AC:H/Au:N/C:P/I:N/A:N",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2017-07-06 - Vulnerability reported to vendor",
     "2017-10-11 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-17-847 ZDI-CAN-4948 Microsoft Office Excel xls File Out-Of-Bounds Read Information Disclosure Vulnerability 2017-10-11 CVE-2017-11790 https://www.cve.org/CVERecord?id=CVE-2017-11790 2.6 AV:N/AC:H/Au:N/C:P/I:N/A:N ['Microsoft'] ['Office Excel'] This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Microsoft Office Excel. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the processing of Excel workbook files. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2017-11790 ['2017-07-06 - Vulnerability reported to vendor', '2017-10-11 - Coordinated public release of advisory'] Jaanus Kp Clarified Security https://www.zerodayinitiative.com/advisories/ZDI-17-847/",
+  "search_text": "published ZDI-17-847 ZDI-CAN-4948 Microsoft Office Excel xls File Out-Of-Bounds Read Information Disclosure Vulnerability 2017-10-11 CVE-2017-11790 https://www.cve.org/CVERecord?id=CVE-2017-11790 2.6 ['Microsoft'] ['Office Excel'] This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Microsoft Office Excel. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the processing of Excel workbook files. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2017-11790 ['2017-07-06 - Vulnerability reported to vendor', '2017-10-11 - Coordinated public release of advisory'] Jaanus Kp Clarified Security https://www.zerodayinitiative.com/advisories/ZDI-17-847/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-847/",
   "title": "Microsoft Office Excel xls File Out-Of-Bounds Read Information Disclosure Vulnerability",
   "updated_date": null,

@@ -11,13 +11,13 @@
   "cve": "CVE-2016-3295",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-3295",
   "cvss": 6.8,
-  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2016-05-26 - Vulnerability reported to vendor",
     "2016-09-16 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-16-511 ZDI-CAN-3792 Microsoft Edge CTreePos Type Confusion Remote Code Execution Vulnerability 2016-09-16 CVE-2016-3295 https://www.cve.org/CVERecord?id=CVE-2016-3295 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Microsoft'] ['Edge'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Edge. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw relates to how Edge handles text nodes within HTML documents. By manipulating a document's elements an attacker can cause Microsoft Edge to use a pointer to a CTreePos as if it were a pointer to a Tree::ANode. An attacker can leverage this vulnerability to execute code under the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/library/security/MS16-105 ['2016-05-26 - Vulnerability reported to vendor', '2016-09-16 - Coordinated public release of advisory'] Garage4Hackers https://www.zerodayinitiative.com/advisories/ZDI-16-511/",
+  "search_text": "published ZDI-16-511 ZDI-CAN-3792 Microsoft Edge CTreePos Type Confusion Remote Code Execution Vulnerability 2016-09-16 CVE-2016-3295 https://www.cve.org/CVERecord?id=CVE-2016-3295 6.8 ['Microsoft'] ['Edge'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Edge. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw relates to how Edge handles text nodes within HTML documents. By manipulating a document's elements an attacker can cause Microsoft Edge to use a pointer to a CTreePos as if it were a pointer to a Tree::ANode. An attacker can leverage this vulnerability to execute code under the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/library/security/MS16-105 ['2016-05-26 - Vulnerability reported to vendor', '2016-09-16 - Coordinated public release of advisory'] Garage4Hackers https://www.zerodayinitiative.com/advisories/ZDI-16-511/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-511/",
   "title": "Microsoft Edge CTreePos Type Confusion Remote Code Execution Vulnerability",
   "updated_date": null,

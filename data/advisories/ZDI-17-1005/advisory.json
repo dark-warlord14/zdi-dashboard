@@ -11,13 +11,13 @@
   "cve": "CVE-2017-17030",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-17030",
   "cvss": 10.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2017-10-09 - Vulnerability reported to vendor",
     "2017-12-20 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-17-1005 ZDI-CAN-5263 QNAP QTS authLogin Host Stack-based Buffer Overflow Remote Code Execution Vulnerability 2017-12-20 CVE-2017-17030 https://www.cve.org/CVERecord?id=CVE-2017-17030 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['QNAP'] ['QTS'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of QNAP QTS. Authentication is not required to exploit this vulnerability. The specific flaw exists within authLogin.cgi. When parsing the Host header, the process does not properly validate the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this vulnerability to execute code under the context of root. QNAP has issued an update to correct this vulnerability. More details can be found at: https://www.qnap.com/en/security-advisory/nas-201712-15 ['2017-10-09 - Vulnerability reported to vendor', '2017-12-20 - Coordinated public release of advisory'] Peter Andersson (@nervoir) https://www.zerodayinitiative.com/advisories/ZDI-17-1005/",
+  "search_text": "published ZDI-17-1005 ZDI-CAN-5263 QNAP QTS authLogin Host Stack-based Buffer Overflow Remote Code Execution Vulnerability 2017-12-20 CVE-2017-17030 https://www.cve.org/CVERecord?id=CVE-2017-17030 10.0 ['QNAP'] ['QTS'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of QNAP QTS. Authentication is not required to exploit this vulnerability. The specific flaw exists within authLogin.cgi. When parsing the Host header, the process does not properly validate the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this vulnerability to execute code under the context of root. QNAP has issued an update to correct this vulnerability. More details can be found at: https://www.qnap.com/en/security-advisory/nas-201712-15 ['2017-10-09 - Vulnerability reported to vendor', '2017-12-20 - Coordinated public release of advisory'] Peter Andersson (@nervoir) https://www.zerodayinitiative.com/advisories/ZDI-17-1005/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-1005/",
   "title": "QNAP QTS authLogin Host Stack-based Buffer Overflow Remote Code Execution Vulnerability",
   "updated_date": null,

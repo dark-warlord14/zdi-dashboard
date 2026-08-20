@@ -11,13 +11,13 @@
   "cve": "CVE-2014-0226",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-0226",
   "cvss": 7.5,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2014-05-30 - Vulnerability reported to vendor",
     "2014-07-16 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-14-236 ZDI-CAN-2340 Apache httpd mod_status Heap Buffer Overflow Remote Code Execution Vulnerability 2014-07-16 CVE-2014-0226 https://www.cve.org/CVERecord?id=CVE-2014-0226 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Apache'] ['HTTPD Server 2.x'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apache HTTPD server. Authentication is not required to exploit this vulnerability. The specific flaw exists within the updating of mod_status. A race condition in mod_status allows an attacker to disclose information or corrupt memory with several requests to endpoints with handler server-status and other endpoints. By abusing this flaw, an attacker can possibly disclose credentials or leverage this situation to achieve remote code execution. Apache has issued an update to correct this vulnerability. More details can be found at: http://mail-archives.apache.org/mod_mbox/httpd-cvs/201407.mbox/%3C20140714195504.EF60D23889E2@eris.apache.org%3E ['2014-05-30 - Vulnerability reported to vendor', '2014-07-16 - Coordinated public release of advisory'] AKAT-1 22733db72ab3ed94b5f8a1ffcde850251fe6f466 Marek Kroemeke https://www.zerodayinitiative.com/advisories/ZDI-14-236/",
+  "search_text": "published ZDI-14-236 ZDI-CAN-2340 Apache httpd mod_status Heap Buffer Overflow Remote Code Execution Vulnerability 2014-07-16 CVE-2014-0226 https://www.cve.org/CVERecord?id=CVE-2014-0226 7.5 ['Apache'] ['HTTPD Server 2.x'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apache HTTPD server. Authentication is not required to exploit this vulnerability. The specific flaw exists within the updating of mod_status. A race condition in mod_status allows an attacker to disclose information or corrupt memory with several requests to endpoints with handler server-status and other endpoints. By abusing this flaw, an attacker can possibly disclose credentials or leverage this situation to achieve remote code execution. Apache has issued an update to correct this vulnerability. More details can be found at: http://mail-archives.apache.org/mod_mbox/httpd-cvs/201407.mbox/%3C20140714195504.EF60D23889E2@eris.apache.org%3E ['2014-05-30 - Vulnerability reported to vendor', '2014-07-16 - Coordinated public release of advisory'] AKAT-1 22733db72ab3ed94b5f8a1ffcde850251fe6f466 Marek Kroemeke https://www.zerodayinitiative.com/advisories/ZDI-14-236/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-14-236/",
   "title": "Apache httpd mod_status Heap Buffer Overflow Remote Code Execution Vulnerability",
   "updated_date": null,

@@ -11,13 +11,13 @@
   "cve": "CVE-2012-0011",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2012-0011",
   "cvss": 9.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2011-10-21 - Vulnerability reported to vendor",
     "2012-02-22 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-12-035 ZDI-CAN-1299 Microsoft Internet Explorer CDispNode t:MEDIA Remote Code Execution Vulnerability 2012-02-22 CVE-2012-0011 https://www.cve.org/CVERecord?id=CVE-2012-0011 9.0 AV:N/AC:L/Au:N/C:P/I:P/A:C ['Microsoft'] ['Internet Explorer 9'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required in that a target must visit a malicious page or open a malicious file. The flaw exists within MSHTML, specifically the handling of an HTML time t:MEDIA element. A t:MEDIA element can be manipulated such that when the page is refreshed a reference to a freed CDispNode object remains allowing the repurpose of this region. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the process. Microsoft has issued an update to correct this vulnerability. More details can be found at: http://technet.microsoft.com/en-us/security/bulletin/MS12-010 ['2011-10-21 - Vulnerability reported to vendor', '2012-02-22 - Coordinated public release of advisory'] Stephen Fewer of Harmony Security (www.harmonysecurity.com) https://www.zerodayinitiative.com/advisories/ZDI-12-035/",
+  "search_text": "published ZDI-12-035 ZDI-CAN-1299 Microsoft Internet Explorer CDispNode t:MEDIA Remote Code Execution Vulnerability 2012-02-22 CVE-2012-0011 https://www.cve.org/CVERecord?id=CVE-2012-0011 9.0 ['Microsoft'] ['Internet Explorer 9'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required in that a target must visit a malicious page or open a malicious file. The flaw exists within MSHTML, specifically the handling of an HTML time t:MEDIA element. A t:MEDIA element can be manipulated such that when the page is refreshed a reference to a freed CDispNode object remains allowing the repurpose of this region. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the process. Microsoft has issued an update to correct this vulnerability. More details can be found at: http://technet.microsoft.com/en-us/security/bulletin/MS12-010 ['2011-10-21 - Vulnerability reported to vendor', '2012-02-22 - Coordinated public release of advisory'] Stephen Fewer of Harmony Security (www.harmonysecurity.com) https://www.zerodayinitiative.com/advisories/ZDI-12-035/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-12-035/",
   "title": "Microsoft Internet Explorer CDispNode t:MEDIA Remote Code Execution Vulnerability",
   "updated_date": null,

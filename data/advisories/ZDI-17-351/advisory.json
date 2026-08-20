@@ -11,13 +11,13 @@
   "cve": "CVE-2017-2545",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-2545",
   "cvss": 6.9,
-  "cvss_vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2017-03-17 - Vulnerability reported to vendor",
     "2017-05-15 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-17-351 ZDI-CAN-4614 (Pwn2Own) Apple macOS IOGraphic Use-After-Free Privilege Escalation Vulnerability 2017-05-15 CVE-2017-2545 https://www.cve.org/CVERecord?id=CVE-2017-2545 6.9 AV:L/AC:M/Au:N/C:C/I:C/A:C ['Apple'] ['macOS'] This vulnerability allows local attackers to escalate privileges on vulnerable installations of Apple macOS. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of the IOGraphic kext. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code under the context of the kernel. Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-us/HT207797 ['2017-03-17 - Vulnerability reported to vendor', '2017-05-15 - Coordinated public release of advisory'] 360 Vulcan Team https://www.zerodayinitiative.com/advisories/ZDI-17-351/",
+  "search_text": "published ZDI-17-351 ZDI-CAN-4614 (Pwn2Own) Apple macOS IOGraphic Use-After-Free Privilege Escalation Vulnerability 2017-05-15 CVE-2017-2545 https://www.cve.org/CVERecord?id=CVE-2017-2545 6.9 ['Apple'] ['macOS'] This vulnerability allows local attackers to escalate privileges on vulnerable installations of Apple macOS. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of the IOGraphic kext. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code under the context of the kernel. Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-us/HT207797 ['2017-03-17 - Vulnerability reported to vendor', '2017-05-15 - Coordinated public release of advisory'] 360 Vulcan Team https://www.zerodayinitiative.com/advisories/ZDI-17-351/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-351/",
   "title": "(Pwn2Own) Apple macOS IOGraphic Use-After-Free Privilege Escalation Vulnerability",
   "updated_date": null,

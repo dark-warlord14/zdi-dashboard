@@ -11,13 +11,13 @@
   "cve": "CVE-2010-1404",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2010-1404",
   "cvss": 10.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2010-02-23 - Vulnerability reported to vendor",
     "2010-06-08 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-10-096 ZDI-CAN-711 Apple Webkit Recursive Use Element Remote Code Execution Vulnerability 2010-06-08 CVE-2010-1404 https://www.cve.org/CVERecord?id=CVE-2010-1404 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Apple'] ['WebKit'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple's Webkit. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within how the WebKit library handles recursively defined Use elements. Upon expanding the target of the use element within the tree, the application will create a dual-reference of a Use element. Upon page deconstruction the application will destroy the single reference and then attempt to destroy the second one that is currently occupying the recently freed memory. Successful exploitation can lead to code execution under the context of the application. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT4196 ['2010-02-23 - Vulnerability reported to vendor', '2010-06-08 - Coordinated public release of advisory'] wushi of team509 https://www.zerodayinitiative.com/advisories/ZDI-10-096/",
+  "search_text": "published ZDI-10-096 ZDI-CAN-711 Apple Webkit Recursive Use Element Remote Code Execution Vulnerability 2010-06-08 CVE-2010-1404 https://www.cve.org/CVERecord?id=CVE-2010-1404 10.0 ['Apple'] ['WebKit'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple's Webkit. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within how the WebKit library handles recursively defined Use elements. Upon expanding the target of the use element within the tree, the application will create a dual-reference of a Use element. Upon page deconstruction the application will destroy the single reference and then attempt to destroy the second one that is currently occupying the recently freed memory. Successful exploitation can lead to code execution under the context of the application. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT4196 ['2010-02-23 - Vulnerability reported to vendor', '2010-06-08 - Coordinated public release of advisory'] wushi of team509 https://www.zerodayinitiative.com/advisories/ZDI-10-096/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-096/",
   "title": "Apple Webkit Recursive Use Element Remote Code Execution Vulnerability",
   "updated_date": null,

@@ -11,13 +11,13 @@
   "cve": "CVE-2016-0046",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-0046",
   "cvss": 6.8,
-  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2015-09-13 - Vulnerability reported to vendor",
     "2016-02-09 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-16-156 ZDI-CAN-3252 Microsoft Reader Uninitialized Pointer Remote Code Execution Vulnerability 2016-02-09 CVE-2016-0046 https://www.cve.org/CVERecord?id=CVE-2016-0046 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Microsoft'] ['Reader'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of PDF files. By providing a malformed PDF file, an attacker can cause an uninitialized pointer to be dereferenced. An attacker could leverage this to execute arbitrary code under the context of the process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/en-us/library/security/ms16-012.aspx ['2015-09-13 - Vulnerability reported to vendor', '2016-02-09 - Coordinated public release of advisory'] Jaanus Kp Clarified Security https://www.zerodayinitiative.com/advisories/ZDI-16-156/",
+  "search_text": "published ZDI-16-156 ZDI-CAN-3252 Microsoft Reader Uninitialized Pointer Remote Code Execution Vulnerability 2016-02-09 CVE-2016-0046 https://www.cve.org/CVERecord?id=CVE-2016-0046 6.8 ['Microsoft'] ['Reader'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of PDF files. By providing a malformed PDF file, an attacker can cause an uninitialized pointer to be dereferenced. An attacker could leverage this to execute arbitrary code under the context of the process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/en-us/library/security/ms16-012.aspx ['2015-09-13 - Vulnerability reported to vendor', '2016-02-09 - Coordinated public release of advisory'] Jaanus Kp Clarified Security https://www.zerodayinitiative.com/advisories/ZDI-16-156/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-156/",
   "title": "Microsoft Reader Uninitialized Pointer Remote Code Execution Vulnerability",
   "updated_date": null,

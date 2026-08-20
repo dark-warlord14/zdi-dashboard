@@ -11,13 +11,13 @@
   "cve": "CVE-2016-3231",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-3231",
   "cvss": 6.9,
-  "cvss_vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2016-03-17 - Vulnerability reported to vendor",
     "2016-06-22 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-16-372 ZDI-CAN-3622 (Pwn2Own) Microsoft Windows Diagnostics Hub Standard Collector Directory Traversal Privilege Escalation Vulnerability 2016-06-22 CVE-2016-3231 https://www.cve.org/CVERecord?id=CVE-2016-3231 6.9 AV:L/AC:M/Au:N/C:C/I:C/A:C ['Microsoft'] ['Windows'] This vulnerability allows local attackers to execute arbitrary code on vulnerable installations of Microsoft Windows Diagnostics Hub Standard Collector. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within DiagnosticsHub.StandardCollector.Service.exe. The issue lies in the failure to properly validate a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute code under the context of SYSTEM. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/library/security/MS16-078 ['2016-03-17 - Vulnerability reported to vendor', '2016-06-22 - Coordinated public release of advisory'] lokihardt https://www.zerodayinitiative.com/advisories/ZDI-16-372/",
+  "search_text": "published ZDI-16-372 ZDI-CAN-3622 (Pwn2Own) Microsoft Windows Diagnostics Hub Standard Collector Directory Traversal Privilege Escalation Vulnerability 2016-06-22 CVE-2016-3231 https://www.cve.org/CVERecord?id=CVE-2016-3231 6.9 ['Microsoft'] ['Windows'] This vulnerability allows local attackers to execute arbitrary code on vulnerable installations of Microsoft Windows Diagnostics Hub Standard Collector. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within DiagnosticsHub.StandardCollector.Service.exe. The issue lies in the failure to properly validate a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute code under the context of SYSTEM. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/library/security/MS16-078 ['2016-03-17 - Vulnerability reported to vendor', '2016-06-22 - Coordinated public release of advisory'] lokihardt https://www.zerodayinitiative.com/advisories/ZDI-16-372/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-372/",
   "title": "(Pwn2Own) Microsoft Windows Diagnostics Hub Standard Collector Directory Traversal Privilege Escalation Vulnerability",
   "updated_date": null,

@@ -11,13 +11,13 @@
   "cve": null,
   "cve_url": null,
   "cvss": 9.0,
-  "cvss_vector": "AV:N/AC:L/Au:S/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2010-01-15 - Vulnerability reported to vendor",
     "2010-02-18 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-10-018 ZDI-CAN-670 IBM Cognos Server Backdoor Account Remote Code Execution Vulnerability 2010-02-18 9.0 AV:N/AC:L/Au:S/C:C/I:C/A:C ['IBM'] ['Cognos'] This vulnerability allows remote attackers to execute remote code on vulnerable installations of IBM Cognos Server. Proper authentication is not required to exploit this vulnerability. The specific flaw exists due to a hidden manager-level account with a default password defined in the user configuration of the bundled Tomcat server. This server can be reached via HTTP on TCP port 19300. A malicious attacker can use this account to manage or deploy a servlet onto the server. By abusing this ability a remote attacker can execute arbitrary code under the context of the user running the Tomcat server. IBM has issued an update to correct this vulnerability. More details can be found at: http://www-01.ibm.com/support/docview.wss?uid=swg21419065 ['2010-01-15 - Vulnerability reported to vendor', '2010-02-18 - Coordinated public release of advisory'] AbdulAziz Hariri of Insight Technologies https://www.zerodayinitiative.com/advisories/ZDI-10-018/",
+  "search_text": "published ZDI-10-018 ZDI-CAN-670 IBM Cognos Server Backdoor Account Remote Code Execution Vulnerability 2010-02-18 9.0 ['IBM'] ['Cognos'] This vulnerability allows remote attackers to execute remote code on vulnerable installations of IBM Cognos Server. Proper authentication is not required to exploit this vulnerability. The specific flaw exists due to a hidden manager-level account with a default password defined in the user configuration of the bundled Tomcat server. This server can be reached via HTTP on TCP port 19300. A malicious attacker can use this account to manage or deploy a servlet onto the server. By abusing this ability a remote attacker can execute arbitrary code under the context of the user running the Tomcat server. IBM has issued an update to correct this vulnerability. More details can be found at: http://www-01.ibm.com/support/docview.wss?uid=swg21419065 ['2010-01-15 - Vulnerability reported to vendor', '2010-02-18 - Coordinated public release of advisory'] AbdulAziz Hariri of Insight Technologies https://www.zerodayinitiative.com/advisories/ZDI-10-018/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-018/",
   "title": "IBM Cognos Server Backdoor Account Remote Code Execution Vulnerability",
   "updated_date": null,

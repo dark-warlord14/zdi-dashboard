@@ -11,13 +11,13 @@
   "cve": "CVE-2017-17406",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-17406",
   "cvss": 7.5,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2017-07-05 - Vulnerability reported to vendor",
     "2017-12-13 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-17-953 ZDI-CAN-4753 NetGain Enterprise Manager RMI Registry Deserialization of Untrusted Data Remote Code Execution Vulnerability 2017-12-13 CVE-2017-17406 https://www.cve.org/CVERecord?id=CVE-2017-17406 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['NetGain Systems'] ['Enterprise Manager'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Netgain Enterprise Manager. Authentication is not required to exploit this vulnerability. The specific flaw exists within an exposed RMI registry, which listens on TCP ports 1800 and 1850 by default. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute arbitrary code under the context of the current process. Fixed for NetGain Enterprise Manager - fixed version: v7.2.766 and above ['2017-07-05 - Vulnerability reported to vendor', '2017-12-13 - Coordinated public release of advisory'] Jacob Baines - Tenable Network Security https://www.zerodayinitiative.com/advisories/ZDI-17-953/",
+  "search_text": "published ZDI-17-953 ZDI-CAN-4753 NetGain Enterprise Manager RMI Registry Deserialization of Untrusted Data Remote Code Execution Vulnerability 2017-12-13 CVE-2017-17406 https://www.cve.org/CVERecord?id=CVE-2017-17406 7.5 ['NetGain Systems'] ['Enterprise Manager'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Netgain Enterprise Manager. Authentication is not required to exploit this vulnerability. The specific flaw exists within an exposed RMI registry, which listens on TCP ports 1800 and 1850 by default. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute arbitrary code under the context of the current process. Fixed for NetGain Enterprise Manager - fixed version: v7.2.766 and above ['2017-07-05 - Vulnerability reported to vendor', '2017-12-13 - Coordinated public release of advisory'] Jacob Baines - Tenable Network Security https://www.zerodayinitiative.com/advisories/ZDI-17-953/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-953/",
   "title": "NetGain Enterprise Manager RMI Registry Deserialization of Untrusted Data Remote Code Execution Vulnerability",
   "updated_date": null,

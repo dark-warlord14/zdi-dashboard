@@ -11,13 +11,13 @@
   "cve": "CVE-2017-14016",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-14016",
   "cvss": 6.8,
-  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2017-07-19 - Vulnerability reported to vendor",
     "2017-12-06 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-17-938 ZDI-CAN-4949 Advantech WebAccess webvrpcs ViewDll1 Stack-based Buffer Overflow Remote Code Execution Vulnerability 2017-12-06 CVE-2017-14016 https://www.cve.org/CVERecord?id=CVE-2017-14016 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Advantech'] ['WebAccess'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Advantech WebAccess. Authentication is not required to exploit this vulnerability. The specific flaw exists within implementation of the 0x138bd IOCTL in the webvrpcs process. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this functionality to execute code under the context of Administrator. Advantech has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-17-306-02 ['2017-07-19 - Vulnerability reported to vendor', '2017-12-06 - Coordinated public release of advisory'] Steven Seeley (mr_me) of Offensive Security https://www.zerodayinitiative.com/advisories/ZDI-17-938/",
+  "search_text": "published ZDI-17-938 ZDI-CAN-4949 Advantech WebAccess webvrpcs ViewDll1 Stack-based Buffer Overflow Remote Code Execution Vulnerability 2017-12-06 CVE-2017-14016 https://www.cve.org/CVERecord?id=CVE-2017-14016 6.8 ['Advantech'] ['WebAccess'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Advantech WebAccess. Authentication is not required to exploit this vulnerability. The specific flaw exists within implementation of the 0x138bd IOCTL in the webvrpcs process. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this functionality to execute code under the context of Administrator. Advantech has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-17-306-02 ['2017-07-19 - Vulnerability reported to vendor', '2017-12-06 - Coordinated public release of advisory'] Steven Seeley (mr_me) of Offensive Security https://www.zerodayinitiative.com/advisories/ZDI-17-938/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-938/",
   "title": "Advantech WebAccess webvrpcs ViewDll1 Stack-based Buffer Overflow Remote Code Execution Vulnerability",
   "updated_date": null,

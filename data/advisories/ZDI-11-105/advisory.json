@@ -11,13 +11,13 @@
   "cve": "CVE-2011-0889",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-0889",
   "cvss": 10.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2010-09-23 - Vulnerability reported to vendor",
     "2011-03-18 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-11-105 ZDI-CAN-914 Hewlett-Packard Client Automation radexecd.exe Remote Code Execution Vulnerability 2011-03-18 CVE-2011-0889 https://www.cve.org/CVERecord?id=CVE-2011-0889 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Hewlett-Packard'] ['Client Automation'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of HP Client Automation. Authentication is not required to exploit this vulnerability. The flaw exists within the radexecd.exe component which listens by default on TCP port 3465. When handling a remote execute request the process does not properly authenticate the user issuing the request. Utilities are stored in the 'secure' path which enable an attacker to re-execute an arbitrary executable. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the SYSTEM user. Hewlett-Packard has issued an update to correct this vulnerability. More details can be found at: http://h20000.www2.hp.com/bizsupport/TechSupport/Document.jsp?objectID=c02750690 ['2010-09-23 - Vulnerability reported to vendor', '2011-03-18 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-11-105/",
+  "search_text": "published ZDI-11-105 ZDI-CAN-914 Hewlett-Packard Client Automation radexecd.exe Remote Code Execution Vulnerability 2011-03-18 CVE-2011-0889 https://www.cve.org/CVERecord?id=CVE-2011-0889 10.0 ['Hewlett-Packard'] ['Client Automation'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of HP Client Automation. Authentication is not required to exploit this vulnerability. The flaw exists within the radexecd.exe component which listens by default on TCP port 3465. When handling a remote execute request the process does not properly authenticate the user issuing the request. Utilities are stored in the 'secure' path which enable an attacker to re-execute an arbitrary executable. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the SYSTEM user. Hewlett-Packard has issued an update to correct this vulnerability. More details can be found at: http://h20000.www2.hp.com/bizsupport/TechSupport/Document.jsp?objectID=c02750690 ['2010-09-23 - Vulnerability reported to vendor', '2011-03-18 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-11-105/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-105/",
   "title": "Hewlett-Packard Client Automation radexecd.exe Remote Code Execution Vulnerability",
   "updated_date": null,

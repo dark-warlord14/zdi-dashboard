@@ -11,13 +11,13 @@
   "cve": "CVE-2015-3058",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-3058",
   "cvss": 5.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2015-01-27 - Vulnerability reported to vendor",
     "2015-05-12 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-15-211 ZDI-CAN-2706 Adobe Acrobat Pro Spell customDictionaryExport Information Disclosure Vulnerability 2015-05-12 CVE-2015-3058 https://www.cve.org/CVERecord?id=CVE-2015-3058 5.0 AV:N/AC:L/Au:N/C:P/I:N/A:N ['Adobe'] ['Acrobat Pro'] This vulnerability allows remote attackers to leak memory addresses from Spell.api on vulnerable installations of Adobe Acrobat Pro. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the Spell object. By creating and exporting a custom dictionary, it is possible to leak memory addresses from Spell.api. An attacker can leverage this vulnerability to disclose arbitrary memory. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/reader/apsb15-10.html ['2015-01-27 - Vulnerability reported to vendor', '2015-05-12 - Coordinated public release of advisory'] AbdulAziz Hariri - HP Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-15-211/",
+  "search_text": "published ZDI-15-211 ZDI-CAN-2706 Adobe Acrobat Pro Spell customDictionaryExport Information Disclosure Vulnerability 2015-05-12 CVE-2015-3058 https://www.cve.org/CVERecord?id=CVE-2015-3058 5.0 ['Adobe'] ['Acrobat Pro'] This vulnerability allows remote attackers to leak memory addresses from Spell.api on vulnerable installations of Adobe Acrobat Pro. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the Spell object. By creating and exporting a custom dictionary, it is possible to leak memory addresses from Spell.api. An attacker can leverage this vulnerability to disclose arbitrary memory. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/reader/apsb15-10.html ['2015-01-27 - Vulnerability reported to vendor', '2015-05-12 - Coordinated public release of advisory'] AbdulAziz Hariri - HP Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-15-211/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-211/",
   "title": "Adobe Acrobat Pro Spell customDictionaryExport Information Disclosure Vulnerability",
   "updated_date": null,

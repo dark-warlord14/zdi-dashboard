@@ -11,13 +11,13 @@
   "cve": "CVE-2009-4242",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2009-4242",
   "cvss": 10.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2007-12-11 - Vulnerability reported to vendor",
     "2010-01-21 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-10-006 ZDI-CAN-271 RealNetworks RealPlayer GIF Handling Remote Code Execution Vulnerability 2010-01-21 CVE-2009-4242 https://www.cve.org/CVERecord?id=CVE-2009-4242 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['RealNetworks'] ['RealPlayer'] This vulnerability allows remote attackers to execute code on vulnerable installations of RealNetworks RealPlayer. User interaction is required in that a user must open a malicious file or visit a malicious web site. The specific flaw exists during the parsing of GIF files with forged chunk sizes. The player uses values from the file improperly when allocating a buffer on the heap. An attacker can abuse this to create and then overflow heap buffers leading to arbitrary code execution in the context of the currently logged in user. RealNetworks has issued an update to correct this vulnerability. More details can be found at: http://service.real.com/realplayer/security/01192010_player/en/ ['2007-12-11 - Vulnerability reported to vendor', '2010-01-21 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-10-006/",
+  "search_text": "published ZDI-10-006 ZDI-CAN-271 RealNetworks RealPlayer GIF Handling Remote Code Execution Vulnerability 2010-01-21 CVE-2009-4242 https://www.cve.org/CVERecord?id=CVE-2009-4242 10.0 ['RealNetworks'] ['RealPlayer'] This vulnerability allows remote attackers to execute code on vulnerable installations of RealNetworks RealPlayer. User interaction is required in that a user must open a malicious file or visit a malicious web site. The specific flaw exists during the parsing of GIF files with forged chunk sizes. The player uses values from the file improperly when allocating a buffer on the heap. An attacker can abuse this to create and then overflow heap buffers leading to arbitrary code execution in the context of the currently logged in user. RealNetworks has issued an update to correct this vulnerability. More details can be found at: http://service.real.com/realplayer/security/01192010_player/en/ ['2007-12-11 - Vulnerability reported to vendor', '2010-01-21 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-10-006/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-006/",
   "title": "RealNetworks RealPlayer GIF Handling Remote Code Execution Vulnerability",
   "updated_date": null,

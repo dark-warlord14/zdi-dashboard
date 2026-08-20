@@ -11,13 +11,13 @@
   "cve": "CVE-2015-0982",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-0982",
   "cvss": 7.5,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2014-08-13 - Vulnerability reported to vendor",
     "2015-03-12 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-15-090 ZDI-CAN-2341 Schneider Electric DS-NVs Rvctl.RVControl.1 SetText Remote Code Execution Vulnerability 2015-03-12 CVE-2015-0982 https://www.cve.org/CVERecord?id=CVE-2015-0982 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Schneider Electric'] ['DS-NVs'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Schneider Electric DS-NVs. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the Rvctl.RVControl.1 ActiveX Control in rvctl.dll. The control does not check the length of an attacker-supplied string in the SetText method before copying it into a fixed length buffer on the stack. This allows an attacker to execute arbitrary code in the context of the browser process. Schneider Electric has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-15-071-01 ['2014-08-13 - Vulnerability reported to vendor', '2015-03-12 - Coordinated public release of advisory'] Ariele Caltabiano (kimiya) and Andrea Micalizzi (rgod) https://www.zerodayinitiative.com/advisories/ZDI-15-090/",
+  "search_text": "published ZDI-15-090 ZDI-CAN-2341 Schneider Electric DS-NVs Rvctl.RVControl.1 SetText Remote Code Execution Vulnerability 2015-03-12 CVE-2015-0982 https://www.cve.org/CVERecord?id=CVE-2015-0982 7.5 ['Schneider Electric'] ['DS-NVs'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Schneider Electric DS-NVs. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the Rvctl.RVControl.1 ActiveX Control in rvctl.dll. The control does not check the length of an attacker-supplied string in the SetText method before copying it into a fixed length buffer on the stack. This allows an attacker to execute arbitrary code in the context of the browser process. Schneider Electric has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-15-071-01 ['2014-08-13 - Vulnerability reported to vendor', '2015-03-12 - Coordinated public release of advisory'] Ariele Caltabiano (kimiya) and Andrea Micalizzi (rgod) https://www.zerodayinitiative.com/advisories/ZDI-15-090/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-090/",
   "title": "Schneider Electric DS-NVs Rvctl.RVControl.1 SetText Remote Code Execution Vulnerability",
   "updated_date": null,

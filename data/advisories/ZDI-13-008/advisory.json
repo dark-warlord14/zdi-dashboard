@@ -11,13 +11,13 @@
   "cve": "CVE-2012-0439",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2012-0439",
   "cvss": 7.5,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2011-08-12 - Vulnerability reported to vendor",
     "2013-02-01 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-13-008 ZDI-CAN-1329 Novell GroupWise gwcls1.dll ActiveX Control Remote Code Execution Vulnerability 2013-02-01 CVE-2012-0439 https://www.cve.org/CVERecord?id=CVE-2012-0439 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Novell'] ['Groupwise'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Novell Groupwise. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaws exists within multiple methods exposed by gwcls1.dll. There are 20 methods which accept an XPItem pointer and perform operations on the potentially malicious pointer without validation. Additionally, the SetEngine() method accepts an unvalidated pointer and performs operations and method calls based upon it. An attacker can manipulate these behaviors to execute arbitrary code on the user's system in the context of the browser. Novell has issued an update to correct this vulnerability. More details can be found at: http://www.novell.com/support/kb/doc.php?id=7011688 ['2011-08-12 - Vulnerability reported to vendor', '2013-02-01 - Coordinated public release of advisory'] Andrea Micalizzi aka rgod https://www.zerodayinitiative.com/advisories/ZDI-13-008/",
+  "search_text": "published ZDI-13-008 ZDI-CAN-1329 Novell GroupWise gwcls1.dll ActiveX Control Remote Code Execution Vulnerability 2013-02-01 CVE-2012-0439 https://www.cve.org/CVERecord?id=CVE-2012-0439 7.5 ['Novell'] ['Groupwise'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Novell Groupwise. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaws exists within multiple methods exposed by gwcls1.dll. There are 20 methods which accept an XPItem pointer and perform operations on the potentially malicious pointer without validation. Additionally, the SetEngine() method accepts an unvalidated pointer and performs operations and method calls based upon it. An attacker can manipulate these behaviors to execute arbitrary code on the user's system in the context of the browser. Novell has issued an update to correct this vulnerability. More details can be found at: http://www.novell.com/support/kb/doc.php?id=7011688 ['2011-08-12 - Vulnerability reported to vendor', '2013-02-01 - Coordinated public release of advisory'] Andrea Micalizzi aka rgod https://www.zerodayinitiative.com/advisories/ZDI-13-008/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-13-008/",
   "title": "Novell GroupWise gwcls1.dll ActiveX Control Remote Code Execution Vulnerability",
   "updated_date": null,

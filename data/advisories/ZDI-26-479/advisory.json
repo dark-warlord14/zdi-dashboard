@@ -1,0 +1,28 @@
+{
+  "additional_details": "Fixed in release build 25.03.01.24 ( https://www.heimdalldata.com/release-notes )",
+  "advisory_date": "2026-07-29",
+  "affected_products": [
+    "Database Proxy"
+  ],
+  "affected_vendors": [
+    "Heimdall Data"
+  ],
+  "credit": "Do Quoc Anh (@anhdq201) from mbbank.com.vn",
+  "cve": "CVE-2026-18274",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-18274",
+  "cvss": 7.2,
+  "cvss_vector": "AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2026-04-14 - Vulnerability reported to vendor",
+    "2026-07-29 - Coordinated public release of advisory",
+    "2026-07-29 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-26-479 ZDI-CAN-28603 Heimdall Data Database Proxy uploadJar Directory Traversal Remote Code Execution Vulnerability 2026-07-29 CVE-2026-18274 https://www.cve.org/CVERecord?id=CVE-2026-18274 7.2 AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H ['Heimdall Data'] ['Database Proxy'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Heimdall Data Database Proxy. Authentication is required to exploit this vulnerability. The specific flaw exists within the uploadJar method. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute code in the context of root. Fixed in release build 25.03.01.24 ( https://www.heimdalldata.com/release-notes ) ['2026-04-14 - Vulnerability reported to vendor', '2026-07-29 - Coordinated public release of advisory', '2026-07-29 - Advisory Updated'] Do Quoc Anh (@anhdq201) from mbbank.com.vn https://www.zerodayinitiative.com/advisories/ZDI-26-479/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-479/",
+  "title": "Heimdall Data Database Proxy uploadJar Directory Traversal Remote Code Execution Vulnerability",
+  "updated_date": "2026-07-29",
+  "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Heimdall Data Database Proxy. Authentication is required to exploit this vulnerability. The specific flaw exists within the uploadJar method. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute code in the context of root.",
+  "zdi_can": "ZDI-CAN-28603",
+  "zdi_id": "ZDI-26-479"
+}

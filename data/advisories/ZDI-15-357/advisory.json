@@ -11,13 +11,13 @@
   "cve": "CVE-2015-4745",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-4745",
   "cvss": 6.5,
-  "cvss_vector": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2015-02-25 - Vulnerability reported to vendor",
     "2015-07-20 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-15-357 ZDI-CAN-2770 Oracle Endeca Information Discovery Integrator ETL Server File Download Remote Code Execution Vulnerability 2015-07-20 CVE-2015-4745 https://www.cve.org/CVERecord?id=CVE-2015-4745 6.5 AV:N/AC:L/Au:S/C:P/I:P/A:P ['Oracle'] ['Endeca Tools and Frameworks'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable instances of Oracle Endeca Information Discovery. Authentication is required to exploit this vulnerability but an authentication bypass is known. The specific flaw exists within the handling of file downloads. The issue lies in the failure to sanitize the path of files to be downloaded. A remote attacker can exploit this vulnerability to read server configuration files. This exfiltrated information can then be used to access the system with the privileges of the clover server. Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/cpujul2015-2367936.html ['2015-02-25 - Vulnerability reported to vendor', '2015-07-20 - Coordinated public release of advisory'] Steven Seeley of Source Incite https://www.zerodayinitiative.com/advisories/ZDI-15-357/",
+  "search_text": "published ZDI-15-357 ZDI-CAN-2770 Oracle Endeca Information Discovery Integrator ETL Server File Download Remote Code Execution Vulnerability 2015-07-20 CVE-2015-4745 https://www.cve.org/CVERecord?id=CVE-2015-4745 6.5 ['Oracle'] ['Endeca Tools and Frameworks'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable instances of Oracle Endeca Information Discovery. Authentication is required to exploit this vulnerability but an authentication bypass is known. The specific flaw exists within the handling of file downloads. The issue lies in the failure to sanitize the path of files to be downloaded. A remote attacker can exploit this vulnerability to read server configuration files. This exfiltrated information can then be used to access the system with the privileges of the clover server. Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/cpujul2015-2367936.html ['2015-02-25 - Vulnerability reported to vendor', '2015-07-20 - Coordinated public release of advisory'] Steven Seeley of Source Incite https://www.zerodayinitiative.com/advisories/ZDI-15-357/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-357/",
   "title": "Oracle Endeca Information Discovery Integrator ETL Server File Download Remote Code Execution Vulnerability",
   "updated_date": null,

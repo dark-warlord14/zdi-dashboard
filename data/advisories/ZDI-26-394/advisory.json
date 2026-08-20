@@ -1,0 +1,28 @@
+{
+  "additional_details": "X.Org has issued an update to correct this vulnerability. More details can be found at: https://gitlab.freedesktop.org/xorg/xserver/-/commit/f5abfb61994471023d8c6470428c8e30c411cc0b",
+  "advisory_date": "2026-06-24",
+  "affected_products": [
+    "Server"
+  ],
+  "affected_vendors": [
+    "X.Org"
+  ],
+  "credit": "Anonymous",
+  "cve": "CVE-2026-50260",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-50260",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2026-04-17 - Vulnerability reported to vendor",
+    "2026-06-24 - Coordinated public release of advisory",
+    "2026-06-24 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-26-394 ZDI-CAN-30163 X.Org Server FreeCounter Use-After-Free Privilege Escalation Vulnerability 2026-06-24 CVE-2026-50260 https://www.cve.org/CVERecord?id=CVE-2026-50260 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['X.Org'] ['Server'] This vulnerability allows local attackers to escalate privileges on affected installations of X.Org Server. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of SyncAwait objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root. X.Org has issued an update to correct this vulnerability. More details can be found at: https://gitlab.freedesktop.org/xorg/xserver/-/commit/f5abfb61994471023d8c6470428c8e30c411cc0b ['2026-04-17 - Vulnerability reported to vendor', '2026-06-24 - Coordinated public release of advisory', '2026-06-24 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-394/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-394/",
+  "title": "X.Org Server FreeCounter Use-After-Free Privilege Escalation Vulnerability",
+  "updated_date": "2026-06-24",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of X.Org Server. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of SyncAwait objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root.",
+  "zdi_can": "ZDI-CAN-30163",
+  "zdi_id": "ZDI-26-394"
+}
