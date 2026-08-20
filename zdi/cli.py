@@ -25,9 +25,10 @@ def cli() -> None:
 @cli.command()
 @click.option("--data-dir", type=click.Path(path_type=Path), default=DATA_DIR)
 @click.option("--workers", default=12, show_default=True, help="Concurrent detail fetch workers.")
-def run(data_dir: Path, workers: int) -> None:
+@click.option("--force", is_flag=True, default=False, help="Re-fetch every advisory, ignoring the cache.")
+def run(data_dir: Path, workers: int, force: bool) -> None:
     """Fetch advisories and rebuild public data files."""
-    published, upcoming = run_pipeline(data_dir=data_dir, max_workers=workers, verbose=True)
+    published, upcoming = run_pipeline(data_dir=data_dir, max_workers=workers, verbose=True, force=force)
     click.echo(f"Wrote {len(published)} published and {len(upcoming)} upcoming advisories to {data_dir}")
 
 

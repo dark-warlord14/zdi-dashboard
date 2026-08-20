@@ -11,6 +11,7 @@ from zdi.scraper import (
     guard_against_year_chunk_collapse,
     load_advisory_chunks,
     load_existing_detail,
+    scrape_details,
     write_advisory_chunks,
     write_public_data,
 )
@@ -116,6 +117,25 @@ def test_load_existing_detail_misses_cache_when_only_new_updated_date_is_present
     result = load_existing_detail(flat_chunks, record)
 
     assert result is None
+
+
+def test_scrape_details_force_bypasses_cache_and_refetches(tmp_path):
+    cached = sample_detail()
+    cached.updated_date = "2026-01-09"
+    write_advisory_chunks(tmp_path, {"2026": {"ZDI-26-040": cached}})
+    record = sample_published()
+    record.updated_date = "2026-01-09"
+
+    calls = []
+
+    def fake_fetch(url):
+        calls.append(url)
+        return "<html><article><h1>Refetched</h1></article></html>"
+
+    details = scrape_details([record], data_dir=tmp_path, fetch=fake_fetch, force=True)
+
+    assert calls == [record.url]
+    assert details["ZDI-26-040"].title == "Refetched"
 
 
 def test_flatten_advisory_chunks_merges_multiple_years():

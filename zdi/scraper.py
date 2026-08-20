@@ -96,8 +96,9 @@ def scrape_details(
     fetch=fetch_html,
     max_workers: int = 12,
     verbose: bool = False,
+    force: bool = False,
 ) -> dict[str, AdvisoryDetail]:
-    flat_chunks = flatten_advisory_chunks(load_advisory_chunks(data_dir))
+    flat_chunks = {} if force else flatten_advisory_chunks(load_advisory_chunks(data_dir))
     details: dict[str, AdvisoryDetail] = {}
     total = len(records)
     completed = 0
@@ -272,6 +273,7 @@ def run(
     fetch=fetch_html,
     max_workers: int = 12,
     verbose: bool = False,
+    force: bool = False,
 ) -> tuple[list[PublishedAdvisory], list[UpcomingAdvisory]]:
     published = scrape_published(fetch=fetch, verbose=verbose)
     if verbose:
@@ -280,6 +282,8 @@ def run(
     if verbose:
         print(f"Found {len(upcoming)} upcoming advisories")
     guard_against_empty_scrape(data_dir, published, upcoming)
-    details = scrape_details(published, data_dir=data_dir, fetch=fetch, max_workers=max_workers, verbose=verbose)
+    details = scrape_details(
+        published, data_dir=data_dir, fetch=fetch, max_workers=max_workers, verbose=verbose, force=force
+    )
     write_public_data(data_dir, published, upcoming, details)
     return published, upcoming
