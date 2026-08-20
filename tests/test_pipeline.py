@@ -202,6 +202,40 @@ def test_write_public_data_creates_index_and_detail_files(tmp_path):
     assert year_chunk["ZDI-26-040"]["title"] == "Discord Client Privilege Escalation"
 
 
+def test_write_public_data_is_idempotent(tmp_path):
+    write_public_data(tmp_path, [sample_published()], [sample_upcoming()], {"ZDI-26-040": sample_detail()})
+    first = (tmp_path / "advisories" / "2026.json").read_bytes()
+
+    write_public_data(tmp_path, [sample_published()], [sample_upcoming()], {"ZDI-26-040": sample_detail()})
+    second = (tmp_path / "advisories" / "2026.json").read_bytes()
+
+    assert first == second
+
+
+def test_scrape_details_cache_hit_never_calls_fetch(tmp_path):
+    cached = sample_detail()
+    cached.updated_date = "2026-01-09"
+    write_advisory_chunks(tmp_path, {"2026": {"ZDI-26-040": cached}})
+    record = sample_published()
+    record.updated_date = "2026-01-09"
+
+    def fetch_should_not_be_called(url):
+        pytest.fail(f"fetch should not be called for a cache hit, but was called with {url}")
+
+    details = scrape_details([record], data_dir=tmp_path, fetch=fetch_should_not_be_called)
+
+    assert details["ZDI-26-040"] == cached
+
+
+def test_write_public_data_falls_back_to_unknown_year_chunk(tmp_path):
+    detail = AdvisoryDetail(zdi_id="ZDI-00-000", title="No dates anywhere", source_url="https://x")
+
+    write_public_data(tmp_path, [], [], {"ZDI-00-000": detail})
+
+    unknown = json.loads((tmp_path / "advisories" / "unknown.json").read_text(encoding="utf-8"))
+    assert unknown["ZDI-00-000"]["title"] == "No dates anywhere"
+
+
 def test_write_public_data_guard_runs_before_any_file_is_written(tmp_path):
     write_advisory_chunks(tmp_path, {"2026": {f"ZDI-26-{i:03d}": sample_detail() for i in range(20)}})
 
