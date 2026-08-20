@@ -158,3 +158,16 @@ def test_load_advisory_chunks_skips_unreadable_files(tmp_path):
     (advisories_dir / "2026.json").write_text("not valid json", encoding="utf-8")
 
     assert load_advisory_chunks(tmp_path) == {}
+
+
+def test_load_advisory_chunks_skips_schema_invalid_file_but_keeps_valid_ones(tmp_path):
+    write_advisory_chunks(tmp_path, {"2025": {"ZDI-25-001": sample_detail()}})
+    advisories_dir = tmp_path / "advisories"
+    (advisories_dir / "2026.json").write_text(
+        json.dumps({"ZDI-26-999": {"not_a_real_field": "boom"}}), encoding="utf-8"
+    )
+
+    loaded = load_advisory_chunks(tmp_path)
+
+    assert set(loaded) == {"2025"}
+    assert loaded["2025"]["ZDI-25-001"].title == sample_detail().title

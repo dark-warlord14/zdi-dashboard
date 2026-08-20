@@ -9,6 +9,7 @@ from pathlib import Path
 from urllib.parse import urljoin
 
 import requests
+from pydantic import ValidationError
 
 from zdi.config import BASE_URL, DATA_DIR, PUBLISHED_URL, UPCOMING_URL
 from zdi.models import AdvisoryDetail, PublishedAdvisory, UpcomingAdvisory
@@ -149,11 +150,11 @@ def load_advisory_chunks(data_dir: Path) -> dict[str, dict[str, AdvisoryDetail]]
     for path in advisories_dir.glob("*.json"):
         try:
             raw = json.loads(path.read_text(encoding="utf-8"))
-        except (json.JSONDecodeError, OSError):
+            chunks[path.stem] = {
+                zdi_id: AdvisoryDetail.model_validate(payload) for zdi_id, payload in raw.items()
+            }
+        except (json.JSONDecodeError, OSError, ValidationError):
             continue
-        chunks[path.stem] = {
-            zdi_id: AdvisoryDetail.model_validate(payload) for zdi_id, payload in raw.items()
-        }
     return chunks
 
 
