@@ -154,7 +154,22 @@ def test_load_advisory_chunks_skips_unreadable_files(tmp_path):
     (advisories_dir / "2026.json").write_text("not valid json", encoding="utf-8")
 
     assert load_advisory_chunks(tmp_path) == {}
+
+
+def test_load_advisory_chunks_skips_schema_invalid_file_but_keeps_valid_ones(tmp_path):
+    write_advisory_chunks(tmp_path, {"2025": {"ZDI-25-001": sample_detail()}})
+    advisories_dir = tmp_path / "advisories"
+    (advisories_dir / "2026.json").write_text(
+        json.dumps({"ZDI-26-999": {"not_a_real_field": "boom"}}), encoding="utf-8"
+    )
+
+    loaded = load_advisory_chunks(tmp_path)
+
+    assert set(loaded) == {"2025"}
+    assert loaded["2025"]["ZDI-25-001"].title == sample_detail().title
 ```
+
+This uses `json` (already imported at the top of `tests/test_pipeline.py`). The schema-invalid record (missing `AdvisoryDetail`'s required `title` and `source_url` fields) must raise `pydantic.ValidationError` inside `AdvisoryDetail.model_validate(...)` — the fix in Step 3 below must catch that alongside `json.JSONDecodeError`/`OSError`, or this test fails with an unhandled `ValidationError` instead of skipping the bad file.
 
 - [ ] **Step 2: Run tests to verify they fail**
 
@@ -164,6 +179,8 @@ Expected: FAIL with `ImportError: cannot import name 'load_advisory_chunks'`
 - [ ] **Step 3: Implement**
 
 Add to `zdi/scraper.py`:
+
+Add `from pydantic import ValidationError` to the top of `zdi/scraper.py`'s import block.
 
 ```python
 def load_advisory_chunks(data_dir: Path) -> dict[str, dict[str, AdvisoryDetail]]:
@@ -175,11 +192,11 @@ def load_advisory_chunks(data_dir: Path) -> dict[str, dict[str, AdvisoryDetail]]
     for path in advisories_dir.glob("*.json"):
         try:
             raw = json.loads(path.read_text(encoding="utf-8"))
-        except (json.JSONDecodeError, OSError):
+            chunks[path.stem] = {
+                zdi_id: AdvisoryDetail.model_validate(payload) for zdi_id, payload in raw.items()
+            }
+        except (json.JSONDecodeError, OSError, ValidationError):
             continue
-        chunks[path.stem] = {
-            zdi_id: AdvisoryDetail.model_validate(payload) for zdi_id, payload in raw.items()
-        }
     return chunks
 
 
