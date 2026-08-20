@@ -21,7 +21,6 @@ def seed_data(data_dir: Path) -> None:
             updated_date="2026-01-09",
             title="Discord Client Privilege Escalation",
             url="https://www.zerodayinitiative.com/advisories/ZDI-26-040/",
-            detail_path="advisories/ZDI-26-040",
         )
     ]
     upcoming = [

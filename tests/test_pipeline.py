@@ -27,7 +27,6 @@ def sample_published() -> PublishedAdvisory:
         updated_date="2026-01-09",
         title="Discord Client Privilege Escalation",
         url="https://www.zerodayinitiative.com/advisories/ZDI-26-040/",
-        detail_path="advisories/ZDI-26-040",
     )
 
 
@@ -163,6 +162,7 @@ def test_write_public_data_creates_index_and_detail_files(tmp_path):
 
     assert index[0]["id"] == "ZDI-26-040"
     assert index[0]["description_snippet"] == "Local attackers can escalate privileges."
+    assert index[0]["detail_json"] == "/data/advisories/2026.json"
     assert "detail_markdown" not in index[0]
     assert index[1]["id"] == "ZDI-CAN-30796"
     assert published[0]["zdi_id"] == "ZDI-26-040"

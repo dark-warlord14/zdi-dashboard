@@ -16,7 +16,6 @@ class PublishedAdvisory(BaseModel):
     updated_date: str | None = None
     title: str
     url: str
-    detail_path: str | None = None
 
 
 class UpcomingAdvisory(BaseModel):

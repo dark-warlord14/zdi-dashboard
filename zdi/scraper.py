@@ -189,13 +189,14 @@ def index_entries(
     upcoming: list[UpcomingAdvisory],
     details: dict[str, AdvisoryDetail],
 ) -> list[dict]:
+    published_lookup = {record.zdi_id: record.published_date for record in published if record.published_date}
     entries: list[dict] = []
     for record in published:
         data = record.model_dump()
         data["id"] = record.zdi_id
         data["status"] = "published"
         data["description_snippet"] = description_snippet(details.get(record.zdi_id))
-        data["detail_json"] = f"/data/advisories/{record.zdi_id}/advisory.json"
+        data["detail_json"] = f"/data/advisories/{advisory_year(record.zdi_id, published_lookup)}.json"
         entries.append(data)
     for record in upcoming:
         data = record.model_dump()
