@@ -371,3 +371,9 @@ def test_guard_against_year_chunk_collapse_raises_when_year_vanishes_entirely(tm
 
     with pytest.raises(RuntimeError):
         guard_against_year_chunk_collapse(tmp_path, {"2026": {"ZDI-26-001": sample_detail()}})
+
+
+def test_guard_against_year_chunk_collapse_allows_unknown_bucket_to_vanish_entirely(tmp_path):
+    write_advisory_chunks(tmp_path, {"unknown": {f"ZDI-15-{i:03d}": sample_detail() for i in range(15)}})
+
+    guard_against_year_chunk_collapse(tmp_path, {"2026": {"ZDI-26-001": sample_detail()}})

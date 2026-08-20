@@ -260,6 +260,11 @@ def guard_against_year_chunk_collapse(data_dir: Path, grouped: dict[str, dict[st
         path = advisories_dir / f"{year}.json"
         if not path.exists():
             continue
+        if year == "unknown" and year not in grouped:
+            # Unlike real years, the unknown bucket is expected to shrink to nothing as
+            # parser fixes resolve dates for previously-unbucketed records. Only real
+            # (4-digit) years count as a suspicious collapse when absent from `grouped`.
+            continue
         try:
             existing_count = len(json.loads(path.read_text(encoding="utf-8")))
         except (json.JSONDecodeError, OSError, TypeError):
