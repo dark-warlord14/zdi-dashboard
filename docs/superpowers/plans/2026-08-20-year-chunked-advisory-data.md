@@ -423,7 +423,7 @@ def test_load_existing_detail_misses_cache_when_updated_date_differs():
     assert result is None
 
 
-def test_load_existing_detail_misses_cache_when_updated_date_is_null():
+def test_load_existing_detail_reuses_cache_when_updated_date_is_null_on_both_sides():
     cached = sample_detail()
     cached.updated_date = None
     chunks = {"2026": {"ZDI-26-040": cached}}
@@ -432,8 +432,22 @@ def test_load_existing_detail_misses_cache_when_updated_date_is_null():
 
     result = load_existing_detail(chunks, {"ZDI-26-040": "2026-01-09"}, record)
 
+    assert result is cached
+
+
+def test_load_existing_detail_misses_cache_when_only_new_updated_date_is_present():
+    cached = sample_detail()
+    cached.updated_date = None
+    chunks = {"2026": {"ZDI-26-040": cached}}
+    record = sample_published()
+    record.updated_date = "2026-01-09"
+
+    result = load_existing_detail(chunks, {"ZDI-26-040": "2026-01-09"}, record)
+
     assert result is None
 ```
+
+An advisory that ZDI has never shown an "Updated" date for (67% of the real archive, verified: 11,408/16,992 published advisories) has `updated_date: null` on both the cached copy and every future scrape of the same list page. Requiring `record.updated_date` to be truthy before trusting the cache means these records NEVER hit cache — they're re-fetched over the network on every single run, forever. This was measured directly: a real `zdi run --workers 32` took 14 minutes with a 32.9% cache-hit rate, when it should complete in well under a minute. Treating `None == None` as a match (i.e. "this advisory has never been revised, on either side") fixes this while still correctly detecting the transition from never-updated to updated (a record whose `updated_date` newly becomes truthy no longer equals the cached `None` and correctly misses cache, as covered by the second test above).
 
 - [ ] **Step 2: Run tests to verify they fail**
 
@@ -452,7 +466,7 @@ def load_existing_detail(
 ) -> AdvisoryDetail | None:
     year = advisory_year(record.zdi_id, published_lookup)
     existing = chunks.get(year, {}).get(record.zdi_id)
-    if existing and record.updated_date and existing.updated_date == record.updated_date:
+    if existing and existing.updated_date == record.updated_date:
         return existing
     return None
 
