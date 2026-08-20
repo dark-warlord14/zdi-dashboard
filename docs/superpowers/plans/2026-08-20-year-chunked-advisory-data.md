@@ -700,23 +700,19 @@ In `ui/js/app.js`, replace the `showDetail` method body:
     async showDetail(id) {
         const app = document.getElementById('app');
         app.innerHTML = '<p class="loading-initial">Loading advisory...</p>';
+        const notFound = () => { app.innerHTML = '<div class="panel">Advisory detail not found.</div>'; };
+
         const indexRecord = (this.index || []).find(r => r.id === id);
         const year = indexRecord && indexRecord.published_date ? indexRecord.published_date.slice(0, 4) : null;
-        if (!year) {
-            app.innerHTML = '<div class="panel">Advisory detail not found.</div>';
-            return;
-        }
+        if (!year) return notFound();
+
         const chunkRes = await fetch(`/data/advisories/${year}.json`);
-        if (!chunkRes.ok) {
-            app.innerHTML = '<div class="panel">Advisory detail not found.</div>';
-            return;
-        }
+        if (!chunkRes.ok) return notFound();
+
         const chunk = await chunkRes.json();
         const detail = chunk[id];
-        if (!detail) {
-            app.innerHTML = '<div class="panel">Advisory detail not found.</div>';
-            return;
-        }
+        if (!detail) return notFound();
+
         const markdown = this.detailMarkdown(detail);
         app.innerHTML = `
             <div class="detail-layout">
