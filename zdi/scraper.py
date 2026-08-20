@@ -230,6 +230,24 @@ def guard_against_empty_scrape(data_dir: Path, published: list[PublishedAdvisory
             )
 
 
+def guard_against_year_chunk_collapse(data_dir: Path, grouped: dict[str, dict[str, AdvisoryDetail]]) -> None:
+    """Refuse to overwrite a year's advisories with a near-empty result (e.g. a broken parser)."""
+    advisories_dir = data_dir / "advisories"
+    for year, details_by_id in grouped.items():
+        path = advisories_dir / f"{year}.json"
+        if not path.exists():
+            continue
+        try:
+            existing_count = len(json.loads(path.read_text(encoding="utf-8")))
+        except (json.JSONDecodeError, OSError):
+            continue
+        if existing_count >= 10 and len(details_by_id) < existing_count * 0.5:
+            raise RuntimeError(
+                f"Refusing to overwrite {existing_count} advisories in {year}.json with only "
+                f"{len(details_by_id)} newly built ones. The parser may be broken."
+            )
+
+
 def run(
     data_dir: Path = DATA_DIR,
     fetch=fetch_html,

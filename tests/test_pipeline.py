@@ -7,6 +7,7 @@ from zdi.scraper import (
     advisory_year,
     group_details_by_year,
     guard_against_empty_scrape,
+    guard_against_year_chunk_collapse,
     load_advisory_chunks,
     write_advisory_chunks,
     write_public_data,
@@ -171,3 +172,22 @@ def test_load_advisory_chunks_skips_schema_invalid_file_but_keeps_valid_ones(tmp
 
     assert set(loaded) == {"2025"}
     assert loaded["2025"]["ZDI-25-001"].title == sample_detail().title
+
+
+def test_guard_against_year_chunk_collapse_raises_on_drop(tmp_path):
+    write_advisory_chunks(tmp_path, {"2026": {f"ZDI-26-{i:03d}": sample_detail() for i in range(20)}})
+
+    with pytest.raises(RuntimeError):
+        guard_against_year_chunk_collapse(tmp_path, {"2026": {"ZDI-26-001": sample_detail()}})
+
+
+def test_guard_against_year_chunk_collapse_allows_growth(tmp_path):
+    write_advisory_chunks(tmp_path, {"2026": {f"ZDI-26-{i:03d}": sample_detail() for i in range(20)}})
+
+    guard_against_year_chunk_collapse(
+        tmp_path, {"2026": {f"ZDI-26-{i:03d}": sample_detail() for i in range(25)}}
+    )
+
+
+def test_guard_against_year_chunk_collapse_ignores_new_year(tmp_path):
+    guard_against_year_chunk_collapse(tmp_path, {"2026": {"ZDI-26-001": sample_detail()}})
