@@ -11,13 +11,13 @@
   "cve": "CVE-2015-6715",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-6715",
   "cvss": 7.5,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2015-07-24 - Vulnerability reported to vendor",
     "2015-10-13 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-15-491 ZDI-CAN-3067 Adobe Acrobat Reader DC apply Javascript API Restrictions Bypass Vulnerability 2015-10-13 CVE-2015-6715 https://www.cve.org/CVERecord?id=CVE-2015-6715 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Adobe'] ['Acrobat Reader DC'] This vulnerability allows remote attackers to bypass API restrictions on vulnerable installations of Adobe Acrobat Reader DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the apply method of Function objects. By creating a specially crafted PDF with specific Javascript instructions, it is possible to bypass the Javascript API restrictions. A remote attacker could exploit this vulnerability to execute arbitrary code. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb15-24.html ['2015-07-24 - Vulnerability reported to vendor', '2015-10-13 - Coordinated public release of advisory'] WanderingGlitch of HP Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-15-491/",
+  "search_text": "published ZDI-15-491 ZDI-CAN-3067 Adobe Acrobat Reader DC apply Javascript API Restrictions Bypass Vulnerability 2015-10-13 CVE-2015-6715 https://www.cve.org/CVERecord?id=CVE-2015-6715 7.5 ['Adobe'] ['Acrobat Reader DC'] This vulnerability allows remote attackers to bypass API restrictions on vulnerable installations of Adobe Acrobat Reader DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the apply method of Function objects. By creating a specially crafted PDF with specific Javascript instructions, it is possible to bypass the Javascript API restrictions. A remote attacker could exploit this vulnerability to execute arbitrary code. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb15-24.html ['2015-07-24 - Vulnerability reported to vendor', '2015-10-13 - Coordinated public release of advisory'] WanderingGlitch of HP Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-15-491/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-491/",
   "title": "Adobe Acrobat Reader DC apply Javascript API Restrictions Bypass Vulnerability",
   "updated_date": null,

@@ -11,13 +11,13 @@
   "cve": "CVE-2015-0037",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-0037",
   "cvss": 6.8,
-  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2014-10-09 - Vulnerability reported to vendor",
     "2015-02-10 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-15-020 ZDI-CAN-2562 Microsoft Internet Explorer Ptls6::LsFmtText Out-Of-Bounds Read Remote Code Execution Vulnerability 2015-02-10 CVE-2015-0037 https://www.cve.org/CVERecord?id=CVE-2015-0037 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Microsoft'] ['Internet Explorer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of arguments passed to the Ptls6::LsFmtText function. By manipulating a document's elements an attacker can access data outside the bounds of an allocated buffer. An attacker can leverage this vulnerability to execute code under the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/library/security/MS15-009 ['2014-10-09 - Vulnerability reported to vendor', '2015-02-10 - Coordinated public release of advisory'] sweetchip@GRAYHASH https://www.zerodayinitiative.com/advisories/ZDI-15-020/",
+  "search_text": "published ZDI-15-020 ZDI-CAN-2562 Microsoft Internet Explorer Ptls6::LsFmtText Out-Of-Bounds Read Remote Code Execution Vulnerability 2015-02-10 CVE-2015-0037 https://www.cve.org/CVERecord?id=CVE-2015-0037 6.8 ['Microsoft'] ['Internet Explorer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of arguments passed to the Ptls6::LsFmtText function. By manipulating a document's elements an attacker can access data outside the bounds of an allocated buffer. An attacker can leverage this vulnerability to execute code under the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/library/security/MS15-009 ['2014-10-09 - Vulnerability reported to vendor', '2015-02-10 - Coordinated public release of advisory'] sweetchip@GRAYHASH https://www.zerodayinitiative.com/advisories/ZDI-15-020/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-020/",
   "title": "Microsoft Internet Explorer Ptls6::LsFmtText Out-Of-Bounds Read Remote Code Execution Vulnerability",
   "updated_date": null,

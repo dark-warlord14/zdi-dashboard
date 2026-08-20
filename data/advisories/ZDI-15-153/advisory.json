@@ -11,13 +11,13 @@
   "cve": "CVE-2015-0786",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-0786",
   "cvss": 10.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2014-09-11 - Vulnerability reported to vendor",
     "2015-04-22 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-15-153 ZDI-CAN-2491 Novell ZENworks Preboot Policy Service Stack Buffer Overflow Remote Code Execution Vulnerability 2015-04-22 CVE-2015-0786 https://www.cve.org/CVERecord?id=CVE-2015-0786 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Novell'] ['Zenworks'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Novell ZENWorks. Authentication is not required to exploit this vulnerability. The specific flaw exists within ZENworks Preboot Policy Service, which listens on port 13331. The vulnerability is in the logging functionality, which copies attacker provided data into a fixed size stack buffer. An attacker could leverage this to execute arbitrary code as the local user __z_0_1__, which has Administrator privileges. Novell has issued an update to correct this vulnerability. More details can be found at: https://www.novell.com/support/kb/doc.php?id=7016431 ['2014-09-11 - Vulnerability reported to vendor', '2015-04-22 - Coordinated public release of advisory'] sztivi https://www.zerodayinitiative.com/advisories/ZDI-15-153/",
+  "search_text": "published ZDI-15-153 ZDI-CAN-2491 Novell ZENworks Preboot Policy Service Stack Buffer Overflow Remote Code Execution Vulnerability 2015-04-22 CVE-2015-0786 https://www.cve.org/CVERecord?id=CVE-2015-0786 10.0 ['Novell'] ['Zenworks'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Novell ZENWorks. Authentication is not required to exploit this vulnerability. The specific flaw exists within ZENworks Preboot Policy Service, which listens on port 13331. The vulnerability is in the logging functionality, which copies attacker provided data into a fixed size stack buffer. An attacker could leverage this to execute arbitrary code as the local user __z_0_1__, which has Administrator privileges. Novell has issued an update to correct this vulnerability. More details can be found at: https://www.novell.com/support/kb/doc.php?id=7016431 ['2014-09-11 - Vulnerability reported to vendor', '2015-04-22 - Coordinated public release of advisory'] sztivi https://www.zerodayinitiative.com/advisories/ZDI-15-153/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-153/",
   "title": "Novell ZENworks Preboot Policy Service Stack Buffer Overflow Remote Code Execution Vulnerability",
   "updated_date": null,

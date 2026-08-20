@@ -11,13 +11,13 @@
   "cve": "CVE-2015-6478",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-6478",
   "cvss": 6.8,
-  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2015-05-06 - Vulnerability reported to vendor",
     "2015-12-02 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-15-580 ZDI-CAN-2918 Unitronics VisiLogic OPLC IDE TeeChart.ChartGrid.5 ActiveX Control ColWidths Remote Code Execution Vulnerability 2015-12-02 CVE-2015-6478 https://www.cve.org/CVERecord?id=CVE-2015-6478 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Unitronics'] ['VisiLogic OPLC IDE'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Unitronics VisiLogic OPLC IDE. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the ChartGrid object in TeeChart5.ocx. A call to the Colwidths modifier can cause a user-supplied value to be written to any address in user memory. An attacker can leverage this vulnerability to execute arbitrary code under the context of the process. Unitronics has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-15-274-02 ['2015-05-06 - Vulnerability reported to vendor', '2015-12-02 - Coordinated public release of advisory'] Fritz Sands of the Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-15-580/",
+  "search_text": "published ZDI-15-580 ZDI-CAN-2918 Unitronics VisiLogic OPLC IDE TeeChart.ChartGrid.5 ActiveX Control ColWidths Remote Code Execution Vulnerability 2015-12-02 CVE-2015-6478 https://www.cve.org/CVERecord?id=CVE-2015-6478 6.8 ['Unitronics'] ['VisiLogic OPLC IDE'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Unitronics VisiLogic OPLC IDE. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the ChartGrid object in TeeChart5.ocx. A call to the Colwidths modifier can cause a user-supplied value to be written to any address in user memory. An attacker can leverage this vulnerability to execute arbitrary code under the context of the process. Unitronics has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-15-274-02 ['2015-05-06 - Vulnerability reported to vendor', '2015-12-02 - Coordinated public release of advisory'] Fritz Sands of the Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-15-580/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-580/",
   "title": "Unitronics VisiLogic OPLC IDE TeeChart.ChartGrid.5 ActiveX Control ColWidths Remote Code Execution Vulnerability",
   "updated_date": null,

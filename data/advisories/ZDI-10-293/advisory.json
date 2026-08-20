@@ -11,13 +11,13 @@
   "cve": null,
   "cve_url": null,
   "cvss": 10.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2010-09-27 - Vulnerability reported to vendor",
     "2010-12-23 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-10-293 ZDI-CAN-958 HP StorageWorks Storage Mirroring DoubleTake.exe Remote Code Execution Vulnerability 2010-12-23 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Hewlett-Packard'] ['StorageWorks'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of HP StorageWorks Storage Mirroring. Authentication is not required to exploit this vulnerability. The flaw exists within the DoubleTake.exe component which listens by default on TCP port 6320. When handling an incoming packet the process blindly trusts a user supplied length for a copy of arbitrary data into a fixed-length buffer on the heap. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the SYSTEM user. Hewlett-Packard has issued an update to correct this vulnerability. More details can be found at: http://h20000.www2.hp.com/bizsupport/TechSupport/Document.jsp?objectID=c02660122 ['2010-09-27 - Vulnerability reported to vendor', '2010-12-23 - Coordinated public release of advisory'] AbdulAziz Hariri of ThirdEyeTesters https://www.zerodayinitiative.com/advisories/ZDI-10-293/",
+  "search_text": "published ZDI-10-293 ZDI-CAN-958 HP StorageWorks Storage Mirroring DoubleTake.exe Remote Code Execution Vulnerability 2010-12-23 10.0 ['Hewlett-Packard'] ['StorageWorks'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of HP StorageWorks Storage Mirroring. Authentication is not required to exploit this vulnerability. The flaw exists within the DoubleTake.exe component which listens by default on TCP port 6320. When handling an incoming packet the process blindly trusts a user supplied length for a copy of arbitrary data into a fixed-length buffer on the heap. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the SYSTEM user. Hewlett-Packard has issued an update to correct this vulnerability. More details can be found at: http://h20000.www2.hp.com/bizsupport/TechSupport/Document.jsp?objectID=c02660122 ['2010-09-27 - Vulnerability reported to vendor', '2010-12-23 - Coordinated public release of advisory'] AbdulAziz Hariri of ThirdEyeTesters https://www.zerodayinitiative.com/advisories/ZDI-10-293/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-293/",
   "title": "HP StorageWorks Storage Mirroring DoubleTake.exe Remote Code Execution Vulnerability",
   "updated_date": null,

@@ -11,13 +11,13 @@
   "cve": "CVE-2014-1247",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-1247",
   "cvss": 7.5,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2013-09-21 - Vulnerability reported to vendor",
     "2014-04-03 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-14-046 ZDI-CAN-1940 Apple QuickTime dref Atom Remote Code Execution Vulnerability 2014-04-03 CVE-2014-1247 https://www.cve.org/CVERecord?id=CVE-2014-1247 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Apple'] ['QuickTime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple QuickTime. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of the dref atom. It is possible for an attacker to nest atoms within the dref atom that have sizes larger than the enclosing atom. By leveraging this vulnerability, an attacker can execute arbitrary code in the context of the current user. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT1222 ['2013-09-21 - Vulnerability reported to vendor', '2014-04-03 - Coordinated public release of advisory'] Tom Gallagher & Paul Bates https://www.zerodayinitiative.com/advisories/ZDI-14-046/",
+  "search_text": "published ZDI-14-046 ZDI-CAN-1940 Apple QuickTime dref Atom Remote Code Execution Vulnerability 2014-04-03 CVE-2014-1247 https://www.cve.org/CVERecord?id=CVE-2014-1247 7.5 ['Apple'] ['QuickTime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple QuickTime. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of the dref atom. It is possible for an attacker to nest atoms within the dref atom that have sizes larger than the enclosing atom. By leveraging this vulnerability, an attacker can execute arbitrary code in the context of the current user. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT1222 ['2013-09-21 - Vulnerability reported to vendor', '2014-04-03 - Coordinated public release of advisory'] Tom Gallagher & Paul Bates https://www.zerodayinitiative.com/advisories/ZDI-14-046/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-14-046/",
   "title": "Apple QuickTime dref Atom Remote Code Execution Vulnerability",
   "updated_date": null,

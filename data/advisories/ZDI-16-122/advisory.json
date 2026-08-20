@@ -11,13 +11,13 @@
   "cve": "CVE-2016-0855",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-0855",
   "cvss": 7.8,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:N/I:N/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2015-09-15 - Vulnerability reported to vendor",
     "2016-02-05 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-16-122 ZDI-CAN-3132 Advantech WebAccess Dashboard Viewer removeFile Directory Traversal Arbitrary File Deletion Denial of Service Vulnerability 2016-02-05 CVE-2016-0855 https://www.cve.org/CVERecord?id=CVE-2016-0855 7.8 AV:N/AC:L/Au:N/C:N/I:N/A:C ['Advantech'] ['WebAccess'] This vulnerability allows remote attackers to deny service to all users on vulnerable installations of Advantech WebAccess. Authentication is not required to exploit this vulnerability. The specific flaw exists within the WebAccess Dashboard Viewer. Insufficient validation within the removeFile script allows unauthenticated callers to remove key system files, blocking WebAccess for all users. Advantech has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-16-014-01 ['2015-09-15 - Vulnerability reported to vendor', '2016-02-05 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-16-122/",
+  "search_text": "published ZDI-16-122 ZDI-CAN-3132 Advantech WebAccess Dashboard Viewer removeFile Directory Traversal Arbitrary File Deletion Denial of Service Vulnerability 2016-02-05 CVE-2016-0855 https://www.cve.org/CVERecord?id=CVE-2016-0855 7.8 ['Advantech'] ['WebAccess'] This vulnerability allows remote attackers to deny service to all users on vulnerable installations of Advantech WebAccess. Authentication is not required to exploit this vulnerability. The specific flaw exists within the WebAccess Dashboard Viewer. Insufficient validation within the removeFile script allows unauthenticated callers to remove key system files, blocking WebAccess for all users. Advantech has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-16-014-01 ['2015-09-15 - Vulnerability reported to vendor', '2016-02-05 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-16-122/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-122/",
   "title": "Advantech WebAccess Dashboard Viewer removeFile Directory Traversal Arbitrary File Deletion Denial of Service Vulnerability",
   "updated_date": null,

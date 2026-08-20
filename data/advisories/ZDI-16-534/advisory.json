@@ -11,13 +11,13 @@
   "cve": "CVE-2016-3384",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-3384",
   "cvss": 5.1,
-  "cvss_vector": "AV:N/AC:H/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2016-07-26 - Vulnerability reported to vendor",
     "2016-10-11 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-16-534 ZDI-CAN-3922 Microsoft Internet Explorer s_DestroyMetaCallback Use-After-Free Remote Code Execution Vulnerability 2016-10-11 CVE-2016-3384 https://www.cve.org/CVERecord?id=CVE-2016-3384 5.1 AV:N/AC:H/Au:N/C:P/I:P/A:P ['Microsoft'] ['Internet Explorer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The vulnerability relates to how Internet Explorer keeps track of linked web resources. By manipulating a document's elements, an attacker can cause a pointer to be reused after it has been freed. An attacker can leverage this vulnerability to execute arbitrary code under the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/library/security/MS16-118 ['2016-07-26 - Vulnerability reported to vendor', '2016-10-11 - Coordinated public release of advisory'] 62600BCA031B9EB5CB4A74ADDDD6771E https://www.zerodayinitiative.com/advisories/ZDI-16-534/",
+  "search_text": "published ZDI-16-534 ZDI-CAN-3922 Microsoft Internet Explorer s_DestroyMetaCallback Use-After-Free Remote Code Execution Vulnerability 2016-10-11 CVE-2016-3384 https://www.cve.org/CVERecord?id=CVE-2016-3384 5.1 ['Microsoft'] ['Internet Explorer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The vulnerability relates to how Internet Explorer keeps track of linked web resources. By manipulating a document's elements, an attacker can cause a pointer to be reused after it has been freed. An attacker can leverage this vulnerability to execute arbitrary code under the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/library/security/MS16-118 ['2016-07-26 - Vulnerability reported to vendor', '2016-10-11 - Coordinated public release of advisory'] 62600BCA031B9EB5CB4A74ADDDD6771E https://www.zerodayinitiative.com/advisories/ZDI-16-534/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-534/",
   "title": "Microsoft Internet Explorer s_DestroyMetaCallback Use-After-Free Remote Code Execution Vulnerability",
   "updated_date": null,

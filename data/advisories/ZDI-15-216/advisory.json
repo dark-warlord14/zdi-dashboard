@@ -11,13 +11,13 @@
   "cve": "CVE-2015-3085",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-3085",
   "cvss": 4.4,
-  "cvss_vector": "AV:L/AC:M/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2015-03-18 - Vulnerability reported to vendor",
     "2015-05-12 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-15-216 ZDI-CAN-2820 (Pwn2Own) Adobe Flash Player BrokerCreateFile Broker Method Path Traversal Sandbox Escape Vulnerability 2015-05-12 CVE-2015-3085 https://www.cve.org/CVERecord?id=CVE-2015-3085 4.4 AV:L/AC:M/Au:N/C:P/I:P/A:P ['Adobe'] ['Flash Player'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Adobe Flash Player. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the BrokerCreateFile method. An attacker can force BrokerCreateFile to traverse the path of the output file, allowing the file to be written anywhere on disk. An attacker can leverage this vulnerability to execute code at medium integrity. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/reader/apsb15-10.html ['2015-03-18 - Vulnerability reported to vendor', '2015-05-12 - Coordinated public release of advisory'] Nicolas Joly https://www.zerodayinitiative.com/advisories/ZDI-15-216/",
+  "search_text": "published ZDI-15-216 ZDI-CAN-2820 (Pwn2Own) Adobe Flash Player BrokerCreateFile Broker Method Path Traversal Sandbox Escape Vulnerability 2015-05-12 CVE-2015-3085 https://www.cve.org/CVERecord?id=CVE-2015-3085 4.4 ['Adobe'] ['Flash Player'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Adobe Flash Player. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the BrokerCreateFile method. An attacker can force BrokerCreateFile to traverse the path of the output file, allowing the file to be written anywhere on disk. An attacker can leverage this vulnerability to execute code at medium integrity. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/reader/apsb15-10.html ['2015-03-18 - Vulnerability reported to vendor', '2015-05-12 - Coordinated public release of advisory'] Nicolas Joly https://www.zerodayinitiative.com/advisories/ZDI-15-216/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-216/",
   "title": "(Pwn2Own) Adobe Flash Player BrokerCreateFile Broker Method Path Traversal Sandbox Escape Vulnerability",
   "updated_date": null,

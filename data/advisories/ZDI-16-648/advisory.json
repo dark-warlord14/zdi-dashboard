@@ -11,13 +11,13 @@
   "cve": "CVE-2016-5805",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-5805",
   "cvss": 6.8,
-  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2016-07-21 - Vulnerability reported to vendor",
     "2016-12-15 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-16-648 ZDI-CAN-3865 Delta Industrial Automation WPLSoft DVP File Parsing Heap-Based Buffer Overflow Remote Code Execution Vulnerability 2016-12-15 CVE-2016-5805 https://www.cve.org/CVERecord?id=CVE-2016-5805 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Delta Industrial Automation'] ['WPLSoft'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Delta Industrial Automation WPLSoft. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within parsing of a DVP file. The process does not properly validate the length of user-supplied data prior to copying it to a fixed-length heap-based buffer. An attacker can leverage this vulnerability to execute arbitrary code under the context of the process. Delta Industrial Automation has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-16-348-03 ['2016-07-21 - Vulnerability reported to vendor', '2016-12-15 - Coordinated public release of advisory'] axt https://www.zerodayinitiative.com/advisories/ZDI-16-648/",
+  "search_text": "published ZDI-16-648 ZDI-CAN-3865 Delta Industrial Automation WPLSoft DVP File Parsing Heap-Based Buffer Overflow Remote Code Execution Vulnerability 2016-12-15 CVE-2016-5805 https://www.cve.org/CVERecord?id=CVE-2016-5805 6.8 ['Delta Industrial Automation'] ['WPLSoft'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Delta Industrial Automation WPLSoft. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within parsing of a DVP file. The process does not properly validate the length of user-supplied data prior to copying it to a fixed-length heap-based buffer. An attacker can leverage this vulnerability to execute arbitrary code under the context of the process. Delta Industrial Automation has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-16-348-03 ['2016-07-21 - Vulnerability reported to vendor', '2016-12-15 - Coordinated public release of advisory'] axt https://www.zerodayinitiative.com/advisories/ZDI-16-648/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-648/",
   "title": "Delta Industrial Automation WPLSoft DVP File Parsing Heap-Based Buffer Overflow Remote Code Execution Vulnerability",
   "updated_date": null,

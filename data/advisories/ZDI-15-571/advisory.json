@@ -11,13 +11,13 @@
   "cve": "CVE-2015-7912",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-7912",
   "cvss": 9.3,
-  "cvss_vector": "AV:N/AC:M/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2015-08-24 - Vulnerability reported to vendor",
     "2015-11-20 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-15-571 ZDI-CAN-3134 Tibbo AggreGate SCADA/HMI Server Service uploadDirectory Remote Code Execution Vulnerability 2015-11-20 CVE-2015-7912 https://www.cve.org/CVERecord?id=CVE-2015-7912 9.3 AV:N/AC:M/Au:N/C:C/I:C/A:C ['Tibbo'] ['AggreGate SCADA/HMI'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Tibbo AggreGate SCADA/HMI. Authentication is not required to exploit this vulnerability. The specific flaw exists within the Windows service \"AggreGate Server Service\" (ag_server_service.exe). Through the \"Ice Faces\" servlet it is possible to upload arbitrary Java code inside an accessible web path, due to functionality which allows importation of application properties through uploaded xml files. An attacker can leverage this vulnerability to execute code under the context of SYSTEM. Tibbo has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-15-323-01 ['2015-08-24 - Vulnerability reported to vendor', '2015-11-20 - Coordinated public release of advisory'] Andrea Micalizzi (rgod) https://www.zerodayinitiative.com/advisories/ZDI-15-571/",
+  "search_text": "published ZDI-15-571 ZDI-CAN-3134 Tibbo AggreGate SCADA/HMI Server Service uploadDirectory Remote Code Execution Vulnerability 2015-11-20 CVE-2015-7912 https://www.cve.org/CVERecord?id=CVE-2015-7912 9.3 ['Tibbo'] ['AggreGate SCADA/HMI'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Tibbo AggreGate SCADA/HMI. Authentication is not required to exploit this vulnerability. The specific flaw exists within the Windows service \"AggreGate Server Service\" (ag_server_service.exe). Through the \"Ice Faces\" servlet it is possible to upload arbitrary Java code inside an accessible web path, due to functionality which allows importation of application properties through uploaded xml files. An attacker can leverage this vulnerability to execute code under the context of SYSTEM. Tibbo has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-15-323-01 ['2015-08-24 - Vulnerability reported to vendor', '2015-11-20 - Coordinated public release of advisory'] Andrea Micalizzi (rgod) https://www.zerodayinitiative.com/advisories/ZDI-15-571/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-571/",
   "title": "Tibbo AggreGate SCADA/HMI Server Service uploadDirectory Remote Code Execution Vulnerability",
   "updated_date": null,

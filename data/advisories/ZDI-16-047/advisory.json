@@ -11,13 +11,13 @@
   "cve": "CVE-2016-0491",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-0491",
   "cvss": 9.0,
-  "cvss_vector": "AV:N/AC:L/Au:S/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2015-10-06 - Vulnerability reported to vendor",
     "2016-01-25 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-16-047 ZDI-CAN-3302 Oracle Application Testing Suite UploadFileAction Servlet Remote Code Execution Vulnerability 2016-01-25 CVE-2016-0491 https://www.cve.org/CVERecord?id=CVE-2016-0491 9.0 AV:N/AC:L/Au:S/C:C/I:C/A:C ['Oracle'] ['Application Testing Suite'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Oracle Application Testing Suite. Authentication is required but can be bypassed. The specific vulnerability is in the UploadFileAction servlet. By providing a fileType parameter of \"*\", an attacker is able to upload a file to an arbitrary location on the system. An attacker could leverage this to execute arbitrary code under the context of SYSTEM. Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/cpujan2016-2367955.html ['2015-10-06 - Vulnerability reported to vendor', '2016-01-25 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-16-047/",
+  "search_text": "published ZDI-16-047 ZDI-CAN-3302 Oracle Application Testing Suite UploadFileAction Servlet Remote Code Execution Vulnerability 2016-01-25 CVE-2016-0491 https://www.cve.org/CVERecord?id=CVE-2016-0491 9.0 ['Oracle'] ['Application Testing Suite'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Oracle Application Testing Suite. Authentication is required but can be bypassed. The specific vulnerability is in the UploadFileAction servlet. By providing a fileType parameter of \"*\", an attacker is able to upload a file to an arbitrary location on the system. An attacker could leverage this to execute arbitrary code under the context of SYSTEM. Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/cpujan2016-2367955.html ['2015-10-06 - Vulnerability reported to vendor', '2016-01-25 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-16-047/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-047/",
   "title": "Oracle Application Testing Suite UploadFileAction Servlet Remote Code Execution Vulnerability",
   "updated_date": null,

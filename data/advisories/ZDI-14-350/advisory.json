@@ -11,13 +11,13 @@
   "cve": "CVE-2014-4117",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-4117",
   "cvss": 6.8,
-  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2014-08-04 - Vulnerability reported to vendor",
     "2014-10-14 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-14-350 ZDI-CAN-2484 Microsoft Word Style Tag Use-After-Free Remote Code Execution Vulnerability 2014-10-14 CVE-2014-4117 https://www.cve.org/CVERecord?id=CVE-2014-4117 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Microsoft'] ['Office Word'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Word. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of style tags. By nesting a specific style tag within another, an attacker is able to cause a pointer to be used after the underlying object has been freed. This could be used to execute arbitrary code in the context of the current user. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/en-us/library/security/MS14-061 ['2014-08-04 - Vulnerability reported to vendor', '2014-10-14 - Coordinated public release of advisory'] 3S Labs https://www.zerodayinitiative.com/advisories/ZDI-14-350/",
+  "search_text": "published ZDI-14-350 ZDI-CAN-2484 Microsoft Word Style Tag Use-After-Free Remote Code Execution Vulnerability 2014-10-14 CVE-2014-4117 https://www.cve.org/CVERecord?id=CVE-2014-4117 6.8 ['Microsoft'] ['Office Word'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Word. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of style tags. By nesting a specific style tag within another, an attacker is able to cause a pointer to be used after the underlying object has been freed. This could be used to execute arbitrary code in the context of the current user. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/en-us/library/security/MS14-061 ['2014-08-04 - Vulnerability reported to vendor', '2014-10-14 - Coordinated public release of advisory'] 3S Labs https://www.zerodayinitiative.com/advisories/ZDI-14-350/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-14-350/",
   "title": "Microsoft Word Style Tag Use-After-Free Remote Code Execution Vulnerability",
   "updated_date": null,

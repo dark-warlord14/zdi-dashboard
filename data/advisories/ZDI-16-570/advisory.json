@@ -11,13 +11,13 @@
   "cve": "CVE-2016-1000031",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-1000031",
   "cvss": 7.5,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2016-06-30 - Vulnerability reported to vendor",
     "2016-10-17 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-16-570 ZDI-CAN-3837 Novell NetIQ Sentinel Commons DiskFileItem Deserialization of Untrusted Data Remote Code Execution Vulnerability 2016-10-17 CVE-2016-1000031 https://www.cve.org/CVERecord?id=CVE-2016-1000031 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Novell'] ['NetIQ Sentinel'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Novell NetIQ Sentinel. Authentication is not required to exploit this vulnerability. The specific flaw exists within the insufficient blacklisting of certain Java objects. The issue lies in the failure to properly validate user-supplied data which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute arbitrary code under the context of the current process. Novell has issued an update to correct this vulnerability. More details can be found at: https://www.netiq.com/support/kb/doc.php?id=7018113 ['2016-06-30 - Vulnerability reported to vendor', '2016-10-17 - Coordinated public release of advisory'] Jacob Baines Tenable Network Security https://www.zerodayinitiative.com/advisories/ZDI-16-570/",
+  "search_text": "published ZDI-16-570 ZDI-CAN-3837 Novell NetIQ Sentinel Commons DiskFileItem Deserialization of Untrusted Data Remote Code Execution Vulnerability 2016-10-17 CVE-2016-1000031 https://www.cve.org/CVERecord?id=CVE-2016-1000031 7.5 ['Novell'] ['NetIQ Sentinel'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Novell NetIQ Sentinel. Authentication is not required to exploit this vulnerability. The specific flaw exists within the insufficient blacklisting of certain Java objects. The issue lies in the failure to properly validate user-supplied data which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute arbitrary code under the context of the current process. Novell has issued an update to correct this vulnerability. More details can be found at: https://www.netiq.com/support/kb/doc.php?id=7018113 ['2016-06-30 - Vulnerability reported to vendor', '2016-10-17 - Coordinated public release of advisory'] Jacob Baines Tenable Network Security https://www.zerodayinitiative.com/advisories/ZDI-16-570/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-570/",
   "title": "Novell NetIQ Sentinel Commons DiskFileItem Deserialization of Untrusted Data Remote Code Execution Vulnerability",
   "updated_date": null,

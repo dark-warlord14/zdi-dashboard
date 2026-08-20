@@ -11,13 +11,13 @@
   "cve": "CVE-2012-5946",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2012-5946",
   "cvss": 7.5,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2012-11-21 - Vulnerability reported to vendor",
     "2013-05-29 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-13-100 ZDI-CAN-1545 IBM SPSS SamplePower C1sizer.ocx ActiveX TabCaption Remote Code Execution Vulnerability 2013-05-29 CVE-2012-5946 https://www.cve.org/CVERecord?id=CVE-2012-5946 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['IBM'] ['SPSS'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of IBM SPSS SamplePower. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the C1sizer.ocx ActiveX Control. This component performs insufficient bounds checking on user-supplied data on the TabCaption property which results in memory corruption. An attacker can leverage this situation to execute code under the context of the user running the browser. IBM has issued an update to correct this vulnerability. More details can be found at: http://www.ibm.com/support/docview.wss?uid=swg21635476 ['2012-11-21 - Vulnerability reported to vendor', '2013-05-29 - Coordinated public release of advisory'] Alexander Gavrun https://www.zerodayinitiative.com/advisories/ZDI-13-100/",
+  "search_text": "published ZDI-13-100 ZDI-CAN-1545 IBM SPSS SamplePower C1sizer.ocx ActiveX TabCaption Remote Code Execution Vulnerability 2013-05-29 CVE-2012-5946 https://www.cve.org/CVERecord?id=CVE-2012-5946 7.5 ['IBM'] ['SPSS'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of IBM SPSS SamplePower. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the C1sizer.ocx ActiveX Control. This component performs insufficient bounds checking on user-supplied data on the TabCaption property which results in memory corruption. An attacker can leverage this situation to execute code under the context of the user running the browser. IBM has issued an update to correct this vulnerability. More details can be found at: http://www.ibm.com/support/docview.wss?uid=swg21635476 ['2012-11-21 - Vulnerability reported to vendor', '2013-05-29 - Coordinated public release of advisory'] Alexander Gavrun https://www.zerodayinitiative.com/advisories/ZDI-13-100/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-13-100/",
   "title": "IBM SPSS SamplePower C1sizer.ocx ActiveX TabCaption Remote Code Execution Vulnerability",
   "updated_date": null,

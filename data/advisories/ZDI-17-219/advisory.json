@@ -11,13 +11,13 @@
   "cve": null,
   "cve_url": null,
   "cvss": 9.0,
-  "cvss_vector": "AV:N/AC:L/Au:S/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2016-12-12 - Vulnerability reported to vendor",
     "2017-03-30 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-17-219 ZDI-CAN-4261 Trend Micro InterScan Web Security Virtual Appliance PacFileManagement Unrestricted File Upload Remote Code Execution Vulnerability 2017-03-30 9.0 AV:N/AC:L/Au:S/C:C/I:C/A:C ['Trend Micro'] ['InterScan Web Security Virtual Appliance'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Trend Micro InterScan Web Security Virtual Appliance. Authentication is required to exploit this vulnerability. The specific flaw exists within the PacFileManagement servlet. The issue results from the lack of proper validation of user-supplied data which can allow for the upload of arbitrary files. An attacker can leverage this vulnerability to execute arbitrary code under the context of root. Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/solution/1116960 ['2016-12-12 - Vulnerability reported to vendor', '2017-03-30 - Coordinated public release of advisory'] Steven Seeley of Source Incite https://www.zerodayinitiative.com/advisories/ZDI-17-219/",
+  "search_text": "published ZDI-17-219 ZDI-CAN-4261 Trend Micro InterScan Web Security Virtual Appliance PacFileManagement Unrestricted File Upload Remote Code Execution Vulnerability 2017-03-30 9.0 ['Trend Micro'] ['InterScan Web Security Virtual Appliance'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Trend Micro InterScan Web Security Virtual Appliance. Authentication is required to exploit this vulnerability. The specific flaw exists within the PacFileManagement servlet. The issue results from the lack of proper validation of user-supplied data which can allow for the upload of arbitrary files. An attacker can leverage this vulnerability to execute arbitrary code under the context of root. Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/solution/1116960 ['2016-12-12 - Vulnerability reported to vendor', '2017-03-30 - Coordinated public release of advisory'] Steven Seeley of Source Incite https://www.zerodayinitiative.com/advisories/ZDI-17-219/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-219/",
   "title": "Trend Micro InterScan Web Security Virtual Appliance PacFileManagement Unrestricted File Upload Remote Code Execution Vulnerability",
   "updated_date": null,

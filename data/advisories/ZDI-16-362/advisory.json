@@ -11,13 +11,13 @@
   "cve": "CVE-2016-4800",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-4800",
   "cvss": 7.5,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2016-05-03 - Vulnerability reported to vendor",
     "2016-06-03 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-16-362 ZDI-CAN-3707 Eclipse Jetty Protected Resource Bypass Vulnerability 2016-06-03 CVE-2016-4800 https://www.cve.org/CVERecord?id=CVE-2016-4800 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Eclipse'] ['Jetty'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Eclipse Jetty. Authentication is not required to exploit this vulnerability. The specific flaw exists within the way the ContextHandler class restricts access to protected resources. By issuing a crafted request, an attacker can gain access to the code of a web application deployed in Jetty. An attacker can use this knowledge in further attacks against the web application. Additionally, if the web application allows file uploads, it may be possible for an attacker to modify the code of the web application, achieving a direct path to executing arbitrary code under the context of the server process. Eclipse has issued an update to correct this vulnerability. More details can be found at: http://www.ocert.org/advisories/ocert-2016-001.html ['2016-05-03 - Vulnerability reported to vendor', '2016-06-03 - Coordinated public release of advisory'] Simon Zuckerbraun - Trend Micro Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-16-362/",
+  "search_text": "published ZDI-16-362 ZDI-CAN-3707 Eclipse Jetty Protected Resource Bypass Vulnerability 2016-06-03 CVE-2016-4800 https://www.cve.org/CVERecord?id=CVE-2016-4800 7.5 ['Eclipse'] ['Jetty'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Eclipse Jetty. Authentication is not required to exploit this vulnerability. The specific flaw exists within the way the ContextHandler class restricts access to protected resources. By issuing a crafted request, an attacker can gain access to the code of a web application deployed in Jetty. An attacker can use this knowledge in further attacks against the web application. Additionally, if the web application allows file uploads, it may be possible for an attacker to modify the code of the web application, achieving a direct path to executing arbitrary code under the context of the server process. Eclipse has issued an update to correct this vulnerability. More details can be found at: http://www.ocert.org/advisories/ocert-2016-001.html ['2016-05-03 - Vulnerability reported to vendor', '2016-06-03 - Coordinated public release of advisory'] Simon Zuckerbraun - Trend Micro Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-16-362/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-362/",
   "title": "Eclipse Jetty Protected Resource Bypass Vulnerability",
   "updated_date": null,

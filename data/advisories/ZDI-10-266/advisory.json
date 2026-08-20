@@ -11,13 +11,13 @@
   "cve": "CVE-2010-4375",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2010-4375",
   "cvss": 9.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2009-04-15 - Vulnerability reported to vendor",
     "2010-12-10 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-10-266 ZDI-CAN-473 RealNetworks RealPlayer Multi-Rate Audio Remote Code Execution Vulnerability 2010-12-10 CVE-2010-4375 https://www.cve.org/CVERecord?id=CVE-2010-4375 9.0 AV:N/AC:L/Au:N/C:P/I:P/A:C ['RealNetworks'] ['RealPlayer'] This vulnerability allows attackers to execute arbitrary code on vulnerable installations of RealNetworks RealPlayer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists when parsing a RealMedia file containing a malformed multi-rate audio stream. The application explicitly trusts two 16-bit values in this data structure which are then used to calculate the size used for an allocation. When data is written to this allocated buffer, an overflow will occur which can lead to code execution under the context of the current user. RealNetworks has issued an update to correct this vulnerability. More details can be found at: http://service.real.com/realplayer/security/12102010_player/en/ ['2009-04-15 - Vulnerability reported to vendor', '2010-12-10 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-10-266/",
+  "search_text": "published ZDI-10-266 ZDI-CAN-473 RealNetworks RealPlayer Multi-Rate Audio Remote Code Execution Vulnerability 2010-12-10 CVE-2010-4375 https://www.cve.org/CVERecord?id=CVE-2010-4375 9.0 ['RealNetworks'] ['RealPlayer'] This vulnerability allows attackers to execute arbitrary code on vulnerable installations of RealNetworks RealPlayer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists when parsing a RealMedia file containing a malformed multi-rate audio stream. The application explicitly trusts two 16-bit values in this data structure which are then used to calculate the size used for an allocation. When data is written to this allocated buffer, an overflow will occur which can lead to code execution under the context of the current user. RealNetworks has issued an update to correct this vulnerability. More details can be found at: http://service.real.com/realplayer/security/12102010_player/en/ ['2009-04-15 - Vulnerability reported to vendor', '2010-12-10 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-10-266/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-266/",
   "title": "RealNetworks RealPlayer Multi-Rate Audio Remote Code Execution Vulnerability",
   "updated_date": null,

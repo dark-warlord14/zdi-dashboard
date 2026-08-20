@@ -11,13 +11,13 @@
   "cve": "CVE-2016-1007",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-1007",
   "cvss": 6.8,
-  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2015-06-30 - Vulnerability reported to vendor",
     "2016-03-08 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-16-189 ZDI-CAN-3022 Adobe Reader DC Uninitialized Memory Remote Code Execution Vulnerability 2016-03-08 CVE-2016-1007 https://www.cve.org/CVERecord?id=CVE-2016-1007 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Adobe'] ['Acrobat Reader DC'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Adobe Reader DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of annotation gestures. The issue lies in the failure to properly initialize the gestures property prior to using it, leading to memory corruption. An attacker can leverage this vulnerability to execute arbitrary code under the context of the current process. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb16-09.html ['2015-06-30 - Vulnerability reported to vendor', '2016-03-08 - Coordinated public release of advisory'] AbdulAziz Hariri - HP Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-16-189/",
+  "search_text": "published ZDI-16-189 ZDI-CAN-3022 Adobe Reader DC Uninitialized Memory Remote Code Execution Vulnerability 2016-03-08 CVE-2016-1007 https://www.cve.org/CVERecord?id=CVE-2016-1007 6.8 ['Adobe'] ['Acrobat Reader DC'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Adobe Reader DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of annotation gestures. The issue lies in the failure to properly initialize the gestures property prior to using it, leading to memory corruption. An attacker can leverage this vulnerability to execute arbitrary code under the context of the current process. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb16-09.html ['2015-06-30 - Vulnerability reported to vendor', '2016-03-08 - Coordinated public release of advisory'] AbdulAziz Hariri - HP Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-16-189/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-189/",
   "title": "Adobe Reader DC Uninitialized Memory Remote Code Execution Vulnerability",
   "updated_date": null,

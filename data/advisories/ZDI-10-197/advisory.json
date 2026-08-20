@@ -11,13 +11,13 @@
   "cve": "CVE-2010-3328",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2010-3328",
   "cvss": 10.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2010-06-08 - Vulnerability reported to vendor",
     "2010-10-12 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-10-197 ZDI-CAN-826 Microsoft Internet Explorer Stylesheet PrivateFind Remote Code Execution Vulnerability 2010-10-12 CVE-2010-3328 https://www.cve.org/CVERecord?id=CVE-2010-3328 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Microsoft'] ['Internet Explorer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the function CAttrArray::PrivateFind as defined in mshtml.dll. If a specific property of a stylesheet object is set, the code within mshtml can be forced to free an object which is subsequently accessed later. This can be leveraged by an attacker to execute remote code under the context of the user running the browser. Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/bulletin/MS10-071.mspx ['2010-06-08 - Vulnerability reported to vendor', '2010-10-12 - Coordinated public release of advisory'] Peter Vreugdenhil ( http://vreugdenhilresearch.nl ) https://www.zerodayinitiative.com/advisories/ZDI-10-197/",
+  "search_text": "published ZDI-10-197 ZDI-CAN-826 Microsoft Internet Explorer Stylesheet PrivateFind Remote Code Execution Vulnerability 2010-10-12 CVE-2010-3328 https://www.cve.org/CVERecord?id=CVE-2010-3328 10.0 ['Microsoft'] ['Internet Explorer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the function CAttrArray::PrivateFind as defined in mshtml.dll. If a specific property of a stylesheet object is set, the code within mshtml can be forced to free an object which is subsequently accessed later. This can be leveraged by an attacker to execute remote code under the context of the user running the browser. Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/bulletin/MS10-071.mspx ['2010-06-08 - Vulnerability reported to vendor', '2010-10-12 - Coordinated public release of advisory'] Peter Vreugdenhil ( http://vreugdenhilresearch.nl ) https://www.zerodayinitiative.com/advisories/ZDI-10-197/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-197/",
   "title": "Microsoft Internet Explorer Stylesheet PrivateFind Remote Code Execution Vulnerability",
   "updated_date": null,

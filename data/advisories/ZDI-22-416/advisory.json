@@ -8,7 +8,7 @@
     "Cisco"
   ],
   "credit": "Q. Kaiser from IoT Inspector Research Lab",
-  "cve": "CVE-2022-20709 , CVE-2022-20711",
+  "cve": "CVE-2022-20709",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2022-20709",
   "cvss": 6.3,
   "cvss_vector": "AV:A/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:N",
@@ -17,7 +17,7 @@
     "2022-02-22 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-22-416 ZDI-CAN-15892 (Pwn2Own) Cisco RV340 NGINX Missing Authentication Information Disclosure Vulnerability 2022-02-22 CVE-2022-20709 , CVE-2022-20711 https://www.cve.org/CVERecord?id=CVE-2022-20709 6.3 AV:A/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:N ['Cisco'] ['RV340'] This vulnerability allows network-adjacent attackers to disclose sensitive information on affected installations of Cisco RV340 routers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the configuration of the NGINX web server. The issue results from the lack of authentication prior to allowing access to functionality. An attacker can leverage this vulnerability to disclose stored web session tokens, leading to further compromise. Cisco has issued an update to correct this vulnerability. More details can be found at: https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-smb-mult-vuln-KA9PK6D ['2022-02-08 - Vulnerability reported to vendor', '2022-02-22 - Coordinated public release of advisory'] Q. Kaiser from IoT Inspector Research Lab https://www.zerodayinitiative.com/advisories/ZDI-22-416/",
+  "search_text": "published ZDI-22-416 ZDI-CAN-15892 (Pwn2Own) Cisco RV340 NGINX Missing Authentication Information Disclosure Vulnerability 2022-02-22 CVE-2022-20709 https://www.cve.org/CVERecord?id=CVE-2022-20709 6.3 AV:A/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:N ['Cisco'] ['RV340'] This vulnerability allows network-adjacent attackers to disclose sensitive information on affected installations of Cisco RV340 routers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the configuration of the NGINX web server. The issue results from the lack of authentication prior to allowing access to functionality. An attacker can leverage this vulnerability to disclose stored web session tokens, leading to further compromise. Cisco has issued an update to correct this vulnerability. More details can be found at: https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-smb-mult-vuln-KA9PK6D ['2022-02-08 - Vulnerability reported to vendor', '2022-02-22 - Coordinated public release of advisory'] Q. Kaiser from IoT Inspector Research Lab https://www.zerodayinitiative.com/advisories/ZDI-22-416/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-22-416/",
   "title": "(Pwn2Own) Cisco RV340 NGINX Missing Authentication Information Disclosure Vulnerability",
   "updated_date": null,

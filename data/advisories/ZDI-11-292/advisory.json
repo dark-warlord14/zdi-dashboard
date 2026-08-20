@@ -2,23 +2,22 @@
   "additional_details": "Cisco has issued an update to correct this vulnerability. More details can be found at: http://www.cisco.com/warp/public/707/cisco-sa-20110914-lms.shtml EMC has issued an update to correct this vulnerability. More details can be found at: http://www.securityfocus.com/archive/1/519646/30/0/threaded",
   "advisory_date": "2011-10-18",
   "affected_products": [
-    "ApplicationXtender Workflow"
+    "Unified Service Monitor"
   ],
   "affected_vendors": [
-    "Cisco",
-    "EMC"
+    "Cisco"
   ],
   "credit": "AbdulAziz Hariri",
   "cve": "CVE-2011-2738",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-2738",
   "cvss": 10.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2011-06-07 - Vulnerability reported to vendor",
     "2011-10-18 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-11-292 ZDI-CAN-1258 Cisco Unified Service Monitor brstart sm_read_string_length Remote Code Execution Vulnerability 2011-10-18 CVE-2011-2738 https://www.cve.org/CVERecord?id=CVE-2011-2738 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Cisco', 'EMC'] ['ApplicationXtender Workflow'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Cisco Unified Service Monitor due to bundled EMC SMARTS application server. Authentication is not required to exploit this vulnerability. The flaw exists within the brstart.exe service which listens by default on TCP port 9002. When handling the authentication portion of a SMARTS request the process extracts a user provided value to allocate a buffer via sm_read_string_length then blindly copies user supplied data into this buffer on the heap. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the service. Cisco has issued an update to correct this vulnerability. More details can be found at: http://www.cisco.com/warp/public/707/cisco-sa-20110914-lms.shtml EMC has issued an update to correct this vulnerability. More details can be found at: http://www.securityfocus.com/archive/1/519646/30/0/threaded ['2011-06-07 - Vulnerability reported to vendor', '2011-10-18 - Coordinated public release of advisory'] AbdulAziz Hariri https://www.zerodayinitiative.com/advisories/ZDI-11-292/",
+  "search_text": "published ZDI-11-292 ZDI-CAN-1258 Cisco Unified Service Monitor brstart sm_read_string_length Remote Code Execution Vulnerability 2011-10-18 CVE-2011-2738 https://www.cve.org/CVERecord?id=CVE-2011-2738 10.0 ['Cisco'] ['Unified Service Monitor'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Cisco Unified Service Monitor due to bundled EMC SMARTS application server. Authentication is not required to exploit this vulnerability. The flaw exists within the brstart.exe service which listens by default on TCP port 9002. When handling the authentication portion of a SMARTS request the process extracts a user provided value to allocate a buffer via sm_read_string_length then blindly copies user supplied data into this buffer on the heap. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the service. Cisco has issued an update to correct this vulnerability. More details can be found at: http://www.cisco.com/warp/public/707/cisco-sa-20110914-lms.shtml EMC has issued an update to correct this vulnerability. More details can be found at: http://www.securityfocus.com/archive/1/519646/30/0/threaded ['2011-06-07 - Vulnerability reported to vendor', '2011-10-18 - Coordinated public release of advisory'] AbdulAziz Hariri https://www.zerodayinitiative.com/advisories/ZDI-11-292/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-292/",
   "title": "Cisco Unified Service Monitor brstart sm_read_string_length Remote Code Execution Vulnerability",
   "updated_date": null,

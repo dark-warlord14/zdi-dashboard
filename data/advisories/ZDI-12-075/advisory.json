@@ -11,13 +11,13 @@
   "cve": "CVE-2012-0668",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2012-0668",
   "cvss": 7.5,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2011-10-21 - Vulnerability reported to vendor",
     "2012-06-06 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-12-075 ZDI-CAN-1370 Apple QuickTime RLE Sample Decoding Remote Code Execution Vulnerability 2012-06-06 CVE-2012-0668 https://www.cve.org/CVERecord?id=CVE-2012-0668 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Apple'] ['QuickTime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple QuickTime Player. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within how the application decodes video samples encoded with the RLE codec. When decompressing the sample, the application will fail to accommodate for the canvas the sample is rendered into. This can cause a buffer overflow and thus can be taken advantage of in order to gain code execution under the context of the application. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT5261 ['2011-10-21 - Vulnerability reported to vendor', '2012-06-06 - Coordinated public release of advisory'] Luigi Auriemma Anonymous https://www.zerodayinitiative.com/advisories/ZDI-12-075/",
+  "search_text": "published ZDI-12-075 ZDI-CAN-1370 Apple QuickTime RLE Sample Decoding Remote Code Execution Vulnerability 2012-06-06 CVE-2012-0668 https://www.cve.org/CVERecord?id=CVE-2012-0668 7.5 ['Apple'] ['QuickTime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple QuickTime Player. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within how the application decodes video samples encoded with the RLE codec. When decompressing the sample, the application will fail to accommodate for the canvas the sample is rendered into. This can cause a buffer overflow and thus can be taken advantage of in order to gain code execution under the context of the application. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT5261 ['2011-10-21 - Vulnerability reported to vendor', '2012-06-06 - Coordinated public release of advisory'] Luigi Auriemma Anonymous https://www.zerodayinitiative.com/advisories/ZDI-12-075/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-12-075/",
   "title": "Apple QuickTime RLE Sample Decoding Remote Code Execution Vulnerability",
   "updated_date": null,

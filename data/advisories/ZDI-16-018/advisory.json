@@ -11,13 +11,13 @@
   "cve": "CVE-2016-0020",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-0020",
   "cvss": 4.4,
-  "cvss_vector": "AV:L/AC:M/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2015-10-08 - Vulnerability reported to vendor",
     "2016-01-12 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-16-018 ZDI-CAN-3330 Microsoft Internet Explorer NewMessage Protected Mode Sandbox Escape Vulnerability 2016-01-12 CVE-2016-0020 https://www.cve.org/CVERecord?id=CVE-2016-0020 4.4 AV:L/AC:M/Au:N/C:P/I:P/A:P ['Microsoft'] ['Internet Explorer'] This vulnerability allows attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the IShdocvwBroker::NewMessage API. Calling this API causes the broker process to load a DLL from a potentially unsafe location. An attacker can leverage this vulnerability to execute code under the context of the user at medium integrity. ['2015-10-08 - Vulnerability reported to vendor', '2016-01-12 - Coordinated public release of advisory'] Ashutosh Mehra (https://twitter.com/ashutoshmehra) https://www.zerodayinitiative.com/advisories/ZDI-16-018/",
+  "search_text": "published ZDI-16-018 ZDI-CAN-3330 Microsoft Internet Explorer NewMessage Protected Mode Sandbox Escape Vulnerability 2016-01-12 CVE-2016-0020 https://www.cve.org/CVERecord?id=CVE-2016-0020 4.4 ['Microsoft'] ['Internet Explorer'] This vulnerability allows attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the IShdocvwBroker::NewMessage API. Calling this API causes the broker process to load a DLL from a potentially unsafe location. An attacker can leverage this vulnerability to execute code under the context of the user at medium integrity. ['2015-10-08 - Vulnerability reported to vendor', '2016-01-12 - Coordinated public release of advisory'] Ashutosh Mehra (https://twitter.com/ashutoshmehra) https://www.zerodayinitiative.com/advisories/ZDI-16-018/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-018/",
   "title": "Microsoft Internet Explorer NewMessage Protected Mode Sandbox Escape Vulnerability",
   "updated_date": null,

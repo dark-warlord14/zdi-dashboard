@@ -11,13 +11,13 @@
   "cve": "CVE-2013-5907",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2013-5907",
   "cvss": 6.8,
-  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2013-09-16 - Vulnerability reported to vendor",
     "2014-02-05 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-14-013 ZDI-CAN-1979 Oracle Java TTF Font Parsing Heap Corruption Remote Code Execution Vulnerability 2014-02-05 CVE-2013-5907 https://www.cve.org/CVERecord?id=CVE-2013-5907 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Oracle'] ['Java Runtime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Oracle Java Runtime. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing routines of a ttf font file with a large offset value for a script table. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the process. Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/cpujan2014-1972949.html ['2013-09-16 - Vulnerability reported to vendor', '2014-02-05 - Coordinated public release of advisory'] John Leitch https://www.zerodayinitiative.com/advisories/ZDI-14-013/",
+  "search_text": "published ZDI-14-013 ZDI-CAN-1979 Oracle Java TTF Font Parsing Heap Corruption Remote Code Execution Vulnerability 2014-02-05 CVE-2013-5907 https://www.cve.org/CVERecord?id=CVE-2013-5907 6.8 ['Oracle'] ['Java Runtime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Oracle Java Runtime. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing routines of a ttf font file with a large offset value for a script table. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the process. Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/cpujan2014-1972949.html ['2013-09-16 - Vulnerability reported to vendor', '2014-02-05 - Coordinated public release of advisory'] John Leitch https://www.zerodayinitiative.com/advisories/ZDI-14-013/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-14-013/",
   "title": "Oracle Java TTF Font Parsing Heap Corruption Remote Code Execution Vulnerability",
   "updated_date": null,

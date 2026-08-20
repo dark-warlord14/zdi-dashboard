@@ -11,13 +11,13 @@
   "cve": "CVE-2013-6204",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2013-6204",
   "cvss": 7.5,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2013-12-22 - Vulnerability reported to vendor",
     "2014-04-03 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-14-041 ZDI-CAN-2004 Hewlett-Packard Application Information Optimizer Credential Information Disclosure Vulnerability 2014-04-03 CVE-2013-6204 https://www.cve.org/CVERecord?id=CVE-2013-6204 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Hewlett-Packard'] ['Application Information Optimizer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of HP Application Information Optimizer. Authentication is not required to exploit this vulnerability. The specific flaw exists within the password reset functionality. It is possible for an attacker to reach this function in such a way that the password of a random account on the system will be reset, and both the account name and new password will be returned to the attacker. Hewlett-Packard has issued an update to correct this vulnerability. More details can be found at: https://h20566.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c04140965 ['2013-12-22 - Vulnerability reported to vendor', '2014-04-03 - Coordinated public release of advisory'] Andrea Micalizzi aka rgod https://www.zerodayinitiative.com/advisories/ZDI-14-041/",
+  "search_text": "published ZDI-14-041 ZDI-CAN-2004 Hewlett-Packard Application Information Optimizer Credential Information Disclosure Vulnerability 2014-04-03 CVE-2013-6204 https://www.cve.org/CVERecord?id=CVE-2013-6204 7.5 ['Hewlett-Packard'] ['Application Information Optimizer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of HP Application Information Optimizer. Authentication is not required to exploit this vulnerability. The specific flaw exists within the password reset functionality. It is possible for an attacker to reach this function in such a way that the password of a random account on the system will be reset, and both the account name and new password will be returned to the attacker. Hewlett-Packard has issued an update to correct this vulnerability. More details can be found at: https://h20566.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c04140965 ['2013-12-22 - Vulnerability reported to vendor', '2014-04-03 - Coordinated public release of advisory'] Andrea Micalizzi aka rgod https://www.zerodayinitiative.com/advisories/ZDI-14-041/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-14-041/",
   "title": "Hewlett-Packard Application Information Optimizer Credential Information Disclosure Vulnerability",
   "updated_date": null,

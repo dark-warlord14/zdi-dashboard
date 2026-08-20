@@ -11,13 +11,13 @@
   "cve": "CVE-2011-2378",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-2378",
   "cvss": 7.5,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2011-04-04 - Vulnerability reported to vendor",
     "2011-08-17 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-11-271 ZDI-CAN-1141 Mozilla Firefox appendChild DOM Tree Inconsistency Remote Code Execution Vulnerability 2011-08-17 CVE-2011-2378 https://www.cve.org/CVERecord?id=CVE-2011-2378 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Mozilla'] ['Firefox'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Mozilla Firefox. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw results when .setUserData() handlers are used with an object and .appendChild() is called within a handler. Ultimately the import operation resulting from an .appendChild() is not guarded from mutation, and invalid DOM trees can result. Invalid DOM trees can be navigated resulting in dereferencing invalid pointers which can be leveraged to execute arbitrary code in the context of the browser. Mozilla has issued an update to correct this vulnerability. More details can be found at: http://www.mozilla.org/security/announce/2011/mfsa2011-30.html#cve-2011-2378 ['2011-04-04 - Vulnerability reported to vendor', '2011-08-17 - Coordinated public release of advisory'] regenrecht https://www.zerodayinitiative.com/advisories/ZDI-11-271/",
+  "search_text": "published ZDI-11-271 ZDI-CAN-1141 Mozilla Firefox appendChild DOM Tree Inconsistency Remote Code Execution Vulnerability 2011-08-17 CVE-2011-2378 https://www.cve.org/CVERecord?id=CVE-2011-2378 7.5 ['Mozilla'] ['Firefox'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Mozilla Firefox. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw results when .setUserData() handlers are used with an object and .appendChild() is called within a handler. Ultimately the import operation resulting from an .appendChild() is not guarded from mutation, and invalid DOM trees can result. Invalid DOM trees can be navigated resulting in dereferencing invalid pointers which can be leveraged to execute arbitrary code in the context of the browser. Mozilla has issued an update to correct this vulnerability. More details can be found at: http://www.mozilla.org/security/announce/2011/mfsa2011-30.html#cve-2011-2378 ['2011-04-04 - Vulnerability reported to vendor', '2011-08-17 - Coordinated public release of advisory'] regenrecht https://www.zerodayinitiative.com/advisories/ZDI-11-271/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-271/",
   "title": "Mozilla Firefox appendChild DOM Tree Inconsistency Remote Code Execution Vulnerability",
   "updated_date": null,

@@ -11,13 +11,13 @@
   "cve": "CVE-2017-7052",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-7052",
   "cvss": 6.8,
-  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2017-05-04 - Vulnerability reported to vendor",
     "2017-07-19 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-17-489 ZDI-CAN-4707 Apple Safari Frame Use-After-Free Remote Code Execution Vulnerability 2017-07-19 CVE-2017-7052 https://www.cve.org/CVERecord?id=CVE-2017-7052 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Apple'] ['Safari'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple Safari. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Frame objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code under the context of the current process. Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/kb/HT201222 ['2017-05-04 - Vulnerability reported to vendor', '2017-07-19 - Coordinated public release of advisory'] cc https://www.zerodayinitiative.com/advisories/ZDI-17-489/",
+  "search_text": "published ZDI-17-489 ZDI-CAN-4707 Apple Safari Frame Use-After-Free Remote Code Execution Vulnerability 2017-07-19 CVE-2017-7052 https://www.cve.org/CVERecord?id=CVE-2017-7052 6.8 ['Apple'] ['Safari'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple Safari. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Frame objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code under the context of the current process. Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/kb/HT201222 ['2017-05-04 - Vulnerability reported to vendor', '2017-07-19 - Coordinated public release of advisory'] cc https://www.zerodayinitiative.com/advisories/ZDI-17-489/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-489/",
   "title": "Apple Safari Frame Use-After-Free Remote Code Execution Vulnerability",
   "updated_date": null,

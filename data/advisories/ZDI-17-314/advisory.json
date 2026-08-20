@@ -11,13 +11,13 @@
   "cve": "CVE-2017-5059",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-5059",
   "cvss": 6.8,
-  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2017-01-24 - Vulnerability reported to vendor",
     "2017-05-02 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-17-314 ZDI-CAN-4429 Google Chrome List Item Marker Type Confusion Remote Code Execution Vulnerability 2017-05-02 CVE-2017-5059 https://www.cve.org/CVERecord?id=CVE-2017-5059 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Google'] ['Chrome'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Google Chrome. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the processing of list item markers. It's possible to trigger a type confusion condition by manipulating a document's elements. An attacker can leverage this vulnerability to execute arbitrary code under the context of the current process. Google has issued an update to correct this vulnerability. More details can be found at: https://chromereleases.googleblog.com/2017/04/stable-channel-update-for-desktop.html ['2017-01-24 - Vulnerability reported to vendor', '2017-05-02 - Coordinated public release of advisory'] SkyLined https://www.zerodayinitiative.com/advisories/ZDI-17-314/",
+  "search_text": "published ZDI-17-314 ZDI-CAN-4429 Google Chrome List Item Marker Type Confusion Remote Code Execution Vulnerability 2017-05-02 CVE-2017-5059 https://www.cve.org/CVERecord?id=CVE-2017-5059 6.8 ['Google'] ['Chrome'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Google Chrome. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the processing of list item markers. It's possible to trigger a type confusion condition by manipulating a document's elements. An attacker can leverage this vulnerability to execute arbitrary code under the context of the current process. Google has issued an update to correct this vulnerability. More details can be found at: https://chromereleases.googleblog.com/2017/04/stable-channel-update-for-desktop.html ['2017-01-24 - Vulnerability reported to vendor', '2017-05-02 - Coordinated public release of advisory'] SkyLined https://www.zerodayinitiative.com/advisories/ZDI-17-314/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-314/",
   "title": "Google Chrome List Item Marker Type Confusion Remote Code Execution Vulnerability",
   "updated_date": null,

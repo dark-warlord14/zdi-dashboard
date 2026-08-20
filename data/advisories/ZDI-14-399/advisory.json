@@ -11,13 +11,13 @@
   "cve": "CVE-2014-9267",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-9267",
   "cvss": 7.5,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2014-05-20 - Vulnerability reported to vendor",
     "2014-12-04 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-14-399 ZDI-CAN-2190 PTC IsoView ActiveX Control ViewPort Heap Buffer Overflow Remote Code Execution Vulnerability 2014-12-04 CVE-2014-9267 https://www.cve.org/CVERecord?id=CVE-2014-9267 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['PTC'] ['IsoView ActiveX Control'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of the PTC IsoView ActiveX control. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the ViewPort property of the control. By setting the property to a malicious value, an attacker can overflow a statically allocated heap buffer. This could allow the attacker to execute arbitrary code in the context of the browser. PTC has issued an update to correct this vulnerability. More details can be found at: https://support.ptc.com/appserver/cs/view/solution.jsp?n=CS181001 ['2014-05-20 - Vulnerability reported to vendor', '2014-12-04 - Coordinated public release of advisory'] Andrea Micalizzi (rgod) https://www.zerodayinitiative.com/advisories/ZDI-14-399/",
+  "search_text": "published ZDI-14-399 ZDI-CAN-2190 PTC IsoView ActiveX Control ViewPort Heap Buffer Overflow Remote Code Execution Vulnerability 2014-12-04 CVE-2014-9267 https://www.cve.org/CVERecord?id=CVE-2014-9267 7.5 ['PTC'] ['IsoView ActiveX Control'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of the PTC IsoView ActiveX control. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the ViewPort property of the control. By setting the property to a malicious value, an attacker can overflow a statically allocated heap buffer. This could allow the attacker to execute arbitrary code in the context of the browser. PTC has issued an update to correct this vulnerability. More details can be found at: https://support.ptc.com/appserver/cs/view/solution.jsp?n=CS181001 ['2014-05-20 - Vulnerability reported to vendor', '2014-12-04 - Coordinated public release of advisory'] Andrea Micalizzi (rgod) https://www.zerodayinitiative.com/advisories/ZDI-14-399/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-14-399/",
   "title": "PTC IsoView ActiveX Control ViewPort Heap Buffer Overflow Remote Code Execution Vulnerability",
   "updated_date": null,

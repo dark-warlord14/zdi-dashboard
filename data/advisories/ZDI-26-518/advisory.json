@@ -1,0 +1,28 @@
+{
+  "additional_details": "Fixed in firmware v1.9.1, available by Aug 12, 2026. https://certvde.com/en/advisories/VDE-2026-008/",
+  "advisory_date": "2026-07-30",
+  "affected_products": [
+    "CHARX SEC-3150"
+  ],
+  "affected_vendors": [
+    "Phoenix Contact"
+  ],
+  "credit": "Giuseppe Cal\u00ec (_gcali) and 8cf53a459714977f6bb11ee2d90416bf1675fa0e2451d80cf55a06d0b6ac2",
+  "cve": "CVE-2026-44091",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-44091",
+  "cvss": 6.3,
+  "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+  "disclosure_timeline": [
+    "2026-02-09 - Vulnerability reported to vendor",
+    "2026-07-30 - Coordinated public release of advisory",
+    "2026-07-30 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-26-518 ZDI-CAN-29073 (Pwn2Own) Phoenix Contact CHARX SEC-3150 MQTT Service Server-Side Request Forgery Remote Code Execution Vulnerability 2026-07-30 CVE-2026-44091 https://www.cve.org/CVERecord?id=CVE-2026-44091 6.3 AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L ['Phoenix Contact'] ['CHARX SEC-3150'] This vulnerability allows network-adjacent attackers to access internal resources on affected installations of Phoenix Contact CHARX SEC-3150 devices. Authentication is not required to exploit this vulnerability. The specific flaw exists within the MQTT service. The issue results from the lack of proper validation of a URI prior to accessing resources. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the user-app account. Fixed in firmware v1.9.1, available by Aug 12, 2026. https://certvde.com/en/advisories/VDE-2026-008/ ['2026-02-09 - Vulnerability reported to vendor', '2026-07-30 - Coordinated public release of advisory', '2026-07-30 - Advisory Updated'] Giuseppe Cal\u00ec (_gcali) and 8cf53a459714977f6bb11ee2d90416bf1675fa0e2451d80cf55a06d0b6ac2 https://www.zerodayinitiative.com/advisories/ZDI-26-518/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-518/",
+  "title": "(Pwn2Own) Phoenix Contact CHARX SEC-3150 MQTT Service Server-Side Request Forgery Remote Code Execution Vulnerability",
+  "updated_date": "2026-07-30",
+  "vulnerability_details": "This vulnerability allows network-adjacent attackers to access internal resources on affected installations of Phoenix Contact CHARX SEC-3150 devices. Authentication is not required to exploit this vulnerability. The specific flaw exists within the MQTT service. The issue results from the lack of proper validation of a URI prior to accessing resources. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the user-app account.",
+  "zdi_can": "ZDI-CAN-29073",
+  "zdi_id": "ZDI-26-518"
+}

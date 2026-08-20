@@ -11,13 +11,13 @@
   "cve": "CVE-2012-0202",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2012-0202",
   "cvss": 10.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2011-11-21 - Vulnerability reported to vendor",
     "2012-06-27 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-12-101 ZDI-CAN-1418 IBM Cognos tm1admsd.exe Multiple Operations Remote Code Execution Vulnerabilities 2012-06-27 CVE-2012-0202 https://www.cve.org/CVERecord?id=CVE-2012-0202 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['IBM'] ['Cognos'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of IBM Cognos. Authentication is not required to exploit this vulnerability. The flaw exists within the tm1admsd.exe component. This process listens on TCP port 5498 by default. Requests to the service include a request type field, a data length field, and a data field. Multiple request types (opcodes) fail to validate user supplied length and data fields before copying their contents to a fixed length buffer on the stack. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the system. IBM has issued an update to correct this vulnerability. More details can be found at: http://www-01.ibm.com/support/docview.wss?uid=swg21590314 ['2011-11-21 - Vulnerability reported to vendor', '2012-06-27 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-12-101/",
+  "search_text": "published ZDI-12-101 ZDI-CAN-1418 IBM Cognos tm1admsd.exe Multiple Operations Remote Code Execution Vulnerabilities 2012-06-27 CVE-2012-0202 https://www.cve.org/CVERecord?id=CVE-2012-0202 10.0 ['IBM'] ['Cognos'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of IBM Cognos. Authentication is not required to exploit this vulnerability. The flaw exists within the tm1admsd.exe component. This process listens on TCP port 5498 by default. Requests to the service include a request type field, a data length field, and a data field. Multiple request types (opcodes) fail to validate user supplied length and data fields before copying their contents to a fixed length buffer on the stack. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the system. IBM has issued an update to correct this vulnerability. More details can be found at: http://www-01.ibm.com/support/docview.wss?uid=swg21590314 ['2011-11-21 - Vulnerability reported to vendor', '2012-06-27 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-12-101/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-12-101/",
   "title": "IBM Cognos tm1admsd.exe Multiple Operations Remote Code Execution Vulnerabilities",
   "updated_date": null,

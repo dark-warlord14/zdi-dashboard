@@ -11,13 +11,13 @@
   "cve": "CVE-2015-3435",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-3435",
   "cvss": 10.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2014-07-28 - Vulnerability reported to vendor",
     "2015-04-29 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-15-156 ZDI-CAN-2337 Samsung Security Manager ActiveMQ Broker Service PUT Method Remote Code Execution Vulnerability 2015-04-29 CVE-2015-3435 https://www.cve.org/CVERecord?id=CVE-2015-3435 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Samsung'] ['Security Manager'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Samsung Security Manager. Authentication is not required to exploit this vulnerability. Successful exploitation allows an attacker to gain complete control of the system on which the product is installed. The specific flaw exists within the ActiveMQ Broker service that is installed as part of this product. By issuing an HTTP PUT request, an attacker can create an arbitrary file on the server with attacker controlled data. An attacker can further leverage this vulnerability to execute code on the server as the SYSTEM user, thereby gaining complete control of the server. Samsung has issued the following update to resolve this issue: SSM 1.31 or higher ( http://www.samsungsecurity.com/swdown/download.asp ) ['2014-07-28 - Vulnerability reported to vendor', '2015-04-29 - Coordinated public release of advisory'] Andrea Micalizzi (rgod) https://www.zerodayinitiative.com/advisories/ZDI-15-156/",
+  "search_text": "published ZDI-15-156 ZDI-CAN-2337 Samsung Security Manager ActiveMQ Broker Service PUT Method Remote Code Execution Vulnerability 2015-04-29 CVE-2015-3435 https://www.cve.org/CVERecord?id=CVE-2015-3435 10.0 ['Samsung'] ['Security Manager'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Samsung Security Manager. Authentication is not required to exploit this vulnerability. Successful exploitation allows an attacker to gain complete control of the system on which the product is installed. The specific flaw exists within the ActiveMQ Broker service that is installed as part of this product. By issuing an HTTP PUT request, an attacker can create an arbitrary file on the server with attacker controlled data. An attacker can further leverage this vulnerability to execute code on the server as the SYSTEM user, thereby gaining complete control of the server. Samsung has issued the following update to resolve this issue: SSM 1.31 or higher ( http://www.samsungsecurity.com/swdown/download.asp ) ['2014-07-28 - Vulnerability reported to vendor', '2015-04-29 - Coordinated public release of advisory'] Andrea Micalizzi (rgod) https://www.zerodayinitiative.com/advisories/ZDI-15-156/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-156/",
   "title": "Samsung Security Manager ActiveMQ Broker Service PUT Method Remote Code Execution Vulnerability",
   "updated_date": null,

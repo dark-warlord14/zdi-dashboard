@@ -11,13 +11,13 @@
   "cve": "CVE-2011-4187",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-4187",
   "cvss": 9.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2011-10-21 - Vulnerability reported to vendor",
     "2012-06-27 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-12-102 ZDI-CAN-1345 Novell iPrint Client nipplib.dll GetDriverSettings realm Remote Code Execution Vulnerability 2012-06-27 CVE-2011-4187 https://www.cve.org/CVERecord?id=CVE-2011-4187 9.0 AV:N/AC:L/Au:N/C:P/I:P/A:C ['Novell'] ['iPrint'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Novell iPrint Client. User interaction is required in that a target must visit a malicious page or open a malicious file. The flaw exists within the exposed GetDriverSettings method in the nipplib component imported by ienipp and npnipp. When encountering a realm parameter this user supplied value's length is not properly verified before copying into a fixed length buffer on the stack. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the process. Novell has issued an update to correct this vulnerability. More details can be found at: http://www.novell.com/support/viewContent.do?externalId=7010143 ['2011-10-21 - Vulnerability reported to vendor', '2012-06-27 - Coordinated public release of advisory'] gwslabs.com https://www.zerodayinitiative.com/advisories/ZDI-12-102/",
+  "search_text": "published ZDI-12-102 ZDI-CAN-1345 Novell iPrint Client nipplib.dll GetDriverSettings realm Remote Code Execution Vulnerability 2012-06-27 CVE-2011-4187 https://www.cve.org/CVERecord?id=CVE-2011-4187 9.0 ['Novell'] ['iPrint'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Novell iPrint Client. User interaction is required in that a target must visit a malicious page or open a malicious file. The flaw exists within the exposed GetDriverSettings method in the nipplib component imported by ienipp and npnipp. When encountering a realm parameter this user supplied value's length is not properly verified before copying into a fixed length buffer on the stack. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the process. Novell has issued an update to correct this vulnerability. More details can be found at: http://www.novell.com/support/viewContent.do?externalId=7010143 ['2011-10-21 - Vulnerability reported to vendor', '2012-06-27 - Coordinated public release of advisory'] gwslabs.com https://www.zerodayinitiative.com/advisories/ZDI-12-102/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-12-102/",
   "title": "Novell iPrint Client nipplib.dll GetDriverSettings realm Remote Code Execution Vulnerability",
   "updated_date": null,

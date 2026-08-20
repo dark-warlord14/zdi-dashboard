@@ -11,13 +11,13 @@
   "cve": "CVE-2010-0112",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2010-0112",
   "cvss": 10.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2010-07-20 - Vulnerability reported to vendor",
     "2010-10-27 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-10-222 ZDI-CAN-870 Symantec IM Manager Administrative Interface rdpageimlogic.aspx SQL Injection Vulnerabilities 2010-10-27 CVE-2010-0112 https://www.cve.org/CVERecord?id=CVE-2010-0112 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Symantec'] ['IM Manager'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Symantec IM Manager. Authentication is not required to exploit this vulnerability. The specific flaw exists within the rdpageimlogic.aspx page which is exposed through an IIS extension on the default web server port. This page does not properly filter the arguments to the following parameters: 'selclause', 'whereTrendTimeClause', 'TrendTypeForReport', 'whereProtocolClause' and 'groupClause'. An attacker can abuse this to inject arbitrary SQL statements to be evaluated by the back-end database. Symantec has issued an update to correct this vulnerability. More details can be found at: http://www.symantec.com/business/security_response/securityupdates/detail.jsp?fid=security_advisory&pvid=security_advisory&year=2010&suid=20101027_01 ['2010-07-20 - Vulnerability reported to vendor', '2010-10-27 - Coordinated public release of advisory'] Andrea Micalizzi aka rgod https://www.zerodayinitiative.com/advisories/ZDI-10-222/",
+  "search_text": "published ZDI-10-222 ZDI-CAN-870 Symantec IM Manager Administrative Interface rdpageimlogic.aspx SQL Injection Vulnerabilities 2010-10-27 CVE-2010-0112 https://www.cve.org/CVERecord?id=CVE-2010-0112 10.0 ['Symantec'] ['IM Manager'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Symantec IM Manager. Authentication is not required to exploit this vulnerability. The specific flaw exists within the rdpageimlogic.aspx page which is exposed through an IIS extension on the default web server port. This page does not properly filter the arguments to the following parameters: 'selclause', 'whereTrendTimeClause', 'TrendTypeForReport', 'whereProtocolClause' and 'groupClause'. An attacker can abuse this to inject arbitrary SQL statements to be evaluated by the back-end database. Symantec has issued an update to correct this vulnerability. More details can be found at: http://www.symantec.com/business/security_response/securityupdates/detail.jsp?fid=security_advisory&pvid=security_advisory&year=2010&suid=20101027_01 ['2010-07-20 - Vulnerability reported to vendor', '2010-10-27 - Coordinated public release of advisory'] Andrea Micalizzi aka rgod https://www.zerodayinitiative.com/advisories/ZDI-10-222/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-222/",
   "title": "Symantec IM Manager Administrative Interface rdpageimlogic.aspx SQL Injection Vulnerabilities",
   "updated_date": null,

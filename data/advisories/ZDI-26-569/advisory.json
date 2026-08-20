@@ -1,0 +1,28 @@
+{
+  "additional_details": "Linux has issued an update to correct this vulnerability. More details can be found at: https://github.com/torvalds/linux/commit/e5b811fe793166aecc59b085c1b7c31262ef2316",
+  "advisory_date": "2026-08-13",
+  "affected_products": [
+    "Kernel"
+  ],
+  "affected_vendors": [
+    "Linux"
+  ],
+  "credit": "Pitticus",
+  "cve": null,
+  "cve_url": null,
+  "cvss": 7.5,
+  "cvss_vector": "AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2026-06-17 - Vulnerability reported to vendor",
+    "2026-08-13 - Coordinated public release of advisory",
+    "2026-08-13 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-26-569 ZDI-CAN-30840 Linux Kernel Net Scheduler True Link Equalizer Race Condition Local Privilege Escalation Vulnerability 2026-08-13 7.5 AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H ['Linux'] ['Kernel'] This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute high-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of qdisc objects. The issue results from the lack of proper locking when performing operations on an object. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the kernel. Linux has issued an update to correct this vulnerability. More details can be found at: https://github.com/torvalds/linux/commit/e5b811fe793166aecc59b085c1b7c31262ef2316 ['2026-06-17 - Vulnerability reported to vendor', '2026-08-13 - Coordinated public release of advisory', '2026-08-13 - Advisory Updated'] Pitticus https://www.zerodayinitiative.com/advisories/ZDI-26-569/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-569/",
+  "title": "Linux Kernel Net Scheduler True Link Equalizer Race Condition Local Privilege Escalation Vulnerability",
+  "updated_date": "2026-08-13",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute high-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of qdisc objects. The issue results from the lack of proper locking when performing operations on an object. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the kernel.",
+  "zdi_can": "ZDI-CAN-30840",
+  "zdi_id": "ZDI-26-569"
+}

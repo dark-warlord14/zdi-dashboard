@@ -11,13 +11,13 @@
   "cve": "CVE-2010-0904",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2010-0904",
   "cvss": 10.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2009-10-28 - Vulnerability reported to vendor",
     "2010-07-13 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-10-123 ZDI-CAN-626 Oracle Secure Backup Administration Authentication Bypass Vulnerability 2010-07-13 CVE-2010-0904 https://www.cve.org/CVERecord?id=CVE-2010-0904 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Oracle'] ['Secure Backup'] This vulnerability allows remote attackers to bypass authentication on vulnerable installations of Oracle Secure Backup. The specific flaw exists within the register globals emulation layer which allows attackers to specify values for arbitrary program variables. When specific parameters are specified via the URI it is possible for an attacker to bypass the authentication mechanism and reach functionality otherwise inaccessible without proper credentials. This can be leveraged by remote attackers to trigger what were post-auth vulnerabilities without valid credentials. Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technology/deploy/security/critical-patch-updates/cpujul2010.html ['2009-10-28 - Vulnerability reported to vendor', '2010-07-13 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-10-123/",
+  "search_text": "published ZDI-10-123 ZDI-CAN-626 Oracle Secure Backup Administration Authentication Bypass Vulnerability 2010-07-13 CVE-2010-0904 https://www.cve.org/CVERecord?id=CVE-2010-0904 10.0 ['Oracle'] ['Secure Backup'] This vulnerability allows remote attackers to bypass authentication on vulnerable installations of Oracle Secure Backup. The specific flaw exists within the register globals emulation layer which allows attackers to specify values for arbitrary program variables. When specific parameters are specified via the URI it is possible for an attacker to bypass the authentication mechanism and reach functionality otherwise inaccessible without proper credentials. This can be leveraged by remote attackers to trigger what were post-auth vulnerabilities without valid credentials. Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technology/deploy/security/critical-patch-updates/cpujul2010.html ['2009-10-28 - Vulnerability reported to vendor', '2010-07-13 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-10-123/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-123/",
   "title": "Oracle Secure Backup Administration Authentication Bypass Vulnerability",
   "updated_date": null,

@@ -11,13 +11,13 @@
   "cve": null,
   "cve_url": null,
   "cvss": 6.8,
-  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2015-09-24 - Vulnerability reported to vendor",
     "2015-12-16 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-15-644 ZDI-CAN-3097 Foxit Reader FlateDecode Heap Buffer Overflow Remote Code Execution Vulnerability 2015-12-16 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Foxit'] ['Foxit Reader'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Foxit Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within FlateDecode. A specially crafted PDF with a specific FlateDecode length can force a heap buffer overflow condition. An attacker can leverage this vulnerability to execute arbitrary code under the context of the current process. Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxitsoftware.com/support/security-bulletins.php ['2015-09-24 - Vulnerability reported to vendor', '2015-12-16 - Coordinated public release of advisory'] kdot https://www.zerodayinitiative.com/advisories/ZDI-15-644/",
+  "search_text": "published ZDI-15-644 ZDI-CAN-3097 Foxit Reader FlateDecode Heap Buffer Overflow Remote Code Execution Vulnerability 2015-12-16 6.8 ['Foxit'] ['Foxit Reader'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Foxit Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within FlateDecode. A specially crafted PDF with a specific FlateDecode length can force a heap buffer overflow condition. An attacker can leverage this vulnerability to execute arbitrary code under the context of the current process. Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxitsoftware.com/support/security-bulletins.php ['2015-09-24 - Vulnerability reported to vendor', '2015-12-16 - Coordinated public release of advisory'] kdot https://www.zerodayinitiative.com/advisories/ZDI-15-644/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-644/",
   "title": "Foxit Reader FlateDecode Heap Buffer Overflow Remote Code Execution Vulnerability",
   "updated_date": null,

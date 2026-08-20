@@ -11,13 +11,13 @@
   "cve": null,
   "cve_url": null,
   "cvss": 5.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2010-01-22 - Vulnerability reported to vendor",
     "2010-09-29 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-10-186 ZDI-CAN-659 IBM TSM FastBack _CalcHashValueWithLength Remote Denial of Service Vulnerability 2010-09-29 5.0 AV:N/AC:L/Au:N/C:N/I:N/A:P ['IBM'] ['Tivoli Storage Manager FastBack'] This vulnerability allows remote attackers to create a denial of service condition on vulnerable installations of IBM Tivoli FastBack Server. Authentication is not required to exploit this vulnerability. The specific flaw exists within FastBackServer.exe which listens by default on tcp port 11406. The issue is due to an unchecked user supplied length value. This value is used to iterate over supplied data and calculate a CRC value. Successful exploitation leads to an unhandled access violation and immediate termination of the FastBackServer.exe process. http://www.ibm.com/support/docview.wss?uid=swg21443820 Issue 3 ['2010-01-22 - Vulnerability reported to vendor', '2010-09-29 - Coordinated public release of advisory'] Sebastian Apelt (www.siberas.de) https://www.zerodayinitiative.com/advisories/ZDI-10-186/",
+  "search_text": "published ZDI-10-186 ZDI-CAN-659 IBM TSM FastBack _CalcHashValueWithLength Remote Denial of Service Vulnerability 2010-09-29 5.0 ['IBM'] ['Tivoli Storage Manager FastBack'] This vulnerability allows remote attackers to create a denial of service condition on vulnerable installations of IBM Tivoli FastBack Server. Authentication is not required to exploit this vulnerability. The specific flaw exists within FastBackServer.exe which listens by default on tcp port 11406. The issue is due to an unchecked user supplied length value. This value is used to iterate over supplied data and calculate a CRC value. Successful exploitation leads to an unhandled access violation and immediate termination of the FastBackServer.exe process. http://www.ibm.com/support/docview.wss?uid=swg21443820 Issue 3 ['2010-01-22 - Vulnerability reported to vendor', '2010-09-29 - Coordinated public release of advisory'] Sebastian Apelt (www.siberas.de) https://www.zerodayinitiative.com/advisories/ZDI-10-186/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-186/",
   "title": "IBM TSM FastBack _CalcHashValueWithLength Remote Denial of Service Vulnerability",
   "updated_date": null,

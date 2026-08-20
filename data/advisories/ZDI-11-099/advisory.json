@@ -11,13 +11,13 @@
   "cve": "CVE-2011-0133",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-0133",
   "cvss": 9.7,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:P/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2010-10-18 - Vulnerability reported to vendor",
     "2011-03-02 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-11-099 ZDI-CAN-968 Apple Webkit Font Glyph Layout Remote Code Execution Vulnerability 2011-03-02 CVE-2011-0133 https://www.cve.org/CVERecord?id=CVE-2011-0133 9.7 AV:N/AC:L/Au:N/C:C/I:P/A:C ['Apple'] ['WebKit'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple Safari's Webkit. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the way the application handles floating blocks in certain situations. When performing layout operations for a floating block produced by a pseudo-element, the application will attempt to access glyph data that hasn't been fully assigned into the glyph data hashmap. Due to this type being incomplete, this can lead to code execution under the context of the application. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT4554 ['2010-10-18 - Vulnerability reported to vendor', '2011-03-02 - Coordinated public release of advisory'] wushi of team509 https://www.zerodayinitiative.com/advisories/ZDI-11-099/",
+  "search_text": "published ZDI-11-099 ZDI-CAN-968 Apple Webkit Font Glyph Layout Remote Code Execution Vulnerability 2011-03-02 CVE-2011-0133 https://www.cve.org/CVERecord?id=CVE-2011-0133 9.7 ['Apple'] ['WebKit'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple Safari's Webkit. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the way the application handles floating blocks in certain situations. When performing layout operations for a floating block produced by a pseudo-element, the application will attempt to access glyph data that hasn't been fully assigned into the glyph data hashmap. Due to this type being incomplete, this can lead to code execution under the context of the application. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT4554 ['2010-10-18 - Vulnerability reported to vendor', '2011-03-02 - Coordinated public release of advisory'] wushi of team509 https://www.zerodayinitiative.com/advisories/ZDI-11-099/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-099/",
   "title": "Apple Webkit Font Glyph Layout Remote Code Execution Vulnerability",
   "updated_date": null,

@@ -11,13 +11,13 @@
   "cve": null,
   "cve_url": null,
   "cvss": 10.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2010-09-22 - Vulnerability reported to vendor",
     "2011-04-11 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-11-117 ZDI-CAN-938 McAfee Firewall Reporter GeneralUtilities.pm isValidClient Authentication Bypass Vulnerability 2011-04-11 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['McAfee'] ['Firewall Reporter'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of McAfee Firewall Reporter. Authentication is not required to exploit this vulnerability. The specific flaw exists within the code responsible for authenticating users. The GernalUtilities.pm file contains code to validate sessions by parsing cookie values without sanitization. The faulty logic simply checks for the existence of a particular file, without verifying its contents. By using a directory traversal technique an attacker can point the cgisess cookie value to an arbitrary file that exists on the server and thus bypass authentication. Fixed February 9, 2011 Bulletin modified April 11, 2011: https://kc.mcafee.com/corporate/index?page=content&id=SB10015 ['2010-09-22 - Vulnerability reported to vendor', '2011-04-11 - Coordinated public release of advisory'] Andrea Micalizzi aka rgod https://www.zerodayinitiative.com/advisories/ZDI-11-117/",
+  "search_text": "published ZDI-11-117 ZDI-CAN-938 McAfee Firewall Reporter GeneralUtilities.pm isValidClient Authentication Bypass Vulnerability 2011-04-11 10.0 ['McAfee'] ['Firewall Reporter'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of McAfee Firewall Reporter. Authentication is not required to exploit this vulnerability. The specific flaw exists within the code responsible for authenticating users. The GernalUtilities.pm file contains code to validate sessions by parsing cookie values without sanitization. The faulty logic simply checks for the existence of a particular file, without verifying its contents. By using a directory traversal technique an attacker can point the cgisess cookie value to an arbitrary file that exists on the server and thus bypass authentication. Fixed February 9, 2011 Bulletin modified April 11, 2011: https://kc.mcafee.com/corporate/index?page=content&id=SB10015 ['2010-09-22 - Vulnerability reported to vendor', '2011-04-11 - Coordinated public release of advisory'] Andrea Micalizzi aka rgod https://www.zerodayinitiative.com/advisories/ZDI-11-117/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-117/",
   "title": "McAfee Firewall Reporter GeneralUtilities.pm isValidClient Authentication Bypass Vulnerability",
   "updated_date": null,

@@ -11,13 +11,13 @@
   "cve": "CVE-2012-1182",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2012-1182",
   "cvss": 10.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2012-03-14 - Vulnerability reported to vendor",
     "2012-04-18 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-12-068 ZDI-CAN-1503 Samba GetAliasMembership SidArray Remote Code Execution Vulnerability 2012-04-18 CVE-2012-1182 https://www.cve.org/CVERecord?id=CVE-2012-1182 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Samba'] ['3.6.x'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Samba. Authentication is not required to exploit this vulnerability. The specific flaw exists within the way Samba handles GetAliasMembership requests. When parsing the data send in the request Samba uses the field 'sids' to create a heap allocation but then uses another field, 'num_sids', to write data to the allocation. Because there is no check to see if 'num_sids' is smaller than 'sids' this could result in a heap buffer overflow that could lead to remote code execution. Samba has issued an update to correct this vulnerability. More details can be found at: http://www.samba.org/samba/security/CVE-2012-1182 ['2012-03-14 - Vulnerability reported to vendor', '2012-04-18 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-12-068/",
+  "search_text": "published ZDI-12-068 ZDI-CAN-1503 Samba GetAliasMembership SidArray Remote Code Execution Vulnerability 2012-04-18 CVE-2012-1182 https://www.cve.org/CVERecord?id=CVE-2012-1182 10.0 ['Samba'] ['3.6.x'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Samba. Authentication is not required to exploit this vulnerability. The specific flaw exists within the way Samba handles GetAliasMembership requests. When parsing the data send in the request Samba uses the field 'sids' to create a heap allocation but then uses another field, 'num_sids', to write data to the allocation. Because there is no check to see if 'num_sids' is smaller than 'sids' this could result in a heap buffer overflow that could lead to remote code execution. Samba has issued an update to correct this vulnerability. More details can be found at: http://www.samba.org/samba/security/CVE-2012-1182 ['2012-03-14 - Vulnerability reported to vendor', '2012-04-18 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-12-068/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-12-068/",
   "title": "Samba GetAliasMembership SidArray Remote Code Execution Vulnerability",
   "updated_date": null,

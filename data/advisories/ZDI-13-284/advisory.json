@@ -11,13 +11,13 @@
   "cve": "CVE-2013-5397",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2013-5397",
   "cvss": 5.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2013-09-04 - Vulnerability reported to vendor",
     "2013-12-20 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-13-284 ZDI-CAN-1948 IBM Rational Focal Point LoginController Servlet Information Disclosure Vulnerability 2013-12-20 CVE-2013-5397 https://www.cve.org/CVERecord?id=CVE-2013-5397 5.0 AV:N/AC:L/Au:N/C:P/I:N/A:N ['IBM'] ['Rational Focal Point'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of IBM Rational Focal Point. Authentication is not required to exploit this vulnerability. The specific flaw exists within com.telelogic.focalpoint.pres.controller.LoginController servlet which contains a file disclosure vulnerability in the file variable. A remote attacker could gain access to configuration files which could lead to remote code execution under the context of the process. IBM has issued an update to correct this vulnerability. More details can be found at: http://www-01.ibm.com/support/docview.wss?uid=swg21654471 ['2013-09-04 - Vulnerability reported to vendor', '2013-12-20 - Coordinated public release of advisory'] Andrea Micalizzi aka rgod https://www.zerodayinitiative.com/advisories/ZDI-13-284/",
+  "search_text": "published ZDI-13-284 ZDI-CAN-1948 IBM Rational Focal Point LoginController Servlet Information Disclosure Vulnerability 2013-12-20 CVE-2013-5397 https://www.cve.org/CVERecord?id=CVE-2013-5397 5.0 ['IBM'] ['Rational Focal Point'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of IBM Rational Focal Point. Authentication is not required to exploit this vulnerability. The specific flaw exists within com.telelogic.focalpoint.pres.controller.LoginController servlet which contains a file disclosure vulnerability in the file variable. A remote attacker could gain access to configuration files which could lead to remote code execution under the context of the process. IBM has issued an update to correct this vulnerability. More details can be found at: http://www-01.ibm.com/support/docview.wss?uid=swg21654471 ['2013-09-04 - Vulnerability reported to vendor', '2013-12-20 - Coordinated public release of advisory'] Andrea Micalizzi aka rgod https://www.zerodayinitiative.com/advisories/ZDI-13-284/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-13-284/",
   "title": "IBM Rational Focal Point LoginController Servlet Information Disclosure Vulnerability",
   "updated_date": null,

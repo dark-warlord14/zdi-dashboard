@@ -11,13 +11,13 @@
   "cve": "CVE-2011-0149",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-0149",
   "cvss": 9.0,
-  "cvss_vector": "AV:N/AC:M/Au:N/C:C/I:P/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2010-10-18 - Vulnerability reported to vendor",
     "2011-03-02 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-11-100 ZDI-CAN-969 Apple Webkit Root HTMLBRElement Style Remote Code Execution Vulnerability 2011-03-02 CVE-2011-0149 https://www.cve.org/CVERecord?id=CVE-2011-0149 9.0 AV:N/AC:M/Au:N/C:C/I:P/A:C ['Apple'] ['WebKit'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple's Webkit Library. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within how the application parses a specially formatted HTML file. When parsing a particular element that also defines the namespace of the document, the library will call a dangling pointer which is consistent but unmapped. Due to this being unmapped, if an attacker can get code loaded at that address this can can lead to code execution under the context of the application. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT4554 ['2010-10-18 - Vulnerability reported to vendor', '2011-03-02 - Coordinated public release of advisory'] wushi of team509 https://www.zerodayinitiative.com/advisories/ZDI-11-100/",
+  "search_text": "published ZDI-11-100 ZDI-CAN-969 Apple Webkit Root HTMLBRElement Style Remote Code Execution Vulnerability 2011-03-02 CVE-2011-0149 https://www.cve.org/CVERecord?id=CVE-2011-0149 9.0 ['Apple'] ['WebKit'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple's Webkit Library. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within how the application parses a specially formatted HTML file. When parsing a particular element that also defines the namespace of the document, the library will call a dangling pointer which is consistent but unmapped. Due to this being unmapped, if an attacker can get code loaded at that address this can can lead to code execution under the context of the application. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT4554 ['2010-10-18 - Vulnerability reported to vendor', '2011-03-02 - Coordinated public release of advisory'] wushi of team509 https://www.zerodayinitiative.com/advisories/ZDI-11-100/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-100/",
   "title": "Apple Webkit Root HTMLBRElement Style Remote Code Execution Vulnerability",
   "updated_date": null,

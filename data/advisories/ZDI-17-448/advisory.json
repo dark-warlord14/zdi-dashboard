@@ -11,13 +11,13 @@
   "cve": "CVE-2017-6637",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-6637",
   "cvss": 7.8,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:N/I:N/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2017-02-01 - Vulnerability reported to vendor",
     "2017-06-26 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-17-448 ZDI-CAN-4469 Cisco Prime Collaboration Provisioning logconfigtracer Directory Traversal Arbitrary File Deletion Vulnerability 2017-06-26 CVE-2017-6637 https://www.cve.org/CVERecord?id=CVE-2017-6637 7.8 AV:N/AC:L/Au:N/C:N/I:N/A:C ['Cisco'] ['Prime Collaboration Provisioning'] This vulnerability allows remote attackers to delete arbitrary files on vulnerable installations of Cisco Prime Collaboration Provisioning. Authentication is not required to exploit this vulnerability. The specific flaw exists within the logconfigtracer.jsp page, which listens on TCP port 443 by default. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to delete any files accessible to the root user. Cisco has issued an update to correct this vulnerability. More details can be found at: https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170517-pcp5 ['2017-02-01 - Vulnerability reported to vendor', '2017-06-26 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-17-448/",
+  "search_text": "published ZDI-17-448 ZDI-CAN-4469 Cisco Prime Collaboration Provisioning logconfigtracer Directory Traversal Arbitrary File Deletion Vulnerability 2017-06-26 CVE-2017-6637 https://www.cve.org/CVERecord?id=CVE-2017-6637 7.8 ['Cisco'] ['Prime Collaboration Provisioning'] This vulnerability allows remote attackers to delete arbitrary files on vulnerable installations of Cisco Prime Collaboration Provisioning. Authentication is not required to exploit this vulnerability. The specific flaw exists within the logconfigtracer.jsp page, which listens on TCP port 443 by default. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to delete any files accessible to the root user. Cisco has issued an update to correct this vulnerability. More details can be found at: https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170517-pcp5 ['2017-02-01 - Vulnerability reported to vendor', '2017-06-26 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-17-448/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-448/",
   "title": "Cisco Prime Collaboration Provisioning logconfigtracer Directory Traversal Arbitrary File Deletion Vulnerability",
   "updated_date": null,

@@ -11,13 +11,13 @@
   "cve": "CVE-2016-6951",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-6951",
   "cvss": 6.8,
-  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2016-07-28 - Vulnerability reported to vendor",
     "2016-10-11 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-16-558 ZDI-CAN-3925 Acrobat Reader DC XFA template Out-Of-Bounds Read Information Disclosure Vulnerability 2016-10-11 CVE-2016-6951 https://www.cve.org/CVERecord?id=CVE-2016-6951 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Adobe'] ['Acrobat Reader DC'] This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Adobe Acrobat Reader DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of template objects. The process does not properly validate user-supplied data which can result in a read past the end of an allocated object. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb16-33.html ['2016-07-28 - Vulnerability reported to vendor', '2016-10-11 - Coordinated public release of advisory'] Sebastian Apelt siberas https://www.zerodayinitiative.com/advisories/ZDI-16-558/",
+  "search_text": "published ZDI-16-558 ZDI-CAN-3925 Acrobat Reader DC XFA template Out-Of-Bounds Read Information Disclosure Vulnerability 2016-10-11 CVE-2016-6951 https://www.cve.org/CVERecord?id=CVE-2016-6951 6.8 ['Adobe'] ['Acrobat Reader DC'] This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Adobe Acrobat Reader DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of template objects. The process does not properly validate user-supplied data which can result in a read past the end of an allocated object. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb16-33.html ['2016-07-28 - Vulnerability reported to vendor', '2016-10-11 - Coordinated public release of advisory'] Sebastian Apelt siberas https://www.zerodayinitiative.com/advisories/ZDI-16-558/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-558/",
   "title": "Acrobat Reader DC XFA template Out-Of-Bounds Read Information Disclosure Vulnerability",
   "updated_date": null,

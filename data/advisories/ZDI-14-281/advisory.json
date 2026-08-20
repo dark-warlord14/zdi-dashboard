@@ -11,13 +11,13 @@
   "cve": "CVE-2014-4055",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-4055",
   "cvss": 6.8,
-  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2014-05-06 - Vulnerability reported to vendor",
     "2014-08-12 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-14-281 ZDI-CAN-2315 Microsoft Internet Explorer CInput onfocus Use-After-Free Remote Code Execution Vulnerability 2014-08-12 CVE-2014-4055 https://www.cve.org/CVERecord?id=CVE-2014-4055 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Microsoft'] ['Internet Explorer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The vulnerability relates to how Internet Explorer processes the onfocus event of an input element. By manipulating a document's elements an attacker can force a CInput object in memory to be reused after it has been freed. An attacker can leverage this vulnerability to execute code under the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/en-us/library/security/MS14-051 ['2014-05-06 - Vulnerability reported to vendor', '2014-08-12 - Coordinated public release of advisory'] Simon Zuckerbraun HP Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-14-281/",
+  "search_text": "published ZDI-14-281 ZDI-CAN-2315 Microsoft Internet Explorer CInput onfocus Use-After-Free Remote Code Execution Vulnerability 2014-08-12 CVE-2014-4055 https://www.cve.org/CVERecord?id=CVE-2014-4055 6.8 ['Microsoft'] ['Internet Explorer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The vulnerability relates to how Internet Explorer processes the onfocus event of an input element. By manipulating a document's elements an attacker can force a CInput object in memory to be reused after it has been freed. An attacker can leverage this vulnerability to execute code under the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/en-us/library/security/MS14-051 ['2014-05-06 - Vulnerability reported to vendor', '2014-08-12 - Coordinated public release of advisory'] Simon Zuckerbraun HP Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-14-281/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-14-281/",
   "title": "Microsoft Internet Explorer CInput onfocus Use-After-Free Remote Code Execution Vulnerability",
   "updated_date": null,

@@ -11,13 +11,13 @@
   "cve": "CVE-2010-0479",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2010-0479",
   "cvss": 10.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2009-11-06 - Vulnerability reported to vendor",
     "2010-04-13 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-10-069 ZDI-CAN-612 Microsoft Office Publisher File Conversion TextBox Processing Buffer Overflow Vulnerability 2010-04-13 CVE-2010-0479 https://www.cve.org/CVERecord?id=CVE-2010-0479 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Microsoft'] ['Office Publisher'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Office. Exploitation requires user interaction in that a victim must open a malicious PUB file. The specific flaw exists within the code responsible for converting files from the Publisher 97 format. While processing a TextBox item, several programming errors can be triggered allowing a maliciously created publisher file to execute arbitrary code under the context of the user opening the file. Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/bulletin/ms10-023.mspx ['2009-11-06 - Vulnerability reported to vendor', '2010-04-13 - Coordinated public release of advisory'] Lionel d'Hauenens (www.laboskopia.com) https://www.zerodayinitiative.com/advisories/ZDI-10-069/",
+  "search_text": "published ZDI-10-069 ZDI-CAN-612 Microsoft Office Publisher File Conversion TextBox Processing Buffer Overflow Vulnerability 2010-04-13 CVE-2010-0479 https://www.cve.org/CVERecord?id=CVE-2010-0479 10.0 ['Microsoft'] ['Office Publisher'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Office. Exploitation requires user interaction in that a victim must open a malicious PUB file. The specific flaw exists within the code responsible for converting files from the Publisher 97 format. While processing a TextBox item, several programming errors can be triggered allowing a maliciously created publisher file to execute arbitrary code under the context of the user opening the file. Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/bulletin/ms10-023.mspx ['2009-11-06 - Vulnerability reported to vendor', '2010-04-13 - Coordinated public release of advisory'] Lionel d'Hauenens (www.laboskopia.com) https://www.zerodayinitiative.com/advisories/ZDI-10-069/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-069/",
   "title": "Microsoft Office Publisher File Conversion TextBox Processing Buffer Overflow Vulnerability",
   "updated_date": null,

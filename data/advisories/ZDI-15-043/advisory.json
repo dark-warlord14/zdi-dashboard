@@ -11,13 +11,13 @@
   "cve": "CVE-2015-1501",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-1501",
   "cvss": 7.5,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2014-09-03 - Vulnerability reported to vendor",
     "2015-02-10 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-15-043 ZDI-CAN-2379 SolarWinds Server and Application Monitor TSUnicodeGraphEditorControl factory.loadExtensionFactory Remote Code Execution Vulnerability 2015-02-10 CVE-2015-1501 https://www.cve.org/CVERecord?id=CVE-2015-1501 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['SolarWinds'] ['Server and Application Monitor'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of SolarWinds Server and Application Monitor. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the 'factory' object's loadExtensionFactory method. By supplying a UNC path to a controlled binary, a remote attacker can execute arbitrary code under the context of the process. SolarWinds has issued an update to correct this vulnerability. More details can be found at: http://downloads.solarwinds.com/solarwinds/Release/HotFix/OrionPlatform-2014.2.1-HotFix7.zip ['2014-09-03 - Vulnerability reported to vendor', '2015-02-10 - Coordinated public release of advisory'] Andrea Micalizzi (rgod) https://www.zerodayinitiative.com/advisories/ZDI-15-043/",
+  "search_text": "published ZDI-15-043 ZDI-CAN-2379 SolarWinds Server and Application Monitor TSUnicodeGraphEditorControl factory.loadExtensionFactory Remote Code Execution Vulnerability 2015-02-10 CVE-2015-1501 https://www.cve.org/CVERecord?id=CVE-2015-1501 7.5 ['SolarWinds'] ['Server and Application Monitor'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of SolarWinds Server and Application Monitor. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the 'factory' object's loadExtensionFactory method. By supplying a UNC path to a controlled binary, a remote attacker can execute arbitrary code under the context of the process. SolarWinds has issued an update to correct this vulnerability. More details can be found at: http://downloads.solarwinds.com/solarwinds/Release/HotFix/OrionPlatform-2014.2.1-HotFix7.zip ['2014-09-03 - Vulnerability reported to vendor', '2015-02-10 - Coordinated public release of advisory'] Andrea Micalizzi (rgod) https://www.zerodayinitiative.com/advisories/ZDI-15-043/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-043/",
   "title": "SolarWinds Server and Application Monitor TSUnicodeGraphEditorControl factory.loadExtensionFactory Remote Code Execution Vulnerability",
   "updated_date": null,

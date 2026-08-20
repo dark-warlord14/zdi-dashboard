@@ -11,13 +11,13 @@
   "cve": "CVE-2016-0106",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-0106",
   "cvss": 4.3,
-  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2015-12-07 - Vulnerability reported to vendor",
     "2016-03-08 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-16-180 ZDI-CAN-3455 Microsoft Internet Explorer CDataset RemoveItem Use-After-Free Information Disclosure Vulnerability 2016-03-08 CVE-2016-0106 https://www.cve.org/CVERecord?id=CVE-2016-0106 4.3 AV:N/AC:M/Au:N/C:P/I:N/A:N ['Microsoft'] ['Internet Explorer'] This vulnerability allows remote attackers to disclose the contents of memory on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The vulnerability relates to how Internet Explorer handles custom data attributes attached to HTML elements. By manipulating a document's elements an attacker can force a string in memory to be reused after it has been freed, leading to a disclosure of memory contents. An attacker can use this information in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/library/security/MS16-023 ['2015-12-07 - Vulnerability reported to vendor', '2016-03-08 - Coordinated public release of advisory'] sky https://www.zerodayinitiative.com/advisories/ZDI-16-180/",
+  "search_text": "published ZDI-16-180 ZDI-CAN-3455 Microsoft Internet Explorer CDataset RemoveItem Use-After-Free Information Disclosure Vulnerability 2016-03-08 CVE-2016-0106 https://www.cve.org/CVERecord?id=CVE-2016-0106 4.3 ['Microsoft'] ['Internet Explorer'] This vulnerability allows remote attackers to disclose the contents of memory on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The vulnerability relates to how Internet Explorer handles custom data attributes attached to HTML elements. By manipulating a document's elements an attacker can force a string in memory to be reused after it has been freed, leading to a disclosure of memory contents. An attacker can use this information in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/library/security/MS16-023 ['2015-12-07 - Vulnerability reported to vendor', '2016-03-08 - Coordinated public release of advisory'] sky https://www.zerodayinitiative.com/advisories/ZDI-16-180/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-180/",
   "title": "Microsoft Internet Explorer CDataset RemoveItem Use-After-Free Information Disclosure Vulnerability",
   "updated_date": null,

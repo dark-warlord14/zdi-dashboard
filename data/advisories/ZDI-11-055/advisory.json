@@ -11,13 +11,13 @@
   "cve": "CVE-2011-0923",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-0923",
   "cvss": 10.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2009-01-26 - Vulnerability reported to vendor",
     "2011-02-07 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-11-055 ZDI-CAN-419 (0Day) Hewlett-Packard Data Protector Client EXEC_CMD Perl Remote Code Execution Vulnerability 2011-02-07 CVE-2011-0923 https://www.cve.org/CVERecord?id=CVE-2011-0923 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Hewlett-Packard'] ['Data Protector'] This vulnerability allows an attacker to execute remote code on vulnerable installations of the Hewlett-Packard Data Protector client. User interaction is not required to exploit this vulnerability. The specific flaw exists within the filtering of arguments to the EXEC_CMD command. The Data Protector client allows remote connections to execute files within it's local bin directory. By supplying maliciously crafted input to the EXEC_CMD a remote attacker can interact with a Perl interpreter and execute arbitrary code under the context of the current user. ['2009-01-26 - Vulnerability reported to vendor', '2011-02-07 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-11-055/",
+  "search_text": "published ZDI-11-055 ZDI-CAN-419 (0Day) Hewlett-Packard Data Protector Client EXEC_CMD Perl Remote Code Execution Vulnerability 2011-02-07 CVE-2011-0923 https://www.cve.org/CVERecord?id=CVE-2011-0923 10.0 ['Hewlett-Packard'] ['Data Protector'] This vulnerability allows an attacker to execute remote code on vulnerable installations of the Hewlett-Packard Data Protector client. User interaction is not required to exploit this vulnerability. The specific flaw exists within the filtering of arguments to the EXEC_CMD command. The Data Protector client allows remote connections to execute files within it's local bin directory. By supplying maliciously crafted input to the EXEC_CMD a remote attacker can interact with a Perl interpreter and execute arbitrary code under the context of the current user. ['2009-01-26 - Vulnerability reported to vendor', '2011-02-07 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-11-055/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-055/",
   "title": "(0Day) Hewlett-Packard Data Protector Client EXEC_CMD Perl Remote Code Execution Vulnerability",
   "updated_date": null,

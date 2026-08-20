@@ -11,13 +11,13 @@
   "cve": "CVE-2015-6038",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-6038",
   "cvss": 6.8,
-  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2015-08-03 - Vulnerability reported to vendor",
     "2015-11-10 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-15-543 ZDI-CAN-3109 Microsoft Office Excel Binary Worksheet Uninitialized Pointer Remote Code Execution Vulnerability 2015-11-10 CVE-2015-6038 https://www.cve.org/CVERecord?id=CVE-2015-6038 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Microsoft'] ['Office Excel'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Office Excel. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of binary (.xlsb) Excel files. By providing a malformed .xlsb file, an attacker can cause the target location for a branch to be read from uninitialized memory. An attacker could leverage this to execute arbitrary code under the context of the Excel process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/library/security/MS15-116 ['2015-08-03 - Vulnerability reported to vendor', '2015-11-10 - Coordinated public release of advisory'] Steven Seeley of Source Incite https://www.zerodayinitiative.com/advisories/ZDI-15-543/",
+  "search_text": "published ZDI-15-543 ZDI-CAN-3109 Microsoft Office Excel Binary Worksheet Uninitialized Pointer Remote Code Execution Vulnerability 2015-11-10 CVE-2015-6038 https://www.cve.org/CVERecord?id=CVE-2015-6038 6.8 ['Microsoft'] ['Office Excel'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Office Excel. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of binary (.xlsb) Excel files. By providing a malformed .xlsb file, an attacker can cause the target location for a branch to be read from uninitialized memory. An attacker could leverage this to execute arbitrary code under the context of the Excel process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/library/security/MS15-116 ['2015-08-03 - Vulnerability reported to vendor', '2015-11-10 - Coordinated public release of advisory'] Steven Seeley of Source Incite https://www.zerodayinitiative.com/advisories/ZDI-15-543/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-543/",
   "title": "Microsoft Office Excel Binary Worksheet Uninitialized Pointer Remote Code Execution Vulnerability",
   "updated_date": null,

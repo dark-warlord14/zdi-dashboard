@@ -1,0 +1,28 @@
+{
+  "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62911",
+  "advisory_date": "2026-08-11",
+  "affected_products": [
+    "Exchange"
+  ],
+  "affected_vendors": [
+    "Microsoft"
+  ],
+  "credit": "Orange Tsai (@orange_8361) from DEVCORE Research Team",
+  "cve": "CVE-2026-62911",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-62911",
+  "cvss": 8.8,
+  "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2026-05-21 - Vulnerability reported to vendor",
+    "2026-08-11 - Coordinated public release of advisory",
+    "2026-08-11 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-26-538 ZDI-CAN-31480 (Pwn2Own) Microsoft Exchange Improper Authorization Privilege Escalation Vulnerability 2026-08-11 CVE-2026-62911 https://www.cve.org/CVERecord?id=CVE-2026-62911 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Microsoft'] ['Exchange'] This vulnerability allows remote attackers to escalate privileges on affected installations of Microsoft Exchange. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed. The specific flaw exists within the handling of authorization requests. The issue results from improper session management. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of SYSTEM. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62911 ['2026-05-21 - Vulnerability reported to vendor', '2026-08-11 - Coordinated public release of advisory', '2026-08-11 - Advisory Updated'] Orange Tsai (@orange_8361) from DEVCORE Research Team https://www.zerodayinitiative.com/advisories/ZDI-26-538/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-538/",
+  "title": "(Pwn2Own) Microsoft Exchange Improper Authorization Privilege Escalation Vulnerability",
+  "updated_date": "2026-08-11",
+  "vulnerability_details": "This vulnerability allows remote attackers to escalate privileges on affected installations of Microsoft Exchange. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed. The specific flaw exists within the handling of authorization requests. The issue results from improper session management. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-31480",
+  "zdi_id": "ZDI-26-538"
+}

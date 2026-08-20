@@ -11,13 +11,13 @@
   "cve": "CVE-2014-1245",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-1245",
   "cvss": 7.5,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2013-09-21 - Vulnerability reported to vendor",
     "2014-04-03 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-14-047 ZDI-CAN-1939 Apple QuickTime stsz Atom Remote Code Execution Vulnerability 2014-04-03 CVE-2014-1245 https://www.cve.org/CVERecord?id=CVE-2014-1245 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Apple'] ['QuickTime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple QuickTime. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the processing of the stsz atom. By providing a malicious value inside of the stsz atom, an attacker is able to influence the destination of a data write. An attacker could use this vulnerability to execute arbitrary code in the context of the viewing user. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT1222 ['2013-09-21 - Vulnerability reported to vendor', '2014-04-03 - Coordinated public release of advisory'] Tom Gallagher & Paul Bates https://www.zerodayinitiative.com/advisories/ZDI-14-047/",
+  "search_text": "published ZDI-14-047 ZDI-CAN-1939 Apple QuickTime stsz Atom Remote Code Execution Vulnerability 2014-04-03 CVE-2014-1245 https://www.cve.org/CVERecord?id=CVE-2014-1245 7.5 ['Apple'] ['QuickTime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple QuickTime. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the processing of the stsz atom. By providing a malicious value inside of the stsz atom, an attacker is able to influence the destination of a data write. An attacker could use this vulnerability to execute arbitrary code in the context of the viewing user. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT1222 ['2013-09-21 - Vulnerability reported to vendor', '2014-04-03 - Coordinated public release of advisory'] Tom Gallagher & Paul Bates https://www.zerodayinitiative.com/advisories/ZDI-14-047/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-14-047/",
   "title": "Apple QuickTime stsz Atom Remote Code Execution Vulnerability",
   "updated_date": null,

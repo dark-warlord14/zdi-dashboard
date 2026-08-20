@@ -11,13 +11,13 @@
   "cve": "CVE-2013-3026",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2013-3026",
   "cvss": 6.8,
-  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2013-05-14 - Vulnerability reported to vendor",
     "2013-09-11 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-13-214 ZDI-CAN-1812 IBM Quickr for Domino ActiveX Integer Overflow Remote Code Execution Vulnerability 2013-09-11 CVE-2013-3026 https://www.cve.org/CVERecord?id=CVE-2013-3026 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['IBM'] ['Lotus Quickr'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of IBM Quickr for Domino. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of user provided input in an ActiveX control. An integer overflow exists which leads to a heap buffer overflow. An attacker could use this vulnerability to execute arbitrary code in the context of the user. IBM has issued an update to correct this vulnerability. More details can be found at: http://www-01.ibm.com/support/docview.wss?uid=swg21639643 ['2013-05-14 - Vulnerability reported to vendor', '2013-09-11 - Coordinated public release of advisory'] Aniway.Anyway@gmail.com https://www.zerodayinitiative.com/advisories/ZDI-13-214/",
+  "search_text": "published ZDI-13-214 ZDI-CAN-1812 IBM Quickr for Domino ActiveX Integer Overflow Remote Code Execution Vulnerability 2013-09-11 CVE-2013-3026 https://www.cve.org/CVERecord?id=CVE-2013-3026 6.8 ['IBM'] ['Lotus Quickr'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of IBM Quickr for Domino. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of user provided input in an ActiveX control. An integer overflow exists which leads to a heap buffer overflow. An attacker could use this vulnerability to execute arbitrary code in the context of the user. IBM has issued an update to correct this vulnerability. More details can be found at: http://www-01.ibm.com/support/docview.wss?uid=swg21639643 ['2013-05-14 - Vulnerability reported to vendor', '2013-09-11 - Coordinated public release of advisory'] Aniway.Anyway@gmail.com https://www.zerodayinitiative.com/advisories/ZDI-13-214/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-13-214/",
   "title": "IBM Quickr for Domino ActiveX Integer Overflow Remote Code Execution Vulnerability",
   "updated_date": null,

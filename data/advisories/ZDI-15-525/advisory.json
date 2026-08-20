@@ -11,13 +11,13 @@
   "cve": null,
   "cve_url": null,
   "cvss": 6.8,
-  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2015-09-15 - Vulnerability reported to vendor",
     "2015-10-19 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-15-525 ZDI-CAN-3266 Foxit Reader Forms Out-Of-Bounds Read Remote Code Execution Vulnerability 2015-10-19 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Foxit'] ['Foxit Reader'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Foxit Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within PDF Forms. A specially crafted PDF file can force Foxit Reader to read memory past the end of an allocated object. An attacker could leverage this vulnerability to execute code under the context of the current process. Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxitsoftware.com/support/security-bulletins.php ['2015-09-15 - Vulnerability reported to vendor', '2015-10-19 - Coordinated public release of advisory'] Jaanus Kp Clarified Security https://www.zerodayinitiative.com/advisories/ZDI-15-525/",
+  "search_text": "published ZDI-15-525 ZDI-CAN-3266 Foxit Reader Forms Out-Of-Bounds Read Remote Code Execution Vulnerability 2015-10-19 6.8 ['Foxit'] ['Foxit Reader'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Foxit Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within PDF Forms. A specially crafted PDF file can force Foxit Reader to read memory past the end of an allocated object. An attacker could leverage this vulnerability to execute code under the context of the current process. Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxitsoftware.com/support/security-bulletins.php ['2015-09-15 - Vulnerability reported to vendor', '2015-10-19 - Coordinated public release of advisory'] Jaanus Kp Clarified Security https://www.zerodayinitiative.com/advisories/ZDI-15-525/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-525/",
   "title": "Foxit Reader Forms Out-Of-Bounds Read Remote Code Execution Vulnerability",
   "updated_date": null,

@@ -11,13 +11,13 @@
   "cve": "CVE-2014-7866",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-7866",
   "cvss": 10.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2014-08-18 - Vulnerability reported to vendor",
     "2015-04-15 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-15-144 ZDI-CAN-2451 ManageEngine OpManager MigrateCentralData zipFileName File Upload Remote Code Execution Vulnerability 2015-04-15 CVE-2014-7866 https://www.cve.org/CVERecord?id=CVE-2014-7866 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['ManageEngine'] ['OpManager'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of ManageEngine OpManager. Authentication is not required to exploit this vulnerability. The specific flaw exists within the MigrateCentralData servlet. The issue lies in the failure to sanitize the filenames uploaded to the servlet. An attacker can leverage this vulnerability to execute code under the context of SYSTEM. ManageEngine has issued an update to correct this vulnerability. More details can be found at: https://support.zoho.com/portal/manageengine/helpcenter/articles/fix-for-remote-code-execution-via-file-upload-vulnerability ['2014-08-18 - Vulnerability reported to vendor', '2015-04-15 - Coordinated public release of advisory'] Andrea Micalizzi (rgod) https://www.zerodayinitiative.com/advisories/ZDI-15-144/",
+  "search_text": "published ZDI-15-144 ZDI-CAN-2451 ManageEngine OpManager MigrateCentralData zipFileName File Upload Remote Code Execution Vulnerability 2015-04-15 CVE-2014-7866 https://www.cve.org/CVERecord?id=CVE-2014-7866 10.0 ['ManageEngine'] ['OpManager'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of ManageEngine OpManager. Authentication is not required to exploit this vulnerability. The specific flaw exists within the MigrateCentralData servlet. The issue lies in the failure to sanitize the filenames uploaded to the servlet. An attacker can leverage this vulnerability to execute code under the context of SYSTEM. ManageEngine has issued an update to correct this vulnerability. More details can be found at: https://support.zoho.com/portal/manageengine/helpcenter/articles/fix-for-remote-code-execution-via-file-upload-vulnerability ['2014-08-18 - Vulnerability reported to vendor', '2015-04-15 - Coordinated public release of advisory'] Andrea Micalizzi (rgod) https://www.zerodayinitiative.com/advisories/ZDI-15-144/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-144/",
   "title": "ManageEngine OpManager MigrateCentralData zipFileName File Upload Remote Code Execution Vulnerability",
   "updated_date": null,

@@ -11,13 +11,13 @@
   "cve": "CVE-2016-4653",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-4653",
   "cvss": 6.9,
-  "cvss_vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2016-04-05 - Vulnerability reported to vendor",
     "2016-07-20 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-16-436 ZDI-CAN-3654 Apple OS X IOPMrootDomain Memory Corruption Privilege Escalation Vulnerability 2016-07-20 CVE-2016-4653 https://www.cve.org/CVERecord?id=CVE-2016-4653 6.9 AV:L/AC:M/Au:N/C:C/I:C/A:C ['Apple'] ['OS X'] This vulnerability allows local attackers to execute arbitrary code on vulnerable installations of Apple OS X. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within IOPMrootDomain. By publishing to this service, an attacker can cause memory corruption. An attacker could leverage this vulnerability to execute arbitrary code with kernel privileges. Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-us/HT206903 ['2016-04-05 - Vulnerability reported to vendor', '2016-07-20 - Coordinated public release of advisory'] Ju Zhu of Trend Micro https://www.zerodayinitiative.com/advisories/ZDI-16-436/",
+  "search_text": "published ZDI-16-436 ZDI-CAN-3654 Apple OS X IOPMrootDomain Memory Corruption Privilege Escalation Vulnerability 2016-07-20 CVE-2016-4653 https://www.cve.org/CVERecord?id=CVE-2016-4653 6.9 ['Apple'] ['OS X'] This vulnerability allows local attackers to execute arbitrary code on vulnerable installations of Apple OS X. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within IOPMrootDomain. By publishing to this service, an attacker can cause memory corruption. An attacker could leverage this vulnerability to execute arbitrary code with kernel privileges. Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-us/HT206903 ['2016-04-05 - Vulnerability reported to vendor', '2016-07-20 - Coordinated public release of advisory'] Ju Zhu of Trend Micro https://www.zerodayinitiative.com/advisories/ZDI-16-436/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-436/",
   "title": "Apple OS X IOPMrootDomain Memory Corruption Privilege Escalation Vulnerability",
   "updated_date": null,

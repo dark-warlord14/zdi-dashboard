@@ -1,0 +1,28 @@
+{
+  "additional_details": "Wazuh has issued an update to correct this vulnerability. More details can be found at: https://github.com/wazuh/wazuh/security/advisories/GHSA-w2jj-pfq9-mh9p",
+  "advisory_date": "2026-08-11",
+  "affected_products": [
+    "Wazuh"
+  ],
+  "affected_vendors": [
+    "Wazuh"
+  ],
+  "credit": "Maher Azzouzi",
+  "cve": "CVE-2026-28220",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-28220",
+  "cvss": 9.9,
+  "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2026-04-15 - Vulnerability reported to vendor",
+    "2026-08-11 - Coordinated public release of advisory",
+    "2026-08-11 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-26-528 ZDI-CAN-30062 Wazuh Cluster DAPI Protocol Deserialization of Untrusted Data Remote Code Execution Vulnerability 2026-08-11 CVE-2026-28220 https://www.cve.org/CVERecord?id=CVE-2026-28220 9.9 AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H ['Wazuh'] ['Wazuh'] This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Wazuh. An attacker must first obtain the ability to execute low-privileged code on a worker node in order to exploit this vulnerability. The specific flaw exists within the as_wazuh_object deserializer. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of root on the master node. Wazuh has issued an update to correct this vulnerability. More details can be found at: https://github.com/wazuh/wazuh/security/advisories/GHSA-w2jj-pfq9-mh9p ['2026-04-15 - Vulnerability reported to vendor', '2026-08-11 - Coordinated public release of advisory', '2026-08-11 - Advisory Updated'] Maher Azzouzi https://www.zerodayinitiative.com/advisories/ZDI-26-528/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-528/",
+  "title": "Wazuh Cluster DAPI Protocol Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+  "updated_date": "2026-08-11",
+  "vulnerability_details": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Wazuh. An attacker must first obtain the ability to execute low-privileged code on a worker node in order to exploit this vulnerability. The specific flaw exists within the as_wazuh_object deserializer. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of root on the master node.",
+  "zdi_can": "ZDI-CAN-30062",
+  "zdi_id": "ZDI-26-528"
+}

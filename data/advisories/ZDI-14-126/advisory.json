@@ -11,13 +11,13 @@
   "cve": "CVE-2014-1736",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-1736",
   "cvss": 6.8,
-  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2014-04-03 - Vulnerability reported to vendor",
     "2014-05-13 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-14-126 ZDI-CAN-2245 Google Chrome ImageData Signedness Error Remote Code Execution Vulnerability 2014-05-13 CVE-2014-1736 https://www.cve.org/CVERecord?id=CVE-2014-1736 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Google'] ['Chrome'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Google Chrome. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of ImageData objects. In certain conditions, an attacker would be able to read and write pixel data. An attacker can leverage this vulnerability to execute code under the context of the current process. Google has issued an update to correct this vulnerability. More details can be found at: http://googlechromereleases.blogspot.com/2014/04/stable-channel-update_24.html 359802 ['2014-04-03 - Vulnerability reported to vendor', '2014-05-13 - Coordinated public release of advisory'] SkyLined https://www.zerodayinitiative.com/advisories/ZDI-14-126/",
+  "search_text": "published ZDI-14-126 ZDI-CAN-2245 Google Chrome ImageData Signedness Error Remote Code Execution Vulnerability 2014-05-13 CVE-2014-1736 https://www.cve.org/CVERecord?id=CVE-2014-1736 6.8 ['Google'] ['Chrome'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Google Chrome. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of ImageData objects. In certain conditions, an attacker would be able to read and write pixel data. An attacker can leverage this vulnerability to execute code under the context of the current process. Google has issued an update to correct this vulnerability. More details can be found at: http://googlechromereleases.blogspot.com/2014/04/stable-channel-update_24.html 359802 ['2014-04-03 - Vulnerability reported to vendor', '2014-05-13 - Coordinated public release of advisory'] SkyLined https://www.zerodayinitiative.com/advisories/ZDI-14-126/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-14-126/",
   "title": "Google Chrome ImageData Signedness Error Remote Code Execution Vulnerability",
   "updated_date": null,

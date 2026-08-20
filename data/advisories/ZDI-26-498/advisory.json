@@ -1,0 +1,28 @@
+{
+  "additional_details": "Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/en-US/solution/KA-0023937",
+  "advisory_date": "2026-07-29",
+  "affected_products": [
+    "Vision One"
+  ],
+  "affected_vendors": [
+    "Trend Micro"
+  ],
+  "credit": "Xavier DANEST - Decathlon",
+  "cve": "CVE-2025-71387",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-71387",
+  "cvss": 7.2,
+  "cvss_vector": "AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2025-10-03 - Vulnerability reported to vendor",
+    "2026-07-29 - Coordinated public release of advisory",
+    "2026-07-29 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-26-498 ZDI-CAN-28122 TrendAI Vision One Incorrect Privilege Assignment Privilege Escalation Vulnerability 2026-07-29 CVE-2025-71387 https://www.cve.org/CVERecord?id=CVE-2025-71387 7.2 AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H ['Trend Micro'] ['Vision One'] This vulnerability allows remote attackers to escalate privileges on affected installations of TrendAI Vision One. Authentication is required to exploit this vulnerability. The specific flaw exists within the handling of Service Gateway registration. The issue results from incorrect privilege assignment. An attacker can leverage this vulnerability to escalate privileges to resources normally protected from the user. Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/en-US/solution/KA-0023937 ['2025-10-03 - Vulnerability reported to vendor', '2026-07-29 - Coordinated public release of advisory', '2026-07-29 - Advisory Updated'] Xavier DANEST - Decathlon https://www.zerodayinitiative.com/advisories/ZDI-26-498/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-498/",
+  "title": "TrendAI Vision One Incorrect Privilege Assignment Privilege Escalation Vulnerability",
+  "updated_date": "2026-07-29",
+  "vulnerability_details": "This vulnerability allows remote attackers to escalate privileges on affected installations of TrendAI Vision One. Authentication is required to exploit this vulnerability. The specific flaw exists within the handling of Service Gateway registration. The issue results from incorrect privilege assignment. An attacker can leverage this vulnerability to escalate privileges to resources normally protected from the user.",
+  "zdi_can": "ZDI-CAN-28122",
+  "zdi_id": "ZDI-26-498"
+}

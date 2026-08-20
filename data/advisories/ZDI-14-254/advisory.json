@@ -11,13 +11,13 @@
   "cve": "CVE-2014-2364",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-2364",
   "cvss": 7.5,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2014-04-23 - Vulnerability reported to vendor",
     "2014-07-18 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-14-254 ZDI-CAN-2064 Advantech WebAccess dvs.ocx AlarmImage Stack Buffer Overflow Remote Code Execution Vulnerability 2014-07-18 CVE-2014-2364 https://www.cve.org/CVERecord?id=CVE-2014-2364 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Advantech'] ['Advantech WebAccess'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Advantech WebAccess. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the DVC.DvcCtrl ActiveX Control in dvs.ocx. The control does not check the length of an attacker-supplied string in the AlarmImage method before copying it into a fixed length buffer on the stack. This allows an attacker to execute arbitrary code in the context of the browser process. Advantech has issued an update to correct this vulnerability. More details can be found at: http://ics-cert.us-cert.gov/advisories/ICSA-14-198-02 ['2014-04-23 - Vulnerability reported to vendor', '2014-07-18 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-14-254/",
+  "search_text": "published ZDI-14-254 ZDI-CAN-2064 Advantech WebAccess dvs.ocx AlarmImage Stack Buffer Overflow Remote Code Execution Vulnerability 2014-07-18 CVE-2014-2364 https://www.cve.org/CVERecord?id=CVE-2014-2364 7.5 ['Advantech'] ['Advantech WebAccess'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Advantech WebAccess. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the DVC.DvcCtrl ActiveX Control in dvs.ocx. The control does not check the length of an attacker-supplied string in the AlarmImage method before copying it into a fixed length buffer on the stack. This allows an attacker to execute arbitrary code in the context of the browser process. Advantech has issued an update to correct this vulnerability. More details can be found at: http://ics-cert.us-cert.gov/advisories/ICSA-14-198-02 ['2014-04-23 - Vulnerability reported to vendor', '2014-07-18 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-14-254/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-14-254/",
   "title": "Advantech WebAccess dvs.ocx AlarmImage Stack Buffer Overflow Remote Code Execution Vulnerability",
   "updated_date": null,

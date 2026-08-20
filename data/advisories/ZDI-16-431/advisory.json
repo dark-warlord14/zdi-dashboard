@@ -11,13 +11,13 @@
   "cve": "CVE-2016-4639",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-4639",
   "cvss": 4.4,
-  "cvss_vector": "AV:L/AC:M/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2016-05-20 - Vulnerability reported to vendor",
     "2016-07-20 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-16-431 ZDI-CAN-3776 Apple OS X WindowServer Memory Corruption Privilege Escalation Vulnerability 2016-07-20 CVE-2016-4639 https://www.cve.org/CVERecord?id=CVE-2016-4639 4.4 AV:L/AC:M/Au:N/C:P/I:P/A:P ['Apple'] ['OS X'] This vulnerability allows local attackers to execute arbitrary code on vulnerable installations of Apple OS X. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within CoreGraphics. By interacting with PKGTransactionWillSwitchSpaces, an attacker can cause a memory corruption condition. An attacker could leverage this vulnerability to execute arbitrary code under the context of the WindowServer. Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-us/HT206903 ['2016-05-20 - Vulnerability reported to vendor', '2016-07-20 - Coordinated public release of advisory'] e048b7039acc9483d42ca9ef197bd909 https://www.zerodayinitiative.com/advisories/ZDI-16-431/",
+  "search_text": "published ZDI-16-431 ZDI-CAN-3776 Apple OS X WindowServer Memory Corruption Privilege Escalation Vulnerability 2016-07-20 CVE-2016-4639 https://www.cve.org/CVERecord?id=CVE-2016-4639 4.4 ['Apple'] ['OS X'] This vulnerability allows local attackers to execute arbitrary code on vulnerable installations of Apple OS X. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within CoreGraphics. By interacting with PKGTransactionWillSwitchSpaces, an attacker can cause a memory corruption condition. An attacker could leverage this vulnerability to execute arbitrary code under the context of the WindowServer. Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-us/HT206903 ['2016-05-20 - Vulnerability reported to vendor', '2016-07-20 - Coordinated public release of advisory'] e048b7039acc9483d42ca9ef197bd909 https://www.zerodayinitiative.com/advisories/ZDI-16-431/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-431/",
   "title": "Apple OS X WindowServer Memory Corruption Privilege Escalation Vulnerability",
   "updated_date": null,

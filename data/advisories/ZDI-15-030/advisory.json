@@ -11,13 +11,13 @@
   "cve": "CVE-2015-0058",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-0058",
   "cvss": 6.9,
-  "cvss_vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2014-11-06 - Vulnerability reported to vendor",
     "2015-02-10 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-15-030 ZDI-CAN-2626 Microsoft Windows win32k.sys Dangling Pointer Privilege Escalation Vulnerability 2015-02-10 CVE-2015-0058 https://www.cve.org/CVERecord?id=CVE-2015-0058 6.9 AV:L/AC:M/Au:N/C:C/I:C/A:C ['Microsoft'] ['Windows'] This vulnerability allows for elevation of privilege on vulnerable installations of Microsoft Windows. An attacker must have valid logon credentials and be able to log on locally to exploit this vulnerability. The specific flaw exists within the usage of Cursor objects. The issue lies in the failure to properly handle error conditions leading to a pointer not being reset. An attacker can leverage this vulnerability to raise privileges and execute code under the context of SYSTEM. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/library/security/MS15-010 ['2014-11-06 - Vulnerability reported to vendor', '2015-02-10 - Coordinated public release of advisory'] n3phos https://www.zerodayinitiative.com/advisories/ZDI-15-030/",
+  "search_text": "published ZDI-15-030 ZDI-CAN-2626 Microsoft Windows win32k.sys Dangling Pointer Privilege Escalation Vulnerability 2015-02-10 CVE-2015-0058 https://www.cve.org/CVERecord?id=CVE-2015-0058 6.9 ['Microsoft'] ['Windows'] This vulnerability allows for elevation of privilege on vulnerable installations of Microsoft Windows. An attacker must have valid logon credentials and be able to log on locally to exploit this vulnerability. The specific flaw exists within the usage of Cursor objects. The issue lies in the failure to properly handle error conditions leading to a pointer not being reset. An attacker can leverage this vulnerability to raise privileges and execute code under the context of SYSTEM. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/library/security/MS15-010 ['2014-11-06 - Vulnerability reported to vendor', '2015-02-10 - Coordinated public release of advisory'] n3phos https://www.zerodayinitiative.com/advisories/ZDI-15-030/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-030/",
   "title": "Microsoft Windows win32k.sys Dangling Pointer Privilege Escalation Vulnerability",
   "updated_date": null,

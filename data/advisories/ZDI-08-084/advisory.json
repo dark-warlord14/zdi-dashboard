@@ -2,11 +2,9 @@
   "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/bulletin/MS08-072.mspx",
   "advisory_date": "2008-12-09",
   "affected_products": [
-    "Office Word",
-    "Outlook"
+    "Office Word"
   ],
   "affected_vendors": [
-    "Microsoft",
     "Microsoft"
   ],
   "credit": "wushi of team509",
@@ -19,7 +17,7 @@
     "2008-12-09 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-08-084 ZDI-CAN-334 Microsoft Office RTF Consecutive Drawing Object Parsing Heap Corruption Vulnerability 2008-12-09 CVE-2008-4027 https://www.cve.org/CVERecord?id=CVE-2008-4027 ['Microsoft', 'Microsoft'] ['Office Word', 'Outlook'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Office. User interaction is required to exploit this vulnerability in that the target must visit a malicious page, open a malicious e-mail, or open a malicious file. The specific flaw exists when parsing malformed RTF documents. When processing consecutive \"\\do\" Drawing Object tags mso.dll does not properly verify the integrity of the object and frees a memory buffer twice, leading to heap corruption. Successful exploitation can lead to remote compromise of a system under the credentials of the currently logged in user. Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/bulletin/MS08-072.mspx ['2008-05-19 - Vulnerability reported to vendor', '2008-12-09 - Coordinated public release of advisory'] wushi of team509 https://www.zerodayinitiative.com/advisories/ZDI-08-084/",
+  "search_text": "published ZDI-08-084 ZDI-CAN-334 Microsoft Office RTF Consecutive Drawing Object Parsing Heap Corruption Vulnerability 2008-12-09 CVE-2008-4027 https://www.cve.org/CVERecord?id=CVE-2008-4027 ['Microsoft'] ['Office Word'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Office. User interaction is required to exploit this vulnerability in that the target must visit a malicious page, open a malicious e-mail, or open a malicious file. The specific flaw exists when parsing malformed RTF documents. When processing consecutive \"\\do\" Drawing Object tags mso.dll does not properly verify the integrity of the object and frees a memory buffer twice, leading to heap corruption. Successful exploitation can lead to remote compromise of a system under the credentials of the currently logged in user. Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/bulletin/MS08-072.mspx ['2008-05-19 - Vulnerability reported to vendor', '2008-12-09 - Coordinated public release of advisory'] wushi of team509 https://www.zerodayinitiative.com/advisories/ZDI-08-084/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-08-084/",
   "title": "Microsoft Office RTF Consecutive Drawing Object Parsing Heap Corruption Vulnerability",
   "updated_date": null,

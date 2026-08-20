@@ -11,13 +11,13 @@
   "cve": null,
   "cve_url": null,
   "cvss": 10.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2008-11-10 - Vulnerability reported to vendor",
     "2011-02-07 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-11-058 ZDI-CAN-407 (0Day) SCO Openserver IMAP Daemon Long Verb Parsing Remote Code Execution Vulnerability 2011-02-07 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['SCO'] ['OpenServer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of the SCO OpenServer IMAP daemon. Authentication is not required to exploit this vulnerability. The specific flaw exists within the imapd process responsible for handling remote IMAP requests. The process does not properly validate IMAP commands and arguments. Supplying an overly long command followed by an invalid argument can cause an exploitable overflow to occur. This vulnerability can be leveraged to execute arbitrary code. ['2008-11-10 - Vulnerability reported to vendor', '2011-02-07 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-11-058/",
+  "search_text": "published ZDI-11-058 ZDI-CAN-407 (0Day) SCO Openserver IMAP Daemon Long Verb Parsing Remote Code Execution Vulnerability 2011-02-07 10.0 ['SCO'] ['OpenServer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of the SCO OpenServer IMAP daemon. Authentication is not required to exploit this vulnerability. The specific flaw exists within the imapd process responsible for handling remote IMAP requests. The process does not properly validate IMAP commands and arguments. Supplying an overly long command followed by an invalid argument can cause an exploitable overflow to occur. This vulnerability can be leveraged to execute arbitrary code. ['2008-11-10 - Vulnerability reported to vendor', '2011-02-07 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-11-058/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-058/",
   "title": "(0Day) SCO Openserver IMAP Daemon Long Verb Parsing Remote Code Execution Vulnerability",
   "updated_date": null,

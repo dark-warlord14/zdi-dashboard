@@ -11,13 +11,13 @@
   "cve": "CVE-2015-2377",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-2377",
   "cvss": 5.8,
-  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:N/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2015-04-23 - Vulnerability reported to vendor",
     "2015-07-14 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-15-327 ZDI-CAN-2897 Microsoft Office Excel Chart Object Use-After-Free Information Disclosure Vulnerability 2015-07-14 CVE-2015-2377 https://www.cve.org/CVERecord?id=CVE-2015-2377 5.8 AV:N/AC:M/Au:N/C:P/I:N/A:P ['Microsoft'] ['Office Excel'] This vulnerability allows remote attackers to read freed memory on vulnerable installations of Microsoft Office Excel. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within processing of chart objects. A specially crafted chart object can cause Excel to load information from memory that has already been freed. An attacker can leverage this vulnerability to disclose information under the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/en-us/library/security/MS15-070 ['2015-04-23 - Vulnerability reported to vendor', '2015-07-14 - Coordinated public release of advisory'] 3S Labs https://www.zerodayinitiative.com/advisories/ZDI-15-327/",
+  "search_text": "published ZDI-15-327 ZDI-CAN-2897 Microsoft Office Excel Chart Object Use-After-Free Information Disclosure Vulnerability 2015-07-14 CVE-2015-2377 https://www.cve.org/CVERecord?id=CVE-2015-2377 5.8 ['Microsoft'] ['Office Excel'] This vulnerability allows remote attackers to read freed memory on vulnerable installations of Microsoft Office Excel. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within processing of chart objects. A specially crafted chart object can cause Excel to load information from memory that has already been freed. An attacker can leverage this vulnerability to disclose information under the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/en-us/library/security/MS15-070 ['2015-04-23 - Vulnerability reported to vendor', '2015-07-14 - Coordinated public release of advisory'] 3S Labs https://www.zerodayinitiative.com/advisories/ZDI-15-327/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-327/",
   "title": "Microsoft Office Excel Chart Object Use-After-Free Information Disclosure Vulnerability",
   "updated_date": null,

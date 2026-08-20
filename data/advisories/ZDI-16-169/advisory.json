@@ -11,13 +11,13 @@
   "cve": null,
   "cve_url": null,
   "cvss": 6.9,
-  "cvss_vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2015-09-21 - Vulnerability reported to vendor",
     "2016-02-18 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-16-169 ZDI-CAN-3284 Joyent SmartOS dtrace Information Disclosure Vulnerability 2016-02-18 6.9 AV:L/AC:M/Au:N/C:C/I:C/A:C ['Joyent'] ['SmartOS'] This vulnerability allows local attackers to disclose information on vulnerable installations of Joyent SmartOS. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the dtrace implementation in SmartOS. A function within this implementation allows for arbitrary reads from kernel space. This allows an attacker to read arbitrary memory from the global zone where the zone resides. Joyent has issued an update to correct this vulnerability. More details can be found at: https://help.joyent.com/entries/98788667-Security-Advisory-ZDI-CAN-3263-ZDI-CAN-3284-and-ZDI-CAN-3364-Vulnerabilities ['2015-09-21 - Vulnerability reported to vendor', '2016-02-18 - Coordinated public release of advisory'] Ben Murphy https://www.zerodayinitiative.com/advisories/ZDI-16-169/",
+  "search_text": "published ZDI-16-169 ZDI-CAN-3284 Joyent SmartOS dtrace Information Disclosure Vulnerability 2016-02-18 6.9 ['Joyent'] ['SmartOS'] This vulnerability allows local attackers to disclose information on vulnerable installations of Joyent SmartOS. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the dtrace implementation in SmartOS. A function within this implementation allows for arbitrary reads from kernel space. This allows an attacker to read arbitrary memory from the global zone where the zone resides. Joyent has issued an update to correct this vulnerability. More details can be found at: https://help.joyent.com/entries/98788667-Security-Advisory-ZDI-CAN-3263-ZDI-CAN-3284-and-ZDI-CAN-3364-Vulnerabilities ['2015-09-21 - Vulnerability reported to vendor', '2016-02-18 - Coordinated public release of advisory'] Ben Murphy https://www.zerodayinitiative.com/advisories/ZDI-16-169/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-169/",
   "title": "Joyent SmartOS dtrace Information Disclosure Vulnerability",
   "updated_date": null,

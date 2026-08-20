@@ -1,0 +1,28 @@
+{
+  "additional_details": "Cisco has issued an update to correct this vulnerability. More details can be found at: https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-static-cred-BET3Cjh",
+  "advisory_date": "2026-08-11",
+  "affected_products": [
+    "Secure Firewall Management Center"
+  ],
+  "affected_vendors": [
+    "Cisco"
+  ],
+  "credit": "Andy Niu of TrendAI Research",
+  "cve": "CVE-2026-20316",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-20316",
+  "cvss": 9.8,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2026-04-16 - Vulnerability reported to vendor",
+    "2026-08-11 - Coordinated public release of advisory",
+    "2026-08-11 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-26-533 ZDI-CAN-30390 Cisco Secure Firewall Management Center login.cgi Authentication Bypass Vulnerability 2026-08-11 CVE-2026-20316 https://www.cve.org/CVERecord?id=CVE-2026-20316 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['Cisco'] ['Secure Firewall Management Center'] This vulnerability allows remote attackers to bypass authentication on affected installations of Cisco Secure Firewall Management Center. Authentication is not required to exploit this vulnerability. The specific flaw exists within the login.cgi endpoint. The issue results from improper implementation of the authentication algorithm. An attacker can leverage this vulnerability to bypass authentication on the system. Cisco has issued an update to correct this vulnerability. More details can be found at: https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-static-cred-BET3Cjh ['2026-04-16 - Vulnerability reported to vendor', '2026-08-11 - Coordinated public release of advisory', '2026-08-11 - Advisory Updated'] Andy Niu of TrendAI Research https://www.zerodayinitiative.com/advisories/ZDI-26-533/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-533/",
+  "title": "Cisco Secure Firewall Management Center login.cgi Authentication Bypass Vulnerability",
+  "updated_date": "2026-08-11",
+  "vulnerability_details": "This vulnerability allows remote attackers to bypass authentication on affected installations of Cisco Secure Firewall Management Center. Authentication is not required to exploit this vulnerability. The specific flaw exists within the login.cgi endpoint. The issue results from improper implementation of the authentication algorithm. An attacker can leverage this vulnerability to bypass authentication on the system.",
+  "zdi_can": "ZDI-CAN-30390",
+  "zdi_id": "ZDI-26-533"
+}

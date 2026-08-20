@@ -11,13 +11,13 @@
   "cve": null,
   "cve_url": null,
   "cvss": 2.1,
-  "cvss_vector": "AV:L/AC:L/Au:N/C:N/I:N/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2017-03-17 - Vulnerability reported to vendor",
     "2017-05-30 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-17-370 ZDI-CAN-4583 (Pwn2Own) Apple macOS nsurlstoraged Null Pointer Dereference Denial of Service Vulnerability 2017-05-30 2.1 AV:L/AC:L/Au:N/C:N/I:N/A:P ['Apple'] ['macOS'] This vulnerability allows local attackers to trigger a denial-of-service condition on vulnerable installations of Apple macOS. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the nsurlstoraged service. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to cause the service to restart. Regarding ZDI-CAN-4583, this was addressed by a mitigation. Multiple denial of service issues were addressed through improved memory handling. The finder has been acknowledged in our 'Additional recognition' section on the macOS Sierra 10.12.5 advisory at https://support.apple.com/HT207797 . ['2017-03-17 - Vulnerability reported to vendor', '2017-05-30 - Coordinated public release of advisory'] Niklas Baumstark and Samuel Gro https://www.zerodayinitiative.com/advisories/ZDI-17-370/",
+  "search_text": "published ZDI-17-370 ZDI-CAN-4583 (Pwn2Own) Apple macOS nsurlstoraged Null Pointer Dereference Denial of Service Vulnerability 2017-05-30 2.1 ['Apple'] ['macOS'] This vulnerability allows local attackers to trigger a denial-of-service condition on vulnerable installations of Apple macOS. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the nsurlstoraged service. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to cause the service to restart. Regarding ZDI-CAN-4583, this was addressed by a mitigation. Multiple denial of service issues were addressed through improved memory handling. The finder has been acknowledged in our 'Additional recognition' section on the macOS Sierra 10.12.5 advisory at https://support.apple.com/HT207797 . ['2017-03-17 - Vulnerability reported to vendor', '2017-05-30 - Coordinated public release of advisory'] Niklas Baumstark and Samuel Gro https://www.zerodayinitiative.com/advisories/ZDI-17-370/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-370/",
   "title": "(Pwn2Own) Apple macOS nsurlstoraged Null Pointer Dereference Denial of Service Vulnerability",
   "updated_date": null,

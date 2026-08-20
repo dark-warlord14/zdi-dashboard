@@ -11,13 +11,13 @@
   "cve": "CVE-2017-14375",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-14375",
   "cvss": 4.3,
-  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2017-08-04 - Vulnerability reported to vendor",
     "2017-11-20 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-17-919 ZDI-CAN-5070 EMC Unisphere For VMAX vApp Manager ORBServlet Remote Credential Creation Information Disclosure Vulnerability 2017-11-20 CVE-2017-14375 https://www.cve.org/CVERecord?id=CVE-2017-14375 4.3 AV:N/AC:M/Au:N/C:P/I:N/A:N ['EMC'] ['Unisphere For VMAX'] This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of EMC Unisphere For VMAX vApp Manager. Authentication is not required to exploit this vulnerability. The specific flaw exists within the ORBServlet. The vulnerability is caused by improper access controls that allow the creation of admin credentials. An attacker can leverage this vulnerability to disclose sensitive information under the context of the web application. EMC has issued an update to correct this vulnerability. More details can be found at: http://seclists.org/fulldisclosure/2017/Oct/70 ['2017-08-04 - Vulnerability reported to vendor', '2017-11-20 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-17-919/",
+  "search_text": "published ZDI-17-919 ZDI-CAN-5070 EMC Unisphere For VMAX vApp Manager ORBServlet Remote Credential Creation Information Disclosure Vulnerability 2017-11-20 CVE-2017-14375 https://www.cve.org/CVERecord?id=CVE-2017-14375 4.3 ['EMC'] ['Unisphere For VMAX'] This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of EMC Unisphere For VMAX vApp Manager. Authentication is not required to exploit this vulnerability. The specific flaw exists within the ORBServlet. The vulnerability is caused by improper access controls that allow the creation of admin credentials. An attacker can leverage this vulnerability to disclose sensitive information under the context of the web application. EMC has issued an update to correct this vulnerability. More details can be found at: http://seclists.org/fulldisclosure/2017/Oct/70 ['2017-08-04 - Vulnerability reported to vendor', '2017-11-20 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-17-919/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-919/",
   "title": "EMC Unisphere For VMAX vApp Manager ORBServlet Remote Credential Creation Information Disclosure Vulnerability",
   "updated_date": null,

@@ -1,0 +1,28 @@
+{
+  "additional_details": "ASUS has issued an update to correct this vulnerability. More details can be found at: https://www.asus.com/security-advisory/",
+  "advisory_date": "2026-07-15",
+  "affected_products": [
+    "Business Manager"
+  ],
+  "affected_vendors": [
+    "ASUS"
+  ],
+  "credit": "Gu YongZeng (@0x0dee)",
+  "cve": "CVE-2026-8921",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-8921",
+  "cvss": 7.8,
+  "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2026-03-25 - Vulnerability reported to vendor",
+    "2026-07-15 - Coordinated public release of advisory",
+    "2026-07-15 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-26-431 ZDI-CAN-28776 ASUS Business Manager Service Client-Side Authentication Local Privilege Escalation Vulnerability 2026-07-15 CVE-2026-8921 https://www.cve.org/CVERecord?id=CVE-2026-8921 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['ASUS'] ['Business Manager'] This vulnerability allows local attackers to escalate privileges on affected installations of ASUS Business Manager. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the ASUS Business Manager Service. The issue results from the use of client-side authentication. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. ASUS has issued an update to correct this vulnerability. More details can be found at: https://www.asus.com/security-advisory/ ['2026-03-25 - Vulnerability reported to vendor', '2026-07-15 - Coordinated public release of advisory', '2026-07-15 - Advisory Updated'] Gu YongZeng (@0x0dee) https://www.zerodayinitiative.com/advisories/ZDI-26-431/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-431/",
+  "title": "ASUS Business Manager Service Client-Side Authentication Local Privilege Escalation Vulnerability",
+  "updated_date": "2026-07-15",
+  "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of ASUS Business Manager. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the ASUS Business Manager Service. The issue results from the use of client-side authentication. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+  "zdi_can": "ZDI-CAN-28776",
+  "zdi_id": "ZDI-26-431"
+}

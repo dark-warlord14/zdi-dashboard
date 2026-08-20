@@ -11,13 +11,13 @@
   "cve": "CVE-2017-12371",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-12371",
   "cvss": 6.8,
-  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2017-08-03 - Vulnerability reported to vendor",
     "2017-12-06 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-17-937 ZDI-CAN-4986 Cisco WebEx Recorder and Player WRF File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability 2017-12-06 CVE-2017-12371 https://www.cve.org/CVERecord?id=CVE-2017-12371 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Cisco'] ['WebEx'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Cisco WebEx Recorder and Player. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the processing of WRF files. Crafted data in a WRF file can trigger an overflow of a heap-based buffer. An attacker can leverage this vulnerability to execute code under the context of the current process. Cisco has issued an update to correct this vulnerability. More details can be found at: https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20171129-webex-players ['2017-08-03 - Vulnerability reported to vendor', '2017-12-06 - Coordinated public release of advisory'] Steven Seeley (mr_me) of Offensive Security https://www.zerodayinitiative.com/advisories/ZDI-17-937/",
+  "search_text": "published ZDI-17-937 ZDI-CAN-4986 Cisco WebEx Recorder and Player WRF File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability 2017-12-06 CVE-2017-12371 https://www.cve.org/CVERecord?id=CVE-2017-12371 6.8 ['Cisco'] ['WebEx'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Cisco WebEx Recorder and Player. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the processing of WRF files. Crafted data in a WRF file can trigger an overflow of a heap-based buffer. An attacker can leverage this vulnerability to execute code under the context of the current process. Cisco has issued an update to correct this vulnerability. More details can be found at: https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20171129-webex-players ['2017-08-03 - Vulnerability reported to vendor', '2017-12-06 - Coordinated public release of advisory'] Steven Seeley (mr_me) of Offensive Security https://www.zerodayinitiative.com/advisories/ZDI-17-937/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-937/",
   "title": "Cisco WebEx Recorder and Player WRF File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
   "updated_date": null,

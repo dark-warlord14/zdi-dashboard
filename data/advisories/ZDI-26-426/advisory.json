@@ -1,0 +1,28 @@
+{
+  "additional_details": "OpenSSL has issued an update to correct this vulnerability. More details can be found at: https://openssl-library.org/news/vulnerabilities/#CVE-2026-42771",
+  "advisory_date": "2026-07-15",
+  "affected_products": [
+    "OpenSSL"
+  ],
+  "affected_vendors": [
+    "OpenSSL"
+  ],
+  "credit": "TrendAI Zero Day Initiative",
+  "cve": "CVE-2026-42771",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-42771",
+  "cvss": 6.5,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L",
+  "disclosure_timeline": [
+    "2026-04-16 - Vulnerability reported to vendor",
+    "2026-07-15 - Coordinated public release of advisory",
+    "2026-07-15 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-26-426 ZDI-CAN-30378 OpenSSL X.509 Email Validation Out-Of-Bounds Read Information Disclosure Vulnerability 2026-07-15 CVE-2026-42771 https://www.cve.org/CVERecord?id=CVE-2026-42771 6.5 AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L ['OpenSSL'] ['OpenSSL'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of OpenSSL. Authentication is not required to exploit this vulnerability. The specific flaw exists within the processing of expected X.509 email names. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this vulnerability to disclose information in the context of the service account. OpenSSL has issued an update to correct this vulnerability. More details can be found at: https://openssl-library.org/news/vulnerabilities/#CVE-2026-42771 ['2026-04-16 - Vulnerability reported to vendor', '2026-07-15 - Coordinated public release of advisory', '2026-07-15 - Advisory Updated'] TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-426/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-426/",
+  "title": "OpenSSL X.509 Email Validation Out-Of-Bounds Read Information Disclosure Vulnerability",
+  "updated_date": "2026-07-15",
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of OpenSSL. Authentication is not required to exploit this vulnerability. The specific flaw exists within the processing of expected X.509 email names. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this vulnerability to disclose information in the context of the service account.",
+  "zdi_can": "ZDI-CAN-30378",
+  "zdi_id": "ZDI-26-426"
+}

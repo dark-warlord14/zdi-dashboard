@@ -11,13 +11,13 @@
   "cve": "CVE-2011-1033",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-1033",
   "cvss": 10.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2008-11-10 - Vulnerability reported to vendor",
     "2011-02-07 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-11-050 ZDI-CAN-405 (0Day) IBM Informix Dynamic Server SET ENVIRONMENT Remote Code Execution Vulnerability 2011-02-07 CVE-2011-1033 https://www.cve.org/CVERecord?id=CVE-2011-1033 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['IBM'] ['Informix'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of IBM Informix Database Server. SQL query execution privileges are required to exploit this vulnerability. The specific flaw exists within the oninit process bound to TCP port 9088 when processing the arguments to the USELASTCOMMITTED option in a SQL query. User-supplied data is copied into a stack-based buffer without proper bounds checking resulting in an exploitable overflow. Exploitation can result in arbitrary code execution under the context of the database server. http://www-01.ibm.com/support/docview.wss?uid=swg1IC74666 ['2008-11-10 - Vulnerability reported to vendor', '2011-02-07 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-11-050/",
+  "search_text": "published ZDI-11-050 ZDI-CAN-405 (0Day) IBM Informix Dynamic Server SET ENVIRONMENT Remote Code Execution Vulnerability 2011-02-07 CVE-2011-1033 https://www.cve.org/CVERecord?id=CVE-2011-1033 10.0 ['IBM'] ['Informix'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of IBM Informix Database Server. SQL query execution privileges are required to exploit this vulnerability. The specific flaw exists within the oninit process bound to TCP port 9088 when processing the arguments to the USELASTCOMMITTED option in a SQL query. User-supplied data is copied into a stack-based buffer without proper bounds checking resulting in an exploitable overflow. Exploitation can result in arbitrary code execution under the context of the database server. http://www-01.ibm.com/support/docview.wss?uid=swg1IC74666 ['2008-11-10 - Vulnerability reported to vendor', '2011-02-07 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-11-050/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-050/",
   "title": "(0Day) IBM Informix Dynamic Server SET ENVIRONMENT Remote Code Execution Vulnerability",
   "updated_date": null,

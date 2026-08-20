@@ -11,13 +11,13 @@
   "cve": "CVE-2016-3499",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-3499",
   "cvss": 7.5,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2016-01-22 - Vulnerability reported to vendor",
     "2016-07-21 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-16-444 ZDI-CAN-3511 Oracle WebLogic PartItem Arbitrary File Upload Remote Code Execution Vulnerability 2016-07-21 CVE-2016-3499 https://www.cve.org/CVERecord?id=CVE-2016-3499 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Oracle'] ['WebLogic'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Oracle WebLogic. Authentication is not required to exploit this vulnerability. The PartItem class in WebLogic FileUpload allows remote attackers to write to arbitrary files via a NULL byte in a file name in a serialized instance, when used in conjunction with a specific version of Oracle Java. It also allows the attacker to copy any file into a different location. By copying it to the web application root directory, an attacker could leverage this vulnerability to execute arbitrary code under the context of the process. Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/security-advisory/cpujul2016-2881720.html ['2016-01-22 - Vulnerability reported to vendor', '2016-07-21 - Coordinated public release of advisory'] Alvaro Munoz (pwntester) and Christian Schneider (cschneider4711) https://www.zerodayinitiative.com/advisories/ZDI-16-444/",
+  "search_text": "published ZDI-16-444 ZDI-CAN-3511 Oracle WebLogic PartItem Arbitrary File Upload Remote Code Execution Vulnerability 2016-07-21 CVE-2016-3499 https://www.cve.org/CVERecord?id=CVE-2016-3499 7.5 ['Oracle'] ['WebLogic'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Oracle WebLogic. Authentication is not required to exploit this vulnerability. The PartItem class in WebLogic FileUpload allows remote attackers to write to arbitrary files via a NULL byte in a file name in a serialized instance, when used in conjunction with a specific version of Oracle Java. It also allows the attacker to copy any file into a different location. By copying it to the web application root directory, an attacker could leverage this vulnerability to execute arbitrary code under the context of the process. Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/security-advisory/cpujul2016-2881720.html ['2016-01-22 - Vulnerability reported to vendor', '2016-07-21 - Coordinated public release of advisory'] Alvaro Munoz (pwntester) and Christian Schneider (cschneider4711) https://www.zerodayinitiative.com/advisories/ZDI-16-444/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-444/",
   "title": "Oracle WebLogic PartItem Arbitrary File Upload Remote Code Execution Vulnerability",
   "updated_date": null,

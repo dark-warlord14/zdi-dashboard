@@ -11,13 +11,13 @@
   "cve": "CVE-2015-6459",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-6459",
   "cvss": 9.4,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:N/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2015-04-30 - Vulnerability reported to vendor",
     "2015-09-16 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-15-439 ZDI-CAN-2906 GE MDS PulseNET FileDownloadServlet Directory Traversal Information Disclosure And Deletion Vulnerability 2015-09-16 CVE-2015-6459 https://www.cve.org/CVERecord?id=CVE-2015-6459 9.4 AV:N/AC:L/Au:N/C:C/I:N/A:C ['GE'] ['MDS PulseNET'] This vulnerability allows remote attackers to read and delete arbitrary files on vulnerable installations of GE MDS PulseNET. Authentication is not required to exploit this vulnerability. The specific flaw exists within the FileDownloadServlet. By specifying a filename including directory traversal, an attacker can read and then delete an arbitrary file on the system. The read and subsequent deletion will be performed under the context of SYSTEM. GE has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-15-258-03 ['2015-04-30 - Vulnerability reported to vendor', '2015-09-16 - Coordinated public release of advisory'] Andrea Micalizzi (rgod) https://www.zerodayinitiative.com/advisories/ZDI-15-439/",
+  "search_text": "published ZDI-15-439 ZDI-CAN-2906 GE MDS PulseNET FileDownloadServlet Directory Traversal Information Disclosure And Deletion Vulnerability 2015-09-16 CVE-2015-6459 https://www.cve.org/CVERecord?id=CVE-2015-6459 9.4 ['GE'] ['MDS PulseNET'] This vulnerability allows remote attackers to read and delete arbitrary files on vulnerable installations of GE MDS PulseNET. Authentication is not required to exploit this vulnerability. The specific flaw exists within the FileDownloadServlet. By specifying a filename including directory traversal, an attacker can read and then delete an arbitrary file on the system. The read and subsequent deletion will be performed under the context of SYSTEM. GE has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-15-258-03 ['2015-04-30 - Vulnerability reported to vendor', '2015-09-16 - Coordinated public release of advisory'] Andrea Micalizzi (rgod) https://www.zerodayinitiative.com/advisories/ZDI-15-439/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-439/",
   "title": "GE MDS PulseNET FileDownloadServlet Directory Traversal Information Disclosure And Deletion Vulnerability",
   "updated_date": null,

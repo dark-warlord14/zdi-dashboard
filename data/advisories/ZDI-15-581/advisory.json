@@ -11,13 +11,13 @@
   "cve": "CVE-2015-6857",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-6857",
   "cvss": 7.5,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2015-09-03 - Vulnerability reported to vendor",
     "2015-12-02 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-15-581 ZDI-CAN-3138 Hewlett-Packard LoadRunner Virtual Table Server import_database Remote Code Execution Vulnerability 2015-12-02 CVE-2015-6857 https://www.cve.org/CVERecord?id=CVE-2015-6857 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Hewlett-Packard'] ['LoadRunner'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Hewlett-Packard LoadRunner. Authentication is not required to exploit this vulnerability. The specific flaw exists within the Virtual Table Server, which listens by default on port 4000. By providing a connection string and malicious SQL commands to the /data/import_database resource, an attacker is able to execute arbitrary SQL commands against the database. An attacker could use this to modify the database, or execute arbitrary code under the context of NETWORK SERVICE. Hewlett-Packard has issued an update to correct this vulnerability. More details can be found at: https://h20564.www2.hpe.com/hpsc/doc/public/display?docId=emr_na-c04900820 ['2015-09-03 - Vulnerability reported to vendor', '2015-12-02 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-15-581/",
+  "search_text": "published ZDI-15-581 ZDI-CAN-3138 Hewlett-Packard LoadRunner Virtual Table Server import_database Remote Code Execution Vulnerability 2015-12-02 CVE-2015-6857 https://www.cve.org/CVERecord?id=CVE-2015-6857 7.5 ['Hewlett-Packard'] ['LoadRunner'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Hewlett-Packard LoadRunner. Authentication is not required to exploit this vulnerability. The specific flaw exists within the Virtual Table Server, which listens by default on port 4000. By providing a connection string and malicious SQL commands to the /data/import_database resource, an attacker is able to execute arbitrary SQL commands against the database. An attacker could use this to modify the database, or execute arbitrary code under the context of NETWORK SERVICE. Hewlett-Packard has issued an update to correct this vulnerability. More details can be found at: https://h20564.www2.hpe.com/hpsc/doc/public/display?docId=emr_na-c04900820 ['2015-09-03 - Vulnerability reported to vendor', '2015-12-02 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-15-581/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-581/",
   "title": "Hewlett-Packard LoadRunner Virtual Table Server import_database Remote Code Execution Vulnerability",
   "updated_date": null,

@@ -11,13 +11,13 @@
   "cve": "CVE-2014-6376",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-6376",
   "cvss": 5.1,
-  "cvss_vector": "AV:N/AC:H/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2014-09-04 - Vulnerability reported to vendor",
     "2014-12-09 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-14-406 ZDI-CAN-2520 Microsoft Internet Explorer LineBoxBuilder::FindWord Out-Of-Bounds Memory Access Vulnerability 2014-12-09 CVE-2014-6376 https://www.cve.org/CVERecord?id=CVE-2014-6376 5.1 AV:N/AC:H/Au:N/C:P/I:P/A:P ['Microsoft'] ['Internet Explorer'] This vulnerability consists of potentially hazardous use of memory on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The vulnerability relates to how Internet Explorer performs hyphenation of text on web pages. By presenting a specially formed web page to the browser, an attacker can cause Internet Explorer to access memory past the end of a buffer. This may give an attacker the ability to improperly influence the behavior of the browser. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/en-us/library/security/ms14-080.aspx ['2014-09-04 - Vulnerability reported to vendor', '2014-12-09 - Coordinated public release of advisory'] Garage4Hackers https://www.zerodayinitiative.com/advisories/ZDI-14-406/",
+  "search_text": "published ZDI-14-406 ZDI-CAN-2520 Microsoft Internet Explorer LineBoxBuilder::FindWord Out-Of-Bounds Memory Access Vulnerability 2014-12-09 CVE-2014-6376 https://www.cve.org/CVERecord?id=CVE-2014-6376 5.1 ['Microsoft'] ['Internet Explorer'] This vulnerability consists of potentially hazardous use of memory on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The vulnerability relates to how Internet Explorer performs hyphenation of text on web pages. By presenting a specially formed web page to the browser, an attacker can cause Internet Explorer to access memory past the end of a buffer. This may give an attacker the ability to improperly influence the behavior of the browser. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/en-us/library/security/ms14-080.aspx ['2014-09-04 - Vulnerability reported to vendor', '2014-12-09 - Coordinated public release of advisory'] Garage4Hackers https://www.zerodayinitiative.com/advisories/ZDI-14-406/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-14-406/",
   "title": "Microsoft Internet Explorer LineBoxBuilder::FindWord Out-Of-Bounds Memory Access Vulnerability",
   "updated_date": null,

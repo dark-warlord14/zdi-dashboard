@@ -11,13 +11,13 @@
   "cve": "CVE-2017-2544",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-2544",
   "cvss": 6.8,
-  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2017-03-15 - Vulnerability reported to vendor",
     "2017-05-15 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-17-350 ZDI-CAN-4613 (Pwn2Own) Apple Safari Array concat Integer Overflow Remote Code Execution Vulnerability 2017-05-15 CVE-2017-2544 https://www.cve.org/CVERecord?id=CVE-2017-2544 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Apple'] ['Safari'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple Safari. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of the Array.concat method. The issue results from the lack of proper validation of user-supplied data, which can result in an integer overflow before allocating a buffer. An attacker can leverage this vulnerability to execute code under the context of the current process. Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-us/HT207804 ['2017-03-15 - Vulnerability reported to vendor', '2017-05-15 - Coordinated public release of advisory'] Liu Long of 360Vulcan https://www.zerodayinitiative.com/advisories/ZDI-17-350/",
+  "search_text": "published ZDI-17-350 ZDI-CAN-4613 (Pwn2Own) Apple Safari Array concat Integer Overflow Remote Code Execution Vulnerability 2017-05-15 CVE-2017-2544 https://www.cve.org/CVERecord?id=CVE-2017-2544 6.8 ['Apple'] ['Safari'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple Safari. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of the Array.concat method. The issue results from the lack of proper validation of user-supplied data, which can result in an integer overflow before allocating a buffer. An attacker can leverage this vulnerability to execute code under the context of the current process. Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-us/HT207804 ['2017-03-15 - Vulnerability reported to vendor', '2017-05-15 - Coordinated public release of advisory'] Liu Long of 360Vulcan https://www.zerodayinitiative.com/advisories/ZDI-17-350/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-350/",
   "title": "(Pwn2Own) Apple Safari Array concat Integer Overflow Remote Code Execution Vulnerability",
   "updated_date": null,

@@ -11,13 +11,13 @@
   "cve": "CVE-2014-8840",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-8840",
   "cvss": 7.5,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2014-11-13 - Vulnerability reported to vendor",
     "2015-01-27 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-15-010 ZDI-CAN-2612 (Mobile Pwn2Own) Apple iOS SSL Sandbox Bypass Vulnerability 2015-01-27 CVE-2014-8840 https://www.cve.org/CVERecord?id=CVE-2014-8840 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Apple'] ['iOS'] This vulnerability allows remote attackers to escalate privileges on vulnerable installations of Apple iOS. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of SSL connections. The issue lies in the implicit trust of sites that offer URL redirection services. An attacker can leverage this vulnerability to execute code outside the context of the sandbox. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/en-us/HT204245 ['2014-11-13 - Vulnerability reported to vendor', '2015-01-27 - Coordinated public release of advisory'] lokihardt@ASRT https://www.zerodayinitiative.com/advisories/ZDI-15-010/",
+  "search_text": "published ZDI-15-010 ZDI-CAN-2612 (Mobile Pwn2Own) Apple iOS SSL Sandbox Bypass Vulnerability 2015-01-27 CVE-2014-8840 https://www.cve.org/CVERecord?id=CVE-2014-8840 7.5 ['Apple'] ['iOS'] This vulnerability allows remote attackers to escalate privileges on vulnerable installations of Apple iOS. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of SSL connections. The issue lies in the implicit trust of sites that offer URL redirection services. An attacker can leverage this vulnerability to execute code outside the context of the sandbox. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/en-us/HT204245 ['2014-11-13 - Vulnerability reported to vendor', '2015-01-27 - Coordinated public release of advisory'] lokihardt@ASRT https://www.zerodayinitiative.com/advisories/ZDI-15-010/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-010/",
   "title": "(Mobile Pwn2Own) Apple iOS SSL Sandbox Bypass Vulnerability",
   "updated_date": null,

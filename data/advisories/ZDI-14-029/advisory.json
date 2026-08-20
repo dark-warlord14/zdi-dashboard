@@ -11,13 +11,13 @@
   "cve": "CVE-2013-0946",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2013-0946",
   "cvss": 10.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2013-03-29 - Vulnerability reported to vendor",
     "2014-02-13 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-14-029 ZDI-CAN-1811 EMC AlphaStor Library Manager 0x4f Command Remote Code Execution Vulnerability 2014-02-13 CVE-2013-0946 https://www.cve.org/CVERecord?id=CVE-2013-0946 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['EMC'] ['AlphaStor'] This vulnerability potentially allows remote attackers to execute arbitrary code on vulnerable installations of EMC AlphaStor for EMC Networker. Authentication is not required to exploit this vulnerability. The specific flaw exists within Library Manager (robotd.exe) which listens by default on port 3500. When parsing the 0x4f command, the process copies an arbitrary user supplied string into fixed sized buffers. An attacker could leverage this vulnerability into remote execution of arbitrary code as SYSTEM. Vendor patched May 2013, but did not notify the ZDI. As a result this advisory is posted late. EMC has issued an update to correct this vulnerability. More details can be found at: http://www.securityfocus.com/archive/1/526568 ['2013-03-29 - Vulnerability reported to vendor', '2014-02-13 - Coordinated public release of advisory'] Aniway.Anyway@gmail.com https://www.zerodayinitiative.com/advisories/ZDI-14-029/",
+  "search_text": "published ZDI-14-029 ZDI-CAN-1811 EMC AlphaStor Library Manager 0x4f Command Remote Code Execution Vulnerability 2014-02-13 CVE-2013-0946 https://www.cve.org/CVERecord?id=CVE-2013-0946 10.0 ['EMC'] ['AlphaStor'] This vulnerability potentially allows remote attackers to execute arbitrary code on vulnerable installations of EMC AlphaStor for EMC Networker. Authentication is not required to exploit this vulnerability. The specific flaw exists within Library Manager (robotd.exe) which listens by default on port 3500. When parsing the 0x4f command, the process copies an arbitrary user supplied string into fixed sized buffers. An attacker could leverage this vulnerability into remote execution of arbitrary code as SYSTEM. Vendor patched May 2013, but did not notify the ZDI. As a result this advisory is posted late. EMC has issued an update to correct this vulnerability. More details can be found at: http://www.securityfocus.com/archive/1/526568 ['2013-03-29 - Vulnerability reported to vendor', '2014-02-13 - Coordinated public release of advisory'] Aniway.Anyway@gmail.com https://www.zerodayinitiative.com/advisories/ZDI-14-029/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-14-029/",
   "title": "EMC AlphaStor Library Manager 0x4f Command Remote Code Execution Vulnerability",
   "updated_date": null,

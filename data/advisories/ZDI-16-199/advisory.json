@@ -11,13 +11,13 @@
   "cve": "CVE-2016-1961",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-1961",
   "cvss": 6.8,
-  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2016-02-18 - Vulnerability reported to vendor",
     "2016-03-11 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-16-199 ZDI-CAN-3574 Mozilla Firefox nsHTMLDocument SetBody Use-After-Free Remote Code Execution Vulnerability 2016-03-11 CVE-2016-1961 https://www.cve.org/CVERecord?id=CVE-2016-1961 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Mozilla'] ['Firefox'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Mozilla Firefox. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of nsHTMLDocument objects. By manipulating a document's elements an attacker can force a nsHTMLDocument object in memory to be reused after it has been freed. An attacker can leverage this vulnerability to execute code under the context of the current process. Mozilla has issued an update to correct this vulnerability. More details can be found at: https://www.mozilla.org/en-US/security/advisories/mfsa2016-24/ ['2016-02-18 - Vulnerability reported to vendor', '2016-03-11 - Coordinated public release of advisory'] lokihardt https://www.zerodayinitiative.com/advisories/ZDI-16-199/",
+  "search_text": "published ZDI-16-199 ZDI-CAN-3574 Mozilla Firefox nsHTMLDocument SetBody Use-After-Free Remote Code Execution Vulnerability 2016-03-11 CVE-2016-1961 https://www.cve.org/CVERecord?id=CVE-2016-1961 6.8 ['Mozilla'] ['Firefox'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Mozilla Firefox. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of nsHTMLDocument objects. By manipulating a document's elements an attacker can force a nsHTMLDocument object in memory to be reused after it has been freed. An attacker can leverage this vulnerability to execute code under the context of the current process. Mozilla has issued an update to correct this vulnerability. More details can be found at: https://www.mozilla.org/en-US/security/advisories/mfsa2016-24/ ['2016-02-18 - Vulnerability reported to vendor', '2016-03-11 - Coordinated public release of advisory'] lokihardt https://www.zerodayinitiative.com/advisories/ZDI-16-199/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-199/",
   "title": "Mozilla Firefox nsHTMLDocument SetBody Use-After-Free Remote Code Execution Vulnerability",
   "updated_date": null,

@@ -11,13 +11,13 @@
   "cve": "CVE-2014-9371",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-9371",
   "cvss": 10.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2014-08-18 - Vulnerability reported to vendor",
     "2014-12-11 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-14-420 ZDI-CAN-2445 ManageEngine Desktop Central MSP NativeAppServlet UDID JSON Object Code Injection Remote Code Execution Vulnerability 2014-12-11 CVE-2014-9371 https://www.cve.org/CVERecord?id=CVE-2014-9371 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['ManageEngine'] ['Destkop Central MSP'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of ManageEngine Desktop Central MSP. Authentication is not required to exploit this vulnerability. The specific flaw exists within the NativeAppServlet servlet. The issue lies in the failure to sanitize JSON data before processing it. An attacker can leverage this vulnerability to execute code under the context of SYSTEM. ManageEngine has issued an update to correct this vulnerability. More details can be found at: https://uploads.zohocorp.com/Internal_Useruploads/Desktop_Central/p195gob20s1pas1fnv1qb9j3bvng0/ManageEngine_Desktop_Central_MSP_9_0_SP-0_75.ppm ['2014-08-18 - Vulnerability reported to vendor', '2014-12-11 - Coordinated public release of advisory'] Andrea Micalizzi (rgod) https://www.zerodayinitiative.com/advisories/ZDI-14-420/",
+  "search_text": "published ZDI-14-420 ZDI-CAN-2445 ManageEngine Desktop Central MSP NativeAppServlet UDID JSON Object Code Injection Remote Code Execution Vulnerability 2014-12-11 CVE-2014-9371 https://www.cve.org/CVERecord?id=CVE-2014-9371 10.0 ['ManageEngine'] ['Destkop Central MSP'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of ManageEngine Desktop Central MSP. Authentication is not required to exploit this vulnerability. The specific flaw exists within the NativeAppServlet servlet. The issue lies in the failure to sanitize JSON data before processing it. An attacker can leverage this vulnerability to execute code under the context of SYSTEM. ManageEngine has issued an update to correct this vulnerability. More details can be found at: https://uploads.zohocorp.com/Internal_Useruploads/Desktop_Central/p195gob20s1pas1fnv1qb9j3bvng0/ManageEngine_Desktop_Central_MSP_9_0_SP-0_75.ppm ['2014-08-18 - Vulnerability reported to vendor', '2014-12-11 - Coordinated public release of advisory'] Andrea Micalizzi (rgod) https://www.zerodayinitiative.com/advisories/ZDI-14-420/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-14-420/",
   "title": "ManageEngine Desktop Central MSP NativeAppServlet UDID JSON Object Code Injection Remote Code Execution Vulnerability",
   "updated_date": null,

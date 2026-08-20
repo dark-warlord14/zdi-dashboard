@@ -11,13 +11,13 @@
   "cve": "CVE-2011-0912",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-0912",
   "cvss": 7.5,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2009-12-18 - Vulnerability reported to vendor",
     "2011-02-07 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-11-051 ZDI-CAN-647 (0Day) IBM Lotus Notes cai URI Handler Remote Code Execution Vulnerability 2011-02-07 CVE-2011-0912 https://www.cve.org/CVERecord?id=CVE-2011-0912 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['IBM'] ['Lotus Notes'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of IBM Lotus Notes. User interaction is required to exploit this vulnerability. The specific flaw exists within the handling of malformed strings within cai:// URIs. The '--launcher.library' switch can be injected and directed to load a DLL from a network share. This will result in code execution under the context of the current user. http://www-01.ibm.com/support/docview.wss?uid=swg21461514 ['2009-12-18 - Vulnerability reported to vendor', '2011-02-07 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-11-051/",
+  "search_text": "published ZDI-11-051 ZDI-CAN-647 (0Day) IBM Lotus Notes cai URI Handler Remote Code Execution Vulnerability 2011-02-07 CVE-2011-0912 https://www.cve.org/CVERecord?id=CVE-2011-0912 7.5 ['IBM'] ['Lotus Notes'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of IBM Lotus Notes. User interaction is required to exploit this vulnerability. The specific flaw exists within the handling of malformed strings within cai:// URIs. The '--launcher.library' switch can be injected and directed to load a DLL from a network share. This will result in code execution under the context of the current user. http://www-01.ibm.com/support/docview.wss?uid=swg21461514 ['2009-12-18 - Vulnerability reported to vendor', '2011-02-07 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-11-051/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-051/",
   "title": "(0Day) IBM Lotus Notes cai URI Handler Remote Code Execution Vulnerability",
   "updated_date": null,

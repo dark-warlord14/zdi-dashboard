@@ -11,13 +11,13 @@
   "cve": "CVE-2017-8661",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-8661",
   "cvss": 4.3,
-  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2017-06-12 - Vulnerability reported to vendor",
     "2017-09-12 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-17-725 ZDI-CAN-4888 Microsoft Edge Undo Command Out-Of-Bounds Read Information Disclosure Vulnerability 2017-09-12 CVE-2017-8661 https://www.cve.org/CVERecord?id=CVE-2017-8661 4.3 AV:N/AC:M/Au:N/C:P/I:N/A:N ['Microsoft'] ['Edge'] This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Microsoft Edge. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the implementation of the Undo command in HTML documents. By performing actions in JavaScript an attacker can trigger a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2017-8661 ['2017-06-12 - Vulnerability reported to vendor', '2017-09-12 - Coordinated public release of advisory'] 0011 https://www.zerodayinitiative.com/advisories/ZDI-17-725/",
+  "search_text": "published ZDI-17-725 ZDI-CAN-4888 Microsoft Edge Undo Command Out-Of-Bounds Read Information Disclosure Vulnerability 2017-09-12 CVE-2017-8661 https://www.cve.org/CVERecord?id=CVE-2017-8661 4.3 ['Microsoft'] ['Edge'] This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Microsoft Edge. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the implementation of the Undo command in HTML documents. By performing actions in JavaScript an attacker can trigger a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2017-8661 ['2017-06-12 - Vulnerability reported to vendor', '2017-09-12 - Coordinated public release of advisory'] 0011 https://www.zerodayinitiative.com/advisories/ZDI-17-725/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-725/",
   "title": "Microsoft Edge Undo Command Out-Of-Bounds Read Information Disclosure Vulnerability",
   "updated_date": null,

@@ -11,13 +11,13 @@
   "cve": "CVE-2015-2429",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-2429",
   "cvss": 4.7,
-  "cvss_vector": "AV:L/AC:M/Au:N/C:C/I:N/A:N",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2015-05-07 - Vulnerability reported to vendor",
     "2015-08-11 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-15-380 ZDI-CAN-2921 Microsoft Internet Explorer Enhanced Protected Mode Read-Restrictions Bypass Vulnerability 2015-08-11 CVE-2015-2429 https://www.cve.org/CVERecord?id=CVE-2015-2429 4.7 AV:L/AC:M/Au:N/C:C/I:N/A:N ['Microsoft'] ['Internet Explorer'] This vulnerability allows local attackers to partially escape AppContainer limitations on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the IShdocvwBroker::EditWith broker API call. The issue lies in the failure to check for registry symbolic links before recursively traversing the key. An attacker can leverage this vulnerability to read the contents of any key within the HKCU registry hive, bypassing the read restrictions designed into EPM. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/library/security/MS15-090 ['2015-05-07 - Vulnerability reported to vendor', '2015-08-11 - Coordinated public release of advisory'] Ashutosh Mehra (https://twitter.com/ashutoshmehra) https://www.zerodayinitiative.com/advisories/ZDI-15-380/",
+  "search_text": "published ZDI-15-380 ZDI-CAN-2921 Microsoft Internet Explorer Enhanced Protected Mode Read-Restrictions Bypass Vulnerability 2015-08-11 CVE-2015-2429 https://www.cve.org/CVERecord?id=CVE-2015-2429 4.7 ['Microsoft'] ['Internet Explorer'] This vulnerability allows local attackers to partially escape AppContainer limitations on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the IShdocvwBroker::EditWith broker API call. The issue lies in the failure to check for registry symbolic links before recursively traversing the key. An attacker can leverage this vulnerability to read the contents of any key within the HKCU registry hive, bypassing the read restrictions designed into EPM. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/library/security/MS15-090 ['2015-05-07 - Vulnerability reported to vendor', '2015-08-11 - Coordinated public release of advisory'] Ashutosh Mehra (https://twitter.com/ashutoshmehra) https://www.zerodayinitiative.com/advisories/ZDI-15-380/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-380/",
   "title": "Microsoft Internet Explorer Enhanced Protected Mode Read-Restrictions Bypass Vulnerability",
   "updated_date": null,

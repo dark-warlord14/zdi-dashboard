@@ -11,13 +11,13 @@
   "cve": "CVE-2014-2365",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-2365",
   "cvss": 6.5,
-  "cvss_vector": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2014-04-23 - Vulnerability reported to vendor",
     "2014-07-18 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-14-251 ZDI-CAN-2086 Advantech WebAccess Remote Code Execution Vulnerability 2014-07-18 CVE-2014-2365 https://www.cve.org/CVERecord?id=CVE-2014-2365 6.5 AV:N/AC:L/Au:S/C:P/I:P/A:P ['Advantech'] ['Advantech WebAccess'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Advantech WebAccess. Authentication is not required to exploit this vulnerability. The specific flaw exists within the gmicons.asp functionality. By providing crafted requests, an attacker is able to delete or create arbitrary files as the WebAccess service. An attacker may leverage this to run arbitrary code in the context of the WebAccess service. Advantech has issued an update to correct this vulnerability. More details can be found at: http://ics-cert.us-cert.gov/advisories/ICSA-14-198-02 ['2014-04-23 - Vulnerability reported to vendor', '2014-07-18 - Coordinated public release of advisory'] John Leitch https://www.zerodayinitiative.com/advisories/ZDI-14-251/",
+  "search_text": "published ZDI-14-251 ZDI-CAN-2086 Advantech WebAccess Remote Code Execution Vulnerability 2014-07-18 CVE-2014-2365 https://www.cve.org/CVERecord?id=CVE-2014-2365 6.5 ['Advantech'] ['Advantech WebAccess'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Advantech WebAccess. Authentication is not required to exploit this vulnerability. The specific flaw exists within the gmicons.asp functionality. By providing crafted requests, an attacker is able to delete or create arbitrary files as the WebAccess service. An attacker may leverage this to run arbitrary code in the context of the WebAccess service. Advantech has issued an update to correct this vulnerability. More details can be found at: http://ics-cert.us-cert.gov/advisories/ICSA-14-198-02 ['2014-04-23 - Vulnerability reported to vendor', '2014-07-18 - Coordinated public release of advisory'] John Leitch https://www.zerodayinitiative.com/advisories/ZDI-14-251/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-14-251/",
   "title": "Advantech WebAccess Remote Code Execution Vulnerability",
   "updated_date": null,

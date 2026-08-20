@@ -11,13 +11,13 @@
   "cve": "CVE-2011-0862",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-0862",
   "cvss": 9.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2011-01-21 - Vulnerability reported to vendor",
     "2011-06-08 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-11-183 ZDI-CAN-1029 Oracle Java ICC Profile MultiLanguage 'mluc' Tag Parsing Remote Code Execution Vulnerability 2011-06-08 CVE-2011-0862 https://www.cve.org/CVERecord?id=CVE-2011-0862 9.0 AV:N/AC:L/Au:N/C:P/I:P/A:C ['Oracle'] ['Java Runtime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of java. User interaction is required to exploit this vulnerability in that the target must visit a malicious page. The specific flaw exists within the way Java handles color profiles. When parsing a color profile containing a invalid MultiLanguage 'mluc' tag it is possible to cause an integer to wrap during an arithmetic operation. This new value is used to allocate memory on the heap. A remote attacker can abuse the faulty code to execute code under the context of the user running the browser. Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/javacpujune2011-313339.html ['2011-01-21 - Vulnerability reported to vendor', '2011-06-08 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-11-183/",
+  "search_text": "published ZDI-11-183 ZDI-CAN-1029 Oracle Java ICC Profile MultiLanguage 'mluc' Tag Parsing Remote Code Execution Vulnerability 2011-06-08 CVE-2011-0862 https://www.cve.org/CVERecord?id=CVE-2011-0862 9.0 ['Oracle'] ['Java Runtime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of java. User interaction is required to exploit this vulnerability in that the target must visit a malicious page. The specific flaw exists within the way Java handles color profiles. When parsing a color profile containing a invalid MultiLanguage 'mluc' tag it is possible to cause an integer to wrap during an arithmetic operation. This new value is used to allocate memory on the heap. A remote attacker can abuse the faulty code to execute code under the context of the user running the browser. Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/javacpujune2011-313339.html ['2011-01-21 - Vulnerability reported to vendor', '2011-06-08 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-11-183/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-183/",
   "title": "Oracle Java ICC Profile MultiLanguage 'mluc' Tag Parsing Remote Code Execution Vulnerability",
   "updated_date": null,

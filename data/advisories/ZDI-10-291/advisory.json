@@ -11,13 +11,13 @@
   "cve": "CVE-2010-0114",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2010-0114",
   "cvss": 10.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2010-04-06 - Vulnerability reported to vendor",
     "2010-12-15 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-10-291 ZDI-CAN-756 Symantec Endpoint Protection Manager Reporting Server fw_charts.php Remote Code Execution Vulnerability 2010-12-15 CVE-2010-0114 https://www.cve.org/CVERecord?id=CVE-2010-0114 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Symantec'] ['Endpoint Protection'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Symantec Endpoint Protection. Authentication is not required to exploit this vulnerability. The specific flaw exists within the portion of the server that generates reports. Due to the combination of insufficient checks being performed on the application and failure to authenticate a user for generating a chart, an attacker can overwrite arbitrary files on a server. Careful exploitation can lead to code execution under the context of the php interpreter. Symantec has issued an update to correct this vulnerability. More details can be found at: http://www.symantec.com/business/security_response/securityupdates/detail.jsp?fid=security_advisory&pvid=security_advisory&year=2010&suid=20101215_00 ['2010-04-06 - Vulnerability reported to vendor', '2010-12-15 - Coordinated public release of advisory'] Andrea Micalizzi aka rgod https://www.zerodayinitiative.com/advisories/ZDI-10-291/",
+  "search_text": "published ZDI-10-291 ZDI-CAN-756 Symantec Endpoint Protection Manager Reporting Server fw_charts.php Remote Code Execution Vulnerability 2010-12-15 CVE-2010-0114 https://www.cve.org/CVERecord?id=CVE-2010-0114 10.0 ['Symantec'] ['Endpoint Protection'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Symantec Endpoint Protection. Authentication is not required to exploit this vulnerability. The specific flaw exists within the portion of the server that generates reports. Due to the combination of insufficient checks being performed on the application and failure to authenticate a user for generating a chart, an attacker can overwrite arbitrary files on a server. Careful exploitation can lead to code execution under the context of the php interpreter. Symantec has issued an update to correct this vulnerability. More details can be found at: http://www.symantec.com/business/security_response/securityupdates/detail.jsp?fid=security_advisory&pvid=security_advisory&year=2010&suid=20101215_00 ['2010-04-06 - Vulnerability reported to vendor', '2010-12-15 - Coordinated public release of advisory'] Andrea Micalizzi aka rgod https://www.zerodayinitiative.com/advisories/ZDI-10-291/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-291/",
   "title": "Symantec Endpoint Protection Manager Reporting Server fw_charts.php Remote Code Execution Vulnerability",
   "updated_date": null,

@@ -11,13 +11,13 @@
   "cve": "CVE-2017-8576",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-8576",
   "cvss": 6.9,
-  "cvss_vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2017-02-15 - Vulnerability reported to vendor",
     "2017-06-27 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-17-450 ZDI-CAN-4604 (Pwn2Own) Microsoft Windows WarpKMSubmitCommandVirtual Uninitialized Memory Privilege Escalation Vulnerability 2017-06-27 CVE-2017-8576 https://www.cve.org/CVERecord?id=CVE-2017-8576 6.9 AV:L/AC:M/Au:N/C:C/I:C/A:C ['Microsoft'] ['Windows'] This vulnerability allows local attackers to escalate privileges on vulnerable installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within BasicRender.sys, the Microsoft Basic Render Driver. The issue results from the lack of proper initialization of memory prior to accessing it. An attacker can leverage this vulnerability to escalate privilege to the level of SYSTEM. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2017-8576 ['2017-02-15 - Vulnerability reported to vendor', '2017-06-27 - Coordinated public release of advisory'] pgboy and zhong_sf of Qihoo 360Vulcan Team https://www.zerodayinitiative.com/advisories/ZDI-17-450/",
+  "search_text": "published ZDI-17-450 ZDI-CAN-4604 (Pwn2Own) Microsoft Windows WarpKMSubmitCommandVirtual Uninitialized Memory Privilege Escalation Vulnerability 2017-06-27 CVE-2017-8576 https://www.cve.org/CVERecord?id=CVE-2017-8576 6.9 ['Microsoft'] ['Windows'] This vulnerability allows local attackers to escalate privileges on vulnerable installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within BasicRender.sys, the Microsoft Basic Render Driver. The issue results from the lack of proper initialization of memory prior to accessing it. An attacker can leverage this vulnerability to escalate privilege to the level of SYSTEM. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2017-8576 ['2017-02-15 - Vulnerability reported to vendor', '2017-06-27 - Coordinated public release of advisory'] pgboy and zhong_sf of Qihoo 360Vulcan Team https://www.zerodayinitiative.com/advisories/ZDI-17-450/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-450/",
   "title": "(Pwn2Own) Microsoft Windows WarpKMSubmitCommandVirtual Uninitialized Memory Privilege Escalation Vulnerability",
   "updated_date": null,

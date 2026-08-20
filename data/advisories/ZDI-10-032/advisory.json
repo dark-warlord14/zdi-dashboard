@@ -11,13 +11,13 @@
   "cve": "CVE-2010-1185",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2010-1185",
   "cvss": 10.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2009-11-09 - Vulnerability reported to vendor",
     "2010-03-16 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-10-032 ZDI-CAN-610 SAP MaxDB Malformed Handshake Request Remote Code Execution Vulnerability 2010-03-16 CVE-2010-1185 https://www.cve.org/CVERecord?id=CVE-2010-1185 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['SAP'] ['MaxDB'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of SAP MaxDB. Authentication is not required to exploit this vulnerability. The specific flaw exists within the serv.exe process which listens by default on TCP port 7210. The process trusts a value from a handshake packet and uses it as a length when copying data to the stack. If provided a malicious value and packet data, this can be leveraged to execute arbitrary code under the context of the SYSTEM user. A solution was provided via SAP note 1409425 ( https://service.sap.com/sap/support/notes/1409425 ) ['2009-11-09 - Vulnerability reported to vendor', '2010-03-16 - Coordinated public release of advisory'] AbdulAziz Hariri of Insight Technologies https://www.zerodayinitiative.com/advisories/ZDI-10-032/",
+  "search_text": "published ZDI-10-032 ZDI-CAN-610 SAP MaxDB Malformed Handshake Request Remote Code Execution Vulnerability 2010-03-16 CVE-2010-1185 https://www.cve.org/CVERecord?id=CVE-2010-1185 10.0 ['SAP'] ['MaxDB'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of SAP MaxDB. Authentication is not required to exploit this vulnerability. The specific flaw exists within the serv.exe process which listens by default on TCP port 7210. The process trusts a value from a handshake packet and uses it as a length when copying data to the stack. If provided a malicious value and packet data, this can be leveraged to execute arbitrary code under the context of the SYSTEM user. A solution was provided via SAP note 1409425 ( https://service.sap.com/sap/support/notes/1409425 ) ['2009-11-09 - Vulnerability reported to vendor', '2010-03-16 - Coordinated public release of advisory'] AbdulAziz Hariri of Insight Technologies https://www.zerodayinitiative.com/advisories/ZDI-10-032/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-032/",
   "title": "SAP MaxDB Malformed Handshake Request Remote Code Execution Vulnerability",
   "updated_date": null,

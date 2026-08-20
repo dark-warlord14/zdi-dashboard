@@ -11,13 +11,13 @@
   "cve": null,
   "cve_url": null,
   "cvss": 9.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2011-11-26 - Vulnerability reported to vendor",
     "2012-03-20 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-12-045 ZDI-CAN-1490 Oracle Java JOGL NEWT Reflection Remote Code Execution Vulnerability 2012-03-20 9.0 AV:N/AC:L/Au:N/C:P/I:P/A:C ['Oracle'] ['Java Runtime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Oracle Java. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the NEWT library due to the way that one of its classes uses reflection in its main method. When the class is used as the main-class in a JNLP file, this vulnerability can allow an attacker to call the main method of any trusted class with arbitrary arguments and with a trusted call stack, which in some cases can lead to execution of arbitrary code. The NEWT library can be installed without warnings because it is signed with a valid certificate recognized by the java install. Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/javacpufeb2012-366318.html ['2011-11-26 - Vulnerability reported to vendor', '2012-03-20 - Coordinated public release of advisory'] Chris Ries https://www.zerodayinitiative.com/advisories/ZDI-12-045/",
+  "search_text": "published ZDI-12-045 ZDI-CAN-1490 Oracle Java JOGL NEWT Reflection Remote Code Execution Vulnerability 2012-03-20 9.0 ['Oracle'] ['Java Runtime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Oracle Java. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the NEWT library due to the way that one of its classes uses reflection in its main method. When the class is used as the main-class in a JNLP file, this vulnerability can allow an attacker to call the main method of any trusted class with arbitrary arguments and with a trusted call stack, which in some cases can lead to execution of arbitrary code. The NEWT library can be installed without warnings because it is signed with a valid certificate recognized by the java install. Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/javacpufeb2012-366318.html ['2011-11-26 - Vulnerability reported to vendor', '2012-03-20 - Coordinated public release of advisory'] Chris Ries https://www.zerodayinitiative.com/advisories/ZDI-12-045/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-12-045/",
   "title": "Oracle Java JOGL NEWT Reflection Remote Code Execution Vulnerability",
   "updated_date": null,

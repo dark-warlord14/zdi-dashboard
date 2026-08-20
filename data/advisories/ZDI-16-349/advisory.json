@@ -11,13 +11,13 @@
   "cve": null,
   "cve_url": null,
   "cvss": 7.5,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2016-01-22 - Vulnerability reported to vendor",
     "2016-05-20 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-16-349 ZDI-CAN-3338 Trend Micro InterScan Web Security Virtual Appliance testConfiguration Remote Code Execution Vulnerability 2016-05-20 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Trend Micro'] ['InterScan Web Security'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Trend Micro InterScan Web Security Virtual Appliance. Authentication is not required to exploit this vulnerability. The specific flaw exists within processing of the /rest/testConfiguration requests. Multiple parameters required for the request are subject to command injection. An attacker can leverage this vulnerability to execute arbitrary commands in the context of the process. Trend Micro has issued an update to correct this vulnerability. More details can be found at: http://esupport.trendmicro.com/solution/en-US/1114185.aspx ['2016-01-22 - Vulnerability reported to vendor', '2016-05-20 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-16-349/",
+  "search_text": "published ZDI-16-349 ZDI-CAN-3338 Trend Micro InterScan Web Security Virtual Appliance testConfiguration Remote Code Execution Vulnerability 2016-05-20 7.5 ['Trend Micro'] ['InterScan Web Security'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Trend Micro InterScan Web Security Virtual Appliance. Authentication is not required to exploit this vulnerability. The specific flaw exists within processing of the /rest/testConfiguration requests. Multiple parameters required for the request are subject to command injection. An attacker can leverage this vulnerability to execute arbitrary commands in the context of the process. Trend Micro has issued an update to correct this vulnerability. More details can be found at: http://esupport.trendmicro.com/solution/en-US/1114185.aspx ['2016-01-22 - Vulnerability reported to vendor', '2016-05-20 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-16-349/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-349/",
   "title": "Trend Micro InterScan Web Security Virtual Appliance testConfiguration Remote Code Execution Vulnerability",
   "updated_date": null,

@@ -1,0 +1,28 @@
+{
+  "additional_details": "Cisco has issued an update to correct this vulnerability. More details can be found at: https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-rce-traversal-8bYndVrZ",
+  "advisory_date": "2026-08-13",
+  "affected_products": [
+    "Identity Services Engine"
+  ],
+  "affected_vendors": [
+    "Cisco"
+  ],
+  "credit": "Jonathan Lein of Trend Research",
+  "cve": "CVE-2026-20148",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-20148",
+  "cvss": 4.9,
+  "cvss_vector": "AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N",
+  "disclosure_timeline": [
+    "2025-12-18 - Vulnerability reported to vendor",
+    "2026-08-13 - Coordinated public release of advisory",
+    "2026-08-13 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-26-582 ZDI-CAN-28708 Cisco Identity Services Engine PatchUpdateListener Directory Traversal Information Disclosure Vulnerability 2026-08-13 CVE-2026-20148 https://www.cve.org/CVERecord?id=CVE-2026-20148 4.9 AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N ['Cisco'] ['Identity Services Engine'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Cisco Identity Services Engine. Authentication is required to exploit this vulnerability. The specific flaw exists within the PatchUpdateListener method. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to disclose information in the context of the iseadminportal user. Cisco has issued an update to correct this vulnerability. More details can be found at: https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-rce-traversal-8bYndVrZ ['2025-12-18 - Vulnerability reported to vendor', '2026-08-13 - Coordinated public release of advisory', '2026-08-13 - Advisory Updated'] Jonathan Lein of Trend Research https://www.zerodayinitiative.com/advisories/ZDI-26-582/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-582/",
+  "title": "Cisco Identity Services Engine PatchUpdateListener Directory Traversal Information Disclosure Vulnerability",
+  "updated_date": "2026-08-13",
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Cisco Identity Services Engine. Authentication is required to exploit this vulnerability. The specific flaw exists within the PatchUpdateListener method. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to disclose information in the context of the iseadminportal user.",
+  "zdi_can": "ZDI-CAN-28708",
+  "zdi_id": "ZDI-26-582"
+}

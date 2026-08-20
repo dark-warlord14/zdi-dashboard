@@ -11,13 +11,13 @@
   "cve": "CVE-2011-2948",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-2948",
   "cvss": 9.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2011-04-01 - Vulnerability reported to vendor",
     "2011-08-16 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-11-268 ZDI-CAN-1185 RealNetworks RealPlayer SWF DefineFont Remote Code Execution Vulnerability 2011-08-16 CVE-2011-2948 https://www.cve.org/CVERecord?id=CVE-2011-2948 9.0 AV:N/AC:L/Au:N/C:P/I:P/A:C ['RealNetworks'] ['RealPlayer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of RealNetworks RealPlayer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the way RealPlayer handles DEFINEFONT fields in Flash Files. When the process parses corrupt a ShapeRecord with the DefineFont record it reads outside a stack buffer and uses a random stack value as a heap pointer. Later this pointer will be used to write data into. The resulting corruption can lead to remote code execution under the context of the current user. RealNetworks has issued an update to correct this vulnerability. More details can be found at: http://service.real.com/realplayer/security/08162011_player/en/ ['2011-04-01 - Vulnerability reported to vendor', '2011-08-16 - Coordinated public release of advisory'] Luigi Auriemma https://www.zerodayinitiative.com/advisories/ZDI-11-268/",
+  "search_text": "published ZDI-11-268 ZDI-CAN-1185 RealNetworks RealPlayer SWF DefineFont Remote Code Execution Vulnerability 2011-08-16 CVE-2011-2948 https://www.cve.org/CVERecord?id=CVE-2011-2948 9.0 ['RealNetworks'] ['RealPlayer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of RealNetworks RealPlayer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the way RealPlayer handles DEFINEFONT fields in Flash Files. When the process parses corrupt a ShapeRecord with the DefineFont record it reads outside a stack buffer and uses a random stack value as a heap pointer. Later this pointer will be used to write data into. The resulting corruption can lead to remote code execution under the context of the current user. RealNetworks has issued an update to correct this vulnerability. More details can be found at: http://service.real.com/realplayer/security/08162011_player/en/ ['2011-04-01 - Vulnerability reported to vendor', '2011-08-16 - Coordinated public release of advisory'] Luigi Auriemma https://www.zerodayinitiative.com/advisories/ZDI-11-268/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-268/",
   "title": "RealNetworks RealPlayer SWF DefineFont Remote Code Execution Vulnerability",
   "updated_date": null,

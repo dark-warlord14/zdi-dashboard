@@ -11,13 +11,13 @@
   "cve": "CVE-2012-1173",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2012-1173",
   "cvss": 7.5,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2011-05-12 - Vulnerability reported to vendor",
     "2012-03-13 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-12-043 ZDI-CAN-1221 LibTIFF TileSize Parsing Remote Code Execution Vulnerability 2012-03-13 CVE-2012-1173 https://www.cve.org/CVERecord?id=CVE-2012-1173 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Libtiff'] ['libtiff'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of LibTIFF. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the LibTIFF Library and occurs when the application attempts to allocate space for a tile. When calculating the size for a buffer, the library will perform a multiply which can cause an integer overflow. After allocation, the library will initialize the buffer with tile data. This can cause code execution under the context of the application that utilizes the LibTIFF library. ['2011-05-12 - Vulnerability reported to vendor', '2012-03-13 - Coordinated public release of advisory'] Alexander Gavrun https://www.zerodayinitiative.com/advisories/ZDI-12-043/",
+  "search_text": "published ZDI-12-043 ZDI-CAN-1221 LibTIFF TileSize Parsing Remote Code Execution Vulnerability 2012-03-13 CVE-2012-1173 https://www.cve.org/CVERecord?id=CVE-2012-1173 7.5 ['Libtiff'] ['libtiff'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of LibTIFF. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the LibTIFF Library and occurs when the application attempts to allocate space for a tile. When calculating the size for a buffer, the library will perform a multiply which can cause an integer overflow. After allocation, the library will initialize the buffer with tile data. This can cause code execution under the context of the application that utilizes the LibTIFF library. ['2011-05-12 - Vulnerability reported to vendor', '2012-03-13 - Coordinated public release of advisory'] Alexander Gavrun https://www.zerodayinitiative.com/advisories/ZDI-12-043/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-12-043/",
   "title": "LibTIFF TileSize Parsing Remote Code Execution Vulnerability",
   "updated_date": null,

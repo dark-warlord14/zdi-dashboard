@@ -11,13 +11,13 @@
   "cve": "CVE-2011-0066",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-0066",
   "cvss": 9.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2011-02-17 - Vulnerability reported to vendor",
     "2011-05-10 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-11-159 ZDI-CAN-1033 Mozilla Firefox OBJECT mObserverList Remote Code Execution Vulnerability 2011-05-10 CVE-2011-0066 https://www.cve.org/CVERecord?id=CVE-2011-0066 9.0 AV:N/AC:L/Au:N/C:P/I:P/A:C ['Mozilla'] ['Firefox'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Mozilla Firefox. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within Firefox's handling of observer OBJECTs. If an observer OBJECT is removed from the mObserverList during an iteration of LOOP_OVER_OBSERVERS macro, one can heap spray over |mObserverList.mNext| and change the execution flow. This would allow the attacker to execute arbitrary code under the context of the user running the browser. Mozilla has issued an update to correct this vulnerability. More details can be found at: http://www.mozilla.org/security/announce/2011/mfsa2011-13.html ['2011-02-17 - Vulnerability reported to vendor', '2011-05-10 - Coordinated public release of advisory'] regenrecht https://www.zerodayinitiative.com/advisories/ZDI-11-159/",
+  "search_text": "published ZDI-11-159 ZDI-CAN-1033 Mozilla Firefox OBJECT mObserverList Remote Code Execution Vulnerability 2011-05-10 CVE-2011-0066 https://www.cve.org/CVERecord?id=CVE-2011-0066 9.0 ['Mozilla'] ['Firefox'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Mozilla Firefox. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within Firefox's handling of observer OBJECTs. If an observer OBJECT is removed from the mObserverList during an iteration of LOOP_OVER_OBSERVERS macro, one can heap spray over |mObserverList.mNext| and change the execution flow. This would allow the attacker to execute arbitrary code under the context of the user running the browser. Mozilla has issued an update to correct this vulnerability. More details can be found at: http://www.mozilla.org/security/announce/2011/mfsa2011-13.html ['2011-02-17 - Vulnerability reported to vendor', '2011-05-10 - Coordinated public release of advisory'] regenrecht https://www.zerodayinitiative.com/advisories/ZDI-11-159/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-159/",
   "title": "Mozilla Firefox OBJECT mObserverList Remote Code Execution Vulnerability",
   "updated_date": null,

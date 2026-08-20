@@ -11,13 +11,13 @@
   "cve": "CVE-2014-3911",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-3911",
   "cvss": 7.5,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2014-05-06 - Vulnerability reported to vendor",
     "2014-06-04 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-14-170 ZDI-CAN-2321 Samsung iPOLiS Device Manager XNSSDKDEVICE.XnsSdkDeviceCtrlForIpInstaller.1 DeleteDeviceProfile Method Remote Code Execution Vulnerability 2014-06-04 CVE-2014-3911 https://www.cve.org/CVERecord?id=CVE-2014-3911 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Samsung'] ['iPOLiS Device Manager'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Samsung iPOLiS Device Manager. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the XNSSDKDEVICE.XnsSdkDeviceCtrlForIpInstaller.1 ActiveX control. By providing a malicious value to the DeleteDeviceProfile() method, an attacker can execute arbitrary code in the context of the browser. Samsung has issued an update to correct this vulnerability. More details can be found at: http://update.websamsung.net/Tools/iPOLiS%20Device%20Manager/iPOLiS%20Device%20Manager_v1.8.7_setup_Full.zip ['2014-05-06 - Vulnerability reported to vendor', '2014-06-04 - Coordinated public release of advisory'] Ariele Caltabiano (kimiya) and Andrea Micalizzi (rgod) https://www.zerodayinitiative.com/advisories/ZDI-14-170/",
+  "search_text": "published ZDI-14-170 ZDI-CAN-2321 Samsung iPOLiS Device Manager XNSSDKDEVICE.XnsSdkDeviceCtrlForIpInstaller.1 DeleteDeviceProfile Method Remote Code Execution Vulnerability 2014-06-04 CVE-2014-3911 https://www.cve.org/CVERecord?id=CVE-2014-3911 7.5 ['Samsung'] ['iPOLiS Device Manager'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Samsung iPOLiS Device Manager. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the XNSSDKDEVICE.XnsSdkDeviceCtrlForIpInstaller.1 ActiveX control. By providing a malicious value to the DeleteDeviceProfile() method, an attacker can execute arbitrary code in the context of the browser. Samsung has issued an update to correct this vulnerability. More details can be found at: http://update.websamsung.net/Tools/iPOLiS%20Device%20Manager/iPOLiS%20Device%20Manager_v1.8.7_setup_Full.zip ['2014-05-06 - Vulnerability reported to vendor', '2014-06-04 - Coordinated public release of advisory'] Ariele Caltabiano (kimiya) and Andrea Micalizzi (rgod) https://www.zerodayinitiative.com/advisories/ZDI-14-170/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-14-170/",
   "title": "Samsung iPOLiS Device Manager XNSSDKDEVICE.XnsSdkDeviceCtrlForIpInstaller.1 DeleteDeviceProfile Method Remote Code Execution Vulnerability",
   "updated_date": null,

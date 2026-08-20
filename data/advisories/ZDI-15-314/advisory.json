@@ -11,13 +11,13 @@
   "cve": "CVE-2015-5090",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-5090",
   "cvss": 6.9,
-  "cvss_vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2015-04-28 - Vulnerability reported to vendor",
     "2015-07-14 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-15-314 ZDI-CAN-2907 Adobe Reader ARMSvc Elevation of Privilege Vulnerability 2015-07-14 CVE-2015-5090 https://www.cve.org/CVERecord?id=CVE-2015-5090 6.9 AV:L/AC:M/Au:N/C:C/I:C/A:C ['Adobe'] ['Reader'] This vulnerability allows local attackers to elevate privileges on vulnerable installations of Adobe Reader. Authentication is not required to exploit this vulnerability. The specific flaw exists within the ARMSvc service. An attacker can force the service to overwrite the Adobe updater with any file signed by Adobe. An attacker can leverage this vulnerability to execute code under the context of SYSTEM. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/reader/apsb15-15.html ['2015-04-28 - Vulnerability reported to vendor', '2015-07-14 - Coordinated public release of advisory'] AbdulAziz Hariri and Jasiel Spelman - HP Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-15-314/",
+  "search_text": "published ZDI-15-314 ZDI-CAN-2907 Adobe Reader ARMSvc Elevation of Privilege Vulnerability 2015-07-14 CVE-2015-5090 https://www.cve.org/CVERecord?id=CVE-2015-5090 6.9 ['Adobe'] ['Reader'] This vulnerability allows local attackers to elevate privileges on vulnerable installations of Adobe Reader. Authentication is not required to exploit this vulnerability. The specific flaw exists within the ARMSvc service. An attacker can force the service to overwrite the Adobe updater with any file signed by Adobe. An attacker can leverage this vulnerability to execute code under the context of SYSTEM. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/reader/apsb15-15.html ['2015-04-28 - Vulnerability reported to vendor', '2015-07-14 - Coordinated public release of advisory'] AbdulAziz Hariri and Jasiel Spelman - HP Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-15-314/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-314/",
   "title": "Adobe Reader ARMSvc Elevation of Privilege Vulnerability",
   "updated_date": null,

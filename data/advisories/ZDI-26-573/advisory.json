@@ -1,0 +1,28 @@
+{
+  "additional_details": "Linux has issued an update to correct this vulnerability. More details can be found at: https://github.com/torvalds/linux/commit/cfc0b8e5080aec87700774e8568765eaa4b7b92b",
+  "advisory_date": "2026-08-13",
+  "affected_products": [
+    "Kernel KSMBD"
+  ],
+  "affected_vendors": [
+    "Linux"
+  ],
+  "credit": "p2gone",
+  "cve": "CVE-2026-68431",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-68431",
+  "cvss": 9.3,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:L",
+  "disclosure_timeline": [
+    "2026-07-03 - Vulnerability reported to vendor",
+    "2026-08-13 - Coordinated public release of advisory",
+    "2026-08-18 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-26-573 ZDI-CAN-31063 Linux Kernel KSMBD Response Header Out-Of-Bounds Read Information Disclosure Vulnerability 2026-08-13 CVE-2026-68431 https://www.cve.org/CVERecord?id=CVE-2026-68431 9.3 AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:L ['Linux'] ['Kernel KSMBD'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Linux Kernel KSMBD. Authentication is not required to exploit this vulnerability. However, only systems with ksmbd enabled are vulnerable. The specific flaw exists within the init_smb2_rsp_hdr functions. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the kernel. Linux has issued an update to correct this vulnerability. More details can be found at: https://github.com/torvalds/linux/commit/cfc0b8e5080aec87700774e8568765eaa4b7b92b ['2026-07-03 - Vulnerability reported to vendor', '2026-08-13 - Coordinated public release of advisory', '2026-08-18 - Advisory Updated'] p2gone https://www.zerodayinitiative.com/advisories/ZDI-26-573/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-573/",
+  "title": "Linux Kernel KSMBD Response Header Out-Of-Bounds Read Information Disclosure Vulnerability",
+  "updated_date": "2026-08-18",
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Linux Kernel KSMBD. Authentication is not required to exploit this vulnerability. However, only systems with ksmbd enabled are vulnerable. The specific flaw exists within the init_smb2_rsp_hdr functions. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the kernel.",
+  "zdi_can": "ZDI-CAN-31063",
+  "zdi_id": "ZDI-26-573"
+}

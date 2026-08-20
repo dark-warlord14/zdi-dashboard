@@ -11,13 +11,13 @@
   "cve": "CVE-2010-4393",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2010-4393",
   "cvss": 9.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2010-09-14 - Vulnerability reported to vendor",
     "2011-01-27 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-11-033 ZDI-CAN-801 Realplayer vidplin.dll AVI Parsing Remote Code Execution Vulnerability 2011-01-27 CVE-2010-4393 https://www.cve.org/CVERecord?id=CVE-2010-4393 9.0 AV:N/AC:L/Au:N/C:P/I:P/A:C ['RealNetworks'] ['RealPlayer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Realnetworks Realplayer SP. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the vidplin.dll module. A buffer is allocated according to the user supplied length value. User supplied data is then copied into the allocated buffer, without verifying length, allowing the data to be written past the bounds of the previously allocated buffer. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the user running RealPlayer. RealNetworks has issued an update to correct this vulnerability. More details can be found at: http://service.real.com/realplayer/security/01272011_player/en/ ['2010-09-14 - Vulnerability reported to vendor', '2011-01-27 - Coordinated public release of advisory'] Juan Pablo Lopez Yacubian https://www.zerodayinitiative.com/advisories/ZDI-11-033/",
+  "search_text": "published ZDI-11-033 ZDI-CAN-801 Realplayer vidplin.dll AVI Parsing Remote Code Execution Vulnerability 2011-01-27 CVE-2010-4393 https://www.cve.org/CVERecord?id=CVE-2010-4393 9.0 ['RealNetworks'] ['RealPlayer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Realnetworks Realplayer SP. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the vidplin.dll module. A buffer is allocated according to the user supplied length value. User supplied data is then copied into the allocated buffer, without verifying length, allowing the data to be written past the bounds of the previously allocated buffer. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the user running RealPlayer. RealNetworks has issued an update to correct this vulnerability. More details can be found at: http://service.real.com/realplayer/security/01272011_player/en/ ['2010-09-14 - Vulnerability reported to vendor', '2011-01-27 - Coordinated public release of advisory'] Juan Pablo Lopez Yacubian https://www.zerodayinitiative.com/advisories/ZDI-11-033/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-033/",
   "title": "Realplayer vidplin.dll AVI Parsing Remote Code Execution Vulnerability",
   "updated_date": null,

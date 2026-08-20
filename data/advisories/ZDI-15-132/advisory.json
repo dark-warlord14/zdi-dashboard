@@ -11,13 +11,13 @@
   "cve": "CVE-2015-1650",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-1650",
   "cvss": 6.8,
-  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2015-01-27 - Vulnerability reported to vendor",
     "2015-04-15 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-15-132 ZDI-CAN-2686 Microsoft Word Use-After-Free Remote Code Execution Vulnerability 2015-04-15 CVE-2015-1650 https://www.cve.org/CVERecord?id=CVE-2015-1650 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Microsoft'] ['Office Word'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Word. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within processing of abstract number elements in numbering.xml. By adding unexpected nodes within an abstractNum node, the attacker can cause memory to be used after it is freed, leading to arbitrary code execution in the context of the Word process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/en-us/library/security/ms15-033.aspx ['2015-01-27 - Vulnerability reported to vendor', '2015-04-15 - Coordinated public release of advisory'] 3S Labs https://www.zerodayinitiative.com/advisories/ZDI-15-132/",
+  "search_text": "published ZDI-15-132 ZDI-CAN-2686 Microsoft Word Use-After-Free Remote Code Execution Vulnerability 2015-04-15 CVE-2015-1650 https://www.cve.org/CVERecord?id=CVE-2015-1650 6.8 ['Microsoft'] ['Office Word'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Word. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within processing of abstract number elements in numbering.xml. By adding unexpected nodes within an abstractNum node, the attacker can cause memory to be used after it is freed, leading to arbitrary code execution in the context of the Word process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/en-us/library/security/ms15-033.aspx ['2015-01-27 - Vulnerability reported to vendor', '2015-04-15 - Coordinated public release of advisory'] 3S Labs https://www.zerodayinitiative.com/advisories/ZDI-15-132/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-132/",
   "title": "Microsoft Word Use-After-Free Remote Code Execution Vulnerability",
   "updated_date": null,

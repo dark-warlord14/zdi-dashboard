@@ -11,13 +11,13 @@
   "cve": "CVE-2014-3411",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-3411",
   "cvss": 10.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2014-02-18 - Vulnerability reported to vendor",
     "2014-08-27 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-14-297 ZDI-CAN-2151 Juniper Network and Security Manager XDB Remote Code Execution Vulnerability 2014-08-27 CVE-2014-3411 https://www.cve.org/CVERecord?id=CVE-2014-3411 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Juniper'] ['Network and Security Manager'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Juniper Network and Security Manager. Authentication is not required to exploit this vulnerability. The specific flaw exists within the XDB service. The issue lies in the ability to connect to the service with a remote debugger. An attacker can leverage this vulnerability to execute code under the context of the Java service, which can then be used in conjunction with a privilege escalation vulnerability to gain root privileges. Juniper has issued an update to correct this vulnerability. More details can be found at: http://kb.juniper.net/JSA10625 ['2014-02-18 - Vulnerability reported to vendor', '2014-08-27 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-14-297/",
+  "search_text": "published ZDI-14-297 ZDI-CAN-2151 Juniper Network and Security Manager XDB Remote Code Execution Vulnerability 2014-08-27 CVE-2014-3411 https://www.cve.org/CVERecord?id=CVE-2014-3411 10.0 ['Juniper'] ['Network and Security Manager'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Juniper Network and Security Manager. Authentication is not required to exploit this vulnerability. The specific flaw exists within the XDB service. The issue lies in the ability to connect to the service with a remote debugger. An attacker can leverage this vulnerability to execute code under the context of the Java service, which can then be used in conjunction with a privilege escalation vulnerability to gain root privileges. Juniper has issued an update to correct this vulnerability. More details can be found at: http://kb.juniper.net/JSA10625 ['2014-02-18 - Vulnerability reported to vendor', '2014-08-27 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-14-297/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-14-297/",
   "title": "Juniper Network and Security Manager XDB Remote Code Execution Vulnerability",
   "updated_date": null,

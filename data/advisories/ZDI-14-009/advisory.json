@@ -11,13 +11,13 @@
   "cve": "CVE-2013-6195",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2013-6195",
   "cvss": 7.5,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2013-10-23 - Vulnerability reported to vendor",
     "2014-01-10 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-14-009 ZDI-CAN-2008 Hewlett-Packard Data Protector Cell Manager crs.exe Multiple Opcodes Remote Code Execution Vulnerability 2014-01-10 CVE-2013-6195 https://www.cve.org/CVERecord?id=CVE-2013-6195 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Hewlett-Packard'] ['Data Protector'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of HP Data Protector. Authentication is not required to exploit this vulnerability. The specific flaw exists within crs.exe which listens by default on a random TCP port. When parsing opcodes 214, 215, 216, 219, 257, and 263, the process blindly copies user supplied data into a fixed-length stack buffer. A remote attacker can abuse this to execute remote code under the context of the process. Hewlett-Packard has issued an update to correct this vulnerability. More details can be found at: https://h20566.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c03822422 ['2013-10-23 - Vulnerability reported to vendor', '2014-01-10 - Coordinated public release of advisory'] Aniway.Anyway@gmail.com https://www.zerodayinitiative.com/advisories/ZDI-14-009/",
+  "search_text": "published ZDI-14-009 ZDI-CAN-2008 Hewlett-Packard Data Protector Cell Manager crs.exe Multiple Opcodes Remote Code Execution Vulnerability 2014-01-10 CVE-2013-6195 https://www.cve.org/CVERecord?id=CVE-2013-6195 7.5 ['Hewlett-Packard'] ['Data Protector'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of HP Data Protector. Authentication is not required to exploit this vulnerability. The specific flaw exists within crs.exe which listens by default on a random TCP port. When parsing opcodes 214, 215, 216, 219, 257, and 263, the process blindly copies user supplied data into a fixed-length stack buffer. A remote attacker can abuse this to execute remote code under the context of the process. Hewlett-Packard has issued an update to correct this vulnerability. More details can be found at: https://h20566.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c03822422 ['2013-10-23 - Vulnerability reported to vendor', '2014-01-10 - Coordinated public release of advisory'] Aniway.Anyway@gmail.com https://www.zerodayinitiative.com/advisories/ZDI-14-009/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-14-009/",
   "title": "Hewlett-Packard Data Protector Cell Manager crs.exe Multiple Opcodes Remote Code Execution Vulnerability",
   "updated_date": null,

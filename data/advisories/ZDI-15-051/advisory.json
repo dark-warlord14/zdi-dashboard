@@ -11,13 +11,13 @@
   "cve": "CVE-2015-2061",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-2061",
   "cvss": 7.5,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2014-05-20 - Vulnerability reported to vendor",
     "2015-02-27 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-15-051 ZDI-CAN-2198 PTC Creo View Heap Buffer Overflow Remote Code Execution Vulnerability 2015-02-27 CVE-2015-2061 https://www.cve.org/CVERecord?id=CVE-2015-2061 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['PTC'] ['Creo View'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of PTC Creo View. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the Creo View browser plugin. An attacker can trigger a heap overflow, by setting a large buffer to a specific attribute. This would allow an attacker to execute arbitrary code in the context of the browser. PTC has issued an update to correct this vulnerability. More details can be found at: https://support.ptc.com/appserver/cs/view/solution.jsp?n=CS172389 ['2014-05-20 - Vulnerability reported to vendor', '2015-02-27 - Coordinated public release of advisory'] Andrea Micalizzi (rgod) https://www.zerodayinitiative.com/advisories/ZDI-15-051/",
+  "search_text": "published ZDI-15-051 ZDI-CAN-2198 PTC Creo View Heap Buffer Overflow Remote Code Execution Vulnerability 2015-02-27 CVE-2015-2061 https://www.cve.org/CVERecord?id=CVE-2015-2061 7.5 ['PTC'] ['Creo View'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of PTC Creo View. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the Creo View browser plugin. An attacker can trigger a heap overflow, by setting a large buffer to a specific attribute. This would allow an attacker to execute arbitrary code in the context of the browser. PTC has issued an update to correct this vulnerability. More details can be found at: https://support.ptc.com/appserver/cs/view/solution.jsp?n=CS172389 ['2014-05-20 - Vulnerability reported to vendor', '2015-02-27 - Coordinated public release of advisory'] Andrea Micalizzi (rgod) https://www.zerodayinitiative.com/advisories/ZDI-15-051/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-051/",
   "title": "PTC Creo View Heap Buffer Overflow Remote Code Execution Vulnerability",
   "updated_date": null,

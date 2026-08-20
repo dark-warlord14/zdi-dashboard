@@ -1,0 +1,28 @@
+{
+  "additional_details": "Fixed in dnsmasq-2.93",
+  "advisory_date": "2026-08-13",
+  "affected_products": [
+    "dnsmasq"
+  ],
+  "affected_vendors": [
+    "dnsmasq"
+  ],
+  "credit": "chwrld",
+  "cve": "CVE-2026-4890",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-4890",
+  "cvss": 7.5,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+  "disclosure_timeline": [
+    "2026-05-20 - Vulnerability reported to vendor",
+    "2026-08-13 - Coordinated public release of advisory",
+    "2026-08-13 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-26-584 ZDI-CAN-30607 dnsmasq DNSSEC NSEC/NSEC3 Type Bitmap Processing Infinite Loop Denial-of-Service Vulnerability 2026-08-13 CVE-2026-4890 https://www.cve.org/CVERecord?id=CVE-2026-4890 7.5 AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H ['dnsmasq'] ['dnsmasq'] This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of dnsmasq. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of NSEC records. The issue results from a lack of a proper exit condition in a loop. An attacker can leverage this vulnerability to create a denial-of-service condition on the system. Fixed in dnsmasq-2.93 ['2026-05-20 - Vulnerability reported to vendor', '2026-08-13 - Coordinated public release of advisory', '2026-08-13 - Advisory Updated'] chwrld https://www.zerodayinitiative.com/advisories/ZDI-26-584/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-584/",
+  "title": "dnsmasq DNSSEC NSEC/NSEC3 Type Bitmap Processing Infinite Loop Denial-of-Service Vulnerability",
+  "updated_date": "2026-08-13",
+  "vulnerability_details": "This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of dnsmasq. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of NSEC records. The issue results from a lack of a proper exit condition in a loop. An attacker can leverage this vulnerability to create a denial-of-service condition on the system.",
+  "zdi_can": "ZDI-CAN-30607",
+  "zdi_id": "ZDI-26-584"
+}

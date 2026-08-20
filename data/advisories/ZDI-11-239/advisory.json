@@ -11,13 +11,13 @@
   "cve": "CVE-2011-0233",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-0233",
   "cvss": 7.5,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2011-01-21 - Vulnerability reported to vendor",
     "2011-07-27 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-11-239 ZDI-CAN-1047 Apple Safari Webkit FrameOwner Element Remote Code Execution Vulnerability 2011-07-27 CVE-2011-0233 https://www.cve.org/CVERecord?id=CVE-2011-0233 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Apple'] ['WebKit'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple Safari Webkit. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the library's implementation of a FrameOwner element. When building this tree, the application will create a duplicate reference of an element. By freeing the referenced element, a use-after-free condition can be made to occur which can lead to code execution under the context of the application. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT4808 ['2011-01-21 - Vulnerability reported to vendor', '2011-07-27 - Coordinated public release of advisory'] wushi of team509 https://www.zerodayinitiative.com/advisories/ZDI-11-239/",
+  "search_text": "published ZDI-11-239 ZDI-CAN-1047 Apple Safari Webkit FrameOwner Element Remote Code Execution Vulnerability 2011-07-27 CVE-2011-0233 https://www.cve.org/CVERecord?id=CVE-2011-0233 7.5 ['Apple'] ['WebKit'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple Safari Webkit. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the library's implementation of a FrameOwner element. When building this tree, the application will create a duplicate reference of an element. By freeing the referenced element, a use-after-free condition can be made to occur which can lead to code execution under the context of the application. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT4808 ['2011-01-21 - Vulnerability reported to vendor', '2011-07-27 - Coordinated public release of advisory'] wushi of team509 https://www.zerodayinitiative.com/advisories/ZDI-11-239/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-239/",
   "title": "Apple Safari Webkit FrameOwner Element Remote Code Execution Vulnerability",
   "updated_date": null,

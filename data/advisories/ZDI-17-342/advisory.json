@@ -11,13 +11,13 @@
   "cve": "CVE-2017-5818",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-5818",
   "cvss": 7.8,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:N/I:N/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2017-01-03 - Vulnerability reported to vendor",
     "2017-05-15 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-17-342 ZDI-CAN-4386 Hewlett Packard Enterprise Intelligent Management Center dbman Opcode 10007 Arbitrary File Deletion Denial of Service Vulnerability 2017-05-15 CVE-2017-5818 https://www.cve.org/CVERecord?id=CVE-2017-5818 7.8 AV:N/AC:L/Au:N/C:N/I:N/A:C ['Hewlett Packard Enterprise'] ['Intelligent Management Center'] This vulnerability allows remote attackers to delete arbitrary files on vulnerable installations of Hewlett Packard Enterprise Intelligent Management Center. Authentication is not required to exploit this vulnerability. The specific flaw exists within the dbman service, which listens on TCP port 2810 by default. The issue results from the lack of validation of file paths sent to an unlink call. This could all for the deletion of any file accessible by SYSTEM. Hewlett Packard Enterprise has issued an update to correct this vulnerability. More details can be found at: https://h20564.www2.hpe.com/hpsc/doc/public/display?docId=emr_na-hpesbhf03745en_us ['2017-01-03 - Vulnerability reported to vendor', '2017-05-15 - Coordinated public release of advisory'] szitivi https://www.zerodayinitiative.com/advisories/ZDI-17-342/",
+  "search_text": "published ZDI-17-342 ZDI-CAN-4386 Hewlett Packard Enterprise Intelligent Management Center dbman Opcode 10007 Arbitrary File Deletion Denial of Service Vulnerability 2017-05-15 CVE-2017-5818 https://www.cve.org/CVERecord?id=CVE-2017-5818 7.8 ['Hewlett Packard Enterprise'] ['Intelligent Management Center'] This vulnerability allows remote attackers to delete arbitrary files on vulnerable installations of Hewlett Packard Enterprise Intelligent Management Center. Authentication is not required to exploit this vulnerability. The specific flaw exists within the dbman service, which listens on TCP port 2810 by default. The issue results from the lack of validation of file paths sent to an unlink call. This could all for the deletion of any file accessible by SYSTEM. Hewlett Packard Enterprise has issued an update to correct this vulnerability. More details can be found at: https://h20564.www2.hpe.com/hpsc/doc/public/display?docId=emr_na-hpesbhf03745en_us ['2017-01-03 - Vulnerability reported to vendor', '2017-05-15 - Coordinated public release of advisory'] szitivi https://www.zerodayinitiative.com/advisories/ZDI-17-342/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-342/",
   "title": "Hewlett Packard Enterprise Intelligent Management Center dbman Opcode 10007 Arbitrary File Deletion Denial of Service Vulnerability",
   "updated_date": null,

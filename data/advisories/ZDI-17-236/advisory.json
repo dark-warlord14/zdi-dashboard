@@ -11,13 +11,13 @@
   "cve": "CVE-2017-4902",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-4902",
   "cvss": 6.9,
-  "cvss_vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2017-03-18 - Vulnerability reported to vendor",
     "2017-03-30 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-17-236 ZDI-CAN-4606 VMware Workstation SVGA Heap-based Buffer Overflow Privilege Escalation Vulnerability 2017-03-30 CVE-2017-4902 https://www.cve.org/CVERecord?id=CVE-2017-4902 6.9 AV:L/AC:M/Au:N/C:C/I:C/A:C ['VMware'] ['VMware Workstation'] This vulnerability allows local attackers to execute arbitrary code on vulnerable installations of VMware Workstation. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of SVGA graphics. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to elevate privileges and execute arbitrary code under the context of the hypervisor. VMware has issued an update to correct this vulnerability. More details can be found at: http://www.vmware.com/security/advisories/VMSA-2017-0006.html ['2017-03-18 - Vulnerability reported to vendor', '2017-03-30 - Coordinated public release of advisory'] 360 Security https://www.zerodayinitiative.com/advisories/ZDI-17-236/",
+  "search_text": "published ZDI-17-236 ZDI-CAN-4606 VMware Workstation SVGA Heap-based Buffer Overflow Privilege Escalation Vulnerability 2017-03-30 CVE-2017-4902 https://www.cve.org/CVERecord?id=CVE-2017-4902 6.9 ['VMware'] ['VMware Workstation'] This vulnerability allows local attackers to execute arbitrary code on vulnerable installations of VMware Workstation. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of SVGA graphics. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to elevate privileges and execute arbitrary code under the context of the hypervisor. VMware has issued an update to correct this vulnerability. More details can be found at: http://www.vmware.com/security/advisories/VMSA-2017-0006.html ['2017-03-18 - Vulnerability reported to vendor', '2017-03-30 - Coordinated public release of advisory'] 360 Security https://www.zerodayinitiative.com/advisories/ZDI-17-236/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-236/",
   "title": "VMware Workstation SVGA Heap-based Buffer Overflow Privilege Escalation Vulnerability",
   "updated_date": null,

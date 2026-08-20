@@ -11,13 +11,13 @@
   "cve": null,
   "cve_url": null,
   "cvss": 6.4,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:N",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2010-10-15 - Vulnerability reported to vendor",
     "2010-11-07 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-10-231 ZDI-CAN-886 Juniper Secure Access Series meeting_testjava.cgi XSS Vulnerability 2010-11-07 6.4 AV:N/AC:L/Au:N/C:P/I:P/A:N ['Juniper'] ['Secure Access Series'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Juniper SA Series devices. Authentication is not required to exploit this vulnerability. The specific flaw exists within the meeting_testjava.cgi page which is used to test JVM compatibility. When handling the DSID HTTP header the code allows an attacker to inject arbitrary javascript into the page. This can be abused by an attacker to perform a cross-site scripting attack on the device. The fix to this issue is now available for download on the vendor's website. The issue has been resolved in IVE OS 6.5r7 (Build 16789) and 7.0r3 (Build 16899). A product security notice, PSN-2010-11-983, has been released by the vendor. Customers can sign up for proactive alerts of IVE OS software releases by visiting the Juniper Networks Support Center and selecting \"Subscribe to Email Alerts\" under Technical Bulletins. ['2010-10-15 - Vulnerability reported to vendor', '2010-11-07 - Coordinated public release of advisory'] Davy Douhine https://www.zerodayinitiative.com/advisories/ZDI-10-231/",
+  "search_text": "published ZDI-10-231 ZDI-CAN-886 Juniper Secure Access Series meeting_testjava.cgi XSS Vulnerability 2010-11-07 6.4 ['Juniper'] ['Secure Access Series'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Juniper SA Series devices. Authentication is not required to exploit this vulnerability. The specific flaw exists within the meeting_testjava.cgi page which is used to test JVM compatibility. When handling the DSID HTTP header the code allows an attacker to inject arbitrary javascript into the page. This can be abused by an attacker to perform a cross-site scripting attack on the device. The fix to this issue is now available for download on the vendor's website. The issue has been resolved in IVE OS 6.5r7 (Build 16789) and 7.0r3 (Build 16899). A product security notice, PSN-2010-11-983, has been released by the vendor. Customers can sign up for proactive alerts of IVE OS software releases by visiting the Juniper Networks Support Center and selecting \"Subscribe to Email Alerts\" under Technical Bulletins. ['2010-10-15 - Vulnerability reported to vendor', '2010-11-07 - Coordinated public release of advisory'] Davy Douhine https://www.zerodayinitiative.com/advisories/ZDI-10-231/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-231/",
   "title": "Juniper Secure Access Series meeting_testjava.cgi XSS Vulnerability",
   "updated_date": null,

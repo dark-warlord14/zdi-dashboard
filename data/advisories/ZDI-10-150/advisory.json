@@ -11,13 +11,13 @@
   "cve": "CVE-2010-1900",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2010-1900",
   "cvss": 10.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2009-07-14 - Vulnerability reported to vendor",
     "2010-08-11 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-10-150 ZDI-CAN-527 Microsoft Office Word sprmCMajority Record Parsing Remote Code Execution Vulnerability 2010-08-11 CVE-2010-1900 https://www.cve.org/CVERecord?id=CVE-2010-1900 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Microsoft'] ['Office Word'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Office Word. User interaction is required to exploit this vulnerability in that the target must open a malicious document. The specific flaw exists in the parsing of sprmCMajority records in a Word document. Due to the lack of parameter checking when processing sprmCMajority sprm groups it is possible to arbitrarily control the amount of data being written to a stack based buffer resulting in a stack overflow vulnerability which can overwrite critical exception structures. Successful exploitation can lead to remote code execution under the credentials of the currently logged in user. Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/bulletin/ms10-056.mspx ['2009-07-14 - Vulnerability reported to vendor', '2010-08-11 - Coordinated public release of advisory'] L.W.Z of team509 https://www.zerodayinitiative.com/advisories/ZDI-10-150/",
+  "search_text": "published ZDI-10-150 ZDI-CAN-527 Microsoft Office Word sprmCMajority Record Parsing Remote Code Execution Vulnerability 2010-08-11 CVE-2010-1900 https://www.cve.org/CVERecord?id=CVE-2010-1900 10.0 ['Microsoft'] ['Office Word'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Office Word. User interaction is required to exploit this vulnerability in that the target must open a malicious document. The specific flaw exists in the parsing of sprmCMajority records in a Word document. Due to the lack of parameter checking when processing sprmCMajority sprm groups it is possible to arbitrarily control the amount of data being written to a stack based buffer resulting in a stack overflow vulnerability which can overwrite critical exception structures. Successful exploitation can lead to remote code execution under the credentials of the currently logged in user. Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/bulletin/ms10-056.mspx ['2009-07-14 - Vulnerability reported to vendor', '2010-08-11 - Coordinated public release of advisory'] L.W.Z of team509 https://www.zerodayinitiative.com/advisories/ZDI-10-150/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-150/",
   "title": "Microsoft Office Word sprmCMajority Record Parsing Remote Code Execution Vulnerability",
   "updated_date": null,

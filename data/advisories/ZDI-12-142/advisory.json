@@ -11,13 +11,13 @@
   "cve": "CVE-2012-1713",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2012-1713",
   "cvss": 9.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2012-03-14 - Vulnerability reported to vendor",
     "2012-08-17 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-12-142 ZDI-CAN-1502 Oracle Java WebStart Browser Argument Injection Remote Code Execution Vulnerability 2012-08-17 CVE-2012-1713 https://www.cve.org/CVERecord?id=CVE-2012-1713 9.0 AV:N/AC:L/Au:N/C:P/I:P/A:C ['Oracle'] ['Java Runtime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Oracle Java. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the BasicService.showDocument Java Webstart function. This function allows additional parameters to be passed to the browser. Depending on which browser the user has set as default browser this could lead to remote code execution under the context of the current user. Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/javacpujun2012-1515912.html ['2012-03-14 - Vulnerability reported to vendor', '2012-08-17 - Coordinated public release of advisory'] Chris Ries https://www.zerodayinitiative.com/advisories/ZDI-12-142/",
+  "search_text": "published ZDI-12-142 ZDI-CAN-1502 Oracle Java WebStart Browser Argument Injection Remote Code Execution Vulnerability 2012-08-17 CVE-2012-1713 https://www.cve.org/CVERecord?id=CVE-2012-1713 9.0 ['Oracle'] ['Java Runtime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Oracle Java. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the BasicService.showDocument Java Webstart function. This function allows additional parameters to be passed to the browser. Depending on which browser the user has set as default browser this could lead to remote code execution under the context of the current user. Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/javacpujun2012-1515912.html ['2012-03-14 - Vulnerability reported to vendor', '2012-08-17 - Coordinated public release of advisory'] Chris Ries https://www.zerodayinitiative.com/advisories/ZDI-12-142/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-12-142/",
   "title": "Oracle Java WebStart Browser Argument Injection Remote Code Execution Vulnerability",
   "updated_date": null,

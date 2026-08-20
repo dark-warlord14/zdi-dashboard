@@ -1,0 +1,28 @@
+{
+  "additional_details": "The vendor has issued an update that appears to address this vulnerability https://github.com/langgenius/dify/pull/38864",
+  "advisory_date": "2026-07-23",
+  "affected_products": [
+    "Dify"
+  ],
+  "affected_vendors": [
+    "LangGenius"
+  ],
+  "credit": "David Fiser & Alfredo Oliveira of TrendAI Research",
+  "cve": "CVE-2026-18266",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-18266",
+  "cvss": 5.4,
+  "cvss_vector": "AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N",
+  "disclosure_timeline": [
+    "2026-03-25 - Vulnerability reported to vendor",
+    "2026-07-23 - Coordinated public release of advisory",
+    "2026-07-29 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-26-452 ZDI-CAN-29196 Dify AI Workflow oauth_redirect_url Open Redirect Vulnerability 2026-07-23 CVE-2026-18266 https://www.cve.org/CVERecord?id=CVE-2026-18266 5.4 AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N ['LangGenius'] ['Dify'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Dify. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the OAuth flow handling in the AppInitializer component. An attacker can force a redirection to a site that serves malicious content. An attacker can leverage this vulnerability to disclose information in the context of the application. The vendor has issued an update that appears to address this vulnerability https://github.com/langgenius/dify/pull/38864 ['2026-03-25 - Vulnerability reported to vendor', '2026-07-23 - Coordinated public release of advisory', '2026-07-29 - Advisory Updated'] David Fiser & Alfredo Oliveira of TrendAI Research https://www.zerodayinitiative.com/advisories/ZDI-26-452/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-452/",
+  "title": "Dify AI Workflow oauth_redirect_url Open Redirect Vulnerability",
+  "updated_date": "2026-07-29",
+  "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Dify. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the OAuth flow handling in the AppInitializer component. An attacker can force a redirection to a site that serves malicious content. An attacker can leverage this vulnerability to disclose information in the context of the application.",
+  "zdi_can": "ZDI-CAN-29196",
+  "zdi_id": "ZDI-26-452"
+}

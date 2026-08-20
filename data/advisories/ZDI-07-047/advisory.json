@@ -2,15 +2,9 @@
   "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/bulletin/MS07-047.mspx",
   "advisory_date": "2007-08-14",
   "affected_products": [
-    "Windows Media Player 7",
-    "Windows Media Player 9",
-    "Windows Media Player 10",
-    "Windows Media Player 11"
+    "Windows Media Player 7"
   ],
   "affected_vendors": [
-    "Microsoft",
-    "Microsoft",
-    "Microsoft",
     "Microsoft"
   ],
   "credit": "Piotr Bania",
@@ -23,7 +17,7 @@
     "2007-08-14 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-07-047 ZDI-CAN-198 Microsoft Windows Media Player Malformed Skin Header Code Execution Vulnerability 2007-08-14 CVE-2007-3035 https://www.cve.org/CVERecord?id=CVE-2007-3035 ['Microsoft', 'Microsoft', 'Microsoft', 'Microsoft'] ['Windows Media Player 7', 'Windows Media Player 9', 'Windows Media Player 10', 'Windows Media Player 11'] This vulnerability allows attackers to execute arbitrary code on vulnerable installations of Microsoft Windows Media Player. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists while decompressing skin files (.WMZ and .WMD) with malformed headers. During this process the malformed values are used to improperly calculate data which can later allow an attacker to execute code under the rights of the current user. Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/bulletin/MS07-047.mspx ['2007-05-22 - Vulnerability reported to vendor', '2007-08-14 - Coordinated public release of advisory'] Piotr Bania https://www.zerodayinitiative.com/advisories/ZDI-07-047/",
+  "search_text": "published ZDI-07-047 ZDI-CAN-198 Microsoft Windows Media Player Malformed Skin Header Code Execution Vulnerability 2007-08-14 CVE-2007-3035 https://www.cve.org/CVERecord?id=CVE-2007-3035 ['Microsoft'] ['Windows Media Player 7'] This vulnerability allows attackers to execute arbitrary code on vulnerable installations of Microsoft Windows Media Player. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists while decompressing skin files (.WMZ and .WMD) with malformed headers. During this process the malformed values are used to improperly calculate data which can later allow an attacker to execute code under the rights of the current user. Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/bulletin/MS07-047.mspx ['2007-05-22 - Vulnerability reported to vendor', '2007-08-14 - Coordinated public release of advisory'] Piotr Bania https://www.zerodayinitiative.com/advisories/ZDI-07-047/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-07-047/",
   "title": "Microsoft Windows Media Player Malformed Skin Header Code Execution Vulnerability",
   "updated_date": null,

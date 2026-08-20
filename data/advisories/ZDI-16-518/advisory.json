@@ -11,13 +11,13 @@
   "cve": "CVE-2016-5814",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-5814",
   "cvss": 6.8,
-  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2016-06-02 - Vulnerability reported to vendor",
     "2016-09-19 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-16-518 ZDI-CAN-3793 Rockwell Automation RSLogix Micro Starter Lite Project File Parsing Stack-based Buffer Overflow Remote Code Execution Vulnerability 2016-09-19 CVE-2016-5814 https://www.cve.org/CVERecord?id=CVE-2016-5814 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Rockwell Automation'] ['RSLogix Micro Starter Lite'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Rockwell Automation RSLogix Micro Starter Lite. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of a RSS (project) file. The issue lies in the failure to properly validate the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this vulnerability to execute arbitrary code in the context of the process. Rockwell Automation has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-16-224-02 ['2016-06-02 - Vulnerability reported to vendor', '2016-09-19 - Coordinated public release of advisory'] Ariele Caltabiano [kimiya] https://www.zerodayinitiative.com/advisories/ZDI-16-518/",
+  "search_text": "published ZDI-16-518 ZDI-CAN-3793 Rockwell Automation RSLogix Micro Starter Lite Project File Parsing Stack-based Buffer Overflow Remote Code Execution Vulnerability 2016-09-19 CVE-2016-5814 https://www.cve.org/CVERecord?id=CVE-2016-5814 6.8 ['Rockwell Automation'] ['RSLogix Micro Starter Lite'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Rockwell Automation RSLogix Micro Starter Lite. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of a RSS (project) file. The issue lies in the failure to properly validate the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this vulnerability to execute arbitrary code in the context of the process. Rockwell Automation has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-16-224-02 ['2016-06-02 - Vulnerability reported to vendor', '2016-09-19 - Coordinated public release of advisory'] Ariele Caltabiano [kimiya] https://www.zerodayinitiative.com/advisories/ZDI-16-518/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-518/",
   "title": "Rockwell Automation RSLogix Micro Starter Lite Project File Parsing Stack-based Buffer Overflow Remote Code Execution Vulnerability",
   "updated_date": null,

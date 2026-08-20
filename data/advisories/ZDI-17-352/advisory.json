@@ -11,13 +11,13 @@
   "cve": "CVE-2017-6990",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-6990",
   "cvss": 1.9,
-  "cvss_vector": "AV:L/AC:M/Au:N/C:P/I:N/A:N",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2017-03-17 - Vulnerability reported to vendor",
     "2017-05-18 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-17-352 ZDI-CAN-4615 (Pwn2Own) Apple macOS HFS Uninitialized Memory Information Disclosure Privilege Escalation Vulnerability 2017-05-18 CVE-2017-6990 https://www.cve.org/CVERecord?id=CVE-2017-6990 1.9 AV:L/AC:M/Au:N/C:P/I:N/A:N ['Apple'] ['macOS'] This vulnerability allows local attackers to disclose sensitive information on vulnerable installations of Apple macOS. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of HFS. The issue results from the lack of proper initialization of memory prior to accessing it. An attacker can leverage this in conjunction with other vulnerabilities to escalate privileges in the context of the kernel. Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-us/HT207797 ['2017-03-17 - Vulnerability reported to vendor', '2017-05-18 - Coordinated public release of advisory'] Chaitin Security Research Lab https://www.zerodayinitiative.com/advisories/ZDI-17-352/",
+  "search_text": "published ZDI-17-352 ZDI-CAN-4615 (Pwn2Own) Apple macOS HFS Uninitialized Memory Information Disclosure Privilege Escalation Vulnerability 2017-05-18 CVE-2017-6990 https://www.cve.org/CVERecord?id=CVE-2017-6990 1.9 ['Apple'] ['macOS'] This vulnerability allows local attackers to disclose sensitive information on vulnerable installations of Apple macOS. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of HFS. The issue results from the lack of proper initialization of memory prior to accessing it. An attacker can leverage this in conjunction with other vulnerabilities to escalate privileges in the context of the kernel. Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-us/HT207797 ['2017-03-17 - Vulnerability reported to vendor', '2017-05-18 - Coordinated public release of advisory'] Chaitin Security Research Lab https://www.zerodayinitiative.com/advisories/ZDI-17-352/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-352/",
   "title": "(Pwn2Own) Apple macOS HFS Uninitialized Memory Information Disclosure Privilege Escalation Vulnerability",
   "updated_date": null,

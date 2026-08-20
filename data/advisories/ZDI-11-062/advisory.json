@@ -2,24 +2,22 @@
   "additional_details": "HP: http://h20000.www2.hp.com/bizsupport/TechSupport/Document.jsp?objectID=c02702395 IBM: http://aix.software.ibm.com/aix/efixes/security/cmsd_advisory.asc IBM is not providing credits, as our system at that time and for this brand does not accept credits. Oracle: http://www.oracle.com/technetwork/topics/security/cpujan2011-194091.html",
   "advisory_date": "2011-02-08",
   "affected_products": [
-    "HP-UX AIX Solaris 10"
+    "HP-UX"
   ],
   "affected_vendors": [
-    "Hewlett-Packard",
-    "IBM",
-    "Sun Microsystems"
+    "Hewlett-Packard"
   ],
   "credit": "Rodrigo Rubira Branco (BSDaemon)",
   "cve": "CVE-2010-4435",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2010-4435",
   "cvss": 10.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2009-08-20 - Vulnerability reported to vendor",
     "2011-02-08 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-11-062 ZDI-CAN-561 Multiple Vendor Calendar Manager RPC Service Remote Code Execution Vulnerability 2011-02-08 CVE-2010-4435 https://www.cve.org/CVERecord?id=CVE-2010-4435 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Hewlett-Packard', 'IBM', 'Sun Microsystems'] ['HP-UX AIX Solaris 10'] This vulnerability allows attackers to execute arbitrary code on vulnerable installations of the Calendar Manager RPC Service. Authentication is not required to exploit this vulnerability. The specific flaw exists within the CMSD server (rpc.cmsd) which listens by default on UDP port 32768. The process does not properly handle large XDR-encoded ASCII strings to RPC call 10 followed by RPC call 6. This can be abused by an attacker to overflow a buffer on the remote host. Successful exploitation can result in arbitrary code execution. HP: http://h20000.www2.hp.com/bizsupport/TechSupport/Document.jsp?objectID=c02702395 IBM: http://aix.software.ibm.com/aix/efixes/security/cmsd_advisory.asc IBM is not providing credits, as our system at that time and for this brand does not accept credits. Oracle: http://www.oracle.com/technetwork/topics/security/cpujan2011-194091.html ['2009-08-20 - Vulnerability reported to vendor', '2011-02-08 - Coordinated public release of advisory'] Rodrigo Rubira Branco (BSDaemon) https://www.zerodayinitiative.com/advisories/ZDI-11-062/",
+  "search_text": "published ZDI-11-062 ZDI-CAN-561 Multiple Vendor Calendar Manager RPC Service Remote Code Execution Vulnerability 2011-02-08 CVE-2010-4435 https://www.cve.org/CVERecord?id=CVE-2010-4435 10.0 ['Hewlett-Packard'] ['HP-UX'] This vulnerability allows attackers to execute arbitrary code on vulnerable installations of the Calendar Manager RPC Service. Authentication is not required to exploit this vulnerability. The specific flaw exists within the CMSD server (rpc.cmsd) which listens by default on UDP port 32768. The process does not properly handle large XDR-encoded ASCII strings to RPC call 10 followed by RPC call 6. This can be abused by an attacker to overflow a buffer on the remote host. Successful exploitation can result in arbitrary code execution. HP: http://h20000.www2.hp.com/bizsupport/TechSupport/Document.jsp?objectID=c02702395 IBM: http://aix.software.ibm.com/aix/efixes/security/cmsd_advisory.asc IBM is not providing credits, as our system at that time and for this brand does not accept credits. Oracle: http://www.oracle.com/technetwork/topics/security/cpujan2011-194091.html ['2009-08-20 - Vulnerability reported to vendor', '2011-02-08 - Coordinated public release of advisory'] Rodrigo Rubira Branco (BSDaemon) https://www.zerodayinitiative.com/advisories/ZDI-11-062/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-062/",
   "title": "Multiple Vendor Calendar Manager RPC Service Remote Code Execution Vulnerability",
   "updated_date": null,

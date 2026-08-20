@@ -11,13 +11,13 @@
   "cve": "CVE-2014-1314",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-1314",
   "cvss": 4.6,
-  "cvss_vector": "AV:L/AC:L/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2014-03-13 - Vulnerability reported to vendor",
     "2014-12-02 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-14-390 ZDI-CAN-2222 (Pwn2Own) Apple OS X WindowsServer Sandbox Escape Vulnerability 2014-12-02 CVE-2014-1314 https://www.cve.org/CVERecord?id=CVE-2014-1314 4.6 AV:L/AC:L/Au:N/C:P/I:P/A:P ['Apple'] ['OS X'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple OS X. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within WindowServer. The issue lies in the failure to prevent sandboxed applications from creating new sessions. An attacker can leverage this to execute code outside the context of the sandbox. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/en-us/HT202966 ['2014-03-13 - Vulnerability reported to vendor', '2014-12-02 - Coordinated public release of advisory'] Liang Chen of KeenTeam https://www.zerodayinitiative.com/advisories/ZDI-14-390/",
+  "search_text": "published ZDI-14-390 ZDI-CAN-2222 (Pwn2Own) Apple OS X WindowsServer Sandbox Escape Vulnerability 2014-12-02 CVE-2014-1314 https://www.cve.org/CVERecord?id=CVE-2014-1314 4.6 ['Apple'] ['OS X'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple OS X. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within WindowServer. The issue lies in the failure to prevent sandboxed applications from creating new sessions. An attacker can leverage this to execute code outside the context of the sandbox. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/en-us/HT202966 ['2014-03-13 - Vulnerability reported to vendor', '2014-12-02 - Coordinated public release of advisory'] Liang Chen of KeenTeam https://www.zerodayinitiative.com/advisories/ZDI-14-390/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-14-390/",
   "title": "(Pwn2Own) Apple OS X WindowsServer Sandbox Escape Vulnerability",
   "updated_date": null,

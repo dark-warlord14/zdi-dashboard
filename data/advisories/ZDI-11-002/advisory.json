@@ -11,13 +11,13 @@
   "cve": "CVE-2011-0027",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-0027",
   "cvss": 9.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2010-03-26 - Vulnerability reported to vendor",
     "2011-01-11 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-11-002 ZDI-CAN-856 Microsoft Internet Explorer MSADO CacheSize Remote Code Execution Vulnerability 2011-01-11 CVE-2011-0027 https://www.cve.org/CVERecord?id=CVE-2011-0027 9.0 AV:N/AC:L/Au:N/C:P/I:P/A:C ['Microsoft'] ['Internet Explorer 8'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. This vulnerability was submitted to the ZDI via at the annual Pwn2Own competition at CanSecWest. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The flaw exists within the MSADO component. When handling the a user specified CacheSize property the process uses this value to calculate the 'real' cache size. This value is used without proper validation. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the browser. Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/bulletin/MS11-002.mspx ['2010-03-26 - Vulnerability reported to vendor', '2011-01-11 - Coordinated public release of advisory'] Peter Vreugdenhil https://www.zerodayinitiative.com/advisories/ZDI-11-002/",
+  "search_text": "published ZDI-11-002 ZDI-CAN-856 Microsoft Internet Explorer MSADO CacheSize Remote Code Execution Vulnerability 2011-01-11 CVE-2011-0027 https://www.cve.org/CVERecord?id=CVE-2011-0027 9.0 ['Microsoft'] ['Internet Explorer 8'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. This vulnerability was submitted to the ZDI via at the annual Pwn2Own competition at CanSecWest. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The flaw exists within the MSADO component. When handling the a user specified CacheSize property the process uses this value to calculate the 'real' cache size. This value is used without proper validation. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the browser. Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/bulletin/MS11-002.mspx ['2010-03-26 - Vulnerability reported to vendor', '2011-01-11 - Coordinated public release of advisory'] Peter Vreugdenhil https://www.zerodayinitiative.com/advisories/ZDI-11-002/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-002/",
   "title": "Microsoft Internet Explorer MSADO CacheSize Remote Code Execution Vulnerability",
   "updated_date": null,

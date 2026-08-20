@@ -11,13 +11,13 @@
   "cve": null,
   "cve_url": null,
   "cvss": 6.8,
-  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2016-09-27 - Vulnerability reported to vendor",
     "2016-11-02 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-16-584 ZDI-CAN-4034 Foxit Reader JPEG2000 Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability 2016-11-02 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Foxit'] ['Reader'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Foxit Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within JPEG2000 parsing. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute code under the context of the current process. Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxitsoftware.com/support/security-bulletins.php ['2016-09-27 - Vulnerability reported to vendor', '2016-11-02 - Coordinated public release of advisory'] SkyLined and Soiax https://www.zerodayinitiative.com/advisories/ZDI-16-584/",
+  "search_text": "published ZDI-16-584 ZDI-CAN-4034 Foxit Reader JPEG2000 Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability 2016-11-02 6.8 ['Foxit'] ['Reader'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Foxit Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within JPEG2000 parsing. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute code under the context of the current process. Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxitsoftware.com/support/security-bulletins.php ['2016-09-27 - Vulnerability reported to vendor', '2016-11-02 - Coordinated public release of advisory'] SkyLined and Soiax https://www.zerodayinitiative.com/advisories/ZDI-16-584/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-584/",
   "title": "Foxit Reader JPEG2000 Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
   "updated_date": null,

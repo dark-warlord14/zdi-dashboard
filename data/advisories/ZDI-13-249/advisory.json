@@ -11,13 +11,13 @@
   "cve": "CVE-2013-3828",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2013-3828",
   "cvss": 5.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2013-02-22 - Vulnerability reported to vendor",
     "2013-10-16 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-13-249 ZDI-CAN-1761 Oracle BPEL Process Manager ScriptServlet Remote Code Execution Vulnerability 2013-10-16 CVE-2013-3828 https://www.cve.org/CVERecord?id=CVE-2013-3828 5.0 AV:N/AC:L/Au:N/C:P/I:N/A:N ['Oracle'] ['BPEL Process Manager'] This vulnerability allows remote attackers to obtain sensitive information on vulnerable installations of Oracle BPEL Process Manager. Authentication is not required to exploit this vulnerability. The specific flaw exists within the ScriptServlet. It suffers of a directory traversal vulnerability inside the query string which can lead to disclosure of credentials. By abusing this behavior an attacker can disclose administrative credentials and possibly leverage this situation to achieve remote code execution. Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html ['2013-02-22 - Vulnerability reported to vendor', '2013-10-16 - Coordinated public release of advisory'] Andrea Micalizzi aka rgod https://www.zerodayinitiative.com/advisories/ZDI-13-249/",
+  "search_text": "published ZDI-13-249 ZDI-CAN-1761 Oracle BPEL Process Manager ScriptServlet Remote Code Execution Vulnerability 2013-10-16 CVE-2013-3828 https://www.cve.org/CVERecord?id=CVE-2013-3828 5.0 ['Oracle'] ['BPEL Process Manager'] This vulnerability allows remote attackers to obtain sensitive information on vulnerable installations of Oracle BPEL Process Manager. Authentication is not required to exploit this vulnerability. The specific flaw exists within the ScriptServlet. It suffers of a directory traversal vulnerability inside the query string which can lead to disclosure of credentials. By abusing this behavior an attacker can disclose administrative credentials and possibly leverage this situation to achieve remote code execution. Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/topics/security/cpuoct2013-1899837.html ['2013-02-22 - Vulnerability reported to vendor', '2013-10-16 - Coordinated public release of advisory'] Andrea Micalizzi aka rgod https://www.zerodayinitiative.com/advisories/ZDI-13-249/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-13-249/",
   "title": "Oracle BPEL Process Manager ScriptServlet Remote Code Execution Vulnerability",
   "updated_date": null,

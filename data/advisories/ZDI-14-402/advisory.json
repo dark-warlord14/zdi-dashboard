@@ -11,13 +11,13 @@
   "cve": "CVE-2014-9268",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-9268",
   "cvss": 7.5,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2014-05-12 - Vulnerability reported to vendor",
     "2014-12-04 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-14-402 ZDI-CAN-2197 Autodesk Design Review AdView.AdViewer.1 Remote Code Execution Vulnerability 2014-12-04 CVE-2014-9268 https://www.cve.org/CVERecord?id=CVE-2014-9268 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Autodesk'] ['Design Review'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Autodesk Design Review. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the AdView.AdViewer.1 ActiveX control. By providing a malformed DWF file to the control, an attacker can execute arbitrary code in the context of the browser. Autodesk has issued an update to correct this vulnerability. More details can be found at: http://knowledge.autodesk.com/support/design-review/downloads/caas/downloads/content/autodesk-design-review-2013-hotfix.html ['2014-05-12 - Vulnerability reported to vendor', '2014-12-04 - Coordinated public release of advisory'] Andrea Micalizzi (rgod) https://www.zerodayinitiative.com/advisories/ZDI-14-402/",
+  "search_text": "published ZDI-14-402 ZDI-CAN-2197 Autodesk Design Review AdView.AdViewer.1 Remote Code Execution Vulnerability 2014-12-04 CVE-2014-9268 https://www.cve.org/CVERecord?id=CVE-2014-9268 7.5 ['Autodesk'] ['Design Review'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Autodesk Design Review. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the AdView.AdViewer.1 ActiveX control. By providing a malformed DWF file to the control, an attacker can execute arbitrary code in the context of the browser. Autodesk has issued an update to correct this vulnerability. More details can be found at: http://knowledge.autodesk.com/support/design-review/downloads/caas/downloads/content/autodesk-design-review-2013-hotfix.html ['2014-05-12 - Vulnerability reported to vendor', '2014-12-04 - Coordinated public release of advisory'] Andrea Micalizzi (rgod) https://www.zerodayinitiative.com/advisories/ZDI-14-402/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-14-402/",
   "title": "Autodesk Design Review AdView.AdViewer.1 Remote Code Execution Vulnerability",
   "updated_date": null,

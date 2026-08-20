@@ -11,13 +11,13 @@
   "cve": "CVE-2013-6203",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2013-6203",
   "cvss": 7.5,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2013-10-14 - Vulnerability reported to vendor",
     "2014-04-03 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-14-042 ZDI-CAN-1656 Hewlett-Packard Application Information Optimizer Remote Code Execution Vulnerability 2014-04-03 CVE-2013-6203 https://www.cve.org/CVERecord?id=CVE-2013-6203 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Hewlett-Packard'] ['Application Information Optimizer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of HP Application Information Optimizer. Authentication is not required to exploit this vulnerability. The specific flaw exists within the ability to access configuration pages without authentication. The issue lies in a failure to remove files after the initial configuration has occurred. An attacker can leverage this vulnerability to execute code under the context of the user running the service. Hewlett-Packard has issued an update to correct this vulnerability. More details can be found at: https://h20566.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c04140965 ['2013-10-14 - Vulnerability reported to vendor', '2014-04-03 - Coordinated public release of advisory'] Andrea Micalizzi aka rgod https://www.zerodayinitiative.com/advisories/ZDI-14-042/",
+  "search_text": "published ZDI-14-042 ZDI-CAN-1656 Hewlett-Packard Application Information Optimizer Remote Code Execution Vulnerability 2014-04-03 CVE-2013-6203 https://www.cve.org/CVERecord?id=CVE-2013-6203 7.5 ['Hewlett-Packard'] ['Application Information Optimizer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of HP Application Information Optimizer. Authentication is not required to exploit this vulnerability. The specific flaw exists within the ability to access configuration pages without authentication. The issue lies in a failure to remove files after the initial configuration has occurred. An attacker can leverage this vulnerability to execute code under the context of the user running the service. Hewlett-Packard has issued an update to correct this vulnerability. More details can be found at: https://h20566.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c04140965 ['2013-10-14 - Vulnerability reported to vendor', '2014-04-03 - Coordinated public release of advisory'] Andrea Micalizzi aka rgod https://www.zerodayinitiative.com/advisories/ZDI-14-042/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-14-042/",
   "title": "Hewlett-Packard Application Information Optimizer Remote Code Execution Vulnerability",
   "updated_date": null,

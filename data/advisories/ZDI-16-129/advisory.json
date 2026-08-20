@@ -11,13 +11,13 @@
   "cve": "CVE-2016-0854",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-0854",
   "cvss": 10.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2015-09-15 - Vulnerability reported to vendor",
     "2016-02-05 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-16-129 ZDI-CAN-3128 Advantech WebAccess Dashboard Viewer saveGeneralFile Arbitrary File Creation Remote Code Execution Vulnerability 2016-02-05 CVE-2016-0854 https://www.cve.org/CVERecord?id=CVE-2016-0854 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Advantech'] ['WebAccess'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Advantech WebAccess. Authentication is not required to exploit this vulnerability. The specific flaw exists within the WebAccess Dashboard Viewer. Insufficient validation within the SaveGeneralFile functionality allows unauthenticated callers to upload arbitrary code to directories in the server where the code can be automatically executed under the high-privilege context of the IIS AppPool. An attacker can leverage this vulnerability to execute arbitrary code under the context of SYSTEM. Advantech has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-16-014-01 ['2015-09-15 - Vulnerability reported to vendor', '2016-02-05 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-16-129/",
+  "search_text": "published ZDI-16-129 ZDI-CAN-3128 Advantech WebAccess Dashboard Viewer saveGeneralFile Arbitrary File Creation Remote Code Execution Vulnerability 2016-02-05 CVE-2016-0854 https://www.cve.org/CVERecord?id=CVE-2016-0854 10.0 ['Advantech'] ['WebAccess'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Advantech WebAccess. Authentication is not required to exploit this vulnerability. The specific flaw exists within the WebAccess Dashboard Viewer. Insufficient validation within the SaveGeneralFile functionality allows unauthenticated callers to upload arbitrary code to directories in the server where the code can be automatically executed under the high-privilege context of the IIS AppPool. An attacker can leverage this vulnerability to execute arbitrary code under the context of SYSTEM. Advantech has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-16-014-01 ['2015-09-15 - Vulnerability reported to vendor', '2016-02-05 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-16-129/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-129/",
   "title": "Advantech WebAccess Dashboard Viewer saveGeneralFile Arbitrary File Creation Remote Code Execution Vulnerability",
   "updated_date": null,

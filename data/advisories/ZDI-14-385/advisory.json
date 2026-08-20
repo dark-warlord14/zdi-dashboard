@@ -11,13 +11,13 @@
   "cve": "CVE-2014-8420",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-8420",
   "cvss": 9.0,
-  "cvss_vector": "AV:N/AC:L/Au:S/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2014-07-21 - Vulnerability reported to vendor",
     "2014-11-21 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-14-385 ZDI-CAN-2286 Dell Sonicwall GMS Virtual Appliance Multiple Remote Code Execution Vulnerabilities 2014-11-21 CVE-2014-8420 https://www.cve.org/CVERecord?id=CVE-2014-8420 9.0 AV:N/AC:L/Au:S/C:C/I:C/A:C ['SonicWALL'] ['GMS Virtual Appliance'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of the Dell SonicWALL Global Management System (GMS) virtual appliance. Authentication is required to exploit this vulnerability. The specific flaw exists within the GMS ViewPoint (GMSVP) web application. The issue lies in the handling of configuration input due to a failure to safely sanitize user data before executing a command. An attacker could leverage this vulnerability to execute code with root privileges on the underlying operating system. SonicWALL has issued an update to correct this vulnerability. More details can be found at: https://support.software.dell.com/product-notification/136814 ['2014-07-21 - Vulnerability reported to vendor', '2014-11-21 - Coordinated public release of advisory'] Brandon Perry https://www.zerodayinitiative.com/advisories/ZDI-14-385/",
+  "search_text": "published ZDI-14-385 ZDI-CAN-2286 Dell Sonicwall GMS Virtual Appliance Multiple Remote Code Execution Vulnerabilities 2014-11-21 CVE-2014-8420 https://www.cve.org/CVERecord?id=CVE-2014-8420 9.0 ['SonicWALL'] ['GMS Virtual Appliance'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of the Dell SonicWALL Global Management System (GMS) virtual appliance. Authentication is required to exploit this vulnerability. The specific flaw exists within the GMS ViewPoint (GMSVP) web application. The issue lies in the handling of configuration input due to a failure to safely sanitize user data before executing a command. An attacker could leverage this vulnerability to execute code with root privileges on the underlying operating system. SonicWALL has issued an update to correct this vulnerability. More details can be found at: https://support.software.dell.com/product-notification/136814 ['2014-07-21 - Vulnerability reported to vendor', '2014-11-21 - Coordinated public release of advisory'] Brandon Perry https://www.zerodayinitiative.com/advisories/ZDI-14-385/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-14-385/",
   "title": "Dell Sonicwall GMS Virtual Appliance Multiple Remote Code Execution Vulnerabilities",
   "updated_date": null,

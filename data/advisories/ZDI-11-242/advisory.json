@@ -11,13 +11,13 @@
   "cve": "CVE-2011-0255",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-0255",
   "cvss": 7.5,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2011-07-12 - Vulnerability reported to vendor",
     "2011-07-27 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-11-242 ZDI-CAN-1317 Apple Safari Rendering Object Body Detachment Remote Code Execution Vulnerability 2011-07-27 CVE-2011-0255 https://www.cve.org/CVERecord?id=CVE-2011-0255 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Apple'] ['Safari'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple Safari's Webkit. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within how the application frees references from a particular element. When freeing these references, the application will fail to remove the reference from the rendering object. Later upon trying to free the element again, the application will access the freed reference which can lead to code execution under the context of the application. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT4808 ['2011-07-12 - Vulnerability reported to vendor', '2011-07-27 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-11-242/",
+  "search_text": "published ZDI-11-242 ZDI-CAN-1317 Apple Safari Rendering Object Body Detachment Remote Code Execution Vulnerability 2011-07-27 CVE-2011-0255 https://www.cve.org/CVERecord?id=CVE-2011-0255 7.5 ['Apple'] ['Safari'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple Safari's Webkit. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within how the application frees references from a particular element. When freeing these references, the application will fail to remove the reference from the rendering object. Later upon trying to free the element again, the application will access the freed reference which can lead to code execution under the context of the application. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT4808 ['2011-07-12 - Vulnerability reported to vendor', '2011-07-27 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-11-242/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-242/",
   "title": "Apple Safari Rendering Object Body Detachment Remote Code Execution Vulnerability",
   "updated_date": null,

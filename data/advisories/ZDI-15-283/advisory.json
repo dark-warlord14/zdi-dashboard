@@ -11,13 +11,13 @@
   "cve": "CVE-2015-3690",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-3690",
   "cvss": 4.9,
-  "cvss_vector": "AV:L/AC:L/Au:N/C:C/I:N/A:N",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2015-02-26 - Vulnerability reported to vendor",
     "2015-07-01 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-15-283 ZDI-CAN-2782 Apple OS X GZIP DMG Information Disclosure Vulnerability 2015-07-01 CVE-2015-3690 https://www.cve.org/CVERecord?id=CVE-2015-3690 4.9 AV:L/AC:L/Au:N/C:C/I:N/A:N ['Apple'] ['OS X'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple OS X. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of DMG files. The issue lies in the handling of GZIP compressed streams. An attacker can leverage this vulnerability to leak the sensitive contents of physical memory. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT201222 ['2015-02-26 - Vulnerability reported to vendor', '2015-07-01 - Coordinated public release of advisory'] Peter Rutenbar https://www.zerodayinitiative.com/advisories/ZDI-15-283/",
+  "search_text": "published ZDI-15-283 ZDI-CAN-2782 Apple OS X GZIP DMG Information Disclosure Vulnerability 2015-07-01 CVE-2015-3690 https://www.cve.org/CVERecord?id=CVE-2015-3690 4.9 ['Apple'] ['OS X'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple OS X. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of DMG files. The issue lies in the handling of GZIP compressed streams. An attacker can leverage this vulnerability to leak the sensitive contents of physical memory. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT201222 ['2015-02-26 - Vulnerability reported to vendor', '2015-07-01 - Coordinated public release of advisory'] Peter Rutenbar https://www.zerodayinitiative.com/advisories/ZDI-15-283/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-283/",
   "title": "Apple OS X GZIP DMG Information Disclosure Vulnerability",
   "updated_date": null,

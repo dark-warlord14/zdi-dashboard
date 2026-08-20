@@ -2,25 +2,22 @@
   "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT4723",
   "advisory_date": "2011-06-29",
   "affected_products": [
-    "OS X",
-    "Safari"
+    "Mail"
   ],
   "affected_vendors": [
-    "Apple",
-    "Apple",
     "Apple"
   ],
   "credit": "binaryproof",
   "cve": "CVE-2011-0200",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-0200",
   "cvss": 7.5,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2011-04-04 - Vulnerability reported to vendor",
     "2011-06-29 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-11-228 ZDI-CAN-1147 Apple ColorSync ICC Profile ncl2 Parsing Remote Code Execution Vulnerability 2011-06-29 CVE-2011-0200 https://www.cve.org/CVERecord?id=CVE-2011-0200 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Apple', 'Apple', 'Apple'] ['OS X', 'Safari'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple Safari on Windows and multiple applications on OSX. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The flaw exists within the ColorSync component which is used when handling image files containing embedded ICC data. When handling the ncl2 tag the process miscalculates an integer value used in a memory allocation. This buffer is later used as a destination when copying user controlled data. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the user running the application. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT4723 ['2011-04-04 - Vulnerability reported to vendor', '2011-06-29 - Coordinated public release of advisory'] binaryproof https://www.zerodayinitiative.com/advisories/ZDI-11-228/",
+  "search_text": "published ZDI-11-228 ZDI-CAN-1147 Apple ColorSync ICC Profile ncl2 Parsing Remote Code Execution Vulnerability 2011-06-29 CVE-2011-0200 https://www.cve.org/CVERecord?id=CVE-2011-0200 7.5 ['Apple'] ['Mail'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple Safari on Windows and multiple applications on OSX. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The flaw exists within the ColorSync component which is used when handling image files containing embedded ICC data. When handling the ncl2 tag the process miscalculates an integer value used in a memory allocation. This buffer is later used as a destination when copying user controlled data. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the user running the application. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT4723 ['2011-04-04 - Vulnerability reported to vendor', '2011-06-29 - Coordinated public release of advisory'] binaryproof https://www.zerodayinitiative.com/advisories/ZDI-11-228/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-228/",
   "title": "Apple ColorSync ICC Profile ncl2 Parsing Remote Code Execution Vulnerability",
   "updated_date": null,

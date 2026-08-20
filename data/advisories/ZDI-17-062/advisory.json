@@ -11,13 +11,13 @@
   "cve": null,
   "cve_url": null,
   "cvss": 4.3,
-  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2016-09-07 - Vulnerability reported to vendor",
     "2017-02-07 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-17-062 ZDI-CAN-4006 Trend Micro Control Manager download Directory Traversal Information Disclosure Vulnerability 2017-02-07 4.3 AV:N/AC:M/Au:N/C:P/I:N/A:N ['Trend Micro'] ['Control Manager'] This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Trend Micro Control Manager. Authentication is not required to exploit this vulnerability. The specific flaw exists within widgets_new's download.php script. The issue lies in the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code under the context of the iusr account. Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/solution/1116624 ['2016-09-07 - Vulnerability reported to vendor', '2017-02-07 - Coordinated public release of advisory'] Steven Seeley of Source Incite https://www.zerodayinitiative.com/advisories/ZDI-17-062/",
+  "search_text": "published ZDI-17-062 ZDI-CAN-4006 Trend Micro Control Manager download Directory Traversal Information Disclosure Vulnerability 2017-02-07 4.3 ['Trend Micro'] ['Control Manager'] This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Trend Micro Control Manager. Authentication is not required to exploit this vulnerability. The specific flaw exists within widgets_new's download.php script. The issue lies in the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code under the context of the iusr account. Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/solution/1116624 ['2016-09-07 - Vulnerability reported to vendor', '2017-02-07 - Coordinated public release of advisory'] Steven Seeley of Source Incite https://www.zerodayinitiative.com/advisories/ZDI-17-062/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-062/",
   "title": "Trend Micro Control Manager download Directory Traversal Information Disclosure Vulnerability",
   "updated_date": null,

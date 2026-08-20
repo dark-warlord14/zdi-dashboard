@@ -1,0 +1,28 @@
+{
+  "additional_details": "Kenwood has issued an update to correct this vulnerability. More details can be found at: https://www.kenwood.com/cs/ce/mm/firmware/2020/2020f/eng.html",
+  "advisory_date": "2026-07-29",
+  "affected_products": [
+    "DNR1007XR"
+  ],
+  "affected_vendors": [
+    "Kenwood"
+  ],
+  "credit": "TienPP from FPT NightWolf Team",
+  "cve": "CVE-2026-18273",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-18273",
+  "cvss": 6.6,
+  "cvss_vector": "AV:P/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2026-02-03 - Vulnerability reported to vendor",
+    "2026-07-29 - Coordinated public release of advisory",
+    "2026-07-29 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-26-490 ZDI-CAN-29070 (Pwn2Own) Kenwood DNR1007XR USB Incorrect Default Permissions Local Privilege Escalation Vulnerability 2026-07-29 CVE-2026-18273 https://www.cve.org/CVERecord?id=CVE-2026-18273 6.6 AV:P/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Kenwood'] ['DNR1007XR'] This vulnerability allows physically present attackers to escalate privileges on affected installations of Kenwood DNR1007XR devices. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the configuration of the mount point for the USB filesystem. The issue results from incorrect permissions on a directory used by the product. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root. Kenwood has issued an update to correct this vulnerability. More details can be found at: https://www.kenwood.com/cs/ce/mm/firmware/2020/2020f/eng.html ['2026-02-03 - Vulnerability reported to vendor', '2026-07-29 - Coordinated public release of advisory', '2026-07-29 - Advisory Updated'] TienPP from FPT NightWolf Team https://www.zerodayinitiative.com/advisories/ZDI-26-490/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-490/",
+  "title": "(Pwn2Own) Kenwood DNR1007XR USB Incorrect Default Permissions Local Privilege Escalation Vulnerability",
+  "updated_date": "2026-07-29",
+  "vulnerability_details": "This vulnerability allows physically present attackers to escalate privileges on affected installations of Kenwood DNR1007XR devices. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the configuration of the mount point for the USB filesystem. The issue results from incorrect permissions on a directory used by the product. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root.",
+  "zdi_can": "ZDI-CAN-29070",
+  "zdi_id": "ZDI-26-490"
+}

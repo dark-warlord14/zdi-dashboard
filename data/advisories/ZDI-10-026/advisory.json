@@ -11,13 +11,13 @@
   "cve": "CVE-2010-0447",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2010-0447",
   "cvss": 10.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2009-04-15 - Vulnerability reported to vendor",
     "2010-03-09 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-10-026 ZDI-CAN-474 Hewlett-Packard OVPI helpmanager Servlet Remote Code Execution Vulnerability 2010-03-09 CVE-2010-0447 https://www.cve.org/CVERecord?id=CVE-2010-0447 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Hewlett-Packard'] ['OpenView Performance Insight'] This vulnerability allows remote attackers to execute arbitrary commands on vulnerable installations of Hewlett-Packard Performance Insight. Authentication is not required to exploit this vulnerability. The specific flaw exists in the handling of requests to the helpmanager servlet running on the Performance Insight web server. Insufficient input validation and authentication allows for arbitrary JSP pages to be uploaded which can be leveraged to execute arbitrary OS commands. Exploitation of this vulnerability allows an attacker to gain control of the affected system under SYSTEM credentials. Hewlett-Packard has issued an update to correct this vulnerability. More details can be found at: http://h20000.www2.hp.com/bizsupport/TechSupport/Document.jsp?objectID=c02033170 ['2009-04-15 - Vulnerability reported to vendor', '2010-03-09 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-10-026/",
+  "search_text": "published ZDI-10-026 ZDI-CAN-474 Hewlett-Packard OVPI helpmanager Servlet Remote Code Execution Vulnerability 2010-03-09 CVE-2010-0447 https://www.cve.org/CVERecord?id=CVE-2010-0447 10.0 ['Hewlett-Packard'] ['OpenView Performance Insight'] This vulnerability allows remote attackers to execute arbitrary commands on vulnerable installations of Hewlett-Packard Performance Insight. Authentication is not required to exploit this vulnerability. The specific flaw exists in the handling of requests to the helpmanager servlet running on the Performance Insight web server. Insufficient input validation and authentication allows for arbitrary JSP pages to be uploaded which can be leveraged to execute arbitrary OS commands. Exploitation of this vulnerability allows an attacker to gain control of the affected system under SYSTEM credentials. Hewlett-Packard has issued an update to correct this vulnerability. More details can be found at: http://h20000.www2.hp.com/bizsupport/TechSupport/Document.jsp?objectID=c02033170 ['2009-04-15 - Vulnerability reported to vendor', '2010-03-09 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-10-026/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-026/",
   "title": "Hewlett-Packard OVPI helpmanager Servlet Remote Code Execution Vulnerability",
   "updated_date": null,

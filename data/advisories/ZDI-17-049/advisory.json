@@ -11,13 +11,13 @@
   "cve": "CVE-2016-8204",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-8204",
   "cvss": 10.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2016-10-17 - Vulnerability reported to vendor",
     "2017-01-20 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-17-049 ZDI-CAN-4023 Brocade Network Advisor FileReceiveServlet Directory Traversal Remote Code Execution Vulnerability 2017-01-20 CVE-2016-8204 https://www.cve.org/CVERecord?id=CVE-2016-8204 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Brocade'] ['Network Advisor'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Brocade Network Advisor. Authentication is not required to exploit this vulnerability. The specific flaw exists within the FileReceiveServlet servlet. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute arbitrary code under the context of SYSTEM. Brocade has issued an update to correct this vulnerability. More details can be found at: https://www.brocade.com/content/dam/common/documents/content-types/security-bulletin/brocade-security-advisory-2016-012.pdf ['2016-10-17 - Vulnerability reported to vendor', '2017-01-20 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-17-049/",
+  "search_text": "published ZDI-17-049 ZDI-CAN-4023 Brocade Network Advisor FileReceiveServlet Directory Traversal Remote Code Execution Vulnerability 2017-01-20 CVE-2016-8204 https://www.cve.org/CVERecord?id=CVE-2016-8204 10.0 ['Brocade'] ['Network Advisor'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Brocade Network Advisor. Authentication is not required to exploit this vulnerability. The specific flaw exists within the FileReceiveServlet servlet. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute arbitrary code under the context of SYSTEM. Brocade has issued an update to correct this vulnerability. More details can be found at: https://www.brocade.com/content/dam/common/documents/content-types/security-bulletin/brocade-security-advisory-2016-012.pdf ['2016-10-17 - Vulnerability reported to vendor', '2017-01-20 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-17-049/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-049/",
   "title": "Brocade Network Advisor FileReceiveServlet Directory Traversal Remote Code Execution Vulnerability",
   "updated_date": null,

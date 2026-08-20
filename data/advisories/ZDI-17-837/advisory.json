@@ -11,13 +11,13 @@
   "cve": "CVE-2017-12263",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-12263",
   "cvss": 7.8,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:N/A:N",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2017-03-30 - Vulnerability reported to vendor",
     "2017-10-04 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-17-837 ZDI-CAN-4635 Cisco License Manager Server ReportCSV Directory Traversal Information Disclosure Vulnerability 2017-10-04 CVE-2017-12263 https://www.cve.org/CVERecord?id=CVE-2017-12263 7.8 AV:N/AC:L/Au:N/C:C/I:N/A:N ['Cisco'] ['License Manager Server'] This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Cisco License Manager Server. Authentication is not required to exploit this vulnerability. The specific flaw exists within the ReportCSV servlet, which listens on TCP port 8080 by default. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to read any files accessible to the SYSTEM user. Cisco has issued an update to correct this vulnerability. More details can be found at: https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20171004-clm ['2017-03-30 - Vulnerability reported to vendor', '2017-10-04 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-17-837/",
+  "search_text": "published ZDI-17-837 ZDI-CAN-4635 Cisco License Manager Server ReportCSV Directory Traversal Information Disclosure Vulnerability 2017-10-04 CVE-2017-12263 https://www.cve.org/CVERecord?id=CVE-2017-12263 7.8 ['Cisco'] ['License Manager Server'] This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Cisco License Manager Server. Authentication is not required to exploit this vulnerability. The specific flaw exists within the ReportCSV servlet, which listens on TCP port 8080 by default. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to read any files accessible to the SYSTEM user. Cisco has issued an update to correct this vulnerability. More details can be found at: https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20171004-clm ['2017-03-30 - Vulnerability reported to vendor', '2017-10-04 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-17-837/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-837/",
   "title": "Cisco License Manager Server ReportCSV Directory Traversal Information Disclosure Vulnerability",
   "updated_date": null,

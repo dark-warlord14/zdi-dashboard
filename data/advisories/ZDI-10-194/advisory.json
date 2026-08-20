@@ -11,13 +11,13 @@
   "cve": null,
   "cve_url": null,
   "cvss": 10.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2010-07-06 - Vulnerability reported to vendor",
     "2010-10-08 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-10-194 ZDI-CAN-781 IBM Tivoli Provisioning Manager for OS Deployment TCP to ODBC Remote Code Execution Vulnerability 2010-10-08 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['IBM'] ['Tivoli Provisioning Manager'] This vulnerability allows remote attackers to execute arbitrary SQL queries on vulnerable installations of Tivoli Provisioning Manager. Authentication is not required to exploit this vulnerability. The specific flaw exists within the TCP to ODBC gateway component which listens by default on TCP port 2020. Authentication is not required to issue SQL queries to the service. A remote attacker can abuse this to read, modify, or create records within the database. IBM has issued an update to correct this vulnerability. More details can be found at: http://publib.boulder.ibm.com/infocenter/tivihelp/v3r1/index.jsp?topic=%2Fcom.ibm.tivoli.tpm.osd.doc%2Finstall%2Ftosd_setmsacessdbpwd.html ['2010-07-06 - Vulnerability reported to vendor', '2010-10-08 - Coordinated public release of advisory'] AbdulAziz Hariri https://www.zerodayinitiative.com/advisories/ZDI-10-194/",
+  "search_text": "published ZDI-10-194 ZDI-CAN-781 IBM Tivoli Provisioning Manager for OS Deployment TCP to ODBC Remote Code Execution Vulnerability 2010-10-08 10.0 ['IBM'] ['Tivoli Provisioning Manager'] This vulnerability allows remote attackers to execute arbitrary SQL queries on vulnerable installations of Tivoli Provisioning Manager. Authentication is not required to exploit this vulnerability. The specific flaw exists within the TCP to ODBC gateway component which listens by default on TCP port 2020. Authentication is not required to issue SQL queries to the service. A remote attacker can abuse this to read, modify, or create records within the database. IBM has issued an update to correct this vulnerability. More details can be found at: http://publib.boulder.ibm.com/infocenter/tivihelp/v3r1/index.jsp?topic=%2Fcom.ibm.tivoli.tpm.osd.doc%2Finstall%2Ftosd_setmsacessdbpwd.html ['2010-07-06 - Vulnerability reported to vendor', '2010-10-08 - Coordinated public release of advisory'] AbdulAziz Hariri https://www.zerodayinitiative.com/advisories/ZDI-10-194/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-194/",
   "title": "IBM Tivoli Provisioning Manager for OS Deployment TCP to ODBC Remote Code Execution Vulnerability",
   "updated_date": null,

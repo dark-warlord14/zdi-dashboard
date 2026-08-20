@@ -11,13 +11,13 @@
   "cve": "CVE-2012-0665",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2012-0665",
   "cvss": 7.5,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2011-11-29 - Vulnerability reported to vendor",
     "2012-06-06 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-12-079 ZDI-CAN-1460 Apple QuickTime H264 Picture Width Parsing Remote Code Execution Vulnerability 2012-06-06 CVE-2012-0665 https://www.cve.org/CVERecord?id=CVE-2012-0665 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Apple'] ['QuickTime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple QuickTime. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the QuicktimeH264 modules in the QuickTime player that handles H264 encoded movies. When the value for 'pic_width_in_mbs_minus_1' and 'pic_height_in_map_units_minus_1' in the AVCC header data differs from the actual picture width and height a heap buffer overflow occurs. This can result in remote code execution under the context of the current process. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT5261 ['2011-11-29 - Vulnerability reported to vendor', '2012-06-06 - Coordinated public release of advisory'] Luigi Auriemma https://www.zerodayinitiative.com/advisories/ZDI-12-079/",
+  "search_text": "published ZDI-12-079 ZDI-CAN-1460 Apple QuickTime H264 Picture Width Parsing Remote Code Execution Vulnerability 2012-06-06 CVE-2012-0665 https://www.cve.org/CVERecord?id=CVE-2012-0665 7.5 ['Apple'] ['QuickTime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple QuickTime. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the QuicktimeH264 modules in the QuickTime player that handles H264 encoded movies. When the value for 'pic_width_in_mbs_minus_1' and 'pic_height_in_map_units_minus_1' in the AVCC header data differs from the actual picture width and height a heap buffer overflow occurs. This can result in remote code execution under the context of the current process. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT5261 ['2011-11-29 - Vulnerability reported to vendor', '2012-06-06 - Coordinated public release of advisory'] Luigi Auriemma https://www.zerodayinitiative.com/advisories/ZDI-12-079/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-12-079/",
   "title": "Apple QuickTime H264 Picture Width Parsing Remote Code Execution Vulnerability",
   "updated_date": null,

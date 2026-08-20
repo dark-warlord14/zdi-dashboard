@@ -11,13 +11,13 @@
   "cve": null,
   "cve_url": null,
   "cvss": 10.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2011-02-17 - Vulnerability reported to vendor",
     "2011-08-16 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-11-260 ZDI-CAN-1096 Nortel Media Application Server cstore.exe cs_anams Remote Code Execution Vulnerability 2011-08-16 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Nortel'] ['Media Application Server'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Nortel Media Application Server. Authentication is not required to exploit this vulnerability. The flaw exists within the cstore.exe component which listens by default on TCP port 52005. When handling a CONTENT_STORE_ADMIN_REQ packet type the process trusts length value provided by the 'cs_anams' parameter and blindly copies user supplied data into a fixed-length buffer on the stack. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the SYSTEM user. Nortel has issued an update to correct this vulnerability. More details can be found at: https://support.avaya.com/css/P8/documents/100146108 ['2011-02-17 - Vulnerability reported to vendor', '2011-08-16 - Coordinated public release of advisory'] AbdulAziz Hariri of ThirdEyeTesters https://www.zerodayinitiative.com/advisories/ZDI-11-260/",
+  "search_text": "published ZDI-11-260 ZDI-CAN-1096 Nortel Media Application Server cstore.exe cs_anams Remote Code Execution Vulnerability 2011-08-16 10.0 ['Nortel'] ['Media Application Server'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Nortel Media Application Server. Authentication is not required to exploit this vulnerability. The flaw exists within the cstore.exe component which listens by default on TCP port 52005. When handling a CONTENT_STORE_ADMIN_REQ packet type the process trusts length value provided by the 'cs_anams' parameter and blindly copies user supplied data into a fixed-length buffer on the stack. A remote attacker can exploit this vulnerability to execute arbitrary code under the context of the SYSTEM user. Nortel has issued an update to correct this vulnerability. More details can be found at: https://support.avaya.com/css/P8/documents/100146108 ['2011-02-17 - Vulnerability reported to vendor', '2011-08-16 - Coordinated public release of advisory'] AbdulAziz Hariri of ThirdEyeTesters https://www.zerodayinitiative.com/advisories/ZDI-11-260/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-260/",
   "title": "Nortel Media Application Server cstore.exe cs_anams Remote Code Execution Vulnerability",
   "updated_date": null,

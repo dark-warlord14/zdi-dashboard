@@ -1,0 +1,28 @@
+{
+  "additional_details": "04/22/26 - ZDI reported the vulnerability to the vendor 04/23/26 - the vendor confirmed that the reported firmware was end-of-life and no longer supported 04/28/26 - ZDI communicated that the users can\u2019t update to a newer firmware 07/11/26 - ZDI disagreed with the vendor\u2019s assessment and provided more evidence 07/13/26 - the vendor disputed the impact on supported releases 07/21/26 - the vendor confirmed the issue on the reported firmware 07/27/26 - the vendor requested an extension until April 2027 07/27/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+  "advisory_date": "2026-08-05",
+  "affected_products": [
+    "Q80"
+  ],
+  "affected_vendors": [
+    "PAX Technology"
+  ],
+  "credit": "Steven Yu of TrendAI Research",
+  "cve": "CVE-2026-19909",
+  "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-19909",
+  "cvss": 7.5,
+  "cvss_vector": "AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "disclosure_timeline": [
+    "2026-04-22 - Vulnerability reported to vendor",
+    "2026-08-05 - Coordinated public release of advisory",
+    "2026-08-14 - Advisory Updated"
+  ],
+  "kind": "published",
+  "search_text": "published ZDI-26-525 ZDI-CAN-30583 (0Day) PAX Technology Q80 AIP File Parsing Link Following Remote Code Execution Vulnerability 2026-08-05 CVE-2026-19909 https://www.cve.org/CVERecord?id=CVE-2026-19909 7.5 AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H ['PAX Technology'] ['Q80'] This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of PAX Technology Q80. Authentication is not required to exploit this vulnerability. The specific flaw exists within the parsing of AIP files. By creating a symbolic link, an attacker can abuse the installer process to write arbitrary files. An attacker can leverage this in conjunction with other vulnerabilities to execute code in the context of root. 04/22/26 - ZDI reported the vulnerability to the vendor 04/23/26 - the vendor confirmed that the reported firmware was end-of-life and no longer supported 04/28/26 - ZDI communicated that the users can\u2019t update to a newer firmware 07/11/26 - ZDI disagreed with the vendor\u2019s assessment and provided more evidence 07/13/26 - the vendor disputed the impact on supported releases 07/21/26 - the vendor confirmed the issue on the reported firmware 07/27/26 - the vendor requested an extension until April 2027 07/27/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-04-22 - Vulnerability reported to vendor', '2026-08-05 - Coordinated public release of advisory', '2026-08-14 - Advisory Updated'] Steven Yu of TrendAI Research https://www.zerodayinitiative.com/advisories/ZDI-26-525/",
+  "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-525/",
+  "title": "(0Day) PAX Technology Q80 AIP File Parsing Link Following Remote Code Execution Vulnerability",
+  "updated_date": "2026-08-14",
+  "vulnerability_details": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of PAX Technology Q80. Authentication is not required to exploit this vulnerability. The specific flaw exists within the parsing of AIP files. By creating a symbolic link, an attacker can abuse the installer process to write arbitrary files. An attacker can leverage this in conjunction with other vulnerabilities to execute code in the context of root.",
+  "zdi_can": "ZDI-CAN-30583",
+  "zdi_id": "ZDI-26-525"
+}

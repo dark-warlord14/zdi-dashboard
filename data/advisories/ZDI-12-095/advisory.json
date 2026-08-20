@@ -11,13 +11,13 @@
   "cve": "CVE-2012-0663",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2012-0663",
   "cvss": 7.5,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2011-10-21 - Vulnerability reported to vendor",
     "2012-06-21 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-12-095 ZDI-CAN-1363 Apple Quicktime TeXML transform Attribute Remote Code Execution Vulnerability 2012-06-21 CVE-2012-0663 https://www.cve.org/CVERecord?id=CVE-2012-0663 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Apple'] ['QuickTime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple Quicktime. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of XML elements within a TeXML file. Specifically, when handling the transform attribute the code within QuickTime3GPP.qtx does not properly validate the length of the data within a translate or matrix object before copying it into a fixed-length buffer on the stack. Exploitation of this vulnerability could allow a remote attacker to execute arbitrary code under the context of the user running Quicktime. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT1222 ['2011-10-21 - Vulnerability reported to vendor', '2012-06-21 - Coordinated public release of advisory'] Alexander Gavrun https://www.zerodayinitiative.com/advisories/ZDI-12-095/",
+  "search_text": "published ZDI-12-095 ZDI-CAN-1363 Apple Quicktime TeXML transform Attribute Remote Code Execution Vulnerability 2012-06-21 CVE-2012-0663 https://www.cve.org/CVERecord?id=CVE-2012-0663 7.5 ['Apple'] ['QuickTime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple Quicktime. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of XML elements within a TeXML file. Specifically, when handling the transform attribute the code within QuickTime3GPP.qtx does not properly validate the length of the data within a translate or matrix object before copying it into a fixed-length buffer on the stack. Exploitation of this vulnerability could allow a remote attacker to execute arbitrary code under the context of the user running Quicktime. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT1222 ['2011-10-21 - Vulnerability reported to vendor', '2012-06-21 - Coordinated public release of advisory'] Alexander Gavrun https://www.zerodayinitiative.com/advisories/ZDI-12-095/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-12-095/",
   "title": "Apple Quicktime TeXML transform Attribute Remote Code Execution Vulnerability",
   "updated_date": null,

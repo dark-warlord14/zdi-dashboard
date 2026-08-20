@@ -11,13 +11,13 @@
   "cve": "CVE-2015-1743",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-1743",
   "cvss": 6.9,
-  "cvss_vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2015-04-23 - Vulnerability reported to vendor",
     "2015-08-10 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-15-377 ZDI-CAN-2874 Microsoft Internet Explorer add-on Installer Sandbox Escape Vulnerability 2015-08-10 CVE-2015-1743 https://www.cve.org/CVERecord?id=CVE-2015-1743 6.9 AV:L/AC:M/Au:N/C:C/I:C/A:C ['Microsoft'] ['Internet Explorer'] This vulnerability allows remote attackers to escape Enhanced Protected Mode on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the usage of the add-on installer. An attacker can bypass checks within the add-on installer with special paths and junction points to achieve medium-integrity code execution under the context of the user. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/library/security/MS15-056 ['2015-04-23 - Vulnerability reported to vendor', '2015-08-10 - Coordinated public release of advisory'] Thomas Vanhoutte https://www.zerodayinitiative.com/advisories/ZDI-15-377/",
+  "search_text": "published ZDI-15-377 ZDI-CAN-2874 Microsoft Internet Explorer add-on Installer Sandbox Escape Vulnerability 2015-08-10 CVE-2015-1743 https://www.cve.org/CVERecord?id=CVE-2015-1743 6.9 ['Microsoft'] ['Internet Explorer'] This vulnerability allows remote attackers to escape Enhanced Protected Mode on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the usage of the add-on installer. An attacker can bypass checks within the add-on installer with special paths and junction points to achieve medium-integrity code execution under the context of the user. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/library/security/MS15-056 ['2015-04-23 - Vulnerability reported to vendor', '2015-08-10 - Coordinated public release of advisory'] Thomas Vanhoutte https://www.zerodayinitiative.com/advisories/ZDI-15-377/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-377/",
   "title": "Microsoft Internet Explorer add-on Installer Sandbox Escape Vulnerability",
   "updated_date": null,

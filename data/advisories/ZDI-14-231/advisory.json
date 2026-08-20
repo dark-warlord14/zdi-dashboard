@@ -11,13 +11,13 @@
   "cve": "CVE-2014-2618",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-2618",
   "cvss": 7.8,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:N/A:N",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2013-12-18 - Vulnerability reported to vendor",
     "2014-07-16 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-14-231 ZDI-CAN-2080 Hewlett-Packard Intelligent Management Center BIMS UploadServlet Information Disclosure Vulnerability 2014-07-16 CVE-2014-2618 https://www.cve.org/CVERecord?id=CVE-2014-2618 7.8 AV:N/AC:L/Au:N/C:C/I:N/A:N ['Hewlett-Packard'] ['Intelligent Management Center'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Hewlett-Packard Intelligent Management Center. Authentication is not required to exploit this vulnerability. The specific flaw exists within the UploadServlet servlet. This servlet contains a directory traversal issue which allows any file readable by SYSTEM to be disclosed. By abusing this behavior, an attacker can disclose administrative credentials and possibly leverage this situation to achieve remote code execution. Hewlett-Packard has issued an update to correct this vulnerability. More details can be found at: https://h20566.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c04369484 ['2013-12-18 - Vulnerability reported to vendor', '2014-07-16 - Coordinated public release of advisory'] Bluesea https://www.zerodayinitiative.com/advisories/ZDI-14-231/",
+  "search_text": "published ZDI-14-231 ZDI-CAN-2080 Hewlett-Packard Intelligent Management Center BIMS UploadServlet Information Disclosure Vulnerability 2014-07-16 CVE-2014-2618 https://www.cve.org/CVERecord?id=CVE-2014-2618 7.8 ['Hewlett-Packard'] ['Intelligent Management Center'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Hewlett-Packard Intelligent Management Center. Authentication is not required to exploit this vulnerability. The specific flaw exists within the UploadServlet servlet. This servlet contains a directory traversal issue which allows any file readable by SYSTEM to be disclosed. By abusing this behavior, an attacker can disclose administrative credentials and possibly leverage this situation to achieve remote code execution. Hewlett-Packard has issued an update to correct this vulnerability. More details can be found at: https://h20566.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c04369484 ['2013-12-18 - Vulnerability reported to vendor', '2014-07-16 - Coordinated public release of advisory'] Bluesea https://www.zerodayinitiative.com/advisories/ZDI-14-231/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-14-231/",
   "title": "Hewlett-Packard Intelligent Management Center BIMS UploadServlet Information Disclosure Vulnerability",
   "updated_date": null,

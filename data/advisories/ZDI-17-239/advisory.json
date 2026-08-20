@@ -11,13 +11,13 @@
   "cve": "CVE-2017-4904",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-4904",
   "cvss": 6.9,
-  "cvss_vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2017-03-18 - Vulnerability reported to vendor",
     "2017-03-30 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-17-239 ZDI-CAN-4632 (Pwn2Own) VMware Workstation Uninitialized Memory Privilege Escalation Vulnerability 2017-03-30 CVE-2017-4904 https://www.cve.org/CVERecord?id=CVE-2017-4904 6.9 AV:L/AC:M/Au:N/C:C/I:C/A:C ['VMware'] ['VMware Workstation'] This vulnerability allows local attackers to execute arbitrary code on vulnerable installations of VMware Workstation. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of XHCI communication. The issue results from the lack of proper initialization of memory prior to accessing it. An attacker can leverage this vulnerability to elevate privileges and execute arbitrary code under the context of the hypervisor. VMware has issued an update to correct this vulnerability. More details can be found at: http://www.vmware.com/security/advisories/VMSA-2017-0006.html ['2017-03-18 - Vulnerability reported to vendor', '2017-03-30 - Coordinated public release of advisory'] Tencent Security - Team Sniper (Keen Lab and PC Mgr) https://www.zerodayinitiative.com/advisories/ZDI-17-239/",
+  "search_text": "published ZDI-17-239 ZDI-CAN-4632 (Pwn2Own) VMware Workstation Uninitialized Memory Privilege Escalation Vulnerability 2017-03-30 CVE-2017-4904 https://www.cve.org/CVERecord?id=CVE-2017-4904 6.9 ['VMware'] ['VMware Workstation'] This vulnerability allows local attackers to execute arbitrary code on vulnerable installations of VMware Workstation. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of XHCI communication. The issue results from the lack of proper initialization of memory prior to accessing it. An attacker can leverage this vulnerability to elevate privileges and execute arbitrary code under the context of the hypervisor. VMware has issued an update to correct this vulnerability. More details can be found at: http://www.vmware.com/security/advisories/VMSA-2017-0006.html ['2017-03-18 - Vulnerability reported to vendor', '2017-03-30 - Coordinated public release of advisory'] Tencent Security - Team Sniper (Keen Lab and PC Mgr) https://www.zerodayinitiative.com/advisories/ZDI-17-239/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-239/",
   "title": "(Pwn2Own) VMware Workstation Uninitialized Memory Privilege Escalation Vulnerability",
   "updated_date": null,

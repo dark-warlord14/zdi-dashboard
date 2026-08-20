@@ -11,13 +11,13 @@
   "cve": "CVE-2014-0506",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-0506",
   "cvss": 6.8,
-  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2014-03-13 - Vulnerability reported to vendor",
     "2014-04-11 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-14-092 ZDI-CAN-2216 (Pwn2Own) Adobe Flash ExternalInterface Use-After-Free Remote Code Execution Vulnerability 2014-04-11 CVE-2014-0506 https://www.cve.org/CVERecord?id=CVE-2014-0506 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Adobe'] ['Flash Player'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Adobe Flash. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of ExternalInterface. By manipulating a SWF's objects an attacker can force a dangling pointer to be reused after it has been freed. An attacker can leverage this vulnerability to execute code under the context of the current process. Adobe has issued an update to correct this vulnerability. More details can be found at: http://helpx.adobe.com/security/products/flash-player/apsb14-09.html ['2014-03-13 - Vulnerability reported to vendor', '2014-04-11 - Coordinated public release of advisory'] VUPEN https://www.zerodayinitiative.com/advisories/ZDI-14-092/",
+  "search_text": "published ZDI-14-092 ZDI-CAN-2216 (Pwn2Own) Adobe Flash ExternalInterface Use-After-Free Remote Code Execution Vulnerability 2014-04-11 CVE-2014-0506 https://www.cve.org/CVERecord?id=CVE-2014-0506 6.8 ['Adobe'] ['Flash Player'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Adobe Flash. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of ExternalInterface. By manipulating a SWF's objects an attacker can force a dangling pointer to be reused after it has been freed. An attacker can leverage this vulnerability to execute code under the context of the current process. Adobe has issued an update to correct this vulnerability. More details can be found at: http://helpx.adobe.com/security/products/flash-player/apsb14-09.html ['2014-03-13 - Vulnerability reported to vendor', '2014-04-11 - Coordinated public release of advisory'] VUPEN https://www.zerodayinitiative.com/advisories/ZDI-14-092/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-14-092/",
   "title": "(Pwn2Own) Adobe Flash ExternalInterface Use-After-Free Remote Code Execution Vulnerability",
   "updated_date": null,

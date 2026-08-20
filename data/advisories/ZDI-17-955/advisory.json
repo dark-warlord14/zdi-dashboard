@@ -11,13 +11,13 @@
   "cve": "CVE-2017-16590",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-16590",
   "cvss": 7.8,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:N/A:N",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2017-09-06 - Vulnerability reported to vendor",
     "2017-12-13 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-17-955 ZDI-CAN-5099 NetGain Systems Enterprise Manager MainFilter doFilter Authentication Bypass Vulnerability 2017-12-13 CVE-2017-16590 https://www.cve.org/CVERecord?id=CVE-2017-16590 7.8 AV:N/AC:L/Au:N/C:C/I:N/A:N ['NetGain Systems'] ['Enterprise Manager'] This vulnerability allows remote attackers to bypass authentication on vulnerable installations of NetGain Systems Enterprise MainFilter. User interaction is required to exploit this vulnerability. The specific flaw exists within the MainFilter servlet. The issue results from the lack of proper string matching inside the doFilter method. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of Administrator. Fixed for NetGain Enterprise Manager - fixed version: v7.2.766 and above ['2017-09-06 - Vulnerability reported to vendor', '2017-12-13 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-17-955/",
+  "search_text": "published ZDI-17-955 ZDI-CAN-5099 NetGain Systems Enterprise Manager MainFilter doFilter Authentication Bypass Vulnerability 2017-12-13 CVE-2017-16590 https://www.cve.org/CVERecord?id=CVE-2017-16590 7.8 ['NetGain Systems'] ['Enterprise Manager'] This vulnerability allows remote attackers to bypass authentication on vulnerable installations of NetGain Systems Enterprise MainFilter. User interaction is required to exploit this vulnerability. The specific flaw exists within the MainFilter servlet. The issue results from the lack of proper string matching inside the doFilter method. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of Administrator. Fixed for NetGain Enterprise Manager - fixed version: v7.2.766 and above ['2017-09-06 - Vulnerability reported to vendor', '2017-12-13 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-17-955/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-955/",
   "title": "NetGain Systems Enterprise Manager MainFilter doFilter Authentication Bypass Vulnerability",
   "updated_date": null,

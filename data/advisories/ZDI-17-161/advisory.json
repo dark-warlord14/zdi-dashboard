@@ -11,13 +11,13 @@
   "cve": "CVE-2017-5791",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-5791",
   "cvss": 10.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2016-10-17 - Vulnerability reported to vendor",
     "2017-03-11 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-17-161 ZDI-CAN-4056 Hewlett Packard Enterprise Intelligent Management Center UrlAccessController Filter Authentication Bypass Vulnerability 2017-03-11 CVE-2017-5791 https://www.cve.org/CVERecord?id=CVE-2017-5791 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Hewlett Packard Enterprise'] ['Intelligent Management Center'] This vulnerability allows remote attackers to bypass authentication on vulnerable installations of Hewlett Packard Enterprise Intelligent Management Center. The specific flaw exists within UrlAccessController. The doFilter method contains multiple ways to bypass authentication if the URI contains specific strings. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of SYSTEM. Hewlett Packard Enterprise has issued an update to correct this vulnerability. More details can be found at: https://h20564.www2.hpe.com/hpsc/doc/public/display?docId=emr_na-hpesbhf03716en_us ['2016-10-17 - Vulnerability reported to vendor', '2017-03-11 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-17-161/",
+  "search_text": "published ZDI-17-161 ZDI-CAN-4056 Hewlett Packard Enterprise Intelligent Management Center UrlAccessController Filter Authentication Bypass Vulnerability 2017-03-11 CVE-2017-5791 https://www.cve.org/CVERecord?id=CVE-2017-5791 10.0 ['Hewlett Packard Enterprise'] ['Intelligent Management Center'] This vulnerability allows remote attackers to bypass authentication on vulnerable installations of Hewlett Packard Enterprise Intelligent Management Center. The specific flaw exists within UrlAccessController. The doFilter method contains multiple ways to bypass authentication if the URI contains specific strings. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of SYSTEM. Hewlett Packard Enterprise has issued an update to correct this vulnerability. More details can be found at: https://h20564.www2.hpe.com/hpsc/doc/public/display?docId=emr_na-hpesbhf03716en_us ['2016-10-17 - Vulnerability reported to vendor', '2017-03-11 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-17-161/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-161/",
   "title": "Hewlett Packard Enterprise Intelligent Management Center UrlAccessController Filter Authentication Bypass Vulnerability",
   "updated_date": null,

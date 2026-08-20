@@ -2,11 +2,9 @@
   "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/bulletin/ms08-026.mspx",
   "advisory_date": "2008-05-13",
   "affected_products": [
-    "Office Word",
-    "Office Excel"
+    "Office Word"
   ],
   "affected_vendors": [
-    "Microsoft",
     "Microsoft"
   ],
   "credit": "wushi of team509",
@@ -19,7 +17,7 @@
     "2008-05-13 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-08-023 ZDI-CAN-284 Microsoft Office RTF Parsing Engine Memory Corruption Vulnerability 2008-05-13 CVE-2008-1091 https://www.cve.org/CVERecord?id=CVE-2008-1091 ['Microsoft', 'Microsoft'] ['Office Word', 'Office Excel'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Office. User interaction is required to exploit this vulnerability in that the target must visit a malicious page, open a malicious email, or open a malicious file. The specific flaw exists when parsing malformed RTF documents. When processing a combination of RTF tags a heap overflow occurs. Successful exploitation can lead to remote compromise of a system under the credentials of the currently logged in user. Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/bulletin/ms08-026.mspx ['2008-01-21 - Vulnerability reported to vendor', '2008-05-13 - Coordinated public release of advisory'] wushi of team509 https://www.zerodayinitiative.com/advisories/ZDI-08-023/",
+  "search_text": "published ZDI-08-023 ZDI-CAN-284 Microsoft Office RTF Parsing Engine Memory Corruption Vulnerability 2008-05-13 CVE-2008-1091 https://www.cve.org/CVERecord?id=CVE-2008-1091 ['Microsoft'] ['Office Word'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Office. User interaction is required to exploit this vulnerability in that the target must visit a malicious page, open a malicious email, or open a malicious file. The specific flaw exists when parsing malformed RTF documents. When processing a combination of RTF tags a heap overflow occurs. Successful exploitation can lead to remote compromise of a system under the credentials of the currently logged in user. Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/bulletin/ms08-026.mspx ['2008-01-21 - Vulnerability reported to vendor', '2008-05-13 - Coordinated public release of advisory'] wushi of team509 https://www.zerodayinitiative.com/advisories/ZDI-08-023/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-08-023/",
   "title": "Microsoft Office RTF Parsing Engine Memory Corruption Vulnerability",
   "updated_date": null,

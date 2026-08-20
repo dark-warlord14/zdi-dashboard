@@ -11,13 +11,13 @@
   "cve": "CVE-2015-4648",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-4648",
   "cvss": 7.5,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2015-05-19 - Vulnerability reported to vendor",
     "2015-06-24 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-15-261 ZDI-CAN-2940 Panasonic Security API SDK ipropsapivideo ActiveX Control MulticastAddr Stack Buffer Overflow Remote Code Execution Vulnerability 2015-06-24 CVE-2015-4648 https://www.cve.org/CVERecord?id=CVE-2015-4648 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Panasonic'] ['Security API'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Panasonic Security API. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the Ipropsapi.ipropsapiCtrl.1 ActiveX control. By passing an overly long string to the MulticastAddr method, an attacker can overflow a buffer on the stack. This vulnerability could be used to execute arbitrary code under the context of the user. Panasonic has issued an update to correct this vulnerability. More details can be found at: http://security.panasonic.com/pss/security/library/developer.html#SDK ['2015-05-19 - Vulnerability reported to vendor', '2015-06-24 - Coordinated public release of advisory'] kernelsmith - HP Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-15-261/",
+  "search_text": "published ZDI-15-261 ZDI-CAN-2940 Panasonic Security API SDK ipropsapivideo ActiveX Control MulticastAddr Stack Buffer Overflow Remote Code Execution Vulnerability 2015-06-24 CVE-2015-4648 https://www.cve.org/CVERecord?id=CVE-2015-4648 7.5 ['Panasonic'] ['Security API'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Panasonic Security API. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the Ipropsapi.ipropsapiCtrl.1 ActiveX control. By passing an overly long string to the MulticastAddr method, an attacker can overflow a buffer on the stack. This vulnerability could be used to execute arbitrary code under the context of the user. Panasonic has issued an update to correct this vulnerability. More details can be found at: http://security.panasonic.com/pss/security/library/developer.html#SDK ['2015-05-19 - Vulnerability reported to vendor', '2015-06-24 - Coordinated public release of advisory'] kernelsmith - HP Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-15-261/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-261/",
   "title": "Panasonic Security API SDK ipropsapivideo ActiveX Control MulticastAddr Stack Buffer Overflow Remote Code Execution Vulnerability",
   "updated_date": null,

@@ -11,13 +11,13 @@
   "cve": "CVE-2017-8944",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-8944",
   "cvss": 7.8,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:N/A:N",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2016-12-28 - Vulnerability reported to vendor",
     "2017-05-18 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-17-365 ZDI-CAN-4221 Hewlett Packard Enterprise Cloud Optimizer DownloadServlet Information Disclosure Vulnerability 2017-05-18 CVE-2017-8944 https://www.cve.org/CVERecord?id=CVE-2017-8944 7.8 AV:N/AC:L/Au:N/C:C/I:N/A:N ['Hewlett Packard Enterprise'] ['Cloud Optimizer'] This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Hewlett Packard Enterprise Cloud Optimizer. Authentication is not required to exploit this vulnerability. The specific flaw exists within the DownloadServlet servlet. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to disclose sensitive information under the context of root. Hewlett Packard Enterprise has issued an update to correct this vulnerability. More details can be found at: https://h20564.www2.hpe.com/hpsc/doc/public/display?docId=emr_na-hpesbgn03748en_us ['2016-12-28 - Vulnerability reported to vendor', '2017-05-18 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-17-365/",
+  "search_text": "published ZDI-17-365 ZDI-CAN-4221 Hewlett Packard Enterprise Cloud Optimizer DownloadServlet Information Disclosure Vulnerability 2017-05-18 CVE-2017-8944 https://www.cve.org/CVERecord?id=CVE-2017-8944 7.8 ['Hewlett Packard Enterprise'] ['Cloud Optimizer'] This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Hewlett Packard Enterprise Cloud Optimizer. Authentication is not required to exploit this vulnerability. The specific flaw exists within the DownloadServlet servlet. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to disclose sensitive information under the context of root. Hewlett Packard Enterprise has issued an update to correct this vulnerability. More details can be found at: https://h20564.www2.hpe.com/hpsc/doc/public/display?docId=emr_na-hpesbgn03748en_us ['2016-12-28 - Vulnerability reported to vendor', '2017-05-18 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-17-365/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-365/",
   "title": "Hewlett Packard Enterprise Cloud Optimizer DownloadServlet Information Disclosure Vulnerability",
   "updated_date": null,

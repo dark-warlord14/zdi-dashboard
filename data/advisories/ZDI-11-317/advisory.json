@@ -11,13 +11,13 @@
   "cve": "CVE-2011-2658",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-2658",
   "cvss": 9.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2011-05-17 - Vulnerability reported to vendor",
     "2011-11-07 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-11-317 ZDI-CAN-1234 Novell ZENWorks Software Packaging Antique ActiveX Control Remote Code Execution Vulnerability 2011-11-07 CVE-2011-2658 https://www.cve.org/CVERecord?id=CVE-2011-2658 9.0 AV:N/AC:L/Au:N/C:P/I:P/A:C ['Novell'] ['Zenworks'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Novell ZENWorks. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists due to the inclusion and usage of an antique ActiveX control (mscomct2.ocx: Tue Mar 14 18:39:28 2000). Though mscomct2.ocx has been killbitted, it is accessed by ZENWorks via an intermediate control (ISList.ISAvi) which is scriptable. Multiple vulnerabilities in mscomct2.ocx can be exploited to execute arbitrary code on the host system in the context of the browser. Novell has issued an update to correct this vulnerability. More details can be found at: http://www.novell.com/support/viewContent.do?externalId=7009570&sliceId=1 ['2011-05-17 - Vulnerability reported to vendor', '2011-11-07 - Coordinated public release of advisory'] Andrea Micalizzi aka rgod https://www.zerodayinitiative.com/advisories/ZDI-11-317/",
+  "search_text": "published ZDI-11-317 ZDI-CAN-1234 Novell ZENWorks Software Packaging Antique ActiveX Control Remote Code Execution Vulnerability 2011-11-07 CVE-2011-2658 https://www.cve.org/CVERecord?id=CVE-2011-2658 9.0 ['Novell'] ['Zenworks'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Novell ZENWorks. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists due to the inclusion and usage of an antique ActiveX control (mscomct2.ocx: Tue Mar 14 18:39:28 2000). Though mscomct2.ocx has been killbitted, it is accessed by ZENWorks via an intermediate control (ISList.ISAvi) which is scriptable. Multiple vulnerabilities in mscomct2.ocx can be exploited to execute arbitrary code on the host system in the context of the browser. Novell has issued an update to correct this vulnerability. More details can be found at: http://www.novell.com/support/viewContent.do?externalId=7009570&sliceId=1 ['2011-05-17 - Vulnerability reported to vendor', '2011-11-07 - Coordinated public release of advisory'] Andrea Micalizzi aka rgod https://www.zerodayinitiative.com/advisories/ZDI-11-317/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-317/",
   "title": "Novell ZENWorks Software Packaging Antique ActiveX Control Remote Code Execution Vulnerability",
   "updated_date": null,

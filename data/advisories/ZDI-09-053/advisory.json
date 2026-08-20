@@ -2,11 +2,9 @@
   "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/bulletin/MS09-039.mspx",
   "advisory_date": "2009-08-11",
   "affected_products": [
-    "Windows 2003 SP2",
-    "Windows 2000 SP4"
+    "Windows 2003 SP2"
   ],
   "affected_vendors": [
-    "Microsoft",
     "Microsoft"
   ],
   "credit": "Anonymous",
@@ -19,7 +17,7 @@
     "2009-08-11 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-09-053 ZDI-CAN-437 Microsoft Windows WINS Service Heap Overflow Vulnerability 2009-08-11 CVE-2009-1923 https://www.cve.org/CVERecord?id=CVE-2009-1923 ['Microsoft', 'Microsoft'] ['Windows 2003 SP2', 'Windows 2000 SP4'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Windows. Authentication is not required to exploit this vulnerability. The specific flaw exists within the WINS.exe process which provides name resolution services for NetBIOS networks. While parsing a push request the WINS service copies packet data to a static heap buffer while within a controlled loop. By providing a specially crafted request an attacker can overflow this heap buffer leading to arbitrary code execution under the SYSTEM context. Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/bulletin/MS09-039.mspx ['2009-02-24 - Vulnerability reported to vendor', '2009-08-11 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-09-053/",
+  "search_text": "published ZDI-09-053 ZDI-CAN-437 Microsoft Windows WINS Service Heap Overflow Vulnerability 2009-08-11 CVE-2009-1923 https://www.cve.org/CVERecord?id=CVE-2009-1923 ['Microsoft'] ['Windows 2003 SP2'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Windows. Authentication is not required to exploit this vulnerability. The specific flaw exists within the WINS.exe process which provides name resolution services for NetBIOS networks. While parsing a push request the WINS service copies packet data to a static heap buffer while within a controlled loop. By providing a specially crafted request an attacker can overflow this heap buffer leading to arbitrary code execution under the SYSTEM context. Microsoft has issued an update to correct this vulnerability. More details can be found at: http://www.microsoft.com/technet/security/bulletin/MS09-039.mspx ['2009-02-24 - Vulnerability reported to vendor', '2009-08-11 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-09-053/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-09-053/",
   "title": "Microsoft Windows WINS Service Heap Overflow Vulnerability",
   "updated_date": null,

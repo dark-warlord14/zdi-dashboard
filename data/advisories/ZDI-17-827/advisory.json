@@ -11,13 +11,13 @@
   "cve": "CVE-2017-8007",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-8007",
   "cvss": 9.0,
-  "cvss_vector": "AV:N/AC:L/Au:S/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2017-05-04 - Vulnerability reported to vendor",
     "2017-09-26 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-17-827 ZDI-CAN-4754 Dell EMC VNX Monitoring and Reporting Scheduler Directory Traversal Remote Code Execution Vulnerability 2017-09-26 CVE-2017-8007 https://www.cve.org/CVERecord?id=CVE-2017-8007 9.0 AV:N/AC:L/Au:S/C:C/I:C/A:C ['Dell EMC'] ['VNX Monitoring and Reporting'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Dell EMC VNX Monitoring and Reporting. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed. The specific flaw exists within Scheduler.class. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute arbitrary code under the context of SYSTEM. Dell EMC has issued an update to correct this vulnerability. More details can be found at: http://seclists.org/fulldisclosure/2017/Sep/51 ['2017-05-04 - Vulnerability reported to vendor', '2017-09-26 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-17-827/",
+  "search_text": "published ZDI-17-827 ZDI-CAN-4754 Dell EMC VNX Monitoring and Reporting Scheduler Directory Traversal Remote Code Execution Vulnerability 2017-09-26 CVE-2017-8007 https://www.cve.org/CVERecord?id=CVE-2017-8007 9.0 ['Dell EMC'] ['VNX Monitoring and Reporting'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Dell EMC VNX Monitoring and Reporting. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed. The specific flaw exists within Scheduler.class. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute arbitrary code under the context of SYSTEM. Dell EMC has issued an update to correct this vulnerability. More details can be found at: http://seclists.org/fulldisclosure/2017/Sep/51 ['2017-05-04 - Vulnerability reported to vendor', '2017-09-26 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-17-827/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-827/",
   "title": "Dell EMC VNX Monitoring and Reporting Scheduler Directory Traversal Remote Code Execution Vulnerability",
   "updated_date": null,

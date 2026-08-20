@@ -11,13 +11,13 @@
   "cve": "CVE-2015-0785",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-0785",
   "cvss": 5.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2015-01-15 - Vulnerability reported to vendor",
     "2015-04-22 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-15-152 ZDI-CAN-2578 Novell Zenworks com.novell.zenworks.inventory.rtr.actionclasses.wcreports Information Disclosure Vulnerability 2015-04-22 CVE-2015-0785 https://www.cve.org/CVERecord?id=CVE-2015-0785 5.0 AV:N/AC:L/Au:N/C:P/I:N/A:N ['Novell'] ['Zenworks'] This vulnerability allows attackers to obtain sensitive information on vulnerable installations of Novell Zenworks. User interaction is not required to exploit this vulnerability. The specific flaw exists within com.novell.zenworks.inventory.rtr.actionclasses.wcreports. The issue lies in the failure to sanitize the path of the \"dirname\" variable. The attacker can leverage this to disclose the contents of folders on the system. Novell has issued an update to correct this vulnerability. More details can be found at: https://www.novell.com/support/kb/doc.php?id=7016431 ['2015-01-15 - Vulnerability reported to vendor', '2015-04-22 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-15-152/",
+  "search_text": "published ZDI-15-152 ZDI-CAN-2578 Novell Zenworks com.novell.zenworks.inventory.rtr.actionclasses.wcreports Information Disclosure Vulnerability 2015-04-22 CVE-2015-0785 https://www.cve.org/CVERecord?id=CVE-2015-0785 5.0 ['Novell'] ['Zenworks'] This vulnerability allows attackers to obtain sensitive information on vulnerable installations of Novell Zenworks. User interaction is not required to exploit this vulnerability. The specific flaw exists within com.novell.zenworks.inventory.rtr.actionclasses.wcreports. The issue lies in the failure to sanitize the path of the \"dirname\" variable. The attacker can leverage this to disclose the contents of folders on the system. Novell has issued an update to correct this vulnerability. More details can be found at: https://www.novell.com/support/kb/doc.php?id=7016431 ['2015-01-15 - Vulnerability reported to vendor', '2015-04-22 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-15-152/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-152/",
   "title": "Novell Zenworks com.novell.zenworks.inventory.rtr.actionclasses.wcreports Information Disclosure Vulnerability",
   "updated_date": null,

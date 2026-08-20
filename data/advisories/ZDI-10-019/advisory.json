@@ -11,13 +11,13 @@
   "cve": "CVE-2009-3988",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2009-3988",
   "cvss": 9.4,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:N",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2009-08-06 - Vulnerability reported to vendor",
     "2010-02-19 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-10-019 ZDI-CAN-535 Mozilla Firefox showModalDialog Cross-Domain Scripting Vulnerability 2010-02-19 CVE-2009-3988 https://www.cve.org/CVERecord?id=CVE-2009-3988 9.4 AV:N/AC:L/Au:N/C:C/I:C/A:N ['Mozilla Firefox'] ['3.0.x'] This vulnerability allows remote attackers to bypass specific script execution enforcements on vulnerable installations of Mozilla Firefox. User interaction is required to exploit this vulnerability in that the target must visit a malicious page. The specific flaw exists in the lack of cross domain policy enforcement. Through usage of the showModalDialog() JavaScript method an attacker can gather sensitive information from another website. This vulnerability can be exploited to obtain website credentials not originating from the attacking site. Mozilla Firefox has issued an update to correct this vulnerability. More details can be found at: http://www.mozilla.org/security/announce/2010/mfsa2010-04.html ['2009-08-06 - Vulnerability reported to vendor', '2010-02-19 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-10-019/",
+  "search_text": "published ZDI-10-019 ZDI-CAN-535 Mozilla Firefox showModalDialog Cross-Domain Scripting Vulnerability 2010-02-19 CVE-2009-3988 https://www.cve.org/CVERecord?id=CVE-2009-3988 9.4 ['Mozilla Firefox'] ['3.0.x'] This vulnerability allows remote attackers to bypass specific script execution enforcements on vulnerable installations of Mozilla Firefox. User interaction is required to exploit this vulnerability in that the target must visit a malicious page. The specific flaw exists in the lack of cross domain policy enforcement. Through usage of the showModalDialog() JavaScript method an attacker can gather sensitive information from another website. This vulnerability can be exploited to obtain website credentials not originating from the attacking site. Mozilla Firefox has issued an update to correct this vulnerability. More details can be found at: http://www.mozilla.org/security/announce/2010/mfsa2010-04.html ['2009-08-06 - Vulnerability reported to vendor', '2010-02-19 - Coordinated public release of advisory'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-10-019/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-019/",
   "title": "Mozilla Firefox showModalDialog Cross-Domain Scripting Vulnerability",
   "updated_date": null,

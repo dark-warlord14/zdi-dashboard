@@ -11,13 +11,13 @@
   "cve": "CVE-2016-2007",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-2007",
   "cvss": 10.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2015-12-22 - Vulnerability reported to vendor",
     "2016-04-27 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-16-247 ZDI-CAN-3354 Hewlett Packard Enterprise Data Protector EXEC_SCRIPT Remote Code Execution Vulnerability 2016-04-27 CVE-2016-2007 https://www.cve.org/CVERecord?id=CVE-2016-2007 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Hewlett Packard Enterprise'] ['Data Protector'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Hewlett Packard Enterprise Data Protector. Authentication is not required to exploit this vulnerability. The specific flaw exists within OmniInet.exe which listens by default on TCP port 5555. When parsing a malformed EXEC_SCRIPT request, the process blindly copies user supplied data into a fixed-length stack buffer. A remote attacker can abuse this to execute remote code under the context of SYSTEM. Hewlett Packard Enterprise has issued an update to correct this vulnerability. More details can be found at: https://h20566.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c05085988 ['2015-12-22 - Vulnerability reported to vendor', '2016-04-27 - Coordinated public release of advisory'] IntR0Py https://www.zerodayinitiative.com/advisories/ZDI-16-247/",
+  "search_text": "published ZDI-16-247 ZDI-CAN-3354 Hewlett Packard Enterprise Data Protector EXEC_SCRIPT Remote Code Execution Vulnerability 2016-04-27 CVE-2016-2007 https://www.cve.org/CVERecord?id=CVE-2016-2007 10.0 ['Hewlett Packard Enterprise'] ['Data Protector'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Hewlett Packard Enterprise Data Protector. Authentication is not required to exploit this vulnerability. The specific flaw exists within OmniInet.exe which listens by default on TCP port 5555. When parsing a malformed EXEC_SCRIPT request, the process blindly copies user supplied data into a fixed-length stack buffer. A remote attacker can abuse this to execute remote code under the context of SYSTEM. Hewlett Packard Enterprise has issued an update to correct this vulnerability. More details can be found at: https://h20566.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c05085988 ['2015-12-22 - Vulnerability reported to vendor', '2016-04-27 - Coordinated public release of advisory'] IntR0Py https://www.zerodayinitiative.com/advisories/ZDI-16-247/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-247/",
   "title": "Hewlett Packard Enterprise Data Protector EXEC_SCRIPT Remote Code Execution Vulnerability",
   "updated_date": null,

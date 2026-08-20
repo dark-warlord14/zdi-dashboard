@@ -11,13 +11,13 @@
   "cve": "CVE-2017-8575",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-8575",
   "cvss": 2.1,
-  "cvss_vector": "AV:L/AC:L/Au:N/C:P/I:N/A:N",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2017-03-16 - Vulnerability reported to vendor",
     "2017-07-10 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-17-463 ZDI-CAN-4603 (Pwn2Own) Microsoft Windows basicrender WarpKMEscape Information Disclosure Vulnerability 2017-07-10 CVE-2017-8575 https://www.cve.org/CVERecord?id=CVE-2017-8575 2.1 AV:L/AC:L/Au:N/C:P/I:N/A:N ['Microsoft'] ['Windows'] This vulnerability allows local attackers to disclose sensitive information on vulnerable installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the basicrender!WarpKMEscape function. When called with certain parameters, this function will return sensitive data to the caller. An attacker can leverage this in conjunction with other vulnerabilities to escalate privilege to the level of SYSTEM. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2017-8575 ['2017-03-16 - Vulnerability reported to vendor', '2017-07-10 - Coordinated public release of advisory'] pgboy of Qihoo 360Vulcan Team https://www.zerodayinitiative.com/advisories/ZDI-17-463/",
+  "search_text": "published ZDI-17-463 ZDI-CAN-4603 (Pwn2Own) Microsoft Windows basicrender WarpKMEscape Information Disclosure Vulnerability 2017-07-10 CVE-2017-8575 https://www.cve.org/CVERecord?id=CVE-2017-8575 2.1 ['Microsoft'] ['Windows'] This vulnerability allows local attackers to disclose sensitive information on vulnerable installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the basicrender!WarpKMEscape function. When called with certain parameters, this function will return sensitive data to the caller. An attacker can leverage this in conjunction with other vulnerabilities to escalate privilege to the level of SYSTEM. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2017-8575 ['2017-03-16 - Vulnerability reported to vendor', '2017-07-10 - Coordinated public release of advisory'] pgboy of Qihoo 360Vulcan Team https://www.zerodayinitiative.com/advisories/ZDI-17-463/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-463/",
   "title": "(Pwn2Own) Microsoft Windows basicrender WarpKMEscape Information Disclosure Vulnerability",
   "updated_date": null,

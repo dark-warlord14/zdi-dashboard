@@ -11,13 +11,13 @@
   "cve": "CVE-2018-2617",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2018-2617",
   "cvss": 7.1,
-  "cvss_vector": "AV:N/AC:M/Au:N/C:C/I:N/A:N",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2017-07-19 - Vulnerability reported to vendor",
     "2018-01-18 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-18-114 ZDI-CAN-5031 Oracle WebLogic Remote Diagnosis Assistant Information Disclosure Vulnerability 2018-01-18 CVE-2018-2617 https://www.cve.org/CVERecord?id=CVE-2018-2617 7.1 AV:N/AC:M/Au:N/C:C/I:N/A:N ['Oracle'] ['WebLogic'] This vulnerability allows remote attackers to bypass authentication on vulnerable installations of Oracle WebLogic Remote Diagnosis Server. The specific flaw exists within the Remote Diagnosis Assistant, which listens on TCP port 8888 when enabled. The issue results from unrestricted access to the log file which contains sensitive authentication information. An attacker can leverage this vulnerability to access the Remote Diagnosis Assistant under the context of admin. Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/security-advisory/cpujan2018-3236628.html ['2017-07-19 - Vulnerability reported to vendor', '2018-01-18 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-18-114/",
+  "search_text": "published ZDI-18-114 ZDI-CAN-5031 Oracle WebLogic Remote Diagnosis Assistant Information Disclosure Vulnerability 2018-01-18 CVE-2018-2617 https://www.cve.org/CVERecord?id=CVE-2018-2617 7.1 ['Oracle'] ['WebLogic'] This vulnerability allows remote attackers to bypass authentication on vulnerable installations of Oracle WebLogic Remote Diagnosis Server. The specific flaw exists within the Remote Diagnosis Assistant, which listens on TCP port 8888 when enabled. The issue results from unrestricted access to the log file which contains sensitive authentication information. An attacker can leverage this vulnerability to access the Remote Diagnosis Assistant under the context of admin. Oracle has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technetwork/security-advisory/cpujan2018-3236628.html ['2017-07-19 - Vulnerability reported to vendor', '2018-01-18 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-18-114/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-18-114/",
   "title": "Oracle WebLogic Remote Diagnosis Assistant Information Disclosure Vulnerability",
   "updated_date": null,

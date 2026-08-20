@@ -11,13 +11,13 @@
   "cve": "CVE-2016-0095",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-0095",
   "cvss": 7.2,
-  "cvss_vector": "AV:L/AC:L/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2016-03-03 - Vulnerability reported to vendor",
     "2016-03-10 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-16-196 ZDI-CAN-3589 Microsoft Windows CreateWindowStation Privilege Escalation Vulnerability 2016-03-10 CVE-2016-0095 https://www.cve.org/CVERecord?id=CVE-2016-0095 7.2 AV:L/AC:L/Au:N/C:C/I:C/A:C ['Microsoft'] ['Windows'] This vulnerability allows local attackers to execute arbitrary code on vulnerable installations of Microsoft Windows. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of CreateWindowStation. The issue lies in the failure to check for NULL before dereferencing a pointer. An attacker can leverage this vulnerability to elevate privileges and execute code within the context of the kernel. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/en-us/library/security/MS16-034 ['2016-03-03 - Vulnerability reported to vendor', '2016-03-10 - Coordinated public release of advisory'] bee13oy of CloverSec Labs https://www.zerodayinitiative.com/advisories/ZDI-16-196/",
+  "search_text": "published ZDI-16-196 ZDI-CAN-3589 Microsoft Windows CreateWindowStation Privilege Escalation Vulnerability 2016-03-10 CVE-2016-0095 https://www.cve.org/CVERecord?id=CVE-2016-0095 7.2 ['Microsoft'] ['Windows'] This vulnerability allows local attackers to execute arbitrary code on vulnerable installations of Microsoft Windows. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of CreateWindowStation. The issue lies in the failure to check for NULL before dereferencing a pointer. An attacker can leverage this vulnerability to elevate privileges and execute code within the context of the kernel. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/en-us/library/security/MS16-034 ['2016-03-03 - Vulnerability reported to vendor', '2016-03-10 - Coordinated public release of advisory'] bee13oy of CloverSec Labs https://www.zerodayinitiative.com/advisories/ZDI-16-196/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-196/",
   "title": "Microsoft Windows CreateWindowStation Privilege Escalation Vulnerability",
   "updated_date": null,

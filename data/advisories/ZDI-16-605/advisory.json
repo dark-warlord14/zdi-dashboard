@@ -11,13 +11,13 @@
   "cve": "CVE-2016-5803",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-5803",
   "cvss": 7.8,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:N/A:N",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2016-08-30 - Vulnerability reported to vendor",
     "2016-11-09 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-16-605 ZDI-CAN-3711 CA Unified Infrastructure Management download_lar Directory Traversal Information Disclosure Vulnerability 2016-11-09 CVE-2016-5803 https://www.cve.org/CVERecord?id=CVE-2016-5803 7.8 AV:N/AC:L/Au:N/C:C/I:N/A:N ['CA'] ['Unified Infrastructure Management'] This vulnerability allows remote attackers to disclose sensitive information from vulnerable installations of CA Unified Infrastructure Management. Authentication is not required to exploit this vulnerability. The specific flaw exists within processing of the download_lar servlet. The servlet is vulnerable to directory traversal and can be used to exfiltrate sensitive system files from the system. CA has issued an update to correct this vulnerability. More details can be found at: http://www.ca.com/us/services-support/ca-support/ca-support-online/product-content/recommended-reading/security-notices/ca20161109-01-security-notice-for-ca-unified-infrastructure-mgmt.html ['2016-08-30 - Vulnerability reported to vendor', '2016-11-09 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-16-605/",
+  "search_text": "published ZDI-16-605 ZDI-CAN-3711 CA Unified Infrastructure Management download_lar Directory Traversal Information Disclosure Vulnerability 2016-11-09 CVE-2016-5803 https://www.cve.org/CVERecord?id=CVE-2016-5803 7.8 ['CA'] ['Unified Infrastructure Management'] This vulnerability allows remote attackers to disclose sensitive information from vulnerable installations of CA Unified Infrastructure Management. Authentication is not required to exploit this vulnerability. The specific flaw exists within processing of the download_lar servlet. The servlet is vulnerable to directory traversal and can be used to exfiltrate sensitive system files from the system. CA has issued an update to correct this vulnerability. More details can be found at: http://www.ca.com/us/services-support/ca-support/ca-support-online/product-content/recommended-reading/security-notices/ca20161109-01-security-notice-for-ca-unified-infrastructure-mgmt.html ['2016-08-30 - Vulnerability reported to vendor', '2016-11-09 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-16-605/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-605/",
   "title": "CA Unified Infrastructure Management download_lar Directory Traversal Information Disclosure Vulnerability",
   "updated_date": null,

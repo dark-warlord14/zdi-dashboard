@@ -2,13 +2,9 @@
   "additional_details": "Symantec has issued an update to correct this vulnerability. More details can be found at: http://www.symantec.com/business/security_response/securityupdates/detail.jsp?fid=security_advisory&pvid=security_advisory&year=2009&suid=20090428_02",
   "advisory_date": "2009-04-28",
   "affected_products": [
-    "AntiVirus Corporate Edition",
-    "Client Security",
-    "Endpoint Protection"
+    "AntiVirus Corporate Edition"
   ],
   "affected_vendors": [
-    "Symantec",
-    "Symantec",
     "Symantec"
   ],
   "credit": "Tenable Network Security",
@@ -21,7 +17,7 @@
     "2009-04-28 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-09-060 ZDI-CAN-174 Symantec Multiple Product Intel Alert Originator Service Command Execution Vulnerabilty 2009-04-28 CVE-2009-1429 https://www.cve.org/CVERecord?id=CVE-2009-1429 ['Symantec', 'Symantec', 'Symantec'] ['AntiVirus Corporate Edition', 'Client Security', 'Endpoint Protection'] This vulnerability allows attackers to execute arbitrary code on vulnerable installations of Symantec AntiVirus Corporate Edition, Symantec Client Security and Symantec Endpoint Protection. Authentication is not required to exploit this vulnerability. The specific flaw exists in the Intel LANDesk Common Base Agent bundled with the affected products. When a specially crafted packet is sent to TCP port 12174, the contents of the packet are passed directly to a call to CreateProcessA() as the lpCommandLine argument. The resulting command will be executed with SYSTEM privileges. Symantec has issued an update to correct this vulnerability. More details can be found at: http://www.symantec.com/business/security_response/securityupdates/detail.jsp?fid=security_advisory&pvid=security_advisory&year=2009&suid=20090428_02 ['2007-05-22 - Vulnerability reported to vendor', '2009-04-28 - Coordinated public release of advisory'] Tenable Network Security https://www.zerodayinitiative.com/advisories/ZDI-09-060/",
+  "search_text": "published ZDI-09-060 ZDI-CAN-174 Symantec Multiple Product Intel Alert Originator Service Command Execution Vulnerabilty 2009-04-28 CVE-2009-1429 https://www.cve.org/CVERecord?id=CVE-2009-1429 ['Symantec'] ['AntiVirus Corporate Edition'] This vulnerability allows attackers to execute arbitrary code on vulnerable installations of Symantec AntiVirus Corporate Edition, Symantec Client Security and Symantec Endpoint Protection. Authentication is not required to exploit this vulnerability. The specific flaw exists in the Intel LANDesk Common Base Agent bundled with the affected products. When a specially crafted packet is sent to TCP port 12174, the contents of the packet are passed directly to a call to CreateProcessA() as the lpCommandLine argument. The resulting command will be executed with SYSTEM privileges. Symantec has issued an update to correct this vulnerability. More details can be found at: http://www.symantec.com/business/security_response/securityupdates/detail.jsp?fid=security_advisory&pvid=security_advisory&year=2009&suid=20090428_02 ['2007-05-22 - Vulnerability reported to vendor', '2009-04-28 - Coordinated public release of advisory'] Tenable Network Security https://www.zerodayinitiative.com/advisories/ZDI-09-060/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-09-060/",
   "title": "Symantec Multiple Product Intel Alert Originator Service Command Execution Vulnerabilty",
   "updated_date": null,

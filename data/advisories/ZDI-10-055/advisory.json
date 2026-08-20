@@ -11,13 +11,13 @@
   "cve": "CVE-2010-0095",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2010-0095",
   "cvss": 10.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2009-10-21 - Vulnerability reported to vendor",
     "2010-04-05 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-10-055 ZDI-CAN-603 Sun Java Runtime Environment Mutable InetAddress Socket Policy Violation Vulnerability 2010-04-05 CVE-2010-0095 https://www.cve.org/CVERecord?id=CVE-2010-0095 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Sun Microsystems'] ['Java Runtime'] This vulnerability allows remote attackers to violate security policies on vulnerable installations of Sun Java Runtime. User interaction is required to exploit this vulnerability in that the target must run a malicious applet. The specific flaw allows malicious applets to connect to network addresses other than the originating applet and client IPs. A handcrafted applet can override compile time checks to prevent compilation of a mutable InetAddress subclass. This results in the ability to circumvent the Applet SecurityManager restictions. Sun Microsystems has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technology/deploy/security/critical-patch-updates/javacpumar2010.html ['2009-10-21 - Vulnerability reported to vendor', '2010-04-05 - Coordinated public release of advisory'] Sami Koivu https://www.zerodayinitiative.com/advisories/ZDI-10-055/",
+  "search_text": "published ZDI-10-055 ZDI-CAN-603 Sun Java Runtime Environment Mutable InetAddress Socket Policy Violation Vulnerability 2010-04-05 CVE-2010-0095 https://www.cve.org/CVERecord?id=CVE-2010-0095 10.0 ['Sun Microsystems'] ['Java Runtime'] This vulnerability allows remote attackers to violate security policies on vulnerable installations of Sun Java Runtime. User interaction is required to exploit this vulnerability in that the target must run a malicious applet. The specific flaw allows malicious applets to connect to network addresses other than the originating applet and client IPs. A handcrafted applet can override compile time checks to prevent compilation of a mutable InetAddress subclass. This results in the ability to circumvent the Applet SecurityManager restictions. Sun Microsystems has issued an update to correct this vulnerability. More details can be found at: http://www.oracle.com/technology/deploy/security/critical-patch-updates/javacpumar2010.html ['2009-10-21 - Vulnerability reported to vendor', '2010-04-05 - Coordinated public release of advisory'] Sami Koivu https://www.zerodayinitiative.com/advisories/ZDI-10-055/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-10-055/",
   "title": "Sun Java Runtime Environment Mutable InetAddress Socket Policy Violation Vulnerability",
   "updated_date": null,

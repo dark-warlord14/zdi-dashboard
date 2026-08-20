@@ -11,13 +11,13 @@
   "cve": "CVE-2012-5202",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2012-5202",
   "cvss": 7.5,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2012-11-19 - Vulnerability reported to vendor",
     "2013-03-22 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-13-051 ZDI-CAN-1612 Hewlett-Packard Intelligent Management Center FaultDownloadServlet Information Disclosure Vulnerability 2013-03-22 CVE-2012-5202 https://www.cve.org/CVERecord?id=CVE-2012-5202 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Hewlett-Packard'] ['Intelligent Management Center'] This vulnerability allows remote attackers to obtain sensitive information on vulnerable installations of Hewlett-Packard Intelligent Management Center. Authentication is not required to exploit this vulnerability. The specific flaw exists within the FaultDownloadServlet. Authentication is not required to access this servlet, which allows any file readable by SYSTEM to be disclosed. By abusing this behavior an attacker can disclose administrative credentials and possibly leverage this situation to achieve remote code execution. Hewlett-Packard has issued an update to correct this vulnerability. More details can be found at: https://h20566.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c03689276 ['2012-11-19 - Vulnerability reported to vendor', '2013-03-22 - Coordinated public release of advisory'] Andrea Micalizzi aka rgod https://www.zerodayinitiative.com/advisories/ZDI-13-051/",
+  "search_text": "published ZDI-13-051 ZDI-CAN-1612 Hewlett-Packard Intelligent Management Center FaultDownloadServlet Information Disclosure Vulnerability 2013-03-22 CVE-2012-5202 https://www.cve.org/CVERecord?id=CVE-2012-5202 7.5 ['Hewlett-Packard'] ['Intelligent Management Center'] This vulnerability allows remote attackers to obtain sensitive information on vulnerable installations of Hewlett-Packard Intelligent Management Center. Authentication is not required to exploit this vulnerability. The specific flaw exists within the FaultDownloadServlet. Authentication is not required to access this servlet, which allows any file readable by SYSTEM to be disclosed. By abusing this behavior an attacker can disclose administrative credentials and possibly leverage this situation to achieve remote code execution. Hewlett-Packard has issued an update to correct this vulnerability. More details can be found at: https://h20566.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c03689276 ['2012-11-19 - Vulnerability reported to vendor', '2013-03-22 - Coordinated public release of advisory'] Andrea Micalizzi aka rgod https://www.zerodayinitiative.com/advisories/ZDI-13-051/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-13-051/",
   "title": "Hewlett-Packard Intelligent Management Center FaultDownloadServlet Information Disclosure Vulnerability",
   "updated_date": null,

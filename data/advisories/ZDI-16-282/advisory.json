@@ -11,13 +11,13 @@
   "cve": "CVE-2016-0191",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-0191",
   "cvss": 6.8,
-  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2016-03-12 - Vulnerability reported to vendor",
     "2016-05-10 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-16-282 ZDI-CAN-3621 (Pwn2Own) Microsoft Edge JavaScript concat Method Uninitialized Memory Remote Code Execution Vulnerability 2016-05-10 CVE-2016-0191 https://www.cve.org/CVERecord?id=CVE-2016-0191 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Microsoft'] ['Edge'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Edge. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the implementation of the JavaScript Array.concat method. By performing certain operations in script, an attacker can cause JavaScript to read uninitialized data from a memory location on the stack. An attacker can leverage this vulnerability to execute code under the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/en-us/library/security/ms16-052.aspx ['2016-03-12 - Vulnerability reported to vendor', '2016-05-10 - Coordinated public release of advisory'] lokihardt https://www.zerodayinitiative.com/advisories/ZDI-16-282/",
+  "search_text": "published ZDI-16-282 ZDI-CAN-3621 (Pwn2Own) Microsoft Edge JavaScript concat Method Uninitialized Memory Remote Code Execution Vulnerability 2016-05-10 CVE-2016-0191 https://www.cve.org/CVERecord?id=CVE-2016-0191 6.8 ['Microsoft'] ['Edge'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Edge. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the implementation of the JavaScript Array.concat method. By performing certain operations in script, an attacker can cause JavaScript to read uninitialized data from a memory location on the stack. An attacker can leverage this vulnerability to execute code under the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/en-us/library/security/ms16-052.aspx ['2016-03-12 - Vulnerability reported to vendor', '2016-05-10 - Coordinated public release of advisory'] lokihardt https://www.zerodayinitiative.com/advisories/ZDI-16-282/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-16-282/",
   "title": "(Pwn2Own) Microsoft Edge JavaScript concat Method Uninitialized Memory Remote Code Execution Vulnerability",
   "updated_date": null,

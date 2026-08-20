@@ -11,13 +11,13 @@
   "cve": "CVE-2014-7863",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-7863",
   "cvss": 7.8,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:N/A:N",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2014-08-18 - Vulnerability reported to vendor",
     "2015-04-29 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-15-162 ZDI-CAN-2427 ManageEngine Applications Manager FailOverHelperServlet Information Disclosure Vulnerability 2015-04-29 CVE-2014-7863 https://www.cve.org/CVERecord?id=CVE-2014-7863 7.8 AV:N/AC:L/Au:N/C:C/I:N/A:N ['ManageEngine'] ['Applications Manager'] This vulnerability allows remote attackers to disclose files on vulnerable installations of ManageEngine Applications Manager. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of the FailOverHelperServlet servlet. The issue lies in the failure to properly sanitize a filename. A remote attacker can exploit this vulnerability to disclose files from the system. ManageEngine has issued an update to correct this vulnerability. More details can be found at: https://support.zoho.com/portal/manageengine/helpcenter/articles/vulnerabilities-in-failoverhelperservlet ['2014-08-18 - Vulnerability reported to vendor', '2015-04-29 - Coordinated public release of advisory'] Andrea Micalizzi (rgod) https://www.zerodayinitiative.com/advisories/ZDI-15-162/",
+  "search_text": "published ZDI-15-162 ZDI-CAN-2427 ManageEngine Applications Manager FailOverHelperServlet Information Disclosure Vulnerability 2015-04-29 CVE-2014-7863 https://www.cve.org/CVERecord?id=CVE-2014-7863 7.8 ['ManageEngine'] ['Applications Manager'] This vulnerability allows remote attackers to disclose files on vulnerable installations of ManageEngine Applications Manager. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of the FailOverHelperServlet servlet. The issue lies in the failure to properly sanitize a filename. A remote attacker can exploit this vulnerability to disclose files from the system. ManageEngine has issued an update to correct this vulnerability. More details can be found at: https://support.zoho.com/portal/manageengine/helpcenter/articles/vulnerabilities-in-failoverhelperservlet ['2014-08-18 - Vulnerability reported to vendor', '2015-04-29 - Coordinated public release of advisory'] Andrea Micalizzi (rgod) https://www.zerodayinitiative.com/advisories/ZDI-15-162/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-162/",
   "title": "ManageEngine Applications Manager FailOverHelperServlet Information Disclosure Vulnerability",
   "updated_date": null,

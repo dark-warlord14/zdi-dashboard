@@ -11,13 +11,13 @@
   "cve": "CVE-2015-0818",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-0818",
   "cvss": 7.5,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2015-03-18 - Vulnerability reported to vendor",
     "2015-04-03 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-15-108 ZDI-CAN-2825 (Pwn2Own) Mozilla Firefox SVG DOMAttrModified Same-Origin Policy Bypass Vulnerability 2015-04-03 CVE-2015-0818 https://www.cve.org/CVERecord?id=CVE-2015-0818 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Mozilla'] ['Firefox'] This vulnerability allows remote attackers to bypass the same-origin policy on vulnerable installations of Mozilla Firefox. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of SVG format content navigation. By using a DOMAttrModified mutation event listener, an attacker can inject an arbitrary URL into the history, and cause Firefox to break the same-origin isolation policy. Mozilla has issued an update to correct this vulnerability. More details can be found at: https://bugzilla.mozilla.org/show_bug.cgi?id=1144988 ['2015-03-18 - Vulnerability reported to vendor', '2015-04-03 - Coordinated public release of advisory'] Mariusz Mlynski https://www.zerodayinitiative.com/advisories/ZDI-15-108/",
+  "search_text": "published ZDI-15-108 ZDI-CAN-2825 (Pwn2Own) Mozilla Firefox SVG DOMAttrModified Same-Origin Policy Bypass Vulnerability 2015-04-03 CVE-2015-0818 https://www.cve.org/CVERecord?id=CVE-2015-0818 7.5 ['Mozilla'] ['Firefox'] This vulnerability allows remote attackers to bypass the same-origin policy on vulnerable installations of Mozilla Firefox. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of SVG format content navigation. By using a DOMAttrModified mutation event listener, an attacker can inject an arbitrary URL into the history, and cause Firefox to break the same-origin isolation policy. Mozilla has issued an update to correct this vulnerability. More details can be found at: https://bugzilla.mozilla.org/show_bug.cgi?id=1144988 ['2015-03-18 - Vulnerability reported to vendor', '2015-04-03 - Coordinated public release of advisory'] Mariusz Mlynski https://www.zerodayinitiative.com/advisories/ZDI-15-108/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-108/",
   "title": "(Pwn2Own) Mozilla Firefox SVG DOMAttrModified Same-Origin Policy Bypass Vulnerability",
   "updated_date": null,

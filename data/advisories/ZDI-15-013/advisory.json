@@ -11,13 +11,13 @@
   "cve": "CVE-2015-0017",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-0017",
   "cvss": 6.8,
-  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2014-06-30 - Vulnerability reported to vendor",
     "2015-02-10 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-15-013 ZDI-CAN-2395 Microsoft Internet Explorer CAutoRange::ScrollIntoView Use-After-Free Remote Code Execution Vulnerability 2015-02-10 CVE-2015-0017 https://www.cve.org/CVERecord?id=CVE-2015-0017 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Microsoft'] ['Internet Explorer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The vulnerability relates to how Internet Explorer processes selections and scrolling. By constructing a document having a specific structure, then removing an element while scrolling the document to a certain text range, an attacker can force an object in memory to be reused after it has been freed. An attacker can leverage this vulnerability to execute code under the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/library/security/MS15-009 ['2014-06-30 - Vulnerability reported to vendor', '2015-02-10 - Coordinated public release of advisory'] Aniway.Anyway@gmail.com https://www.zerodayinitiative.com/advisories/ZDI-15-013/",
+  "search_text": "published ZDI-15-013 ZDI-CAN-2395 Microsoft Internet Explorer CAutoRange::ScrollIntoView Use-After-Free Remote Code Execution Vulnerability 2015-02-10 CVE-2015-0017 https://www.cve.org/CVERecord?id=CVE-2015-0017 6.8 ['Microsoft'] ['Internet Explorer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The vulnerability relates to how Internet Explorer processes selections and scrolling. By constructing a document having a specific structure, then removing an element while scrolling the document to a certain text range, an attacker can force an object in memory to be reused after it has been freed. An attacker can leverage this vulnerability to execute code under the context of the current process. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/library/security/MS15-009 ['2014-06-30 - Vulnerability reported to vendor', '2015-02-10 - Coordinated public release of advisory'] Aniway.Anyway@gmail.com https://www.zerodayinitiative.com/advisories/ZDI-15-013/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-013/",
   "title": "Microsoft Internet Explorer CAutoRange::ScrollIntoView Use-After-Free Remote Code Execution Vulnerability",
   "updated_date": null,

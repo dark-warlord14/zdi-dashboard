@@ -11,13 +11,13 @@
   "cve": "CVE-2013-0593",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2013-0593",
   "cvss": 7.5,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2013-03-22 - Vulnerability reported to vendor",
     "2013-05-29 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-13-092 ZDI-CAN-1576 IBM SPSS Chart2D olch2x32.ocx ActiveX Remote Code Execution Vulnerability 2013-05-29 CVE-2013-0593 https://www.cve.org/CVERecord?id=CVE-2013-0593 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['IBM'] ['SPSS'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of IBM SPSS. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the olch2x32.ocx ActiveX control. This object uses the Load() method to load a 2D chart into the browser. When parsing an OC2 file, the code trusts a value at a certain offset. An attacker can alter this value to control the arithmetic done on this value which can result in a user controlled pointer. An attacker can leverage this vulnerability to execute code under the context of the process. http://www-01.ibm.com/support/docview.wss?uid=swg21635503 ['2013-03-22 - Vulnerability reported to vendor', '2013-05-29 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-13-092/",
+  "search_text": "published ZDI-13-092 ZDI-CAN-1576 IBM SPSS Chart2D olch2x32.ocx ActiveX Remote Code Execution Vulnerability 2013-05-29 CVE-2013-0593 https://www.cve.org/CVERecord?id=CVE-2013-0593 7.5 ['IBM'] ['SPSS'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of IBM SPSS. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the olch2x32.ocx ActiveX control. This object uses the Load() method to load a 2D chart into the browser. When parsing an OC2 file, the code trusts a value at a certain offset. An attacker can alter this value to control the arithmetic done on this value which can result in a user controlled pointer. An attacker can leverage this vulnerability to execute code under the context of the process. http://www-01.ibm.com/support/docview.wss?uid=swg21635503 ['2013-03-22 - Vulnerability reported to vendor', '2013-05-29 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-13-092/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-13-092/",
   "title": "IBM SPSS Chart2D olch2x32.ocx ActiveX Remote Code Execution Vulnerability",
   "updated_date": null,

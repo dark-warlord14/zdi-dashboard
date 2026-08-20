@@ -11,13 +11,13 @@
   "cve": "CVE-2011-4252",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2011-4252",
   "cvss": 7.5,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2011-08-12 - Vulnerability reported to vendor",
     "2011-11-28 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-11-335 ZDI-CAN-1305 RealNetworks RealPlayer RV10 Sample Height Parsing Remote Code Execution Vulnerability 2011-11-28 CVE-2011-4252 https://www.cve.org/CVERecord?id=CVE-2011-4252 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['RealNetworks'] ['RealPlayer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of RealNetworks Real Player. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists when the application attempts to parse a height out of the RV10 codec object. The application will incorrectly treat the value as a signed integer and will its value as the count within a loop that populates rows of sample data within a buffer. This can allow for memory corruption which can lead to code execution under the context of the application. RealNetworks has issued an update to correct this vulnerability. More details can be found at: http://service.real.com/realplayer/security/11182011_player/en/ ['2011-08-12 - Vulnerability reported to vendor', '2011-11-28 - Coordinated public release of advisory'] Damian Put https://www.zerodayinitiative.com/advisories/ZDI-11-335/",
+  "search_text": "published ZDI-11-335 ZDI-CAN-1305 RealNetworks RealPlayer RV10 Sample Height Parsing Remote Code Execution Vulnerability 2011-11-28 CVE-2011-4252 https://www.cve.org/CVERecord?id=CVE-2011-4252 7.5 ['RealNetworks'] ['RealPlayer'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of RealNetworks Real Player. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists when the application attempts to parse a height out of the RV10 codec object. The application will incorrectly treat the value as a signed integer and will its value as the count within a loop that populates rows of sample data within a buffer. This can allow for memory corruption which can lead to code execution under the context of the application. RealNetworks has issued an update to correct this vulnerability. More details can be found at: http://service.real.com/realplayer/security/11182011_player/en/ ['2011-08-12 - Vulnerability reported to vendor', '2011-11-28 - Coordinated public release of advisory'] Damian Put https://www.zerodayinitiative.com/advisories/ZDI-11-335/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-11-335/",
   "title": "RealNetworks RealPlayer RV10 Sample Height Parsing Remote Code Execution Vulnerability",
   "updated_date": null,

@@ -11,13 +11,13 @@
   "cve": "CVE-2012-0670",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2012-0670",
   "cvss": 7.5,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2012-01-24 - Vulnerability reported to vendor",
     "2012-08-22 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-12-153 ZDI-CAN-1495 Apple QuickTime sean Atom Size Parsing Remote Code Execution Vulnerability 2012-08-22 CVE-2012-0670 https://www.cve.org/CVERecord?id=CVE-2012-0670 7.5 AV:N/AC:L/Au:N/C:P/I:P/A:P ['Apple'] ['QuickTime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple QuickTime. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within Quicktime.qts when parsing the 'sean' atom. The size specified in the atom's header is added to 0x0C and subsequently allocated. File data is then copied into that buffer along with a series of nulls. If the buffer is undersized, the copy operation can be made to corrupt adjacent memory. An attacker can leverage this vulnerability to execute code under the context of the process. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT5261 ['2012-01-24 - Vulnerability reported to vendor', '2012-08-22 - Coordinated public release of advisory'] Tom Gallagher (Microsoft) & Paul Bates (Microsoft) https://www.zerodayinitiative.com/advisories/ZDI-12-153/",
+  "search_text": "published ZDI-12-153 ZDI-CAN-1495 Apple QuickTime sean Atom Size Parsing Remote Code Execution Vulnerability 2012-08-22 CVE-2012-0670 https://www.cve.org/CVERecord?id=CVE-2012-0670 7.5 ['Apple'] ['QuickTime'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Apple QuickTime. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within Quicktime.qts when parsing the 'sean' atom. The size specified in the atom's header is added to 0x0C and subsequently allocated. File data is then copied into that buffer along with a series of nulls. If the buffer is undersized, the copy operation can be made to corrupt adjacent memory. An attacker can leverage this vulnerability to execute code under the context of the process. Apple has issued an update to correct this vulnerability. More details can be found at: http://support.apple.com/kb/HT5261 ['2012-01-24 - Vulnerability reported to vendor', '2012-08-22 - Coordinated public release of advisory'] Tom Gallagher (Microsoft) & Paul Bates (Microsoft) https://www.zerodayinitiative.com/advisories/ZDI-12-153/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-12-153/",
   "title": "Apple QuickTime sean Atom Size Parsing Remote Code Execution Vulnerability",
   "updated_date": null,

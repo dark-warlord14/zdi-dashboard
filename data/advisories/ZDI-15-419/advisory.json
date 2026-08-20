@@ -11,13 +11,13 @@
   "cve": "CVE-2015-5689",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2015-5689",
   "cvss": 6.8,
-  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2015-06-02 - Vulnerability reported to vendor",
     "2015-09-03 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-15-419 ZDI-CAN-2989 Symantec Ghost Out-Of-Bounds Indexing Remote Code Execution Vulnerability 2015-09-03 CVE-2015-5689 https://www.cve.org/CVERecord?id=CVE-2015-5689 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Symantec'] ['Ghost'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Symantec Ghost. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Ghost images. The issue lies in sign-extending byte values from an array before using them as an index into an array, allowing for out-of-bounds access. An attacker can leverage this vulnerability to execute arbitrary code within the context of the current process. Symantec has issued an update to correct this vulnerability. More details can be found at: http://www.symantec.com/security_response/securityupdates/detail.jsp?fid=security_advisory&pvid=security_advisory&year=&suid=20150902_00 ['2015-06-02 - Vulnerability reported to vendor', '2015-09-03 - Coordinated public release of advisory'] Steven Seeley of Source Incite https://www.zerodayinitiative.com/advisories/ZDI-15-419/",
+  "search_text": "published ZDI-15-419 ZDI-CAN-2989 Symantec Ghost Out-Of-Bounds Indexing Remote Code Execution Vulnerability 2015-09-03 CVE-2015-5689 https://www.cve.org/CVERecord?id=CVE-2015-5689 6.8 ['Symantec'] ['Ghost'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Symantec Ghost. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Ghost images. The issue lies in sign-extending byte values from an array before using them as an index into an array, allowing for out-of-bounds access. An attacker can leverage this vulnerability to execute arbitrary code within the context of the current process. Symantec has issued an update to correct this vulnerability. More details can be found at: http://www.symantec.com/security_response/securityupdates/detail.jsp?fid=security_advisory&pvid=security_advisory&year=&suid=20150902_00 ['2015-06-02 - Vulnerability reported to vendor', '2015-09-03 - Coordinated public release of advisory'] Steven Seeley of Source Incite https://www.zerodayinitiative.com/advisories/ZDI-15-419/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-15-419/",
   "title": "Symantec Ghost Out-Of-Bounds Indexing Remote Code Execution Vulnerability",
   "updated_date": null,

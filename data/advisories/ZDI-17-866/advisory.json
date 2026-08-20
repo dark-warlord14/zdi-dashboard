@@ -11,13 +11,13 @@
   "cve": "CVE-2017-14822",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-14822",
   "cvss": 4.3,
-  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:N/A:N",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2017-08-10 - Vulnerability reported to vendor",
     "2017-11-14 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-17-866 ZDI-CAN-5014 Foxit Reader JPEG2000 SIZ marker xOsiz Out-Of-Bounds Read Information Disclosure Vulnerability 2017-11-14 CVE-2017-14822 https://www.cve.org/CVERecord?id=CVE-2017-14822 4.3 AV:N/AC:M/Au:N/C:P/I:N/A:N ['Foxit'] ['Reader'] This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Foxit Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of the xOsiz member of SIZ markers. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated object. An attacker can leverage this in conjunction with other vulnerabilities to execute code in the context of the current process. Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxitsoftware.com/support/security-bulletins.php ['2017-08-10 - Vulnerability reported to vendor', '2017-11-14 - Coordinated public release of advisory'] kdot https://www.zerodayinitiative.com/advisories/ZDI-17-866/",
+  "search_text": "published ZDI-17-866 ZDI-CAN-5014 Foxit Reader JPEG2000 SIZ marker xOsiz Out-Of-Bounds Read Information Disclosure Vulnerability 2017-11-14 CVE-2017-14822 https://www.cve.org/CVERecord?id=CVE-2017-14822 4.3 ['Foxit'] ['Reader'] This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Foxit Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of the xOsiz member of SIZ markers. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated object. An attacker can leverage this in conjunction with other vulnerabilities to execute code in the context of the current process. Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxitsoftware.com/support/security-bulletins.php ['2017-08-10 - Vulnerability reported to vendor', '2017-11-14 - Coordinated public release of advisory'] kdot https://www.zerodayinitiative.com/advisories/ZDI-17-866/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-866/",
   "title": "Foxit Reader JPEG2000 SIZ marker xOsiz Out-Of-Bounds Read Information Disclosure Vulnerability",
   "updated_date": null,

@@ -11,13 +11,13 @@
   "cve": "CVE-2016-8207",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2016-8207",
   "cvss": 7.8,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:N/A:N",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2016-10-17 - Vulnerability reported to vendor",
     "2017-01-20 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-17-052 ZDI-CAN-4026 Brocade Network Advisor CliMonitorReportServlet Directory Traversal Information Disclosure Vulnerability 2017-01-20 CVE-2016-8207 https://www.cve.org/CVERecord?id=CVE-2016-8207 7.8 AV:N/AC:L/Au:N/C:C/I:N/A:N ['Brocade'] ['Network Advisor'] This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Brocade Network Advisor. Authentication is not required to exploit this vulnerability. The specific flaw exists within the CliMonitorReportsServlet servlet. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to disclose sensitive information under the context of SYSTEM. Brocade has issued an update to correct this vulnerability. More details can be found at: https://www.brocade.com/content/dam/common/documents/content-types/security-bulletin/brocade-security-advisory-2016-180.htm ['2016-10-17 - Vulnerability reported to vendor', '2017-01-20 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-17-052/",
+  "search_text": "published ZDI-17-052 ZDI-CAN-4026 Brocade Network Advisor CliMonitorReportServlet Directory Traversal Information Disclosure Vulnerability 2017-01-20 CVE-2016-8207 https://www.cve.org/CVERecord?id=CVE-2016-8207 7.8 ['Brocade'] ['Network Advisor'] This vulnerability allows remote attackers to disclose sensitive information on vulnerable installations of Brocade Network Advisor. Authentication is not required to exploit this vulnerability. The specific flaw exists within the CliMonitorReportsServlet servlet. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to disclose sensitive information under the context of SYSTEM. Brocade has issued an update to correct this vulnerability. More details can be found at: https://www.brocade.com/content/dam/common/documents/content-types/security-bulletin/brocade-security-advisory-2016-180.htm ['2016-10-17 - Vulnerability reported to vendor', '2017-01-20 - Coordinated public release of advisory'] rgod https://www.zerodayinitiative.com/advisories/ZDI-17-052/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-052/",
   "title": "Brocade Network Advisor CliMonitorReportServlet Directory Traversal Information Disclosure Vulnerability",
   "updated_date": null,

@@ -11,13 +11,13 @@
   "cve": "CVE-2014-0569",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2014-0569",
   "cvss": 6.8,
-  "cvss_vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2014-09-10 - Vulnerability reported to vendor",
     "2014-10-14 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-14-365 ZDI-CAN-2518 Adobe Flash Player casi32 Integer Overflow Remote Code Execution Vulnerability 2014-10-14 CVE-2014-0569 https://www.cve.org/CVERecord?id=CVE-2014-0569 6.8 AV:N/AC:M/Au:N/C:P/I:P/A:P ['Adobe'] ['Flash Player'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Adobe Flash Player. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the implementation of casi32. The issue lies in the failure to properly sanitize a user-supplied length value with a specific array implementation. An attacker can leverage this vulnerability to execute code within the context of the current process. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/flash-player/apsb14-22.html ['2014-09-10 - Vulnerability reported to vendor', '2014-10-14 - Coordinated public release of advisory'] bilou https://www.zerodayinitiative.com/advisories/ZDI-14-365/",
+  "search_text": "published ZDI-14-365 ZDI-CAN-2518 Adobe Flash Player casi32 Integer Overflow Remote Code Execution Vulnerability 2014-10-14 CVE-2014-0569 https://www.cve.org/CVERecord?id=CVE-2014-0569 6.8 ['Adobe'] ['Flash Player'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Adobe Flash Player. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the implementation of casi32. The issue lies in the failure to properly sanitize a user-supplied length value with a specific array implementation. An attacker can leverage this vulnerability to execute code within the context of the current process. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/flash-player/apsb14-22.html ['2014-09-10 - Vulnerability reported to vendor', '2014-10-14 - Coordinated public release of advisory'] bilou https://www.zerodayinitiative.com/advisories/ZDI-14-365/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-14-365/",
   "title": "Adobe Flash Player casi32 Integer Overflow Remote Code Execution Vulnerability",
   "updated_date": null,

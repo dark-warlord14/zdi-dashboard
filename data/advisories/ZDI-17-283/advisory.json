@@ -11,13 +11,13 @@
   "cve": null,
   "cve_url": null,
   "cvss": 10.0,
-  "cvss_vector": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2017-02-16 - Vulnerability reported to vendor",
     "2017-04-11 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-17-283 ZDI-CAN-4427 Trend Micro Deep Discovery Email Inspector policy_setting Arbitrary File Upload Remote Code Execution Vulnerability 2017-04-11 10.0 AV:N/AC:L/Au:N/C:C/I:C/A:C ['Trend Micro'] ['Deep Discovery Email Inspector'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Trend Micro Deep Discovery Email Inspector. Authentication is not required to exploit this vulnerability. The specific flaw exists within policy_setting.php. The issue results from the lack of proper validation of user-supplied data, which can allow for the upload of arbitrary files. An attacker can leverage this vulnerability to execute code under the context of the root user. Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/solution/1117093 ['2017-02-16 - Vulnerability reported to vendor', '2017-04-11 - Coordinated public release of advisory'] Nikolay Klendar https://www.zerodayinitiative.com/advisories/ZDI-17-283/",
+  "search_text": "published ZDI-17-283 ZDI-CAN-4427 Trend Micro Deep Discovery Email Inspector policy_setting Arbitrary File Upload Remote Code Execution Vulnerability 2017-04-11 10.0 ['Trend Micro'] ['Deep Discovery Email Inspector'] This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Trend Micro Deep Discovery Email Inspector. Authentication is not required to exploit this vulnerability. The specific flaw exists within policy_setting.php. The issue results from the lack of proper validation of user-supplied data, which can allow for the upload of arbitrary files. An attacker can leverage this vulnerability to execute code under the context of the root user. Trend Micro has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/solution/1117093 ['2017-02-16 - Vulnerability reported to vendor', '2017-04-11 - Coordinated public release of advisory'] Nikolay Klendar https://www.zerodayinitiative.com/advisories/ZDI-17-283/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-283/",
   "title": "Trend Micro Deep Discovery Email Inspector policy_setting Arbitrary File Upload Remote Code Execution Vulnerability",
   "updated_date": null,

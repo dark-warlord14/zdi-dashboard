@@ -11,13 +11,13 @@
   "cve": "CVE-2017-0047",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-0047",
   "cvss": 6.9,
-  "cvss_vector": "AV:L/AC:M/Au:N/C:C/I:C/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2016-10-06 - Vulnerability reported to vendor",
     "2017-03-21 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-17-168 ZDI-CAN-4052 Microsoft Windows DrawIconEx Buffer Overflow Privilege Escalation Vulnerability 2017-03-21 CVE-2017-0047 https://www.cve.org/CVERecord?id=CVE-2017-0047 6.9 AV:L/AC:M/Au:N/C:C/I:C/A:C ['Microsoft'] ['Windows'] This vulnerability allows local attackers to escalate privileges on vulnerable installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the code in the Windows kernel that renders icons. By supplying certain parameter values in a call to DrawIconEx, an attacker can trigger an overflow of a buffer. An attacker can leverage this vulnerability to escalate privilege to SYSTEM. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/en-us/library/security/MS17-0113 ['2016-10-06 - Vulnerability reported to vendor', '2017-03-21 - Coordinated public release of advisory'] bear13oy of CloverSec Labs https://www.zerodayinitiative.com/advisories/ZDI-17-168/",
+  "search_text": "published ZDI-17-168 ZDI-CAN-4052 Microsoft Windows DrawIconEx Buffer Overflow Privilege Escalation Vulnerability 2017-03-21 CVE-2017-0047 https://www.cve.org/CVERecord?id=CVE-2017-0047 6.9 ['Microsoft'] ['Windows'] This vulnerability allows local attackers to escalate privileges on vulnerable installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the code in the Windows kernel that renders icons. By supplying certain parameter values in a call to DrawIconEx, an attacker can trigger an overflow of a buffer. An attacker can leverage this vulnerability to escalate privilege to SYSTEM. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://technet.microsoft.com/en-us/library/security/MS17-0113 ['2016-10-06 - Vulnerability reported to vendor', '2017-03-21 - Coordinated public release of advisory'] bear13oy of CloverSec Labs https://www.zerodayinitiative.com/advisories/ZDI-17-168/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-168/",
   "title": "Microsoft Windows DrawIconEx Buffer Overflow Privilege Escalation Vulnerability",
   "updated_date": null,

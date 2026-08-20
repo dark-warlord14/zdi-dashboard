@@ -11,13 +11,13 @@
   "cve": "CVE-2017-7929",
   "cve_url": "https://www.cve.org/CVERecord?id=CVE-2017-7929",
   "cvss": 6.8,
-  "cvss_vector": "AV:N/AC:L/Au:S/C:N/I:N/A:C",
+  "cvss_vector": null,
   "disclosure_timeline": [
     "2016-10-17 - Vulnerability reported to vendor",
     "2017-05-04 - Coordinated public release of advisory"
   ],
   "kind": "published",
-  "search_text": "published ZDI-17-322 ZDI-CAN-4013 Advantech WebAccess odbcPg4 Absolute Path Traversal File Denial of Service Vulnerability 2017-05-04 CVE-2017-7929 https://www.cve.org/CVERecord?id=CVE-2017-7929 6.8 AV:N/AC:L/Au:S/C:N/I:N/A:C ['Advantech'] ['WebAccess'] This vulnerability allows remote attackers to cause a denial of service condition on vulnerable installations of Advantech WebAccess. Authentication is required to exploit this vulnerability. The specific flaw exists within odbcPg4.asp. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to overwrite key web files which will disable functionality on the target machine. Advantech has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-17-124-03 ['2016-10-17 - Vulnerability reported to vendor', '2017-05-04 - Coordinated public release of advisory'] Zhou Yu https://www.zerodayinitiative.com/advisories/ZDI-17-322/",
+  "search_text": "published ZDI-17-322 ZDI-CAN-4013 Advantech WebAccess odbcPg4 Absolute Path Traversal File Denial of Service Vulnerability 2017-05-04 CVE-2017-7929 https://www.cve.org/CVERecord?id=CVE-2017-7929 6.8 ['Advantech'] ['WebAccess'] This vulnerability allows remote attackers to cause a denial of service condition on vulnerable installations of Advantech WebAccess. Authentication is required to exploit this vulnerability. The specific flaw exists within odbcPg4.asp. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to overwrite key web files which will disable functionality on the target machine. Advantech has issued an update to correct this vulnerability. More details can be found at: https://ics-cert.us-cert.gov/advisories/ICSA-17-124-03 ['2016-10-17 - Vulnerability reported to vendor', '2017-05-04 - Coordinated public release of advisory'] Zhou Yu https://www.zerodayinitiative.com/advisories/ZDI-17-322/",
   "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-17-322/",
   "title": "Advantech WebAccess odbcPg4 Absolute Path Traversal File Denial of Service Vulnerability",
   "updated_date": null,
