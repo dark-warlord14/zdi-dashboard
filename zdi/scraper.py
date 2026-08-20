@@ -140,6 +140,31 @@ def group_details_by_year(
     return grouped
 
 
+def load_advisory_chunks(data_dir: Path) -> dict[str, dict[str, AdvisoryDetail]]:
+    """Load every existing data/advisories/<year>.json into memory, once per run."""
+    advisories_dir = data_dir / "advisories"
+    chunks: dict[str, dict[str, AdvisoryDetail]] = {}
+    if not advisories_dir.exists():
+        return chunks
+    for path in advisories_dir.glob("*.json"):
+        try:
+            raw = json.loads(path.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, OSError):
+            continue
+        chunks[path.stem] = {
+            zdi_id: AdvisoryDetail.model_validate(payload) for zdi_id, payload in raw.items()
+        }
+    return chunks
+
+
+def write_advisory_chunks(data_dir: Path, grouped: dict[str, dict[str, AdvisoryDetail]]) -> None:
+    advisories_dir = data_dir / "advisories"
+    advisories_dir.mkdir(parents=True, exist_ok=True)
+    for year, details_by_id in grouped.items():
+        payload = {zdi_id: detail.model_dump() for zdi_id, detail in details_by_id.items()}
+        dump_json(advisories_dir / f"{year}.json", payload)
+
+
 def published_entries(published: list[PublishedAdvisory], details: dict[str, AdvisoryDetail]) -> list[dict]:
     entries: list[dict] = []
     for record in published:

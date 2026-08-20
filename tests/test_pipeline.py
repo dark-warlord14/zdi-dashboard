@@ -3,7 +3,14 @@ import json
 import pytest
 
 from zdi.models import AdvisoryDetail, PublishedAdvisory, UpcomingAdvisory
-from zdi.scraper import advisory_year, group_details_by_year, guard_against_empty_scrape, write_public_data
+from zdi.scraper import (
+    advisory_year,
+    group_details_by_year,
+    guard_against_empty_scrape,
+    load_advisory_chunks,
+    write_advisory_chunks,
+    write_public_data,
+)
 from zdi.stats import build_stats
 
 
@@ -129,3 +136,25 @@ def test_guard_against_empty_scrape_allows_normal_fluctuation(tmp_path):
 
 def test_guard_against_empty_scrape_ignores_missing_existing_file(tmp_path):
     guard_against_empty_scrape(tmp_path, [], [])
+
+
+def test_write_and_load_advisory_chunks_round_trip(tmp_path):
+    grouped = {"2026": {"ZDI-26-040": sample_detail()}}
+
+    write_advisory_chunks(tmp_path, grouped)
+    loaded = load_advisory_chunks(tmp_path)
+
+    assert set(loaded) == {"2026"}
+    assert loaded["2026"]["ZDI-26-040"].title == sample_detail().title
+
+
+def test_load_advisory_chunks_returns_empty_dict_when_dir_missing(tmp_path):
+    assert load_advisory_chunks(tmp_path) == {}
+
+
+def test_load_advisory_chunks_skips_unreadable_files(tmp_path):
+    advisories_dir = tmp_path / "advisories"
+    advisories_dir.mkdir()
+    (advisories_dir / "2026.json").write_text("not valid json", encoding="utf-8")
+
+    assert load_advisory_chunks(tmp_path) == {}
