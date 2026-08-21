@@ -1,9 +1,9 @@
 {
   "by_cvss_band": {
-    "critical": 2387,
-    "high": 9407,
-    "low": 1465,
-    "medium": 4092,
+    "critical": 2392,
+    "high": 9424,
+    "low": 1467,
+    "medium": 4093,
     "unknown": 337
   },
   "by_vendor": {
@@ -16,14 +16,14 @@
     "D-Link": 261,
     "Delta Electronics": 285,
     "Delta Industrial Automation": 220,
-    "Foxit": 917,
+    "Foxit": 919,
     "Fuji Electric": 196,
     "Hewlett Packard Enterprise": 304,
     "Hewlett-Packard": 242,
     "IrfanView": 180,
     "Ivanti": 179,
     "Linux": 162,
-    "Microsoft": 1971,
+    "Microsoft": 1972,
     "Novell": 130,
     "Oracle": 516,
     "PDF-XChange": 280,
@@ -58,12 +58,12 @@
     "2026": 585
   },
   "cve_coverage": 15384,
-  "high_cvss": 11794,
+  "high_cvss": 11816,
   "total_published": 16992,
-  "total_upcoming": 696,
+  "total_upcoming": 721,
   "upcoming_deadline_state": {
-    "due_soon": 89,
-    "future": 337,
-    "past_due": 270
+    "due_soon": 80,
+    "future": 362,
+    "past_due": 279
   }
 }
