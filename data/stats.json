@@ -1,8 +1,8 @@
 {
   "by_cvss_band": {
     "critical": 2392,
-    "high": 9424,
-    "low": 1467,
+    "high": 9426,
+    "low": 1468,
     "medium": 4093,
     "unknown": 337
   },
@@ -10,7 +10,7 @@
     "Adobe": 2035,
     "Advantech": 734,
     "Apple": 815,
-    "Autodesk": 513,
+    "Autodesk": 516,
     "Bentley": 208,
     "Cisco": 323,
     "D-Link": 261,
@@ -58,12 +58,12 @@
     "2026": 585
   },
   "cve_coverage": 15384,
-  "high_cvss": 11816,
+  "high_cvss": 11818,
   "total_published": 16992,
-  "total_upcoming": 721,
+  "total_upcoming": 724,
   "upcoming_deadline_state": {
-    "due_soon": 80,
-    "future": 362,
-    "past_due": 279
+    "due_soon": 74,
+    "future": 365,
+    "past_due": 285
   }
 }
