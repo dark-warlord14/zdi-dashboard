@@ -16378,5 +16378,733 @@
     "vulnerability_details": "This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of dnsmasq. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of NSEC records. The issue results from a lack of a proper exit condition in a loop. An attacker can leverage this vulnerability to create a denial-of-service condition on the system.",
     "zdi_can": "ZDI-CAN-30607",
     "zdi_id": "ZDI-26-584"
+  },
+  "ZDI-26-585": {
+    "additional_details": "Fixed in Origin Viewer 10.4.0.25",
+    "advisory_date": "2026-08-24",
+    "affected_products": [
+      "Origin Viewer"
+    ],
+    "affected_vendors": [
+      "OriginLab"
+    ],
+    "credit": "rgod",
+    "cve": "CVE-2026-19885",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-19885",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-03-31 - Vulnerability reported to vendor",
+      "2026-08-24 - Coordinated public release of advisory",
+      "2026-08-24 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-585 ZDI-CAN-29337 OriginLab Origin Viewer OGWU File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability 2026-08-24 CVE-2026-19885 https://www.cve.org/CVERecord?id=CVE-2026-19885 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['OriginLab'] ['Origin Viewer'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab Origin Viewer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of OGWU files. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated data structure. An attacker can leverage this vulnerability to execute code in the context of the current process. Fixed in Origin Viewer 10.4.0.25 ['2026-03-31 - Vulnerability reported to vendor', '2026-08-24 - Coordinated public release of advisory', '2026-08-24 - Advisory Updated'] rgod https://www.zerodayinitiative.com/advisories/ZDI-26-585/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-585/",
+    "title": "OriginLab Origin Viewer OGWU File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+    "updated_date": "2026-08-24",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab Origin Viewer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of OGWU files. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated data structure. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29337",
+    "zdi_id": "ZDI-26-585"
+  },
+  "ZDI-26-586": {
+    "additional_details": "Fixed in Origin Viewer 10.4.0.25",
+    "advisory_date": "2026-08-24",
+    "affected_products": [
+      "Origin Viewer"
+    ],
+    "affected_vendors": [
+      "OriginLab"
+    ],
+    "credit": "rgod",
+    "cve": "CVE-2026-19886",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-19886",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-04-09 - Vulnerability reported to vendor",
+      "2026-08-24 - Coordinated public release of advisory",
+      "2026-08-24 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-586 ZDI-CAN-29340 OriginLab Origin Viewer OGM File Parsing Memory Corruption Remote Code Execution Vulnerability 2026-08-24 CVE-2026-19886 https://www.cve.org/CVERecord?id=CVE-2026-19886 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['OriginLab'] ['Origin Viewer'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab Origin Viewer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of OGM files. The issue results from the lack of proper validation of user-supplied data, which can result in a memory corruption condition. An attacker can leverage this vulnerability to execute code in the context of the current process. Fixed in Origin Viewer 10.4.0.25 ['2026-04-09 - Vulnerability reported to vendor', '2026-08-24 - Coordinated public release of advisory', '2026-08-24 - Advisory Updated'] rgod https://www.zerodayinitiative.com/advisories/ZDI-26-586/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-586/",
+    "title": "OriginLab Origin Viewer OGM File Parsing Memory Corruption Remote Code Execution Vulnerability",
+    "updated_date": "2026-08-24",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab Origin Viewer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of OGM files. The issue results from the lack of proper validation of user-supplied data, which can result in a memory corruption condition. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29340",
+    "zdi_id": "ZDI-26-586"
+  },
+  "ZDI-26-587": {
+    "additional_details": "Fixed in version 12.6.1204.210",
+    "advisory_date": "2026-08-24",
+    "affected_products": [
+      "Cobalt"
+    ],
+    "affected_vendors": [
+      "Ashlar-Vellum"
+    ],
+    "credit": "Rocco Calvi (@TecR0c) with TecSecurity",
+    "cve": "CVE-2026-19781",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-19781",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2025-11-11 - Vulnerability reported to vendor",
+      "2026-08-24 - Coordinated public release of advisory",
+      "2026-08-24 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-587 ZDI-CAN-28173 Ashlar-Vellum Cobalt VS File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability 2026-08-24 CVE-2026-19781 https://www.cve.org/CVERecord?id=CVE-2026-19781 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Ashlar-Vellum'] ['Cobalt'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ashlar-Vellum Cobalt. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of VS files. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. Fixed in version 12.6.1204.210 ['2025-11-11 - Vulnerability reported to vendor', '2026-08-24 - Coordinated public release of advisory', '2026-08-24 - Advisory Updated'] Rocco Calvi (@TecR0c) with TecSecurity https://www.zerodayinitiative.com/advisories/ZDI-26-587/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-587/",
+    "title": "Ashlar-Vellum Cobalt VS File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+    "updated_date": "2026-08-24",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ashlar-Vellum Cobalt. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of VS files. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-28173",
+    "zdi_id": "ZDI-26-587"
+  },
+  "ZDI-26-588": {
+    "additional_details": "Fabric.js has issued an update to correct this vulnerability. More details can be found at: https://github.com/fabricjs/fabric.js/pull/11064",
+    "advisory_date": "2026-08-24",
+    "affected_products": [
+      "Fabric.js"
+    ],
+    "affected_vendors": [
+      "Fabric.js"
+    ],
+    "credit": "nedlir",
+    "cve": "CVE-2026-19504",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-19504",
+    "cvss": 4.0,
+    "cvss_vector": "AV:L/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+    "disclosure_timeline": [
+      "2026-04-07 - Vulnerability reported to vendor",
+      "2026-08-24 - Coordinated public release of advisory",
+      "2026-08-24 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-588 ZDI-CAN-29318 Fabric.js loadFromJSON Server-Side Request Forgery Vulnerability 2026-08-24 CVE-2026-19504 https://www.cve.org/CVERecord?id=CVE-2026-19504 4.0 AV:L/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N ['Fabric.js'] ['Fabric.js'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Fabric.js. Interaction with this library is required to exploit this vulnerability but attack vectors may vary depending on the implementation. The specific flaw exists within the implementation of the loadFromJSON method. The issue results from the lack of proper validation of a URI prior to accessing resources. An attacker may be able to leverage this vulnerability to gain improper access to network resources. Fabric.js has issued an update to correct this vulnerability. More details can be found at: https://github.com/fabricjs/fabric.js/pull/11064 ['2026-04-07 - Vulnerability reported to vendor', '2026-08-24 - Coordinated public release of advisory', '2026-08-24 - Advisory Updated'] nedlir https://www.zerodayinitiative.com/advisories/ZDI-26-588/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-588/",
+    "title": "Fabric.js loadFromJSON Server-Side Request Forgery Vulnerability",
+    "updated_date": "2026-08-24",
+    "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Fabric.js. Interaction with this library is required to exploit this vulnerability but attack vectors may vary depending on the implementation. The specific flaw exists within the implementation of the loadFromJSON method. The issue results from the lack of proper validation of a URI prior to accessing resources. An attacker may be able to leverage this vulnerability to gain improper access to network resources.",
+    "zdi_can": "ZDI-CAN-29318",
+    "zdi_id": "ZDI-26-588"
+  },
+  "ZDI-26-589": {
+    "additional_details": "BlueZ has issued an update to correct this vulnerability. More details can be found at: https://github.com/bluez/bluez/pull/2251",
+    "advisory_date": "2026-08-24",
+    "affected_products": [
+      "BlueZ"
+    ],
+    "affected_vendors": [
+      "BlueZ"
+    ],
+    "credit": "p0her (_@p0her_) in TeamH4C",
+    "cve": "CVE-2026-19774",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-19774",
+    "cvss": 7.1,
+    "cvss_vector": "AV:A/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-04-08 - Vulnerability reported to vendor",
+      "2026-08-24 - Coordinated public release of advisory",
+      "2026-08-24 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-589 ZDI-CAN-29429 BlueZ A2DP Stack-based Buffer Overflow Remote Code Execution Vulnerability 2026-08-24 CVE-2026-19774 https://www.cve.org/CVERecord?id=CVE-2026-19774 7.1 AV:A/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H ['BlueZ'] ['BlueZ'] This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of BlueZ. An attacker must first obtain the ability to pair a malicious Bluetooth device with the target system in order to exploit this vulnerability. The specific flaw exists within the handling of the stream endpoints. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of root. BlueZ has issued an update to correct this vulnerability. More details can be found at: https://github.com/bluez/bluez/pull/2251 ['2026-04-08 - Vulnerability reported to vendor', '2026-08-24 - Coordinated public release of advisory', '2026-08-24 - Advisory Updated'] p0her (_@p0her_) in TeamH4C https://www.zerodayinitiative.com/advisories/ZDI-26-589/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-589/",
+    "title": "BlueZ A2DP Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+    "updated_date": "2026-08-24",
+    "vulnerability_details": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of BlueZ. An attacker must first obtain the ability to pair a malicious Bluetooth device with the target system in order to exploit this vulnerability. The specific flaw exists within the handling of the stream endpoints. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of root.",
+    "zdi_can": "ZDI-CAN-29429",
+    "zdi_id": "ZDI-26-589"
+  },
+  "ZDI-26-590": {
+    "additional_details": "libwebsockets has issued an update to correct this vulnerability. More details can be found at: https://github.com/warmcat/libwebsockets/commit/824151862f37bc72f46d9a3e01d5b9408d313a0b",
+    "advisory_date": "2026-08-24",
+    "affected_products": [
+      "libwebsockets"
+    ],
+    "affected_vendors": [
+      "libwebsockets"
+    ],
+    "credit": "Maher Azzouzi",
+    "cve": "CVE-2026-19773",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-19773",
+    "cvss": 9.8,
+    "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-07-03 - Vulnerability reported to vendor",
+      "2026-08-24 - Coordinated public release of advisory",
+      "2026-08-24 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-590 ZDI-CAN-31036 libwebsockets HTTP/2 HPACK Path Header Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability 2026-08-24 CVE-2026-19773 https://www.cve.org/CVERecord?id=CVE-2026-19773 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['libwebsockets'] ['libwebsockets'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of libwebsockets. Authentication is not required to exploit this vulnerability. The specific flaw exists within the parsing of HTTP/2 HPACK path header. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. libwebsockets has issued an update to correct this vulnerability. More details can be found at: https://github.com/warmcat/libwebsockets/commit/824151862f37bc72f46d9a3e01d5b9408d313a0b ['2026-07-03 - Vulnerability reported to vendor', '2026-08-24 - Coordinated public release of advisory', '2026-08-24 - Advisory Updated'] Maher Azzouzi https://www.zerodayinitiative.com/advisories/ZDI-26-590/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-590/",
+    "title": "libwebsockets HTTP/2 HPACK Path Header Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+    "updated_date": "2026-08-24",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of libwebsockets. Authentication is not required to exploit this vulnerability. The specific flaw exists within the parsing of HTTP/2 HPACK path header. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated buffer. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-31036",
+    "zdi_id": "ZDI-26-590"
+  },
+  "ZDI-26-591": {
+    "additional_details": "NVIDIA has issued an update to correct this vulnerability. More details can be found at: https://nvidia.custhelp.com/app/answers/detail/a_id/5855",
+    "advisory_date": "2026-08-24",
+    "affected_products": [
+      "TensorRT"
+    ],
+    "affected_vendors": [
+      "NVIDIA"
+    ],
+    "credit": "Seiji Sakurai (@HeapSmasher)",
+    "cve": "CVE-2026-24272",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-24272",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-04-15 - Vulnerability reported to vendor",
+      "2026-08-24 - Coordinated public release of advisory",
+      "2026-08-24 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-591 ZDI-CAN-30323 NVIDIA TensorRT ONNX File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability 2026-08-24 CVE-2026-24272 https://www.cve.org/CVERecord?id=CVE-2026-24272 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['NVIDIA'] ['TensorRT'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of NVIDIA TensorRT. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of ONNX models. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. NVIDIA has issued an update to correct this vulnerability. More details can be found at: https://nvidia.custhelp.com/app/answers/detail/a_id/5855 ['2026-04-15 - Vulnerability reported to vendor', '2026-08-24 - Coordinated public release of advisory', '2026-08-24 - Advisory Updated'] Seiji Sakurai (@HeapSmasher) https://www.zerodayinitiative.com/advisories/ZDI-26-591/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-591/",
+    "title": "NVIDIA TensorRT ONNX File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+    "updated_date": "2026-08-24",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of NVIDIA TensorRT. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of ONNX models. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-30323",
+    "zdi_id": "ZDI-26-591"
+  },
+  "ZDI-26-592": {
+    "additional_details": "NVIDIA has issued an update to correct this vulnerability. More details can be found at: https://nvidia.custhelp.com/app/answers/detail/a_id/5855",
+    "advisory_date": "2026-08-24",
+    "affected_products": [
+      "TensorRT"
+    ],
+    "affected_vendors": [
+      "NVIDIA"
+    ],
+    "credit": "Seiji Sakurai (@HeapSmasher)",
+    "cve": "CVE-2026-24238",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-24238",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-04-15 - Vulnerability reported to vendor",
+      "2026-08-24 - Coordinated public release of advisory",
+      "2026-08-24 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-592 ZDI-CAN-30322 NVIDIA TensorRT ONNX File Parsing Improper Validation of Array Index Remote Code Execution Vulnerability 2026-08-24 CVE-2026-24238 https://www.cve.org/CVERecord?id=CVE-2026-24238 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['NVIDIA'] ['TensorRT'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of NVIDIA TensorRT. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of Slice operations in ONNX models. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated array. An attacker can leverage this vulnerability to execute code in the context of the current process. NVIDIA has issued an update to correct this vulnerability. More details can be found at: https://nvidia.custhelp.com/app/answers/detail/a_id/5855 ['2026-04-15 - Vulnerability reported to vendor', '2026-08-24 - Coordinated public release of advisory', '2026-08-24 - Advisory Updated'] Seiji Sakurai (@HeapSmasher) https://www.zerodayinitiative.com/advisories/ZDI-26-592/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-592/",
+    "title": "NVIDIA TensorRT ONNX File Parsing Improper Validation of Array Index Remote Code Execution Vulnerability",
+    "updated_date": "2026-08-24",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of NVIDIA TensorRT. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of Slice operations in ONNX models. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated array. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-30322",
+    "zdi_id": "ZDI-26-592"
+  },
+  "ZDI-26-593": {
+    "additional_details": "NVIDIA has issued an update to correct this vulnerability. More details can be found at: https://nvidia.custhelp.com/app/answers/detail/a_id/5855",
+    "advisory_date": "2026-08-24",
+    "affected_products": [
+      "TensorRT"
+    ],
+    "affected_vendors": [
+      "NVIDIA"
+    ],
+    "credit": "Seiji Sakurai (@HeapSmasher)",
+    "cve": "CVE-2026-24268",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-24268",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-04-15 - Vulnerability reported to vendor",
+      "2026-08-24 - Coordinated public release of advisory",
+      "2026-08-24 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-593 ZDI-CAN-30321 NVIDIA TensorRT ONNX File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability 2026-08-24 CVE-2026-24268 https://www.cve.org/CVERecord?id=CVE-2026-24268 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['NVIDIA'] ['TensorRT'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of NVIDIA TensorRT. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of ONNX models. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. NVIDIA has issued an update to correct this vulnerability. More details can be found at: https://nvidia.custhelp.com/app/answers/detail/a_id/5855 ['2026-04-15 - Vulnerability reported to vendor', '2026-08-24 - Coordinated public release of advisory', '2026-08-24 - Advisory Updated'] Seiji Sakurai (@HeapSmasher) https://www.zerodayinitiative.com/advisories/ZDI-26-593/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-593/",
+    "title": "NVIDIA TensorRT ONNX File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+    "updated_date": "2026-08-24",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of NVIDIA TensorRT. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of ONNX models. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-30321",
+    "zdi_id": "ZDI-26-593"
+  },
+  "ZDI-26-594": {
+    "additional_details": "NVIDIA has issued an update to correct this vulnerability. More details can be found at: https://nvidia.custhelp.com/app/answers/detail/a_id/5841",
+    "advisory_date": "2026-08-24",
+    "affected_products": [
+      "Megatron Bridge"
+    ],
+    "affected_vendors": [
+      "NVIDIA"
+    ],
+    "credit": "YJK(@YJK0805) of ZUSO ART",
+    "cve": "CVE-2026-24251",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-24251",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-04-16 - Vulnerability reported to vendor",
+      "2026-08-24 - Coordinated public release of advisory",
+      "2026-08-24 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-594 ZDI-CAN-30353 NVIDIA Megatron Bridge load_model_config Code Injection Remote Code Execution Vulnerability 2026-08-24 CVE-2026-24251 https://www.cve.org/CVERecord?id=CVE-2026-24251 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['NVIDIA'] ['Megatron Bridge'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of NVIDIA Megatron Bridge. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the loading of model checkpoint configurations. The issue results from the lack of proper validation of a user-supplied string before using it to execute Python code. An attacker can leverage this vulnerability to execute code in the context of the current user. NVIDIA has issued an update to correct this vulnerability. More details can be found at: https://nvidia.custhelp.com/app/answers/detail/a_id/5841 ['2026-04-16 - Vulnerability reported to vendor', '2026-08-24 - Coordinated public release of advisory', '2026-08-24 - Advisory Updated'] YJK(@YJK0805) of ZUSO ART https://www.zerodayinitiative.com/advisories/ZDI-26-594/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-594/",
+    "title": "NVIDIA Megatron Bridge load_model_config Code Injection Remote Code Execution Vulnerability",
+    "updated_date": "2026-08-24",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of NVIDIA Megatron Bridge. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the loading of model checkpoint configurations. The issue results from the lack of proper validation of a user-supplied string before using it to execute Python code. An attacker can leverage this vulnerability to execute code in the context of the current user.",
+    "zdi_can": "ZDI-CAN-30353",
+    "zdi_id": "ZDI-26-594"
+  },
+  "ZDI-26-595": {
+    "additional_details": "Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html",
+    "advisory_date": "2026-08-24",
+    "affected_products": [
+      "PDF Reader"
+    ],
+    "affected_vendors": [
+      "Foxit"
+    ],
+    "credit": "Anonymous",
+    "cve": "CVE-2026-57254",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-57254",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-06-15 - Vulnerability reported to vendor",
+      "2026-08-24 - Coordinated public release of advisory",
+      "2026-08-24 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-595 ZDI-CAN-31158 Foxit PDF Reader Annotation Use-After-Free Remote Code Execution Vulnerability 2026-08-24 CVE-2026-57254 https://www.cve.org/CVERecord?id=CVE-2026-57254 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Foxit'] ['PDF Reader'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Annotation objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute arbitrary code in the context of the current process. Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html ['2026-06-15 - Vulnerability reported to vendor', '2026-08-24 - Coordinated public release of advisory', '2026-08-24 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-595/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-595/",
+    "title": "Foxit PDF Reader Annotation Use-After-Free Remote Code Execution Vulnerability",
+    "updated_date": "2026-08-24",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Annotation objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute arbitrary code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-31158",
+    "zdi_id": "ZDI-26-595"
+  },
+  "ZDI-26-596": {
+    "additional_details": "Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html",
+    "advisory_date": "2026-08-24",
+    "affected_products": [
+      "PDF Reader"
+    ],
+    "affected_vendors": [
+      "Foxit"
+    ],
+    "credit": "Anonymous",
+    "cve": "CVE-2026-57253",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-57253",
+    "cvss": 3.3,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+    "disclosure_timeline": [
+      "2026-04-30 - Vulnerability reported to vendor",
+      "2026-08-24 - Coordinated public release of advisory",
+      "2026-08-24 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-596 ZDI-CAN-30755 Foxit PDF Reader PDF File Parsing Out-Of-Bounds Read Information Disclosure Vulnerability 2026-08-24 CVE-2026-57253 https://www.cve.org/CVERecord?id=CVE-2026-57253 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N ['Foxit'] ['PDF Reader'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of PDF files. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated object. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process. Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html ['2026-04-30 - Vulnerability reported to vendor', '2026-08-24 - Coordinated public release of advisory', '2026-08-24 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-596/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-596/",
+    "title": "Foxit PDF Reader PDF File Parsing Out-Of-Bounds Read Information Disclosure Vulnerability",
+    "updated_date": "2026-08-24",
+    "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of PDF files. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated object. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-30755",
+    "zdi_id": "ZDI-26-596"
+  },
+  "ZDI-26-597": {
+    "additional_details": "Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html",
+    "advisory_date": "2026-08-24",
+    "affected_products": [
+      "PDF Reader"
+    ],
+    "affected_vendors": [
+      "Foxit"
+    ],
+    "credit": "Anonymous",
+    "cve": "CVE-2026-57252",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-57252",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-04-30 - Vulnerability reported to vendor",
+      "2026-08-24 - Coordinated public release of advisory",
+      "2026-08-24 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-597 ZDI-CAN-30696 Foxit PDF Reader AcroForm Use-After-Free Remote Code Execution Vulnerability 2026-08-24 CVE-2026-57252 https://www.cve.org/CVERecord?id=CVE-2026-57252 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Foxit'] ['PDF Reader'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of AcroForms. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current process. Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html ['2026-04-30 - Vulnerability reported to vendor', '2026-08-24 - Coordinated public release of advisory', '2026-08-24 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-597/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-597/",
+    "title": "Foxit PDF Reader AcroForm Use-After-Free Remote Code Execution Vulnerability",
+    "updated_date": "2026-08-24",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of AcroForms. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-30696",
+    "zdi_id": "ZDI-26-597"
+  },
+  "ZDI-26-598": {
+    "additional_details": "Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html",
+    "advisory_date": "2026-08-24",
+    "affected_products": [
+      "PDF Reader"
+    ],
+    "affected_vendors": [
+      "Foxit"
+    ],
+    "credit": "Anonymous",
+    "cve": "CVE-2026-57242",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-57242",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-04-30 - Vulnerability reported to vendor",
+      "2026-08-24 - Coordinated public release of advisory",
+      "2026-08-24 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-598 ZDI-CAN-30661 Foxit PDF Reader AcroForm Use-After-Free Remote Code Execution Vulnerability 2026-08-24 CVE-2026-57242 https://www.cve.org/CVERecord?id=CVE-2026-57242 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Foxit'] ['PDF Reader'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of AcroForms. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current process. Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html ['2026-04-30 - Vulnerability reported to vendor', '2026-08-24 - Coordinated public release of advisory', '2026-08-24 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-598/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-598/",
+    "title": "Foxit PDF Reader AcroForm Use-After-Free Remote Code Execution Vulnerability",
+    "updated_date": "2026-08-24",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of AcroForms. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-30661",
+    "zdi_id": "ZDI-26-598"
+  },
+  "ZDI-26-599": {
+    "additional_details": "Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html",
+    "advisory_date": "2026-08-24",
+    "affected_products": [
+      "PDF Reader"
+    ],
+    "affected_vendors": [
+      "Foxit"
+    ],
+    "credit": "Anonymous",
+    "cve": "CVE-2026-57238",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-57238",
+    "cvss": 3.3,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+    "disclosure_timeline": [
+      "2026-04-16 - Vulnerability reported to vendor",
+      "2026-08-24 - Coordinated public release of advisory",
+      "2026-08-24 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-599 ZDI-CAN-30312 Foxit PDF Reader Annotation Use-After-Free Information Disclosure Vulnerability 2026-08-24 CVE-2026-57238 https://www.cve.org/CVERecord?id=CVE-2026-57238 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N ['Foxit'] ['PDF Reader'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Annotation objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process. Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html ['2026-04-16 - Vulnerability reported to vendor', '2026-08-24 - Coordinated public release of advisory', '2026-08-24 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-599/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-599/",
+    "title": "Foxit PDF Reader Annotation Use-After-Free Information Disclosure Vulnerability",
+    "updated_date": "2026-08-24",
+    "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Annotation objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-30312",
+    "zdi_id": "ZDI-26-599"
+  },
+  "ZDI-26-600": {
+    "additional_details": "Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html",
+    "advisory_date": "2026-08-24",
+    "affected_products": [
+      "PDF Reader"
+    ],
+    "affected_vendors": [
+      "Foxit"
+    ],
+    "credit": "Anonymous",
+    "cve": "CVE-2026-57237",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-57237",
+    "cvss": 3.3,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+    "disclosure_timeline": [
+      "2026-04-16 - Vulnerability reported to vendor",
+      "2026-08-24 - Coordinated public release of advisory",
+      "2026-08-24 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-600 ZDI-CAN-30311 Foxit PDF Reader Annotation Use-After-Free Information Disclosure Vulnerability 2026-08-24 CVE-2026-57237 https://www.cve.org/CVERecord?id=CVE-2026-57237 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N ['Foxit'] ['PDF Reader'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Annotation objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process. Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html ['2026-04-16 - Vulnerability reported to vendor', '2026-08-24 - Coordinated public release of advisory', '2026-08-24 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-600/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-600/",
+    "title": "Foxit PDF Reader Annotation Use-After-Free Information Disclosure Vulnerability",
+    "updated_date": "2026-08-24",
+    "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Annotation objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-30311",
+    "zdi_id": "ZDI-26-600"
+  },
+  "ZDI-26-601": {
+    "additional_details": "Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html",
+    "advisory_date": "2026-08-24",
+    "affected_products": [
+      "PDF Reader"
+    ],
+    "affected_vendors": [
+      "Foxit"
+    ],
+    "credit": "Anonymous",
+    "cve": "CVE-2026-13129",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-13129",
+    "cvss": 3.3,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+    "disclosure_timeline": [
+      "2026-04-16 - Vulnerability reported to vendor",
+      "2026-08-24 - Coordinated public release of advisory",
+      "2026-08-24 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-601 ZDI-CAN-30310 Foxit PDF Reader Annotation Use-After-Free Information Disclosure Vulnerability 2026-08-24 CVE-2026-13129 https://www.cve.org/CVERecord?id=CVE-2026-13129 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N ['Foxit'] ['PDF Reader'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Annotation objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process. Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html ['2026-04-16 - Vulnerability reported to vendor', '2026-08-24 - Coordinated public release of advisory', '2026-08-24 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-601/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-601/",
+    "title": "Foxit PDF Reader Annotation Use-After-Free Information Disclosure Vulnerability",
+    "updated_date": "2026-08-24",
+    "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Annotation objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-30310",
+    "zdi_id": "ZDI-26-601"
+  },
+  "ZDI-26-602": {
+    "additional_details": "Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html",
+    "advisory_date": "2026-08-24",
+    "affected_products": [
+      "PDF Reader"
+    ],
+    "affected_vendors": [
+      "Foxit"
+    ],
+    "credit": "Anonymous",
+    "cve": "CVE-2026-13128",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-13128",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-04-16 - Vulnerability reported to vendor",
+      "2026-08-24 - Coordinated public release of advisory",
+      "2026-08-24 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-602 ZDI-CAN-30270 Foxit PDF Reader Doc Object Use-After-Free Remote Code Execution Vulnerability 2026-08-24 CVE-2026-13128 https://www.cve.org/CVERecord?id=CVE-2026-13128 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Foxit'] ['PDF Reader'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Doc objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current process. Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html ['2026-04-16 - Vulnerability reported to vendor', '2026-08-24 - Coordinated public release of advisory', '2026-08-24 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-602/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-602/",
+    "title": "Foxit PDF Reader Doc Object Use-After-Free Remote Code Execution Vulnerability",
+    "updated_date": "2026-08-24",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Doc objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-30270",
+    "zdi_id": "ZDI-26-602"
+  },
+  "ZDI-26-603": {
+    "additional_details": "Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html",
+    "advisory_date": "2026-08-24",
+    "affected_products": [
+      "PDF Reader"
+    ],
+    "affected_vendors": [
+      "Foxit"
+    ],
+    "credit": "Anonymous",
+    "cve": "CVE-2026-13127",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-13127",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-04-16 - Vulnerability reported to vendor",
+      "2026-08-24 - Coordinated public release of advisory",
+      "2026-08-24 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-603 ZDI-CAN-30248 Foxit PDF Reader Annotation Use-After-Free Remote Code Execution Vulnerability 2026-08-24 CVE-2026-13127 https://www.cve.org/CVERecord?id=CVE-2026-13127 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Foxit'] ['PDF Reader'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Annotation objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current process. Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html ['2026-04-16 - Vulnerability reported to vendor', '2026-08-24 - Coordinated public release of advisory', '2026-08-24 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-603/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-603/",
+    "title": "Foxit PDF Reader Annotation Use-After-Free Remote Code Execution Vulnerability",
+    "updated_date": "2026-08-24",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Annotation objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-30248",
+    "zdi_id": "ZDI-26-603"
+  },
+  "ZDI-26-604": {
+    "additional_details": "Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html",
+    "advisory_date": "2026-08-24",
+    "affected_products": [
+      "PDF Reader"
+    ],
+    "affected_vendors": [
+      "Foxit"
+    ],
+    "credit": "Anonymous",
+    "cve": "CVE-2026-13126",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-13126",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-04-16 - Vulnerability reported to vendor",
+      "2026-08-24 - Coordinated public release of advisory",
+      "2026-08-24 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-604 ZDI-CAN-30246 Foxit PDF Reader Annotation Use-After-Free Remote Code Execution Vulnerability 2026-08-24 CVE-2026-13126 https://www.cve.org/CVERecord?id=CVE-2026-13126 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Foxit'] ['PDF Reader'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Annotation objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current process. Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html ['2026-04-16 - Vulnerability reported to vendor', '2026-08-24 - Coordinated public release of advisory', '2026-08-24 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-604/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-604/",
+    "title": "Foxit PDF Reader Annotation Use-After-Free Remote Code Execution Vulnerability",
+    "updated_date": "2026-08-24",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Annotation objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-30246",
+    "zdi_id": "ZDI-26-604"
+  },
+  "ZDI-26-605": {
+    "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50508",
+    "advisory_date": "2026-08-24",
+    "affected_products": [
+      "Windows"
+    ],
+    "affected_vendors": [
+      "Microsoft"
+    ],
+    "credit": "Jonathan Lein of TrendAI Research",
+    "cve": "CVE-2026-50508",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-50508",
+    "cvss": 3.3,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+    "disclosure_timeline": [
+      "2026-03-02 - Vulnerability reported to vendor",
+      "2026-08-24 - Coordinated public release of advisory",
+      "2026-08-24 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-605 ZDI-CAN-29223 Microsoft Windows Localized Filenames Improper Input Validation NTLM Response Information Disclosure Vulnerability 2026-08-24 CVE-2026-50508 https://www.cve.org/CVERecord?id=CVE-2026-50508 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N ['Microsoft'] ['Windows'] This vulnerability allows remote attackers to disclose NTLM responses on affected installations of Microsoft Windows. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of localized filenames. The issue results from the lack of proper input validation. An attacker can leverage this vulnerability to disclose NTLM responses in the context of the current user. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50508 ['2026-03-02 - Vulnerability reported to vendor', '2026-08-24 - Coordinated public release of advisory', '2026-08-24 - Advisory Updated'] Jonathan Lein of TrendAI Research https://www.zerodayinitiative.com/advisories/ZDI-26-605/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-605/",
+    "title": "Microsoft Windows Localized Filenames Improper Input Validation NTLM Response Information Disclosure Vulnerability",
+    "updated_date": "2026-08-24",
+    "vulnerability_details": "This vulnerability allows remote attackers to disclose NTLM responses on affected installations of Microsoft Windows. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of localized filenames. The issue results from the lack of proper input validation. An attacker can leverage this vulnerability to disclose NTLM responses in the context of the current user.",
+    "zdi_can": "ZDI-CAN-29223",
+    "zdi_id": "ZDI-26-605"
+  },
+  "ZDI-26-606": {
+    "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/acknowledgement/online",
+    "advisory_date": "2026-08-24",
+    "affected_products": [
+      "Windows"
+    ],
+    "affected_vendors": [
+      "Microsoft"
+    ],
+    "credit": "mad31k",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.0,
+    "cvss_vector": "AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2025-12-23 - Vulnerability reported to vendor",
+      "2026-08-24 - Coordinated public release of advisory",
+      "2026-08-24 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-606 ZDI-CAN-28205 Microsoft Windows Compatibility Appraiser Link Following Local Privilege Escalation Vulnerability 2026-08-24 7.0 AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H ['Microsoft'] ['Windows'] This vulnerability allows local attackers to escalate privileges on affected installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code in the context of LOCAL SERVICE on the target system in order to exploit this vulnerability. The specific flaw exists within the Microsoft Compatibility Appraiser Exp scheduled task. By creating a symbolic link, an attacker can abuse the service to delete arbitrary files. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/acknowledgement/online ['2025-12-23 - Vulnerability reported to vendor', '2026-08-24 - Coordinated public release of advisory', '2026-08-24 - Advisory Updated'] mad31k https://www.zerodayinitiative.com/advisories/ZDI-26-606/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-606/",
+    "title": "Microsoft Windows Compatibility Appraiser Link Following Local Privilege Escalation Vulnerability",
+    "updated_date": "2026-08-24",
+    "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code in the context of LOCAL SERVICE on the target system in order to exploit this vulnerability. The specific flaw exists within the Microsoft Compatibility Appraiser Exp scheduled task. By creating a symbolic link, an attacker can abuse the service to delete arbitrary files. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+    "zdi_can": "ZDI-CAN-28205",
+    "zdi_id": "ZDI-26-606"
+  },
+  "ZDI-26-607": {
+    "additional_details": "Fixed in Microsoft Office Web home.office.com",
+    "advisory_date": "2026-08-24",
+    "affected_products": [
+      "Office"
+    ],
+    "affected_vendors": [
+      "Microsoft"
+    ],
+    "credit": "kaijieguigui",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.6,
+    "cvss_vector": "AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:L/A:L",
+    "disclosure_timeline": [
+      "2026-03-03 - Vulnerability reported to vendor",
+      "2026-08-24 - Coordinated public release of advisory",
+      "2026-08-24 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-607 ZDI-CAN-29320 Microsoft Office HTML Injection Information Disclosure Vulnerability 2026-08-24 7.6 AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:L/A:L ['Microsoft'] ['Office'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Microsoft Office. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of query string parameters. The issue results from the lack of proper validation of user-supplied data, which can lead to the injection of arbitrary HTML. An attacker can leverage this vulnerability to disclose stored credentials, leading to further compromise. Fixed in Microsoft Office Web home.office.com ['2026-03-03 - Vulnerability reported to vendor', '2026-08-24 - Coordinated public release of advisory', '2026-08-24 - Advisory Updated'] kaijieguigui https://www.zerodayinitiative.com/advisories/ZDI-26-607/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-607/",
+    "title": "Microsoft Office HTML Injection Information Disclosure Vulnerability",
+    "updated_date": "2026-08-24",
+    "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Microsoft Office. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of query string parameters. The issue results from the lack of proper validation of user-supplied data, which can lead to the injection of arbitrary HTML. An attacker can leverage this vulnerability to disclose stored credentials, leading to further compromise.",
+    "zdi_can": "ZDI-CAN-29320",
+    "zdi_id": "ZDI-26-607"
+  },
+  "ZDI-26-608": {
+    "additional_details": "Linux has issued an update to correct this vulnerability. More details can be found at: https://github.com/torvalds/linux/commit/9910e835580fef3bef53b70241dd00c4bffad693",
+    "advisory_date": "2026-08-24",
+    "affected_products": [
+      "Kernel"
+    ],
+    "affected_vendors": [
+      "Linux"
+    ],
+    "credit": "GangMin Kim",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 8.2,
+    "cvss_vector": "AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-06-19 - Vulnerability reported to vendor",
+      "2026-08-24 - Coordinated public release of advisory",
+      "2026-08-24 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-608 ZDI-CAN-31468 Linux Kernel KVM IOAPIC Use-After-Free Local Privilege Escalation Vulnerability 2026-08-24 8.2 AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H ['Linux'] ['Kernel'] This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute high-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of kvm_lapic objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the kernel. Linux has issued an update to correct this vulnerability. More details can be found at: https://github.com/torvalds/linux/commit/9910e835580fef3bef53b70241dd00c4bffad693 ['2026-06-19 - Vulnerability reported to vendor', '2026-08-24 - Coordinated public release of advisory', '2026-08-24 - Advisory Updated'] GangMin Kim https://www.zerodayinitiative.com/advisories/ZDI-26-608/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-608/",
+    "title": "Linux Kernel KVM IOAPIC Use-After-Free Local Privilege Escalation Vulnerability",
+    "updated_date": "2026-08-24",
+    "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute high-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of kvm_lapic objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the kernel.",
+    "zdi_can": "ZDI-CAN-31468",
+    "zdi_id": "ZDI-26-608"
+  },
+  "ZDI-26-609": {
+    "additional_details": "Linux has issued an update to correct this vulnerability. More details can be found at: https://github.com/torvalds/linux/commit/47d7f7051253bdc02b1d245d87e38f16d31a74df",
+    "advisory_date": "2026-08-24",
+    "affected_products": [
+      "Kernel"
+    ],
+    "affected_vendors": [
+      "Linux"
+    ],
+    "credit": "elden, Bryan Mbeumo",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-07-14 - Vulnerability reported to vendor",
+      "2026-08-24 - Coordinated public release of advisory",
+      "2026-08-24 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-609 ZDI-CAN-31524 Linux Kernel Net Scheduler Packet Classifier Use-After-Free Local Privilege Escalation Vulnerability 2026-08-24 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H ['Linux'] ['Kernel'] This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the route4_set_fastmap function. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the kernel. Linux has issued an update to correct this vulnerability. More details can be found at: https://github.com/torvalds/linux/commit/47d7f7051253bdc02b1d245d87e38f16d31a74df ['2026-07-14 - Vulnerability reported to vendor', '2026-08-24 - Coordinated public release of advisory', '2026-08-24 - Advisory Updated'] elden, Bryan Mbeumo https://www.zerodayinitiative.com/advisories/ZDI-26-609/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-609/",
+    "title": "Linux Kernel Net Scheduler Packet Classifier Use-After-Free Local Privilege Escalation Vulnerability",
+    "updated_date": "2026-08-24",
+    "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the route4_set_fastmap function. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the kernel.",
+    "zdi_can": "ZDI-CAN-31524",
+    "zdi_id": "ZDI-26-609"
+  },
+  "ZDI-26-610": {
+    "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-us/148286",
+    "advisory_date": "2026-08-24",
+    "affected_products": [
+      "Safari"
+    ],
+    "affected_vendors": [
+      "Apple"
+    ],
+    "credit": "Hossein Lotfi (@hosselot) of TrendAI Zero Day Initiative",
+    "cve": "CVE-2026-64715",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-64715",
+    "cvss": 8.8,
+    "cvss_vector": "AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-07-16 - Vulnerability reported to vendor",
+      "2026-08-24 - Coordinated public release of advisory",
+      "2026-08-24 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-610 ZDI-CAN-32069 Apple Safari JavaScriptCore B3 ReduceStrength Phase Use-After-Free Remote Code Execution Vulnerability 2026-08-24 CVE-2026-64715 https://www.cve.org/CVERecord?id=CVE-2026-64715 8.8 AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Apple'] ['Safari'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Apple Safari. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the B3 ReduceStrength phase. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the renderer process. Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-us/148286 ['2026-07-16 - Vulnerability reported to vendor', '2026-08-24 - Coordinated public release of advisory', '2026-08-24 - Advisory Updated'] Hossein Lotfi (@hosselot) of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-610/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-610/",
+    "title": "Apple Safari JavaScriptCore B3 ReduceStrength Phase Use-After-Free Remote Code Execution Vulnerability",
+    "updated_date": "2026-08-24",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Apple Safari. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the B3 ReduceStrength phase. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the renderer process.",
+    "zdi_can": "ZDI-CAN-32069",
+    "zdi_id": "ZDI-26-610"
   }
 }
