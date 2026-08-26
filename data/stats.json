@@ -1,13 +1,13 @@
 {
   "by_cvss_band": {
     "critical": 2392,
-    "high": 9426,
+    "high": 9445,
     "low": 1468,
-    "medium": 4093,
+    "medium": 4096,
     "unknown": 337
   },
   "by_vendor": {
-    "Adobe": 2035,
+    "Adobe": 2036,
     "Advantech": 734,
     "Apple": 815,
     "Autodesk": 516,
@@ -22,7 +22,7 @@
     "Hewlett-Packard": 242,
     "IrfanView": 180,
     "Ivanti": 179,
-    "Linux": 162,
+    "Linux": 164,
     "Microsoft": 1972,
     "Novell": 130,
     "Oracle": 516,
@@ -58,12 +58,12 @@
     "2026": 611
   },
   "cve_coverage": 15406,
-  "high_cvss": 11818,
+  "high_cvss": 11837,
   "total_published": 17018,
-  "total_upcoming": 698,
+  "total_upcoming": 720,
   "upcoming_deadline_state": {
-    "due_soon": 72,
-    "future": 359,
+    "due_soon": 79,
+    "future": 374,
     "past_due": 267
   }
 }
