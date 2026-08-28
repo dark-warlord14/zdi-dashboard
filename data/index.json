@@ -306324,6 +306324,45 @@
     "zdi_id": "ZDI-05-001"
   },
   {
+    "cvss": 4.3,
+    "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+    "deadline": "2026-12-25",
+    "discoverer": "Connor Ford @ByteInsight of TrendAI Zero Day Initiative",
+    "id": "ZDI-CAN-33088",
+    "kind": "upcoming",
+    "reported_date": "2026-08-27",
+    "status": "upcoming",
+    "vendor": "Philips",
+    "vendor_url": "https://www.signify.com/global/product-security/coordinated-vulnerability-disclosure",
+    "zdi_can": "ZDI-CAN-33088"
+  },
+  {
+    "cvss": 3.8,
+    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:C/C:N/I:L/A:N",
+    "deadline": "2026-12-25",
+    "discoverer": "Connor Ford @ByteInsight of TrendAI Zero Day Initiative",
+    "id": "ZDI-CAN-33090",
+    "kind": "upcoming",
+    "reported_date": "2026-08-27",
+    "status": "upcoming",
+    "vendor": "Philips",
+    "vendor_url": "https://www.signify.com/global/product-security/coordinated-vulnerability-disclosure",
+    "zdi_can": "ZDI-CAN-33090"
+  },
+  {
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "deadline": "2026-12-25",
+    "discoverer": "Sajeeb Lohani",
+    "id": "ZDI-CAN-31254",
+    "kind": "upcoming",
+    "reported_date": "2026-08-27",
+    "status": "upcoming",
+    "vendor": "PostgreSQL",
+    "vendor_url": null,
+    "zdi_can": "ZDI-CAN-31254"
+  },
+  {
     "cvss": 8.1,
     "cvss_vector": "AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
     "deadline": "2026-12-24",
@@ -312042,19 +312081,6 @@
     "vendor": "NVIDIA",
     "vendor_url": "https://www.nvidia.com/en-us/",
     "zdi_can": "ZDI-CAN-30917"
-  },
-  {
-    "cvss": 6.5,
-    "cvss_vector": "AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
-    "deadline": "2026-09-05",
-    "discoverer": "Aaron Luo at VicOne Inc., LabR7",
-    "id": "ZDI-CAN-30873",
-    "kind": "upcoming",
-    "reported_date": "2026-05-08",
-    "status": "upcoming",
-    "vendor": "LiteLLM",
-    "vendor_url": "https://www.litellm.ai/",
-    "zdi_can": "ZDI-CAN-30873"
   },
   {
     "cvss": 7.8,
