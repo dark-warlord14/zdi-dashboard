@@ -1,5 +1,65 @@
 [
   {
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "deadline": "2026-12-26",
+    "discoverer": "Nitesh Surana (niteshsurana.com) of TrendAI Research",
+    "kind": "upcoming",
+    "reported_date": "2026-08-28",
+    "status": "upcoming",
+    "vendor": "Docker",
+    "vendor_url": "https://www.docker.com/",
+    "zdi_can": "ZDI-CAN-33973"
+  },
+  {
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "deadline": "2026-12-26",
+    "discoverer": "YJK(@YJK0805) of ZUSO ART",
+    "kind": "upcoming",
+    "reported_date": "2026-08-28",
+    "status": "upcoming",
+    "vendor": "NVIDIA",
+    "vendor_url": "https://www.nvidia.com/en-us/",
+    "zdi_can": "ZDI-CAN-32231"
+  },
+  {
+    "cvss": 8.0,
+    "cvss_vector": "AV:A/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "deadline": "2026-12-26",
+    "discoverer": "Flydragon @ TRAPA Security",
+    "kind": "upcoming",
+    "reported_date": "2026-08-28",
+    "status": "upcoming",
+    "vendor": "NVIDIA",
+    "vendor_url": "https://www.nvidia.com/en-us/",
+    "zdi_can": "ZDI-CAN-32191"
+  },
+  {
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "deadline": "2026-12-26",
+    "discoverer": "ub1cu0",
+    "kind": "upcoming",
+    "reported_date": "2026-08-28",
+    "status": "upcoming",
+    "vendor": "Autodesk",
+    "vendor_url": "https://www.autodesk.com/",
+    "zdi_can": "ZDI-CAN-32895"
+  },
+  {
+    "cvss": 5.0,
+    "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:N/A:N",
+    "deadline": "2026-12-26",
+    "discoverer": "Connor Kastner (ret2c)",
+    "kind": "upcoming",
+    "reported_date": "2026-08-28",
+    "status": "upcoming",
+    "vendor": "RAGFlow",
+    "vendor_url": "https://ragflow.io/",
+    "zdi_can": "ZDI-CAN-32416"
+  },
+  {
     "cvss": 4.3,
     "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
     "deadline": "2026-12-25",
@@ -5499,54 +5559,6 @@
     "cvss": 7.8,
     "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
     "deadline": "2026-08-27",
-    "discoverer": "@pacbypass",
-    "kind": "upcoming",
-    "reported_date": "2026-04-29",
-    "status": "upcoming",
-    "vendor": "GIMP",
-    "vendor_url": "https://www.gimp.org/",
-    "zdi_can": "ZDI-CAN-29459"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-08-27",
-    "discoverer": "Sajeeb Lohani",
-    "kind": "upcoming",
-    "reported_date": "2026-04-29",
-    "status": "upcoming",
-    "vendor": "GIMP",
-    "vendor_url": "https://www.gimp.org/",
-    "zdi_can": "ZDI-CAN-29611"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-08-27",
-    "discoverer": "Sajeeb Lohani",
-    "kind": "upcoming",
-    "reported_date": "2026-04-29",
-    "status": "upcoming",
-    "vendor": "GIMP",
-    "vendor_url": "https://www.gimp.org/",
-    "zdi_can": "ZDI-CAN-29612"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-08-27",
-    "discoverer": "@pacbypass",
-    "kind": "upcoming",
-    "reported_date": "2026-04-29",
-    "status": "upcoming",
-    "vendor": "GIMP",
-    "vendor_url": "https://www.gimp.org/",
-    "zdi_can": "ZDI-CAN-29493"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-08-27",
     "discoverer": "Anonymous",
     "kind": "upcoming",
     "reported_date": "2026-04-29",
@@ -5554,18 +5566,6 @@
     "vendor": "GIMP",
     "vendor_url": "https://www.gimp.org/",
     "zdi_can": "ZDI-CAN-29400"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-08-27",
-    "discoverer": "@pacbypass",
-    "kind": "upcoming",
-    "reported_date": "2026-04-29",
-    "status": "upcoming",
-    "vendor": "GIMP",
-    "vendor_url": "https://www.gimp.org/",
-    "zdi_can": "ZDI-CAN-29944"
   },
   {
     "cvss": 7.5,
@@ -5602,18 +5602,6 @@
     "vendor": "Flowise",
     "vendor_url": "https://flowiseai.com/",
     "zdi_can": "ZDI-CAN-30459"
-  },
-  {
-    "cvss": 8.5,
-    "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:L/A:N",
-    "deadline": "2026-08-21",
-    "discoverer": "Apex Security Research",
-    "kind": "upcoming",
-    "reported_date": "2026-04-23",
-    "status": "upcoming",
-    "vendor": "LiteLLM",
-    "vendor_url": "https://www.litellm.ai/",
-    "zdi_can": "ZDI-CAN-30450"
   },
   {
     "cvss": 7.8,
