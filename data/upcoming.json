@@ -6204,18 +6204,6 @@
     "zdi_can": "ZDI-CAN-28149"
   },
   {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-    "deadline": "2026-07-29",
-    "discoverer": "Natnael Samson (@NattiSamson)",
-    "kind": "upcoming",
-    "reported_date": "2026-03-31",
-    "status": "upcoming",
-    "vendor": "pdfforge",
-    "vendor_url": "https://www.pdfforge.org/",
-    "zdi_can": "ZDI-CAN-29536"
-  },
-  {
     "cvss": 5.9,
     "cvss_vector": "AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
     "deadline": "2026-07-29",
@@ -7440,18 +7428,6 @@
     "zdi_can": "ZDI-CAN-29368"
   },
   {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-06-19",
-    "discoverer": "Mat Powell of TrendAI Zero Day Initiative",
-    "kind": "upcoming",
-    "reported_date": "2026-02-19",
-    "status": "upcoming",
-    "vendor": "pdfforge",
-    "vendor_url": "https://www.pdfforge.org/",
-    "zdi_can": "ZDI-CAN-29219"
-  },
-  {
     "cvss": 8.2,
     "cvss_vector": "AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H",
     "deadline": "2026-06-12",
@@ -7462,18 +7438,6 @@
     "vendor": "Linux",
     "vendor_url": "https://www.linux.org/",
     "zdi_can": "ZDI-CAN-28821"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-06-12",
-    "discoverer": "soiax",
-    "kind": "upcoming",
-    "reported_date": "2026-02-12",
-    "status": "upcoming",
-    "vendor": "pdfforge",
-    "vendor_url": "https://www.pdfforge.org/",
-    "zdi_can": "ZDI-CAN-28916"
   },
   {
     "cvss": 7.8,
@@ -7801,18 +7765,6 @@
   },
   {
     "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-05-27",
-    "discoverer": "soiax",
-    "kind": "upcoming",
-    "reported_date": "2026-01-27",
-    "status": "upcoming",
-    "vendor": "pdfforge",
-    "vendor_url": "https://www.pdfforge.org/",
-    "zdi_can": "ZDI-CAN-28673"
-  },
-  {
-    "cvss": 7.8,
     "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
     "deadline": "2026-05-22",
     "discoverer": "welpsigh",
@@ -8074,18 +8026,6 @@
     "vendor": "Linux",
     "vendor_url": "https://www.linux.org/",
     "zdi_can": "ZDI-CAN-28594"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-03-27",
-    "discoverer": "soiax",
-    "kind": "upcoming",
-    "reported_date": "2025-11-27",
-    "status": "upcoming",
-    "vendor": "pdfforge",
-    "vendor_url": "https://www.pdfforge.org/",
-    "zdi_can": "ZDI-CAN-28570"
   },
   {
     "cvss": 8.8,
