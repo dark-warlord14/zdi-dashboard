@@ -2160,18 +2160,6 @@
     "zdi_can": "ZDI-CAN-28924"
   },
   {
-    "cvss": 7.2,
-    "cvss_vector": "AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
-    "deadline": "2026-11-18",
-    "discoverer": "Andy Niu of TrendAI Research",
-    "kind": "upcoming",
-    "reported_date": "2026-07-21",
-    "status": "upcoming",
-    "vendor": "Adobe",
-    "vendor_url": "https://www.adobe.com",
-    "zdi_can": "ZDI-CAN-32715"
-  },
-  {
     "cvss": 5.9,
     "cvss_vector": "AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
     "deadline": "2026-11-18",
@@ -2974,18 +2962,6 @@
     "vendor": "Linux",
     "vendor_url": "https://www.linux.org/",
     "zdi_can": "ZDI-CAN-31604"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
-    "deadline": "2026-10-31",
-    "discoverer": "Anonymous",
-    "kind": "upcoming",
-    "reported_date": "2026-07-03",
-    "status": "upcoming",
-    "vendor": "Linux",
-    "vendor_url": "https://www.linux.org/",
-    "zdi_can": "ZDI-CAN-31517"
   },
   {
     "cvss": 7.5,
@@ -5823,18 +5799,6 @@
     "cvss": 7.8,
     "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
     "deadline": "2026-08-13",
-    "discoverer": "s3zer0",
-    "kind": "upcoming",
-    "reported_date": "2026-04-15",
-    "status": "upcoming",
-    "vendor": "libarchive",
-    "vendor_url": "https://libarchive.org/",
-    "zdi_can": "ZDI-CAN-29916"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-08-13",
     "discoverer": "Brandon Evans of TrendAI Zero Day Initiative",
     "kind": "upcoming",
     "reported_date": "2026-04-15",
@@ -5926,18 +5890,6 @@
     "vendor": "Academy Software Foundation",
     "vendor_url": "https://github.com/AcademySoftwareFoundation/openexr/security",
     "zdi_can": "ZDI-CAN-30393"
-  },
-  {
-    "cvss": 6.5,
-    "cvss_vector": "AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
-    "deadline": "2026-08-12",
-    "discoverer": "Michael DePlante (@izobashi) of TrendAI Zero Day Initiative",
-    "kind": "upcoming",
-    "reported_date": "2026-04-14",
-    "status": "upcoming",
-    "vendor": "Apple",
-    "vendor_url": "https://www.apple.com",
-    "zdi_can": "ZDI-CAN-29924"
   },
   {
     "cvss": 7.8,
