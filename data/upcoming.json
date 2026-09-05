@@ -1,5 +1,41 @@
 [
   {
+    "cvss": 7.5,
+    "cvss_vector": "AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "deadline": "2027-01-02",
+    "discoverer": "Kyeongmin Kim (@hareh4ru) of KAIST Hacking Lab",
+    "kind": "upcoming",
+    "reported_date": "2026-09-04",
+    "status": "upcoming",
+    "vendor": "Microsoft",
+    "vendor_url": "https://www.microsoft.com",
+    "zdi_can": "ZDI-CAN-30756"
+  },
+  {
+    "cvss": 3.1,
+    "cvss_vector": "AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:N",
+    "deadline": "2027-01-02",
+    "discoverer": "Kyeongmin Kim (@hareh4ru) of KAIST Hacking Lab",
+    "kind": "upcoming",
+    "reported_date": "2026-09-04",
+    "status": "upcoming",
+    "vendor": "Microsoft",
+    "vendor_url": "https://www.microsoft.com",
+    "zdi_can": "ZDI-CAN-30923"
+  },
+  {
+    "cvss": 4.3,
+    "cvss_vector": "AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+    "deadline": "2027-01-02",
+    "discoverer": "Hlib Yavorskyi",
+    "kind": "upcoming",
+    "reported_date": "2026-09-04",
+    "status": "upcoming",
+    "vendor": "Microsoft",
+    "vendor_url": "https://www.microsoft.com",
+    "zdi_can": "ZDI-CAN-31571"
+  },
+  {
     "cvss": 4.9,
     "cvss_vector": "AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N",
     "deadline": "2027-01-01",
