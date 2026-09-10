@@ -17442,5 +17442,705 @@
     "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Microsoft Windows. Authentication is not required to exploit this vulnerability, but only systems with specific IPsec configurations are vulnerable. The specific flaw exists within the IKEEXT service. The issue results from the lack of proper validation of user-supplied data, which can result in an integer underflow before writing to memory. An attacker may be able to leverage this vulnerability to execute code in the context of SYSTEM.",
     "zdi_can": "ZDI-CAN-31212",
     "zdi_id": "ZDI-26-622"
+  },
+  "ZDI-26-623": {
+    "additional_details": "Linux has issued an update to correct this vulnerability. More details can be found at: https://github.com/torvalds/linux/commit/235b42b5860189eb8c27c36435ad932cae65a734",
+    "advisory_date": "2026-09-09",
+    "affected_products": [
+      "Kernel"
+    ],
+    "affected_vendors": [
+      "Linux"
+    ],
+    "credit": "ELDEN",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 8.8,
+    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-08-12 - Vulnerability reported to vendor",
+      "2026-09-09 - Coordinated public release of advisory",
+      "2026-09-09 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-623 ZDI-CAN-31770 Linux Kernel IPv6 Multicast Routing Use-After-Free Local Privilege Escalation Vulnerability 2026-09-09 8.8 AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H ['Linux'] ['Kernel'] This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of sk_buff objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the kernel. Linux has issued an update to correct this vulnerability. More details can be found at: https://github.com/torvalds/linux/commit/235b42b5860189eb8c27c36435ad932cae65a734 ['2026-08-12 - Vulnerability reported to vendor', '2026-09-09 - Coordinated public release of advisory', '2026-09-09 - Advisory Updated'] ELDEN https://www.zerodayinitiative.com/advisories/ZDI-26-623/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-623/",
+    "title": "Linux Kernel IPv6 Multicast Routing Use-After-Free Local Privilege Escalation Vulnerability",
+    "updated_date": "2026-09-09",
+    "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of sk_buff objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the kernel.",
+    "zdi_can": "ZDI-CAN-31770",
+    "zdi_id": "ZDI-26-623"
+  },
+  "ZDI-26-624": {
+    "additional_details": "Fixed in Release Version 10.0.1.1069 ( https://www.backblaze.com/computer-backup/docs/backup-client-release-notes-windows )",
+    "advisory_date": "2026-09-09",
+    "affected_products": [
+      "Personal Computer Backup"
+    ],
+    "affected_vendors": [
+      "Backblaze"
+    ],
+    "credit": "hamdi",
+    "cve": "CVE-2026-19820",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-19820",
+    "cvss": 6.1,
+    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:H",
+    "disclosure_timeline": [
+      "2026-04-07 - Vulnerability reported to vendor",
+      "2026-09-09 - Coordinated public release of advisory",
+      "2026-09-09 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-624 ZDI-CAN-29327 Backblaze Personal Computer Backup bzbackup Link Following Denial-of-Service Vulnerability 2026-09-09 CVE-2026-19820 https://www.cve.org/CVERecord?id=CVE-2026-19820 6.1 AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:H ['Backblaze'] ['Personal Computer Backup'] This vulnerability allows local attackers to create a denial-of-service condition on affected installations of Backblaze Personal Computer Backup. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Backblaze Service. By creating a symbolic link, an attacker can abuse the service to overwrite arbitrary files. An attacker can leverage this vulnerability to create a denial-of-service condition on the system. Fixed in Release Version 10.0.1.1069 ( https://www.backblaze.com/computer-backup/docs/backup-client-release-notes-windows ) ['2026-04-07 - Vulnerability reported to vendor', '2026-09-09 - Coordinated public release of advisory', '2026-09-09 - Advisory Updated'] hamdi https://www.zerodayinitiative.com/advisories/ZDI-26-624/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-624/",
+    "title": "Backblaze Personal Computer Backup bzbackup Link Following Denial-of-Service Vulnerability",
+    "updated_date": "2026-09-09",
+    "vulnerability_details": "This vulnerability allows local attackers to create a denial-of-service condition on affected installations of Backblaze Personal Computer Backup. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Backblaze Service. By creating a symbolic link, an attacker can abuse the service to overwrite arbitrary files. An attacker can leverage this vulnerability to create a denial-of-service condition on the system.",
+    "zdi_can": "ZDI-CAN-29327",
+    "zdi_id": "ZDI-26-624"
+  },
+  "ZDI-26-625": {
+    "additional_details": "Fixed in Release Version 10.0.1.1069 ( https://www.backblaze.com/computer-backup/docs/backup-client-release-notes-windows )",
+    "advisory_date": "2026-09-09",
+    "affected_products": [
+      "Personal Computer Backup"
+    ],
+    "affected_vendors": [
+      "Backblaze"
+    ],
+    "credit": "hamdi",
+    "cve": "CVE-2026-19820",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-19820",
+    "cvss": 6.1,
+    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:H",
+    "disclosure_timeline": [
+      "2026-04-07 - Vulnerability reported to vendor",
+      "2026-09-09 - Coordinated public release of advisory",
+      "2026-09-09 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-625 ZDI-CAN-29324 Backblaze Personal Computer Backup bzserv Link Following Denial-of-Service Vulnerability 2026-09-09 CVE-2026-19820 https://www.cve.org/CVERecord?id=CVE-2026-19820 6.1 AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:H ['Backblaze'] ['Personal Computer Backup'] This vulnerability allows local attackers to create a denial-of-service condition on affected installations of Backblaze Personal Computer Backup. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Backblaze Service. By creating a symbolic link, an attacker can abuse the service to overwrite arbitrary files. An attacker can leverage this vulnerability to create a denial-of-service condition on the system. Fixed in Release Version 10.0.1.1069 ( https://www.backblaze.com/computer-backup/docs/backup-client-release-notes-windows ) ['2026-04-07 - Vulnerability reported to vendor', '2026-09-09 - Coordinated public release of advisory', '2026-09-09 - Advisory Updated'] hamdi https://www.zerodayinitiative.com/advisories/ZDI-26-625/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-625/",
+    "title": "Backblaze Personal Computer Backup bzserv Link Following Denial-of-Service Vulnerability",
+    "updated_date": "2026-09-09",
+    "vulnerability_details": "This vulnerability allows local attackers to create a denial-of-service condition on affected installations of Backblaze Personal Computer Backup. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Backblaze Service. By creating a symbolic link, an attacker can abuse the service to overwrite arbitrary files. An attacker can leverage this vulnerability to create a denial-of-service condition on the system.",
+    "zdi_can": "ZDI-CAN-29324",
+    "zdi_id": "ZDI-26-625"
+  },
+  "ZDI-26-626": {
+    "additional_details": "Fixed in Release Version 10.0.1.1069 ( https://www.backblaze.com/computer-backup/docs/backup-client-release-notes-windows )",
+    "advisory_date": "2026-09-09",
+    "affected_products": [
+      "Personal Computer Backup"
+    ],
+    "affected_vendors": [
+      "Backblaze"
+    ],
+    "credit": "hamdi",
+    "cve": "CVE-2026-19820",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-19820",
+    "cvss": 6.1,
+    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:H",
+    "disclosure_timeline": [
+      "2026-04-07 - Vulnerability reported to vendor",
+      "2026-09-09 - Coordinated public release of advisory",
+      "2026-09-09 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-626 ZDI-CAN-29326 Backblaze Personal Computer Backup bzfilelist Link Following Denial-of-Service Vulnerability 2026-09-09 CVE-2026-19820 https://www.cve.org/CVERecord?id=CVE-2026-19820 6.1 AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:H ['Backblaze'] ['Personal Computer Backup'] This vulnerability allows local attackers to create a denial-of-service condition on affected installations of Backblaze Personal Computer Backup. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Backblaze Service. By creating a symbolic link, an attacker can abuse the service to overwrite arbitrary files. An attacker can leverage this vulnerability to create a denial-of-service condition on the system. Fixed in Release Version 10.0.1.1069 ( https://www.backblaze.com/computer-backup/docs/backup-client-release-notes-windows ) ['2026-04-07 - Vulnerability reported to vendor', '2026-09-09 - Coordinated public release of advisory', '2026-09-09 - Advisory Updated'] hamdi https://www.zerodayinitiative.com/advisories/ZDI-26-626/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-626/",
+    "title": "Backblaze Personal Computer Backup bzfilelist Link Following Denial-of-Service Vulnerability",
+    "updated_date": "2026-09-09",
+    "vulnerability_details": "This vulnerability allows local attackers to create a denial-of-service condition on affected installations of Backblaze Personal Computer Backup. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Backblaze Service. By creating a symbolic link, an attacker can abuse the service to overwrite arbitrary files. An attacker can leverage this vulnerability to create a denial-of-service condition on the system.",
+    "zdi_can": "ZDI-CAN-29326",
+    "zdi_id": "ZDI-26-626"
+  },
+  "ZDI-26-627": {
+    "additional_details": "Fixed in Release Version 10.0.1.1069 ( https://www.backblaze.com/computer-backup/docs/backup-client-release-notes-windows )",
+    "advisory_date": "2026-09-09",
+    "affected_products": [
+      "Personal Computer Backup"
+    ],
+    "affected_vendors": [
+      "Backblaze"
+    ],
+    "credit": "hamdi",
+    "cve": "CVE-2026-19820",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-19820",
+    "cvss": 6.1,
+    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:H",
+    "disclosure_timeline": [
+      "2026-04-07 - Vulnerability reported to vendor",
+      "2026-09-09 - Coordinated public release of advisory",
+      "2026-09-09 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-627 ZDI-CAN-29330 Backblaze Personal Computer Backup bztransmit Link Following Denial-of-Service Vulnerability 2026-09-09 CVE-2026-19820 https://www.cve.org/CVERecord?id=CVE-2026-19820 6.1 AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:H ['Backblaze'] ['Personal Computer Backup'] This vulnerability allows local attackers to create a denial-of-service condition on affected installations of Backblaze Personal Computer Backup. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Backblaze Service. By creating a symbolic link, an attacker can abuse the service to overwrite arbitrary files. An attacker can leverage this vulnerability to create a denial-of-service condition on the system. Fixed in Release Version 10.0.1.1069 ( https://www.backblaze.com/computer-backup/docs/backup-client-release-notes-windows ) ['2026-04-07 - Vulnerability reported to vendor', '2026-09-09 - Coordinated public release of advisory', '2026-09-09 - Advisory Updated'] hamdi https://www.zerodayinitiative.com/advisories/ZDI-26-627/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-627/",
+    "title": "Backblaze Personal Computer Backup bztransmit Link Following Denial-of-Service Vulnerability",
+    "updated_date": "2026-09-09",
+    "vulnerability_details": "This vulnerability allows local attackers to create a denial-of-service condition on affected installations of Backblaze Personal Computer Backup. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Backblaze Service. By creating a symbolic link, an attacker can abuse the service to overwrite arbitrary files. An attacker can leverage this vulnerability to create a denial-of-service condition on the system.",
+    "zdi_can": "ZDI-CAN-29330",
+    "zdi_id": "ZDI-26-627"
+  },
+  "ZDI-26-628": {
+    "additional_details": "Fixed in Release Version 10.0.1.1069 ( https://www.backblaze.com/computer-backup/docs/backup-client-release-notes-windows )",
+    "advisory_date": "2026-09-09",
+    "affected_products": [
+      "Personal Computer Backup"
+    ],
+    "affected_vendors": [
+      "Backblaze"
+    ],
+    "credit": "hamdi",
+    "cve": "CVE-2026-19820",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-19820",
+    "cvss": 6.1,
+    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:H",
+    "disclosure_timeline": [
+      "2026-04-07 - Vulnerability reported to vendor",
+      "2026-09-09 - Coordinated public release of advisory",
+      "2026-09-09 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-628 ZDI-CAN-29328 Backblaze Personal Computer Backup bzreports Link Following Denial-of-Service Vulnerability 2026-09-09 CVE-2026-19820 https://www.cve.org/CVERecord?id=CVE-2026-19820 6.1 AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:H ['Backblaze'] ['Personal Computer Backup'] This vulnerability allows local attackers to create a denial-of-service condition on affected installations of Backblaze Personal Computer Backup. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Backblaze Service. By creating a symbolic link, an attacker can abuse the service to overwrite arbitrary files. An attacker can leverage this vulnerability to create a denial-of-service condition on the system. Fixed in Release Version 10.0.1.1069 ( https://www.backblaze.com/computer-backup/docs/backup-client-release-notes-windows ) ['2026-04-07 - Vulnerability reported to vendor', '2026-09-09 - Coordinated public release of advisory', '2026-09-09 - Advisory Updated'] hamdi https://www.zerodayinitiative.com/advisories/ZDI-26-628/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-628/",
+    "title": "Backblaze Personal Computer Backup bzreports Link Following Denial-of-Service Vulnerability",
+    "updated_date": "2026-09-09",
+    "vulnerability_details": "This vulnerability allows local attackers to create a denial-of-service condition on affected installations of Backblaze Personal Computer Backup. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Backblaze Service. By creating a symbolic link, an attacker can abuse the service to overwrite arbitrary files. An attacker can leverage this vulnerability to create a denial-of-service condition on the system.",
+    "zdi_can": "ZDI-CAN-29328",
+    "zdi_id": "ZDI-26-628"
+  },
+  "ZDI-26-629": {
+    "additional_details": "Fixed in version 2.1.24394.0",
+    "advisory_date": "2026-09-09",
+    "affected_products": [
+      "Azure"
+    ],
+    "affected_vendors": [
+      "Microsoft"
+    ],
+    "credit": "Nelson William Gamazo Sanchez of TrendAI Research",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 5.8,
+    "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:N/A:N",
+    "disclosure_timeline": [
+      "2026-03-31 - Vulnerability reported to vendor",
+      "2026-09-09 - Coordinated public release of advisory",
+      "2026-09-09 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-629 ZDI-CAN-30176 Microsoft Azure Entra ID OAuth Device Code Grant Information Disclosure Vulnerability 2026-09-09 5.8 AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:N/A:N ['Microsoft'] ['Azure'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Microsoft Azure. Authentication is not required to exploit this vulnerability. The specific flaw exists within the OAuth Device Code Grant endpoint. The issue results from the generation of error messages containing sensitive information. An attacker can leverage this vulnerability to disclose internal organizational information associated with arbitrary Entra ID tenants. Fixed in version 2.1.24394.0 ['2026-03-31 - Vulnerability reported to vendor', '2026-09-09 - Coordinated public release of advisory', '2026-09-09 - Advisory Updated'] Nelson William Gamazo Sanchez of TrendAI Research https://www.zerodayinitiative.com/advisories/ZDI-26-629/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-629/",
+    "title": "Microsoft Azure Entra ID OAuth Device Code Grant Information Disclosure Vulnerability",
+    "updated_date": "2026-09-09",
+    "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Microsoft Azure. Authentication is not required to exploit this vulnerability. The specific flaw exists within the OAuth Device Code Grant endpoint. The issue results from the generation of error messages containing sensitive information. An attacker can leverage this vulnerability to disclose internal organizational information associated with arbitrary Entra ID tenants.",
+    "zdi_can": "ZDI-CAN-30176",
+    "zdi_id": "ZDI-26-629"
+  },
+  "ZDI-26-630": {
+    "additional_details": "NI has issued an update to correct this vulnerability. More details can be found at: https://www.ni.com/en/support/security/available-critical-and-security-updates-for-ni-software/2026/integer-overflow-vulnerability-resulting-in-an-out-of-bounds-write-in-ni-labview.html",
+    "advisory_date": "2026-09-09",
+    "affected_products": [
+      "LabVIEW"
+    ],
+    "affected_vendors": [
+      "NI"
+    ],
+    "credit": "Grigory Dorodnov of TrendAI Research",
+    "cve": "CVE-2026-18445",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-18445",
+    "cvss": 3.3,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+    "disclosure_timeline": [
+      "2026-06-30 - Vulnerability reported to vendor",
+      "2026-09-09 - Coordinated public release of advisory",
+      "2026-09-09 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-630 ZDI-CAN-29955 NI LabVIEW VI File Parsing Integer Overflow Information Disclosure Vulnerability 2026-09-09 CVE-2026-18445 https://www.cve.org/CVERecord?id=CVE-2026-18445 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N ['NI'] ['LabVIEW'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of NI LabVIEW. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of VI files. The issue results from the lack of proper validation of user-supplied data, which can result in an integer overflow before reading from memory. An attacker can leverage this vulnerability to disclose information in the context of the current process. NI has issued an update to correct this vulnerability. More details can be found at: https://www.ni.com/en/support/security/available-critical-and-security-updates-for-ni-software/2026/integer-overflow-vulnerability-resulting-in-an-out-of-bounds-write-in-ni-labview.html ['2026-06-30 - Vulnerability reported to vendor', '2026-09-09 - Coordinated public release of advisory', '2026-09-09 - Advisory Updated'] Grigory Dorodnov of TrendAI Research https://www.zerodayinitiative.com/advisories/ZDI-26-630/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-630/",
+    "title": "NI LabVIEW VI File Parsing Integer Overflow Information Disclosure Vulnerability",
+    "updated_date": "2026-09-09",
+    "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of NI LabVIEW. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of VI files. The issue results from the lack of proper validation of user-supplied data, which can result in an integer overflow before reading from memory. An attacker can leverage this vulnerability to disclose information in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29955",
+    "zdi_id": "ZDI-26-630"
+  },
+  "ZDI-26-631": {
+    "additional_details": "NI has issued an update to correct this vulnerability. More details can be found at: https://www.ni.com/en/support/security/available-critical-and-security-updates-for-ni-software/2026/integer-conversion-vulnerability-resulting-in-an-out-of-bounds-read-in-ni-labview.html",
+    "advisory_date": "2026-09-09",
+    "affected_products": [
+      "LabVIEW"
+    ],
+    "affected_vendors": [
+      "NI"
+    ],
+    "credit": "Grigory Dorodnov of TrendAI Research",
+    "cve": "CVE-2026-18444",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-18444",
+    "cvss": 3.3,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+    "disclosure_timeline": [
+      "2026-06-30 - Vulnerability reported to vendor",
+      "2026-09-09 - Coordinated public release of advisory",
+      "2026-09-09 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-631 ZDI-CAN-29954 NI LabVIEW VI File Parsing Out-Of-Bounds Read Information Disclosure Vulnerability 2026-09-09 CVE-2026-18444 https://www.cve.org/CVERecord?id=CVE-2026-18444 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N ['NI'] ['LabVIEW'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of NI LabVIEW. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of VI files. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this vulnerability to disclose information in the context of the current process. NI has issued an update to correct this vulnerability. More details can be found at: https://www.ni.com/en/support/security/available-critical-and-security-updates-for-ni-software/2026/integer-conversion-vulnerability-resulting-in-an-out-of-bounds-read-in-ni-labview.html ['2026-06-30 - Vulnerability reported to vendor', '2026-09-09 - Coordinated public release of advisory', '2026-09-09 - Advisory Updated'] Grigory Dorodnov of TrendAI Research https://www.zerodayinitiative.com/advisories/ZDI-26-631/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-631/",
+    "title": "NI LabVIEW VI File Parsing Out-Of-Bounds Read Information Disclosure Vulnerability",
+    "updated_date": "2026-09-09",
+    "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of NI LabVIEW. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of VI files. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this vulnerability to disclose information in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29954",
+    "zdi_id": "ZDI-26-631"
+  },
+  "ZDI-26-632": {
+    "additional_details": "WatchGuard has issued an update to correct this vulnerability. More details can be found at: https://psirt.watchguard.com/CVE-2026-13086",
+    "advisory_date": "2026-09-09",
+    "affected_products": [
+      "FireWare OS"
+    ],
+    "affected_vendors": [
+      "WatchGuard"
+    ],
+    "credit": "Mat Powell of TrendAI Zero Day Initiative",
+    "cve": "CVE-2026-13086",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-13086",
+    "cvss": 8.8,
+    "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-04-16 - Vulnerability reported to vendor",
+      "2026-09-09 - Coordinated public release of advisory",
+      "2026-09-09 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-632 ZDI-CAN-30460 WatchGuard FireWare OS epm connect Stack-based Buffer Overflow Remote Code Execution Vulnerability 2026-09-09 CVE-2026-13086 https://www.cve.org/CVERecord?id=CVE-2026-13086 8.8 AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['WatchGuard'] ['FireWare OS'] This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of WatchGuard FireWare OS. Authentication is not required to exploit this vulnerability. The specific flaw exists within the Endpoint Protection Manager service. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of root. WatchGuard has issued an update to correct this vulnerability. More details can be found at: https://psirt.watchguard.com/CVE-2026-13086 ['2026-04-16 - Vulnerability reported to vendor', '2026-09-09 - Coordinated public release of advisory', '2026-09-09 - Advisory Updated'] Mat Powell of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-632/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-632/",
+    "title": "WatchGuard FireWare OS epm connect Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+    "updated_date": "2026-09-09",
+    "vulnerability_details": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of WatchGuard FireWare OS. Authentication is not required to exploit this vulnerability. The specific flaw exists within the Endpoint Protection Manager service. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of root.",
+    "zdi_can": "ZDI-CAN-30460",
+    "zdi_id": "ZDI-26-632"
+  },
+  "ZDI-26-633": {
+    "additional_details": "GIMP has issued an update to correct this vulnerability. More details can be found at: https://gitlab.gnome.org/GNOME/gimp/-/commit/98cb1371fd4e22cca75017ea3252dc32fc218712",
+    "advisory_date": "2026-09-09",
+    "affected_products": [
+      "GIMP"
+    ],
+    "affected_vendors": [
+      "GIMP"
+    ],
+    "credit": "Anonymous",
+    "cve": "CVE-2026-4153",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-4153",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-04-17 - Vulnerability reported to vendor",
+      "2026-09-09 - Coordinated public release of advisory",
+      "2026-09-09 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-633 ZDI-CAN-29397 GIMP PSP File Parsing Integer Overflow Remote Code Execution Vulnerability 2026-09-09 CVE-2026-4153 https://www.cve.org/CVERecord?id=CVE-2026-4153 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['GIMP'] ['GIMP'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of GIMP. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of PSP files. The issue results from the lack of proper validation of user-supplied data, which can result in an integer overflow before allocating a buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. GIMP has issued an update to correct this vulnerability. More details can be found at: https://gitlab.gnome.org/GNOME/gimp/-/commit/98cb1371fd4e22cca75017ea3252dc32fc218712 ['2026-04-17 - Vulnerability reported to vendor', '2026-09-09 - Coordinated public release of advisory', '2026-09-09 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-633/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-633/",
+    "title": "GIMP PSP File Parsing Integer Overflow Remote Code Execution Vulnerability",
+    "updated_date": "2026-09-09",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of GIMP. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of PSP files. The issue results from the lack of proper validation of user-supplied data, which can result in an integer overflow before allocating a buffer. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29397",
+    "zdi_id": "ZDI-26-633"
+  },
+  "ZDI-26-634": {
+    "additional_details": "Flowise has issued an update to correct this vulnerability. More details can be found at: https://github.com/FlowiseAI/Flowise/commit/f4e2794f6a576b94578f2fdafbf49c2fb304626c",
+    "advisory_date": "2026-09-09",
+    "affected_products": [
+      "Flowise"
+    ],
+    "affected_vendors": [
+      "Flowise"
+    ],
+    "credit": "Dre Cura (@dre_cura) of TrendAI Research",
+    "cve": "CVE-2026-70477",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-70477",
+    "cvss": 9.8,
+    "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-04-23 - Vulnerability reported to vendor",
+      "2026-09-09 - Coordinated public release of advisory",
+      "2026-09-09 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-634 ZDI-CAN-30459 Flowise CSV Agent Prompt Injection Remote Code Execution Vulnerability 2026-09-09 CVE-2026-70477 https://www.cve.org/CVERecord?id=CVE-2026-70477 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['Flowise'] ['Flowise'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Flowise. Authentication is not required to exploit this vulnerability. The specific flaw exists within the run method of the CSV_Agents class. The issue results from insufficient input sanitization when using untrusted data to construct an LLM prompt. An attacker can leverage this vulnerability to execute code in the context of the service account. Flowise has issued an update to correct this vulnerability. More details can be found at: https://github.com/FlowiseAI/Flowise/commit/f4e2794f6a576b94578f2fdafbf49c2fb304626c ['2026-04-23 - Vulnerability reported to vendor', '2026-09-09 - Coordinated public release of advisory', '2026-09-09 - Advisory Updated'] Dre Cura (@dre_cura) of TrendAI Research https://www.zerodayinitiative.com/advisories/ZDI-26-634/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-634/",
+    "title": "Flowise CSV Agent Prompt Injection Remote Code Execution Vulnerability",
+    "updated_date": "2026-09-09",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Flowise. Authentication is not required to exploit this vulnerability. The specific flaw exists within the run method of the CSV_Agents class. The issue results from insufficient input sanitization when using untrusted data to construct an LLM prompt. An attacker can leverage this vulnerability to execute code in the context of the service account.",
+    "zdi_can": "ZDI-CAN-30459",
+    "zdi_id": "ZDI-26-634"
+  },
+  "ZDI-26-635": {
+    "additional_details": "Oracle has issued an update to correct this vulnerability. More details can be found at: https://www.oracle.com/security-alerts/cspuaug2026.html",
+    "advisory_date": "2026-09-09",
+    "affected_products": [
+      "Outside In Technology"
+    ],
+    "affected_vendors": [
+      "Oracle"
+    ],
+    "credit": "Dvir Gozlan",
+    "cve": "CVE-2026-60392",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-60392",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-03-31 - Vulnerability reported to vendor",
+      "2026-09-09 - Coordinated public release of advisory",
+      "2026-09-09 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-635 ZDI-CAN-29370 Oracle Outside In Technology PDF File Parsing Integer Overflow Remote Code Execution Vulnerability 2026-09-09 CVE-2026-60392 https://www.cve.org/CVERecord?id=CVE-2026-60392 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Oracle'] ['Outside In Technology'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Oracle Outside In Technology. User interaction is required to exploit this vulnerability in that the target must open a malicious file or visit a malicious page. The specific flaw exists within the parsing of PDF files. The issue results from the lack of proper validation of user-supplied data, which can result in an integer overflow before allocating a buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. Oracle has issued an update to correct this vulnerability. More details can be found at: https://www.oracle.com/security-alerts/cspuaug2026.html ['2026-03-31 - Vulnerability reported to vendor', '2026-09-09 - Coordinated public release of advisory', '2026-09-09 - Advisory Updated'] Dvir Gozlan https://www.zerodayinitiative.com/advisories/ZDI-26-635/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-635/",
+    "title": "Oracle Outside In Technology PDF File Parsing Integer Overflow Remote Code Execution Vulnerability",
+    "updated_date": "2026-09-09",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Oracle Outside In Technology. User interaction is required to exploit this vulnerability in that the target must open a malicious file or visit a malicious page. The specific flaw exists within the parsing of PDF files. The issue results from the lack of proper validation of user-supplied data, which can result in an integer overflow before allocating a buffer. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29370",
+    "zdi_id": "ZDI-26-635"
+  },
+  "ZDI-26-636": {
+    "additional_details": "Oracle has issued an update to correct this vulnerability. More details can be found at: https://www.oracle.com/security-alerts/cspuaug2026.html",
+    "advisory_date": "2026-09-09",
+    "affected_products": [
+      "Outside In Technology"
+    ],
+    "affected_vendors": [
+      "Oracle"
+    ],
+    "credit": "Mat Powell of TrendAI Zero Day Initiative",
+    "cve": "CVE-2026-60412",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-60412",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-04-08 - Vulnerability reported to vendor",
+      "2026-09-09 - Coordinated public release of advisory",
+      "2026-09-09 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-636 ZDI-CAN-29543 Oracle Outside In Technology PostScript File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability 2026-09-09 CVE-2026-60412 https://www.cve.org/CVERecord?id=CVE-2026-60412 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Oracle'] ['Outside In Technology'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Oracle Outside In Technology. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of PostScript files. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. Oracle has issued an update to correct this vulnerability. More details can be found at: https://www.oracle.com/security-alerts/cspuaug2026.html ['2026-04-08 - Vulnerability reported to vendor', '2026-09-09 - Coordinated public release of advisory', '2026-09-09 - Advisory Updated'] Mat Powell of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-636/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-636/",
+    "title": "Oracle Outside In Technology PostScript File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+    "updated_date": "2026-09-09",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Oracle Outside In Technology. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of PostScript files. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29543",
+    "zdi_id": "ZDI-26-636"
+  },
+  "ZDI-26-637": {
+    "additional_details": "Oracle has issued an update to correct this vulnerability. More details can be found at: https://www.oracle.com/security-alerts/cspuaug2026.html",
+    "advisory_date": "2026-09-09",
+    "affected_products": [
+      "Outside In Technology"
+    ],
+    "affected_vendors": [
+      "Oracle"
+    ],
+    "credit": "Mat Powell of TrendAI Zero Day Initiative",
+    "cve": "CVE-2026-60413",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-60413",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-04-08 - Vulnerability reported to vendor",
+      "2026-09-09 - Coordinated public release of advisory",
+      "2026-09-09 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-637 ZDI-CAN-29541 Oracle Outside In Technology GEM File Parsing Integer Overflow Remote Code Execution Vulnerability 2026-09-09 CVE-2026-60413 https://www.cve.org/CVERecord?id=CVE-2026-60413 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Oracle'] ['Outside In Technology'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Oracle Outside In Technology. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of GEM files. The issue results from the lack of proper validation of user-supplied data, which can result in an integer overflow before allocating a buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. Oracle has issued an update to correct this vulnerability. More details can be found at: https://www.oracle.com/security-alerts/cspuaug2026.html ['2026-04-08 - Vulnerability reported to vendor', '2026-09-09 - Coordinated public release of advisory', '2026-09-09 - Advisory Updated'] Mat Powell of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-637/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-637/",
+    "title": "Oracle Outside In Technology GEM File Parsing Integer Overflow Remote Code Execution Vulnerability",
+    "updated_date": "2026-09-09",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Oracle Outside In Technology. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of GEM files. The issue results from the lack of proper validation of user-supplied data, which can result in an integer overflow before allocating a buffer. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29541",
+    "zdi_id": "ZDI-26-637"
+  },
+  "ZDI-26-638": {
+    "additional_details": "Oracle has issued an update to correct this vulnerability. More details can be found at: https://www.oracle.com/security-alerts/cspuaug2026.html",
+    "advisory_date": "2026-09-09",
+    "affected_products": [
+      "Outside In Technology"
+    ],
+    "affected_vendors": [
+      "Oracle"
+    ],
+    "credit": "Mat Powell of TrendAI Zero Day Initiative",
+    "cve": "CVE-2026-60414",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-60414",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-04-08 - Vulnerability reported to vendor",
+      "2026-09-09 - Coordinated public release of advisory",
+      "2026-09-09 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-638 ZDI-CAN-29542 Oracle Outside In Technology WPS File Parsing Memory Corruption Remote Code Execution Vulnerability 2026-09-09 CVE-2026-60414 https://www.cve.org/CVERecord?id=CVE-2026-60414 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Oracle'] ['Outside In Technology'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Oracle Outside In Technology. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of WPS files. The issue results from the lack of proper validation of user-supplied data, which can result in a memory corruption condition. An attacker can leverage this vulnerability to execute code in the context of the current process. Oracle has issued an update to correct this vulnerability. More details can be found at: https://www.oracle.com/security-alerts/cspuaug2026.html ['2026-04-08 - Vulnerability reported to vendor', '2026-09-09 - Coordinated public release of advisory', '2026-09-09 - Advisory Updated'] Mat Powell of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-638/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-638/",
+    "title": "Oracle Outside In Technology WPS File Parsing Memory Corruption Remote Code Execution Vulnerability",
+    "updated_date": "2026-09-09",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Oracle Outside In Technology. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of WPS files. The issue results from the lack of proper validation of user-supplied data, which can result in a memory corruption condition. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29542",
+    "zdi_id": "ZDI-26-638"
+  },
+  "ZDI-26-639": {
+    "additional_details": "Oracle has issued an update to correct this vulnerability. More details can be found at: https://www.oracle.com/security-alerts/cspuaug2026.html",
+    "advisory_date": "2026-09-09",
+    "affected_products": [
+      "VirtualBox"
+    ],
+    "affected_vendors": [
+      "Oracle"
+    ],
+    "credit": "Phan Vinh Khang of Viettel Cyber Security",
+    "cve": "CVE-2026-71116",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-71116",
+    "cvss": 7.5,
+    "cvss_vector": "AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-07-10 - Vulnerability reported to vendor",
+      "2026-09-09 - Coordinated public release of advisory",
+      "2026-09-09 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-639 ZDI-CAN-30184 Oracle VirtualBox VMSVGA Heap-based Buffer Overflow Local Privilege Escalation Vulnerability 2026-09-09 CVE-2026-71116 https://www.cve.org/CVERecord?id=CVE-2026-71116 7.5 AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H ['Oracle'] ['VirtualBox'] This vulnerability allows local attackers to escalate privileges on affected installations of Oracle VirtualBox. An attacker must first obtain the ability to execute high-privileged code on the target guest system in order to exploit this vulnerability. The specific flaw exists within the VMSVGA device. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the hypervisor. Oracle has issued an update to correct this vulnerability. More details can be found at: https://www.oracle.com/security-alerts/cspuaug2026.html ['2026-07-10 - Vulnerability reported to vendor', '2026-09-09 - Coordinated public release of advisory', '2026-09-09 - Advisory Updated'] Phan Vinh Khang of Viettel Cyber Security https://www.zerodayinitiative.com/advisories/ZDI-26-639/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-639/",
+    "title": "Oracle VirtualBox VMSVGA Heap-based Buffer Overflow Local Privilege Escalation Vulnerability",
+    "updated_date": "2026-09-09",
+    "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Oracle VirtualBox. An attacker must first obtain the ability to execute high-privileged code on the target guest system in order to exploit this vulnerability. The specific flaw exists within the VMSVGA device. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the hypervisor.",
+    "zdi_can": "ZDI-CAN-30184",
+    "zdi_id": "ZDI-26-639"
+  },
+  "ZDI-26-640": {
+    "additional_details": "Oracle has issued an update to correct this vulnerability. More details can be found at: https://www.oracle.com/security-alerts/cspuaug2026.html",
+    "advisory_date": "2026-09-09",
+    "affected_products": [
+      "VirtualBox"
+    ],
+    "affected_vendors": [
+      "Oracle"
+    ],
+    "credit": "vmpr0be",
+    "cve": "CVE-2026-71132",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-71132",
+    "cvss": 5.3,
+    "cvss_vector": "AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:N/A:N",
+    "disclosure_timeline": [
+      "2026-07-24 - Vulnerability reported to vendor",
+      "2026-09-09 - Coordinated public release of advisory",
+      "2026-09-09 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-640 ZDI-CAN-31625 Oracle VirtualBox VirtioSCSI Uninitialized Memory Information Disclosure Vulnerability 2026-09-09 CVE-2026-71132 https://www.cve.org/CVERecord?id=CVE-2026-71132 5.3 AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:N/A:N ['Oracle'] ['VirtualBox'] This vulnerability allows local attackers to disclose sensitive information on affected installations of Oracle VirtualBox. An attacker must first obtain the ability to execute high-privileged code on the target guest system in order to exploit this vulnerability. The specific flaw exists within the VirtioSCSI device. The issue results from the lack of proper initialization of memory prior to accessing it. An attacker can leverage this vulnerability to disclose information in the context of the hypervisor. Oracle has issued an update to correct this vulnerability. More details can be found at: https://www.oracle.com/security-alerts/cspuaug2026.html ['2026-07-24 - Vulnerability reported to vendor', '2026-09-09 - Coordinated public release of advisory', '2026-09-09 - Advisory Updated'] vmpr0be https://www.zerodayinitiative.com/advisories/ZDI-26-640/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-640/",
+    "title": "Oracle VirtualBox VirtioSCSI Uninitialized Memory Information Disclosure Vulnerability",
+    "updated_date": "2026-09-09",
+    "vulnerability_details": "This vulnerability allows local attackers to disclose sensitive information on affected installations of Oracle VirtualBox. An attacker must first obtain the ability to execute high-privileged code on the target guest system in order to exploit this vulnerability. The specific flaw exists within the VirtioSCSI device. The issue results from the lack of proper initialization of memory prior to accessing it. An attacker can leverage this vulnerability to disclose information in the context of the hypervisor.",
+    "zdi_can": "ZDI-CAN-31625",
+    "zdi_id": "ZDI-26-640"
+  },
+  "ZDI-26-641": {
+    "additional_details": "Oracle has issued an update to correct this vulnerability. More details can be found at: https://www.oracle.com/security-alerts/cspuaug2026.html",
+    "advisory_date": "2026-09-09",
+    "affected_products": [
+      "VirtualBox"
+    ],
+    "affected_vendors": [
+      "Oracle"
+    ],
+    "credit": "vmpr0be",
+    "cve": "CVE-2026-71114",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-71114",
+    "cvss": 6.1,
+    "cvss_vector": "AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:N/A:L",
+    "disclosure_timeline": [
+      "2026-07-24 - Vulnerability reported to vendor",
+      "2026-09-09 - Coordinated public release of advisory",
+      "2026-09-09 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-641 ZDI-CAN-31532 Oracle VirtualBox VirtioSCSI Out-Of-Bounds Read Information Disclosure Vulnerability 2026-09-09 CVE-2026-71114 https://www.cve.org/CVERecord?id=CVE-2026-71114 6.1 AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:N/A:L ['Oracle'] ['VirtualBox'] This vulnerability allows local attackers to disclose sensitive information on affected installations of Oracle VirtualBox. An attacker must first obtain the ability to execute high-privileged code on the target guest system in order to exploit this vulnerability. The specific flaw exists within the VirtioSCSI device. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this vulnerability to disclose information in the context of the hypervisor. Oracle has issued an update to correct this vulnerability. More details can be found at: https://www.oracle.com/security-alerts/cspuaug2026.html ['2026-07-24 - Vulnerability reported to vendor', '2026-09-09 - Coordinated public release of advisory', '2026-09-09 - Advisory Updated'] vmpr0be https://www.zerodayinitiative.com/advisories/ZDI-26-641/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-641/",
+    "title": "Oracle VirtualBox VirtioSCSI Out-Of-Bounds Read Information Disclosure Vulnerability",
+    "updated_date": "2026-09-09",
+    "vulnerability_details": "This vulnerability allows local attackers to disclose sensitive information on affected installations of Oracle VirtualBox. An attacker must first obtain the ability to execute high-privileged code on the target guest system in order to exploit this vulnerability. The specific flaw exists within the VirtioSCSI device. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this vulnerability to disclose information in the context of the hypervisor.",
+    "zdi_can": "ZDI-CAN-31532",
+    "zdi_id": "ZDI-26-641"
+  },
+  "ZDI-26-642": {
+    "additional_details": "Oracle has issued an update to correct this vulnerability. More details can be found at: https://www.oracle.com/security-alerts/cpujul2026.html",
+    "advisory_date": "2026-09-09",
+    "affected_products": [
+      "VirtualBox"
+    ],
+    "affected_vendors": [
+      "Oracle"
+    ],
+    "credit": "Xiaobye(@xiaobye_tw) of DEVCORE Research Team",
+    "cve": "CVE-2026-60159",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-60159",
+    "cvss": 7.5,
+    "cvss_vector": "AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-07-07 - Vulnerability reported to vendor",
+      "2026-09-09 - Coordinated public release of advisory",
+      "2026-09-09 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-642 ZDI-CAN-31121 Oracle VirtualBox IDisplay Out-Of-Bounds Read Local Privilege Escalation Vulnerability 2026-09-09 CVE-2026-60159 https://www.cve.org/CVERecord?id=CVE-2026-60159 7.5 AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H ['Oracle'] ['VirtualBox'] This vulnerability allows local attackers to escalate privileges on affected installations of Oracle VirtualBox. An attacker must first obtain the ability to execute high-privileged code on the target guest system in order to exploit this vulnerability. The specific flaw exists within the IDisplay component. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the hypervisor. Oracle has issued an update to correct this vulnerability. More details can be found at: https://www.oracle.com/security-alerts/cpujul2026.html ['2026-07-07 - Vulnerability reported to vendor', '2026-09-09 - Coordinated public release of advisory', '2026-09-09 - Advisory Updated'] Xiaobye(@xiaobye_tw) of DEVCORE Research Team https://www.zerodayinitiative.com/advisories/ZDI-26-642/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-642/",
+    "title": "Oracle VirtualBox IDisplay Out-Of-Bounds Read Local Privilege Escalation Vulnerability",
+    "updated_date": "2026-09-09",
+    "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Oracle VirtualBox. An attacker must first obtain the ability to execute high-privileged code on the target guest system in order to exploit this vulnerability. The specific flaw exists within the IDisplay component. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the hypervisor.",
+    "zdi_can": "ZDI-CAN-31121",
+    "zdi_id": "ZDI-26-642"
+  },
+  "ZDI-26-643": {
+    "additional_details": "Oracle has issued an update to correct this vulnerability. More details can be found at: https://www.oracle.com/security-alerts/cpujul2026.html",
+    "advisory_date": "2026-09-09",
+    "affected_products": [
+      "VirtualBox"
+    ],
+    "affected_vendors": [
+      "Oracle"
+    ],
+    "credit": "Xiaobye(@xiaobye_tw) of DEVCORE Research Team",
+    "cve": "CVE-2026-60162",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-60162",
+    "cvss": 6.1,
+    "cvss_vector": "AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:N/A:L",
+    "disclosure_timeline": [
+      "2026-07-10 - Vulnerability reported to vendor",
+      "2026-09-09 - Coordinated public release of advisory",
+      "2026-09-09 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-643 ZDI-CAN-29835 Oracle VirtualBox VMSVGA Out-Of-Bounds Read Information Disclosure Vulnerability 2026-09-09 CVE-2026-60162 https://www.cve.org/CVERecord?id=CVE-2026-60162 6.1 AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:N/A:L ['Oracle'] ['VirtualBox'] This vulnerability allows local attackers to disclose sensitive information on affected installations of Oracle VirtualBox. An attacker must first obtain the ability to execute high-privileged code on the target guest system in order to exploit this vulnerability. The specific flaw exists within the VMSVGA device. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to escalate privileges and execute arbitrary code in the context of the hypervisor. Oracle has issued an update to correct this vulnerability. More details can be found at: https://www.oracle.com/security-alerts/cpujul2026.html ['2026-07-10 - Vulnerability reported to vendor', '2026-09-09 - Coordinated public release of advisory', '2026-09-09 - Advisory Updated'] Xiaobye(@xiaobye_tw) of DEVCORE Research Team https://www.zerodayinitiative.com/advisories/ZDI-26-643/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-643/",
+    "title": "Oracle VirtualBox VMSVGA Out-Of-Bounds Read Information Disclosure Vulnerability",
+    "updated_date": "2026-09-09",
+    "vulnerability_details": "This vulnerability allows local attackers to disclose sensitive information on affected installations of Oracle VirtualBox. An attacker must first obtain the ability to execute high-privileged code on the target guest system in order to exploit this vulnerability. The specific flaw exists within the VMSVGA device. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to escalate privileges and execute arbitrary code in the context of the hypervisor.",
+    "zdi_can": "ZDI-CAN-29835",
+    "zdi_id": "ZDI-26-643"
+  },
+  "ZDI-26-644": {
+    "additional_details": "Oracle has issued an update to correct this vulnerability. More details can be found at: https://www.oracle.com/security-alerts/cpujul2026.html",
+    "advisory_date": "2026-09-09",
+    "affected_products": [
+      "VirtualBox"
+    ],
+    "affected_vendors": [
+      "Oracle"
+    ],
+    "credit": "crixer(@pwning_me)",
+    "cve": "CVE-2026-60155",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-60155",
+    "cvss": 7.5,
+    "cvss_vector": "AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-06-25 - Vulnerability reported to vendor",
+      "2026-09-09 - Coordinated public release of advisory",
+      "2026-09-09 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-644 ZDI-CAN-30083 Oracle VirtualBox VMSVGA Race Condition Local Privilege Escalation Vulnerability 2026-09-09 CVE-2026-60155 https://www.cve.org/CVERecord?id=CVE-2026-60155 7.5 AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H ['Oracle'] ['VirtualBox'] This vulnerability allows local attackers to escalate privileges on affected installations of Oracle VirtualBox. An attacker must first obtain the ability to execute high-privileged code on the target guest system in order to exploit this vulnerability. The specific flaw exists within the VMSVGA device. The issue results from the lack of proper locking when performing operations on an object. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the hypervisor. Oracle has issued an update to correct this vulnerability. More details can be found at: https://www.oracle.com/security-alerts/cpujul2026.html ['2026-06-25 - Vulnerability reported to vendor', '2026-09-09 - Coordinated public release of advisory', '2026-09-09 - Advisory Updated'] crixer(@pwning_me) https://www.zerodayinitiative.com/advisories/ZDI-26-644/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-644/",
+    "title": "Oracle VirtualBox VMSVGA Race Condition Local Privilege Escalation Vulnerability",
+    "updated_date": "2026-09-09",
+    "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Oracle VirtualBox. An attacker must first obtain the ability to execute high-privileged code on the target guest system in order to exploit this vulnerability. The specific flaw exists within the VMSVGA device. The issue results from the lack of proper locking when performing operations on an object. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the hypervisor.",
+    "zdi_can": "ZDI-CAN-30083",
+    "zdi_id": "ZDI-26-644"
+  },
+  "ZDI-26-645": {
+    "additional_details": "Fortinet has issued an update to correct this vulnerability. More details can be found at: https://fortiguard.fortinet.com/psirt/FG-IR-26-167",
+    "advisory_date": "2026-09-09",
+    "affected_products": [
+      "FortiSandbox"
+    ],
+    "affected_vendors": [
+      "Fortinet"
+    ],
+    "credit": "Jason McFadyen of TrendAI Security Research",
+    "cve": "CVE-2026-84387",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-84387",
+    "cvss": 7.2,
+    "cvss_vector": "AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-03-24 - Vulnerability reported to vendor",
+      "2026-09-09 - Coordinated public release of advisory",
+      "2026-09-09 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-645 ZDI-CAN-30081 Fortinet FortiSandbox write_remote_backup_to_crontab cronValue Command Injection Remote Code Execution Vulnerability 2026-09-09 CVE-2026-84387 https://www.cve.org/CVERecord?id=CVE-2026-84387 7.2 AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H ['Fortinet'] ['FortiSandbox'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Fortinet FortiSandbox. Authentication is required to exploit this vulnerability. The specific flaw exists within the handling of the cronValue parameter passed to the write_remote_backup_to_crontab endpoint. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of root. Fortinet has issued an update to correct this vulnerability. More details can be found at: https://fortiguard.fortinet.com/psirt/FG-IR-26-167 ['2026-03-24 - Vulnerability reported to vendor', '2026-09-09 - Coordinated public release of advisory', '2026-09-09 - Advisory Updated'] Jason McFadyen of TrendAI Security Research https://www.zerodayinitiative.com/advisories/ZDI-26-645/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-645/",
+    "title": "Fortinet FortiSandbox write_remote_backup_to_crontab cronValue Command Injection Remote Code Execution Vulnerability",
+    "updated_date": "2026-09-09",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Fortinet FortiSandbox. Authentication is required to exploit this vulnerability. The specific flaw exists within the handling of the cronValue parameter passed to the write_remote_backup_to_crontab endpoint. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of root.",
+    "zdi_can": "ZDI-CAN-30081",
+    "zdi_id": "ZDI-26-645"
+  },
+  "ZDI-26-646": {
+    "additional_details": "Progress Software has issued an update to correct this vulnerability. More details can be found at: https://community.progress.com/s/article/LoadMaster-Critical-Security-Bulletin-June-2026-CVE-2026-8037-CVE-2026-33691",
+    "advisory_date": "2026-09-09",
+    "affected_products": [
+      "Kemp LoadMaster"
+    ],
+    "affected_vendors": [
+      "Progress Software"
+    ],
+    "credit": "Syed Ibrahim Ahmed, Sean Shekhtman (@sheep_trend), and Jacky Yang of TrendAI Research",
+    "cve": "CVE-2026-8037",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-8037",
+    "cvss": 7.2,
+    "cvss_vector": "AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-05-06 - Vulnerability reported to vendor",
+      "2026-09-09 - Coordinated public release of advisory",
+      "2026-09-09 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-646 ZDI-CAN-31117 Progress Software Kemp LoadMaster escape_quotes Uninitialized Memory Remote Code Execution Vulnerability 2026-09-09 CVE-2026-8037 https://www.cve.org/CVERecord?id=CVE-2026-8037 7.2 AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H ['Progress Software'] ['Kemp LoadMaster'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Progress Software Kemp LoadMaster. Authentication is required to exploit this vulnerability. The specific flaw exists within the escape_quotes function. The issue results from the lack of proper initialization of memory prior to accessing it. An attacker can leverage this vulnerability to execute code in the context of root. Progress Software has issued an update to correct this vulnerability. More details can be found at: https://community.progress.com/s/article/LoadMaster-Critical-Security-Bulletin-June-2026-CVE-2026-8037-CVE-2026-33691 ['2026-05-06 - Vulnerability reported to vendor', '2026-09-09 - Coordinated public release of advisory', '2026-09-09 - Advisory Updated'] Syed Ibrahim Ahmed, Sean Shekhtman (@sheep_trend), and Jacky Yang of TrendAI Research https://www.zerodayinitiative.com/advisories/ZDI-26-646/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-646/",
+    "title": "Progress Software Kemp LoadMaster escape_quotes Uninitialized Memory Remote Code Execution Vulnerability",
+    "updated_date": "2026-09-09",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Progress Software Kemp LoadMaster. Authentication is required to exploit this vulnerability. The specific flaw exists within the escape_quotes function. The issue results from the lack of proper initialization of memory prior to accessing it. An attacker can leverage this vulnerability to execute code in the context of root.",
+    "zdi_can": "ZDI-CAN-31117",
+    "zdi_id": "ZDI-26-646"
+  },
+  "ZDI-26-647": {
+    "additional_details": "VMware has issued an update to correct this vulnerability. More details can be found at: https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/38288",
+    "advisory_date": "2026-09-09",
+    "affected_products": [
+      "Workstation"
+    ],
+    "affected_vendors": [
+      "VMware"
+    ],
+    "credit": "Stan S",
+    "cve": "CVE-2026-59346",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-59346",
+    "cvss": 7.5,
+    "cvss_vector": "AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-08-26 - Vulnerability reported to vendor",
+      "2026-09-09 - Coordinated public release of advisory",
+      "2026-09-09 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-647 ZDI-CAN-31013 VMware Workstation VMXNET3 TSO Segmentation Integer Overflow Local Privilege Escalation Vulnerability 2026-09-09 CVE-2026-59346 https://www.cve.org/CVERecord?id=CVE-2026-59346 7.5 AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H ['VMware'] ['Workstation'] This vulnerability allows local attackers to escalate privileges on affected installations of VMware Workstation. An attacker must first obtain the ability to execute high-privileged code on the target guest system in order to exploit this vulnerability. The specific flaw exists within the implementation of the VMXNET3 virtual device. The issue results from the lack of proper validation of user-supplied data, which can result in an integer overflow before allocating a buffer. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the hypervisor. VMware has issued an update to correct this vulnerability. More details can be found at: https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/38288 ['2026-08-26 - Vulnerability reported to vendor', '2026-09-09 - Coordinated public release of advisory', '2026-09-09 - Advisory Updated'] Stan S https://www.zerodayinitiative.com/advisories/ZDI-26-647/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-647/",
+    "title": "VMware Workstation VMXNET3 TSO Segmentation Integer Overflow Local Privilege Escalation Vulnerability",
+    "updated_date": "2026-09-09",
+    "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of VMware Workstation. An attacker must first obtain the ability to execute high-privileged code on the target guest system in order to exploit this vulnerability. The specific flaw exists within the implementation of the VMXNET3 virtual device. The issue results from the lack of proper validation of user-supplied data, which can result in an integer overflow before allocating a buffer. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the hypervisor.",
+    "zdi_can": "ZDI-CAN-31013",
+    "zdi_id": "ZDI-26-647"
   }
 }
