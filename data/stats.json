@@ -1,18 +1,18 @@
 {
   "by_cvss_band": {
-    "critical": 2397,
-    "high": 9473,
-    "low": 1474,
-    "medium": 4106,
+    "critical": 2398,
+    "high": 9484,
+    "low": 1475,
+    "medium": 4108,
     "unknown": 337
   },
   "by_vendor": {
     "Adobe": 2032,
     "Advantech": 734,
-    "Apple": 814,
+    "Apple": 818,
     "Autodesk": 522,
     "Bentley": 208,
-    "Cisco": 324,
+    "Cisco": 323,
     "D-Link": 261,
     "Delta Electronics": 285,
     "Delta Industrial Automation": 220,
@@ -22,8 +22,8 @@
     "Hewlett-Packard": 242,
     "IrfanView": 180,
     "Ivanti": 179,
-    "Linux": 166,
-    "Microsoft": 1980,
+    "Linux": 169,
+    "Microsoft": 1979,
     "Novell": 130,
     "Oracle": 516,
     "PDF-XChange": 280,
@@ -31,7 +31,7 @@
     "Schneider Electric": 162,
     "Siemens": 387,
     "SolarWinds": 137,
-    "Trend Micro": 622
+    "Trend Micro": 619
   },
   "by_year": {
     "2005": 1,
@@ -55,15 +55,15 @@
     "2023": 1908,
     "2024": 1748,
     "2025": 1203,
-    "2026": 648
+    "2026": 680
   },
-  "cve_coverage": 15436,
-  "high_cvss": 11870,
-  "total_published": 17055,
-  "total_upcoming": 732,
+  "cve_coverage": 15466,
+  "high_cvss": 11882,
+  "total_published": 17087,
+  "total_upcoming": 715,
   "upcoming_deadline_state": {
-    "due_soon": 107,
-    "future": 363,
-    "past_due": 262
+    "due_soon": 98,
+    "future": 359,
+    "past_due": 258
   }
 }

@@ -18142,5 +18142,901 @@
     "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of VMware Workstation. An attacker must first obtain the ability to execute high-privileged code on the target guest system in order to exploit this vulnerability. The specific flaw exists within the implementation of the VMXNET3 virtual device. The issue results from the lack of proper validation of user-supplied data, which can result in an integer overflow before allocating a buffer. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the hypervisor.",
     "zdi_can": "ZDI-CAN-31013",
     "zdi_id": "ZDI-26-647"
+  },
+  "ZDI-26-648": {
+    "additional_details": "OpenAI has issued an update to correct this vulnerability. More details can be found at: https://www.cve.org/CVERecord?id=CVE-2026-19590",
+    "advisory_date": "2026-09-10",
+    "affected_products": [
+      "Codex"
+    ],
+    "affected_vendors": [
+      "OpenAI"
+    ],
+    "credit": "Sina Kheirkhah (@SinSinology) of Summoning Team (@SummoningTeam)",
+    "cve": "CVE-2026-19590",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-19590",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-06-02 - Vulnerability reported to vendor",
+      "2026-09-10 - Coordinated public release of advisory",
+      "2026-09-10 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-648 ZDI-CAN-31274 (Pwn2Own) OpenAI Codex External Control of System or Configuration Setting Remote Code Execution Vulnerability 2026-09-10 CVE-2026-19590 https://www.cve.org/CVERecord?id=CVE-2026-19590 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['OpenAI'] ['Codex'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of OpenAI Codex. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of configuration files. The issue results from the lack of proper sanitization of configuration settings. An attacker can leverage this vulnerability to execute code in the context of the current user. OpenAI has issued an update to correct this vulnerability. More details can be found at: https://www.cve.org/CVERecord?id=CVE-2026-19590 ['2026-06-02 - Vulnerability reported to vendor', '2026-09-10 - Coordinated public release of advisory', '2026-09-10 - Advisory Updated'] Sina Kheirkhah (@SinSinology) of Summoning Team (@SummoningTeam) https://www.zerodayinitiative.com/advisories/ZDI-26-648/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-648/",
+    "title": "(Pwn2Own) OpenAI Codex External Control of System or Configuration Setting Remote Code Execution Vulnerability",
+    "updated_date": "2026-09-10",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OpenAI Codex. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of configuration files. The issue results from the lack of proper sanitization of configuration settings. An attacker can leverage this vulnerability to execute code in the context of the current user.",
+    "zdi_can": "ZDI-CAN-31274",
+    "zdi_id": "ZDI-26-648"
+  },
+  "ZDI-26-649": {
+    "additional_details": "OpenAI has issued an update to correct this vulnerability. More details can be found at: https://www.cve.org/CVERecord?id=CVE-2026-19591",
+    "advisory_date": "2026-09-10",
+    "affected_products": [
+      "Codex"
+    ],
+    "affected_vendors": [
+      "OpenAI"
+    ],
+    "credit": "Cyrill Bannwart, Emanuele Barbeno, Yves Bieri, Lukasz D., Urs Mueller of Compass Security",
+    "cve": "CVE-2026-19591",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-19591",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-06-02 - Vulnerability reported to vendor",
+      "2026-09-10 - Coordinated public release of advisory",
+      "2026-09-10 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-649 ZDI-CAN-31270 (Pwn2Own) OpenAI Codex Improper Neutralization of Control Sequences Remote Code Execution Vulnerability 2026-09-10 CVE-2026-19591 https://www.cve.org/CVERecord?id=CVE-2026-19591 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['OpenAI'] ['Codex'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of OpenAI Codex. User interaction is required to exploit this vulnerability in that the target must open a malicious folder. The specific flaw exists within the parsing of arguments provided to git commands. The issue results from insufficient neutralization of control sequences. An attacker can leverage this vulnerability to execute code in the context of the current user. OpenAI has issued an update to correct this vulnerability. More details can be found at: https://www.cve.org/CVERecord?id=CVE-2026-19591 ['2026-06-02 - Vulnerability reported to vendor', '2026-09-10 - Coordinated public release of advisory', '2026-09-10 - Advisory Updated'] Cyrill Bannwart, Emanuele Barbeno, Yves Bieri, Lukasz D., Urs Mueller of Compass Security https://www.zerodayinitiative.com/advisories/ZDI-26-649/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-649/",
+    "title": "(Pwn2Own) OpenAI Codex Improper Neutralization of Control Sequences Remote Code Execution Vulnerability",
+    "updated_date": "2026-09-10",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OpenAI Codex. User interaction is required to exploit this vulnerability in that the target must open a malicious folder. The specific flaw exists within the parsing of arguments provided to git commands. The issue results from insufficient neutralization of control sequences. An attacker can leverage this vulnerability to execute code in the context of the current user.",
+    "zdi_can": "ZDI-CAN-31270",
+    "zdi_id": "ZDI-26-649"
+  },
+  "ZDI-26-650": {
+    "additional_details": "OpenAI has issued an update to correct this vulnerability. More details can be found at: https://www.cve.org/CVERecord?id=CVE-2026-19592",
+    "advisory_date": "2026-09-10",
+    "affected_products": [
+      "Codex"
+    ],
+    "affected_vendors": [
+      "OpenAI"
+    ],
+    "credit": "Doyensec",
+    "cve": "CVE-2026-19592",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-19592",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-09-09 - Vulnerability reported to vendor",
+      "2026-09-10 - Coordinated public release of advisory",
+      "2026-09-10 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-650 ZDI-CAN-31277 (Pwn2Own) OpenAI Codex External Control of Configuration Setting Remote Code Execution Vulnerability 2026-09-10 CVE-2026-19592 https://www.cve.org/CVERecord?id=CVE-2026-19592 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['OpenAI'] ['Codex'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of OpenAI Codex. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of configuration files. The issue results from the lack of proper sanitization of configuration settings. An attacker can leverage this vulnerability to execute code in the context of the current user. OpenAI has issued an update to correct this vulnerability. More details can be found at: https://www.cve.org/CVERecord?id=CVE-2026-19592 ['2026-09-09 - Vulnerability reported to vendor', '2026-09-10 - Coordinated public release of advisory', '2026-09-10 - Advisory Updated'] Doyensec https://www.zerodayinitiative.com/advisories/ZDI-26-650/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-650/",
+    "title": "(Pwn2Own) OpenAI Codex External Control of Configuration Setting Remote Code Execution Vulnerability",
+    "updated_date": "2026-09-10",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OpenAI Codex. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of configuration files. The issue results from the lack of proper sanitization of configuration settings. An attacker can leverage this vulnerability to execute code in the context of the current user.",
+    "zdi_can": "ZDI-CAN-31277",
+    "zdi_id": "ZDI-26-650"
+  },
+  "ZDI-26-651": {
+    "additional_details": "OpenAI has issued an update to correct this vulnerability. More details can be found at: https://www.cve.org/CVERecord?id=CVE-2026-19593",
+    "advisory_date": "2026-09-10",
+    "affected_products": [
+      "Codex"
+    ],
+    "affected_vendors": [
+      "OpenAI"
+    ],
+    "credit": "Ikotas Labs, Inc. (Satoki Tsuji)",
+    "cve": "CVE-2026-19593",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-19593",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-06-02 - Vulnerability reported to vendor",
+      "2026-09-10 - Coordinated public release of advisory",
+      "2026-09-10 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-651 ZDI-CAN-31264 (Pwn2Own) OpenAI Codex External Control of System or Configuration Setting Remote Code Execution Vulnerability 2026-09-10 CVE-2026-19593 https://www.cve.org/CVERecord?id=CVE-2026-19593 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['OpenAI'] ['Codex'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of OpenAI Codex. User interaction is required to exploit this vulnerability in that the target must open a malicious folder. The specific flaw exists within the handling of configuration files. The issue results from the lack of proper sanitization of configuration settings. An attacker can leverage this vulnerability to execute code in the context of the current user. OpenAI has issued an update to correct this vulnerability. More details can be found at: https://www.cve.org/CVERecord?id=CVE-2026-19593 ['2026-06-02 - Vulnerability reported to vendor', '2026-09-10 - Coordinated public release of advisory', '2026-09-10 - Advisory Updated'] Ikotas Labs, Inc. (Satoki Tsuji) https://www.zerodayinitiative.com/advisories/ZDI-26-651/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-651/",
+    "title": "(Pwn2Own) OpenAI Codex External Control of System or Configuration Setting Remote Code Execution Vulnerability",
+    "updated_date": "2026-09-10",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OpenAI Codex. User interaction is required to exploit this vulnerability in that the target must open a malicious folder. The specific flaw exists within the handling of configuration files. The issue results from the lack of proper sanitization of configuration settings. An attacker can leverage this vulnerability to execute code in the context of the current user.",
+    "zdi_can": "ZDI-CAN-31264",
+    "zdi_id": "ZDI-26-651"
+  },
+  "ZDI-26-652": {
+    "additional_details": "TrendAI has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/en-US/solution/KA-0022458",
+    "advisory_date": "2026-09-10",
+    "affected_products": [
+      "Apex One"
+    ],
+    "affected_vendors": [
+      "TrendAI"
+    ],
+    "credit": "Lays (@_L4ys) of TRAPA Security",
+    "cve": "CVE-2025-71416",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-71416",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-01-08 - Vulnerability reported to vendor",
+      "2026-09-10 - Coordinated public release of advisory",
+      "2026-09-10 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-652 ZDI-CAN-27921 TrendAI Apex One Security Agent Cache Mechanism Time-Of-Check Time-Of-Use Local Privilege Escalation Vulnerability 2026-09-10 CVE-2025-71416 https://www.cve.org/CVERecord?id=CVE-2025-71416 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['TrendAI'] ['Apex One'] This vulnerability allows local attackers to escalate privileges on affected installations of TrendAI Apex One Security Agent. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the cache mechanism. The issue results from the lack of proper cache key checking during signature verification. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root. TrendAI has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/en-US/solution/KA-0022458 ['2026-01-08 - Vulnerability reported to vendor', '2026-09-10 - Coordinated public release of advisory', '2026-09-10 - Advisory Updated'] Lays (@_L4ys) of TRAPA Security https://www.zerodayinitiative.com/advisories/ZDI-26-652/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-652/",
+    "title": "TrendAI Apex One Security Agent Cache Mechanism Time-Of-Check Time-Of-Use Local Privilege Escalation Vulnerability",
+    "updated_date": "2026-09-10",
+    "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of TrendAI Apex One Security Agent. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the cache mechanism. The issue results from the lack of proper cache key checking during signature verification. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root.",
+    "zdi_can": "ZDI-CAN-27921",
+    "zdi_id": "ZDI-26-652"
+  },
+  "ZDI-26-653": {
+    "additional_details": "TrendAI has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/en-US/solution/KA-0022458",
+    "advisory_date": "2026-09-10",
+    "affected_products": [
+      "Apex One"
+    ],
+    "affected_vendors": [
+      "TrendAI"
+    ],
+    "credit": "Lays (@_L4ys) of TRAPA Security",
+    "cve": "CVE-2025-71415",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-71415",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2025-10-29 - Vulnerability reported to vendor",
+      "2026-09-10 - Coordinated public release of advisory",
+      "2026-09-10 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-653 ZDI-CAN-27896 TrendAI Apex One Security Agent Cache Mechanism Time-Of-Check Time-Of-Use Local Privilege Escalation Vulnerability 2026-09-10 CVE-2025-71415 https://www.cve.org/CVERecord?id=CVE-2025-71415 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['TrendAI'] ['Apex One'] This vulnerability allows local attackers to escalate privileges on affected installations of TrendAI Apex One Security Agent. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the cache mechanism. The issue results from the lack of proper cache key checking during signature verification. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root. TrendAI has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/en-US/solution/KA-0022458 ['2025-10-29 - Vulnerability reported to vendor', '2026-09-10 - Coordinated public release of advisory', '2026-09-10 - Advisory Updated'] Lays (@_L4ys) of TRAPA Security https://www.zerodayinitiative.com/advisories/ZDI-26-653/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-653/",
+    "title": "TrendAI Apex One Security Agent Cache Mechanism Time-Of-Check Time-Of-Use Local Privilege Escalation Vulnerability",
+    "updated_date": "2026-09-10",
+    "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of TrendAI Apex One Security Agent. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the cache mechanism. The issue results from the lack of proper cache key checking during signature verification. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root.",
+    "zdi_can": "ZDI-CAN-27896",
+    "zdi_id": "ZDI-26-653"
+  },
+  "ZDI-26-654": {
+    "additional_details": "TrendAI has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/en-US/solution/KA-0022458",
+    "advisory_date": "2026-09-10",
+    "affected_products": [
+      "Apex One"
+    ],
+    "affected_vendors": [
+      "TrendAI"
+    ],
+    "credit": "Lays (@_L4ys) of TRAPA Security",
+    "cve": "CVE-2025-71414",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-71414",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2025-10-08 - Vulnerability reported to vendor",
+      "2026-09-10 - Coordinated public release of advisory",
+      "2026-09-10 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-654 ZDI-CAN-27868 TrendAI Apex One Incomplete Cleanup Local Privilege Escalation Vulnerability 2026-09-10 CVE-2025-71414 https://www.cve.org/CVERecord?id=CVE-2025-71414 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['TrendAI'] ['Apex One'] This vulnerability allows local attackers to escalate privileges on affected installations of TrendAI Apex One Security Agent. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the TmccCore component. The issue results from the lack of proper handling of process termination. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root. TrendAI has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/en-US/solution/KA-0022458 ['2025-10-08 - Vulnerability reported to vendor', '2026-09-10 - Coordinated public release of advisory', '2026-09-10 - Advisory Updated'] Lays (@_L4ys) of TRAPA Security https://www.zerodayinitiative.com/advisories/ZDI-26-654/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-654/",
+    "title": "TrendAI Apex One Incomplete Cleanup Local Privilege Escalation Vulnerability",
+    "updated_date": "2026-09-10",
+    "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of TrendAI Apex One Security Agent. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the TmccCore component. The issue results from the lack of proper handling of process termination. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root.",
+    "zdi_can": "ZDI-CAN-27868",
+    "zdi_id": "ZDI-26-654"
+  },
+  "ZDI-26-655": {
+    "additional_details": "PAPPL has issued an update to correct this vulnerability. More details can be found at: https://github.com/michaelrsweet/pappl/security/advisories/GHSA-g59w-rq3j-wfj3",
+    "advisory_date": "2026-09-10",
+    "affected_products": [
+      "PAPPL"
+    ],
+    "affected_vendors": [
+      "PAPPL"
+    ],
+    "credit": "Anonymous",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-08-04 - Vulnerability reported to vendor",
+      "2026-09-10 - Coordinated public release of advisory",
+      "2026-09-10 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-655 ZDI-CAN-32306 PAPPL Printer IPP Processing Stack-based Buffer Overflow Local Privilege Escalation Vulnerability 2026-09-10 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['PAPPL'] ['PAPPL'] This vulnerability allows local attackers to escalate privileges on affected installations of PAPPL. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of printer attributes. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root. PAPPL has issued an update to correct this vulnerability. More details can be found at: https://github.com/michaelrsweet/pappl/security/advisories/GHSA-g59w-rq3j-wfj3 ['2026-08-04 - Vulnerability reported to vendor', '2026-09-10 - Coordinated public release of advisory', '2026-09-10 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-655/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-655/",
+    "title": "PAPPL Printer IPP Processing Stack-based Buffer Overflow Local Privilege Escalation Vulnerability",
+    "updated_date": "2026-09-10",
+    "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of PAPPL. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of printer attributes. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root.",
+    "zdi_can": "ZDI-CAN-32306",
+    "zdi_id": "ZDI-26-655"
+  },
+  "ZDI-26-656": {
+    "additional_details": "PAPPL has issued an update to correct this vulnerability. More details can be found at: https://github.com/michaelrsweet/pappl/security/advisories/GHSA-p9wg-4p56-7xp6",
+    "advisory_date": "2026-09-10",
+    "affected_products": [
+      "PAPPL"
+    ],
+    "affected_vendors": [
+      "PAPPL"
+    ],
+    "credit": "Anonymous",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 9.8,
+    "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-08-04 - Vulnerability reported to vendor",
+      "2026-09-10 - Coordinated public release of advisory",
+      "2026-09-10 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-656 ZDI-CAN-32307 PAPPL Job Processing Heap-based Buffer Overflow Remote Code Execution Vulnerability 2026-09-10 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['PAPPL'] ['PAPPL'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of PAPPL. Authentication is not required to exploit this vulnerability. The specific flaw exists within the parsing of raster documents. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the service account. PAPPL has issued an update to correct this vulnerability. More details can be found at: https://github.com/michaelrsweet/pappl/security/advisories/GHSA-p9wg-4p56-7xp6 ['2026-08-04 - Vulnerability reported to vendor', '2026-09-10 - Coordinated public release of advisory', '2026-09-10 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-656/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-656/",
+    "title": "PAPPL Job Processing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+    "updated_date": "2026-09-10",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of PAPPL. Authentication is not required to exploit this vulnerability. The specific flaw exists within the parsing of raster documents. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the service account.",
+    "zdi_can": "ZDI-CAN-32307",
+    "zdi_id": "ZDI-26-656"
+  },
+  "ZDI-26-657": {
+    "additional_details": "ASUS has issued an update to correct this vulnerability. More details can be found at: https://www.asus.com/security-advisory",
+    "advisory_date": "2026-09-10",
+    "affected_products": [
+      "Control Center Express"
+    ],
+    "affected_vendors": [
+      "ASUS"
+    ],
+    "credit": "0x0dee",
+    "cve": "CVE-2026-19397",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-19397",
+    "cvss": 9.8,
+    "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-06-09 - Vulnerability reported to vendor",
+      "2026-09-10 - Coordinated public release of advisory",
+      "2026-09-10 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-657 ZDI-CAN-29986 ASUS Control Center Express Agent Missing Authentication Remote Code Execution Vulnerability 2026-09-10 CVE-2026-19397 https://www.cve.org/CVERecord?id=CVE-2026-19397 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['ASUS'] ['Control Center Express'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of ASUS Control Center Express Agent. Authentication is not required to exploit this vulnerability. The specific flaw exists within the Remote Desktop endpoint, which listens on TCP port 10637 by default. The issue results from the lack of authentication prior to allowing access to functionality. An attacker can leverage this vulnerability to execute code in the context of the user logged on at the console of the target machine. ASUS has issued an update to correct this vulnerability. More details can be found at: https://www.asus.com/security-advisory ['2026-06-09 - Vulnerability reported to vendor', '2026-09-10 - Coordinated public release of advisory', '2026-09-10 - Advisory Updated'] 0x0dee https://www.zerodayinitiative.com/advisories/ZDI-26-657/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-657/",
+    "title": "ASUS Control Center Express Agent Missing Authentication Remote Code Execution Vulnerability",
+    "updated_date": "2026-09-10",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of ASUS Control Center Express Agent. Authentication is not required to exploit this vulnerability. The specific flaw exists within the Remote Desktop endpoint, which listens on TCP port 10637 by default. The issue results from the lack of authentication prior to allowing access to functionality. An attacker can leverage this vulnerability to execute code in the context of the user logged on at the console of the target machine.",
+    "zdi_can": "ZDI-CAN-29986",
+    "zdi_id": "ZDI-26-657"
+  },
+  "ZDI-26-658": {
+    "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb26-141.html",
+    "advisory_date": "2026-09-10",
+    "affected_products": [
+      "Acrobat Pro DC"
+    ],
+    "affected_vendors": [
+      "Adobe"
+    ],
+    "credit": "Brandon Evans of TrendAI Zero Day Initiative",
+    "cve": "CVE-2026-81987",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-81987",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-06-10 - Vulnerability reported to vendor",
+      "2026-09-10 - Coordinated public release of advisory",
+      "2026-09-10 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-658 ZDI-CAN-31740 Adobe Acrobat Pro DC JPEG Parsing Integer Overflow Remote Code Execution Vulnerability 2026-09-10 CVE-2026-81987 https://www.cve.org/CVERecord?id=CVE-2026-81987 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Adobe'] ['Acrobat Pro DC'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Adobe Acrobat Pro DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of JPEG image data within PDF files. The issue results from the lack of proper validation of user-supplied data, which can result in an integer overflow before allocating a buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb26-141.html ['2026-06-10 - Vulnerability reported to vendor', '2026-09-10 - Coordinated public release of advisory', '2026-09-10 - Advisory Updated'] Brandon Evans of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-658/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-658/",
+    "title": "Adobe Acrobat Pro DC JPEG Parsing Integer Overflow Remote Code Execution Vulnerability",
+    "updated_date": "2026-09-10",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Adobe Acrobat Pro DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of JPEG image data within PDF files. The issue results from the lack of proper validation of user-supplied data, which can result in an integer overflow before allocating a buffer. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-31740",
+    "zdi_id": "ZDI-26-658"
+  },
+  "ZDI-26-659": {
+    "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb26-141.html",
+    "advisory_date": "2026-09-10",
+    "affected_products": [
+      "Acrobat Reader DC"
+    ],
+    "affected_vendors": [
+      "Adobe"
+    ],
+    "credit": "NURIHAN KIM (HanTul)",
+    "cve": "CVE-2026-80160",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-80160",
+    "cvss": 3.3,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+    "disclosure_timeline": [
+      "2026-07-22 - Vulnerability reported to vendor",
+      "2026-09-10 - Coordinated public release of advisory",
+      "2026-09-10 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-659 ZDI-CAN-32516 Adobe Acrobat Reader DC JPEG2000 File Parsing Out-Of-Bounds Read Information Disclosure Vulnerability 2026-09-10 CVE-2026-80160 https://www.cve.org/CVERecord?id=CVE-2026-80160 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N ['Adobe'] ['Acrobat Reader DC'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Adobe Acrobat Reader DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of JPEG2000 files. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb26-141.html ['2026-07-22 - Vulnerability reported to vendor', '2026-09-10 - Coordinated public release of advisory', '2026-09-10 - Advisory Updated'] NURIHAN KIM (HanTul) https://www.zerodayinitiative.com/advisories/ZDI-26-659/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-659/",
+    "title": "Adobe Acrobat Reader DC JPEG2000 File Parsing Out-Of-Bounds Read Information Disclosure Vulnerability",
+    "updated_date": "2026-09-10",
+    "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Adobe Acrobat Reader DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of JPEG2000 files. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-32516",
+    "zdi_id": "ZDI-26-659"
+  },
+  "ZDI-26-660": {
+    "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb26-141.html",
+    "advisory_date": "2026-09-10",
+    "affected_products": [
+      "Acrobat Reader DC"
+    ],
+    "affected_vendors": [
+      "Adobe"
+    ],
+    "credit": "NURIHAN KIM (HanTul)",
+    "cve": "CVE-2026-80162",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-80162",
+    "cvss": 3.3,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+    "disclosure_timeline": [
+      "2026-07-22 - Vulnerability reported to vendor",
+      "2026-09-10 - Coordinated public release of advisory",
+      "2026-09-10 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-660 ZDI-CAN-32181 Adobe Acrobat Reader DC Font Parsing Use-After-Free Information Disclosure Vulnerability 2026-09-10 CVE-2026-80162 https://www.cve.org/CVERecord?id=CVE-2026-80162 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N ['Adobe'] ['Acrobat Reader DC'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Adobe Acrobat Reader DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of embedded fonts. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb26-141.html ['2026-07-22 - Vulnerability reported to vendor', '2026-09-10 - Coordinated public release of advisory', '2026-09-10 - Advisory Updated'] NURIHAN KIM (HanTul) https://www.zerodayinitiative.com/advisories/ZDI-26-660/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-660/",
+    "title": "Adobe Acrobat Reader DC Font Parsing Use-After-Free Information Disclosure Vulnerability",
+    "updated_date": "2026-09-10",
+    "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Adobe Acrobat Reader DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of embedded fonts. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-32181",
+    "zdi_id": "ZDI-26-660"
+  },
+  "ZDI-26-661": {
+    "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb26-141.html",
+    "advisory_date": "2026-09-10",
+    "affected_products": [
+      "Acrobat Reader DC"
+    ],
+    "affected_vendors": [
+      "Adobe"
+    ],
+    "credit": "Anonymous",
+    "cve": "CVE-2026-81985",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-81985",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-06-10 - Vulnerability reported to vendor",
+      "2026-09-10 - Coordinated public release of advisory",
+      "2026-09-10 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-661 ZDI-CAN-31010 Adobe Acrobat Reader DC Annotation Use-After-Free Remote Code Execution Vulnerability 2026-09-10 CVE-2026-81985 https://www.cve.org/CVERecord?id=CVE-2026-81985 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Adobe'] ['Acrobat Reader DC'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Adobe Acrobat Reader DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Annotation objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current process. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb26-141.html ['2026-06-10 - Vulnerability reported to vendor', '2026-09-10 - Coordinated public release of advisory', '2026-09-10 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-661/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-661/",
+    "title": "Adobe Acrobat Reader DC Annotation Use-After-Free Remote Code Execution Vulnerability",
+    "updated_date": "2026-09-10",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Adobe Acrobat Reader DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Annotation objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-31010",
+    "zdi_id": "ZDI-26-661"
+  },
+  "ZDI-26-662": {
+    "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb26-141.html",
+    "advisory_date": "2026-09-10",
+    "affected_products": [
+      "Acrobat Reader DC"
+    ],
+    "affected_vendors": [
+      "Adobe"
+    ],
+    "credit": "Mark Vincent Yason (markyason.github.io)",
+    "cve": "CVE-2026-81990",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-81990",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-06-02 - Vulnerability reported to vendor",
+      "2026-09-10 - Coordinated public release of advisory",
+      "2026-09-10 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-662 ZDI-CAN-30878 Adobe Acrobat Reader DC Annotation Use-After-Free Remote Code Execution Vulnerability 2026-09-10 CVE-2026-81990 https://www.cve.org/CVERecord?id=CVE-2026-81990 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Adobe'] ['Acrobat Reader DC'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Adobe Acrobat Reader DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Annotation objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current process. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb26-141.html ['2026-06-02 - Vulnerability reported to vendor', '2026-09-10 - Coordinated public release of advisory', '2026-09-10 - Advisory Updated'] Mark Vincent Yason (markyason.github.io) https://www.zerodayinitiative.com/advisories/ZDI-26-662/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-662/",
+    "title": "Adobe Acrobat Reader DC Annotation Use-After-Free Remote Code Execution Vulnerability",
+    "updated_date": "2026-09-10",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Adobe Acrobat Reader DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Annotation objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-30878",
+    "zdi_id": "ZDI-26-662"
+  },
+  "ZDI-26-663": {
+    "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb26-141.html",
+    "advisory_date": "2026-09-10",
+    "affected_products": [
+      "Acrobat Pro DC"
+    ],
+    "affected_vendors": [
+      "Adobe"
+    ],
+    "credit": "Anonymous",
+    "cve": "CVE-2026-81989",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-81989",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-06-02 - Vulnerability reported to vendor",
+      "2026-09-10 - Coordinated public release of advisory",
+      "2026-09-10 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-663 ZDI-CAN-30785 Adobe Acrobat Pro DC Annotation Use-After-Free Remote Code Execution Vulnerability 2026-09-10 CVE-2026-81989 https://www.cve.org/CVERecord?id=CVE-2026-81989 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Adobe'] ['Acrobat Pro DC'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Adobe Acrobat Pro DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Annotation objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute arbitrary code in the context of the current process. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb26-141.html ['2026-06-02 - Vulnerability reported to vendor', '2026-09-10 - Coordinated public release of advisory', '2026-09-10 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-663/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-663/",
+    "title": "Adobe Acrobat Pro DC Annotation Use-After-Free Remote Code Execution Vulnerability",
+    "updated_date": "2026-09-10",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Adobe Acrobat Pro DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Annotation objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute arbitrary code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-30785",
+    "zdi_id": "ZDI-26-663"
+  },
+  "ZDI-26-664": {
+    "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb26-141.html",
+    "advisory_date": "2026-09-10",
+    "affected_products": [
+      "Acrobat Reader DC"
+    ],
+    "affected_vendors": [
+      "Adobe"
+    ],
+    "credit": "Anonymous",
+    "cve": "CVE-2026-81986",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-81986",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-06-10 - Vulnerability reported to vendor",
+      "2026-09-10 - Coordinated public release of advisory",
+      "2026-09-10 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-664 ZDI-CAN-31012 Adobe Acrobat Reader DC Annotation Use-After-Free Remote Code Execution Vulnerability 2026-09-10 CVE-2026-81986 https://www.cve.org/CVERecord?id=CVE-2026-81986 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Adobe'] ['Acrobat Reader DC'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Adobe Acrobat Reader DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of Annotation objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current process. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb26-141.html ['2026-06-10 - Vulnerability reported to vendor', '2026-09-10 - Coordinated public release of advisory', '2026-09-10 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-664/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-664/",
+    "title": "Adobe Acrobat Reader DC Annotation Use-After-Free Remote Code Execution Vulnerability",
+    "updated_date": "2026-09-10",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Adobe Acrobat Reader DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of Annotation objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-31012",
+    "zdi_id": "ZDI-26-664"
+  },
+  "ZDI-26-665": {
+    "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb26-141.html",
+    "advisory_date": "2026-09-10",
+    "affected_products": [
+      "Acrobat Reader DC"
+    ],
+    "affected_vendors": [
+      "Adobe"
+    ],
+    "credit": "Mark Vincent Yason (markyason.github.io)",
+    "cve": "CVE-2026-79909",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-79909",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-08-01 - Vulnerability reported to vendor",
+      "2026-09-10 - Coordinated public release of advisory",
+      "2026-09-10 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-665 ZDI-CAN-31909 Adobe Acrobat Reader DC Annots Report Use-After-Free Remote Code Execution Vulnerability 2026-09-10 CVE-2026-79909 https://www.cve.org/CVERecord?id=CVE-2026-79909 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Adobe'] ['Acrobat Reader DC'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Adobe Acrobat Reader DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Report objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current process. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb26-141.html ['2026-08-01 - Vulnerability reported to vendor', '2026-09-10 - Coordinated public release of advisory', '2026-09-10 - Advisory Updated'] Mark Vincent Yason (markyason.github.io) https://www.zerodayinitiative.com/advisories/ZDI-26-665/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-665/",
+    "title": "Adobe Acrobat Reader DC Annots Report Use-After-Free Remote Code Execution Vulnerability",
+    "updated_date": "2026-09-10",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Adobe Acrobat Reader DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Report objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-31909",
+    "zdi_id": "ZDI-26-665"
+  },
+  "ZDI-26-666": {
+    "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb26-141.html",
+    "advisory_date": "2026-09-10",
+    "affected_products": [
+      "Acrobat Reader DC"
+    ],
+    "affected_vendors": [
+      "Adobe"
+    ],
+    "credit": "Kiwan Ko",
+    "cve": "CVE-2026-79910",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-79910",
+    "cvss": 3.3,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+    "disclosure_timeline": [
+      "2026-07-29 - Vulnerability reported to vendor",
+      "2026-09-10 - Coordinated public release of advisory",
+      "2026-09-10 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-666 ZDI-CAN-31535 Adobe Acrobat Reader DC JPEG2000 File Parsing Out-Of-Bounds Read Information Disclosure Vulnerability 2026-09-10 CVE-2026-79910 https://www.cve.org/CVERecord?id=CVE-2026-79910 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N ['Adobe'] ['Acrobat Reader DC'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Adobe Acrobat Reader DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of JPEG2000 data. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb26-141.html ['2026-07-29 - Vulnerability reported to vendor', '2026-09-10 - Coordinated public release of advisory', '2026-09-10 - Advisory Updated'] Kiwan Ko https://www.zerodayinitiative.com/advisories/ZDI-26-666/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-666/",
+    "title": "Adobe Acrobat Reader DC JPEG2000 File Parsing Out-Of-Bounds Read Information Disclosure Vulnerability",
+    "updated_date": "2026-09-10",
+    "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Adobe Acrobat Reader DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of JPEG2000 data. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-31535",
+    "zdi_id": "ZDI-26-666"
+  },
+  "ZDI-26-667": {
+    "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb26-141.html",
+    "advisory_date": "2026-09-10",
+    "affected_products": [
+      "Acrobat Reader DC"
+    ],
+    "affected_vendors": [
+      "Adobe"
+    ],
+    "credit": "Anonymous",
+    "cve": "CVE-2026-81975",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-81975",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-06-30 - Vulnerability reported to vendor",
+      "2026-09-10 - Coordinated public release of advisory",
+      "2026-09-10 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-667 ZDI-CAN-31374 Adobe Acrobat Reader DC Annotation Use-After-Free Remote Code Execution Vulnerability 2026-09-10 CVE-2026-81975 https://www.cve.org/CVERecord?id=CVE-2026-81975 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Adobe'] ['Acrobat Reader DC'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Adobe Acrobat Reader DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Annotation objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current process. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb26-141.html ['2026-06-30 - Vulnerability reported to vendor', '2026-09-10 - Coordinated public release of advisory', '2026-09-10 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-667/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-667/",
+    "title": "Adobe Acrobat Reader DC Annotation Use-After-Free Remote Code Execution Vulnerability",
+    "updated_date": "2026-09-10",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Adobe Acrobat Reader DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Annotation objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-31374",
+    "zdi_id": "ZDI-26-667"
+  },
+  "ZDI-26-668": {
+    "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb26-141.html",
+    "advisory_date": "2026-09-10",
+    "affected_products": [
+      "Acrobat Reader DC"
+    ],
+    "affected_vendors": [
+      "Adobe"
+    ],
+    "credit": "Anonymous",
+    "cve": "CVE-2026-81984",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-81984",
+    "cvss": 3.3,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+    "disclosure_timeline": [
+      "2026-06-10 - Vulnerability reported to vendor",
+      "2026-09-10 - Coordinated public release of advisory",
+      "2026-09-10 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-668 ZDI-CAN-31082 Adobe Acrobat Reader DC Annotation Use-After-Free Information Disclosure Vulnerability 2026-09-10 CVE-2026-81984 https://www.cve.org/CVERecord?id=CVE-2026-81984 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N ['Adobe'] ['Acrobat Reader DC'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Adobe Acrobat Reader DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Annotation objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb26-141.html ['2026-06-10 - Vulnerability reported to vendor', '2026-09-10 - Coordinated public release of advisory', '2026-09-10 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-668/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-668/",
+    "title": "Adobe Acrobat Reader DC Annotation Use-After-Free Information Disclosure Vulnerability",
+    "updated_date": "2026-09-10",
+    "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Adobe Acrobat Reader DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Annotation objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-31082",
+    "zdi_id": "ZDI-26-668"
+  },
+  "ZDI-26-669": {
+    "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb26-141.html",
+    "advisory_date": "2026-09-10",
+    "affected_products": [
+      "Acrobat Reader DC"
+    ],
+    "affected_vendors": [
+      "Adobe"
+    ],
+    "credit": "NURIHAN KIM (HanTul)",
+    "cve": "CVE-2026-81978",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-81978",
+    "cvss": 3.3,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+    "disclosure_timeline": [
+      "2026-06-30 - Vulnerability reported to vendor",
+      "2026-09-10 - Coordinated public release of advisory",
+      "2026-09-10 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-669 ZDI-CAN-31150 Adobe Acrobat Reader DC JBIG2 File Parsing Out-Of-Bounds Read Information Disclosure Vulnerability 2026-09-10 CVE-2026-81978 https://www.cve.org/CVERecord?id=CVE-2026-81978 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N ['Adobe'] ['Acrobat Reader DC'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Adobe Acrobat Reader DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of JBIG2-encoded image streams. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb26-141.html ['2026-06-30 - Vulnerability reported to vendor', '2026-09-10 - Coordinated public release of advisory', '2026-09-10 - Advisory Updated'] NURIHAN KIM (HanTul) https://www.zerodayinitiative.com/advisories/ZDI-26-669/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-669/",
+    "title": "Adobe Acrobat Reader DC JBIG2 File Parsing Out-Of-Bounds Read Information Disclosure Vulnerability",
+    "updated_date": "2026-09-10",
+    "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Adobe Acrobat Reader DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of JBIG2-encoded image streams. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-31150",
+    "zdi_id": "ZDI-26-669"
+  },
+  "ZDI-26-670": {
+    "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb26-141.html",
+    "advisory_date": "2026-09-10",
+    "affected_products": [
+      "Acrobat Pro DC"
+    ],
+    "affected_vendors": [
+      "Adobe"
+    ],
+    "credit": "Anonymous",
+    "cve": "CVE-2026-81991",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-81991",
+    "cvss": 3.3,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+    "disclosure_timeline": [
+      "2026-06-02 - Vulnerability reported to vendor",
+      "2026-09-10 - Coordinated public release of advisory",
+      "2026-09-10 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-670 ZDI-CAN-30877 Adobe Acrobat Pro DC Doc Object Out-Of-Bounds Read Information Disclosure Vulnerability 2026-09-10 CVE-2026-81991 https://www.cve.org/CVERecord?id=CVE-2026-81991 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N ['Adobe'] ['Acrobat Pro DC'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Adobe Acrobat Pro DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Doc objects. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb26-141.html ['2026-06-02 - Vulnerability reported to vendor', '2026-09-10 - Coordinated public release of advisory', '2026-09-10 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-670/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-670/",
+    "title": "Adobe Acrobat Pro DC Doc Object Out-Of-Bounds Read Information Disclosure Vulnerability",
+    "updated_date": "2026-09-10",
+    "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Adobe Acrobat Pro DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Doc objects. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-30877",
+    "zdi_id": "ZDI-26-670"
+  },
+  "ZDI-26-671": {
+    "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb26-141.html",
+    "advisory_date": "2026-09-10",
+    "affected_products": [
+      "Acrobat Reader DC"
+    ],
+    "affected_vendors": [
+      "Adobe"
+    ],
+    "credit": "Mark Vincent Yason (markyason.github.io)",
+    "cve": "CVE-2026-80161",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-80161",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-07-22 - Vulnerability reported to vendor",
+      "2026-09-10 - Coordinated public release of advisory",
+      "2026-09-10 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-671 ZDI-CAN-31643 Adobe Acrobat Reader DC Dialog Object Type Confusion Remote Code Execution Vulnerability 2026-09-10 CVE-2026-80161 https://www.cve.org/CVERecord?id=CVE-2026-80161 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Adobe'] ['Acrobat Reader DC'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Adobe Acrobat Reader DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of dialog objects. The issue results from the lack of proper validation of user-supplied data, which can result in a type confusion condition. An attacker can leverage this vulnerability to execute code in the context of the current process. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb26-141.html ['2026-07-22 - Vulnerability reported to vendor', '2026-09-10 - Coordinated public release of advisory', '2026-09-10 - Advisory Updated'] Mark Vincent Yason (markyason.github.io) https://www.zerodayinitiative.com/advisories/ZDI-26-671/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-671/",
+    "title": "Adobe Acrobat Reader DC Dialog Object Type Confusion Remote Code Execution Vulnerability",
+    "updated_date": "2026-09-10",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Adobe Acrobat Reader DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of dialog objects. The issue results from the lack of proper validation of user-supplied data, which can result in a type confusion condition. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-31643",
+    "zdi_id": "ZDI-26-671"
+  },
+  "ZDI-26-672": {
+    "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb26-141.html",
+    "advisory_date": "2026-09-10",
+    "affected_products": [
+      "Acrobat Reader DC"
+    ],
+    "affected_vendors": [
+      "Adobe"
+    ],
+    "credit": "Anonymous",
+    "cve": "CVE-2026-81977",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-81977",
+    "cvss": 3.3,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+    "disclosure_timeline": [
+      "2026-06-30 - Vulnerability reported to vendor",
+      "2026-09-10 - Coordinated public release of advisory",
+      "2026-09-10 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-672 ZDI-CAN-30998 Adobe Acrobat Reader DC PDF File Parsing Integer Underflow Information Disclosure Vulnerability 2026-09-10 CVE-2026-81977 https://www.cve.org/CVERecord?id=CVE-2026-81977 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N ['Adobe'] ['Acrobat Reader DC'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Adobe Acrobat Reader DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of PDF files. The issue results from the lack of proper validation of user-supplied data, which can result in an integer underflow before reading from memory. An attacker can leverage this vulnerability in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb26-141.html ['2026-06-30 - Vulnerability reported to vendor', '2026-09-10 - Coordinated public release of advisory', '2026-09-10 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-672/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-672/",
+    "title": "Adobe Acrobat Reader DC PDF File Parsing Integer Underflow Information Disclosure Vulnerability",
+    "updated_date": "2026-09-10",
+    "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Adobe Acrobat Reader DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of PDF files. The issue results from the lack of proper validation of user-supplied data, which can result in an integer underflow before reading from memory. An attacker can leverage this vulnerability in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-30998",
+    "zdi_id": "ZDI-26-672"
+  },
+  "ZDI-26-673": {
+    "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb26-141.html",
+    "advisory_date": "2026-09-10",
+    "affected_products": [
+      "Acrobat Pro DC"
+    ],
+    "affected_vendors": [
+      "Adobe"
+    ],
+    "credit": "Anonymous",
+    "cve": "CVE-2026-81988",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-81988",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-06-02 - Vulnerability reported to vendor",
+      "2026-09-10 - Coordinated public release of advisory",
+      "2026-09-10 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-673 ZDI-CAN-31180 Adobe Acrobat Pro DC Doc Object Use-After-Free Remote Code Execution Vulnerability 2026-09-10 CVE-2026-81988 https://www.cve.org/CVERecord?id=CVE-2026-81988 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Adobe'] ['Acrobat Pro DC'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Adobe Acrobat Pro DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Doc objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute arbitrary code in the context of the current process. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb26-141.html ['2026-06-02 - Vulnerability reported to vendor', '2026-09-10 - Coordinated public release of advisory', '2026-09-10 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-673/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-673/",
+    "title": "Adobe Acrobat Pro DC Doc Object Use-After-Free Remote Code Execution Vulnerability",
+    "updated_date": "2026-09-10",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Adobe Acrobat Pro DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Doc objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute arbitrary code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-31180",
+    "zdi_id": "ZDI-26-673"
+  },
+  "ZDI-26-674": {
+    "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb26-141.html",
+    "advisory_date": "2026-09-10",
+    "affected_products": [
+      "Acrobat Reader DC"
+    ],
+    "affected_vendors": [
+      "Adobe"
+    ],
+    "credit": "Anonymous",
+    "cve": "CVE-2026-81981",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-81981",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-06-18 - Vulnerability reported to vendor",
+      "2026-09-10 - Coordinated public release of advisory",
+      "2026-09-10 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-674 ZDI-CAN-31079 Adobe Acrobat Reader DC Annotation Out-Of-Bounds Write Remote Code Execution Vulnerability 2026-09-10 CVE-2026-81981 https://www.cve.org/CVERecord?id=CVE-2026-81981 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Adobe'] ['Acrobat Reader DC'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Adobe Acrobat Reader DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Annotation objects. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb26-141.html ['2026-06-18 - Vulnerability reported to vendor', '2026-09-10 - Coordinated public release of advisory', '2026-09-10 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-674/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-674/",
+    "title": "Adobe Acrobat Reader DC Annotation Out-Of-Bounds Write Remote Code Execution Vulnerability",
+    "updated_date": "2026-09-10",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Adobe Acrobat Reader DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Annotation objects. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated buffer. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-31079",
+    "zdi_id": "ZDI-26-674"
+  },
+  "ZDI-26-675": {
+    "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb26-141.html",
+    "advisory_date": "2026-09-10",
+    "affected_products": [
+      "Acrobat Reader DC"
+    ],
+    "affected_vendors": [
+      "Adobe"
+    ],
+    "credit": "Anonymous",
+    "cve": "CVE-2026-81976",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-81976",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-06-30 - Vulnerability reported to vendor",
+      "2026-09-10 - Coordinated public release of advisory",
+      "2026-09-10 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-675 ZDI-CAN-31386 Adobe Acrobat Reader DC Annotation Use-After-Free Remote Code Execution Vulnerability 2026-09-10 CVE-2026-81976 https://www.cve.org/CVERecord?id=CVE-2026-81976 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Adobe'] ['Acrobat Reader DC'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Adobe Acrobat Reader DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Annotation objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current process. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb26-141.html ['2026-06-30 - Vulnerability reported to vendor', '2026-09-10 - Coordinated public release of advisory', '2026-09-10 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-675/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-675/",
+    "title": "Adobe Acrobat Reader DC Annotation Use-After-Free Remote Code Execution Vulnerability",
+    "updated_date": "2026-09-10",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Adobe Acrobat Reader DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Annotation objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-31386",
+    "zdi_id": "ZDI-26-675"
+  },
+  "ZDI-26-676": {
+    "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb26-141.html",
+    "advisory_date": "2026-09-10",
+    "affected_products": [
+      "Acrobat Reader DC"
+    ],
+    "affected_vendors": [
+      "Adobe"
+    ],
+    "credit": "Mark Vincent Yason (markyason.github.io)",
+    "cve": "CVE-2026-81973",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-81973",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-07-22 - Vulnerability reported to vendor",
+      "2026-09-10 - Coordinated public release of advisory",
+      "2026-09-10 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-676 ZDI-CAN-31613 Adobe Acrobat Reader DC DigSig Use-After-Free Remote Code Execution Vulnerability 2026-09-10 CVE-2026-81973 https://www.cve.org/CVERecord?id=CVE-2026-81973 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Adobe'] ['Acrobat Reader DC'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Adobe Acrobat Reader DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of DigSig signature objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current process. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/acrobat/apsb26-141.html ['2026-07-22 - Vulnerability reported to vendor', '2026-09-10 - Coordinated public release of advisory', '2026-09-10 - Advisory Updated'] Mark Vincent Yason (markyason.github.io) https://www.zerodayinitiative.com/advisories/ZDI-26-676/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-676/",
+    "title": "Adobe Acrobat Reader DC DigSig Use-After-Free Remote Code Execution Vulnerability",
+    "updated_date": "2026-09-10",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Adobe Acrobat Reader DC. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of DigSig signature objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-31613",
+    "zdi_id": "ZDI-26-676"
+  },
+  "ZDI-26-677": {
+    "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/photoshop/apsb26-130.html",
+    "advisory_date": "2026-09-10",
+    "affected_products": [
+      "Photoshop"
+    ],
+    "affected_vendors": [
+      "Adobe"
+    ],
+    "credit": "Brandon Evans of TrendAI Zero Day Initiative",
+    "cve": "CVE-2026-75771",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-75771",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-06-26 - Vulnerability reported to vendor",
+      "2026-09-10 - Coordinated public release of advisory",
+      "2026-09-10 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-677 ZDI-CAN-32027 Adobe Photoshop DCM JPEG-LS Image Parsing Integer Overflow Remote Code Execution Vulnerability 2026-09-10 CVE-2026-75771 https://www.cve.org/CVERecord?id=CVE-2026-75771 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Adobe'] ['Photoshop'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Adobe Photoshop. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of DICOM image data. The issue results from the lack of proper validation of user-supplied data, which can result in an integer overflow before allocating a buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/photoshop/apsb26-130.html ['2026-06-26 - Vulnerability reported to vendor', '2026-09-10 - Coordinated public release of advisory', '2026-09-10 - Advisory Updated'] Brandon Evans of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-677/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-677/",
+    "title": "Adobe Photoshop DCM JPEG-LS Image Parsing Integer Overflow Remote Code Execution Vulnerability",
+    "updated_date": "2026-09-10",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Adobe Photoshop. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of DICOM image data. The issue results from the lack of proper validation of user-supplied data, which can result in an integer overflow before allocating a buffer. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-32027",
+    "zdi_id": "ZDI-26-677"
+  },
+  "ZDI-26-678": {
+    "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/photoshop/apsb26-130.html",
+    "advisory_date": "2026-09-10",
+    "affected_products": [
+      "Photoshop"
+    ],
+    "affected_vendors": [
+      "Adobe"
+    ],
+    "credit": "Brandon Evans of TrendAI Zero Day Initiative",
+    "cve": "CVE-2026-75863",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-75863",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-06-15 - Vulnerability reported to vendor",
+      "2026-09-10 - Coordinated public release of advisory",
+      "2026-09-10 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-678 ZDI-CAN-31752 Adobe Photoshop DCM File Parsing Integer Overflow Remote Code Execution Vulnerability 2026-09-10 CVE-2026-75863 https://www.cve.org/CVERecord?id=CVE-2026-75863 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Adobe'] ['Photoshop'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Adobe Photoshop. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of DICOM image data. The issue results from the lack of proper validation of user-supplied data, which can result in an integer overflow before allocating a buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/photoshop/apsb26-130.html ['2026-06-15 - Vulnerability reported to vendor', '2026-09-10 - Coordinated public release of advisory', '2026-09-10 - Advisory Updated'] Brandon Evans of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-678/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-678/",
+    "title": "Adobe Photoshop DCM File Parsing Integer Overflow Remote Code Execution Vulnerability",
+    "updated_date": "2026-09-10",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Adobe Photoshop. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of DICOM image data. The issue results from the lack of proper validation of user-supplied data, which can result in an integer overflow before allocating a buffer. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-31752",
+    "zdi_id": "ZDI-26-678"
+  },
+  "ZDI-26-679": {
+    "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/photoshop/apsb26-130.html",
+    "advisory_date": "2026-09-10",
+    "affected_products": [
+      "Photoshop"
+    ],
+    "affected_vendors": [
+      "Adobe"
+    ],
+    "credit": "Brandon Evans of TrendAI Zero Day Initiative",
+    "cve": "CVE-2026-75862",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-75862",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-06-26 - Vulnerability reported to vendor",
+      "2026-09-10 - Coordinated public release of advisory",
+      "2026-09-10 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-679 ZDI-CAN-31973 Adobe Photoshop DCM JPEG Image Parsing Integer Overflow Remote Code Execution Vulnerability 2026-09-10 CVE-2026-75862 https://www.cve.org/CVERecord?id=CVE-2026-75862 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Adobe'] ['Photoshop'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Adobe Photoshop. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of DICOM image data. The issue results from the lack of proper validation of user-supplied data, which can result in an integer overflow before allocating a buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. Adobe has issued an update to correct this vulnerability. More details can be found at: https://helpx.adobe.com/security/products/photoshop/apsb26-130.html ['2026-06-26 - Vulnerability reported to vendor', '2026-09-10 - Coordinated public release of advisory', '2026-09-10 - Advisory Updated'] Brandon Evans of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-679/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-679/",
+    "title": "Adobe Photoshop DCM JPEG Image Parsing Integer Overflow Remote Code Execution Vulnerability",
+    "updated_date": "2026-09-10",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Adobe Photoshop. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of DICOM image data. The issue results from the lack of proper validation of user-supplied data, which can result in an integer overflow before allocating a buffer. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-31973",
+    "zdi_id": "ZDI-26-679"
   }
 }
