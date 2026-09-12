@@ -1,7 +1,7 @@
 {
   "by_cvss_band": {
     "critical": 2398,
-    "high": 9484,
+    "high": 9488,
     "low": 1475,
     "medium": 4108,
     "unknown": 337
@@ -12,7 +12,7 @@
     "Apple": 818,
     "Autodesk": 522,
     "Bentley": 208,
-    "Cisco": 323,
+    "Cisco": 324,
     "D-Link": 261,
     "Delta Electronics": 285,
     "Delta Industrial Automation": 220,
@@ -58,12 +58,12 @@
     "2026": 680
   },
   "cve_coverage": 15466,
-  "high_cvss": 11882,
+  "high_cvss": 11886,
   "total_published": 17087,
-  "total_upcoming": 715,
+  "total_upcoming": 719,
   "upcoming_deadline_state": {
     "due_soon": 98,
-    "future": 359,
+    "future": 363,
     "past_due": 258
   }
 }

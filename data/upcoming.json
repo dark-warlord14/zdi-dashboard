@@ -1,5 +1,53 @@
 [
   {
+    "cvss": 8.1,
+    "cvss_vector": "AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "deadline": "2027-01-09",
+    "discoverer": "Connor Kastner (ret2c)",
+    "kind": "upcoming",
+    "reported_date": "2026-09-11",
+    "status": "upcoming",
+    "vendor": "Cisco",
+    "vendor_url": "https://www.cisco.com",
+    "zdi_can": "ZDI-CAN-33583"
+  },
+  {
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "deadline": "2027-01-09",
+    "discoverer": "Aaron Luo and Ziv Chang of VicOne LAB R7",
+    "kind": "upcoming",
+    "reported_date": "2026-09-11",
+    "status": "upcoming",
+    "vendor": "Google DeepMind",
+    "vendor_url": "https://deepmind.google/",
+    "zdi_can": "ZDI-CAN-32141"
+  },
+  {
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "deadline": "2027-01-09",
+    "discoverer": "Aaron Luo of VicOne LAB R7",
+    "kind": "upcoming",
+    "reported_date": "2026-09-11",
+    "status": "upcoming",
+    "vendor": "Google DeepMind",
+    "vendor_url": "https://deepmind.google/",
+    "zdi_can": "ZDI-CAN-32142"
+  },
+  {
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "deadline": "2027-01-09",
+    "discoverer": "Aaron Luo and Ziv Chang of VicOne LAB R7",
+    "kind": "upcoming",
+    "reported_date": "2026-09-11",
+    "status": "upcoming",
+    "vendor": "Google DeepMind",
+    "vendor_url": "https://deepmind.google/",
+    "zdi_can": "ZDI-CAN-32162"
+  },
+  {
     "cvss": 6.7,
     "cvss_vector": "AV:L/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
     "deadline": "2027-01-08",
