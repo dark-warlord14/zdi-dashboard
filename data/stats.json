@@ -1,7 +1,7 @@
 {
   "by_cvss_band": {
     "critical": 2398,
-    "high": 9488,
+    "high": 9489,
     "low": 1475,
     "medium": 4108,
     "unknown": 337
@@ -22,7 +22,7 @@
     "Hewlett-Packard": 242,
     "IrfanView": 180,
     "Ivanti": 179,
-    "Linux": 169,
+    "Linux": 170,
     "Microsoft": 1979,
     "Novell": 130,
     "Oracle": 516,
@@ -55,15 +55,15 @@
     "2023": 1908,
     "2024": 1748,
     "2025": 1203,
-    "2026": 680
+    "2026": 703
   },
-  "cve_coverage": 15466,
-  "high_cvss": 11886,
-  "total_published": 17087,
-  "total_upcoming": 719,
+  "cve_coverage": 15485,
+  "high_cvss": 11887,
+  "total_published": 17110,
+  "total_upcoming": 697,
   "upcoming_deadline_state": {
-    "due_soon": 112,
-    "future": 349,
-    "past_due": 258
+    "due_soon": 109,
+    "future": 339,
+    "past_due": 249
   }
 }

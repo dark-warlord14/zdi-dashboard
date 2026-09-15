@@ -1776,18 +1776,6 @@
     "zdi_can": "ZDI-CAN-31822"
   },
   {
-    "cvss": 6.4,
-    "cvss_vector": "AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:N/A:L",
-    "deadline": "2026-12-10",
-    "discoverer": "Anthony Laou Hine Tsuei @anarcheuz with Asymmetric Research",
-    "kind": "upcoming",
-    "reported_date": "2026-08-12",
-    "status": "upcoming",
-    "vendor": "Linux",
-    "vendor_url": "https://www.linux.org/",
-    "zdi_can": "ZDI-CAN-32042"
-  },
-  {
     "cvss": 3.7,
     "cvss_vector": "AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N",
     "deadline": "2026-12-10",
@@ -2736,18 +2724,6 @@
     "zdi_can": "ZDI-CAN-32157"
   },
   {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
-    "deadline": "2026-11-18",
-    "discoverer": "Anonymous",
-    "kind": "upcoming",
-    "reported_date": "2026-07-21",
-    "status": "upcoming",
-    "vendor": "Linux",
-    "vendor_url": "https://www.linux.org/",
-    "zdi_can": "ZDI-CAN-31642"
-  },
-  {
     "cvss": 6.5,
     "cvss_vector": "AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:N",
     "deadline": "2026-11-14",
@@ -3144,18 +3120,6 @@
     "zdi_can": "ZDI-CAN-32121"
   },
   {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
-    "deadline": "2026-11-11",
-    "discoverer": "GangMin Kim",
-    "kind": "upcoming",
-    "reported_date": "2026-07-14",
-    "status": "upcoming",
-    "vendor": "Linux",
-    "vendor_url": "https://www.linux.org/",
-    "zdi_can": "ZDI-CAN-30931"
-  },
-  {
     "cvss": 6.5,
     "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
     "deadline": "2026-11-11",
@@ -3465,18 +3429,6 @@
     "status": "upcoming",
     "vendor": "Linux",
     "vendor_url": "https://www.linux.org/",
-    "zdi_can": "ZDI-CAN-31610"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
-    "deadline": "2026-10-31",
-    "discoverer": "Anonymous",
-    "kind": "upcoming",
-    "reported_date": "2026-07-03",
-    "status": "upcoming",
-    "vendor": "Linux",
-    "vendor_url": "https://www.linux.org/",
     "zdi_can": "ZDI-CAN-31604"
   },
   {
@@ -3706,18 +3658,6 @@
     "vendor": "Linux",
     "vendor_url": "https://www.linux.org/",
     "zdi_can": "ZDI-CAN-31139"
-  },
-  {
-    "cvss": 8.2,
-    "cvss_vector": "AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H",
-    "deadline": "2026-10-23",
-    "discoverer": "Mark H",
-    "kind": "upcoming",
-    "reported_date": "2026-06-25",
-    "status": "upcoming",
-    "vendor": "Linux",
-    "vendor_url": "https://www.linux.org/",
-    "zdi_can": "ZDI-CAN-31133"
   },
   {
     "cvss": 4.3,
@@ -4404,18 +4344,6 @@
     "zdi_can": "ZDI-CAN-30691"
   },
   {
-    "cvss": 9.0,
-    "cvss_vector": "AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H",
-    "deadline": "2026-10-09",
-    "discoverer": "Musaab Khan (@bxff)",
-    "kind": "upcoming",
-    "reported_date": "2026-06-11",
-    "status": "upcoming",
-    "vendor": "Linux",
-    "vendor_url": "https://www.linux.org/",
-    "zdi_can": "ZDI-CAN-30527"
-  },
-  {
     "cvss": 7.8,
     "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
     "deadline": "2026-10-09",
@@ -4426,30 +4354,6 @@
     "vendor": "NVIDIA",
     "vendor_url": "https://www.nvidia.com/en-us/",
     "zdi_can": "ZDI-CAN-30713"
-  },
-  {
-    "cvss": 5.2,
-    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:C/C:L/I:N/A:L",
-    "deadline": "2026-10-08",
-    "discoverer": "Lucas Leong (@_wmliang_) of TrendAI Zero Day Initiative",
-    "kind": "upcoming",
-    "reported_date": "2026-06-10",
-    "status": "upcoming",
-    "vendor": "Linux",
-    "vendor_url": "https://www.linux.org/",
-    "zdi_can": "ZDI-CAN-31573"
-  },
-  {
-    "cvss": 6.4,
-    "cvss_vector": "AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:N/A:L",
-    "deadline": "2026-10-08",
-    "discoverer": "Nico Yip (@_cyeaa_)",
-    "kind": "upcoming",
-    "reported_date": "2026-06-10",
-    "status": "upcoming",
-    "vendor": "Linux",
-    "vendor_url": "https://www.linux.org/",
-    "zdi_can": "ZDI-CAN-30223"
   },
   {
     "cvss": 7.8,
@@ -4464,30 +4368,6 @@
     "zdi_can": "ZDI-CAN-31586"
   },
   {
-    "cvss": 7.3,
-    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:L",
-    "deadline": "2026-10-08",
-    "discoverer": "Edward Pasenidis (0x3d)",
-    "kind": "upcoming",
-    "reported_date": "2026-06-10",
-    "status": "upcoming",
-    "vendor": "Linux",
-    "vendor_url": "https://www.linux.org/",
-    "zdi_can": "ZDI-CAN-30482"
-  },
-  {
-    "cvss": 7.5,
-    "cvss_vector": "AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H",
-    "deadline": "2026-10-08",
-    "discoverer": "Nico Yip (@_cyeaa_)",
-    "kind": "upcoming",
-    "reported_date": "2026-06-10",
-    "status": "upcoming",
-    "vendor": "Linux",
-    "vendor_url": "https://www.linux.org/",
-    "zdi_can": "ZDI-CAN-30930"
-  },
-  {
     "cvss": 7.2,
     "cvss_vector": "AV:L/AC:H/PR:H/UI:R/S:C/C:H/I:H/A:H",
     "deadline": "2026-10-08",
@@ -4498,30 +4378,6 @@
     "vendor": "Linux",
     "vendor_url": "https://www.linux.org/",
     "zdi_can": "ZDI-CAN-31684"
-  },
-  {
-    "cvss": 6.7,
-    "cvss_vector": "AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:N/A:L",
-    "deadline": "2026-10-08",
-    "discoverer": "Manas Ghandat (@0xP0ch1ta) and Rakshit Awasthi (@sh4dy_0011)",
-    "kind": "upcoming",
-    "reported_date": "2026-06-10",
-    "status": "upcoming",
-    "vendor": "Linux",
-    "vendor_url": "https://www.linux.org/",
-    "zdi_can": "ZDI-CAN-30511"
-  },
-  {
-    "cvss": 5.2,
-    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:C/C:L/I:N/A:L",
-    "deadline": "2026-10-08",
-    "discoverer": "Lucas Leong (@_wmliang_) of TrendAI Zero Day Initiative",
-    "kind": "upcoming",
-    "reported_date": "2026-06-10",
-    "status": "upcoming",
-    "vendor": "Linux",
-    "vendor_url": "https://www.linux.org/",
-    "zdi_can": "ZDI-CAN-31582"
   },
   {
     "cvss": 7.8,
@@ -5160,18 +5016,6 @@
     "zdi_can": "ZDI-CAN-31489"
   },
   {
-    "cvss": 8.5,
-    "cvss_vector": "AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
-    "deadline": "2026-09-19",
-    "discoverer": "GangMin Kim",
-    "kind": "upcoming",
-    "reported_date": "2026-05-22",
-    "status": "upcoming",
-    "vendor": "Linux",
-    "vendor_url": "https://www.linux.org/",
-    "zdi_can": "ZDI-CAN-30500"
-  },
-  {
     "cvss": 7.8,
     "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
     "deadline": "2026-09-18",
@@ -5604,18 +5448,6 @@
     "zdi_can": "ZDI-CAN-29242"
   },
   {
-    "cvss": 7.6,
-    "cvss_vector": "AV:P/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
-    "deadline": "2026-09-04",
-    "discoverer": "Meshaal (@unrealmesh)",
-    "kind": "upcoming",
-    "reported_date": "2026-05-07",
-    "status": "upcoming",
-    "vendor": "Linux",
-    "vendor_url": "https://www.linux.org/",
-    "zdi_can": "ZDI-CAN-30226"
-  },
-  {
     "cvss": 7.8,
     "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
     "deadline": "2026-09-04",
@@ -5844,18 +5676,6 @@
     "zdi_can": "ZDI-CAN-30352"
   },
   {
-    "cvss": 8.8,
-    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
-    "deadline": "2026-08-20",
-    "discoverer": "Juefei Pu (@drivertomtt) and Frank Wu (@FrankOverF1ow)",
-    "kind": "upcoming",
-    "reported_date": "2026-04-22",
-    "status": "upcoming",
-    "vendor": "Linux",
-    "vendor_url": "https://www.linux.org/",
-    "zdi_can": "ZDI-CAN-29316"
-  },
-  {
     "cvss": 8.4,
     "cvss_vector": "AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
     "deadline": "2026-08-20",
@@ -5914,18 +5734,6 @@
     "vendor": "rocket.chat",
     "vendor_url": "https://www.rocket.chat/",
     "zdi_can": "ZDI-CAN-29853"
-  },
-  {
-    "cvss": 7.1,
-    "cvss_vector": "AV:P/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H",
-    "deadline": "2026-08-15",
-    "discoverer": "Lucas Leong (@_wmliang_) of TrendAI Zero Day Initiative",
-    "kind": "upcoming",
-    "reported_date": "2026-04-17",
-    "status": "upcoming",
-    "vendor": "Linux",
-    "vendor_url": "https://www.linux.org/",
-    "zdi_can": "ZDI-CAN-30389"
   },
   {
     "cvss": 8.8,
@@ -6250,18 +6058,6 @@
     "vendor": "Google",
     "vendor_url": "https://www.google.com/",
     "zdi_can": "ZDI-CAN-30243"
-  },
-  {
-    "cvss": 8.5,
-    "cvss_vector": "AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
-    "deadline": "2026-07-28",
-    "discoverer": "DongHyeon Hwang (kind_killerwhale)",
-    "kind": "upcoming",
-    "reported_date": "2026-03-30",
-    "status": "upcoming",
-    "vendor": "Linux",
-    "vendor_url": "https://www.linux.org/",
-    "zdi_can": "ZDI-CAN-29790"
   },
   {
     "cvss": 6.4,
@@ -7392,18 +7188,6 @@
     "zdi_can": "ZDI-CAN-29368"
   },
   {
-    "cvss": 8.2,
-    "cvss_vector": "AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H",
-    "deadline": "2026-06-12",
-    "discoverer": "p0ch1ta and sh4dy",
-    "kind": "upcoming",
-    "reported_date": "2026-02-12",
-    "status": "upcoming",
-    "vendor": "Linux",
-    "vendor_url": "https://www.linux.org/",
-    "zdi_can": "ZDI-CAN-28821"
-  },
-  {
     "cvss": 7.8,
     "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
     "deadline": "2026-06-12",
@@ -7932,18 +7716,6 @@
     "zdi_can": "ZDI-CAN-28486"
   },
   {
-    "cvss": 6.0,
-    "cvss_vector": "AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:N/A:N",
-    "deadline": "2026-04-03",
-    "discoverer": "Syed Faraz Abrar (@farazsth98) from Zellic, and Pumpkin (@u1f383) from DEVCORE Research Team",
-    "kind": "upcoming",
-    "reported_date": "2025-12-04",
-    "status": "upcoming",
-    "vendor": "Linux",
-    "vendor_url": "https://www.linux.org/",
-    "zdi_can": "ZDI-CAN-28534"
-  },
-  {
     "cvss": 7.8,
     "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
     "deadline": "2026-04-03",
@@ -7966,18 +7738,6 @@
     "vendor": "Krita",
     "vendor_url": "https://krita.org/en/about/krita-foundation/",
     "zdi_can": "ZDI-CAN-28517"
-  },
-  {
-    "cvss": 6.0,
-    "cvss_vector": "AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:N/A:N",
-    "deadline": "2026-04-03",
-    "discoverer": "Lucas Leong (@_wmliang_) of Trend Zero Day Initiative",
-    "kind": "upcoming",
-    "reported_date": "2025-12-04",
-    "status": "upcoming",
-    "vendor": "Linux",
-    "vendor_url": "https://www.linux.org/",
-    "zdi_can": "ZDI-CAN-28594"
   },
   {
     "cvss": 8.8,
@@ -8246,18 +8006,6 @@
   {
     "cvss": 8.8,
     "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
-    "deadline": "2025-10-15",
-    "discoverer": "Maher Azzouzi",
-    "kind": "upcoming",
-    "reported_date": "2025-06-17",
-    "status": "upcoming",
-    "vendor": "Linux",
-    "vendor_url": "https://www.linux.org/",
-    "zdi_can": "ZDI-CAN-27262"
-  },
-  {
-    "cvss": 8.8,
-    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
     "deadline": "2025-10-08",
     "discoverer": "p33zy",
     "kind": "upcoming",
@@ -8326,18 +8074,6 @@
     "vendor": "Linux",
     "vendor_url": "https://www.linux.org/",
     "zdi_can": "ZDI-CAN-26621"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
-    "deadline": "2025-07-09",
-    "discoverer": "Pumpkin (@u1f383) from DEVCORE Research Team",
-    "kind": "upcoming",
-    "reported_date": "2025-03-11",
-    "status": "upcoming",
-    "vendor": "Linux",
-    "vendor_url": "https://www.linux.org/",
-    "zdi_can": "ZDI-CAN-26601"
   },
   {
     "cvss": 8.8,
