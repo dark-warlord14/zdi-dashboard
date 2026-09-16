@@ -1,5 +1,29 @@
 [
   {
+    "cvss": 8.8,
+    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+    "deadline": "2027-01-13",
+    "discoverer": "parkjunhyun",
+    "kind": "upcoming",
+    "reported_date": "2026-09-15",
+    "status": "upcoming",
+    "vendor": "Linux",
+    "vendor_url": "https://www.linux.org/",
+    "zdi_can": "ZDI-CAN-33264"
+  },
+  {
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+    "deadline": "2027-01-13",
+    "discoverer": "parkjunhyun",
+    "kind": "upcoming",
+    "reported_date": "2026-09-15",
+    "status": "upcoming",
+    "vendor": "Linux",
+    "vendor_url": "https://www.linux.org/",
+    "zdi_can": "ZDI-CAN-33095"
+  },
+  {
     "cvss": 8.1,
     "cvss_vector": "AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
     "deadline": "2027-01-09",

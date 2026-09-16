@@ -2085,14 +2085,14 @@
     "zdi_id": "ZDI-26-564"
   },
   {
-    "cve": null,
+    "cve": "CVE-2026-91131",
     "cvss": 5.4,
     "cvss_vector": null,
     "description_snippet": "This vulnerability allows network-adjacent attackers to initiate arbitrary server-side requests on affected installations of Home Assistant Green. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of SS...",
     "kind": "published",
     "published_date": "2026-08-12",
     "title": "(Pwn2Own) Home Assistant Green Simple Service Discovery Protocol Server-Side Request Forgery Vulnerability",
-    "updated_date": "2026-08-12",
+    "updated_date": "2026-09-15",
     "url": "https://www.zerodayinitiative.com/advisories/ZDI-26-563/",
     "vendor": "Home Assistant",
     "vendor_url": null,
@@ -2100,14 +2100,14 @@
     "zdi_id": "ZDI-26-563"
   },
   {
-    "cve": null,
+    "cve": "CVE-2026-91129",
     "cvss": 5.4,
     "cvss_vector": null,
     "description_snippet": "This vulnerability allows network-adjacent attackers to initiate arbitrary server-side requests on affected installations of Home Assistant Green. Authentication is not required to exploit this vulnerability. The specific flaw exists within the mDNS service....",
     "kind": "published",
     "published_date": "2026-08-12",
     "title": "(Pwn2Own) Home Assistant Green mDNS Server-Side Request Forgery Vulnerability",
-    "updated_date": "2026-08-12",
+    "updated_date": "2026-09-15",
     "url": "https://www.zerodayinitiative.com/advisories/ZDI-26-562/",
     "vendor": "Home Assistant",
     "vendor_url": null,
