@@ -1,5 +1,17 @@
 [
   {
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "deadline": "2027-01-14",
+    "discoverer": "Anonymous",
+    "kind": "upcoming",
+    "reported_date": "2026-09-16",
+    "status": "upcoming",
+    "vendor": "Foxit",
+    "vendor_url": "https://www.foxitsoftware.com/",
+    "zdi_can": "ZDI-CAN-33991"
+  },
+  {
     "cvss": 8.8,
     "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
     "deadline": "2027-01-13",
@@ -1860,18 +1872,6 @@
     "zdi_can": "ZDI-CAN-33217"
   },
   {
-    "cvss": 7.2,
-    "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N",
-    "deadline": "2026-12-05",
-    "discoverer": "Niels Pfau (Mantodea Security GmbH)",
-    "kind": "upcoming",
-    "reported_date": "2026-08-07",
-    "status": "upcoming",
-    "vendor": "NoMachine",
-    "vendor_url": "https://www.nomachine.com/",
-    "zdi_can": "ZDI-CAN-31619"
-  },
-  {
     "cvss": 9.8,
     "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
     "deadline": "2026-12-05",
@@ -1942,18 +1942,6 @@
     "vendor": "LangGenius",
     "vendor_url": "https://dify.ai/",
     "zdi_can": "ZDI-CAN-33061"
-  },
-  {
-    "cvss": 8.8,
-    "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
-    "deadline": "2026-12-05",
-    "discoverer": "Tobias Vonmetz",
-    "kind": "upcoming",
-    "reported_date": "2026-08-07",
-    "status": "upcoming",
-    "vendor": "NoMachine",
-    "vendor_url": "https://www.nomachine.com/",
-    "zdi_can": "ZDI-CAN-30982"
   },
   {
     "cvss": 7.8,
@@ -2374,18 +2362,6 @@
     "vendor": "NoMachine",
     "vendor_url": "https://www.nomachine.com/",
     "zdi_can": "ZDI-CAN-30646"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-    "deadline": "2026-11-26",
-    "discoverer": "Tobias Vonmetz",
-    "kind": "upcoming",
-    "reported_date": "2026-07-29",
-    "status": "upcoming",
-    "vendor": "NoMachine",
-    "vendor_url": "https://www.nomachine.com/",
-    "zdi_can": "ZDI-CAN-30984"
   },
   {
     "cvss": 7.1,
@@ -5364,18 +5340,6 @@
     "zdi_can": "ZDI-CAN-30945"
   },
   {
-    "cvss": 8.1,
-    "cvss_vector": "AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
-    "deadline": "2026-09-17",
-    "discoverer": "Andy Niu of TrendAI Research",
-    "kind": "upcoming",
-    "reported_date": "2026-05-20",
-    "status": "upcoming",
-    "vendor": "Cisco",
-    "vendor_url": "https://www.cisco.com",
-    "zdi_can": "ZDI-CAN-30946"
-  },
-  {
     "cvss": 7.0,
     "cvss_vector": "AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
     "deadline": "2026-09-17",
@@ -5434,18 +5398,6 @@
     "vendor": "DeepSpeed",
     "vendor_url": "https://www.deepspeed.ai/",
     "zdi_can": "ZDI-CAN-29243"
-  },
-  {
-    "cvss": 5.3,
-    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
-    "deadline": "2026-09-04",
-    "discoverer": "Peter Gabaldon (https://x.com/PedroGabaldon)",
-    "kind": "upcoming",
-    "reported_date": "2026-05-07",
-    "status": "upcoming",
-    "vendor": "Microsoft",
-    "vendor_url": "https://www.microsoft.com",
-    "zdi_can": "ZDI-CAN-29849"
   },
   {
     "cvss": 7.8,
@@ -5578,18 +5530,6 @@
     "vendor": "KDE",
     "vendor_url": "https://kde.org/",
     "zdi_can": "ZDI-CAN-29373"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-08-27",
-    "discoverer": "Anonymous",
-    "kind": "upcoming",
-    "reported_date": "2026-04-29",
-    "status": "upcoming",
-    "vendor": "GIMP",
-    "vendor_url": "https://www.gimp.org/",
-    "zdi_can": "ZDI-CAN-29400"
   },
   {
     "cvss": 7.5,
@@ -7765,18 +7705,6 @@
   },
   {
     "cvss": 8.8,
-    "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-    "deadline": "2026-03-20",
-    "discoverer": "Peter Girnus (@gothburz), Demeng Chen, and Brandon Niemczyk of Trend Zero Day Initiative",
-    "kind": "upcoming",
-    "reported_date": "2025-11-20",
-    "status": "upcoming",
-    "vendor": "MindsDB",
-    "vendor_url": "https://mindsdb.com/",
-    "zdi_can": "ZDI-CAN-28388"
-  },
-  {
-    "cvss": 8.8,
     "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
     "deadline": "2026-03-19",
     "discoverer": "Xiaobye(@xiaobye_tw) of DEVCORE Research Team",
@@ -7836,42 +7764,6 @@
     "zdi_can": "ZDI-CAN-27582"
   },
   {
-    "cvss": 7.7,
-    "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N",
-    "deadline": "2026-02-26",
-    "discoverer": "Peter Girnus (@gothburz) and Brandon Niemczyk of Trend Zero Day Initiative",
-    "kind": "upcoming",
-    "reported_date": "2025-10-29",
-    "status": "upcoming",
-    "vendor": "Airbyte",
-    "vendor_url": "https://airbyte.com/",
-    "zdi_can": "ZDI-CAN-28216"
-  },
-  {
-    "cvss": 7.7,
-    "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N",
-    "deadline": "2026-02-26",
-    "discoverer": "Peter Girnus (@gothburz) and Brandon Niemczyk of Trend Zero Day Initiative",
-    "kind": "upcoming",
-    "reported_date": "2025-10-29",
-    "status": "upcoming",
-    "vendor": "Airbyte",
-    "vendor_url": "https://airbyte.com/",
-    "zdi_can": "ZDI-CAN-28215"
-  },
-  {
-    "cvss": 8.8,
-    "cvss_vector": "AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-02-26",
-    "discoverer": "Peter Girnus (@gothburz), Demeng Chen, and Brandon Niemczyk of Trend Zero Day Initiative",
-    "kind": "upcoming",
-    "reported_date": "2025-10-29",
-    "status": "upcoming",
-    "vendor": "CrewAI",
-    "vendor_url": "https://www.crewai.com/",
-    "zdi_can": "ZDI-CAN-28387"
-  },
-  {
     "cvss": 7.8,
     "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
     "deadline": "2026-02-05",
@@ -7906,18 +7798,6 @@
     "vendor": "Trend Micro",
     "vendor_url": "https://www.trendmicro.com",
     "zdi_can": "ZDI-CAN-28222"
-  },
-  {
-    "cvss": 6.1,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:L",
-    "deadline": "2026-01-31",
-    "discoverer": "Ryota Shiga (GMO Flatt Security Inc.) with takumi-san.ai",
-    "kind": "upcoming",
-    "reported_date": "2025-10-03",
-    "status": "upcoming",
-    "vendor": "BusyBox",
-    "vendor_url": "https://busybox.net",
-    "zdi_can": "ZDI-CAN-27556"
   },
   {
     "cvss": 7.5,

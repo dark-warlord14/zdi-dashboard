@@ -19682,5 +19682,313 @@
     "vulnerability_details": "This vulnerability allows physically present attackers to escalate privileges on affected installations of Linux Kernel. Authentication is not required to exploit this vulnerability. The specific flaw exists within the processing of the usbnet_deferred_kevent work queue. The issue results from the lack of proper locking when performing operations on an object. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the kernel.",
     "zdi_can": "ZDI-CAN-22166",
     "zdi_id": "ZDI-26-702"
+  },
+  "ZDI-26-703": {
+    "additional_details": "10/29/25 \u2013 ZDI reported the vulnerabilities to the vendor 02/02/26 \u2013 ZDI followed up asking the vendor to confirm receipt of the reports 03/30/26 \u2013 ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-09-16",
+    "affected_products": [
+      "Airbyte"
+    ],
+    "affected_vendors": [
+      "Airbyte"
+    ],
+    "credit": "Peter Girnus (@gothburz) and Brandon Niemczyk of Trend Zero Day Initiative",
+    "cve": "CVE-2026-92203",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-92203",
+    "cvss": 7.7,
+    "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N",
+    "disclosure_timeline": [
+      "2025-10-29 - Vulnerability reported to vendor",
+      "2026-09-16 - Coordinated public release of advisory",
+      "2026-09-16 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-703 ZDI-CAN-28215 (0Day) Airbyte SharePoint Connector _get_shared_drive_object Server-Side Request Forgery Information Disclosure Vulnerability 2026-09-16 CVE-2026-92203 https://www.cve.org/CVERecord?id=CVE-2026-92203 7.7 AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N ['Airbyte'] ['Airbyte'] This vulnerability allows remote attackers to initiate arbitrary server-side requests on affected installations of Airbyte. Authentication is required to exploit this vulnerability. The specific flaw exists within the implementation of the _get_shared_drive_object method. The issue results from the lack of proper validation of a URI prior to accessing resources. An attacker can leverage this vulnerability to disclose information in the context of the service account. 10/29/25 \u2013 ZDI reported the vulnerabilities to the vendor 02/02/26 \u2013 ZDI followed up asking the vendor to confirm receipt of the reports 03/30/26 \u2013 ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2025-10-29 - Vulnerability reported to vendor', '2026-09-16 - Coordinated public release of advisory', '2026-09-16 - Advisory Updated'] Peter Girnus (@gothburz) and Brandon Niemczyk of Trend Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-703/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-703/",
+    "title": "(0Day) Airbyte SharePoint Connector _get_shared_drive_object Server-Side Request Forgery Information Disclosure Vulnerability",
+    "updated_date": "2026-09-16",
+    "vulnerability_details": "This vulnerability allows remote attackers to initiate arbitrary server-side requests on affected installations of Airbyte. Authentication is required to exploit this vulnerability. The specific flaw exists within the implementation of the _get_shared_drive_object method. The issue results from the lack of proper validation of a URI prior to accessing resources. An attacker can leverage this vulnerability to disclose information in the context of the service account.",
+    "zdi_can": "ZDI-CAN-28215",
+    "zdi_id": "ZDI-26-703"
+  },
+  "ZDI-26-704": {
+    "additional_details": "10/29/25 \u2013 ZDI reported the vulnerabilities to the vendor 02/02/26 \u2013 ZDI followed up asking the vendor to confirm receipt of the reports 03/30/26 \u2013 ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-09-16",
+    "affected_products": [
+      "Airbyte"
+    ],
+    "affected_vendors": [
+      "Airbyte"
+    ],
+    "credit": "Peter Girnus (@gothburz) and Brandon Niemczyk of Trend Zero Day Initiative",
+    "cve": "CVE-2026-92204",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-92204",
+    "cvss": 7.7,
+    "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N",
+    "disclosure_timeline": [
+      "2025-10-29 - Vulnerability reported to vendor",
+      "2026-09-16 - Coordinated public release of advisory",
+      "2026-09-16 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-704 ZDI-CAN-28216 (0Day) Airbyte OneDrive Connector _get_shared_drive_object Server-Side Request Forgery Information Disclosure Vulnerability 2026-09-16 CVE-2026-92204 https://www.cve.org/CVERecord?id=CVE-2026-92204 7.7 AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N ['Airbyte'] ['Airbyte'] This vulnerability allows remote attackers to initiate arbitrary server-side requests on affected installations of Airbyte. Authentication is required to exploit this vulnerability. The specific flaw exists within the _get_shared_drive_object method. The issue results from the lack of proper validation of a URI prior to accessing resources. An attacker can leverage this vulnerability to disclose information in the context of the service account. 10/29/25 \u2013 ZDI reported the vulnerabilities to the vendor 02/02/26 \u2013 ZDI followed up asking the vendor to confirm receipt of the reports 03/30/26 \u2013 ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2025-10-29 - Vulnerability reported to vendor', '2026-09-16 - Coordinated public release of advisory', '2026-09-16 - Advisory Updated'] Peter Girnus (@gothburz) and Brandon Niemczyk of Trend Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-704/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-704/",
+    "title": "(0Day) Airbyte OneDrive Connector _get_shared_drive_object Server-Side Request Forgery Information Disclosure Vulnerability",
+    "updated_date": "2026-09-16",
+    "vulnerability_details": "This vulnerability allows remote attackers to initiate arbitrary server-side requests on affected installations of Airbyte. Authentication is required to exploit this vulnerability. The specific flaw exists within the _get_shared_drive_object method. The issue results from the lack of proper validation of a URI prior to accessing resources. An attacker can leverage this vulnerability to disclose information in the context of the service account.",
+    "zdi_can": "ZDI-CAN-28216",
+    "zdi_id": "ZDI-26-704"
+  },
+  "ZDI-26-705": {
+    "additional_details": "10/03/25 \u2013 ZDI reported the vulnerability to the vendor 10/10/25 \u2013 ZDI followed up asking the vendor to confirm receipt of the report 12/10/25 \u2013 ZDI asked for updates 04/09/26 \u2013 ZDI notified the vendor of the intention to publish the case as 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-09-16",
+    "affected_products": [
+      "BusyBox"
+    ],
+    "affected_vendors": [
+      "BusyBox"
+    ],
+    "credit": "Ryota Shiga (GMO Flatt Security Inc.) with takumi-san.ai",
+    "cve": "CVE-2026-92205",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-92205",
+    "cvss": 6.1,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:L",
+    "disclosure_timeline": [
+      "2025-10-03 - Vulnerability reported to vendor",
+      "2026-09-16 - Coordinated public release of advisory",
+      "2026-09-16 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-705 ZDI-CAN-27556 (0Day) BusyBox libarchive Symlink Directory Traversal Arbitrary File Creation Vulnerability 2026-09-16 CVE-2026-92205 https://www.cve.org/CVERecord?id=CVE-2026-92205 6.1 AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:L ['BusyBox'] ['BusyBox'] This vulnerability allows remote attackers to create arbitrary files on affected installations of BusyBox. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the libarchive component. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to create files in the context of the current user. 10/03/25 \u2013 ZDI reported the vulnerability to the vendor 10/10/25 \u2013 ZDI followed up asking the vendor to confirm receipt of the report 12/10/25 \u2013 ZDI asked for updates 04/09/26 \u2013 ZDI notified the vendor of the intention to publish the case as 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2025-10-03 - Vulnerability reported to vendor', '2026-09-16 - Coordinated public release of advisory', '2026-09-16 - Advisory Updated'] Ryota Shiga (GMO Flatt Security Inc.) with takumi-san.ai https://www.zerodayinitiative.com/advisories/ZDI-26-705/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-705/",
+    "title": "(0Day) BusyBox libarchive Symlink Directory Traversal Arbitrary File Creation Vulnerability",
+    "updated_date": "2026-09-16",
+    "vulnerability_details": "This vulnerability allows remote attackers to create arbitrary files on affected installations of BusyBox. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the libarchive component. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to create files in the context of the current user.",
+    "zdi_can": "ZDI-CAN-27556",
+    "zdi_id": "ZDI-26-705"
+  },
+  "ZDI-26-706": {
+    "additional_details": "10/29/25 \u2013 ZDI reported the vulnerability to the vendor 02/02/26 \u2013 ZDI followed up asking the vendor to confirm receipt of the report 04/02/26 \u2013 ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-09-16",
+    "affected_products": [
+      "CrewAI"
+    ],
+    "affected_vendors": [
+      "CrewAI"
+    ],
+    "credit": "Peter Girnus (@gothburz), Demeng Chen, and Brandon Niemczyk of Trend Zero Day Initiative",
+    "cve": "CVE-2026-92206",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-92206",
+    "cvss": 8.8,
+    "cvss_vector": "AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2025-10-29 - Vulnerability reported to vendor",
+      "2026-09-16 - Coordinated public release of advisory",
+      "2026-09-16 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-706 ZDI-CAN-28387 (0Day) CrewAI crewAI Framework Agent Loading Unsafe Reflection Remote Code Execution Vulnerability 2026-09-16 CVE-2026-92206 https://www.cve.org/CVERecord?id=CVE-2026-92206 8.8 AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['CrewAI'] ['CrewAI'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of CrewAI crewAI. User interaction is required to exploit this vulnerability in that the target must load a malicious agent configuration from the repository. The specific flaw exists within the load_agent_from_repository function. The process does not properly restrict a user-supplied argument before using it to import a module. An attacker can leverage this vulnerability to execute code in the context of the service account. 10/29/25 \u2013 ZDI reported the vulnerability to the vendor 02/02/26 \u2013 ZDI followed up asking the vendor to confirm receipt of the report 04/02/26 \u2013 ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2025-10-29 - Vulnerability reported to vendor', '2026-09-16 - Coordinated public release of advisory', '2026-09-16 - Advisory Updated'] Peter Girnus (@gothburz), Demeng Chen, and Brandon Niemczyk of Trend Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-706/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-706/",
+    "title": "(0Day) CrewAI crewAI Framework Agent Loading Unsafe Reflection Remote Code Execution Vulnerability",
+    "updated_date": "2026-09-16",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of CrewAI crewAI. User interaction is required to exploit this vulnerability in that the target must load a malicious agent configuration from the repository. The specific flaw exists within the load_agent_from_repository function. The process does not properly restrict a user-supplied argument before using it to import a module. An attacker can leverage this vulnerability to execute code in the context of the service account.",
+    "zdi_can": "ZDI-CAN-28387",
+    "zdi_id": "ZDI-26-706"
+  },
+  "ZDI-26-707": {
+    "additional_details": "11/20/25 \u2013 ZDI reported the vulnerability to the vendor 02/02/26 \u2013 ZDI followed up asking the vendor to confirm receipt of the report 03/09/26 \u2013 ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-09-16",
+    "affected_products": [
+      "MindsDB"
+    ],
+    "affected_vendors": [
+      "MindsDB"
+    ],
+    "credit": "Peter Girnus (@gothburz), Demeng Chen, and Brandon Niemczyk of Trend Zero Day Initiative",
+    "cve": "CVE-2026-92207",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-92207",
+    "cvss": 8.8,
+    "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2025-11-20 - Vulnerability reported to vendor",
+      "2026-09-16 - Coordinated public release of advisory",
+      "2026-09-16 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-707 ZDI-CAN-28388 (0Day) MindsDB OpenBBtable Code Injection Remote Code Execution Vulnerability 2026-09-16 CVE-2026-92207 https://www.cve.org/CVERecord?id=CVE-2026-92207 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['MindsDB'] ['MindsDB'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of MindsDB. Authentication is required to exploit this vulnerability. The specific flaw exists within the OpenBBtable class. The issue results from the lack of proper validation of a user-supplied string before using it to execute Python code. An attacker can leverage this vulnerability to execute code in the context of the service account. 11/20/25 \u2013 ZDI reported the vulnerability to the vendor 02/02/26 \u2013 ZDI followed up asking the vendor to confirm receipt of the report 03/09/26 \u2013 ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2025-11-20 - Vulnerability reported to vendor', '2026-09-16 - Coordinated public release of advisory', '2026-09-16 - Advisory Updated'] Peter Girnus (@gothburz), Demeng Chen, and Brandon Niemczyk of Trend Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-707/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-707/",
+    "title": "(0Day) MindsDB OpenBBtable Code Injection Remote Code Execution Vulnerability",
+    "updated_date": "2026-09-16",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of MindsDB. Authentication is required to exploit this vulnerability. The specific flaw exists within the OpenBBtable class. The issue results from the lack of proper validation of a user-supplied string before using it to execute Python code. An attacker can leverage this vulnerability to execute code in the context of the service account.",
+    "zdi_can": "ZDI-CAN-28388",
+    "zdi_id": "ZDI-26-707"
+  },
+  "ZDI-26-708": {
+    "additional_details": "05/07/26 \u2013 ZDI reported the vulnerability to the vendor 05/07/26 \u2013 the vendor acknowledged the receipt of the report 06/02/26 \u2013 the vendor confirmed that the issue would be fixed in September release 08/31/26 \u2013 the vendor communicated that the vulnerability did not meet the bar for security servicing 09/03/26 \u2013 ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-09-16",
+    "affected_products": [
+      "Windows"
+    ],
+    "affected_vendors": [
+      "Microsoft"
+    ],
+    "credit": "Peter Gabaldon (https://x.com/PedroGabaldon)",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 5.3,
+    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
+    "disclosure_timeline": [
+      "2026-05-07 - Vulnerability reported to vendor",
+      "2026-09-16 - Coordinated public release of advisory",
+      "2026-09-16 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-708 ZDI-CAN-29849 (0Day) Microsoft Windows HTTP Proxy Privilege Escalation Vulnerability 2026-09-16 5.3 AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L ['Microsoft'] ['Windows'] This vulnerability allows local attackers to escalate privileges on affected installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of authentication to HTTP proxy servers. By changing the proxy setting to point to a malicious server, an attacker can disclose NTLM responses in the context of the machine account. An attacker can leverage this vulnerability to escalate privileges to resources normally protected from the user. 05/07/26 \u2013 ZDI reported the vulnerability to the vendor 05/07/26 \u2013 the vendor acknowledged the receipt of the report 06/02/26 \u2013 the vendor confirmed that the issue would be fixed in September release 08/31/26 \u2013 the vendor communicated that the vulnerability did not meet the bar for security servicing 09/03/26 \u2013 ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-05-07 - Vulnerability reported to vendor', '2026-09-16 - Coordinated public release of advisory', '2026-09-16 - Advisory Updated'] Peter Gabaldon (https://x.com/PedroGabaldon) https://www.zerodayinitiative.com/advisories/ZDI-26-708/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-708/",
+    "title": "(0Day) Microsoft Windows HTTP Proxy Privilege Escalation Vulnerability",
+    "updated_date": "2026-09-16",
+    "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of authentication to HTTP proxy servers. By changing the proxy setting to point to a malicious server, an attacker can disclose NTLM responses in the context of the machine account. An attacker can leverage this vulnerability to escalate privileges to resources normally protected from the user.",
+    "zdi_can": "ZDI-CAN-29849",
+    "zdi_id": "ZDI-26-708"
+  },
+  "ZDI-26-709": {
+    "additional_details": "Cisco has issued an update to correct this vulnerability. More details can be found at: https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-javarce-y2NypXwk",
+    "advisory_date": "2026-09-16",
+    "affected_products": [
+      "Secure Firewall Management Center"
+    ],
+    "affected_vendors": [
+      "Cisco"
+    ],
+    "credit": "Andy Niu of TrendAI Research",
+    "cve": "CVE-2026-20242",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-20242",
+    "cvss": 8.1,
+    "cvss_vector": "AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-05-20 - Vulnerability reported to vendor",
+      "2026-09-16 - Coordinated public release of advisory",
+      "2026-09-16 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-709 ZDI-CAN-30946 Cisco Secure Firewall Management Center CommandSinkRmi Deserialization of Untrusted Data Remote Code Execution Vulnerability 2026-09-16 CVE-2026-20242 https://www.cve.org/CVERecord?id=CVE-2026-20242 8.1 AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H ['Cisco'] ['Secure Firewall Management Center'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Cisco Secure Firewall Management Center. Authentication is not required to exploit this vulnerability. The specific flaw exists within the CommandSinkRmi class. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the www user. Cisco has issued an update to correct this vulnerability. More details can be found at: https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-javarce-y2NypXwk ['2026-05-20 - Vulnerability reported to vendor', '2026-09-16 - Coordinated public release of advisory', '2026-09-16 - Advisory Updated'] Andy Niu of TrendAI Research https://www.zerodayinitiative.com/advisories/ZDI-26-709/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-709/",
+    "title": "Cisco Secure Firewall Management Center CommandSinkRmi Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "updated_date": "2026-09-16",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Cisco Secure Firewall Management Center. Authentication is not required to exploit this vulnerability. The specific flaw exists within the CommandSinkRmi class. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the www user.",
+    "zdi_can": "ZDI-CAN-30946",
+    "zdi_id": "ZDI-26-709"
+  },
+  "ZDI-26-710": {
+    "additional_details": "Fixed in NoMachine v10.1.7, v9.9.6 and v8.27.1 https://kb.nomachine.com/software-updates",
+    "advisory_date": "2026-09-16",
+    "affected_products": [
+      "NoMachine"
+    ],
+    "affected_vendors": [
+      "NoMachine"
+    ],
+    "credit": "Tobias Vonmetz",
+    "cve": "CVE-2026-92208",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-92208",
+    "cvss": 8.8,
+    "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-08-07 - Vulnerability reported to vendor",
+      "2026-09-16 - Coordinated public release of advisory",
+      "2026-09-16 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-710 ZDI-CAN-30982 NoMachine mDNS Heap-based Buffer Overflow Remote Code Execution Vulnerability 2026-09-16 CVE-2026-92208 https://www.cve.org/CVERecord?id=CVE-2026-92208 8.8 AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['NoMachine'] ['NoMachine'] This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of NoMachine. Authentication is not required to exploit this vulnerability. The specific flaw exists within the parsing of mDNS resource records. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the service account. Fixed in NoMachine v10.1.7, v9.9.6 and v8.27.1 https://kb.nomachine.com/software-updates ['2026-08-07 - Vulnerability reported to vendor', '2026-09-16 - Coordinated public release of advisory', '2026-09-16 - Advisory Updated'] Tobias Vonmetz https://www.zerodayinitiative.com/advisories/ZDI-26-710/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-710/",
+    "title": "NoMachine mDNS Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+    "updated_date": "2026-09-16",
+    "vulnerability_details": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of NoMachine. Authentication is not required to exploit this vulnerability. The specific flaw exists within the parsing of mDNS resource records. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the service account.",
+    "zdi_can": "ZDI-CAN-30982",
+    "zdi_id": "ZDI-26-710"
+  },
+  "ZDI-26-711": {
+    "additional_details": "Fixed in NoMachine v10.1.7, v9.9.6 and v8.27.1 https://kb.nomachine.com/software-updates",
+    "advisory_date": "2026-09-16",
+    "affected_products": [
+      "NoMachine"
+    ],
+    "affected_vendors": [
+      "NoMachine"
+    ],
+    "credit": "Tobias Vonmetz",
+    "cve": "CVE-2026-92209",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-92209",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-07-29 - Vulnerability reported to vendor",
+      "2026-09-16 - Coordinated public release of advisory",
+      "2026-09-16 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-711 ZDI-CAN-30984 NoMachine Redis Improper Authentication Local Privilege Escalation Vulnerability 2026-09-16 CVE-2026-92209 https://www.cve.org/CVERecord?id=CVE-2026-92209 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['NoMachine'] ['NoMachine'] This vulnerability allows local attackers to escalate privileges on affected installations of NoMachine. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the authentication mechanism controlling access to the Redis database. The issue results from using insufficient entropy in the generation of credentials. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the service account. Fixed in NoMachine v10.1.7, v9.9.6 and v8.27.1 https://kb.nomachine.com/software-updates ['2026-07-29 - Vulnerability reported to vendor', '2026-09-16 - Coordinated public release of advisory', '2026-09-16 - Advisory Updated'] Tobias Vonmetz https://www.zerodayinitiative.com/advisories/ZDI-26-711/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-711/",
+    "title": "NoMachine Redis Improper Authentication Local Privilege Escalation Vulnerability",
+    "updated_date": "2026-09-16",
+    "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of NoMachine. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the authentication mechanism controlling access to the Redis database. The issue results from using insufficient entropy in the generation of credentials. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the service account.",
+    "zdi_can": "ZDI-CAN-30984",
+    "zdi_id": "ZDI-26-711"
+  },
+  "ZDI-26-712": {
+    "additional_details": "Fixed in NoMachine v10.1.7, v9.9.6 and v8.27.1 https://kb.nomachine.com/software-updates",
+    "advisory_date": "2026-09-16",
+    "affected_products": [
+      "NoMachine"
+    ],
+    "affected_vendors": [
+      "NoMachine"
+    ],
+    "credit": "Niels Pfau (Mantodea Security GmbH)",
+    "cve": "CVE-2026-92210",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-92210",
+    "cvss": 7.2,
+    "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N",
+    "disclosure_timeline": [
+      "2026-08-07 - Vulnerability reported to vendor",
+      "2026-09-16 - Coordinated public release of advisory",
+      "2026-09-16 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-712 ZDI-CAN-31619 NoMachine nxhtd Server-Side Request Forgery Information Disclosure Vulnerability 2026-09-16 CVE-2026-92210 https://www.cve.org/CVERecord?id=CVE-2026-92210 7.2 AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N ['NoMachine'] ['NoMachine'] This vulnerability allows remote attackers to initiate arbitrary server-side requests on affected installations of NoMachine. Authentication is not required to exploit this vulnerability. The specific flaw exists within the web service, which listens on UDP port 4443 by default. The issue results from the lack of proper validation of a URI prior to accessing resources. An attacker can leverage this vulnerability to initiate requests in the context of the service account. Fixed in NoMachine v10.1.7, v9.9.6 and v8.27.1 https://kb.nomachine.com/software-updates ['2026-08-07 - Vulnerability reported to vendor', '2026-09-16 - Coordinated public release of advisory', '2026-09-16 - Advisory Updated'] Niels Pfau (Mantodea Security GmbH) https://www.zerodayinitiative.com/advisories/ZDI-26-712/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-712/",
+    "title": "NoMachine nxhtd Server-Side Request Forgery Information Disclosure Vulnerability",
+    "updated_date": "2026-09-16",
+    "vulnerability_details": "This vulnerability allows remote attackers to initiate arbitrary server-side requests on affected installations of NoMachine. Authentication is not required to exploit this vulnerability. The specific flaw exists within the web service, which listens on UDP port 4443 by default. The issue results from the lack of proper validation of a URI prior to accessing resources. An attacker can leverage this vulnerability to initiate requests in the context of the service account.",
+    "zdi_can": "ZDI-CAN-31619",
+    "zdi_id": "ZDI-26-712"
+  },
+  "ZDI-26-713": {
+    "additional_details": "GIMP has issued an update to correct this vulnerability. More details can be found at: https://gitlab.gnome.org/GNOME/gimp/-/commit/175e28961a4679be8762a2d4d5a297faa82aebd9",
+    "advisory_date": "2026-09-16",
+    "affected_products": [
+      "GIMP"
+    ],
+    "affected_vendors": [
+      "GIMP"
+    ],
+    "credit": "Anonymous",
+    "cve": "CVE-2026-92183",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-92183",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-04-29 - Vulnerability reported to vendor",
+      "2026-09-16 - Coordinated public release of advisory",
+      "2026-09-16 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-713 ZDI-CAN-29400 GIMP APNG File Parsing Stack-based Buffer Overflow Remote Code Execution Vulnerability 2026-09-16 CVE-2026-92183 https://www.cve.org/CVERecord?id=CVE-2026-92183 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['GIMP'] ['GIMP'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of GIMP. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of APNG files. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. GIMP has issued an update to correct this vulnerability. More details can be found at: https://gitlab.gnome.org/GNOME/gimp/-/commit/175e28961a4679be8762a2d4d5a297faa82aebd9 ['2026-04-29 - Vulnerability reported to vendor', '2026-09-16 - Coordinated public release of advisory', '2026-09-16 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-713/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-713/",
+    "title": "GIMP APNG File Parsing Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+    "updated_date": "2026-09-16",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of GIMP. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of APNG files. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29400",
+    "zdi_id": "ZDI-26-713"
   }
 }

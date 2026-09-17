@@ -1,7 +1,7 @@
 {
   "by_cvss_band": {
     "critical": 2398,
-    "high": 9491,
+    "high": 9492,
     "low": 1475,
     "medium": 4108,
     "unknown": 337
@@ -16,7 +16,7 @@
     "D-Link": 261,
     "Delta Electronics": 285,
     "Delta Industrial Automation": 220,
-    "Foxit": 923,
+    "Foxit": 924,
     "Fuji Electric": 196,
     "Hewlett Packard Enterprise": 304,
     "Hewlett-Packard": 242,
@@ -55,15 +55,15 @@
     "2023": 1908,
     "2024": 1748,
     "2025": 1203,
-    "2026": 703
+    "2026": 714
   },
-  "cve_coverage": 15487,
-  "high_cvss": 11889,
-  "total_published": 17110,
-  "total_upcoming": 699,
+  "cve_coverage": 15497,
+  "high_cvss": 11890,
+  "total_published": 17121,
+  "total_upcoming": 689,
   "upcoming_deadline_state": {
-    "due_soon": 128,
-    "future": 322,
-    "past_due": 249
+    "due_soon": 130,
+    "future": 317,
+    "past_due": 242
   }
 }
