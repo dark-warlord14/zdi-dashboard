@@ -1,5 +1,17 @@
 [
   {
+    "cvss": 8.8,
+    "cvss_vector": "AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "deadline": "2027-01-15",
+    "discoverer": "Hossein Lotfi (@hosselot) of TrendAI Zero Day Initiative",
+    "kind": "upcoming",
+    "reported_date": "2026-09-17",
+    "status": "upcoming",
+    "vendor": "Apple",
+    "vendor_url": "https://www.apple.com",
+    "zdi_can": "ZDI-CAN-34401"
+  },
+  {
     "cvss": 7.8,
     "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
     "deadline": "2027-01-14",
@@ -1030,18 +1042,6 @@
     "vendor": "Net-SNMP",
     "vendor_url": null,
     "zdi_can": "ZDI-CAN-29529"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-12-23",
-    "discoverer": "Anonymous",
-    "kind": "upcoming",
-    "reported_date": "2026-08-25",
-    "status": "upcoming",
-    "vendor": "Samsung",
-    "vendor_url": "https://www.samsung.com",
-    "zdi_can": "ZDI-CAN-31927"
   },
   {
     "cvss": 6.5,

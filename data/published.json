@@ -1,5 +1,20 @@
 [
   {
+    "cve": "CVE-2026-91826",
+    "cvss": 7.8,
+    "cvss_vector": null,
+    "description_snippet": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Samsung rlottie. Interaction with the rlottie library is required to exploit this vulnerability but attack vectors may vary depending on the implementation. The...",
+    "kind": "published",
+    "published_date": "2026-09-17",
+    "title": "Samsung rlottie Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+    "updated_date": "2026-09-17",
+    "url": "https://www.zerodayinitiative.com/advisories/ZDI-26-714/",
+    "vendor": "Samsung",
+    "vendor_url": null,
+    "zdi_can": "ZDI-CAN-31927",
+    "zdi_id": "ZDI-26-714"
+  },
+  {
     "cve": "CVE-2026-92183",
     "cvss": 7.8,
     "cvss_vector": null,

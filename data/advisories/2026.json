@@ -19990,5 +19990,33 @@
     "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of GIMP. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of APNG files. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current process.",
     "zdi_can": "ZDI-CAN-29400",
     "zdi_id": "ZDI-26-713"
+  },
+  "ZDI-26-714": {
+    "additional_details": "https://www.cve.org/cverecord?id=CVE-2026-91826",
+    "advisory_date": "2026-09-17",
+    "affected_products": [
+      "rlottie"
+    ],
+    "affected_vendors": [
+      "Samsung"
+    ],
+    "credit": "Anonymous",
+    "cve": "CVE-2026-91826",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-91826",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-08-25 - Vulnerability reported to vendor",
+      "2026-09-17 - Coordinated public release of advisory",
+      "2026-09-17 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-714 ZDI-CAN-31927 Samsung rlottie Stack-based Buffer Overflow Remote Code Execution Vulnerability 2026-09-17 CVE-2026-91826 https://www.cve.org/CVERecord?id=CVE-2026-91826 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Samsung'] ['rlottie'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Samsung rlottie. Interaction with the rlottie library is required to exploit this vulnerability but attack vectors may vary depending on the implementation. The specific flaw exists within the rlottie library. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. https://www.cve.org/cverecord?id=CVE-2026-91826 ['2026-08-25 - Vulnerability reported to vendor', '2026-09-17 - Coordinated public release of advisory', '2026-09-17 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-714/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-714/",
+    "title": "Samsung rlottie Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+    "updated_date": "2026-09-17",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Samsung rlottie. Interaction with the rlottie library is required to exploit this vulnerability but attack vectors may vary depending on the implementation. The specific flaw exists within the rlottie library. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-31927",
+    "zdi_id": "ZDI-26-714"
   }
 }
