@@ -1,5 +1,20 @@
 [
   {
+    "cve": "CVE-2026-20350",
+    "cvss": 7.2,
+    "cvss_vector": null,
+    "description_snippet": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Cisco ThousandEyes Virtual Appliance. Authentication is required to exploit this vulnerability. The specific flaw exists within the processing of DHCP client con...",
+    "kind": "published",
+    "published_date": "2026-09-22",
+    "title": "Cisco ThousandEyes Virtual Appliance DHCP Client Command Injection Remote Code Execution Vulnerability",
+    "updated_date": "2026-09-22",
+    "url": "https://www.zerodayinitiative.com/advisories/ZDI-26-719/",
+    "vendor": "Cisco",
+    "vendor_url": null,
+    "zdi_can": "ZDI-CAN-31647",
+    "zdi_id": "ZDI-26-719"
+  },
+  {
     "cve": "CVE-2026-20235",
     "cvss": 4.9,
     "cvss_vector": null,

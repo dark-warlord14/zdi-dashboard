@@ -1,5 +1,23 @@
 [
   {
+    "cve": "CVE-2026-20350",
+    "cvss": 7.2,
+    "cvss_vector": null,
+    "description_snippet": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Cisco ThousandEyes Virtual Appliance. Authentication is required to exploit this vulnerability. The specific flaw exists within the processing of DHCP client con...",
+    "detail_json": "/data/advisories/2026.json",
+    "id": "ZDI-26-719",
+    "kind": "published",
+    "published_date": "2026-09-22",
+    "status": "published",
+    "title": "Cisco ThousandEyes Virtual Appliance DHCP Client Command Injection Remote Code Execution Vulnerability",
+    "updated_date": "2026-09-22",
+    "url": "https://www.zerodayinitiative.com/advisories/ZDI-26-719/",
+    "vendor": "Cisco",
+    "vendor_url": null,
+    "zdi_can": "ZDI-CAN-31647",
+    "zdi_id": "ZDI-26-719"
+  },
+  {
     "cve": "CVE-2026-20235",
     "cvss": 4.9,
     "cvss_vector": null,
@@ -308268,6 +308286,84 @@
     "zdi_id": "ZDI-05-001"
   },
   {
+    "cvss": 5.5,
+    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+    "deadline": "2027-01-20",
+    "discoverer": "Victor Riis Allingham",
+    "id": "ZDI-CAN-33068",
+    "kind": "upcoming",
+    "reported_date": "2026-09-22",
+    "status": "upcoming",
+    "vendor": "Deciso",
+    "vendor_url": "https://www.deciso.com/",
+    "zdi_can": "ZDI-CAN-33068"
+  },
+  {
+    "cvss": 9.0,
+    "cvss_vector": "AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H",
+    "deadline": "2027-01-20",
+    "discoverer": "msh1307",
+    "id": "ZDI-CAN-33273",
+    "kind": "upcoming",
+    "reported_date": "2026-09-22",
+    "status": "upcoming",
+    "vendor": "Linux",
+    "vendor_url": "https://www.linux.org/",
+    "zdi_can": "ZDI-CAN-33273"
+  },
+  {
+    "cvss": 5.5,
+    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+    "deadline": "2027-01-20",
+    "discoverer": "Ryota Shiga(@Ga_ryo_) of GMO Flatt Security",
+    "id": "ZDI-CAN-34447",
+    "kind": "upcoming",
+    "reported_date": "2026-09-22",
+    "status": "upcoming",
+    "vendor": "ABRT",
+    "vendor_url": "https://github.com/abrt/abrt",
+    "zdi_can": "ZDI-CAN-34447"
+  },
+  {
+    "cvss": 8.4,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "deadline": "2027-01-20",
+    "discoverer": "Anonymous",
+    "id": "ZDI-CAN-32370",
+    "kind": "upcoming",
+    "reported_date": "2026-09-22",
+    "status": "upcoming",
+    "vendor": "Academy Software Foundation",
+    "vendor_url": "https://github.com/AcademySoftwareFoundation/openexr/security",
+    "zdi_can": "ZDI-CAN-32370"
+  },
+  {
+    "cvss": 7.4,
+    "cvss_vector": "AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "deadline": "2027-01-20",
+    "discoverer": "Anonymous",
+    "id": "ZDI-CAN-32377",
+    "kind": "upcoming",
+    "reported_date": "2026-09-22",
+    "status": "upcoming",
+    "vendor": "Academy Software Foundation",
+    "vendor_url": "https://github.com/AcademySoftwareFoundation/openexr/security",
+    "zdi_can": "ZDI-CAN-32377"
+  },
+  {
+    "cvss": 7.0,
+    "cvss_vector": "AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "deadline": "2027-01-20",
+    "discoverer": "Anonymous",
+    "id": "ZDI-CAN-34303",
+    "kind": "upcoming",
+    "reported_date": "2026-09-22",
+    "status": "upcoming",
+    "vendor": "ABRT",
+    "vendor_url": "https://github.com/abrt/abrt",
+    "zdi_can": "ZDI-CAN-34303"
+  },
+  {
     "cvss": 7.8,
     "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
     "deadline": "2027-01-16",
@@ -313349,19 +313445,6 @@
     "vendor": "Devman",
     "vendor_url": "https://devmanextensions.com/",
     "zdi_can": "ZDI-CAN-31724"
-  },
-  {
-    "cvss": 7.2,
-    "cvss_vector": "AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
-    "deadline": "2026-10-02",
-    "discoverer": "Andy Niu of TrendAI Research",
-    "id": "ZDI-CAN-31647",
-    "kind": "upcoming",
-    "reported_date": "2026-06-04",
-    "status": "upcoming",
-    "vendor": "Cisco",
-    "vendor_url": "https://www.cisco.com",
-    "zdi_can": "ZDI-CAN-31647"
   },
   {
     "cvss": 5.0,
