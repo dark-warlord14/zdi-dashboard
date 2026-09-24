@@ -20158,5 +20158,817 @@
     "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Cisco ThousandEyes Virtual Appliance. Authentication is required to exploit this vulnerability. The specific flaw exists within the processing of DHCP client configuration data. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of root.",
     "zdi_can": "ZDI-CAN-31647",
     "zdi_id": "ZDI-26-719"
+  },
+  "ZDI-26-720": {
+    "additional_details": "Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html",
+    "advisory_date": "2026-09-23",
+    "affected_products": [
+      "PDF Reader"
+    ],
+    "affected_vendors": [
+      "Foxit"
+    ],
+    "credit": "kai63001",
+    "cve": "CVE-2026-91788",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-91788",
+    "cvss": 4.7,
+    "cvss_vector": "AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N",
+    "disclosure_timeline": [
+      "2026-06-15 - Vulnerability reported to vendor",
+      "2026-09-23 - Coordinated public release of advisory",
+      "2026-09-23 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-720 ZDI-CAN-30962 Foxit PDF Reader activeDocs Missing Authorization Information Disclosure Vulnerability 2026-09-23 CVE-2026-91788 https://www.cve.org/CVERecord?id=CVE-2026-91788 4.7 AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N ['Foxit'] ['PDF Reader'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the implementation of the JavaScript API. The issue results from the lack of authorization prior to allowing access to functionality. An attacker can leverage this vulnerability to disclose the contents of other open documents in the context of the current user. Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html ['2026-06-15 - Vulnerability reported to vendor', '2026-09-23 - Coordinated public release of advisory', '2026-09-23 - Advisory Updated'] kai63001 https://www.zerodayinitiative.com/advisories/ZDI-26-720/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-720/",
+    "title": "Foxit PDF Reader activeDocs Missing Authorization Information Disclosure Vulnerability",
+    "updated_date": "2026-09-23",
+    "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the implementation of the JavaScript API. The issue results from the lack of authorization prior to allowing access to functionality. An attacker can leverage this vulnerability to disclose the contents of other open documents in the context of the current user.",
+    "zdi_can": "ZDI-CAN-30962",
+    "zdi_id": "ZDI-26-720"
+  },
+  "ZDI-26-721": {
+    "additional_details": "Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html",
+    "advisory_date": "2026-09-23",
+    "affected_products": [
+      "PDF Reader"
+    ],
+    "affected_vendors": [
+      "Foxit"
+    ],
+    "credit": "Liang Zhu",
+    "cve": "CVE-2026-91789",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-91789",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-06-16 - Vulnerability reported to vendor",
+      "2026-09-23 - Coordinated public release of advisory",
+      "2026-09-23 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-721 ZDI-CAN-31135 Foxit PDF Reader U3D File Parsing Integer Overflow Remote Code Execution Vulnerability 2026-09-23 CVE-2026-91789 https://www.cve.org/CVERecord?id=CVE-2026-91789 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Foxit'] ['PDF Reader'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of U3D files embedded in PDF documents. The issue results from the lack of proper validation of user-supplied data, which can result in an integer overflow before allocating a buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html ['2026-06-16 - Vulnerability reported to vendor', '2026-09-23 - Coordinated public release of advisory', '2026-09-23 - Advisory Updated'] Liang Zhu https://www.zerodayinitiative.com/advisories/ZDI-26-721/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-721/",
+    "title": "Foxit PDF Reader U3D File Parsing Integer Overflow Remote Code Execution Vulnerability",
+    "updated_date": "2026-09-23",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of U3D files embedded in PDF documents. The issue results from the lack of proper validation of user-supplied data, which can result in an integer overflow before allocating a buffer. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-31135",
+    "zdi_id": "ZDI-26-721"
+  },
+  "ZDI-26-722": {
+    "additional_details": "Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html",
+    "advisory_date": "2026-09-23",
+    "affected_products": [
+      "PDF Reader"
+    ],
+    "affected_vendors": [
+      "Foxit"
+    ],
+    "credit": "Anonymous",
+    "cve": "CVE-2026-91791",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-91791",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-06-16 - Vulnerability reported to vendor",
+      "2026-09-23 - Coordinated public release of advisory",
+      "2026-09-23 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-722 ZDI-CAN-31163 Foxit PDF Reader Annotation Use-After-Free Remote Code Execution Vulnerability 2026-09-23 CVE-2026-91791 https://www.cve.org/CVERecord?id=CVE-2026-91791 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Foxit'] ['PDF Reader'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Annotation objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute arbitrary code in the context of the current process. Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html ['2026-06-16 - Vulnerability reported to vendor', '2026-09-23 - Coordinated public release of advisory', '2026-09-23 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-722/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-722/",
+    "title": "Foxit PDF Reader Annotation Use-After-Free Remote Code Execution Vulnerability",
+    "updated_date": "2026-09-23",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Annotation objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute arbitrary code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-31163",
+    "zdi_id": "ZDI-26-722"
+  },
+  "ZDI-26-723": {
+    "additional_details": "Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html",
+    "advisory_date": "2026-09-23",
+    "affected_products": [
+      "PDF Reader"
+    ],
+    "affected_vendors": [
+      "Foxit"
+    ],
+    "credit": "Anonymous",
+    "cve": "CVE-2026-91790",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-91790",
+    "cvss": 3.3,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+    "disclosure_timeline": [
+      "2026-06-16 - Vulnerability reported to vendor",
+      "2026-09-23 - Coordinated public release of advisory",
+      "2026-09-23 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-723 ZDI-CAN-31160 Foxit PDF Reader Doc Object Use-After-Free Information Disclosure Vulnerability 2026-09-23 CVE-2026-91790 https://www.cve.org/CVERecord?id=CVE-2026-91790 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N ['Foxit'] ['PDF Reader'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Doc objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process. Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html ['2026-06-16 - Vulnerability reported to vendor', '2026-09-23 - Coordinated public release of advisory', '2026-09-23 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-723/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-723/",
+    "title": "Foxit PDF Reader Doc Object Use-After-Free Information Disclosure Vulnerability",
+    "updated_date": "2026-09-23",
+    "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Doc objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-31160",
+    "zdi_id": "ZDI-26-723"
+  },
+  "ZDI-26-724": {
+    "additional_details": "Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html",
+    "advisory_date": "2026-09-23",
+    "affected_products": [
+      "PDF Reader"
+    ],
+    "affected_vendors": [
+      "Foxit"
+    ],
+    "credit": "Anonymous",
+    "cve": "CVE-2026-91792",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-91792",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-06-16 - Vulnerability reported to vendor",
+      "2026-09-23 - Coordinated public release of advisory",
+      "2026-09-23 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-724 ZDI-CAN-31166 Foxit PDF Reader Annotation Use-After-Free Remote Code Execution Vulnerability 2026-09-23 CVE-2026-91792 https://www.cve.org/CVERecord?id=CVE-2026-91792 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Foxit'] ['PDF Reader'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Annotation objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current process. Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html ['2026-06-16 - Vulnerability reported to vendor', '2026-09-23 - Coordinated public release of advisory', '2026-09-23 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-724/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-724/",
+    "title": "Foxit PDF Reader Annotation Use-After-Free Remote Code Execution Vulnerability",
+    "updated_date": "2026-09-23",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Annotation objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-31166",
+    "zdi_id": "ZDI-26-724"
+  },
+  "ZDI-26-725": {
+    "additional_details": "Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html",
+    "advisory_date": "2026-09-23",
+    "affected_products": [
+      "PDF Reader"
+    ],
+    "affected_vendors": [
+      "Foxit"
+    ],
+    "credit": "Anonymous",
+    "cve": "CVE-2026-57256",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-57256",
+    "cvss": 3.3,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+    "disclosure_timeline": [
+      "2026-06-16 - Vulnerability reported to vendor",
+      "2026-09-23 - Coordinated public release of advisory",
+      "2026-09-23 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-725 ZDI-CAN-31168 Foxit PDF Reader Doc Object Use-After-Free Information Disclosure Vulnerability 2026-09-23 CVE-2026-57256 https://www.cve.org/CVERecord?id=CVE-2026-57256 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N ['Foxit'] ['PDF Reader'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Doc objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process. Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html ['2026-06-16 - Vulnerability reported to vendor', '2026-09-23 - Coordinated public release of advisory', '2026-09-23 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-725/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-725/",
+    "title": "Foxit PDF Reader Doc Object Use-After-Free Information Disclosure Vulnerability",
+    "updated_date": "2026-09-23",
+    "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Doc objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-31168",
+    "zdi_id": "ZDI-26-725"
+  },
+  "ZDI-26-726": {
+    "additional_details": "Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html",
+    "advisory_date": "2026-09-23",
+    "affected_products": [
+      "PDF Reader"
+    ],
+    "affected_vendors": [
+      "Foxit"
+    ],
+    "credit": "Anonymous",
+    "cve": "CVE-2026-13129",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-13129",
+    "cvss": 3.3,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+    "disclosure_timeline": [
+      "2026-06-16 - Vulnerability reported to vendor",
+      "2026-09-23 - Coordinated public release of advisory",
+      "2026-09-23 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-726 ZDI-CAN-31169 Foxit PDF Reader Doc Object Use-After-Free Information Disclosure Vulnerability 2026-09-23 CVE-2026-13129 https://www.cve.org/CVERecord?id=CVE-2026-13129 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N ['Foxit'] ['PDF Reader'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Doc objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process. Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html ['2026-06-16 - Vulnerability reported to vendor', '2026-09-23 - Coordinated public release of advisory', '2026-09-23 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-726/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-726/",
+    "title": "Foxit PDF Reader Doc Object Use-After-Free Information Disclosure Vulnerability",
+    "updated_date": "2026-09-23",
+    "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Doc objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-31169",
+    "zdi_id": "ZDI-26-726"
+  },
+  "ZDI-26-727": {
+    "additional_details": "Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html",
+    "advisory_date": "2026-09-23",
+    "affected_products": [
+      "PDF Reader"
+    ],
+    "affected_vendors": [
+      "Foxit"
+    ],
+    "credit": "Anonymous",
+    "cve": "CVE-2026-13128",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-13128",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-06-16 - Vulnerability reported to vendor",
+      "2026-09-23 - Coordinated public release of advisory",
+      "2026-09-23 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-727 ZDI-CAN-31171 Foxit PDF Reader Annotation Use-After-Free Remote Code Execution Vulnerability 2026-09-23 CVE-2026-13128 https://www.cve.org/CVERecord?id=CVE-2026-13128 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Foxit'] ['PDF Reader'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Annotation objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current process. Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html ['2026-06-16 - Vulnerability reported to vendor', '2026-09-23 - Coordinated public release of advisory', '2026-09-23 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-727/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-727/",
+    "title": "Foxit PDF Reader Annotation Use-After-Free Remote Code Execution Vulnerability",
+    "updated_date": "2026-09-23",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Annotation objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-31171",
+    "zdi_id": "ZDI-26-727"
+  },
+  "ZDI-26-728": {
+    "additional_details": "Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html",
+    "advisory_date": "2026-09-23",
+    "affected_products": [
+      "PDF Reader"
+    ],
+    "affected_vendors": [
+      "Foxit"
+    ],
+    "credit": "Anonymous",
+    "cve": "CVE-2026-57238",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-57238",
+    "cvss": 3.3,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+    "disclosure_timeline": [
+      "2026-06-16 - Vulnerability reported to vendor",
+      "2026-09-23 - Coordinated public release of advisory",
+      "2026-09-23 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-728 ZDI-CAN-31172 Foxit PDF Reader Doc Object Use-After-Free Information Disclosure Vulnerability 2026-09-23 CVE-2026-57238 https://www.cve.org/CVERecord?id=CVE-2026-57238 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N ['Foxit'] ['PDF Reader'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Doc objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process. Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html ['2026-06-16 - Vulnerability reported to vendor', '2026-09-23 - Coordinated public release of advisory', '2026-09-23 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-728/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-728/",
+    "title": "Foxit PDF Reader Doc Object Use-After-Free Information Disclosure Vulnerability",
+    "updated_date": "2026-09-23",
+    "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Doc objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-31172",
+    "zdi_id": "ZDI-26-728"
+  },
+  "ZDI-26-729": {
+    "additional_details": "Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html",
+    "advisory_date": "2026-09-23",
+    "affected_products": [
+      "PDF Reader"
+    ],
+    "affected_vendors": [
+      "Foxit"
+    ],
+    "credit": "Anonymous",
+    "cve": "CVE-2026-91793",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-91793",
+    "cvss": 3.3,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+    "disclosure_timeline": [
+      "2026-06-16 - Vulnerability reported to vendor",
+      "2026-09-23 - Coordinated public release of advisory",
+      "2026-09-23 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-729 ZDI-CAN-31175 Foxit PDF Reader Doc Object Use-After-Free Information Disclosure Vulnerability 2026-09-23 CVE-2026-91793 https://www.cve.org/CVERecord?id=CVE-2026-91793 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N ['Foxit'] ['PDF Reader'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Doc objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process. Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html ['2026-06-16 - Vulnerability reported to vendor', '2026-09-23 - Coordinated public release of advisory', '2026-09-23 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-729/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-729/",
+    "title": "Foxit PDF Reader Doc Object Use-After-Free Information Disclosure Vulnerability",
+    "updated_date": "2026-09-23",
+    "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Doc objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-31175",
+    "zdi_id": "ZDI-26-729"
+  },
+  "ZDI-26-730": {
+    "additional_details": "Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html",
+    "advisory_date": "2026-09-23",
+    "affected_products": [
+      "PDF Reader"
+    ],
+    "affected_vendors": [
+      "Foxit"
+    ],
+    "credit": "Liang Zhu",
+    "cve": "CVE-2026-91794",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-91794",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-06-18 - Vulnerability reported to vendor",
+      "2026-09-23 - Coordinated public release of advisory",
+      "2026-09-23 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-730 ZDI-CAN-31319 Foxit PDF Reader DeviceN Colorspace Out-Of-Bounds Write Remote Code Execution Vulnerability 2026-09-23 CVE-2026-91794 https://www.cve.org/CVERecord?id=CVE-2026-91794 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Foxit'] ['PDF Reader'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of DeviceN colorspaces. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html ['2026-06-18 - Vulnerability reported to vendor', '2026-09-23 - Coordinated public release of advisory', '2026-09-23 - Advisory Updated'] Liang Zhu https://www.zerodayinitiative.com/advisories/ZDI-26-730/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-730/",
+    "title": "Foxit PDF Reader DeviceN Colorspace Out-Of-Bounds Write Remote Code Execution Vulnerability",
+    "updated_date": "2026-09-23",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of DeviceN colorspaces. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated buffer. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-31319",
+    "zdi_id": "ZDI-26-730"
+  },
+  "ZDI-26-731": {
+    "additional_details": "Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html",
+    "advisory_date": "2026-09-23",
+    "affected_products": [
+      "PDF Reader"
+    ],
+    "affected_vendors": [
+      "Foxit"
+    ],
+    "credit": "Pwn2Sleep",
+    "cve": "CVE-2026-91795",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-91795",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-06-23 - Vulnerability reported to vendor",
+      "2026-09-23 - Coordinated public release of advisory",
+      "2026-09-23 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-731 ZDI-CAN-30795 Foxit PDF Reader FileOpen Uninitialized Variable Remote Code Execution Vulnerability 2026-09-23 CVE-2026-91795 https://www.cve.org/CVERecord?id=CVE-2026-91795 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Foxit'] ['PDF Reader'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the FileOpen plugin. The issue results from the lack of proper initialization of memory prior to accessing it. An attacker can leverage this vulnerability to execute code in the context of the current process. Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html ['2026-06-23 - Vulnerability reported to vendor', '2026-09-23 - Coordinated public release of advisory', '2026-09-23 - Advisory Updated'] Pwn2Sleep https://www.zerodayinitiative.com/advisories/ZDI-26-731/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-731/",
+    "title": "Foxit PDF Reader FileOpen Uninitialized Variable Remote Code Execution Vulnerability",
+    "updated_date": "2026-09-23",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the FileOpen plugin. The issue results from the lack of proper initialization of memory prior to accessing it. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-30795",
+    "zdi_id": "ZDI-26-731"
+  },
+  "ZDI-26-732": {
+    "additional_details": "Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html",
+    "advisory_date": "2026-09-23",
+    "affected_products": [
+      "PDF Reader"
+    ],
+    "affected_vendors": [
+      "Foxit"
+    ],
+    "credit": "Liang Zhu",
+    "cve": "CVE-2026-91796",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-91796",
+    "cvss": 3.3,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+    "disclosure_timeline": [
+      "2026-06-23 - Vulnerability reported to vendor",
+      "2026-09-23 - Coordinated public release of advisory",
+      "2026-09-23 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-732 ZDI-CAN-31048 Foxit PDF Reader importIcon NTLM Response Information Disclosure Vulnerability 2026-09-23 CVE-2026-91796 https://www.cve.org/CVERecord?id=CVE-2026-91796 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N ['Foxit'] ['PDF Reader'] This vulnerability allows remote attackers to disclose NTLM responses on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the implementation of the importIcon method. The issue results from the failure to apply a protection mechanism. An attacker can leverage this vulnerability to disclose NTLM responses in the context of the current user. Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html ['2026-06-23 - Vulnerability reported to vendor', '2026-09-23 - Coordinated public release of advisory', '2026-09-23 - Advisory Updated'] Liang Zhu https://www.zerodayinitiative.com/advisories/ZDI-26-732/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-732/",
+    "title": "Foxit PDF Reader importIcon NTLM Response Information Disclosure Vulnerability",
+    "updated_date": "2026-09-23",
+    "vulnerability_details": "This vulnerability allows remote attackers to disclose NTLM responses on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the implementation of the importIcon method. The issue results from the failure to apply a protection mechanism. An attacker can leverage this vulnerability to disclose NTLM responses in the context of the current user.",
+    "zdi_can": "ZDI-CAN-31048",
+    "zdi_id": "ZDI-26-732"
+  },
+  "ZDI-26-733": {
+    "additional_details": "Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html",
+    "advisory_date": "2026-09-23",
+    "affected_products": [
+      "PDF Reader"
+    ],
+    "affected_vendors": [
+      "Foxit"
+    ],
+    "credit": "Landon Peng (lunbun) of Lunbun LLC",
+    "cve": "CVE-2026-91797",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-91797",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-06-23 - Vulnerability reported to vendor",
+      "2026-09-23 - Coordinated public release of advisory",
+      "2026-09-23 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-733 ZDI-CAN-31364 Foxit PDF Reader Portfolio Directory Traversal Remote Code Execution Vulnerability 2026-09-23 CVE-2026-91797 https://www.cve.org/CVERecord?id=CVE-2026-91797 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Foxit'] ['PDF Reader'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of embedded files in PDF portfolios. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute arbitrary code in the context of the current user. Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html ['2026-06-23 - Vulnerability reported to vendor', '2026-09-23 - Coordinated public release of advisory', '2026-09-23 - Advisory Updated'] Landon Peng (lunbun) of Lunbun LLC https://www.zerodayinitiative.com/advisories/ZDI-26-733/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-733/",
+    "title": "Foxit PDF Reader Portfolio Directory Traversal Remote Code Execution Vulnerability",
+    "updated_date": "2026-09-23",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of embedded files in PDF portfolios. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute arbitrary code in the context of the current user.",
+    "zdi_can": "ZDI-CAN-31364",
+    "zdi_id": "ZDI-26-733"
+  },
+  "ZDI-26-734": {
+    "additional_details": "Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html",
+    "advisory_date": "2026-09-23",
+    "affected_products": [
+      "PDF Reader"
+    ],
+    "affected_vendors": [
+      "Foxit"
+    ],
+    "credit": "Liang Zhu",
+    "cve": "CVE-2026-91801",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-91801",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-07-17 - Vulnerability reported to vendor",
+      "2026-09-23 - Coordinated public release of advisory",
+      "2026-09-23 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-734 ZDI-CAN-31605 Foxit PDF Reader RichMedia Annotation Directory Traversal Remote Code Execution Vulnerability 2026-09-23 CVE-2026-91801 https://www.cve.org/CVERecord?id=CVE-2026-91801 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Foxit'] ['PDF Reader'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of RichMedia annotations. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute code in the context of the current user. Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html ['2026-07-17 - Vulnerability reported to vendor', '2026-09-23 - Coordinated public release of advisory', '2026-09-23 - Advisory Updated'] Liang Zhu https://www.zerodayinitiative.com/advisories/ZDI-26-734/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-734/",
+    "title": "Foxit PDF Reader RichMedia Annotation Directory Traversal Remote Code Execution Vulnerability",
+    "updated_date": "2026-09-23",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of RichMedia annotations. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute code in the context of the current user.",
+    "zdi_can": "ZDI-CAN-31605",
+    "zdi_id": "ZDI-26-734"
+  },
+  "ZDI-26-735": {
+    "additional_details": "Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html",
+    "advisory_date": "2026-09-23",
+    "affected_products": [
+      "PDF Reader"
+    ],
+    "affected_vendors": [
+      "Foxit"
+    ],
+    "credit": "Anonymous",
+    "cve": "CVE-2026-91806",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-91806",
+    "cvss": 3.3,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+    "disclosure_timeline": [
+      "2026-08-19 - Vulnerability reported to vendor",
+      "2026-09-23 - Coordinated public release of advisory",
+      "2026-09-23 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-735 ZDI-CAN-32665 Foxit PDF Reader Doc Object Use-After-Free Information Disclosure Vulnerability 2026-09-23 CVE-2026-91806 https://www.cve.org/CVERecord?id=CVE-2026-91806 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N ['Foxit'] ['PDF Reader'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Doc objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process. Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html ['2026-08-19 - Vulnerability reported to vendor', '2026-09-23 - Coordinated public release of advisory', '2026-09-23 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-735/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-735/",
+    "title": "Foxit PDF Reader Doc Object Use-After-Free Information Disclosure Vulnerability",
+    "updated_date": "2026-09-23",
+    "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Doc objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-32665",
+    "zdi_id": "ZDI-26-735"
+  },
+  "ZDI-26-736": {
+    "additional_details": "Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html",
+    "advisory_date": "2026-09-23",
+    "affected_products": [
+      "PDF Reader"
+    ],
+    "affected_vendors": [
+      "Foxit"
+    ],
+    "credit": "Anonymous",
+    "cve": "CVE-2026-91807",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-91807",
+    "cvss": 3.3,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+    "disclosure_timeline": [
+      "2026-08-19 - Vulnerability reported to vendor",
+      "2026-09-23 - Coordinated public release of advisory",
+      "2026-09-23 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-736 ZDI-CAN-32666 Foxit PDF Reader PDF File Parsing Out-Of-Bounds Read Information Disclosure Vulnerability 2026-09-23 CVE-2026-91807 https://www.cve.org/CVERecord?id=CVE-2026-91807 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N ['Foxit'] ['PDF Reader'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of PDF files. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process. Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html ['2026-08-19 - Vulnerability reported to vendor', '2026-09-23 - Coordinated public release of advisory', '2026-09-23 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-736/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-736/",
+    "title": "Foxit PDF Reader PDF File Parsing Out-Of-Bounds Read Information Disclosure Vulnerability",
+    "updated_date": "2026-09-23",
+    "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of PDF files. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-32666",
+    "zdi_id": "ZDI-26-736"
+  },
+  "ZDI-26-737": {
+    "additional_details": "Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html",
+    "advisory_date": "2026-09-23",
+    "affected_products": [
+      "PDF Reader"
+    ],
+    "affected_vendors": [
+      "Foxit"
+    ],
+    "credit": "Anonymous",
+    "cve": "CVE-2026-91808",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-91808",
+    "cvss": 3.3,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+    "disclosure_timeline": [
+      "2026-08-19 - Vulnerability reported to vendor",
+      "2026-09-23 - Coordinated public release of advisory",
+      "2026-09-23 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-737 ZDI-CAN-32754 Foxit PDF Reader JPEG File Parsing Out-Of-Bounds Read Information Disclosure Vulnerability 2026-09-23 CVE-2026-91808 https://www.cve.org/CVERecord?id=CVE-2026-91808 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N ['Foxit'] ['PDF Reader'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of JPEG files. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process. Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html ['2026-08-19 - Vulnerability reported to vendor', '2026-09-23 - Coordinated public release of advisory', '2026-09-23 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-737/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-737/",
+    "title": "Foxit PDF Reader JPEG File Parsing Out-Of-Bounds Read Information Disclosure Vulnerability",
+    "updated_date": "2026-09-23",
+    "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of JPEG files. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-32754",
+    "zdi_id": "ZDI-26-737"
+  },
+  "ZDI-26-738": {
+    "additional_details": "Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html",
+    "advisory_date": "2026-09-23",
+    "affected_products": [
+      "PDF Reader"
+    ],
+    "affected_vendors": [
+      "Foxit"
+    ],
+    "credit": "Anonymous",
+    "cve": "CVE-2026-91809",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-91809",
+    "cvss": 3.3,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+    "disclosure_timeline": [
+      "2026-08-19 - Vulnerability reported to vendor",
+      "2026-09-23 - Coordinated public release of advisory",
+      "2026-09-23 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-738 ZDI-CAN-32755 Foxit PDF Reader Annotation Use-After-Free Information Disclosure Vulnerability 2026-09-23 CVE-2026-91809 https://www.cve.org/CVERecord?id=CVE-2026-91809 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N ['Foxit'] ['PDF Reader'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Annotation objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process. Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html ['2026-08-19 - Vulnerability reported to vendor', '2026-09-23 - Coordinated public release of advisory', '2026-09-23 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-738/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-738/",
+    "title": "Foxit PDF Reader Annotation Use-After-Free Information Disclosure Vulnerability",
+    "updated_date": "2026-09-23",
+    "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Annotation objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-32755",
+    "zdi_id": "ZDI-26-738"
+  },
+  "ZDI-26-739": {
+    "additional_details": "Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html",
+    "advisory_date": "2026-09-23",
+    "affected_products": [
+      "PDF Reader"
+    ],
+    "affected_vendors": [
+      "Foxit"
+    ],
+    "credit": "Anonymous",
+    "cve": "CVE-2026-91810",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-91810",
+    "cvss": 3.3,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+    "disclosure_timeline": [
+      "2026-08-19 - Vulnerability reported to vendor",
+      "2026-09-23 - Coordinated public release of advisory",
+      "2026-09-23 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-739 ZDI-CAN-32757 Foxit PDF Reader Doc Object Out-Of-Bounds Read Information Disclosure Vulnerability 2026-09-23 CVE-2026-91810 https://www.cve.org/CVERecord?id=CVE-2026-91810 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N ['Foxit'] ['PDF Reader'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Doc objects. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated object. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process. Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html ['2026-08-19 - Vulnerability reported to vendor', '2026-09-23 - Coordinated public release of advisory', '2026-09-23 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-739/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-739/",
+    "title": "Foxit PDF Reader Doc Object Out-Of-Bounds Read Information Disclosure Vulnerability",
+    "updated_date": "2026-09-23",
+    "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Doc objects. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated object. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-32757",
+    "zdi_id": "ZDI-26-739"
+  },
+  "ZDI-26-740": {
+    "additional_details": "Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html",
+    "advisory_date": "2026-09-23",
+    "affected_products": [
+      "PDF Reader"
+    ],
+    "affected_vendors": [
+      "Foxit"
+    ],
+    "credit": "kai63001",
+    "cve": "CVE-2026-91811",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-91811",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-08-19 - Vulnerability reported to vendor",
+      "2026-09-23 - Coordinated public release of advisory",
+      "2026-09-23 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-740 ZDI-CAN-32817 Foxit PDF Reader PRC Stream Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability 2026-09-23 CVE-2026-91811 https://www.cve.org/CVERecord?id=CVE-2026-91811 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Foxit'] ['PDF Reader'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of PRC streams. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated object. An attacker can leverage this vulnerability to execute code in the context of the current process. Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html ['2026-08-19 - Vulnerability reported to vendor', '2026-09-23 - Coordinated public release of advisory', '2026-09-23 - Advisory Updated'] kai63001 https://www.zerodayinitiative.com/advisories/ZDI-26-740/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-740/",
+    "title": "Foxit PDF Reader PRC Stream Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+    "updated_date": "2026-09-23",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of PRC streams. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated object. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-32817",
+    "zdi_id": "ZDI-26-740"
+  },
+  "ZDI-26-741": {
+    "additional_details": "Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html",
+    "advisory_date": "2026-09-23",
+    "affected_products": [
+      "PDF Reader"
+    ],
+    "affected_vendors": [
+      "Foxit"
+    ],
+    "credit": "praydog & kmx00",
+    "cve": "CVE-2026-91812",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-91812",
+    "cvss": 7.1,
+    "cvss_vector": "AV:A/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-08-20 - Vulnerability reported to vendor",
+      "2026-09-23 - Coordinated public release of advisory",
+      "2026-09-23 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-741 ZDI-CAN-32452 Foxit PDF Reader FoxitUpdater Improper Certificate Validation Local Privilege Escalation Vulnerability 2026-09-23 CVE-2026-91812 https://www.cve.org/CVERecord?id=CVE-2026-91812 7.1 AV:A/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H ['Foxit'] ['PDF Reader'] This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the update functionality. The issue results from the lack of proper validation of the certificate presented by the server. An attacker can leverage this vulnerability to execute arbitrary code in the context of SYSTEM. Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html ['2026-08-20 - Vulnerability reported to vendor', '2026-09-23 - Coordinated public release of advisory', '2026-09-23 - Advisory Updated'] praydog & kmx00 https://www.zerodayinitiative.com/advisories/ZDI-26-741/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-741/",
+    "title": "Foxit PDF Reader FoxitUpdater Improper Certificate Validation Local Privilege Escalation Vulnerability",
+    "updated_date": "2026-09-23",
+    "vulnerability_details": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the update functionality. The issue results from the lack of proper validation of the certificate presented by the server. An attacker can leverage this vulnerability to execute arbitrary code in the context of SYSTEM.",
+    "zdi_can": "ZDI-CAN-32452",
+    "zdi_id": "ZDI-26-741"
+  },
+  "ZDI-26-742": {
+    "additional_details": "Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html",
+    "advisory_date": "2026-09-23",
+    "affected_products": [
+      "PDF Reader"
+    ],
+    "affected_vendors": [
+      "Foxit"
+    ],
+    "credit": "praydog & kmx00",
+    "cve": "CVE-2026-91813",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-91813",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-08-20 - Vulnerability reported to vendor",
+      "2026-09-23 - Coordinated public release of advisory",
+      "2026-09-23 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-742 ZDI-CAN-32454 Foxit PDF Reader FoxitUpdater Race Condition Local Privilege Escalation Vulnerability 2026-09-23 CVE-2026-91813 https://www.cve.org/CVERecord?id=CVE-2026-91813 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Foxit'] ['PDF Reader'] This vulnerability allows local attackers to escalate privileges on affected installations of Foxit PDF Reader. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the update functionality. The issue results from the lack of proper locking when performing operations on an object. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html ['2026-08-20 - Vulnerability reported to vendor', '2026-09-23 - Coordinated public release of advisory', '2026-09-23 - Advisory Updated'] praydog & kmx00 https://www.zerodayinitiative.com/advisories/ZDI-26-742/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-742/",
+    "title": "Foxit PDF Reader FoxitUpdater Race Condition Local Privilege Escalation Vulnerability",
+    "updated_date": "2026-09-23",
+    "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Foxit PDF Reader. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the update functionality. The issue results from the lack of proper locking when performing operations on an object. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+    "zdi_can": "ZDI-CAN-32454",
+    "zdi_id": "ZDI-26-742"
+  },
+  "ZDI-26-743": {
+    "additional_details": "Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html",
+    "advisory_date": "2026-09-23",
+    "affected_products": [
+      "PDF Reader"
+    ],
+    "affected_vendors": [
+      "Foxit"
+    ],
+    "credit": "06fe5fd2bc53027c4a3b7e395af0b850e7b8a044",
+    "cve": "CVE-2026-91815",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-91815",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-09-09 - Vulnerability reported to vendor",
+      "2026-09-23 - Coordinated public release of advisory",
+      "2026-09-23 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-743 ZDI-CAN-33570 Foxit PDF Reader JPEG2000 Parsing Memory Corruption Remote Code Execution Vulnerability 2026-09-23 CVE-2026-91815 https://www.cve.org/CVERecord?id=CVE-2026-91815 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Foxit'] ['PDF Reader'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of JPEG2000 images. The issue results from the lack of proper validation of user-supplied data, which can result in a memory corruption condition. An attacker can leverage this vulnerability to execute code in the context of the current process. Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html ['2026-09-09 - Vulnerability reported to vendor', '2026-09-23 - Coordinated public release of advisory', '2026-09-23 - Advisory Updated'] 06fe5fd2bc53027c4a3b7e395af0b850e7b8a044 https://www.zerodayinitiative.com/advisories/ZDI-26-743/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-743/",
+    "title": "Foxit PDF Reader JPEG2000 Parsing Memory Corruption Remote Code Execution Vulnerability",
+    "updated_date": "2026-09-23",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of JPEG2000 images. The issue results from the lack of proper validation of user-supplied data, which can result in a memory corruption condition. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-33570",
+    "zdi_id": "ZDI-26-743"
+  },
+  "ZDI-26-744": {
+    "additional_details": "Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html",
+    "advisory_date": "2026-09-23",
+    "affected_products": [
+      "PDF Reader"
+    ],
+    "affected_vendors": [
+      "Foxit"
+    ],
+    "credit": "Anonymous",
+    "cve": "CVE-2026-91816",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-91816",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-09-09 - Vulnerability reported to vendor",
+      "2026-09-23 - Coordinated public release of advisory",
+      "2026-09-23 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-744 ZDI-CAN-33987 Foxit PDF Reader AcroForm Use-After-Free Remote Code Execution Vulnerability 2026-09-23 CVE-2026-91816 https://www.cve.org/CVERecord?id=CVE-2026-91816 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Foxit'] ['PDF Reader'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of AcroForms. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current process. Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html ['2026-09-09 - Vulnerability reported to vendor', '2026-09-23 - Coordinated public release of advisory', '2026-09-23 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-744/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-744/",
+    "title": "Foxit PDF Reader AcroForm Use-After-Free Remote Code Execution Vulnerability",
+    "updated_date": "2026-09-23",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of AcroForms. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-33987",
+    "zdi_id": "ZDI-26-744"
+  },
+  "ZDI-26-745": {
+    "additional_details": "Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html",
+    "advisory_date": "2026-09-23",
+    "affected_products": [
+      "PDF Reader"
+    ],
+    "affected_vendors": [
+      "Foxit"
+    ],
+    "credit": "Anonymous",
+    "cve": "CVE-2026-91817",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-91817",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-09-09 - Vulnerability reported to vendor",
+      "2026-09-23 - Coordinated public release of advisory",
+      "2026-09-23 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-745 ZDI-CAN-33989 Foxit PDF Reader AcroForm Out-of-Bounds Read Remote Code Execution Vulnerability 2026-09-23 CVE-2026-91817 https://www.cve.org/CVERecord?id=CVE-2026-91817 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Foxit'] ['PDF Reader'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of AcroForms. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html ['2026-09-09 - Vulnerability reported to vendor', '2026-09-23 - Coordinated public release of advisory', '2026-09-23 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-745/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-745/",
+    "title": "Foxit PDF Reader AcroForm Out-of-Bounds Read Remote Code Execution Vulnerability",
+    "updated_date": "2026-09-23",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of AcroForms. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-33989",
+    "zdi_id": "ZDI-26-745"
+  },
+  "ZDI-26-746": {
+    "additional_details": "Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html",
+    "advisory_date": "2026-09-23",
+    "affected_products": [
+      "PDF Reader"
+    ],
+    "affected_vendors": [
+      "Foxit"
+    ],
+    "credit": "Anonymous",
+    "cve": "CVE-2026-91818",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-91818",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-09-09 - Vulnerability reported to vendor",
+      "2026-09-23 - Coordinated public release of advisory",
+      "2026-09-23 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-746 ZDI-CAN-33990 Foxit PDF Reader Annotation Use-After-Free Remote Code Execution Vulnerability 2026-09-23 CVE-2026-91818 https://www.cve.org/CVERecord?id=CVE-2026-91818 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Foxit'] ['PDF Reader'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Annotation objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current process. Foxit has issued an update to correct this vulnerability. More details can be found at: https://www.foxit.com/support/security-bulletins.html ['2026-09-09 - Vulnerability reported to vendor', '2026-09-23 - Coordinated public release of advisory', '2026-09-23 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-746/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-746/",
+    "title": "Foxit PDF Reader Annotation Use-After-Free Remote Code Execution Vulnerability",
+    "updated_date": "2026-09-23",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Foxit PDF Reader. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of Annotation objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-33990",
+    "zdi_id": "ZDI-26-746"
+  },
+  "ZDI-26-747": {
+    "additional_details": "Wireshark has issued an update to correct this vulnerability. More details can be found at: https://gitlab.com/wireshark/wireshark/-/commit/b2d359a23f9557d1740ded6b5e71ec8eea4b1695",
+    "advisory_date": "2026-09-23",
+    "affected_products": [
+      "Wireshark"
+    ],
+    "affected_vendors": [
+      "Wireshark"
+    ],
+    "credit": "Meshaal (@unrealmesh)",
+    "cve": "CVE-2026-96417",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-96417",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-09-10 - Vulnerability reported to vendor",
+      "2026-09-23 - Coordinated public release of advisory",
+      "2026-09-23 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-747 ZDI-CAN-31780 Wireshark RF4CE Packet Parsing Buffer Overflow Remote Code Execution Vulnerability 2026-09-23 CVE-2026-96417 https://www.cve.org/CVERecord?id=CVE-2026-96417 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Wireshark'] ['Wireshark'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Wireshark. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of RF4CE key exchange packets. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. Wireshark has issued an update to correct this vulnerability. More details can be found at: https://gitlab.com/wireshark/wireshark/-/commit/b2d359a23f9557d1740ded6b5e71ec8eea4b1695 ['2026-09-10 - Vulnerability reported to vendor', '2026-09-23 - Coordinated public release of advisory', '2026-09-23 - Advisory Updated'] Meshaal (@unrealmesh) https://www.zerodayinitiative.com/advisories/ZDI-26-747/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-747/",
+    "title": "Wireshark RF4CE Packet Parsing Buffer Overflow Remote Code Execution Vulnerability",
+    "updated_date": "2026-09-23",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Wireshark. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of RF4CE key exchange packets. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a buffer. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-31780",
+    "zdi_id": "ZDI-26-747"
+  },
+  "ZDI-26-748": {
+    "additional_details": "Luxion has issued an update to correct this vulnerability. More details can be found at: https://download.keyshot.com/cert/ksa-302860/ksa-302860.pdf?version=1.0",
+    "advisory_date": "2026-09-23",
+    "affected_products": [
+      "KeyShot"
+    ],
+    "affected_vendors": [
+      "Luxion"
+    ],
+    "credit": "Sean de Regge",
+    "cve": "CVE-2026-92202",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-92202",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-04-29 - Vulnerability reported to vendor",
+      "2026-09-23 - Coordinated public release of advisory",
+      "2026-09-23 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-748 ZDI-CAN-29268 Luxion KeyShot BIP File Parsing Uncontrolled Search Path Element Remote Code Execution Vulnerability 2026-09-23 CVE-2026-92202 https://www.cve.org/CVERecord?id=CVE-2026-92202 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Luxion'] ['KeyShot'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Luxion KeyShot. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of BIP files. The issue results from loading a library from an unsecured location. An attacker can leverage this vulnerability to execute code in the context of the current process. Luxion has issued an update to correct this vulnerability. More details can be found at: https://download.keyshot.com/cert/ksa-302860/ksa-302860.pdf?version=1.0 ['2026-04-29 - Vulnerability reported to vendor', '2026-09-23 - Coordinated public release of advisory', '2026-09-23 - Advisory Updated'] Sean de Regge https://www.zerodayinitiative.com/advisories/ZDI-26-748/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-748/",
+    "title": "Luxion KeyShot BIP File Parsing Uncontrolled Search Path Element Remote Code Execution Vulnerability",
+    "updated_date": "2026-09-23",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Luxion KeyShot. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of BIP files. The issue results from loading a library from an unsecured location. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29268",
+    "zdi_id": "ZDI-26-748"
   }
 }

@@ -408,18 +408,6 @@
     "zdi_can": "ZDI-CAN-32034"
   },
   {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2027-01-08",
-    "discoverer": "Meshaal (@unrealmesh)",
-    "kind": "upcoming",
-    "reported_date": "2026-09-10",
-    "status": "upcoming",
-    "vendor": "Wireshark",
-    "vendor_url": null,
-    "zdi_can": "ZDI-CAN-31780"
-  },
-  {
     "cvss": 8.8,
     "cvss_vector": "AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
     "deadline": "2027-01-08",
@@ -517,18 +505,6 @@
   },
   {
     "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2027-01-07",
-    "discoverer": "Anonymous",
-    "kind": "upcoming",
-    "reported_date": "2026-09-09",
-    "status": "upcoming",
-    "vendor": "Foxit",
-    "vendor_url": "https://www.foxitsoftware.com/",
-    "zdi_can": "ZDI-CAN-33990"
-  },
-  {
-    "cvss": 7.8,
     "cvss_vector": "AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
     "deadline": "2027-01-07",
     "discoverer": "Dang Minh Quang of Viettel Cyber Security",
@@ -562,42 +538,6 @@
     "vendor": "Langflow",
     "vendor_url": "https://www.langflow.org/",
     "zdi_can": "ZDI-CAN-32723"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2027-01-07",
-    "discoverer": "Anonymous",
-    "kind": "upcoming",
-    "reported_date": "2026-09-09",
-    "status": "upcoming",
-    "vendor": "Foxit",
-    "vendor_url": "https://www.foxitsoftware.com/",
-    "zdi_can": "ZDI-CAN-33987"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2027-01-07",
-    "discoverer": "Anonymous",
-    "kind": "upcoming",
-    "reported_date": "2026-09-09",
-    "status": "upcoming",
-    "vendor": "Foxit",
-    "vendor_url": "https://www.foxitsoftware.com/",
-    "zdi_can": "ZDI-CAN-33989"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2027-01-07",
-    "discoverer": "06fe5fd2bc53027c4a3b7e395af0b850e7b8a044",
-    "kind": "upcoming",
-    "reported_date": "2026-09-09",
-    "status": "upcoming",
-    "vendor": "Foxit",
-    "vendor_url": "https://www.foxitsoftware.com/",
-    "zdi_can": "ZDI-CAN-33570"
   },
   {
     "cvss": 7.5,
@@ -1500,30 +1440,6 @@
     "zdi_can": "ZDI-CAN-32513"
   },
   {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-12-18",
-    "discoverer": "praydog & kmx00",
-    "kind": "upcoming",
-    "reported_date": "2026-08-20",
-    "status": "upcoming",
-    "vendor": "Foxit",
-    "vendor_url": "https://www.foxitsoftware.com/",
-    "zdi_can": "ZDI-CAN-32454"
-  },
-  {
-    "cvss": 7.1,
-    "cvss_vector": "AV:A/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-12-18",
-    "discoverer": "praydog & kmx00",
-    "kind": "upcoming",
-    "reported_date": "2026-08-20",
-    "status": "upcoming",
-    "vendor": "Foxit",
-    "vendor_url": "https://www.foxitsoftware.com/",
-    "zdi_can": "ZDI-CAN-32452"
-  },
-  {
     "cvss": 9.8,
     "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
     "deadline": "2026-12-18",
@@ -1798,78 +1714,6 @@
     "vendor": "Wireshark",
     "vendor_url": null,
     "zdi_can": "ZDI-CAN-32846"
-  },
-  {
-    "cvss": 3.3,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
-    "deadline": "2026-12-17",
-    "discoverer": "Anonymous",
-    "kind": "upcoming",
-    "reported_date": "2026-08-19",
-    "status": "upcoming",
-    "vendor": "Foxit",
-    "vendor_url": "https://www.foxitsoftware.com/",
-    "zdi_can": "ZDI-CAN-32666"
-  },
-  {
-    "cvss": 3.3,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
-    "deadline": "2026-12-17",
-    "discoverer": "Anonymous",
-    "kind": "upcoming",
-    "reported_date": "2026-08-19",
-    "status": "upcoming",
-    "vendor": "Foxit",
-    "vendor_url": "https://www.foxitsoftware.com/",
-    "zdi_can": "ZDI-CAN-32757"
-  },
-  {
-    "cvss": 3.3,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
-    "deadline": "2026-12-17",
-    "discoverer": "Anonymous",
-    "kind": "upcoming",
-    "reported_date": "2026-08-19",
-    "status": "upcoming",
-    "vendor": "Foxit",
-    "vendor_url": "https://www.foxitsoftware.com/",
-    "zdi_can": "ZDI-CAN-32665"
-  },
-  {
-    "cvss": 3.3,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
-    "deadline": "2026-12-17",
-    "discoverer": "Anonymous",
-    "kind": "upcoming",
-    "reported_date": "2026-08-19",
-    "status": "upcoming",
-    "vendor": "Foxit",
-    "vendor_url": "https://www.foxitsoftware.com/",
-    "zdi_can": "ZDI-CAN-32754"
-  },
-  {
-    "cvss": 3.3,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
-    "deadline": "2026-12-17",
-    "discoverer": "Anonymous",
-    "kind": "upcoming",
-    "reported_date": "2026-08-19",
-    "status": "upcoming",
-    "vendor": "Foxit",
-    "vendor_url": "https://www.foxitsoftware.com/",
-    "zdi_can": "ZDI-CAN-32755"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-12-17",
-    "discoverer": "kai63001",
-    "kind": "upcoming",
-    "reported_date": "2026-08-19",
-    "status": "upcoming",
-    "vendor": "Foxit",
-    "vendor_url": "https://www.foxitsoftware.com/",
-    "zdi_can": "ZDI-CAN-32817"
   },
   {
     "cvss": 7.8,
@@ -2976,18 +2820,6 @@
     "zdi_can": "ZDI-CAN-31681"
   },
   {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-11-14",
-    "discoverer": "Liang Zhu",
-    "kind": "upcoming",
-    "reported_date": "2026-07-17",
-    "status": "upcoming",
-    "vendor": "Foxit",
-    "vendor_url": "https://www.foxitsoftware.com/",
-    "zdi_can": "ZDI-CAN-31605"
-  },
-  {
     "cvss": 8.8,
     "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
     "deadline": "2026-11-14",
@@ -3924,42 +3756,6 @@
     "zdi_can": "ZDI-CAN-31995"
   },
   {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-10-21",
-    "discoverer": "Pwn2Sleep",
-    "kind": "upcoming",
-    "reported_date": "2026-06-23",
-    "status": "upcoming",
-    "vendor": "Foxit",
-    "vendor_url": "https://www.foxitsoftware.com/",
-    "zdi_can": "ZDI-CAN-30795"
-  },
-  {
-    "cvss": 3.3,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
-    "deadline": "2026-10-21",
-    "discoverer": "Liang Zhu",
-    "kind": "upcoming",
-    "reported_date": "2026-06-23",
-    "status": "upcoming",
-    "vendor": "Foxit",
-    "vendor_url": "https://www.foxitsoftware.com/",
-    "zdi_can": "ZDI-CAN-31048"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-10-21",
-    "discoverer": "Landon Peng (lunbun) of Lunbun LLC",
-    "kind": "upcoming",
-    "reported_date": "2026-06-23",
-    "status": "upcoming",
-    "vendor": "Foxit",
-    "vendor_url": "https://www.foxitsoftware.com/",
-    "zdi_can": "ZDI-CAN-31364"
-  },
-  {
     "cvss": 9.9,
     "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
     "deadline": "2026-10-21",
@@ -4066,18 +3862,6 @@
     "vendor": "llama.cpp",
     "vendor_url": "https://github.com/ggerganov/llama.cpp",
     "zdi_can": "ZDI-CAN-30980"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-10-16",
-    "discoverer": "Liang Zhu",
-    "kind": "upcoming",
-    "reported_date": "2026-06-18",
-    "status": "upcoming",
-    "vendor": "Foxit",
-    "vendor_url": "https://www.foxitsoftware.com/",
-    "zdi_can": "ZDI-CAN-31319"
   },
   {
     "cvss": 7.8,
@@ -4344,30 +4128,6 @@
     "zdi_can": "ZDI-CAN-31815"
   },
   {
-    "cvss": 3.3,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
-    "deadline": "2026-10-14",
-    "discoverer": "Anonymous",
-    "kind": "upcoming",
-    "reported_date": "2026-06-16",
-    "status": "upcoming",
-    "vendor": "Foxit",
-    "vendor_url": "https://www.foxitsoftware.com/",
-    "zdi_can": "ZDI-CAN-31160"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-10-14",
-    "discoverer": "Anonymous",
-    "kind": "upcoming",
-    "reported_date": "2026-06-16",
-    "status": "upcoming",
-    "vendor": "Foxit",
-    "vendor_url": "https://www.foxitsoftware.com/",
-    "zdi_can": "ZDI-CAN-31171"
-  },
-  {
     "cvss": 9.3,
     "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:L/A:N",
     "deadline": "2026-10-14",
@@ -4380,78 +4140,6 @@
     "zdi_can": "ZDI-CAN-31842"
   },
   {
-    "cvss": 3.3,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
-    "deadline": "2026-10-14",
-    "discoverer": "Anonymous",
-    "kind": "upcoming",
-    "reported_date": "2026-06-16",
-    "status": "upcoming",
-    "vendor": "Foxit",
-    "vendor_url": "https://www.foxitsoftware.com/",
-    "zdi_can": "ZDI-CAN-31175"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-10-14",
-    "discoverer": "Anonymous",
-    "kind": "upcoming",
-    "reported_date": "2026-06-16",
-    "status": "upcoming",
-    "vendor": "Foxit",
-    "vendor_url": "https://www.foxitsoftware.com/",
-    "zdi_can": "ZDI-CAN-31163"
-  },
-  {
-    "cvss": 3.3,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
-    "deadline": "2026-10-14",
-    "discoverer": "Anonymous",
-    "kind": "upcoming",
-    "reported_date": "2026-06-16",
-    "status": "upcoming",
-    "vendor": "Foxit",
-    "vendor_url": "https://www.foxitsoftware.com/",
-    "zdi_can": "ZDI-CAN-31172"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-10-14",
-    "discoverer": "Anonymous",
-    "kind": "upcoming",
-    "reported_date": "2026-06-16",
-    "status": "upcoming",
-    "vendor": "Foxit",
-    "vendor_url": "https://www.foxitsoftware.com/",
-    "zdi_can": "ZDI-CAN-31166"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-10-14",
-    "discoverer": "Liang Zhu",
-    "kind": "upcoming",
-    "reported_date": "2026-06-16",
-    "status": "upcoming",
-    "vendor": "Foxit",
-    "vendor_url": "https://www.foxitsoftware.com/",
-    "zdi_can": "ZDI-CAN-31135"
-  },
-  {
-    "cvss": 3.3,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
-    "deadline": "2026-10-14",
-    "discoverer": "Anonymous",
-    "kind": "upcoming",
-    "reported_date": "2026-06-16",
-    "status": "upcoming",
-    "vendor": "Foxit",
-    "vendor_url": "https://www.foxitsoftware.com/",
-    "zdi_can": "ZDI-CAN-31169"
-  },
-  {
     "cvss": 7.4,
     "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:L",
     "deadline": "2026-10-14",
@@ -4462,18 +4150,6 @@
     "vendor": "MindsDB",
     "vendor_url": "https://mindsdb.com/",
     "zdi_can": "ZDI-CAN-30892"
-  },
-  {
-    "cvss": 3.3,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
-    "deadline": "2026-10-14",
-    "discoverer": "Anonymous",
-    "kind": "upcoming",
-    "reported_date": "2026-06-16",
-    "status": "upcoming",
-    "vendor": "Foxit",
-    "vendor_url": "https://www.foxitsoftware.com/",
-    "zdi_can": "ZDI-CAN-31168"
   },
   {
     "cvss": 7.5,
@@ -4498,18 +4174,6 @@
     "vendor": "MLflow",
     "vendor_url": "https://mlflow.org/",
     "zdi_can": "ZDI-CAN-31844"
-  },
-  {
-    "cvss": 4.7,
-    "cvss_vector": "AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N",
-    "deadline": "2026-10-13",
-    "discoverer": "kai63001",
-    "kind": "upcoming",
-    "reported_date": "2026-06-15",
-    "status": "upcoming",
-    "vendor": "Foxit",
-    "vendor_url": "https://www.foxitsoftware.com/",
-    "zdi_can": "ZDI-CAN-30962"
   },
   {
     "cvss": 8.8,
@@ -5674,18 +5338,6 @@
     "vendor": "Quest",
     "vendor_url": null,
     "zdi_can": "ZDI-CAN-29168"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-08-27",
-    "discoverer": "Sean de Regge",
-    "kind": "upcoming",
-    "reported_date": "2026-04-29",
-    "status": "upcoming",
-    "vendor": "Luxion",
-    "vendor_url": "https://www.luxion.com/",
-    "zdi_can": "ZDI-CAN-29268"
   },
   {
     "cvss": 7.8,
