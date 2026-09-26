@@ -308808,6 +308808,58 @@
     "zdi_id": "ZDI-05-001"
   },
   {
+    "cvss": 4.9,
+    "cvss_vector": "AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N",
+    "deadline": "2027-01-23",
+    "discoverer": "Ahmed Y. Elmogy",
+    "id": "ZDI-CAN-35116",
+    "kind": "upcoming",
+    "reported_date": "2026-09-25",
+    "status": "upcoming",
+    "vendor": "ATEN",
+    "vendor_url": "https://www.aten.com/us/en/",
+    "zdi_can": "ZDI-CAN-35116"
+  },
+  {
+    "cvss": 5.5,
+    "cvss_vector": "AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:L/A:H",
+    "deadline": "2027-01-23",
+    "discoverer": "Ahmed Y. Elmogy",
+    "id": "ZDI-CAN-28504",
+    "kind": "upcoming",
+    "reported_date": "2026-09-25",
+    "status": "upcoming",
+    "vendor": "ATEN",
+    "vendor_url": "https://www.aten.com/us/en/",
+    "zdi_can": "ZDI-CAN-28504"
+  },
+  {
+    "cvss": 8.1,
+    "cvss_vector": "AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "deadline": "2027-01-23",
+    "discoverer": "Bobby Gould (@bobbygould5) of TrendAI Zero Day Initiative",
+    "id": "ZDI-CAN-34489",
+    "kind": "upcoming",
+    "reported_date": "2026-09-25",
+    "status": "upcoming",
+    "vendor": "MailEnable",
+    "vendor_url": "https://www.mailenable.com/",
+    "zdi_can": "ZDI-CAN-34489"
+  },
+  {
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "deadline": "2027-01-23",
+    "discoverer": "Rocco Calvi (@TecR0c) and Edward Morris (edwardgmorris.com) with TecSecurity",
+    "id": "ZDI-CAN-33033",
+    "kind": "upcoming",
+    "reported_date": "2026-09-25",
+    "status": "upcoming",
+    "vendor": "OpenPrinting",
+    "vendor_url": "http://www.openprinting.org/",
+    "zdi_can": "ZDI-CAN-33033"
+  },
+  {
     "cvss": 9.8,
     "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
     "deadline": "2027-01-22",
