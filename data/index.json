@@ -1,5 +1,41 @@
 [
   {
+    "cve": "CVE-2026-18145",
+    "cvss": 7.2,
+    "cvss_vector": null,
+    "description_snippet": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of WatchGuard FireWare OS. Authentication is required to exploit this vulnerability. The specific flaw exists within the handling of xpath and parameter values prov...",
+    "detail_json": "/data/advisories/2026.json",
+    "id": "ZDI-26-750",
+    "kind": "published",
+    "published_date": "2026-09-30",
+    "status": "published",
+    "title": "WatchGuard FireWare OS spamd statushdlr Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+    "updated_date": "2026-09-30",
+    "url": "https://www.zerodayinitiative.com/advisories/ZDI-26-750/",
+    "vendor": "WatchGuard",
+    "vendor_url": null,
+    "zdi_can": "ZDI-CAN-31623",
+    "zdi_id": "ZDI-26-750"
+  },
+  {
+    "cve": "CVE-2026-13046",
+    "cvss": 7.5,
+    "cvss_vector": null,
+    "description_snippet": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of WatchGuard FireWare OS. An attacker must first obtain the ability to write to the samld session directory on the target system in order to exploit this vulnerabi...",
+    "detail_json": "/data/advisories/2026.json",
+    "id": "ZDI-26-749",
+    "kind": "published",
+    "published_date": "2026-09-30",
+    "status": "published",
+    "title": "WatchGuard FireWare OS samld SAMLSession Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "updated_date": "2026-09-30",
+    "url": "https://www.zerodayinitiative.com/advisories/ZDI-26-749/",
+    "vendor": "WatchGuard",
+    "vendor_url": null,
+    "zdi_can": "ZDI-CAN-31456",
+    "zdi_id": "ZDI-26-749"
+  },
+  {
     "cve": "CVE-2026-92202",
     "cvss": 7.8,
     "cvss_vector": null,
@@ -308810,6 +308846,19 @@
   {
     "cvss": 7.8,
     "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "deadline": "2027-01-28",
+    "discoverer": "rgod",
+    "id": "ZDI-CAN-33817",
+    "kind": "upcoming",
+    "reported_date": "2026-09-30",
+    "status": "upcoming",
+    "vendor": "SoftMaker",
+    "vendor_url": "https://www.softmaker.com/en/contact-us",
+    "zdi_can": "ZDI-CAN-33817"
+  },
+  {
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
     "deadline": "2027-01-26",
     "discoverer": "Anonymous",
     "id": "ZDI-CAN-32835",
@@ -313982,19 +314031,6 @@
     "zdi_can": "ZDI-CAN-27859"
   },
   {
-    "cvss": 7.2,
-    "cvss_vector": "AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
-    "deadline": "2026-09-30",
-    "discoverer": "Nicholas Zubrisky (@NZubrisky) of TrendAI Research",
-    "id": "ZDI-CAN-31623",
-    "kind": "upcoming",
-    "reported_date": "2026-06-02",
-    "status": "upcoming",
-    "vendor": "WatchGuard",
-    "vendor_url": "https://www.watchguard.com/",
-    "zdi_can": "ZDI-CAN-31623"
-  },
-  {
     "cvss": 7.8,
     "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
     "deadline": "2026-09-30",
@@ -314279,19 +314315,6 @@
     "vendor": "NVIDIA",
     "vendor_url": "https://www.nvidia.com/en-us/",
     "zdi_can": "ZDI-CAN-30286"
-  },
-  {
-    "cvss": 7.5,
-    "cvss_vector": "AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
-    "deadline": "2026-09-19",
-    "discoverer": "Nicholas Zubrisky (@NZubrisky) of TrendAI Research",
-    "id": "ZDI-CAN-31456",
-    "kind": "upcoming",
-    "reported_date": "2026-05-22",
-    "status": "upcoming",
-    "vendor": "WatchGuard",
-    "vendor_url": "https://www.watchguard.com/",
-    "zdi_can": "ZDI-CAN-31456"
   },
   {
     "cvss": 6.5,

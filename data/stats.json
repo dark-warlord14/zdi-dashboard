@@ -1,7 +1,7 @@
 {
   "by_cvss_band": {
     "critical": 2401,
-    "high": 9517,
+    "high": 9518,
     "low": 1479,
     "medium": 4114,
     "unknown": 337
@@ -55,15 +55,15 @@
     "2023": 1908,
     "2024": 1748,
     "2025": 1203,
-    "2026": 749
+    "2026": 751
   },
-  "cve_coverage": 15532,
-  "high_cvss": 11918,
-  "total_published": 17156,
-  "total_upcoming": 692,
+  "cve_coverage": 15534,
+  "high_cvss": 11919,
+  "total_published": 17158,
+  "total_upcoming": 691,
   "upcoming_deadline_state": {
-    "due_soon": 93,
-    "future": 308,
-    "past_due": 291
+    "due_soon": 86,
+    "future": 302,
+    "past_due": 303
   }
 }

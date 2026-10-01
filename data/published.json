@@ -1,5 +1,35 @@
 [
   {
+    "cve": "CVE-2026-18145",
+    "cvss": 7.2,
+    "cvss_vector": null,
+    "description_snippet": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of WatchGuard FireWare OS. Authentication is required to exploit this vulnerability. The specific flaw exists within the handling of xpath and parameter values prov...",
+    "kind": "published",
+    "published_date": "2026-09-30",
+    "title": "WatchGuard FireWare OS spamd statushdlr Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+    "updated_date": "2026-09-30",
+    "url": "https://www.zerodayinitiative.com/advisories/ZDI-26-750/",
+    "vendor": "WatchGuard",
+    "vendor_url": null,
+    "zdi_can": "ZDI-CAN-31623",
+    "zdi_id": "ZDI-26-750"
+  },
+  {
+    "cve": "CVE-2026-13046",
+    "cvss": 7.5,
+    "cvss_vector": null,
+    "description_snippet": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of WatchGuard FireWare OS. An attacker must first obtain the ability to write to the samld session directory on the target system in order to exploit this vulnerabi...",
+    "kind": "published",
+    "published_date": "2026-09-30",
+    "title": "WatchGuard FireWare OS samld SAMLSession Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "updated_date": "2026-09-30",
+    "url": "https://www.zerodayinitiative.com/advisories/ZDI-26-749/",
+    "vendor": "WatchGuard",
+    "vendor_url": null,
+    "zdi_can": "ZDI-CAN-31456",
+    "zdi_id": "ZDI-26-749"
+  },
+  {
     "cve": "CVE-2026-92202",
     "cvss": 7.8,
     "cvss_vector": null,
