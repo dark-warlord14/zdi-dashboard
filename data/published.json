@@ -1,5 +1,20 @@
 [
   {
+    "cve": "CVE-2026-50375",
+    "cvss": 8.8,
+    "cvss_vector": null,
+    "description_snippet": "This vulnerability allows local attackers to escalate privileges on affected installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific...",
+    "kind": "published",
+    "published_date": "2026-10-01",
+    "title": "Microsoft Windows dxgkrnl Time-Of-Check Time-Of-Use Local Privilege Escalation Vulnerability",
+    "updated_date": "2026-10-01",
+    "url": "https://www.zerodayinitiative.com/advisories/ZDI-26-751/",
+    "vendor": "Microsoft",
+    "vendor_url": null,
+    "zdi_can": "ZDI-CAN-30656",
+    "zdi_id": "ZDI-26-751"
+  },
+  {
     "cve": "CVE-2026-18145",
     "cvss": 7.2,
     "cvss_vector": null,
