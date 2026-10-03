@@ -1,5 +1,65 @@
 [
   {
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "deadline": "2027-01-30",
+    "discoverer": "NURIHAN KIM (HanTul)",
+    "kind": "upcoming",
+    "reported_date": "2026-10-02",
+    "status": "upcoming",
+    "vendor": "Adobe",
+    "vendor_url": "https://www.adobe.com",
+    "zdi_can": "ZDI-CAN-33268"
+  },
+  {
+    "cvss": 4.3,
+    "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+    "deadline": "2027-01-30",
+    "discoverer": "Anonymous",
+    "kind": "upcoming",
+    "reported_date": "2026-10-02",
+    "status": "upcoming",
+    "vendor": "LiteLLM",
+    "vendor_url": "https://www.litellm.ai/",
+    "zdi_can": "ZDI-CAN-33218"
+  },
+  {
+    "cvss": 8.8,
+    "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "deadline": "2027-01-30",
+    "discoverer": "s3zer0",
+    "kind": "upcoming",
+    "reported_date": "2026-10-02",
+    "status": "upcoming",
+    "vendor": "LiteLLM",
+    "vendor_url": "https://www.litellm.ai/",
+    "zdi_can": "ZDI-CAN-34578"
+  },
+  {
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "deadline": "2027-01-30",
+    "discoverer": "Ziyu Lin (Nanyang Technological University)",
+    "kind": "upcoming",
+    "reported_date": "2026-10-02",
+    "status": "upcoming",
+    "vendor": "Hugging Face",
+    "vendor_url": "https://huggingface.co/",
+    "zdi_can": "ZDI-CAN-32552"
+  },
+  {
+    "cvss": 8.8,
+    "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "deadline": "2027-01-30",
+    "discoverer": "Anonymous",
+    "kind": "upcoming",
+    "reported_date": "2026-10-02",
+    "status": "upcoming",
+    "vendor": "LiteLLM",
+    "vendor_url": "https://www.litellm.ai/",
+    "zdi_can": "ZDI-CAN-34302"
+  },
+  {
     "cvss": 5.9,
     "cvss_vector": "AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
     "deadline": "2027-01-29",
