@@ -308863,6 +308863,32 @@
   },
   {
     "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "deadline": "2027-02-03",
+    "discoverer": "gardenchair",
+    "id": "ZDI-CAN-31440",
+    "kind": "upcoming",
+    "reported_date": "2026-10-06",
+    "status": "upcoming",
+    "vendor": "Apple",
+    "vendor_url": "https://www.apple.com",
+    "zdi_can": "ZDI-CAN-31440"
+  },
+  {
+    "cvss": 7.2,
+    "cvss_vector": "AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+    "deadline": "2027-02-03",
+    "discoverer": "Tahmid Akbar Omim(imperial_coder)",
+    "id": "ZDI-CAN-30240",
+    "kind": "upcoming",
+    "reported_date": "2026-10-06",
+    "status": "upcoming",
+    "vendor": "Adobe",
+    "vendor_url": "https://www.adobe.com",
+    "zdi_can": "ZDI-CAN-30240"
+  },
+  {
+    "cvss": 7.8,
     "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
     "deadline": "2027-01-30",
     "discoverer": "NURIHAN KIM (HanTul)",
