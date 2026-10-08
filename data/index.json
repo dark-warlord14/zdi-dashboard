@@ -308862,6 +308862,32 @@
     "zdi_id": "ZDI-05-001"
   },
   {
+    "cvss": 9.8,
+    "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "deadline": "2027-02-04",
+    "discoverer": "Habibullo Izzatilloyev",
+    "id": "ZDI-CAN-32347",
+    "kind": "upcoming",
+    "reported_date": "2026-10-07",
+    "status": "upcoming",
+    "vendor": "MindsDB",
+    "vendor_url": "https://mindsdb.com/",
+    "zdi_can": "ZDI-CAN-32347"
+  },
+  {
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "deadline": "2027-02-04",
+    "discoverer": "OSORI",
+    "id": "ZDI-CAN-35161",
+    "kind": "upcoming",
+    "reported_date": "2026-10-07",
+    "status": "upcoming",
+    "vendor": "Microsoft",
+    "vendor_url": "https://www.microsoft.com",
+    "zdi_can": "ZDI-CAN-35161"
+  },
+  {
     "cvss": 7.8,
     "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
     "deadline": "2027-02-03",
