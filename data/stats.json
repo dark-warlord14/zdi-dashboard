@@ -1,15 +1,15 @@
 {
   "by_cvss_band": {
     "critical": 2403,
-    "high": 9533,
+    "high": 9540,
     "low": 1481,
-    "medium": 4116,
+    "medium": 4117,
     "unknown": 337
   },
   "by_vendor": {
     "Adobe": 2041,
     "Advantech": 734,
-    "Apple": 821,
+    "Apple": 822,
     "Autodesk": 523,
     "Bentley": 208,
     "Cisco": 326,
@@ -17,7 +17,7 @@
     "Delta Electronics": 285,
     "Delta Industrial Automation": 220,
     "Foxit": 924,
-    "Fuji Electric": 196,
+    "Fuji Electric": 197,
     "Hewlett Packard Enterprise": 304,
     "Hewlett-Packard": 242,
     "IrfanView": 180,
@@ -58,12 +58,12 @@
     "2026": 752
   },
   "cve_coverage": 15535,
-  "high_cvss": 11936,
+  "high_cvss": 11943,
   "total_published": 17159,
-  "total_upcoming": 711,
+  "total_upcoming": 719,
   "upcoming_deadline_state": {
-    "due_soon": 90,
-    "future": 309,
-    "past_due": 312
+    "due_soon": 83,
+    "future": 317,
+    "past_due": 319
   }
 }
