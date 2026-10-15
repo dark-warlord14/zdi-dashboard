@@ -1,5 +1,41 @@
 [
   {
+    "cvss": 6.5,
+    "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+    "deadline": "2027-02-11",
+    "discoverer": "Anonymous",
+    "kind": "upcoming",
+    "reported_date": "2026-10-14",
+    "status": "upcoming",
+    "vendor": "Samba",
+    "vendor_url": "https://www.samba.org/",
+    "zdi_can": "ZDI-CAN-32462"
+  },
+  {
+    "cvss": 7.7,
+    "cvss_vector": "AV:L/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H",
+    "deadline": "2027-02-11",
+    "discoverer": "Lucas Miller of TrendAI Research",
+    "kind": "upcoming",
+    "reported_date": "2026-10-14",
+    "status": "upcoming",
+    "vendor": "Microsoft",
+    "vendor_url": "https://www.microsoft.com",
+    "zdi_can": "ZDI-CAN-33522"
+  },
+  {
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "deadline": "2027-02-11",
+    "discoverer": "YJK(@YJK0805) of ZUSO ART",
+    "kind": "upcoming",
+    "reported_date": "2026-10-14",
+    "status": "upcoming",
+    "vendor": "NVIDIA",
+    "vendor_url": "https://www.nvidia.com/en-us/",
+    "zdi_can": "ZDI-CAN-31758"
+  },
+  {
     "cvss": 8.6,
     "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H",
     "deadline": "2027-02-06",
