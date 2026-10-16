@@ -360,18 +360,6 @@
     "zdi_can": "ZDI-CAN-31717"
   },
   {
-    "cvss": 8.8,
-    "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-    "deadline": "2027-01-29",
-    "discoverer": "Jonathan Crosby (bitwize)",
-    "kind": "upcoming",
-    "reported_date": "2026-10-01",
-    "status": "upcoming",
-    "vendor": "Sangoma",
-    "vendor_url": "https://www.sangoma.com",
-    "zdi_can": "ZDI-CAN-33494"
-  },
-  {
     "cvss": 7.4,
     "cvss_vector": "AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N",
     "deadline": "2027-01-29",
@@ -1560,18 +1548,6 @@
     "zdi_can": "ZDI-CAN-31888"
   },
   {
-    "cvss": 6.1,
-    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:L",
-    "deadline": "2026-12-31",
-    "discoverer": "WONJOON HWANG (@joon1337)",
-    "kind": "upcoming",
-    "reported_date": "2026-09-02",
-    "status": "upcoming",
-    "vendor": "X.Org",
-    "vendor_url": "https://www.x.org/",
-    "zdi_can": "ZDI-CAN-32408"
-  },
-  {
     "cvss": 8.8,
     "cvss_vector": "AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
     "deadline": "2026-12-31",
@@ -1956,18 +1932,6 @@
     "zdi_can": "ZDI-CAN-29528"
   },
   {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-    "deadline": "2026-12-23",
-    "discoverer": "Anonymous",
-    "kind": "upcoming",
-    "reported_date": "2026-08-25",
-    "status": "upcoming",
-    "vendor": "X.Org",
-    "vendor_url": "https://www.x.org/",
-    "zdi_can": "ZDI-CAN-32361"
-  },
-  {
     "cvss": 7.2,
     "cvss_vector": "AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
     "deadline": "2026-12-23",
@@ -2005,114 +1969,6 @@
   },
   {
     "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-    "deadline": "2026-12-23",
-    "discoverer": "Anonymous",
-    "kind": "upcoming",
-    "reported_date": "2026-08-25",
-    "status": "upcoming",
-    "vendor": "X.Org",
-    "vendor_url": "https://www.x.org/",
-    "zdi_can": "ZDI-CAN-31944"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-    "deadline": "2026-12-23",
-    "discoverer": "Anonymous",
-    "kind": "upcoming",
-    "reported_date": "2026-08-25",
-    "status": "upcoming",
-    "vendor": "X.Org",
-    "vendor_url": "https://www.x.org/",
-    "zdi_can": "ZDI-CAN-31941"
-  },
-  {
-    "cvss": 5.5,
-    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
-    "deadline": "2026-12-23",
-    "discoverer": "Anonymous",
-    "kind": "upcoming",
-    "reported_date": "2026-08-25",
-    "status": "upcoming",
-    "vendor": "X.Org",
-    "vendor_url": "https://www.x.org/",
-    "zdi_can": "ZDI-CAN-31832"
-  },
-  {
-    "cvss": 5.5,
-    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
-    "deadline": "2026-12-23",
-    "discoverer": "Anonymous",
-    "kind": "upcoming",
-    "reported_date": "2026-08-25",
-    "status": "upcoming",
-    "vendor": "X.Org",
-    "vendor_url": "https://www.x.org/",
-    "zdi_can": "ZDI-CAN-31830"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-    "deadline": "2026-12-23",
-    "discoverer": "Anonymous",
-    "kind": "upcoming",
-    "reported_date": "2026-08-25",
-    "status": "upcoming",
-    "vendor": "X.Org",
-    "vendor_url": "https://www.x.org/",
-    "zdi_can": "ZDI-CAN-31834"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-    "deadline": "2026-12-23",
-    "discoverer": "Anonymous",
-    "kind": "upcoming",
-    "reported_date": "2026-08-25",
-    "status": "upcoming",
-    "vendor": "X.Org",
-    "vendor_url": "https://www.x.org/",
-    "zdi_can": "ZDI-CAN-31938"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-    "deadline": "2026-12-23",
-    "discoverer": "Anonymous",
-    "kind": "upcoming",
-    "reported_date": "2026-08-25",
-    "status": "upcoming",
-    "vendor": "X.Org",
-    "vendor_url": "https://www.x.org/",
-    "zdi_can": "ZDI-CAN-31221"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-    "deadline": "2026-12-23",
-    "discoverer": "Anonymous",
-    "kind": "upcoming",
-    "reported_date": "2026-08-25",
-    "status": "upcoming",
-    "vendor": "X.Org",
-    "vendor_url": "https://www.x.org/",
-    "zdi_can": "ZDI-CAN-32366"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-    "deadline": "2026-12-23",
-    "discoverer": "Anonymous",
-    "kind": "upcoming",
-    "reported_date": "2026-08-25",
-    "status": "upcoming",
-    "vendor": "X.Org",
-    "vendor_url": "https://www.x.org/",
-    "zdi_can": "ZDI-CAN-31833"
-  },
-  {
-    "cvss": 7.8,
     "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
     "deadline": "2026-12-19",
     "discoverer": "Liang Zhu",
@@ -2146,18 +2002,6 @@
     "vendor": "Autodesk",
     "vendor_url": "https://www.autodesk.com/",
     "zdi_can": "ZDI-CAN-32513"
-  },
-  {
-    "cvss": 9.8,
-    "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
-    "deadline": "2026-12-18",
-    "discoverer": "Anonymous",
-    "kind": "upcoming",
-    "reported_date": "2026-08-20",
-    "status": "upcoming",
-    "vendor": "GStreamer",
-    "vendor_url": "https://gstreamer.freedesktop.org/",
-    "zdi_can": "ZDI-CAN-31143"
   },
   {
     "cvss": 9.0,
@@ -2664,18 +2508,6 @@
     "zdi_can": "ZDI-CAN-32569"
   },
   {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-    "deadline": "2026-12-05",
-    "discoverer": "Anonymous",
-    "kind": "upcoming",
-    "reported_date": "2026-08-07",
-    "status": "upcoming",
-    "vendor": "NoMachine",
-    "vendor_url": "https://www.nomachine.com/",
-    "zdi_can": "ZDI-CAN-31213"
-  },
-  {
     "cvss": 8.1,
     "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
     "deadline": "2026-12-05",
@@ -2722,18 +2554,6 @@
     "vendor": "LangGenius",
     "vendor_url": "https://dify.ai/",
     "zdi_can": "ZDI-CAN-33061"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-12-05",
-    "discoverer": "Brandon Evans of TrendAI Zero Day Initiative",
-    "kind": "upcoming",
-    "reported_date": "2026-08-07",
-    "status": "upcoming",
-    "vendor": "Adobe",
-    "vendor_url": "https://www.adobe.com",
-    "zdi_can": "ZDI-CAN-32599"
   },
   {
     "cvss": 9.8,
@@ -3132,18 +2952,6 @@
     "zdi_can": "ZDI-CAN-33062"
   },
   {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-    "deadline": "2026-11-26",
-    "discoverer": "khongtrang",
-    "kind": "upcoming",
-    "reported_date": "2026-07-29",
-    "status": "upcoming",
-    "vendor": "NoMachine",
-    "vendor_url": "https://www.nomachine.com/",
-    "zdi_can": "ZDI-CAN-30646"
-  },
-  {
     "cvss": 7.1,
     "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:N",
     "deadline": "2026-11-26",
@@ -3154,18 +2962,6 @@
     "vendor": "LangGenius",
     "vendor_url": "https://dify.ai/",
     "zdi_can": "ZDI-CAN-33060"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-11-26",
-    "discoverer": "Jabr Al-Otaibi",
-    "kind": "upcoming",
-    "reported_date": "2026-07-29",
-    "status": "upcoming",
-    "vendor": "Docker",
-    "vendor_url": "https://www.docker.com/",
-    "zdi_can": "ZDI-CAN-31688"
   },
   {
     "cvss": 5.9,
@@ -3466,18 +3262,6 @@
     "vendor": "Netdata",
     "vendor_url": "https://www.netdata.cloud/",
     "zdi_can": "ZDI-CAN-32158"
-  },
-  {
-    "cvss": 7.2,
-    "cvss_vector": "AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
-    "deadline": "2026-11-18",
-    "discoverer": "Brian Mariani - DigitalCanion SA",
-    "kind": "upcoming",
-    "reported_date": "2026-07-21",
-    "status": "upcoming",
-    "vendor": "SonicWall",
-    "vendor_url": null,
-    "zdi_can": "ZDI-CAN-28924"
   },
   {
     "cvss": 5.9,
@@ -4510,30 +4294,6 @@
     "vendor": "Microsoft",
     "vendor_url": "https://www.microsoft.com",
     "zdi_can": "ZDI-CAN-30411"
-  },
-  {
-    "cvss": 7.3,
-    "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
-    "deadline": "2026-10-17",
-    "discoverer": "Jason McFadyen of TrendAI Research",
-    "kind": "upcoming",
-    "reported_date": "2026-06-19",
-    "status": "upcoming",
-    "vendor": "Fortinet",
-    "vendor_url": null,
-    "zdi_can": "ZDI-CAN-31870"
-  },
-  {
-    "cvss": 4.9,
-    "cvss_vector": "AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H",
-    "deadline": "2026-10-17",
-    "discoverer": "Jason McFadyen of TrendAI Research",
-    "kind": "upcoming",
-    "reported_date": "2026-06-19",
-    "status": "upcoming",
-    "vendor": "Fortinet",
-    "vendor_url": null,
-    "zdi_can": "ZDI-CAN-31871"
   },
   {
     "cvss": 7.6,
@@ -5832,18 +5592,6 @@
     "zdi_can": "ZDI-CAN-31472"
   },
   {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-09-17",
-    "discoverer": "Brandon Evans of TrendAI Zero Day Initiative",
-    "kind": "upcoming",
-    "reported_date": "2026-05-20",
-    "status": "upcoming",
-    "vendor": "Adobe",
-    "vendor_url": "https://www.adobe.com",
-    "zdi_can": "ZDI-CAN-31140"
-  },
-  {
     "cvss": 7.0,
     "cvss_vector": "AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
     "deadline": "2026-09-17",
@@ -6634,18 +6382,6 @@
     "vendor": "TrendAI",
     "vendor_url": "https://www.trendmicro.com",
     "zdi_can": "ZDI-CAN-29793"
-  },
-  {
-    "cvss": 7.0,
-    "cvss_vector": "AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-07-24",
-    "discoverer": "Michael DePlante (@izobashi) of TrendAI Zero Day Initiative",
-    "kind": "upcoming",
-    "reported_date": "2026-03-26",
-    "status": "upcoming",
-    "vendor": "Telegram",
-    "vendor_url": null,
-    "zdi_can": "ZDI-CAN-30207"
   },
   {
     "cvss": 7.8,
@@ -8158,18 +7894,6 @@
     "vendor": "Bosch Rexroth",
     "vendor_url": "https://www.boschrexroth.com/en/us/",
     "zdi_can": "ZDI-CAN-28114"
-  },
-  {
-    "cvss": 7.5,
-    "cvss_vector": "AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
-    "deadline": "2026-04-03",
-    "discoverer": "gcali (@_gcali)",
-    "kind": "upcoming",
-    "reported_date": "2025-12-04",
-    "status": "upcoming",
-    "vendor": "QNAP",
-    "vendor_url": null,
-    "zdi_can": "ZDI-CAN-28486"
   },
   {
     "cvss": 7.8,

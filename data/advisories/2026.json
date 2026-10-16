@@ -17453,20 +17453,20 @@
       "Linux"
     ],
     "credit": "ELDEN",
-    "cve": null,
-    "cve_url": null,
+    "cve": "CVE-2026-90111",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-90111",
     "cvss": 8.8,
     "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
     "disclosure_timeline": [
       "2026-08-12 - Vulnerability reported to vendor",
       "2026-09-09 - Coordinated public release of advisory",
-      "2026-09-09 - Advisory Updated"
+      "2026-10-15 - Advisory Updated"
     ],
     "kind": "published",
-    "search_text": "published ZDI-26-623 ZDI-CAN-31770 Linux Kernel IPv6 Multicast Routing Use-After-Free Local Privilege Escalation Vulnerability 2026-09-09 8.8 AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H ['Linux'] ['Kernel'] This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of sk_buff objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the kernel. Linux has issued an update to correct this vulnerability. More details can be found at: https://github.com/torvalds/linux/commit/235b42b5860189eb8c27c36435ad932cae65a734 ['2026-08-12 - Vulnerability reported to vendor', '2026-09-09 - Coordinated public release of advisory', '2026-09-09 - Advisory Updated'] ELDEN https://www.zerodayinitiative.com/advisories/ZDI-26-623/",
+    "search_text": "published ZDI-26-623 ZDI-CAN-31770 Linux Kernel IPv6 Multicast Routing Use-After-Free Local Privilege Escalation Vulnerability 2026-09-09 CVE-2026-90111 https://www.cve.org/CVERecord?id=CVE-2026-90111 8.8 AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H ['Linux'] ['Kernel'] This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of sk_buff objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the kernel. Linux has issued an update to correct this vulnerability. More details can be found at: https://github.com/torvalds/linux/commit/235b42b5860189eb8c27c36435ad932cae65a734 ['2026-08-12 - Vulnerability reported to vendor', '2026-09-09 - Coordinated public release of advisory', '2026-10-15 - Advisory Updated'] ELDEN https://www.zerodayinitiative.com/advisories/ZDI-26-623/",
     "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-623/",
     "title": "Linux Kernel IPv6 Multicast Routing Use-After-Free Local Privilege Escalation Vulnerability",
-    "updated_date": "2026-09-09",
+    "updated_date": "2026-10-15",
     "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of sk_buff objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the kernel.",
     "zdi_can": "ZDI-CAN-31770",
     "zdi_id": "ZDI-26-623"
@@ -21194,5 +21194,621 @@
     "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Genesis World. Interaction with this library is required to exploit this vulnerability but attack vectors may vary depending on the implementation. The specific flaw exists within the processing of checkpoint files. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process.",
     "zdi_can": "ZDI-CAN-32128",
     "zdi_id": "ZDI-26-756"
+  },
+  "ZDI-26-757": {
+    "additional_details": "03/26/26 \u2013 ZDI reported the vulnerability to the vendor 03/27/26 \u2013 the vendor acknowledged the receipt of the report 03/31/26 \u2013 the vendor stated that the vulnerability was mitigated by server-side validation 04/07/26 \u2013 ZDI clarified the exploitability of the vulnerability 04/13/26 \u2013 ZDI asked for updates 04/14/26 \u2013 the vendor requested a complete RCE chain 04/14/26 \u2013 ZDI stated that requiring a full chain is inconsistent with industry standard coordinated disclosure practices and could affect active users 04/24/26 \u2013 ZDI asked whether the vulnerability would be fixed 07/30/26 \u2013 ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-10-15",
+    "affected_products": [
+      "Telegram"
+    ],
+    "affected_vendors": [
+      "Telegram"
+    ],
+    "credit": "Michael DePlante (@izobashi) of TrendAI Zero Day Initiative",
+    "cve": "CVE-2026-111105",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-111105",
+    "cvss": 7.0,
+    "cvss_vector": "AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-03-26 - Vulnerability reported to vendor",
+      "2026-10-15 - Coordinated public release of advisory",
+      "2026-10-15 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-757 ZDI-CAN-30207 (0Day) Telegram rlottie Numeric Truncation Remote Code Execution Vulnerability 2026-10-15 CVE-2026-111105 https://www.cve.org/CVERecord?id=CVE-2026-111105 7.0 AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H ['Telegram'] ['Telegram'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Telegram. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the rlottie library. The issue results from the lack of proper validation of user-supplied data, which can result in a write before the start of an allocated buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. 03/26/26 \u2013 ZDI reported the vulnerability to the vendor 03/27/26 \u2013 the vendor acknowledged the receipt of the report 03/31/26 \u2013 the vendor stated that the vulnerability was mitigated by server-side validation 04/07/26 \u2013 ZDI clarified the exploitability of the vulnerability 04/13/26 \u2013 ZDI asked for updates 04/14/26 \u2013 the vendor requested a complete RCE chain 04/14/26 \u2013 ZDI stated that requiring a full chain is inconsistent with industry standard coordinated disclosure practices and could affect active users 04/24/26 \u2013 ZDI asked whether the vulnerability would be fixed 07/30/26 \u2013 ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-03-26 - Vulnerability reported to vendor', '2026-10-15 - Coordinated public release of advisory', '2026-10-15 - Advisory Updated'] Michael DePlante (@izobashi) of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-757/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-757/",
+    "title": "(0Day) Telegram rlottie Numeric Truncation Remote Code Execution Vulnerability",
+    "updated_date": "2026-10-15",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Telegram. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the rlottie library. The issue results from the lack of proper validation of user-supplied data, which can result in a write before the start of an allocated buffer. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-30207",
+    "zdi_id": "ZDI-26-757"
+  },
+  "ZDI-26-758": {
+    "additional_details": "Docker has issued an update to correct this vulnerability. More details can be found at: https://github.com/docker/buildx/security/advisories/GHSA-gwr2-q96m-6682",
+    "advisory_date": "2026-10-15",
+    "affected_products": [
+      "Buildx"
+    ],
+    "affected_vendors": [
+      "Docker"
+    ],
+    "credit": "Jabr Al-Otaibi",
+    "cve": "CVE-2026-93325",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-93325",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-07-29 - Vulnerability reported to vendor",
+      "2026-10-15 - Coordinated public release of advisory",
+      "2026-10-15 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-758 ZDI-CAN-31688 Docker Buildx Filesystem Entitlements Protection Mechanism Failure Remote Code Execution Vulnerability 2026-10-15 CVE-2026-93325 https://www.cve.org/CVERecord?id=CVE-2026-93325 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Docker'] ['Buildx'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Docker Buildx. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the processing of bake definition files. The issue results from the failure to apply a protection mechanism. An attacker can leverage this vulnerability to execute code in the context of the current user. Docker has issued an update to correct this vulnerability. More details can be found at: https://github.com/docker/buildx/security/advisories/GHSA-gwr2-q96m-6682 ['2026-07-29 - Vulnerability reported to vendor', '2026-10-15 - Coordinated public release of advisory', '2026-10-15 - Advisory Updated'] Jabr Al-Otaibi https://www.zerodayinitiative.com/advisories/ZDI-26-758/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-758/",
+    "title": "Docker Buildx Filesystem Entitlements Protection Mechanism Failure Remote Code Execution Vulnerability",
+    "updated_date": "2026-10-15",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Docker Buildx. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the processing of bake definition files. The issue results from the failure to apply a protection mechanism. An attacker can leverage this vulnerability to execute code in the context of the current user.",
+    "zdi_can": "ZDI-CAN-31688",
+    "zdi_id": "ZDI-26-758"
+  },
+  "ZDI-26-759": {
+    "additional_details": "X.Org has issued an update to correct this vulnerability. More details can be found at: https://gitlab.freedesktop.org/xorg/xserver/-/commit/0d1b1b0bad86",
+    "advisory_date": "2026-10-15",
+    "affected_products": [
+      "Server"
+    ],
+    "affected_vendors": [
+      "X.Org"
+    ],
+    "credit": "Anonymous",
+    "cve": "CVE-2026-88812",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-88812",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-08-25 - Vulnerability reported to vendor",
+      "2026-10-15 - Coordinated public release of advisory",
+      "2026-10-15 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-759 ZDI-CAN-31221 X.Org Server XKB TextDoodad Double Free Privilege Escalation Vulnerability 2026-10-15 CVE-2026-88812 https://www.cve.org/CVERecord?id=CVE-2026-88812 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['X.Org'] ['Server'] This vulnerability allows local attackers to escalate privileges on affected installations of X.Org Server. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of SetGeometry requests. The issue results from the lack of validating the existence of an object prior to performing further free operations on the object. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root. X.Org has issued an update to correct this vulnerability. More details can be found at: https://gitlab.freedesktop.org/xorg/xserver/-/commit/0d1b1b0bad86 ['2026-08-25 - Vulnerability reported to vendor', '2026-10-15 - Coordinated public release of advisory', '2026-10-15 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-759/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-759/",
+    "title": "X.Org Server XKB TextDoodad Double Free Privilege Escalation Vulnerability",
+    "updated_date": "2026-10-15",
+    "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of X.Org Server. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of SetGeometry requests. The issue results from the lack of validating the existence of an object prior to performing further free operations on the object. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root.",
+    "zdi_can": "ZDI-CAN-31221",
+    "zdi_id": "ZDI-26-759"
+  },
+  "ZDI-26-760": {
+    "additional_details": "X.Org has issued an update to correct this vulnerability. More details can be found at: https://gitlab.freedesktop.org/xorg/xserver/-/commit/1b6955c3108e",
+    "advisory_date": "2026-10-15",
+    "affected_products": [
+      "Server"
+    ],
+    "affected_vendors": [
+      "X.Org"
+    ],
+    "credit": "Anonymous",
+    "cve": "CVE-2026-93515",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-93515",
+    "cvss": 5.5,
+    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+    "disclosure_timeline": [
+      "2026-08-25 - Vulnerability reported to vendor",
+      "2026-10-15 - Coordinated public release of advisory",
+      "2026-10-15 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-760 ZDI-CAN-31830 X.Org Server Present Extension Use-After-Free Information Disclosure Vulnerability 2026-10-15 CVE-2026-93515 https://www.cve.org/CVERecord?id=CVE-2026-93515 5.5 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N ['X.Org'] ['Server'] This vulnerability allows local attackers to disclose sensitive information on affected installations of X.Org Server. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of present_window_priv objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of root. X.Org has issued an update to correct this vulnerability. More details can be found at: https://gitlab.freedesktop.org/xorg/xserver/-/commit/1b6955c3108e ['2026-08-25 - Vulnerability reported to vendor', '2026-10-15 - Coordinated public release of advisory', '2026-10-15 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-760/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-760/",
+    "title": "X.Org Server Present Extension Use-After-Free Information Disclosure Vulnerability",
+    "updated_date": "2026-10-15",
+    "vulnerability_details": "This vulnerability allows local attackers to disclose sensitive information on affected installations of X.Org Server. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of present_window_priv objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of root.",
+    "zdi_can": "ZDI-CAN-31830",
+    "zdi_id": "ZDI-26-760"
+  },
+  "ZDI-26-761": {
+    "additional_details": "X.Org has issued an update to correct this vulnerability. More details can be found at: https://gitlab.freedesktop.org/xorg/xserver/-/commit/be5726341588",
+    "advisory_date": "2026-10-15",
+    "affected_products": [
+      "Server"
+    ],
+    "affected_vendors": [
+      "X.Org"
+    ],
+    "credit": "Anonymous",
+    "cve": "CVE-2026-93516",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-93516",
+    "cvss": 5.5,
+    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+    "disclosure_timeline": [
+      "2026-08-25 - Vulnerability reported to vendor",
+      "2026-10-15 - Coordinated public release of advisory",
+      "2026-10-15 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-761 ZDI-CAN-31832 X.Org Server XInput Passive Grab Use-After-Free Information Disclosure Vulnerability 2026-10-15 CVE-2026-93516 https://www.cve.org/CVERecord?id=CVE-2026-93516 5.5 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N ['X.Org'] ['Server'] This vulnerability allows local attackers to disclose sensitive information on affected installations of X.Org Server. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of DeviceInt objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of root. X.Org has issued an update to correct this vulnerability. More details can be found at: https://gitlab.freedesktop.org/xorg/xserver/-/commit/be5726341588 ['2026-08-25 - Vulnerability reported to vendor', '2026-10-15 - Coordinated public release of advisory', '2026-10-15 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-761/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-761/",
+    "title": "X.Org Server XInput Passive Grab Use-After-Free Information Disclosure Vulnerability",
+    "updated_date": "2026-10-15",
+    "vulnerability_details": "This vulnerability allows local attackers to disclose sensitive information on affected installations of X.Org Server. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of DeviceInt objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of root.",
+    "zdi_can": "ZDI-CAN-31832",
+    "zdi_id": "ZDI-26-761"
+  },
+  "ZDI-26-762": {
+    "additional_details": "X.Org has issued an update to correct this vulnerability. More details can be found at: https://gitlab.freedesktop.org/xorg/xserver/-/commit/2abe4632d793",
+    "advisory_date": "2026-10-15",
+    "affected_products": [
+      "Server"
+    ],
+    "affected_vendors": [
+      "X.Org"
+    ],
+    "credit": "Anonymous",
+    "cve": "CVE-2026-93517",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-93517",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-08-25 - Vulnerability reported to vendor",
+      "2026-10-15 - Coordinated public release of advisory",
+      "2026-10-15 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-762 ZDI-CAN-31833 X.Org Server GLX RenderLarge Heap-based Buffer Overflow Privilege Escalation Vulnerability 2026-10-15 CVE-2026-93517 https://www.cve.org/CVERecord?id=CVE-2026-93517 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['X.Org'] ['Server'] This vulnerability allows local attackers to escalate privileges on affected installations of X.Org Server. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the glXDisp_RenderLarge function. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root. X.Org has issued an update to correct this vulnerability. More details can be found at: https://gitlab.freedesktop.org/xorg/xserver/-/commit/2abe4632d793 ['2026-08-25 - Vulnerability reported to vendor', '2026-10-15 - Coordinated public release of advisory', '2026-10-15 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-762/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-762/",
+    "title": "X.Org Server GLX RenderLarge Heap-based Buffer Overflow Privilege Escalation Vulnerability",
+    "updated_date": "2026-10-15",
+    "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of X.Org Server. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the glXDisp_RenderLarge function. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root.",
+    "zdi_can": "ZDI-CAN-31833",
+    "zdi_id": "ZDI-26-762"
+  },
+  "ZDI-26-763": {
+    "additional_details": "X.Org has issued an update to correct this vulnerability. More details can be found at: https://gitlab.freedesktop.org/xorg/xserver/-/commit/89101a6c6618",
+    "advisory_date": "2026-10-15",
+    "affected_products": [
+      "Server"
+    ],
+    "affected_vendors": [
+      "X.Org"
+    ],
+    "credit": "Anonymous",
+    "cve": "CVE-2026-93518",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-93518",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-08-25 - Vulnerability reported to vendor",
+      "2026-10-15 - Coordinated public release of advisory",
+      "2026-10-15 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-763 ZDI-CAN-31834 X.Org Server XKB XkbResizeKeyType Numeric Truncation Privilege Escalation Vulnerability 2026-10-15 CVE-2026-93518 https://www.cve.org/CVERecord?id=CVE-2026-93518 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['X.Org'] ['Server'] This vulnerability allows local attackers to escalate privileges on affected installations of X.Org Server. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of XkbSetMap requests. The issue results from the lack of proper validation of user-supplied data, which can result in an integer truncation before allocating a buffer. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root. X.Org has issued an update to correct this vulnerability. More details can be found at: https://gitlab.freedesktop.org/xorg/xserver/-/commit/89101a6c6618 ['2026-08-25 - Vulnerability reported to vendor', '2026-10-15 - Coordinated public release of advisory', '2026-10-15 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-763/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-763/",
+    "title": "X.Org Server XKB XkbResizeKeyType Numeric Truncation Privilege Escalation Vulnerability",
+    "updated_date": "2026-10-15",
+    "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of X.Org Server. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of XkbSetMap requests. The issue results from the lack of proper validation of user-supplied data, which can result in an integer truncation before allocating a buffer. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root.",
+    "zdi_can": "ZDI-CAN-31834",
+    "zdi_id": "ZDI-26-763"
+  },
+  "ZDI-26-764": {
+    "additional_details": "X.Org has issued an update to correct this vulnerability. More details can be found at: https://gitlab.freedesktop.org/xorg/xserver/-/commit/1f42cc1f00d9",
+    "advisory_date": "2026-10-15",
+    "affected_products": [
+      "Server"
+    ],
+    "affected_vendors": [
+      "X.Org"
+    ],
+    "credit": "Anonymous",
+    "cve": "CVE-2026-93519",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-93519",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-08-25 - Vulnerability reported to vendor",
+      "2026-10-15 - Coordinated public release of advisory",
+      "2026-10-15 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-764 ZDI-CAN-31938 X.Org Server XFixes Pointer Barrier Heap-based Buffer Overflow Privilege Escalation Vulnerability 2026-10-15 CVE-2026-93519 https://www.cve.org/CVERecord?id=CVE-2026-93519 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['X.Org'] ['Server'] This vulnerability allows local attackers to escalate privileges on affected installations of X.Org Server. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the input_constrain_cursor function. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root. X.Org has issued an update to correct this vulnerability. More details can be found at: https://gitlab.freedesktop.org/xorg/xserver/-/commit/1f42cc1f00d9 ['2026-08-25 - Vulnerability reported to vendor', '2026-10-15 - Coordinated public release of advisory', '2026-10-15 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-764/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-764/",
+    "title": "X.Org Server XFixes Pointer Barrier Heap-based Buffer Overflow Privilege Escalation Vulnerability",
+    "updated_date": "2026-10-15",
+    "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of X.Org Server. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the input_constrain_cursor function. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root.",
+    "zdi_can": "ZDI-CAN-31938",
+    "zdi_id": "ZDI-26-764"
+  },
+  "ZDI-26-765": {
+    "additional_details": "X.Org has issued an update to correct this vulnerability. More details can be found at: https://gitlab.freedesktop.org/xorg/xserver/-/commit/b941a473e06f",
+    "advisory_date": "2026-10-15",
+    "affected_products": [
+      "Server"
+    ],
+    "affected_vendors": [
+      "X.Org"
+    ],
+    "credit": "Anonymous",
+    "cve": "CVE-2026-93520",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-93520",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-08-25 - Vulnerability reported to vendor",
+      "2026-10-15 - Coordinated public release of advisory",
+      "2026-10-15 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-765 ZDI-CAN-31941 X.Org Server XKB Heap-based Buffer Overflow Privilege Escalation Vulnerability 2026-10-15 CVE-2026-93520 https://www.cve.org/CVERecord?id=CVE-2026-93520 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['X.Org'] ['Server'] This vulnerability allows local attackers to escalate privileges on affected installations of X.Org Server. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the XkbChangeKeycodeRange function. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root. X.Org has issued an update to correct this vulnerability. More details can be found at: https://gitlab.freedesktop.org/xorg/xserver/-/commit/b941a473e06f ['2026-08-25 - Vulnerability reported to vendor', '2026-10-15 - Coordinated public release of advisory', '2026-10-15 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-765/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-765/",
+    "title": "X.Org Server XKB Heap-based Buffer Overflow Privilege Escalation Vulnerability",
+    "updated_date": "2026-10-15",
+    "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of X.Org Server. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the XkbChangeKeycodeRange function. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root.",
+    "zdi_can": "ZDI-CAN-31941",
+    "zdi_id": "ZDI-26-765"
+  },
+  "ZDI-26-766": {
+    "additional_details": "X.Org has issued an update to correct this vulnerability. More details can be found at: https://gitlab.freedesktop.org/xorg/xserver/-/commit/5dc9efd5a199",
+    "advisory_date": "2026-10-15",
+    "affected_products": [
+      "Server"
+    ],
+    "affected_vendors": [
+      "X.Org"
+    ],
+    "credit": "Anonymous",
+    "cve": "CVE-2026-93521",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-93521",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-08-25 - Vulnerability reported to vendor",
+      "2026-10-15 - Coordinated public release of advisory",
+      "2026-10-15 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-766 ZDI-CAN-31944 X.Org Server RandR Heap-based Buffer Overflow Privilege Escalation Vulnerability 2026-10-15 CVE-2026-93521 https://www.cve.org/CVERecord?id=CVE-2026-93521 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['X.Org'] ['Server'] This vulnerability allows local attackers to escalate privileges on affected installations of X.Org Server. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the RRChangeProviderProperty function. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root. X.Org has issued an update to correct this vulnerability. More details can be found at: https://gitlab.freedesktop.org/xorg/xserver/-/commit/5dc9efd5a199 ['2026-08-25 - Vulnerability reported to vendor', '2026-10-15 - Coordinated public release of advisory', '2026-10-15 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-766/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-766/",
+    "title": "X.Org Server RandR Heap-based Buffer Overflow Privilege Escalation Vulnerability",
+    "updated_date": "2026-10-15",
+    "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of X.Org Server. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the RRChangeProviderProperty function. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root.",
+    "zdi_can": "ZDI-CAN-31944",
+    "zdi_id": "ZDI-26-766"
+  },
+  "ZDI-26-767": {
+    "additional_details": "X.Org has issued an update to correct this vulnerability. More details can be found at: https://gitlab.freedesktop.org/xorg/xserver/-/commit/ad26c26bf795",
+    "advisory_date": "2026-10-15",
+    "affected_products": [
+      "Server"
+    ],
+    "affected_vendors": [
+      "X.Org"
+    ],
+    "credit": "Anonymous",
+    "cve": "CVE-2026-93522",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-93522",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-08-25 - Vulnerability reported to vendor",
+      "2026-10-15 - Coordinated public release of advisory",
+      "2026-10-15 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-767 ZDI-CAN-32361 X.Org Server Glamor CopyArea Heap-based Buffer Overflow Privilege Escalation Vulnerability 2026-10-15 CVE-2026-93522 https://www.cve.org/CVERecord?id=CVE-2026-93522 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['X.Org'] ['Server'] This vulnerability allows local attackers to escalate privileges on affected installations of X.Org Server. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the glamor_upload_boxes function. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root. X.Org has issued an update to correct this vulnerability. More details can be found at: https://gitlab.freedesktop.org/xorg/xserver/-/commit/ad26c26bf795 ['2026-08-25 - Vulnerability reported to vendor', '2026-10-15 - Coordinated public release of advisory', '2026-10-15 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-767/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-767/",
+    "title": "X.Org Server Glamor CopyArea Heap-based Buffer Overflow Privilege Escalation Vulnerability",
+    "updated_date": "2026-10-15",
+    "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of X.Org Server. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the glamor_upload_boxes function. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root.",
+    "zdi_can": "ZDI-CAN-32361",
+    "zdi_id": "ZDI-26-767"
+  },
+  "ZDI-26-768": {
+    "additional_details": "X.Org has issued an update to correct this vulnerability. More details can be found at: https://gitlab.freedesktop.org/xorg/xserver/-/commit/37a1847a60c6",
+    "advisory_date": "2026-10-15",
+    "affected_products": [
+      "Server"
+    ],
+    "affected_vendors": [
+      "X.Org"
+    ],
+    "credit": "Anonymous",
+    "cve": "CVE-2026-93523",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-93523",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-08-25 - Vulnerability reported to vendor",
+      "2026-10-15 - Coordinated public release of advisory",
+      "2026-10-15 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-768 ZDI-CAN-32366 X.Org Server XInput ProcXIPassiveUngrabDevice Heap-based Buffer Overflow Privilege Escalation Vulnerability 2026-10-15 CVE-2026-93523 https://www.cve.org/CVERecord?id=CVE-2026-93523 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['X.Org'] ['Server'] This vulnerability allows local attackers to escalate privileges on affected installations of X.Org Server. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of modifier fields. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root. X.Org has issued an update to correct this vulnerability. More details can be found at: https://gitlab.freedesktop.org/xorg/xserver/-/commit/37a1847a60c6 ['2026-08-25 - Vulnerability reported to vendor', '2026-10-15 - Coordinated public release of advisory', '2026-10-15 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-768/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-768/",
+    "title": "X.Org Server XInput ProcXIPassiveUngrabDevice Heap-based Buffer Overflow Privilege Escalation Vulnerability",
+    "updated_date": "2026-10-15",
+    "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of X.Org Server. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of modifier fields. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root.",
+    "zdi_can": "ZDI-CAN-32366",
+    "zdi_id": "ZDI-26-768"
+  },
+  "ZDI-26-769": {
+    "additional_details": "X.Org has issued an update to correct this vulnerability. More details can be found at: https://gitlab.freedesktop.org/xorg/xserver/-/commit/cea71d0273e4",
+    "advisory_date": "2026-10-15",
+    "affected_products": [
+      "Server"
+    ],
+    "affected_vendors": [
+      "X.Org"
+    ],
+    "credit": "WONJOON HWANG (@joon1337)",
+    "cve": "CVE-2026-93524",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-93524",
+    "cvss": 6.1,
+    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:L",
+    "disclosure_timeline": [
+      "2026-09-02 - Vulnerability reported to vendor",
+      "2026-10-15 - Coordinated public release of advisory",
+      "2026-10-15 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-769 ZDI-CAN-32408 X.Org Server XKB XkbSetMap Request Out-Of-Bounds Read Information Disclosure Vulnerability 2026-10-15 CVE-2026-93524 https://www.cve.org/CVERecord?id=CVE-2026-93524 6.1 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:L ['X.Org'] ['Server'] This vulnerability allows local attackers to disclose sensitive information on affected installations of X.Org Server. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of XkbSetMap requests. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated data structure. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of root. X.Org has issued an update to correct this vulnerability. More details can be found at: https://gitlab.freedesktop.org/xorg/xserver/-/commit/cea71d0273e4 ['2026-09-02 - Vulnerability reported to vendor', '2026-10-15 - Coordinated public release of advisory', '2026-10-15 - Advisory Updated'] WONJOON HWANG (@joon1337) https://www.zerodayinitiative.com/advisories/ZDI-26-769/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-769/",
+    "title": "X.Org Server XKB XkbSetMap Request Out-Of-Bounds Read Information Disclosure Vulnerability",
+    "updated_date": "2026-10-15",
+    "vulnerability_details": "This vulnerability allows local attackers to disclose sensitive information on affected installations of X.Org Server. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of XkbSetMap requests. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated data structure. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of root.",
+    "zdi_can": "ZDI-CAN-32408",
+    "zdi_id": "ZDI-26-769"
+  },
+  "ZDI-26-770": {
+    "additional_details": "SonicWall has issued an update to correct this vulnerability. More details can be found at: https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2026-0017",
+    "advisory_date": "2026-10-15",
+    "affected_products": [
+      "Secure Mobile Access"
+    ],
+    "affected_vendors": [
+      "SonicWall"
+    ],
+    "credit": "Brian Mariani - DigitalCanion SA",
+    "cve": "CVE-2026-102257",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-102257",
+    "cvss": 7.2,
+    "cvss_vector": "AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-07-21 - Vulnerability reported to vendor",
+      "2026-10-15 - Coordinated public release of advisory",
+      "2026-10-15 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-770 ZDI-CAN-28924 SonicWall Secure Mobile Access unzip Directory Traversal Remote Code Execution Vulnerability 2026-10-15 CVE-2026-102257 https://www.cve.org/CVERecord?id=CVE-2026-102257 7.2 AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H ['SonicWall'] ['Secure Mobile Access'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of SonicWall Secure Mobile Access. Authentication is required to exploit this vulnerability. The specific flaw exists within the implementation of the unzip method. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute code in the context of root. SonicWall has issued an update to correct this vulnerability. More details can be found at: https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2026-0017 ['2026-07-21 - Vulnerability reported to vendor', '2026-10-15 - Coordinated public release of advisory', '2026-10-15 - Advisory Updated'] Brian Mariani - DigitalCanion SA https://www.zerodayinitiative.com/advisories/ZDI-26-770/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-770/",
+    "title": "SonicWall Secure Mobile Access unzip Directory Traversal Remote Code Execution Vulnerability",
+    "updated_date": "2026-10-15",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of SonicWall Secure Mobile Access. Authentication is required to exploit this vulnerability. The specific flaw exists within the implementation of the unzip method. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute code in the context of root.",
+    "zdi_can": "ZDI-CAN-28924",
+    "zdi_id": "ZDI-26-770"
+  },
+  "ZDI-26-771": {
+    "additional_details": "Fortinet has issued an update to correct this vulnerability. More details can be found at: https://fortiguard.fortinet.com/psirt/FG-IR-26-185",
+    "advisory_date": "2026-10-15",
+    "affected_products": [
+      "FortiSandbox"
+    ],
+    "affected_vendors": [
+      "Fortinet"
+    ],
+    "credit": "Jason McFadyen of TrendAI Research",
+    "cve": "CVE-2026-107656",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-107656",
+    "cvss": 7.3,
+    "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+    "disclosure_timeline": [
+      "2026-06-19 - Vulnerability reported to vendor",
+      "2026-10-15 - Coordinated public release of advisory",
+      "2026-10-15 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-771 ZDI-CAN-31870 Fortinet FortiSandbox login_user_profile Hard-Coded Credentials Authentication Bypass Vulnerability 2026-10-15 CVE-2026-107656 https://www.cve.org/CVERecord?id=CVE-2026-107656 7.3 AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L ['Fortinet'] ['FortiSandbox'] This vulnerability allows remote attackers to bypass authentication on affected installations of Fortinet FortiSandbox. Authentication is not required to exploit this vulnerability. The specific flaw exists within the authentication mechanism. The issue results from the use of hard-coded credentials. An attacker can leverage this vulnerability to bypass authentication on the system. Fortinet has issued an update to correct this vulnerability. More details can be found at: https://fortiguard.fortinet.com/psirt/FG-IR-26-185 ['2026-06-19 - Vulnerability reported to vendor', '2026-10-15 - Coordinated public release of advisory', '2026-10-15 - Advisory Updated'] Jason McFadyen of TrendAI Research https://www.zerodayinitiative.com/advisories/ZDI-26-771/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-771/",
+    "title": "Fortinet FortiSandbox login_user_profile Hard-Coded Credentials Authentication Bypass Vulnerability",
+    "updated_date": "2026-10-15",
+    "vulnerability_details": "This vulnerability allows remote attackers to bypass authentication on affected installations of Fortinet FortiSandbox. Authentication is not required to exploit this vulnerability. The specific flaw exists within the authentication mechanism. The issue results from the use of hard-coded credentials. An attacker can leverage this vulnerability to bypass authentication on the system.",
+    "zdi_can": "ZDI-CAN-31870",
+    "zdi_id": "ZDI-26-771"
+  },
+  "ZDI-26-772": {
+    "additional_details": "Fortinet has issued an update to correct this vulnerability. More details can be found at: https://fortiguard.fortinet.com/psirt/FG-IR-26-176",
+    "advisory_date": "2026-10-15",
+    "affected_products": [
+      "FortiSandbox"
+    ],
+    "affected_vendors": [
+      "Fortinet"
+    ],
+    "credit": "Jason McFadyen of TrendAI Research",
+    "cve": "CVE-2026-106170",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-106170",
+    "cvss": 4.9,
+    "cvss_vector": "AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H",
+    "disclosure_timeline": [
+      "2026-06-19 - Vulnerability reported to vendor",
+      "2026-10-15 - Coordinated public release of advisory",
+      "2026-10-15 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-772 ZDI-CAN-31871 Fortinet FortiSandbox Admin Profile Improper Handling of Exceptional Conditions Denial-of-Service Vulnerability 2026-10-15 CVE-2026-106170 https://www.cve.org/CVERecord?id=CVE-2026-106170 4.9 AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H ['Fortinet'] ['FortiSandbox'] This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of Fortinet FortiSandbox. Authentication is required to exploit this vulnerability. The specific flaw exists within the handling of the users field. The issue results from the lack of proper handling of error conditions. An attacker can leverage this vulnerability to create a denial-of-service condition on the system. Fortinet has issued an update to correct this vulnerability. More details can be found at: https://fortiguard.fortinet.com/psirt/FG-IR-26-176 ['2026-06-19 - Vulnerability reported to vendor', '2026-10-15 - Coordinated public release of advisory', '2026-10-15 - Advisory Updated'] Jason McFadyen of TrendAI Research https://www.zerodayinitiative.com/advisories/ZDI-26-772/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-772/",
+    "title": "Fortinet FortiSandbox Admin Profile Improper Handling of Exceptional Conditions Denial-of-Service Vulnerability",
+    "updated_date": "2026-10-15",
+    "vulnerability_details": "This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of Fortinet FortiSandbox. Authentication is required to exploit this vulnerability. The specific flaw exists within the handling of the users field. The issue results from the lack of proper handling of error conditions. An attacker can leverage this vulnerability to create a denial-of-service condition on the system.",
+    "zdi_can": "ZDI-CAN-31871",
+    "zdi_id": "ZDI-26-772"
+  },
+  "ZDI-26-773": {
+    "additional_details": "Fixed in in v10, v9 and v8 https://kb.nomachine.com/TR08X11946",
+    "advisory_date": "2026-10-15",
+    "affected_products": [
+      "NoMachine"
+    ],
+    "affected_vendors": [
+      "NoMachine"
+    ],
+    "credit": "Anonymous",
+    "cve": "CVE-2026-111184",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-111184",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-08-07 - Vulnerability reported to vendor",
+      "2026-10-15 - Coordinated public release of advisory",
+      "2026-10-15 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-773 ZDI-CAN-31213 NoMachine Named Pipe Incorrect Permission Assignment Local Privilege Escalation Vulnerability 2026-10-15 CVE-2026-111184 https://www.cve.org/CVERecord?id=CVE-2026-111184 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['NoMachine'] ['NoMachine'] This vulnerability allows local attackers to escalate privileges on affected installations of NoMachine. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the NoMachine Device Service. The issue results from incorrect permissions on a named pipe. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. Fixed in in v10, v9 and v8 https://kb.nomachine.com/TR08X11946 ['2026-08-07 - Vulnerability reported to vendor', '2026-10-15 - Coordinated public release of advisory', '2026-10-15 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-773/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-773/",
+    "title": "NoMachine Named Pipe Incorrect Permission Assignment Local Privilege Escalation Vulnerability",
+    "updated_date": "2026-10-15",
+    "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of NoMachine. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the NoMachine Device Service. The issue results from incorrect permissions on a named pipe. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+    "zdi_can": "ZDI-CAN-31213",
+    "zdi_id": "ZDI-26-773"
+  },
+  "ZDI-26-774": {
+    "additional_details": "Fixed in in v10, v9 and v8 https://kb.nomachine.com/TR08X11947",
+    "advisory_date": "2026-10-15",
+    "affected_products": [
+      "NoMachine"
+    ],
+    "affected_vendors": [
+      "NoMachine"
+    ],
+    "credit": "khongtrang",
+    "cve": "CVE-2026-111185",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-111185",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-07-29 - Vulnerability reported to vendor",
+      "2026-10-15 - Coordinated public release of advisory",
+      "2026-10-15 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-774 ZDI-CAN-30646 NoMachine Uncontrolled Search Path Element Local Privilege Escalation Vulnerability 2026-10-15 CVE-2026-111185 https://www.cve.org/CVERecord?id=CVE-2026-111185 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['NoMachine'] ['NoMachine'] This vulnerability allows local attackers to escalate privileges on affected installations of NoMachine. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the NoMachine Device Server. The product loads a library from an unsecured location. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the service account. Fixed in in v10, v9 and v8 https://kb.nomachine.com/TR08X11947 ['2026-07-29 - Vulnerability reported to vendor', '2026-10-15 - Coordinated public release of advisory', '2026-10-15 - Advisory Updated'] khongtrang https://www.zerodayinitiative.com/advisories/ZDI-26-774/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-774/",
+    "title": "NoMachine Uncontrolled Search Path Element Local Privilege Escalation Vulnerability",
+    "updated_date": "2026-10-15",
+    "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of NoMachine. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the NoMachine Device Server. The product loads a library from an unsecured location. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the service account.",
+    "zdi_can": "ZDI-CAN-30646",
+    "zdi_id": "ZDI-26-774"
+  },
+  "ZDI-26-775": {
+    "additional_details": "GStreamer has issued an update to correct this vulnerability. More details can be found at: https://gitlab.freedesktop.org/gstreamer/gstreamer/-/commit/80c184b4c5ee8ba28b2540ba58f40b8d44b61622",
+    "advisory_date": "2026-10-15",
+    "affected_products": [
+      "GStreamer"
+    ],
+    "affected_vendors": [
+      "GStreamer"
+    ],
+    "credit": "Anonymous",
+    "cve": "CVE-2026-111183",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-111183",
+    "cvss": 9.8,
+    "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-08-20 - Vulnerability reported to vendor",
+      "2026-10-15 - Coordinated public release of advisory",
+      "2026-10-15 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-775 ZDI-CAN-31143 GStreamer rtpL16depay Heap-based Buffer Overflow Remote Code Execution Vulnerability 2026-10-15 CVE-2026-111183 https://www.cve.org/CVERecord?id=CVE-2026-111183 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['GStreamer'] ['GStreamer'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of GStreamer. Interaction with this library is required to exploit this vulnerability but attack vectors may vary depending on the implementation. The specific flaw exists within the processing of RTP payload elements. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. GStreamer has issued an update to correct this vulnerability. More details can be found at: https://gitlab.freedesktop.org/gstreamer/gstreamer/-/commit/80c184b4c5ee8ba28b2540ba58f40b8d44b61622 ['2026-08-20 - Vulnerability reported to vendor', '2026-10-15 - Coordinated public release of advisory', '2026-10-15 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-775/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-775/",
+    "title": "GStreamer rtpL16depay Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+    "updated_date": "2026-10-15",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of GStreamer. Interaction with this library is required to exploit this vulnerability but attack vectors may vary depending on the implementation. The specific flaw exists within the processing of RTP payload elements. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-31143",
+    "zdi_id": "ZDI-26-775"
+  },
+  "ZDI-26-776": {
+    "additional_details": "Fixed in: QTS 5.2.8.3350 build 20251216 QuTS hero h5.2.8.3350 build 20251216 QuTS hero h5.3.2.3354 build 20251225 QuTS hero h6.0.0.3397 build 20260206",
+    "advisory_date": "2026-10-15",
+    "affected_products": [
+      "TS-453E"
+    ],
+    "affected_vendors": [
+      "QNAP"
+    ],
+    "credit": "gcali (@_gcali)",
+    "cve": "CVE-2018-10388",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2018-10388",
+    "cvss": 7.5,
+    "cvss_vector": "AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2025-12-04 - Vulnerability reported to vendor",
+      "2026-10-15 - Coordinated public release of advisory",
+      "2026-10-15 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-776 ZDI-CAN-28486 QNAP TS-453E syslog log_message Format String Remote Code Execution Vulnerability 2026-10-15 CVE-2018-10388 https://www.cve.org/CVERecord?id=CVE-2018-10388 7.5 AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H ['QNAP'] ['TS-453E'] This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of QNAP TS-453E devices. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of the log_message parameter provided to syslog. The issue results from the lack of proper validation of a user-supplied string before using it as a format specifier. An attacker can leverage this vulnerability to execute code in the context of the TFTP server. Fixed in: QTS 5.2.8.3350 build 20251216 QuTS hero h5.2.8.3350 build 20251216 QuTS hero h5.3.2.3354 build 20251225 QuTS hero h6.0.0.3397 build 20260206 ['2025-12-04 - Vulnerability reported to vendor', '2026-10-15 - Coordinated public release of advisory', '2026-10-15 - Advisory Updated'] gcali (@_gcali) https://www.zerodayinitiative.com/advisories/ZDI-26-776/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-776/",
+    "title": "QNAP TS-453E syslog log_message Format String Remote Code Execution Vulnerability",
+    "updated_date": "2026-10-15",
+    "vulnerability_details": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of QNAP TS-453E devices. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of the log_message parameter provided to syslog. The issue results from the lack of proper validation of a user-supplied string before using it as a format specifier. An attacker can leverage this vulnerability to execute code in the context of the TFTP server.",
+    "zdi_can": "ZDI-CAN-28486",
+    "zdi_id": "ZDI-26-776"
+  },
+  "ZDI-26-777": {
+    "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: https://www.adobe.com/trust/security/products/photoshop/apsb26-158.html",
+    "advisory_date": "2026-10-15",
+    "affected_products": [
+      "Photoshop"
+    ],
+    "affected_vendors": [
+      "Adobe"
+    ],
+    "credit": "Brandon Evans of TrendAI Zero Day Initiative",
+    "cve": "CVE-2026-83661",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-83661",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-05-20 - Vulnerability reported to vendor",
+      "2026-10-15 - Coordinated public release of advisory",
+      "2026-10-15 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-777 ZDI-CAN-31140 Adobe Photoshop AdobePDFL PDF JPEG Parsing Integer Overflow Remote Code Execution Vulnerability 2026-10-15 CVE-2026-83661 https://www.cve.org/CVERecord?id=CVE-2026-83661 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Adobe'] ['Photoshop'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Adobe Photoshop. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of JPEG image data within PDF files. The issue results from the lack of proper validation of user-supplied data, which can result in an integer overflow before allocating a buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. Adobe has issued an update to correct this vulnerability. More details can be found at: https://www.adobe.com/trust/security/products/photoshop/apsb26-158.html ['2026-05-20 - Vulnerability reported to vendor', '2026-10-15 - Coordinated public release of advisory', '2026-10-15 - Advisory Updated'] Brandon Evans of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-777/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-777/",
+    "title": "Adobe Photoshop AdobePDFL PDF JPEG Parsing Integer Overflow Remote Code Execution Vulnerability",
+    "updated_date": "2026-10-15",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Adobe Photoshop. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of JPEG image data within PDF files. The issue results from the lack of proper validation of user-supplied data, which can result in an integer overflow before allocating a buffer. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-31140",
+    "zdi_id": "ZDI-26-777"
+  },
+  "ZDI-26-778": {
+    "additional_details": "Adobe has issued an update to correct this vulnerability. More details can be found at: https://www.adobe.com/trust/security/products/photoshop/apsb26-158.html",
+    "advisory_date": "2026-10-15",
+    "affected_products": [
+      "Photoshop"
+    ],
+    "affected_vendors": [
+      "Adobe"
+    ],
+    "credit": "Brandon Evans of TrendAI Zero Day Initiative",
+    "cve": "CVE-2026-95636",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-95636",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-08-07 - Vulnerability reported to vendor",
+      "2026-10-15 - Coordinated public release of advisory",
+      "2026-10-15 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-778 ZDI-CAN-32599 Adobe Photoshop DCM Pixel Data Parsing Integer Overflow Remote Code Execution Vulnerability 2026-10-15 CVE-2026-95636 https://www.cve.org/CVERecord?id=CVE-2026-95636 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Adobe'] ['Photoshop'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Adobe Photoshop. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of DICOM image data. The issue results from the lack of proper validation of user-supplied data, which can result in an integer overflow before allocating a buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. Adobe has issued an update to correct this vulnerability. More details can be found at: https://www.adobe.com/trust/security/products/photoshop/apsb26-158.html ['2026-08-07 - Vulnerability reported to vendor', '2026-10-15 - Coordinated public release of advisory', '2026-10-15 - Advisory Updated'] Brandon Evans of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-778/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-778/",
+    "title": "Adobe Photoshop DCM Pixel Data Parsing Integer Overflow Remote Code Execution Vulnerability",
+    "updated_date": "2026-10-15",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Adobe Photoshop. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of DICOM image data. The issue results from the lack of proper validation of user-supplied data, which can result in an integer overflow before allocating a buffer. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-32599",
+    "zdi_id": "ZDI-26-778"
   }
 }
