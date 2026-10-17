@@ -1296,18 +1296,6 @@
     "zdi_can": "ZDI-CAN-32869"
   },
   {
-    "cvss": 3.1,
-    "cvss_vector": "AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:N",
-    "deadline": "2027-01-01",
-    "discoverer": "Len Sadowski (lytnc) and O\u011fuz Bekta\u015f (_ozb_)",
-    "kind": "upcoming",
-    "reported_date": "2026-09-03",
-    "status": "upcoming",
-    "vendor": "Microsoft",
-    "vendor_url": "https://www.microsoft.com",
-    "zdi_can": "ZDI-CAN-32574"
-  },
-  {
     "cvss": 3.3,
     "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
     "deadline": "2027-01-01",
@@ -1522,18 +1510,6 @@
     "vendor": "Linux",
     "vendor_url": "https://www.linux.org/",
     "zdi_can": "ZDI-CAN-32436"
-  },
-  {
-    "cvss": 4.4,
-    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:L",
-    "deadline": "2026-12-31",
-    "discoverer": "4nibhal",
-    "kind": "upcoming",
-    "reported_date": "2026-09-02",
-    "status": "upcoming",
-    "vendor": "X.Org",
-    "vendor_url": "https://www.x.org/",
-    "zdi_can": "ZDI-CAN-32753"
   },
   {
     "cvss": 7.8,
@@ -1863,18 +1839,6 @@
     "cvss": 7.8,
     "cvss_vector": "AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
     "deadline": "2026-12-23",
-    "discoverer": "GangMin Kim",
-    "kind": "upcoming",
-    "reported_date": "2026-08-25",
-    "status": "upcoming",
-    "vendor": "Linux",
-    "vendor_url": "https://www.linux.org/",
-    "zdi_can": "ZDI-CAN-32174"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
-    "deadline": "2026-12-23",
     "discoverer": "Nico Yip (@_cyeaa_)",
     "kind": "upcoming",
     "reported_date": "2026-08-25",
@@ -2112,18 +2076,6 @@
     "zdi_can": "ZDI-CAN-28537"
   },
   {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
-    "deadline": "2026-12-18",
-    "discoverer": "tsune of GMO Cybersecurity by Ierae, Inc.",
-    "kind": "upcoming",
-    "reported_date": "2026-08-20",
-    "status": "upcoming",
-    "vendor": "FreeBSD",
-    "vendor_url": "https://www.freebsd.org/",
-    "zdi_can": "ZDI-CAN-32356"
-  },
-  {
     "cvss": 3.8,
     "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:C/C:L/I:N/A:N",
     "deadline": "2026-12-18",
@@ -2182,18 +2134,6 @@
     "vendor": "SmarterTools",
     "vendor_url": "https://www.smartertools.com/",
     "zdi_can": "ZDI-CAN-33568"
-  },
-  {
-    "cvss": 8.8,
-    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
-    "deadline": "2026-12-18",
-    "discoverer": "tsune of GMO Cybersecurity by Ierae, Inc.",
-    "kind": "upcoming",
-    "reported_date": "2026-08-20",
-    "status": "upcoming",
-    "vendor": "FreeBSD",
-    "vendor_url": "https://www.freebsd.org/",
-    "zdi_can": "ZDI-CAN-31968"
   },
   {
     "cvss": 7.5,
@@ -2484,18 +2424,6 @@
     "zdi_can": "ZDI-CAN-32302"
   },
   {
-    "cvss": 7.2,
-    "cvss_vector": "AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
-    "deadline": "2026-12-09",
-    "discoverer": "Yazhi Wang of TrendAI Research",
-    "kind": "upcoming",
-    "reported_date": "2026-08-11",
-    "status": "upcoming",
-    "vendor": "Microsoft",
-    "vendor_url": "https://www.microsoft.com",
-    "zdi_can": "ZDI-CAN-33217"
-  },
-  {
     "cvss": 9.8,
     "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
     "deadline": "2026-12-05",
@@ -2662,18 +2590,6 @@
     "vendor": "libhevc",
     "vendor_url": "https://github.com/ittiam-systems/libhevc",
     "zdi_can": "ZDI-CAN-33215"
-  },
-  {
-    "cvss": 5.5,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
-    "deadline": "2026-12-03",
-    "discoverer": "Hlib Yavorskyi",
-    "kind": "upcoming",
-    "reported_date": "2026-08-05",
-    "status": "upcoming",
-    "vendor": "Sparx Systems",
-    "vendor_url": "https://sparxsystems.com/",
-    "zdi_can": "ZDI-CAN-32287"
   },
   {
     "cvss": 8.8,
@@ -3825,18 +3741,6 @@
     "status": "upcoming",
     "vendor": "LibreOffice",
     "vendor_url": "https://www.libreoffice.org/about-us/security/",
-    "zdi_can": "ZDI-CAN-31095"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-11-06",
-    "discoverer": "Anonymous",
-    "kind": "upcoming",
-    "reported_date": "2026-07-09",
-    "status": "upcoming",
-    "vendor": "LibreOffice",
-    "vendor_url": "https://www.libreoffice.org/about-us/security/",
     "zdi_can": "ZDI-CAN-31096"
   },
   {
@@ -3886,18 +3790,6 @@
     "vendor": "Linux",
     "vendor_url": "https://www.linux.org/",
     "zdi_can": "ZDI-CAN-31739"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-10-31",
-    "discoverer": "Anonymous",
-    "kind": "upcoming",
-    "reported_date": "2026-07-03",
-    "status": "upcoming",
-    "vendor": "LibreOffice",
-    "vendor_url": "https://www.libreoffice.org/about-us/security/",
-    "zdi_can": "ZDI-CAN-31075"
   },
   {
     "cvss": 7.8,
@@ -5616,18 +5508,6 @@
     "zdi_can": "ZDI-CAN-28239"
   },
   {
-    "cvss": 4.3,
-    "cvss_vector": "AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
-    "deadline": "2026-09-08",
-    "discoverer": "Yazhi Wang of TrendAI Research",
-    "kind": "upcoming",
-    "reported_date": "2026-05-11",
-    "status": "upcoming",
-    "vendor": "Microsoft",
-    "vendor_url": "https://www.microsoft.com",
-    "zdi_can": "ZDI-CAN-31251"
-  },
-  {
     "cvss": 7.8,
     "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
     "deadline": "2026-09-05",
@@ -5794,18 +5674,6 @@
     "vendor": "Quest",
     "vendor_url": null,
     "zdi_can": "ZDI-CAN-28743"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-08-21",
-    "discoverer": "truff",
-    "kind": "upcoming",
-    "reported_date": "2026-04-23",
-    "status": "upcoming",
-    "vendor": "LibreOffice",
-    "vendor_url": "https://www.libreoffice.org/about-us/security/",
-    "zdi_can": "ZDI-CAN-29452"
   },
   {
     "cvss": 3.3,

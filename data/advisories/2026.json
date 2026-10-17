@@ -21810,5 +21810,201 @@
     "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Adobe Photoshop. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of DICOM image data. The issue results from the lack of proper validation of user-supplied data, which can result in an integer overflow before allocating a buffer. An attacker can leverage this vulnerability to execute code in the context of the current process.",
     "zdi_can": "ZDI-CAN-32599",
     "zdi_id": "ZDI-26-778"
+  },
+  "ZDI-26-779": {
+    "additional_details": "07/24/26 - ZDI attempted to report the vulnerability to the vendor via their bug report webform 07/29/26 - ZDI emailed the vendor directly requesting a secure contact for the report 08/06/26 - ZDI reported the case to CERT.PL\u2019s coordinated disclosure program after receiving no vendor response 10/06/26 - CERT.PL verified the reported issue and assigned a CVE 10/15/26 - ZDI and CERT.PL coordinated the publication of the zero-day advisory https://cert.pl/en/posts/2026/10/CVE-2026-88794/ -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-10-16",
+    "affected_products": [
+      "Enterprise Architect"
+    ],
+    "affected_vendors": [
+      "Sparx Systems"
+    ],
+    "credit": "Hlib Yavorskyi",
+    "cve": "CVE-2026-88794",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-88794",
+    "cvss": 5.5,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+    "disclosure_timeline": [
+      "2026-08-05 - Vulnerability reported to vendor",
+      "2026-10-16 - Coordinated public release of advisory",
+      "2026-10-16 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-779 ZDI-CAN-32287 (0Day) Sparx Systems Enterprise Architect XSLT Debugger XML External Entity Processing Information Disclosure Vulnerability 2026-10-16 CVE-2026-88794 https://www.cve.org/CVERecord?id=CVE-2026-88794 5.5 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N ['Sparx Systems'] ['Enterprise Architect'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Sparx Systems Enterprise Architect. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the XSLT Debugger. Due to the improper restriction of XML External Entity (XXE) references, a crafted document specifying a URI causes the XML parser to access the URI and embed the contents back into the XML document for further processing. An attacker can leverage this vulnerability to disclose information in the context of the current process. 07/24/26 - ZDI attempted to report the vulnerability to the vendor via their bug report webform 07/29/26 - ZDI emailed the vendor directly requesting a secure contact for the report 08/06/26 - ZDI reported the case to CERT.PL\u2019s coordinated disclosure program after receiving no vendor response 10/06/26 - CERT.PL verified the reported issue and assigned a CVE 10/15/26 - ZDI and CERT.PL coordinated the publication of the zero-day advisory https://cert.pl/en/posts/2026/10/CVE-2026-88794/ -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-08-05 - Vulnerability reported to vendor', '2026-10-16 - Coordinated public release of advisory', '2026-10-16 - Advisory Updated'] Hlib Yavorskyi https://www.zerodayinitiative.com/advisories/ZDI-26-779/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-779/",
+    "title": "(0Day) Sparx Systems Enterprise Architect XSLT Debugger XML External Entity Processing Information Disclosure Vulnerability",
+    "updated_date": "2026-10-16",
+    "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Sparx Systems Enterprise Architect. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the XSLT Debugger. Due to the improper restriction of XML External Entity (XXE) references, a crafted document specifying a URI causes the XML parser to access the URI and embed the contents back into the XML document for further processing. An attacker can leverage this vulnerability to disclose information in the context of the current process.",
+    "zdi_can": "ZDI-CAN-32287",
+    "zdi_id": "ZDI-26-779"
+  },
+  "ZDI-26-780": {
+    "additional_details": "X.Org has issued an update to correct this vulnerability. More details can be found at: https://gitlab.freedesktop.org/xorg/xserver/-/commit/efcfd8acc754",
+    "advisory_date": "2026-10-16",
+    "affected_products": [
+      "Server"
+    ],
+    "affected_vendors": [
+      "X.Org"
+    ],
+    "credit": "4nibhal",
+    "cve": "CVE-2026-93536",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-93536",
+    "cvss": 4.4,
+    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:L",
+    "disclosure_timeline": [
+      "2026-09-02 - Vulnerability reported to vendor",
+      "2026-10-16 - Coordinated public release of advisory",
+      "2026-10-16 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-780 ZDI-CAN-32753 X.Org Server GestureBuildSprite Use-After-Free Information Disclosure Vulnerability 2026-10-16 CVE-2026-93536 https://www.cve.org/CVERecord?id=CVE-2026-93536 4.4 AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:L ['X.Org'] ['Server'] This vulnerability allows local attackers to disclose sensitive information on affected installations of X.Org Server. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of Window objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of root. X.Org has issued an update to correct this vulnerability. More details can be found at: https://gitlab.freedesktop.org/xorg/xserver/-/commit/efcfd8acc754 ['2026-09-02 - Vulnerability reported to vendor', '2026-10-16 - Coordinated public release of advisory', '2026-10-16 - Advisory Updated'] 4nibhal https://www.zerodayinitiative.com/advisories/ZDI-26-780/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-780/",
+    "title": "X.Org Server GestureBuildSprite Use-After-Free Information Disclosure Vulnerability",
+    "updated_date": "2026-10-16",
+    "vulnerability_details": "This vulnerability allows local attackers to disclose sensitive information on affected installations of X.Org Server. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of Window objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of root.",
+    "zdi_can": "ZDI-CAN-32753",
+    "zdi_id": "ZDI-26-780"
+  },
+  "ZDI-26-781": {
+    "additional_details": "LibreOffice has issued an update to correct this vulnerability. More details can be found at: https://www.libreoffice.org/security/#cve-2026-6045",
+    "advisory_date": "2026-10-16",
+    "affected_products": [
+      "LibreOffice"
+    ],
+    "affected_vendors": [
+      "LibreOffice"
+    ],
+    "credit": "truff",
+    "cve": "CVE-2026-6045",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-6045",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-04-23 - Vulnerability reported to vendor",
+      "2026-10-16 - Coordinated public release of advisory",
+      "2026-10-16 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-781 ZDI-CAN-29452 LibreOffice EMF+ Brush Integer Overflow Remote Code Execution Vulnerability 2026-10-16 CVE-2026-6045 https://www.cve.org/CVERecord?id=CVE-2026-6045 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['LibreOffice'] ['LibreOffice'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of LibreOffice. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of EMF images within ODT files. The issue results from the lack of proper validation of user-supplied data, which can result in an integer overflow before allocating a buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. LibreOffice has issued an update to correct this vulnerability. More details can be found at: https://www.libreoffice.org/security/#cve-2026-6045 ['2026-04-23 - Vulnerability reported to vendor', '2026-10-16 - Coordinated public release of advisory', '2026-10-16 - Advisory Updated'] truff https://www.zerodayinitiative.com/advisories/ZDI-26-781/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-781/",
+    "title": "LibreOffice EMF+ Brush Integer Overflow Remote Code Execution Vulnerability",
+    "updated_date": "2026-10-16",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of LibreOffice. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of EMF images within ODT files. The issue results from the lack of proper validation of user-supplied data, which can result in an integer overflow before allocating a buffer. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29452",
+    "zdi_id": "ZDI-26-781"
+  },
+  "ZDI-26-782": {
+    "additional_details": "LibreOffice has issued an update to correct this vulnerability. More details can be found at: https://www.libreoffice.org/security/#cve-2026-63274",
+    "advisory_date": "2026-10-16",
+    "affected_products": [
+      "LibreOffice"
+    ],
+    "affected_vendors": [
+      "LibreOffice"
+    ],
+    "credit": "Anonymous",
+    "cve": "CVE-2026-63274",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-63274",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-07-03 - Vulnerability reported to vendor",
+      "2026-10-16 - Coordinated public release of advisory",
+      "2026-10-16 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-782 ZDI-CAN-31075 LibreOffice PDF File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability 2026-10-16 CVE-2026-63274 https://www.cve.org/CVERecord?id=CVE-2026-63274 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['LibreOffice'] ['LibreOffice'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of LibreOffice. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of PDF files. Crafted data in a PDF file can trigger an overflow of a heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. LibreOffice has issued an update to correct this vulnerability. More details can be found at: https://www.libreoffice.org/security/#cve-2026-63274 ['2026-07-03 - Vulnerability reported to vendor', '2026-10-16 - Coordinated public release of advisory', '2026-10-16 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-782/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-782/",
+    "title": "LibreOffice PDF File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+    "updated_date": "2026-10-16",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of LibreOffice. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of PDF files. Crafted data in a PDF file can trigger an overflow of a heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-31075",
+    "zdi_id": "ZDI-26-782"
+  },
+  "ZDI-26-783": {
+    "additional_details": "LibreOffice has issued an update to correct this vulnerability. More details can be found at: https://www.libreoffice.org/security/#cve-2026-63273",
+    "advisory_date": "2026-10-16",
+    "affected_products": [
+      "LibreOffice"
+    ],
+    "affected_vendors": [
+      "LibreOffice"
+    ],
+    "credit": "Anonymous",
+    "cve": "CVE-2026-63273",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-63273",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-07-09 - Vulnerability reported to vendor",
+      "2026-10-16 - Coordinated public release of advisory",
+      "2026-10-16 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-783 ZDI-CAN-31095 LibreOffice PDF File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability 2026-10-16 CVE-2026-63273 https://www.cve.org/CVERecord?id=CVE-2026-63273 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['LibreOffice'] ['LibreOffice'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of LibreOffice. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of PDF files. Crafted data in a PDF file can trigger a write past the end of an allocated buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. LibreOffice has issued an update to correct this vulnerability. More details can be found at: https://www.libreoffice.org/security/#cve-2026-63273 ['2026-07-09 - Vulnerability reported to vendor', '2026-10-16 - Coordinated public release of advisory', '2026-10-16 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-783/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-783/",
+    "title": "LibreOffice PDF File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+    "updated_date": "2026-10-16",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of LibreOffice. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of PDF files. Crafted data in a PDF file can trigger a write past the end of an allocated buffer. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-31095",
+    "zdi_id": "ZDI-26-783"
+  },
+  "ZDI-26-784": {
+    "additional_details": "FreeBSD has issued an update to correct this vulnerability. More details can be found at: https://www.freebsd.org/security/advisories/FreeBSD-SA-26:62.tty.asc",
+    "advisory_date": "2026-10-16",
+    "affected_products": [
+      "Kernel"
+    ],
+    "affected_vendors": [
+      "FreeBSD"
+    ],
+    "credit": "tsune of GMO Cybersecurity by Ierae, Inc.",
+    "cve": "CVE-2026-58093",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-58093",
+    "cvss": 8.8,
+    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-08-20 - Vulnerability reported to vendor",
+      "2026-10-16 - Coordinated public release of advisory",
+      "2026-10-16 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-784 ZDI-CAN-31968 FreeBSD Kernel kqueue Use-After-Free Local Privilege Escalation Vulnerability 2026-10-16 CVE-2026-58093 https://www.cve.org/CVERecord?id=CVE-2026-58093 8.8 AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H ['FreeBSD'] ['Kernel'] This vulnerability allows local attackers to escalate privileges on affected installations of FreeBSD Kernel. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of filedesc objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the kernel. FreeBSD has issued an update to correct this vulnerability. More details can be found at: https://www.freebsd.org/security/advisories/FreeBSD-SA-26:62.tty.asc ['2026-08-20 - Vulnerability reported to vendor', '2026-10-16 - Coordinated public release of advisory', '2026-10-16 - Advisory Updated'] tsune of GMO Cybersecurity by Ierae, Inc. https://www.zerodayinitiative.com/advisories/ZDI-26-784/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-784/",
+    "title": "FreeBSD Kernel kqueue Use-After-Free Local Privilege Escalation Vulnerability",
+    "updated_date": "2026-10-16",
+    "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of FreeBSD Kernel. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of filedesc objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the kernel.",
+    "zdi_can": "ZDI-CAN-31968",
+    "zdi_id": "ZDI-26-784"
+  },
+  "ZDI-26-785": {
+    "additional_details": "FreeBSD has issued an update to correct this vulnerability. More details can be found at: https://www.freebsd.org/security/advisories/FreeBSD-SA-26:63.posixshm.asc",
+    "advisory_date": "2026-10-16",
+    "affected_products": [
+      "Kernel"
+    ],
+    "affected_vendors": [
+      "FreeBSD"
+    ],
+    "credit": "tsune of GMO Cybersecurity by Ierae, Inc.",
+    "cve": "CVE-2026-58094",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-58094",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-08-20 - Vulnerability reported to vendor",
+      "2026-10-16 - Coordinated public release of advisory",
+      "2026-10-16 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-785 ZDI-CAN-32356 FreeBSD Kernel Shared Memory Time-Of-Check Time-Of-Use Local Privilege Escalation Vulnerability 2026-10-16 CVE-2026-58094 https://www.cve.org/CVERecord?id=CVE-2026-58094 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H ['FreeBSD'] ['Kernel'] This vulnerability allows local attackers to escalate privileges on affected installations of FreeBSD Kernel. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the FIOSSHMLPGCNF handler. The issue results from the lack of proper locking when performing operations on an object. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the kernel. FreeBSD has issued an update to correct this vulnerability. More details can be found at: https://www.freebsd.org/security/advisories/FreeBSD-SA-26:63.posixshm.asc ['2026-08-20 - Vulnerability reported to vendor', '2026-10-16 - Coordinated public release of advisory', '2026-10-16 - Advisory Updated'] tsune of GMO Cybersecurity by Ierae, Inc. https://www.zerodayinitiative.com/advisories/ZDI-26-785/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-785/",
+    "title": "FreeBSD Kernel Shared Memory Time-Of-Check Time-Of-Use Local Privilege Escalation Vulnerability",
+    "updated_date": "2026-10-16",
+    "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of FreeBSD Kernel. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the FIOSSHMLPGCNF handler. The issue results from the lack of proper locking when performing operations on an object. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the kernel.",
+    "zdi_can": "ZDI-CAN-32356",
+    "zdi_id": "ZDI-26-785"
   }
 }
