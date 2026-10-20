@@ -309474,6 +309474,45 @@
     "zdi_id": "ZDI-05-001"
   },
   {
+    "cvss": 8.8,
+    "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "deadline": "2027-02-16",
+    "discoverer": "Antonio GIordano",
+    "id": "ZDI-CAN-34762",
+    "kind": "upcoming",
+    "reported_date": "2026-10-19",
+    "status": "upcoming",
+    "vendor": "Netgate",
+    "vendor_url": "https://shop.netgate.com/",
+    "zdi_can": "ZDI-CAN-34762"
+  },
+  {
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "deadline": "2027-02-16",
+    "discoverer": "Christo Erasmus and Matt Bouffe of MWR CyberSec",
+    "id": "ZDI-CAN-31454",
+    "kind": "upcoming",
+    "reported_date": "2026-10-19",
+    "status": "upcoming",
+    "vendor": "ESET",
+    "vendor_url": "https://www.eset.com/int/security-vulnerability-reporting/",
+    "zdi_can": "ZDI-CAN-31454"
+  },
+  {
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "deadline": "2027-02-16",
+    "discoverer": "Mantas Sabeckis @otterly",
+    "id": "ZDI-CAN-32005",
+    "kind": "upcoming",
+    "reported_date": "2026-10-19",
+    "status": "upcoming",
+    "vendor": "ConnMan",
+    "vendor_url": "https://git.kernel.org/pub/scm/network/connman/connman.git/",
+    "zdi_can": "ZDI-CAN-32005"
+  },
+  {
     "cvss": 6.5,
     "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
     "deadline": "2027-02-11",
@@ -316076,19 +316115,6 @@
     "vendor": "GNU",
     "vendor_url": "https://www.gnu.org/home.en.html",
     "zdi_can": "ZDI-CAN-29120"
-  },
-  {
-    "cvss": 5.8,
-    "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:N/A:N",
-    "deadline": "2026-07-29",
-    "discoverer": "Nelson William Gamazo Sanchez of TrendAI Research",
-    "id": "ZDI-CAN-30175",
-    "kind": "upcoming",
-    "reported_date": "2026-03-31",
-    "status": "upcoming",
-    "vendor": "Microsoft",
-    "vendor_url": "https://www.microsoft.com",
-    "zdi_can": "ZDI-CAN-30175"
   },
   {
     "cvss": 7.8,
