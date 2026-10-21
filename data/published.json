@@ -10117,7 +10117,7 @@
     "kind": "published",
     "published_date": "2026-02-19",
     "title": "MLflow Use of Default Password Authentication Bypass Vulnerability",
-    "updated_date": "2026-02-19",
+    "updated_date": "2026-10-20",
     "url": "https://www.zerodayinitiative.com/advisories/ZDI-26-111/",
     "vendor": "MLflow",
     "vendor_url": null,

@@ -12142,7 +12142,7 @@
     "published_date": "2026-02-19",
     "status": "published",
     "title": "MLflow Use of Default Password Authentication Bypass Vulnerability",
-    "updated_date": "2026-02-19",
+    "updated_date": "2026-10-20",
     "url": "https://www.zerodayinitiative.com/advisories/ZDI-26-111/",
     "vendor": "MLflow",
     "vendor_url": null,
@@ -314074,19 +314074,6 @@
     "vendor": "llama.cpp",
     "vendor_url": "https://github.com/ggerganov/llama.cpp",
     "zdi_can": "ZDI-CAN-30980"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-10-16",
-    "discoverer": "Verichains Cyber Force Team (@Verichains)",
-    "id": "ZDI-CAN-31089",
-    "kind": "upcoming",
-    "reported_date": "2026-06-18",
-    "status": "upcoming",
-    "vendor": "NVIDIA",
-    "vendor_url": "https://www.nvidia.com/en-us/",
-    "zdi_can": "ZDI-CAN-31089"
   },
   {
     "cvss": 7.8,

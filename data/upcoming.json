@@ -4251,18 +4251,6 @@
     "cvss": 7.8,
     "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
     "deadline": "2026-10-16",
-    "discoverer": "Verichains Cyber Force Team (@Verichains)",
-    "kind": "upcoming",
-    "reported_date": "2026-06-18",
-    "status": "upcoming",
-    "vendor": "NVIDIA",
-    "vendor_url": "https://www.nvidia.com/en-us/",
-    "zdi_can": "ZDI-CAN-31089"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-10-16",
     "discoverer": "LemonTea1014 (@LteaaR1014) from ICEDTEA CTF",
     "kind": "upcoming",
     "reported_date": "2026-06-18",
