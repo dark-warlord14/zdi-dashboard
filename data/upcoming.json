@@ -1,6 +1,18 @@
 [
   {
     "cvss": 8.8,
+    "cvss_vector": "AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "deadline": "2027-02-19",
+    "discoverer": "Hossein Lotfi (@hosselot) of TrendAI Zero Day Initiative",
+    "kind": "upcoming",
+    "reported_date": "2026-10-22",
+    "status": "upcoming",
+    "vendor": "Apple",
+    "vendor_url": "https://www.apple.com",
+    "zdi_can": "ZDI-CAN-36560"
+  },
+  {
+    "cvss": 8.8,
     "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
     "deadline": "2027-02-18",
     "discoverer": "Anonymous",
@@ -3276,18 +3288,6 @@
     "zdi_can": "ZDI-CAN-32814"
   },
   {
-    "cvss": 9.8,
-    "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
-    "deadline": "2026-11-21",
-    "discoverer": "Sajeeb Lohani",
-    "kind": "upcoming",
-    "reported_date": "2026-07-24",
-    "status": "upcoming",
-    "vendor": "NoMachine",
-    "vendor_url": "https://www.nomachine.com/",
-    "zdi_can": "ZDI-CAN-30685"
-  },
-  {
     "cvss": 7.8,
     "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
     "deadline": "2026-11-20",
@@ -4210,18 +4210,6 @@
     "vendor": "Langflow",
     "vendor_url": "https://www.langflow.org/",
     "zdi_can": "ZDI-CAN-31897"
-  },
-  {
-    "cvss": 8.1,
-    "cvss_vector": "AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
-    "deadline": "2026-10-28",
-    "discoverer": "@TristanInSec",
-    "kind": "upcoming",
-    "reported_date": "2026-06-30",
-    "status": "upcoming",
-    "vendor": "Cisco",
-    "vendor_url": "https://www.cisco.com",
-    "zdi_can": "ZDI-CAN-31369"
   },
   {
     "cvss": 7.8,
@@ -6024,18 +6012,6 @@
     "zdi_can": "ZDI-CAN-30142"
   },
   {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-08-20",
-    "discoverer": "YJK(@YJK0805) of ZUSO ART",
-    "kind": "upcoming",
-    "reported_date": "2026-04-22",
-    "status": "upcoming",
-    "vendor": "NVIDIA",
-    "vendor_url": "https://www.nvidia.com/en-us/",
-    "zdi_can": "ZDI-CAN-30352"
-  },
-  {
     "cvss": 8.4,
     "cvss_vector": "AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
     "deadline": "2026-08-20",
@@ -6240,18 +6216,6 @@
     "zdi_can": "ZDI-CAN-30397"
   },
   {
-    "cvss": 3.1,
-    "cvss_vector": "AV:A/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N",
-    "deadline": "2026-08-07",
-    "discoverer": "TrendAI Zero Day Initiative",
-    "kind": "upcoming",
-    "reported_date": "2026-04-09",
-    "status": "upcoming",
-    "vendor": "OpenSSL",
-    "vendor_url": null,
-    "zdi_can": "ZDI-CAN-30385"
-  },
-  {
     "cvss": 7.3,
     "cvss_vector": "AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H",
     "deadline": "2026-08-07",
@@ -6286,18 +6250,6 @@
     "vendor": "MaterialX",
     "vendor_url": "https://materialx.org/",
     "zdi_can": "ZDI-CAN-29259"
-  },
-  {
-    "cvss": 6.5,
-    "cvss_vector": "AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:L",
-    "deadline": "2026-08-06",
-    "discoverer": "FuzzOps of TrendAI Zero Day Initiative",
-    "kind": "upcoming",
-    "reported_date": "2026-04-08",
-    "status": "upcoming",
-    "vendor": "OpenSSL",
-    "vendor_url": null,
-    "zdi_can": "ZDI-CAN-30379"
   },
   {
     "cvss": 7.2,

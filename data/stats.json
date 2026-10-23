@@ -1,7 +1,7 @@
 {
   "by_cvss_band": {
     "critical": 2407,
-    "high": 9564,
+    "high": 9565,
     "low": 1483,
     "medium": 4121,
     "unknown": 337
@@ -9,7 +9,7 @@
   "by_vendor": {
     "Adobe": 2041,
     "Advantech": 734,
-    "Apple": 822,
+    "Apple": 823,
     "Autodesk": 523,
     "Bentley": 208,
     "Cisco": 326,
@@ -55,15 +55,15 @@
     "2023": 1908,
     "2024": 1748,
     "2025": 1203,
-    "2026": 786
+    "2026": 791
   },
-  "cve_coverage": 15565,
-  "high_cvss": 11971,
-  "total_published": 17193,
-  "total_upcoming": 719,
+  "cve_coverage": 15570,
+  "high_cvss": 11972,
+  "total_published": 17198,
+  "total_upcoming": 715,
   "upcoming_deadline_state": {
-    "due_soon": 97,
-    "future": 270,
-    "past_due": 352
+    "due_soon": 93,
+    "future": 271,
+    "past_due": 351
   }
 }
