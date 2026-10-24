@@ -1,13 +1,13 @@
 {
   "by_cvss_band": {
     "critical": 2407,
-    "high": 9565,
-    "low": 1483,
-    "medium": 4121,
+    "high": 9570,
+    "low": 1485,
+    "medium": 4122,
     "unknown": 337
   },
   "by_vendor": {
-    "Adobe": 2041,
+    "Adobe": 2044,
     "Advantech": 734,
     "Apple": 823,
     "Autodesk": 523,
@@ -29,7 +29,7 @@
     "PDF-XChange": 281,
     "SAP": 226,
     "Schneider Electric": 162,
-    "Siemens": 387,
+    "Siemens": 391,
     "SolarWinds": 137,
     "Trend Micro": 619
   },
@@ -58,12 +58,12 @@
     "2026": 791
   },
   "cve_coverage": 15570,
-  "high_cvss": 11972,
+  "high_cvss": 11977,
   "total_published": 17198,
-  "total_upcoming": 715,
+  "total_upcoming": 723,
   "upcoming_deadline_state": {
-    "due_soon": 93,
-    "future": 271,
-    "past_due": 351
+    "due_soon": 89,
+    "future": 279,
+    "past_due": 355
   }
 }
