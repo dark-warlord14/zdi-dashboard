@@ -22146,5 +22146,537 @@
     "vulnerability_details": "This vulnerability allows network-adjacent attackers to tamper with CMS AuthEnvelopedData messages on affected installations of OpenSSL. An attacker must first obtain the ability to modify CMS AuthEnvelopedData messages in order to exploit this vulnerability. The specific flaw exists within the handling of AES-GCM message authentication codes. The issue results from an improper integrity check. An attacker can leverage this vulnerability to tamper with authenticated data.",
     "zdi_can": "ZDI-CAN-30385",
     "zdi_id": "ZDI-26-790"
+  },
+  "ZDI-26-791": {
+    "additional_details": "Pixar Animation Studio has issued an update to correct this vulnerability. More details can be found at: https://github.com/PixarAnimationStudios/OpenUSD/commit/7c62a43d8823dd4e1ef8c49fc1d72729e1ce6e36",
+    "advisory_date": "2026-10-26",
+    "affected_products": [
+      "OpenUSD"
+    ],
+    "affected_vendors": [
+      "Pixar Animation Studio"
+    ],
+    "credit": "Brandon Evans of TrendAI Zero Day Initiative",
+    "cve": "CVE-2026-92211",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-92211",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-04-15 - Vulnerability reported to vendor",
+      "2026-10-26 - Coordinated public release of advisory",
+      "2026-10-26 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-791 ZDI-CAN-30428 Pixar Animation Studio OpenUSD Crate File Parsing Double Free Remote Code Execution Vulnerability 2026-10-26 CVE-2026-92211 https://www.cve.org/CVERecord?id=CVE-2026-92211 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Pixar Animation Studio'] ['OpenUSD'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Pixar Animation Studio OpenUSD. Interaction with this library is required to exploit this vulnerability but attack vectors may vary depending on the implementation. The specific flaw exists within the parsing of USDC and USDZ files. The issue results from the lack of validating the existence of an object prior to performing further free operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current process. Pixar Animation Studio has issued an update to correct this vulnerability. More details can be found at: https://github.com/PixarAnimationStudios/OpenUSD/commit/7c62a43d8823dd4e1ef8c49fc1d72729e1ce6e36 ['2026-04-15 - Vulnerability reported to vendor', '2026-10-26 - Coordinated public release of advisory', '2026-10-26 - Advisory Updated'] Brandon Evans of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-791/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-791/",
+    "title": "Pixar Animation Studio OpenUSD Crate File Parsing Double Free Remote Code Execution Vulnerability",
+    "updated_date": "2026-10-26",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Pixar Animation Studio OpenUSD. Interaction with this library is required to exploit this vulnerability but attack vectors may vary depending on the implementation. The specific flaw exists within the parsing of USDC and USDZ files. The issue results from the lack of validating the existence of an object prior to performing further free operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-30428",
+    "zdi_id": "ZDI-26-791"
+  },
+  "ZDI-26-792": {
+    "additional_details": "libwebsockets has issued an update to correct this vulnerability. More details can be found at: https://github.com/warmcat/libwebsockets/commit/c9e8e1834d7f13038c82963086b90e2ee9c5b44c",
+    "advisory_date": "2026-10-26",
+    "affected_products": [
+      "libwebsockets"
+    ],
+    "affected_vendors": [
+      "libwebsockets"
+    ],
+    "credit": "Anonymous",
+    "cve": "CVE-2026-114550",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-114550",
+    "cvss": 8.1,
+    "cvss_vector": "AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-07-16 - Vulnerability reported to vendor",
+      "2026-10-26 - Coordinated public release of advisory",
+      "2026-10-26 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-792 ZDI-CAN-31039 libwebsockets MQTT Protocol PUBACK Packet Handling Out-Of-Bounds Write Remote Code Execution Vulnerability 2026-10-26 CVE-2026-114550 https://www.cve.org/CVERecord?id=CVE-2026-114550 8.1 AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H ['libwebsockets'] ['libwebsockets'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of libwebsockets. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of PUBACK packets. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. libwebsockets has issued an update to correct this vulnerability. More details can be found at: https://github.com/warmcat/libwebsockets/commit/c9e8e1834d7f13038c82963086b90e2ee9c5b44c ['2026-07-16 - Vulnerability reported to vendor', '2026-10-26 - Coordinated public release of advisory', '2026-10-26 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-792/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-792/",
+    "title": "libwebsockets MQTT Protocol PUBACK Packet Handling Out-Of-Bounds Write Remote Code Execution Vulnerability",
+    "updated_date": "2026-10-26",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of libwebsockets. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of PUBACK packets. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated buffer. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-31039",
+    "zdi_id": "ZDI-26-792"
+  },
+  "ZDI-26-793": {
+    "additional_details": "Meta has issued an update to correct this vulnerability. More details can be found at: https://github.com/facebookresearch/fairchem/pull/1935",
+    "advisory_date": "2026-10-26",
+    "affected_products": [
+      "FAIRChem"
+    ],
+    "affected_vendors": [
+      "Meta"
+    ],
+    "credit": "Mat Powell of TrendAI Zero Day Initiative",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-03-26 - Vulnerability reported to vendor",
+      "2026-10-26 - Coordinated public release of advisory",
+      "2026-10-26 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-793 ZDI-CAN-29440 Meta FAIRChem load_and_preprocess_data Deserialization of Untrusted Data Remote Code Execution Vulnerability 2026-10-26 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Meta'] ['FAIRChem'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of pickle files. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process. Meta has issued an update to correct this vulnerability. More details can be found at: https://github.com/facebookresearch/fairchem/pull/1935 ['2026-03-26 - Vulnerability reported to vendor', '2026-10-26 - Coordinated public release of advisory', '2026-10-26 - Advisory Updated'] Mat Powell of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-793/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-793/",
+    "title": "Meta FAIRChem load_and_preprocess_data Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "updated_date": "2026-10-26",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of pickle files. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29440",
+    "zdi_id": "ZDI-26-793"
+  },
+  "ZDI-26-794": {
+    "additional_details": "Meta has issued an update to correct this vulnerability. More details can be found at: https://github.com/facebookresearch/fairchem/pull/1935",
+    "advisory_date": "2026-10-26",
+    "affected_products": [
+      "FAIRChem"
+    ],
+    "affected_vendors": [
+      "Meta"
+    ],
+    "credit": "Mat Powell of TrendAI Zero Day Initiative",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-03-26 - Vulnerability reported to vendor",
+      "2026-10-26 - Coordinated public release of advisory",
+      "2026-10-26 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-794 ZDI-CAN-29439 Meta FAIRChem ion_db_path Deserialization of Untrusted Data Remote Code Execution Vulnerability 2026-10-26 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Meta'] ['FAIRChem'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of pickle files. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process. Meta has issued an update to correct this vulnerability. More details can be found at: https://github.com/facebookresearch/fairchem/pull/1935 ['2026-03-26 - Vulnerability reported to vendor', '2026-10-26 - Coordinated public release of advisory', '2026-10-26 - Advisory Updated'] Mat Powell of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-794/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-794/",
+    "title": "Meta FAIRChem ion_db_path Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "updated_date": "2026-10-26",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of pickle files. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29439",
+    "zdi_id": "ZDI-26-794"
+  },
+  "ZDI-26-795": {
+    "additional_details": "Meta has issued an update to correct this vulnerability. More details can be found at: https://github.com/facebookresearch/fairchem/pull/1935",
+    "advisory_date": "2026-10-26",
+    "affected_products": [
+      "FAIRChem"
+    ],
+    "affected_vendors": [
+      "Meta"
+    ],
+    "credit": "Mat Powell of TrendAI Zero Day Initiative",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-03-26 - Vulnerability reported to vendor",
+      "2026-10-26 - Coordinated public release of advisory",
+      "2026-10-26 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-795 ZDI-CAN-29438 Meta FAIRChem reaction_db_path Deserialization of Untrusted Data Remote Code Execution Vulnerability 2026-10-26 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Meta'] ['FAIRChem'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of pickle files. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process. Meta has issued an update to correct this vulnerability. More details can be found at: https://github.com/facebookresearch/fairchem/pull/1935 ['2026-03-26 - Vulnerability reported to vendor', '2026-10-26 - Coordinated public release of advisory', '2026-10-26 - Advisory Updated'] Mat Powell of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-795/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-795/",
+    "title": "Meta FAIRChem reaction_db_path Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "updated_date": "2026-10-26",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of pickle files. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29438",
+    "zdi_id": "ZDI-26-795"
+  },
+  "ZDI-26-796": {
+    "additional_details": "Meta has issued an update to correct this vulnerability. More details can be found at: https://github.com/facebookresearch/fairchem/pull/1935",
+    "advisory_date": "2026-10-26",
+    "affected_products": [
+      "FAIRChem"
+    ],
+    "affected_vendors": [
+      "Meta"
+    ],
+    "credit": "Mat Powell of TrendAI Zero Day Initiative",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-03-26 - Vulnerability reported to vendor",
+      "2026-10-26 - Coordinated public release of advisory",
+      "2026-10-26 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-796 ZDI-CAN-29437 Meta FAIRChem reaction adsorbate_db_path Deserialization of Untrusted Data Remote Code Execution Vulnerability 2026-10-26 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Meta'] ['FAIRChem'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of pickle files. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process. Meta has issued an update to correct this vulnerability. More details can be found at: https://github.com/facebookresearch/fairchem/pull/1935 ['2026-03-26 - Vulnerability reported to vendor', '2026-10-26 - Coordinated public release of advisory', '2026-10-26 - Advisory Updated'] Mat Powell of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-796/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-796/",
+    "title": "Meta FAIRChem reaction adsorbate_db_path Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "updated_date": "2026-10-26",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of pickle files. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29437",
+    "zdi_id": "ZDI-26-796"
+  },
+  "ZDI-26-797": {
+    "additional_details": "Meta has issued an update to correct this vulnerability. More details can be found at: https://github.com/facebookresearch/fairchem/pull/1935",
+    "advisory_date": "2026-10-26",
+    "affected_products": [
+      "FAIRChem"
+    ],
+    "affected_vendors": [
+      "Meta"
+    ],
+    "credit": "Mat Powell of TrendAI Zero Day Initiative",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-03-26 - Vulnerability reported to vendor",
+      "2026-10-26 - Coordinated public release of advisory",
+      "2026-10-26 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-797 ZDI-CAN-29435 Meta FAIRChem dense_eval dft-compute Deserialization of Untrusted Data Remote Code Execution Vulnerability 2026-10-26 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Meta'] ['FAIRChem'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of pickle files. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process. Meta has issued an update to correct this vulnerability. More details can be found at: https://github.com/facebookresearch/fairchem/pull/1935 ['2026-03-26 - Vulnerability reported to vendor', '2026-10-26 - Coordinated public release of advisory', '2026-10-26 - Advisory Updated'] Mat Powell of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-797/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-797/",
+    "title": "Meta FAIRChem dense_eval dft-compute Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "updated_date": "2026-10-26",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of pickle files. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29435",
+    "zdi_id": "ZDI-26-797"
+  },
+  "ZDI-26-798": {
+    "additional_details": "Meta has issued an update to correct this vulnerability. More details can be found at: https://github.com/facebookresearch/fairchem/pull/1935",
+    "advisory_date": "2026-10-26",
+    "affected_products": [
+      "FAIRChem"
+    ],
+    "affected_vendors": [
+      "Meta"
+    ],
+    "credit": "Mat Powell of TrendAI Zero Day Initiative",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-03-26 - Vulnerability reported to vendor",
+      "2026-10-26 - Coordinated public release of advisory",
+      "2026-10-26 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-798 ZDI-CAN-29434 Meta FAIRChem dense_eval results-file Deserialization of Untrusted Data Remote Code Execution Vulnerability 2026-10-26 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Meta'] ['FAIRChem'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of pickle files. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process. Meta has issued an update to correct this vulnerability. More details can be found at: https://github.com/facebookresearch/fairchem/pull/1935 ['2026-03-26 - Vulnerability reported to vendor', '2026-10-26 - Coordinated public release of advisory', '2026-10-26 - Advisory Updated'] Mat Powell of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-798/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-798/",
+    "title": "Meta FAIRChem dense_eval results-file Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "updated_date": "2026-10-26",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of pickle files. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29434",
+    "zdi_id": "ZDI-26-798"
+  },
+  "ZDI-26-799": {
+    "additional_details": "Meta has issued an update to correct this vulnerability. More details can be found at: https://github.com/facebookresearch/fairchem/pull/1935",
+    "advisory_date": "2026-10-26",
+    "affected_products": [
+      "FAIRChem"
+    ],
+    "affected_vendors": [
+      "Meta"
+    ],
+    "credit": "Mat Powell of TrendAI Zero Day Initiative",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-03-26 - Vulnerability reported to vendor",
+      "2026-10-26 - Coordinated public release of advisory",
+      "2026-10-26 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-799 ZDI-CAN-29436 Meta FAIRChem Solvent Deserialization of Untrusted Data Remote Code Execution Vulnerability 2026-10-26 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Meta'] ['FAIRChem'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of pickle files. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process. Meta has issued an update to correct this vulnerability. More details can be found at: https://github.com/facebookresearch/fairchem/pull/1935 ['2026-03-26 - Vulnerability reported to vendor', '2026-10-26 - Coordinated public release of advisory', '2026-10-26 - Advisory Updated'] Mat Powell of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-799/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-799/",
+    "title": "Meta FAIRChem Solvent Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "updated_date": "2026-10-26",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of pickle files. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29436",
+    "zdi_id": "ZDI-26-799"
+  },
+  "ZDI-26-800": {
+    "additional_details": "Meta has issued an update to correct this vulnerability. More details can be found at: https://github.com/facebookresearch/fairchem/pull/1935",
+    "advisory_date": "2026-10-26",
+    "affected_products": [
+      "FAIRChem"
+    ],
+    "affected_vendors": [
+      "Meta"
+    ],
+    "credit": "Mat Powell of TrendAI Zero Day Initiative",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-03-26 - Vulnerability reported to vendor",
+      "2026-10-26 - Coordinated public release of advisory",
+      "2026-10-26 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-800 ZDI-CAN-29444 Meta FAIRChem OMolRunner Deserialization of Untrusted Data Remote Code Execution Vulnerability 2026-10-26 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Meta'] ['FAIRChem'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of pickle files. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process. Meta has issued an update to correct this vulnerability. More details can be found at: https://github.com/facebookresearch/fairchem/pull/1935 ['2026-03-26 - Vulnerability reported to vendor', '2026-10-26 - Coordinated public release of advisory', '2026-10-26 - Advisory Updated'] Mat Powell of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-800/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-800/",
+    "title": "Meta FAIRChem OMolRunner Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "updated_date": "2026-10-26",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of pickle files. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29444",
+    "zdi_id": "ZDI-26-800"
+  },
+  "ZDI-26-801": {
+    "additional_details": "Meta has issued an update to correct this vulnerability. More details can be found at: https://github.com/facebookresearch/fairchem/pull/1935",
+    "advisory_date": "2026-10-26",
+    "affected_products": [
+      "FAIRChem"
+    ],
+    "affected_vendors": [
+      "Meta"
+    ],
+    "credit": "Mat Powell of TrendAI Zero Day Initiative",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-03-26 - Vulnerability reported to vendor",
+      "2026-10-26 - Coordinated public release of advisory",
+      "2026-10-26 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-801 ZDI-CAN-29441 Meta FAIRChem Slab Deserialization of Untrusted Data Remote Code Execution Vulnerability 2026-10-26 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Meta'] ['FAIRChem'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of pickle files. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process. Meta has issued an update to correct this vulnerability. More details can be found at: https://github.com/facebookresearch/fairchem/pull/1935 ['2026-03-26 - Vulnerability reported to vendor', '2026-10-26 - Coordinated public release of advisory', '2026-10-26 - Advisory Updated'] Mat Powell of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-801/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-801/",
+    "title": "Meta FAIRChem Slab Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "updated_date": "2026-10-26",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of pickle files. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29441",
+    "zdi_id": "ZDI-26-801"
+  },
+  "ZDI-26-802": {
+    "additional_details": "Meta has issued an update to correct this vulnerability. More details can be found at: https://github.com/facebookresearch/fairchem/pull/1935",
+    "advisory_date": "2026-10-26",
+    "affected_products": [
+      "FAIRChem"
+    ],
+    "affected_vendors": [
+      "Meta"
+    ],
+    "credit": "Anonymous",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-03-04 - Vulnerability reported to vendor",
+      "2026-10-26 - Coordinated public release of advisory",
+      "2026-10-26 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-802 ZDI-CAN-29104 Meta FAIRChem process_mlrs Deserialization of Untrusted Data Remote Code Execution Vulnerability 2026-10-26 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Meta'] ['FAIRChem'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of pickle files. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process. Meta has issued an update to correct this vulnerability. More details can be found at: https://github.com/facebookresearch/fairchem/pull/1935 ['2026-03-04 - Vulnerability reported to vendor', '2026-10-26 - Coordinated public release of advisory', '2026-10-26 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-802/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-802/",
+    "title": "Meta FAIRChem process_mlrs Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "updated_date": "2026-10-26",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of pickle files. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29104",
+    "zdi_id": "ZDI-26-802"
+  },
+  "ZDI-26-803": {
+    "additional_details": "Meta has issued an update to correct this vulnerability. More details can be found at: https://github.com/facebookresearch/fairchem/pull/1935",
+    "advisory_date": "2026-10-26",
+    "affected_products": [
+      "FAIRChem"
+    ],
+    "affected_vendors": [
+      "Meta"
+    ],
+    "credit": "Mat Powell of TrendAI Zero Day Initiative",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-03-26 - Vulnerability reported to vendor",
+      "2026-10-26 - Coordinated public release of advisory",
+      "2026-10-26 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-803 ZDI-CAN-29445 Meta FAIRChem AdsorbMLRunner Deserialization of Untrusted Data Remote Code Execution Vulnerability 2026-10-26 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Meta'] ['FAIRChem'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of pickle files. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process. Meta has issued an update to correct this vulnerability. More details can be found at: https://github.com/facebookresearch/fairchem/pull/1935 ['2026-03-26 - Vulnerability reported to vendor', '2026-10-26 - Coordinated public release of advisory', '2026-10-26 - Advisory Updated'] Mat Powell of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-803/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-803/",
+    "title": "Meta FAIRChem AdsorbMLRunner Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "updated_date": "2026-10-26",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of pickle files. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29445",
+    "zdi_id": "ZDI-26-803"
+  },
+  "ZDI-26-804": {
+    "additional_details": "Meta has issued an update to correct this vulnerability. More details can be found at: https://github.com/facebookresearch/fairchem/pull/1935",
+    "advisory_date": "2026-10-26",
+    "affected_products": [
+      "FAIRChem"
+    ],
+    "affected_vendors": [
+      "Meta"
+    ],
+    "credit": "Mat Powell of TrendAI Zero Day Initiative",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-03-26 - Vulnerability reported to vendor",
+      "2026-10-26 - Coordinated public release of advisory",
+      "2026-10-26 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-804 ZDI-CAN-29443 Meta FAIRChem Bulk Class Deserialization of Untrusted Data Remote Code Execution Vulnerability 2026-10-26 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Meta'] ['FAIRChem'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of pickle files. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process. Meta has issued an update to correct this vulnerability. More details can be found at: https://github.com/facebookresearch/fairchem/pull/1935 ['2026-03-26 - Vulnerability reported to vendor', '2026-10-26 - Coordinated public release of advisory', '2026-10-26 - Advisory Updated'] Mat Powell of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-804/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-804/",
+    "title": "Meta FAIRChem Bulk Class Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "updated_date": "2026-10-26",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of pickle files. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29443",
+    "zdi_id": "ZDI-26-804"
+  },
+  "ZDI-26-805": {
+    "additional_details": "Meta has issued an update to correct this vulnerability. More details can be found at: https://github.com/facebookresearch/fairchem/pull/1935",
+    "advisory_date": "2026-10-26",
+    "affected_products": [
+      "FAIRChem"
+    ],
+    "affected_vendors": [
+      "Meta"
+    ],
+    "credit": "Mat Powell of TrendAI Zero Day Initiative",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-03-26 - Vulnerability reported to vendor",
+      "2026-10-26 - Coordinated public release of advisory",
+      "2026-10-26 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-805 ZDI-CAN-29442 Meta FAIRChem Adsorbate Deserialization of Untrusted Data Remote Code Execution Vulnerability 2026-10-26 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Meta'] ['FAIRChem'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of pickle files. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process. Meta has issued an update to correct this vulnerability. More details can be found at: https://github.com/facebookresearch/fairchem/pull/1935 ['2026-03-26 - Vulnerability reported to vendor', '2026-10-26 - Coordinated public release of advisory', '2026-10-26 - Advisory Updated'] Mat Powell of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-805/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-805/",
+    "title": "Meta FAIRChem Adsorbate Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "updated_date": "2026-10-26",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of pickle files. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29442",
+    "zdi_id": "ZDI-26-805"
+  },
+  "ZDI-26-806": {
+    "additional_details": "Meta has issued an update to correct this vulnerability. More details can be found at: https://github.com/facebookresearch/fairchem/pull/1935",
+    "advisory_date": "2026-10-26",
+    "affected_products": [
+      "FAIRChem"
+    ],
+    "affected_vendors": [
+      "Meta"
+    ],
+    "credit": "Anonymous",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-03-04 - Vulnerability reported to vendor",
+      "2026-10-26 - Coordinated public release of advisory",
+      "2026-10-26 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-806 ZDI-CAN-29101 Meta FAIRChem write_top_k_vasp Deserialization of Untrusted Data Remote Code Execution Vulnerability 2026-10-26 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Meta'] ['FAIRChem'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of pickle files. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process. Meta has issued an update to correct this vulnerability. More details can be found at: https://github.com/facebookresearch/fairchem/pull/1935 ['2026-03-04 - Vulnerability reported to vendor', '2026-10-26 - Coordinated public release of advisory', '2026-10-26 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-806/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-806/",
+    "title": "Meta FAIRChem write_top_k_vasp Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "updated_date": "2026-10-26",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of pickle files. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29101",
+    "zdi_id": "ZDI-26-806"
+  },
+  "ZDI-26-807": {
+    "additional_details": "Meta has issued an update to correct this vulnerability. More details can be found at: https://github.com/facebookresearch/fairchem/pull/1935",
+    "advisory_date": "2026-10-26",
+    "affected_products": [
+      "FAIRChem"
+    ],
+    "affected_vendors": [
+      "Meta"
+    ],
+    "credit": "Anonymous",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-03-04 - Vulnerability reported to vendor",
+      "2026-10-26 - Coordinated public release of advisory",
+      "2026-10-26 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-807 ZDI-CAN-29102 Meta FAIRChem get_computational_df_to_predict Deserialization of Untrusted Data Remote Code Execution Vulnerability 2026-10-26 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Meta'] ['FAIRChem'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of pickle files. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process. Meta has issued an update to correct this vulnerability. More details can be found at: https://github.com/facebookresearch/fairchem/pull/1935 ['2026-03-04 - Vulnerability reported to vendor', '2026-10-26 - Coordinated public release of advisory', '2026-10-26 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-807/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-807/",
+    "title": "Meta FAIRChem get_computational_df_to_predict Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "updated_date": "2026-10-26",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of pickle files. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29102",
+    "zdi_id": "ZDI-26-807"
+  },
+  "ZDI-26-808": {
+    "additional_details": "Meta has issued an update to correct this vulnerability. More details can be found at: https://github.com/facebookresearch/fairchem/pull/1935",
+    "advisory_date": "2026-10-26",
+    "affected_products": [
+      "FAIRChem"
+    ],
+    "affected_vendors": [
+      "Meta"
+    ],
+    "credit": "Anonymous",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-03-04 - Vulnerability reported to vendor",
+      "2026-10-26 - Coordinated public release of advisory",
+      "2026-10-26 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-808 ZDI-CAN-29103 Meta FAIRChem run_validation Deserialization of Untrusted Data Remote Code Execution Vulnerability 2026-10-26 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Meta'] ['FAIRChem'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of pickle files. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process. Meta has issued an update to correct this vulnerability. More details can be found at: https://github.com/facebookresearch/fairchem/pull/1935 ['2026-03-04 - Vulnerability reported to vendor', '2026-10-26 - Coordinated public release of advisory', '2026-10-26 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-808/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-808/",
+    "title": "Meta FAIRChem run_validation Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "updated_date": "2026-10-26",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of pickle files. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29103",
+    "zdi_id": "ZDI-26-808"
+  },
+  "ZDI-26-809": {
+    "additional_details": "Meta has issued an update to correct this vulnerability. More details can be found at: https://github.com/facebookresearch/fairchem/pull/1935",
+    "advisory_date": "2026-10-26",
+    "affected_products": [
+      "FAIRChem"
+    ],
+    "affected_vendors": [
+      "Meta"
+    ],
+    "credit": "Anonymous",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-03-26 - Vulnerability reported to vendor",
+      "2026-10-26 - Coordinated public release of advisory",
+      "2026-10-26 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-809 ZDI-CAN-29107 Meta FAIRChem dense_eval dft-targets Deserialization of Untrusted Data Remote Code Execution Vulnerability 2026-10-26 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Meta'] ['FAIRChem'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of pickle files. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process. Meta has issued an update to correct this vulnerability. More details can be found at: https://github.com/facebookresearch/fairchem/pull/1935 ['2026-03-26 - Vulnerability reported to vendor', '2026-10-26 - Coordinated public release of advisory', '2026-10-26 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-809/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-809/",
+    "title": "Meta FAIRChem dense_eval dft-targets Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "updated_date": "2026-10-26",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of pickle files. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29107",
+    "zdi_id": "ZDI-26-809"
   }
 }

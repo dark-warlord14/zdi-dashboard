@@ -1,5 +1,17 @@
 [
   {
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "deadline": "2027-02-23",
+    "discoverer": "Mirae",
+    "kind": "upcoming",
+    "reported_date": "2026-10-26",
+    "status": "upcoming",
+    "vendor": "Open Asset Importer Library",
+    "vendor_url": "https://www.assimp.org/",
+    "zdi_can": "ZDI-CAN-34791"
+  },
+  {
     "cvss": 3.3,
     "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
     "deadline": "2027-02-20",
@@ -3828,18 +3840,6 @@
     "zdi_can": "ZDI-CAN-31769"
   },
   {
-    "cvss": 8.1,
-    "cvss_vector": "AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
-    "deadline": "2026-11-13",
-    "discoverer": "Anonymous",
-    "kind": "upcoming",
-    "reported_date": "2026-07-16",
-    "status": "upcoming",
-    "vendor": "libwebsockets",
-    "vendor_url": "https://libwebsockets.org/",
-    "zdi_can": "ZDI-CAN-31039"
-  },
-  {
     "cvss": 7.0,
     "cvss_vector": "AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
     "deadline": "2026-11-12",
@@ -6195,18 +6195,6 @@
     "cvss": 7.8,
     "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
     "deadline": "2026-08-13",
-    "discoverer": "Brandon Evans of TrendAI Zero Day Initiative",
-    "kind": "upcoming",
-    "reported_date": "2026-04-15",
-    "status": "upcoming",
-    "vendor": "Pixar Animation Studio",
-    "vendor_url": null,
-    "zdi_can": "ZDI-CAN-30428"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-08-13",
     "discoverer": "Ben Koo (@kiddo_pwn)",
     "kind": "upcoming",
     "reported_date": "2026-04-15",
@@ -6921,31 +6909,7 @@
     "status": "upcoming",
     "vendor": "Meta",
     "vendor_url": "https://www.meta.com/",
-    "zdi_can": "ZDI-CAN-29445"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-07-24",
-    "discoverer": "Mat Powell of TrendAI Zero Day Initiative",
-    "kind": "upcoming",
-    "reported_date": "2026-03-26",
-    "status": "upcoming",
-    "vendor": "Meta",
-    "vendor_url": "https://www.meta.com/",
     "zdi_can": "ZDI-CAN-29233"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-07-24",
-    "discoverer": "Anonymous",
-    "kind": "upcoming",
-    "reported_date": "2026-03-26",
-    "status": "upcoming",
-    "vendor": "Meta",
-    "vendor_url": "https://www.meta.com/",
-    "zdi_can": "ZDI-CAN-29107"
   },
   {
     "cvss": 7.8,
@@ -6970,18 +6934,6 @@
     "vendor": "Meta",
     "vendor_url": "https://www.meta.com/",
     "zdi_can": "ZDI-CAN-29446"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-07-24",
-    "discoverer": "Mat Powell of TrendAI Zero Day Initiative",
-    "kind": "upcoming",
-    "reported_date": "2026-03-26",
-    "status": "upcoming",
-    "vendor": "Meta",
-    "vendor_url": "https://www.meta.com/",
-    "zdi_can": "ZDI-CAN-29443"
   },
   {
     "cvss": 7.8,
@@ -7041,18 +6993,6 @@
     "status": "upcoming",
     "vendor": "Meta",
     "vendor_url": "https://www.meta.com/",
-    "zdi_can": "ZDI-CAN-29442"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-07-24",
-    "discoverer": "Mat Powell of TrendAI Zero Day Initiative",
-    "kind": "upcoming",
-    "reported_date": "2026-03-26",
-    "status": "upcoming",
-    "vendor": "Meta",
-    "vendor_url": "https://www.meta.com/",
     "zdi_can": "ZDI-CAN-29447"
   },
   {
@@ -7066,18 +7006,6 @@
     "vendor": "Meta",
     "vendor_url": "https://www.meta.com/",
     "zdi_can": "ZDI-CAN-29367"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-07-24",
-    "discoverer": "Mat Powell of TrendAI Zero Day Initiative",
-    "kind": "upcoming",
-    "reported_date": "2026-03-26",
-    "status": "upcoming",
-    "vendor": "Meta",
-    "vendor_url": "https://www.meta.com/",
-    "zdi_can": "ZDI-CAN-29441"
   },
   {
     "cvss": 7.8,
@@ -7113,79 +7041,7 @@
     "status": "upcoming",
     "vendor": "Meta",
     "vendor_url": "https://www.meta.com/",
-    "zdi_can": "ZDI-CAN-29444"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-07-24",
-    "discoverer": "Mat Powell of TrendAI Zero Day Initiative",
-    "kind": "upcoming",
-    "reported_date": "2026-03-26",
-    "status": "upcoming",
-    "vendor": "Meta",
-    "vendor_url": "https://www.meta.com/",
-    "zdi_can": "ZDI-CAN-29440"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-07-24",
-    "discoverer": "Mat Powell of TrendAI Zero Day Initiative",
-    "kind": "upcoming",
-    "reported_date": "2026-03-26",
-    "status": "upcoming",
-    "vendor": "Meta",
-    "vendor_url": "https://www.meta.com/",
-    "zdi_can": "ZDI-CAN-29439"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-07-24",
-    "discoverer": "Mat Powell of TrendAI Zero Day Initiative",
-    "kind": "upcoming",
-    "reported_date": "2026-03-26",
-    "status": "upcoming",
-    "vendor": "Meta",
-    "vendor_url": "https://www.meta.com/",
-    "zdi_can": "ZDI-CAN-29434"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-07-24",
-    "discoverer": "Mat Powell of TrendAI Zero Day Initiative",
-    "kind": "upcoming",
-    "reported_date": "2026-03-26",
-    "status": "upcoming",
-    "vendor": "Meta",
-    "vendor_url": "https://www.meta.com/",
-    "zdi_can": "ZDI-CAN-29438"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-07-24",
-    "discoverer": "Mat Powell of TrendAI Zero Day Initiative",
-    "kind": "upcoming",
-    "reported_date": "2026-03-26",
-    "status": "upcoming",
-    "vendor": "Meta",
-    "vendor_url": "https://www.meta.com/",
     "zdi_can": "ZDI-CAN-29463"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-07-24",
-    "discoverer": "Mat Powell of TrendAI Zero Day Initiative",
-    "kind": "upcoming",
-    "reported_date": "2026-03-26",
-    "status": "upcoming",
-    "vendor": "Meta",
-    "vendor_url": "https://www.meta.com/",
-    "zdi_can": "ZDI-CAN-29436"
   },
   {
     "cvss": 7.8,
@@ -7203,18 +7059,6 @@
     "cvss": 7.8,
     "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
     "deadline": "2026-07-24",
-    "discoverer": "Mat Powell of TrendAI Zero Day Initiative",
-    "kind": "upcoming",
-    "reported_date": "2026-03-26",
-    "status": "upcoming",
-    "vendor": "Meta",
-    "vendor_url": "https://www.meta.com/",
-    "zdi_can": "ZDI-CAN-29437"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-07-24",
     "discoverer": "Bongeun Koo (@kiddo_pwn)",
     "kind": "upcoming",
     "reported_date": "2026-03-26",
@@ -7222,18 +7066,6 @@
     "vendor": "Meta",
     "vendor_url": "https://www.meta.com/",
     "zdi_can": "ZDI-CAN-29500"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-07-24",
-    "discoverer": "Mat Powell of TrendAI Zero Day Initiative",
-    "kind": "upcoming",
-    "reported_date": "2026-03-26",
-    "status": "upcoming",
-    "vendor": "Meta",
-    "vendor_url": "https://www.meta.com/",
-    "zdi_can": "ZDI-CAN-29435"
   },
   {
     "cvss": 7.8,
@@ -7377,43 +7209,7 @@
     "status": "upcoming",
     "vendor": "Meta",
     "vendor_url": null,
-    "zdi_can": "ZDI-CAN-29104"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-07-02",
-    "discoverer": "Anonymous",
-    "kind": "upcoming",
-    "reported_date": "2026-03-04",
-    "status": "upcoming",
-    "vendor": "Meta",
-    "vendor_url": null,
-    "zdi_can": "ZDI-CAN-29101"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-07-02",
-    "discoverer": "Anonymous",
-    "kind": "upcoming",
-    "reported_date": "2026-03-04",
-    "status": "upcoming",
-    "vendor": "Meta",
-    "vendor_url": null,
     "zdi_can": "ZDI-CAN-29465"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-07-02",
-    "discoverer": "Anonymous",
-    "kind": "upcoming",
-    "reported_date": "2026-03-04",
-    "status": "upcoming",
-    "vendor": "Meta",
-    "vendor_url": null,
-    "zdi_can": "ZDI-CAN-29103"
   },
   {
     "cvss": 7.8,
@@ -7438,18 +7234,6 @@
     "vendor": "Meta",
     "vendor_url": null,
     "zdi_can": "ZDI-CAN-29258"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-07-02",
-    "discoverer": "Anonymous",
-    "kind": "upcoming",
-    "reported_date": "2026-03-04",
-    "status": "upcoming",
-    "vendor": "Meta",
-    "vendor_url": null,
-    "zdi_can": "ZDI-CAN-29102"
   },
   {
     "cvss": 7.5,
