@@ -1,5 +1,35 @@
 [
   {
+    "cve": "CVE-2026-114552",
+    "cvss": 6.5,
+    "cvss_vector": null,
+    "description_snippet": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of MailEnable. Authentication is required to exploit this vulnerability. The specific flaw exists within the implementation of the parseObjectResponse metho...",
+    "kind": "published",
+    "published_date": "2026-10-27",
+    "title": "MailEnable parseObjectResponse XML External Entity Processing Information Disclosure Vulnerability",
+    "updated_date": "2026-10-27",
+    "url": "https://www.zerodayinitiative.com/advisories/ZDI-26-811/",
+    "vendor": "MailEnable",
+    "vendor_url": null,
+    "zdi_can": "ZDI-CAN-29137",
+    "zdi_id": "ZDI-26-811"
+  },
+  {
+    "cve": "CVE-2026-114551",
+    "cvss": 5.9,
+    "cvss_vector": null,
+    "description_snippet": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of MailEnable. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of mailbox credentials. The issue...",
+    "kind": "published",
+    "published_date": "2026-10-27",
+    "title": "MailEnable Auth Cleartext Storage Information Disclosure Vulnerability",
+    "updated_date": "2026-10-27",
+    "url": "https://www.zerodayinitiative.com/advisories/ZDI-26-810/",
+    "vendor": "MailEnable",
+    "vendor_url": null,
+    "zdi_can": "ZDI-CAN-34478",
+    "zdi_id": "ZDI-26-810"
+  },
+  {
     "cve": null,
     "cvss": 7.8,
     "cvss_vector": null,

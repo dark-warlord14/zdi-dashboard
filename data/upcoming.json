@@ -1212,30 +1212,6 @@
     "zdi_can": "ZDI-CAN-29161"
   },
   {
-    "cvss": 5.9,
-    "cvss_vector": "AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
-    "deadline": "2027-01-16",
-    "discoverer": "Nicolas Chatelain",
-    "kind": "upcoming",
-    "reported_date": "2026-09-18",
-    "status": "upcoming",
-    "vendor": "MailEnable",
-    "vendor_url": "https://www.mailenable.com/",
-    "zdi_can": "ZDI-CAN-34478"
-  },
-  {
-    "cvss": 6.5,
-    "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
-    "deadline": "2027-01-16",
-    "discoverer": "Nicolas Chatelain",
-    "kind": "upcoming",
-    "reported_date": "2026-09-18",
-    "status": "upcoming",
-    "vendor": "MailEnable",
-    "vendor_url": "https://www.mailenable.com/",
-    "zdi_can": "ZDI-CAN-29137"
-  },
-  {
     "cvss": 7.8,
     "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
     "deadline": "2027-01-16",

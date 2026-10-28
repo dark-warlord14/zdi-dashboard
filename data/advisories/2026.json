@@ -22678,5 +22678,61 @@
     "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of pickle files. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process.",
     "zdi_can": "ZDI-CAN-29107",
     "zdi_id": "ZDI-26-809"
+  },
+  "ZDI-26-810": {
+    "additional_details": "Fixed in version 10.60 https://www.mailenable.com/Premium-ReleaseNotes.txt",
+    "advisory_date": "2026-10-27",
+    "affected_products": [
+      "MailEnable"
+    ],
+    "affected_vendors": [
+      "MailEnable"
+    ],
+    "credit": "Nicolas Chatelain",
+    "cve": "CVE-2026-114551",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-114551",
+    "cvss": 5.9,
+    "cvss_vector": "AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+    "disclosure_timeline": [
+      "2026-09-18 - Vulnerability reported to vendor",
+      "2026-10-27 - Coordinated public release of advisory",
+      "2026-10-27 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-810 ZDI-CAN-34478 MailEnable Auth Cleartext Storage Information Disclosure Vulnerability 2026-10-27 CVE-2026-114551 https://www.cve.org/CVERecord?id=CVE-2026-114551 5.9 AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N ['MailEnable'] ['MailEnable'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of MailEnable. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of mailbox credentials. The issue results from storing sensitive information in plaintext. An attacker can leverage this in conjunction with other vulnerabilities to disclose stored credentials, leading to further compromise. Fixed in version 10.60 https://www.mailenable.com/Premium-ReleaseNotes.txt ['2026-09-18 - Vulnerability reported to vendor', '2026-10-27 - Coordinated public release of advisory', '2026-10-27 - Advisory Updated'] Nicolas Chatelain https://www.zerodayinitiative.com/advisories/ZDI-26-810/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-810/",
+    "title": "MailEnable Auth Cleartext Storage Information Disclosure Vulnerability",
+    "updated_date": "2026-10-27",
+    "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of MailEnable. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of mailbox credentials. The issue results from storing sensitive information in plaintext. An attacker can leverage this in conjunction with other vulnerabilities to disclose stored credentials, leading to further compromise.",
+    "zdi_can": "ZDI-CAN-34478",
+    "zdi_id": "ZDI-26-810"
+  },
+  "ZDI-26-811": {
+    "additional_details": "Fixed in version 10.60 https://www.mailenable.com/Premium-ReleaseNotes.txt",
+    "advisory_date": "2026-10-27",
+    "affected_products": [
+      "MailEnable"
+    ],
+    "affected_vendors": [
+      "MailEnable"
+    ],
+    "credit": "Nicolas Chatelain",
+    "cve": "CVE-2026-114552",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-114552",
+    "cvss": 6.5,
+    "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+    "disclosure_timeline": [
+      "2026-09-18 - Vulnerability reported to vendor",
+      "2026-10-27 - Coordinated public release of advisory",
+      "2026-10-27 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-811 ZDI-CAN-29137 MailEnable parseObjectResponse XML External Entity Processing Information Disclosure Vulnerability 2026-10-27 CVE-2026-114552 https://www.cve.org/CVERecord?id=CVE-2026-114552 6.5 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N ['MailEnable'] ['MailEnable'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of MailEnable. Authentication is required to exploit this vulnerability. The specific flaw exists within the implementation of the parseObjectResponse method. The issue results from the lack of proper restriction of XML External Entity (XXE) references. An attacker can leverage this vulnerability to disclose information in the context of the service account. Fixed in version 10.60 https://www.mailenable.com/Premium-ReleaseNotes.txt ['2026-09-18 - Vulnerability reported to vendor', '2026-10-27 - Coordinated public release of advisory', '2026-10-27 - Advisory Updated'] Nicolas Chatelain https://www.zerodayinitiative.com/advisories/ZDI-26-811/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-811/",
+    "title": "MailEnable parseObjectResponse XML External Entity Processing Information Disclosure Vulnerability",
+    "updated_date": "2026-10-27",
+    "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of MailEnable. Authentication is required to exploit this vulnerability. The specific flaw exists within the implementation of the parseObjectResponse method. The issue results from the lack of proper restriction of XML External Entity (XXE) references. An attacker can leverage this vulnerability to disclose information in the context of the service account.",
+    "zdi_can": "ZDI-CAN-29137",
+    "zdi_id": "ZDI-26-811"
   }
 }
