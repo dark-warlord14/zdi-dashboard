@@ -22734,5 +22734,621 @@
     "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of MailEnable. Authentication is required to exploit this vulnerability. The specific flaw exists within the implementation of the parseObjectResponse method. The issue results from the lack of proper restriction of XML External Entity (XXE) references. An attacker can leverage this vulnerability to disclose information in the context of the service account.",
     "zdi_can": "ZDI-CAN-29137",
     "zdi_id": "ZDI-26-811"
+  },
+  "ZDI-26-812": {
+    "additional_details": "06/18/26 \u2013 ZDI submitted the report to the vendor\u2019s GitHub account 06/20/26 \u2013 ZDI asked for updates 10/19/26 \u2013 ZDI asked for updates 10/22/26 \u2013 ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-10-28",
+    "affected_products": [
+      "Ultralytics"
+    ],
+    "affected_vendors": [
+      "Ultralytics"
+    ],
+    "credit": "Anonymous",
+    "cve": "CVE-2026-118613",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-118613",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-06-18 - Vulnerability reported to vendor",
+      "2026-10-28 - Coordinated public release of advisory",
+      "2026-10-28 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-812 ZDI-CAN-29652 (0Day) Ultralytics torch_load Deserialization of Untrusted Data Remote Code Execution Vulnerability 2026-10-28 CVE-2026-118613 https://www.cve.org/CVERecord?id=CVE-2026-118613 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Ultralytics'] ['Ultralytics'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ultralytics. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the torch_load function. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current user. 06/18/26 \u2013 ZDI submitted the report to the vendor\u2019s GitHub account 06/20/26 \u2013 ZDI asked for updates 10/19/26 \u2013 ZDI asked for updates 10/22/26 \u2013 ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-06-18 - Vulnerability reported to vendor', '2026-10-28 - Coordinated public release of advisory', '2026-10-28 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-812/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-812/",
+    "title": "(0Day) Ultralytics torch_load Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "updated_date": "2026-10-28",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ultralytics. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the torch_load function. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current user.",
+    "zdi_can": "ZDI-CAN-29652",
+    "zdi_id": "ZDI-26-812"
+  },
+  "ZDI-26-813": {
+    "additional_details": "06/18/26 \u2013 ZDI submitted the report to the vendor\u2019s GitHub account 06/20/26 \u2013 ZDI asked for updates 10/19/26 \u2013 ZDI asked for updates 10/22/26 \u2013 ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-10-28",
+    "affected_products": [
+      "Ultralytics"
+    ],
+    "affected_vendors": [
+      "Ultralytics"
+    ],
+    "credit": "Bongeun Koo (@kiddo_pwn)",
+    "cve": "CVE-2026-118614",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-118614",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-06-18 - Vulnerability reported to vendor",
+      "2026-10-28 - Coordinated public release of advisory",
+      "2026-10-28 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-813 ZDI-CAN-30119 (0Day) Ultralytics check_det_dataset Code Injection Remote Code Execution Vulnerability 2026-10-28 CVE-2026-118614 https://www.cve.org/CVERecord?id=CVE-2026-118614 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Ultralytics'] ['Ultralytics'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ultralytics. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the check_det_dataset function. The issue results from the lack of proper validation of a user-supplied string before using it to execute Python code. An attacker can leverage this vulnerability to execute code in the context of the current user. 06/18/26 \u2013 ZDI submitted the report to the vendor\u2019s GitHub account 06/20/26 \u2013 ZDI asked for updates 10/19/26 \u2013 ZDI asked for updates 10/22/26 \u2013 ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-06-18 - Vulnerability reported to vendor', '2026-10-28 - Coordinated public release of advisory', '2026-10-28 - Advisory Updated'] Bongeun Koo (@kiddo_pwn) https://www.zerodayinitiative.com/advisories/ZDI-26-813/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-813/",
+    "title": "(0Day) Ultralytics check_det_dataset Code Injection Remote Code Execution Vulnerability",
+    "updated_date": "2026-10-28",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ultralytics. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the check_det_dataset function. The issue results from the lack of proper validation of a user-supplied string before using it to execute Python code. An attacker can leverage this vulnerability to execute code in the context of the current user.",
+    "zdi_can": "ZDI-CAN-30119",
+    "zdi_id": "ZDI-26-813"
+  },
+  "ZDI-26-814": {
+    "additional_details": "06/18/26 \u2013 ZDI submitted the report to the vendor\u2019s GitHub account 06/20/26 \u2013 ZDI asked for updates 10/19/26 \u2013 ZDI asked for updates 10/22/26 \u2013 ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-10-28",
+    "affected_products": [
+      "Ultralytics"
+    ],
+    "affected_vendors": [
+      "Ultralytics"
+    ],
+    "credit": "Bongeun Koo (@kiddo_pwn)",
+    "cve": "CVE-2026-118615",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-118615",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-06-18 - Vulnerability reported to vendor",
+      "2026-10-28 - Coordinated public release of advisory",
+      "2026-10-28 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-814 ZDI-CAN-30122 (0Day) Ultralytics torch_safe_load Command Injection Remote Code Execution Vulnerability 2026-10-28 CVE-2026-118615 https://www.cve.org/CVERecord?id=CVE-2026-118615 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Ultralytics'] ['Ultralytics'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ultralytics. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the torch_safe_load function. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of the current user. 06/18/26 \u2013 ZDI submitted the report to the vendor\u2019s GitHub account 06/20/26 \u2013 ZDI asked for updates 10/19/26 \u2013 ZDI asked for updates 10/22/26 \u2013 ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-06-18 - Vulnerability reported to vendor', '2026-10-28 - Coordinated public release of advisory', '2026-10-28 - Advisory Updated'] Bongeun Koo (@kiddo_pwn) https://www.zerodayinitiative.com/advisories/ZDI-26-814/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-814/",
+    "title": "(0Day) Ultralytics torch_safe_load Command Injection Remote Code Execution Vulnerability",
+    "updated_date": "2026-10-28",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ultralytics. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the torch_safe_load function. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of the current user.",
+    "zdi_can": "ZDI-CAN-30122",
+    "zdi_id": "ZDI-26-814"
+  },
+  "ZDI-26-815": {
+    "additional_details": "06/18/26 \u2013 ZDI submitted the report to the vendor\u2019s GitHub account 06/20/26 \u2013 ZDI asked for updates 10/19/26 \u2013 ZDI asked for updates 10/22/26 \u2013 ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-10-28",
+    "affected_products": [
+      "Ultralytics"
+    ],
+    "affected_vendors": [
+      "Ultralytics"
+    ],
+    "credit": "Bongeun Koo (@kiddo_pwn)",
+    "cve": "CVE-2026-118616",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-118616",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-06-18 - Vulnerability reported to vendor",
+      "2026-10-28 - Coordinated public release of advisory",
+      "2026-10-28 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-815 ZDI-CAN-30123 (0Day) Ultralytics parse_model Code Injection Remote Code Execution Vulnerability 2026-10-28 CVE-2026-118616 https://www.cve.org/CVERecord?id=CVE-2026-118616 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Ultralytics'] ['Ultralytics'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ultralytics. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parse_model function. The issue results from the lack of proper validation of a user-supplied string before using it to execute Python code. An attacker can leverage this vulnerability to execute code in the context of the current user. 06/18/26 \u2013 ZDI submitted the report to the vendor\u2019s GitHub account 06/20/26 \u2013 ZDI asked for updates 10/19/26 \u2013 ZDI asked for updates 10/22/26 \u2013 ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-06-18 - Vulnerability reported to vendor', '2026-10-28 - Coordinated public release of advisory', '2026-10-28 - Advisory Updated'] Bongeun Koo (@kiddo_pwn) https://www.zerodayinitiative.com/advisories/ZDI-26-815/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-815/",
+    "title": "(0Day) Ultralytics parse_model Code Injection Remote Code Execution Vulnerability",
+    "updated_date": "2026-10-28",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ultralytics. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parse_model function. The issue results from the lack of proper validation of a user-supplied string before using it to execute Python code. An attacker can leverage this vulnerability to execute code in the context of the current user.",
+    "zdi_can": "ZDI-CAN-30123",
+    "zdi_id": "ZDI-26-815"
+  },
+  "ZDI-26-816": {
+    "additional_details": "06/18/26 \u2013 ZDI submitted the report to the vendor\u2019s GitHub account 06/20/26 \u2013 ZDI asked for updates 10/19/26 \u2013 ZDI asked for updates 10/22/26 \u2013 ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-10-28",
+    "affected_products": [
+      "Ultralytics"
+    ],
+    "affected_vendors": [
+      "Ultralytics"
+    ],
+    "credit": "Bongeun Koo (@kiddo_pwn)",
+    "cve": "CVE-2026-118617",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-118617",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-06-18 - Vulnerability reported to vendor",
+      "2026-10-28 - Coordinated public release of advisory",
+      "2026-10-28 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-816 ZDI-CAN-30124 (0Day) Ultralytics load_dataset_cache_file Deserialization of Untrusted Data Remote Code Execution Vulnerability 2026-10-28 CVE-2026-118617 https://www.cve.org/CVERecord?id=CVE-2026-118617 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Ultralytics'] ['Ultralytics'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ultralytics. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the load_dataset_cache_file function. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current user. 06/18/26 \u2013 ZDI submitted the report to the vendor\u2019s GitHub account 06/20/26 \u2013 ZDI asked for updates 10/19/26 \u2013 ZDI asked for updates 10/22/26 \u2013 ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-06-18 - Vulnerability reported to vendor', '2026-10-28 - Coordinated public release of advisory', '2026-10-28 - Advisory Updated'] Bongeun Koo (@kiddo_pwn) https://www.zerodayinitiative.com/advisories/ZDI-26-816/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-816/",
+    "title": "(0Day) Ultralytics load_dataset_cache_file Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "updated_date": "2026-10-28",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ultralytics. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the load_dataset_cache_file function. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current user.",
+    "zdi_can": "ZDI-CAN-30124",
+    "zdi_id": "ZDI-26-816"
+  },
+  "ZDI-26-817": {
+    "additional_details": "06/18/26 \u2013 ZDI submitted the report to the vendor\u2019s GitHub account 06/20/26 \u2013 ZDI asked for updates 10/19/26 \u2013 ZDI asked for updates 10/22/26 \u2013 ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-10-28",
+    "affected_products": [
+      "Ultralytics"
+    ],
+    "affected_vendors": [
+      "Ultralytics"
+    ],
+    "credit": "Bongeun Koo (@kiddo_pwn)",
+    "cve": "CVE-2026-118618",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-118618",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-06-18 - Vulnerability reported to vendor",
+      "2026-10-28 - Coordinated public release of advisory",
+      "2026-10-28 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-817 ZDI-CAN-30121 (0Day) Ultralytics parse_model Code Injection Remote Code Execution Vulnerability 2026-10-28 CVE-2026-118618 https://www.cve.org/CVERecord?id=CVE-2026-118618 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Ultralytics'] ['Ultralytics'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ultralytics. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parse_model function. The issue results from the lack of proper validation of a user-supplied string before using it to execute Python code. An attacker can leverage this vulnerability to execute code in the context of the current user. 06/18/26 \u2013 ZDI submitted the report to the vendor\u2019s GitHub account 06/20/26 \u2013 ZDI asked for updates 10/19/26 \u2013 ZDI asked for updates 10/22/26 \u2013 ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-06-18 - Vulnerability reported to vendor', '2026-10-28 - Coordinated public release of advisory', '2026-10-28 - Advisory Updated'] Bongeun Koo (@kiddo_pwn) https://www.zerodayinitiative.com/advisories/ZDI-26-817/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-817/",
+    "title": "(0Day) Ultralytics parse_model Code Injection Remote Code Execution Vulnerability",
+    "updated_date": "2026-10-28",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ultralytics. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parse_model function. The issue results from the lack of proper validation of a user-supplied string before using it to execute Python code. An attacker can leverage this vulnerability to execute code in the context of the current user.",
+    "zdi_can": "ZDI-CAN-30121",
+    "zdi_id": "ZDI-26-817"
+  },
+  "ZDI-26-818": {
+    "additional_details": "08/26/26 \u2013 ZDI submitted the report to the vendor\u2019s GitHub account 10/19/26 \u2013 ZDI asked for updates 10/22/26 \u2013 ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-10-28",
+    "affected_products": [
+      "Ultralytics"
+    ],
+    "affected_vendors": [
+      "Ultralytics"
+    ],
+    "credit": "Anonymous",
+    "cve": "CVE-2026-118619",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-118619",
+    "cvss": 8.8,
+    "cvss_vector": "AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-08-26 - Vulnerability reported to vendor",
+      "2026-10-28 - Coordinated public release of advisory",
+      "2026-10-28 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-818 ZDI-CAN-32376 (0Day) Ultralytics Google Drive Download Path Traversal Remote Code Execution Vulnerability 2026-10-28 CVE-2026-118619 https://www.cve.org/CVERecord?id=CVE-2026-118619 8.8 AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Ultralytics'] ['Ultralytics'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ultralytics. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of downloads from Google Drive. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute arbitrary code in the context of the current process. 08/26/26 \u2013 ZDI submitted the report to the vendor\u2019s GitHub account 10/19/26 \u2013 ZDI asked for updates 10/22/26 \u2013 ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-08-26 - Vulnerability reported to vendor', '2026-10-28 - Coordinated public release of advisory', '2026-10-28 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-818/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-818/",
+    "title": "(0Day) Ultralytics Google Drive Download Path Traversal Remote Code Execution Vulnerability",
+    "updated_date": "2026-10-28",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ultralytics. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of downloads from Google Drive. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute arbitrary code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-32376",
+    "zdi_id": "ZDI-26-818"
+  },
+  "ZDI-26-819": {
+    "additional_details": "02/05/26 - ZDI reported the vulnerability to the vendor 06/07/26 - the vendor acknowledged the receipt of the report and asked for an extension 07/21/26 - ZDI requested an update on the status of the fix 10/15/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-10-28",
+    "affected_products": [
+      "iLX-F511"
+    ],
+    "affected_vendors": [
+      "Alpine"
+    ],
+    "credit": "Sina Kheirkhah (@SinSinology) of Summoning Team (@SummoningTeam)",
+    "cve": "CVE-2026-118601",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-118601",
+    "cvss": 6.3,
+    "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+    "disclosure_timeline": [
+      "2026-02-04 - Vulnerability reported to vendor",
+      "2026-10-28 - Coordinated public release of advisory",
+      "2026-10-28 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-819 ZDI-CAN-29013 (0Day) (Pwn2Own) Alpine iLX-F511 SSH Hard-Coded Credentials Remote Code Execution Vulnerability 2026-10-28 CVE-2026-118601 https://www.cve.org/CVERecord?id=CVE-2026-118601 6.3 AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L ['Alpine'] ['iLX-F511'] This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Alpine iLX-F511 devices. Authentication is not required to exploit this vulnerability. The specific flaw exists within the SSH service. The issue results from the use of hard-coded credentials. An attacker can leverage this vulnerability to execute code in the context of the telechips user. 02/05/26 - ZDI reported the vulnerability to the vendor 06/07/26 - the vendor acknowledged the receipt of the report and asked for an extension 07/21/26 - ZDI requested an update on the status of the fix 10/15/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-02-04 - Vulnerability reported to vendor', '2026-10-28 - Coordinated public release of advisory', '2026-10-28 - Advisory Updated'] Sina Kheirkhah (@SinSinology) of Summoning Team (@SummoningTeam) https://www.zerodayinitiative.com/advisories/ZDI-26-819/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-819/",
+    "title": "(0Day) (Pwn2Own) Alpine iLX-F511 SSH Hard-Coded Credentials Remote Code Execution Vulnerability",
+    "updated_date": "2026-10-28",
+    "vulnerability_details": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Alpine iLX-F511 devices. Authentication is not required to exploit this vulnerability. The specific flaw exists within the SSH service. The issue results from the use of hard-coded credentials. An attacker can leverage this vulnerability to execute code in the context of the telechips user.",
+    "zdi_can": "ZDI-CAN-29013",
+    "zdi_id": "ZDI-26-819"
+  },
+  "ZDI-26-820": {
+    "additional_details": "02/05/26 - ZDI reported the vulnerability to the vendor 06/07/26 - the vendor acknowledged the receipt of the report and asked for an extension 07/21/26 - ZDI requested an update on the status of the fix 10/15/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-10-28",
+    "affected_products": [
+      "iLX-F511"
+    ],
+    "affected_vendors": [
+      "Alpine"
+    ],
+    "credit": "Sina Kheirkhah (@SinSinology) of Summoning Team (@SummoningTeam)",
+    "cve": "CVE-2026-118602",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-118602",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-02-04 - Vulnerability reported to vendor",
+      "2026-10-28 - Coordinated public release of advisory",
+      "2026-10-28 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-820 ZDI-CAN-29095 (0Day) (Pwn2Own) Alpine iLX-F511 Fiv.System Exposed Dangerous Method Local Privilege Escalation Vulnerability 2026-10-28 CVE-2026-118602 https://www.cve.org/CVERecord?id=CVE-2026-118602 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Alpine'] ['iLX-F511'] This vulnerability allows local attackers to escalate privileges on affected installations of Alpine iLX-F511. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Fiv service. The issue results from an exposed dangerous method. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root. 02/05/26 - ZDI reported the vulnerability to the vendor 06/07/26 - the vendor acknowledged the receipt of the report and asked for an extension 07/21/26 - ZDI requested an update on the status of the fix 10/15/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-02-04 - Vulnerability reported to vendor', '2026-10-28 - Coordinated public release of advisory', '2026-10-28 - Advisory Updated'] Sina Kheirkhah (@SinSinology) of Summoning Team (@SummoningTeam) https://www.zerodayinitiative.com/advisories/ZDI-26-820/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-820/",
+    "title": "(0Day) (Pwn2Own) Alpine iLX-F511 Fiv.System Exposed Dangerous Method Local Privilege Escalation Vulnerability",
+    "updated_date": "2026-10-28",
+    "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Alpine iLX-F511. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Fiv service. The issue results from an exposed dangerous method. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root.",
+    "zdi_can": "ZDI-CAN-29095",
+    "zdi_id": "ZDI-26-820"
+  },
+  "ZDI-26-821": {
+    "additional_details": "02/05/26 - ZDI reported the vulnerability to the vendor 06/07/26 - the vendor acknowledged the receipt of the report and asked for an extension 07/21/26 - ZDI requested an update on the status of the fix 10/15/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-10-28",
+    "affected_products": [
+      "iLX-F511"
+    ],
+    "affected_vendors": [
+      "Alpine"
+    ],
+    "credit": "Bongeun Koo (@kiddo_pwn) and Evangelos Daravigkas (@freddo_1337) of Team DDOS",
+    "cve": "CVE-2026-118603",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-118603",
+    "cvss": 8.0,
+    "cvss_vector": "AV:A/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-02-04 - Vulnerability reported to vendor",
+      "2026-10-28 - Coordinated public release of advisory",
+      "2026-10-28 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-821 ZDI-CAN-29017 (0Day) (Pwn2Own) Alpine iLX-F511 vCard Parsing Stack-based Buffer Overflow Remote Code Execution Vulnerability 2026-10-28 CVE-2026-118603 https://www.cve.org/CVERecord?id=CVE-2026-118603 8.0 AV:A/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Alpine'] ['iLX-F511'] This vulnerability allows network-adjacent attackers to execute arbitrary code on affected Alpine iLX-F511 devices. User interaction is required to exploit this vulnerability in that the target must connect to a malicious Bluetooth device. The specific flaw exists within the parsing of vCard data. The issue results from the lack of proper validation of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of root. 02/05/26 - ZDI reported the vulnerability to the vendor 06/07/26 - the vendor acknowledged the receipt of the report and asked for an extension 07/21/26 - ZDI requested an update on the status of the fix 10/15/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-02-04 - Vulnerability reported to vendor', '2026-10-28 - Coordinated public release of advisory', '2026-10-28 - Advisory Updated'] Bongeun Koo (@kiddo_pwn) and Evangelos Daravigkas (@freddo_1337) of Team DDOS https://www.zerodayinitiative.com/advisories/ZDI-26-821/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-821/",
+    "title": "(0Day) (Pwn2Own) Alpine iLX-F511 vCard Parsing Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+    "updated_date": "2026-10-28",
+    "vulnerability_details": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected Alpine iLX-F511 devices. User interaction is required to exploit this vulnerability in that the target must connect to a malicious Bluetooth device. The specific flaw exists within the parsing of vCard data. The issue results from the lack of proper validation of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of root.",
+    "zdi_can": "ZDI-CAN-29017",
+    "zdi_id": "ZDI-26-821"
+  },
+  "ZDI-26-822": {
+    "additional_details": "02/05/26 - ZDI reported the vulnerability to the vendor 06/07/26 - the vendor acknowledged the receipt of the report and asked for an extension 07/21/26 - ZDI requested an update on the status of the fix 10/15/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-10-28",
+    "affected_products": [
+      "iLX-F511"
+    ],
+    "affected_vendors": [
+      "Alpine"
+    ],
+    "credit": "Mia Miku Deutsch (@newbe3e)",
+    "cve": "CVE-2026-118604",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-118604",
+    "cvss": 6.8,
+    "cvss_vector": "AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-02-04 - Vulnerability reported to vendor",
+      "2026-10-28 - Coordinated public release of advisory",
+      "2026-10-28 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-822 ZDI-CAN-29007 (0Day) (Pwn2Own) Alpine iLX-F511 Framework Service Stack-based Buffer Overflow Remote Code Execution Vulnerability 2026-10-28 CVE-2026-118604 https://www.cve.org/CVERecord?id=CVE-2026-118604 6.8 AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['Alpine'] ['iLX-F511'] This vulnerability allows physically present attackers to execute arbitrary code on affected installations of Alpine iLX-F511 devices. Authentication is not required to exploit this vulnerability. The specific flaw exists within the framework service. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of root. 02/05/26 - ZDI reported the vulnerability to the vendor 06/07/26 - the vendor acknowledged the receipt of the report and asked for an extension 07/21/26 - ZDI requested an update on the status of the fix 10/15/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-02-04 - Vulnerability reported to vendor', '2026-10-28 - Coordinated public release of advisory', '2026-10-28 - Advisory Updated'] Mia Miku Deutsch (@newbe3e) https://www.zerodayinitiative.com/advisories/ZDI-26-822/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-822/",
+    "title": "(0Day) (Pwn2Own) Alpine iLX-F511 Framework Service Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+    "updated_date": "2026-10-28",
+    "vulnerability_details": "This vulnerability allows physically present attackers to execute arbitrary code on affected installations of Alpine iLX-F511 devices. Authentication is not required to exploit this vulnerability. The specific flaw exists within the framework service. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of root.",
+    "zdi_can": "ZDI-CAN-29007",
+    "zdi_id": "ZDI-26-822"
+  },
+  "ZDI-26-823": {
+    "additional_details": "02/05/26 - ZDI reported the vulnerability to the vendor 06/07/26 - the vendor acknowledged the receipt of the report and asked for an extension 07/21/26 - ZDI requested an update on the status of the fix 10/15/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-10-28",
+    "affected_products": [
+      "iLX-F511"
+    ],
+    "affected_vendors": [
+      "Alpine"
+    ],
+    "credit": "Dong hee Kim and Jong geon Kim from team K",
+    "cve": "CVE-2026-118605",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-118605",
+    "cvss": 8.0,
+    "cvss_vector": "AV:A/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-02-04 - Vulnerability reported to vendor",
+      "2026-10-28 - Coordinated public release of advisory",
+      "2026-10-28 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-823 ZDI-CAN-29069 (0Day) (Pwn2Own) Alpine iLX-F511 prh_sdp_service_search_decode Stack-based Buffer Overflow Remote Code Execution Vulnerability 2026-10-28 CVE-2026-118605 https://www.cve.org/CVERecord?id=CVE-2026-118605 8.0 AV:A/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Alpine'] ['iLX-F511'] This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Alpine iLX-F511 devices. An attacker must first obtain the ability to pair a malicious Bluetooth device with the target system in order to exploit this vulnerability. The specific flaw exists within the prh_sdp_service_search_decode function. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of root. 02/05/26 - ZDI reported the vulnerability to the vendor 06/07/26 - the vendor acknowledged the receipt of the report and asked for an extension 07/21/26 - ZDI requested an update on the status of the fix 10/15/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-02-04 - Vulnerability reported to vendor', '2026-10-28 - Coordinated public release of advisory', '2026-10-28 - Advisory Updated'] Dong hee Kim and Jong geon Kim from team K https://www.zerodayinitiative.com/advisories/ZDI-26-823/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-823/",
+    "title": "(0Day) (Pwn2Own) Alpine iLX-F511 prh_sdp_service_search_decode Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+    "updated_date": "2026-10-28",
+    "vulnerability_details": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Alpine iLX-F511 devices. An attacker must first obtain the ability to pair a malicious Bluetooth device with the target system in order to exploit this vulnerability. The specific flaw exists within the prh_sdp_service_search_decode function. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of root.",
+    "zdi_can": "ZDI-CAN-29069",
+    "zdi_id": "ZDI-26-823"
+  },
+  "ZDI-26-824": {
+    "additional_details": "02/05/26 - ZDI reported the vulnerability to the vendor 06/07/26 - the vendor acknowledged the receipt of the report and asked for an extension 07/21/26 - ZDI requested an update on the status of the fix 10/15/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-10-28",
+    "affected_products": [
+      "iLX-F511"
+    ],
+    "affected_vendors": [
+      "Alpine"
+    ],
+    "credit": "Cyrill Bannwart, Emanuele Barbeno, Yves Bieri, Lukasz D., Urs Mueller of Compass Security",
+    "cve": "CVE-2026-118606",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-118606",
+    "cvss": 8.8,
+    "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-02-04 - Vulnerability reported to vendor",
+      "2026-10-28 - Coordinated public release of advisory",
+      "2026-10-28 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-824 ZDI-CAN-29006 (0Day) (Pwn2Own) Alpine iLX-F511 Framework Service Exposed Dangerous Function Remote Code Execution Vulnerability 2026-10-28 CVE-2026-118606 https://www.cve.org/CVERecord?id=CVE-2026-118606 8.8 AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['Alpine'] ['iLX-F511'] This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Alpine iLX-F511 devices. Authentication is not required to exploit this vulnerability. The specific flaw exists within the framework service. The issue results from an exposed dangerous function. An attacker can leverage this vulnerability to execute code in the context of root. 02/05/26 - ZDI reported the vulnerability to the vendor 06/07/26 - the vendor acknowledged the receipt of the report and asked for an extension 07/21/26 - ZDI requested an update on the status of the fix 10/15/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-02-04 - Vulnerability reported to vendor', '2026-10-28 - Coordinated public release of advisory', '2026-10-28 - Advisory Updated'] Cyrill Bannwart, Emanuele Barbeno, Yves Bieri, Lukasz D., Urs Mueller of Compass Security https://www.zerodayinitiative.com/advisories/ZDI-26-824/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-824/",
+    "title": "(0Day) (Pwn2Own) Alpine iLX-F511 Framework Service Exposed Dangerous Function Remote Code Execution Vulnerability",
+    "updated_date": "2026-10-28",
+    "vulnerability_details": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Alpine iLX-F511 devices. Authentication is not required to exploit this vulnerability. The specific flaw exists within the framework service. The issue results from an exposed dangerous function. An attacker can leverage this vulnerability to execute code in the context of root.",
+    "zdi_can": "ZDI-CAN-29006",
+    "zdi_id": "ZDI-26-824"
+  },
+  "ZDI-26-825": {
+    "additional_details": "02/05/26 - ZDI reported the vulnerability to the vendor 06/07/26 - the vendor acknowledged the receipt of the report and asked for an extension 07/21/26 - ZDI requested an update on the status of the fix 10/15/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-10-28",
+    "affected_products": [
+      "iLX-F511"
+    ],
+    "affected_vendors": [
+      "Alpine"
+    ],
+    "credit": "Inhyung Lee (2Doll), Seokhun Lee (koon), Chulhan Park (limit3d), Wooseok Kim (wooseok), Yeonseok Jang (krokoit) from Team MAMMOTH",
+    "cve": "CVE-2026-118607",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-118607",
+    "cvss": 6.8,
+    "cvss_vector": "AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-02-04 - Vulnerability reported to vendor",
+      "2026-10-28 - Coordinated public release of advisory",
+      "2026-10-28 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-825 ZDI-CAN-28750 (0Day) (Pwn2Own) Alpine iLX-F511 diagapp Command Injection Vulnerability 2026-10-28 CVE-2026-118607 https://www.cve.org/CVERecord?id=CVE-2026-118607 6.8 AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['Alpine'] ['iLX-F511'] This vulnerability allows physically present attackers to execute arbitrary code on affected installations of Alpine iLX-F511 devices. Authentication is not required to exploit this vulnerability. The specific flaw exists within the diagapp component. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of root. 02/05/26 - ZDI reported the vulnerability to the vendor 06/07/26 - the vendor acknowledged the receipt of the report and asked for an extension 07/21/26 - ZDI requested an update on the status of the fix 10/15/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-02-04 - Vulnerability reported to vendor', '2026-10-28 - Coordinated public release of advisory', '2026-10-28 - Advisory Updated'] Inhyung Lee (2Doll), Seokhun Lee (koon), Chulhan Park (limit3d), Wooseok Kim (wooseok), Yeonseok Jang (krokoit) from Team MAMMOTH https://www.zerodayinitiative.com/advisories/ZDI-26-825/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-825/",
+    "title": "(0Day) (Pwn2Own) Alpine iLX-F511 diagapp Command Injection Vulnerability",
+    "updated_date": "2026-10-28",
+    "vulnerability_details": "This vulnerability allows physically present attackers to execute arbitrary code on affected installations of Alpine iLX-F511 devices. Authentication is not required to exploit this vulnerability. The specific flaw exists within the diagapp component. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of root.",
+    "zdi_can": "ZDI-CAN-28750",
+    "zdi_id": "ZDI-26-825"
+  },
+  "ZDI-26-826": {
+    "additional_details": "02/05/26 - ZDI reported the vulnerability to the vendor 06/07/26 - the vendor acknowledged the receipt of the report and asked for an extension 07/21/26 - ZDI requested an update on the status of the fix 10/15/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-10-28",
+    "affected_products": [
+      "iLX-F511"
+    ],
+    "affected_vendors": [
+      "Alpine"
+    ],
+    "credit": "Dong hee Kim and Jong geon Kim from team K",
+    "cve": "CVE-2026-118608",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-118608",
+    "cvss": 3.5,
+    "cvss_vector": "AV:A/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+    "disclosure_timeline": [
+      "2026-02-04 - Vulnerability reported to vendor",
+      "2026-10-28 - Coordinated public release of advisory",
+      "2026-10-28 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-826 ZDI-CAN-29018 (0Day) (Pwn2Own) Alpine iLX-F511 libanwbtstack.so prh_rfcomm_cc_process_test Out-Of-Bounds Read Information Disclosure Vulnerability 2026-10-28 CVE-2026-118608 https://www.cve.org/CVERecord?id=CVE-2026-118608 3.5 AV:A/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N ['Alpine'] ['iLX-F511'] This vulnerability allows network-adjacent attackers to disclose sensitive information on affected installations of Alpine iLX-F511 devices. An attacker must first obtain the ability to pair a malicious Bluetooth device with the target system in order to exploit this vulnerability. The specific flaw exists within the prh_rfcomm_cc_process_test function. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of root. 02/05/26 - ZDI reported the vulnerability to the vendor 06/07/26 - the vendor acknowledged the receipt of the report and asked for an extension 07/21/26 - ZDI requested an update on the status of the fix 10/15/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-02-04 - Vulnerability reported to vendor', '2026-10-28 - Coordinated public release of advisory', '2026-10-28 - Advisory Updated'] Dong hee Kim and Jong geon Kim from team K https://www.zerodayinitiative.com/advisories/ZDI-26-826/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-826/",
+    "title": "(0Day) (Pwn2Own) Alpine iLX-F511 libanwbtstack.so prh_rfcomm_cc_process_test Out-Of-Bounds Read Information Disclosure Vulnerability",
+    "updated_date": "2026-10-28",
+    "vulnerability_details": "This vulnerability allows network-adjacent attackers to disclose sensitive information on affected installations of Alpine iLX-F511 devices. An attacker must first obtain the ability to pair a malicious Bluetooth device with the target system in order to exploit this vulnerability. The specific flaw exists within the prh_rfcomm_cc_process_test function. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of root.",
+    "zdi_can": "ZDI-CAN-29018",
+    "zdi_id": "ZDI-26-826"
+  },
+  "ZDI-26-827": {
+    "additional_details": "02/05/26 - ZDI reported the vulnerability to the vendor 06/07/26 - the vendor acknowledged the receipt of the report and asked for an extension 07/21/26 - ZDI requested an update on the status of the fix 10/15/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-10-28",
+    "affected_products": [
+      "iLX-F511"
+    ],
+    "affected_vendors": [
+      "Alpine"
+    ],
+    "credit": "Konstantin B\u00fccheler, Neodyme AG",
+    "cve": "CVE-2026-118609",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-118609",
+    "cvss": 6.8,
+    "cvss_vector": "AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-02-04 - Vulnerability reported to vendor",
+      "2026-10-28 - Coordinated public release of advisory",
+      "2026-10-28 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-827 ZDI-CAN-29016 (0Day) (Pwn2Own) Alpine iLX-F511 Android Auto Connection Handler Stack-based Buffer Overflow Remote Code Execution Vulnerability 2026-10-28 CVE-2026-118609 https://www.cve.org/CVERecord?id=CVE-2026-118609 6.8 AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['Alpine'] ['iLX-F511'] This vulnerability allows physically present attackers to execute arbitrary code on affected installations of Alpine iLX-F511 devices. Authentication is not required to exploit this vulnerability. The specific flaw exists within the Android Auto connection handler. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of root. 02/05/26 - ZDI reported the vulnerability to the vendor 06/07/26 - the vendor acknowledged the receipt of the report and asked for an extension 07/21/26 - ZDI requested an update on the status of the fix 10/15/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-02-04 - Vulnerability reported to vendor', '2026-10-28 - Coordinated public release of advisory', '2026-10-28 - Advisory Updated'] Konstantin B\u00fccheler, Neodyme AG https://www.zerodayinitiative.com/advisories/ZDI-26-827/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-827/",
+    "title": "(0Day) (Pwn2Own) Alpine iLX-F511 Android Auto Connection Handler Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+    "updated_date": "2026-10-28",
+    "vulnerability_details": "This vulnerability allows physically present attackers to execute arbitrary code on affected installations of Alpine iLX-F511 devices. Authentication is not required to exploit this vulnerability. The specific flaw exists within the Android Auto connection handler. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of root.",
+    "zdi_can": "ZDI-CAN-29016",
+    "zdi_id": "ZDI-26-827"
+  },
+  "ZDI-26-828": {
+    "additional_details": "02/05/26 - ZDI reported the vulnerability to the vendor 06/07/26 - the vendor acknowledged the receipt of the report and asked for an extension 07/21/26 - ZDI requested an update on the status of the fix 10/15/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-10-28",
+    "affected_products": [
+      "iLX-F511"
+    ],
+    "affected_vendors": [
+      "Alpine"
+    ],
+    "credit": "Nam Ha Bach and Vu Tien Hoa from FPT NightWolf Team",
+    "cve": "CVE-2026-118610",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-118610",
+    "cvss": 8.8,
+    "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-02-04 - Vulnerability reported to vendor",
+      "2026-10-28 - Coordinated public release of advisory",
+      "2026-10-28 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-828 ZDI-CAN-29015 (0Day) (Pwn2Own) Alpine iLX-F511 Android Auto Service Stack-based Buffer Overflow Remote Code Execution Vulnerability 2026-10-28 CVE-2026-118610 https://www.cve.org/CVERecord?id=CVE-2026-118610 8.8 AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['Alpine'] ['iLX-F511'] This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Alpine iLX-F511 devices. Authentication is not required to exploit this vulnerability. The specific flaw exists within the Android Auto service. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of root. 02/05/26 - ZDI reported the vulnerability to the vendor 06/07/26 - the vendor acknowledged the receipt of the report and asked for an extension 07/21/26 - ZDI requested an update on the status of the fix 10/15/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-02-04 - Vulnerability reported to vendor', '2026-10-28 - Coordinated public release of advisory', '2026-10-28 - Advisory Updated'] Nam Ha Bach and Vu Tien Hoa from FPT NightWolf Team https://www.zerodayinitiative.com/advisories/ZDI-26-828/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-828/",
+    "title": "(0Day) (Pwn2Own) Alpine iLX-F511 Android Auto Service Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+    "updated_date": "2026-10-28",
+    "vulnerability_details": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Alpine iLX-F511 devices. Authentication is not required to exploit this vulnerability. The specific flaw exists within the Android Auto service. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of root.",
+    "zdi_can": "ZDI-CAN-29015",
+    "zdi_id": "ZDI-26-828"
+  },
+  "ZDI-26-829": {
+    "additional_details": "02/05/26 - ZDI reported the vulnerability to the vendor 06/07/26 - the vendor acknowledged the receipt of the report and asked for an extension 07/21/26 - ZDI requested an update on the status of the fix 10/15/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-10-28",
+    "affected_products": [
+      "iLX-F511"
+    ],
+    "affected_vendors": [
+      "Alpine"
+    ],
+    "credit": "Autocrypt(Hoyong Jin, Jaewoo Jeong, Chanhyeok Jung, Minsoo Son, Kisang Choi)",
+    "cve": "CVE-2026-118611",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-118611",
+    "cvss": 6.8,
+    "cvss_vector": "AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-02-04 - Vulnerability reported to vendor",
+      "2026-10-28 - Coordinated public release of advisory",
+      "2026-10-28 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-829 ZDI-CAN-29012 (0Day) (Pwn2Own) Alpine iLX-F511 Bluetooth OBEX Packet Handling Heap-based Buffer Overflow Remote Code Execution Vulnerability 2026-10-28 CVE-2026-118611 https://www.cve.org/CVERecord?id=CVE-2026-118611 6.8 AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['Alpine'] ['iLX-F511'] This vulnerability allows physically present attackers to execute arbitrary code on affected installations of Alpine iLX-F511 devices. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of Bluetooth OBEX packets. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of root. 02/05/26 - ZDI reported the vulnerability to the vendor 06/07/26 - the vendor acknowledged the receipt of the report and asked for an extension 07/21/26 - ZDI requested an update on the status of the fix 10/15/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-02-04 - Vulnerability reported to vendor', '2026-10-28 - Coordinated public release of advisory', '2026-10-28 - Advisory Updated'] Autocrypt(Hoyong Jin, Jaewoo Jeong, Chanhyeok Jung, Minsoo Son, Kisang Choi) https://www.zerodayinitiative.com/advisories/ZDI-26-829/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-829/",
+    "title": "(0Day) (Pwn2Own) Alpine iLX-F511 Bluetooth OBEX Packet Handling Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+    "updated_date": "2026-10-28",
+    "vulnerability_details": "This vulnerability allows physically present attackers to execute arbitrary code on affected installations of Alpine iLX-F511 devices. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of Bluetooth OBEX packets. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of root.",
+    "zdi_can": "ZDI-CAN-29012",
+    "zdi_id": "ZDI-26-829"
+  },
+  "ZDI-26-830": {
+    "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-ca/149527",
+    "advisory_date": "2026-10-28",
+    "affected_products": [
+      "Safari"
+    ],
+    "affected_vendors": [
+      "Apple"
+    ],
+    "credit": "Hossein Lotfi (@hosselot) of TrendAI Zero Day Initiative",
+    "cve": "CVE-2026-86974",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-86974",
+    "cvss": 8.8,
+    "cvss_vector": "AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-09-17 - Vulnerability reported to vendor",
+      "2026-10-28 - Coordinated public release of advisory",
+      "2026-10-28 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-830 ZDI-CAN-34401 Apple Safari jsToWasm IC Entrypoint Type Confusion Remote Code Execution Vulnerability 2026-10-28 CVE-2026-86974 https://www.cve.org/CVERecord?id=CVE-2026-86974 8.8 AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Apple'] ['Safari'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Apple Safari. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the implementation of jsToWasm IC entrypoint. By performing actions in JavaScript, an attacker can trigger a type confusion condition. An attacker can leverage this vulnerability to execute code in the context of the current process. Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-ca/149527 ['2026-09-17 - Vulnerability reported to vendor', '2026-10-28 - Coordinated public release of advisory', '2026-10-28 - Advisory Updated'] Hossein Lotfi (@hosselot) of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-830/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-830/",
+    "title": "Apple Safari jsToWasm IC Entrypoint Type Confusion Remote Code Execution Vulnerability",
+    "updated_date": "2026-10-28",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Apple Safari. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the implementation of jsToWasm IC entrypoint. By performing actions in JavaScript, an attacker can trigger a type confusion condition. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-34401",
+    "zdi_id": "ZDI-26-830"
+  },
+  "ZDI-26-831": {
+    "additional_details": "Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-ca/149230",
+    "advisory_date": "2026-10-28",
+    "affected_products": [
+      "macOS"
+    ],
+    "affected_vendors": [
+      "Apple"
+    ],
+    "credit": "NURIHAN KIM (HanTul)",
+    "cve": "CVE-2026-112656",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-112656",
+    "cvss": 3.3,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+    "disclosure_timeline": [
+      "2026-08-12 - Vulnerability reported to vendor",
+      "2026-10-28 - Coordinated public release of advisory",
+      "2026-10-28 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-831 ZDI-CAN-31600 Apple macOS CoreText GDEF LigCaretList Out-Of-Bounds Read Information Disclosure Vulnerability 2026-10-28 CVE-2026-112656 https://www.cve.org/CVERecord?id=CVE-2026-112656 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N ['Apple'] ['macOS'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Apple macOS. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of ligature caret lists in fonts. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute code in the context of the current process. Apple has issued an update to correct this vulnerability. More details can be found at: https://support.apple.com/en-ca/149230 ['2026-08-12 - Vulnerability reported to vendor', '2026-10-28 - Coordinated public release of advisory', '2026-10-28 - Advisory Updated'] NURIHAN KIM (HanTul) https://www.zerodayinitiative.com/advisories/ZDI-26-831/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-831/",
+    "title": "Apple macOS CoreText GDEF LigCaretList Out-Of-Bounds Read Information Disclosure Vulnerability",
+    "updated_date": "2026-10-28",
+    "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Apple macOS. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of ligature caret lists in fonts. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-31600",
+    "zdi_id": "ZDI-26-831"
+  },
+  "ZDI-26-832": {
+    "additional_details": "Fixed in AV version 26.5",
+    "advisory_date": "2026-10-28",
+    "affected_products": [
+      "Internet Security"
+    ],
+    "affected_vendors": [
+      "AVG"
+    ],
+    "credit": "Anonymous",
+    "cve": "CVE-2026-6064",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-6064",
+    "cvss": 7.3,
+    "cvss_vector": "AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-04-09 - Vulnerability reported to vendor",
+      "2026-10-28 - Coordinated public release of advisory",
+      "2026-10-28 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-832 ZDI-CAN-28694 AVG Internet Security avgToolsSvc Link Following Local Privilege Escalation Vulnerability 2026-10-28 CVE-2026-6064 https://www.cve.org/CVERecord?id=CVE-2026-6064 7.3 AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H ['AVG'] ['Internet Security'] This vulnerability allows local attackers to escalate privileges on affected installations of AVG Internet Security. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the avgToolsSvc service. By creating a symbolic link, an attacker can abuse the service to delete a folder. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. Fixed in AV version 26.5 ['2026-04-09 - Vulnerability reported to vendor', '2026-10-28 - Coordinated public release of advisory', '2026-10-28 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-832/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-832/",
+    "title": "AVG Internet Security avgToolsSvc Link Following Local Privilege Escalation Vulnerability",
+    "updated_date": "2026-10-28",
+    "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of AVG Internet Security. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the avgToolsSvc service. By creating a symbolic link, an attacker can abuse the service to delete a folder. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+    "zdi_can": "ZDI-CAN-28694",
+    "zdi_id": "ZDI-26-832"
+  },
+  "ZDI-26-833": {
+    "additional_details": "Valkey has issued an update to correct this vulnerability. More details can be found at: https://github.com/valkey-io/valkey/security/advisories/GHSA-f4q9-j22m-xqq9",
+    "advisory_date": "2026-10-28",
+    "affected_products": [
+      "Valkey"
+    ],
+    "affected_vendors": [
+      "Valkey"
+    ],
+    "credit": "Nenad Stojanovski",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 8.8,
+    "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-10-01 - Vulnerability reported to vendor",
+      "2026-10-28 - Coordinated public release of advisory",
+      "2026-10-28 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-833 ZDI-CAN-28318 Valkey clusterCreatePublishMsgBlock Numeric Truncation Error Remote Code Execution Vulnerability 2026-10-28 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Valkey'] ['Valkey'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Valkey. Authentication is required to exploit this vulnerability. The specific flaw exists within the handling of the parameters supplied to the PUBLISH message handler. The issue results from the lack of proper validation of user-supplied data, which can result in an incorrect calculation before allocating a buffer. An attacker can leverage this vulnerability to execute code in the context of the service account. Valkey has issued an update to correct this vulnerability. More details can be found at: https://github.com/valkey-io/valkey/security/advisories/GHSA-f4q9-j22m-xqq9 ['2026-10-01 - Vulnerability reported to vendor', '2026-10-28 - Coordinated public release of advisory', '2026-10-28 - Advisory Updated'] Nenad Stojanovski https://www.zerodayinitiative.com/advisories/ZDI-26-833/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-833/",
+    "title": "Valkey clusterCreatePublishMsgBlock Numeric Truncation Error Remote Code Execution Vulnerability",
+    "updated_date": "2026-10-28",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Valkey. Authentication is required to exploit this vulnerability. The specific flaw exists within the handling of the parameters supplied to the PUBLISH message handler. The issue results from the lack of proper validation of user-supplied data, which can result in an incorrect calculation before allocating a buffer. An attacker can leverage this vulnerability to execute code in the context of the service account.",
+    "zdi_can": "ZDI-CAN-28318",
+    "zdi_id": "ZDI-26-833"
   }
 }
