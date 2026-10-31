@@ -1,5 +1,77 @@
 [
   {
+    "cvss": 8.1,
+    "cvss_vector": "AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "deadline": "2027-02-27",
+    "discoverer": "HaeJung Yang (@haehaeYang), and ByungYoung Yi (@yibarrack) of Out of Bounds (@oobs_io)",
+    "kind": "upcoming",
+    "reported_date": "2026-10-30",
+    "status": "upcoming",
+    "vendor": "LiteLLM",
+    "vendor_url": "https://www.litellm.ai/",
+    "zdi_can": "ZDI-CAN-35872"
+  },
+  {
+    "cvss": 5.3,
+    "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+    "deadline": "2027-02-27",
+    "discoverer": "HaeJung Yang (@haehaeYang), and ByungYoung Yi (@yibarrack) of Out of Bounds (@oobs_io)",
+    "kind": "upcoming",
+    "reported_date": "2026-10-30",
+    "status": "upcoming",
+    "vendor": "LiteLLM",
+    "vendor_url": "https://www.litellm.ai/",
+    "zdi_can": "ZDI-CAN-35871"
+  },
+  {
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "deadline": "2027-02-27",
+    "discoverer": "YJK(@YJK0805) of ZUSO ART",
+    "kind": "upcoming",
+    "reported_date": "2026-10-30",
+    "status": "upcoming",
+    "vendor": "NVIDIA",
+    "vendor_url": "https://www.nvidia.com/en-us/",
+    "zdi_can": "ZDI-CAN-31757"
+  },
+  {
+    "cvss": 7.7,
+    "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N",
+    "deadline": "2027-02-27",
+    "discoverer": "Adam Bedard",
+    "kind": "upcoming",
+    "reported_date": "2026-10-30",
+    "status": "upcoming",
+    "vendor": "LiteLLM",
+    "vendor_url": "https://www.litellm.ai/",
+    "zdi_can": "ZDI-CAN-34752"
+  },
+  {
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "deadline": "2027-02-27",
+    "discoverer": "Mat Powell of TrendAI Zero Day Initiative",
+    "kind": "upcoming",
+    "reported_date": "2026-10-30",
+    "status": "upcoming",
+    "vendor": "Autodesk",
+    "vendor_url": "https://www.autodesk.com/",
+    "zdi_can": "ZDI-CAN-36736"
+  },
+  {
+    "cvss": 8.1,
+    "cvss_vector": "AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "deadline": "2027-02-27",
+    "discoverer": "Taisic Yun (@taisic_) of Xint (@xint_official)",
+    "kind": "upcoming",
+    "reported_date": "2026-10-30",
+    "status": "upcoming",
+    "vendor": "LiteLLM",
+    "vendor_url": "https://www.litellm.ai/",
+    "zdi_can": "ZDI-CAN-35866"
+  },
+  {
     "cvss": 3.3,
     "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
     "deadline": "2027-02-26",
