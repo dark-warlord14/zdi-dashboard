@@ -4044,18 +4044,6 @@
     "zdi_can": "ZDI-CAN-30777"
   },
   {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-11-19",
-    "discoverer": "Juan Pablo Lopez Yacubian",
-    "kind": "upcoming",
-    "reported_date": "2026-07-22",
-    "status": "upcoming",
-    "vendor": "Microsoft",
-    "vendor_url": "https://www.microsoft.com",
-    "zdi_can": "ZDI-CAN-32133"
-  },
-  {
     "cvss": 7.5,
     "cvss_vector": "AV:L/AC:H/PR:L/UI:R/S:C/C:H/I:H/A:H",
     "deadline": "2026-11-19",
@@ -4306,30 +4294,6 @@
     "vendor": "Microsoft",
     "vendor_url": "https://www.microsoft.com",
     "zdi_can": "ZDI-CAN-32136"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-11-14",
-    "discoverer": "YJK(@YJK0805) of ZUSO ART",
-    "kind": "upcoming",
-    "reported_date": "2026-07-17",
-    "status": "upcoming",
-    "vendor": "Microsoft",
-    "vendor_url": "https://www.microsoft.com",
-    "zdi_can": "ZDI-CAN-32135"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-11-14",
-    "discoverer": "YJK(@YJK0805) of ZUSO ART",
-    "kind": "upcoming",
-    "reported_date": "2026-07-17",
-    "status": "upcoming",
-    "vendor": "Microsoft",
-    "vendor_url": "https://www.microsoft.com",
-    "zdi_can": "ZDI-CAN-32134"
   },
   {
     "cvss": 7.5,
