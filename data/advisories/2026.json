@@ -23826,5 +23826,509 @@
     "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Microsoft Qlib. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the MLflowRecorder class. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current user.",
     "zdi_can": "ZDI-CAN-32135",
     "zdi_id": "ZDI-26-850"
+  },
+  "ZDI-26-851": {
+    "additional_details": "Fixed in Foglight 8.3",
+    "advisory_date": "2026-11-03",
+    "affected_products": [
+      "Foglight for Databases"
+    ],
+    "affected_vendors": [
+      "Quest"
+    ],
+    "credit": "06fe5fd2bc53027c4a3b7e395af0b850e7b8a044",
+    "cve": "CVE-2026-92190",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-92190",
+    "cvss": 9.8,
+    "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-04-30 - Vulnerability reported to vendor",
+      "2026-11-03 - Coordinated public release of advisory",
+      "2026-11-03 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-851 ZDI-CAN-29170 Quest Foglight for Databases baseRmiServiceExporter Deserialization of Untrusted Data Remote Code Execution Vulnerability 2026-11-03 CVE-2026-92190 https://www.cve.org/CVERecord?id=CVE-2026-92190 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['Quest'] ['Foglight for Databases'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is not required to exploit this vulnerability. The specific flaw exists within the configuration of the baseRmiServiceExporter bean. The issue results from the lack of proper validation of user-supplied data prior to deserializing it. An attacker can leverage this vulnerability to execute code in the context of SYSTEM. Fixed in Foglight 8.3 ['2026-04-30 - Vulnerability reported to vendor', '2026-11-03 - Coordinated public release of advisory', '2026-11-03 - Advisory Updated'] 06fe5fd2bc53027c4a3b7e395af0b850e7b8a044 https://www.zerodayinitiative.com/advisories/ZDI-26-851/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-851/",
+    "title": "Quest Foglight for Databases baseRmiServiceExporter Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-03",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is not required to exploit this vulnerability. The specific flaw exists within the configuration of the baseRmiServiceExporter bean. The issue results from the lack of proper validation of user-supplied data prior to deserializing it. An attacker can leverage this vulnerability to execute code in the context of SYSTEM.",
+    "zdi_can": "ZDI-CAN-29170",
+    "zdi_id": "ZDI-26-851"
+  },
+  "ZDI-26-852": {
+    "additional_details": "Fixed in Foglight 8.3",
+    "advisory_date": "2026-11-03",
+    "affected_products": [
+      "Foglight for Databases"
+    ],
+    "affected_vendors": [
+      "Quest"
+    ],
+    "credit": "06fe5fd2bc53027c4a3b7e395af0b850e7b8a044",
+    "cve": "CVE-2026-92187",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-92187",
+    "cvss": 8.8,
+    "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-05-21 - Vulnerability reported to vendor",
+      "2026-11-03 - Coordinated public release of advisory",
+      "2026-11-03 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-852 ZDI-CAN-29039 Quest Foglight for Databases extractAndCreateUploadInfoList Directory Traversal Remote Code Execution Vulnerability 2026-11-03 CVE-2026-92187 https://www.cve.org/CVERecord?id=CVE-2026-92187 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Quest'] ['Foglight for Databases'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is required to exploit this vulnerability. The specific flaw exists within the extractAndCreateUploadInfoList method. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute code in the context of SYSTEM. Fixed in Foglight 8.3 ['2026-05-21 - Vulnerability reported to vendor', '2026-11-03 - Coordinated public release of advisory', '2026-11-03 - Advisory Updated'] 06fe5fd2bc53027c4a3b7e395af0b850e7b8a044 https://www.zerodayinitiative.com/advisories/ZDI-26-852/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-852/",
+    "title": "Quest Foglight for Databases extractAndCreateUploadInfoList Directory Traversal Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-03",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is required to exploit this vulnerability. The specific flaw exists within the extractAndCreateUploadInfoList method. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute code in the context of SYSTEM.",
+    "zdi_can": "ZDI-CAN-29039",
+    "zdi_id": "ZDI-26-852"
+  },
+  "ZDI-26-853": {
+    "additional_details": "Fixed in Foglight 8.3",
+    "advisory_date": "2026-11-03",
+    "affected_products": [
+      "Foglight for Databases"
+    ],
+    "affected_vendors": [
+      "Quest"
+    ],
+    "credit": "06fe5fd2bc53027c4a3b7e395af0b850e7b8a044",
+    "cve": "CVE-2026-92193",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-92193",
+    "cvss": 6.5,
+    "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+    "disclosure_timeline": [
+      "2026-04-30 - Vulnerability reported to vendor",
+      "2026-11-03 - Coordinated public release of advisory",
+      "2026-11-03 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-853 ZDI-CAN-29216 Quest Foglight for Databases FileServlet External Control of File Path Information Disclosure Vulnerability 2026-11-03 CVE-2026-92193 https://www.cve.org/CVERecord?id=CVE-2026-92193 6.5 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N ['Quest'] ['Foglight for Databases'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Quest Foglight for Databases. Authentication is required to exploit this vulnerability. The specific flaw exists within the FileServlet class. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to disclose information in the context of SYSTEM. Fixed in Foglight 8.3 ['2026-04-30 - Vulnerability reported to vendor', '2026-11-03 - Coordinated public release of advisory', '2026-11-03 - Advisory Updated'] 06fe5fd2bc53027c4a3b7e395af0b850e7b8a044 https://www.zerodayinitiative.com/advisories/ZDI-26-853/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-853/",
+    "title": "Quest Foglight for Databases FileServlet External Control of File Path Information Disclosure Vulnerability",
+    "updated_date": "2026-11-03",
+    "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Quest Foglight for Databases. Authentication is required to exploit this vulnerability. The specific flaw exists within the FileServlet class. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to disclose information in the context of SYSTEM.",
+    "zdi_can": "ZDI-CAN-29216",
+    "zdi_id": "ZDI-26-853"
+  },
+  "ZDI-26-854": {
+    "additional_details": "Fixed in Foglight 8.3",
+    "advisory_date": "2026-11-03",
+    "affected_products": [
+      "Foglight for Databases"
+    ],
+    "affected_vendors": [
+      "Quest"
+    ],
+    "credit": "06fe5fd2bc53027c4a3b7e395af0b850e7b8a044",
+    "cve": "CVE-2026-92188",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-92188",
+    "cvss": 9.8,
+    "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-04-30 - Vulnerability reported to vendor",
+      "2026-11-03 - Coordinated public release of advisory",
+      "2026-11-03 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-854 ZDI-CAN-29168 Quest Foglight for Databases ForgeMBeanServerSupport Missing Authentication Remote Code Execution Vulnerability 2026-11-03 CVE-2026-92188 https://www.cve.org/CVERecord?id=CVE-2026-92188 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['Quest'] ['Foglight for Databases'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is not required to exploit this vulnerability. The specific flaw exists within the ForgeMBeanServerSupport module. The issue results from the lack of authentication prior to allowing access to functionality. An attacker can leverage this vulnerability to execute code in the context of SYSTEM. Fixed in Foglight 8.3 ['2026-04-30 - Vulnerability reported to vendor', '2026-11-03 - Coordinated public release of advisory', '2026-11-03 - Advisory Updated'] 06fe5fd2bc53027c4a3b7e395af0b850e7b8a044 https://www.zerodayinitiative.com/advisories/ZDI-26-854/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-854/",
+    "title": "Quest Foglight for Databases ForgeMBeanServerSupport Missing Authentication Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-03",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is not required to exploit this vulnerability. The specific flaw exists within the ForgeMBeanServerSupport module. The issue results from the lack of authentication prior to allowing access to functionality. An attacker can leverage this vulnerability to execute code in the context of SYSTEM.",
+    "zdi_can": "ZDI-CAN-29168",
+    "zdi_id": "ZDI-26-854"
+  },
+  "ZDI-26-855": {
+    "additional_details": "Fixed in Foglight 8.3",
+    "advisory_date": "2026-11-03",
+    "affected_products": [
+      "Foglight for Databases"
+    ],
+    "affected_vendors": [
+      "Quest"
+    ],
+    "credit": "06fe5fd2bc53027c4a3b7e395af0b850e7b8a044",
+    "cve": "CVE-2026-92192",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-92192",
+    "cvss": 8.8,
+    "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-05-21 - Vulnerability reported to vendor",
+      "2026-11-03 - Coordinated public release of advisory",
+      "2026-11-03 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-855 ZDI-CAN-29215 Quest Foglight for Databases installLicense Directory Traversal Remote Code Execution Vulnerability 2026-11-03 CVE-2026-92192 https://www.cve.org/CVERecord?id=CVE-2026-92192 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Quest'] ['Foglight for Databases'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is required to exploit this vulnerability. The specific flaw exists within the installLicense script. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute code in the context of SYSTEM. Fixed in Foglight 8.3 ['2026-05-21 - Vulnerability reported to vendor', '2026-11-03 - Coordinated public release of advisory', '2026-11-03 - Advisory Updated'] 06fe5fd2bc53027c4a3b7e395af0b850e7b8a044 https://www.zerodayinitiative.com/advisories/ZDI-26-855/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-855/",
+    "title": "Quest Foglight for Databases installLicense Directory Traversal Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-03",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is required to exploit this vulnerability. The specific flaw exists within the installLicense script. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute code in the context of SYSTEM.",
+    "zdi_can": "ZDI-CAN-29215",
+    "zdi_id": "ZDI-26-855"
+  },
+  "ZDI-26-856": {
+    "additional_details": "Fixed in Foglight 8.3",
+    "advisory_date": "2026-11-03",
+    "affected_products": [
+      "Foglight for Databases"
+    ],
+    "affected_vendors": [
+      "Quest"
+    ],
+    "credit": "06fe5fd2bc53027c4a3b7e395af0b850e7b8a044",
+    "cve": "CVE-2026-92195",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-92195",
+    "cvss": 8.8,
+    "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-05-21 - Vulnerability reported to vendor",
+      "2026-11-03 - Coordinated public release of advisory",
+      "2026-11-03 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-856 ZDI-CAN-29232 Quest Foglight for Databases loadEvolveLicense Directory Traversal Remote Code Execution Vulnerability 2026-11-03 CVE-2026-92195 https://www.cve.org/CVERecord?id=CVE-2026-92195 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Quest'] ['Foglight for Databases'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is required to exploit this vulnerability. The specific flaw exists within the loadEvolveLicense script. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute code in the context of SYSTEM. Fixed in Foglight 8.3 ['2026-05-21 - Vulnerability reported to vendor', '2026-11-03 - Coordinated public release of advisory', '2026-11-03 - Advisory Updated'] 06fe5fd2bc53027c4a3b7e395af0b850e7b8a044 https://www.zerodayinitiative.com/advisories/ZDI-26-856/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-856/",
+    "title": "Quest Foglight for Databases loadEvolveLicense Directory Traversal Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-03",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is required to exploit this vulnerability. The specific flaw exists within the loadEvolveLicense script. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute code in the context of SYSTEM.",
+    "zdi_can": "ZDI-CAN-29232",
+    "zdi_id": "ZDI-26-856"
+  },
+  "ZDI-26-857": {
+    "additional_details": "Fixed in Foglight 8.3",
+    "advisory_date": "2026-11-03",
+    "affected_products": [
+      "Foglight for Databases"
+    ],
+    "affected_vendors": [
+      "Quest"
+    ],
+    "credit": "06fe5fd2bc53027c4a3b7e395af0b850e7b8a044",
+    "cve": "CVE-2026-92194",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-92194",
+    "cvss": 8.8,
+    "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-05-21 - Vulnerability reported to vendor",
+      "2026-11-03 - Coordinated public release of advisory",
+      "2026-11-03 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-857 ZDI-CAN-29231 Quest Foglight for Databases loadManageServerLicense Directory Traversal Remote Code Execution Vulnerability 2026-11-03 CVE-2026-92194 https://www.cve.org/CVERecord?id=CVE-2026-92194 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Quest'] ['Foglight for Databases'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is required to exploit this vulnerability. The specific flaw exists within the loadManageServerLicense script. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute code in the context of SYSTEM. Fixed in Foglight 8.3 ['2026-05-21 - Vulnerability reported to vendor', '2026-11-03 - Coordinated public release of advisory', '2026-11-03 - Advisory Updated'] 06fe5fd2bc53027c4a3b7e395af0b850e7b8a044 https://www.zerodayinitiative.com/advisories/ZDI-26-857/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-857/",
+    "title": "Quest Foglight for Databases loadManageServerLicense Directory Traversal Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-03",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is required to exploit this vulnerability. The specific flaw exists within the loadManageServerLicense script. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute code in the context of SYSTEM.",
+    "zdi_can": "ZDI-CAN-29231",
+    "zdi_id": "ZDI-26-857"
+  },
+  "ZDI-26-858": {
+    "additional_details": "Fixed in Foglight 8.3",
+    "advisory_date": "2026-11-03",
+    "affected_products": [
+      "Foglight for Databases"
+    ],
+    "affected_vendors": [
+      "Quest"
+    ],
+    "credit": "06fe5fd2bc53027c4a3b7e395af0b850e7b8a044",
+    "cve": "CVE-2026-92186",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-92186",
+    "cvss": 8.8,
+    "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-05-21 - Vulnerability reported to vendor",
+      "2026-11-03 - Coordinated public release of advisory",
+      "2026-11-03 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-858 ZDI-CAN-29038 Quest Foglight for Databases paFnUploadFileAndCreateInfo Directory Traversal Remote Code Execution Vulnerability 2026-11-03 CVE-2026-92186 https://www.cve.org/CVERecord?id=CVE-2026-92186 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Quest'] ['Foglight for Databases'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is required to exploit this vulnerability. The specific flaw exists within the paFnUploadFileAndCreateInfo script. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute code in the context of SYSTEM. Fixed in Foglight 8.3 ['2026-05-21 - Vulnerability reported to vendor', '2026-11-03 - Coordinated public release of advisory', '2026-11-03 - Advisory Updated'] 06fe5fd2bc53027c4a3b7e395af0b850e7b8a044 https://www.zerodayinitiative.com/advisories/ZDI-26-858/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-858/",
+    "title": "Quest Foglight for Databases paFnUploadFileAndCreateInfo Directory Traversal Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-03",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is required to exploit this vulnerability. The specific flaw exists within the paFnUploadFileAndCreateInfo script. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute code in the context of SYSTEM.",
+    "zdi_can": "ZDI-CAN-29038",
+    "zdi_id": "ZDI-26-858"
+  },
+  "ZDI-26-859": {
+    "additional_details": "Fixed in Foglight 8.3",
+    "advisory_date": "2026-11-03",
+    "affected_products": [
+      "Foglight for Databases"
+    ],
+    "affected_vendors": [
+      "Quest"
+    ],
+    "credit": "06fe5fd2bc53027c4a3b7e395af0b850e7b8a044",
+    "cve": "CVE-2026-92191",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-92191",
+    "cvss": 8.8,
+    "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-05-21 - Vulnerability reported to vendor",
+      "2026-11-03 - Coordinated public release of advisory",
+      "2026-11-03 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-859 ZDI-CAN-29192 Quest Foglight for Databases runScript Incorrect Authorization Remote Code Execution Vulnerability 2026-11-03 CVE-2026-92191 https://www.cve.org/CVERecord?id=CVE-2026-92191 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Quest'] ['Foglight for Databases'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is required to exploit this vulnerability. The specific flaw exists within the runScript function. The issue results from incorrect authorization prior to allowing access to functionality. An attacker can leverage this vulnerability to execute code in the context of SYSTEM. Fixed in Foglight 8.3 ['2026-05-21 - Vulnerability reported to vendor', '2026-11-03 - Coordinated public release of advisory', '2026-11-03 - Advisory Updated'] 06fe5fd2bc53027c4a3b7e395af0b850e7b8a044 https://www.zerodayinitiative.com/advisories/ZDI-26-859/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-859/",
+    "title": "Quest Foglight for Databases runScript Incorrect Authorization Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-03",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is required to exploit this vulnerability. The specific flaw exists within the runScript function. The issue results from incorrect authorization prior to allowing access to functionality. An attacker can leverage this vulnerability to execute code in the context of SYSTEM.",
+    "zdi_can": "ZDI-CAN-29192",
+    "zdi_id": "ZDI-26-859"
+  },
+  "ZDI-26-860": {
+    "additional_details": "Fixed in Foglight 8.3",
+    "advisory_date": "2026-11-03",
+    "affected_products": [
+      "Foglight for Databases"
+    ],
+    "affected_vendors": [
+      "Quest"
+    ],
+    "credit": "06fe5fd2bc53027c4a3b7e395af0b850e7b8a044",
+    "cve": "CVE-2026-92197",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-92197",
+    "cvss": 8.8,
+    "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-05-21 - Vulnerability reported to vendor",
+      "2026-11-03 - Coordinated public release of advisory",
+      "2026-11-03 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-860 ZDI-CAN-29901 Quest Foglight for Databases unzipFile Directory Traversal Remote Code Execution Vulnerability 2026-11-03 CVE-2026-92197 https://www.cve.org/CVERecord?id=CVE-2026-92197 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Quest'] ['Foglight for Databases'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is required to exploit this vulnerability. The specific flaw exists within the unzipFile method. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute code in the context of SYSTEM. Fixed in Foglight 8.3 ['2026-05-21 - Vulnerability reported to vendor', '2026-11-03 - Coordinated public release of advisory', '2026-11-03 - Advisory Updated'] 06fe5fd2bc53027c4a3b7e395af0b850e7b8a044 https://www.zerodayinitiative.com/advisories/ZDI-26-860/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-860/",
+    "title": "Quest Foglight for Databases unzipFile Directory Traversal Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-03",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is required to exploit this vulnerability. The specific flaw exists within the unzipFile method. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute code in the context of SYSTEM.",
+    "zdi_can": "ZDI-CAN-29901",
+    "zdi_id": "ZDI-26-860"
+  },
+  "ZDI-26-861": {
+    "additional_details": "Fixed in Foglight 8.3",
+    "advisory_date": "2026-11-03",
+    "affected_products": [
+      "Foglight for Databases"
+    ],
+    "affected_vendors": [
+      "Quest"
+    ],
+    "credit": "06fe5fd2bc53027c4a3b7e395af0b850e7b8a044",
+    "cve": "CVE-2026-92189",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-92189",
+    "cvss": 9.8,
+    "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-04-30 - Vulnerability reported to vendor",
+      "2026-11-03 - Coordinated public release of advisory",
+      "2026-11-03 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-861 ZDI-CAN-29169 Quest Foglight for Databases writeTopologySectionToFile External Control of File Path Remote Code Execution Vulnerability 2026-11-03 CVE-2026-92189 https://www.cve.org/CVERecord?id=CVE-2026-92189 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['Quest'] ['Foglight for Databases'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is not required to exploit this vulnerability. The specific flaw exists within the writeTopologySectionToFile method. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute code in the context of SYSTEM. Fixed in Foglight 8.3 ['2026-04-30 - Vulnerability reported to vendor', '2026-11-03 - Coordinated public release of advisory', '2026-11-03 - Advisory Updated'] 06fe5fd2bc53027c4a3b7e395af0b850e7b8a044 https://www.zerodayinitiative.com/advisories/ZDI-26-861/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-861/",
+    "title": "Quest Foglight for Databases writeTopologySectionToFile External Control of File Path Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-03",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is not required to exploit this vulnerability. The specific flaw exists within the writeTopologySectionToFile method. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute code in the context of SYSTEM.",
+    "zdi_can": "ZDI-CAN-29169",
+    "zdi_id": "ZDI-26-861"
+  },
+  "ZDI-26-862": {
+    "additional_details": "Fixed in Foglight 8.3",
+    "advisory_date": "2026-11-03",
+    "affected_products": [
+      "Foglight for Databases"
+    ],
+    "affected_vendors": [
+      "Quest"
+    ],
+    "credit": "06fe5fd2bc53027c4a3b7e395af0b850e7b8a044",
+    "cve": "CVE-2026-92185",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-92185",
+    "cvss": 7.2,
+    "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:N/A:L",
+    "disclosure_timeline": [
+      "2026-06-09 - Vulnerability reported to vendor",
+      "2026-11-03 - Coordinated public release of advisory",
+      "2026-11-03 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-862 ZDI-CAN-28929 Quest Foglight for Databases AbstractParser XML External Entity Processing Information Disclosure Vulnerability 2026-11-03 CVE-2026-92185 https://www.cve.org/CVERecord?id=CVE-2026-92185 7.2 AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:N/A:L ['Quest'] ['Foglight for Databases'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Quest Foglight for Databases. Authentication is not required to exploit this vulnerability. The specific flaw exists within the AbstractParser class. Due to the improper restriction of XML External Entity (XXE) references, a crafted document specifying a URI causes the XML parser to access the URI and embed the contents back into the XML document for further processing. An attacker can leverage this vulnerability to disclose information in the context of SYSTEM. Fixed in Foglight 8.3 ['2026-06-09 - Vulnerability reported to vendor', '2026-11-03 - Coordinated public release of advisory', '2026-11-03 - Advisory Updated'] 06fe5fd2bc53027c4a3b7e395af0b850e7b8a044 https://www.zerodayinitiative.com/advisories/ZDI-26-862/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-862/",
+    "title": "Quest Foglight for Databases AbstractParser XML External Entity Processing Information Disclosure Vulnerability",
+    "updated_date": "2026-11-03",
+    "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Quest Foglight for Databases. Authentication is not required to exploit this vulnerability. The specific flaw exists within the AbstractParser class. Due to the improper restriction of XML External Entity (XXE) references, a crafted document specifying a URI causes the XML parser to access the URI and embed the contents back into the XML document for further processing. An attacker can leverage this vulnerability to disclose information in the context of SYSTEM.",
+    "zdi_can": "ZDI-CAN-28929",
+    "zdi_id": "ZDI-26-862"
+  },
+  "ZDI-26-863": {
+    "additional_details": "Fixed in Foglight 8.3",
+    "advisory_date": "2026-11-03",
+    "affected_products": [
+      "Foglight for Databases"
+    ],
+    "affected_vendors": [
+      "Quest"
+    ],
+    "credit": "06fe5fd2bc53027c4a3b7e395af0b850e7b8a044",
+    "cve": "CVE-2026-92199",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-92199",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-06-09 - Vulnerability reported to vendor",
+      "2026-11-03 - Coordinated public release of advisory",
+      "2026-11-03 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-863 ZDI-CAN-29967 Quest Foglight for Databases EncryptionUtil Hardcoded Encyption Key Local Privilege Escalation Vulnerability 2026-11-03 CVE-2026-92199 https://www.cve.org/CVERecord?id=CVE-2026-92199 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Quest'] ['Foglight for Databases'] This vulnerability allows local attackers to escalate privileges on affected installations of Quest Foglight for Databases. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the symmetricDecrypt method. The issue results from the use of a hard-coded cryptographic key. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. Fixed in Foglight 8.3 ['2026-06-09 - Vulnerability reported to vendor', '2026-11-03 - Coordinated public release of advisory', '2026-11-03 - Advisory Updated'] 06fe5fd2bc53027c4a3b7e395af0b850e7b8a044 https://www.zerodayinitiative.com/advisories/ZDI-26-863/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-863/",
+    "title": "Quest Foglight for Databases EncryptionUtil Hardcoded Encyption Key Local Privilege Escalation Vulnerability",
+    "updated_date": "2026-11-03",
+    "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Quest Foglight for Databases. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the symmetricDecrypt method. The issue results from the use of a hard-coded cryptographic key. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+    "zdi_can": "ZDI-CAN-29967",
+    "zdi_id": "ZDI-26-863"
+  },
+  "ZDI-26-864": {
+    "additional_details": "Fixed in Foglight 8.3",
+    "advisory_date": "2026-11-03",
+    "affected_products": [
+      "Foglight for Databases"
+    ],
+    "affected_vendors": [
+      "Quest"
+    ],
+    "credit": "06fe5fd2bc53027c4a3b7e395af0b850e7b8a044",
+    "cve": "CVE-2026-92198",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-92198",
+    "cvss": 8.2,
+    "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:L",
+    "disclosure_timeline": [
+      "2026-06-26 - Vulnerability reported to vendor",
+      "2026-11-03 - Coordinated public release of advisory",
+      "2026-11-03 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-864 ZDI-CAN-29934 Quest Foglight for Databases getSource XML External Entity Processing Information Disclosure Vulnerability 2026-11-03 CVE-2026-92198 https://www.cve.org/CVERecord?id=CVE-2026-92198 8.2 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:L ['Quest'] ['Foglight for Databases'] This vulnerability allows remote attackers to initiate arbitrary server-side requests on affected installations of Quest Foglight for Databases. Authentication is not required to exploit this vulnerability. The specific flaw exists within the getSource method. Due to the improper restriction of XML External Entity (XXE) references, a crafted document specifying a URI causes the XML parser to access the URI and embed the contents back into the XML document for further processing. An attacker can leverage this vulnerability to disclose information in the context of the application. Fixed in Foglight 8.3 ['2026-06-26 - Vulnerability reported to vendor', '2026-11-03 - Coordinated public release of advisory', '2026-11-03 - Advisory Updated'] 06fe5fd2bc53027c4a3b7e395af0b850e7b8a044 https://www.zerodayinitiative.com/advisories/ZDI-26-864/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-864/",
+    "title": "Quest Foglight for Databases getSource XML External Entity Processing Information Disclosure Vulnerability",
+    "updated_date": "2026-11-03",
+    "vulnerability_details": "This vulnerability allows remote attackers to initiate arbitrary server-side requests on affected installations of Quest Foglight for Databases. Authentication is not required to exploit this vulnerability. The specific flaw exists within the getSource method. Due to the improper restriction of XML External Entity (XXE) references, a crafted document specifying a URI causes the XML parser to access the URI and embed the contents back into the XML document for further processing. An attacker can leverage this vulnerability to disclose information in the context of the application.",
+    "zdi_can": "ZDI-CAN-29934",
+    "zdi_id": "ZDI-26-864"
+  },
+  "ZDI-26-865": {
+    "additional_details": "Fixed in Foglight 8.3",
+    "advisory_date": "2026-11-03",
+    "affected_products": [
+      "Foglight for Databases"
+    ],
+    "affected_vendors": [
+      "Quest"
+    ],
+    "credit": "Bobby Gould (@bobbygould5) of TrendAI Zero Day Initiative",
+    "cve": "CVE-2026-92200",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-92200",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-07-10 - Vulnerability reported to vendor",
+      "2026-11-03 - Coordinated public release of advisory",
+      "2026-11-03 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-865 ZDI-CAN-31118 Quest Foglight for Databases Incorrect Permission Assignment Local Privilege Escalation Vulnerability 2026-11-03 CVE-2026-92200 https://www.cve.org/CVERecord?id=CVE-2026-92200 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Quest'] ['Foglight for Databases'] This vulnerability allows local attackers to escalate privileges on affected installations of Quest Foglight for Databases. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the product installer. The issue results from incorrect permissions on a folder used by the product. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. Fixed in Foglight 8.3 ['2026-07-10 - Vulnerability reported to vendor', '2026-11-03 - Coordinated public release of advisory', '2026-11-03 - Advisory Updated'] Bobby Gould (@bobbygould5) of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-865/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-865/",
+    "title": "Quest Foglight for Databases Incorrect Permission Assignment Local Privilege Escalation Vulnerability",
+    "updated_date": "2026-11-03",
+    "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Quest Foglight for Databases. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the product installer. The issue results from incorrect permissions on a folder used by the product. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+    "zdi_can": "ZDI-CAN-31118",
+    "zdi_id": "ZDI-26-865"
+  },
+  "ZDI-26-866": {
+    "additional_details": "Fixed in Foglight 8.3",
+    "advisory_date": "2026-11-03",
+    "affected_products": [
+      "Foglight for Databases"
+    ],
+    "affected_vendors": [
+      "Quest"
+    ],
+    "credit": "06fe5fd2bc53027c4a3b7e395af0b850e7b8a044",
+    "cve": "CVE-2026-92196",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-92196",
+    "cvss": 7.2,
+    "cvss_vector": "AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-06-09 - Vulnerability reported to vendor",
+      "2026-11-03 - Coordinated public release of advisory",
+      "2026-11-03 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-866 ZDI-CAN-29889 Quest Foglight for Databases renderTemplateString Server-Side Template Injection Remote Code Execution Vulnerability 2026-11-03 CVE-2026-92196 https://www.cve.org/CVERecord?id=CVE-2026-92196 7.2 AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H ['Quest'] ['Foglight for Databases'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is required to exploit this vulnerability. The specific flaw exists within the renderTemplateString method. The issue results from the lack of proper validation of a user-supplied string before processing it with the template engine. An attacker can leverage this vulnerability to execute code in the context of SYSTEM. Fixed in Foglight 8.3 ['2026-06-09 - Vulnerability reported to vendor', '2026-11-03 - Coordinated public release of advisory', '2026-11-03 - Advisory Updated'] 06fe5fd2bc53027c4a3b7e395af0b850e7b8a044 https://www.zerodayinitiative.com/advisories/ZDI-26-866/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-866/",
+    "title": "Quest Foglight for Databases renderTemplateString Server-Side Template Injection Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-03",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Quest Foglight for Databases. Authentication is required to exploit this vulnerability. The specific flaw exists within the renderTemplateString method. The issue results from the lack of proper validation of a user-supplied string before processing it with the template engine. An attacker can leverage this vulnerability to execute code in the context of SYSTEM.",
+    "zdi_can": "ZDI-CAN-29889",
+    "zdi_id": "ZDI-26-866"
+  },
+  "ZDI-26-867": {
+    "additional_details": "Cisco has issued an update to correct this vulnerability. More details can be found at: https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-snort3-ybgmhTQe",
+    "advisory_date": "2026-11-03",
+    "affected_products": [
+      "Snort"
+    ],
+    "affected_vendors": [
+      "Cisco"
+    ],
+    "credit": "Alex Williams from Pellera Technologies",
+    "cve": "CVE-2026-20043",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-20043",
+    "cvss": 9.8,
+    "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-10-28 - Vulnerability reported to vendor",
+      "2026-11-03 - Coordinated public release of advisory",
+      "2026-11-03 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-867 ZDI-CAN-33575 Cisco Snort sf_unfold_header Out-Of-Bounds Write Remote Code Execution Vulnerability 2026-11-03 CVE-2026-20043 https://www.cve.org/CVERecord?id=CVE-2026-20043 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['Cisco'] ['Snort'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Cisco Snort. Authentication is not required to exploit this vulnerability. The specific flaw exists within the processing of HTTP response bodies containing ZIP archives. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated buffer. An attacker can leverage this vulnerability to execute code in the context of the Snort service account. Cisco has issued an update to correct this vulnerability. More details can be found at: https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-snort3-ybgmhTQe ['2026-10-28 - Vulnerability reported to vendor', '2026-11-03 - Coordinated public release of advisory', '2026-11-03 - Advisory Updated'] Alex Williams from Pellera Technologies https://www.zerodayinitiative.com/advisories/ZDI-26-867/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-867/",
+    "title": "Cisco Snort sf_unfold_header Out-Of-Bounds Write Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-03",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Cisco Snort. Authentication is not required to exploit this vulnerability. The specific flaw exists within the processing of HTTP response bodies containing ZIP archives. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated buffer. An attacker can leverage this vulnerability to execute code in the context of the Snort service account.",
+    "zdi_can": "ZDI-CAN-33575",
+    "zdi_id": "ZDI-26-867"
+  },
+  "ZDI-26-868": {
+    "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://support.microsoft.com/en-us/servicing/os/windows-11/2026/10/kb5127648-windows-11-24h2-25h2-26h2-security-update",
+    "advisory_date": "2026-11-03",
+    "affected_products": [
+      "Windows"
+    ],
+    "affected_vendors": [
+      "Microsoft"
+    ],
+    "credit": "HeeChan Kim (@heegong123) of TeamH4C",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 4.7,
+    "cvss_vector": "AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H",
+    "disclosure_timeline": [
+      "2026-05-28 - Vulnerability reported to vendor",
+      "2026-11-03 - Coordinated public release of advisory",
+      "2026-11-03 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-868 ZDI-CAN-29932 Microsoft Windows Aero Theme Improper Handling Of Error Condition Denial-of-Service Vulnerability 2026-11-03 4.7 AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H ['Microsoft'] ['Windows'] This vulnerability allows local attackers to create a denial-of-service condition on affected installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of Aero themes. The issue results from improper handling of an error condition. An attacker can leverage this vulnerability to create a persistent denial-of-service condition on the system. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://support.microsoft.com/en-us/servicing/os/windows-11/2026/10/kb5127648-windows-11-24h2-25h2-26h2-security-update ['2026-05-28 - Vulnerability reported to vendor', '2026-11-03 - Coordinated public release of advisory', '2026-11-03 - Advisory Updated'] HeeChan Kim (@heegong123) of TeamH4C https://www.zerodayinitiative.com/advisories/ZDI-26-868/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-868/",
+    "title": "Microsoft Windows Aero Theme Improper Handling Of Error Condition Denial-of-Service Vulnerability",
+    "updated_date": "2026-11-03",
+    "vulnerability_details": "This vulnerability allows local attackers to create a denial-of-service condition on affected installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of Aero themes. The issue results from improper handling of an error condition. An attacker can leverage this vulnerability to create a persistent denial-of-service condition on the system.",
+    "zdi_can": "ZDI-CAN-29932",
+    "zdi_id": "ZDI-26-868"
   }
 }

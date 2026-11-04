@@ -396,18 +396,6 @@
     "zdi_can": "ZDI-CAN-34558"
   },
   {
-    "cvss": 9.8,
-    "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
-    "deadline": "2027-02-25",
-    "discoverer": "Alex Williams from Pellera Technologies",
-    "kind": "upcoming",
-    "reported_date": "2026-10-28",
-    "status": "upcoming",
-    "vendor": "Cisco",
-    "vendor_url": "https://www.cisco.com",
-    "zdi_can": "ZDI-CAN-33575"
-  },
-  {
     "cvss": 7.8,
     "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
     "deadline": "2027-02-25",
@@ -4524,18 +4512,6 @@
     "zdi_can": "ZDI-CAN-31759"
   },
   {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-    "deadline": "2026-11-07",
-    "discoverer": "Bobby Gould (@bobbygould5) of TrendAI Zero Day Initiative",
-    "kind": "upcoming",
-    "reported_date": "2026-07-10",
-    "status": "upcoming",
-    "vendor": "Quest",
-    "vendor_url": null,
-    "zdi_can": "ZDI-CAN-31118"
-  },
-  {
     "cvss": 9.3,
     "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:L/A:N",
     "deadline": "2026-11-07",
@@ -4786,18 +4762,6 @@
     "vendor": "Wibu-Systems",
     "vendor_url": "https://www.wibu.com/",
     "zdi_can": "ZDI-CAN-30087"
-  },
-  {
-    "cvss": 8.2,
-    "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:L",
-    "deadline": "2026-10-24",
-    "discoverer": "06fe5fd2bc53027c4a3b7e395af0b850e7b8a044",
-    "kind": "upcoming",
-    "reported_date": "2026-06-26",
-    "status": "upcoming",
-    "vendor": "Quest",
-    "vendor_url": null,
-    "zdi_can": "ZDI-CAN-29934"
   },
   {
     "cvss": 7.8,
@@ -5388,18 +5352,6 @@
     "zdi_can": "ZDI-CAN-29899"
   },
   {
-    "cvss": 7.2,
-    "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:N/A:L",
-    "deadline": "2026-10-07",
-    "discoverer": "06fe5fd2bc53027c4a3b7e395af0b850e7b8a044",
-    "kind": "upcoming",
-    "reported_date": "2026-06-09",
-    "status": "upcoming",
-    "vendor": "Quest",
-    "vendor_url": null,
-    "zdi_can": "ZDI-CAN-28929"
-  },
-  {
     "cvss": 5.0,
     "cvss_vector": "AV:L/AC:H/PR:L/UI:R/S:U/C:N/I:L/A:H",
     "deadline": "2026-10-07",
@@ -5412,18 +5364,6 @@
     "zdi_can": "ZDI-CAN-29898"
   },
   {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-    "deadline": "2026-10-07",
-    "discoverer": "06fe5fd2bc53027c4a3b7e395af0b850e7b8a044",
-    "kind": "upcoming",
-    "reported_date": "2026-06-09",
-    "status": "upcoming",
-    "vendor": "Quest",
-    "vendor_url": null,
-    "zdi_can": "ZDI-CAN-29967"
-  },
-  {
     "cvss": 5.0,
     "cvss_vector": "AV:L/AC:H/PR:L/UI:R/S:U/C:N/I:L/A:H",
     "deadline": "2026-10-07",
@@ -5434,18 +5374,6 @@
     "vendor": "Malwarebytes",
     "vendor_url": null,
     "zdi_can": "ZDI-CAN-29908"
-  },
-  {
-    "cvss": 7.2,
-    "cvss_vector": "AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
-    "deadline": "2026-10-07",
-    "discoverer": "06fe5fd2bc53027c4a3b7e395af0b850e7b8a044",
-    "kind": "upcoming",
-    "reported_date": "2026-06-09",
-    "status": "upcoming",
-    "vendor": "Quest",
-    "vendor_url": null,
-    "zdi_can": "ZDI-CAN-29889"
   },
   {
     "cvss": 6.7,
@@ -5722,18 +5650,6 @@
     "vendor": "Debian",
     "vendor_url": null,
     "zdi_can": "ZDI-CAN-30693"
-  },
-  {
-    "cvss": 4.7,
-    "cvss_vector": "AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H",
-    "deadline": "2026-09-25",
-    "discoverer": "HeeChan Kim (@heegong123) of TeamH4C",
-    "kind": "upcoming",
-    "reported_date": "2026-05-28",
-    "status": "upcoming",
-    "vendor": "Microsoft",
-    "vendor_url": "https://www.microsoft.com",
-    "zdi_can": "ZDI-CAN-29932"
   },
   {
     "cvss": 6.0,
@@ -6084,90 +6000,6 @@
     "zdi_can": "ZDI-CAN-30454"
   },
   {
-    "cvss": 8.8,
-    "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-    "deadline": "2026-09-18",
-    "discoverer": "06fe5fd2bc53027c4a3b7e395af0b850e7b8a044",
-    "kind": "upcoming",
-    "reported_date": "2026-05-21",
-    "status": "upcoming",
-    "vendor": "Quest",
-    "vendor_url": null,
-    "zdi_can": "ZDI-CAN-29038"
-  },
-  {
-    "cvss": 8.8,
-    "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-    "deadline": "2026-09-18",
-    "discoverer": "06fe5fd2bc53027c4a3b7e395af0b850e7b8a044",
-    "kind": "upcoming",
-    "reported_date": "2026-05-21",
-    "status": "upcoming",
-    "vendor": "Quest",
-    "vendor_url": null,
-    "zdi_can": "ZDI-CAN-29232"
-  },
-  {
-    "cvss": 8.8,
-    "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-    "deadline": "2026-09-18",
-    "discoverer": "06fe5fd2bc53027c4a3b7e395af0b850e7b8a044",
-    "kind": "upcoming",
-    "reported_date": "2026-05-21",
-    "status": "upcoming",
-    "vendor": "Quest",
-    "vendor_url": null,
-    "zdi_can": "ZDI-CAN-29039"
-  },
-  {
-    "cvss": 8.8,
-    "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-    "deadline": "2026-09-18",
-    "discoverer": "06fe5fd2bc53027c4a3b7e395af0b850e7b8a044",
-    "kind": "upcoming",
-    "reported_date": "2026-05-21",
-    "status": "upcoming",
-    "vendor": "Quest",
-    "vendor_url": null,
-    "zdi_can": "ZDI-CAN-29215"
-  },
-  {
-    "cvss": 8.8,
-    "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-    "deadline": "2026-09-18",
-    "discoverer": "06fe5fd2bc53027c4a3b7e395af0b850e7b8a044",
-    "kind": "upcoming",
-    "reported_date": "2026-05-21",
-    "status": "upcoming",
-    "vendor": "Quest",
-    "vendor_url": null,
-    "zdi_can": "ZDI-CAN-29231"
-  },
-  {
-    "cvss": 8.8,
-    "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-    "deadline": "2026-09-18",
-    "discoverer": "06fe5fd2bc53027c4a3b7e395af0b850e7b8a044",
-    "kind": "upcoming",
-    "reported_date": "2026-05-21",
-    "status": "upcoming",
-    "vendor": "Quest",
-    "vendor_url": null,
-    "zdi_can": "ZDI-CAN-29192"
-  },
-  {
-    "cvss": 8.8,
-    "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-    "deadline": "2026-09-18",
-    "discoverer": "06fe5fd2bc53027c4a3b7e395af0b850e7b8a044",
-    "kind": "upcoming",
-    "reported_date": "2026-05-21",
-    "status": "upcoming",
-    "vendor": "Quest",
-    "vendor_url": null,
-    "zdi_can": "ZDI-CAN-29901"
-  },
-  {
     "cvss": 7.0,
     "cvss_vector": "AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
     "deadline": "2026-09-17",
@@ -6274,54 +6106,6 @@
     "vendor": "Smoothwall",
     "vendor_url": "https://www.smoothwall.org/index.html",
     "zdi_can": "ZDI-CAN-28519"
-  },
-  {
-    "cvss": 9.8,
-    "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
-    "deadline": "2026-08-28",
-    "discoverer": "06fe5fd2bc53027c4a3b7e395af0b850e7b8a044",
-    "kind": "upcoming",
-    "reported_date": "2026-04-30",
-    "status": "upcoming",
-    "vendor": "Quest",
-    "vendor_url": null,
-    "zdi_can": "ZDI-CAN-29170"
-  },
-  {
-    "cvss": 9.8,
-    "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
-    "deadline": "2026-08-28",
-    "discoverer": "06fe5fd2bc53027c4a3b7e395af0b850e7b8a044",
-    "kind": "upcoming",
-    "reported_date": "2026-04-30",
-    "status": "upcoming",
-    "vendor": "Quest",
-    "vendor_url": null,
-    "zdi_can": "ZDI-CAN-29169"
-  },
-  {
-    "cvss": 6.5,
-    "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
-    "deadline": "2026-08-28",
-    "discoverer": "06fe5fd2bc53027c4a3b7e395af0b850e7b8a044",
-    "kind": "upcoming",
-    "reported_date": "2026-04-30",
-    "status": "upcoming",
-    "vendor": "Quest",
-    "vendor_url": null,
-    "zdi_can": "ZDI-CAN-29216"
-  },
-  {
-    "cvss": 9.8,
-    "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
-    "deadline": "2026-08-28",
-    "discoverer": "06fe5fd2bc53027c4a3b7e395af0b850e7b8a044",
-    "kind": "upcoming",
-    "reported_date": "2026-04-30",
-    "status": "upcoming",
-    "vendor": "Quest",
-    "vendor_url": null,
-    "zdi_can": "ZDI-CAN-29168"
   },
   {
     "cvss": 7.8,
