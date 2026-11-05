@@ -24330,5 +24330,173 @@
     "vulnerability_details": "This vulnerability allows local attackers to create a denial-of-service condition on affected installations of Microsoft Windows. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of Aero themes. The issue results from improper handling of an error condition. An attacker can leverage this vulnerability to create a persistent denial-of-service condition on the system.",
     "zdi_can": "ZDI-CAN-29932",
     "zdi_id": "ZDI-26-868"
+  },
+  "ZDI-26-869": {
+    "additional_details": "Fixed in version 10.60 https://www.mailenable.com/Premium-ReleaseNotes.txt",
+    "advisory_date": "2026-11-04",
+    "affected_products": [
+      "MailEnable"
+    ],
+    "affected_vendors": [
+      "MailEnable"
+    ],
+    "credit": "Nicolas Chatelain",
+    "cve": "CVE-2026-114556",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-114556",
+    "cvss": 7.4,
+    "cvss_vector": "AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-09-18 - Vulnerability reported to vendor",
+      "2026-11-04 - Coordinated public release of advisory",
+      "2026-11-04 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-869 ZDI-CAN-29161 MailEnable Save Directory Traversal Arbitrary File Creation Vulnerability 2026-11-04 CVE-2026-114556 https://www.cve.org/CVERecord?id=CVE-2026-114556 7.4 AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:H ['MailEnable'] ['MailEnable'] This vulnerability allows remote attackers to create arbitrary files on affected installations of MailEnable. Authentication is not required to exploit this vulnerability. The specific flaw exists within the implementation of the Save method. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this in conjunction with other vulnerabilities to execute code in the context of SYSTEM. Fixed in version 10.60 https://www.mailenable.com/Premium-ReleaseNotes.txt ['2026-09-18 - Vulnerability reported to vendor', '2026-11-04 - Coordinated public release of advisory', '2026-11-04 - Advisory Updated'] Nicolas Chatelain https://www.zerodayinitiative.com/advisories/ZDI-26-869/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-869/",
+    "title": "MailEnable Save Directory Traversal Arbitrary File Creation Vulnerability",
+    "updated_date": "2026-11-04",
+    "vulnerability_details": "This vulnerability allows remote attackers to create arbitrary files on affected installations of MailEnable. Authentication is not required to exploit this vulnerability. The specific flaw exists within the implementation of the Save method. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this in conjunction with other vulnerabilities to execute code in the context of SYSTEM.",
+    "zdi_can": "ZDI-CAN-29161",
+    "zdi_id": "ZDI-26-869"
+  },
+  "ZDI-26-870": {
+    "additional_details": "11/12/25 - ZDI reported the vulnerability to the vendor 11/12/25 - the vendor acknowledged the receipt of the report 03/04/26 - ZDI asked for updates 07/13/26 - ZDI asked for updates 08/06/26 - ZDI asked for updates 10/29/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-04",
+    "affected_products": [
+      "Cobalt"
+    ],
+    "affected_vendors": [
+      "Ashlar-Vellum"
+    ],
+    "credit": "Rocco Calvi (@TecR0c) with TecSecurity",
+    "cve": "CVE-2026-121744",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-121744",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2025-11-11 - Vulnerability reported to vendor",
+      "2026-11-04 - Coordinated public release of advisory",
+      "2026-11-04 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-870 ZDI-CAN-28172 (0Day) Ashlar-Vellum Cobalt XE File Parsing Stack-based Buffer Overflow Remote Code Execution Vulnerability 2026-11-04 CVE-2026-121744 https://www.cve.org/CVERecord?id=CVE-2026-121744 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Ashlar-Vellum'] ['Cobalt'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ashlar-Vellum Cobalt. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of XE files. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. 11/12/25 - ZDI reported the vulnerability to the vendor 11/12/25 - the vendor acknowledged the receipt of the report 03/04/26 - ZDI asked for updates 07/13/26 - ZDI asked for updates 08/06/26 - ZDI asked for updates 10/29/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2025-11-11 - Vulnerability reported to vendor', '2026-11-04 - Coordinated public release of advisory', '2026-11-04 - Advisory Updated'] Rocco Calvi (@TecR0c) with TecSecurity https://www.zerodayinitiative.com/advisories/ZDI-26-870/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-870/",
+    "title": "(0Day) Ashlar-Vellum Cobalt XE File Parsing Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-04",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ashlar-Vellum Cobalt. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of XE files. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-28172",
+    "zdi_id": "ZDI-26-870"
+  },
+  "ZDI-26-871": {
+    "additional_details": "12/04/25 - ZDI reported the vulnerability to the vendor 08/06/26 - ZDI asked for updates 10/29/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-04",
+    "affected_products": [
+      "Cobalt"
+    ],
+    "affected_vendors": [
+      "Ashlar-Vellum"
+    ],
+    "credit": "Rocco Calvi (@TecR0c) with TecSecurity",
+    "cve": "CVE-2026-121752",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-121752",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2025-12-04 - Vulnerability reported to vendor",
+      "2026-11-04 - Coordinated public release of advisory",
+      "2026-11-04 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-871 ZDI-CAN-28447 (0Day) Ashlar-Vellum Cobalt LI File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability 2026-11-04 CVE-2026-121752 https://www.cve.org/CVERecord?id=CVE-2026-121752 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Ashlar-Vellum'] ['Cobalt'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ashlar-Vellum Cobalt. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of LI files. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. 12/04/25 - ZDI reported the vulnerability to the vendor 08/06/26 - ZDI asked for updates 10/29/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2025-12-04 - Vulnerability reported to vendor', '2026-11-04 - Coordinated public release of advisory', '2026-11-04 - Advisory Updated'] Rocco Calvi (@TecR0c) with TecSecurity https://www.zerodayinitiative.com/advisories/ZDI-26-871/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-871/",
+    "title": "(0Day) Ashlar-Vellum Cobalt LI File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-04",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ashlar-Vellum Cobalt. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of LI files. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-28447",
+    "zdi_id": "ZDI-26-871"
+  },
+  "ZDI-26-872": {
+    "additional_details": "12/16/25 - ZDI reported the vulnerability to the vendor 12/16/25 - the vendor acknowledged the receipt of the report 03/04/26 - ZDI asked for updates 07/13/26 - ZDI asked for updates 07/15/26 - the vendor communicated that the fix was not completed 08/06/26 - ZDI asked for updates 10/29/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-04",
+    "affected_products": [
+      "Cobalt"
+    ],
+    "affected_vendors": [
+      "Ashlar-Vellum"
+    ],
+    "credit": "Rocco Calvi (@TecR0c) with TecSecurity",
+    "cve": "CVE-2026-121753",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-121753",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2025-12-16 - Vulnerability reported to vendor",
+      "2026-11-04 - Coordinated public release of advisory",
+      "2026-11-04 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-872 ZDI-CAN-28587 (0Day) Ashlar-Vellum Cobalt XE File Parsing Use-After-Free Remote Code Execution Vulnerability 2026-11-04 CVE-2026-121753 https://www.cve.org/CVERecord?id=CVE-2026-121753 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Ashlar-Vellum'] ['Cobalt'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ashlar-Vellum Cobalt. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of XE files. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current process. 12/16/25 - ZDI reported the vulnerability to the vendor 12/16/25 - the vendor acknowledged the receipt of the report 03/04/26 - ZDI asked for updates 07/13/26 - ZDI asked for updates 07/15/26 - the vendor communicated that the fix was not completed 08/06/26 - ZDI asked for updates 10/29/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2025-12-16 - Vulnerability reported to vendor', '2026-11-04 - Coordinated public release of advisory', '2026-11-04 - Advisory Updated'] Rocco Calvi (@TecR0c) with TecSecurity https://www.zerodayinitiative.com/advisories/ZDI-26-872/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-872/",
+    "title": "(0Day) Ashlar-Vellum Cobalt XE File Parsing Use-After-Free Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-04",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ashlar-Vellum Cobalt. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of XE files. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-28587",
+    "zdi_id": "ZDI-26-872"
+  },
+  "ZDI-26-873": {
+    "additional_details": "01/22/26 \u2013 ZDI reported the vulnerability to the vendor 01/28/26 \u2013 the vendor acknowledged the receipt of the report 07/13/26 \u2013 ZDI asked for updates 07/15/26 \u2013 the vendor communicated that the fix was not completed 08/06/26 \u2013 ZDI asked for updates 10/29/26 \u2013 ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-04",
+    "affected_products": [
+      "Cobalt"
+    ],
+    "affected_vendors": [
+      "Ashlar-Vellum"
+    ],
+    "credit": "Rocco Calvi (@TecR0c) with TecSecurity",
+    "cve": "CVE-2026-121743",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-121743",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-01-22 - Vulnerability reported to vendor",
+      "2026-11-04 - Coordinated public release of advisory",
+      "2026-11-04 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-873 ZDI-CAN-28675 (0Day) Ashlar-Vellum Cobalt AR File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability 2026-11-04 CVE-2026-121743 https://www.cve.org/CVERecord?id=CVE-2026-121743 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Ashlar-Vellum'] ['Cobalt'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ashlar-Vellum Cobalt. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of AR files. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. 01/22/26 \u2013 ZDI reported the vulnerability to the vendor 01/28/26 \u2013 the vendor acknowledged the receipt of the report 07/13/26 \u2013 ZDI asked for updates 07/15/26 \u2013 the vendor communicated that the fix was not completed 08/06/26 \u2013 ZDI asked for updates 10/29/26 \u2013 ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-01-22 - Vulnerability reported to vendor', '2026-11-04 - Coordinated public release of advisory', '2026-11-04 - Advisory Updated'] Rocco Calvi (@TecR0c) with TecSecurity https://www.zerodayinitiative.com/advisories/ZDI-26-873/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-873/",
+    "title": "(0Day) Ashlar-Vellum Cobalt AR File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-04",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ashlar-Vellum Cobalt. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of AR files. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-28675",
+    "zdi_id": "ZDI-26-873"
+  },
+  "ZDI-26-874": {
+    "additional_details": "02/06/26 \u2013 ZDI reported the vulnerability to the vendor 02/06/26 \u2013 the vendor acknowledged the receipt of the report 07/13/26 \u2013 ZDI asked for updates 08/06/26 \u2013 ZDI asked for updates 10/29/26 \u2013 ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-04",
+    "affected_products": [
+      "Cobalt"
+    ],
+    "affected_vendors": [
+      "Ashlar-Vellum"
+    ],
+    "credit": "Rocco Calvi (@TecR0c) with TecSecurity",
+    "cve": "CVE-2026-121742",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-121742",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-02-06 - Vulnerability reported to vendor",
+      "2026-11-04 - Coordinated public release of advisory",
+      "2026-11-04 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-874 ZDI-CAN-28757 (0Day) Ashlar-Vellum Cobalt XE File Parsing Use-After-Free Remote Code Execution Vulnerability 2026-11-04 CVE-2026-121742 https://www.cve.org/CVERecord?id=CVE-2026-121742 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Ashlar-Vellum'] ['Cobalt'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ashlar-Vellum Cobalt. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of XE files. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current process. 02/06/26 \u2013 ZDI reported the vulnerability to the vendor 02/06/26 \u2013 the vendor acknowledged the receipt of the report 07/13/26 \u2013 ZDI asked for updates 08/06/26 \u2013 ZDI asked for updates 10/29/26 \u2013 ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-02-06 - Vulnerability reported to vendor', '2026-11-04 - Coordinated public release of advisory', '2026-11-04 - Advisory Updated'] Rocco Calvi (@TecR0c) with TecSecurity https://www.zerodayinitiative.com/advisories/ZDI-26-874/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-874/",
+    "title": "(0Day) Ashlar-Vellum Cobalt XE File Parsing Use-After-Free Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-04",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ashlar-Vellum Cobalt. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of XE files. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-28757",
+    "zdi_id": "ZDI-26-874"
   }
 }

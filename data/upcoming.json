@@ -1,5 +1,53 @@
 [
   {
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "deadline": "2027-03-04",
+    "discoverer": "Mat Powell of TrendAI Zero Day Initiative",
+    "kind": "upcoming",
+    "reported_date": "2026-11-04",
+    "status": "upcoming",
+    "vendor": "Autodesk",
+    "vendor_url": "https://www.autodesk.com/",
+    "zdi_can": "ZDI-CAN-36787"
+  },
+  {
+    "cvss": 9.8,
+    "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "deadline": "2027-03-04",
+    "discoverer": "Minh Giang (@itscysamu) of TrendAI Zero Day Initiative",
+    "kind": "upcoming",
+    "reported_date": "2026-11-04",
+    "status": "upcoming",
+    "vendor": "LG",
+    "vendor_url": "https://www.lg.com/",
+    "zdi_can": "ZDI-CAN-36704"
+  },
+  {
+    "cvss": 7.5,
+    "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+    "deadline": "2027-03-04",
+    "discoverer": "Leo Vu of TrendAI Research",
+    "kind": "upcoming",
+    "reported_date": "2026-11-04",
+    "status": "upcoming",
+    "vendor": "GraphQL",
+    "vendor_url": "https://graphql.org/",
+    "zdi_can": "ZDI-CAN-36712"
+  },
+  {
+    "cvss": 8.8,
+    "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "deadline": "2027-03-04",
+    "discoverer": "Leo Vu of TrendAI Research",
+    "kind": "upcoming",
+    "reported_date": "2026-11-04",
+    "status": "upcoming",
+    "vendor": "nadesiko3",
+    "vendor_url": "https://github.com/kujirahand/nadesiko3",
+    "zdi_can": "ZDI-CAN-36713"
+  },
+  {
     "cvss": 8.1,
     "cvss_vector": "AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
     "deadline": "2027-02-27",
@@ -1822,18 +1870,6 @@
     "vendor": "RARLAB",
     "vendor_url": "https://www.win-rar.com/",
     "zdi_can": "ZDI-CAN-31049"
-  },
-  {
-    "cvss": 7.4,
-    "cvss_vector": "AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:H",
-    "deadline": "2027-01-16",
-    "discoverer": "Nicolas Chatelain",
-    "kind": "upcoming",
-    "reported_date": "2026-09-18",
-    "status": "upcoming",
-    "vendor": "MailEnable",
-    "vendor_url": "https://www.mailenable.com/",
-    "zdi_can": "ZDI-CAN-29161"
   },
   {
     "cvss": 7.8,
@@ -7598,18 +7634,6 @@
   {
     "cvss": 7.8,
     "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-06-06",
-    "discoverer": "Rocco Calvi (@TecR0c) with TecSecurity",
-    "kind": "upcoming",
-    "reported_date": "2026-02-06",
-    "status": "upcoming",
-    "vendor": "Ashlar-Vellum",
-    "vendor_url": "https://ashlar.com/",
-    "zdi_can": "ZDI-CAN-28757"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
     "deadline": "2026-06-05",
     "discoverer": "Michael DePlante (@izobashi) of TrendAI Zero Day Initiative",
     "kind": "upcoming",
@@ -7728,18 +7752,6 @@
     "zdi_can": "ZDI-CAN-28834"
   },
   {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-05-22",
-    "discoverer": "Rocco Calvi (@TecR0c) with TecSecurity",
-    "kind": "upcoming",
-    "reported_date": "2026-01-22",
-    "status": "upcoming",
-    "vendor": "Ashlar-Vellum",
-    "vendor_url": "https://ashlar.com/",
-    "zdi_can": "ZDI-CAN-28675"
-  },
-  {
     "cvss": 6.7,
     "cvss_vector": "AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:N/A:L",
     "deadline": "2026-05-13",
@@ -7848,18 +7860,6 @@
     "zdi_can": "ZDI-CAN-28556"
   },
   {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-04-15",
-    "discoverer": "Rocco Calvi (@TecR0c) with TecSecurity",
-    "kind": "upcoming",
-    "reported_date": "2025-12-16",
-    "status": "upcoming",
-    "vendor": "Ashlar-Vellum",
-    "vendor_url": "https://ashlar.com/",
-    "zdi_can": "ZDI-CAN-28587"
-  },
-  {
     "cvss": 9.8,
     "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
     "deadline": "2026-04-11",
@@ -7911,18 +7911,6 @@
     "cvss": 7.8,
     "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
     "deadline": "2026-04-03",
-    "discoverer": "Rocco Calvi (@TecR0c) with TecSecurity",
-    "kind": "upcoming",
-    "reported_date": "2025-12-04",
-    "status": "upcoming",
-    "vendor": "Ashlar-Vellum",
-    "vendor_url": "https://ashlar.com/",
-    "zdi_can": "ZDI-CAN-28447"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-04-03",
     "discoverer": "Francis Provencher {PRL}",
     "kind": "upcoming",
     "reported_date": "2025-12-04",
@@ -7942,18 +7930,6 @@
     "vendor": "QEMU",
     "vendor_url": null,
     "zdi_can": "ZDI-CAN-27628"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-03-11",
-    "discoverer": "Rocco Calvi (@TecR0c) with TecSecurity",
-    "kind": "upcoming",
-    "reported_date": "2025-11-11",
-    "status": "upcoming",
-    "vendor": "Ashlar-Vellum",
-    "vendor_url": "https://ashlar.com/",
-    "zdi_can": "ZDI-CAN-28172"
   },
   {
     "cvss": 7.8,
