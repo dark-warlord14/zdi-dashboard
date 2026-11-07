@@ -24498,5 +24498,649 @@
     "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ashlar-Vellum Cobalt. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of XE files. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current process.",
     "zdi_can": "ZDI-CAN-28757",
     "zdi_id": "ZDI-26-874"
+  },
+  "ZDI-26-875": {
+    "additional_details": "OriginLab has issued an update to correct this vulnerability. More details can be found at: https://docs.originlab.com/cve/CVE-2026-114569",
+    "advisory_date": "2026-11-06",
+    "affected_products": [
+      "Origin Viewer"
+    ],
+    "affected_vendors": [
+      "OriginLab"
+    ],
+    "credit": "rgod",
+    "cve": "CVE-2026-114569",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-114569",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-05-21 - Vulnerability reported to vendor",
+      "2026-11-06 - Coordinated public release of advisory",
+      "2026-11-06 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-875 ZDI-CAN-30430 OriginLab Origin Viewer OGWU File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability 2026-11-06 CVE-2026-114569 https://www.cve.org/CVERecord?id=CVE-2026-114569 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['OriginLab'] ['Origin Viewer'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab Origin Viewer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of OGWU files. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. OriginLab has issued an update to correct this vulnerability. More details can be found at: https://docs.originlab.com/cve/CVE-2026-114569 ['2026-05-21 - Vulnerability reported to vendor', '2026-11-06 - Coordinated public release of advisory', '2026-11-06 - Advisory Updated'] rgod https://www.zerodayinitiative.com/advisories/ZDI-26-875/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-875/",
+    "title": "OriginLab Origin Viewer OGWU File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-06",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab Origin Viewer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of OGWU files. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-30430",
+    "zdi_id": "ZDI-26-875"
+  },
+  "ZDI-26-876": {
+    "additional_details": "OriginLab has issued an update to correct this vulnerability. More details can be found at: https://docs.originlab.com/cve/CVE-2026-114559",
+    "advisory_date": "2026-11-06",
+    "affected_products": [
+      "Origin Viewer"
+    ],
+    "affected_vendors": [
+      "OriginLab"
+    ],
+    "credit": "rgod",
+    "cve": "CVE-2026-114559",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-114559",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-05-21 - Vulnerability reported to vendor",
+      "2026-11-06 - Coordinated public release of advisory",
+      "2026-11-06 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-876 ZDI-CAN-30431 OriginLab Origin Viewer OGG File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability 2026-11-06 CVE-2026-114559 https://www.cve.org/CVERecord?id=CVE-2026-114559 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['OriginLab'] ['Origin Viewer'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab Origin Viewer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of OGG files. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated data structure. An attacker can leverage this vulnerability to execute code in the context of the current process. OriginLab has issued an update to correct this vulnerability. More details can be found at: https://docs.originlab.com/cve/CVE-2026-114559 ['2026-05-21 - Vulnerability reported to vendor', '2026-11-06 - Coordinated public release of advisory', '2026-11-06 - Advisory Updated'] rgod https://www.zerodayinitiative.com/advisories/ZDI-26-876/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-876/",
+    "title": "OriginLab Origin Viewer OGG File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-06",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab Origin Viewer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of OGG files. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated data structure. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-30431",
+    "zdi_id": "ZDI-26-876"
+  },
+  "ZDI-26-877": {
+    "additional_details": "OriginLab has issued an update to correct this vulnerability. More details can be found at: https://docs.originlab.com/cve/CVE-2026-114560",
+    "advisory_date": "2026-11-06",
+    "affected_products": [
+      "Origin Viewer"
+    ],
+    "affected_vendors": [
+      "OriginLab"
+    ],
+    "credit": "rgod",
+    "cve": "CVE-2026-114560",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-114560",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-05-21 - Vulnerability reported to vendor",
+      "2026-11-06 - Coordinated public release of advisory",
+      "2026-11-06 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-877 ZDI-CAN-30432 OriginLab Origin Viewer OPJ File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability 2026-11-06 CVE-2026-114560 https://www.cve.org/CVERecord?id=CVE-2026-114560 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['OriginLab'] ['Origin Viewer'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab Origin Viewer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of OPJ files. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated data structure. An attacker can leverage this vulnerability to execute code in the context of the current process. OriginLab has issued an update to correct this vulnerability. More details can be found at: https://docs.originlab.com/cve/CVE-2026-114560 ['2026-05-21 - Vulnerability reported to vendor', '2026-11-06 - Coordinated public release of advisory', '2026-11-06 - Advisory Updated'] rgod https://www.zerodayinitiative.com/advisories/ZDI-26-877/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-877/",
+    "title": "OriginLab Origin Viewer OPJ File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-06",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab Origin Viewer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of OPJ files. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated data structure. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-30432",
+    "zdi_id": "ZDI-26-877"
+  },
+  "ZDI-26-878": {
+    "additional_details": "OriginLab has issued an update to correct this vulnerability. More details can be found at: https://docs.originlab.com/cve/CVE-2026-114561",
+    "advisory_date": "2026-11-06",
+    "affected_products": [
+      "Origin Viewer"
+    ],
+    "affected_vendors": [
+      "OriginLab"
+    ],
+    "credit": "rgod",
+    "cve": "CVE-2026-114561",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-114561",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-05-21 - Vulnerability reported to vendor",
+      "2026-11-06 - Coordinated public release of advisory",
+      "2026-11-06 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-878 ZDI-CAN-30433 OriginLab Origin Viewer OPJU File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability 2026-11-06 CVE-2026-114561 https://www.cve.org/CVERecord?id=CVE-2026-114561 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['OriginLab'] ['Origin Viewer'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab Origin Viewer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of OPJU files. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated data structure. An attacker can leverage this vulnerability to execute code in the context of the current process. OriginLab has issued an update to correct this vulnerability. More details can be found at: https://docs.originlab.com/cve/CVE-2026-114561 ['2026-05-21 - Vulnerability reported to vendor', '2026-11-06 - Coordinated public release of advisory', '2026-11-06 - Advisory Updated'] rgod https://www.zerodayinitiative.com/advisories/ZDI-26-878/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-878/",
+    "title": "OriginLab Origin Viewer OPJU File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-06",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab Origin Viewer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of OPJU files. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated data structure. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-30433",
+    "zdi_id": "ZDI-26-878"
+  },
+  "ZDI-26-879": {
+    "additional_details": "OriginLab has issued an update to correct this vulnerability. More details can be found at: https://docs.originlab.com/cve/CVE-2026-114562",
+    "advisory_date": "2026-11-06",
+    "affected_products": [
+      "Origin Viewer"
+    ],
+    "affected_vendors": [
+      "OriginLab"
+    ],
+    "credit": "rgod",
+    "cve": "CVE-2026-114562",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-114562",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-05-21 - Vulnerability reported to vendor",
+      "2026-11-06 - Coordinated public release of advisory",
+      "2026-11-06 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-879 ZDI-CAN-30736 OriginLab Origin Viewer OGWU File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability 2026-11-06 CVE-2026-114562 https://www.cve.org/CVERecord?id=CVE-2026-114562 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['OriginLab'] ['Origin Viewer'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab Origin Viewer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of OGWU files. The issue results from the lack of proper validation of user-supplied data, which can result in a write before the start of an allocated data structure. An attacker can leverage this vulnerability to execute code in the context of the current process. OriginLab has issued an update to correct this vulnerability. More details can be found at: https://docs.originlab.com/cve/CVE-2026-114562 ['2026-05-21 - Vulnerability reported to vendor', '2026-11-06 - Coordinated public release of advisory', '2026-11-06 - Advisory Updated'] rgod https://www.zerodayinitiative.com/advisories/ZDI-26-879/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-879/",
+    "title": "OriginLab Origin Viewer OGWU File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-06",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab Origin Viewer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of OGWU files. The issue results from the lack of proper validation of user-supplied data, which can result in a write before the start of an allocated data structure. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-30736",
+    "zdi_id": "ZDI-26-879"
+  },
+  "ZDI-26-880": {
+    "additional_details": "OriginLab has issued an update to correct this vulnerability. More details can be found at: https://docs.originlab.com/cve/CVE-2026-114563",
+    "advisory_date": "2026-11-06",
+    "affected_products": [
+      "Origin Viewer"
+    ],
+    "affected_vendors": [
+      "OriginLab"
+    ],
+    "credit": "rgod",
+    "cve": "CVE-2026-114563",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-114563",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-05-21 - Vulnerability reported to vendor",
+      "2026-11-06 - Coordinated public release of advisory",
+      "2026-11-06 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-880 ZDI-CAN-30737 OriginLab Origin Viewer OGWU File Parsing Stack-based Buffer Overflow Remote Code Execution Vulnerability 2026-11-06 CVE-2026-114563 https://www.cve.org/CVERecord?id=CVE-2026-114563 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['OriginLab'] ['Origin Viewer'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab Origin Viewer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of OGWU files. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. OriginLab has issued an update to correct this vulnerability. More details can be found at: https://docs.originlab.com/cve/CVE-2026-114563 ['2026-05-21 - Vulnerability reported to vendor', '2026-11-06 - Coordinated public release of advisory', '2026-11-06 - Advisory Updated'] rgod https://www.zerodayinitiative.com/advisories/ZDI-26-880/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-880/",
+    "title": "OriginLab Origin Viewer OGWU File Parsing Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-06",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab Origin Viewer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of OGWU files. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-30737",
+    "zdi_id": "ZDI-26-880"
+  },
+  "ZDI-26-881": {
+    "additional_details": "OriginLab has issued an update to correct this vulnerability. More details can be found at: https://docs.originlab.com/cve/CVE-2026-114564",
+    "advisory_date": "2026-11-06",
+    "affected_products": [
+      "Origin Viewer"
+    ],
+    "affected_vendors": [
+      "OriginLab"
+    ],
+    "credit": "rgod",
+    "cve": "CVE-2026-114564",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-114564",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-05-21 - Vulnerability reported to vendor",
+      "2026-11-06 - Coordinated public release of advisory",
+      "2026-11-06 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-881 ZDI-CAN-30768 OriginLab Origin Viewer OGG File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability 2026-11-06 CVE-2026-114564 https://www.cve.org/CVERecord?id=CVE-2026-114564 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['OriginLab'] ['Origin Viewer'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab Origin Viewer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of OGG files. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated data structure. An attacker can leverage this vulnerability to execute code in the context of the current process. OriginLab has issued an update to correct this vulnerability. More details can be found at: https://docs.originlab.com/cve/CVE-2026-114564 ['2026-05-21 - Vulnerability reported to vendor', '2026-11-06 - Coordinated public release of advisory', '2026-11-06 - Advisory Updated'] rgod https://www.zerodayinitiative.com/advisories/ZDI-26-881/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-881/",
+    "title": "OriginLab Origin Viewer OGG File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-06",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab Origin Viewer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of OGG files. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated data structure. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-30768",
+    "zdi_id": "ZDI-26-881"
+  },
+  "ZDI-26-882": {
+    "additional_details": "OriginLab has issued an update to correct this vulnerability. More details can be found at: https://docs.originlab.com/cve/CVE-2026-114565",
+    "advisory_date": "2026-11-06",
+    "affected_products": [
+      "Origin Viewer"
+    ],
+    "affected_vendors": [
+      "OriginLab"
+    ],
+    "credit": "rgod",
+    "cve": "CVE-2026-114565",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-114565",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-05-21 - Vulnerability reported to vendor",
+      "2026-11-06 - Coordinated public release of advisory",
+      "2026-11-06 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-882 ZDI-CAN-30769 OriginLab Origin Viewer OGG File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability 2026-11-06 CVE-2026-114565 https://www.cve.org/CVERecord?id=CVE-2026-114565 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['OriginLab'] ['Origin Viewer'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab Origin Viewer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of OGG files. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated data structure. An attacker can leverage this vulnerability to execute code in the context of the current process. OriginLab has issued an update to correct this vulnerability. More details can be found at: https://docs.originlab.com/cve/CVE-2026-114565 ['2026-05-21 - Vulnerability reported to vendor', '2026-11-06 - Coordinated public release of advisory', '2026-11-06 - Advisory Updated'] rgod https://www.zerodayinitiative.com/advisories/ZDI-26-882/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-882/",
+    "title": "OriginLab Origin Viewer OGG File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-06",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab Origin Viewer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of OGG files. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated data structure. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-30769",
+    "zdi_id": "ZDI-26-882"
+  },
+  "ZDI-26-883": {
+    "additional_details": "OriginLab has issued an update to correct this vulnerability. More details can be found at: https://docs.originlab.com/cve/CVE-2026-114566",
+    "advisory_date": "2026-11-06",
+    "affected_products": [
+      "Origin Viewer"
+    ],
+    "affected_vendors": [
+      "OriginLab"
+    ],
+    "credit": "rgod",
+    "cve": "CVE-2026-114566",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-114566",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-06-02 - Vulnerability reported to vendor",
+      "2026-11-06 - Coordinated public release of advisory",
+      "2026-11-06 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-883 ZDI-CAN-30770 OriginLab Origin Viewer OGM File Parsing Memory Corruption Remote Code Execution Vulnerability 2026-11-06 CVE-2026-114566 https://www.cve.org/CVERecord?id=CVE-2026-114566 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['OriginLab'] ['Origin Viewer'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab Origin Viewer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of OGM files. The issue results from the lack of proper validation of user-supplied data, which can result in a memory corruption condition. An attacker can leverage this vulnerability to execute code in the context of the current process. OriginLab has issued an update to correct this vulnerability. More details can be found at: https://docs.originlab.com/cve/CVE-2026-114566 ['2026-06-02 - Vulnerability reported to vendor', '2026-11-06 - Coordinated public release of advisory', '2026-11-06 - Advisory Updated'] rgod https://www.zerodayinitiative.com/advisories/ZDI-26-883/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-883/",
+    "title": "OriginLab Origin Viewer OGM File Parsing Memory Corruption Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-06",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab Origin Viewer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of OGM files. The issue results from the lack of proper validation of user-supplied data, which can result in a memory corruption condition. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-30770",
+    "zdi_id": "ZDI-26-883"
+  },
+  "ZDI-26-884": {
+    "additional_details": "OriginLab has issued an update to correct this vulnerability. More details can be found at: https://docs.originlab.com/cve/CVE-2026-114567",
+    "advisory_date": "2026-11-06",
+    "affected_products": [
+      "Origin Viewer"
+    ],
+    "affected_vendors": [
+      "OriginLab"
+    ],
+    "credit": "rgod",
+    "cve": "CVE-2026-114567",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-114567",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-06-02 - Vulnerability reported to vendor",
+      "2026-11-06 - Coordinated public release of advisory",
+      "2026-11-06 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-884 ZDI-CAN-30771 OriginLab Origin Viewer OGWU File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability 2026-11-06 CVE-2026-114567 https://www.cve.org/CVERecord?id=CVE-2026-114567 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['OriginLab'] ['Origin Viewer'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab Origin Viewer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of OGWU files. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated data structure. An attacker can leverage this vulnerability to execute code in the context of the current process. OriginLab has issued an update to correct this vulnerability. More details can be found at: https://docs.originlab.com/cve/CVE-2026-114567 ['2026-06-02 - Vulnerability reported to vendor', '2026-11-06 - Coordinated public release of advisory', '2026-11-06 - Advisory Updated'] rgod https://www.zerodayinitiative.com/advisories/ZDI-26-884/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-884/",
+    "title": "OriginLab Origin Viewer OGWU File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-06",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab Origin Viewer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of OGWU files. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated data structure. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-30771",
+    "zdi_id": "ZDI-26-884"
+  },
+  "ZDI-26-885": {
+    "additional_details": "OriginLab has issued an update to correct this vulnerability. More details can be found at: https://docs.originlab.com/cve/CVE-2026-114568",
+    "advisory_date": "2026-11-06",
+    "affected_products": [
+      "Origin Viewer"
+    ],
+    "affected_vendors": [
+      "OriginLab"
+    ],
+    "credit": "chwrld (@chwrld24)",
+    "cve": "CVE-2026-114568",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-114568",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-06-24 - Vulnerability reported to vendor",
+      "2026-11-06 - Coordinated public release of advisory",
+      "2026-11-06 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-885 ZDI-CAN-31587 OriginLab Origin Viewer OPJ File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability 2026-11-06 CVE-2026-114568 https://www.cve.org/CVERecord?id=CVE-2026-114568 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['OriginLab'] ['Origin Viewer'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab Origin Viewer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of OPJ files. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. OriginLab has issued an update to correct this vulnerability. More details can be found at: https://docs.originlab.com/cve/CVE-2026-114568 ['2026-06-24 - Vulnerability reported to vendor', '2026-11-06 - Coordinated public release of advisory', '2026-11-06 - Advisory Updated'] chwrld (@chwrld24) https://www.zerodayinitiative.com/advisories/ZDI-26-885/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-885/",
+    "title": "OriginLab Origin Viewer OPJ File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-06",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab Origin Viewer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of OPJ files. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-31587",
+    "zdi_id": "ZDI-26-885"
+  },
+  "ZDI-26-886": {
+    "additional_details": "OriginLab has issued an update to correct this vulnerability. More details can be found at: https://docs.originlab.com/cve/CVE-2026-114558",
+    "advisory_date": "2026-11-06",
+    "affected_products": [
+      "Origin Viewer"
+    ],
+    "affected_vendors": [
+      "OriginLab"
+    ],
+    "credit": "rgod",
+    "cve": "CVE-2026-114558",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-114558",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-05-21 - Vulnerability reported to vendor",
+      "2026-11-06 - Coordinated public release of advisory",
+      "2026-11-06 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-886 ZDI-CAN-30738 OriginLab Origin Viewer OPJU File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability 2026-11-06 CVE-2026-114558 https://www.cve.org/CVERecord?id=CVE-2026-114558 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['OriginLab'] ['Origin Viewer'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab Origin Viewer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of OPJU files. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated data structure. An attacker can leverage this vulnerability to execute code in the context of the current process. OriginLab has issued an update to correct this vulnerability. More details can be found at: https://docs.originlab.com/cve/CVE-2026-114558 ['2026-05-21 - Vulnerability reported to vendor', '2026-11-06 - Coordinated public release of advisory', '2026-11-06 - Advisory Updated'] rgod https://www.zerodayinitiative.com/advisories/ZDI-26-886/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-886/",
+    "title": "OriginLab Origin Viewer OPJU File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-06",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OriginLab Origin Viewer. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of OPJU files. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated data structure. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-30738",
+    "zdi_id": "ZDI-26-886"
+  },
+  "ZDI-26-887": {
+    "additional_details": "https://github.com/svanderburg/libilbm/commit/fe719677a8267c5ef7a7ff6175219587923ed82c https://gitlab.gnome.org/GNOME/gimp/-/work_items/14817",
+    "advisory_date": "2026-11-06",
+    "affected_products": [
+      "libilbm"
+    ],
+    "affected_vendors": [
+      "libilbm"
+    ],
+    "credit": "MICHAEL RANDRIANANTENAINA [https://elkamika.blogspot.com/]",
+    "cve": "CVE-2025-10935",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-10935",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2025-09-02 - Vulnerability reported to vendor",
+      "2026-11-06 - Coordinated public release of advisory",
+      "2026-11-06 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-887 ZDI-CAN-27792 libilbm ILBM File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability 2026-11-06 CVE-2025-10935 https://www.cve.org/CVERecord?id=CVE-2025-10935 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['libilbm'] ['libilbm'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of libilbm. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of ILBM files. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. https://github.com/svanderburg/libilbm/commit/fe719677a8267c5ef7a7ff6175219587923ed82c https://gitlab.gnome.org/GNOME/gimp/-/work_items/14817 ['2025-09-02 - Vulnerability reported to vendor', '2026-11-06 - Coordinated public release of advisory', '2026-11-06 - Advisory Updated'] MICHAEL RANDRIANANTENAINA [https://elkamika.blogspot.com/] https://www.zerodayinitiative.com/advisories/ZDI-26-887/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-887/",
+    "title": "libilbm ILBM File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-06",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of libilbm. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of ILBM files. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-27792",
+    "zdi_id": "ZDI-26-887"
+  },
+  "ZDI-26-888": {
+    "additional_details": "Fixed in NetVault version 14.1.3 https://support.quest.com/technical-documents/netvault/14.1.3/release-notes/2#TOPIC-2383658",
+    "advisory_date": "2026-11-06",
+    "affected_products": [
+      "NetVault Backup"
+    ],
+    "affected_vendors": [
+      "Quest"
+    ],
+    "credit": "06fe5fd2bc53027c4a3b7e395af0b850e7b8a044",
+    "cve": "CVE-2026-13269",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-13269",
+    "cvss": 7.5,
+    "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+    "disclosure_timeline": [
+      "2026-04-23 - Vulnerability reported to vendor",
+      "2026-11-06 - Coordinated public release of advisory",
+      "2026-11-06 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-888 ZDI-CAN-28743 Quest NetVault Backup StnzCreateKey Numeric Truncation Error Denial-of-Service Vulnerability 2026-11-06 CVE-2026-13269 https://www.cve.org/CVERecord?id=CVE-2026-13269 7.5 AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H ['Quest'] ['NetVault Backup'] This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of Quest NetVault Backup. Authentication is not required to exploit this vulnerability. The specific flaw exists within the StnzCreateKey function. The issue results from the lack of proper validation of user-supplied data, which can result in a numeric truncation error before allocating a buffer. An attacker can leverage this vulnerability to create a denial-of-service condition on the system. Fixed in NetVault version 14.1.3 https://support.quest.com/technical-documents/netvault/14.1.3/release-notes/2#TOPIC-2383658 ['2026-04-23 - Vulnerability reported to vendor', '2026-11-06 - Coordinated public release of advisory', '2026-11-06 - Advisory Updated'] 06fe5fd2bc53027c4a3b7e395af0b850e7b8a044 https://www.zerodayinitiative.com/advisories/ZDI-26-888/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-888/",
+    "title": "Quest NetVault Backup StnzCreateKey Numeric Truncation Error Denial-of-Service Vulnerability",
+    "updated_date": "2026-11-06",
+    "vulnerability_details": "This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of Quest NetVault Backup. Authentication is not required to exploit this vulnerability. The specific flaw exists within the StnzCreateKey function. The issue results from the lack of proper validation of user-supplied data, which can result in a numeric truncation error before allocating a buffer. An attacker can leverage this vulnerability to create a denial-of-service condition on the system.",
+    "zdi_can": "ZDI-CAN-28743",
+    "zdi_id": "ZDI-26-888"
+  },
+  "ZDI-26-889": {
+    "additional_details": "Fixed in NetVault version 14.1.3 https://support.quest.com/technical-documents/netvault/14.1.3/release-notes/2#TOPIC-2383658",
+    "advisory_date": "2026-11-06",
+    "affected_products": [
+      "NetVault Backup"
+    ],
+    "affected_vendors": [
+      "Quest"
+    ],
+    "credit": "06fe5fd2bc53027c4a3b7e395af0b850e7b8a044",
+    "cve": "CVE-2026-13270",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-13270",
+    "cvss": 7.5,
+    "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+    "disclosure_timeline": [
+      "2026-04-23 - Vulnerability reported to vendor",
+      "2026-11-06 - Coordinated public release of advisory",
+      "2026-11-06 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-889 ZDI-CAN-28744 Quest NetVault Backup nvpmgr Integer Underflow Denial-of-Service Vulnerability 2026-11-06 CVE-2026-13270 https://www.cve.org/CVERecord?id=CVE-2026-13270 7.5 AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H ['Quest'] ['NetVault Backup'] This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of Quest NetVault Backup. Authentication is not required to exploit this vulnerability. The specific flaw exists within the nvpmgr service, which listens on UDP port 20031 by default. The issue results from the lack of proper validation of user-supplied data, which can result in an integer underflow before allocating a buffer. An attacker can leverage this vulnerability to create a denial-of-service condition on the system. Fixed in NetVault version 14.1.3 https://support.quest.com/technical-documents/netvault/14.1.3/release-notes/2#TOPIC-2383658 ['2026-04-23 - Vulnerability reported to vendor', '2026-11-06 - Coordinated public release of advisory', '2026-11-06 - Advisory Updated'] 06fe5fd2bc53027c4a3b7e395af0b850e7b8a044 https://www.zerodayinitiative.com/advisories/ZDI-26-889/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-889/",
+    "title": "Quest NetVault Backup nvpmgr Integer Underflow Denial-of-Service Vulnerability",
+    "updated_date": "2026-11-06",
+    "vulnerability_details": "This vulnerability allows remote attackers to create a denial-of-service condition on affected installations of Quest NetVault Backup. Authentication is not required to exploit this vulnerability. The specific flaw exists within the nvpmgr service, which listens on UDP port 20031 by default. The issue results from the lack of proper validation of user-supplied data, which can result in an integer underflow before allocating a buffer. An attacker can leverage this vulnerability to create a denial-of-service condition on the system.",
+    "zdi_can": "ZDI-CAN-28744",
+    "zdi_id": "ZDI-26-889"
+  },
+  "ZDI-26-890": {
+    "additional_details": "Fixed in Bridge Pro firmware version 6.1.2071524030 (or later) https://www.philips-hue.com/en-ca/support/release-notes/bridge-pro",
+    "advisory_date": "2026-11-06",
+    "affected_products": [
+      "Hue Bridge Pro"
+    ],
+    "affected_vendors": [
+      "Philips"
+    ],
+    "credit": "Connor Ford @ByteInsight of TrendAI Zero Day Initiative",
+    "cve": "CVE-2026-118631",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-118631",
+    "cvss": 3.8,
+    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:C/C:N/I:L/A:N",
+    "disclosure_timeline": [
+      "2026-08-27 - Vulnerability reported to vendor",
+      "2026-11-06 - Coordinated public release of advisory",
+      "2026-11-06 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-890 ZDI-CAN-33090 Philips Hue Bridge Pro Argument Injection Restricted File Write Vulnerability 2026-11-06 CVE-2026-118631 https://www.cve.org/CVERecord?id=CVE-2026-118631 3.8 AV:L/AC:L/PR:L/UI:N/S:C/C:N/I:L/A:N ['Philips'] ['Hue Bridge Pro'] This vulnerability allows local attackers to modify files on affected installations of Philips Hue Bridge Pro. An attacker must first obtain the ability to execute low-privileged code within a container on the target system, in order to exploit this vulnerability. The specific flaw exists within the factory data service, which listens on TCP port 5001 by default. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to modify files in the context of the service account. Fixed in Bridge Pro firmware version 6.1.2071524030 (or later) https://www.philips-hue.com/en-ca/support/release-notes/bridge-pro ['2026-08-27 - Vulnerability reported to vendor', '2026-11-06 - Coordinated public release of advisory', '2026-11-06 - Advisory Updated'] Connor Ford @ByteInsight of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-890/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-890/",
+    "title": "Philips Hue Bridge Pro Argument Injection Restricted File Write Vulnerability",
+    "updated_date": "2026-11-06",
+    "vulnerability_details": "This vulnerability allows local attackers to modify files on affected installations of Philips Hue Bridge Pro. An attacker must first obtain the ability to execute low-privileged code within a container on the target system, in order to exploit this vulnerability. The specific flaw exists within the factory data service, which listens on TCP port 5001 by default. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to modify files in the context of the service account.",
+    "zdi_can": "ZDI-CAN-33090",
+    "zdi_id": "ZDI-26-890"
+  },
+  "ZDI-26-891": {
+    "additional_details": "Fixed in Bridge Pro firmware version 6.1.2071524030 (or later) https://www.philips-hue.com/en-ca/support/release-notes/bridge-pro",
+    "advisory_date": "2026-11-06",
+    "affected_products": [
+      "Hue Bridge Pro"
+    ],
+    "affected_vendors": [
+      "Philips"
+    ],
+    "credit": "Connor Ford @ByteInsight of TrendAI Zero Day Initiative",
+    "cve": "CVE-2026-118632",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-118632",
+    "cvss": 8.0,
+    "cvss_vector": "AV:A/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-08-25 - Vulnerability reported to vendor",
+      "2026-11-06 - Coordinated public release of advisory",
+      "2026-11-06 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-891 ZDI-CAN-33089 Philips Hue Bridge Pro SQL Injection Remote Code Execution Vulnerability 2026-11-06 CVE-2026-118632 https://www.cve.org/CVERecord?id=CVE-2026-118632 8.0 AV:A/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Philips'] ['Hue Bridge Pro'] This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Philips Hue Bridge Pro. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed. The specific flaw exists within the HTTP service, which listens on TCP port 443 by default. The issue results from the lack of proper validation of a user-supplied string before using it to construct SQL queries. An attacker can leverage this vulnerability to execute code in the context of root. Fixed in Bridge Pro firmware version 6.1.2071524030 (or later) https://www.philips-hue.com/en-ca/support/release-notes/bridge-pro ['2026-08-25 - Vulnerability reported to vendor', '2026-11-06 - Coordinated public release of advisory', '2026-11-06 - Advisory Updated'] Connor Ford @ByteInsight of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-891/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-891/",
+    "title": "Philips Hue Bridge Pro SQL Injection Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-06",
+    "vulnerability_details": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Philips Hue Bridge Pro. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed. The specific flaw exists within the HTTP service, which listens on TCP port 443 by default. The issue results from the lack of proper validation of a user-supplied string before using it to construct SQL queries. An attacker can leverage this vulnerability to execute code in the context of root.",
+    "zdi_can": "ZDI-CAN-33089",
+    "zdi_id": "ZDI-26-891"
+  },
+  "ZDI-26-892": {
+    "additional_details": "Fixed in Bridge Pro firmware version 6.1.2071524030 (or later) https://www.philips-hue.com/en-ca/support/release-notes/bridge-pro",
+    "advisory_date": "2026-11-06",
+    "affected_products": [
+      "Hue Bridge Pro"
+    ],
+    "affected_vendors": [
+      "Philips"
+    ],
+    "credit": "Connor Ford @ByteInsight of TrendAI Zero Day Initiative",
+    "cve": "CVE-2026-122044",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-122044",
+    "cvss": 8.8,
+    "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-08-12 - Vulnerability reported to vendor",
+      "2026-11-06 - Coordinated public release of advisory",
+      "2026-11-06 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-892 ZDI-CAN-33086 Philips Hue Bridge Pro Protection Mechanism Failure Authentication Bypass Vulnerability 2026-11-06 CVE-2026-122044 https://www.cve.org/CVERecord?id=CVE-2026-122044 8.8 AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['Philips'] ['Hue Bridge Pro'] This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of Philips Hue Bridge Pro. Authentication is not required to exploit this vulnerability. The specific flaw exists within the HTTP service, which listens on TCP port 443 by default. The issue results from the failure to apply a protection mechanism. An attacker can leverage this vulnerability to bypass authentication on the system. Fixed in Bridge Pro firmware version 6.1.2071524030 (or later) https://www.philips-hue.com/en-ca/support/release-notes/bridge-pro ['2026-08-12 - Vulnerability reported to vendor', '2026-11-06 - Coordinated public release of advisory', '2026-11-06 - Advisory Updated'] Connor Ford @ByteInsight of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-892/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-892/",
+    "title": "Philips Hue Bridge Pro Protection Mechanism Failure Authentication Bypass Vulnerability",
+    "updated_date": "2026-11-06",
+    "vulnerability_details": "This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of Philips Hue Bridge Pro. Authentication is not required to exploit this vulnerability. The specific flaw exists within the HTTP service, which listens on TCP port 443 by default. The issue results from the failure to apply a protection mechanism. An attacker can leverage this vulnerability to bypass authentication on the system.",
+    "zdi_can": "ZDI-CAN-33086",
+    "zdi_id": "ZDI-26-892"
+  },
+  "ZDI-26-893": {
+    "additional_details": "Fixed in SketchUp 2027.0",
+    "advisory_date": "2026-11-06",
+    "affected_products": [
+      "SketchUp"
+    ],
+    "affected_vendors": [
+      "Trimble"
+    ],
+    "credit": "r1ngz3ro",
+    "cve": "CVE-2026-121741",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-121741",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-05-21 - Vulnerability reported to vendor",
+      "2026-11-06 - Coordinated public release of advisory",
+      "2026-11-06 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-893 ZDI-CAN-30421 Trimble SketchUp SKP File Parsing Use-After-Free Remote Code Execution Vulnerability 2026-11-06 CVE-2026-121741 https://www.cve.org/CVERecord?id=CVE-2026-121741 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Trimble'] ['SketchUp'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Trimble SketchUp. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of SKP files. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current process. Fixed in SketchUp 2027.0 ['2026-05-21 - Vulnerability reported to vendor', '2026-11-06 - Coordinated public release of advisory', '2026-11-06 - Advisory Updated'] r1ngz3ro https://www.zerodayinitiative.com/advisories/ZDI-26-893/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-893/",
+    "title": "Trimble SketchUp SKP File Parsing Use-After-Free Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-06",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Trimble SketchUp. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of SKP files. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-30421",
+    "zdi_id": "ZDI-26-893"
+  },
+  "ZDI-26-894": {
+    "additional_details": "Docker has issued an update to correct this vulnerability. More details can be found at: https://www.cve.org/CVERecord?id=CVE-2026-121614",
+    "advisory_date": "2026-11-06",
+    "affected_products": [
+      "Sandboxes"
+    ],
+    "affected_vendors": [
+      "Docker"
+    ],
+    "credit": "Nitesh Surana (niteshsurana.com) of TrendAI Research",
+    "cve": "CVE-2026-121614",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-121614",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-08-28 - Vulnerability reported to vendor",
+      "2026-11-06 - Coordinated public release of advisory",
+      "2026-11-06 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-894 ZDI-CAN-33973 Docker Sandboxes Inclusion of Functionality from Untrusted Control Sphere Remote Code Execution Vulnerability 2026-11-06 CVE-2026-121614 https://www.cve.org/CVERecord?id=CVE-2026-121614 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Docker'] ['Sandboxes'] This vulnerability allows local attackers to execute arbitrary code on affected installations of Docker Sandboxes. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the creation of sandboxes using the clone mode. The issue results from launching an executable from an untrusted location. An attacker can leverage this vulnerability to execute code in the context of the current user. Docker has issued an update to correct this vulnerability. More details can be found at: https://www.cve.org/CVERecord?id=CVE-2026-121614 ['2026-08-28 - Vulnerability reported to vendor', '2026-11-06 - Coordinated public release of advisory', '2026-11-06 - Advisory Updated'] Nitesh Surana (niteshsurana.com) of TrendAI Research https://www.zerodayinitiative.com/advisories/ZDI-26-894/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-894/",
+    "title": "Docker Sandboxes Inclusion of Functionality from Untrusted Control Sphere Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-06",
+    "vulnerability_details": "This vulnerability allows local attackers to execute arbitrary code on affected installations of Docker Sandboxes. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the creation of sandboxes using the clone mode. The issue results from launching an executable from an untrusted location. An attacker can leverage this vulnerability to execute code in the context of the current user.",
+    "zdi_can": "ZDI-CAN-33973",
+    "zdi_id": "ZDI-26-894"
+  },
+  "ZDI-26-895": {
+    "additional_details": "LibreOffice has issued an update to correct this vulnerability. More details can be found at: https://www.libreoffice.org/security/#cve-2026-76181",
+    "advisory_date": "2026-11-06",
+    "affected_products": [
+      "LibreOffice"
+    ],
+    "affected_vendors": [
+      "LibreOffice"
+    ],
+    "credit": "Anonymous",
+    "cve": "CVE-2026-76181",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-76181",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-08-20 - Vulnerability reported to vendor",
+      "2026-11-06 - Coordinated public release of advisory",
+      "2026-11-06 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-895 ZDI-CAN-31062 LibreOffice dBase File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability 2026-11-06 CVE-2026-76181 https://www.cve.org/CVERecord?id=CVE-2026-76181 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['LibreOffice'] ['LibreOffice'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of LibreOffice. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of dBase index files, which can be referenced from .odb database files. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. LibreOffice has issued an update to correct this vulnerability. More details can be found at: https://www.libreoffice.org/security/#cve-2026-76181 ['2026-08-20 - Vulnerability reported to vendor', '2026-11-06 - Coordinated public release of advisory', '2026-11-06 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-895/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-895/",
+    "title": "LibreOffice dBase File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-06",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of LibreOffice. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of dBase index files, which can be referenced from .odb database files. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-31062",
+    "zdi_id": "ZDI-26-895"
+  },
+  "ZDI-26-896": {
+    "additional_details": "Home Assistant has issued an update to correct this vulnerability. More details can be found at: https://github.com/home-assistant/core/security/advisories/GHSA-6456-4qg9-cqpj",
+    "advisory_date": "2026-11-06",
+    "affected_products": [
+      "Green"
+    ],
+    "affected_vendors": [
+      "Home Assistant"
+    ],
+    "credit": "Team ANHTUD",
+    "cve": "CVE-2026-91131",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-91131",
+    "cvss": 8.8,
+    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2025-11-05 - Vulnerability reported to vendor",
+      "2026-11-06 - Coordinated public release of advisory",
+      "2026-11-06 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-896 ZDI-CAN-28461 (Pwn2Own) Home Assistant Green Cleartext Storage of Credentials Local Privilege Escalation Vulnerability 2026-11-06 CVE-2026-91131 https://www.cve.org/CVERecord?id=CVE-2026-91131 8.8 AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H ['Home Assistant'] ['Green'] This vulnerability allows local attackers to escalate privileges on affected installations of Home Assistant Green. An attacker must first obtain the ability to execute low-privileged code within a container on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of user account tokens. The issue results from storing sensitive information in plaintext. An attacker can leverage this vulnerability to escape the container and execute arbitrary code in the context of root. Home Assistant has issued an update to correct this vulnerability. More details can be found at: https://github.com/home-assistant/core/security/advisories/GHSA-6456-4qg9-cqpj ['2025-11-05 - Vulnerability reported to vendor', '2026-11-06 - Coordinated public release of advisory', '2026-11-06 - Advisory Updated'] Team ANHTUD https://www.zerodayinitiative.com/advisories/ZDI-26-896/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-896/",
+    "title": "(Pwn2Own) Home Assistant Green Cleartext Storage of Credentials Local Privilege Escalation Vulnerability",
+    "updated_date": "2026-11-06",
+    "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Home Assistant Green. An attacker must first obtain the ability to execute low-privileged code within a container on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of user account tokens. The issue results from storing sensitive information in plaintext. An attacker can leverage this vulnerability to escape the container and execute arbitrary code in the context of root.",
+    "zdi_can": "ZDI-CAN-28461",
+    "zdi_id": "ZDI-26-896"
+  },
+  "ZDI-26-897": {
+    "additional_details": "Home Assistant has issued an update to correct this vulnerability. More details can be found at: https://github.com/home-assistant/core/security/advisories/GHSA-6456-4qg9-cqpj",
+    "advisory_date": "2026-11-06",
+    "affected_products": [
+      "Green"
+    ],
+    "affected_vendors": [
+      "Home Assistant"
+    ],
+    "credit": "Team Neodyme (@Neodyme)",
+    "cve": "CVE-2026-91131",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-91131",
+    "cvss": 5.4,
+    "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+    "disclosure_timeline": [
+      "2025-11-05 - Vulnerability reported to vendor",
+      "2026-11-06 - Coordinated public release of advisory",
+      "2026-11-06 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-897 ZDI-CAN-28361 (Pwn2Own) Home Assistant Green aiohttp_client Server-Side Request Forgery Vulnerability 2026-11-06 CVE-2026-91131 https://www.cve.org/CVERecord?id=CVE-2026-91131 5.4 AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N ['Home Assistant'] ['Green'] This vulnerability allows network-adjacent attackers to initiate arbitrary server-side requests on affected installations of Home Assistant Green. Authentication is not required to exploit this vulnerability. The specific flaw exists within the aiohttp_client module. The issue results from following HTTP redirects. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of root. Home Assistant has issued an update to correct this vulnerability. More details can be found at: https://github.com/home-assistant/core/security/advisories/GHSA-6456-4qg9-cqpj ['2025-11-05 - Vulnerability reported to vendor', '2026-11-06 - Coordinated public release of advisory', '2026-11-06 - Advisory Updated'] Team Neodyme (@Neodyme) https://www.zerodayinitiative.com/advisories/ZDI-26-897/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-897/",
+    "title": "(Pwn2Own) Home Assistant Green aiohttp_client Server-Side Request Forgery Vulnerability",
+    "updated_date": "2026-11-06",
+    "vulnerability_details": "This vulnerability allows network-adjacent attackers to initiate arbitrary server-side requests on affected installations of Home Assistant Green. Authentication is not required to exploit this vulnerability. The specific flaw exists within the aiohttp_client module. The issue results from following HTTP redirects. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of root.",
+    "zdi_can": "ZDI-CAN-28361",
+    "zdi_id": "ZDI-26-897"
   }
 }
