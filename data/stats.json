@@ -1,9 +1,9 @@
 {
   "by_cvss_band": {
-    "critical": 2412,
-    "high": 9654,
-    "low": 1505,
-    "medium": 4137,
+    "critical": 2413,
+    "high": 9666,
+    "low": 1507,
+    "medium": 4139,
     "unknown": 337
   },
   "by_vendor": {
@@ -23,7 +23,7 @@
     "IrfanView": 180,
     "Ivanti": 179,
     "Linux": 179,
-    "Microsoft": 1981,
+    "Microsoft": 1984,
     "Novell": 130,
     "Oracle": 519,
     "PDF-XChange": 281,
@@ -58,12 +58,12 @@
     "2026": 898
   },
   "cve_coverage": 15655,
-  "high_cvss": 12066,
+  "high_cvss": 12079,
   "total_published": 17305,
-  "total_upcoming": 740,
+  "total_upcoming": 757,
   "upcoming_deadline_state": {
-    "due_soon": 101,
-    "future": 334,
-    "past_due": 305
+    "due_soon": 95,
+    "future": 351,
+    "past_due": 311
   }
 }
