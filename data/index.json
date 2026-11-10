@@ -320461,19 +320461,6 @@
   },
   {
     "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-06-05",
-    "discoverer": "Michael DePlante (@izobashi) of TrendAI Zero Day Initiative",
-    "id": "ZDI-CAN-27986",
-    "kind": "upcoming",
-    "reported_date": "2026-02-05",
-    "status": "upcoming",
-    "vendor": "Hugging Face",
-    "vendor_url": "https://huggingface.co/",
-    "zdi_can": "ZDI-CAN-27986"
-  },
-  {
-    "cvss": 7.8,
     "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
     "deadline": "2026-06-05",
     "discoverer": "Bobby Gould (@bobbygould5) and Michael DePlante (@izobashi) of TrendAI Zero Day Initiative",
