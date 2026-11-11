@@ -1,5 +1,17 @@
 [
   {
+    "cvss": 7.0,
+    "cvss_vector": "AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "deadline": "2027-03-10",
+    "discoverer": "Elias Myllym\u00e4ki",
+    "kind": "upcoming",
+    "reported_date": "2026-11-10",
+    "status": "upcoming",
+    "vendor": "Microsoft",
+    "vendor_url": "https://www.microsoft.com",
+    "zdi_can": "ZDI-CAN-33928"
+  },
+  {
     "cvss": 7.8,
     "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
     "deadline": "2027-03-07",
@@ -3012,18 +3024,6 @@
     "zdi_can": "ZDI-CAN-32034"
   },
   {
-    "cvss": 8.8,
-    "cvss_vector": "AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2027-01-08",
-    "discoverer": "Mirae",
-    "kind": "upcoming",
-    "reported_date": "2026-09-10",
-    "status": "upcoming",
-    "vendor": "Wireshark",
-    "vendor_url": null,
-    "zdi_can": "ZDI-CAN-31676"
-  },
-  {
     "cvss": 6.6,
     "cvss_vector": "AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H",
     "deadline": "2027-01-08",
@@ -3418,30 +3418,6 @@
     "vendor": "X.Org",
     "vendor_url": "https://www.x.org/",
     "zdi_can": "ZDI-CAN-31888"
-  },
-  {
-    "cvss": 8.8,
-    "cvss_vector": "AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-12-31",
-    "discoverer": "Adam Bedard",
-    "kind": "upcoming",
-    "reported_date": "2026-09-02",
-    "status": "upcoming",
-    "vendor": "X.Org",
-    "vendor_url": "https://www.x.org/",
-    "zdi_can": "ZDI-CAN-32093"
-  },
-  {
-    "cvss": 8.8,
-    "cvss_vector": "AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-12-31",
-    "discoverer": "Adam Bedard",
-    "kind": "upcoming",
-    "reported_date": "2026-09-02",
-    "status": "upcoming",
-    "vendor": "X.Org",
-    "vendor_url": "https://www.x.org/",
-    "zdi_can": "ZDI-CAN-32061"
   },
   {
     "cvss": 7.3,
@@ -3994,30 +3970,6 @@
     "vendor": "FreeBSD",
     "vendor_url": "https://www.freebsd.org/",
     "zdi_can": "ZDI-CAN-33136"
-  },
-  {
-    "cvss": 7.1,
-    "cvss_vector": "AV:A/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-12-18",
-    "discoverer": "HeeChan Kim (@heegong123) of TeamH4C",
-    "kind": "upcoming",
-    "reported_date": "2026-08-20",
-    "status": "upcoming",
-    "vendor": "Wireshark",
-    "vendor_url": null,
-    "zdi_can": "ZDI-CAN-32851"
-  },
-  {
-    "cvss": 7.5,
-    "cvss_vector": "AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-12-18",
-    "discoverer": "HeeChan Kim (@heegong123) of TeamH4C",
-    "kind": "upcoming",
-    "reported_date": "2026-08-20",
-    "status": "upcoming",
-    "vendor": "Wireshark",
-    "vendor_url": null,
-    "zdi_can": "ZDI-CAN-32846"
   },
   {
     "cvss": 7.8,
@@ -6312,18 +6264,6 @@
     "zdi_can": "ZDI-CAN-30013"
   },
   {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-09-30",
-    "discoverer": "winters0x64",
-    "kind": "upcoming",
-    "reported_date": "2026-06-02",
-    "status": "upcoming",
-    "vendor": "NVIDIA",
-    "vendor_url": "https://www.nvidia.com/en-us/",
-    "zdi_can": "ZDI-CAN-29291"
-  },
-  {
     "cvss": 5.0,
     "cvss_vector": "AV:L/AC:H/PR:L/UI:R/S:U/C:N/I:L/A:H",
     "deadline": "2026-09-30",
@@ -6358,42 +6298,6 @@
     "vendor": "AutomationDirect",
     "vendor_url": null,
     "zdi_can": "ZDI-CAN-27859"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-    "deadline": "2026-09-26",
-    "discoverer": "Anonymous",
-    "kind": "upcoming",
-    "reported_date": "2026-05-29",
-    "status": "upcoming",
-    "vendor": "X.Org",
-    "vendor_url": "https://www.x.org/",
-    "zdi_can": "ZDI-CAN-30443"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-    "deadline": "2026-09-26",
-    "discoverer": "Anonymous",
-    "kind": "upcoming",
-    "reported_date": "2026-05-29",
-    "status": "upcoming",
-    "vendor": "X.Org",
-    "vendor_url": "https://www.x.org/",
-    "zdi_can": "ZDI-CAN-30557"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-    "deadline": "2026-09-26",
-    "discoverer": "Anonymous",
-    "kind": "upcoming",
-    "reported_date": "2026-05-29",
-    "status": "upcoming",
-    "vendor": "X.Org",
-    "vendor_url": "https://www.x.org/",
-    "zdi_can": "ZDI-CAN-30444"
   },
   {
     "cvss": 3.8,
