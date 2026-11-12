@@ -1,9 +1,9 @@
 {
   "by_cvss_band": {
     "critical": 2413,
-    "high": 9666,
-    "low": 1507,
-    "medium": 4139,
+    "high": 9660,
+    "low": 1510,
+    "medium": 4142,
     "unknown": 337
   },
   "by_vendor": {
@@ -12,11 +12,11 @@
     "Apple": 823,
     "Autodesk": 527,
     "Bentley": 208,
-    "Cisco": 330,
+    "Cisco": 322,
     "D-Link": 261,
     "Delta Electronics": 285,
     "Delta Industrial Automation": 220,
-    "Foxit": 940,
+    "Foxit": 941,
     "Fuji Electric": 197,
     "Hewlett Packard Enterprise": 304,
     "Hewlett-Packard": 242,
@@ -26,7 +26,7 @@
     "Microsoft": 1985,
     "Novell": 130,
     "Oracle": 519,
-    "PDF-XChange": 281,
+    "PDF-XChange": 282,
     "SAP": 226,
     "Schneider Electric": 162,
     "Siemens": 397,
@@ -55,15 +55,15 @@
     "2023": 1908,
     "2024": 1748,
     "2025": 1203,
-    "2026": 907
+    "2026": 954
   },
   "cve_coverage": 15661,
-  "high_cvss": 12079,
-  "total_published": 17314,
-  "total_upcoming": 748,
+  "high_cvss": 12073,
+  "total_published": 17361,
+  "total_upcoming": 701,
   "upcoming_deadline_state": {
-    "due_soon": 111,
-    "future": 331,
-    "past_due": 306
+    "due_soon": 105,
+    "future": 340,
+    "past_due": 256
   }
 }

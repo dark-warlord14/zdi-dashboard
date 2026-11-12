@@ -25394,5 +25394,1321 @@
     "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of X.Org Server. User interaction is required to exploit this vulnerability in that the target must connect to a malicious X11 server. The specific flaw exists within the XkbReadKeyActions function. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current process.",
     "zdi_can": "ZDI-CAN-32061",
     "zdi_id": "ZDI-26-906"
+  },
+  "ZDI-26-907": {
+    "additional_details": "03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-11",
+    "affected_products": [
+      "Detectron2"
+    ],
+    "affected_vendors": [
+      "Meta"
+    ],
+    "credit": "Mat Powell of TrendAI Zero Day Initiative",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-03-26 - Vulnerability reported to vendor",
+      "2026-11-11 - Coordinated public release of advisory",
+      "2026-11-11 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-907 ZDI-CAN-29464 (0Day) Meta Detectron2 vertex_feature_embedder Deserialization of Untrusted Data Remote Code Execution Vulnerability 2026-11-11 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Meta'] ['Detectron2'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta Detectron2. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of pickle checkpoint files. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process. 03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-03-26 - Vulnerability reported to vendor', '2026-11-11 - Coordinated public release of advisory', '2026-11-11 - Advisory Updated'] Mat Powell of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-907/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-907/",
+    "title": "(0Day) Meta Detectron2 vertex_feature_embedder Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-11",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta Detectron2. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of pickle checkpoint files. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29464",
+    "zdi_id": "ZDI-26-907"
+  },
+  "ZDI-26-908": {
+    "additional_details": "03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-11",
+    "affected_products": [
+      "Detectron2"
+    ],
+    "affected_vendors": [
+      "Meta"
+    ],
+    "credit": "Bongeun Koo (@kiddo_pwn)",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-03-26 - Vulnerability reported to vendor",
+      "2026-11-11 - Coordinated public release of advisory",
+      "2026-11-11 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-908 ZDI-CAN-29497 (0Day) Meta Detectron2 load_proposals_into_dataset Deserialization of Untrusted Data Remote Code Execution Vulnerability 2026-11-11 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Meta'] ['Detectron2'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta Detectron2. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of pickle files. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process. 03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-03-26 - Vulnerability reported to vendor', '2026-11-11 - Coordinated public release of advisory', '2026-11-11 - Advisory Updated'] Bongeun Koo (@kiddo_pwn) https://www.zerodayinitiative.com/advisories/ZDI-26-908/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-908/",
+    "title": "(0Day) Meta Detectron2 load_proposals_into_dataset Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-11",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta Detectron2. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of pickle files. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29497",
+    "zdi_id": "ZDI-26-908"
+  },
+  "ZDI-26-909": {
+    "additional_details": "03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-11",
+    "affected_products": [
+      "Detectron2"
+    ],
+    "affected_vendors": [
+      "Meta"
+    ],
+    "credit": "Bongeun Koo (@kiddo_pwn)",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-03-26 - Vulnerability reported to vendor",
+      "2026-11-11 - Coordinated public release of advisory",
+      "2026-11-11 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-909 ZDI-CAN-29499 (0Day) Meta Detectron2 CfgNode.merge_from_file Deserialization of Untrusted Data Remote Code Execution Vulnerability 2026-11-11 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Meta'] ['Detectron2'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta Detectron2. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the CfgNode.merge_from_file method. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process. 03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-03-26 - Vulnerability reported to vendor', '2026-11-11 - Coordinated public release of advisory', '2026-11-11 - Advisory Updated'] Bongeun Koo (@kiddo_pwn) https://www.zerodayinitiative.com/advisories/ZDI-26-909/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-909/",
+    "title": "(0Day) Meta Detectron2 CfgNode.merge_from_file Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-11",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta Detectron2. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the CfgNode.merge_from_file method. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29499",
+    "zdi_id": "ZDI-26-909"
+  },
+  "ZDI-26-910": {
+    "additional_details": "03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-11",
+    "affected_products": [
+      "Detectron2"
+    ],
+    "affected_vendors": [
+      "Meta"
+    ],
+    "credit": "Bongeun Koo (@kiddo_pwn)",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-03-26 - Vulnerability reported to vendor",
+      "2026-11-11 - Coordinated public release of advisory",
+      "2026-11-11 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-910 ZDI-CAN-29500 (0Day) Meta Detectron2 LazyConfig Deserialization of Untrusted Data Remote Code Execution Vulnerability 2026-11-11 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Meta'] ['Detectron2'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta Detectron2. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of YAML files. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process. 03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-03-26 - Vulnerability reported to vendor', '2026-11-11 - Coordinated public release of advisory', '2026-11-11 - Advisory Updated'] Bongeun Koo (@kiddo_pwn) https://www.zerodayinitiative.com/advisories/ZDI-26-910/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-910/",
+    "title": "(0Day) Meta Detectron2 LazyConfig Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-11",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta Detectron2. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of YAML files. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29500",
+    "zdi_id": "ZDI-26-910"
+  },
+  "ZDI-26-911": {
+    "additional_details": "03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-11",
+    "affected_products": [
+      "Detectron2"
+    ],
+    "affected_vendors": [
+      "Meta"
+    ],
+    "credit": "Mat Powell of TrendAI Zero Day Initiative",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-03-26 - Vulnerability reported to vendor",
+      "2026-11-11 - Coordinated public release of advisory",
+      "2026-11-11 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-911 ZDI-CAN-29463 (0Day) Meta Detectron2 DensePose Deserialization of Untrusted Data Remote Code Execution Vulnerability 2026-11-11 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Meta'] ['Detectron2'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta Detectron2. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of pickle checkpoint files. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process. 03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-03-26 - Vulnerability reported to vendor', '2026-11-11 - Coordinated public release of advisory', '2026-11-11 - Advisory Updated'] Mat Powell of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-911/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-911/",
+    "title": "(0Day) Meta Detectron2 DensePose Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-11",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta Detectron2. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of pickle checkpoint files. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29463",
+    "zdi_id": "ZDI-26-911"
+  },
+  "ZDI-26-912": {
+    "additional_details": "03/04/26 - ZDI reported the vulnerability to the vendor 03/04/26 - the vendor acknowledged the receipt of the report 03/05/26 - the vendor communicated that the report was being investigated 03/06/26 - the vendor communicated that the report was a duplicate of another issue and ZDI would be notified when the issue is resolved 07/27/26 - ZDI asked for updates 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-11",
+    "affected_products": [
+      "Detectron2"
+    ],
+    "affected_vendors": [
+      "Meta"
+    ],
+    "credit": "Anonymous",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-03-04 - Vulnerability reported to vendor",
+      "2026-11-11 - Coordinated public release of advisory",
+      "2026-11-11 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-912 ZDI-CAN-29465 (0Day) Meta Detectron2 detection_checkpoint Deserialization of Untrusted Data Remote Code Execution Vulnerability 2026-11-11 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Meta'] ['Detectron2'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta Detectron2. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of checkpoint files. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process. 03/04/26 - ZDI reported the vulnerability to the vendor 03/04/26 - the vendor acknowledged the receipt of the report 03/05/26 - the vendor communicated that the report was being investigated 03/06/26 - the vendor communicated that the report was a duplicate of another issue and ZDI would be notified when the issue is resolved 07/27/26 - ZDI asked for updates 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-03-04 - Vulnerability reported to vendor', '2026-11-11 - Coordinated public release of advisory', '2026-11-11 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-912/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-912/",
+    "title": "(0Day) Meta Detectron2 detection_checkpoint Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-11",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta Detectron2. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of checkpoint files. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29465",
+    "zdi_id": "ZDI-26-912"
+  },
+  "ZDI-26-913": {
+    "additional_details": "03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 09/17/26 - the vendor communicated that the fairseq repository is no longer maintained and was archived 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-11",
+    "affected_products": [
+      "fairseq"
+    ],
+    "affected_vendors": [
+      "Meta"
+    ],
+    "credit": "Mat Powell of TrendAI Zero Day Initiative",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-03-26 - Vulnerability reported to vendor",
+      "2026-11-11 - Coordinated public release of advisory",
+      "2026-11-11 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-913 ZDI-CAN-29544 (0Day) Meta fairseq load_audio_path Code Injection Remote Code Execution Vulnerability 2026-11-11 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Meta'] ['fairseq'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the load_audio_path method. The issue results from the lack of proper validation of a user-supplied string before using it to execute Python code. An attacker can leverage this vulnerability to execute code in the context of the current process. 03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 09/17/26 - the vendor communicated that the fairseq repository is no longer maintained and was archived 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-03-26 - Vulnerability reported to vendor', '2026-11-11 - Coordinated public release of advisory', '2026-11-11 - Advisory Updated'] Mat Powell of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-913/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-913/",
+    "title": "(0Day) Meta fairseq load_audio_path Code Injection Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-11",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the load_audio_path method. The issue results from the lack of proper validation of a user-supplied string before using it to execute Python code. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29544",
+    "zdi_id": "ZDI-26-913"
+  },
+  "ZDI-26-914": {
+    "additional_details": "03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 09/17/26 - the vendor communicated that the fairseq repository is no longer maintained and was archived 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-11",
+    "affected_products": [
+      "fairseq"
+    ],
+    "affected_vendors": [
+      "Meta"
+    ],
+    "credit": "Mat Powell of TrendAI Zero Day Initiative",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-03-26 - Vulnerability reported to vendor",
+      "2026-11-11 - Coordinated public release of advisory",
+      "2026-11-11 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-914 ZDI-CAN-29591 (0Day) Meta fairseq Wav2VecModel YAML File Parsing Code Injection Remote Code Execution Vulnerability 2026-11-11 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Meta'] ['fairseq'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The specific flaw exists within the parsing of configuration files. The issue results from the lack of proper validation of a user-supplied string before using it to execute Python code. An attacker can leverage this vulnerability to execute code in the context of the current process. 03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 09/17/26 - the vendor communicated that the fairseq repository is no longer maintained and was archived 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-03-26 - Vulnerability reported to vendor', '2026-11-11 - Coordinated public release of advisory', '2026-11-11 - Advisory Updated'] Mat Powell of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-914/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-914/",
+    "title": "(0Day) Meta fairseq Wav2VecModel YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-11",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The specific flaw exists within the parsing of configuration files. The issue results from the lack of proper validation of a user-supplied string before using it to execute Python code. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29591",
+    "zdi_id": "ZDI-26-914"
+  },
+  "ZDI-26-915": {
+    "additional_details": "03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 09/17/26 - the vendor communicated that the fairseq repository is no longer maintained and was archived 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-11",
+    "affected_products": [
+      "fairseq"
+    ],
+    "affected_vendors": [
+      "Meta"
+    ],
+    "credit": "Mat Powell of TrendAI Zero Day Initiative",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-03-26 - Vulnerability reported to vendor",
+      "2026-11-11 - Coordinated public release of advisory",
+      "2026-11-11 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-915 ZDI-CAN-29548 (0Day) Meta fairseq FilterNamesDataset Code Injection Remote Code Execution Vulnerability 2026-11-11 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Meta'] ['fairseq'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the FilterNamesDataset class. The issue results from the lack of proper validation of a user-supplied string before using it to execute Python code. An attacker can leverage this vulnerability to execute code in the context of the current process. 03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 09/17/26 - the vendor communicated that the fairseq repository is no longer maintained and was archived 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-03-26 - Vulnerability reported to vendor', '2026-11-11 - Coordinated public release of advisory', '2026-11-11 - Advisory Updated'] Mat Powell of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-915/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-915/",
+    "title": "(0Day) Meta fairseq FilterNamesDataset Code Injection Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-11",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the FilterNamesDataset class. The issue results from the lack of proper validation of a user-supplied string before using it to execute Python code. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29548",
+    "zdi_id": "ZDI-26-915"
+  },
+  "ZDI-26-916": {
+    "additional_details": "03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 09/17/26 - the vendor communicated that the fairseq repository is no longer maintained and was archived 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-11",
+    "affected_products": [
+      "fairseq"
+    ],
+    "affected_vendors": [
+      "Meta"
+    ],
+    "credit": "Mat Powell of TrendAI Zero Day Initiative",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-03-26 - Vulnerability reported to vendor",
+      "2026-11-11 - Coordinated public release of advisory",
+      "2026-11-11 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-916 ZDI-CAN-29547 (0Day) Meta fairseq split_by_lang Code Injection Remote Code Execution Vulnerability 2026-11-11 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Meta'] ['fairseq'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the split_by_lang.py script. The issue results from the lack of proper validation of a user-supplied string before using it to execute Python code. An attacker can leverage this vulnerability to execute code in the context of the current process. 03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 09/17/26 - the vendor communicated that the fairseq repository is no longer maintained and was archived 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-03-26 - Vulnerability reported to vendor', '2026-11-11 - Coordinated public release of advisory', '2026-11-11 - Advisory Updated'] Mat Powell of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-916/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-916/",
+    "title": "(0Day) Meta fairseq split_by_lang Code Injection Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-11",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the split_by_lang.py script. The issue results from the lack of proper validation of a user-supplied string before using it to execute Python code. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29547",
+    "zdi_id": "ZDI-26-916"
+  },
+  "ZDI-26-917": {
+    "additional_details": "03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 09/17/26 - the vendor communicated that the fairseq repository is no longer maintained and was archived 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-11",
+    "affected_products": [
+      "fairseq"
+    ],
+    "affected_vendors": [
+      "Meta"
+    ],
+    "credit": "Mat Powell of TrendAI Zero Day Initiative",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-03-26 - Vulnerability reported to vendor",
+      "2026-11-11 - Coordinated public release of advisory",
+      "2026-11-11 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-917 ZDI-CAN-29545 (0Day) Meta fairseq load_speaker Code Injection Remote Code Execution Vulnerability 2026-11-11 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Meta'] ['fairseq'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the load_speaker function. The issue results from the lack of proper validation of a user-supplied string before using it to execute Python code. An attacker can leverage this vulnerability to execute code in the context of the current process. 03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 09/17/26 - the vendor communicated that the fairseq repository is no longer maintained and was archived 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-03-26 - Vulnerability reported to vendor', '2026-11-11 - Coordinated public release of advisory', '2026-11-11 - Advisory Updated'] Mat Powell of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-917/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-917/",
+    "title": "(0Day) Meta fairseq load_speaker Code Injection Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-11",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the load_speaker function. The issue results from the lack of proper validation of a user-supplied string before using it to execute Python code. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29545",
+    "zdi_id": "ZDI-26-917"
+  },
+  "ZDI-26-918": {
+    "additional_details": "03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 09/17/26 - the vendor communicated that the fairseq repository is no longer maintained and was archived 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-11",
+    "affected_products": [
+      "fairseq"
+    ],
+    "affected_vendors": [
+      "Meta"
+    ],
+    "credit": "Mat Powell of TrendAI Zero Day Initiative",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-03-26 - Vulnerability reported to vendor",
+      "2026-11-11 - Coordinated public release of advisory",
+      "2026-11-11 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-918 ZDI-CAN-29621 (0Day) Meta fairseq VGGTransformerModel YAML File Parsing Code Injection Remote Code Execution Vulnerability 2026-11-11 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Meta'] ['fairseq'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The specific flaw exists within the parsing of configuration files. The issue results from the lack of proper validation of a user-supplied string before using it to execute Python code. An attacker can leverage this vulnerability to execute code in the context of the current process. 03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 09/17/26 - the vendor communicated that the fairseq repository is no longer maintained and was archived 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-03-26 - Vulnerability reported to vendor', '2026-11-11 - Coordinated public release of advisory', '2026-11-11 - Advisory Updated'] Mat Powell of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-918/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-918/",
+    "title": "(0Day) Meta fairseq VGGTransformerModel YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-11",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The specific flaw exists within the parsing of configuration files. The issue results from the lack of proper validation of a user-supplied string before using it to execute Python code. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29621",
+    "zdi_id": "ZDI-26-918"
+  },
+  "ZDI-26-919": {
+    "additional_details": "03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 09/17/26 - the vendor communicated that the fairseq repository is no longer maintained and was archived 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-11",
+    "affected_products": [
+      "fairseq"
+    ],
+    "affected_vendors": [
+      "Meta"
+    ],
+    "credit": "Mat Powell of TrendAI Zero Day Initiative",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-03-26 - Vulnerability reported to vendor",
+      "2026-11-11 - Coordinated public release of advisory",
+      "2026-11-11 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-919 ZDI-CAN-29626 (0Day) Meta fairseq FairseqAdafactor YAML File Parsing Code Injection Remote Code Execution Vulnerability 2026-11-11 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Meta'] ['fairseq'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The specific flaw exists within the parsing of configuration files. The issue results from the lack of proper validation of a user-supplied string before using it to execute Python code. An attacker can leverage this vulnerability to execute code in the context of the current process. 03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 09/17/26 - the vendor communicated that the fairseq repository is no longer maintained and was archived 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-03-26 - Vulnerability reported to vendor', '2026-11-11 - Coordinated public release of advisory', '2026-11-11 - Advisory Updated'] Mat Powell of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-919/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-919/",
+    "title": "(0Day) Meta fairseq FairseqAdafactor YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-11",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The specific flaw exists within the parsing of configuration files. The issue results from the lack of proper validation of a user-supplied string before using it to execute Python code. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29626",
+    "zdi_id": "ZDI-26-919"
+  },
+  "ZDI-26-920": {
+    "additional_details": "03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 09/17/26 - the vendor communicated that the fairseq repository is no longer maintained and was archived 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-11",
+    "affected_products": [
+      "fairseq"
+    ],
+    "affected_vendors": [
+      "Meta"
+    ],
+    "credit": "Mat Powell of TrendAI Zero Day Initiative",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-03-26 - Vulnerability reported to vendor",
+      "2026-11-11 - Coordinated public release of advisory",
+      "2026-11-11 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-920 ZDI-CAN-29593 (0Day) Meta fairseq Data2VecAudioModel YAML File Parsing Code Injection Remote Code Execution Vulnerability 2026-11-11 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Meta'] ['fairseq'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The specific flaw exists within the parsing of configuration files. The issue results from the lack of proper validation of a user-supplied string before using it to execute Python code. An attacker can leverage this vulnerability to execute code in the context of the current process. 03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 09/17/26 - the vendor communicated that the fairseq repository is no longer maintained and was archived 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-03-26 - Vulnerability reported to vendor', '2026-11-11 - Coordinated public release of advisory', '2026-11-11 - Advisory Updated'] Mat Powell of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-920/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-920/",
+    "title": "(0Day) Meta fairseq Data2VecAudioModel YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-11",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The specific flaw exists within the parsing of configuration files. The issue results from the lack of proper validation of a user-supplied string before using it to execute Python code. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29593",
+    "zdi_id": "ZDI-26-920"
+  },
+  "ZDI-26-921": {
+    "additional_details": "03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 09/17/26 - the vendor communicated that the fairseq repository is no longer maintained and was archived 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-11",
+    "affected_products": [
+      "fairseq"
+    ],
+    "affected_vendors": [
+      "Meta"
+    ],
+    "credit": "Mat Powell of TrendAI Zero Day Initiative",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-03-26 - Vulnerability reported to vendor",
+      "2026-11-11 - Coordinated public release of advisory",
+      "2026-11-11 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-921 ZDI-CAN-29623 (0Day) Meta fairseq TransformerLanguageModel YAML File Parsing Code Injection Remote Code Execution Vulnerability 2026-11-11 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Meta'] ['fairseq'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The specific flaw exists within the parsing of configuration files. The issue results from the lack of proper validation of a user-supplied string before using it to execute Python code. An attacker can leverage this vulnerability to execute code in the context of the current process. 03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 09/17/26 - the vendor communicated that the fairseq repository is no longer maintained and was archived 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-03-26 - Vulnerability reported to vendor', '2026-11-11 - Coordinated public release of advisory', '2026-11-11 - Advisory Updated'] Mat Powell of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-921/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-921/",
+    "title": "(0Day) Meta fairseq TransformerLanguageModel YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-11",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The specific flaw exists within the parsing of configuration files. The issue results from the lack of proper validation of a user-supplied string before using it to execute Python code. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29623",
+    "zdi_id": "ZDI-26-921"
+  },
+  "ZDI-26-922": {
+    "additional_details": "03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 09/17/26 - the vendor communicated that the fairseq repository is no longer maintained and was archived 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-11",
+    "affected_products": [
+      "fairseq"
+    ],
+    "affected_vendors": [
+      "Meta"
+    ],
+    "credit": "Mat Powell of TrendAI Zero Day Initiative",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-03-26 - Vulnerability reported to vendor",
+      "2026-11-11 - Coordinated public release of advisory",
+      "2026-11-11 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-922 ZDI-CAN-29590 (0Day) Meta fairseq Wav2Vec2Model YAML File Parsing Code Injection Remote Code Execution Vulnerability 2026-11-11 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Meta'] ['fairseq'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The specific flaw exists within the parsing of configuration files. The issue results from the lack of proper validation of a user-supplied string before using it to execute Python code. An attacker can leverage this vulnerability to execute code in the context of the current process. 03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 09/17/26 - the vendor communicated that the fairseq repository is no longer maintained and was archived 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-03-26 - Vulnerability reported to vendor', '2026-11-11 - Coordinated public release of advisory', '2026-11-11 - Advisory Updated'] Mat Powell of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-922/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-922/",
+    "title": "(0Day) Meta fairseq Wav2Vec2Model YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-11",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The specific flaw exists within the parsing of configuration files. The issue results from the lack of proper validation of a user-supplied string before using it to execute Python code. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29590",
+    "zdi_id": "ZDI-26-922"
+  },
+  "ZDI-26-923": {
+    "additional_details": "03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 09/17/26 - the vendor communicated that the fairseq repository is no longer maintained and was archived 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-11",
+    "affected_products": [
+      "fairseq"
+    ],
+    "affected_vendors": [
+      "Meta"
+    ],
+    "credit": "Mat Powell of TrendAI Zero Day Initiative",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-03-26 - Vulnerability reported to vendor",
+      "2026-11-11 - Coordinated public release of advisory",
+      "2026-11-11 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-923 ZDI-CAN-29589 (0Day) Meta fairseq HubertModel YAML File Parsing Code Injection Remote Code Execution Vulnerability 2026-11-11 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Meta'] ['fairseq'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The specific flaw exists within the parsing of configuration files. The issue results from the lack of proper validation of a user-supplied string before using it to execute Python code. An attacker can leverage this vulnerability to execute code in the context of the current process. 03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 09/17/26 - the vendor communicated that the fairseq repository is no longer maintained and was archived 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-03-26 - Vulnerability reported to vendor', '2026-11-11 - Coordinated public release of advisory', '2026-11-11 - Advisory Updated'] Mat Powell of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-923/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-923/",
+    "title": "(0Day) Meta fairseq HubertModel YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-11",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The specific flaw exists within the parsing of configuration files. The issue results from the lack of proper validation of a user-supplied string before using it to execute Python code. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29589",
+    "zdi_id": "ZDI-26-923"
+  },
+  "ZDI-26-924": {
+    "additional_details": "03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 09/17/26 - the vendor communicated that the fairseq repository is no longer maintained and was archived 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-11",
+    "affected_products": [
+      "fairseq"
+    ],
+    "affected_vendors": [
+      "Meta"
+    ],
+    "credit": "Mat Powell of TrendAI Zero Day Initiative",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-03-26 - Vulnerability reported to vendor",
+      "2026-11-11 - Coordinated public release of advisory",
+      "2026-11-11 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-924 ZDI-CAN-29596 (0Day) Meta fairseq S2TWavTransformerEncoder YAML File Parsing Code Injection Remote Code Execution Vulnerability 2026-11-11 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Meta'] ['fairseq'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The specific flaw exists within the parsing of configuration files. The issue results from the lack of proper validation of a user-supplied string before using it to execute Python code. An attacker can leverage this vulnerability to execute code in the context of the current process. 03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 09/17/26 - the vendor communicated that the fairseq repository is no longer maintained and was archived 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-03-26 - Vulnerability reported to vendor', '2026-11-11 - Coordinated public release of advisory', '2026-11-11 - Advisory Updated'] Mat Powell of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-924/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-924/",
+    "title": "(0Day) Meta fairseq S2TWavTransformerEncoder YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-11",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The specific flaw exists within the parsing of configuration files. The issue results from the lack of proper validation of a user-supplied string before using it to execute Python code. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29596",
+    "zdi_id": "ZDI-26-924"
+  },
+  "ZDI-26-925": {
+    "additional_details": "03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 09/17/26 - the vendor communicated that the fairseq repository is no longer maintained and was archived 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-11",
+    "affected_products": [
+      "fairseq"
+    ],
+    "affected_vendors": [
+      "Meta"
+    ],
+    "credit": "Mat Powell of TrendAI Zero Day Initiative",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-03-26 - Vulnerability reported to vendor",
+      "2026-11-11 - Coordinated public release of advisory",
+      "2026-11-11 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-925 ZDI-CAN-29631 (0Day) Meta fairseq FairseqLAMB YAML File Parsing Code Injection Remote Code Execution Vulnerability 2026-11-11 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Meta'] ['fairseq'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The specific flaw exists within the parsing of configuration files. The issue results from the lack of proper validation of a user-supplied string before using it to execute Python code. An attacker can leverage this vulnerability to execute code in the context of the current process. 03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 09/17/26 - the vendor communicated that the fairseq repository is no longer maintained and was archived 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-03-26 - Vulnerability reported to vendor', '2026-11-11 - Coordinated public release of advisory', '2026-11-11 - Advisory Updated'] Mat Powell of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-925/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-925/",
+    "title": "(0Day) Meta fairseq FairseqLAMB YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-11",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The specific flaw exists within the parsing of configuration files. The issue results from the lack of proper validation of a user-supplied string before using it to execute Python code. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29631",
+    "zdi_id": "ZDI-26-925"
+  },
+  "ZDI-26-926": {
+    "additional_details": "03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 09/17/26 - the vendor communicated that the fairseq repository is no longer maintained and was archived 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-11",
+    "affected_products": [
+      "fairseq"
+    ],
+    "affected_vendors": [
+      "Meta"
+    ],
+    "credit": "Mat Powell of TrendAI Zero Day Initiative",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-03-26 - Vulnerability reported to vendor",
+      "2026-11-11 - Coordinated public release of advisory",
+      "2026-11-11 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-926 ZDI-CAN-29595 (0Day) Meta fairseq RawAudioDataset YAML File Parsing Code Injection Remote Code Execution Vulnerability 2026-11-11 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Meta'] ['fairseq'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The specific flaw exists within the parsing of configuration files. The issue results from the lack of proper validation of a user-supplied string before using it to execute Python code. An attacker can leverage this vulnerability to execute code in the context of the current process. 03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 09/17/26 - the vendor communicated that the fairseq repository is no longer maintained and was archived 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-03-26 - Vulnerability reported to vendor', '2026-11-11 - Coordinated public release of advisory', '2026-11-11 - Advisory Updated'] Mat Powell of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-926/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-926/",
+    "title": "(0Day) Meta fairseq RawAudioDataset YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-11",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The specific flaw exists within the parsing of configuration files. The issue results from the lack of proper validation of a user-supplied string before using it to execute Python code. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29595",
+    "zdi_id": "ZDI-26-926"
+  },
+  "ZDI-26-927": {
+    "additional_details": "03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 09/17/26 - the vendor communicated that the fairseq repository is no longer maintained and was archived 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-11",
+    "affected_products": [
+      "fairseq"
+    ],
+    "affected_vendors": [
+      "Meta"
+    ],
+    "credit": "Mat Powell of TrendAI Zero Day Initiative",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-03-26 - Vulnerability reported to vendor",
+      "2026-11-11 - Coordinated public release of advisory",
+      "2026-11-11 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-927 ZDI-CAN-29628 (0Day) Meta fairseq FairseqAdam YAML File Parsing Code Injection Remote Code Execution Vulnerability 2026-11-11 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Meta'] ['fairseq'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The specific flaw exists within the parsing of configuration files. The issue results from the lack of proper validation of a user-supplied string before using it to execute Python code. An attacker can leverage this vulnerability to execute code in the context of the current process. 03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 09/17/26 - the vendor communicated that the fairseq repository is no longer maintained and was archived 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-03-26 - Vulnerability reported to vendor', '2026-11-11 - Coordinated public release of advisory', '2026-11-11 - Advisory Updated'] Mat Powell of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-927/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-927/",
+    "title": "(0Day) Meta fairseq FairseqAdam YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-11",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The specific flaw exists within the parsing of configuration files. The issue results from the lack of proper validation of a user-supplied string before using it to execute Python code. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29628",
+    "zdi_id": "ZDI-26-927"
+  },
+  "ZDI-26-928": {
+    "additional_details": "03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 09/17/26 - the vendor communicated that the fairseq repository is no longer maintained and was archived 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-11",
+    "affected_products": [
+      "fairseq"
+    ],
+    "affected_vendors": [
+      "Meta"
+    ],
+    "credit": "Mat Powell of TrendAI Zero Day Initiative",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-03-26 - Vulnerability reported to vendor",
+      "2026-11-11 - Coordinated public release of advisory",
+      "2026-11-11 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-928 ZDI-CAN-29622 (0Day) Meta fairseq W2lConvGluEncoder YAML File Parsing Code Injection Remote Code Execution Vulnerability 2026-11-11 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Meta'] ['fairseq'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The specific flaw exists within the parsing of configuration files. The issue results from the lack of proper validation of a user-supplied string before using it to execute Python code. An attacker can leverage this vulnerability to execute code in the context of the current process. 03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 09/17/26 - the vendor communicated that the fairseq repository is no longer maintained and was archived 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-03-26 - Vulnerability reported to vendor', '2026-11-11 - Coordinated public release of advisory', '2026-11-11 - Advisory Updated'] Mat Powell of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-928/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-928/",
+    "title": "(0Day) Meta fairseq W2lConvGluEncoder YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-11",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The specific flaw exists within the parsing of configuration files. The issue results from the lack of proper validation of a user-supplied string before using it to execute Python code. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29622",
+    "zdi_id": "ZDI-26-928"
+  },
+  "ZDI-26-929": {
+    "additional_details": "03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 09/17/26 - the vendor communicated that the fairseq repository is no longer maintained and was archived 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-11",
+    "affected_products": [
+      "fairseq"
+    ],
+    "affected_vendors": [
+      "Meta"
+    ],
+    "credit": "Mat Powell of TrendAI Zero Day Initiative",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-03-26 - Vulnerability reported to vendor",
+      "2026-11-11 - Coordinated public release of advisory",
+      "2026-11-11 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-929 ZDI-CAN-29629 (0Day) Meta fairseq FairseqAdamax YAML File Parsing Code Injection Remote Code Execution Vulnerability 2026-11-11 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Meta'] ['fairseq'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The specific flaw exists within the parsing of configuration files. The issue results from the lack of proper validation of a user-supplied string before using it to execute Python code. An attacker can leverage this vulnerability to execute code in the context of the current process. 03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 09/17/26 - the vendor communicated that the fairseq repository is no longer maintained and was archived 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-03-26 - Vulnerability reported to vendor', '2026-11-11 - Coordinated public release of advisory', '2026-11-11 - Advisory Updated'] Mat Powell of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-929/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-929/",
+    "title": "(0Day) Meta fairseq FairseqAdamax YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-11",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The specific flaw exists within the parsing of configuration files. The issue results from the lack of proper validation of a user-supplied string before using it to execute Python code. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29629",
+    "zdi_id": "ZDI-26-929"
+  },
+  "ZDI-26-930": {
+    "additional_details": "03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 09/17/26 - the vendor communicated that the fairseq repository is no longer maintained and was archived 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-11",
+    "affected_products": [
+      "fairseq"
+    ],
+    "affected_vendors": [
+      "Meta"
+    ],
+    "credit": "Mat Powell of TrendAI Zero Day Initiative",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-03-26 - Vulnerability reported to vendor",
+      "2026-11-11 - Coordinated public release of advisory",
+      "2026-11-11 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-930 ZDI-CAN-29625 (0Day) Meta fairseq LightConvLanguageModel YAML File Parsing Code Injection Remote Code Execution Vulnerability 2026-11-11 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Meta'] ['fairseq'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The specific flaw exists within the parsing of configuration files. The issue results from the lack of proper validation of a user-supplied string before using it to execute Python code. An attacker can leverage this vulnerability to execute code in the context of the current process. 03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 09/17/26 - the vendor communicated that the fairseq repository is no longer maintained and was archived 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-03-26 - Vulnerability reported to vendor', '2026-11-11 - Coordinated public release of advisory', '2026-11-11 - Advisory Updated'] Mat Powell of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-930/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-930/",
+    "title": "(0Day) Meta fairseq LightConvLanguageModel YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-11",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The specific flaw exists within the parsing of configuration files. The issue results from the lack of proper validation of a user-supplied string before using it to execute Python code. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29625",
+    "zdi_id": "ZDI-26-930"
+  },
+  "ZDI-26-931": {
+    "additional_details": "03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 09/17/26 - the vendor communicated that the fairseq repository is no longer maintained and was archived 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-11",
+    "affected_products": [
+      "fairseq"
+    ],
+    "affected_vendors": [
+      "Meta"
+    ],
+    "credit": "Mat Powell of TrendAI Zero Day Initiative",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-03-26 - Vulnerability reported to vendor",
+      "2026-11-11 - Coordinated public release of advisory",
+      "2026-11-11 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-931 ZDI-CAN-29594 (0Day) Meta fairseq AudioModalityConfig YAML File Parsing Code Injection Remote Code Execution Vulnerability 2026-11-11 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Meta'] ['fairseq'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The specific flaw exists within the parsing of configuration files. The issue results from the lack of proper validation of a user-supplied string before using it to execute Python code. An attacker can leverage this vulnerability to execute code in the context of the current process. 03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 09/17/26 - the vendor communicated that the fairseq repository is no longer maintained and was archived 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-03-26 - Vulnerability reported to vendor', '2026-11-11 - Coordinated public release of advisory', '2026-11-11 - Advisory Updated'] Mat Powell of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-931/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-931/",
+    "title": "(0Day) Meta fairseq AudioModalityConfig YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-11",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The specific flaw exists within the parsing of configuration files. The issue results from the lack of proper validation of a user-supplied string before using it to execute Python code. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29594",
+    "zdi_id": "ZDI-26-931"
+  },
+  "ZDI-26-932": {
+    "additional_details": "03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 09/17/26 - the vendor communicated that the fairseq repository is no longer maintained and was archived 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-11",
+    "affected_products": [
+      "fairseq"
+    ],
+    "affected_vendors": [
+      "Meta"
+    ],
+    "credit": "Mat Powell of TrendAI Zero Day Initiative",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-03-26 - Vulnerability reported to vendor",
+      "2026-11-11 - Coordinated public release of advisory",
+      "2026-11-11 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-932 ZDI-CAN-29633 (0Day) Meta fairseq CtcCriterion YAML File Parsing Code Injection Remote Code Execution Vulnerability 2026-11-11 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Meta'] ['fairseq'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The specific flaw exists within the parsing of configuration files. The issue results from the lack of proper validation of a user-supplied string before using it to execute Python code. An attacker can leverage this vulnerability to execute code in the context of the current process. 03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 09/17/26 - the vendor communicated that the fairseq repository is no longer maintained and was archived 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-03-26 - Vulnerability reported to vendor', '2026-11-11 - Coordinated public release of advisory', '2026-11-11 - Advisory Updated'] Mat Powell of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-932/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-932/",
+    "title": "(0Day) Meta fairseq CtcCriterion YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-11",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The specific flaw exists within the parsing of configuration files. The issue results from the lack of proper validation of a user-supplied string before using it to execute Python code. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29633",
+    "zdi_id": "ZDI-26-932"
+  },
+  "ZDI-26-933": {
+    "additional_details": "03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 09/17/26 - the vendor communicated that the fairseq repository is no longer maintained and was archived 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-11",
+    "affected_products": [
+      "fairseq"
+    ],
+    "affected_vendors": [
+      "Meta"
+    ],
+    "credit": "Mat Powell of TrendAI Zero Day Initiative",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-03-26 - Vulnerability reported to vendor",
+      "2026-11-11 - Coordinated public release of advisory",
+      "2026-11-11 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-933 ZDI-CAN-29592 (0Day) Meta fairseq MultiresHubertModel YAML File Parsing Code Injection Remote Code Execution Vulnerability 2026-11-11 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Meta'] ['fairseq'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The specific flaw exists within the parsing of configuration files. The issue results from the lack of proper validation of a user-supplied string before using it to execute Python code. An attacker can leverage this vulnerability to execute code in the context of the current process. 03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 09/17/26 - the vendor communicated that the fairseq repository is no longer maintained and was archived 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-03-26 - Vulnerability reported to vendor', '2026-11-11 - Coordinated public release of advisory', '2026-11-11 - Advisory Updated'] Mat Powell of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-933/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-933/",
+    "title": "(0Day) Meta fairseq MultiresHubertModel YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-11",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The specific flaw exists within the parsing of configuration files. The issue results from the lack of proper validation of a user-supplied string before using it to execute Python code. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29592",
+    "zdi_id": "ZDI-26-933"
+  },
+  "ZDI-26-934": {
+    "additional_details": "03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 09/17/26 - the vendor communicated that the fairseq repository is no longer maintained and was archived 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-11",
+    "affected_products": [
+      "fairseq"
+    ],
+    "affected_vendors": [
+      "Meta"
+    ],
+    "credit": "Mat Powell of TrendAI Zero Day Initiative",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-03-26 - Vulnerability reported to vendor",
+      "2026-11-11 - Coordinated public release of advisory",
+      "2026-11-11 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-934 ZDI-CAN-29619 (0Day) Meta fairseq FConvLanguageModel YAML File Parsing Code Injection Remote Code Execution Vulnerability 2026-11-11 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Meta'] ['fairseq'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The specific flaw exists within the parsing of configuration files. The issue results from the lack of proper validation of a user-supplied string before using it to execute Python code. An attacker can leverage this vulnerability to execute code in the context of the current process. 03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 09/17/26 - the vendor communicated that the fairseq repository is no longer maintained and was archived 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-03-26 - Vulnerability reported to vendor', '2026-11-11 - Coordinated public release of advisory', '2026-11-11 - Advisory Updated'] Mat Powell of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-934/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-934/",
+    "title": "(0Day) Meta fairseq FConvLanguageModel YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-11",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The specific flaw exists within the parsing of configuration files. The issue results from the lack of proper validation of a user-supplied string before using it to execute Python code. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29619",
+    "zdi_id": "ZDI-26-934"
+  },
+  "ZDI-26-935": {
+    "additional_details": "03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 09/17/26 - the vendor communicated that the fairseq repository is no longer maintained and was archived 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-11",
+    "affected_products": [
+      "fairseq"
+    ],
+    "affected_vendors": [
+      "Meta"
+    ],
+    "credit": "Mat Powell of TrendAI Zero Day Initiative",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-03-26 - Vulnerability reported to vendor",
+      "2026-11-11 - Coordinated public release of advisory",
+      "2026-11-11 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-935 ZDI-CAN-29620 (0Day) Meta fairseq FConvModelSelfAtt YAML File Parsing Code Injection Remote Code Execution Vulnerability 2026-11-11 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Meta'] ['fairseq'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The specific flaw exists within the parsing of configuration files. The issue results from the lack of proper validation of a user-supplied string before using it to execute Python code. An attacker can leverage this vulnerability to execute code in the context of the current process. 03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 09/17/26 - the vendor communicated that the fairseq repository is no longer maintained and was archived 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-03-26 - Vulnerability reported to vendor', '2026-11-11 - Coordinated public release of advisory', '2026-11-11 - Advisory Updated'] Mat Powell of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-935/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-935/",
+    "title": "(0Day) Meta fairseq FConvModelSelfAtt YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-11",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The specific flaw exists within the parsing of configuration files. The issue results from the lack of proper validation of a user-supplied string before using it to execute Python code. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29620",
+    "zdi_id": "ZDI-26-935"
+  },
+  "ZDI-26-936": {
+    "additional_details": "03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 09/17/26 - the vendor communicated that the fairseq repository is no longer maintained and was archived 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-11",
+    "affected_products": [
+      "fairseq"
+    ],
+    "affected_vendors": [
+      "Meta"
+    ],
+    "credit": "Mat Powell of TrendAI Zero Day Initiative",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-03-26 - Vulnerability reported to vendor",
+      "2026-11-11 - Coordinated public release of advisory",
+      "2026-11-11 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-936 ZDI-CAN-29630 (0Day) Meta fairseq FairseqCPUAdam YAML File Parsing Code Injection Remote Code Execution Vulnerability 2026-11-11 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Meta'] ['fairseq'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The specific flaw exists within the parsing of configuration files. The issue results from the lack of proper validation of a user-supplied string before using it to execute Python code. An attacker can leverage this vulnerability to execute code in the context of the current process. 03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 09/17/26 - the vendor communicated that the fairseq repository is no longer maintained and was archived 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-03-26 - Vulnerability reported to vendor', '2026-11-11 - Coordinated public release of advisory', '2026-11-11 - Advisory Updated'] Mat Powell of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-936/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-936/",
+    "title": "(0Day) Meta fairseq FairseqCPUAdam YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-11",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The specific flaw exists within the parsing of configuration files. The issue results from the lack of proper validation of a user-supplied string before using it to execute Python code. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29630",
+    "zdi_id": "ZDI-26-936"
+  },
+  "ZDI-26-937": {
+    "additional_details": "03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 09/17/26 - the vendor communicated that the fairseq repository is no longer maintained and was archived 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-11",
+    "affected_products": [
+      "fairseq"
+    ],
+    "affected_vendors": [
+      "Meta"
+    ],
+    "credit": "Mat Powell of TrendAI Zero Day Initiative",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-03-26 - Vulnerability reported to vendor",
+      "2026-11-11 - Coordinated public release of advisory",
+      "2026-11-11 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-937 ZDI-CAN-29365 (0Day) Meta fairseq quantize_with_kmeans Deserialization of Untrusted Data Remote Code Execution Vulnerability 2026-11-11 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Meta'] ['fairseq'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the quantize_with_kmeans module. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process. 03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 09/17/26 - the vendor communicated that the fairseq repository is no longer maintained and was archived 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-03-26 - Vulnerability reported to vendor', '2026-11-11 - Coordinated public release of advisory', '2026-11-11 - Advisory Updated'] Mat Powell of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-937/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-937/",
+    "title": "(0Day) Meta fairseq quantize_with_kmeans Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-11",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the quantize_with_kmeans module. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29365",
+    "zdi_id": "ZDI-26-937"
+  },
+  "ZDI-26-938": {
+    "additional_details": "03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 09/17/26 - the vendor communicated that the fairseq repository is no longer maintained and was archived 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-11",
+    "affected_products": [
+      "fairseq"
+    ],
+    "affected_vendors": [
+      "Meta"
+    ],
+    "credit": "Mat Powell of TrendAI Zero Day Initiative",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-03-26 - Vulnerability reported to vendor",
+      "2026-11-11 - Coordinated public release of advisory",
+      "2026-11-11 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-938 ZDI-CAN-29367 (0Day) Meta fairseq parse_manifest Code Injection Remote Code Execution Vulnerability 2026-11-11 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Meta'] ['fairseq'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parse_manifest method. The issue results from the lack of proper validation of a user-supplied string before using it to execute Python code. An attacker can leverage this vulnerability to execute code in the context of the current process. 03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 09/17/26 - the vendor communicated that the fairseq repository is no longer maintained and was archived 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-03-26 - Vulnerability reported to vendor', '2026-11-11 - Coordinated public release of advisory', '2026-11-11 - Advisory Updated'] Mat Powell of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-938/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-938/",
+    "title": "(0Day) Meta fairseq parse_manifest Code Injection Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-11",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parse_manifest method. The issue results from the lack of proper validation of a user-supplied string before using it to execute Python code. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29367",
+    "zdi_id": "ZDI-26-938"
+  },
+  "ZDI-26-939": {
+    "additional_details": "03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 09/17/26 - the vendor communicated that the fairseq repository is no longer maintained and was archived 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-11",
+    "affected_products": [
+      "fairseq2"
+    ],
+    "affected_vendors": [
+      "Meta"
+    ],
+    "credit": "Mat Powell of TrendAI Zero Day Initiative",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-03-26 - Vulnerability reported to vendor",
+      "2026-11-11 - Coordinated public release of advisory",
+      "2026-11-11 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-939 ZDI-CAN-29387 (0Day) Meta fairseq2 FileCheckpointManager _load_state_dict Deserialization of Untrusted Data Remote Code Execution Vulnerability 2026-11-11 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Meta'] ['fairseq2'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq2. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the _load_state_dict method of the FileCheckpointManager class. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process. 03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 09/17/26 - the vendor communicated that the fairseq repository is no longer maintained and was archived 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-03-26 - Vulnerability reported to vendor', '2026-11-11 - Coordinated public release of advisory', '2026-11-11 - Advisory Updated'] Mat Powell of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-939/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-939/",
+    "title": "(0Day) Meta fairseq2 FileCheckpointManager _load_state_dict Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-11",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq2. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the _load_state_dict method of the FileCheckpointManager class. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29387",
+    "zdi_id": "ZDI-26-939"
+  },
+  "ZDI-26-940": {
+    "additional_details": "03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 09/17/26 - the vendor communicated that the fairseq repository is no longer maintained and was archived 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-11",
+    "affected_products": [
+      "fairseq"
+    ],
+    "affected_vendors": [
+      "Meta"
+    ],
+    "credit": "Mat Powell of TrendAI Zero Day Initiative",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-03-26 - Vulnerability reported to vendor",
+      "2026-11-11 - Coordinated public release of advisory",
+      "2026-11-11 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-940 ZDI-CAN-29366 (0Day) Meta fairseq dump_km_label Deserialization of Untrusted Data Remote Code Execution Vulnerability 2026-11-11 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Meta'] ['fairseq'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the ApplyKmeans class in the dump_km_label module. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process. 03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 09/17/26 - the vendor communicated that the fairseq repository is no longer maintained and was archived 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-03-26 - Vulnerability reported to vendor', '2026-11-11 - Coordinated public release of advisory', '2026-11-11 - Advisory Updated'] Mat Powell of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-940/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-940/",
+    "title": "(0Day) Meta fairseq dump_km_label Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-11",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the ApplyKmeans class in the dump_km_label module. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29366",
+    "zdi_id": "ZDI-26-940"
+  },
+  "ZDI-26-941": {
+    "additional_details": "03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 09/17/26 - the vendor communicated that the fairseq repository is no longer maintained and was archived 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-11",
+    "affected_products": [
+      "fairseq"
+    ],
+    "affected_vendors": [
+      "Meta"
+    ],
+    "credit": "Mat Powell of TrendAI Zero Day Initiative",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-03-26 - Vulnerability reported to vendor",
+      "2026-11-11 - Coordinated public release of advisory",
+      "2026-11-11 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-941 ZDI-CAN-29617 (0Day) Meta fairseq FConvModel YAML File Parsing Code Injection Remote Code Execution Vulnerability 2026-11-11 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Meta'] ['fairseq'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The specific flaw exists within the parsing of configuration files. The issue results from the lack of proper validation of a user-supplied string before using it to execute Python code. An attacker can leverage this vulnerability to execute code in the context of the current process. 03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 09/17/26 - the vendor communicated that the fairseq repository is no longer maintained and was archived 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-03-26 - Vulnerability reported to vendor', '2026-11-11 - Coordinated public release of advisory', '2026-11-11 - Advisory Updated'] Mat Powell of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-941/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-941/",
+    "title": "(0Day) Meta fairseq FConvModel YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-11",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The specific flaw exists within the parsing of configuration files. The issue results from the lack of proper validation of a user-supplied string before using it to execute Python code. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29617",
+    "zdi_id": "ZDI-26-941"
+  },
+  "ZDI-26-942": {
+    "additional_details": "03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 09/17/26 - the vendor communicated that the fairseq repository is no longer maintained and was archived 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-11",
+    "affected_products": [
+      "fairseq"
+    ],
+    "affected_vendors": [
+      "Meta"
+    ],
+    "credit": "Mat Powell of TrendAI Zero Day Initiative",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-03-26 - Vulnerability reported to vendor",
+      "2026-11-11 - Coordinated public release of advisory",
+      "2026-11-11 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-942 ZDI-CAN-29546 (0Day) Meta fairseq rerank Code Injection Remote Code Execution Vulnerability 2026-11-11 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Meta'] ['fairseq'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the rerank.py script. The issue results from the lack of proper validation of a user-supplied string before using it to execute Python code. An attacker can leverage this vulnerability to execute code in the context of the current process. 03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 09/17/26 - the vendor communicated that the fairseq repository is no longer maintained and was archived 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-03-26 - Vulnerability reported to vendor', '2026-11-11 - Coordinated public release of advisory', '2026-11-11 - Advisory Updated'] Mat Powell of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-942/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-942/",
+    "title": "(0Day) Meta fairseq rerank Code Injection Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-11",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the rerank.py script. The issue results from the lack of proper validation of a user-supplied string before using it to execute Python code. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29546",
+    "zdi_id": "ZDI-26-942"
+  },
+  "ZDI-26-943": {
+    "additional_details": "03/04/26 - ZDI reported the vulnerability to the vendor 03/05/26 - the vendor acknowledged the receipt of the report 03/17/26 - the vendor communicated that the report was being investigated 04/07/26 - the vendor communicated that the fairseq repository is no longer maintained and was archived on March 20, 2024. However, GitHub shows the repository was actually archived on March 20, 2026, after this report was submitted https://github.com/facebookresearch/fairseq 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-11",
+    "affected_products": [
+      "fairseq"
+    ],
+    "affected_vendors": [
+      "Meta"
+    ],
+    "credit": "Bongeun Koo (@kiddo_pwn)",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-03-04 - Vulnerability reported to vendor",
+      "2026-11-11 - Coordinated public release of advisory",
+      "2026-11-11 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-943 ZDI-CAN-29257 (0Day) Meta fairseq load_checkpoint_to_cpu Deserialization of Untrusted Data Remote Code Execution Vulnerability 2026-11-11 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Meta'] ['fairseq'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the load_checkpoint_to_cpu method. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process. 03/04/26 - ZDI reported the vulnerability to the vendor 03/05/26 - the vendor acknowledged the receipt of the report 03/17/26 - the vendor communicated that the report was being investigated 04/07/26 - the vendor communicated that the fairseq repository is no longer maintained and was archived on March 20, 2024. However, GitHub shows the repository was actually archived on March 20, 2026, after this report was submitted https://github.com/facebookresearch/fairseq 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-03-04 - Vulnerability reported to vendor', '2026-11-11 - Coordinated public release of advisory', '2026-11-11 - Advisory Updated'] Bongeun Koo (@kiddo_pwn) https://www.zerodayinitiative.com/advisories/ZDI-26-943/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-943/",
+    "title": "(0Day) Meta fairseq load_checkpoint_to_cpu Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-11",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the load_checkpoint_to_cpu method. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29257",
+    "zdi_id": "ZDI-26-943"
+  },
+  "ZDI-26-944": {
+    "additional_details": "03/04/26 - ZDI reported the vulnerability to the vendor 03/05/26 - the vendor acknowledged the receipt of the report 03/17/26 - the vendor communicated that the report was being investigated 04/07/26 - the vendor communicated that the fairseq repository is no longer maintained and was archived on March 20, 2024. However, GitHub shows the repository was actually archived on March 20, 2026, after this report was submitted https://github.com/facebookresearch/fairseq 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-11",
+    "affected_products": [
+      "fairseq"
+    ],
+    "affected_vendors": [
+      "Meta"
+    ],
+    "credit": "Bongeun Koo (@kiddo_pwn)",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-03-04 - Vulnerability reported to vendor",
+      "2026-11-11 - Coordinated public release of advisory",
+      "2026-11-11 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-944 ZDI-CAN-29258 (0Day) Meta fairseq load_ema_from_checkpoint Deserialization of Untrusted Data Remote Code Execution Vulnerability 2026-11-11 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Meta'] ['fairseq'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the load_ema_from_checkpoint method. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process. 03/04/26 - ZDI reported the vulnerability to the vendor 03/05/26 - the vendor acknowledged the receipt of the report 03/17/26 - the vendor communicated that the report was being investigated 04/07/26 - the vendor communicated that the fairseq repository is no longer maintained and was archived on March 20, 2024. However, GitHub shows the repository was actually archived on March 20, 2026, after this report was submitted https://github.com/facebookresearch/fairseq 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-03-04 - Vulnerability reported to vendor', '2026-11-11 - Coordinated public release of advisory', '2026-11-11 - Advisory Updated'] Bongeun Koo (@kiddo_pwn) https://www.zerodayinitiative.com/advisories/ZDI-26-944/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-944/",
+    "title": "(0Day) Meta fairseq load_ema_from_checkpoint Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-11",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta fairseq. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the load_ema_from_checkpoint method. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29258",
+    "zdi_id": "ZDI-26-944"
+  },
+  "ZDI-26-945": {
+    "additional_details": "03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-11",
+    "affected_products": [
+      "FAIRChem"
+    ],
+    "affected_vendors": [
+      "Meta"
+    ],
+    "credit": "Mat Powell of TrendAI Zero Day Initiative",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-03-26 - Vulnerability reported to vendor",
+      "2026-11-11 - Coordinated public release of advisory",
+      "2026-11-11 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-945 ZDI-CAN-29217 (0Day) Meta FAIRChem convert_fine_tune_checkpoint Deserialization of Untrusted Data Remote Code Execution Vulnerability 2026-11-11 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Meta'] ['FAIRChem'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of checkpoint files. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process. 03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-03-26 - Vulnerability reported to vendor', '2026-11-11 - Coordinated public release of advisory', '2026-11-11 - Advisory Updated'] Mat Powell of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-945/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-945/",
+    "title": "(0Day) Meta FAIRChem convert_fine_tune_checkpoint Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-11",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of checkpoint files. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29217",
+    "zdi_id": "ZDI-26-945"
+  },
+  "ZDI-26-946": {
+    "additional_details": "03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-11",
+    "affected_products": [
+      "FAIRChem"
+    ],
+    "affected_vendors": [
+      "Meta"
+    ],
+    "credit": "Mat Powell of TrendAI Zero Day Initiative",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-03-26 - Vulnerability reported to vendor",
+      "2026-11-11 - Coordinated public release of advisory",
+      "2026-11-11 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-946 ZDI-CAN-29234 (0Day) Meta FAIRChem make_challenge_submission_file NPZ File Parsing Deserialization of Untrusted Data Remote Code Execution Vulnerability 2026-11-11 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Meta'] ['FAIRChem'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of NPZ files. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process. 03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-03-26 - Vulnerability reported to vendor', '2026-11-11 - Coordinated public release of advisory', '2026-11-11 - Advisory Updated'] Mat Powell of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-946/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-946/",
+    "title": "(0Day) Meta FAIRChem make_challenge_submission_file NPZ File Parsing Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-11",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of NPZ files. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29234",
+    "zdi_id": "ZDI-26-946"
+  },
+  "ZDI-26-947": {
+    "additional_details": "03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-11",
+    "affected_products": [
+      "FAIRChem"
+    ],
+    "affected_vendors": [
+      "Meta"
+    ],
+    "credit": "Mat Powell of TrendAI Zero Day Initiative",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-03-26 - Vulnerability reported to vendor",
+      "2026-11-11 - Coordinated public release of advisory",
+      "2026-11-11 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-947 ZDI-CAN-29233 (0Day) Meta FAIRChem make_submission_file NPZ File Parsing Deserialization of Untrusted Data Remote Code Execution Vulnerability 2026-11-11 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Meta'] ['FAIRChem'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of NPZ files. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process. 03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-03-26 - Vulnerability reported to vendor', '2026-11-11 - Coordinated public release of advisory', '2026-11-11 - Advisory Updated'] Mat Powell of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-947/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-947/",
+    "title": "(0Day) Meta FAIRChem make_submission_file NPZ File Parsing Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-11",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of NPZ files. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29233",
+    "zdi_id": "ZDI-26-947"
+  },
+  "ZDI-26-948": {
+    "additional_details": "03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-11",
+    "affected_products": [
+      "FAIRChem"
+    ],
+    "affected_vendors": [
+      "Meta"
+    ],
+    "credit": "Mat Powell of TrendAI Zero Day Initiative",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-03-26 - Vulnerability reported to vendor",
+      "2026-11-11 - Coordinated public release of advisory",
+      "2026-11-11 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-948 ZDI-CAN-29449 (0Day) Meta FAIRChem MLIPPredictUnit Deserialization of Untrusted Data Remote Code Execution Vulnerability 2026-11-11 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Meta'] ['FAIRChem'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of checkpoint files. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process. 03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-03-26 - Vulnerability reported to vendor', '2026-11-11 - Coordinated public release of advisory', '2026-11-11 - Advisory Updated'] Mat Powell of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-948/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-948/",
+    "title": "(0Day) Meta FAIRChem MLIPPredictUnit Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-11",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of checkpoint files. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29449",
+    "zdi_id": "ZDI-26-948"
+  },
+  "ZDI-26-949": {
+    "additional_details": "03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-11",
+    "affected_products": [
+      "FAIRChem"
+    ],
+    "affected_vendors": [
+      "Meta"
+    ],
+    "credit": "Mat Powell of TrendAI Zero Day Initiative",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-03-26 - Vulnerability reported to vendor",
+      "2026-11-11 - Coordinated public release of advisory",
+      "2026-11-11 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-949 ZDI-CAN-29446 (0Day) Meta FAIRChem utils load_model_and_weights_from_checkpoint Deserialization of Untrusted Data Remote Code Execution Vulnerability 2026-11-11 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Meta'] ['FAIRChem'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of checkpoint files. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process. 03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-03-26 - Vulnerability reported to vendor', '2026-11-11 - Coordinated public release of advisory', '2026-11-11 - Advisory Updated'] Mat Powell of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-949/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-949/",
+    "title": "(0Day) Meta FAIRChem utils load_model_and_weights_from_checkpoint Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-11",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of checkpoint files. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29446",
+    "zdi_id": "ZDI-26-949"
+  },
+  "ZDI-26-950": {
+    "additional_details": "03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-11",
+    "affected_products": [
+      "FAIRChem"
+    ],
+    "affected_vendors": [
+      "Meta"
+    ],
+    "credit": "Mat Powell of TrendAI Zero Day Initiative",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-03-26 - Vulnerability reported to vendor",
+      "2026-11-11 - Coordinated public release of advisory",
+      "2026-11-11 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-950 ZDI-CAN-29218 (0Day) Meta FAIRChem migrate_checkpoint Deserialization of Untrusted Data Remote Code Execution Vulnerability 2026-11-11 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Meta'] ['FAIRChem'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of checkpoint files. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process. 03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-03-26 - Vulnerability reported to vendor', '2026-11-11 - Coordinated public release of advisory', '2026-11-11 - Advisory Updated'] Mat Powell of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-950/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-950/",
+    "title": "(0Day) Meta FAIRChem migrate_checkpoint Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-11",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of checkpoint files. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29218",
+    "zdi_id": "ZDI-26-950"
+  },
+  "ZDI-26-951": {
+    "additional_details": "03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-11",
+    "affected_products": [
+      "FAIRChem"
+    ],
+    "affected_vendors": [
+      "Meta"
+    ],
+    "credit": "Mat Powell of TrendAI Zero Day Initiative",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-03-26 - Vulnerability reported to vendor",
+      "2026-11-11 - Coordinated public release of advisory",
+      "2026-11-11 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-951 ZDI-CAN-29447 (0Day) Meta FAIRChem utils load_tasks Deserialization of Untrusted Data Remote Code Execution Vulnerability 2026-11-11 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Meta'] ['FAIRChem'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of checkpoint files. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process. 03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-03-26 - Vulnerability reported to vendor', '2026-11-11 - Coordinated public release of advisory', '2026-11-11 - Advisory Updated'] Mat Powell of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-951/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-951/",
+    "title": "(0Day) Meta FAIRChem utils load_tasks Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-11",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of checkpoint files. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29447",
+    "zdi_id": "ZDI-26-951"
+  },
+  "ZDI-26-952": {
+    "additional_details": "03/04/26 - ZDI reported the vulnerability to the vendor 03/04/26 - the vendor acknowledged the receipt of the report 03/30/26 - the vendor communicated that the report was being investigated 07/27/26 - ZDI asked for updates 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-11",
+    "affected_products": [
+      "FAIRChem"
+    ],
+    "affected_vendors": [
+      "Meta"
+    ],
+    "credit": "Anonymous",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-02-24 - Vulnerability reported to vendor",
+      "2026-11-11 - Coordinated public release of advisory",
+      "2026-11-11 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-952 ZDI-CAN-29081 (0Day) Meta FAIRChem _cli YAML File Parsing Deserialization of Untrusted Data Remote Code Execution Vulnerability 2026-11-11 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Meta'] ['FAIRChem'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of YAML files. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process. 03/04/26 - ZDI reported the vulnerability to the vendor 03/04/26 - the vendor acknowledged the receipt of the report 03/30/26 - the vendor communicated that the report was being investigated 07/27/26 - ZDI asked for updates 10/23/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-02-24 - Vulnerability reported to vendor', '2026-11-11 - Coordinated public release of advisory', '2026-11-11 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-952/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-952/",
+    "title": "(0Day) Meta FAIRChem _cli YAML File Parsing Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-11",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of YAML files. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29081",
+    "zdi_id": "ZDI-26-952"
+  },
+  "ZDI-26-953": {
+    "additional_details": "03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 10/13/26 - the vendor communicated that the reported issue does not have a security/privacy impact 10/23/26 - ZDI notified the vendor of the intention to publish the case -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-11",
+    "affected_products": [
+      "FAIRChem"
+    ],
+    "affected_vendors": [
+      "Meta"
+    ],
+    "credit": "Mat Powell of TrendAI Zero Day Initiative",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-03-26 - Vulnerability reported to vendor",
+      "2026-11-11 - Coordinated public release of advisory",
+      "2026-11-11 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-953 ZDI-CAN-29448 (0Day) Meta FAIRChem utils load_inference_model Deserialization of Untrusted Data Remote Code Execution Vulnerability 2026-11-11 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Meta'] ['FAIRChem'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of checkpoint files. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process. 03/26/26 - ZDI reported the vulnerability to the vendor 03/26/26 - the vendor acknowledged the receipt of the report 07/27/26 - ZDI asked for updates 10/13/26 - the vendor communicated that the reported issue does not have a security/privacy impact 10/23/26 - ZDI notified the vendor of the intention to publish the case -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-03-26 - Vulnerability reported to vendor', '2026-11-11 - Coordinated public release of advisory', '2026-11-11 - Advisory Updated'] Mat Powell of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-953/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-953/",
+    "title": "(0Day) Meta FAIRChem utils load_inference_model Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-11",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of checkpoint files. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29448",
+    "zdi_id": "ZDI-26-953"
   }
 }
