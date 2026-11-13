@@ -1,20 +1,20 @@
 {
   "by_cvss_band": {
-    "critical": 2413,
-    "high": 9660,
-    "low": 1510,
-    "medium": 4142,
+    "critical": 2416,
+    "high": 9673,
+    "low": 1511,
+    "medium": 4145,
     "unknown": 337
   },
   "by_vendor": {
     "Adobe": 2068,
     "Advantech": 734,
-    "Apple": 823,
-    "Autodesk": 527,
+    "Apple": 824,
+    "Autodesk": 529,
     "Bentley": 208,
     "Cisco": 322,
     "D-Link": 261,
-    "Delta Electronics": 285,
+    "Delta Electronics": 287,
     "Delta Industrial Automation": 220,
     "Foxit": 941,
     "Fuji Electric": 197,
@@ -58,12 +58,12 @@
     "2026": 954
   },
   "cve_coverage": 15661,
-  "high_cvss": 12073,
+  "high_cvss": 12089,
   "total_published": 17361,
-  "total_upcoming": 701,
+  "total_upcoming": 721,
   "upcoming_deadline_state": {
-    "due_soon": 105,
-    "future": 340,
-    "past_due": 256
+    "due_soon": 95,
+    "future": 360,
+    "past_due": 266
   }
 }
