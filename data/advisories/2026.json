@@ -2827,6 +2827,286 @@
     "zdi_can": "ZDI-CAN-28079",
     "zdi_id": "ZDI-26-100"
   },
+  "ZDI-26-1000": {
+    "additional_details": "Linux has issued an update to correct this vulnerability. More details can be found at: https://github.com/torvalds/linux/commit/9462f4ca56e7d2430fdb6dcc8498244acbfc4489",
+    "advisory_date": "2026-11-13",
+    "affected_products": [
+      "Kernel"
+    ],
+    "affected_vendors": [
+      "Linux"
+    ],
+    "credit": "dangdang777",
+    "cve": "CVE-2024-50073",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-50073",
+    "cvss": 7.5,
+    "cvss_vector": "AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2024-09-03 - Vulnerability reported to vendor",
+      "2026-11-13 - Coordinated public release of advisory",
+      "2026-11-13 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-1000 ZDI-CAN-25086 Linux Kernel GSM Multiplexing Race Condition Local Privilege Escalation Vulnerability 2026-11-13 CVE-2024-50073 https://www.cve.org/CVERecord?id=CVE-2024-50073 7.5 AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H ['Linux'] ['Kernel'] This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute high-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the n_gsm driver. The issue results from the lack of proper locking when performing operations on an object. An attacker can leverage this vulnerability to escalate privileges and execute code in the context of the kernel. Linux has issued an update to correct this vulnerability. More details can be found at: https://github.com/torvalds/linux/commit/9462f4ca56e7d2430fdb6dcc8498244acbfc4489 ['2024-09-03 - Vulnerability reported to vendor', '2026-11-13 - Coordinated public release of advisory', '2026-11-13 - Advisory Updated'] dangdang777 https://www.zerodayinitiative.com/advisories/ZDI-26-1000/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-1000/",
+    "title": "Linux Kernel GSM Multiplexing Race Condition Local Privilege Escalation Vulnerability",
+    "updated_date": "2026-11-13",
+    "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute high-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the n_gsm driver. The issue results from the lack of proper locking when performing operations on an object. An attacker can leverage this vulnerability to escalate privileges and execute code in the context of the kernel.",
+    "zdi_can": "ZDI-CAN-25086",
+    "zdi_id": "ZDI-26-1000"
+  },
+  "ZDI-26-1001": {
+    "additional_details": "Linux has issued an update to correct this vulnerability. More details can be found at: https://github.com/torvalds/linux/commit/2188569e7e1b0bc3f3b557dc97ab7a02befc11c8",
+    "advisory_date": "2026-11-13",
+    "affected_products": [
+      "Kernel"
+    ],
+    "affected_vendors": [
+      "Linux"
+    ],
+    "credit": "Nico Yip (@_cyeaa_)",
+    "cve": "CVE-2026-98130",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-98130",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-08-25 - Vulnerability reported to vendor",
+      "2026-11-13 - Coordinated public release of advisory",
+      "2026-11-13 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-1001 ZDI-CAN-32927 Linux Kernel SCTP Subsystem Race Condition Local Privilege Escalation Vulnerability 2026-11-13 CVE-2026-98130 https://www.cve.org/CVERecord?id=CVE-2026-98130 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H ['Linux'] ['Kernel'] This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of sctp_association objects. The issue results from the lack of proper locking when performing operations on an object. An attacker can leverage this vulnerability to escalate privileges and execute code in the context of the kernel. Linux has issued an update to correct this vulnerability. More details can be found at: https://github.com/torvalds/linux/commit/2188569e7e1b0bc3f3b557dc97ab7a02befc11c8 ['2026-08-25 - Vulnerability reported to vendor', '2026-11-13 - Coordinated public release of advisory', '2026-11-13 - Advisory Updated'] Nico Yip (@_cyeaa_) https://www.zerodayinitiative.com/advisories/ZDI-26-1001/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-1001/",
+    "title": "Linux Kernel SCTP Subsystem Race Condition Local Privilege Escalation Vulnerability",
+    "updated_date": "2026-11-13",
+    "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of sctp_association objects. The issue results from the lack of proper locking when performing operations on an object. An attacker can leverage this vulnerability to escalate privileges and execute code in the context of the kernel.",
+    "zdi_can": "ZDI-CAN-32927",
+    "zdi_id": "ZDI-26-1001"
+  },
+  "ZDI-26-1002": {
+    "additional_details": "Linux has issued an update to correct this vulnerability. More details can be found at: https://github.com/torvalds/linux/commit/ea4d4b5dddb5121e64f56fd8e0720bd8b447b63d",
+    "advisory_date": "2026-11-13",
+    "affected_products": [
+      "Kernel"
+    ],
+    "affected_vendors": [
+      "Linux"
+    ],
+    "credit": "ELDEN",
+    "cve": "CVE-2026-98797",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-98797",
+    "cvss": 8.8,
+    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-09-10 - Vulnerability reported to vendor",
+      "2026-11-13 - Coordinated public release of advisory",
+      "2026-11-13 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-1002 ZDI-CAN-33072 Linux Kernel Net Scheduler Qdisc Improper Validation of Array Index Local Privilege Escalation Vulnerability 2026-11-13 CVE-2026-98797 https://www.cve.org/CVERecord?id=CVE-2026-98797 8.8 AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H ['Linux'] ['Kernel'] This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the taprio_enqueue function. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated array. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the kernel. Linux has issued an update to correct this vulnerability. More details can be found at: https://github.com/torvalds/linux/commit/ea4d4b5dddb5121e64f56fd8e0720bd8b447b63d ['2026-09-10 - Vulnerability reported to vendor', '2026-11-13 - Coordinated public release of advisory', '2026-11-13 - Advisory Updated'] ELDEN https://www.zerodayinitiative.com/advisories/ZDI-26-1002/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-1002/",
+    "title": "Linux Kernel Net Scheduler Qdisc Improper Validation of Array Index Local Privilege Escalation Vulnerability",
+    "updated_date": "2026-11-13",
+    "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the taprio_enqueue function. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated array. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the kernel.",
+    "zdi_can": "ZDI-CAN-33072",
+    "zdi_id": "ZDI-26-1002"
+  },
+  "ZDI-26-1003": {
+    "additional_details": "Linux has issued an update to correct this vulnerability. More details can be found at: https://github.com/torvalds/linux/commit/69f030cf95488ae1186c72ac8c66fd279664ea7f",
+    "advisory_date": "2026-11-13",
+    "affected_products": [
+      "Kernel"
+    ],
+    "affected_vendors": [
+      "Linux"
+    ],
+    "credit": "Nicholas Zubrisky (@NZubrisky) of TrendAI Research",
+    "cve": "CVE-2026-64138",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-64138",
+    "cvss": 7.1,
+    "cvss_vector": "AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:N/A:L",
+    "disclosure_timeline": [
+      "2026-04-08 - Vulnerability reported to vendor",
+      "2026-11-13 - Coordinated public release of advisory",
+      "2026-11-13 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-1003 ZDI-CAN-30364 Linux Kernel ksmbd smb_inherit_dacl Out-Of-Bounds Read Information Disclosure Vulnerability 2026-11-13 CVE-2026-64138 https://www.cve.org/CVERecord?id=CVE-2026-64138 7.1 AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:N/A:L ['Linux'] ['Kernel'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Linux Kernel. Authentication is required to exploit this vulnerability. However, only systems with ksmbd enabled are vulnerable. The specific flaw exists within the handling of inherited security descriptors. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the kernel. Linux has issued an update to correct this vulnerability. More details can be found at: https://github.com/torvalds/linux/commit/69f030cf95488ae1186c72ac8c66fd279664ea7f ['2026-04-08 - Vulnerability reported to vendor', '2026-11-13 - Coordinated public release of advisory', '2026-11-13 - Advisory Updated'] Nicholas Zubrisky (@NZubrisky) of TrendAI Research https://www.zerodayinitiative.com/advisories/ZDI-26-1003/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-1003/",
+    "title": "Linux Kernel ksmbd smb_inherit_dacl Out-Of-Bounds Read Information Disclosure Vulnerability",
+    "updated_date": "2026-11-13",
+    "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Linux Kernel. Authentication is required to exploit this vulnerability. However, only systems with ksmbd enabled are vulnerable. The specific flaw exists within the handling of inherited security descriptors. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the kernel.",
+    "zdi_can": "ZDI-CAN-30364",
+    "zdi_id": "ZDI-26-1003"
+  },
+  "ZDI-26-1004": {
+    "additional_details": "Linux has issued an update to correct this vulnerability. More details can be found at: https://github.com/torvalds/linux/commit/bc0e0f5ac1d7b044d403f859406b4b66d4b1ce9b",
+    "advisory_date": "2026-11-13",
+    "affected_products": [
+      "Kernel KSMBD"
+    ],
+    "affected_vendors": [
+      "Linux"
+    ],
+    "credit": "Anonymous",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 6.3,
+    "cvss_vector": "AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:N/A:N",
+    "disclosure_timeline": [
+      "2026-09-02 - Vulnerability reported to vendor",
+      "2026-11-13 - Coordinated public release of advisory",
+      "2026-11-13 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-1004 ZDI-CAN-32436 Linux Kernel KSMBD Request Buffer Use of Uninitialized Resource Information Disclosure Vulnerability 2026-11-13 6.3 AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:N/A:N ['Linux'] ['Kernel KSMBD'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Linux Kernel KSMBD. Authentication is not required to exploit this vulnerability. However, only systems with ksmbd enabled are vulnerable. The specific flaw exists within the ksmbd_conn_handler_loop functions. The issue results from the lack of proper initialization of memory prior to accessing it. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the kernel. Linux has issued an update to correct this vulnerability. More details can be found at: https://github.com/torvalds/linux/commit/bc0e0f5ac1d7b044d403f859406b4b66d4b1ce9b ['2026-09-02 - Vulnerability reported to vendor', '2026-11-13 - Coordinated public release of advisory', '2026-11-13 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-1004/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-1004/",
+    "title": "Linux Kernel KSMBD Request Buffer Use of Uninitialized Resource Information Disclosure Vulnerability",
+    "updated_date": "2026-11-13",
+    "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Linux Kernel KSMBD. Authentication is not required to exploit this vulnerability. However, only systems with ksmbd enabled are vulnerable. The specific flaw exists within the ksmbd_conn_handler_loop functions. The issue results from the lack of proper initialization of memory prior to accessing it. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the kernel.",
+    "zdi_can": "ZDI-CAN-32436",
+    "zdi_id": "ZDI-26-1004"
+  },
+  "ZDI-26-1005": {
+    "additional_details": "Linux has issued an update to correct this vulnerability. More details can be found at: https://github.com/torvalds/linux/commit/1e28a5e52d32b7d3f4c9fb24898774f941166d2b",
+    "advisory_date": "2026-11-13",
+    "affected_products": [
+      "Kernel"
+    ],
+    "affected_vendors": [
+      "Linux"
+    ],
+    "credit": "GangMin Kim",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.5,
+    "cvss_vector": "AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-06-25 - Vulnerability reported to vendor",
+      "2026-11-13 - Coordinated public release of advisory",
+      "2026-11-13 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-1005 ZDI-CAN-31417 Linux Kernel eBPF Race Condition Local Privilege Escalation Vulnerability 2026-11-13 7.5 AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H ['Linux'] ['Kernel'] This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute high-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of callback pointers. The issue results from the lack of proper locking when performing operations on an object. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the kernel. Linux has issued an update to correct this vulnerability. More details can be found at: https://github.com/torvalds/linux/commit/1e28a5e52d32b7d3f4c9fb24898774f941166d2b ['2026-06-25 - Vulnerability reported to vendor', '2026-11-13 - Coordinated public release of advisory', '2026-11-13 - Advisory Updated'] GangMin Kim https://www.zerodayinitiative.com/advisories/ZDI-26-1005/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-1005/",
+    "title": "Linux Kernel eBPF Race Condition Local Privilege Escalation Vulnerability",
+    "updated_date": "2026-11-13",
+    "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute high-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of callback pointers. The issue results from the lack of proper locking when performing operations on an object. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the kernel.",
+    "zdi_can": "ZDI-CAN-31417",
+    "zdi_id": "ZDI-26-1005"
+  },
+  "ZDI-26-1006": {
+    "additional_details": "Linux has issued an update to correct this vulnerability. More details can be found at: https://github.com/torvalds/linux/commit/79dc34beb1fdb3da79753e51e15c68591a2561fe",
+    "advisory_date": "2026-11-13",
+    "affected_products": [
+      "Kernel"
+    ],
+    "affected_vendors": [
+      "Linux"
+    ],
+    "credit": "p1r0x",
+    "cve": "CVE-2026-99284",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-99284",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-10-21 - Vulnerability reported to vendor",
+      "2026-11-13 - Coordinated public release of advisory",
+      "2026-11-13 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-1006 ZDI-CAN-33367 Linux Kernel skbuff skb_zerocopy Improper Ownership Management Local Privilege Escalation Vulnerability 2026-11-13 CVE-2026-99284 https://www.cve.org/CVERecord?id=CVE-2026-99284 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Linux'] ['Kernel'] This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the skb_zerocopy function. The issue results from the failure to propagate the shared ownership state of packet fragments during a zero-copy transfer. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root. Linux has issued an update to correct this vulnerability. More details can be found at: https://github.com/torvalds/linux/commit/79dc34beb1fdb3da79753e51e15c68591a2561fe ['2026-10-21 - Vulnerability reported to vendor', '2026-11-13 - Coordinated public release of advisory', '2026-11-13 - Advisory Updated'] p1r0x https://www.zerodayinitiative.com/advisories/ZDI-26-1006/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-1006/",
+    "title": "Linux Kernel skbuff skb_zerocopy Improper Ownership Management Local Privilege Escalation Vulnerability",
+    "updated_date": "2026-11-13",
+    "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the skb_zerocopy function. The issue results from the failure to propagate the shared ownership state of packet fragments during a zero-copy transfer. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of root.",
+    "zdi_can": "ZDI-CAN-33367",
+    "zdi_id": "ZDI-26-1006"
+  },
+  "ZDI-26-1007": {
+    "additional_details": "Linux has issued an update to correct this vulnerability. More details can be found at: https://github.com/torvalds/linux/commit/5bdd61e98da5468140aff5b5abc0e8544deaf2ee",
+    "advisory_date": "2026-11-13",
+    "affected_products": [
+      "Kernel"
+    ],
+    "affected_vendors": [
+      "Linux"
+    ],
+    "credit": "GangMin Kim",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.5,
+    "cvss_vector": "AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-09-02 - Vulnerability reported to vendor",
+      "2026-11-13 - Coordinated public release of advisory",
+      "2026-11-13 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-1007 ZDI-CAN-33360 Linux Kernel BPF Local Storage Race Condition Local Privilege Escalation Vulnerability 2026-11-13 7.5 AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H ['Linux'] ['Kernel'] This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute high-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of bpf_local_storage_elem objects. The issue results from the lack of proper locking when performing operations on an object. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the kernel. Linux has issued an update to correct this vulnerability. More details can be found at: https://github.com/torvalds/linux/commit/5bdd61e98da5468140aff5b5abc0e8544deaf2ee ['2026-09-02 - Vulnerability reported to vendor', '2026-11-13 - Coordinated public release of advisory', '2026-11-13 - Advisory Updated'] GangMin Kim https://www.zerodayinitiative.com/advisories/ZDI-26-1007/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-1007/",
+    "title": "Linux Kernel BPF Local Storage Race Condition Local Privilege Escalation Vulnerability",
+    "updated_date": "2026-11-13",
+    "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute high-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of bpf_local_storage_elem objects. The issue results from the lack of proper locking when performing operations on an object. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the kernel.",
+    "zdi_can": "ZDI-CAN-33360",
+    "zdi_id": "ZDI-26-1007"
+  },
+  "ZDI-26-1008": {
+    "additional_details": "Qualcomm Technologies has issued an update to correct this vulnerability. More details can be found at: https://docs.qualcomm.com/securitybulletin/may-2026-bulletin.html",
+    "advisory_date": "2026-11-13",
+    "affected_products": [
+      "QCA7005"
+    ],
+    "affected_vendors": [
+      "Qualcomm Technologies"
+    ],
+    "credit": "Tobias Scharnowski (@ScepticCtf), Felix Buchmann, and Kristian Covic of Fuzzware.io",
+    "cve": "CVE-2026-25293",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-25293",
+    "cvss": 6.8,
+    "cvss_vector": "AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-02-19 - Vulnerability reported to vendor",
+      "2026-11-13 - Coordinated public release of advisory",
+      "2026-11-13 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-1008 ZDI-CAN-28952 (Pwn2Own) Qualcomm Technologies QCA7005 GreenPhy Heap-based Buffer Overflow Code Execution Vulnerability 2026-11-13 CVE-2026-25293 https://www.cve.org/CVERecord?id=CVE-2026-25293 6.8 AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['Qualcomm Technologies'] ['QCA7005'] This vulnerability allows physically present attackers to execute arbitrary code on affected installations of Qualcomm Technologies QCA7005 powerline chips. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of vendor-specific GreenPhy management messages. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length heap-based buffer. An attacker can leverage this vulnerability to execute code on the powerline communication chip. Qualcomm Technologies has issued an update to correct this vulnerability. More details can be found at: https://docs.qualcomm.com/securitybulletin/may-2026-bulletin.html ['2026-02-19 - Vulnerability reported to vendor', '2026-11-13 - Coordinated public release of advisory', '2026-11-13 - Advisory Updated'] Tobias Scharnowski (@ScepticCtf), Felix Buchmann, and Kristian Covic of Fuzzware.io https://www.zerodayinitiative.com/advisories/ZDI-26-1008/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-1008/",
+    "title": "(Pwn2Own) Qualcomm Technologies QCA7005 GreenPhy Heap-based Buffer Overflow Code Execution Vulnerability",
+    "updated_date": "2026-11-13",
+    "vulnerability_details": "This vulnerability allows physically present attackers to execute arbitrary code on affected installations of Qualcomm Technologies QCA7005 powerline chips. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of vendor-specific GreenPhy management messages. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length heap-based buffer. An attacker can leverage this vulnerability to execute code on the powerline communication chip.",
+    "zdi_can": "ZDI-CAN-28952",
+    "zdi_id": "ZDI-26-1008"
+  },
+  "ZDI-26-1009": {
+    "additional_details": "Synology has issued an update to correct this vulnerability. More details can be found at: https://www.synology.com/en-br/security/advisory/Synology_SA_25_18",
+    "advisory_date": "2026-11-13",
+    "affected_products": [
+      "DiskStation DS925+"
+    ],
+    "affected_vendors": [
+      "Synology"
+    ],
+    "credit": "Sina Kheirkhah (@SinSinology) of Summoning Team (@SummoningTeam)",
+    "cve": "CVE-2025-14713",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2025-14713",
+    "cvss": 6.5,
+    "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+    "disclosure_timeline": [
+      "2025-11-18 - Vulnerability reported to vendor",
+      "2026-11-13 - Coordinated public release of advisory",
+      "2026-11-13 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-1009 ZDI-CAN-28325 (Pwn2Own) Synology DiskStation DS925+ C2 Identity Plugin Exposed Dangerous Method Information Disclosure Vulnerability 2026-11-13 CVE-2025-14713 https://www.cve.org/CVERecord?id=CVE-2025-14713 6.5 AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N ['Synology'] ['DiskStation DS925+'] This vulnerability allows network-adjacent attackers to disclose sensitive information on affected installations of Synology DiskStation DS925+ devices. Authentication is not required to exploit this vulnerability. The specific flaw exists within the C2 Identity Plugin. The issue results from an exposed dangerous function. An attacker can leverage this vulnerability to disclose stored credentials, leading to further compromise. Synology has issued an update to correct this vulnerability. More details can be found at: https://www.synology.com/en-br/security/advisory/Synology_SA_25_18 ['2025-11-18 - Vulnerability reported to vendor', '2026-11-13 - Coordinated public release of advisory', '2026-11-13 - Advisory Updated'] Sina Kheirkhah (@SinSinology) of Summoning Team (@SummoningTeam) https://www.zerodayinitiative.com/advisories/ZDI-26-1009/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-1009/",
+    "title": "(Pwn2Own) Synology DiskStation DS925+ C2 Identity Plugin Exposed Dangerous Method Information Disclosure Vulnerability",
+    "updated_date": "2026-11-13",
+    "vulnerability_details": "This vulnerability allows network-adjacent attackers to disclose sensitive information on affected installations of Synology DiskStation DS925+ devices. Authentication is not required to exploit this vulnerability. The specific flaw exists within the C2 Identity Plugin. The issue results from an exposed dangerous function. An attacker can leverage this vulnerability to disclose stored credentials, leading to further compromise.",
+    "zdi_can": "ZDI-CAN-28325",
+    "zdi_id": "ZDI-26-1009"
+  },
   "ZDI-26-101": {
     "additional_details": "Oracle has issued an update to correct this vulnerability. More details can be found at: https://www.oracle.com/security-alerts/cpujan2026.html",
     "advisory_date": "2026-02-13",
@@ -9100,7 +9380,7 @@
     "zdi_id": "ZDI-26-324"
   },
   "ZDI-26-325": {
-    "additional_details": "TrendAI has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/en-US/solution/KA-0023430",
+    "additional_details": "TrendAI has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/en-US/solution/KA-0024778",
     "advisory_date": "2026-05-28",
     "affected_products": [
       "Vision One"
@@ -9109,20 +9389,20 @@
       "TrendAI"
     ],
     "credit": "Lays (@_L4ys) of TRAPA Security",
-    "cve": "CVE-2026-45207",
-    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-45207",
+    "cve": "CVE-2026-111789",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-111789",
     "cvss": 7.8,
     "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
     "disclosure_timeline": [
       "2026-03-02 - Vulnerability reported to vendor",
       "2026-05-28 - Coordinated public release of advisory",
-      "2026-05-29 - Advisory Updated"
+      "2026-11-13 - Advisory Updated"
     ],
     "kind": "published",
-    "search_text": "published ZDI-26-325 ZDI-CAN-29177 TrendAI Vision One Security Agent Origin Validation Error Local Privilege Escalation Vulnerability 2026-05-28 CVE-2026-45207 https://www.cve.org/CVERecord?id=CVE-2026-45207 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['TrendAI'] ['Vision One'] This vulnerability allows local attackers to escalate privileges on affected installations of TrendAI Vision One Security Agent. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Apex One NT Listener service. The issue results from insufficient validation of the origin of commands. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. TrendAI has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/en-US/solution/KA-0023430 ['2026-03-02 - Vulnerability reported to vendor', '2026-05-28 - Coordinated public release of advisory', '2026-05-29 - Advisory Updated'] Lays (@_L4ys) of TRAPA Security https://www.zerodayinitiative.com/advisories/ZDI-26-325/",
+    "search_text": "published ZDI-26-325 ZDI-CAN-29177 TrendAI Vision One Security Agent Origin Validation Error Local Privilege Escalation Vulnerability 2026-05-28 CVE-2026-111789 https://www.cve.org/CVERecord?id=CVE-2026-111789 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['TrendAI'] ['Vision One'] This vulnerability allows local attackers to escalate privileges on affected installations of TrendAI Vision One Security Agent. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Apex One NT Listener service. The issue results from insufficient validation of the origin of commands. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. TrendAI has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/en-US/solution/KA-0024778 ['2026-03-02 - Vulnerability reported to vendor', '2026-05-28 - Coordinated public release of advisory', '2026-11-13 - Advisory Updated'] Lays (@_L4ys) of TRAPA Security https://www.zerodayinitiative.com/advisories/ZDI-26-325/",
     "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-325/",
     "title": "TrendAI Vision One Security Agent Origin Validation Error Local Privilege Escalation Vulnerability",
-    "updated_date": "2026-05-29",
+    "updated_date": "2026-11-13",
     "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of TrendAI Vision One Security Agent. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Apex One NT Listener service. The issue results from insufficient validation of the origin of commands. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
     "zdi_can": "ZDI-CAN-29177",
     "zdi_id": "ZDI-26-325"
@@ -26710,5 +26990,1293 @@
     "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Meta FAIRChem. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of checkpoint files. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current process.",
     "zdi_can": "ZDI-CAN-29448",
     "zdi_id": "ZDI-26-953"
+  },
+  "ZDI-26-954": {
+    "additional_details": "llama.cpp has issued an update to correct this vulnerability. More details can be found at: https://github.com/ggml-org/llama.cpp/commit/e2e7a9b2d04e0404131e551243d4bd399ccfe606",
+    "advisory_date": "2026-11-13",
+    "affected_products": [
+      "llama.cpp"
+    ],
+    "affected_vendors": [
+      "llama.cpp"
+    ],
+    "credit": "zent",
+    "cve": "CVE-2026-126976",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-126976",
+    "cvss": 7.0,
+    "cvss_vector": "AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-06-18 - Vulnerability reported to vendor",
+      "2026-11-13 - Coordinated public release of advisory",
+      "2026-11-13 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-954 ZDI-CAN-30980 llama.cpp MTMD Multimodal GGUF File Parsing Integer Overflow Remote Code Execution Vulnerability 2026-11-13 CVE-2026-126976 https://www.cve.org/CVERecord?id=CVE-2026-126976 7.0 AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H ['llama.cpp'] ['llama.cpp'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of llama.cpp. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The specific flaw exists within the parsing of audio multimodal projector GGUF files. The issue results from the lack of proper validation of user-supplied data, which can result in an integer overflow before allocating a buffer. An attacker can leverage this vulnerability to execute arbitrary code in the context of the current process. llama.cpp has issued an update to correct this vulnerability. More details can be found at: https://github.com/ggml-org/llama.cpp/commit/e2e7a9b2d04e0404131e551243d4bd399ccfe606 ['2026-06-18 - Vulnerability reported to vendor', '2026-11-13 - Coordinated public release of advisory', '2026-11-13 - Advisory Updated'] zent https://www.zerodayinitiative.com/advisories/ZDI-26-954/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-954/",
+    "title": "llama.cpp MTMD Multimodal GGUF File Parsing Integer Overflow Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-13",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of llama.cpp. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The specific flaw exists within the parsing of audio multimodal projector GGUF files. The issue results from the lack of proper validation of user-supplied data, which can result in an integer overflow before allocating a buffer. An attacker can leverage this vulnerability to execute arbitrary code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-30980",
+    "zdi_id": "ZDI-26-954"
+  },
+  "ZDI-26-955": {
+    "additional_details": "KDE has issued an update to correct this vulnerability. More details can be found at: https://invent.kde.org/graphics/gwenview/-/merge_requests/401/diffs",
+    "advisory_date": "2026-11-13",
+    "affected_products": [
+      "Gwenview"
+    ],
+    "affected_vendors": [
+      "KDE"
+    ],
+    "credit": "MICHAEL RANDRIANANTENAINA [https://elkamika.blogspot.com/]",
+    "cve": "CVE-2026-126973",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-126973",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-04-29 - Vulnerability reported to vendor",
+      "2026-11-13 - Coordinated public release of advisory",
+      "2026-11-13 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-955 ZDI-CAN-29373 KDE Gwenview PNG File Parsing Integer Overflow Remote Code Execution Vulnerability 2026-11-13 CVE-2026-126973 https://www.cve.org/CVERecord?id=CVE-2026-126973 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['KDE'] ['Gwenview'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of KDE Gwenview. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of PNG files. The issue results from the lack of proper validation of user-supplied data, which can result in an integer overflow before allocating a buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. KDE has issued an update to correct this vulnerability. More details can be found at: https://invent.kde.org/graphics/gwenview/-/merge_requests/401/diffs ['2026-04-29 - Vulnerability reported to vendor', '2026-11-13 - Coordinated public release of advisory', '2026-11-13 - Advisory Updated'] MICHAEL RANDRIANANTENAINA [https://elkamika.blogspot.com/] https://www.zerodayinitiative.com/advisories/ZDI-26-955/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-955/",
+    "title": "KDE Gwenview PNG File Parsing Integer Overflow Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-13",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of KDE Gwenview. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of PNG files. The issue results from the lack of proper validation of user-supplied data, which can result in an integer overflow before allocating a buffer. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-29373",
+    "zdi_id": "ZDI-26-955"
+  },
+  "ZDI-26-956": {
+    "additional_details": "KiCad has issued an update to correct this vulnerability. More details can be found at: https://gitlab.com/kicad/code/kicad/-/commit/b2f51d113425cf12398eb44dd97dfc30309beccf",
+    "advisory_date": "2026-11-13",
+    "affected_products": [
+      "KiCad"
+    ],
+    "affected_vendors": [
+      "KiCad"
+    ],
+    "credit": "Anonymous",
+    "cve": "CVE-2026-126970",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-126970",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-08-06 - Vulnerability reported to vendor",
+      "2026-11-13 - Coordinated public release of advisory",
+      "2026-11-13 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-956 ZDI-CAN-33213 KiCad Altium SCHLIB File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability 2026-11-13 CVE-2026-126970 https://www.cve.org/CVERecord?id=CVE-2026-126970 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['KiCad'] ['KiCad'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of KiCad. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of SCHLIB files. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated object. An attacker can leverage this vulnerability to execute arbitrary code in the context of the current process. KiCad has issued an update to correct this vulnerability. More details can be found at: https://gitlab.com/kicad/code/kicad/-/commit/b2f51d113425cf12398eb44dd97dfc30309beccf ['2026-08-06 - Vulnerability reported to vendor', '2026-11-13 - Coordinated public release of advisory', '2026-11-13 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-956/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-956/",
+    "title": "KiCad Altium SCHLIB File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-13",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of KiCad. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of SCHLIB files. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated object. An attacker can leverage this vulnerability to execute arbitrary code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-33213",
+    "zdi_id": "ZDI-26-956"
+  },
+  "ZDI-26-957": {
+    "additional_details": "KiCad has issued an update to correct this vulnerability. More details can be found at: https://gitlab.com/kicad/code/kicad/-/commit/e60c1fc0838339200742cc1ac9fcc1302cbedec5",
+    "advisory_date": "2026-11-13",
+    "affected_products": [
+      "KiCad"
+    ],
+    "affected_vendors": [
+      "KiCad"
+    ],
+    "credit": "Anonymous",
+    "cve": "CVE-2026-126971",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-126971",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-08-06 - Vulnerability reported to vendor",
+      "2026-11-13 - Coordinated public release of advisory",
+      "2026-11-13 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-957 ZDI-CAN-33212 KiCad Project Archive File Handling Directory Traversal Remote Code Execution Vulnerability 2026-11-13 CVE-2026-126971 https://www.cve.org/CVERecord?id=CVE-2026-126971 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['KiCad'] ['KiCad'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of KiCad. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of project archive files. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute arbitrary code in the context of the current user. KiCad has issued an update to correct this vulnerability. More details can be found at: https://gitlab.com/kicad/code/kicad/-/commit/e60c1fc0838339200742cc1ac9fcc1302cbedec5 ['2026-08-06 - Vulnerability reported to vendor', '2026-11-13 - Coordinated public release of advisory', '2026-11-13 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-957/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-957/",
+    "title": "KiCad Project Archive File Handling Directory Traversal Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-13",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of KiCad. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of project archive files. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute arbitrary code in the context of the current user.",
+    "zdi_can": "ZDI-CAN-33212",
+    "zdi_id": "ZDI-26-957"
+  },
+  "ZDI-26-958": {
+    "additional_details": "KiCad has issued an update to correct this vulnerability. More details can be found at: https://gitlab.com/kicad/code/kicad/-/commit/e60c1fc0838339200742cc1ac9fcc1302cbedec5",
+    "advisory_date": "2026-11-13",
+    "affected_products": [
+      "KiCad"
+    ],
+    "affected_vendors": [
+      "KiCad"
+    ],
+    "credit": "Mat Powell of TrendAI Zero Day Initiative",
+    "cve": "CVE-2026-126972",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-126972",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-08-12 - Vulnerability reported to vendor",
+      "2026-11-13 - Coordinated public release of advisory",
+      "2026-11-13 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-958 ZDI-CAN-33085 KiCad Plugin Directory Traversal Remote Code Execution Vulnerability 2026-11-13 CVE-2026-126972 https://www.cve.org/CVERecord?id=CVE-2026-126972 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['KiCad'] ['KiCad'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of KiCad. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of plugin packages. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute arbitrary code in the context of the current user. KiCad has issued an update to correct this vulnerability. More details can be found at: https://gitlab.com/kicad/code/kicad/-/commit/e60c1fc0838339200742cc1ac9fcc1302cbedec5 ['2026-08-12 - Vulnerability reported to vendor', '2026-11-13 - Coordinated public release of advisory', '2026-11-13 - Advisory Updated'] Mat Powell of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-958/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-958/",
+    "title": "KiCad Plugin Directory Traversal Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-13",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of KiCad. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of plugin packages. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute arbitrary code in the context of the current user.",
+    "zdi_can": "ZDI-CAN-33085",
+    "zdi_id": "ZDI-26-958"
+  },
+  "ZDI-26-959": {
+    "additional_details": "Docker has issued an update to correct this vulnerability. More details can be found at: https://github.com/docker/docker-agent/security/advisories/GHSA-8f6v-26r8-3r4h",
+    "advisory_date": "2026-11-13",
+    "affected_products": [
+      "Agent"
+    ],
+    "affected_vendors": [
+      "Docker"
+    ],
+    "credit": "chwrld (@chwrld24)",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-08-26 - Vulnerability reported to vendor",
+      "2026-11-13 - Coordinated public release of advisory",
+      "2026-11-13 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-959 ZDI-CAN-31929 Docker Agent read_skill Missing Authorization Remote Code Execution Vulnerability 2026-11-13 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Docker'] ['Agent'] This vulnerability allows local attackers to execute arbitrary code on affected installations of Docker Agent. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the read_skill tool. The issue results from the lack of authorization prior to allowing access to functionality. An attacker can leverage this vulnerability to execute code in the context of the current user. Docker has issued an update to correct this vulnerability. More details can be found at: https://github.com/docker/docker-agent/security/advisories/GHSA-8f6v-26r8-3r4h ['2026-08-26 - Vulnerability reported to vendor', '2026-11-13 - Coordinated public release of advisory', '2026-11-13 - Advisory Updated'] chwrld (@chwrld24) https://www.zerodayinitiative.com/advisories/ZDI-26-959/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-959/",
+    "title": "Docker Agent read_skill Missing Authorization Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-13",
+    "vulnerability_details": "This vulnerability allows local attackers to execute arbitrary code on affected installations of Docker Agent. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the read_skill tool. The issue results from the lack of authorization prior to allowing access to functionality. An attacker can leverage this vulnerability to execute code in the context of the current user.",
+    "zdi_can": "ZDI-CAN-31929",
+    "zdi_id": "ZDI-26-959"
+  },
+  "ZDI-26-960": {
+    "additional_details": "Netgate has issued an update to correct this vulnerability. More details can be found at: https://docs.netgate.com/downloads/pfSense-SA-26_22.webgui.asc",
+    "advisory_date": "2026-11-13",
+    "affected_products": [
+      "pfSense"
+    ],
+    "affected_vendors": [
+      "Netgate"
+    ],
+    "credit": "Alex Williams from Pellera Technologies",
+    "cve": "CVE-2026-92182",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-92182",
+    "cvss": 8.8,
+    "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-08-25 - Vulnerability reported to vendor",
+      "2026-11-13 - Coordinated public release of advisory",
+      "2026-11-13 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-960 ZDI-CAN-32353 Netgate pfSense CE XMLRPC Incorrect Authorization Remote Code Execution Vulnerability 2026-11-13 CVE-2026-92182 https://www.cve.org/CVERecord?id=CVE-2026-92182 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['Netgate'] ['pfSense'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Netgate pfSense. Authentication is required to exploit this vulnerability. The specific flaw exists within the XMLRPC endpoint. The issue results from incorrect authorization prior to allowing access to functionality. An attacker can leverage this vulnerability to execute code within the context of the root. Netgate has issued an update to correct this vulnerability. More details can be found at: https://docs.netgate.com/downloads/pfSense-SA-26_22.webgui.asc ['2026-08-25 - Vulnerability reported to vendor', '2026-11-13 - Coordinated public release of advisory', '2026-11-13 - Advisory Updated'] Alex Williams from Pellera Technologies https://www.zerodayinitiative.com/advisories/ZDI-26-960/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-960/",
+    "title": "Netgate pfSense CE XMLRPC Incorrect Authorization Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-13",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Netgate pfSense. Authentication is required to exploit this vulnerability. The specific flaw exists within the XMLRPC endpoint. The issue results from incorrect authorization prior to allowing access to functionality. An attacker can leverage this vulnerability to execute code within the context of the root.",
+    "zdi_can": "ZDI-CAN-32353",
+    "zdi_id": "ZDI-26-960"
+  },
+  "ZDI-26-961": {
+    "additional_details": "Winmate has issued an update to correct this vulnerability. More details can be found at: https://www.winmate.com/en/Support/security-advisories",
+    "advisory_date": "2026-11-13",
+    "affected_products": [
+      "Multiple Products"
+    ],
+    "affected_vendors": [
+      "Winmate"
+    ],
+    "credit": "Adonis Ramos",
+    "cve": "CVE-2026-118630",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-118630",
+    "cvss": 8.8,
+    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-06-11 - Vulnerability reported to vendor",
+      "2026-11-13 - Coordinated public release of advisory",
+      "2026-11-13 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-961 ZDI-CAN-29948 Winmate HotTab Exposed Dangerous Function Local Privilege Escalation Vulnerability 2026-11-13 CVE-2026-118630 https://www.cve.org/CVERecord?id=CVE-2026-118630 8.8 AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H ['Winmate'] ['Multiple Products'] This vulnerability allows local attackers to escalate privileges on affected installations of Winmate devices. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the HotTab driver. The issue results from an exposed dangerous function. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the kernel. Winmate has issued an update to correct this vulnerability. More details can be found at: https://www.winmate.com/en/Support/security-advisories ['2026-06-11 - Vulnerability reported to vendor', '2026-11-13 - Coordinated public release of advisory', '2026-11-13 - Advisory Updated'] Adonis Ramos https://www.zerodayinitiative.com/advisories/ZDI-26-961/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-961/",
+    "title": "Winmate HotTab Exposed Dangerous Function Local Privilege Escalation Vulnerability",
+    "updated_date": "2026-11-13",
+    "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Winmate devices. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the HotTab driver. The issue results from an exposed dangerous function. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the kernel.",
+    "zdi_can": "ZDI-CAN-29948",
+    "zdi_id": "ZDI-26-961"
+  },
+  "ZDI-26-962": {
+    "additional_details": "Fixed in firmware version 1.75.1975170000 (or newer) https://www.philips-hue.com/en-ca/support/release-notes/bridge",
+    "advisory_date": "2026-11-13",
+    "affected_products": [
+      "Hue Bridge"
+    ],
+    "affected_vendors": [
+      "Philips"
+    ],
+    "credit": "Hank Chen (@hank0438) of InnoEdge Labs",
+    "cve": "CVE-2026-126977",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-126977",
+    "cvss": 8.1,
+    "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+    "disclosure_timeline": [
+      "2026-07-28 - Vulnerability reported to vendor",
+      "2026-11-13 - Coordinated public release of advisory",
+      "2026-11-13 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-962 ZDI-CAN-28323 (Pwn2Own) Philips Hue Bridge HomeKit Pair-Setup Default Password Authentication Bypass Vulnerability 2026-11-13 CVE-2026-126977 https://www.cve.org/CVERecord?id=CVE-2026-126977 8.1 AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N ['Philips'] ['Hue Bridge'] This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of Philips Hue Bridge. Authentication is not required to exploit this vulnerability. The specific flaw exists within the HomeKit Authentication service, which listens on TCP port 8080 by default. Crafted data in a pairing request can cause the device to allow authentication using a blank password. An attacker can leverage this vulnerability to bypass authentication on the system. Fixed in firmware version 1.75.1975170000 (or newer) https://www.philips-hue.com/en-ca/support/release-notes/bridge ['2026-07-28 - Vulnerability reported to vendor', '2026-11-13 - Coordinated public release of advisory', '2026-11-13 - Advisory Updated'] Hank Chen (@hank0438) of InnoEdge Labs https://www.zerodayinitiative.com/advisories/ZDI-26-962/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-962/",
+    "title": "(Pwn2Own) Philips Hue Bridge HomeKit Pair-Setup Default Password Authentication Bypass Vulnerability",
+    "updated_date": "2026-11-13",
+    "vulnerability_details": "This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of Philips Hue Bridge. Authentication is not required to exploit this vulnerability. The specific flaw exists within the HomeKit Authentication service, which listens on TCP port 8080 by default. Crafted data in a pairing request can cause the device to allow authentication using a blank password. An attacker can leverage this vulnerability to bypass authentication on the system.",
+    "zdi_can": "ZDI-CAN-28323",
+    "zdi_id": "ZDI-26-962"
+  },
+  "ZDI-26-963": {
+    "additional_details": "Fixed in Bridge v2 Software version 1975170000 https://www.philips-hue.com/en-ca/support/release-notes/bridge",
+    "advisory_date": "2026-11-13",
+    "affected_products": [
+      "Hue Bridge"
+    ],
+    "affected_vendors": [
+      "Philips"
+    ],
+    "credit": "Sang Nguyen Thien (@gnas0x0018) and mistsu of Team ANHTUD",
+    "cve": "CVE-2026-126978",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-126978",
+    "cvss": 8.8,
+    "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-07-28 - Vulnerability reported to vendor",
+      "2026-11-13 - Coordinated public release of advisory",
+      "2026-11-13 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-963 ZDI-CAN-28434 (Pwn2Own) Philips Hue Bridge hap_pair_setup_handler Heap-based Buffer Overflow Remote Code Execution Vulnerability 2026-11-13 CVE-2026-126978 https://www.cve.org/CVERecord?id=CVE-2026-126978 8.8 AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['Philips'] ['Hue Bridge'] This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Philips Hue Bridge. Authentication is not required to exploit this vulnerability. The specific flaw exists within the HomeKit Accessory Protocol service, which listens on TCP port 8080 by default. When parsing pairing requests, the process does not properly validate the length of user-supplied data prior to copying it to a fixed-length, heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the device. Fixed in Bridge v2 Software version 1975170000 https://www.philips-hue.com/en-ca/support/release-notes/bridge ['2026-07-28 - Vulnerability reported to vendor', '2026-11-13 - Coordinated public release of advisory', '2026-11-13 - Advisory Updated'] Sang Nguyen Thien (@gnas0x0018) and mistsu of Team ANHTUD https://www.zerodayinitiative.com/advisories/ZDI-26-963/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-963/",
+    "title": "(Pwn2Own) Philips Hue Bridge hap_pair_setup_handler Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-13",
+    "vulnerability_details": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Philips Hue Bridge. Authentication is not required to exploit this vulnerability. The specific flaw exists within the HomeKit Accessory Protocol service, which listens on TCP port 8080 by default. When parsing pairing requests, the process does not properly validate the length of user-supplied data prior to copying it to a fixed-length, heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the device.",
+    "zdi_can": "ZDI-CAN-28434",
+    "zdi_id": "ZDI-26-963"
+  },
+  "ZDI-26-964": {
+    "additional_details": "Fixed in Bridge v2 Software version 1975170000 https://www.philips-hue.com/en-ca/support/release-notes/bridge",
+    "advisory_date": "2026-11-13",
+    "affected_products": [
+      "Hue Bridge"
+    ],
+    "affected_vendors": [
+      "Philips"
+    ],
+    "credit": "Sang Nguyen Thien (@gnas0x0018) and mistsu of Team ANHTUD",
+    "cve": "CVE-2026-126979",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-126979",
+    "cvss": 8.8,
+    "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-07-28 - Vulnerability reported to vendor",
+      "2026-11-13 - Coordinated public release of advisory",
+      "2026-11-13 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-964 ZDI-CAN-28332 (Pwn2Own) Philips Hue Bridge HomeKit Accessory Protocol chacha20_decrypt Integer Underflow Remote Code Execution Vulnerability 2026-11-13 CVE-2026-126979 https://www.cve.org/CVERecord?id=CVE-2026-126979 8.8 AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['Philips'] ['Hue Bridge'] This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Philips Hue Bridge. Authentication is not required to exploit this vulnerability. The specific flaw exists within the HomeKit Accessory Protocol service, which listens on TCP port 8080 by default. When parsing pairing requests, the process does not properly validate user-supplied data, which can result in an integer underflow before writing to memory. An attacker can leverage this vulnerability to execute code in the context of the device. Fixed in Bridge v2 Software version 1975170000 https://www.philips-hue.com/en-ca/support/release-notes/bridge ['2026-07-28 - Vulnerability reported to vendor', '2026-11-13 - Coordinated public release of advisory', '2026-11-13 - Advisory Updated'] Sang Nguyen Thien (@gnas0x0018) and mistsu of Team ANHTUD https://www.zerodayinitiative.com/advisories/ZDI-26-964/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-964/",
+    "title": "(Pwn2Own) Philips Hue Bridge HomeKit Accessory Protocol chacha20_decrypt Integer Underflow Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-13",
+    "vulnerability_details": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Philips Hue Bridge. Authentication is not required to exploit this vulnerability. The specific flaw exists within the HomeKit Accessory Protocol service, which listens on TCP port 8080 by default. When parsing pairing requests, the process does not properly validate user-supplied data, which can result in an integer underflow before writing to memory. An attacker can leverage this vulnerability to execute code in the context of the device.",
+    "zdi_can": "ZDI-CAN-28332",
+    "zdi_id": "ZDI-26-964"
+  },
+  "ZDI-26-965": {
+    "additional_details": "Fixed in Bridge v2 Software version 1975170000 https://www.philips-hue.com/en-ca/support/release-notes/bridge",
+    "advisory_date": "2026-11-13",
+    "affected_products": [
+      "Hue Bridge"
+    ],
+    "affected_vendors": [
+      "Philips"
+    ],
+    "credit": "Xilokar",
+    "cve": "CVE-2026-126980",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-126980",
+    "cvss": 6.5,
+    "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+    "disclosure_timeline": [
+      "2026-07-28 - Vulnerability reported to vendor",
+      "2026-11-13 - Coordinated public release of advisory",
+      "2026-11-13 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-965 ZDI-CAN-28470 (Pwn2Own) Philips Hue Bridge HomeKit Observable Discrepancy Information Disclosure Vulnerability 2026-11-13 CVE-2026-126980 https://www.cve.org/CVERecord?id=CVE-2026-126980 6.5 AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N ['Philips'] ['Hue Bridge'] This vulnerability allows network-adjacent attackers to disclose sensitive information on affected installations of Philips Hue Bridge. Authentication is not required to exploit this vulnerability. The specific flaw exists within the HomeKit Authentication service, which listens on TCP port 8080 by default. When processing crafted pairing requests, the service discloses internal information via an observable discrepancy between possible responses. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the device. Fixed in Bridge v2 Software version 1975170000 https://www.philips-hue.com/en-ca/support/release-notes/bridge ['2026-07-28 - Vulnerability reported to vendor', '2026-11-13 - Coordinated public release of advisory', '2026-11-13 - Advisory Updated'] Xilokar https://www.zerodayinitiative.com/advisories/ZDI-26-965/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-965/",
+    "title": "(Pwn2Own) Philips Hue Bridge HomeKit Observable Discrepancy Information Disclosure Vulnerability",
+    "updated_date": "2026-11-13",
+    "vulnerability_details": "This vulnerability allows network-adjacent attackers to disclose sensitive information on affected installations of Philips Hue Bridge. Authentication is not required to exploit this vulnerability. The specific flaw exists within the HomeKit Authentication service, which listens on TCP port 8080 by default. When processing crafted pairing requests, the service discloses internal information via an observable discrepancy between possible responses. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the device.",
+    "zdi_can": "ZDI-CAN-28470",
+    "zdi_id": "ZDI-26-965"
+  },
+  "ZDI-26-966": {
+    "additional_details": "Fixed in Bridge v2 Software version 1975170000 https://www.philips-hue.com/en-ca/support/release-notes/bridge",
+    "advisory_date": "2026-11-13",
+    "affected_products": [
+      "Hue Bridge"
+    ],
+    "affected_vendors": [
+      "Philips"
+    ],
+    "credit": "Xilokar",
+    "cve": "CVE-2026-126981",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-126981",
+    "cvss": 8.1,
+    "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+    "disclosure_timeline": [
+      "2026-07-28 - Vulnerability reported to vendor",
+      "2026-11-13 - Coordinated public release of advisory",
+      "2026-11-13 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-966 ZDI-CAN-28468 (Pwn2Own) Philips Hue Bridge HomeKit Authentication Bypass Vulnerability 2026-11-13 CVE-2026-126981 https://www.cve.org/CVERecord?id=CVE-2026-126981 8.1 AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N ['Philips'] ['Hue Bridge'] This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of Philips Hue Bridge. Authentication is not required to exploit this vulnerability. The specific flaw exists within the HomeKit Authentication service, which listens on TCP port 8080 by default. When handling pairing requests, the service does not properly enforce the expected order of authentication messages. An attacker can leverage this vulnerability to bypass authentication on the system. Fixed in Bridge v2 Software version 1975170000 https://www.philips-hue.com/en-ca/support/release-notes/bridge ['2026-07-28 - Vulnerability reported to vendor', '2026-11-13 - Coordinated public release of advisory', '2026-11-13 - Advisory Updated'] Xilokar https://www.zerodayinitiative.com/advisories/ZDI-26-966/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-966/",
+    "title": "(Pwn2Own) Philips Hue Bridge HomeKit Authentication Bypass Vulnerability",
+    "updated_date": "2026-11-13",
+    "vulnerability_details": "This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of Philips Hue Bridge. Authentication is not required to exploit this vulnerability. The specific flaw exists within the HomeKit Authentication service, which listens on TCP port 8080 by default. When handling pairing requests, the service does not properly enforce the expected order of authentication messages. An attacker can leverage this vulnerability to bypass authentication on the system.",
+    "zdi_can": "ZDI-CAN-28468",
+    "zdi_id": "ZDI-26-966"
+  },
+  "ZDI-26-967": {
+    "additional_details": "Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-119824",
+    "advisory_date": "2026-11-13",
+    "affected_products": [
+      "Windows"
+    ],
+    "affected_vendors": [
+      "Microsoft"
+    ],
+    "credit": "Kyeongmin Kim (@hareh4ru) of KAIST Hacking Lab",
+    "cve": "CVE-2026-119824",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-119824",
+    "cvss": 7.5,
+    "cvss_vector": "AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-09-04 - Vulnerability reported to vendor",
+      "2026-11-13 - Coordinated public release of advisory",
+      "2026-11-13 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-967 ZDI-CAN-30756 Microsoft Windows Remote Desktop Connection Client Link Following Remote Code Execution Vulnerability 2026-11-13 CVE-2026-119824 https://www.cve.org/CVERecord?id=CVE-2026-119824 7.5 AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H ['Microsoft'] ['Windows'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Microsoft Windows. User interaction is required to exploit this vulnerability in that the target must connect to a malicious server. The specific flaw exists within the Remote Desktop Connection client. By creating a reparse point, an attacker can abuse the service to access arbitrary files. An attacker can leverage this vulnerability to execute code in the context of the current user. Microsoft has issued an update to correct this vulnerability. More details can be found at: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-119824 ['2026-09-04 - Vulnerability reported to vendor', '2026-11-13 - Coordinated public release of advisory', '2026-11-13 - Advisory Updated'] Kyeongmin Kim (@hareh4ru) of KAIST Hacking Lab https://www.zerodayinitiative.com/advisories/ZDI-26-967/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-967/",
+    "title": "Microsoft Windows Remote Desktop Connection Client Link Following Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-13",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Microsoft Windows. User interaction is required to exploit this vulnerability in that the target must connect to a malicious server. The specific flaw exists within the Remote Desktop Connection client. By creating a reparse point, an attacker can abuse the service to access arbitrary files. An attacker can leverage this vulnerability to execute code in the context of the current user.",
+    "zdi_can": "ZDI-CAN-30756",
+    "zdi_id": "ZDI-26-967"
+  },
+  "ZDI-26-968": {
+    "additional_details": "OpenAI has issued an update to correct this vulnerability. More details can be found at: https://openai.com/security/advisories/cve-2026-110930/",
+    "advisory_date": "2026-11-13",
+    "affected_products": [
+      "Codex"
+    ],
+    "affected_vendors": [
+      "OpenAI"
+    ],
+    "credit": "Ikotas Labs, Inc. (@ikotas00)",
+    "cve": "CVE-2026-110930",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-110930",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-10-21 - Vulnerability reported to vendor",
+      "2026-11-13 - Coordinated public release of advisory",
+      "2026-11-13 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-968 ZDI-CAN-35548 (Pwn2Own) OpenAI Codex GUI OpenProjectInCodex Argument Injection Remote Code Execution Vulnerability 2026-11-13 CVE-2026-110930 https://www.cve.org/CVERecord?id=CVE-2026-110930 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['OpenAI'] ['Codex'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of OpenAI Codex. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The specific flaw exists within the handling of the OpenProjectInCodex context menu command. The issue results from the lack of proper validation of a user-supplied string before using it to construct command-line arguments. An attacker can leverage this vulnerability to execute code in the context of the current user. OpenAI has issued an update to correct this vulnerability. More details can be found at: https://openai.com/security/advisories/cve-2026-110930/ ['2026-10-21 - Vulnerability reported to vendor', '2026-11-13 - Coordinated public release of advisory', '2026-11-13 - Advisory Updated'] Ikotas Labs, Inc. (@ikotas00) https://www.zerodayinitiative.com/advisories/ZDI-26-968/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-968/",
+    "title": "(Pwn2Own) OpenAI Codex GUI OpenProjectInCodex Argument Injection Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-13",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of OpenAI Codex. User interaction is required to exploit this vulnerability in that the target must open a malicious file. The specific flaw exists within the handling of the OpenProjectInCodex context menu command. The issue results from the lack of proper validation of a user-supplied string before using it to construct command-line arguments. An attacker can leverage this vulnerability to execute code in the context of the current user.",
+    "zdi_can": "ZDI-CAN-35548",
+    "zdi_id": "ZDI-26-968"
+  },
+  "ZDI-26-969": {
+    "additional_details": "libhevc has issued an update to correct this vulnerability. More details can be found at: https://github.com/ittiam-systems/libhevc/commit/84cd24a039fac4f8fc00f45c3e002218d8d2ea9d",
+    "advisory_date": "2026-11-13",
+    "affected_products": [
+      "libhevc"
+    ],
+    "affected_vendors": [
+      "libhevc"
+    ],
+    "credit": "Lucas Leong (@_wmliang_) of TrendAI Zero Day Initiative",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 4.4,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L",
+    "disclosure_timeline": [
+      "2026-08-06 - Vulnerability reported to vendor",
+      "2026-11-13 - Coordinated public release of advisory",
+      "2026-11-13 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-969 ZDI-CAN-33215 libhevc HEVC Video Decoder Out-Of-Bounds Read Information Disclosure Vulnerability 2026-11-13 4.4 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L ['libhevc'] ['libhevc'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Google Android. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of slice headers. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process. libhevc has issued an update to correct this vulnerability. More details can be found at: https://github.com/ittiam-systems/libhevc/commit/84cd24a039fac4f8fc00f45c3e002218d8d2ea9d ['2026-08-06 - Vulnerability reported to vendor', '2026-11-13 - Coordinated public release of advisory', '2026-11-13 - Advisory Updated'] Lucas Leong (@_wmliang_) of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-969/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-969/",
+    "title": "libhevc HEVC Video Decoder Out-Of-Bounds Read Information Disclosure Vulnerability",
+    "updated_date": "2026-11-13",
+    "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Google Android. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of slice headers. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-33215",
+    "zdi_id": "ZDI-26-969"
+  },
+  "ZDI-26-970": {
+    "additional_details": "libhevc has issued an update to correct this vulnerability. More details can be found at: https://github.com/ittiam-systems/libhevc/commit/d42200d2f2f3666bf1b51c93954d89d27a11d376",
+    "advisory_date": "2026-11-13",
+    "affected_products": [
+      "libhevc"
+    ],
+    "affected_vendors": [
+      "libhevc"
+    ],
+    "credit": "Lucas Leong (@_wmliang_) of TrendAI Zero Day Initiative",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 4.4,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L",
+    "disclosure_timeline": [
+      "2026-08-06 - Vulnerability reported to vendor",
+      "2026-11-13 - Coordinated public release of advisory",
+      "2026-11-13 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-970 ZDI-CAN-33216 libhevc HEVC Video Decoder Out-Of-Bounds Read Information Disclosure Vulnerability 2026-11-13 4.4 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L ['libhevc'] ['libhevc'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Google Android. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of SEI payloads. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process. libhevc has issued an update to correct this vulnerability. More details can be found at: https://github.com/ittiam-systems/libhevc/commit/d42200d2f2f3666bf1b51c93954d89d27a11d376 ['2026-08-06 - Vulnerability reported to vendor', '2026-11-13 - Coordinated public release of advisory', '2026-11-13 - Advisory Updated'] Lucas Leong (@_wmliang_) of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-970/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-970/",
+    "title": "libhevc HEVC Video Decoder Out-Of-Bounds Read Information Disclosure Vulnerability",
+    "updated_date": "2026-11-13",
+    "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Google Android. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of SEI payloads. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-33216",
+    "zdi_id": "ZDI-26-970"
+  },
+  "ZDI-26-971": {
+    "additional_details": "Signal has issued an update to correct this vulnerability. More details can be found at: https://github.com/electron/electron/issues/49237",
+    "advisory_date": "2026-11-13",
+    "affected_products": [
+      "Signal for Windows"
+    ],
+    "affected_vendors": [
+      "Signal"
+    ],
+    "credit": "Kusol Watchara-Apanukorn",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.5,
+    "cvss_vector": "AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2025-12-16 - Vulnerability reported to vendor",
+      "2026-11-13 - Coordinated public release of advisory",
+      "2026-11-13 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-971 ZDI-CAN-28556 Signal for Windows Insufficient UI Warning Remote Code Execution Vulnerability 2026-11-13 7.5 AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H ['Signal'] ['Signal for Windows'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Signal for Windows. User interaction is required to exploit this vulnerability in that the target must accept a malicious attachment. The specific flaw exists within the handling of file attachments. The product offers an insecure default location for saving downloaded attachments. An attacker can leverage this vulnerability to execute code in the context of the current process. Signal has issued an update to correct this vulnerability. More details can be found at: https://github.com/electron/electron/issues/49237 ['2025-12-16 - Vulnerability reported to vendor', '2026-11-13 - Coordinated public release of advisory', '2026-11-13 - Advisory Updated'] Kusol Watchara-Apanukorn https://www.zerodayinitiative.com/advisories/ZDI-26-971/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-971/",
+    "title": "Signal for Windows Insufficient UI Warning Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-13",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Signal for Windows. User interaction is required to exploit this vulnerability in that the target must accept a malicious attachment. The specific flaw exists within the handling of file attachments. The product offers an insecure default location for saving downloaded attachments. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-28556",
+    "zdi_id": "ZDI-26-971"
+  },
+  "ZDI-26-972": {
+    "additional_details": "Fixed in v0.3.0",
+    "advisory_date": "2026-11-13",
+    "affected_products": [
+      "nanobot"
+    ],
+    "affected_vendors": [
+      "Hong Kong University Data Intelligence Lab"
+    ],
+    "credit": "Peter Girnus (@gothburz) and Project AESIR of TrendAI Zero Day Initiative",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 9.3,
+    "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:L/A:N",
+    "disclosure_timeline": [
+      "2026-02-20 - Vulnerability reported to vendor",
+      "2026-11-13 - Coordinated public release of advisory",
+      "2026-11-13 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-972 ZDI-CAN-29369 Hong Kong University Data Intelligence Lab nanobot WebFetch Server-Side Request Forgery Information Disclosure Vulnerability 2026-11-13 9.3 AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:L/A:N ['Hong Kong University Data Intelligence Lab'] ['nanobot'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Hong Kong University Data Intelligence Lab nanobot. Interaction with this product is required to exploit this vulnerability but attack vectors may vary depending on the implementation. The specific flaw exists within the URI validation component. The issue results from the lack of proper validation of a URI prior to accessing resources. An attacker can leverage this vulnerability to disclose information in the context of the service account. Fixed in v0.3.0 ['2026-02-20 - Vulnerability reported to vendor', '2026-11-13 - Coordinated public release of advisory', '2026-11-13 - Advisory Updated'] Peter Girnus (@gothburz) and Project AESIR of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-972/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-972/",
+    "title": "Hong Kong University Data Intelligence Lab nanobot WebFetch Server-Side Request Forgery Information Disclosure Vulnerability",
+    "updated_date": "2026-11-13",
+    "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Hong Kong University Data Intelligence Lab nanobot. Interaction with this product is required to exploit this vulnerability but attack vectors may vary depending on the implementation. The specific flaw exists within the URI validation component. The issue results from the lack of proper validation of a URI prior to accessing resources. An attacker can leverage this vulnerability to disclose information in the context of the service account.",
+    "zdi_can": "ZDI-CAN-29369",
+    "zdi_id": "ZDI-26-972"
+  },
+  "ZDI-26-973": {
+    "additional_details": "EmbedThis has issued an update to correct this vulnerability. More details can be found at: https://github.com/embedthis/updater/commit/094983901d9cb3cbfac349a2a31138a339b016b0",
+    "advisory_date": "2026-11-13",
+    "affected_products": [
+      "Updater"
+    ],
+    "affected_vendors": [
+      "EmbedThis"
+    ],
+    "credit": "Tyler Zars",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.5,
+    "cvss_vector": "AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2025-10-03 - Vulnerability reported to vendor",
+      "2026-11-13 - Coordinated public release of advisory",
+      "2026-11-13 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-973 ZDI-CAN-27329 EmbedThis Updater Heap-based Buffer Overflow Remote Code Execution Vulnerability 2026-11-13 7.5 AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H ['EmbedThis'] ['Updater'] This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of EmbedThis Updater. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of server responses. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. EmbedThis has issued an update to correct this vulnerability. More details can be found at: https://github.com/embedthis/updater/commit/094983901d9cb3cbfac349a2a31138a339b016b0 ['2025-10-03 - Vulnerability reported to vendor', '2026-11-13 - Coordinated public release of advisory', '2026-11-13 - Advisory Updated'] Tyler Zars https://www.zerodayinitiative.com/advisories/ZDI-26-973/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-973/",
+    "title": "EmbedThis Updater Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-13",
+    "vulnerability_details": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of EmbedThis Updater. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of server responses. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-27329",
+    "zdi_id": "ZDI-26-973"
+  },
+  "ZDI-26-974": {
+    "additional_details": "PostgreSQL has issued an update to correct this vulnerability. More details can be found at: https://github.com/postgres/postgres/commit/1e2795ddeafc66cd78d2c90a69dd820488639c7c",
+    "advisory_date": "2026-11-13",
+    "affected_products": [
+      "PostgreSQL"
+    ],
+    "affected_vendors": [
+      "PostgreSQL"
+    ],
+    "credit": "Sajeeb Lohani",
+    "cve": "CVE-2026-14676",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-14676",
+    "cvss": 8.8,
+    "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-05-21 - Vulnerability reported to vendor",
+      "2026-11-13 - Coordinated public release of advisory",
+      "2026-11-13 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-974 ZDI-CAN-30576 PostgreSQL pg_stat_statements Extension Heap-based Buffer Overflow Remote Code Execution Vulnerability 2026-11-13 CVE-2026-14676 https://www.cve.org/CVERecord?id=CVE-2026-14676 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['PostgreSQL'] ['PostgreSQL'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of PostgreSQL. Authentication is required to exploit this vulnerability. The specific flaw exists within the processing of query normalizations. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the service account. PostgreSQL has issued an update to correct this vulnerability. More details can be found at: https://github.com/postgres/postgres/commit/1e2795ddeafc66cd78d2c90a69dd820488639c7c ['2026-05-21 - Vulnerability reported to vendor', '2026-11-13 - Coordinated public release of advisory', '2026-11-13 - Advisory Updated'] Sajeeb Lohani https://www.zerodayinitiative.com/advisories/ZDI-26-974/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-974/",
+    "title": "PostgreSQL pg_stat_statements Extension Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-13",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of PostgreSQL. Authentication is required to exploit this vulnerability. The specific flaw exists within the processing of query normalizations. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the service account.",
+    "zdi_can": "ZDI-CAN-30576",
+    "zdi_id": "ZDI-26-974"
+  },
+  "ZDI-26-975": {
+    "additional_details": "llama.cpp has issued an update to correct this vulnerability. More details can be found at: https://github.com/ggml-org/llama.cpp/pull/31336",
+    "advisory_date": "2026-11-13",
+    "affected_products": [
+      "llama.cpp"
+    ],
+    "affected_vendors": [
+      "llama.cpp"
+    ],
+    "credit": "Adam Bedard",
+    "cve": "CVE-2026-126974",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-126974",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-10-28 - Vulnerability reported to vendor",
+      "2026-11-13 - Coordinated public release of advisory",
+      "2026-11-13 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-975 ZDI-CAN-34553 llama.cpp GGUF File Parsing Integer Overflow Remote Code Execution Vulnerability 2026-11-13 CVE-2026-126974 https://www.cve.org/CVERecord?id=CVE-2026-126974 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['llama.cpp'] ['llama.cpp'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of llama.cpp. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of GGUF files. The issue results from the lack of proper validation of user-supplied data, which can result in an integer overflow before writing to memory. An attacker can leverage this vulnerability to execute arbitrary code in the context of the current process. llama.cpp has issued an update to correct this vulnerability. More details can be found at: https://github.com/ggml-org/llama.cpp/pull/31336 ['2026-10-28 - Vulnerability reported to vendor', '2026-11-13 - Coordinated public release of advisory', '2026-11-13 - Advisory Updated'] Adam Bedard https://www.zerodayinitiative.com/advisories/ZDI-26-975/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-975/",
+    "title": "llama.cpp GGUF File Parsing Integer Overflow Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-13",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of llama.cpp. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of GGUF files. The issue results from the lack of proper validation of user-supplied data, which can result in an integer overflow before writing to memory. An attacker can leverage this vulnerability to execute arbitrary code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-34553",
+    "zdi_id": "ZDI-26-975"
+  },
+  "ZDI-26-976": {
+    "additional_details": "llama.cpp has issued an update to correct this vulnerability. More details can be found at: https://github.com/ggml-org/llama.cpp/pull/31336",
+    "advisory_date": "2026-11-13",
+    "affected_products": [
+      "llama.cpp"
+    ],
+    "affected_vendors": [
+      "llama.cpp"
+    ],
+    "credit": "lucasfutures",
+    "cve": "CVE-2026-126975",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-126975",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-10-28 - Vulnerability reported to vendor",
+      "2026-11-13 - Coordinated public release of advisory",
+      "2026-11-13 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-976 ZDI-CAN-34558 llama.cpp GGUF File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability 2026-11-13 CVE-2026-126975 https://www.cve.org/CVERecord?id=CVE-2026-126975 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['llama.cpp'] ['llama.cpp'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of llama.cpp. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of GGUF files. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute arbitrary code in the context of the current process. llama.cpp has issued an update to correct this vulnerability. More details can be found at: https://github.com/ggml-org/llama.cpp/pull/31336 ['2026-10-28 - Vulnerability reported to vendor', '2026-11-13 - Coordinated public release of advisory', '2026-11-13 - Advisory Updated'] lucasfutures https://www.zerodayinitiative.com/advisories/ZDI-26-976/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-976/",
+    "title": "llama.cpp GGUF File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-13",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of llama.cpp. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of GGUF files. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute arbitrary code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-34558",
+    "zdi_id": "ZDI-26-976"
+  },
+  "ZDI-26-977": {
+    "additional_details": "TrendAI has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/en-US/solution/KA-0024778",
+    "advisory_date": "2026-11-13",
+    "affected_products": [
+      "Vision One"
+    ],
+    "affected_vendors": [
+      "TrendAI"
+    ],
+    "credit": "Lays (@_L4ys) of TRAPA Security",
+    "cve": "CVE-2026-111778",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-111778",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-05-21 - Vulnerability reported to vendor",
+      "2026-11-13 - Coordinated public release of advisory",
+      "2026-11-13 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-977 ZDI-CAN-30495 TrendAI Vision One Security Agent Origin Validation Error Local Privilege Escalation Vulnerability 2026-11-13 CVE-2026-111778 https://www.cve.org/CVERecord?id=CVE-2026-111778 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['TrendAI'] ['Vision One'] This vulnerability allows local attackers to escalate privileges on affected installations of TrendAI Vision One Security Agent. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Apex One NT Listener service. The issue results from insufficient validation of the origin of commands. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. TrendAI has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/en-US/solution/KA-0024778 ['2026-05-21 - Vulnerability reported to vendor', '2026-11-13 - Coordinated public release of advisory', '2026-11-13 - Advisory Updated'] Lays (@_L4ys) of TRAPA Security https://www.zerodayinitiative.com/advisories/ZDI-26-977/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-977/",
+    "title": "TrendAI Vision One Security Agent Origin Validation Error Local Privilege Escalation Vulnerability",
+    "updated_date": "2026-11-13",
+    "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of TrendAI Vision One Security Agent. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Apex One NT Listener service. The issue results from insufficient validation of the origin of commands. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+    "zdi_can": "ZDI-CAN-30495",
+    "zdi_id": "ZDI-26-977"
+  },
+  "ZDI-26-978": {
+    "additional_details": "TrendAI has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/en-US/solution/KA-0024778",
+    "advisory_date": "2026-11-13",
+    "affected_products": [
+      "Vision One"
+    ],
+    "affected_vendors": [
+      "TrendAI"
+    ],
+    "credit": "Lays (@_L4ys) of TRAPA Security",
+    "cve": "CVE-2026-111779",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-111779",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-05-21 - Vulnerability reported to vendor",
+      "2026-11-13 - Coordinated public release of advisory",
+      "2026-11-13 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-978 ZDI-CAN-30436 TrendAI Vision One Security Agent Origin Validation Error Local Privilege Escalation Vulnerability 2026-11-13 CVE-2026-111779 https://www.cve.org/CVERecord?id=CVE-2026-111779 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['TrendAI'] ['Vision One'] This vulnerability allows local attackers to escalate privileges on affected installations of TrendAI Vision One Security Agent. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Apex One NT Listener service. The issue results from insufficient validation of the origin of commands. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. TrendAI has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/en-US/solution/KA-0024778 ['2026-05-21 - Vulnerability reported to vendor', '2026-11-13 - Coordinated public release of advisory', '2026-11-13 - Advisory Updated'] Lays (@_L4ys) of TRAPA Security https://www.zerodayinitiative.com/advisories/ZDI-26-978/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-978/",
+    "title": "TrendAI Vision One Security Agent Origin Validation Error Local Privilege Escalation Vulnerability",
+    "updated_date": "2026-11-13",
+    "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of TrendAI Vision One Security Agent. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Apex One NT Listener service. The issue results from insufficient validation of the origin of commands. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+    "zdi_can": "ZDI-CAN-30436",
+    "zdi_id": "ZDI-26-978"
+  },
+  "ZDI-26-979": {
+    "additional_details": "TrendAI has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/en-US/solution/KA-0024778",
+    "advisory_date": "2026-11-13",
+    "affected_products": [
+      "Vision One"
+    ],
+    "affected_vendors": [
+      "TrendAI"
+    ],
+    "credit": "Lays (@_L4ys) of TRAPA Security",
+    "cve": "CVE-2026-111780",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-111780",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-05-21 - Vulnerability reported to vendor",
+      "2026-11-13 - Coordinated public release of advisory",
+      "2026-11-13 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-979 ZDI-CAN-30282 TrendAI Vision One Security Agent Origin Validation Error Local Privilege Escalation Vulnerability 2026-11-13 CVE-2026-111780 https://www.cve.org/CVERecord?id=CVE-2026-111780 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['TrendAI'] ['Vision One'] This vulnerability allows local attackers to escalate privileges on affected installations of TrendAI Vision One Security Agent. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Apex One NT Listener service. The issue results from insufficient validation of the origin of commands. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. TrendAI has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/en-US/solution/KA-0024778 ['2026-05-21 - Vulnerability reported to vendor', '2026-11-13 - Coordinated public release of advisory', '2026-11-13 - Advisory Updated'] Lays (@_L4ys) of TRAPA Security https://www.zerodayinitiative.com/advisories/ZDI-26-979/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-979/",
+    "title": "TrendAI Vision One Security Agent Origin Validation Error Local Privilege Escalation Vulnerability",
+    "updated_date": "2026-11-13",
+    "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of TrendAI Vision One Security Agent. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Apex One NT Listener service. The issue results from insufficient validation of the origin of commands. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+    "zdi_can": "ZDI-CAN-30282",
+    "zdi_id": "ZDI-26-979"
+  },
+  "ZDI-26-980": {
+    "additional_details": "TrendAI has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/en-US/solution/KA-0024778",
+    "advisory_date": "2026-11-13",
+    "affected_products": [
+      "Vision One"
+    ],
+    "affected_vendors": [
+      "TrendAI"
+    ],
+    "credit": "Lays (@_L4ys) of TRAPA Security",
+    "cve": "CVE-2026-111781",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-111781",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-05-21 - Vulnerability reported to vendor",
+      "2026-11-13 - Coordinated public release of advisory",
+      "2026-11-13 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-980 ZDI-CAN-30497 TrendAI Vision One Security Agent Origin Validation Error Local Privilege Escalation Vulnerability 2026-11-13 CVE-2026-111781 https://www.cve.org/CVERecord?id=CVE-2026-111781 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['TrendAI'] ['Vision One'] This vulnerability allows local attackers to escalate privileges on affected installations of TrendAI Vision One Security Agent. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Apex One NT Listener service. The issue results from insufficient validation of the origin of commands. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. TrendAI has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/en-US/solution/KA-0024778 ['2026-05-21 - Vulnerability reported to vendor', '2026-11-13 - Coordinated public release of advisory', '2026-11-13 - Advisory Updated'] Lays (@_L4ys) of TRAPA Security https://www.zerodayinitiative.com/advisories/ZDI-26-980/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-980/",
+    "title": "TrendAI Vision One Security Agent Origin Validation Error Local Privilege Escalation Vulnerability",
+    "updated_date": "2026-11-13",
+    "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of TrendAI Vision One Security Agent. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Apex One NT Listener service. The issue results from insufficient validation of the origin of commands. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+    "zdi_can": "ZDI-CAN-30497",
+    "zdi_id": "ZDI-26-980"
+  },
+  "ZDI-26-981": {
+    "additional_details": "TrendAI has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/en-US/solution/KA-0024778",
+    "advisory_date": "2026-11-13",
+    "affected_products": [
+      "Vision One"
+    ],
+    "affected_vendors": [
+      "TrendAI"
+    ],
+    "credit": "Lays (@_L4ys) of TRAPA Security",
+    "cve": "CVE-2026-111782",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-111782",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-05-21 - Vulnerability reported to vendor",
+      "2026-11-13 - Coordinated public release of advisory",
+      "2026-11-13 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-981 ZDI-CAN-30858 TrendAI Vision One Security Agent Stack-based Buffer Overflow Local Privilege Escalation Vulnerability 2026-11-13 CVE-2026-111782 https://www.cve.org/CVERecord?id=CVE-2026-111782 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['TrendAI'] ['Vision One'] This vulnerability allows local attackers to escalate privileges on affected installations of TrendAI Vision One Security Agent. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Apex One NT RealTime Scan service. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-size stack-based buffer. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. TrendAI has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/en-US/solution/KA-0024778 ['2026-05-21 - Vulnerability reported to vendor', '2026-11-13 - Coordinated public release of advisory', '2026-11-13 - Advisory Updated'] Lays (@_L4ys) of TRAPA Security https://www.zerodayinitiative.com/advisories/ZDI-26-981/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-981/",
+    "title": "TrendAI Vision One Security Agent Stack-based Buffer Overflow Local Privilege Escalation Vulnerability",
+    "updated_date": "2026-11-13",
+    "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of TrendAI Vision One Security Agent. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Apex One NT RealTime Scan service. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-size stack-based buffer. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+    "zdi_can": "ZDI-CAN-30858",
+    "zdi_id": "ZDI-26-981"
+  },
+  "ZDI-26-982": {
+    "additional_details": "TrendAI has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/en-US/solution/KA-0024778",
+    "advisory_date": "2026-11-13",
+    "affected_products": [
+      "Vision One"
+    ],
+    "affected_vendors": [
+      "TrendAI"
+    ],
+    "credit": "Lays (@_L4ys) of TRAPA Security",
+    "cve": "CVE-2026-111783",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-111783",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-03-24 - Vulnerability reported to vendor",
+      "2026-11-13 - Coordinated public release of advisory",
+      "2026-11-13 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-982 ZDI-CAN-29794 TrendAI Vision One Security Agent TMBMServer Heap-based Buffer Overflow Local Privilege Escalation Vulnerability 2026-11-13 CVE-2026-111783 https://www.cve.org/CVERecord?id=CVE-2026-111783 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['TrendAI'] ['Vision One'] This vulnerability allows local attackers to escalate privileges on affected installations of TrendAI Vision One Security Agent. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Trend Micro Unauthorized Change Prevention Service. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. TrendAI has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/en-US/solution/KA-0024778 ['2026-03-24 - Vulnerability reported to vendor', '2026-11-13 - Coordinated public release of advisory', '2026-11-13 - Advisory Updated'] Lays (@_L4ys) of TRAPA Security https://www.zerodayinitiative.com/advisories/ZDI-26-982/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-982/",
+    "title": "TrendAI Vision One Security Agent TMBMServer Heap-based Buffer Overflow Local Privilege Escalation Vulnerability",
+    "updated_date": "2026-11-13",
+    "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of TrendAI Vision One Security Agent. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Trend Micro Unauthorized Change Prevention Service. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+    "zdi_can": "ZDI-CAN-29794",
+    "zdi_id": "ZDI-26-982"
+  },
+  "ZDI-26-983": {
+    "additional_details": "TrendAI has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/en-US/solution/KA-0024778",
+    "advisory_date": "2026-11-13",
+    "affected_products": [
+      "Vision One"
+    ],
+    "affected_vendors": [
+      "TrendAI"
+    ],
+    "credit": "Lays (@_L4ys) of TRAPA Security",
+    "cve": "CVE-2026-111784",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-111784",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-03-27 - Vulnerability reported to vendor",
+      "2026-11-13 - Coordinated public release of advisory",
+      "2026-11-13 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-983 ZDI-CAN-29793 TrendAI Vision One Security Agent TMBMServer Null Pointer Dereference Local Privilege Escalation Vulnerability 2026-11-13 CVE-2026-111784 https://www.cve.org/CVERecord?id=CVE-2026-111784 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['TrendAI'] ['Vision One'] This vulnerability allows local attackers to escalate privileges on affected installations of TrendAI Vision One Security Agent. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Trend Micro Unauthorized Change Prevention Service. The issue results from dereferencing a null pointer. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. TrendAI has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/en-US/solution/KA-0024778 ['2026-03-27 - Vulnerability reported to vendor', '2026-11-13 - Coordinated public release of advisory', '2026-11-13 - Advisory Updated'] Lays (@_L4ys) of TRAPA Security https://www.zerodayinitiative.com/advisories/ZDI-26-983/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-983/",
+    "title": "TrendAI Vision One Security Agent TMBMServer Null Pointer Dereference Local Privilege Escalation Vulnerability",
+    "updated_date": "2026-11-13",
+    "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of TrendAI Vision One Security Agent. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Trend Micro Unauthorized Change Prevention Service. The issue results from dereferencing a null pointer. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+    "zdi_can": "ZDI-CAN-29793",
+    "zdi_id": "ZDI-26-983"
+  },
+  "ZDI-26-984": {
+    "additional_details": "TrendAI has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/en-US/solution/KA-0024778",
+    "advisory_date": "2026-11-13",
+    "affected_products": [
+      "Vision One"
+    ],
+    "affected_vendors": [
+      "TrendAI"
+    ],
+    "credit": "Lays (@_L4ys) of TRAPA Security",
+    "cve": "CVE-2026-111785",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-111785",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-04-01 - Vulnerability reported to vendor",
+      "2026-11-13 - Coordinated public release of advisory",
+      "2026-11-13 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-984 ZDI-CAN-30002 TrendAI Vision One Security Agent TMBMServer Heap-based Buffer Overflow Local Privilege Escalation Vulnerability 2026-11-13 CVE-2026-111785 https://www.cve.org/CVERecord?id=CVE-2026-111785 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['TrendAI'] ['Vision One'] This vulnerability allows local attackers to escalate privileges on affected installations of TrendAI Vision One Security Agent. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Trend Micro Unauthorized Change Prevention Service. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. TrendAI has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/en-US/solution/KA-0024778 ['2026-04-01 - Vulnerability reported to vendor', '2026-11-13 - Coordinated public release of advisory', '2026-11-13 - Advisory Updated'] Lays (@_L4ys) of TRAPA Security https://www.zerodayinitiative.com/advisories/ZDI-26-984/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-984/",
+    "title": "TrendAI Vision One Security Agent TMBMServer Heap-based Buffer Overflow Local Privilege Escalation Vulnerability",
+    "updated_date": "2026-11-13",
+    "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of TrendAI Vision One Security Agent. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Trend Micro Unauthorized Change Prevention Service. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+    "zdi_can": "ZDI-CAN-30002",
+    "zdi_id": "ZDI-26-984"
+  },
+  "ZDI-26-985": {
+    "additional_details": "TrendAI has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/en-US/solution/KA-0024778",
+    "advisory_date": "2026-11-13",
+    "affected_products": [
+      "Vision One"
+    ],
+    "affected_vendors": [
+      "TrendAI"
+    ],
+    "credit": "Lays (@_L4ys) of TRAPA Security",
+    "cve": "CVE-2026-111786",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-111786",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-04-01 - Vulnerability reported to vendor",
+      "2026-11-13 - Coordinated public release of advisory",
+      "2026-11-13 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-985 ZDI-CAN-30215 TrendAI Vision One Security Agent TMBMServer Out-Of-Bounds Read Local Privilege Escalation Vulnerability 2026-11-13 CVE-2026-111786 https://www.cve.org/CVERecord?id=CVE-2026-111786 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['TrendAI'] ['Vision One'] This vulnerability allows local attackers to escalate privileges on affected installations of TrendAI Vision One Security Agent. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Trend Micro Unauthorized Change Prevention Service. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. TrendAI has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/en-US/solution/KA-0024778 ['2026-04-01 - Vulnerability reported to vendor', '2026-11-13 - Coordinated public release of advisory', '2026-11-13 - Advisory Updated'] Lays (@_L4ys) of TRAPA Security https://www.zerodayinitiative.com/advisories/ZDI-26-985/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-985/",
+    "title": "TrendAI Vision One Security Agent TMBMServer Out-Of-Bounds Read Local Privilege Escalation Vulnerability",
+    "updated_date": "2026-11-13",
+    "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of TrendAI Vision One Security Agent. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Trend Micro Unauthorized Change Prevention Service. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated buffer. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+    "zdi_can": "ZDI-CAN-30215",
+    "zdi_id": "ZDI-26-985"
+  },
+  "ZDI-26-986": {
+    "additional_details": "TrendAI has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/en-US/solution/KA-0024778",
+    "advisory_date": "2026-11-13",
+    "affected_products": [
+      "Vision One"
+    ],
+    "affected_vendors": [
+      "TrendAI"
+    ],
+    "credit": "Lays (@_L4ys) of TRAPA Security",
+    "cve": "CVE-2026-111787",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-111787",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-04-01 - Vulnerability reported to vendor",
+      "2026-11-13 - Coordinated public release of advisory",
+      "2026-11-13 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-986 ZDI-CAN-30179 TrendAI Vision One Security Agent TMBMServer Type Confusion Local Privilege Escalation Vulnerability 2026-11-13 CVE-2026-111787 https://www.cve.org/CVERecord?id=CVE-2026-111787 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['TrendAI'] ['Vision One'] This vulnerability allows local attackers to escalate privileges on affected installations of TrendAI Vision One Security Agent. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Trend Micro Unauthorized Change Prevention Service. The issue results from the lack of proper validation of user-supplied data, which can result in a type confusion condition. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. TrendAI has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/en-US/solution/KA-0024778 ['2026-04-01 - Vulnerability reported to vendor', '2026-11-13 - Coordinated public release of advisory', '2026-11-13 - Advisory Updated'] Lays (@_L4ys) of TRAPA Security https://www.zerodayinitiative.com/advisories/ZDI-26-986/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-986/",
+    "title": "TrendAI Vision One Security Agent TMBMServer Type Confusion Local Privilege Escalation Vulnerability",
+    "updated_date": "2026-11-13",
+    "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of TrendAI Vision One Security Agent. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Trend Micro Unauthorized Change Prevention Service. The issue results from the lack of proper validation of user-supplied data, which can result in a type confusion condition. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+    "zdi_can": "ZDI-CAN-30179",
+    "zdi_id": "ZDI-26-986"
+  },
+  "ZDI-26-987": {
+    "additional_details": "TrendAI has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/en-US/solution/KA-0024778",
+    "advisory_date": "2026-11-13",
+    "affected_products": [
+      "Vision One"
+    ],
+    "affected_vendors": [
+      "TrendAI"
+    ],
+    "credit": "Lays (@_L4ys) of TRAPA Security",
+    "cve": "CVE-2026-111788",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-111788",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-04-01 - Vulnerability reported to vendor",
+      "2026-11-13 - Coordinated public release of advisory",
+      "2026-11-13 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-987 ZDI-CAN-30180 TrendAI Vision One Security Agent TMBMServer Type Confusion Local Privilege Escalation Vulnerability 2026-11-13 CVE-2026-111788 https://www.cve.org/CVERecord?id=CVE-2026-111788 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['TrendAI'] ['Vision One'] This vulnerability allows local attackers to escalate privileges on affected installations of TrendAI Vision One Security Agent. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Trend Micro Unauthorized Change Prevention Service. The issue results from the lack of proper validation of user-supplied data, which can result in a type confusion condition. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. TrendAI has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/en-US/solution/KA-0024778 ['2026-04-01 - Vulnerability reported to vendor', '2026-11-13 - Coordinated public release of advisory', '2026-11-13 - Advisory Updated'] Lays (@_L4ys) of TRAPA Security https://www.zerodayinitiative.com/advisories/ZDI-26-987/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-987/",
+    "title": "TrendAI Vision One Security Agent TMBMServer Type Confusion Local Privilege Escalation Vulnerability",
+    "updated_date": "2026-11-13",
+    "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of TrendAI Vision One Security Agent. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Trend Micro Unauthorized Change Prevention Service. The issue results from the lack of proper validation of user-supplied data, which can result in a type confusion condition. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+    "zdi_can": "ZDI-CAN-30180",
+    "zdi_id": "ZDI-26-987"
+  },
+  "ZDI-26-988": {
+    "additional_details": "TrendAI has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/en-US/solution/KA-0024778",
+    "advisory_date": "2026-11-13",
+    "affected_products": [
+      "Vision One"
+    ],
+    "affected_vendors": [
+      "TrendAI"
+    ],
+    "credit": "Lays (@_L4ys) of TRAPA Security",
+    "cve": "CVE-2026-111790",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-111790",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-03-27 - Vulnerability reported to vendor",
+      "2026-11-13 - Coordinated public release of advisory",
+      "2026-11-13 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-988 ZDI-CAN-29910 TrendAI Vision One Security Agent Origin Validation Error Local Privilege Escalation Vulnerability 2026-11-13 CVE-2026-111790 https://www.cve.org/CVERecord?id=CVE-2026-111790 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['TrendAI'] ['Vision One'] This vulnerability allows local attackers to escalate privileges on affected installations of TrendAI Vision One Security Agent. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Apex One NT Listener service. The issue results from insufficient validation of the origin of commands. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. TrendAI has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/en-US/solution/KA-0024778 ['2026-03-27 - Vulnerability reported to vendor', '2026-11-13 - Coordinated public release of advisory', '2026-11-13 - Advisory Updated'] Lays (@_L4ys) of TRAPA Security https://www.zerodayinitiative.com/advisories/ZDI-26-988/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-988/",
+    "title": "TrendAI Vision One Security Agent Origin Validation Error Local Privilege Escalation Vulnerability",
+    "updated_date": "2026-11-13",
+    "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of TrendAI Vision One Security Agent. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Apex One NT Listener service. The issue results from insufficient validation of the origin of commands. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+    "zdi_can": "ZDI-CAN-29910",
+    "zdi_id": "ZDI-26-988"
+  },
+  "ZDI-26-989": {
+    "additional_details": "TrendAI has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/en-US/solution/KA-0024778",
+    "advisory_date": "2026-11-13",
+    "affected_products": [
+      "Apex One"
+    ],
+    "affected_vendors": [
+      "TrendAI"
+    ],
+    "credit": "Natnael Samson (@NattiSamson)",
+    "cve": "CVE-2026-111777",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-111777",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-06-02 - Vulnerability reported to vendor",
+      "2026-11-13 - Coordinated public release of advisory",
+      "2026-11-13 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-989 ZDI-CAN-30350 TrendAI Apex One Uncontrolled Search Path Element Local Privilege Escalation Vulnerability 2026-11-13 CVE-2026-111777 https://www.cve.org/CVERecord?id=CVE-2026-111777 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['TrendAI'] ['Apex One'] This vulnerability allows local attackers to escalate privileges on affected installations of TrendAI Apex One server. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the configuration of OpenSSL. The issue results from loading an OpenSSL configuration file from an unsecured location. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. TrendAI has issued an update to correct this vulnerability. More details can be found at: https://success.trendmicro.com/en-US/solution/KA-0024778 ['2026-06-02 - Vulnerability reported to vendor', '2026-11-13 - Coordinated public release of advisory', '2026-11-13 - Advisory Updated'] Natnael Samson (@NattiSamson) https://www.zerodayinitiative.com/advisories/ZDI-26-989/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-989/",
+    "title": "TrendAI Apex One Uncontrolled Search Path Element Local Privilege Escalation Vulnerability",
+    "updated_date": "2026-11-13",
+    "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of TrendAI Apex One server. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the configuration of OpenSSL. The issue results from loading an OpenSSL configuration file from an unsecured location. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+    "zdi_can": "ZDI-CAN-30350",
+    "zdi_id": "ZDI-26-989"
+  },
+  "ZDI-26-990": {
+    "additional_details": "https://github.com/open62541/open62541/commit/2da371bcdaadeb23051635a60e38f31039af9fd8 , https://github.com/open62541/open62541/commit/bc30df3adab5cc61383cb7e7f551bfd6f7ac160c",
+    "advisory_date": "2026-11-13",
+    "affected_products": [
+      "open62541"
+    ],
+    "affected_vendors": [
+      "open62541"
+    ],
+    "credit": "Andrew Letourneau",
+    "cve": "CVE-2026-126962",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-126962",
+    "cvss": 8.8,
+    "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-06-17 - Vulnerability reported to vendor",
+      "2026-11-13 - Coordinated public release of advisory",
+      "2026-11-13 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-990 ZDI-CAN-30231 open62541 Subscription Use-After-Free Remote Code Execution Vulnerability 2026-11-13 CVE-2026-126962 https://www.cve.org/CVERecord?id=CVE-2026-126962 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['open62541'] ['open62541'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of open62541. Authentication is required to exploit this vulnerability. The specific flaw exists within the handling of subscriptions. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the service account. https://github.com/open62541/open62541/commit/2da371bcdaadeb23051635a60e38f31039af9fd8 , https://github.com/open62541/open62541/commit/bc30df3adab5cc61383cb7e7f551bfd6f7ac160c ['2026-06-17 - Vulnerability reported to vendor', '2026-11-13 - Coordinated public release of advisory', '2026-11-13 - Advisory Updated'] Andrew Letourneau https://www.zerodayinitiative.com/advisories/ZDI-26-990/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-990/",
+    "title": "open62541 Subscription Use-After-Free Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-13",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of open62541. Authentication is required to exploit this vulnerability. The specific flaw exists within the handling of subscriptions. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the service account.",
+    "zdi_can": "ZDI-CAN-30231",
+    "zdi_id": "ZDI-26-990"
+  },
+  "ZDI-26-991": {
+    "additional_details": "Hinemos has issued an update to correct this vulnerability. More details can be found at: https://github.com/hinemos/hinemos/discussions/19",
+    "advisory_date": "2026-11-13",
+    "affected_products": [
+      "Agent"
+    ],
+    "affected_vendors": [
+      "Hinemos"
+    ],
+    "credit": "hrk",
+    "cve": "CVE-2026-126963",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-126963",
+    "cvss": 7.5,
+    "cvss_vector": "AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-07-02 - Vulnerability reported to vendor",
+      "2026-11-13 - Coordinated public release of advisory",
+      "2026-11-13 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-991 ZDI-CAN-28837 Hinemos Agent Improper Certificate Validation Remote Code Execution Vulnerability 2026-11-13 CVE-2026-126963 https://www.cve.org/CVERecord?id=CVE-2026-126963 7.5 AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H ['Hinemos'] ['Agent'] This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Hinemos Agent. Authentication is not required to exploit this vulnerability. The specific flaw exists within the Hinemos Agent service. The issue results from the lack of proper validation of the certificate presented by a server. An attacker can leverage this vulnerability to execute code in the context of the service account. Hinemos has issued an update to correct this vulnerability. More details can be found at: https://github.com/hinemos/hinemos/discussions/19 ['2026-07-02 - Vulnerability reported to vendor', '2026-11-13 - Coordinated public release of advisory', '2026-11-13 - Advisory Updated'] hrk https://www.zerodayinitiative.com/advisories/ZDI-26-991/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-991/",
+    "title": "Hinemos Agent Improper Certificate Validation Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-13",
+    "vulnerability_details": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Hinemos Agent. Authentication is not required to exploit this vulnerability. The specific flaw exists within the Hinemos Agent service. The issue results from the lack of proper validation of the certificate presented by a server. An attacker can leverage this vulnerability to execute code in the context of the service account.",
+    "zdi_can": "ZDI-CAN-28837",
+    "zdi_id": "ZDI-26-991"
+  },
+  "ZDI-26-992": {
+    "additional_details": "Fixed in eco DC 1.2.119",
+    "advisory_date": "2026-11-13",
+    "affected_products": [
+      "eco DC"
+    ],
+    "affected_vendors": [
+      "ATEN"
+    ],
+    "credit": "Ahmed Y. Elmogy",
+    "cve": "CVE-2026-126964",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-126964",
+    "cvss": 5.5,
+    "cvss_vector": "AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:L/A:H",
+    "disclosure_timeline": [
+      "2026-08-04 - Vulnerability reported to vendor",
+      "2026-11-13 - Coordinated public release of advisory",
+      "2026-11-13 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-992 ZDI-CAN-28621 ATEN eco DC fwDeletes.json Directory Traversal Arbitrary File Deletion Vulnerability 2026-11-13 CVE-2026-126964 https://www.cve.org/CVERecord?id=CVE-2026-126964 5.5 AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:L/A:H ['ATEN'] ['eco DC'] This vulnerability allows remote attackers to delete arbitrary files on affected installations of ATEN eco DC. Authentication is required to exploit this vulnerability. The specific flaw exists within the handling of JSON request data supplied to the fwDeletes.json endpoint. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to delete files in the context of SYSTEM. Fixed in eco DC 1.2.119 ['2026-08-04 - Vulnerability reported to vendor', '2026-11-13 - Coordinated public release of advisory', '2026-11-13 - Advisory Updated'] Ahmed Y. Elmogy https://www.zerodayinitiative.com/advisories/ZDI-26-992/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-992/",
+    "title": "ATEN eco DC fwDeletes.json Directory Traversal Arbitrary File Deletion Vulnerability",
+    "updated_date": "2026-11-13",
+    "vulnerability_details": "This vulnerability allows remote attackers to delete arbitrary files on affected installations of ATEN eco DC. Authentication is required to exploit this vulnerability. The specific flaw exists within the handling of JSON request data supplied to the fwDeletes.json endpoint. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to delete files in the context of SYSTEM.",
+    "zdi_can": "ZDI-CAN-28621",
+    "zdi_id": "ZDI-26-992"
+  },
+  "ZDI-26-993": {
+    "additional_details": "Fixed in eco DC 1.2.119",
+    "advisory_date": "2026-11-13",
+    "affected_products": [
+      "eco DC"
+    ],
+    "affected_vendors": [
+      "ATEN"
+    ],
+    "credit": "Ahmed Y. Elmogy",
+    "cve": "CVE-2026-126965",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-126965",
+    "cvss": 2.7,
+    "cvss_vector": "AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:N/A:N",
+    "disclosure_timeline": [
+      "2026-08-12 - Vulnerability reported to vendor",
+      "2026-11-13 - Coordinated public release of advisory",
+      "2026-11-13 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-993 ZDI-CAN-29124 ATEN eco DC chartDefine SQL Injection Information Disclosure Vulnerability 2026-11-13 CVE-2026-126965 https://www.cve.org/CVERecord?id=CVE-2026-126965 2.7 AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:N/A:N ['ATEN'] ['eco DC'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of ATEN eco DC. Authentication is required to exploit this vulnerability. The specific flaw exists within the handling of color references when creating charts. The issue results from the lack of proper validation of a user-supplied string before using it to construct SQL queries. An attacker can leverage this vulnerability to disclose stored credentials, leading to further compromise. Fixed in eco DC 1.2.119 ['2026-08-12 - Vulnerability reported to vendor', '2026-11-13 - Coordinated public release of advisory', '2026-11-13 - Advisory Updated'] Ahmed Y. Elmogy https://www.zerodayinitiative.com/advisories/ZDI-26-993/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-993/",
+    "title": "ATEN eco DC chartDefine SQL Injection Information Disclosure Vulnerability",
+    "updated_date": "2026-11-13",
+    "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of ATEN eco DC. Authentication is required to exploit this vulnerability. The specific flaw exists within the handling of color references when creating charts. The issue results from the lack of proper validation of a user-supplied string before using it to construct SQL queries. An attacker can leverage this vulnerability to disclose stored credentials, leading to further compromise.",
+    "zdi_can": "ZDI-CAN-29124",
+    "zdi_id": "ZDI-26-993"
+  },
+  "ZDI-26-994": {
+    "additional_details": "Fixed in SmarterMail Build 9735",
+    "advisory_date": "2026-11-13",
+    "affected_products": [
+      "SmarterMail"
+    ],
+    "affected_vendors": [
+      "SmarterTools"
+    ],
+    "credit": "Shaber Tseng",
+    "cve": "CVE-2026-126967",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-126967",
+    "cvss": 8.8,
+    "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-08-20 - Vulnerability reported to vendor",
+      "2026-11-13 - Coordinated public release of advisory",
+      "2026-11-13 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-994 ZDI-CAN-30742 SmarterTools SmarterMail File Edit API Directory Traversal Remote Code Execution Vulnerability 2026-11-13 CVE-2026-126967 https://www.cve.org/CVERecord?id=CVE-2026-126967 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['SmarterTools'] ['SmarterMail'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of SmarterTools SmarterMail. Authentication is required to exploit this vulnerability. The specific flaw exists within the FileStorageController class. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute code in the context of SYSTEM. Fixed in SmarterMail Build 9735 ['2026-08-20 - Vulnerability reported to vendor', '2026-11-13 - Coordinated public release of advisory', '2026-11-13 - Advisory Updated'] Shaber Tseng https://www.zerodayinitiative.com/advisories/ZDI-26-994/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-994/",
+    "title": "SmarterTools SmarterMail File Edit API Directory Traversal Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-13",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of SmarterTools SmarterMail. Authentication is required to exploit this vulnerability. The specific flaw exists within the FileStorageController class. The issue results from the lack of proper validation of a user-supplied path prior to using it in file operations. An attacker can leverage this vulnerability to execute code in the context of SYSTEM.",
+    "zdi_can": "ZDI-CAN-30742",
+    "zdi_id": "ZDI-26-994"
+  },
+  "ZDI-26-995": {
+    "additional_details": "Fixed in SmarterMail Build 9735",
+    "advisory_date": "2026-11-13",
+    "affected_products": [
+      "SmarterMail"
+    ],
+    "affected_vendors": [
+      "SmarterTools"
+    ],
+    "credit": "Shaber Tseng",
+    "cve": "CVE-2026-126966",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-126966",
+    "cvss": 8.8,
+    "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-08-20 - Vulnerability reported to vendor",
+      "2026-11-13 - Coordinated public release of advisory",
+      "2026-11-13 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-995 ZDI-CAN-33566 SmarterTools SmarterMail Missing Authorization Privilege Escalation Vulnerability 2026-11-13 CVE-2026-126966 https://www.cve.org/CVERecord?id=CVE-2026-126966 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['SmarterTools'] ['SmarterMail'] This vulnerability allows remote attackers to escalate privileges on affected installations of SmarterTools SmarterMail. Authentication is required to exploit this vulnerability. The specific flaw exists within the svcDomainAdmin.asmx endpoint. The issue results from the lack of authorization prior to allowing access to functionality. An attacker can leverage this vulnerability to escalate privileges to resources normally protected from the user. Fixed in SmarterMail Build 9735 ['2026-08-20 - Vulnerability reported to vendor', '2026-11-13 - Coordinated public release of advisory', '2026-11-13 - Advisory Updated'] Shaber Tseng https://www.zerodayinitiative.com/advisories/ZDI-26-995/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-995/",
+    "title": "SmarterTools SmarterMail Missing Authorization Privilege Escalation Vulnerability",
+    "updated_date": "2026-11-13",
+    "vulnerability_details": "This vulnerability allows remote attackers to escalate privileges on affected installations of SmarterTools SmarterMail. Authentication is required to exploit this vulnerability. The specific flaw exists within the svcDomainAdmin.asmx endpoint. The issue results from the lack of authorization prior to allowing access to functionality. An attacker can leverage this vulnerability to escalate privileges to resources normally protected from the user.",
+    "zdi_can": "ZDI-CAN-33566",
+    "zdi_id": "ZDI-26-995"
+  },
+  "ZDI-26-996": {
+    "additional_details": "Fixed in SmarterMail Build 9735",
+    "advisory_date": "2026-11-13",
+    "affected_products": [
+      "SmarterMail"
+    ],
+    "affected_vendors": [
+      "SmarterTools"
+    ],
+    "credit": "Shaber Tseng",
+    "cve": "CVE-2026-126968",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-126968",
+    "cvss": 6.5,
+    "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+    "disclosure_timeline": [
+      "2026-08-20 - Vulnerability reported to vendor",
+      "2026-11-13 - Coordinated public release of advisory",
+      "2026-11-13 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-996 ZDI-CAN-33567 SmarterTools SmarterMail Missing Authorization Information Disclosure Vulnerability 2026-11-13 CVE-2026-126968 https://www.cve.org/CVERecord?id=CVE-2026-126968 6.5 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N ['SmarterTools'] ['SmarterMail'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of SmarterTools SmarterMail. Authentication is required to exploit this vulnerability. The specific flaw exists within the handling of email attachments. The issue results from the lack of authorization prior to allowing access to functionality. An attacker can leverage this vulnerability to disclose sensitive information in the context of a target user. Fixed in SmarterMail Build 9735 ['2026-08-20 - Vulnerability reported to vendor', '2026-11-13 - Coordinated public release of advisory', '2026-11-13 - Advisory Updated'] Shaber Tseng https://www.zerodayinitiative.com/advisories/ZDI-26-996/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-996/",
+    "title": "SmarterTools SmarterMail Missing Authorization Information Disclosure Vulnerability",
+    "updated_date": "2026-11-13",
+    "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of SmarterTools SmarterMail. Authentication is required to exploit this vulnerability. The specific flaw exists within the handling of email attachments. The issue results from the lack of authorization prior to allowing access to functionality. An attacker can leverage this vulnerability to disclose sensitive information in the context of a target user.",
+    "zdi_can": "ZDI-CAN-33567",
+    "zdi_id": "ZDI-26-996"
+  },
+  "ZDI-26-997": {
+    "additional_details": "Fixed in SmarterMail Build 9735",
+    "advisory_date": "2026-11-13",
+    "affected_products": [
+      "SmarterMail"
+    ],
+    "affected_vendors": [
+      "SmarterTools"
+    ],
+    "credit": "Shaber Tseng",
+    "cve": "CVE-2026-126969",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-126969",
+    "cvss": 9.1,
+    "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+    "disclosure_timeline": [
+      "2026-08-20 - Vulnerability reported to vendor",
+      "2026-11-13 - Coordinated public release of advisory",
+      "2026-11-13 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-997 ZDI-CAN-33568 SmarterTools SmarterMail Insufficient Entropy Authentication Bypass Vulnerability 2026-11-13 CVE-2026-126969 https://www.cve.org/CVERecord?id=CVE-2026-126969 9.1 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N ['SmarterTools'] ['SmarterMail'] This vulnerability allows remote attackers to bypass authentication on affected installations of SmarterTools SmarterMail. Authentication is not required to exploit this vulnerability. The specific flaw exists within the generation of Application Passwords. The issue results from using insufficient entropy in the generation of credentials. An attacker can leverage this vulnerability to bypass authentication on the system. Fixed in SmarterMail Build 9735 ['2026-08-20 - Vulnerability reported to vendor', '2026-11-13 - Coordinated public release of advisory', '2026-11-13 - Advisory Updated'] Shaber Tseng https://www.zerodayinitiative.com/advisories/ZDI-26-997/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-997/",
+    "title": "SmarterTools SmarterMail Insufficient Entropy Authentication Bypass Vulnerability",
+    "updated_date": "2026-11-13",
+    "vulnerability_details": "This vulnerability allows remote attackers to bypass authentication on affected installations of SmarterTools SmarterMail. Authentication is not required to exploit this vulnerability. The specific flaw exists within the generation of Application Passwords. The issue results from using insufficient entropy in the generation of credentials. An attacker can leverage this vulnerability to bypass authentication on the system.",
+    "zdi_can": "ZDI-CAN-33568",
+    "zdi_id": "ZDI-26-997"
+  },
+  "ZDI-26-998": {
+    "additional_details": "Linux has issued an update to correct this vulnerability. More details can be found at: https://github.com/torvalds/linux/commit/7193241a49c958782ba4b8df06da3734d1e317d2",
+    "advisory_date": "2026-11-13",
+    "affected_products": [
+      "Kernel KSMBD"
+    ],
+    "affected_vendors": [
+      "Linux"
+    ],
+    "credit": "HYEONTAE LEE",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 9.0,
+    "cvss_vector": "AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-10-21 - Vulnerability reported to vendor",
+      "2026-11-13 - Coordinated public release of advisory",
+      "2026-11-13 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-998 ZDI-CAN-33549 Linux Kernel KSMBD SMB Direct Integer Underflow Remote Code Execution Vulnerability 2026-11-13 9.0 AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H ['Linux'] ['Kernel KSMBD'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Linux Kernel KSMBD. Authentication may or may not be required to exploit this vulnerability, depending upon configuration. Only systems with SMB Direct enabled are vulnerable. The specific flaw exists within the smbdirect_connection_rdma_xmit function. The issue results from the lack of proper validation of user-supplied data, which can result in an integer underflow before writing to memory. An attacker can leverage this vulnerability to execute code in the context of the kernel. Linux has issued an update to correct this vulnerability. More details can be found at: https://github.com/torvalds/linux/commit/7193241a49c958782ba4b8df06da3734d1e317d2 ['2026-10-21 - Vulnerability reported to vendor', '2026-11-13 - Coordinated public release of advisory', '2026-11-13 - Advisory Updated'] HYEONTAE LEE https://www.zerodayinitiative.com/advisories/ZDI-26-998/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-998/",
+    "title": "Linux Kernel KSMBD SMB Direct Integer Underflow Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-13",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Linux Kernel KSMBD. Authentication may or may not be required to exploit this vulnerability, depending upon configuration. Only systems with SMB Direct enabled are vulnerable. The specific flaw exists within the smbdirect_connection_rdma_xmit function. The issue results from the lack of proper validation of user-supplied data, which can result in an integer underflow before writing to memory. An attacker can leverage this vulnerability to execute code in the context of the kernel.",
+    "zdi_can": "ZDI-CAN-33549",
+    "zdi_id": "ZDI-26-998"
+  },
+  "ZDI-26-999": {
+    "additional_details": "Linux has issued an update to correct this vulnerability. More details can be found at: https://github.com/torvalds/linux/commit/4fb975471717c953f912776bb60301add1ffae11",
+    "advisory_date": "2026-11-13",
+    "affected_products": [
+      "Kernel"
+    ],
+    "affected_vendors": [
+      "Linux"
+    ],
+    "credit": "parkjunhyun",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 8.8,
+    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-09-15 - Vulnerability reported to vendor",
+      "2026-11-13 - Coordinated public release of advisory",
+      "2026-11-13 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-999 ZDI-CAN-33264 Linux Kernel Proc File System Pagemap Scan Use-After-Free Local Privilege Escalation Vulnerability 2026-11-13 8.8 AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H ['Linux'] ['Kernel'] This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of hugetlb_vma_lock objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the kernel. Linux has issued an update to correct this vulnerability. More details can be found at: https://github.com/torvalds/linux/commit/4fb975471717c953f912776bb60301add1ffae11 ['2026-09-15 - Vulnerability reported to vendor', '2026-11-13 - Coordinated public release of advisory', '2026-11-13 - Advisory Updated'] parkjunhyun https://www.zerodayinitiative.com/advisories/ZDI-26-999/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-999/",
+    "title": "Linux Kernel Proc File System Pagemap Scan Use-After-Free Local Privilege Escalation Vulnerability",
+    "updated_date": "2026-11-13",
+    "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Linux Kernel. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the handling of hugetlb_vma_lock objects. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the kernel.",
+    "zdi_can": "ZDI-CAN-33264",
+    "zdi_id": "ZDI-26-999"
   }
 }
