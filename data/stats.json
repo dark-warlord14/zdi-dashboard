@@ -1,7 +1,7 @@
 {
   "by_cvss_band": {
     "critical": 2418,
-    "high": 9709,
+    "high": 9708,
     "low": 1518,
     "medium": 4152,
     "unknown": 337
@@ -58,12 +58,12 @@
     "2026": 1010
   },
   "cve_coverage": 15706,
-  "high_cvss": 12127,
+  "high_cvss": 12126,
   "total_published": 17417,
-  "total_upcoming": 717,
+  "total_upcoming": 716,
   "upcoming_deadline_state": {
     "due_soon": 72,
     "future": 388,
-    "past_due": 257
+    "past_due": 256
   }
 }

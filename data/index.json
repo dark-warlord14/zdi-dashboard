@@ -320396,19 +320396,6 @@
     "zdi_can": "ZDI-CAN-31088"
   },
   {
-    "cvss": 8.8,
-    "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-    "deadline": "2026-10-16",
-    "discoverer": "Nicholas Zubrisky (@NZubrisky) of TrendAI Zero Day Initiative",
-    "id": "ZDI-CAN-31867",
-    "kind": "upcoming",
-    "reported_date": "2026-06-18",
-    "status": "upcoming",
-    "vendor": "Apache",
-    "vendor_url": "https://www.apache.org/",
-    "zdi_can": "ZDI-CAN-31867"
-  },
-  {
     "cvss": 7.8,
     "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
     "deadline": "2026-10-16",
