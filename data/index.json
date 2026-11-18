@@ -313922,19 +313922,6 @@
     "zdi_can": "ZDI-CAN-35126"
   },
   {
-    "cvss": 8.8,
-    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
-    "deadline": "2027-03-13",
-    "discoverer": "Kuzey Arda Bulut of HexHack",
-    "id": "ZDI-CAN-34929",
-    "kind": "upcoming",
-    "reported_date": "2026-11-13",
-    "status": "upcoming",
-    "vendor": "Linux",
-    "vendor_url": "https://www.linux.org/",
-    "zdi_can": "ZDI-CAN-34929"
-  },
-  {
     "cvss": 2.5,
     "cvss_vector": "AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:N",
     "deadline": "2027-03-13",
@@ -316897,19 +316884,6 @@
     "vendor": "Hugging Face",
     "vendor_url": "https://huggingface.co/",
     "zdi_can": "ZDI-CAN-32552"
-  },
-  {
-    "cvss": 8.8,
-    "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-    "deadline": "2027-01-30",
-    "discoverer": "Anonymous",
-    "id": "ZDI-CAN-34302",
-    "kind": "upcoming",
-    "reported_date": "2026-10-02",
-    "status": "upcoming",
-    "vendor": "LiteLLM",
-    "vendor_url": "https://www.litellm.ai/",
-    "zdi_can": "ZDI-CAN-34302"
   },
   {
     "cvss": 5.9,
