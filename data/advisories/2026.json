@@ -3135,6 +3135,286 @@
     "zdi_can": "ZDI-CAN-28080",
     "zdi_id": "ZDI-26-101"
   },
+  "ZDI-26-1010": {
+    "additional_details": "12/24/25 - ZDI reported the vulnerability to the vendor 12/27/25 - the vendor acknowledged the receipt of the reports 04/09/26 - ZDI asked for updates 06/22/26 - ZDI asked for updates 11/03/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-18",
+    "affected_products": [
+      "Krita"
+    ],
+    "affected_vendors": [
+      "Krita"
+    ],
+    "credit": "Anonymous",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2025-12-24 - Vulnerability reported to vendor",
+      "2026-11-18 - Coordinated public release of advisory",
+      "2026-11-18 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-1010 ZDI-CAN-28646 (0Day) Krita JC2 File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability 2026-11-18 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Krita'] ['Krita'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Krita. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The issue results from the use of a vulnerable version of openjpeg. An attacker can leverage this vulnerability to execute code in the context of the current process. 12/24/25 - ZDI reported the vulnerability to the vendor 12/27/25 - the vendor acknowledged the receipt of the reports 04/09/26 - ZDI asked for updates 06/22/26 - ZDI asked for updates 11/03/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2025-12-24 - Vulnerability reported to vendor', '2026-11-18 - Coordinated public release of advisory', '2026-11-18 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-1010/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-1010/",
+    "title": "(0Day) Krita JC2 File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-18",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Krita. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The issue results from the use of a vulnerable version of openjpeg. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-28646",
+    "zdi_id": "ZDI-26-1010"
+  },
+  "ZDI-26-1011": {
+    "additional_details": "02/06/26 - ZDI reported the vulnerability to the vendor 06/22/26 - ZDI asked for updates 11/03/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-18",
+    "affected_products": [
+      "Krita"
+    ],
+    "affected_vendors": [
+      "Krita"
+    ],
+    "credit": "Anonymous",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-02-06 - Vulnerability reported to vendor",
+      "2026-11-18 - Coordinated public release of advisory",
+      "2026-11-18 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-1011 ZDI-CAN-28785 (0Day) Krita ABR File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability 2026-11-18 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Krita'] ['Krita'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Krita. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of ABR files. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. 02/06/26 - ZDI reported the vulnerability to the vendor 06/22/26 - ZDI asked for updates 11/03/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-02-06 - Vulnerability reported to vendor', '2026-11-18 - Coordinated public release of advisory', '2026-11-18 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-1011/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-1011/",
+    "title": "(0Day) Krita ABR File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-18",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Krita. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of ABR files. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-28785",
+    "zdi_id": "ZDI-26-1011"
+  },
+  "ZDI-26-1012": {
+    "additional_details": "02/06/26 - ZDI reported the vulnerability to the vendor 06/22/26 - ZDI asked for updates 11/03/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-18",
+    "affected_products": [
+      "Krita"
+    ],
+    "affected_vendors": [
+      "Krita"
+    ],
+    "credit": "Anonymous",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-02-06 - Vulnerability reported to vendor",
+      "2026-11-18 - Coordinated public release of advisory",
+      "2026-11-18 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-1012 ZDI-CAN-28906 (0Day) Krita ASL File Parsing Integer Overflow Remote Code Execution Vulnerability 2026-11-18 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Krita'] ['Krita'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Krita. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of ASL files. The issue results from the lack of proper validation of user-supplied data, which can result in an integer overflow before allocating a buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. 02/06/26 - ZDI reported the vulnerability to the vendor 06/22/26 - ZDI asked for updates 11/03/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-02-06 - Vulnerability reported to vendor', '2026-11-18 - Coordinated public release of advisory', '2026-11-18 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-1012/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-1012/",
+    "title": "(0Day) Krita ASL File Parsing Integer Overflow Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-18",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Krita. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of ASL files. The issue results from the lack of proper validation of user-supplied data, which can result in an integer overflow before allocating a buffer. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-28906",
+    "zdi_id": "ZDI-26-1012"
+  },
+  "ZDI-26-1013": {
+    "additional_details": "02/06/26 - ZDI reported the vulnerability to the vendor 06/22/26 - ZDI asked for updates 11/03/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-18",
+    "affected_products": [
+      "Krita"
+    ],
+    "affected_vendors": [
+      "Krita"
+    ],
+    "credit": "Anonymous",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-02-06 - Vulnerability reported to vendor",
+      "2026-11-18 - Coordinated public release of advisory",
+      "2026-11-18 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-1013 ZDI-CAN-28905 (0Day) Krita PSB File Parsing Integer Overflow Remote Code Execution Vulnerability 2026-11-18 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Krita'] ['Krita'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Krita. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of PSB files. The issue results from the lack of proper validation of user-supplied data, which can result in an integer overflow before allocating a buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. 02/06/26 - ZDI reported the vulnerability to the vendor 06/22/26 - ZDI asked for updates 11/03/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-02-06 - Vulnerability reported to vendor', '2026-11-18 - Coordinated public release of advisory', '2026-11-18 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-1013/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-1013/",
+    "title": "(0Day) Krita PSB File Parsing Integer Overflow Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-18",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Krita. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of PSB files. The issue results from the lack of proper validation of user-supplied data, which can result in an integer overflow before allocating a buffer. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-28905",
+    "zdi_id": "ZDI-26-1013"
+  },
+  "ZDI-26-1014": {
+    "additional_details": "02/06/26 - ZDI reported the vulnerability to the vendor 06/22/26 - ZDI asked for updates 11/03/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-18",
+    "affected_products": [
+      "Krita"
+    ],
+    "affected_vendors": [
+      "Krita"
+    ],
+    "credit": "Anonymous",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-02-06 - Vulnerability reported to vendor",
+      "2026-11-18 - Coordinated public release of advisory",
+      "2026-11-18 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-1014 ZDI-CAN-28771 (0Day) Krita TIFF File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability 2026-11-18 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Krita'] ['Krita'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Krita. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of TIFF files. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. 02/06/26 - ZDI reported the vulnerability to the vendor 06/22/26 - ZDI asked for updates 11/03/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-02-06 - Vulnerability reported to vendor', '2026-11-18 - Coordinated public release of advisory', '2026-11-18 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-1014/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-1014/",
+    "title": "(0Day) Krita TIFF File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-18",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Krita. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of TIFF files. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated buffer. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-28771",
+    "zdi_id": "ZDI-26-1014"
+  },
+  "ZDI-26-1015": {
+    "additional_details": "12/24/25 - ZDI reported the vulnerability to the vendor 12/27/25 - the vendor acknowledged the receipt of the reports 04/09/26 - ZDI asked for updates 06/22/26 - ZDI asked for updates 11/03/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-18",
+    "affected_products": [
+      "Krita"
+    ],
+    "affected_vendors": [
+      "Krita"
+    ],
+    "credit": "Anonymous",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2025-12-24 - Vulnerability reported to vendor",
+      "2026-11-18 - Coordinated public release of advisory",
+      "2026-11-18 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-1015 ZDI-CAN-28657 (0Day) Krita HEIC File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability 2026-11-18 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Krita'] ['Krita'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Krita. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The issue results from the use of a vulnerable version of libde265. An attacker can leverage this vulnerability to execute code in the context of the current process. 12/24/25 - ZDI reported the vulnerability to the vendor 12/27/25 - the vendor acknowledged the receipt of the reports 04/09/26 - ZDI asked for updates 06/22/26 - ZDI asked for updates 11/03/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2025-12-24 - Vulnerability reported to vendor', '2026-11-18 - Coordinated public release of advisory', '2026-11-18 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-1015/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-1015/",
+    "title": "(0Day) Krita HEIC File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-18",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Krita. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The issue results from the use of a vulnerable version of libde265. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-28657",
+    "zdi_id": "ZDI-26-1015"
+  },
+  "ZDI-26-1016": {
+    "additional_details": "02/06/26 - ZDI reported the vulnerability to the vendor 06/22/26 - ZDI asked for updates 11/03/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-18",
+    "affected_products": [
+      "Krita"
+    ],
+    "affected_vendors": [
+      "Krita"
+    ],
+    "credit": "Anonymous",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-02-06 - Vulnerability reported to vendor",
+      "2026-11-18 - Coordinated public release of advisory",
+      "2026-11-18 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-1016 ZDI-CAN-28752 (0Day) Krita EXR File Parsing Integer Overflow Remote Code Execution Vulnerability 2026-11-18 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Krita'] ['Krita'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Krita. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of EXR files. The issue results from the lack of proper validation of user-supplied data, which can result in an integer overflow before writing to memory. An attacker can leverage this vulnerability to execute code in the context of the current process. 02/06/26 - ZDI reported the vulnerability to the vendor 06/22/26 - ZDI asked for updates 11/03/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-02-06 - Vulnerability reported to vendor', '2026-11-18 - Coordinated public release of advisory', '2026-11-18 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-1016/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-1016/",
+    "title": "(0Day) Krita EXR File Parsing Integer Overflow Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-18",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Krita. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of EXR files. The issue results from the lack of proper validation of user-supplied data, which can result in an integer overflow before writing to memory. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-28752",
+    "zdi_id": "ZDI-26-1016"
+  },
+  "ZDI-26-1017": {
+    "additional_details": "12/24/25 - ZDI reported the vulnerability to the vendor 12/27/25 - the vendor acknowledged the receipt of the reports 04/09/26 - ZDI asked for updates 06/22/26 - ZDI asked for updates 11/03/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-18",
+    "affected_products": [
+      "Krita"
+    ],
+    "affected_vendors": [
+      "Krita"
+    ],
+    "credit": "Anonymous",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2025-12-24 - Vulnerability reported to vendor",
+      "2026-11-18 - Coordinated public release of advisory",
+      "2026-11-18 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-1017 ZDI-CAN-28656 (0Day) Krita HEIC File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability 2026-11-18 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Krita'] ['Krita'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Krita. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The issue results from the use of a vulnerable version of libheif. An attacker can leverage this vulnerability to execute code in the context of the current process. 12/24/25 - ZDI reported the vulnerability to the vendor 12/27/25 - the vendor acknowledged the receipt of the reports 04/09/26 - ZDI asked for updates 06/22/26 - ZDI asked for updates 11/03/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2025-12-24 - Vulnerability reported to vendor', '2026-11-18 - Coordinated public release of advisory', '2026-11-18 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-1017/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-1017/",
+    "title": "(0Day) Krita HEIC File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-18",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Krita. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The issue results from the use of a vulnerable version of libheif. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-28656",
+    "zdi_id": "ZDI-26-1017"
+  },
+  "ZDI-26-1018": {
+    "additional_details": "12/04/25 - ZDI reported the vulnerability to the vendor 12/10/25 - the vendor acknowledged the receipt of the report 06/22/26 - ZDI asked for updates 11/03/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-18",
+    "affected_products": [
+      "Krita"
+    ],
+    "affected_vendors": [
+      "Krita"
+    ],
+    "credit": "Francis Provencher {PRL}",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2025-12-04 - Vulnerability reported to vendor",
+      "2026-11-18 - Coordinated public release of advisory",
+      "2026-11-18 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-1018 ZDI-CAN-28517 (0Day) Krita TIF File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability 2026-11-18 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['Krita'] ['Krita'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Krita. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of TIF files. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. 12/04/25 - ZDI reported the vulnerability to the vendor 12/10/25 - the vendor acknowledged the receipt of the report 06/22/26 - ZDI asked for updates 11/03/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2025-12-04 - Vulnerability reported to vendor', '2026-11-18 - Coordinated public release of advisory', '2026-11-18 - Advisory Updated'] Francis Provencher {PRL} https://www.zerodayinitiative.com/advisories/ZDI-26-1018/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-1018/",
+    "title": "(0Day) Krita TIF File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-18",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Krita. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of TIF files. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the current process.",
+    "zdi_can": "ZDI-CAN-28517",
+    "zdi_id": "ZDI-26-1018"
+  },
+  "ZDI-26-1019": {
+    "additional_details": "07/15/26 - ZDI reported the vulnerability to the vendor 08/10/26 - ZDI asked for updates 10/16/26 - ZDI asked the vendor to confirm receipt and provide a status update 11/03/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-18",
+    "affected_products": [
+      "ROS 2"
+    ],
+    "affected_vendors": [
+      "Open Robotics"
+    ],
+    "credit": "Aaron Luo of VicOne LAB R7",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 5.5,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+    "disclosure_timeline": [
+      "2026-07-14 - Vulnerability reported to vendor",
+      "2026-11-18 - Coordinated public release of advisory",
+      "2026-11-18 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-1019 ZDI-CAN-32121 (0Day) Open Robotics ROS 2 sros2 load_policy XML External Entity Processing Information Disclosure Vulnerability 2026-11-18 5.5 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N ['Open Robotics'] ['ROS 2'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Open Robotics ROS 2. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of policy XML files. Due to the improper restriction of XML External Entity (XXE) references, a crafted document specifying a URI causes the XML parser to access the URI and embed the contents back into the XML document for further processing. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current user. 07/15/26 - ZDI reported the vulnerability to the vendor 08/10/26 - ZDI asked for updates 10/16/26 - ZDI asked the vendor to confirm receipt and provide a status update 11/03/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-07-14 - Vulnerability reported to vendor', '2026-11-18 - Coordinated public release of advisory', '2026-11-18 - Advisory Updated'] Aaron Luo of VicOne LAB R7 https://www.zerodayinitiative.com/advisories/ZDI-26-1019/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-1019/",
+    "title": "(0Day) Open Robotics ROS 2 sros2 load_policy XML External Entity Processing Information Disclosure Vulnerability",
+    "updated_date": "2026-11-18",
+    "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Open Robotics ROS 2. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of policy XML files. Due to the improper restriction of XML External Entity (XXE) references, a crafted document specifying a URI causes the XML parser to access the URI and embed the contents back into the XML document for further processing. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the current user.",
+    "zdi_can": "ZDI-CAN-32121",
+    "zdi_id": "ZDI-26-1019"
+  },
   "ZDI-26-102": {
     "additional_details": "Oracle has issued an update to correct this vulnerability. More details can be found at: https://www.oracle.com/security-alerts/cpujan2026.html",
     "advisory_date": "2026-02-13",
@@ -3163,6 +3443,286 @@
     "zdi_can": "ZDI-CAN-27938",
     "zdi_id": "ZDI-26-102"
   },
+  "ZDI-26-1020": {
+    "additional_details": "07/15/26 - ZDI reported the vulnerability to the vendor 08/10/26 - ZDI asked for updates 10/16/26 - ZDI asked the vendor to confirm receipt and provide a status update 11/03/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-18",
+    "affected_products": [
+      "RViz"
+    ],
+    "affected_vendors": [
+      "Open Robotics"
+    ],
+    "credit": "Aaron Luo of VicOne LAB R7",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 6.5,
+    "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+    "disclosure_timeline": [
+      "2026-07-14 - Vulnerability reported to vendor",
+      "2026-11-18 - Coordinated public release of advisory",
+      "2026-11-18 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-1020 ZDI-CAN-32123 (0Day) Open Robotics RViz PointCloud2Display PointField Out-of-Bounds Read Denial-of-Service Vulnerability 2026-11-18 6.5 AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H ['Open Robotics'] ['RViz'] This vulnerability allows network-adjacent attackers to create a denial-of-service condition on affected installations of Open Robotics RViz. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of PointCloud2 messages. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated object. An attacker can leverage this vulnerability to create a denial-of-service condition on the system. 07/15/26 - ZDI reported the vulnerability to the vendor 08/10/26 - ZDI asked for updates 10/16/26 - ZDI asked the vendor to confirm receipt and provide a status update 11/03/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-07-14 - Vulnerability reported to vendor', '2026-11-18 - Coordinated public release of advisory', '2026-11-18 - Advisory Updated'] Aaron Luo of VicOne LAB R7 https://www.zerodayinitiative.com/advisories/ZDI-26-1020/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-1020/",
+    "title": "(0Day) Open Robotics RViz PointCloud2Display PointField Out-of-Bounds Read Denial-of-Service Vulnerability",
+    "updated_date": "2026-11-18",
+    "vulnerability_details": "This vulnerability allows network-adjacent attackers to create a denial-of-service condition on affected installations of Open Robotics RViz. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of PointCloud2 messages. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated object. An attacker can leverage this vulnerability to create a denial-of-service condition on the system.",
+    "zdi_can": "ZDI-CAN-32123",
+    "zdi_id": "ZDI-26-1020"
+  },
+  "ZDI-26-1021": {
+    "additional_details": "07/15/26 - ZDI reported the vulnerability to the vendor 08/10/26 - ZDI asked for updates 10/16/26 - ZDI asked the vendor to confirm receipt and provide a status update 11/03/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-18",
+    "affected_products": [
+      "RViz"
+    ],
+    "affected_vendors": [
+      "Open Robotics"
+    ],
+    "credit": "Aaron Luo of VicOne LAB R7",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 6.5,
+    "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+    "disclosure_timeline": [
+      "2026-07-14 - Vulnerability reported to vendor",
+      "2026-11-18 - Coordinated public release of advisory",
+      "2026-11-18 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-1021 ZDI-CAN-32122 (0Day) Open Robotics RViz MapDisplay OccupancyGridUpdate Out-Of-Bounds Read Denial-of-Service Vulnerability 2026-11-18 6.5 AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H ['Open Robotics'] ['RViz'] This vulnerability allows network-adjacent attackers to create a denial-of-service condition on affected installations of Open Robotics RViz. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of OccupancyGridUpdate messages. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated object. An attacker can leverage this vulnerability to create a denial-of-service condition on the system. 07/15/26 - ZDI reported the vulnerability to the vendor 08/10/26 - ZDI asked for updates 10/16/26 - ZDI asked the vendor to confirm receipt and provide a status update 11/03/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-07-14 - Vulnerability reported to vendor', '2026-11-18 - Coordinated public release of advisory', '2026-11-18 - Advisory Updated'] Aaron Luo of VicOne LAB R7 https://www.zerodayinitiative.com/advisories/ZDI-26-1021/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-1021/",
+    "title": "(0Day) Open Robotics RViz MapDisplay OccupancyGridUpdate Out-Of-Bounds Read Denial-of-Service Vulnerability",
+    "updated_date": "2026-11-18",
+    "vulnerability_details": "This vulnerability allows network-adjacent attackers to create a denial-of-service condition on affected installations of Open Robotics RViz. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of OccupancyGridUpdate messages. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated object. An attacker can leverage this vulnerability to create a denial-of-service condition on the system.",
+    "zdi_can": "ZDI-CAN-32122",
+    "zdi_id": "ZDI-26-1021"
+  },
+  "ZDI-26-1022": {
+    "additional_details": "07/15/26 - ZDI reported the vulnerability to the vendor 08/10/26 - ZDI asked for updates 10/16/26 - ZDI asked the vendor to confirm receipt and provide a status update 11/03/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-18",
+    "affected_products": [
+      "RViz"
+    ],
+    "affected_vendors": [
+      "Open Robotics"
+    ],
+    "credit": "Mat Powell of TrendAI Zero Day Initiative",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 6.5,
+    "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+    "disclosure_timeline": [
+      "2026-07-15 - Vulnerability reported to vendor",
+      "2026-11-18 - Coordinated public release of advisory",
+      "2026-11-18 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-1022 ZDI-CAN-32645 (0Day) Open Robotics RViz IntensityPCTransformer PointField Out-Of-Bounds Read Denial-of-Service Vulnerability 2026-11-18 6.5 AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H ['Open Robotics'] ['RViz'] This vulnerability allows network-adjacent attackers to create a denial-of-service condition on affected installations of Open Robotics RViz. Authentication is not required to exploit this vulnerability. The specific flaw exists within the IntensityPCTransformer handling of PointCloud2 messages. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated object. An attacker can leverage this vulnerability to create a denial-of-service condition on the system. 07/15/26 - ZDI reported the vulnerability to the vendor 08/10/26 - ZDI asked for updates 10/16/26 - ZDI asked the vendor to confirm receipt and provide a status update 11/03/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-07-15 - Vulnerability reported to vendor', '2026-11-18 - Coordinated public release of advisory', '2026-11-18 - Advisory Updated'] Mat Powell of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-1022/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-1022/",
+    "title": "(0Day) Open Robotics RViz IntensityPCTransformer PointField Out-Of-Bounds Read Denial-of-Service Vulnerability",
+    "updated_date": "2026-11-18",
+    "vulnerability_details": "This vulnerability allows network-adjacent attackers to create a denial-of-service condition on affected installations of Open Robotics RViz. Authentication is not required to exploit this vulnerability. The specific flaw exists within the IntensityPCTransformer handling of PointCloud2 messages. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated object. An attacker can leverage this vulnerability to create a denial-of-service condition on the system.",
+    "zdi_can": "ZDI-CAN-32645",
+    "zdi_id": "ZDI-26-1022"
+  },
+  "ZDI-26-1023": {
+    "additional_details": "07/15/26 - ZDI reported the vulnerability to the vendor 08/10/26 - ZDI asked for updates 10/16/26 - ZDI asked the vendor to confirm receipt and provide a status update 11/03/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-18",
+    "affected_products": [
+      "RViz"
+    ],
+    "affected_vendors": [
+      "Open Robotics"
+    ],
+    "credit": "Mat Powell of TrendAI Zero Day Initiative",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 6.5,
+    "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+    "disclosure_timeline": [
+      "2026-07-15 - Vulnerability reported to vendor",
+      "2026-11-18 - Coordinated public release of advisory",
+      "2026-11-18 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-1023 ZDI-CAN-32643 (0Day) Open Robotics RViz RGB8PCTransformer PointField Out-Of-Bounds Read Denial-of-Service Vulnerability 2026-11-18 6.5 AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H ['Open Robotics'] ['RViz'] This vulnerability allows network-adjacent attackers to create a denial-of-service condition on affected installations of Open Robotics RViz. Authentication is not required to exploit this vulnerability. The specific flaw exists within the RGB8PCTransformer handling of PointCloud2 messages. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated object. An attacker can leverage this vulnerability to create a denial-of-service condition on the system. 07/15/26 - ZDI reported the vulnerability to the vendor 08/10/26 - ZDI asked for updates 10/16/26 - ZDI asked the vendor to confirm receipt and provide a status update 11/03/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-07-15 - Vulnerability reported to vendor', '2026-11-18 - Coordinated public release of advisory', '2026-11-18 - Advisory Updated'] Mat Powell of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-1023/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-1023/",
+    "title": "(0Day) Open Robotics RViz RGB8PCTransformer PointField Out-Of-Bounds Read Denial-of-Service Vulnerability",
+    "updated_date": "2026-11-18",
+    "vulnerability_details": "This vulnerability allows network-adjacent attackers to create a denial-of-service condition on affected installations of Open Robotics RViz. Authentication is not required to exploit this vulnerability. The specific flaw exists within the RGB8PCTransformer handling of PointCloud2 messages. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated object. An attacker can leverage this vulnerability to create a denial-of-service condition on the system.",
+    "zdi_can": "ZDI-CAN-32643",
+    "zdi_id": "ZDI-26-1023"
+  },
+  "ZDI-26-1024": {
+    "additional_details": "07/15/26 - ZDI reported the vulnerability to the vendor 08/10/26 - ZDI asked for updates 10/16/26 - ZDI asked the vendor to confirm receipt and provide a status update 11/03/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-18",
+    "affected_products": [
+      "RViz"
+    ],
+    "affected_vendors": [
+      "Open Robotics"
+    ],
+    "credit": "Mat Powell of TrendAI Zero Day Initiative",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 6.5,
+    "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+    "disclosure_timeline": [
+      "2026-07-15 - Vulnerability reported to vendor",
+      "2026-11-18 - Coordinated public release of advisory",
+      "2026-11-18 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-1024 ZDI-CAN-32644 (0Day) Open Robotics RViz RGBF32PCTransformer PointField Out-Of-Bounds Read Denial-of-Service Vulnerability 2026-11-18 6.5 AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H ['Open Robotics'] ['RViz'] This vulnerability allows network-adjacent attackers to create a denial-of-service condition on affected installations of Open Robotics RViz. Authentication is not required to exploit this vulnerability. The specific flaw exists within the RGBF32PCTransformer handling of PointCloud2 messages. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated object. An attacker can leverage this vulnerability to create a denial-of-service condition on the system. 07/15/26 - ZDI reported the vulnerability to the vendor 08/10/26 - ZDI asked for updates 10/16/26 - ZDI asked the vendor to confirm receipt and provide a status update 11/03/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-07-15 - Vulnerability reported to vendor', '2026-11-18 - Coordinated public release of advisory', '2026-11-18 - Advisory Updated'] Mat Powell of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-1024/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-1024/",
+    "title": "(0Day) Open Robotics RViz RGBF32PCTransformer PointField Out-Of-Bounds Read Denial-of-Service Vulnerability",
+    "updated_date": "2026-11-18",
+    "vulnerability_details": "This vulnerability allows network-adjacent attackers to create a denial-of-service condition on affected installations of Open Robotics RViz. Authentication is not required to exploit this vulnerability. The specific flaw exists within the RGBF32PCTransformer handling of PointCloud2 messages. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated object. An attacker can leverage this vulnerability to create a denial-of-service condition on the system.",
+    "zdi_can": "ZDI-CAN-32644",
+    "zdi_id": "ZDI-26-1024"
+  },
+  "ZDI-26-1025": {
+    "additional_details": "07/15/26 - ZDI reported the vulnerability to the vendor 08/10/26 - ZDI asked for updates 10/16/26 - ZDI asked the vendor to confirm receipt and provide a status update 11/03/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-18",
+    "affected_products": [
+      "RViz"
+    ],
+    "affected_vendors": [
+      "Open Robotics"
+    ],
+    "credit": "Mat Powell of TrendAI Zero Day Initiative",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 6.5,
+    "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+    "disclosure_timeline": [
+      "2026-07-15 - Vulnerability reported to vendor",
+      "2026-11-18 - Coordinated public release of advisory",
+      "2026-11-18 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-1025 ZDI-CAN-32646 (0Day) Open Robotics RViz AxisColorPCTransformer PointField Out-Of-Bounds Read Denial-of-Service Vulnerability 2026-11-18 6.5 AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H ['Open Robotics'] ['RViz'] This vulnerability allows network-adjacent attackers to create a denial-of-service condition on affected installations of Open Robotics RViz. Authentication is not required to exploit this vulnerability. The specific flaw exists within the AxisColorPCTransformer handling of PointCloud2 messages. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated object. An attacker can leverage this vulnerability to create a denial-of-service condition on the system. 07/15/26 - ZDI reported the vulnerability to the vendor 08/10/26 - ZDI asked for updates 10/16/26 - ZDI asked the vendor to confirm receipt and provide a status update 11/03/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-07-15 - Vulnerability reported to vendor', '2026-11-18 - Coordinated public release of advisory', '2026-11-18 - Advisory Updated'] Mat Powell of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-1025/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-1025/",
+    "title": "(0Day) Open Robotics RViz AxisColorPCTransformer PointField Out-Of-Bounds Read Denial-of-Service Vulnerability",
+    "updated_date": "2026-11-18",
+    "vulnerability_details": "This vulnerability allows network-adjacent attackers to create a denial-of-service condition on affected installations of Open Robotics RViz. Authentication is not required to exploit this vulnerability. The specific flaw exists within the AxisColorPCTransformer handling of PointCloud2 messages. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated object. An attacker can leverage this vulnerability to create a denial-of-service condition on the system.",
+    "zdi_can": "ZDI-CAN-32646",
+    "zdi_id": "ZDI-26-1025"
+  },
+  "ZDI-26-1026": {
+    "additional_details": "07/15/26 - ZDI reported the vulnerability to the vendor 08/10/26 - ZDI asked for updates 10/16/26 - ZDI asked the vendor to confirm receipt and provide a status update 11/03/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-18",
+    "affected_products": [
+      "RViz"
+    ],
+    "affected_vendors": [
+      "Open Robotics"
+    ],
+    "credit": "Mat Powell of TrendAI Zero Day Initiative",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 6.5,
+    "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+    "disclosure_timeline": [
+      "2026-07-15 - Vulnerability reported to vendor",
+      "2026-11-18 - Coordinated public release of advisory",
+      "2026-11-18 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-1026 ZDI-CAN-32642 (0Day) Open Robotics RViz XYZPCTransformer PointField Out-Of-Bounds Read Denial-of-Service Vulnerability 2026-11-18 6.5 AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H ['Open Robotics'] ['RViz'] This vulnerability allows network-adjacent attackers to create a denial-of-service condition on affected installations of Open Robotics RViz. Authentication is not required to exploit this vulnerability. The specific flaw exists within the XYZPCTransformer handling of PointCloud2 messages. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated object. An attacker can leverage this vulnerability to create a denial-of-service condition on the system. 07/15/26 - ZDI reported the vulnerability to the vendor 08/10/26 - ZDI asked for updates 10/16/26 - ZDI asked the vendor to confirm receipt and provide a status update 11/03/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-07-15 - Vulnerability reported to vendor', '2026-11-18 - Coordinated public release of advisory', '2026-11-18 - Advisory Updated'] Mat Powell of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-1026/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-1026/",
+    "title": "(0Day) Open Robotics RViz XYZPCTransformer PointField Out-Of-Bounds Read Denial-of-Service Vulnerability",
+    "updated_date": "2026-11-18",
+    "vulnerability_details": "This vulnerability allows network-adjacent attackers to create a denial-of-service condition on affected installations of Open Robotics RViz. Authentication is not required to exploit this vulnerability. The specific flaw exists within the XYZPCTransformer handling of PointCloud2 messages. The issue results from the lack of proper validation of user-supplied data, which can result in a read past the end of an allocated object. An attacker can leverage this vulnerability to create a denial-of-service condition on the system.",
+    "zdi_can": "ZDI-CAN-32642",
+    "zdi_id": "ZDI-26-1026"
+  },
+  "ZDI-26-1027": {
+    "additional_details": "07/15/26 - ZDI reported the vulnerability to the vendor 08/10/26 - ZDI asked for updates 10/16/26 - ZDI asked the vendor to confirm receipt and provide a status update 11/03/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-18",
+    "affected_products": [
+      "RViz"
+    ],
+    "affected_vendors": [
+      "Open Robotics"
+    ],
+    "credit": "Mat Powell of TrendAI Zero Day Initiative",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 8.8,
+    "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-07-15 - Vulnerability reported to vendor",
+      "2026-11-18 - Coordinated public release of advisory",
+      "2026-11-18 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-1027 ZDI-CAN-32652 (0Day) Open Robotics RViz fillIndexBuffer Heap-based Buffer Overflow Remote Code Execution Vulnerability 2026-11-18 8.8 AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H ['Open Robotics'] ['RViz'] This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Open Robotics RViz. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of mesh resources in PointCloud and Marker displays. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the service account. 07/15/26 - ZDI reported the vulnerability to the vendor 08/10/26 - ZDI asked for updates 10/16/26 - ZDI asked the vendor to confirm receipt and provide a status update 11/03/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-07-15 - Vulnerability reported to vendor', '2026-11-18 - Coordinated public release of advisory', '2026-11-18 - Advisory Updated'] Mat Powell of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-1027/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-1027/",
+    "title": "(0Day) Open Robotics RViz fillIndexBuffer Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-18",
+    "vulnerability_details": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Open Robotics RViz. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of mesh resources in PointCloud and Marker displays. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a heap-based buffer. An attacker can leverage this vulnerability to execute code in the context of the service account.",
+    "zdi_can": "ZDI-CAN-32652",
+    "zdi_id": "ZDI-26-1027"
+  },
+  "ZDI-26-1028": {
+    "additional_details": "03/20/26 - ZDI reported the vulnerability to the vendor 03/20/26 - the vendor acknowledged the receipt of the report 04/07/26 - the vendor confirmed the reported issue 06/15/26 - ZDI asked for updates 06/24/26 - the vendor communicated that the fix was in progress 08/10/26 - ZDI asked for updates 08/12/26 - the vendor confirmed the fix had no release estimate 08/25/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-18",
+    "affected_products": [
+      "Total Security"
+    ],
+    "affected_vendors": [
+      "G DATA"
+    ],
+    "credit": "Anonymous",
+    "cve": "CVE-2026-19779",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-19779",
+    "cvss": 7.3,
+    "cvss_vector": "AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-03-20 - Vulnerability reported to vendor",
+      "2026-11-18 - Coordinated public release of advisory",
+      "2026-11-18 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-1028 ZDI-CAN-28666 (0Day) G DATA Total Security Backup Service Uncontrolled Search Path Element Local Privilege Escalation Vulnerability 2026-11-18 CVE-2026-19779 https://www.cve.org/CVERecord?id=CVE-2026-19779 7.3 AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H ['G DATA'] ['Total Security'] This vulnerability allows local attackers to escalate privileges on affected installations of G DATA Total Security. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Backup Service. The service restores archives from an unsecured location. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. 03/20/26 - ZDI reported the vulnerability to the vendor 03/20/26 - the vendor acknowledged the receipt of the report 04/07/26 - the vendor confirmed the reported issue 06/15/26 - ZDI asked for updates 06/24/26 - the vendor communicated that the fix was in progress 08/10/26 - ZDI asked for updates 08/12/26 - the vendor confirmed the fix had no release estimate 08/25/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-03-20 - Vulnerability reported to vendor', '2026-11-18 - Coordinated public release of advisory', '2026-11-18 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-1028/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-1028/",
+    "title": "(0Day) G DATA Total Security Backup Service Uncontrolled Search Path Element Local Privilege Escalation Vulnerability",
+    "updated_date": "2026-11-18",
+    "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of G DATA Total Security. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the Backup Service. The service restores archives from an unsecured location. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+    "zdi_can": "ZDI-CAN-28666",
+    "zdi_id": "ZDI-26-1028"
+  },
+  "ZDI-26-1029": {
+    "additional_details": "03/10/26 - ZDI reported the vulnerability to the vendor 03/11/26 - the vendor acknowledged the receipt of the report 03/16/26 - the vendor confirmed the reported issue 06/15/26 - ZDI asked for updates 06/24/26 - the vendor communicated that the fix was in progress 08/10/26 - ZDI asked for updates 08/12/26 - the vendor confirmed the fix had no release estimate 08/25/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-18",
+    "affected_products": [
+      "Total Security"
+    ],
+    "affected_vendors": [
+      "G DATA"
+    ],
+    "credit": "Anonymous",
+    "cve": "CVE-2026-19777",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-19777",
+    "cvss": 6.1,
+    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:H",
+    "disclosure_timeline": [
+      "2026-03-10 - Vulnerability reported to vendor",
+      "2026-11-18 - Coordinated public release of advisory",
+      "2026-11-18 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-1029 ZDI-CAN-28662 (0Day) G DATA Total Security AVKProxy Link Following Denial-of-Service Vulnerability 2026-11-18 CVE-2026-19777 https://www.cve.org/CVERecord?id=CVE-2026-19777 6.1 AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:H ['G DATA'] ['Total Security'] This vulnerability allows local attackers to create a denial-of-service condition on affected installations of G DATA Total Security. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the G DATA ANTIVIRUS Proxy Service. By creating a symbolic link, an attacker can abuse the service to create a file. An attacker can leverage this vulnerability to create a persistent denial-of-service condition on the system. 03/10/26 - ZDI reported the vulnerability to the vendor 03/11/26 - the vendor acknowledged the receipt of the report 03/16/26 - the vendor confirmed the reported issue 06/15/26 - ZDI asked for updates 06/24/26 - the vendor communicated that the fix was in progress 08/10/26 - ZDI asked for updates 08/12/26 - the vendor confirmed the fix had no release estimate 08/25/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-03-10 - Vulnerability reported to vendor', '2026-11-18 - Coordinated public release of advisory', '2026-11-18 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-1029/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-1029/",
+    "title": "(0Day) G DATA Total Security AVKProxy Link Following Denial-of-Service Vulnerability",
+    "updated_date": "2026-11-18",
+    "vulnerability_details": "This vulnerability allows local attackers to create a denial-of-service condition on affected installations of G DATA Total Security. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the G DATA ANTIVIRUS Proxy Service. By creating a symbolic link, an attacker can abuse the service to create a file. An attacker can leverage this vulnerability to create a persistent denial-of-service condition on the system.",
+    "zdi_can": "ZDI-CAN-28662",
+    "zdi_id": "ZDI-26-1029"
+  },
   "ZDI-26-103": {
     "additional_details": "Oracle has issued an update to correct this vulnerability. More details can be found at: https://www.oracle.com/security-alerts/cpujan2026.html",
     "advisory_date": "2026-02-13",
@@ -3190,6 +3750,230 @@
     "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of Oracle VirtualBox. An attacker must first obtain the ability to execute high-privileged code on the target guest system in order to exploit this vulnerability. The specific flaw exists within the VMSVGA device. The issue results from the lack of proper validation of user-supplied data, which can result in a memory access past the end of an allocated array. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of the hypervisor.",
     "zdi_can": "ZDI-CAN-27923",
     "zdi_id": "ZDI-26-103"
+  },
+  "ZDI-26-1030": {
+    "additional_details": "02/12/26 - ZDI reported the vulnerability to the vendor 02/13/26 - the vendor acknowledged the receipt of the report 03/02/26 - the vendor confirmed the reported issue 06/15/26 - ZDI asked for updates 06/24/26 \u2013 the vendor communicated that the fix was in progress 08/10/26 - ZDI asked for updates 08/12/26 - the vendor confirmed the fix had no release estimate 08/25/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-18",
+    "affected_products": [
+      "Total Security"
+    ],
+    "affected_vendors": [
+      "G DATA"
+    ],
+    "credit": "Anonymous",
+    "cve": "CVE-2026-19776",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-19776",
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-02-12 - Vulnerability reported to vendor",
+      "2026-11-18 - Coordinated public release of advisory",
+      "2026-11-18 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-1030 ZDI-CAN-28663 (0Day) G DATA Total Security TSNxGService Link Following Local Privilege Escalation Vulnerability 2026-11-18 CVE-2026-19776 https://www.cve.org/CVERecord?id=CVE-2026-19776 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H ['G DATA'] ['Total Security'] This vulnerability allows local attackers to escalate privileges on affected installations of G DATA Total Security. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the TSNxGService service. By creating a symbolic link, an attacker can abuse the service to delete a file. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM. 02/12/26 - ZDI reported the vulnerability to the vendor 02/13/26 - the vendor acknowledged the receipt of the report 03/02/26 - the vendor confirmed the reported issue 06/15/26 - ZDI asked for updates 06/24/26 \u2013 the vendor communicated that the fix was in progress 08/10/26 - ZDI asked for updates 08/12/26 - the vendor confirmed the fix had no release estimate 08/25/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-02-12 - Vulnerability reported to vendor', '2026-11-18 - Coordinated public release of advisory', '2026-11-18 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-1030/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-1030/",
+    "title": "(0Day) G DATA Total Security TSNxGService Link Following Local Privilege Escalation Vulnerability",
+    "updated_date": "2026-11-18",
+    "vulnerability_details": "This vulnerability allows local attackers to escalate privileges on affected installations of G DATA Total Security. An attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability. The specific flaw exists within the TSNxGService service. By creating a symbolic link, an attacker can abuse the service to delete a file. An attacker can leverage this vulnerability to escalate privileges and execute arbitrary code in the context of SYSTEM.",
+    "zdi_can": "ZDI-CAN-28663",
+    "zdi_id": "ZDI-26-1030"
+  },
+  "ZDI-26-1031": {
+    "additional_details": "06/17/26 - ZDI reported the vulnerability to the vendor 07/03/26 - ZDI asked for updates 08/28/26 - ZDI asked for updates 09/15/26 - the vendor closed the report as a false positive 10/26/26 - ZDI disputed the vendor's closure as the existing fix was incomplete 10/29/26 - the vendor reopened the report agreeing the mitigation wasn't enough 10/30/26 - ZDI asked for the fix plan 11/04/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory on 11/18/26 11/13/26 - the vendor stated it planned to ship a fix and issue a GHSA before the 11/18 deadline 11/16/26 - ZDI asked the vendor to confirm whether the fix/GHSA had shipped 11/17/26 - the vendor clarified no separate patch is coming, and disputed that the report describes a vulnerability 11/17/26 - ZDI confirmed the zero-day advisory would publish on 11/18/26 -- Mitigation: The vendor recommends the following mitigation: Stdio MCP servers run admin-chosen host commands; only proxy admins can create or test them. The CVE-2026-42271 allowlist doesn\u2019t limit what admins can run, isn\u2019t a security control, and will be removed. From v1.104.0, stdio servers are disabled unless LITELLM_ENABLE_MCP_STDIO=true is set in env (not via API/config/DB); to stay safe, upgrade to 1.104.0+ and leave unset. Always replace any default/example master key with a strong random value; v1.104.0+ blocks startup if unset, empty, or sk-1234.",
+    "advisory_date": "2026-11-18",
+    "affected_products": [
+      "LiteLLM"
+    ],
+    "affected_vendors": [
+      "LiteLLM"
+    ],
+    "credit": "David Fiser and Alfredo Oliveira of TrendAI Research",
+    "cve": null,
+    "cve_url": null,
+    "cvss": 7.2,
+    "cvss_vector": "AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-06-17 - Vulnerability reported to vendor",
+      "2026-11-18 - Coordinated public release of advisory",
+      "2026-11-18 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-1031 ZDI-CAN-31815 (0Day) LiteLLM MCP Command Injection Remote Code Execution Vulnerability 2026-11-18 7.2 AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H ['LiteLLM'] ['LiteLLM'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of LiteLLM. Authentication is required to exploit this vulnerability. The specific flaw exists within the handling of MCP stdio configurations. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of the service account. 06/17/26 - ZDI reported the vulnerability to the vendor 07/03/26 - ZDI asked for updates 08/28/26 - ZDI asked for updates 09/15/26 - the vendor closed the report as a false positive 10/26/26 - ZDI disputed the vendor's closure as the existing fix was incomplete 10/29/26 - the vendor reopened the report agreeing the mitigation wasn't enough 10/30/26 - ZDI asked for the fix plan 11/04/26 - ZDI notified the vendor of the intention to publish the case as a 0-day advisory on 11/18/26 11/13/26 - the vendor stated it planned to ship a fix and issue a GHSA before the 11/18 deadline 11/16/26 - ZDI asked the vendor to confirm whether the fix/GHSA had shipped 11/17/26 - the vendor clarified no separate patch is coming, and disputed that the report describes a vulnerability 11/17/26 - ZDI confirmed the zero-day advisory would publish on 11/18/26 -- Mitigation: The vendor recommends the following mitigation: Stdio MCP servers run admin-chosen host commands; only proxy admins can create or test them. The CVE-2026-42271 allowlist doesn\u2019t limit what admins can run, isn\u2019t a security control, and will be removed. From v1.104.0, stdio servers are disabled unless LITELLM_ENABLE_MCP_STDIO=true is set in env (not via API/config/DB); to stay safe, upgrade to 1.104.0+ and leave unset. Always replace any default/example master key with a strong random value; v1.104.0+ blocks startup if unset, empty, or sk-1234. ['2026-06-17 - Vulnerability reported to vendor', '2026-11-18 - Coordinated public release of advisory', '2026-11-18 - Advisory Updated'] David Fiser and Alfredo Oliveira of TrendAI Research https://www.zerodayinitiative.com/advisories/ZDI-26-1031/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-1031/",
+    "title": "(0Day) LiteLLM MCP Command Injection Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-18",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of LiteLLM. Authentication is required to exploit this vulnerability. The specific flaw exists within the handling of MCP stdio configurations. The issue results from the lack of proper validation of a user-supplied string before using it to execute a system call. An attacker can leverage this vulnerability to execute code in the context of the service account.",
+    "zdi_can": "ZDI-CAN-31815",
+    "zdi_id": "ZDI-26-1031"
+  },
+  "ZDI-26-1032": {
+    "additional_details": "Since 04/14/26, ZDI has made multiple attempts to contact United Chargers to establish a vendor disclosure channel for the vulnerabilities identified in the Grizzl-E Smart 40A during Pwn2Own Automotive 2026. Despite these repeated efforts, both before and after the contest, the vendor has not responded to any communication. -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-18",
+    "affected_products": [
+      "Grizzl-E Smart 40A"
+    ],
+    "affected_vendors": [
+      "United Chargers"
+    ],
+    "credit": "Taejin Kim(@_tae3_), Junsu Yeo(@junactually), Sunmin Park(@sunminpark4503), Sungmin Son(@_ssm98), Hoseok Lee of SKShieldus(@EQSTLab)",
+    "cve": "CVE-2026-131811",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-131811",
+    "cvss": 7.6,
+    "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:H/A:L",
+    "disclosure_timeline": [
+      "2026-11-06 - Vulnerability reported to vendor",
+      "2026-11-18 - Coordinated public release of advisory",
+      "2026-11-18 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-1032 ZDI-CAN-29056 (0Day) (Pwn2Own) United Chargers Grizzl-E Smart 40A OCPP Backend Configuration Hard-Coded Credentials Authentication Bypass Vulnerability 2026-11-18 CVE-2026-131811 https://www.cve.org/CVERecord?id=CVE-2026-131811 7.6 AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:H/A:L ['United Chargers'] ['Grizzl-E Smart 40A'] This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of United Chargers Grizzl-E Smart 40A EV chargers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the configuration of the OCPP backend settings interface. The issue results from the use of hard-coded credentials. An attacker can leverage this vulnerability in conjunction with other vulnerabilities to execute arbitrary code in the context of the device. Since 04/14/26, ZDI has made multiple attempts to contact United Chargers to establish a vendor disclosure channel for the vulnerabilities identified in the Grizzl-E Smart 40A during Pwn2Own Automotive 2026. Despite these repeated efforts, both before and after the contest, the vendor has not responded to any communication. -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-11-06 - Vulnerability reported to vendor', '2026-11-18 - Coordinated public release of advisory', '2026-11-18 - Advisory Updated'] Taejin Kim(@_tae3_), Junsu Yeo(@junactually), Sunmin Park(@sunminpark4503), Sungmin Son(@_ssm98), Hoseok Lee of SKShieldus(@EQSTLab) https://www.zerodayinitiative.com/advisories/ZDI-26-1032/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-1032/",
+    "title": "(0Day) (Pwn2Own) United Chargers Grizzl-E Smart 40A OCPP Backend Configuration Hard-Coded Credentials Authentication Bypass Vulnerability",
+    "updated_date": "2026-11-18",
+    "vulnerability_details": "This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of United Chargers Grizzl-E Smart 40A EV chargers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the configuration of the OCPP backend settings interface. The issue results from the use of hard-coded credentials. An attacker can leverage this vulnerability in conjunction with other vulnerabilities to execute arbitrary code in the context of the device.",
+    "zdi_can": "ZDI-CAN-29056",
+    "zdi_id": "ZDI-26-1032"
+  },
+  "ZDI-26-1033": {
+    "additional_details": "Since 04/14/26, ZDI has made multiple attempts to contact United Chargers to establish a vendor disclosure channel for the vulnerabilities identified in the Grizzl-E Smart 40A during Pwn2Own Automotive 2026. Despite these repeated efforts, both before and after the contest, the vendor has not responded to any communication. -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-18",
+    "affected_products": [
+      "Grizzl-E Smart 40A"
+    ],
+    "affected_vendors": [
+      "United Chargers"
+    ],
+    "credit": "PetoWorks (@petoworks)",
+    "cve": "CVE-2026-131807",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-131807",
+    "cvss": 7.5,
+    "cvss_vector": "AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-11-06 - Vulnerability reported to vendor",
+      "2026-11-18 - Coordinated public release of advisory",
+      "2026-11-18 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-1033 ZDI-CAN-28968 (0Day) (Pwn2Own) United Chargers Grizzl-E Smart 40A OCPP GetConfiguration Stack-based Buffer Overflow Remote Code Execution Vulnerability 2026-11-18 CVE-2026-131807 https://www.cve.org/CVERecord?id=CVE-2026-131807 7.5 AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H ['United Chargers'] ['Grizzl-E Smart 40A'] This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of United Chargers Grizzl-E Smart 40A EV chargers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of OCPP messages. When parsing GetConfiguration requests, the process does not properly validate the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute code in the context of the device. Since 04/14/26, ZDI has made multiple attempts to contact United Chargers to establish a vendor disclosure channel for the vulnerabilities identified in the Grizzl-E Smart 40A during Pwn2Own Automotive 2026. Despite these repeated efforts, both before and after the contest, the vendor has not responded to any communication. -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-11-06 - Vulnerability reported to vendor', '2026-11-18 - Coordinated public release of advisory', '2026-11-18 - Advisory Updated'] PetoWorks (@petoworks) https://www.zerodayinitiative.com/advisories/ZDI-26-1033/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-1033/",
+    "title": "(0Day) (Pwn2Own) United Chargers Grizzl-E Smart 40A OCPP GetConfiguration Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-18",
+    "vulnerability_details": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of United Chargers Grizzl-E Smart 40A EV chargers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of OCPP messages. When parsing GetConfiguration requests, the process does not properly validate the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute code in the context of the device.",
+    "zdi_can": "ZDI-CAN-28968",
+    "zdi_id": "ZDI-26-1033"
+  },
+  "ZDI-26-1034": {
+    "additional_details": "Since 04/14/26, ZDI has made multiple attempts to contact United Chargers to establish a vendor disclosure channel for the vulnerabilities identified in the Grizzl-E Smart 40A during Pwn2Own Automotive 2026. Despite these repeated efforts, both before and after the contest, the vendor has not responded to any communication. -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-18",
+    "affected_products": [
+      "Grizzl-E Smart 40A"
+    ],
+    "affected_vendors": [
+      "United Chargers"
+    ],
+    "credit": "Hyeongseok Lee (@fluorite_pwn), Yunje Shin (@YunjeShin), Chaeeul Hyun (@yskm_Gunter), Ingyu Yang (@Mafty5275), Hoseok Kang (@clay419), Seungyeon Park (@vvsy46), and Wonjun Choi (@won6_choi) of BoB::Takedown",
+    "cve": "CVE-2026-131812",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-131812",
+    "cvss": 7.5,
+    "cvss_vector": "AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-11-06 - Vulnerability reported to vendor",
+      "2026-11-18 - Coordinated public release of advisory",
+      "2026-11-18 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-1034 ZDI-CAN-28960 (0Day) (Pwn2Own) United Chargers Grizzl-E Smart 40A FTP URL Path Parsing Stack-based Buffer Overflow Remote Code Execution Vulnerability 2026-11-18 CVE-2026-131812 https://www.cve.org/CVERecord?id=CVE-2026-131812 7.5 AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H ['United Chargers'] ['Grizzl-E Smart 40A'] This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of United Chargers Grizzl-E Smart 40A EV chargers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the parsing of FTP URL paths during firmware updates. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute code in the context of the device. Since 04/14/26, ZDI has made multiple attempts to contact United Chargers to establish a vendor disclosure channel for the vulnerabilities identified in the Grizzl-E Smart 40A during Pwn2Own Automotive 2026. Despite these repeated efforts, both before and after the contest, the vendor has not responded to any communication. -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-11-06 - Vulnerability reported to vendor', '2026-11-18 - Coordinated public release of advisory', '2026-11-18 - Advisory Updated'] Hyeongseok Lee (@fluorite_pwn), Yunje Shin (@YunjeShin), Chaeeul Hyun (@yskm_Gunter), Ingyu Yang (@Mafty5275), Hoseok Kang (@clay419), Seungyeon Park (@vvsy46), and Wonjun Choi (@won6_choi) of BoB::Takedown https://www.zerodayinitiative.com/advisories/ZDI-26-1034/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-1034/",
+    "title": "(0Day) (Pwn2Own) United Chargers Grizzl-E Smart 40A FTP URL Path Parsing Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-18",
+    "vulnerability_details": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of United Chargers Grizzl-E Smart 40A EV chargers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the parsing of FTP URL paths during firmware updates. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length stack-based buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute code in the context of the device.",
+    "zdi_can": "ZDI-CAN-28960",
+    "zdi_id": "ZDI-26-1034"
+  },
+  "ZDI-26-1035": {
+    "additional_details": "Since 04/14/26, ZDI has made multiple attempts to contact United Chargers to establish a vendor disclosure channel for the vulnerabilities identified in the Grizzl-E Smart 40A during Pwn2Own Automotive 2026. Despite these repeated efforts, both before and after the contest, the vendor has not responded to any communication. -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-18",
+    "affected_products": [
+      "Grizzl-E Smart 40A"
+    ],
+    "affected_vendors": [
+      "United Chargers"
+    ],
+    "credit": "Taejin Kim(@_tae3_), Junsu Yeo(@junactually), Sunmin Park(@sunminpark4503), Sungmin Son(@_ssm98), Hoseok Lee of SKShieldus(@EQSTLab)",
+    "cve": "CVE-2026-131810",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-131810",
+    "cvss": 7.5,
+    "cvss_vector": "AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-11-06 - Vulnerability reported to vendor",
+      "2026-11-18 - Coordinated public release of advisory",
+      "2026-11-18 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-1035 ZDI-CAN-28957 (0Day) (Pwn2Own) United Chargers Grizzl-E Smart 40A Download of Code Without Integrity Check Remote Code Execution Vulnerability 2026-11-18 CVE-2026-131810 https://www.cve.org/CVERecord?id=CVE-2026-131810 7.5 AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H ['United Chargers'] ['Grizzl-E Smart 40A'] This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of United Chargers Grizzl-E Smart 40A EV chargers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of OCPP messages. The issue results from the lack of proper verification of firmware integrity prior to installation. An attacker can leverage this in conjunction with other vulnerabilities to execute code in the context of the device. Since 04/14/26, ZDI has made multiple attempts to contact United Chargers to establish a vendor disclosure channel for the vulnerabilities identified in the Grizzl-E Smart 40A during Pwn2Own Automotive 2026. Despite these repeated efforts, both before and after the contest, the vendor has not responded to any communication. -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-11-06 - Vulnerability reported to vendor', '2026-11-18 - Coordinated public release of advisory', '2026-11-18 - Advisory Updated'] Taejin Kim(@_tae3_), Junsu Yeo(@junactually), Sunmin Park(@sunminpark4503), Sungmin Son(@_ssm98), Hoseok Lee of SKShieldus(@EQSTLab) https://www.zerodayinitiative.com/advisories/ZDI-26-1035/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-1035/",
+    "title": "(0Day) (Pwn2Own) United Chargers Grizzl-E Smart 40A Download of Code Without Integrity Check Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-18",
+    "vulnerability_details": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of United Chargers Grizzl-E Smart 40A EV chargers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of OCPP messages. The issue results from the lack of proper verification of firmware integrity prior to installation. An attacker can leverage this in conjunction with other vulnerabilities to execute code in the context of the device.",
+    "zdi_can": "ZDI-CAN-28957",
+    "zdi_id": "ZDI-26-1035"
+  },
+  "ZDI-26-1036": {
+    "additional_details": "Since 04/14/26, ZDI has made multiple attempts to contact United Chargers to establish a vendor disclosure channel for the vulnerabilities identified in the Grizzl-E Smart 40A during Pwn2Own Automotive 2026. Despite these repeated efforts, both before and after the contest, the vendor has not responded to any communication. -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-18",
+    "affected_products": [
+      "Grizzl-E Smart 40A"
+    ],
+    "affected_vendors": [
+      "United Chargers"
+    ],
+    "credit": "Bongeun Koo (@kiddo_pwn) and Evangelos Daravigkas (@freddo_1337) of Team DDOS",
+    "cve": "CVE-2026-131808",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-131808",
+    "cvss": 6.3,
+    "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+    "disclosure_timeline": [
+      "2026-11-06 - Vulnerability reported to vendor",
+      "2026-11-18 - Coordinated public release of advisory",
+      "2026-11-18 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-1036 ZDI-CAN-29068 (0Day) (Pwn2Own) United Chargers Grizzl-E Smart 40A Wi-Fi Configuration Server Missing Authentication Vulnerability 2026-11-18 CVE-2026-131808 https://www.cve.org/CVERecord?id=CVE-2026-131808 6.3 AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L ['United Chargers'] ['Grizzl-E Smart 40A'] This vulnerability allows network-adjacent attackers to modify Wi-Fi configuration on affected installations of United Chargers Grizzl-E Smart 40A EV chargers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of Wi-Fi configuration requests. The issue results from the lack of authentication prior to allowing access to functionality. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the device. Since 04/14/26, ZDI has made multiple attempts to contact United Chargers to establish a vendor disclosure channel for the vulnerabilities identified in the Grizzl-E Smart 40A during Pwn2Own Automotive 2026. Despite these repeated efforts, both before and after the contest, the vendor has not responded to any communication. -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-11-06 - Vulnerability reported to vendor', '2026-11-18 - Coordinated public release of advisory', '2026-11-18 - Advisory Updated'] Bongeun Koo (@kiddo_pwn) and Evangelos Daravigkas (@freddo_1337) of Team DDOS https://www.zerodayinitiative.com/advisories/ZDI-26-1036/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-1036/",
+    "title": "(0Day) (Pwn2Own) United Chargers Grizzl-E Smart 40A Wi-Fi Configuration Server Missing Authentication Vulnerability",
+    "updated_date": "2026-11-18",
+    "vulnerability_details": "This vulnerability allows network-adjacent attackers to modify Wi-Fi configuration on affected installations of United Chargers Grizzl-E Smart 40A EV chargers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of Wi-Fi configuration requests. The issue results from the lack of authentication prior to allowing access to functionality. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the device.",
+    "zdi_can": "ZDI-CAN-29068",
+    "zdi_id": "ZDI-26-1036"
+  },
+  "ZDI-26-1037": {
+    "additional_details": "Since 04/14/26, ZDI has made multiple attempts to contact United Chargers to establish a vendor disclosure channel for the vulnerabilities identified in the Grizzl-E Smart 40A during Pwn2Own Automotive 2026. Despite these repeated efforts, both before and after the contest, the vendor has not responded to any communication. -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-18",
+    "affected_products": [
+      "Grizzl-E Smart 40A"
+    ],
+    "affected_vendors": [
+      "United Chargers"
+    ],
+    "credit": "Cyrill Bannwart, Emanuele Barbeno, Yves Bieri, Lukasz D., Urs Mueller of Compass Security",
+    "cve": "CVE-2026-131809",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-131809",
+    "cvss": 7.6,
+    "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:H/A:L",
+    "disclosure_timeline": [
+      "2026-11-06 - Vulnerability reported to vendor",
+      "2026-11-18 - Coordinated public release of advisory",
+      "2026-11-18 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-1037 ZDI-CAN-29063 (0Day) (Pwn2Own) United Chargers Grizzl-E Smart 40A OCPP Backend Configuration Authentication Bypass Vulnerability 2026-11-18 CVE-2026-131809 https://www.cve.org/CVERecord?id=CVE-2026-131809 7.6 AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:H/A:L ['United Chargers'] ['Grizzl-E Smart 40A'] This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of United Chargers Grizzl-E Smart 40A EV chargers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of OCPP backend configuration requests. The issue results from the lack of authentication prior to allowing access to functionality. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the device. Since 04/14/26, ZDI has made multiple attempts to contact United Chargers to establish a vendor disclosure channel for the vulnerabilities identified in the Grizzl-E Smart 40A during Pwn2Own Automotive 2026. Despite these repeated efforts, both before and after the contest, the vendor has not responded to any communication. -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-11-06 - Vulnerability reported to vendor', '2026-11-18 - Coordinated public release of advisory', '2026-11-18 - Advisory Updated'] Cyrill Bannwart, Emanuele Barbeno, Yves Bieri, Lukasz D., Urs Mueller of Compass Security https://www.zerodayinitiative.com/advisories/ZDI-26-1037/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-1037/",
+    "title": "(0Day) (Pwn2Own) United Chargers Grizzl-E Smart 40A OCPP Backend Configuration Authentication Bypass Vulnerability",
+    "updated_date": "2026-11-18",
+    "vulnerability_details": "This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of United Chargers Grizzl-E Smart 40A EV chargers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of OCPP backend configuration requests. The issue results from the lack of authentication prior to allowing access to functionality. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the device.",
+    "zdi_can": "ZDI-CAN-29063",
+    "zdi_id": "ZDI-26-1037"
   },
   "ZDI-26-104": {
     "additional_details": "Fixed in version 14.2.7.",

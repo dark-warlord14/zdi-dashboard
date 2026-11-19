@@ -2,6 +2,30 @@
   {
     "cvss": 7.8,
     "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "deadline": "2027-03-18",
+    "discoverer": "Mat Powell of TrendAI Zero Day Initiative",
+    "kind": "upcoming",
+    "reported_date": "2026-11-18",
+    "status": "upcoming",
+    "vendor": "SoftMaker",
+    "vendor_url": "https://www.softmaker.com/en/contact-us",
+    "zdi_can": "ZDI-CAN-37469"
+  },
+  {
+    "cvss": 9.8,
+    "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "deadline": "2027-03-18",
+    "discoverer": "5ud0",
+    "kind": "upcoming",
+    "reported_date": "2026-11-18",
+    "status": "upcoming",
+    "vendor": "Inductive Automation",
+    "vendor_url": "https://inductiveautomation.com/",
+    "zdi_can": "ZDI-CAN-32573"
+  },
+  {
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
     "deadline": "2027-03-13",
     "discoverer": "MapleAutumn",
     "kind": "upcoming",
@@ -5700,78 +5724,6 @@
     "zdi_can": "ZDI-CAN-32165"
   },
   {
-    "cvss": 6.5,
-    "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-    "deadline": "2026-11-12",
-    "discoverer": "Mat Powell of TrendAI Zero Day Initiative",
-    "kind": "upcoming",
-    "reported_date": "2026-07-15",
-    "status": "upcoming",
-    "vendor": "Open Robotics",
-    "vendor_url": "https://www.ros.org/",
-    "zdi_can": "ZDI-CAN-32643"
-  },
-  {
-    "cvss": 6.5,
-    "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-    "deadline": "2026-11-12",
-    "discoverer": "Mat Powell of TrendAI Zero Day Initiative",
-    "kind": "upcoming",
-    "reported_date": "2026-07-15",
-    "status": "upcoming",
-    "vendor": "Open Robotics",
-    "vendor_url": "https://www.ros.org/",
-    "zdi_can": "ZDI-CAN-32646"
-  },
-  {
-    "cvss": 6.5,
-    "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-    "deadline": "2026-11-12",
-    "discoverer": "Mat Powell of TrendAI Zero Day Initiative",
-    "kind": "upcoming",
-    "reported_date": "2026-07-15",
-    "status": "upcoming",
-    "vendor": "Open Robotics",
-    "vendor_url": "https://www.ros.org/",
-    "zdi_can": "ZDI-CAN-32644"
-  },
-  {
-    "cvss": 6.5,
-    "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-    "deadline": "2026-11-12",
-    "discoverer": "Mat Powell of TrendAI Zero Day Initiative",
-    "kind": "upcoming",
-    "reported_date": "2026-07-15",
-    "status": "upcoming",
-    "vendor": "Open Robotics",
-    "vendor_url": "https://www.ros.org/",
-    "zdi_can": "ZDI-CAN-32645"
-  },
-  {
-    "cvss": 6.5,
-    "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-    "deadline": "2026-11-12",
-    "discoverer": "Mat Powell of TrendAI Zero Day Initiative",
-    "kind": "upcoming",
-    "reported_date": "2026-07-15",
-    "status": "upcoming",
-    "vendor": "Open Robotics",
-    "vendor_url": "https://www.ros.org/",
-    "zdi_can": "ZDI-CAN-32642"
-  },
-  {
-    "cvss": 8.8,
-    "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
-    "deadline": "2026-11-12",
-    "discoverer": "Mat Powell of TrendAI Zero Day Initiative",
-    "kind": "upcoming",
-    "reported_date": "2026-07-15",
-    "status": "upcoming",
-    "vendor": "Open Robotics",
-    "vendor_url": "https://www.ros.org/",
-    "zdi_can": "ZDI-CAN-32652"
-  },
-  {
     "cvss": 7.8,
     "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
     "deadline": "2026-11-12",
@@ -5806,42 +5758,6 @@
     "vendor": "LIBERO",
     "vendor_url": "https://libero-project.github.io/intro.html",
     "zdi_can": "ZDI-CAN-32163"
-  },
-  {
-    "cvss": 5.5,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
-    "deadline": "2026-11-11",
-    "discoverer": "Aaron Luo of VicOne LAB R7",
-    "kind": "upcoming",
-    "reported_date": "2026-07-14",
-    "status": "upcoming",
-    "vendor": "Open Robotics",
-    "vendor_url": "https://www.ros.org/",
-    "zdi_can": "ZDI-CAN-32121"
-  },
-  {
-    "cvss": 6.5,
-    "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-    "deadline": "2026-11-11",
-    "discoverer": "Aaron Luo of VicOne LAB R7",
-    "kind": "upcoming",
-    "reported_date": "2026-07-14",
-    "status": "upcoming",
-    "vendor": "Open Robotics",
-    "vendor_url": "https://www.ros.org/",
-    "zdi_can": "ZDI-CAN-32122"
-  },
-  {
-    "cvss": 6.5,
-    "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-    "deadline": "2026-11-11",
-    "discoverer": "Aaron Luo of VicOne LAB R7",
-    "kind": "upcoming",
-    "reported_date": "2026-07-14",
-    "status": "upcoming",
-    "vendor": "Open Robotics",
-    "vendor_url": "https://www.ros.org/",
-    "zdi_can": "ZDI-CAN-32123"
   },
   {
     "cvss": 7.8,
@@ -6454,18 +6370,6 @@
     "vendor": "Firebird",
     "vendor_url": "https://firebirdsql.org/",
     "zdi_can": "ZDI-CAN-30575"
-  },
-  {
-    "cvss": 8.8,
-    "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-    "deadline": "2026-10-15",
-    "discoverer": "David Fiser and Alfredo Oliveira of TrendAI Research",
-    "kind": "upcoming",
-    "reported_date": "2026-06-17",
-    "status": "upcoming",
-    "vendor": "LiteLLM",
-    "vendor_url": "https://www.litellm.ai/",
-    "zdi_can": "ZDI-CAN-31815"
   },
   {
     "cvss": 9.3,
@@ -7536,18 +7440,6 @@
     "zdi_can": "ZDI-CAN-30098"
   },
   {
-    "cvss": 7.3,
-    "cvss_vector": "AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-07-18",
-    "discoverer": "Anonymous",
-    "kind": "upcoming",
-    "reported_date": "2026-03-20",
-    "status": "upcoming",
-    "vendor": "G DATA",
-    "vendor_url": "https://www.gdatasoftware.com/",
-    "zdi_can": "ZDI-CAN-28666"
-  },
-  {
     "cvss": 7.2,
     "cvss_vector": "AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
     "deadline": "2026-07-18",
@@ -7582,18 +7474,6 @@
     "vendor": "Bosch Rexroth",
     "vendor_url": "https://www.boschrexroth.com/en/us/",
     "zdi_can": "ZDI-CAN-28243"
-  },
-  {
-    "cvss": 6.1,
-    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:H",
-    "deadline": "2026-07-08",
-    "discoverer": "Anonymous",
-    "kind": "upcoming",
-    "reported_date": "2026-03-10",
-    "status": "upcoming",
-    "vendor": "G DATA",
-    "vendor_url": "https://www.gdatasoftware.com/",
-    "zdi_can": "ZDI-CAN-28662"
   },
   {
     "cvss": 8.1,
@@ -7705,18 +7585,6 @@
   },
   {
     "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-    "deadline": "2026-06-12",
-    "discoverer": "Anonymous",
-    "kind": "upcoming",
-    "reported_date": "2026-02-12",
-    "status": "upcoming",
-    "vendor": "G DATA",
-    "vendor_url": "https://www.gdatasoftware.com/",
-    "zdi_can": "ZDI-CAN-28663"
-  },
-  {
-    "cvss": 7.8,
     "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
     "deadline": "2026-06-12",
     "discoverer": "Michael DePlante (@izobashi) of TrendAI Zero Day Initiative",
@@ -7726,66 +7594,6 @@
     "vendor": "DeepSpeed",
     "vendor_url": "https://www.deepspeed.ai/",
     "zdi_can": "ZDI-CAN-29214"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-06-06",
-    "discoverer": "Anonymous",
-    "kind": "upcoming",
-    "reported_date": "2026-02-06",
-    "status": "upcoming",
-    "vendor": "Krita",
-    "vendor_url": "https://krita.org/en/about/krita-foundation/",
-    "zdi_can": "ZDI-CAN-28785"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-06-06",
-    "discoverer": "Anonymous",
-    "kind": "upcoming",
-    "reported_date": "2026-02-06",
-    "status": "upcoming",
-    "vendor": "Krita",
-    "vendor_url": "https://krita.org/en/about/krita-foundation/",
-    "zdi_can": "ZDI-CAN-28752"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-06-06",
-    "discoverer": "Anonymous",
-    "kind": "upcoming",
-    "reported_date": "2026-02-06",
-    "status": "upcoming",
-    "vendor": "Krita",
-    "vendor_url": "https://krita.org/en/about/krita-foundation/",
-    "zdi_can": "ZDI-CAN-28771"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-06-06",
-    "discoverer": "Anonymous",
-    "kind": "upcoming",
-    "reported_date": "2026-02-06",
-    "status": "upcoming",
-    "vendor": "Krita",
-    "vendor_url": "https://krita.org/en/about/krita-foundation/",
-    "zdi_can": "ZDI-CAN-28905"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-06-06",
-    "discoverer": "Anonymous",
-    "kind": "upcoming",
-    "reported_date": "2026-02-06",
-    "status": "upcoming",
-    "vendor": "Krita",
-    "vendor_url": "https://krita.org/en/about/krita-foundation/",
-    "zdi_can": "ZDI-CAN-28906"
   },
   {
     "cvss": 7.8,
@@ -7922,42 +7730,6 @@
   {
     "cvss": 7.8,
     "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-04-23",
-    "discoverer": "Anonymous",
-    "kind": "upcoming",
-    "reported_date": "2025-12-24",
-    "status": "upcoming",
-    "vendor": "Krita",
-    "vendor_url": "https://krita.org/en/about/krita-foundation/",
-    "zdi_can": "ZDI-CAN-28656"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-04-23",
-    "discoverer": "Anonymous",
-    "kind": "upcoming",
-    "reported_date": "2025-12-24",
-    "status": "upcoming",
-    "vendor": "Krita",
-    "vendor_url": "https://krita.org/en/about/krita-foundation/",
-    "zdi_can": "ZDI-CAN-28657"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-04-23",
-    "discoverer": "Anonymous",
-    "kind": "upcoming",
-    "reported_date": "2025-12-24",
-    "status": "upcoming",
-    "vendor": "Krita",
-    "vendor_url": "https://krita.org/en/about/krita-foundation/",
-    "zdi_can": "ZDI-CAN-28646"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
     "deadline": "2026-04-22",
     "discoverer": "Xingyu Wang",
     "kind": "upcoming",
@@ -8038,18 +7810,6 @@
     "vendor": "Bosch Rexroth",
     "vendor_url": "https://www.boschrexroth.com/en/us/",
     "zdi_can": "ZDI-CAN-28114"
-  },
-  {
-    "cvss": 7.8,
-    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-    "deadline": "2026-04-03",
-    "discoverer": "Francis Provencher {PRL}",
-    "kind": "upcoming",
-    "reported_date": "2025-12-04",
-    "status": "upcoming",
-    "vendor": "Krita",
-    "vendor_url": "https://krita.org/en/about/krita-foundation/",
-    "zdi_can": "ZDI-CAN-28517"
   },
   {
     "cvss": 8.8,
@@ -8242,18 +8002,6 @@
     "vendor": "LiteLLM",
     "vendor_url": "https://www.litellm.ai/",
     "zdi_can": "ZDI-CAN-27169"
-  },
-  {
-    "cvss": 7.5,
-    "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
-    "deadline": "2025-10-01",
-    "discoverer": "Ho Xuan Ninh (@izx) + Tri Dang (Sea Security)",
-    "kind": "upcoming",
-    "reported_date": "2025-06-03",
-    "status": "upcoming",
-    "vendor": "NVIDIA",
-    "vendor_url": "https://www.nvidia.com/en-us/",
-    "zdi_can": "ZDI-CAN-27248"
   },
   {
     "cvss": 7.0,
