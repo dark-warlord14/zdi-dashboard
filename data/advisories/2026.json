@@ -2949,20 +2949,20 @@
       "Linux"
     ],
     "credit": "Anonymous",
-    "cve": null,
-    "cve_url": null,
+    "cve": "CVE-2026-99534",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-99534",
     "cvss": 6.3,
     "cvss_vector": "AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:N/A:N",
     "disclosure_timeline": [
       "2026-09-02 - Vulnerability reported to vendor",
       "2026-11-13 - Coordinated public release of advisory",
-      "2026-11-13 - Advisory Updated"
+      "2026-11-19 - Advisory Updated"
     ],
     "kind": "published",
-    "search_text": "published ZDI-26-1004 ZDI-CAN-32436 Linux Kernel KSMBD Request Buffer Use of Uninitialized Resource Information Disclosure Vulnerability 2026-11-13 6.3 AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:N/A:N ['Linux'] ['Kernel KSMBD'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Linux Kernel KSMBD. Authentication is not required to exploit this vulnerability. However, only systems with ksmbd enabled are vulnerable. The specific flaw exists within the ksmbd_conn_handler_loop functions. The issue results from the lack of proper initialization of memory prior to accessing it. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the kernel. Linux has issued an update to correct this vulnerability. More details can be found at: https://github.com/torvalds/linux/commit/bc0e0f5ac1d7b044d403f859406b4b66d4b1ce9b ['2026-09-02 - Vulnerability reported to vendor', '2026-11-13 - Coordinated public release of advisory', '2026-11-13 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-1004/",
+    "search_text": "published ZDI-26-1004 ZDI-CAN-32436 Linux Kernel KSMBD Request Buffer Use of Uninitialized Resource Information Disclosure Vulnerability 2026-11-13 CVE-2026-99534 https://www.cve.org/CVERecord?id=CVE-2026-99534 6.3 AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:N/A:N ['Linux'] ['Kernel KSMBD'] This vulnerability allows remote attackers to disclose sensitive information on affected installations of Linux Kernel KSMBD. Authentication is not required to exploit this vulnerability. However, only systems with ksmbd enabled are vulnerable. The specific flaw exists within the ksmbd_conn_handler_loop functions. The issue results from the lack of proper initialization of memory prior to accessing it. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the kernel. Linux has issued an update to correct this vulnerability. More details can be found at: https://github.com/torvalds/linux/commit/bc0e0f5ac1d7b044d403f859406b4b66d4b1ce9b ['2026-09-02 - Vulnerability reported to vendor', '2026-11-13 - Coordinated public release of advisory', '2026-11-19 - Advisory Updated'] Anonymous https://www.zerodayinitiative.com/advisories/ZDI-26-1004/",
     "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-1004/",
     "title": "Linux Kernel KSMBD Request Buffer Use of Uninitialized Resource Information Disclosure Vulnerability",
-    "updated_date": "2026-11-13",
+    "updated_date": "2026-11-19",
     "vulnerability_details": "This vulnerability allows remote attackers to disclose sensitive information on affected installations of Linux Kernel KSMBD. Authentication is not required to exploit this vulnerability. However, only systems with ksmbd enabled are vulnerable. The specific flaw exists within the ksmbd_conn_handler_loop functions. The issue results from the lack of proper initialization of memory prior to accessing it. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the kernel.",
     "zdi_can": "ZDI-CAN-32436",
     "zdi_id": "ZDI-26-1004"
@@ -3974,6 +3974,62 @@
     "vulnerability_details": "This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of United Chargers Grizzl-E Smart 40A EV chargers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of OCPP backend configuration requests. The issue results from the lack of authentication prior to allowing access to functionality. An attacker can leverage this in conjunction with other vulnerabilities to execute arbitrary code in the context of the device.",
     "zdi_can": "ZDI-CAN-29063",
     "zdi_id": "ZDI-26-1037"
+  },
+  "ZDI-26-1038": {
+    "additional_details": "Since 04/14/26, ZDI has made multiple attempts to contact United Chargers to establish a vendor disclosure channel for the vulnerabilities identified in the Grizzl-E Smart 40A during Pwn2Own Automotive 2026. Despite these repeated efforts, both before and after the contest, the vendor has not responded to any communication. -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product",
+    "advisory_date": "2026-11-19",
+    "affected_products": [
+      "Grizzl-E Smart 40A"
+    ],
+    "affected_vendors": [
+      "United Chargers"
+    ],
+    "credit": "Autocrypt(Hoyong Jin, Jaewoo Jeong, Chanhyeok Jung, Minsoo Son, Kisang Choi)",
+    "cve": "CVE-2026-131813",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-131813",
+    "cvss": 7.5,
+    "cvss_vector": "AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-11-06 - Vulnerability reported to vendor",
+      "2026-11-19 - Coordinated public release of advisory",
+      "2026-11-19 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-1038 ZDI-CAN-29487 (0Day) (Pwn2Own) United Chargers Grizzl-E Smart 40A OCPP UpdateFirmware Out-Of-Bounds Write Remote Code Execution Vulnerability 2026-11-19 CVE-2026-131813 https://www.cve.org/CVERecord?id=CVE-2026-131813 7.5 AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H ['United Chargers'] ['Grizzl-E Smart 40A'] This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of United Chargers Grizzl-E Smart 40A EV chargers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of OCPP UpdateFirmware requests. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute code in the context of the device. Since 04/14/26, ZDI has made multiple attempts to contact United Chargers to establish a vendor disclosure channel for the vulnerabilities identified in the Grizzl-E Smart 40A during Pwn2Own Automotive 2026. Despite these repeated efforts, both before and after the contest, the vendor has not responded to any communication. -- Mitigation: Given the nature of the vulnerability, the only salient mitigation strategy is to restrict interaction with the product ['2026-11-06 - Vulnerability reported to vendor', '2026-11-19 - Coordinated public release of advisory', '2026-11-19 - Advisory Updated'] Autocrypt(Hoyong Jin, Jaewoo Jeong, Chanhyeok Jung, Minsoo Son, Kisang Choi) https://www.zerodayinitiative.com/advisories/ZDI-26-1038/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-1038/",
+    "title": "(0Day) (Pwn2Own) United Chargers Grizzl-E Smart 40A OCPP UpdateFirmware Out-Of-Bounds Write Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-19",
+    "vulnerability_details": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of United Chargers Grizzl-E Smart 40A EV chargers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the handling of OCPP UpdateFirmware requests. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated buffer. An attacker can leverage this in conjunction with other vulnerabilities to execute code in the context of the device.",
+    "zdi_can": "ZDI-CAN-29487",
+    "zdi_id": "ZDI-26-1038"
+  },
+  "ZDI-26-1039": {
+    "additional_details": "Oracle has issued an update to correct this vulnerability. More details can be found at: https://www.oracle.com/security-alerts/cspujun2026.html",
+    "advisory_date": "2026-11-19",
+    "affected_products": [
+      "PeopleSoft"
+    ],
+    "affected_vendors": [
+      "Oracle"
+    ],
+    "credit": "Bobby Gould (@bobbygould5) of TrendAI Zero Day Initiative",
+    "cve": "CVE-2026-35273",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-35273",
+    "cvss": 9.9,
+    "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+    "disclosure_timeline": [
+      "2026-06-23 - Vulnerability reported to vendor",
+      "2026-11-19 - Coordinated public release of advisory",
+      "2026-11-19 - Advisory Updated"
+    ],
+    "kind": "published",
+    "search_text": "published ZDI-26-1039 ZDI-CAN-32013 Oracle PeopleSoft register Incorrect Authorization Remote Code Execution Vulnerability 2026-11-19 CVE-2026-35273 https://www.cve.org/CVERecord?id=CVE-2026-35273 9.9 AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H ['Oracle'] ['PeopleSoft'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Oracle PeopleSoft. Authentication is required to exploit this vulnerability. The specific flaw exists within the register method. The issue results from incorrect authorization prior to allowing access to functionality. An attacker can leverage this vulnerability to execute code in the context of the service account on any peer. Oracle has issued an update to correct this vulnerability. More details can be found at: https://www.oracle.com/security-alerts/cspujun2026.html ['2026-06-23 - Vulnerability reported to vendor', '2026-11-19 - Coordinated public release of advisory', '2026-11-19 - Advisory Updated'] Bobby Gould (@bobbygould5) of TrendAI Zero Day Initiative https://www.zerodayinitiative.com/advisories/ZDI-26-1039/",
+    "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-1039/",
+    "title": "Oracle PeopleSoft register Incorrect Authorization Remote Code Execution Vulnerability",
+    "updated_date": "2026-11-19",
+    "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Oracle PeopleSoft. Authentication is required to exploit this vulnerability. The specific flaw exists within the register method. The issue results from incorrect authorization prior to allowing access to functionality. An attacker can leverage this vulnerability to execute code in the context of the service account on any peer.",
+    "zdi_can": "ZDI-CAN-32013",
+    "zdi_id": "ZDI-26-1039"
   },
   "ZDI-26-104": {
     "additional_details": "Fixed in version 14.2.7.",
@@ -24733,20 +24789,20 @@
       "MLflow"
     ],
     "credit": "Ben Koo (@kiddo_pwn)",
-    "cve": "CVE-2024-37052",
-    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2024-37052",
+    "cve": null,
+    "cve_url": null,
     "cvss": 7.8,
     "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
     "disclosure_timeline": [
       "2026-04-15 - Vulnerability reported to vendor",
       "2026-10-29 - Coordinated public release of advisory",
-      "2026-10-29 - Advisory Updated"
+      "2026-11-19 - Advisory Updated"
     ],
     "kind": "published",
-    "search_text": "published ZDI-26-845 ZDI-CAN-30302 MLflow Statsmodels _load_model Deserialization of Untrusted Data Remote Code Execution Vulnerability 2026-10-29 CVE-2024-37052 https://www.cve.org/CVERecord?id=CVE-2024-37052 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['MLflow'] ['MLflow'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of MLflow. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the _load_model function. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current user. Fixed in MLflow 3.15.0 https://github.com/mlflow/mlflow/pull/24686 ['2026-04-15 - Vulnerability reported to vendor', '2026-10-29 - Coordinated public release of advisory', '2026-10-29 - Advisory Updated'] Ben Koo (@kiddo_pwn) https://www.zerodayinitiative.com/advisories/ZDI-26-845/",
+    "search_text": "published ZDI-26-845 ZDI-CAN-30302 MLflow Statsmodels _load_model Deserialization of Untrusted Data Remote Code Execution Vulnerability 2026-10-29 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H ['MLflow'] ['MLflow'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of MLflow. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the _load_model function. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current user. Fixed in MLflow 3.15.0 https://github.com/mlflow/mlflow/pull/24686 ['2026-04-15 - Vulnerability reported to vendor', '2026-10-29 - Coordinated public release of advisory', '2026-11-19 - Advisory Updated'] Ben Koo (@kiddo_pwn) https://www.zerodayinitiative.com/advisories/ZDI-26-845/",
     "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-845/",
     "title": "MLflow Statsmodels _load_model Deserialization of Untrusted Data Remote Code Execution Vulnerability",
-    "updated_date": "2026-10-29",
+    "updated_date": "2026-11-19",
     "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of MLflow. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the _load_model function. The issue results from the lack of proper validation of user-supplied data, which can result in deserialization of untrusted data. An attacker can leverage this vulnerability to execute code in the context of the current user.",
     "zdi_can": "ZDI-CAN-30302",
     "zdi_id": "ZDI-26-845"
@@ -29017,20 +29073,20 @@
       "Linux"
     ],
     "credit": "HYEONTAE LEE",
-    "cve": null,
-    "cve_url": null,
+    "cve": "CVE-2026-99388",
+    "cve_url": "https://www.cve.org/CVERecord?id=CVE-2026-99388",
     "cvss": 9.0,
     "cvss_vector": "AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H",
     "disclosure_timeline": [
       "2026-10-21 - Vulnerability reported to vendor",
       "2026-11-13 - Coordinated public release of advisory",
-      "2026-11-13 - Advisory Updated"
+      "2026-11-19 - Advisory Updated"
     ],
     "kind": "published",
-    "search_text": "published ZDI-26-998 ZDI-CAN-33549 Linux Kernel KSMBD SMB Direct Integer Underflow Remote Code Execution Vulnerability 2026-11-13 9.0 AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H ['Linux'] ['Kernel KSMBD'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Linux Kernel KSMBD. Authentication may or may not be required to exploit this vulnerability, depending upon configuration. Only systems with SMB Direct enabled are vulnerable. The specific flaw exists within the smbdirect_connection_rdma_xmit function. The issue results from the lack of proper validation of user-supplied data, which can result in an integer underflow before writing to memory. An attacker can leverage this vulnerability to execute code in the context of the kernel. Linux has issued an update to correct this vulnerability. More details can be found at: https://github.com/torvalds/linux/commit/7193241a49c958782ba4b8df06da3734d1e317d2 ['2026-10-21 - Vulnerability reported to vendor', '2026-11-13 - Coordinated public release of advisory', '2026-11-13 - Advisory Updated'] HYEONTAE LEE https://www.zerodayinitiative.com/advisories/ZDI-26-998/",
+    "search_text": "published ZDI-26-998 ZDI-CAN-33549 Linux Kernel KSMBD SMB Direct Integer Underflow Remote Code Execution Vulnerability 2026-11-13 CVE-2026-99388 https://www.cve.org/CVERecord?id=CVE-2026-99388 9.0 AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H ['Linux'] ['Kernel KSMBD'] This vulnerability allows remote attackers to execute arbitrary code on affected installations of Linux Kernel KSMBD. Authentication may or may not be required to exploit this vulnerability, depending upon configuration. Only systems with SMB Direct enabled are vulnerable. The specific flaw exists within the smbdirect_connection_rdma_xmit function. The issue results from the lack of proper validation of user-supplied data, which can result in an integer underflow before writing to memory. An attacker can leverage this vulnerability to execute code in the context of the kernel. Linux has issued an update to correct this vulnerability. More details can be found at: https://github.com/torvalds/linux/commit/7193241a49c958782ba4b8df06da3734d1e317d2 ['2026-10-21 - Vulnerability reported to vendor', '2026-11-13 - Coordinated public release of advisory', '2026-11-19 - Advisory Updated'] HYEONTAE LEE https://www.zerodayinitiative.com/advisories/ZDI-26-998/",
     "source_url": "https://www.zerodayinitiative.com/advisories/ZDI-26-998/",
     "title": "Linux Kernel KSMBD SMB Direct Integer Underflow Remote Code Execution Vulnerability",
-    "updated_date": "2026-11-13",
+    "updated_date": "2026-11-19",
     "vulnerability_details": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Linux Kernel KSMBD. Authentication may or may not be required to exploit this vulnerability, depending upon configuration. Only systems with SMB Direct enabled are vulnerable. The specific flaw exists within the smbdirect_connection_rdma_xmit function. The issue results from the lack of proper validation of user-supplied data, which can result in an integer underflow before writing to memory. An attacker can leverage this vulnerability to execute code in the context of the kernel.",
     "zdi_can": "ZDI-CAN-33549",
     "zdi_id": "ZDI-26-998"
