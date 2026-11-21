@@ -1,16 +1,16 @@
 {
   "by_cvss_band": {
-    "critical": 2420,
-    "high": 9735,
-    "low": 1519,
-    "medium": 4160,
+    "critical": 2418,
+    "high": 9750,
+    "low": 1520,
+    "medium": 4159,
     "unknown": 337
   },
   "by_vendor": {
     "Adobe": 2070,
     "Advantech": 734,
     "Apple": 824,
-    "Autodesk": 530,
+    "Autodesk": 531,
     "Bentley": 208,
     "Cisco": 322,
     "D-Link": 261,
@@ -26,7 +26,7 @@
     "Microsoft": 1985,
     "Novell": 130,
     "Oracle": 528,
-    "PDF-XChange": 282,
+    "PDF-XChange": 283,
     "SAP": 226,
     "Schneider Electric": 162,
     "Siemens": 398,
@@ -58,12 +58,12 @@
     "2026": 1040
   },
   "cve_coverage": 15718,
-  "high_cvss": 12155,
+  "high_cvss": 12168,
   "total_published": 17447,
-  "total_upcoming": 724,
+  "total_upcoming": 737,
   "upcoming_deadline_state": {
-    "due_soon": 78,
-    "future": 407,
-    "past_due": 239
+    "due_soon": 69,
+    "future": 423,
+    "past_due": 245
   }
 }

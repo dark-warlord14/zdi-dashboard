@@ -1,5 +1,197 @@
 [
   {
+    "cvss": 8.8,
+    "cvss_vector": "AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "deadline": "2027-03-20",
+    "discoverer": "Connor Kastner (ret2c)",
+    "kind": "upcoming",
+    "reported_date": "2026-11-20",
+    "status": "upcoming",
+    "vendor": "VMware",
+    "vendor_url": "https://www.vmware.com",
+    "zdi_can": "ZDI-CAN-34721"
+  },
+  {
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "deadline": "2027-03-20",
+    "discoverer": "ub1cu0",
+    "kind": "upcoming",
+    "reported_date": "2026-11-20",
+    "status": "upcoming",
+    "vendor": "Autodesk",
+    "vendor_url": "https://www.autodesk.com/",
+    "zdi_can": "ZDI-CAN-34275"
+  },
+  {
+    "cvss": 8.8,
+    "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "deadline": "2027-03-20",
+    "discoverer": "Anonymous",
+    "kind": "upcoming",
+    "reported_date": "2026-11-20",
+    "status": "upcoming",
+    "vendor": "Quest",
+    "vendor_url": null,
+    "zdi_can": "ZDI-CAN-33763"
+  },
+  {
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "deadline": "2027-03-20",
+    "discoverer": "anfu",
+    "kind": "upcoming",
+    "reported_date": "2026-11-20",
+    "status": "upcoming",
+    "vendor": "Trimble",
+    "vendor_url": "https://www.sketchup.com/",
+    "zdi_can": "ZDI-CAN-36318"
+  },
+  {
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "deadline": "2027-03-20",
+    "discoverer": "anfu",
+    "kind": "upcoming",
+    "reported_date": "2026-11-20",
+    "status": "upcoming",
+    "vendor": "Trimble",
+    "vendor_url": "https://www.sketchup.com/",
+    "zdi_can": "ZDI-CAN-36437"
+  },
+  {
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "deadline": "2027-03-20",
+    "discoverer": "anfu",
+    "kind": "upcoming",
+    "reported_date": "2026-11-20",
+    "status": "upcoming",
+    "vendor": "Trimble",
+    "vendor_url": "https://www.sketchup.com/",
+    "zdi_can": "ZDI-CAN-34810"
+  },
+  {
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "deadline": "2027-03-20",
+    "discoverer": "anfu",
+    "kind": "upcoming",
+    "reported_date": "2026-11-20",
+    "status": "upcoming",
+    "vendor": "Trimble",
+    "vendor_url": "https://www.sketchup.com/",
+    "zdi_can": "ZDI-CAN-36319"
+  },
+  {
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "deadline": "2027-03-20",
+    "discoverer": "anfu",
+    "kind": "upcoming",
+    "reported_date": "2026-11-20",
+    "status": "upcoming",
+    "vendor": "Trimble",
+    "vendor_url": "https://www.sketchup.com/",
+    "zdi_can": "ZDI-CAN-35674"
+  },
+  {
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "deadline": "2027-03-20",
+    "discoverer": "anfu",
+    "kind": "upcoming",
+    "reported_date": "2026-11-20",
+    "status": "upcoming",
+    "vendor": "Trimble",
+    "vendor_url": "https://www.sketchup.com/",
+    "zdi_can": "ZDI-CAN-35559"
+  },
+  {
+    "cvss": 8.8,
+    "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "deadline": "2027-03-20",
+    "discoverer": "Anonymous",
+    "kind": "upcoming",
+    "reported_date": "2026-11-20",
+    "status": "upcoming",
+    "vendor": "Quest",
+    "vendor_url": null,
+    "zdi_can": "ZDI-CAN-33766"
+  },
+  {
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "deadline": "2027-03-20",
+    "discoverer": "YJK(@YJK0805) of ZUSO ART",
+    "kind": "upcoming",
+    "reported_date": "2026-11-20",
+    "status": "upcoming",
+    "vendor": "NoMachine",
+    "vendor_url": "https://www.nomachine.com/",
+    "zdi_can": "ZDI-CAN-34387"
+  },
+  {
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "deadline": "2027-03-20",
+    "discoverer": "Ben Koo (@kiddo_pwn)",
+    "kind": "upcoming",
+    "reported_date": "2026-11-20",
+    "status": "upcoming",
+    "vendor": "Meta",
+    "vendor_url": "https://www.meta.com/",
+    "zdi_can": "ZDI-CAN-36853"
+  },
+  {
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "deadline": "2027-03-20",
+    "discoverer": "Valentino Paulon",
+    "kind": "upcoming",
+    "reported_date": "2026-11-20",
+    "status": "upcoming",
+    "vendor": "Wazuh",
+    "vendor_url": "https://wazuh.com/",
+    "zdi_can": "ZDI-CAN-33170"
+  },
+  {
+    "cvss": 3.3,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+    "deadline": "2027-03-20",
+    "discoverer": "Anonymous",
+    "kind": "upcoming",
+    "reported_date": "2026-11-20",
+    "status": "upcoming",
+    "vendor": "PDF-XChange",
+    "vendor_url": "https://www.tracker-software.com/",
+    "zdi_can": "ZDI-CAN-36992"
+  },
+  {
+    "cvss": 6.0,
+    "cvss_vector": "AV:L/AC:L/PR:H/UI:N/S:C/C:N/I:N/A:H",
+    "deadline": "2027-03-20",
+    "discoverer": "Bien Pham (@bienpnn) from Qrious Secure",
+    "kind": "upcoming",
+    "reported_date": "2026-11-20",
+    "status": "upcoming",
+    "vendor": "VMware",
+    "vendor_url": "https://www.vmware.com",
+    "zdi_can": "ZDI-CAN-36646"
+  },
+  {
+    "cvss": 8.8,
+    "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "deadline": "2027-03-20",
+    "discoverer": "Anonymous",
+    "kind": "upcoming",
+    "reported_date": "2026-11-20",
+    "status": "upcoming",
+    "vendor": "Quest",
+    "vendor_url": null,
+    "zdi_can": "ZDI-CAN-33764"
+  },
+  {
     "cvss": 5.3,
     "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
     "deadline": "2027-03-19",
@@ -934,6 +1126,18 @@
     "vendor": "Linux",
     "vendor_url": "https://www.linux.org/",
     "zdi_can": "ZDI-CAN-33478"
+  },
+  {
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "deadline": "2027-03-13",
+    "discoverer": "rgod",
+    "kind": "upcoming",
+    "reported_date": "2026-11-13",
+    "status": "upcoming",
+    "vendor": "SoftMaker",
+    "vendor_url": "https://www.softmaker.com/en/contact-us",
+    "zdi_can": "ZDI-CAN-34961"
   },
   {
     "cvss": 7.8,
@@ -3046,18 +3250,6 @@
     "vendor": "Netdata",
     "vendor_url": "https://www.netdata.cloud/",
     "zdi_can": "ZDI-CAN-35179"
-  },
-  {
-    "cvss": 5.5,
-    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
-    "deadline": "2027-02-18",
-    "discoverer": "Anonymous",
-    "kind": "upcoming",
-    "reported_date": "2026-10-21",
-    "status": "upcoming",
-    "vendor": "X.Org",
-    "vendor_url": "https://www.x.org/",
-    "zdi_can": "ZDI-CAN-33757"
   },
   {
     "cvss": 3.3,
@@ -6204,18 +6396,6 @@
     "zdi_can": "ZDI-CAN-32106"
   },
   {
-    "cvss": 5.9,
-    "cvss_vector": "AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
-    "deadline": "2026-11-07",
-    "discoverer": "Minh Giang (@itscysamu) of TrendAI Zero Day Initiative and Taha Siddiqi (@_atomiz_) of TrendAI Research",
-    "kind": "upcoming",
-    "reported_date": "2026-07-10",
-    "status": "upcoming",
-    "vendor": "deepset",
-    "vendor_url": "https://www.deepset.ai/",
-    "zdi_can": "ZDI-CAN-32609"
-  },
-  {
     "cvss": 9.3,
     "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:L/A:N",
     "deadline": "2026-11-07",
@@ -6250,18 +6430,6 @@
     "vendor": "Senstar",
     "vendor_url": null,
     "zdi_can": "ZDI-CAN-32581"
-  },
-  {
-    "cvss": 9.3,
-    "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:L/A:N",
-    "deadline": "2026-11-07",
-    "discoverer": "Taha Siddiqi (@_atomiz_) of TrendAI Research",
-    "kind": "upcoming",
-    "reported_date": "2026-07-10",
-    "status": "upcoming",
-    "vendor": "deepset",
-    "vendor_url": "https://www.deepset.ai/",
-    "zdi_can": "ZDI-CAN-32560"
   },
   {
     "cvss": 7.8,
@@ -6346,18 +6514,6 @@
     "vendor": "LibreOffice",
     "vendor_url": "https://www.libreoffice.org/about-us/security/",
     "zdi_can": "ZDI-CAN-31151"
-  },
-  {
-    "cvss": 9.8,
-    "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
-    "deadline": "2026-10-31",
-    "discoverer": "Nicholas Zubrisky (@NZubrisky) of TrendAI Zero Day Initiative",
-    "kind": "upcoming",
-    "reported_date": "2026-07-03",
-    "status": "upcoming",
-    "vendor": "Langflow",
-    "vendor_url": "https://www.langflow.org/",
-    "zdi_can": "ZDI-CAN-30625"
   },
   {
     "cvss": 3.3,
