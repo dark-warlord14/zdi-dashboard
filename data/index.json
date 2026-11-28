@@ -316206,6 +316206,110 @@
     "zdi_id": "ZDI-05-001"
   },
   {
+    "cvss": 8.8,
+    "cvss_vector": "AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+    "deadline": "2027-03-27",
+    "discoverer": "tsune of GMO Cybersecurity by IERAE, inc.",
+    "id": "ZDI-CAN-35324",
+    "kind": "upcoming",
+    "reported_date": "2026-11-27",
+    "status": "upcoming",
+    "vendor": "FreeBSD",
+    "vendor_url": "https://www.freebsd.org/",
+    "zdi_can": "ZDI-CAN-35324"
+  },
+  {
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+    "deadline": "2027-03-27",
+    "discoverer": "tsune of GMO Cybersecurity by IERAE, inc.",
+    "id": "ZDI-CAN-35961",
+    "kind": "upcoming",
+    "reported_date": "2026-11-27",
+    "status": "upcoming",
+    "vendor": "FreeBSD",
+    "vendor_url": "https://www.freebsd.org/",
+    "zdi_can": "ZDI-CAN-35961"
+  },
+  {
+    "cvss": 4.4,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L",
+    "deadline": "2027-03-25",
+    "discoverer": "Nicholas Zubrisky (@NZubrisky) of TrendAI Zero Day Initiative",
+    "id": "ZDI-CAN-37904",
+    "kind": "upcoming",
+    "reported_date": "2026-11-25",
+    "status": "upcoming",
+    "vendor": "VMware",
+    "vendor_url": "https://www.vmware.com",
+    "zdi_can": "ZDI-CAN-37904"
+  },
+  {
+    "cvss": 9.6,
+    "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+    "deadline": "2027-03-25",
+    "discoverer": "Ankur Saini (@kernelm0de)",
+    "id": "ZDI-CAN-36536",
+    "kind": "upcoming",
+    "reported_date": "2026-11-25",
+    "status": "upcoming",
+    "vendor": "VMware",
+    "vendor_url": "https://www.vmware.com",
+    "zdi_can": "ZDI-CAN-36536"
+  },
+  {
+    "cvss": 7.8,
+    "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "deadline": "2027-03-25",
+    "discoverer": "anfu",
+    "id": "ZDI-CAN-35565",
+    "kind": "upcoming",
+    "reported_date": "2026-11-25",
+    "status": "upcoming",
+    "vendor": "Trimble",
+    "vendor_url": "https://www.sketchup.com/",
+    "zdi_can": "ZDI-CAN-35565"
+  },
+  {
+    "cvss": 7.5,
+    "cvss_vector": "AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H",
+    "deadline": "2027-03-25",
+    "discoverer": "Ankur Saini (@kernelm0de)",
+    "id": "ZDI-CAN-36554",
+    "kind": "upcoming",
+    "reported_date": "2026-11-25",
+    "status": "upcoming",
+    "vendor": "VMware",
+    "vendor_url": "https://www.vmware.com",
+    "zdi_can": "ZDI-CAN-36554"
+  },
+  {
+    "cvss": 7.5,
+    "cvss_vector": "AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H",
+    "deadline": "2027-03-25",
+    "discoverer": "Ankur Saini (@kernelm0de)",
+    "id": "ZDI-CAN-36562",
+    "kind": "upcoming",
+    "reported_date": "2026-11-25",
+    "status": "upcoming",
+    "vendor": "VMware",
+    "vendor_url": "https://www.vmware.com",
+    "zdi_can": "ZDI-CAN-36562"
+  },
+  {
+    "cvss": 9.6,
+    "cvss_vector": "AV:A/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+    "deadline": "2027-03-25",
+    "discoverer": "Ankur Saini (@kernelm0de)",
+    "id": "ZDI-CAN-36532",
+    "kind": "upcoming",
+    "reported_date": "2026-11-25",
+    "status": "upcoming",
+    "vendor": "VMware",
+    "vendor_url": "https://www.vmware.com",
+    "zdi_can": "ZDI-CAN-36532"
+  },
+  {
     "cvss": 7.8,
     "cvss_vector": "AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
     "deadline": "2027-03-24",
@@ -321861,19 +321965,6 @@
     "zdi_can": "ZDI-CAN-32569"
   },
   {
-    "cvss": 8.1,
-    "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
-    "deadline": "2026-12-05",
-    "discoverer": "Taha Siddiqi (@_atomiz_) of TrendAI Research",
-    "id": "ZDI-CAN-33065",
-    "kind": "upcoming",
-    "reported_date": "2026-08-07",
-    "status": "upcoming",
-    "vendor": "LangGenius",
-    "vendor_url": "https://dify.ai/",
-    "zdi_can": "ZDI-CAN-33065"
-  },
-  {
     "cvss": 4.7,
     "cvss_vector": "AV:N/AC:H/PR:N/UI:R/S:C/C:L/I:L/A:N",
     "deadline": "2026-12-05",
@@ -322098,19 +322189,6 @@
     "cvss": 6.5,
     "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
     "deadline": "2026-11-29",
-    "discoverer": "Taha Siddiqi (@_atomiz_) of TrendAI Research",
-    "id": "ZDI-CAN-33064",
-    "kind": "upcoming",
-    "reported_date": "2026-08-01",
-    "status": "upcoming",
-    "vendor": "LangGenius",
-    "vendor_url": "https://dify.ai/",
-    "zdi_can": "ZDI-CAN-33064"
-  },
-  {
-    "cvss": 6.5,
-    "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
-    "deadline": "2026-11-29",
     "discoverer": "Xander Mackenzie | thetrueartist | @thetrueartist.co.uk",
     "id": "ZDI-CAN-32290",
     "kind": "upcoming",
@@ -322147,19 +322225,6 @@
     "zdi_can": "ZDI-CAN-33062"
   },
   {
-    "cvss": 7.1,
-    "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:N",
-    "deadline": "2026-11-26",
-    "discoverer": "Taha Siddiqi (@_atomiz_) of TrendAI Research",
-    "id": "ZDI-CAN-33060",
-    "kind": "upcoming",
-    "reported_date": "2026-07-29",
-    "status": "upcoming",
-    "vendor": "LangGenius",
-    "vendor_url": "https://dify.ai/",
-    "zdi_can": "ZDI-CAN-33060"
-  },
-  {
     "cvss": 5.9,
     "cvss_vector": "AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
     "deadline": "2026-11-26",
@@ -322171,19 +322236,6 @@
     "vendor": "LlamaIndex",
     "vendor_url": "https://www.llamaindex.ai/",
     "zdi_can": "ZDI-CAN-33069"
-  },
-  {
-    "cvss": 9.8,
-    "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
-    "deadline": "2026-11-26",
-    "discoverer": "Taha Siddiqi (@_atomiz_) of TrendAI Research",
-    "id": "ZDI-CAN-32813",
-    "kind": "upcoming",
-    "reported_date": "2026-07-29",
-    "status": "upcoming",
-    "vendor": "LangChain",
-    "vendor_url": "https://www.langchain.com/",
-    "zdi_can": "ZDI-CAN-32813"
   },
   {
     "cvss": 6.1,
@@ -322223,19 +322275,6 @@
     "vendor": "Trend Micro",
     "vendor_url": "https://www.trendmicro.com",
     "zdi_can": "ZDI-CAN-31531"
-  },
-  {
-    "cvss": 7.5,
-    "cvss_vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
-    "deadline": "2026-11-21",
-    "discoverer": "Taha Siddiqi (@_atomiz_) of TrendAI Research",
-    "id": "ZDI-CAN-32814",
-    "kind": "upcoming",
-    "reported_date": "2026-07-24",
-    "status": "upcoming",
-    "vendor": "LangChain",
-    "vendor_url": "https://www.langchain.com/",
-    "zdi_can": "ZDI-CAN-32814"
   },
   {
     "cvss": 7.8,
@@ -322886,19 +322925,6 @@
     "vendor": "RAGFlow",
     "vendor_url": "https://ragflow.io/",
     "zdi_can": "ZDI-CAN-32110"
-  },
-  {
-    "cvss": 6.3,
-    "cvss_vector": "AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
-    "deadline": "2026-10-24",
-    "discoverer": "Taha Siddiqi (@_atomiz_) of TrendAI Research",
-    "id": "ZDI-CAN-32112",
-    "kind": "upcoming",
-    "reported_date": "2026-06-26",
-    "status": "upcoming",
-    "vendor": "RAGFlow",
-    "vendor_url": "https://ragflow.io/",
-    "zdi_can": "ZDI-CAN-32112"
   },
   {
     "cvss": 7.3,
